@@ -12,18 +12,13 @@ VALUES (11836,   1,        128) /* ItemType - Misc */
      , (11836,  15,          0) /* StackUnitValue */
      , (11836,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11836,  19,          0) /* Value */
-     , (11836,  65,        101) /* Placement - Resting */
      , (11836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11836,  94,        128) /* TargetType - Misc */
-     , (11836, 151,          2) /* HookType - Wall */;
+     , (11836, 151,          2) /* HookType - Wall */
+     , (11836, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11836,   1, False) /* Stuck */
-     , (11836,  11, True ) /* IgnoreCollisions */
-     , (11836,  13, True ) /* Ethereal */
-     , (11836,  14, True ) /* GravityStatus */
-     , (11836,  19, True ) /* Attackable */
-     , (11836,  22, True ) /* Inscribable */;
+VALUES (11836,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11836,   1, 'Banner Haft') /* Name */

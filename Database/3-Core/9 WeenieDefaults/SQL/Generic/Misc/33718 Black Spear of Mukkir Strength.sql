@@ -13,12 +13,7 @@ VALUES (33718,   1,        128) /* ItemType - Misc */
      , (33718, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33718,   1, False) /* Stuck */
-     , (33718,  11, True ) /* IgnoreCollisions */
-     , (33718,  13, True ) /* Ethereal */
-     , (33718,  14, True ) /* GravityStatus */
-     , (33718,  19, True ) /* Attackable */
-     , (33718,  22, True ) /* Inscribable */;
+VALUES (33718,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33718,   1, 'Black Spear of Mukkir Strength') /* Name */

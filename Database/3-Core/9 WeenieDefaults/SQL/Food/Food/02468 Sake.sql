@@ -12,17 +12,10 @@ VALUES (2468,   1,         32) /* ItemType - Food */
      , (2468,  15,         15) /* StackUnitValue */
      , (2468,  16,          8) /* ItemUseable - Contained */
      , (2468,  19,         15) /* Value */
-     , (2468,  65,        101) /* Placement - Resting */
      , (2468,  89,          4) /* BoosterEnum - Stamina */
      , (2468,  90,          8) /* BoostValue */
-     , (2468,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2468,   1, False) /* Stuck */
-     , (2468,  11, True ) /* IgnoreCollisions */
-     , (2468,  13, True ) /* Ethereal */
-     , (2468,  14, True ) /* GravityStatus */
-     , (2468,  19, True ) /* Attackable */;
+     , (2468,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (2468, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2468,   1, 'Sake') /* Name */

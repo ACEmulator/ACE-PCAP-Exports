@@ -13,19 +13,13 @@ VALUES (24228,   1,      65536) /* ItemType - Portal */
      , (24228, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24228,   1, True ) /* Stuck */
-     , (24228,  12, True ) /* ReportCollisions */
-     , (24228,  13, True ) /* Ethereal */
-     , (24228,  14, True ) /* GravityStatus */
-     , (24228,  15, True ) /* LightsStatus */
-     , (24228,  19, True ) /* Attackable */;
+VALUES (24228,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24228,  54, -0.100000001490116) /* UseRadius */;
+VALUES (24228,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24228,   1, 'Deeper Catacombs') /* Name */
-     , (24228,  38, 'Deeper Catacombs') /* AppraisalPortalDestination */
      , (24228, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

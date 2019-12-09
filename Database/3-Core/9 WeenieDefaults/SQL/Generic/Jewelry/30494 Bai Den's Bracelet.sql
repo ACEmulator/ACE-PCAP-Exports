@@ -10,17 +10,12 @@ VALUES (30494,   1,          8) /* ItemType - Jewelry */
      , (30494,  16,          1) /* ItemUseable - No */
      , (30494,  19,          0) /* Value */
      , (30494,  33,          1) /* Bonded - Bonded */
-     , (30494,  65,        101) /* Placement - Resting */
      , (30494,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30494, 114,          1) /* Attuned - Attuned */;
+     , (30494, 114,          1) /* Attuned - Attuned */
+     , (30494, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30494,   1, False) /* Stuck */
-     , (30494,  11, True ) /* IgnoreCollisions */
-     , (30494,  13, True ) /* Ethereal */
-     , (30494,  14, True ) /* GravityStatus */
-     , (30494,  19, True ) /* Attackable */
-     , (30494,  22, True ) /* Inscribable */;
+VALUES (30494,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30494,   1, 'Bai Den''s Bracelet') /* Name */

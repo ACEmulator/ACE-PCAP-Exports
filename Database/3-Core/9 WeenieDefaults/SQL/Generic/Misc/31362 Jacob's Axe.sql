@@ -9,17 +9,12 @@ VALUES (31362,   1,        128) /* ItemType - Misc */
      , (31362,  16,          1) /* ItemUseable - No */
      , (31362,  19,          0) /* Value */
      , (31362,  33,          1) /* Bonded - Bonded */
-     , (31362,  65,        101) /* Placement - Resting */
      , (31362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31362, 114,          1) /* Attuned - Attuned */;
+     , (31362, 114,          1) /* Attuned - Attuned */
+     , (31362, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31362,   1, False) /* Stuck */
-     , (31362,  11, True ) /* IgnoreCollisions */
-     , (31362,  13, True ) /* Ethereal */
-     , (31362,  14, True ) /* GravityStatus */
-     , (31362,  19, True ) /* Attackable */
-     , (31362,  22, True ) /* Inscribable */;
+VALUES (31362,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31362,   1, 'Jacob''s Axe') /* Name */

@@ -13,20 +13,14 @@ VALUES (33302,   1,      65536) /* ItemType - Portal */
      , (33302, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33302,   1, True ) /* Stuck */
-     , (33302,  12, True ) /* ReportCollisions */
-     , (33302,  13, True ) /* Ethereal */
-     , (33302,  14, True ) /* GravityStatus */
-     , (33302,  15, True ) /* LightsStatus */
-     , (33302,  19, True ) /* Attackable */;
+VALUES (33302,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33302,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33302,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33302,   1, 'Vault of Eternal Slumber') /* Name */
      , (33302,  16, 'This portal is warded against those who have not earned the right to access the sacred Vault of Eternal Slumber.') /* LongDesc */
-     , (33302,  38, 'Vault of Eternal Slumber') /* AppraisalPortalDestination */
      , (33302, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

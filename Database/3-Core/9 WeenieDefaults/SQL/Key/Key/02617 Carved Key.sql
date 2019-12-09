@@ -8,19 +8,14 @@ VALUES (2617,   1,      16384) /* ItemType - Key */
      , (2617,   5,         50) /* EncumbranceVal */
      , (2617,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (2617,  19,         20) /* Value */
-     , (2617,  65,        101) /* Placement - Resting */
      , (2617,  91,          3) /* MaxStructure */
      , (2617,  92,          3) /* Structure */
      , (2617,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2617,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (2617,  94,        640) /* TargetType - LockableMagicTarget */
+     , (2617, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2617,   1, False) /* Stuck */
-     , (2617,  11, True ) /* IgnoreCollisions */
-     , (2617,  13, True ) /* Ethereal */
-     , (2617,  14, True ) /* GravityStatus */
-     , (2617,  19, True ) /* Attackable */
-     , (2617,  22, True ) /* Inscribable */;
+VALUES (2617,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2617,   1, 'Carved Key') /* Name */

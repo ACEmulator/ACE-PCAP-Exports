@@ -11,16 +11,9 @@ VALUES (9376,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9376,  15,       2500) /* StackUnitValue */
      , (9376,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9376,  19,       2500) /* Value */
-     , (9376,  65,        101) /* Placement - Resting */
      , (9376,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9376,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9376,   1, False) /* Stuck */
-     , (9376,  11, True ) /* IgnoreCollisions */
-     , (9376,  13, True ) /* Ethereal */
-     , (9376,  14, True ) /* GravityStatus */
-     , (9376,  19, True ) /* Attackable */;
+     , (9376,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (9376, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9376,   1, 'Wrapped Bundle of Greater Frost Arrowheads') /* Name */

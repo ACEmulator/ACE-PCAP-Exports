@@ -14,19 +14,13 @@ VALUES (8221,   1,      65536) /* ItemType - Portal */
      , (8221, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8221,   1, True ) /* Stuck */
-     , (8221,  12, True ) /* ReportCollisions */
-     , (8221,  13, True ) /* Ethereal */
-     , (8221,  14, True ) /* GravityStatus */
-     , (8221,  15, True ) /* LightsStatus */
-     , (8221,  19, True ) /* Attackable */;
+VALUES (8221,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8221,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8221,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8221,   1, 'Xarabydun Lifestone Portal') /* Name */
-     , (8221,  38, 'Xarabydun Lifestone Portal') /* AppraisalPortalDestination */
      , (8221, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

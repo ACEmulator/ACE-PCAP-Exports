@@ -12,18 +12,13 @@ VALUES (5200,   1,      65536) /* ItemType - Portal */
      , (5200, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5200,   1, True ) /* Stuck */
-     , (5200,  12, True ) /* ReportCollisions */
-     , (5200,  13, True ) /* Ethereal */
-     , (5200,  15, True ) /* LightsStatus */
-     , (5200,  19, True ) /* Attackable */;
+VALUES (5200,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5200,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5200,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5200,   1, 'Under-Cove Crypt') /* Name */
-     , (5200,  38, 'Under-Cove Crypt') /* AppraisalPortalDestination */
      , (5200, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

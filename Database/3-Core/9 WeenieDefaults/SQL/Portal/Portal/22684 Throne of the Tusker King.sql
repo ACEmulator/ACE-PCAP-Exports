@@ -13,19 +13,13 @@ VALUES (22684,   1,      65536) /* ItemType - Portal */
      , (22684, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22684,   1, True ) /* Stuck */
-     , (22684,  12, True ) /* ReportCollisions */
-     , (22684,  13, True ) /* Ethereal */
-     , (22684,  14, True ) /* GravityStatus */
-     , (22684,  15, True ) /* LightsStatus */
-     , (22684,  19, True ) /* Attackable */;
+VALUES (22684,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22684,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22684,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22684,   1, 'Throne of the Tusker King') /* Name */
-     , (22684,  38, 'Throne of the Tusker King') /* AppraisalPortalDestination */
      , (22684, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

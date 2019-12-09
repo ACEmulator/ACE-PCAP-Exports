@@ -8,7 +8,7 @@ VALUES (36650,   1,         16) /* ItemType - Creature */
      , (36650,   6,        255) /* ItemsCapacity */
      , (36650,   7,        255) /* ContainersCapacity */
      , (36650,  16,          1) /* ItemUseable - No */
-     , (36650,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
+     , (36650,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36650, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (36650, 307,          0) /* DamageRating */
      , (36650, 308,          0) /* DamageResistRating */
@@ -37,11 +37,7 @@ VALUES (36650,   1,         16) /* ItemType - Creature */
      , (36650, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36650,   1, True ) /* Stuck */
-     , (36650,  12, True ) /* ReportCollisions */
-     , (36650,  13, False) /* Ethereal */
-     , (36650,  14, True ) /* GravityStatus */
-     , (36650,  19, True ) /* Attackable */;
+VALUES (36650,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36650,   1, 'Wall') /* Name */

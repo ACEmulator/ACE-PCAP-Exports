@@ -15,11 +15,7 @@ VALUES (43413,   1,         16) /* ItemType - Creature */
      , (43413, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43413,   1, True ) /* Stuck */
-     , (43413,  12, True ) /* ReportCollisions */
-     , (43413,  13, False) /* Ethereal */
-     , (43413,  14, True ) /* GravityStatus */
-     , (43413,  19, True ) /* Attackable */;
+VALUES (43413,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43413,   1, 'Voltaic Golem') /* Name */

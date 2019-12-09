@@ -9,17 +9,12 @@ VALUES (41816,   1,        128) /* ItemType - Misc */
      , (41816,  16,          1) /* ItemUseable - No */
      , (41816,  19,          5) /* Value */
      , (41816,  33,          1) /* Bonded - Bonded */
-     , (41816,  65,        101) /* Placement - Resting */
      , (41816,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41816, 114,          1) /* Attuned - Attuned */;
+     , (41816, 114,          1) /* Attuned - Attuned */
+     , (41816, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41816,   1, False) /* Stuck */
-     , (41816,  11, True ) /* IgnoreCollisions */
-     , (41816,  13, True ) /* Ethereal */
-     , (41816,  14, True ) /* GravityStatus */
-     , (41816,  19, True ) /* Attackable */
-     , (41816,  22, True ) /* Inscribable */;
+VALUES (41816,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41816,   1, 'Phyntos Queen''s Abdomen') /* Name */;

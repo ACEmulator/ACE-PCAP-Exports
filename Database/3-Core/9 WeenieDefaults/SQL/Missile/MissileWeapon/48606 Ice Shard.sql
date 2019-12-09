@@ -18,14 +18,6 @@ VALUES (48606,   1,        256) /* ItemType - MissileWeapon */
      , (48606,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48606, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48606,   1, False) /* Stuck */
-     , (48606,  11, True ) /* IgnoreCollisions */
-     , (48606,  13, True ) /* Ethereal */
-     , (48606,  14, True ) /* GravityStatus */
-     , (48606,  17, True ) /* Inelastic */
-     , (48606,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48606,  78,       1) /* Friction */
      , (48606,  79,       0) /* Elasticity */;

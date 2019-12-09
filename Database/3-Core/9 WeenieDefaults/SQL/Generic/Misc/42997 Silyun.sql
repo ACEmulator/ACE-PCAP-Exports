@@ -11,11 +11,7 @@ VALUES (42997,   1,        128) /* ItemType - Misc */
      , (42997,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42997,   1, True ) /* Stuck */
-     , (42997,  11, True ) /* IgnoreCollisions */
-     , (42997,  12, True ) /* ReportCollisions */
-     , (42997,  13, True ) /* Ethereal */
-     , (42997,  19, True ) /* Attackable */;
+VALUES (42997,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42997,   1, 'Silyun') /* Name */

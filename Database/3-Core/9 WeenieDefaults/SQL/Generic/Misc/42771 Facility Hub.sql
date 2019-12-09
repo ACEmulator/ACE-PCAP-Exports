@@ -11,11 +11,7 @@ VALUES (42771,   1,        128) /* ItemType - Misc */
      , (42771,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42771,   1, True ) /* Stuck */
-     , (42771,  11, True ) /* IgnoreCollisions */
-     , (42771,  12, True ) /* ReportCollisions */
-     , (42771,  13, True ) /* Ethereal */
-     , (42771,  19, True ) /* Attackable */;
+VALUES (42771,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42771,   1, 'Facility Hub') /* Name */

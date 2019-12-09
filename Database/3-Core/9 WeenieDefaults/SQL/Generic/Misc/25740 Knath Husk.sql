@@ -11,12 +11,7 @@ VALUES (25740,   1,        128) /* ItemType - Misc */
      , (25740, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25740,   1, False) /* Stuck */
-     , (25740,  11, True ) /* IgnoreCollisions */
-     , (25740,  13, True ) /* Ethereal */
-     , (25740,  14, True ) /* GravityStatus */
-     , (25740,  19, True ) /* Attackable */
-     , (25740,  22, True ) /* Inscribable */;
+VALUES (25740,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25740,  39,     0.5) /* DefaultScale */;

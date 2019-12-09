@@ -15,15 +15,10 @@ VALUES (15867,   1,          2) /* ItemType - Armor */
      , (15867, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15867,   1, False) /* Stuck */
-     , (15867,  11, True ) /* IgnoreCollisions */
-     , (15867,  13, True ) /* Ethereal */
-     , (15867,  14, True ) /* GravityStatus */
-     , (15867,  19, True ) /* Attackable */
-     , (15867,  22, True ) /* Inscribable */;
+VALUES (15867,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15867,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (15867,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15867,   1, 'Bronze Large Kite Shield') /* Name */;

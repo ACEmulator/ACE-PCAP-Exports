@@ -11,12 +11,7 @@ VALUES (19178,   1,        128) /* ItemType - Misc */
      , (19178,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19178,   1, True ) /* Stuck */
-     , (19178,  11, True ) /* IgnoreCollisions */
-     , (19178,  12, True ) /* ReportCollisions */
-     , (19178,  13, False) /* Ethereal */
-     , (19178,  14, True ) /* GravityStatus */
-     , (19178,  19, True ) /* Attackable */;
+VALUES (19178,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19178,   1, 'Jeweled Thorn Estates') /* Name */

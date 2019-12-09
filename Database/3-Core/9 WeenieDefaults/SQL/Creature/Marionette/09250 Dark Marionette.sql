@@ -15,11 +15,7 @@ VALUES (9250,   1,         16) /* ItemType - Creature */
      , (9250, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9250,   1, True ) /* Stuck */
-     , (9250,  12, True ) /* ReportCollisions */
-     , (9250,  13, False) /* Ethereal */
-     , (9250,  14, True ) /* GravityStatus */
-     , (9250,  19, True ) /* Attackable */;
+VALUES (9250,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9250,   1, 'Dark Marionette') /* Name */

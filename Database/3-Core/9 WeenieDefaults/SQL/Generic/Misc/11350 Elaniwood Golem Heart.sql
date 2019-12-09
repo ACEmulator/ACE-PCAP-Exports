@@ -8,19 +8,14 @@ VALUES (11350,   1,        128) /* ItemType - Misc */
      , (11350,   5,        100) /* EncumbranceVal */
      , (11350,  16,          1) /* ItemUseable - No */
      , (11350,  19,        200) /* Value */
-     , (11350,  65,        101) /* Placement - Resting */
-     , (11350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11350, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11350,   1, False) /* Stuck */
-     , (11350,  11, True ) /* IgnoreCollisions */
-     , (11350,  13, True ) /* Ethereal */
-     , (11350,  14, True ) /* GravityStatus */
-     , (11350,  19, True ) /* Attackable */
-     , (11350,  22, True ) /* Inscribable */;
+VALUES (11350,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11350,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (11350,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11350,   1, 'Elaniwood Golem Heart') /* Name */;

@@ -10,17 +10,12 @@ VALUES (31378,   1,       2048) /* ItemType - Gem */
      , (31378,  16,          1) /* ItemUseable - No */
      , (31378,  19,          0) /* Value */
      , (31378,  33,          1) /* Bonded - Bonded */
-     , (31378,  65,        101) /* Placement - Resting */
      , (31378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31378, 114,          1) /* Attuned - Attuned */;
+     , (31378, 114,          1) /* Attuned - Attuned */
+     , (31378, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31378,   1, False) /* Stuck */
-     , (31378,  11, True ) /* IgnoreCollisions */
-     , (31378,  13, True ) /* Ethereal */
-     , (31378,  14, True ) /* GravityStatus */
-     , (31378,  19, True ) /* Attackable */
-     , (31378,  22, True ) /* Inscribable */;
+VALUES (31378,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31378,   1, 'Raven Fragment') /* Name */

@@ -8,19 +8,14 @@ VALUES (41192,   1,      16384) /* ItemType - Key */
      , (41192,   5,         20) /* EncumbranceVal */
      , (41192,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (41192,  19,          0) /* Value */
-     , (41192,  65,        101) /* Placement - Resting */
      , (41192,  91,          1) /* MaxStructure */
      , (41192,  92,          1) /* Structure */
      , (41192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41192,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (41192,  94,        640) /* TargetType - LockableMagicTarget */
+     , (41192, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41192,   1, False) /* Stuck */
-     , (41192,  11, True ) /* IgnoreCollisions */
-     , (41192,  13, True ) /* Ethereal */
-     , (41192,  14, True ) /* GravityStatus */
-     , (41192,  19, True ) /* Attackable */
-     , (41192,  22, True ) /* Inscribable */;
+VALUES (41192,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41192,   1, 'Apostate Excavation Laboratory Key') /* Name */

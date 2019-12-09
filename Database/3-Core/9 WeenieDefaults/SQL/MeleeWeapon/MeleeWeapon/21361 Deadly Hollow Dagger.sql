@@ -18,7 +18,6 @@ VALUES (21361,   1,          1) /* ItemType - MeleeWeapon */
      , (21361,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (21361,  49,         20) /* WeaponTime */
      , (21361,  51,          1) /* CombatUse - Melee */
-     , (21361,  65,          1) /* Placement - RightHandCombat */
      , (21361,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21361, 114,          0) /* Attuned - Normal */
      , (21361, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (21361,   1,          1) /* ItemType - MeleeWeapon */
      , (21361, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (21361, 160,        250) /* WieldDifficulty */
      , (21361, 353,          6) /* WeaponType - Dagger */
-     , (21361, 8030,          0);
+     , (21361, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21361, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21361,   1, False) /* Stuck */
-     , (21361,  11, True ) /* IgnoreCollisions */
-     , (21361,  13, True ) /* Ethereal */
-     , (21361,  14, True ) /* GravityStatus */
-     , (21361,  15, True ) /* LightsStatus */
-     , (21361,  19, True ) /* Attackable */
-     , (21361,  22, True ) /* Inscribable */
+VALUES (21361,  22, True ) /* Inscribable */
      , (21361,  69, False) /* IsSellable */
      , (21361,  85, True ) /* AppraisalHasAllowedWielder */
      , (21361,  99, True ) /* Ivoryable */;
@@ -47,7 +41,7 @@ VALUES (21361,  21,       0) /* WeaponLength */
      , (21361,  29,       1) /* WeaponDefense */
      , (21361,  62,     1.1) /* WeaponOffense */
      , (21361,  63,       1) /* DamageMod */
-     , (21361,  76, 0.699999988079071) /* Translucency */;
+     , (21361,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21361,   1, 'Deadly Hollow Dagger') /* Name */

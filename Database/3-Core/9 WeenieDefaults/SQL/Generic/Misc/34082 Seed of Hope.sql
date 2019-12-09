@@ -12,12 +12,7 @@ VALUES (34082,   1,        128) /* ItemType - Misc */
      , (34082,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34082,   1, False) /* Stuck */
-     , (34082,  11, True ) /* IgnoreCollisions */
-     , (34082,  13, True ) /* Ethereal */
-     , (34082,  14, True ) /* GravityStatus */
-     , (34082,  19, True ) /* Attackable */
-     , (34082,  22, True ) /* Inscribable */;
+VALUES (34082,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34082,   1, 'Seed of Hope') /* Name */

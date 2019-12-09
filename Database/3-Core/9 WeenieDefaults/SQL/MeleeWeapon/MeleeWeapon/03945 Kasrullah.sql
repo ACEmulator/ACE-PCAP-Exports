@@ -11,16 +11,11 @@ VALUES (3945,   1,          1) /* ItemType - MeleeWeapon */
      , (3945,  16,          1) /* ItemUseable - No */
      , (3945,  19,        170) /* Value */
      , (3945,  51,          1) /* CombatUse - Melee */
-     , (3945,  65,          1) /* Placement - RightHandCombat */
-     , (3945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (3945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3945, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3945,   1, False) /* Stuck */
-     , (3945,  11, True ) /* IgnoreCollisions */
-     , (3945,  13, True ) /* Ethereal */
-     , (3945,  14, True ) /* GravityStatus */
-     , (3945,  19, True ) /* Attackable */
-     , (3945,  22, True ) /* Inscribable */;
+VALUES (3945,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3945,   1, 'Kasrullah') /* Name */;

@@ -12,18 +12,13 @@ VALUES (29131,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29131,  15,         30) /* StackUnitValue */
      , (29131,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29131,  19,         30) /* Value */
-     , (29131,  65,        101) /* Placement - Resting */
      , (29131,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29131,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (29131, 151,          2) /* HookType - Wall */;
+     , (29131, 151,          2) /* HookType - Wall */
+     , (29131, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29131,   1, False) /* Stuck */
-     , (29131,  11, True ) /* IgnoreCollisions */
-     , (29131,  13, True ) /* Ethereal */
-     , (29131,  14, True ) /* GravityStatus */
-     , (29131,  19, True ) /* Attackable */
-     , (29131,  69, False) /* IsSellable */;
+VALUES (29131,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29131,   1, 'Vibrant Green Hops') /* Name */

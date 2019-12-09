@@ -7,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38369,   1,      65536) /* ItemType - Portal */
      , (38369,  16,         32) /* ItemUseable - Remote */
      , (38369,  86,        180) /* MinLevel */
-     , (38369,  93,      66572) /* PhysicsState - Ethereal, ReportCollisions, Gravity, HasPhysicsBSP */
+     , (38369,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (38369,  98, 1484898018) /* CreationTimestamp */
      , (38369, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (38369, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -15,18 +15,13 @@ VALUES (38369,   1,      65536) /* ItemType - Portal */
      , (38369, 268,        166) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38369,   1, True ) /* Stuck */
-     , (38369,  12, True ) /* ReportCollisions */
-     , (38369,  13, True ) /* Ethereal */
-     , (38369,  14, True ) /* GravityStatus */
-     , (38369,  19, True ) /* Attackable */;
+VALUES (38369,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38369,  54, -0.100000001490116) /* UseRadius */;
+VALUES (38369,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38369,   1, 'Temple Door') /* Name */
-     , (38369,  38, 'Temple Door') /* AppraisalPortalDestination */;
+VALUES (38369,   1, 'Temple Door') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38369,   1,   33560143) /* Setup */

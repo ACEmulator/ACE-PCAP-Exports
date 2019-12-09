@@ -15,14 +15,10 @@ VALUES (46653,   1,         16) /* ItemType - Creature */
      , (46653, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46653,   1, True ) /* Stuck */
-     , (46653,  12, True ) /* ReportCollisions */
-     , (46653,  13, False) /* Ethereal */
-     , (46653,  14, True ) /* GravityStatus */
-     , (46653,  19, True ) /* Attackable */;
+VALUES (46653,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46653,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (46653,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46653,   1, 'Iron Golem Samurai') /* Name */

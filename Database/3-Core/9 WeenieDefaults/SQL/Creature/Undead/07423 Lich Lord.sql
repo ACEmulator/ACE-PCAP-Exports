@@ -16,12 +16,7 @@ VALUES (7423,   1,         16) /* ItemType - Creature */
      , (7423, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7423,   1, True ) /* Stuck */
-     , (7423,  12, True ) /* ReportCollisions */
-     , (7423,  13, False) /* Ethereal */
-     , (7423,  14, True ) /* GravityStatus */
-     , (7423,  19, True ) /* Attackable */
-     , (7423,  42, True ) /* AllowEdgeSlide */;
+VALUES (7423,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7423,   1, 'Lich Lord') /* Name */

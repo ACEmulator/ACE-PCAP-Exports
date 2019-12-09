@@ -17,11 +17,7 @@ VALUES (25961,   1,         16) /* ItemType - Creature */
      , (25961, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25961,   1, True ) /* Stuck */
-     , (25961,  12, True ) /* ReportCollisions */
-     , (25961,  13, False) /* Ethereal */
-     , (25961,  14, True ) /* GravityStatus */
-     , (25961,  19, True ) /* Attackable */;
+VALUES (25961,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25961,   1, 'Crazed Zharalim') /* Name */

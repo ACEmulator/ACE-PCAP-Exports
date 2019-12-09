@@ -8,20 +8,16 @@ VALUES (8376,   1,       8192) /* ItemType - Writable */
      , (8376,   5,        460) /* EncumbranceVal */
      , (8376,  16,          8) /* ItemUseable - Contained */
      , (8376,  19,         90) /* Value */
-     , (8376,  65,        101) /* Placement - Resting */
      , (8376,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8376, 174,          2) /* AppraisalPages */
-     , (8376, 175,          2) /* AppraisalMaxPages */;
+     , (8376, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8376, 8042,          2) /* PCAPRecordedAppraisalPages */
+     , (8376, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8376,   1, True ) /* Stuck */
-     , (8376,  11, True ) /* IgnoreCollisions */
-     , (8376,  13, True ) /* Ethereal */
-     , (8376,  14, True ) /* GravityStatus */
-     , (8376,  19, True ) /* Attackable */;
+VALUES (8376,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8376,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8376,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8376,   1, 'A Stained Book') /* Name */

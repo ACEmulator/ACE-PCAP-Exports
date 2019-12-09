@@ -12,18 +12,11 @@ VALUES (767,   1,       4096) /* ItemType - SpellComponents */
      , (767,  15,         10) /* StackUnitValue */
      , (767,  16,          1) /* ItemUseable - No */
      , (767,  19,         10) /* Value */
-     , (767,  65,        101) /* Placement - Resting */
-     , (767,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (767,   1, False) /* Stuck */
-     , (767,  11, True ) /* IgnoreCollisions */
-     , (767,  13, True ) /* Ethereal */
-     , (767,  14, True ) /* GravityStatus */
-     , (767,  19, True ) /* Attackable */;
+     , (767,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (767, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (767,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (767,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (767,   1, 'Comfrey') /* Name */

@@ -8,21 +8,14 @@ VALUES (38226,   1,       8192) /* ItemType - Writable */
      , (38226,   5,        160) /* EncumbranceVal */
      , (38226,  16,          8) /* ItemUseable - Contained */
      , (38226,  19,          0) /* Value */
-     , (38226,  65,        101) /* Placement - Resting */
      , (38226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38226, 174,          4) /* AppraisalPages */
-     , (38226, 175,          4) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38226,   1, False) /* Stuck */
-     , (38226,  11, True ) /* IgnoreCollisions */
-     , (38226,  13, True ) /* Ethereal */
-     , (38226,  14, True ) /* GravityStatus */
-     , (38226,  19, True ) /* Attackable */;
+     , (38226, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (38226, 8042,          4) /* PCAPRecordedAppraisalPages */
+     , (38226, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38226,  39, 1.22000002861023) /* DefaultScale */
-     , (38226,  54, 0.300000011920929) /* UseRadius */;
+VALUES (38226,  39,    1.22) /* DefaultScale */
+     , (38226,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38226,   1, 'A Field Guide to Tainted Nodes') /* Name */

@@ -13,21 +13,16 @@ VALUES (44966,   1,        128) /* ItemType - Misc */
      , (44966,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44966,  19,          0) /* Value */
      , (44966,  33,          1) /* Bonded - Bonded */
-     , (44966,  65,        101) /* Placement - Resting */
      , (44966,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44966,  94,        128) /* TargetType - Misc */
      , (44966,  98, 1485832998) /* CreationTimestamp */
      , (44966, 114,          1) /* Attuned - Attuned */
      , (44966, 267,        900) /* Lifespan */
-     , (44966, 268,        900) /* RemainingLifespan */;
+     , (44966, 268,        900) /* RemainingLifespan */
+     , (44966, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44966,   1, False) /* Stuck */
-     , (44966,  11, True ) /* IgnoreCollisions */
-     , (44966,  13, True ) /* Ethereal */
-     , (44966,  14, True ) /* GravityStatus */
-     , (44966,  19, True ) /* Attackable */
-     , (44966,  22, True ) /* Inscribable */;
+VALUES (44966,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44966,   1, 'Volatile Gem of Lowering Strength') /* Name */

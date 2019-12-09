@@ -15,11 +15,7 @@ VALUES (11487,   1,         16) /* ItemType - Creature */
      , (11487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11487,   1, True ) /* Stuck */
-     , (11487,  12, True ) /* ReportCollisions */
-     , (11487,  13, False) /* Ethereal */
-     , (11487,  14, True ) /* GravityStatus */
-     , (11487,  19, True ) /* Attackable */;
+VALUES (11487,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11487,   1, 'Littoral Siraluun') /* Name */

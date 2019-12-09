@@ -13,12 +13,7 @@ VALUES (25350,   1,        128) /* ItemType - Misc */
      , (25350, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25350,   1, False) /* Stuck */
-     , (25350,  11, True ) /* IgnoreCollisions */
-     , (25350,  13, True ) /* Ethereal */
-     , (25350,  14, True ) /* GravityStatus */
-     , (25350,  19, True ) /* Attackable */
-     , (25350,  22, True ) /* Inscribable */;
+VALUES (25350,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25350,   1, 'Living Tome') /* Name */

@@ -14,19 +14,13 @@ VALUES (32818,   1,      65536) /* ItemType - Portal */
      , (32818, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32818,   1, True ) /* Stuck */
-     , (32818,  12, True ) /* ReportCollisions */
-     , (32818,  13, True ) /* Ethereal */
-     , (32818,  14, True ) /* GravityStatus */
-     , (32818,  15, True ) /* LightsStatus */
-     , (32818,  19, True ) /* Attackable */;
+VALUES (32818,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32818,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32818,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32818,   1, 'Ruschk Burial Mound') /* Name */
-     , (32818,  38, 'Ruschk Burial Mound') /* AppraisalPortalDestination */
      , (32818, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

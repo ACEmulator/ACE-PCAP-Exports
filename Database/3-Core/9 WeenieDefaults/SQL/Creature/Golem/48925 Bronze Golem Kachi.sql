@@ -15,14 +15,10 @@ VALUES (48925,   1,         16) /* ItemType - Creature */
      , (48925, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48925,   1, True ) /* Stuck */
-     , (48925,  12, True ) /* ReportCollisions */
-     , (48925,  13, False) /* Ethereal */
-     , (48925,  14, True ) /* GravityStatus */
-     , (48925,  19, True ) /* Attackable */;
+VALUES (48925,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48925,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (48925,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48925,   1, 'Bronze Golem Kachi') /* Name */

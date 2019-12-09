@@ -11,20 +11,15 @@ VALUES (35972,   1,        128) /* ItemType - Misc */
      , (35972,  13,         40) /* StackUnitEncumbrance */
      , (35972,  15,          0) /* StackUnitValue */
      , (35972,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (35972,  65,        101) /* Placement - Resting */
      , (35972,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35972,  94,        128) /* TargetType - Misc */;
+     , (35972,  94,        128) /* TargetType - Misc */
+     , (35972, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35972,   1, False) /* Stuck */
-     , (35972,  11, True ) /* IgnoreCollisions */
-     , (35972,  13, True ) /* Ethereal */
-     , (35972,  14, True ) /* GravityStatus */
-     , (35972,  19, True ) /* Attackable */
-     , (35972,  22, True ) /* Inscribable */;
+VALUES (35972,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35972,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35972,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35972,   1, 'Single Spine Grievver Spike Oil') /* Name */;

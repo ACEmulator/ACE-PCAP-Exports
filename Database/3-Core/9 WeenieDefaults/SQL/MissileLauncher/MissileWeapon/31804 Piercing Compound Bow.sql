@@ -29,22 +29,17 @@ VALUES (31804,   1,        256) /* ItemType - MissileWeapon */
      , (31804, 179,         16) /* ImbuedEffect - PierceRending */
      , (31804, 204,         18) /* ElementalDamageBonus */
      , (31804, 353,          8) /* WeaponType - Bow */
-     , (31804, 8030,          0);
+     , (31804, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31804,   1, False) /* Stuck */
-     , (31804,  11, True ) /* IgnoreCollisions */
-     , (31804,  13, True ) /* Ethereal */
-     , (31804,  14, True ) /* GravityStatus */
-     , (31804,  19, True ) /* Attackable */
-     , (31804,  22, True ) /* Inscribable */;
+VALUES (31804,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31804,  21,       0) /* WeaponLength */
      , (31804,  22,       0) /* DamageVariance */
      , (31804,  26,    27.3) /* MaximumVelocity */
      , (31804,  29,    1.17) /* WeaponDefense */
-     , (31804,  39, 1.10000002384186) /* DefaultScale */
+     , (31804,  39,     1.1) /* DefaultScale */
      , (31804,  62,       1) /* WeaponOffense */
      , (31804,  63,    2.76) /* DamageMod */
      , (31804, 8004,       7) /* PCAPRecordedWorkmanship */;

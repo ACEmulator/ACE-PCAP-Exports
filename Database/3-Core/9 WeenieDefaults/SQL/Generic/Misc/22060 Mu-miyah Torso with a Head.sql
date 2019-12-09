@@ -12,15 +12,10 @@ VALUES (22060,   1,        128) /* ItemType - Misc */
      , (22060, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22060,   1, False) /* Stuck */
-     , (22060,  11, True ) /* IgnoreCollisions */
-     , (22060,  13, True ) /* Ethereal */
-     , (22060,  14, True ) /* GravityStatus */
-     , (22060,  19, True ) /* Attackable */
-     , (22060,  22, True ) /* Inscribable */;
+VALUES (22060,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22060,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22060,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22060,   1, 'Mu-miyah Torso with a Head') /* Name */

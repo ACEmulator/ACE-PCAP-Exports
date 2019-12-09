@@ -12,16 +12,9 @@ VALUES (37363,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (37363,  15,      30000) /* StackUnitValue */
      , (37363,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37363,  19,      30000) /* Value */
-     , (37363,  65,        101) /* Placement - Resting */
      , (37363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37363,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37363,   1, False) /* Stuck */
-     , (37363,  11, True ) /* IgnoreCollisions */
-     , (37363,  13, True ) /* Ethereal */
-     , (37363,  14, True ) /* GravityStatus */
-     , (37363,  19, True ) /* Attackable */;
+     , (37363,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
+     , (37363, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37363,   1, 'Quill of Infliction') /* Name */

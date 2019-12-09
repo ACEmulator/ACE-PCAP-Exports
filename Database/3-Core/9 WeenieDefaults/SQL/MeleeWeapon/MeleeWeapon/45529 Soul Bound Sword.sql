@@ -18,7 +18,6 @@ VALUES (45529,   1,          1) /* ItemType - MeleeWeapon */
      , (45529,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (45529,  49,          0) /* WeaponTime */
      , (45529,  51,          1) /* CombatUse - Melee */
-     , (45529,  65,          1) /* Placement - RightHandCombat */
      , (45529,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45529, 106,        475) /* ItemSpellcraft */
      , (45529, 107,       2634) /* ItemCurMana */
@@ -30,16 +29,11 @@ VALUES (45529,   1,          1) /* ItemType - MeleeWeapon */
      , (45529, 160,        400) /* WieldDifficulty */
      , (45529, 166,         77) /* SlayerCreatureType - Ghost */
      , (45529, 353,          2) /* WeaponType - Sword */
-     , (45529, 8030,          0);
+     , (45529, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (45529, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45529,   1, False) /* Stuck */
-     , (45529,  11, True ) /* IgnoreCollisions */
-     , (45529,  13, True ) /* Ethereal */
-     , (45529,  14, True ) /* GravityStatus */
-     , (45529,  15, True ) /* LightsStatus */
-     , (45529,  19, True ) /* Attackable */
-     , (45529,  22, True ) /* Inscribable */
+VALUES (45529,  22, True ) /* Inscribable */
      , (45529,  69, False) /* IsSellable */
      , (45529,  99, True ) /* Ivoryable */;
 
@@ -48,10 +42,10 @@ VALUES (45529,   5,   -0.05) /* ManaRate */
      , (45529,  21,       0) /* WeaponLength */
      , (45529,  22,     0.2) /* DamageVariance */
      , (45529,  26,       0) /* MaximumVelocity */
-     , (45529,  29, 1.32000000178814) /* WeaponDefense */
-     , (45529,  62, 1.40000000298023) /* WeaponOffense */
+     , (45529,  29,    1.32) /* WeaponDefense */
+     , (45529,  62,     1.4) /* WeaponOffense */
      , (45529,  63,       1) /* DamageMod */
-     , (45529,  76, 0.699999988079071) /* Translucency */
+     , (45529,  76,     0.7) /* Translucency */
      , (45529, 136,       1) /* CriticalMultiplier */
      , (45529, 155,       1) /* IgnoreArmor */;
 

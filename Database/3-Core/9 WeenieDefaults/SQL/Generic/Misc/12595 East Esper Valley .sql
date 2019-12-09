@@ -11,12 +11,7 @@ VALUES (12595,   1,        128) /* ItemType - Misc */
      , (12595,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12595,   1, True ) /* Stuck */
-     , (12595,  11, True ) /* IgnoreCollisions */
-     , (12595,  12, True ) /* ReportCollisions */
-     , (12595,  13, False) /* Ethereal */
-     , (12595,  14, True ) /* GravityStatus */
-     , (12595,  19, True ) /* Attackable */;
+VALUES (12595,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12595,   1, 'East Esper Valley ') /* Name */

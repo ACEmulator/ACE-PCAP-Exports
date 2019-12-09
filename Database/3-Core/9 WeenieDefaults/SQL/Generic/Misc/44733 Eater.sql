@@ -11,15 +11,8 @@ VALUES (44733,   1,        128) /* ItemType - Misc */
      , (44733,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44733, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44733,   1, False) /* Stuck */
-     , (44733,  11, True ) /* IgnoreCollisions */
-     , (44733,  12, True ) /* ReportCollisions */
-     , (44733,  13, True ) /* Ethereal */
-     , (44733,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44733,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44733,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44733,   1, 'Eater') /* Name */

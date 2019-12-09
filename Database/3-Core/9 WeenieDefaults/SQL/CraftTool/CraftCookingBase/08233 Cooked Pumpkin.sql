@@ -12,17 +12,12 @@ VALUES (8233,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8233,  15,         15) /* StackUnitValue */
      , (8233,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8233,  19,         15) /* Value */
-     , (8233,  65,        101) /* Placement - Resting */
      , (8233,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8233,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
+     , (8233,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (8233, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8233,   1, False) /* Stuck */
-     , (8233,  11, True ) /* IgnoreCollisions */
-     , (8233,  13, True ) /* Ethereal */
-     , (8233,  14, True ) /* GravityStatus */
-     , (8233,  19, True ) /* Attackable */
-     , (8233,  69, False) /* IsSellable */;
+VALUES (8233,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8233,   1, 'Cooked Pumpkin') /* Name */

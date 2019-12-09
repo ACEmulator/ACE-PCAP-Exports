@@ -13,19 +13,13 @@ VALUES (5764,   1,      65536) /* ItemType - Portal */
      , (5764, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5764,   1, True ) /* Stuck */
-     , (5764,  12, True ) /* ReportCollisions */
-     , (5764,  13, True ) /* Ethereal */
-     , (5764,  14, True ) /* GravityStatus */
-     , (5764,  15, True ) /* LightsStatus */
-     , (5764,  19, True ) /* Attackable */;
+VALUES (5764,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5764,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5764,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5764,   1, 'Stonehold Valley Portal') /* Name */
-     , (5764,  38, 'Stonehold Valley Portal (66.5N, 26.7W).') /* AppraisalPortalDestination */
      , (5764, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

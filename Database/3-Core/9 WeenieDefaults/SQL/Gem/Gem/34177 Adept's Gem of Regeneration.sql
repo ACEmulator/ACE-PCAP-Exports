@@ -12,16 +12,9 @@ VALUES (34177,   1,       2048) /* ItemType - Gem */
      , (34177,  15,          0) /* StackUnitValue */
      , (34177,  16,          8) /* ItemUseable - Contained */
      , (34177,  18,          1) /* UiEffects - Magical */
-     , (34177,  65,        101) /* Placement - Resting */
      , (34177,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34177,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34177,   1, False) /* Stuck */
-     , (34177,  11, True ) /* IgnoreCollisions */
-     , (34177,  13, True ) /* Ethereal */
-     , (34177,  14, True ) /* GravityStatus */
-     , (34177,  19, True ) /* Attackable */;
+     , (34177,  94,         16) /* TargetType - Creature */
+     , (34177, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34177,   1, 'Adept''s Gem of Regeneration') /* Name */

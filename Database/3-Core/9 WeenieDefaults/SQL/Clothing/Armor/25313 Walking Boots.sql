@@ -13,7 +13,6 @@ VALUES (25313,   1,          2) /* ItemType - Armor */
      , (25313,  19,      13370) /* Value */
      , (25313,  28,        450) /* ArmorLevel */
      , (25313,  33,          1) /* Bonded - Bonded */
-     , (25313,  65,        101) /* Placement - Resting */
      , (25313,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25313, 106,        325) /* ItemSpellcraft */
      , (25313, 107,        310) /* ItemCurMana */
@@ -23,19 +22,15 @@ VALUES (25313,   1,          2) /* ItemType - Armor */
      , (25313, 158,          7) /* WieldRequirements - Level */
      , (25313, 159,          1) /* WieldSkillType - Axe */
      , (25313, 160,         50) /* WieldDifficulty */
-     , (25313, 176,         24) /* AppraisalItemSkill */;
+     , (25313, 176,         24) /* AppraisalItemSkill */
+     , (25313, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25313,   1, False) /* Stuck */
-     , (25313,  11, True ) /* IgnoreCollisions */
-     , (25313,  13, True ) /* Ethereal */
-     , (25313,  14, True ) /* GravityStatus */
-     , (25313,  19, True ) /* Attackable */
-     , (25313,  22, True ) /* Inscribable */
+VALUES (25313,  22, True ) /* Inscribable */
      , (25313, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25313,   5, -0.0500000007450581) /* ManaRate */
+VALUES (25313,   5,   -0.05) /* ManaRate */
      , (25313,  13,     1.5) /* ArmorModVsSlash */
      , (25313,  14,     1.5) /* ArmorModVsPierce */
      , (25313,  15,     1.5) /* ArmorModVsBludgeon */

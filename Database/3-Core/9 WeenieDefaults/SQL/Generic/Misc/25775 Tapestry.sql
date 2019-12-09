@@ -8,17 +8,12 @@ VALUES (25775,   1,        128) /* ItemType - Misc */
      , (25775,   5,       1000) /* EncumbranceVal */
      , (25775,  16,          1) /* ItemUseable - No */
      , (25775,  19,       7000) /* Value */
-     , (25775,  65,        101) /* Placement - Resting */
      , (25775,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25775, 151,          2) /* HookType - Wall */;
+     , (25775, 151,          2) /* HookType - Wall */
+     , (25775, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25775,   1, False) /* Stuck */
-     , (25775,  11, True ) /* IgnoreCollisions */
-     , (25775,  13, True ) /* Ethereal */
-     , (25775,  14, True ) /* GravityStatus */
-     , (25775,  19, True ) /* Attackable */
-     , (25775,  22, True ) /* Inscribable */;
+VALUES (25775,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25775,   1, 'Tapestry') /* Name */

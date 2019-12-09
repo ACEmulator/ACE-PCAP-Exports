@@ -15,14 +15,10 @@ VALUES (41228,   1,         16) /* ItemType - Creature */
      , (41228, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41228,   1, True ) /* Stuck */
-     , (41228,  12, True ) /* ReportCollisions */
-     , (41228,  13, False) /* Ethereal */
-     , (41228,  14, True ) /* GravityStatus */
-     , (41228,  19, True ) /* Attackable */;
+VALUES (41228,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41228,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (41228,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41228,   1, 'Iron Blade Arrival Guard') /* Name */

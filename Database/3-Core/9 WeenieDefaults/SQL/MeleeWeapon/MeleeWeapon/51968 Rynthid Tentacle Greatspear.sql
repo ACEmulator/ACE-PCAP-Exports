@@ -28,24 +28,19 @@ VALUES (51968,   1,          1) /* ItemType - MeleeWeapon */
      , (51968, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (51968, 160,        420) /* WieldDifficulty */
      , (51968, 166,         19) /* SlayerCreatureType - Virindi */
-     , (51968, 8030,          0);
+     , (51968, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51968,   1, False) /* Stuck */
-     , (51968,  11, True ) /* IgnoreCollisions */
-     , (51968,  13, True ) /* Ethereal */
-     , (51968,  14, True ) /* GravityStatus */
-     , (51968,  19, True ) /* Attackable */
-     , (51968,  22, True ) /* Inscribable */
+VALUES (51968,  22, True ) /* Inscribable */
      , (51968,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51968,   5,  -0.033) /* ManaRate */
+VALUES (51968,   5,   -0.03) /* ManaRate */
      , (51968,  21,       0) /* WeaponLength */
      , (51968,  22,     0.4) /* DamageVariance */
      , (51968,  26,       0) /* MaximumVelocity */
      , (51968,  29,    1.15) /* WeaponDefense */
-     , (51968,  39, 1.20000004768372) /* DefaultScale */
+     , (51968,  39,     1.2) /* DefaultScale */
      , (51968,  62,    1.25) /* WeaponOffense */
      , (51968,  63,       1) /* DamageMod */
      , (51968, 136,       1) /* CriticalMultiplier */

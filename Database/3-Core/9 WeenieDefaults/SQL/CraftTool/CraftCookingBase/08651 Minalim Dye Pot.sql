@@ -12,18 +12,13 @@ VALUES (8651,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8651,  15,        100) /* StackUnitValue */
      , (8651,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8651,  19,        100) /* Value */
-     , (8651,  65,        101) /* Placement - Resting */
      , (8651,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8651,  94,        134) /* TargetType - Vestements, Misc */
-     , (8651, 151,          9) /* HookType - Floor, Yard */;
+     , (8651, 151,          9) /* HookType - Floor, Yard */
+     , (8651, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8651,   1, False) /* Stuck */
-     , (8651,  11, True ) /* IgnoreCollisions */
-     , (8651,  13, True ) /* Ethereal */
-     , (8651,  14, True ) /* GravityStatus */
-     , (8651,  19, True ) /* Attackable */
-     , (8651,  69, False) /* IsSellable */;
+VALUES (8651,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8651,   1, 'Minalim Dye Pot') /* Name */

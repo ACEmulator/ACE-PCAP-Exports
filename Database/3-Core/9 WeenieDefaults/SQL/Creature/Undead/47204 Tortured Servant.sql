@@ -15,14 +15,10 @@ VALUES (47204,   1,         16) /* ItemType - Creature */
      , (47204, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47204,   1, True ) /* Stuck */
-     , (47204,  12, True ) /* ReportCollisions */
-     , (47204,  13, False) /* Ethereal */
-     , (47204,  14, True ) /* GravityStatus */
-     , (47204,  19, True ) /* Attackable */;
+VALUES (47204,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47204,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (47204,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47204,   1, 'Tortured Servant') /* Name */

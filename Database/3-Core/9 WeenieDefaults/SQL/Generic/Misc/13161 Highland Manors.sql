@@ -11,12 +11,7 @@ VALUES (13161,   1,        128) /* ItemType - Misc */
      , (13161,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13161,   1, True ) /* Stuck */
-     , (13161,  11, True ) /* IgnoreCollisions */
-     , (13161,  12, True ) /* ReportCollisions */
-     , (13161,  13, False) /* Ethereal */
-     , (13161,  14, True ) /* GravityStatus */
-     , (13161,  19, True ) /* Attackable */;
+VALUES (13161,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13161,   1, 'Highland Manors') /* Name */

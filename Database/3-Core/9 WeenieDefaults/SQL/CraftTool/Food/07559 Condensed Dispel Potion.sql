@@ -13,22 +13,17 @@ VALUES (7559,   1,         32) /* ItemType - Food */
      , (7559,  16,          8) /* ItemUseable - Contained */
      , (7559,  18,          1) /* UiEffects - Magical */
      , (7559,  19,        150) /* Value */
-     , (7559,  65,        101) /* Placement - Resting */
      , (7559,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7559,  94,         16) /* TargetType - Creature */
      , (7559, 106,         50) /* ItemSpellcraft */
      , (7559, 107,         50) /* ItemCurMana */
      , (7559, 108,         50) /* ItemMaxMana */
      , (7559, 109,          0) /* ItemDifficulty */
-     , (7559, 110,          0) /* ItemAllegianceRankLimit */;
+     , (7559, 110,          0) /* ItemAllegianceRankLimit */
+     , (7559, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7559,   1, False) /* Stuck */
-     , (7559,  11, True ) /* IgnoreCollisions */
-     , (7559,  13, True ) /* Ethereal */
-     , (7559,  14, True ) /* GravityStatus */
-     , (7559,  19, True ) /* Attackable */
-     , (7559,  69, False) /* IsSellable */;
+VALUES (7559,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7559,   1, 'Condensed Dispel Potion') /* Name */

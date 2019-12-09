@@ -12,18 +12,11 @@ VALUES (263,   1,    4194304) /* ItemType - CraftCookingBase */
      , (263,  15,         15) /* StackUnitValue */
      , (263,  16,          8) /* ItemUseable - Contained */
      , (263,  19,         15) /* Value */
-     , (263,  65,        101) /* Placement - Resting */
      , (263,  89,          4) /* BoosterEnum - Stamina */
      , (263,  90,          8) /* BoostValue */
      , (263,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (263, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (263,   1, False) /* Stuck */
-     , (263,  11, True ) /* IgnoreCollisions */
-     , (263,  13, True ) /* Ethereal */
-     , (263,  14, True ) /* GravityStatus */
-     , (263,  19, True ) /* Attackable */;
+     , (263, 151,          2) /* HookType - Wall */
+     , (263, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (263,   1, 'Fish') /* Name */

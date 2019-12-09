@@ -12,20 +12,14 @@ VALUES (42846,   1,      65536) /* ItemType - Portal */
      , (42846, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42846,   1, True ) /* Stuck */
-     , (42846,  12, True ) /* ReportCollisions */
-     , (42846,  13, True ) /* Ethereal */
-     , (42846,  14, True ) /* GravityStatus */
-     , (42846,  15, True ) /* LightsStatus */
-     , (42846,  19, True ) /* Attackable */;
+VALUES (42846,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42846,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42846,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42846,   1, 'Portal to Hebian-To') /* Name */
      , (42846,  16, 'This portal goes to the Sho capital, Hebian-To. This is a good town for characters over level 10.') /* LongDesc */
-     , (42846,  38, 'Portal to Hebian-To (38.9S, 82.6E).') /* AppraisalPortalDestination */
      , (42846, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

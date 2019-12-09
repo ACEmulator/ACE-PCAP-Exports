@@ -12,18 +12,13 @@ VALUES (5819,   1,         32) /* ItemType - Food */
      , (5819,  15,         35) /* StackUnitValue */
      , (5819,  16,          8) /* ItemUseable - Contained */
      , (5819,  19,         35) /* Value */
-     , (5819,  65,        101) /* Placement - Resting */
      , (5819,  89,          4) /* BoosterEnum - Stamina */
      , (5819,  90,         20) /* BoostValue */
-     , (5819,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (5819,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5819, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5819,   1, False) /* Stuck */
-     , (5819,  11, True ) /* IgnoreCollisions */
-     , (5819,  13, True ) /* Ethereal */
-     , (5819,  14, True ) /* GravityStatus */
-     , (5819,  19, True ) /* Attackable */
-     , (5819,  69, False) /* IsSellable */;
+VALUES (5819,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5819,   1, 'Carol''s Carrot Soup') /* Name */

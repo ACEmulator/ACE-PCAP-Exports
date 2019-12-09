@@ -12,26 +12,21 @@ VALUES (45999,   1,          8) /* ItemType - Jewelry */
      , (45999,  18,          1) /* UiEffects - Magical */
      , (45999,  19,        100) /* Value */
      , (45999,  33,          1) /* Bonded - Bonded */
-     , (45999,  65,        101) /* Placement - Resting */
      , (45999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45999, 106,        250) /* ItemSpellcraft */
      , (45999, 107,        183) /* ItemCurMana */
      , (45999, 108,        400) /* ItemMaxMana */
      , (45999, 109,        100) /* ItemDifficulty */
-     , (45999, 114,          1) /* Attuned - Attuned */;
+     , (45999, 114,          1) /* Attuned - Attuned */
+     , (45999, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45999,   1, False) /* Stuck */
-     , (45999,  11, True ) /* IgnoreCollisions */
-     , (45999,  13, True ) /* Ethereal */
-     , (45999,  14, True ) /* GravityStatus */
-     , (45999,  19, True ) /* Attackable */
-     , (45999,  22, True ) /* Inscribable */
+VALUES (45999,  22, True ) /* Inscribable */
      , (45999,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45999,   5,  -0.025) /* ManaRate */
-     , (45999,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (45999,   5,   -0.02) /* ManaRate */
+     , (45999,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45999,   1, 'Seasoned Explorer Bracelet Of Strength') /* Name */;

@@ -11,17 +11,12 @@ VALUES (25629,   1,          1) /* ItemType - MeleeWeapon */
      , (25629,  18,          1) /* UiEffects - Magical */
      , (25629,  19,       8000) /* Value */
      , (25629,  51,          1) /* CombatUse - Melee */
-     , (25629,  65,        101) /* Placement - Resting */
      , (25629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25629, 151,          2) /* HookType - Wall */;
+     , (25629, 151,          2) /* HookType - Wall */
+     , (25629, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25629,   1, False) /* Stuck */
-     , (25629,  11, True ) /* IgnoreCollisions */
-     , (25629,  13, True ) /* Ethereal */
-     , (25629,  14, True ) /* GravityStatus */
-     , (25629,  19, True ) /* Attackable */
-     , (25629,  22, True ) /* Inscribable */;
+VALUES (25629,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25629,   1, 'Flaming Weeping Staff') /* Name */;

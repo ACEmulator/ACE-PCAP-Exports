@@ -10,16 +10,11 @@ VALUES (43647,   1,          2) /* ItemType - Armor */
      , (43647,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (43647,  16,          1) /* ItemUseable - No */
      , (43647,  19,       1300) /* Value */
-     , (43647,  65,        101) /* Placement - Resting */
-     , (43647,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43647,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43647, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43647,   1, False) /* Stuck */
-     , (43647,  11, True ) /* IgnoreCollisions */
-     , (43647,  13, True ) /* Ethereal */
-     , (43647,  14, True ) /* GravityStatus */
-     , (43647,  19, True ) /* Attackable */
-     , (43647,  22, True ) /* Inscribable */;
+VALUES (43647,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43647,   1, 'Spitter Abdomen Metamorphi') /* Name */;

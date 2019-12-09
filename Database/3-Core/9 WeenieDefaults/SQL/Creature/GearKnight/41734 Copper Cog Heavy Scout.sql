@@ -16,14 +16,10 @@ VALUES (41734,   1,         16) /* ItemType - Creature */
      , (41734, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41734,   1, True ) /* Stuck */
-     , (41734,  12, True ) /* ReportCollisions */
-     , (41734,  13, False) /* Ethereal */
-     , (41734,  14, True ) /* GravityStatus */
-     , (41734,  19, True ) /* Attackable */;
+VALUES (41734,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41734,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (41734,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41734,   1, 'Copper Cog Heavy Scout') /* Name */

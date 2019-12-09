@@ -12,19 +12,13 @@ VALUES (6092,   1,      65536) /* ItemType - Portal */
      , (6092, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6092,   1, True ) /* Stuck */
-     , (6092,  12, True ) /* ReportCollisions */
-     , (6092,  13, True ) /* Ethereal */
-     , (6092,  14, True ) /* GravityStatus */
-     , (6092,  15, True ) /* LightsStatus */
-     , (6092,  19, True ) /* Attackable */;
+VALUES (6092,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6092,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6092,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6092,   1, 'Cragstone Meeting Hall Portal') /* Name */
-     , (6092,  38, 'Cragstone Meeting Hall Portal') /* AppraisalPortalDestination */
      , (6092, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

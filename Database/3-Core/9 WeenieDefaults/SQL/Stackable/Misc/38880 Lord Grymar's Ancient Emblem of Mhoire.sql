@@ -12,18 +12,11 @@ VALUES (38880,   1,        128) /* ItemType - Misc */
      , (38880,  15,         10) /* StackUnitValue */
      , (38880,  16,          1) /* ItemUseable - No */
      , (38880,  19,         10) /* Value */
-     , (38880,  65,        101) /* Placement - Resting */
-     , (38880,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38880,   1, False) /* Stuck */
-     , (38880,  11, True ) /* IgnoreCollisions */
-     , (38880,  13, True ) /* Ethereal */
-     , (38880,  14, True ) /* GravityStatus */
-     , (38880,  19, True ) /* Attackable */;
+     , (38880,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38880, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38880,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (38880,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38880,   1, 'Lord Grymar''s Ancient Emblem of Mhoire') /* Name */;

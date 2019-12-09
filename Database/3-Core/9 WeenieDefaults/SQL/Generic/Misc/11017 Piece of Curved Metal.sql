@@ -9,17 +9,12 @@ VALUES (11017,   1,        128) /* ItemType - Misc */
      , (11017,  16,          1) /* ItemUseable - No */
      , (11017,  19,        100) /* Value */
      , (11017,  33,          1) /* Bonded - Bonded */
-     , (11017,  65,        101) /* Placement - Resting */
      , (11017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11017, 114,          1) /* Attuned - Attuned */;
+     , (11017, 114,          1) /* Attuned - Attuned */
+     , (11017, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11017,   1, False) /* Stuck */
-     , (11017,  11, True ) /* IgnoreCollisions */
-     , (11017,  13, True ) /* Ethereal */
-     , (11017,  14, True ) /* GravityStatus */
-     , (11017,  19, True ) /* Attackable */
-     , (11017,  22, True ) /* Inscribable */;
+VALUES (11017,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11017,   1, 'Piece of Curved Metal') /* Name */

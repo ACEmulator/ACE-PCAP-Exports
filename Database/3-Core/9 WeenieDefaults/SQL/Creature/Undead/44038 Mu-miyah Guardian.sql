@@ -18,14 +18,10 @@ VALUES (44038,   1,         16) /* ItemType - Creature */
      , (44038, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44038,   1, True ) /* Stuck */
-     , (44038,  12, True ) /* ReportCollisions */
-     , (44038,  13, False) /* Ethereal */
-     , (44038,  14, True ) /* GravityStatus */
-     , (44038,  19, True ) /* Attackable */;
+VALUES (44038,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44038,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (44038,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44038,   1, 'Mu-miyah Guardian') /* Name */

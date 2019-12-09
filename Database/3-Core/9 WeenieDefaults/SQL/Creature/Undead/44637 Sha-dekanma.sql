@@ -18,15 +18,10 @@ VALUES (44637,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44637,   1, True ) /* Stuck */
-     , (44637,  11, True ) /* IgnoreCollisions */
-     , (44637,  12, True ) /* ReportCollisions */
-     , (44637,  13, False) /* Ethereal */
-     , (44637,  14, True ) /* GravityStatus */
-     , (44637,  19, False) /* Attackable */
-     , (44637,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (44637,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44637,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (44637,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44637,   1, 'Sha-dekanma') /* Name */

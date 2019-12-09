@@ -12,15 +12,8 @@ VALUES (7878,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7878,  15,         60) /* StackUnitValue */
      , (7878,  16,          8) /* ItemUseable - Contained */
      , (7878,  19,         60) /* Value */
-     , (7878,  65,        101) /* Placement - Resting */
-     , (7878,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7878,   1, False) /* Stuck */
-     , (7878,  11, True ) /* IgnoreCollisions */
-     , (7878,  13, True ) /* Ethereal */
-     , (7878,  14, True ) /* GravityStatus */
-     , (7878,  19, True ) /* Attackable */;
+     , (7878,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7878, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7878,  39,    0.75) /* DefaultScale */;

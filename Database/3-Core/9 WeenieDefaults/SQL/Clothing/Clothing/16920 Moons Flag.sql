@@ -10,17 +10,12 @@ VALUES (16920,   1,          4) /* ItemType - Clothing */
      , (16920,  16,          1) /* ItemUseable - No */
      , (16920,  19,        500) /* Value */
      , (16920,  28,          0) /* ArmorLevel */
-     , (16920,  65,        101) /* Placement - Resting */
      , (16920,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (16920, 151,         24) /* HookType - Yard, Roof */;
+     , (16920, 151,         24) /* HookType - Yard, Roof */
+     , (16920, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16920,   1, False) /* Stuck */
-     , (16920,  11, True ) /* IgnoreCollisions */
-     , (16920,  13, True ) /* Ethereal */
-     , (16920,  14, True ) /* GravityStatus */
-     , (16920,  19, True ) /* Attackable */
-     , (16920,  22, True ) /* Inscribable */
+VALUES (16920,  22, True ) /* Inscribable */
      , (16920, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

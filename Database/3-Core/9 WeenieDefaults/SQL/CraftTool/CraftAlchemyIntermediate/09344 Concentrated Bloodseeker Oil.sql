@@ -13,18 +13,13 @@ VALUES (9344,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9344,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9344,  19,        750) /* Value */
      , (9344,  33,          1) /* Bonded - Bonded */
-     , (9344,  65,        101) /* Placement - Resting */
      , (9344,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9344,  94,  134218880) /* TargetType - Misc, Useless, CraftFletchingIntermediate */
-     , (9344, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (9344, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9344, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9344,   1, False) /* Stuck */
-     , (9344,  11, True ) /* IgnoreCollisions */
-     , (9344,  13, True ) /* Ethereal */
-     , (9344,  14, True ) /* GravityStatus */
-     , (9344,  19, True ) /* Attackable */
-     , (9344,  69, False) /* IsSellable */;
+VALUES (9344,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9344,   1, 'Concentrated Bloodseeker Oil') /* Name */

@@ -17,13 +17,7 @@ VALUES (49639,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49639,   1, True ) /* Stuck */
-     , (49639,  11, True ) /* IgnoreCollisions */
-     , (49639,  12, True ) /* ReportCollisions */
-     , (49639,  13, False) /* Ethereal */
-     , (49639,  14, True ) /* GravityStatus */
-     , (49639,  19, False) /* Attackable */
-     , (49639,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (49639,  42, True ) /* AllowEdgeSlide */;
+     , (49639,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49639,   1, 'Curator of Torment') /* Name */

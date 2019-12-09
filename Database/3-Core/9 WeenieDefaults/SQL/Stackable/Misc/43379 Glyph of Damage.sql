@@ -12,15 +12,8 @@ VALUES (43379,   1,        128) /* ItemType - Misc */
      , (43379,  15,      30000) /* StackUnitValue */
      , (43379,  16,          1) /* ItemUseable - No */
      , (43379,  19,      30000) /* Value */
-     , (43379,  65,        101) /* Placement - Resting */
-     , (43379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43379,   1, False) /* Stuck */
-     , (43379,  11, True ) /* IgnoreCollisions */
-     , (43379,  13, True ) /* Ethereal */
-     , (43379,  14, True ) /* GravityStatus */
-     , (43379,  19, True ) /* Attackable */;
+     , (43379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43379, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43379,   1, 'Glyph of Damage') /* Name */

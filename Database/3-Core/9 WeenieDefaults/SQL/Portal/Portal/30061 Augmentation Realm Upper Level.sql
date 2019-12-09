@@ -13,20 +13,14 @@ VALUES (30061,   1,      65536) /* ItemType - Portal */
      , (30061, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30061,   1, True ) /* Stuck */
-     , (30061,  12, True ) /* ReportCollisions */
-     , (30061,  13, True ) /* Ethereal */
-     , (30061,  14, True ) /* GravityStatus */
-     , (30061,  15, True ) /* LightsStatus */
-     , (30061,  19, True ) /* Attackable */;
+VALUES (30061,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30061,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30061,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30061,   1, 'Augmentation Realm Upper Level') /* Name */
      , (30061,  16, 'You must speak with Fiun Rehlyun before you can use this portal.') /* LongDesc */
-     , (30061,  38, 'Augmentation Realm Upper Level') /* AppraisalPortalDestination */
      , (30061, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

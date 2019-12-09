@@ -18,11 +18,7 @@ VALUES (14426,   1,         16) /* ItemType - Creature */
      , (14426, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14426,   1, True ) /* Stuck */
-     , (14426,  12, True ) /* ReportCollisions */
-     , (14426,  13, False) /* Ethereal */
-     , (14426,  14, True ) /* GravityStatus */
-     , (14426,  19, True ) /* Attackable */;
+VALUES (14426,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14426,   1, 'Martinate Simulacrum') /* Name */

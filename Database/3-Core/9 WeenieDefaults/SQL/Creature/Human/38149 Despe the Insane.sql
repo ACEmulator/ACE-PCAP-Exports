@@ -18,12 +18,7 @@ VALUES (38149,   1,         16) /* ItemType - Creature */
      , (38149, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38149,   1, True ) /* Stuck */
-     , (38149,  12, True ) /* ReportCollisions */
-     , (38149,  13, False) /* Ethereal */
-     , (38149,  14, True ) /* GravityStatus */
-     , (38149,  19, True ) /* Attackable */
-     , (38149,  42, True ) /* AllowEdgeSlide */;
+VALUES (38149,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38149,   1, 'Despe the Insane') /* Name */

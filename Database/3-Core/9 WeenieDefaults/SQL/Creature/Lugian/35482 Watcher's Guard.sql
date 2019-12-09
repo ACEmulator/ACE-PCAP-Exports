@@ -15,11 +15,7 @@ VALUES (35482,   1,         16) /* ItemType - Creature */
      , (35482, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35482,   1, True ) /* Stuck */
-     , (35482,  12, True ) /* ReportCollisions */
-     , (35482,  13, False) /* Ethereal */
-     , (35482,  14, True ) /* GravityStatus */
-     , (35482,  19, True ) /* Attackable */;
+VALUES (35482,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35482,   1, 'Watcher''s Guard') /* Name */

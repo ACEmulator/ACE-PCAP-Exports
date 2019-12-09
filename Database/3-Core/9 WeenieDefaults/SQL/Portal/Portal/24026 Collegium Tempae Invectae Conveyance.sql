@@ -6,15 +6,11 @@ VALUES (24026, 'trapportal-knorrstorm', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24026,   1,      65536) /* ItemType - Portal */
      , (24026,  16,          1) /* ItemUseable - No */
-     , (24026,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (24026,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (24026, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24026,   1, True ) /* Stuck */
-     , (24026,  12, True ) /* ReportCollisions */
-     , (24026,  13, True ) /* Ethereal */
-     , (24026,  15, True ) /* LightsStatus */
-     , (24026,  19, True ) /* Attackable */;
+VALUES (24026,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24026,   1, 'Collegium Tempae Invectae Conveyance') /* Name */;

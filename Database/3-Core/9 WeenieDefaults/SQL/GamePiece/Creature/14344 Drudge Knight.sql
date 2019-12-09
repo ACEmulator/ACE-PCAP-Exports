@@ -16,13 +16,10 @@ VALUES (14344,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14344,   1, True ) /* Stuck */
-     , (14344,  12, True ) /* ReportCollisions */
-     , (14344,  13, True ) /* Ethereal */
-     , (14344,  14, True ) /* GravityStatus */
      , (14344,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14344,  39, 0.649999976158142) /* DefaultScale */;
+VALUES (14344,  39,    0.65) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14344,   1, 'Drudge Knight') /* Name */

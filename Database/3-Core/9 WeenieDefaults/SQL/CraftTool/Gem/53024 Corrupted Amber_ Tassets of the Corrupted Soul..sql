@@ -14,17 +14,12 @@ VALUES (53024,   1,       2048) /* ItemType - Gem */
      , (53024,  18,         32) /* UiEffects - Fire */
      , (53024,  19,         25) /* Value */
      , (53024,  33,          1) /* Bonded - Bonded */
-     , (53024,  65,        101) /* Placement - Resting */
      , (53024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53024,  94,          6) /* TargetType - Vestements */;
+     , (53024,  94,          6) /* TargetType - Vestements */
+     , (53024, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53024,   1, False) /* Stuck */
-     , (53024,  11, True ) /* IgnoreCollisions */
-     , (53024,  13, True ) /* Ethereal */
-     , (53024,  14, True ) /* GravityStatus */
-     , (53024,  19, True ) /* Attackable */
-     , (53024,  69, False) /* IsSellable */;
+VALUES (53024,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53024,   1, 'Corrupted Amber: Tassets of the Corrupted Soul.') /* Name */

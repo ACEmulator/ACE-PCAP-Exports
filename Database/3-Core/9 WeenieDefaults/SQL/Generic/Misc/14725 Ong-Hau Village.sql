@@ -11,12 +11,7 @@ VALUES (14725,   1,        128) /* ItemType - Misc */
      , (14725,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14725,   1, True ) /* Stuck */
-     , (14725,  11, True ) /* IgnoreCollisions */
-     , (14725,  12, True ) /* ReportCollisions */
-     , (14725,  13, False) /* Ethereal */
-     , (14725,  14, True ) /* GravityStatus */
-     , (14725,  19, True ) /* Attackable */;
+VALUES (14725,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14725,   1, 'Ong-Hau Village') /* Name */

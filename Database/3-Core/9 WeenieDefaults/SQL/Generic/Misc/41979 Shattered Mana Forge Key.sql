@@ -10,20 +10,15 @@ VALUES (41979,   1,        128) /* ItemType - Misc */
      , (41979,  18,         64) /* UiEffects - Lightning */
      , (41979,  19,          0) /* Value */
      , (41979,  33,          1) /* Bonded - Bonded */
-     , (41979,  65,        101) /* Placement - Resting */
      , (41979,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41979,  98, 1485743592) /* CreationTimestamp */
      , (41979, 114,          1) /* Attuned - Attuned */
      , (41979, 267,      86400) /* Lifespan */
-     , (41979, 268,      85998) /* RemainingLifespan */;
+     , (41979, 268,      85998) /* RemainingLifespan */
+     , (41979, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41979,   1, False) /* Stuck */
-     , (41979,  11, True ) /* IgnoreCollisions */
-     , (41979,  13, True ) /* Ethereal */
-     , (41979,  14, True ) /* GravityStatus */
-     , (41979,  19, True ) /* Attackable */
-     , (41979,  22, True ) /* Inscribable */
+VALUES (41979,  22, True ) /* Inscribable */
      , (41979,  69, False) /* IsSellable */
      , (41979,  99, False) /* Ivoryable */;
 

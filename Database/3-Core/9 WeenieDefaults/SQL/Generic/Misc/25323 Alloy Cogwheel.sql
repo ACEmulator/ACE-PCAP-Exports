@@ -13,12 +13,7 @@ VALUES (25323,   1,        128) /* ItemType - Misc */
      , (25323, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25323,   1, False) /* Stuck */
-     , (25323,  11, True ) /* IgnoreCollisions */
-     , (25323,  13, True ) /* Ethereal */
-     , (25323,  14, True ) /* GravityStatus */
-     , (25323,  19, True ) /* Attackable */
-     , (25323,  22, True ) /* Inscribable */;
+VALUES (25323,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25323,   1, 'Alloy Cogwheel') /* Name */

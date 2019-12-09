@@ -11,12 +11,7 @@ VALUES (15214,   1,        128) /* ItemType - Misc */
      , (15214,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15214,   1, True ) /* Stuck */
-     , (15214,  11, True ) /* IgnoreCollisions */
-     , (15214,  12, True ) /* ReportCollisions */
-     , (15214,  13, False) /* Ethereal */
-     , (15214,  14, True ) /* GravityStatus */
-     , (15214,  19, True ) /* Attackable */;
+VALUES (15214,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15214,   1, 'Dagger Vale') /* Name */

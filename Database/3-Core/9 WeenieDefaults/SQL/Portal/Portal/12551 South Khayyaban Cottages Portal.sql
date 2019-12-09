@@ -12,19 +12,13 @@ VALUES (12551,   1,      65536) /* ItemType - Portal */
      , (12551, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12551,   1, True ) /* Stuck */
-     , (12551,  12, True ) /* ReportCollisions */
-     , (12551,  13, True ) /* Ethereal */
-     , (12551,  14, True ) /* GravityStatus */
-     , (12551,  15, True ) /* LightsStatus */
-     , (12551,  19, True ) /* Attackable */;
+VALUES (12551,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12551,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12551,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12551,   1, 'South Khayyaban Cottages Portal') /* Name */
-     , (12551,  38, 'South Khayyaban Cottages Portal (52.6S, 27.7E).') /* AppraisalPortalDestination */
      , (12551, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

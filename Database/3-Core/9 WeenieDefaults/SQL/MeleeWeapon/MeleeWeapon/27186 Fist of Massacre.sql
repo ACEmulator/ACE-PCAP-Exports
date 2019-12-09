@@ -17,7 +17,6 @@ VALUES (27186,   1,          1) /* ItemType - MeleeWeapon */
      , (27186,  48,         45) /* WeaponSkill - LightWeapons */
      , (27186,  49,         10) /* WeaponTime */
      , (27186,  51,          1) /* CombatUse - Melee */
-     , (27186,  65,          1) /* Placement - RightHandCombat */
      , (27186,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27186, 106,        375) /* ItemSpellcraft */
      , (27186, 107,        992) /* ItemCurMana */
@@ -28,24 +27,20 @@ VALUES (27186,   1,          1) /* ItemType - MeleeWeapon */
      , (27186, 159,         45) /* WieldSkillType - LightWeapons */
      , (27186, 160,        370) /* WieldDifficulty */
      , (27186, 353,          1) /* WeaponType - Unarmed */
-     , (27186, 8030,          0);
+     , (27186, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (27186, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27186,   1, False) /* Stuck */
-     , (27186,  11, True ) /* IgnoreCollisions */
-     , (27186,  13, True ) /* Ethereal */
-     , (27186,  14, True ) /* GravityStatus */
-     , (27186,  19, True ) /* Attackable */
-     , (27186,  22, True ) /* Inscribable */;
+VALUES (27186,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27186,   5, -0.0500000007450581) /* ManaRate */
+VALUES (27186,   5,   -0.05) /* ManaRate */
      , (27186,  21,       0) /* WeaponLength */
-     , (27186,  22, 0.400000005960464) /* DamageVariance */
+     , (27186,  22,     0.4) /* DamageVariance */
      , (27186,  26,       0) /* MaximumVelocity */
-     , (27186,  29, 1.11000001430511) /* WeaponDefense */
+     , (27186,  29,    1.11) /* WeaponDefense */
      , (27186,  39,    1.25) /* DefaultScale */
-     , (27186,  62, 1.12999999523163) /* WeaponOffense */
+     , (27186,  62,    1.13) /* WeaponOffense */
      , (27186,  63,       1) /* DamageMod */
      , (27186, 136,       1) /* CriticalMultiplier */
      , (27186, 147,       1) /* CriticalFrequency */;

@@ -11,12 +11,7 @@ VALUES (22239,   1,        128) /* ItemType - Misc */
      , (22239,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22239,   1, True ) /* Stuck */
-     , (22239,  11, True ) /* IgnoreCollisions */
-     , (22239,  12, True ) /* ReportCollisions */
-     , (22239,  13, False) /* Ethereal */
-     , (22239,  14, True ) /* GravityStatus */
-     , (22239,  19, True ) /* Attackable */;
+VALUES (22239,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22239,   1, 'Setera Gardens') /* Name */

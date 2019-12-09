@@ -13,15 +13,10 @@ VALUES (45751,   1,         16) /* ItemType - Creature */
      , (45751, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45751,   1, True ) /* Stuck */
-     , (45751,  12, True ) /* ReportCollisions */
-     , (45751,  13, False) /* Ethereal */
-     , (45751,  14, True ) /* GravityStatus */
-     , (45751,  19, True ) /* Attackable */
-     , (45751,  42, True ) /* AllowEdgeSlide */;
+VALUES (45751,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45751,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (45751,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45751,   1, 'Geraine') /* Name */

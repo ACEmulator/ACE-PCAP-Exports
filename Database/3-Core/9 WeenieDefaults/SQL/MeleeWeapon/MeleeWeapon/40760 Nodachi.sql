@@ -29,15 +29,10 @@ VALUES (40760,   1,          1) /* ItemType - MeleeWeapon */
      , (40760, 178,         29) /* GemType */
      , (40760, 292,          2) /* Cleaving */
      , (40760, 353,         11) /* WeaponType - TwoHanded */
-     , (40760, 8030,          0);
+     , (40760, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40760,   1, False) /* Stuck */
-     , (40760,  11, True ) /* IgnoreCollisions */
-     , (40760,  13, True ) /* Ethereal */
-     , (40760,  14, True ) /* GravityStatus */
-     , (40760,  19, True ) /* Attackable */
-     , (40760,  22, True ) /* Inscribable */;
+VALUES (40760,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40760,  21,       0) /* WeaponLength */

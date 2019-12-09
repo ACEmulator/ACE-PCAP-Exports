@@ -8,20 +8,15 @@ VALUES (10962,   1,        128) /* ItemType - Misc */
      , (10962,   5,          5) /* EncumbranceVal */
      , (10962,  16,          1) /* ItemUseable - No */
      , (10962,  19,         15) /* Value */
-     , (10962,  65,        101) /* Placement - Resting */
      , (10962,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (10962, 151,          2) /* HookType - Wall */;
+     , (10962, 151,          2) /* HookType - Wall */
+     , (10962, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10962,   1, False) /* Stuck */
-     , (10962,  11, True ) /* IgnoreCollisions */
-     , (10962,  13, True ) /* Ethereal */
-     , (10962,  14, True ) /* GravityStatus */
-     , (10962,  19, True ) /* Attackable */
-     , (10962,  22, True ) /* Inscribable */;
+VALUES (10962,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10962,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (10962,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10962,   1, 'Hea Totem') /* Name */

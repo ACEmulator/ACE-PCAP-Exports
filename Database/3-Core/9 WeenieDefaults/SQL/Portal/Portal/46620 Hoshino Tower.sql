@@ -11,16 +11,11 @@ VALUES (46620,   1,      65536) /* ItemType - Portal */
      , (46620, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46620,   1, True ) /* Stuck */
-     , (46620,  12, True ) /* ReportCollisions */
-     , (46620,  13, True ) /* Ethereal */
-     , (46620,  14, True ) /* GravityStatus */
-     , (46620,  15, True ) /* LightsStatus */
-     , (46620,  19, True ) /* Attackable */;
+VALUES (46620,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46620,  39,    0.75) /* DefaultScale */
-     , (46620,  54, -0.100000001490116) /* UseRadius */;
+     , (46620,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46620,   1, 'Hoshino Tower') /* Name */

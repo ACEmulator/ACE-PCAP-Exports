@@ -11,7 +11,6 @@ VALUES (21912,   1,      32768) /* ItemType - Caster */
      , (21912,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (21912,  18,        128) /* UiEffects - Frost */
      , (21912,  19,       4000) /* Value */
-     , (21912,  65,          1) /* Placement - RightHandCombat */
      , (21912,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21912,  94,         16) /* TargetType - Creature */
      , (21912, 106,        325) /* ItemSpellcraft */
@@ -23,21 +22,17 @@ VALUES (21912,   1,      32768) /* ItemType - Caster */
      , (21912, 158,          8) /* WieldRequirements - Training */
      , (21912, 159,         34) /* WieldSkillType - WarMagic */
      , (21912, 160,          2) /* WieldDifficulty */
-     , (21912, 166,          1) /* SlayerCreatureType - Olthoi */;
+     , (21912, 166,          1) /* SlayerCreatureType - Olthoi */
+     , (21912, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21912,   1, False) /* Stuck */
-     , (21912,  11, True ) /* IgnoreCollisions */
-     , (21912,  13, True ) /* Ethereal */
-     , (21912,  14, True ) /* GravityStatus */
-     , (21912,  19, True ) /* Attackable */
-     , (21912,  22, True ) /* Inscribable */
+VALUES (21912,  22, True ) /* Inscribable */
      , (21912,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21912,   5,      -1) /* ManaRate */
      , (21912,  29,       1) /* WeaponDefense */
-     , (21912, 144, 1.47270474428673E-314) /* ManaConversionMod */;
+     , (21912, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21912,   1, 'Taulandoi') /* Name */

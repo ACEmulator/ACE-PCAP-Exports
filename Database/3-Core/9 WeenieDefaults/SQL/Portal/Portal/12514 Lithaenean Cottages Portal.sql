@@ -12,19 +12,13 @@ VALUES (12514,   1,      65536) /* ItemType - Portal */
      , (12514, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12514,   1, True ) /* Stuck */
-     , (12514,  12, True ) /* ReportCollisions */
-     , (12514,  13, True ) /* Ethereal */
-     , (12514,  14, True ) /* GravityStatus */
-     , (12514,  15, True ) /* LightsStatus */
-     , (12514,  19, True ) /* Attackable */;
+VALUES (12514,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12514,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12514,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12514,   1, 'Lithaenean Cottages Portal') /* Name */
-     , (12514,  38, 'Lithaenean Cottages Portal (53.2N, 36.2W).') /* AppraisalPortalDestination */
      , (12514, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

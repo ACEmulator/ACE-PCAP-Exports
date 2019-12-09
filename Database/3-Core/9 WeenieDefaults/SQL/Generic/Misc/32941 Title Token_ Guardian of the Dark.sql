@@ -9,17 +9,12 @@ VALUES (32941,   1,        128) /* ItemType - Misc */
      , (32941,  16,          1) /* ItemUseable - No */
      , (32941,  19,        100) /* Value */
      , (32941,  33,          1) /* Bonded - Bonded */
-     , (32941,  65,        101) /* Placement - Resting */
      , (32941,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32941, 114,          1) /* Attuned - Attuned */;
+     , (32941, 114,          1) /* Attuned - Attuned */
+     , (32941, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32941,   1, False) /* Stuck */
-     , (32941,  11, True ) /* IgnoreCollisions */
-     , (32941,  13, True ) /* Ethereal */
-     , (32941,  14, True ) /* GravityStatus */
-     , (32941,  19, True ) /* Attackable */
-     , (32941,  22, True ) /* Inscribable */;
+VALUES (32941,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32941,   1, 'Title Token: Guardian of the Dark') /* Name */

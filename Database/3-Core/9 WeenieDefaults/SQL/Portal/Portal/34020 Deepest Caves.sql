@@ -12,19 +12,13 @@ VALUES (34020,   1,      65536) /* ItemType - Portal */
      , (34020, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34020,   1, True ) /* Stuck */
-     , (34020,  12, True ) /* ReportCollisions */
-     , (34020,  13, True ) /* Ethereal */
-     , (34020,  14, True ) /* GravityStatus */
-     , (34020,  15, True ) /* LightsStatus */
-     , (34020,  19, True ) /* Attackable */;
+VALUES (34020,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34020,  54, -0.100000001490116) /* UseRadius */;
+VALUES (34020,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34020,   1, 'Deepest Caves') /* Name */
-     , (34020,  38, 'Deepest Caves') /* AppraisalPortalDestination */
      , (34020, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

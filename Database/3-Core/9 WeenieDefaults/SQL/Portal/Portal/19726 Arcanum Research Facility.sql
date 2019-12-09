@@ -11,15 +11,10 @@ VALUES (19726,   1,      65536) /* ItemType - Portal */
      , (19726, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19726,   1, True ) /* Stuck */
-     , (19726,  12, True ) /* ReportCollisions */
-     , (19726,  13, True ) /* Ethereal */
-     , (19726,  14, True ) /* GravityStatus */
-     , (19726,  15, True ) /* LightsStatus */
-     , (19726,  19, True ) /* Attackable */;
+VALUES (19726,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19726,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19726,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19726,   1, 'Arcanum Research Facility') /* Name */

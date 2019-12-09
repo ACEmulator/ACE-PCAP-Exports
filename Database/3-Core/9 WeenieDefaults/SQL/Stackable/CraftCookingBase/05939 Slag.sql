@@ -11,16 +11,11 @@ VALUES (5939,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5939,  13,         25) /* StackUnitEncumbrance */
      , (5939,  15,         10) /* StackUnitValue */
      , (5939,  19,         10) /* Value */
-     , (5939,  65,        101) /* Placement - Resting */
-     , (5939,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (5939,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5939, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5939,   1, False) /* Stuck */
-     , (5939,  11, True ) /* IgnoreCollisions */
-     , (5939,  13, True ) /* Ethereal */
-     , (5939,  14, True ) /* GravityStatus */
-     , (5939,  19, True ) /* Attackable */
-     , (5939,  22, True ) /* Inscribable */;
+VALUES (5939,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5939,   1, 'Slag') /* Name */;

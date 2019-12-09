@@ -9,20 +9,15 @@ VALUES (43419,   1,        128) /* ItemType - Misc */
      , (43419,  16,          1) /* ItemUseable - No */
      , (43419,  19,        200) /* Value */
      , (43419,  33,          1) /* Bonded - Bonded */
-     , (43419,  65,        101) /* Placement - Resting */
      , (43419,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43419, 114,          1) /* Attuned - Attuned */;
+     , (43419, 114,          1) /* Attuned - Attuned */
+     , (43419, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43419,   1, False) /* Stuck */
-     , (43419,  11, True ) /* IgnoreCollisions */
-     , (43419,  13, True ) /* Ethereal */
-     , (43419,  14, True ) /* GravityStatus */
-     , (43419,  19, True ) /* Attackable */
-     , (43419,  22, True ) /* Inscribable */;
+VALUES (43419,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43419,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (43419,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43419,   1, 'Southern Tumerok Insignia') /* Name */

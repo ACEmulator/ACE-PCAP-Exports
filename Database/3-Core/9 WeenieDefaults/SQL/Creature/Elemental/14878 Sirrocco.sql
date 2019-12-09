@@ -16,15 +16,10 @@ VALUES (14878,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14878,   1, True ) /* Stuck */
-     , (14878,  12, True ) /* ReportCollisions */
-     , (14878,  13, False) /* Ethereal */
-     , (14878,  14, True ) /* GravityStatus */
-     , (14878,  15, True ) /* LightsStatus */
-     , (14878,  19, True ) /* Attackable */
      , (14878, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14878,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (14878,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14878,   1, 'Sirrocco') /* Name */

@@ -13,18 +13,13 @@ VALUES (5845,   1,        128) /* ItemType - Misc */
      , (5845,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5845,  19,         20) /* Value */
      , (5845,  33,          1) /* Bonded - Bonded */
-     , (5845,  65,        101) /* Placement - Resting */
      , (5845,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5845,  94,        128) /* TargetType - Misc */
-     , (5845, 114,          1) /* Attuned - Attuned */;
+     , (5845, 114,          1) /* Attuned - Attuned */
+     , (5845, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5845,   1, False) /* Stuck */
-     , (5845,  11, True ) /* IgnoreCollisions */
-     , (5845,  13, True ) /* Ethereal */
-     , (5845,  14, True ) /* GravityStatus */
-     , (5845,  19, True ) /* Attackable */
-     , (5845,  22, True ) /* Inscribable */;
+VALUES (5845,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5845,   1, 'Bandit Rune Transcription') /* Name */

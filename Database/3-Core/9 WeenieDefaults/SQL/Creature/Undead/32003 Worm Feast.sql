@@ -15,12 +15,7 @@ VALUES (32003,   1,         16) /* ItemType - Creature */
      , (32003, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32003,   1, True ) /* Stuck */
-     , (32003,  12, True ) /* ReportCollisions */
-     , (32003,  13, False) /* Ethereal */
-     , (32003,  14, True ) /* GravityStatus */
-     , (32003,  19, True ) /* Attackable */
-     , (32003,  42, True ) /* AllowEdgeSlide */;
+VALUES (32003,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32003,   1, 'Worm Feast') /* Name */

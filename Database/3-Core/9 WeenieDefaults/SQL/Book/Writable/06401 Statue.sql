@@ -11,16 +11,11 @@ VALUES (6401,   1,       8192) /* ItemType - Writable */
      , (6401,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (6401,  95,          8) /* RadarBlipColor - Yellow */
      , (6401, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (6401, 174,          1) /* AppraisalPages */
-     , (6401, 175,          1) /* AppraisalMaxPages */;
+     , (6401, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (6401, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6401,   1, True ) /* Stuck */
-     , (6401,  11, True ) /* IgnoreCollisions */
-     , (6401,  12, True ) /* ReportCollisions */
-     , (6401,  13, False) /* Ethereal */
-     , (6401,  14, True ) /* GravityStatus */
-     , (6401,  19, True ) /* Attackable */
      , (6401,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

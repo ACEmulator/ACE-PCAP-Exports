@@ -13,11 +13,7 @@ VALUES (9380,   1,         16) /* ItemType - Creature */
      , (9380, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9380,   1, True ) /* Stuck */
-     , (9380,  12, True ) /* ReportCollisions */
-     , (9380,  13, False) /* Ethereal */
-     , (9380,  14, True ) /* GravityStatus */
-     , (9380,  19, True ) /* Attackable */;
+VALUES (9380,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9380,   1, 'Cazamal the Envoy') /* Name */

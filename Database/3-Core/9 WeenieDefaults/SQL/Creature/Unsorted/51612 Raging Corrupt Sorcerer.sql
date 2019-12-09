@@ -13,12 +13,7 @@ VALUES (51612,   1,         16) /* ItemType - Creature */
      , (51612, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51612,   1, True ) /* Stuck */
-     , (51612,  12, True ) /* ReportCollisions */
-     , (51612,  13, False) /* Ethereal */
-     , (51612,  14, True ) /* GravityStatus */
-     , (51612,  19, True ) /* Attackable */
-     , (51612,  42, True ) /* AllowEdgeSlide */;
+VALUES (51612,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51612,   1, 'Raging Corrupt Sorcerer') /* Name */

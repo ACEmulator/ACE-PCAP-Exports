@@ -21,13 +21,7 @@ VALUES (52960,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52960,   1, True ) /* Stuck */
-     , (52960,  11, True ) /* IgnoreCollisions */
-     , (52960,  12, True ) /* ReportCollisions */
-     , (52960,  13, False) /* Ethereal */
-     , (52960,  14, True ) /* GravityStatus */
-     , (52960,  19, False) /* Attackable */
-     , (52960,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (52960,  42, True ) /* AllowEdgeSlide */;
+     , (52960,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52960,   1, 'Radiant Blood Officer') /* Name */

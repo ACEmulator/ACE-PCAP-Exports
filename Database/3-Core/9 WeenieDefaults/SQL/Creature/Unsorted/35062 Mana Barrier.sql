@@ -8,7 +8,7 @@ VALUES (35062,   1,         16) /* ItemType - Creature */
      , (35062,   6,        255) /* ItemsCapacity */
      , (35062,   7,        255) /* ContainersCapacity */
      , (35062,  16,          1) /* ItemUseable - No */
-     , (35062,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
+     , (35062,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35062, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (35062, 307,          0) /* DamageRating */
      , (35062, 308,          0) /* DamageResistRating */
@@ -37,14 +37,10 @@ VALUES (35062,   1,         16) /* ItemType - Creature */
      , (35062, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35062,   1, True ) /* Stuck */
-     , (35062,  12, True ) /* ReportCollisions */
-     , (35062,  13, False) /* Ethereal */
-     , (35062,  14, True ) /* GravityStatus */
-     , (35062,  19, True ) /* Attackable */;
+VALUES (35062,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35062,  76, 0.699999988079071) /* Translucency */;
+VALUES (35062,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35062,   1, 'Mana Barrier') /* Name */

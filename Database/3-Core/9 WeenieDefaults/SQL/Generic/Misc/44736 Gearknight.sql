@@ -11,15 +11,8 @@ VALUES (44736,   1,        128) /* ItemType - Misc */
      , (44736,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44736, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44736,   1, False) /* Stuck */
-     , (44736,  11, True ) /* IgnoreCollisions */
-     , (44736,  12, True ) /* ReportCollisions */
-     , (44736,  13, True ) /* Ethereal */
-     , (44736,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44736,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44736,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44736,   1, 'Gearknight') /* Name */

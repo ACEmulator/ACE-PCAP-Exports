@@ -12,7 +12,6 @@ VALUES (2421,   1,       2048) /* ItemType - Gem */
      , (2421,  15,        348) /* StackUnitValue */
      , (2421,  16,          1) /* ItemUseable - No */
      , (2421,  19,        348) /* Value */
-     , (2421,  65,        101) /* Placement - Resting */
      , (2421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2421, 105,          8) /* ItemWorkmanship */
      , (2421, 106,        200) /* ItemSpellcraft */
@@ -23,15 +22,11 @@ VALUES (2421,   1,       2048) /* ItemType - Gem */
      , (2421, 115,          0) /* ItemSkillLevelLimit */
      , (2421, 117,        300) /* ItemManaCost */
      , (2421, 131,         13) /* MaterialType - Aquamarine */
-     , (2421, 172,          1) /* AppraisalLongDescDecoration */;
+     , (2421, 172,          1) /* AppraisalLongDescDecoration */
+     , (2421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2421,   1, False) /* Stuck */
-     , (2421,  11, True ) /* IgnoreCollisions */
-     , (2421,  13, True ) /* Ethereal */
-     , (2421,  14, True ) /* GravityStatus */
-     , (2421,  19, True ) /* Attackable */
-     , (2421,  22, True ) /* Inscribable */;
+VALUES (2421,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2421, 8004,       5) /* PCAPRecordedWorkmanship */;

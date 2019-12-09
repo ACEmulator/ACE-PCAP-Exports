@@ -14,15 +14,8 @@ VALUES (39744,   1,        128) /* ItemType - Misc */
      , (39744,  19,          8) /* Value */
      , (39744,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39744,   1, False) /* Stuck */
-     , (39744,  11, True ) /* IgnoreCollisions */
-     , (39744,  13, True ) /* Ethereal */
-     , (39744,  14, True ) /* GravityStatus */
-     , (39744,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39744,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (39744,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39744,   1, 'Third Upgrade Token') /* Name */;

@@ -18,7 +18,6 @@ VALUES (43045,   1,        256) /* ItemType - MissileWeapon */
      , (43045,  49,        120) /* WeaponTime */
      , (43045,  50,          2) /* AmmoType - Bolt */
      , (43045,  51,          2) /* CombatUse - Missle */
-     , (43045,  65,          3) /* Placement - LeftHand */
      , (43045,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43045, 106,        450) /* ItemSpellcraft */
      , (43045, 107,       1334) /* ItemCurMana */
@@ -32,26 +31,22 @@ VALUES (43045,   1,        256) /* ItemType - MissileWeapon */
      , (43045, 204,         12) /* ElementalDamageBonus */
      , (43045, 263,          2) /* ResistanceModifierType */
      , (43045, 353,          9) /* WeaponType - Crossbow */
-     , (43045, 8030,          0);
+     , (43045, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (43045, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43045,   1, False) /* Stuck */
-     , (43045,  11, True ) /* IgnoreCollisions */
-     , (43045,  13, True ) /* Ethereal */
-     , (43045,  14, True ) /* GravityStatus */
-     , (43045,  19, True ) /* Attackable */
-     , (43045,  22, True ) /* Inscribable */
+VALUES (43045,  22, True ) /* Inscribable */
      , (43045,  69, False) /* IsSellable */
      , (43045,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43045,   5, -0.0333000011742115) /* ManaRate */
+VALUES (43045,   5,   -0.03) /* ManaRate */
      , (43045,  21,       0) /* WeaponLength */
      , (43045,  22,       0) /* DamageVariance */
      , (43045,  26,    27.3) /* MaximumVelocity */
-     , (43045,  29, 1.14999997615814) /* WeaponDefense */
+     , (43045,  29,    1.15) /* WeaponDefense */
      , (43045,  62,       1) /* WeaponOffense */
-     , (43045,  63, 2.54999995231628) /* DamageMod */
+     , (43045,  63,    2.55) /* DamageMod */
      , (43045, 147,       1) /* CriticalFrequency */
      , (43045, 157,       1) /* ResistanceModifier */;
 

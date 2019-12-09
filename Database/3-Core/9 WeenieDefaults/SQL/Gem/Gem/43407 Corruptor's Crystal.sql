@@ -15,22 +15,17 @@ VALUES (43407,   1,       2048) /* ItemType - Gem */
      , (43407,  18,          1) /* UiEffects - Magical */
      , (43407,  19,          0) /* Value */
      , (43407,  33,         -1) /* Bonded - Slippery */
-     , (43407,  65,        101) /* Placement - Resting */
      , (43407,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43407,  94,         16) /* TargetType - Creature */
      , (43407, 106,        325) /* ItemSpellcraft */
      , (43407, 107,      10000) /* ItemCurMana */
      , (43407, 108,      10000) /* ItemMaxMana */
      , (43407, 109,          0) /* ItemDifficulty */
-     , (43407, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (43407, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (43407, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43407,   1, False) /* Stuck */
-     , (43407,  11, True ) /* IgnoreCollisions */
-     , (43407,  13, True ) /* Ethereal */
-     , (43407,  14, True ) /* GravityStatus */
-     , (43407,  19, True ) /* Attackable */
-     , (43407, 108, True ) /* RareUsesTimer */;
+VALUES (43407, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43407,   1, 'Corruptor''s Crystal') /* Name */

@@ -12,16 +12,11 @@ VALUES (12060,   1,          1) /* ItemType - MeleeWeapon */
      , (12060,  18,        128) /* UiEffects - Frost */
      , (12060,  19,         75) /* Value */
      , (12060,  51,          1) /* CombatUse - Melee */
-     , (12060,  65,          1) /* Placement - RightHandCombat */
-     , (12060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12060, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12060,   1, False) /* Stuck */
-     , (12060,  11, True ) /* IgnoreCollisions */
-     , (12060,  13, True ) /* Ethereal */
-     , (12060,  14, True ) /* GravityStatus */
-     , (12060,  19, True ) /* Attackable */
-     , (12060,  22, True ) /* Inscribable */;
+VALUES (12060,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12060,   1, 'Bandit Frost Jambiya') /* Name */;

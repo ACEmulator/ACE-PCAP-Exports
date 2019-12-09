@@ -6,26 +6,21 @@ VALUES (52921, 'ace52921-gauntletstage6', 7, '2019-02-10 00:00:00') /* Portal */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52921,   1,      65536) /* ItemType - Portal */
      , (52921,  16,         32) /* ItemUseable - Remote */
-     , (52921,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (52921,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (52921, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (52921, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52921,   1, True ) /* Stuck */
-     , (52921,  11, True ) /* IgnoreCollisions */
-     , (52921,  13, False) /* Ethereal */
-     , (52921,  14, True ) /* GravityStatus */
-     , (52921,  19, True ) /* Attackable */;
+VALUES (52921,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52921,  54, 0.300000011920929) /* UseRadius */
+VALUES (52921,  54,     0.3) /* UseRadius */
      , (52921, 8010,       0) /* PCAPRecordedVelocityX */
      , (52921, 8011,       0) /* PCAPRecordedVelocityY */
-     , (52921, 8012, -0.167022511363029) /* PCAPRecordedVelocityZ */;
+     , (52921, 8012,   -0.17) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52921,   1, 'Gauntlet Stage 6') /* Name */
-     , (52921,  38, 'Gauntlet Stage 6') /* AppraisalPortalDestination */;
+VALUES (52921,   1, 'Gauntlet Stage 6') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52921,   1,   33559873) /* Setup */

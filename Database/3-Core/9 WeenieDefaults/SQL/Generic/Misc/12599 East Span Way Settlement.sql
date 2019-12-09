@@ -11,12 +11,7 @@ VALUES (12599,   1,        128) /* ItemType - Misc */
      , (12599,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12599,   1, True ) /* Stuck */
-     , (12599,  11, True ) /* IgnoreCollisions */
-     , (12599,  12, True ) /* ReportCollisions */
-     , (12599,  13, False) /* Ethereal */
-     , (12599,  14, True ) /* GravityStatus */
-     , (12599,  19, True ) /* Attackable */;
+VALUES (12599,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12599,   1, 'East Span Way Settlement') /* Name */

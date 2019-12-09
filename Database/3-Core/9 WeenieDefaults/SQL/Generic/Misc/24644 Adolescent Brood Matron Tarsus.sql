@@ -9,17 +9,12 @@ VALUES (24644,   1,        128) /* ItemType - Misc */
      , (24644,  16,          1) /* ItemUseable - No */
      , (24644,  19,          0) /* Value */
      , (24644,  33,          1) /* Bonded - Bonded */
-     , (24644,  65,        101) /* Placement - Resting */
      , (24644,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24644, 114,          1) /* Attuned - Attuned */;
+     , (24644, 114,          1) /* Attuned - Attuned */
+     , (24644, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24644,   1, False) /* Stuck */
-     , (24644,  11, True ) /* IgnoreCollisions */
-     , (24644,  13, True ) /* Ethereal */
-     , (24644,  14, True ) /* GravityStatus */
-     , (24644,  19, True ) /* Attackable */
-     , (24644,  22, True ) /* Inscribable */;
+VALUES (24644,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24644,   1, 'Adolescent Brood Matron Tarsus') /* Name */

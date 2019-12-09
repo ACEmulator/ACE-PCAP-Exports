@@ -12,18 +12,11 @@ VALUES (23924,   1,        128) /* ItemType - Misc */
      , (23924,  15,       1000) /* StackUnitValue */
      , (23924,  16,          8) /* ItemUseable - Contained */
      , (23924,  19,       1000) /* Value */
-     , (23924,  65,        101) /* Placement - Resting */
      , (23924,  89,          2) /* BoosterEnum - Health */
      , (23924,  90,         65) /* BoostValue */
      , (23924,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23924, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23924,   1, False) /* Stuck */
-     , (23924,  11, True ) /* IgnoreCollisions */
-     , (23924,  13, True ) /* Ethereal */
-     , (23924,  14, True ) /* GravityStatus */
-     , (23924,  19, True ) /* Attackable */;
+     , (23924, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (23924, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23924,   1, 'Hangover Cure') /* Name */

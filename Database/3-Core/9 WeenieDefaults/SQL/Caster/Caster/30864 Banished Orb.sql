@@ -18,17 +18,12 @@ VALUES (30864,   1,      32768) /* ItemType - Caster */
      , (30864, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30864,   1, False) /* Stuck */
-     , (30864,  11, True ) /* IgnoreCollisions */
-     , (30864,  13, True ) /* Ethereal */
-     , (30864,  14, True ) /* GravityStatus */
-     , (30864,  19, True ) /* Attackable */
-     , (30864,  22, True ) /* Inscribable */;
+VALUES (30864,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30864,   5,  -0.033) /* ManaRate */
+VALUES (30864,   5,   -0.03) /* ManaRate */
      , (30864,  29,       1) /* WeaponDefense */
-     , (30864, 144, 1.06654635989768E-314) /* ManaConversionMod */;
+     , (30864, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30864,   1, 'Banished Orb') /* Name */;

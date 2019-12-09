@@ -15,11 +15,7 @@ VALUES (27573,   1,         16) /* ItemType - Creature */
      , (27573, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27573,   1, True ) /* Stuck */
-     , (27573,  12, True ) /* ReportCollisions */
-     , (27573,  13, False) /* Ethereal */
-     , (27573,  14, True ) /* GravityStatus */
-     , (27573,  19, True ) /* Attackable */;
+VALUES (27573,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27573,   1, 'Olthoi Worker') /* Name */

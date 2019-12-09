@@ -8,16 +8,12 @@ VALUES (25456,   1,         16) /* ItemType - Creature */
      , (25456,   6,        255) /* ItemsCapacity */
      , (25456,   7,        255) /* ContainersCapacity */
      , (25456,  16,          1) /* ItemUseable - No */
-     , (25456,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
+     , (25456,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25456, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25456, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25456,   1, True ) /* Stuck */
-     , (25456,  12, True ) /* ReportCollisions */
-     , (25456,  13, False) /* Ethereal */
-     , (25456,  14, True ) /* GravityStatus */
-     , (25456,  19, True ) /* Attackable */;
+VALUES (25456,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25456,   1, 'Reinforced Door') /* Name */

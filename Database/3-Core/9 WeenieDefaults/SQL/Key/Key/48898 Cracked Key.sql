@@ -8,19 +8,14 @@ VALUES (48898,   1,      16384) /* ItemType - Key */
      , (48898,   5,         20) /* EncumbranceVal */
      , (48898,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (48898,  19,          0) /* Value */
-     , (48898,  65,        101) /* Placement - Resting */
      , (48898,  91,          1) /* MaxStructure */
      , (48898,  92,          1) /* Structure */
      , (48898,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48898,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (48898,  94,        640) /* TargetType - LockableMagicTarget */
+     , (48898, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48898,   1, False) /* Stuck */
-     , (48898,  11, True ) /* IgnoreCollisions */
-     , (48898,  13, True ) /* Ethereal */
-     , (48898,  14, True ) /* GravityStatus */
-     , (48898,  19, True ) /* Attackable */
-     , (48898,  22, True ) /* Inscribable */;
+VALUES (48898,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48898,   1, 'Cracked Key') /* Name */

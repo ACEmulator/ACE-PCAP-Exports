@@ -12,19 +12,13 @@ VALUES (1105,   1,      65536) /* ItemType - Portal */
      , (1105, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1105,   1, True ) /* Stuck */
-     , (1105,  12, True ) /* ReportCollisions */
-     , (1105,  13, True ) /* Ethereal */
-     , (1105,  14, True ) /* GravityStatus */
-     , (1105,  15, True ) /* LightsStatus */
-     , (1105,  19, True ) /* Attackable */;
+VALUES (1105,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1105,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1105,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1105,   1, 'River Bridge Portal') /* Name */
-     , (1105,  38, 'River Bridge Portal (27.1N, 47.4E).') /* AppraisalPortalDestination */
      , (1105, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

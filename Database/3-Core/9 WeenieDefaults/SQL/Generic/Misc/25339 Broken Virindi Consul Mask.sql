@@ -9,17 +9,12 @@ VALUES (25339,   1,        128) /* ItemType - Misc */
      , (25339,  16,          1) /* ItemUseable - No */
      , (25339,  19,          0) /* Value */
      , (25339,  33,          1) /* Bonded - Bonded */
-     , (25339,  65,        101) /* Placement - Resting */
      , (25339,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25339, 114,          1) /* Attuned - Attuned */;
+     , (25339, 114,          1) /* Attuned - Attuned */
+     , (25339, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25339,   1, False) /* Stuck */
-     , (25339,  11, True ) /* IgnoreCollisions */
-     , (25339,  13, True ) /* Ethereal */
-     , (25339,  14, True ) /* GravityStatus */
-     , (25339,  19, True ) /* Attackable */
-     , (25339,  22, True ) /* Inscribable */;
+VALUES (25339,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25339,   1, 'Broken Virindi Consul Mask') /* Name */

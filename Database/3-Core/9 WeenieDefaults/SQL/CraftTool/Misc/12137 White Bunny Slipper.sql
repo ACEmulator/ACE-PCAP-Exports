@@ -12,17 +12,12 @@ VALUES (12137,   1,        128) /* ItemType - Misc */
      , (12137,  15,          1) /* StackUnitValue */
      , (12137,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (12137,  19,          1) /* Value */
-     , (12137,  65,        101) /* Placement - Resting */
      , (12137,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12137,  94,        128) /* TargetType - Misc */;
+     , (12137,  94,        128) /* TargetType - Misc */
+     , (12137, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12137,   1, False) /* Stuck */
-     , (12137,  11, True ) /* IgnoreCollisions */
-     , (12137,  13, True ) /* Ethereal */
-     , (12137,  14, True ) /* GravityStatus */
-     , (12137,  19, True ) /* Attackable */
-     , (12137,  22, True ) /* Inscribable */;
+VALUES (12137,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12137,   1, 'White Bunny Slipper') /* Name */;

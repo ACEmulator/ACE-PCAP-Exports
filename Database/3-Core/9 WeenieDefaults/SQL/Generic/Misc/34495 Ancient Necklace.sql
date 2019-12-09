@@ -9,16 +9,9 @@ VALUES (34495,   1,        128) /* ItemType - Misc */
      , (34495,  16,          1) /* ItemUseable - No */
      , (34495,  19,          0) /* Value */
      , (34495,  33,          1) /* Bonded - Bonded */
-     , (34495,  65,        101) /* Placement - Resting */
      , (34495,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34495, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34495,   1, False) /* Stuck */
-     , (34495,  11, True ) /* IgnoreCollisions */
-     , (34495,  13, True ) /* Ethereal */
-     , (34495,  14, True ) /* GravityStatus */
-     , (34495,  19, True ) /* Attackable */;
+     , (34495, 114,          1) /* Attuned - Attuned */
+     , (34495, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34495,   1, 'Ancient Necklace') /* Name */

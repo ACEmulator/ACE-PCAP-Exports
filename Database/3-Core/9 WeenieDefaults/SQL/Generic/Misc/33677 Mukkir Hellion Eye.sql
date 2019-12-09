@@ -8,16 +8,11 @@ VALUES (33677,   1,        128) /* ItemType - Misc */
      , (33677,   5,         50) /* EncumbranceVal */
      , (33677,  16,          1) /* ItemUseable - No */
      , (33677,  18,          8) /* UiEffects - BoostMana */
-     , (33677,  65,        101) /* Placement - Resting */
-     , (33677,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (33677,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33677, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33677,   1, False) /* Stuck */
-     , (33677,  11, True ) /* IgnoreCollisions */
-     , (33677,  13, True ) /* Ethereal */
-     , (33677,  14, True ) /* GravityStatus */
-     , (33677,  19, True ) /* Attackable */
-     , (33677,  22, True ) /* Inscribable */;
+VALUES (33677,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33677,   1, 'Mukkir Hellion Eye') /* Name */;

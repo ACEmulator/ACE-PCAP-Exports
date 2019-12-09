@@ -12,16 +12,11 @@ VALUES (12056,   1,          1) /* ItemType - MeleeWeapon */
      , (12056,  18,        256) /* UiEffects - Acid */
      , (12056,  19,         75) /* Value */
      , (12056,  51,          1) /* CombatUse - Melee */
-     , (12056,  65,          1) /* Placement - RightHandCombat */
-     , (12056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12056, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12056,   1, False) /* Stuck */
-     , (12056,  11, True ) /* IgnoreCollisions */
-     , (12056,  13, True ) /* Ethereal */
-     , (12056,  14, True ) /* GravityStatus */
-     , (12056,  19, True ) /* Attackable */
-     , (12056,  22, True ) /* Inscribable */;
+VALUES (12056,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12056,   1, 'Bandit Acid Jambiya') /* Name */;

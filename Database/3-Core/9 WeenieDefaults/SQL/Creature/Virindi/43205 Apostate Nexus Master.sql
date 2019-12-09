@@ -15,11 +15,7 @@ VALUES (43205,   1,         16) /* ItemType - Creature */
      , (43205, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43205,   1, True ) /* Stuck */
-     , (43205,  12, True ) /* ReportCollisions */
-     , (43205,  13, False) /* Ethereal */
-     , (43205,  14, True ) /* GravityStatus */
-     , (43205,  19, True ) /* Attackable */;
+VALUES (43205,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43205,   1, 'Apostate Nexus Master') /* Name */

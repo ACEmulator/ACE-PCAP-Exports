@@ -8,21 +8,14 @@ VALUES (33192,   1,       8192) /* ItemType - Writable */
      , (33192,   5,         10) /* EncumbranceVal */
      , (33192,  16,          8) /* ItemUseable - Contained */
      , (33192,  19,          0) /* Value */
-     , (33192,  65,        101) /* Placement - Resting */
      , (33192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33192, 174,          3) /* AppraisalPages */
-     , (33192, 175,          3) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33192,   1, False) /* Stuck */
-     , (33192,  11, True ) /* IgnoreCollisions */
-     , (33192,  13, True ) /* Ethereal */
-     , (33192,  14, True ) /* GravityStatus */
-     , (33192,  19, True ) /* Attackable */;
+     , (33192, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (33192, 8042,          3) /* PCAPRecordedAppraisalPages */
+     , (33192, 8043,          3) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33192,  39, 1.22000002861023) /* DefaultScale */
-     , (33192,  54, 0.300000011920929) /* UseRadius */;
+VALUES (33192,  39,    1.22) /* DefaultScale */
+     , (33192,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33192,   1, 'Pheraion''s Notes') /* Name */

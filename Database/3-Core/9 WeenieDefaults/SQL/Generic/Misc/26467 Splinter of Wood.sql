@@ -6,19 +6,14 @@ VALUES (26467, 'splinterwandulgrim', 1, '2019-02-10 00:00:00') /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26467,   1,        128) /* ItemType - Misc */
      , (26467,   5,          5) /* EncumbranceVal */
-     , (26467,  65,        101) /* Placement - Resting */
-     , (26467,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (26467,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26467, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26467,   1, False) /* Stuck */
-     , (26467,  11, True ) /* IgnoreCollisions */
-     , (26467,  13, True ) /* Ethereal */
-     , (26467,  14, True ) /* GravityStatus */
-     , (26467,  19, True ) /* Attackable */
-     , (26467,  22, True ) /* Inscribable */;
+VALUES (26467,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26467,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (26467,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26467,   1, 'Splinter of Wood') /* Name */;

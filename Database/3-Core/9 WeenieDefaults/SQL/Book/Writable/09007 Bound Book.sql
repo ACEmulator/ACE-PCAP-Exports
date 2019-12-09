@@ -8,20 +8,13 @@ VALUES (9007,   1,       8192) /* ItemType - Writable */
      , (9007,   5,         10) /* EncumbranceVal */
      , (9007,  16,          8) /* ItemUseable - Contained */
      , (9007,  19,          0) /* Value */
-     , (9007,  65,        101) /* Placement - Resting */
      , (9007,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9007, 174,          6) /* AppraisalPages */
-     , (9007, 175,          6) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9007,   1, False) /* Stuck */
-     , (9007,  11, True ) /* IgnoreCollisions */
-     , (9007,  13, True ) /* Ethereal */
-     , (9007,  14, True ) /* GravityStatus */
-     , (9007,  19, True ) /* Attackable */;
+     , (9007, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (9007, 8042,          6) /* PCAPRecordedAppraisalPages */
+     , (9007, 8043,          6) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9007,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (9007,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9007,   1, 'Bound Book') /* Name */

@@ -12,20 +12,14 @@ VALUES (43000,   1,      65536) /* ItemType - Portal */
      , (43000, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43000,   1, True ) /* Stuck */
-     , (43000,  12, True ) /* ReportCollisions */
-     , (43000,  13, True ) /* Ethereal */
-     , (43000,  14, True ) /* GravityStatus */
-     , (43000,  15, True ) /* LightsStatus */
-     , (43000,  19, True ) /* Attackable */;
+VALUES (43000,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43000,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43000,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43000,   1, 'Base of the Timaru Plateau Portal') /* Name */
      , (43000,  16, 'This portal goes to Timaru, the home of the Aun Tumeroks atop the Marescent Plateau of Marae Lassel. This is a good town for characters over level 40.') /* LongDesc */
-     , (43000,  38, 'Base of the Timaru Plateau Portal (44.2N, 78.5W).') /* AppraisalPortalDestination */
      , (43000, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -16,12 +16,7 @@ VALUES (34088,   1,        128) /* ItemType - Misc */
      , (34088,  94,        256) /* TargetType - MissileWeapon */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34088,   1, False) /* Stuck */
-     , (34088,  11, True ) /* IgnoreCollisions */
-     , (34088,  13, True ) /* Ethereal */
-     , (34088,  14, True ) /* GravityStatus */
-     , (34088,  19, True ) /* Attackable */
-     , (34088,  22, True ) /* Inscribable */;
+VALUES (34088,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34088,   1, 'Scarecrow Stand') /* Name */

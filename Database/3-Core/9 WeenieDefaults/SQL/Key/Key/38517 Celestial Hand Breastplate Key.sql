@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38517,   1,      16384) /* ItemType - Key */
      , (38517,   5,         50) /* EncumbranceVal */
      , (38517,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (38517,  65,        101) /* Placement - Resting */
      , (38517,  91,          1) /* MaxStructure */
      , (38517,  92,          1) /* Structure */
      , (38517,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38517,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (38517,  94,        640) /* TargetType - LockableMagicTarget */
+     , (38517, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38517,   1, False) /* Stuck */
-     , (38517,  11, True ) /* IgnoreCollisions */
-     , (38517,  13, True ) /* Ethereal */
-     , (38517,  14, True ) /* GravityStatus */
-     , (38517,  19, True ) /* Attackable */
-     , (38517,  22, True ) /* Inscribable */;
+VALUES (38517,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38517,   1, 'Celestial Hand Breastplate Key') /* Name */;

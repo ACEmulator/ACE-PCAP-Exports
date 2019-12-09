@@ -8,16 +8,11 @@ VALUES (917,   1,        128) /* ItemType - Misc */
      , (917,   5,       9000) /* EncumbranceVal */
      , (917,  16,          1) /* ItemUseable - No */
      , (917,  19,        125) /* Value */
-     , (917,  65,        101) /* Placement - Resting */
-     , (917,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (917,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (917, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (917,   1, True ) /* Stuck */
-     , (917,  11, True ) /* IgnoreCollisions */
-     , (917,  12, True ) /* ReportCollisions */
-     , (917,  13, False) /* Ethereal */
-     , (917,  14, True ) /* GravityStatus */
-     , (917,  19, True ) /* Attackable */;
+VALUES (917,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (917,   1, 'Hebian-to') /* Name */

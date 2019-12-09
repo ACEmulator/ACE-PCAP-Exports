@@ -10,7 +10,6 @@ VALUES (12016,   1,      32768) /* ItemType - Caster */
      , (12016,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (12016,  18,          1) /* UiEffects - Magical */
      , (12016,  19,       7000) /* Value */
-     , (12016,  65,        101) /* Placement - Resting */
      , (12016,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (12016,  94,         16) /* TargetType - Creature */
      , (12016, 106,        250) /* ItemSpellcraft */
@@ -19,21 +18,16 @@ VALUES (12016,   1,      32768) /* ItemType - Caster */
      , (12016, 109,        250) /* ItemDifficulty */
      , (12016, 115,        250) /* ItemSkillLevelLimit */
      , (12016, 151,          2) /* HookType - Wall */
-     , (12016, 176,         33) /* AppraisalItemSkill */;
+     , (12016, 176,         33) /* AppraisalItemSkill */
+     , (12016, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12016,   1, False) /* Stuck */
-     , (12016,  11, True ) /* IgnoreCollisions */
-     , (12016,  13, True ) /* Ethereal */
-     , (12016,  14, True ) /* GravityStatus */
-     , (12016,  15, True ) /* LightsStatus */
-     , (12016,  19, True ) /* Attackable */
-     , (12016,  22, True ) /* Inscribable */;
+VALUES (12016,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12016,   5,   -0.05) /* ManaRate */
      , (12016,  29,       1) /* WeaponDefense */
-     , (12016, 144, 1.08013643784915E-314) /* ManaConversionMod */;
+     , (12016, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12016,   1, 'Dark Sorcerer''s Phylactery') /* Name */

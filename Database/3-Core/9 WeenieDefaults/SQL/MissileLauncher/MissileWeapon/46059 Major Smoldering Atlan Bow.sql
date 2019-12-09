@@ -18,7 +18,6 @@ VALUES (46059,   1,        256) /* ItemType - MissileWeapon */
      , (46059,  49,          0) /* WeaponTime */
      , (46059,  50,          1) /* AmmoType - Arrow */
      , (46059,  51,          2) /* CombatUse - Missle */
-     , (46059,  65,          3) /* Placement - LeftHand */
      , (46059,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46059, 106,        300) /* ItemSpellcraft */
      , (46059, 107,          4) /* ItemCurMana */
@@ -31,26 +30,22 @@ VALUES (46059,   1,        256) /* ItemType - MissileWeapon */
      , (46059, 160,        315) /* WieldDifficulty */
      , (46059, 204,          3) /* ElementalDamageBonus */
      , (46059, 263,         16) /* ResistanceModifierType */
-     , (46059, 8030,          0);
+     , (46059, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46059, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46059,   1, False) /* Stuck */
-     , (46059,  11, True ) /* IgnoreCollisions */
-     , (46059,  13, True ) /* Ethereal */
-     , (46059,  14, True ) /* GravityStatus */
-     , (46059,  19, True ) /* Attackable */
-     , (46059,  22, True ) /* Inscribable */
+VALUES (46059,  22, True ) /* Inscribable */
      , (46059,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46059,   5, -0.025000000372529) /* ManaRate */
+VALUES (46059,   5,   -0.03) /* ManaRate */
      , (46059,  21,       0) /* WeaponLength */
      , (46059,  22,       0) /* DamageVariance */
      , (46059,  26,    27.3) /* MaximumVelocity */
-     , (46059,  29, 1.27000002563) /* WeaponDefense */
-     , (46059,  39, 1.10000002384186) /* DefaultScale */
+     , (46059,  29,    1.27) /* WeaponDefense */
+     , (46059,  39,     1.1) /* DefaultScale */
      , (46059,  62,       1) /* WeaponOffense */
-     , (46059,  63, 2.29999995231628) /* DamageMod */
+     , (46059,  63,     2.3) /* DamageMod */
      , (46059, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -8,19 +8,14 @@ VALUES (27297,   1,      16384) /* ItemType - Key */
      , (27297,   5,        100) /* EncumbranceVal */
      , (27297,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (27297,  19,          0) /* Value */
-     , (27297,  65,        101) /* Placement - Resting */
      , (27297,  91,          3) /* MaxStructure */
      , (27297,  92,          3) /* Structure */
      , (27297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27297,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (27297,  94,        640) /* TargetType - LockableMagicTarget */
+     , (27297, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27297,   1, False) /* Stuck */
-     , (27297,  11, True ) /* IgnoreCollisions */
-     , (27297,  13, True ) /* Ethereal */
-     , (27297,  14, True ) /* GravityStatus */
-     , (27297,  19, True ) /* Attackable */
-     , (27297,  22, True ) /* Inscribable */;
+VALUES (27297,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27297,   1, 'Key to Yaruldi''s Hoard') /* Name */

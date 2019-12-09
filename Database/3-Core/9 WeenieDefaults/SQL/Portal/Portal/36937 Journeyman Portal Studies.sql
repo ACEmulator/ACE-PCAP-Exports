@@ -6,15 +6,11 @@ VALUES (36937, 'ace36937-journeymanportalstudies', 7, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36937,   1,      65536) /* ItemType - Portal */
      , (36937,  16,          1) /* ItemUseable - No */
-     , (36937,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (36937,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (36937, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36937,   1, True ) /* Stuck */
-     , (36937,  12, True ) /* ReportCollisions */
-     , (36937,  13, True ) /* Ethereal */
-     , (36937,  15, True ) /* LightsStatus */
-     , (36937,  19, True ) /* Attackable */;
+VALUES (36937,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36937,   1, 'Journeyman Portal Studies') /* Name */;

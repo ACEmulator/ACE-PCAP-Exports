@@ -16,7 +16,6 @@ VALUES (3886,   1,          1) /* ItemType - MeleeWeapon */
      , (3886,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (3886,  49,         24) /* WeaponTime */
      , (3886,  51,          1) /* CombatUse - Melee */
-     , (3886,  65,        101) /* Placement - Resting */
      , (3886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3886, 105,          8) /* ItemWorkmanship */
      , (3886, 106,        184) /* ItemSpellcraft */
@@ -32,24 +31,20 @@ VALUES (3886,   1,          1) /* ItemType - MeleeWeapon */
      , (3886, 177,          4) /* GemCount */
      , (3886, 178,         38) /* GemType */
      , (3886, 353,          2) /* WeaponType - Sword */
-     , (3886, 8030,          0);
+     , (3886, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (3886, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3886,   1, False) /* Stuck */
-     , (3886,  11, True ) /* IgnoreCollisions */
-     , (3886,  13, True ) /* Ethereal */
-     , (3886,  14, True ) /* GravityStatus */
-     , (3886,  19, True ) /* Attackable */
-     , (3886,  22, True ) /* Inscribable */;
+VALUES (3886,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3886,   5, -0.0416666666666667) /* ManaRate */
+VALUES (3886,   5,   -0.04) /* ManaRate */
      , (3886,  21,       0) /* WeaponLength */
-     , (3886,  22, 0.587497089639115) /* DamageVariance */
+     , (3886,  22,    0.59) /* DamageVariance */
      , (3886,  26,       0) /* MaximumVelocity */
-     , (3886,  29, 1.09633609845975) /* WeaponDefense */
-     , (3886,  39, 1.10000002384186) /* DefaultScale */
-     , (3886,  62, 1.07182446746505) /* WeaponOffense */
+     , (3886,  29,     1.1) /* WeaponDefense */
+     , (3886,  39,     1.1) /* DefaultScale */
+     , (3886,  62,    1.07) /* WeaponOffense */
      , (3886,  63,       1) /* DamageMod */
      , (3886, 8004,       8) /* PCAPRecordedWorkmanship */;
 

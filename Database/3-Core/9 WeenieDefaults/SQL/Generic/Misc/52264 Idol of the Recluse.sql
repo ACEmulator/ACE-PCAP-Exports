@@ -9,17 +9,12 @@ VALUES (52264,   1,        128) /* ItemType - Misc */
      , (52264,  16,          1) /* ItemUseable - No */
      , (52264,  19,          0) /* Value */
      , (52264,  33,          1) /* Bonded - Bonded */
-     , (52264,  65,        101) /* Placement - Resting */
      , (52264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52264, 114,          1) /* Attuned - Attuned */;
+     , (52264, 114,          1) /* Attuned - Attuned */
+     , (52264, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52264,   1, False) /* Stuck */
-     , (52264,  11, True ) /* IgnoreCollisions */
-     , (52264,  13, True ) /* Ethereal */
-     , (52264,  14, True ) /* GravityStatus */
-     , (52264,  19, True ) /* Attackable */
-     , (52264,  22, True ) /* Inscribable */;
+VALUES (52264,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52264,   1, 'Idol of the Recluse') /* Name */

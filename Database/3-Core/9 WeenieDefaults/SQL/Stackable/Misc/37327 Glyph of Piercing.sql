@@ -12,15 +12,8 @@ VALUES (37327,   1,        128) /* ItemType - Misc */
      , (37327,  15,      30000) /* StackUnitValue */
      , (37327,  16,          1) /* ItemUseable - No */
      , (37327,  19,      30000) /* Value */
-     , (37327,  65,        101) /* Placement - Resting */
-     , (37327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37327,   1, False) /* Stuck */
-     , (37327,  11, True ) /* IgnoreCollisions */
-     , (37327,  13, True ) /* Ethereal */
-     , (37327,  14, True ) /* GravityStatus */
-     , (37327,  19, True ) /* Attackable */;
+     , (37327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37327, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37327,   1, 'Glyph of Piercing') /* Name */

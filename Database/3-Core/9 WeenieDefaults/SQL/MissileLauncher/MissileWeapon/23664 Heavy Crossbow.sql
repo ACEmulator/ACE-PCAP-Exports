@@ -17,18 +17,13 @@ VALUES (23664,   1,        256) /* ItemType - MissileWeapon */
      , (23664,  49,         -1) /* WeaponTime */
      , (23664,  50,          2) /* AmmoType - Bolt */
      , (23664,  51,          2) /* CombatUse - Missle */
-     , (23664,  65,          3) /* Placement - LeftHand */
      , (23664,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23664, 353,          9) /* WeaponType - Crossbow */
-     , (23664, 8030,          0);
+     , (23664, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (23664, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23664,   1, False) /* Stuck */
-     , (23664,  11, True ) /* IgnoreCollisions */
-     , (23664,  13, True ) /* Ethereal */
-     , (23664,  14, True ) /* GravityStatus */
-     , (23664,  19, True ) /* Attackable */
-     , (23664,  22, True ) /* Inscribable */;
+VALUES (23664,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23664,  21,       0) /* WeaponLength */

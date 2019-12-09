@@ -13,19 +13,13 @@ VALUES (31315,   1,      65536) /* ItemType - Portal */
      , (31315, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31315,   1, True ) /* Stuck */
-     , (31315,  12, True ) /* ReportCollisions */
-     , (31315,  13, True ) /* Ethereal */
-     , (31315,  14, True ) /* GravityStatus */
-     , (31315,  15, True ) /* LightsStatus */
-     , (31315,  19, True ) /* Attackable */;
+VALUES (31315,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31315,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31315,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31315,   1, 'Creepy Canyons') /* Name */
-     , (31315,  38, 'Creepy Canyons') /* AppraisalPortalDestination */
      , (31315, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

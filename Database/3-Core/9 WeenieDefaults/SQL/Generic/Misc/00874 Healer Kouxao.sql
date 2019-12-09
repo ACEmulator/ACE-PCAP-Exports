@@ -8,20 +8,15 @@ VALUES (874,   1,        128) /* ItemType - Misc */
      , (874,   5,       9000) /* EncumbranceVal */
      , (874,  16,          1) /* ItemUseable - No */
      , (874,  19,        125) /* Value */
-     , (874,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (874,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (874,   1, True ) /* Stuck */
-     , (874,  11, True ) /* IgnoreCollisions */
-     , (874,  12, True ) /* ReportCollisions */
-     , (874,  13, False) /* Ethereal */
-     , (874,  14, True ) /* GravityStatus */
-     , (874,  19, True ) /* Attackable */;
+VALUES (874,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (874, 8010,       0) /* PCAPRecordedVelocityX */
      , (874, 8011,       0) /* PCAPRecordedVelocityY */
-     , (874, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (874, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (874,   1, 'Healer Kouxao') /* Name */

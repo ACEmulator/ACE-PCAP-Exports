@@ -13,12 +13,7 @@ VALUES (32358,   1,      16384) /* ItemType - Key */
      , (32358,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32358,   1, False) /* Stuck */
-     , (32358,  11, True ) /* IgnoreCollisions */
-     , (32358,  13, True ) /* Ethereal */
-     , (32358,  14, True ) /* GravityStatus */
-     , (32358,  19, True ) /* Attackable */
-     , (32358,  22, True ) /* Inscribable */;
+VALUES (32358,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32358,   1, 'Viamont Staging Area Key') /* Name */;

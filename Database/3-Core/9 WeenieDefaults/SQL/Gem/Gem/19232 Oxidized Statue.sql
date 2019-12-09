@@ -14,15 +14,10 @@ VALUES (19232,   1,       2048) /* ItemType - Gem */
      , (19232, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19232,   1, False) /* Stuck */
-     , (19232,  11, True ) /* IgnoreCollisions */
-     , (19232,  13, True ) /* Ethereal */
-     , (19232,  14, True ) /* GravityStatus */
-     , (19232,  19, True ) /* Attackable */
-     , (19232,  22, True ) /* Inscribable */;
+VALUES (19232,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19232,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (19232,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19232,   1, 'Oxidized Statue') /* Name */

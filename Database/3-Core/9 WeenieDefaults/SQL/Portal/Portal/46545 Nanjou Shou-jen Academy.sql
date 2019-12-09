@@ -13,19 +13,13 @@ VALUES (46545,   1,      65536) /* ItemType - Portal */
      , (46545, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46545,   1, True ) /* Stuck */
-     , (46545,  12, True ) /* ReportCollisions */
-     , (46545,  13, True ) /* Ethereal */
-     , (46545,  14, True ) /* GravityStatus */
-     , (46545,  15, True ) /* LightsStatus */
-     , (46545,  19, True ) /* Attackable */;
+VALUES (46545,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46545,  54, -0.100000001490116) /* UseRadius */;
+VALUES (46545,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46545,   1, 'Nanjou Shou-jen Academy') /* Name */
-     , (46545,  38, 'Nanjou Shou-jen Academy') /* AppraisalPortalDestination */
      , (46545, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

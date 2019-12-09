@@ -18,11 +18,7 @@ VALUES (49191,   1,         16) /* ItemType - Creature */
      , (49191, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49191,   1, True ) /* Stuck */
-     , (49191,  12, True ) /* ReportCollisions */
-     , (49191,  13, True ) /* Ethereal */
-     , (49191,  14, True ) /* GravityStatus */
-     , (49191,  19, True ) /* Attackable */;
+VALUES (49191,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49191,   1, 'Wisp') /* Name */

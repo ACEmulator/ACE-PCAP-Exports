@@ -16,14 +16,10 @@ VALUES (44028,   1,         16) /* ItemType - Creature */
      , (44028, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44028,   1, True ) /* Stuck */
-     , (44028,  12, True ) /* ReportCollisions */
-     , (44028,  13, False) /* Ethereal */
-     , (44028,  14, True ) /* GravityStatus */
-     , (44028,  19, True ) /* Attackable */;
+VALUES (44028,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44028,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (44028,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44028,   1, 'Bak''tshay Slave') /* Name */

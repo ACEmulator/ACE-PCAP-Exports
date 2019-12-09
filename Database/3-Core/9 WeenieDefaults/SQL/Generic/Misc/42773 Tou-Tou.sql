@@ -11,11 +11,7 @@ VALUES (42773,   1,        128) /* ItemType - Misc */
      , (42773,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42773,   1, True ) /* Stuck */
-     , (42773,  11, True ) /* IgnoreCollisions */
-     , (42773,  12, True ) /* ReportCollisions */
-     , (42773,  13, True ) /* Ethereal */
-     , (42773,  19, True ) /* Attackable */;
+VALUES (42773,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42773,   1, 'Tou-Tou') /* Name */

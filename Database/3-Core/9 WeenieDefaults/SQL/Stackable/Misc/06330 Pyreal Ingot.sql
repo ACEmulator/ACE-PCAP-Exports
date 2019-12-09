@@ -12,17 +12,12 @@ VALUES (6330,   1,        128) /* ItemType - Misc */
      , (6330,  15,       1000) /* StackUnitValue */
      , (6330,  16,          1) /* ItemUseable - No */
      , (6330,  19,       1000) /* Value */
-     , (6330,  65,        101) /* Placement - Resting */
      , (6330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6330, 151,          2) /* HookType - Wall */;
+     , (6330, 151,          2) /* HookType - Wall */
+     , (6330, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6330,   1, False) /* Stuck */
-     , (6330,  11, True ) /* IgnoreCollisions */
-     , (6330,  13, True ) /* Ethereal */
-     , (6330,  14, True ) /* GravityStatus */
-     , (6330,  19, True ) /* Attackable */
-     , (6330,  22, True ) /* Inscribable */;
+VALUES (6330,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6330,   1, 'Pyreal Ingot') /* Name */

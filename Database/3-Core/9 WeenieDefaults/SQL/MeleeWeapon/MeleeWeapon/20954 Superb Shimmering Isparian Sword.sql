@@ -11,17 +11,12 @@ VALUES (20954,   1,          1) /* ItemType - MeleeWeapon */
      , (20954,  18,          1) /* UiEffects - Magical */
      , (20954,  19,       6000) /* Value */
      , (20954,  51,          1) /* CombatUse - Melee */
-     , (20954,  65,        101) /* Placement - Resting */
      , (20954,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20954, 151,          2) /* HookType - Wall */;
+     , (20954, 151,          2) /* HookType - Wall */
+     , (20954, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20954,   1, False) /* Stuck */
-     , (20954,  11, True ) /* IgnoreCollisions */
-     , (20954,  13, True ) /* Ethereal */
-     , (20954,  14, True ) /* GravityStatus */
-     , (20954,  19, True ) /* Attackable */
-     , (20954,  22, True ) /* Inscribable */;
+VALUES (20954,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20954,   1, 'Superb Shimmering Isparian Sword') /* Name */;

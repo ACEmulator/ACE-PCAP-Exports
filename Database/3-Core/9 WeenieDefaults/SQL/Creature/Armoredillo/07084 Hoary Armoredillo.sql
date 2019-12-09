@@ -15,11 +15,7 @@ VALUES (7084,   1,         16) /* ItemType - Creature */
      , (7084, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7084,   1, True ) /* Stuck */
-     , (7084,  12, True ) /* ReportCollisions */
-     , (7084,  13, False) /* Ethereal */
-     , (7084,  14, True ) /* GravityStatus */
-     , (7084,  19, True ) /* Attackable */;
+VALUES (7084,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7084,   1, 'Hoary Armoredillo') /* Name */

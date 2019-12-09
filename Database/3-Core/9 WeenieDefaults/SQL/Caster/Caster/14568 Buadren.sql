@@ -12,7 +12,6 @@ VALUES (14568,   1,      32768) /* ItemType - Caster */
      , (14568,  18,          1) /* UiEffects - Magical */
      , (14568,  19,          0) /* Value */
      , (14568,  33,          1) /* Bonded - Bonded */
-     , (14568,  65,          1) /* Placement - RightHandCombat */
      , (14568,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14568,  94,         16) /* TargetType - Creature */
      , (14568, 106,        320) /* ItemSpellcraft */
@@ -23,18 +22,14 @@ VALUES (14568,   1,      32768) /* ItemType - Caster */
      , (14568, 151,          3) /* HookType - Floor, Wall */
      , (14568, 158,          7) /* WieldRequirements - Level */
      , (14568, 159,          1) /* WieldSkillType - Axe */
-     , (14568, 160,         50) /* WieldDifficulty */;
+     , (14568, 160,         50) /* WieldDifficulty */
+     , (14568, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14568,   1, False) /* Stuck */
-     , (14568,  11, True ) /* IgnoreCollisions */
-     , (14568,  13, True ) /* Ethereal */
-     , (14568,  14, True ) /* GravityStatus */
-     , (14568,  19, True ) /* Attackable */
-     , (14568,  22, True ) /* Inscribable */;
+VALUES (14568,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14568,   5, -0.0500000007450581) /* ManaRate */
+VALUES (14568,   5,   -0.05) /* ManaRate */
      , (14568,  29,       1) /* WeaponDefense */
      , (14568, 144,       0) /* ManaConversionMod */;
 

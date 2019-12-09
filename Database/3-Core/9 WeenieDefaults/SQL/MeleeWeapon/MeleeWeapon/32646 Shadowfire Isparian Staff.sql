@@ -11,17 +11,12 @@ VALUES (32646,   1,          1) /* ItemType - MeleeWeapon */
      , (32646,  18,          1) /* UiEffects - Magical */
      , (32646,  19,      10000) /* Value */
      , (32646,  51,          1) /* CombatUse - Melee */
-     , (32646,  65,        101) /* Placement - Resting */
      , (32646,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32646, 151,          2) /* HookType - Wall */;
+     , (32646, 151,          2) /* HookType - Wall */
+     , (32646, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32646,   1, False) /* Stuck */
-     , (32646,  11, True ) /* IgnoreCollisions */
-     , (32646,  13, True ) /* Ethereal */
-     , (32646,  14, True ) /* GravityStatus */
-     , (32646,  19, True ) /* Attackable */
-     , (32646,  22, True ) /* Inscribable */;
+VALUES (32646,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32646,   1, 'Shadowfire Isparian Staff') /* Name */;

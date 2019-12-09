@@ -13,17 +13,12 @@ VALUES (45151,   1,        128) /* ItemType - Misc */
      , (45151,  16,          1) /* ItemUseable - No */
      , (45151,  19,          0) /* Value */
      , (45151,  33,          1) /* Bonded - Bonded */
-     , (45151,  65,        101) /* Placement - Resting */
      , (45151,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45151, 114,          1) /* Attuned - Attuned */;
+     , (45151, 114,          1) /* Attuned - Attuned */
+     , (45151, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45151,   1, False) /* Stuck */
-     , (45151,  11, True ) /* IgnoreCollisions */
-     , (45151,  13, True ) /* Ethereal */
-     , (45151,  14, True ) /* GravityStatus */
-     , (45151,  19, True ) /* Attackable */
-     , (45151,  69, False) /* IsSellable */;
+VALUES (45151,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45151,   1, 'Mhoire Oubliette Portal Glyph') /* Name */

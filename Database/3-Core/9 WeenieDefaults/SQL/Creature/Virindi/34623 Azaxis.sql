@@ -15,11 +15,7 @@ VALUES (34623,   1,         16) /* ItemType - Creature */
      , (34623, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34623,   1, True ) /* Stuck */
-     , (34623,  12, True ) /* ReportCollisions */
-     , (34623,  13, False) /* Ethereal */
-     , (34623,  14, True ) /* GravityStatus */
-     , (34623,  19, True ) /* Attackable */;
+VALUES (34623,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34623,   1, 'Azaxis') /* Name */

@@ -13,18 +13,13 @@ VALUES (7420,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7420,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7420,  19,       1500) /* Value */
      , (7420,  33,          1) /* Bonded - Bonded */
-     , (7420,  65,        101) /* Placement - Resting */
      , (7420,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7420,  94,          1) /* TargetType - MeleeWeapon */
-     , (7420, 114,          1) /* Attuned - Attuned */;
+     , (7420, 114,          1) /* Attuned - Attuned */
+     , (7420, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7420,   1, False) /* Stuck */
-     , (7420,  11, True ) /* IgnoreCollisions */
-     , (7420,  13, True ) /* Ethereal */
-     , (7420,  14, True ) /* GravityStatus */
-     , (7420,  19, True ) /* Attackable */
-     , (7420,  22, True ) /* Inscribable */;
+VALUES (7420,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7420,   1, 'Blue Fire Infusion') /* Name */

@@ -15,14 +15,10 @@ VALUES (30902,   1,         16) /* ItemType - Creature */
      , (30902, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30902,   1, True ) /* Stuck */
-     , (30902,  12, True ) /* ReportCollisions */
-     , (30902,  13, False) /* Ethereal */
-     , (30902,  14, True ) /* GravityStatus */
-     , (30902,  19, True ) /* Attackable */;
+VALUES (30902,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30902,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30902,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30902,   1, 'Banished Mu-miyah') /* Name */

@@ -11,22 +11,17 @@ VALUES (5539,   1,      32768) /* ItemType - Caster */
      , (5539,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (5539,  18,          1) /* UiEffects - Magical */
      , (5539,  19,        100) /* Value */
-     , (5539,  65,          1) /* Placement - RightHandCombat */
      , (5539,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5539,  94,         16) /* TargetType - Creature */
-     , (5539, 151,          2) /* HookType - Wall */;
+     , (5539, 151,          2) /* HookType - Wall */
+     , (5539, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5539,   1, False) /* Stuck */
-     , (5539,  11, True ) /* IgnoreCollisions */
-     , (5539,  13, True ) /* Ethereal */
-     , (5539,  14, True ) /* GravityStatus */
-     , (5539,  19, True ) /* Attackable */
-     , (5539,  22, True ) /* Inscribable */;
+VALUES (5539,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5539,  29,       1) /* WeaponDefense */
-     , (5539, 144, 1.49698181689688E-314) /* ManaConversionMod */;
+     , (5539, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5539,   1, 'Wand') /* Name */;

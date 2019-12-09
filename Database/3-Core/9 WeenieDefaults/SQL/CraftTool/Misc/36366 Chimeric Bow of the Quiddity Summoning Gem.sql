@@ -12,17 +12,12 @@ VALUES (36366,   1,        128) /* ItemType - Misc */
      , (36366,  15,          3) /* StackUnitValue */
      , (36366,  16,          8) /* ItemUseable - Contained */
      , (36366,  19,          3) /* Value */
-     , (36366,  65,        101) /* Placement - Resting */
      , (36366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36366,  94,         16) /* TargetType - Creature */;
+     , (36366,  94,         16) /* TargetType - Creature */
+     , (36366, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36366,   1, False) /* Stuck */
-     , (36366,  11, True ) /* IgnoreCollisions */
-     , (36366,  13, True ) /* Ethereal */
-     , (36366,  14, True ) /* GravityStatus */
-     , (36366,  19, True ) /* Attackable */
-     , (36366,  22, True ) /* Inscribable */;
+VALUES (36366,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36366,   1, 'Chimeric Bow of the Quiddity Summoning Gem') /* Name */;

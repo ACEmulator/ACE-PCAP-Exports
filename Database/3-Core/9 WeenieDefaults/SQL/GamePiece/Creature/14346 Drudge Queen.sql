@@ -16,9 +16,6 @@ VALUES (14346,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14346,   1, True ) /* Stuck */
-     , (14346,  12, True ) /* ReportCollisions */
-     , (14346,  13, True ) /* Ethereal */
-     , (14346,  14, True ) /* GravityStatus */
      , (14346,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

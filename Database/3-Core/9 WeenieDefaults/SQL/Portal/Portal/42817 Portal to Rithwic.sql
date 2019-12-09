@@ -12,20 +12,14 @@ VALUES (42817,   1,      65536) /* ItemType - Portal */
      , (42817, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42817,   1, True ) /* Stuck */
-     , (42817,  12, True ) /* ReportCollisions */
-     , (42817,  13, True ) /* Ethereal */
-     , (42817,  14, True ) /* GravityStatus */
-     , (42817,  15, True ) /* LightsStatus */
-     , (42817,  19, True ) /* Attackable */;
+VALUES (42817,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42817,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42817,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42817,   1, 'Portal to Rithwic') /* Name */
      , (42817,  16, 'This portal goes to Rithwic, an Aluvian town on the shores of Lake Blessed. This is a good town for characters over level 10.') /* LongDesc */
-     , (42817,  38, 'Portal to Rithwic (10.8N, 59.3E).') /* AppraisalPortalDestination */
      , (42817, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

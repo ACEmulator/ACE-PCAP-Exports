@@ -10,16 +10,11 @@ VALUES (49772,   1,          2) /* ItemType - Armor */
      , (49772,   9,       8192) /* ValidLocations - UpperLegArmor */
      , (49772,  16,          1) /* ItemUseable - No */
      , (49772,  19,       1000) /* Value */
-     , (49772,  65,        101) /* Placement - Resting */
-     , (49772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (49772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (49772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49772,   1, False) /* Stuck */
-     , (49772,  11, True ) /* IgnoreCollisions */
-     , (49772,  13, True ) /* Ethereal */
-     , (49772,  14, True ) /* GravityStatus */
-     , (49772,  19, True ) /* Attackable */
-     , (49772,  22, True ) /* Inscribable */;
+VALUES (49772,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49772,   1, 'Shadow Tassets') /* Name */;

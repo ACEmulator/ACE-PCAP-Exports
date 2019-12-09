@@ -15,15 +15,10 @@ VALUES (40135,   1,         16) /* ItemType - Creature */
      , (40135, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40135,   1, True ) /* Stuck */
-     , (40135,  12, True ) /* ReportCollisions */
-     , (40135,  13, True ) /* Ethereal */
-     , (40135,  14, True ) /* GravityStatus */
-     , (40135,  15, True ) /* LightsStatus */
-     , (40135,  19, True ) /* Attackable */;
+VALUES (40135,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40135,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (40135,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40135,   1, 'Corroding Pillar') /* Name */

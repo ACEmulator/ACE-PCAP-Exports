@@ -12,18 +12,13 @@ VALUES (11832,   1,       2048) /* ItemType - Gem */
      , (11832,  15,          0) /* StackUnitValue */
      , (11832,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11832,  19,          0) /* Value */
-     , (11832,  65,        101) /* Placement - Resting */
      , (11832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11832,  94,        128) /* TargetType - Misc */
-     , (11832, 151,          2) /* HookType - Wall */;
+     , (11832, 151,          2) /* HookType - Wall */
+     , (11832, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11832,   1, False) /* Stuck */
-     , (11832,  11, True ) /* IgnoreCollisions */
-     , (11832,  13, True ) /* Ethereal */
-     , (11832,  14, True ) /* GravityStatus */
-     , (11832,  19, True ) /* Attackable */
-     , (11832,  22, True ) /* Inscribable */;
+VALUES (11832,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11832,   1, 'Gromnie Spear-Head') /* Name */

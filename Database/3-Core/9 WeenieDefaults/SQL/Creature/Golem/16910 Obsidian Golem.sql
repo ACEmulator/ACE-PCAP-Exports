@@ -16,12 +16,7 @@ VALUES (16910,   1,         16) /* ItemType - Creature */
      , (16910, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16910,   1, True ) /* Stuck */
-     , (16910,  12, True ) /* ReportCollisions */
-     , (16910,  13, False) /* Ethereal */
-     , (16910,  14, True ) /* GravityStatus */
-     , (16910,  19, True ) /* Attackable */
-     , (16910,  42, True ) /* AllowEdgeSlide */;
+VALUES (16910,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16910,   1, 'Obsidian Golem') /* Name */

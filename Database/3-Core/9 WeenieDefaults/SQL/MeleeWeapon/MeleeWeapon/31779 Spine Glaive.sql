@@ -28,15 +28,10 @@ VALUES (31779,   1,          1) /* ItemType - MeleeWeapon */
      , (31779, 177,          2) /* GemCount */
      , (31779, 178,         34) /* GemType */
      , (31779, 353,          5) /* WeaponType - Spear */
-     , (31779, 8030,          0);
+     , (31779, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31779,   1, False) /* Stuck */
-     , (31779,  11, True ) /* IgnoreCollisions */
-     , (31779,  13, True ) /* Ethereal */
-     , (31779,  14, True ) /* GravityStatus */
-     , (31779,  19, True ) /* Attackable */
-     , (31779,  22, True ) /* Inscribable */;
+VALUES (31779,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31779,  21,       0) /* WeaponLength */

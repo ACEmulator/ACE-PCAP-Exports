@@ -15,14 +15,10 @@ VALUES (30507,   1,         16) /* ItemType - Creature */
      , (30507, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30507,   1, True ) /* Stuck */
-     , (30507,  12, True ) /* ReportCollisions */
-     , (30507,  13, False) /* Ethereal */
-     , (30507,  14, True ) /* GravityStatus */
-     , (30507,  19, True ) /* Attackable */;
+VALUES (30507,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30507,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (30507,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30507,   1, 'Mad Star Marionette') /* Name */

@@ -12,19 +12,12 @@ VALUES (44211,   1,        128) /* ItemType - Misc */
      , (44211,  15,          1) /* StackUnitValue */
      , (44211,  16,          8) /* ItemUseable - Contained */
      , (44211,  19,          1) /* Value */
-     , (44211,  65,        101) /* Placement - Resting */
      , (44211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44211,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44211,   1, False) /* Stuck */
-     , (44211,  11, True ) /* IgnoreCollisions */
-     , (44211,  13, True ) /* Ethereal */
-     , (44211,  14, True ) /* GravityStatus */
-     , (44211,  19, True ) /* Attackable */;
+     , (44211,  94,         16) /* TargetType - Creature */
+     , (44211, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44211,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44211,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44211,   1, 'Crate of Burning Sands Arrowheads') /* Name */

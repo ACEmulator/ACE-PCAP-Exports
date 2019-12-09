@@ -11,12 +11,7 @@ VALUES (14733,   1,        128) /* ItemType - Misc */
      , (14733,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14733,   1, True ) /* Stuck */
-     , (14733,  11, True ) /* IgnoreCollisions */
-     , (14733,  12, True ) /* ReportCollisions */
-     , (14733,  13, False) /* Ethereal */
-     , (14733,  14, True ) /* GravityStatus */
-     , (14733,  19, True ) /* Attackable */;
+VALUES (14733,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14733,   1, 'Sand Kings Cottages') /* Name */;

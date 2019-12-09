@@ -16,14 +16,10 @@ VALUES (51703,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51703,   1, True ) /* Stuck */
-     , (51703,  12, True ) /* ReportCollisions */
-     , (51703,  13, False) /* Ethereal */
-     , (51703,  14, True ) /* GravityStatus */
-     , (51703,  19, True ) /* Attackable */
      , (51703, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51703,  76, 0.699999988079071) /* Translucency */;
+VALUES (51703,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51703,   1, 'Apparition of Apathy') /* Name */

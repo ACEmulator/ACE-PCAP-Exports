@@ -13,11 +13,7 @@ VALUES (39454,   1,         16) /* ItemType - Creature */
      , (39454, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39454,   1, True ) /* Stuck */
-     , (39454,  12, True ) /* ReportCollisions */
-     , (39454,  13, False) /* Ethereal */
-     , (39454,  14, True ) /* GravityStatus */
-     , (39454,  19, True ) /* Attackable */;
+VALUES (39454,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39454,   1, 'Tendril of T''thuun') /* Name */

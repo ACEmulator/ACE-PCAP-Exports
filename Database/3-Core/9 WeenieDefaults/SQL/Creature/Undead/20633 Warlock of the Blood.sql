@@ -15,18 +15,13 @@ VALUES (20633,   1,         16) /* ItemType - Creature */
      , (20633, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20633,   1, True ) /* Stuck */
-     , (20633,  12, True ) /* ReportCollisions */
-     , (20633,  13, False) /* Ethereal */
-     , (20633,  14, True ) /* GravityStatus */
-     , (20633,  19, True ) /* Attackable */
-     , (20633,  42, True ) /* AllowEdgeSlide */;
+VALUES (20633,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20633,  39, 1.10000002384186) /* DefaultScale */
-     , (20633, 8010, 0.973249733448029) /* PCAPRecordedVelocityX */
-     , (20633, 8011, -0.973249733448029) /* PCAPRecordedVelocityY */
-     , (20633, 8012, -0.32441657781601) /* PCAPRecordedVelocityZ */;
+VALUES (20633,  39,     1.1) /* DefaultScale */
+     , (20633, 8010,    0.97) /* PCAPRecordedVelocityX */
+     , (20633, 8011,   -0.97) /* PCAPRecordedVelocityY */
+     , (20633, 8012,   -0.32) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20633,   1, 'Warlock of the Blood') /* Name */

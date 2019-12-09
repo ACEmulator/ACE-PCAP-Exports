@@ -12,15 +12,8 @@ VALUES (45373,   1,        128) /* ItemType - Misc */
      , (45373,  15,      30000) /* StackUnitValue */
      , (45373,  16,          1) /* ItemUseable - No */
      , (45373,  19,      30000) /* Value */
-     , (45373,  65,        101) /* Placement - Resting */
-     , (45373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45373,   1, False) /* Stuck */
-     , (45373,  11, True ) /* IgnoreCollisions */
-     , (45373,  13, True ) /* Ethereal */
-     , (45373,  14, True ) /* GravityStatus */
-     , (45373,  19, True ) /* Attackable */;
+     , (45373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45373, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45373,   1, 'Glyph of Shield') /* Name */

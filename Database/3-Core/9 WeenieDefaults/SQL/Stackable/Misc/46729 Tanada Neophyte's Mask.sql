@@ -14,16 +14,9 @@ VALUES (46729,   1,        128) /* ItemType - Misc */
      , (46729,  16,          1) /* ItemUseable - No */
      , (46729,  19,        100) /* Value */
      , (46729,  33,          1) /* Bonded - Bonded */
-     , (46729,  65,        101) /* Placement - Resting */
      , (46729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46729, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46729,   1, False) /* Stuck */
-     , (46729,  11, True ) /* IgnoreCollisions */
-     , (46729,  13, True ) /* Ethereal */
-     , (46729,  14, True ) /* GravityStatus */
-     , (46729,  19, True ) /* Attackable */;
+     , (46729, 114,          1) /* Attuned - Attuned */
+     , (46729, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46729,   1, 'Tanada Neophyte''s Mask') /* Name */

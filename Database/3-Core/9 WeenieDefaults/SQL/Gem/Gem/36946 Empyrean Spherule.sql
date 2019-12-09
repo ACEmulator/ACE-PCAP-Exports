@@ -8,17 +8,12 @@ VALUES (36946,   1,       2048) /* ItemType - Gem */
      , (36946,   5,         10) /* EncumbranceVal */
      , (36946,  16,          1) /* ItemUseable - No */
      , (36946,  19,      10000) /* Value */
-     , (36946,  65,        101) /* Placement - Resting */
      , (36946,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36946, 151,          2) /* HookType - Wall */;
+     , (36946, 151,          2) /* HookType - Wall */
+     , (36946, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36946,   1, False) /* Stuck */
-     , (36946,  11, True ) /* IgnoreCollisions */
-     , (36946,  13, True ) /* Ethereal */
-     , (36946,  14, True ) /* GravityStatus */
-     , (36946,  19, True ) /* Attackable */
-     , (36946,  22, True ) /* Inscribable */;
+VALUES (36946,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36946,   1, 'Empyrean Spherule') /* Name */

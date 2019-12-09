@@ -9,20 +9,15 @@ VALUES (43167,   1,        128) /* ItemType - Misc */
      , (43167,  16,          8) /* ItemUseable - Contained */
      , (43167,  19,          0) /* Value */
      , (43167,  33,          1) /* Bonded - Bonded */
-     , (43167,  65,        101) /* Placement - Resting */
      , (43167,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43167, 114,          1) /* Attuned - Attuned */;
+     , (43167, 114,          1) /* Attuned - Attuned */
+     , (43167, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (43167,   3, 4000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43167,   1, False) /* Stuck */
-     , (43167,  11, True ) /* IgnoreCollisions */
-     , (43167,  13, True ) /* Ethereal */
-     , (43167,  14, True ) /* GravityStatus */
-     , (43167,  19, True ) /* Attackable */
-     , (43167,  22, True ) /* Inscribable */;
+VALUES (43167,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43167,   1, 'Jack of All Trades') /* Name */

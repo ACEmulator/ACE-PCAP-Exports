@@ -17,7 +17,6 @@ VALUES (27830,   1,          1) /* ItemType - MeleeWeapon */
      , (27830,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (27830,  49,         20) /* WeaponTime */
      , (27830,  51,          1) /* CombatUse - Melee */
-     , (27830,  65,        101) /* Placement - Resting */
      , (27830,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27830, 106,        200) /* ItemSpellcraft */
      , (27830, 107,        912) /* ItemCurMana */
@@ -30,25 +29,21 @@ VALUES (27830,   1,          1) /* ItemType - MeleeWeapon */
      , (27830, 160,        325) /* WieldDifficulty */
      , (27830, 166,         19) /* SlayerCreatureType - Virindi */
      , (27830, 353,          1) /* WeaponType - Unarmed */
-     , (27830, 8030,          0);
+     , (27830, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (27830, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27830,   1, False) /* Stuck */
-     , (27830,  11, True ) /* IgnoreCollisions */
-     , (27830,  13, True ) /* Ethereal */
-     , (27830,  14, True ) /* GravityStatus */
-     , (27830,  19, True ) /* Attackable */
-     , (27830,  22, True ) /* Inscribable */
+VALUES (27830,  22, True ) /* Inscribable */
      , (27830,  85, True ) /* AppraisalHasAllowedWielder */
      , (27830,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27830,   5, -0.0329999998211861) /* ManaRate */
+VALUES (27830,   5,   -0.03) /* ManaRate */
      , (27830,  21,       0) /* WeaponLength */
-     , (27830,  22, 0.709999978542328) /* DamageVariance */
+     , (27830,  22,    0.71) /* DamageVariance */
      , (27830,  26,       0) /* MaximumVelocity */
-     , (27830,  29, 1.08000004291534) /* WeaponDefense */
-     , (27830,  62, 1.08000004291534) /* WeaponOffense */
+     , (27830,  29,    1.08) /* WeaponDefense */
+     , (27830,  62,    1.08) /* WeaponOffense */
      , (27830,  63,       1) /* DamageMod */
      , (27830, 136,       1) /* CriticalMultiplier */
      , (27830, 147,       1) /* CriticalFrequency */;

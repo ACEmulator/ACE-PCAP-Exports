@@ -12,20 +12,15 @@ VALUES (41918,   1,        128) /* ItemType - Misc */
      , (41918,  15,         15) /* StackUnitValue */
      , (41918,  16,          8) /* ItemUseable - Contained */
      , (41918,  19,         15) /* Value */
-     , (41918,  65,        101) /* Placement - Resting */
      , (41918,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41918,  94,         16) /* TargetType - Creature */;
+     , (41918,  94,         16) /* TargetType - Creature */
+     , (41918, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41918,   1, False) /* Stuck */
-     , (41918,  11, True ) /* IgnoreCollisions */
-     , (41918,  13, True ) /* Ethereal */
-     , (41918,  14, True ) /* GravityStatus */
-     , (41918,  19, True ) /* Attackable */
-     , (41918,  22, True ) /* Inscribable */;
+VALUES (41918,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41918,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (41918,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41918,   1, 'Weapon Upgrade Kit Containment Gem') /* Name */;

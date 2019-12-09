@@ -15,15 +15,10 @@ VALUES (36221,   1,         16) /* ItemType - Creature */
      , (36221, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36221,   1, True ) /* Stuck */
-     , (36221,  12, True ) /* ReportCollisions */
-     , (36221,  13, False) /* Ethereal */
-     , (36221,  14, True ) /* GravityStatus */
-     , (36221,  15, True ) /* LightsStatus */
-     , (36221,  19, True ) /* Attackable */;
+VALUES (36221,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36221,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (36221,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36221,   1, 'Strife Proctor') /* Name */

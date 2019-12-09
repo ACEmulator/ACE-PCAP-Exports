@@ -12,17 +12,12 @@ VALUES (47386,   1,          1) /* ItemType - MeleeWeapon */
      , (47386,  18,         32) /* UiEffects - Fire */
      , (47386,  19,        350) /* Value */
      , (47386,  51,          1) /* CombatUse - Melee */
-     , (47386,  65,          1) /* Placement - RightHandCombat */
      , (47386,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47386, 151,          2) /* HookType - Wall */;
+     , (47386, 151,          2) /* HookType - Wall */
+     , (47386, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47386,   1, False) /* Stuck */
-     , (47386,  11, True ) /* IgnoreCollisions */
-     , (47386,  13, True ) /* Ethereal */
-     , (47386,  14, True ) /* GravityStatus */
-     , (47386,  19, True ) /* Attackable */
-     , (47386,  22, True ) /* Inscribable */;
+VALUES (47386,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47386,   1, 'Flaming Club') /* Name */;

@@ -8,15 +8,11 @@ VALUES (5080,   1,        128) /* ItemType - Misc */
      , (5080,   5,       9000) /* EncumbranceVal */
      , (5080,  16,          1) /* ItemUseable - No */
      , (5080,  19,        125) /* Value */
-     , (5080,  65,        101) /* Placement - Resting */
-     , (5080,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5080,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5080, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5080,   1, True ) /* Stuck */
-     , (5080,  11, True ) /* IgnoreCollisions */
-     , (5080,  12, True ) /* ReportCollisions */
-     , (5080,  13, False) /* Ethereal */
-     , (5080,  19, True ) /* Attackable */;
+VALUES (5080,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5080,   1, 'North Yanshi Outpost') /* Name */

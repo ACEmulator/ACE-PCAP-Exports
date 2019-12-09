@@ -12,18 +12,11 @@ VALUES (768,   1,       4096) /* ItemType - SpellComponents */
      , (768,  15,         10) /* StackUnitValue */
      , (768,  16,          1) /* ItemUseable - No */
      , (768,  19,         10) /* Value */
-     , (768,  65,        101) /* Placement - Resting */
-     , (768,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (768,   1, False) /* Stuck */
-     , (768,  11, True ) /* IgnoreCollisions */
-     , (768,  13, True ) /* Ethereal */
-     , (768,  14, True ) /* GravityStatus */
-     , (768,  19, True ) /* Attackable */;
+     , (768,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (768, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (768,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (768,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (768,   1, 'Damiana') /* Name */

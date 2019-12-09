@@ -12,17 +12,12 @@ VALUES (41956,   1,       2048) /* ItemType - Gem */
      , (41956,  15,          1) /* StackUnitValue */
      , (41956,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41956,  19,          1) /* Value */
-     , (41956,  65,        101) /* Placement - Resting */
      , (41956,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41956,  94,       2054) /* TargetType - Vestements, Gem */;
+     , (41956,  94,       2054) /* TargetType - Vestements, Gem */
+     , (41956, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41956,   1, False) /* Stuck */
-     , (41956,  11, True ) /* IgnoreCollisions */
-     , (41956,  13, True ) /* Ethereal */
-     , (41956,  14, True ) /* GravityStatus */
-     , (41956,  19, True ) /* Attackable */
-     , (41956,  69, False) /* IsSellable */;
+VALUES (41956,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41956,   1, 'Armor Tailoring Kit') /* Name */

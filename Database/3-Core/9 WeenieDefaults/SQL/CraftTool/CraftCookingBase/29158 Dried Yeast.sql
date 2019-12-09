@@ -17,12 +17,7 @@ VALUES (29158,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29158, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29158,   1, False) /* Stuck */
-     , (29158,  11, True ) /* IgnoreCollisions */
-     , (29158,  13, True ) /* Ethereal */
-     , (29158,  14, True ) /* GravityStatus */
-     , (29158,  19, True ) /* Attackable */
-     , (29158,  69, False) /* IsSellable */;
+VALUES (29158,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29158,   1, 'Dried Yeast') /* Name */

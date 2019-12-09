@@ -10,16 +10,9 @@ VALUES (38850,   1,      32768) /* ItemType - Caster */
      , (38850,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (38850,  16,          1) /* ItemUseable - No */
      , (38850,  18,       2048) /* UiEffects - Piercing */
-     , (38850,  65,          1) /* Placement - RightHandCombat */
      , (38850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38850,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38850,   1, False) /* Stuck */
-     , (38850,  11, True ) /* IgnoreCollisions */
-     , (38850,  13, True ) /* Ethereal */
-     , (38850,  14, True ) /* GravityStatus */
-     , (38850,  19, True ) /* Attackable */;
+     , (38850,  94,         16) /* TargetType - Creature */
+     , (38850, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38850,  39,     1.5) /* DefaultScale */;

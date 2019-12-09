@@ -9,14 +9,10 @@ VALUES (8864,   1,        512) /* ItemType - Container */
      , (8864,   6,         11) /* ItemsCapacity */
      , (8864,  16,         48) /* ItemUseable - ViewedRemote */
      , (8864,  19,          0) /* Value */
-     , (8864,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (8864,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8864,   1, True ) /* Stuck */
-     , (8864,  11, True ) /* IgnoreCollisions */
-     , (8864,  13, False) /* Ethereal */
-     , (8864,  14, True ) /* GravityStatus */
-     , (8864,  19, True ) /* Attackable */;
+VALUES (8864,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8864,  54,       1) /* UseRadius */;

@@ -11,16 +11,11 @@ VALUES (9034,   1,          2) /* ItemType - Armor */
      , (9034,  16,          1) /* ItemUseable - No */
      , (9034,  18,          1) /* UiEffects - Magical */
      , (9034,  19,       8000) /* Value */
-     , (9034,  65,        101) /* Placement - Resting */
-     , (9034,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (9034,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9034, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9034,   1, False) /* Stuck */
-     , (9034,  11, True ) /* IgnoreCollisions */
-     , (9034,  13, True ) /* Ethereal */
-     , (9034,  14, True ) /* GravityStatus */
-     , (9034,  19, True ) /* Attackable */
-     , (9034,  22, True ) /* Inscribable */;
+VALUES (9034,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9034,   1, 'Exarch Plate Coat') /* Name */;

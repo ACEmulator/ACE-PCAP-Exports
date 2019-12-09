@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11764,   1,        128) /* ItemType - Misc */
      , (11764,   5,        100) /* EncumbranceVal */
      , (11764,  16,          1) /* ItemUseable - No */
-     , (11764,  65,        101) /* Placement - Resting */
-     , (11764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11764, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11764,   1, False) /* Stuck */
-     , (11764,  11, True ) /* IgnoreCollisions */
-     , (11764,  13, True ) /* Ethereal */
-     , (11764,  14, True ) /* GravityStatus */
-     , (11764,  19, True ) /* Attackable */
-     , (11764,  22, True ) /* Inscribable */;
+VALUES (11764,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11764,   1, 'Reedshark Banner') /* Name */;

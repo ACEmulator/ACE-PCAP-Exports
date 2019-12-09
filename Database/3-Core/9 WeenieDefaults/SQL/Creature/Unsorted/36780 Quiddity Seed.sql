@@ -37,11 +37,7 @@ VALUES (36780,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36780,   1, True ) /* Stuck */
-     , (36780,  11, True ) /* IgnoreCollisions */
-     , (36780,  13, True ) /* Ethereal */
-     , (36780,  14, True ) /* GravityStatus */
-     , (36780,  19, False) /* Attackable */
-     , (36780,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (36780,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36780,   1, 'Quiddity Seed') /* Name */

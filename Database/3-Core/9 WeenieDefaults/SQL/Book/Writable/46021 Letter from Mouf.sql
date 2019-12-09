@@ -8,15 +8,8 @@ VALUES (46021,   1,       8192) /* ItemType - Writable */
      , (46021,   5,         25) /* EncumbranceVal */
      , (46021,  16,          8) /* ItemUseable - Contained */
      , (46021,  19,         10) /* Value */
-     , (46021,  65,        101) /* Placement - Resting */
-     , (46021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46021,   1, False) /* Stuck */
-     , (46021,  11, True ) /* IgnoreCollisions */
-     , (46021,  13, True ) /* Ethereal */
-     , (46021,  14, True ) /* GravityStatus */
-     , (46021,  19, True ) /* Attackable */;
+     , (46021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46021, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46021,   1, 'Letter from Mouf') /* Name */;

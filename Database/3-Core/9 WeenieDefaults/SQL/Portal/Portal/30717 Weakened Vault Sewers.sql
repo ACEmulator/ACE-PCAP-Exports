@@ -13,20 +13,14 @@ VALUES (30717,   1,      65536) /* ItemType - Portal */
      , (30717, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30717,   1, True ) /* Stuck */
-     , (30717,  12, True ) /* ReportCollisions */
-     , (30717,  13, True ) /* Ethereal */
-     , (30717,  14, True ) /* GravityStatus */
-     , (30717,  15, True ) /* LightsStatus */
-     , (30717,  19, True ) /* Attackable */;
+VALUES (30717,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30717,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30717,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30717,   1, 'Weakened Vault Sewers') /* Name */
      , (30717,  16, 'You must best the spirits of the temple before you may pass through this portal.') /* LongDesc */
-     , (30717,  38, 'Weakened Vault Sewers') /* AppraisalPortalDestination */
      , (30717, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

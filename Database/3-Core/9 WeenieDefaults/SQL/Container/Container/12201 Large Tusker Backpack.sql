@@ -9,20 +9,16 @@ VALUES (12201,   1,        512) /* ItemType - Container */
      , (12201,   6,         24) /* ItemsCapacity */
      , (12201,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (12201,  19,        250) /* Value */
-     , (12201,  65,        101) /* Placement - Resting */
-     , (12201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12201, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12201,   1, False) /* Stuck */
-     , (12201,   2, True ) /* Open */
-     , (12201,  11, True ) /* IgnoreCollisions */
-     , (12201,  13, True ) /* Ethereal */
-     , (12201,  14, True ) /* GravityStatus */
-     , (12201,  19, True ) /* Attackable */
-     , (12201,  22, True ) /* Inscribable */;
+VALUES (12201,   2, False) /* Open */
+     , (12201,  22, True ) /* Inscribable */
+     , (12201,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12201,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (12201,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12201,   1, 'Large Tusker Backpack') /* Name */

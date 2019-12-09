@@ -15,16 +15,11 @@ VALUES (51898,   1,          1) /* ItemType - MeleeWeapon */
      , (51898, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51898,   1, False) /* Stuck */
-     , (51898,  11, True ) /* IgnoreCollisions */
-     , (51898,  13, True ) /* Ethereal */
-     , (51898,  14, True ) /* GravityStatus */
-     , (51898,  19, True ) /* Attackable */
-     , (51898,  22, True ) /* Inscribable */;
+VALUES (51898,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51898,  39,       2) /* DefaultScale */
-     , (51898,  76, 0.699999988079071) /* Translucency */;
+     , (51898,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51898,   1, 'Keeson''s Mace') /* Name */;

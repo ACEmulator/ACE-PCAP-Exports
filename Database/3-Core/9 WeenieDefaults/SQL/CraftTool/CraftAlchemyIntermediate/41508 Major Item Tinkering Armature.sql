@@ -12,17 +12,10 @@ VALUES (41508,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41508,  15,          1) /* StackUnitValue */
      , (41508,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41508,  19,          1) /* Value */
-     , (41508,  65,        101) /* Placement - Resting */
      , (41508,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41508,  94,          8) /* TargetType - Jewelry */
-     , (41508, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41508,   1, False) /* Stuck */
-     , (41508,  11, True ) /* IgnoreCollisions */
-     , (41508,  13, True ) /* Ethereal */
-     , (41508,  14, True ) /* GravityStatus */
-     , (41508,  19, True ) /* Attackable */;
+     , (41508, 151,          9) /* HookType - Floor, Yard */
+     , (41508, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41508,   1, 'Major Item Tinkering Armature') /* Name */

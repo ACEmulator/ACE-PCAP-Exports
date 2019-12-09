@@ -8,19 +8,14 @@ VALUES (34879,   1,        128) /* ItemType - Misc */
      , (34879,   5,         10) /* EncumbranceVal */
      , (34879,  16,          1) /* ItemUseable - No */
      , (34879,  19,       5000) /* Value */
-     , (34879,  65,        101) /* Placement - Resting */
-     , (34879,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34879,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34879, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34879,   1, False) /* Stuck */
-     , (34879,  11, True ) /* IgnoreCollisions */
-     , (34879,  13, True ) /* Ethereal */
-     , (34879,  14, True ) /* GravityStatus */
-     , (34879,  19, True ) /* Attackable */
-     , (34879,  22, True ) /* Inscribable */;
+VALUES (34879,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34879,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (34879,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34879,   1, 'Superb Imprinting Mote') /* Name */

@@ -9,20 +9,15 @@ VALUES (23994,   1,      16384) /* ItemType - Key */
      , (23994,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (23994,  19,          0) /* Value */
      , (23994,  33,          1) /* Bonded - Bonded */
-     , (23994,  65,        101) /* Placement - Resting */
      , (23994,  91,          1) /* MaxStructure */
      , (23994,  92,          1) /* Structure */
      , (23994,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23994,  94,        640) /* TargetType - LockableMagicTarget */
-     , (23994, 114,          1) /* Attuned - Attuned */;
+     , (23994, 114,          1) /* Attuned - Attuned */
+     , (23994, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23994,   1, False) /* Stuck */
-     , (23994,  11, True ) /* IgnoreCollisions */
-     , (23994,  13, True ) /* Ethereal */
-     , (23994,  14, True ) /* GravityStatus */
-     , (23994,  19, True ) /* Attackable */
-     , (23994,  22, True ) /* Inscribable */;
+VALUES (23994,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23994,   1, 'Key to the Elder Cache') /* Name */

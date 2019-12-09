@@ -13,21 +13,16 @@ VALUES (8971,   1,        128) /* ItemType - Misc */
      , (8971,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8971,  19,          0) /* Value */
      , (8971,  33,          1) /* Bonded - Bonded */
-     , (8971,  65,        101) /* Placement - Resting */
      , (8971,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8971,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (8971, 114,          1) /* Attuned - Attuned */;
+     , (8971, 114,          1) /* Attuned - Attuned */
+     , (8971, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8971,   1, False) /* Stuck */
-     , (8971,  11, True ) /* IgnoreCollisions */
-     , (8971,  13, True ) /* Ethereal */
-     , (8971,  14, True ) /* GravityStatus */
-     , (8971,  19, True ) /* Attackable */
-     , (8971,  22, True ) /* Inscribable */;
+VALUES (8971,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8971,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (8971,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8971,   1, 'Well Bucket') /* Name */

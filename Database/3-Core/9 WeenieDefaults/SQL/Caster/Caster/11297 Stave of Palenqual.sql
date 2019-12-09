@@ -10,18 +10,13 @@ VALUES (11297,   1,      32768) /* ItemType - Caster */
      , (11297,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (11297,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (11297,  18,          1) /* UiEffects - Magical */
-     , (11297,  65,          1) /* Placement - RightHandCombat */
      , (11297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11297,  94,         16) /* TargetType - Creature */
-     , (11297, 151,          2) /* HookType - Wall */;
+     , (11297, 151,          2) /* HookType - Wall */
+     , (11297, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11297,   1, False) /* Stuck */
-     , (11297,  11, True ) /* IgnoreCollisions */
-     , (11297,  13, True ) /* Ethereal */
-     , (11297,  14, True ) /* GravityStatus */
-     , (11297,  19, True ) /* Attackable */
-     , (11297,  22, True ) /* Inscribable */;
+VALUES (11297,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11297,   1, 'Stave of Palenqual') /* Name */;

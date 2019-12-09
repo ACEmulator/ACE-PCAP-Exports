@@ -9,22 +9,15 @@ VALUES (45875,   1,       8192) /* ItemType - Writable */
      , (45875,  16,          8) /* ItemUseable - Contained */
      , (45875,  19,          1) /* Value */
      , (45875,  33,          0) /* Bonded - Normal */
-     , (45875,  65,        101) /* Placement - Resting */
      , (45875,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45875, 114,          0) /* Attuned - Normal */
      , (45875, 151,          2) /* HookType - Wall */
-     , (45875, 174,          1) /* AppraisalPages */
-     , (45875, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45875,   1, False) /* Stuck */
-     , (45875,  11, True ) /* IgnoreCollisions */
-     , (45875,  13, True ) /* Ethereal */
-     , (45875,  14, True ) /* GravityStatus */
-     , (45875,  19, True ) /* Attackable */;
+     , (45875, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (45875, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (45875, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45875,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (45875,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45875,   1, 'Lucky Gold Letter') /* Name */

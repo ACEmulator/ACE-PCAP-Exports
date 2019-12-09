@@ -14,19 +14,13 @@ VALUES (29483,   1,      65536) /* ItemType - Portal */
      , (29483, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29483,   1, True ) /* Stuck */
-     , (29483,  12, True ) /* ReportCollisions */
-     , (29483,  13, True ) /* Ethereal */
-     , (29483,  14, True ) /* GravityStatus */
-     , (29483,  15, True ) /* LightsStatus */
-     , (29483,  19, True ) /* Attackable */;
+VALUES (29483,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29483,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29483,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29483,   1, 'Ruschk Icehold') /* Name */
-     , (29483,  38, 'Ruschk Icehold') /* AppraisalPortalDestination */
      , (29483, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

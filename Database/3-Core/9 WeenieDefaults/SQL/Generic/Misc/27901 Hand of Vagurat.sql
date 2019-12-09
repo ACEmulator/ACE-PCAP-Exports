@@ -9,17 +9,12 @@ VALUES (27901,   1,        128) /* ItemType - Misc */
      , (27901,  16,          1) /* ItemUseable - No */
      , (27901,  19,         10) /* Value */
      , (27901,  33,          1) /* Bonded - Bonded */
-     , (27901,  65,        101) /* Placement - Resting */
      , (27901,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27901, 114,          1) /* Attuned - Attuned */;
+     , (27901, 114,          1) /* Attuned - Attuned */
+     , (27901, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27901,   1, False) /* Stuck */
-     , (27901,  11, True ) /* IgnoreCollisions */
-     , (27901,  13, True ) /* Ethereal */
-     , (27901,  14, True ) /* GravityStatus */
-     , (27901,  19, True ) /* Attackable */
-     , (27901,  22, True ) /* Inscribable */;
+VALUES (27901,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27901,   1, 'Hand of Vagurat') /* Name */

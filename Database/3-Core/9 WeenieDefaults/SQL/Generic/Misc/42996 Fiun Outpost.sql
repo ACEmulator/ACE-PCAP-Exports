@@ -11,11 +11,7 @@ VALUES (42996,   1,        128) /* ItemType - Misc */
      , (42996,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42996,   1, True ) /* Stuck */
-     , (42996,  11, True ) /* IgnoreCollisions */
-     , (42996,  12, True ) /* ReportCollisions */
-     , (42996,  13, True ) /* Ethereal */
-     , (42996,  19, True ) /* Attackable */;
+VALUES (42996,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42996,   1, 'Fiun Outpost') /* Name */

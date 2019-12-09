@@ -16,16 +16,10 @@ VALUES (21170,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21170,   1, True ) /* Stuck */
-     , (21170,  12, True ) /* ReportCollisions */
-     , (21170,  13, False) /* Ethereal */
-     , (21170,  14, True ) /* GravityStatus */
-     , (21170,  15, True ) /* LightsStatus */
-     , (21170,  19, True ) /* Attackable */
-     , (21170,  42, True ) /* AllowEdgeSlide */
      , (21170, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21170,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (21170,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21170,   1, 'Voltarc') /* Name */

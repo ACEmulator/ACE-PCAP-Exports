@@ -12,19 +12,14 @@ VALUES (32945,   1,        128) /* ItemType - Misc */
      , (32945,  15,       5000) /* StackUnitValue */
      , (32945,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32945,  19,       5000) /* Value */
-     , (32945,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (32945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32945,  94,          2) /* TargetType - Armor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32945,   1, False) /* Stuck */
-     , (32945,  11, True ) /* IgnoreCollisions */
-     , (32945,  13, True ) /* Ethereal */
-     , (32945,  14, True ) /* GravityStatus */
-     , (32945,  19, True ) /* Attackable */
-     , (32945,  22, True ) /* Inscribable */;
+VALUES (32945,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32945,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (32945,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32945,   1, 'Prismatic Glyph') /* Name */;

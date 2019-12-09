@@ -10,17 +10,12 @@ VALUES (27108,   1,          8) /* ItemType - Jewelry */
      , (27108,  16,          1) /* ItemUseable - No */
      , (27108,  18,          1) /* UiEffects - Magical */
      , (27108,  19,        700) /* Value */
-     , (27108,  65,        101) /* Placement - Resting */
      , (27108,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27108, 151,          2) /* HookType - Wall */;
+     , (27108, 151,          2) /* HookType - Wall */
+     , (27108, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27108,   1, False) /* Stuck */
-     , (27108,  11, True ) /* IgnoreCollisions */
-     , (27108,  13, True ) /* Ethereal */
-     , (27108,  14, True ) /* GravityStatus */
-     , (27108,  19, True ) /* Attackable */
-     , (27108,  22, True ) /* Inscribable */;
+VALUES (27108,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27108,   1, 'Elysa''s Wristlet') /* Name */;

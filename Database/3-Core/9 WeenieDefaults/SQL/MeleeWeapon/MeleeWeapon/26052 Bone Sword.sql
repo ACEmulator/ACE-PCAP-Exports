@@ -11,16 +11,11 @@ VALUES (26052,   1,          1) /* ItemType - MeleeWeapon */
      , (26052,  16,          1) /* ItemUseable - No */
      , (26052,  19,       1150) /* Value */
      , (26052,  51,          1) /* CombatUse - Melee */
-     , (26052,  65,          1) /* Placement - RightHandCombat */
-     , (26052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (26052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26052, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26052,   1, False) /* Stuck */
-     , (26052,  11, True ) /* IgnoreCollisions */
-     , (26052,  13, True ) /* Ethereal */
-     , (26052,  14, True ) /* GravityStatus */
-     , (26052,  19, True ) /* Attackable */
-     , (26052,  22, True ) /* Inscribable */;
+VALUES (26052,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26052,   1, 'Bone Sword') /* Name */;

@@ -13,18 +13,10 @@ VALUES (36017,   1,       2048) /* ItemType - Gem */
      , (36017,  16,          8) /* ItemUseable - Contained */
      , (36017,  18,          1) /* UiEffects - Magical */
      , (36017,  19,          5) /* Value */
-     , (36017,  65,        101) /* Placement - Resting */
      , (36017,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36017,  94,         16) /* TargetType - Creature */
-     , (36017, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36017,   1, False) /* Stuck */
-     , (36017,  11, True ) /* IgnoreCollisions */
-     , (36017,  13, True ) /* Ethereal */
-     , (36017,  14, True ) /* GravityStatus */
-     , (36017,  15, True ) /* LightsStatus */
-     , (36017,  19, True ) /* Attackable */;
+     , (36017, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (36017, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36017,   1, 'Spectral Finesse Weapon Mastery Crystal') /* Name */

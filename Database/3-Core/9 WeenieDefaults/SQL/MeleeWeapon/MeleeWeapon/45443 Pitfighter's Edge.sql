@@ -15,12 +15,7 @@ VALUES (45443,   1,          1) /* ItemType - MeleeWeapon */
      , (45443, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45443,   1, False) /* Stuck */
-     , (45443,  11, True ) /* IgnoreCollisions */
-     , (45443,  13, True ) /* Ethereal */
-     , (45443,  14, True ) /* GravityStatus */
-     , (45443,  19, True ) /* Attackable */
-     , (45443,  22, True ) /* Inscribable */;
+VALUES (45443,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45443,   1, 'Pitfighter''s Edge') /* Name */;

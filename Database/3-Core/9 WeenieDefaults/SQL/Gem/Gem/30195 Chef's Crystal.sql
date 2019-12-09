@@ -16,22 +16,17 @@ VALUES (30195,   1,       2048) /* ItemType - Gem */
      , (30195,  19,          0) /* Value */
      , (30195,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30195,  33,         -1) /* Bonded - Slippery */
-     , (30195,  65,        101) /* Placement - Resting */
      , (30195,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30195,  94,         16) /* TargetType - Creature */
      , (30195, 106,        325) /* ItemSpellcraft */
      , (30195, 107,      10000) /* ItemCurMana */
      , (30195, 108,      10000) /* ItemMaxMana */
      , (30195, 109,          0) /* ItemDifficulty */
-     , (30195, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30195, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30195, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30195,   1, False) /* Stuck */
-     , (30195,  11, True ) /* IgnoreCollisions */
-     , (30195,  13, True ) /* Ethereal */
-     , (30195,  14, True ) /* GravityStatus */
-     , (30195,  19, True ) /* Attackable */
-     , (30195, 108, True ) /* RareUsesTimer */;
+VALUES (30195, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30195,   1, 'Chef''s Crystal') /* Name */

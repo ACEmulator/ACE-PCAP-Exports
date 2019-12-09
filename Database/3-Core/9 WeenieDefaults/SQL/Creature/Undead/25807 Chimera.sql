@@ -15,15 +15,11 @@ VALUES (25807,   1,         16) /* ItemType - Creature */
      , (25807, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25807,   1, True ) /* Stuck */
-     , (25807,  12, True ) /* ReportCollisions */
-     , (25807,  13, False) /* Ethereal */
-     , (25807,  14, True ) /* GravityStatus */
-     , (25807,  19, True ) /* Attackable */;
+VALUES (25807,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25807,  39, 1.10000002384186) /* DefaultScale */
-     , (25807,  76, 0.600000023841858) /* Translucency */;
+VALUES (25807,  39,     1.1) /* DefaultScale */
+     , (25807,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25807,   1, 'Chimera') /* Name */

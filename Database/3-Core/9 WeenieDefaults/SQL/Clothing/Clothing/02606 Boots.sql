@@ -10,16 +10,11 @@ VALUES (2606,   1,          4) /* ItemType - Clothing */
      , (2606,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (2606,  16,          1) /* ItemUseable - No */
      , (2606,  19,         50) /* Value */
-     , (2606,  65,        101) /* Placement - Resting */
-     , (2606,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (2606,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (2606, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2606,   1, False) /* Stuck */
-     , (2606,  11, True ) /* IgnoreCollisions */
-     , (2606,  13, True ) /* Ethereal */
-     , (2606,  14, True ) /* GravityStatus */
-     , (2606,  19, True ) /* Attackable */
-     , (2606,  22, True ) /* Inscribable */;
+VALUES (2606,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2606,   1, 'Boots') /* Name */;

@@ -12,17 +12,12 @@ VALUES (47335,   1,          1) /* ItemType - MeleeWeapon */
      , (47335,  18,        256) /* UiEffects - Acid */
      , (47335,  19,        350) /* Value */
      , (47335,  51,          1) /* CombatUse - Melee */
-     , (47335,  65,          1) /* Placement - RightHandCombat */
      , (47335,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47335, 151,          2) /* HookType - Wall */;
+     , (47335, 151,          2) /* HookType - Wall */
+     , (47335, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47335,   1, False) /* Stuck */
-     , (47335,  11, True ) /* IgnoreCollisions */
-     , (47335,  13, True ) /* Ethereal */
-     , (47335,  14, True ) /* GravityStatus */
-     , (47335,  19, True ) /* Attackable */
-     , (47335,  22, True ) /* Inscribable */;
+VALUES (47335,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47335,   1, 'Acid Club') /* Name */;

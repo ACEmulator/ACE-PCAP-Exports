@@ -16,22 +16,17 @@ VALUES (30219,   1,       2048) /* ItemType - Gem */
      , (30219,  19,          0) /* Value */
      , (30219,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30219,  33,         -1) /* Bonded - Slippery */
-     , (30219,  65,        101) /* Placement - Resting */
      , (30219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30219,  94,         16) /* TargetType - Creature */
      , (30219, 106,        325) /* ItemSpellcraft */
      , (30219, 107,      10000) /* ItemCurMana */
      , (30219, 108,      10000) /* ItemMaxMana */
      , (30219, 109,          0) /* ItemDifficulty */
-     , (30219, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30219, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30219, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30219,   1, False) /* Stuck */
-     , (30219,  11, True ) /* IgnoreCollisions */
-     , (30219,  13, True ) /* Ethereal */
-     , (30219,  14, True ) /* GravityStatus */
-     , (30219,  19, True ) /* Attackable */
-     , (30219, 108, True ) /* RareUsesTimer */;
+VALUES (30219, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30219,   1, 'Pearl of Lightning Baning') /* Name */

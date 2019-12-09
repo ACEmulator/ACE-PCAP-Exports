@@ -12,13 +12,7 @@ VALUES (22857,   1,       1024) /* ItemType - Useless */
      , (22857, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22857,   1, False) /* Stuck */
-     , (22857,  11, True ) /* IgnoreCollisions */
-     , (22857,  13, True ) /* Ethereal */
-     , (22857,  14, True ) /* GravityStatus */
-     , (22857,  15, True ) /* LightsStatus */
-     , (22857,  19, True ) /* Attackable */
-     , (22857,  22, True ) /* Inscribable */;
+VALUES (22857,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22857,   1, 'Tiki Torch') /* Name */

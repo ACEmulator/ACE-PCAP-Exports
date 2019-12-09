@@ -16,7 +16,6 @@ VALUES (9604,   1,          1) /* ItemType - MeleeWeapon */
      , (9604,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (9604,  49,         25) /* WeaponTime */
      , (9604,  51,          1) /* CombatUse - Melee */
-     , (9604,  65,        101) /* Placement - Resting */
      , (9604,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (9604, 106,        400) /* ItemSpellcraft */
      , (9604, 107,        842) /* ItemCurMana */
@@ -24,25 +23,20 @@ VALUES (9604,   1,          1) /* ItemType - MeleeWeapon */
      , (9604, 109,         50) /* ItemDifficulty */
      , (9604, 151,          2) /* HookType - Wall */
      , (9604, 353,          2) /* WeaponType - Sword */
-     , (9604, 8030,          0);
+     , (9604, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (9604, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9604,   1, False) /* Stuck */
-     , (9604,  11, True ) /* IgnoreCollisions */
-     , (9604,  13, True ) /* Ethereal */
-     , (9604,  14, True ) /* GravityStatus */
-     , (9604,  15, True ) /* LightsStatus */
-     , (9604,  19, True ) /* Attackable */
-     , (9604,  22, True ) /* Inscribable */;
+VALUES (9604,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9604,   5, -0.025000000372529) /* ManaRate */
+VALUES (9604,   5,   -0.03) /* ManaRate */
      , (9604,  21,       0) /* WeaponLength */
      , (9604,  22,     0.5) /* DamageVariance */
      , (9604,  26,       0) /* MaximumVelocity */
-     , (9604,  29, 1.05999994277954) /* WeaponDefense */
-     , (9604,  39, 1.10000002384186) /* DefaultScale */
-     , (9604,  62, 1.05999994277954) /* WeaponOffense */
+     , (9604,  29,    1.06) /* WeaponDefense */
+     , (9604,  39,     1.1) /* DefaultScale */
+     , (9604,  62,    1.06) /* WeaponOffense */
      , (9604,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

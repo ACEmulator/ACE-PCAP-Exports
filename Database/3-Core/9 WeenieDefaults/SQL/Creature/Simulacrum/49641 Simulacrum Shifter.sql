@@ -17,12 +17,7 @@ VALUES (49641,   1,         16) /* ItemType - Creature */
      , (49641, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49641,   1, True ) /* Stuck */
-     , (49641,  12, True ) /* ReportCollisions */
-     , (49641,  13, False) /* Ethereal */
-     , (49641,  14, True ) /* GravityStatus */
-     , (49641,  19, True ) /* Attackable */
-     , (49641,  42, True ) /* AllowEdgeSlide */;
+VALUES (49641,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49641,   1, 'Simulacrum Shifter') /* Name */

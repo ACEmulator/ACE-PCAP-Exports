@@ -15,11 +15,7 @@ VALUES (23088,   1,         16) /* ItemType - Creature */
      , (23088, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23088,   1, True ) /* Stuck */
-     , (23088,  12, True ) /* ReportCollisions */
-     , (23088,  13, False) /* Ethereal */
-     , (23088,  14, True ) /* GravityStatus */
-     , (23088,  19, True ) /* Attackable */;
+VALUES (23088,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23088,   1, 'Raider Prefect') /* Name */

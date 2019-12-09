@@ -15,14 +15,10 @@ VALUES (11991,   1,         16) /* ItemType - Creature */
      , (11991, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11991,   1, True ) /* Stuck */
-     , (11991,  12, True ) /* ReportCollisions */
-     , (11991,  13, False) /* Ethereal */
-     , (11991,  14, True ) /* GravityStatus */
-     , (11991,  19, True ) /* Attackable */;
+VALUES (11991,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11991,  76, 0.300000011920929) /* Translucency */;
+VALUES (11991,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11991,   1, 'Diamond Lord') /* Name */

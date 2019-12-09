@@ -11,12 +11,7 @@ VALUES (12579,   1,        128) /* ItemType - Misc */
      , (12579,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12579,   1, True ) /* Stuck */
-     , (12579,  11, True ) /* IgnoreCollisions */
-     , (12579,  12, True ) /* ReportCollisions */
-     , (12579,  13, False) /* Ethereal */
-     , (12579,  14, True ) /* GravityStatus */
-     , (12579,  19, True ) /* Attackable */;
+VALUES (12579,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12579,   1, 'Samsur Butte Cottages') /* Name */;

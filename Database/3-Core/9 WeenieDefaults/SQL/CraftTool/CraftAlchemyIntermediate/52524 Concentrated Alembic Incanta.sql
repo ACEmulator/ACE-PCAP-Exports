@@ -11,20 +11,13 @@ VALUES (52524,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (52524,  15,        250) /* StackUnitValue */
      , (52524,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (52524,  19,        250) /* Value */
-     , (52524,  65,        101) /* Placement - Resting */
      , (52524,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52524,  94,    3013615) /* TargetType - Item */
-     , (52524, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52524,   1, False) /* Stuck */
-     , (52524,  11, True ) /* IgnoreCollisions */
-     , (52524,  13, True ) /* Ethereal */
-     , (52524,  14, True ) /* GravityStatus */
-     , (52524,  19, True ) /* Attackable */;
+     , (52524, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (52524, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52524,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (52524,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52524,   1, 'Concentrated Alembic Incanta') /* Name */

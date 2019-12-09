@@ -12,15 +12,8 @@ VALUES (749,   1,       4096) /* ItemType - SpellComponents */
      , (749,  15,          5) /* StackUnitValue */
      , (749,  16,          1) /* ItemUseable - No */
      , (749,  19,          5) /* Value */
-     , (749,  65,        101) /* Placement - Resting */
-     , (749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (749,   1, False) /* Stuck */
-     , (749,  11, True ) /* IgnoreCollisions */
-     , (749,  13, True ) /* Ethereal */
-     , (749,  14, True ) /* GravityStatus */
-     , (749,  19, True ) /* Attackable */;
+     , (749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (749, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (749,   1, 'Poplar Talisman') /* Name */;

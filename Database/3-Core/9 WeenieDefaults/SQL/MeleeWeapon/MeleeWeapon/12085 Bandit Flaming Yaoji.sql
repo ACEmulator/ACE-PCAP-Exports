@@ -12,16 +12,11 @@ VALUES (12085,   1,          1) /* ItemType - MeleeWeapon */
      , (12085,  18,         32) /* UiEffects - Fire */
      , (12085,  19,        550) /* Value */
      , (12085,  51,          1) /* CombatUse - Melee */
-     , (12085,  65,          1) /* Placement - RightHandCombat */
-     , (12085,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12085,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12085, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12085,   1, False) /* Stuck */
-     , (12085,  11, True ) /* IgnoreCollisions */
-     , (12085,  13, True ) /* Ethereal */
-     , (12085,  14, True ) /* GravityStatus */
-     , (12085,  19, True ) /* Attackable */
-     , (12085,  22, True ) /* Inscribable */;
+VALUES (12085,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12085,   1, 'Bandit Flaming Yaoji') /* Name */;

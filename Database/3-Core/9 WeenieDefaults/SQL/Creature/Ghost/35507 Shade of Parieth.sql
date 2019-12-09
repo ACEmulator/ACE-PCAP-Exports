@@ -18,16 +18,11 @@ VALUES (35507,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35507,   1, True ) /* Stuck */
-     , (35507,  11, True ) /* IgnoreCollisions */
-     , (35507,  12, True ) /* ReportCollisions */
-     , (35507,  13, False) /* Ethereal */
-     , (35507,  14, True ) /* GravityStatus */
-     , (35507,  19, False) /* Attackable */
-     , (35507,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (35507,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35507,  39, 1.20000004768372) /* DefaultScale */
-     , (35507,  76, 0.800000011920929) /* Translucency */;
+VALUES (35507,  39,     1.2) /* DefaultScale */
+     , (35507,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35507,   1, 'Shade of Parieth') /* Name */

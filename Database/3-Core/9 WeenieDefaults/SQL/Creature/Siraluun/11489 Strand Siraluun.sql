@@ -15,14 +15,10 @@ VALUES (11489,   1,         16) /* ItemType - Creature */
      , (11489, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11489,   1, True ) /* Stuck */
-     , (11489,  12, True ) /* ReportCollisions */
-     , (11489,  13, False) /* Ethereal */
-     , (11489,  14, True ) /* GravityStatus */
-     , (11489,  19, True ) /* Attackable */;
+VALUES (11489,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11489,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (11489,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11489,   1, 'Strand Siraluun') /* Name */

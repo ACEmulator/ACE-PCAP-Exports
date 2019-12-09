@@ -18,7 +18,6 @@ VALUES (25634,   1,          1) /* ItemType - MeleeWeapon */
      , (25634,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (25634,  49,          5) /* WeaponTime */
      , (25634,  51,          1) /* CombatUse - Melee */
-     , (25634,  65,        101) /* Placement - Resting */
      , (25634,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25634, 106,        300) /* ItemSpellcraft */
      , (25634, 107,        751) /* ItemCurMana */
@@ -30,25 +29,21 @@ VALUES (25634,   1,          1) /* ItemType - MeleeWeapon */
      , (25634, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (25634, 160,        325) /* WieldDifficulty */
      , (25634, 166,         31) /* SlayerCreatureType - Human */
-     , (25634, 8030,          0);
+     , (25634, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (25634, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25634,   1, False) /* Stuck */
-     , (25634,  11, True ) /* IgnoreCollisions */
-     , (25634,  13, True ) /* Ethereal */
-     , (25634,  14, True ) /* GravityStatus */
-     , (25634,  19, True ) /* Attackable */
-     , (25634,  22, True ) /* Inscribable */
+VALUES (25634,  22, True ) /* Inscribable */
      , (25634,  85, True ) /* AppraisalHasAllowedWielder */
      , (25634,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25634,   5, -0.025000000372529) /* ManaRate */
+VALUES (25634,   5,   -0.03) /* ManaRate */
      , (25634,  21,       0) /* WeaponLength */
-     , (25634,  22, 0.400000005960464) /* DamageVariance */
+     , (25634,  22,     0.4) /* DamageVariance */
      , (25634,  26,       0) /* MaximumVelocity */
-     , (25634,  29, 1.20000004768372) /* WeaponDefense */
-     , (25634,  62, 1.21000003814697) /* WeaponOffense */
+     , (25634,  29,     1.2) /* WeaponDefense */
+     , (25634,  62,    1.21) /* WeaponOffense */
      , (25634,  63,       1) /* DamageMod */
      , (25634, 155,       1) /* IgnoreArmor */;
 

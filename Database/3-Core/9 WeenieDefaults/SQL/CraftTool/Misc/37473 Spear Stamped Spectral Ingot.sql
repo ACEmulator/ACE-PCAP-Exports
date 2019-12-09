@@ -12,17 +12,12 @@ VALUES (37473,   1,        128) /* ItemType - Misc */
      , (37473,  15,          1) /* StackUnitValue */
      , (37473,  16,          8) /* ItemUseable - Contained */
      , (37473,  19,          1) /* Value */
-     , (37473,  65,        101) /* Placement - Resting */
      , (37473,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37473,  94,         16) /* TargetType - Creature */;
+     , (37473,  94,         16) /* TargetType - Creature */
+     , (37473, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37473,   1, False) /* Stuck */
-     , (37473,  11, True ) /* IgnoreCollisions */
-     , (37473,  13, True ) /* Ethereal */
-     , (37473,  14, True ) /* GravityStatus */
-     , (37473,  19, True ) /* Attackable */
-     , (37473,  22, True ) /* Inscribable */;
+VALUES (37473,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37473,   1, 'Spear Stamped Spectral Ingot') /* Name */;

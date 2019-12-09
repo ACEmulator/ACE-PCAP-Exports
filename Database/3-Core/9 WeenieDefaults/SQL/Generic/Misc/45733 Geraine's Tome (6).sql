@@ -9,17 +9,12 @@ VALUES (45733,   1,        128) /* ItemType - Misc */
      , (45733,  16,          1) /* ItemUseable - No */
      , (45733,  19,          0) /* Value */
      , (45733,  33,          1) /* Bonded - Bonded */
-     , (45733,  65,        101) /* Placement - Resting */
      , (45733,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45733, 114,          1) /* Attuned - Attuned */;
+     , (45733, 114,          1) /* Attuned - Attuned */
+     , (45733, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45733,   1, False) /* Stuck */
-     , (45733,  11, True ) /* IgnoreCollisions */
-     , (45733,  13, True ) /* Ethereal */
-     , (45733,  14, True ) /* GravityStatus */
-     , (45733,  19, True ) /* Attackable */
-     , (45733,  22, True ) /* Inscribable */;
+VALUES (45733,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45733,   1, 'Geraine''s Tome (6)') /* Name */

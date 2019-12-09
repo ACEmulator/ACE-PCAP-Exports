@@ -12,30 +12,25 @@ VALUES (11301,   1,      32768) /* ItemType - Caster */
      , (11301,  18,          1) /* UiEffects - Magical */
      , (11301,  19,          0) /* Value */
      , (11301,  33,          1) /* Bonded - Bonded */
-     , (11301,  65,          1) /* Placement - RightHandCombat */
      , (11301,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11301,  94,         16) /* TargetType - Creature */
      , (11301, 106,        250) /* ItemSpellcraft */
      , (11301, 107,       2491) /* ItemCurMana */
      , (11301, 108,       8544) /* ItemMaxMana */
      , (11301, 114,          0) /* Attuned - Normal */
-     , (11301, 151,          2) /* HookType - Wall */;
+     , (11301, 151,          2) /* HookType - Wall */
+     , (11301, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11301,   1, False) /* Stuck */
-     , (11301,  11, True ) /* IgnoreCollisions */
-     , (11301,  13, True ) /* Ethereal */
-     , (11301,  14, True ) /* GravityStatus */
-     , (11301,  19, True ) /* Attackable */
-     , (11301,  22, True ) /* Inscribable */
+VALUES (11301,  22, True ) /* Inscribable */
      , (11301,  69, False) /* IsSellable */
      , (11301,  85, True ) /* AppraisalHasAllowedWielder */
      , (11301,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11301,   5, -0.0500000007450581) /* ManaRate */
+VALUES (11301,   5,   -0.05) /* ManaRate */
      , (11301,  29,       1) /* WeaponDefense */
-     , (11301, 144, 0.1190000038445) /* ManaConversionMod */;
+     , (11301, 144,    0.12) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11301,   1, 'Stave of Palenqual') /* Name */

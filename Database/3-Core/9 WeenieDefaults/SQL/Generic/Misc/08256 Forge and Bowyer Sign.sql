@@ -11,11 +11,7 @@ VALUES (8256,   1,        128) /* ItemType - Misc */
      , (8256,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8256,   1, True ) /* Stuck */
-     , (8256,  11, True ) /* IgnoreCollisions */
-     , (8256,  12, True ) /* ReportCollisions */
-     , (8256,  13, False) /* Ethereal */
-     , (8256,  19, True ) /* Attackable */;
+VALUES (8256,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8256,   1, 'Forge and Bowyer Sign') /* Name */

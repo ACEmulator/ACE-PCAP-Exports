@@ -9,20 +9,15 @@ VALUES (52034,   1,      16384) /* ItemType - Key */
      , (52034,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (52034,  17,         73) /* RareId */
      , (52034,  19,          0) /* Value */
-     , (52034,  65,        101) /* Placement - Resting */
      , (52034,  91,         25) /* MaxStructure */
      , (52034,  92,         25) /* Structure */
      , (52034,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52034,  94,        640) /* TargetType - LockableMagicTarget */
-     , (52034, 151,          2) /* HookType - Wall */;
+     , (52034, 151,          2) /* HookType - Wall */
+     , (52034, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52034,   1, False) /* Stuck */
-     , (52034,  11, True ) /* IgnoreCollisions */
-     , (52034,  13, True ) /* Ethereal */
-     , (52034,  14, True ) /* GravityStatus */
-     , (52034,  19, True ) /* Attackable */
-     , (52034,  22, True ) /* Inscribable */;
+VALUES (52034,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52034,   1, 'Casino Exquisite Keyring') /* Name */

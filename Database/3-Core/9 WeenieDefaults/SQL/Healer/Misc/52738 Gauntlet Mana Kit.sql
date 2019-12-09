@@ -9,19 +9,14 @@ VALUES (52738,   1,        128) /* ItemType - Misc */
      , (52738,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (52738,  18,          8) /* UiEffects - BoostMana */
      , (52738,  19,          3) /* Value */
-     , (52738,  65,        101) /* Placement - Resting */
      , (52738,  91,        100) /* MaxStructure */
      , (52738,  92,        100) /* Structure */
      , (52738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52738,  94,         16) /* TargetType - Creature */;
+     , (52738,  94,         16) /* TargetType - Creature */
+     , (52738, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52738,   1, False) /* Stuck */
-     , (52738,  11, True ) /* IgnoreCollisions */
-     , (52738,  13, True ) /* Ethereal */
-     , (52738,  14, True ) /* GravityStatus */
-     , (52738,  19, True ) /* Attackable */
-     , (52738,  22, True ) /* Inscribable */;
+VALUES (52738,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52738,   1, 'Gauntlet Mana Kit') /* Name */;

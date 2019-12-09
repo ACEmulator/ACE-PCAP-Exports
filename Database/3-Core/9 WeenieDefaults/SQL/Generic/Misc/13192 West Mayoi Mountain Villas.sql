@@ -11,12 +11,7 @@ VALUES (13192,   1,        128) /* ItemType - Misc */
      , (13192,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13192,   1, True ) /* Stuck */
-     , (13192,  11, True ) /* IgnoreCollisions */
-     , (13192,  12, True ) /* ReportCollisions */
-     , (13192,  13, False) /* Ethereal */
-     , (13192,  14, True ) /* GravityStatus */
-     , (13192,  19, True ) /* Attackable */;
+VALUES (13192,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13192,   1, 'West Mayoi Mountain Villas') /* Name */;

@@ -18,11 +18,7 @@ VALUES (35130,   1,         16) /* ItemType - Creature */
      , (35130, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35130,   1, True ) /* Stuck */
-     , (35130,  12, True ) /* ReportCollisions */
-     , (35130,  13, False) /* Ethereal */
-     , (35130,  14, True ) /* GravityStatus */
-     , (35130,  19, True ) /* Attackable */;
+VALUES (35130,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35130,   1, 'Adept of Lightning') /* Name */

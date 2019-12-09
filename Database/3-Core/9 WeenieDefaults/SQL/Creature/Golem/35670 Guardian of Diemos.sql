@@ -15,14 +15,10 @@ VALUES (35670,   1,         16) /* ItemType - Creature */
      , (35670, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35670,   1, True ) /* Stuck */
-     , (35670,  12, True ) /* ReportCollisions */
-     , (35670,  13, False) /* Ethereal */
-     , (35670,  14, True ) /* GravityStatus */
-     , (35670,  19, True ) /* Attackable */;
+VALUES (35670,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35670,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (35670,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35670,   1, 'Guardian of Diemos') /* Name */

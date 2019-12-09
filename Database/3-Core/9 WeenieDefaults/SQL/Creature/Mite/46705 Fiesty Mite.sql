@@ -18,14 +18,10 @@ VALUES (46705,   1,         16) /* ItemType - Creature */
      , (46705, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46705,   1, True ) /* Stuck */
-     , (46705,  12, True ) /* ReportCollisions */
-     , (46705,  13, False) /* Ethereal */
-     , (46705,  14, True ) /* GravityStatus */
-     , (46705,  19, True ) /* Attackable */;
+VALUES (46705,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46705,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (46705,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46705,   1, 'Fiesty Mite') /* Name */

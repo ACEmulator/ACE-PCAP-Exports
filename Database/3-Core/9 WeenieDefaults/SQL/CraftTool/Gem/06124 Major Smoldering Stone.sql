@@ -13,18 +13,13 @@ VALUES (6124,   1,       2048) /* ItemType - Gem */
      , (6124,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6124,  19,       5000) /* Value */
      , (6124,  33,          1) /* Bonded - Bonded */
-     , (6124,  65,        101) /* Placement - Resting */
      , (6124,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6124,  94,      33027) /* TargetType - Armor, WeaponOrCaster */
-     , (6124, 114,          1) /* Attuned - Attuned */;
+     , (6124, 114,          1) /* Attuned - Attuned */
+     , (6124, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6124,   1, False) /* Stuck */
-     , (6124,  11, True ) /* IgnoreCollisions */
-     , (6124,  13, True ) /* Ethereal */
-     , (6124,  14, True ) /* GravityStatus */
-     , (6124,  19, True ) /* Attackable */
-     , (6124,  22, True ) /* Inscribable */;
+VALUES (6124,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6124,   1, 'Major Smoldering Stone') /* Name */

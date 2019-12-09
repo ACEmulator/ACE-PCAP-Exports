@@ -15,14 +15,10 @@ VALUES (35440,   1,         16) /* ItemType - Creature */
      , (35440, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35440,   1, True ) /* Stuck */
-     , (35440,  12, True ) /* ReportCollisions */
-     , (35440,  13, False) /* Ethereal */
-     , (35440,  14, True ) /* GravityStatus */
-     , (35440,  19, True ) /* Attackable */;
+VALUES (35440,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35440,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (35440,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35440,   1, 'Drudge Skulker') /* Name */

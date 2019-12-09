@@ -12,19 +12,13 @@ VALUES (14272,   1,      65536) /* ItemType - Portal */
      , (14272, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14272,   1, True ) /* Stuck */
-     , (14272,  12, True ) /* ReportCollisions */
-     , (14272,  13, True ) /* Ethereal */
-     , (14272,  14, True ) /* GravityStatus */
-     , (14272,  15, True ) /* LightsStatus */
-     , (14272,  19, True ) /* Attackable */;
+VALUES (14272,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14272,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14272,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14272,   1, 'Midsong Cottages Portal') /* Name */
-     , (14272,  38, 'Midsong Cottages Portal (0.6S, 1.2W).') /* AppraisalPortalDestination */
      , (14272, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

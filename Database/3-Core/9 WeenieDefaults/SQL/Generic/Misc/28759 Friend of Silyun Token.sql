@@ -9,17 +9,12 @@ VALUES (28759,   1,        128) /* ItemType - Misc */
      , (28759,  16,          1) /* ItemUseable - No */
      , (28759,  19,          0) /* Value */
      , (28759,  33,          1) /* Bonded - Bonded */
-     , (28759,  65,        101) /* Placement - Resting */
      , (28759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28759, 114,          1) /* Attuned - Attuned */;
+     , (28759, 114,          1) /* Attuned - Attuned */
+     , (28759, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28759,   1, False) /* Stuck */
-     , (28759,  11, True ) /* IgnoreCollisions */
-     , (28759,  13, True ) /* Ethereal */
-     , (28759,  14, True ) /* GravityStatus */
-     , (28759,  19, True ) /* Attackable */
-     , (28759,  22, True ) /* Inscribable */;
+VALUES (28759,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28759,   1, 'Friend of Silyun Token') /* Name */

@@ -12,19 +12,13 @@ VALUES (14259,   1,      65536) /* ItemType - Portal */
      , (14259, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14259,   1, True ) /* Stuck */
-     , (14259,  12, True ) /* ReportCollisions */
-     , (14259,  13, True ) /* Ethereal */
-     , (14259,  14, True ) /* GravityStatus */
-     , (14259,  15, True ) /* LightsStatus */
-     , (14259,  19, True ) /* Attackable */;
+VALUES (14259,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14259,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14259,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14259,   1, 'Dillo Butte Settlement Portal') /* Name */
-     , (14259,  38, 'Dillo Butte Settlement Portal (11.1N, 23.5E).') /* AppraisalPortalDestination */
      , (14259, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

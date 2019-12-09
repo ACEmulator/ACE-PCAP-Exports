@@ -12,19 +12,13 @@ VALUES (43552,   1,      65536) /* ItemType - Portal */
      , (43552, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43552,   1, True ) /* Stuck */
-     , (43552,  12, True ) /* ReportCollisions */
-     , (43552,  13, True ) /* Ethereal */
-     , (43552,  14, True ) /* GravityStatus */
-     , (43552,  15, True ) /* LightsStatus */
-     , (43552,  19, True ) /* Attackable */;
+VALUES (43552,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43552,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43552,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43552,   1, 'Olthoi Tunnel') /* Name */
-     , (43552,  38, 'Olthoi Tunnel (75.1S, 21.5E).') /* AppraisalPortalDestination */
      , (43552, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

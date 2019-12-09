@@ -12,17 +12,12 @@ VALUES (48501,   1,          1) /* ItemType - MeleeWeapon */
      , (48501,  18,         32) /* UiEffects - Fire */
      , (48501,  19,        155) /* Value */
      , (48501,  51,          1) /* CombatUse - Melee */
-     , (48501,  65,          1) /* Placement - RightHandCombat */
      , (48501,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48501, 151,          2) /* HookType - Wall */;
+     , (48501, 151,          2) /* HookType - Wall */
+     , (48501, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48501,   1, False) /* Stuck */
-     , (48501,  11, True ) /* IgnoreCollisions */
-     , (48501,  13, True ) /* Ethereal */
-     , (48501,  14, True ) /* GravityStatus */
-     , (48501,  19, True ) /* Attackable */
-     , (48501,  22, True ) /* Inscribable */;
+VALUES (48501,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48501,   1, 'Flaming Katar') /* Name */;

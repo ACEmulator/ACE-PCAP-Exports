@@ -12,19 +12,13 @@ VALUES (13103,   1,      65536) /* ItemType - Portal */
      , (13103, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13103,   1, True ) /* Stuck */
-     , (13103,  12, True ) /* ReportCollisions */
-     , (13103,  13, True ) /* Ethereal */
-     , (13103,  14, True ) /* GravityStatus */
-     , (13103,  15, True ) /* LightsStatus */
-     , (13103,  19, True ) /* Attackable */;
+VALUES (13103,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13103,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13103,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13103,   1, 'Enchanter''s Meadow Portal') /* Name */
-     , (13103,  38, 'Enchanter''s Meadow Portal (5.7N, 36.9E).') /* AppraisalPortalDestination */
      , (13103, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

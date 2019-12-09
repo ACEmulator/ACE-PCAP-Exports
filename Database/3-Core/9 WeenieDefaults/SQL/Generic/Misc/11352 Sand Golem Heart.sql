@@ -8,19 +8,14 @@ VALUES (11352,   1,        128) /* ItemType - Misc */
      , (11352,   5,        100) /* EncumbranceVal */
      , (11352,  16,          1) /* ItemUseable - No */
      , (11352,  19,        125) /* Value */
-     , (11352,  65,        101) /* Placement - Resting */
-     , (11352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11352, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11352,   1, False) /* Stuck */
-     , (11352,  11, True ) /* IgnoreCollisions */
-     , (11352,  13, True ) /* Ethereal */
-     , (11352,  14, True ) /* GravityStatus */
-     , (11352,  19, True ) /* Attackable */
-     , (11352,  22, True ) /* Inscribable */;
+VALUES (11352,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11352,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (11352,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11352,   1, 'Sand Golem Heart') /* Name */;

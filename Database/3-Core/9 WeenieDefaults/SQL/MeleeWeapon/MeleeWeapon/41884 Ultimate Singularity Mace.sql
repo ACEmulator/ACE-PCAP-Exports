@@ -17,7 +17,6 @@ VALUES (41884,   1,          1) /* ItemType - MeleeWeapon */
      , (41884,  48,         45) /* WeaponSkill - LightWeapons */
      , (41884,  49,         40) /* WeaponTime */
      , (41884,  51,          1) /* CombatUse - Melee */
-     , (41884,  65,        101) /* Placement - Resting */
      , (41884,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41884, 106,        200) /* ItemSpellcraft */
      , (41884, 107,        683) /* ItemCurMana */
@@ -30,24 +29,20 @@ VALUES (41884,   1,          1) /* ItemType - MeleeWeapon */
      , (41884, 160,        400) /* WieldDifficulty */
      , (41884, 166,         19) /* SlayerCreatureType - Virindi */
      , (41884, 353,          4) /* WeaponType - Mace */
-     , (41884, 8030,          0);
+     , (41884, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41884, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41884,   1, False) /* Stuck */
-     , (41884,  11, True ) /* IgnoreCollisions */
-     , (41884,  13, True ) /* Ethereal */
-     , (41884,  14, True ) /* GravityStatus */
-     , (41884,  19, True ) /* Attackable */
-     , (41884,  22, True ) /* Inscribable */
+VALUES (41884,  22, True ) /* Inscribable */
      , (41884,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41884,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41884,   5,   -0.03) /* ManaRate */
      , (41884,  21,       0) /* WeaponLength */
-     , (41884,  22, 0.400000005960464) /* DamageVariance */
+     , (41884,  22,     0.4) /* DamageVariance */
      , (41884,  26,       0) /* MaximumVelocity */
-     , (41884,  29, 1.14999997615814) /* WeaponDefense */
-     , (41884,  62, 1.14999997615814) /* WeaponOffense */
+     , (41884,  29,    1.15) /* WeaponDefense */
+     , (41884,  62,    1.15) /* WeaponOffense */
      , (41884,  63,       1) /* DamageMod */
      , (41884, 136,       1) /* CriticalMultiplier */
      , (41884, 147,       1) /* CriticalFrequency */

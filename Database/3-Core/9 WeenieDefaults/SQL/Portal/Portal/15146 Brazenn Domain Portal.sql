@@ -12,19 +12,13 @@ VALUES (15146,   1,      65536) /* ItemType - Portal */
      , (15146, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15146,   1, True ) /* Stuck */
-     , (15146,  12, True ) /* ReportCollisions */
-     , (15146,  13, True ) /* Ethereal */
-     , (15146,  14, True ) /* GravityStatus */
-     , (15146,  15, True ) /* LightsStatus */
-     , (15146,  19, True ) /* Attackable */;
+VALUES (15146,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15146,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15146,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15146,   1, 'Brazenn Domain Portal') /* Name */
-     , (15146,  38, 'Brazenn Domain Portal (73.6N, 42.3W).') /* AppraisalPortalDestination */
      , (15146, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

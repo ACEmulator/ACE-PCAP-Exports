@@ -15,14 +15,10 @@ VALUES (38713,   1,         16) /* ItemType - Creature */
      , (38713, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38713,   1, True ) /* Stuck */
-     , (38713,  12, True ) /* ReportCollisions */
-     , (38713,  13, False) /* Ethereal */
-     , (38713,  14, True ) /* GravityStatus */
-     , (38713,  19, True ) /* Attackable */;
+VALUES (38713,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38713,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (38713,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38713,   1, 'Shambling Archivist') /* Name */

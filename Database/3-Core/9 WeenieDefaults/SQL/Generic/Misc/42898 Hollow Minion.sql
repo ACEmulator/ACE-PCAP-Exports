@@ -11,11 +11,7 @@ VALUES (42898,   1,        128) /* ItemType - Misc */
      , (42898,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42898,   1, True ) /* Stuck */
-     , (42898,  11, True ) /* IgnoreCollisions */
-     , (42898,  12, True ) /* ReportCollisions */
-     , (42898,  13, True ) /* Ethereal */
-     , (42898,  19, True ) /* Attackable */;
+VALUES (42898,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42898,   1, 'Hollow Minion') /* Name */

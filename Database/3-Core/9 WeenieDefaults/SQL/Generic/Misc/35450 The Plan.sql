@@ -8,17 +8,12 @@ VALUES (35450,   1,        128) /* ItemType - Misc */
      , (35450,   5,       2500) /* EncumbranceVal */
      , (35450,  16,          1) /* ItemUseable - No */
      , (35450,  19,        100) /* Value */
-     , (35450,  65,        101) /* Placement - Resting */
      , (35450,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35450, 151,          2) /* HookType - Wall */;
+     , (35450, 151,          2) /* HookType - Wall */
+     , (35450, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35450,   1, False) /* Stuck */
-     , (35450,  11, True ) /* IgnoreCollisions */
-     , (35450,  13, True ) /* Ethereal */
-     , (35450,  14, True ) /* GravityStatus */
-     , (35450,  19, True ) /* Attackable */
-     , (35450,  22, True ) /* Inscribable */;
+VALUES (35450,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35450,   1, 'The Plan') /* Name */

@@ -9,20 +9,15 @@ VALUES (34008,   1,      16384) /* ItemType - Key */
      , (34008,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (34008,  19,          0) /* Value */
      , (34008,  33,          1) /* Bonded - Bonded */
-     , (34008,  65,        101) /* Placement - Resting */
      , (34008,  91,          1) /* MaxStructure */
      , (34008,  92,          1) /* Structure */
      , (34008,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34008,  94,        640) /* TargetType - LockableMagicTarget */
-     , (34008, 114,          1) /* Attuned - Attuned */;
+     , (34008, 114,          1) /* Attuned - Attuned */
+     , (34008, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34008,   1, False) /* Stuck */
-     , (34008,  11, True ) /* IgnoreCollisions */
-     , (34008,  13, True ) /* Ethereal */
-     , (34008,  14, True ) /* GravityStatus */
-     , (34008,  19, True ) /* Attackable */
-     , (34008,  22, True ) /* Inscribable */;
+VALUES (34008,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34008,   1, 'Key to the Chest of Darayavaush') /* Name */

@@ -8,15 +8,11 @@ VALUES (5070,   1,        128) /* ItemType - Misc */
      , (5070,   5,       9000) /* EncumbranceVal */
      , (5070,  16,          1) /* ItemUseable - No */
      , (5070,  19,        125) /* Value */
-     , (5070,  65,        101) /* Placement - Resting */
-     , (5070,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5070,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5070, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5070,   1, True ) /* Stuck */
-     , (5070,  11, True ) /* IgnoreCollisions */
-     , (5070,  12, True ) /* ReportCollisions */
-     , (5070,  13, False) /* Ethereal */
-     , (5070,  19, True ) /* Attackable */;
+VALUES (5070,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5070,   1, 'East Lytelthorpe Outpost') /* Name */

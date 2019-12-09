@@ -16,12 +16,7 @@ VALUES (26005,   1,         16) /* ItemType - Creature */
      , (26005, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26005,   1, True ) /* Stuck */
-     , (26005,  12, True ) /* ReportCollisions */
-     , (26005,  13, False) /* Ethereal */
-     , (26005,  14, True ) /* GravityStatus */
-     , (26005,  19, True ) /* Attackable */
-     , (26005,  42, True ) /* AllowEdgeSlide */;
+VALUES (26005,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26005,   1, 'Baron Nuvillus') /* Name */

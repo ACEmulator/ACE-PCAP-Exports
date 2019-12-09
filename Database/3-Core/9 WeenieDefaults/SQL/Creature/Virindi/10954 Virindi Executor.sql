@@ -15,11 +15,7 @@ VALUES (10954,   1,         16) /* ItemType - Creature */
      , (10954, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10954,   1, True ) /* Stuck */
-     , (10954,  12, True ) /* ReportCollisions */
-     , (10954,  13, False) /* Ethereal */
-     , (10954,  14, True ) /* GravityStatus */
-     , (10954,  19, True ) /* Attackable */;
+VALUES (10954,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10954,   1, 'Virindi Executor') /* Name */

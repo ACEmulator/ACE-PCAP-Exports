@@ -12,20 +12,14 @@ VALUES (43004,   1,      65536) /* ItemType - Portal */
      , (43004, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43004,   1, True ) /* Stuck */
-     , (43004,  12, True ) /* ReportCollisions */
-     , (43004,  13, True ) /* Ethereal */
-     , (43004,  14, True ) /* GravityStatus */
-     , (43004,  15, True ) /* LightsStatus */
-     , (43004,  19, True ) /* Attackable */;
+VALUES (43004,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43004,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43004,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43004,   1, 'Freehold Portal') /* Name */
      , (43004,  16, 'This portal goes to MacNiall''s Freehold, a bastion of civilization among the tropical islands of the Vesayen Archipelago. The only law here is to live as you wish, unrestricted by the ideologies of Ispar. This is a good town for characters over level 30.') /* LongDesc */
-     , (43004,  38, 'Freehold Portal (73.0S, 92.0E).') /* AppraisalPortalDestination */
      , (43004, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

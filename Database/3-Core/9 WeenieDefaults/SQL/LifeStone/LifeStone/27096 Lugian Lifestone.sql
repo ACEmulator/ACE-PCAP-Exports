@@ -12,11 +12,7 @@ VALUES (27096,   1,  268435456) /* ItemType - LifeStone */
      , (27096, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27096,   1, True ) /* Stuck */
-     , (27096,  11, True ) /* IgnoreCollisions */
-     , (27096,  13, False) /* Ethereal */
-     , (27096,  14, True ) /* GravityStatus */
-     , (27096,  19, True ) /* Attackable */;
+VALUES (27096,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27096,  54,       2) /* UseRadius */;

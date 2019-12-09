@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38885,   1,      16384) /* ItemType - Key */
      , (38885,   5,         50) /* EncumbranceVal */
      , (38885,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (38885,  65,        101) /* Placement - Resting */
      , (38885,  91,          1) /* MaxStructure */
      , (38885,  92,          1) /* Structure */
      , (38885,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38885,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (38885,  94,        640) /* TargetType - LockableMagicTarget */
+     , (38885, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38885,   1, False) /* Stuck */
-     , (38885,  11, True ) /* IgnoreCollisions */
-     , (38885,  13, True ) /* Ethereal */
-     , (38885,  14, True ) /* GravityStatus */
-     , (38885,  19, True ) /* Attackable */
-     , (38885,  22, True ) /* Inscribable */;
+VALUES (38885,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38885,   1, 'Lord Grymar Mhoire''s Key') /* Name */;

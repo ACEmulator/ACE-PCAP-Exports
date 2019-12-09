@@ -8,19 +8,14 @@ VALUES (30044,   1,       8192) /* ItemType - Writable */
      , (30044,   5,       4000) /* EncumbranceVal */
      , (30044,  16,         48) /* ItemUseable - ViewedRemote */
      , (30044,  19,          0) /* Value */
-     , (30044,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (30044,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (30044,  95,          8) /* RadarBlipColor - Yellow */
      , (30044, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (30044, 174,          1) /* AppraisalPages */
-     , (30044, 175,          1) /* AppraisalMaxPages */;
+     , (30044, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (30044, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30044,   1, True ) /* Stuck */
-     , (30044,  11, True ) /* IgnoreCollisions */
-     , (30044,  12, True ) /* ReportCollisions */
-     , (30044,  13, False) /* Ethereal */
-     , (30044,  14, True ) /* GravityStatus */
-     , (30044,  19, True ) /* Attackable */
      , (30044,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -28,7 +23,7 @@ VALUES (30044,  39,       3) /* DefaultScale */
      , (30044,  54,       4) /* UseRadius */
      , (30044, 8010,       0) /* PCAPRecordedVelocityX */
      , (30044, 8011,       0) /* PCAPRecordedVelocityY */
-     , (30044, 8012, -0.0554159879684448) /* PCAPRecordedVelocityZ */;
+     , (30044, 8012,   -0.06) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30044,   1, 'Statue of Eleonora du Bellenesse') /* Name */

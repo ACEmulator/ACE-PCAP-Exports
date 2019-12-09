@@ -15,20 +15,14 @@ VALUES (51943,   1,      65536) /* ItemType - Portal */
      , (51943, 268,         -4) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51943,   1, True ) /* Stuck */
-     , (51943,  12, True ) /* ReportCollisions */
-     , (51943,  13, True ) /* Ethereal */
-     , (51943,  14, True ) /* GravityStatus */
-     , (51943,  15, True ) /* LightsStatus */
-     , (51943,  19, True ) /* Attackable */;
+VALUES (51943,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51943,  39, 0.600000023841858) /* DefaultScale */
-     , (51943,  54, -0.100000001490116) /* UseRadius */;
+VALUES (51943,  39,     0.6) /* DefaultScale */
+     , (51943,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51943,   1, 'Corrupted Energy') /* Name */
-     , (51943,  38, 'Corrupted Energy') /* AppraisalPortalDestination */;
+VALUES (51943,   1, 'Corrupted Energy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51943,   1,   33557527) /* Setup */

@@ -12,19 +12,13 @@ VALUES (15680,   1,      65536) /* ItemType - Portal */
      , (15680, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15680,   1, True ) /* Stuck */
-     , (15680,  12, True ) /* ReportCollisions */
-     , (15680,  13, True ) /* Ethereal */
-     , (15680,  14, True ) /* GravityStatus */
-     , (15680,  15, True ) /* LightsStatus */
-     , (15680,  19, True ) /* Attackable */;
+VALUES (15680,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15680,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15680,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15680,   1, 'Peril''s Edge Cottages Portal') /* Name */
-     , (15680,  38, 'Peril''s Edge Cottages Portal (23.3N, 49.6W).') /* AppraisalPortalDestination */
      , (15680, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

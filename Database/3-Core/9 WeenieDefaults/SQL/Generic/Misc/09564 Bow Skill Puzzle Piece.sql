@@ -9,21 +9,16 @@ VALUES (9564,   1,        128) /* ItemType - Misc */
      , (9564,  16,          1) /* ItemUseable - No */
      , (9564,  19,      10000) /* Value */
      , (9564,  33,         -2) /* Bonded - Destroy */
-     , (9564,  65,        101) /* Placement - Resting */
      , (9564,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9564, 114,          1) /* Attuned - Attuned */;
+     , (9564, 114,          1) /* Attuned - Attuned */
+     , (9564, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9564,   1, False) /* Stuck */
-     , (9564,  11, True ) /* IgnoreCollisions */
-     , (9564,  13, True ) /* Ethereal */
-     , (9564,  14, True ) /* GravityStatus */
-     , (9564,  19, True ) /* Attackable */
-     , (9564,  22, True ) /* Inscribable */
+VALUES (9564,  22, True ) /* Inscribable */
      , (9564,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9564,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9564,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9564,   1, 'Bow Skill Puzzle Piece') /* Name */

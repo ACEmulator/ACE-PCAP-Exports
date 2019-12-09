@@ -9,17 +9,12 @@ VALUES (24234,   1,        128) /* ItemType - Misc */
      , (24234,  16,          1) /* ItemUseable - No */
      , (24234,  19,          0) /* Value */
      , (24234,  33,          1) /* Bonded - Bonded */
-     , (24234,  65,        101) /* Placement - Resting */
      , (24234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24234, 114,          1) /* Attuned - Attuned */;
+     , (24234, 114,          1) /* Attuned - Attuned */
+     , (24234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24234,   1, False) /* Stuck */
-     , (24234,  11, True ) /* IgnoreCollisions */
-     , (24234,  13, True ) /* Ethereal */
-     , (24234,  14, True ) /* GravityStatus */
-     , (24234,  19, True ) /* Attackable */
-     , (24234,  22, True ) /* Inscribable */;
+VALUES (24234,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24234,   1, 'Olthoi Crest') /* Name */

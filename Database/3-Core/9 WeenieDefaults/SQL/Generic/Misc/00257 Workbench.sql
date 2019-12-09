@@ -8,18 +8,12 @@ VALUES (257,   1,        128) /* ItemType - Misc */
      , (257,   5,         50) /* EncumbranceVal */
      , (257,  16,          1) /* ItemUseable - No */
      , (257,  19,       3226) /* Value */
-     , (257,  65,        101) /* Placement - Resting */
-     , (257,  93,      66588) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (257, 151,          1) /* HookType - Floor */;
+     , (257,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
+     , (257, 151,          1) /* HookType - Floor */
+     , (257, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (257,   1, False) /* Stuck */
-     , (257,  11, True ) /* IgnoreCollisions */
-     , (257,  12, True ) /* ReportCollisions */
-     , (257,  13, True ) /* Ethereal */
-     , (257,  14, True ) /* GravityStatus */
-     , (257,  19, True ) /* Attackable */
-     , (257,  22, True ) /* Inscribable */;
+VALUES (257,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (257,   1, 'Workbench') /* Name */

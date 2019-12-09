@@ -15,15 +15,10 @@ VALUES (21371,   1,         16) /* ItemType - Creature */
      , (21371, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21371,   1, True ) /* Stuck */
-     , (21371,  12, True ) /* ReportCollisions */
-     , (21371,  13, False) /* Ethereal */
-     , (21371,  14, True ) /* GravityStatus */
-     , (21371,  15, True ) /* LightsStatus */
-     , (21371,  19, True ) /* Attackable */;
+VALUES (21371,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21371,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (21371,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21371,   1, 'Brumal') /* Name */

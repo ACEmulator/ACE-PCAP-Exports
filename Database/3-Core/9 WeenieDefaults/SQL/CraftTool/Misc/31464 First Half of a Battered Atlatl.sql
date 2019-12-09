@@ -12,17 +12,12 @@ VALUES (31464,   1,        128) /* ItemType - Misc */
      , (31464,  15,          0) /* StackUnitValue */
      , (31464,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31464,  19,          0) /* Value */
-     , (31464,  65,        101) /* Placement - Resting */
      , (31464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31464,  94,        128) /* TargetType - Misc */;
+     , (31464,  94,        128) /* TargetType - Misc */
+     , (31464, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31464,   1, False) /* Stuck */
-     , (31464,  11, True ) /* IgnoreCollisions */
-     , (31464,  13, True ) /* Ethereal */
-     , (31464,  14, True ) /* GravityStatus */
-     , (31464,  19, True ) /* Attackable */
-     , (31464,  22, True ) /* Inscribable */;
+VALUES (31464,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31464,   1, 'First Half of a Battered Atlatl') /* Name */

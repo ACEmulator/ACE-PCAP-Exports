@@ -15,11 +15,7 @@ VALUES (7083,   1,         16) /* ItemType - Creature */
      , (7083, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7083,   1, True ) /* Stuck */
-     , (7083,  12, True ) /* ReportCollisions */
-     , (7083,  13, False) /* Ethereal */
-     , (7083,  14, True ) /* GravityStatus */
-     , (7083,  19, True ) /* Attackable */;
+VALUES (7083,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7083,   1, 'Titanium Armoredillo') /* Name */

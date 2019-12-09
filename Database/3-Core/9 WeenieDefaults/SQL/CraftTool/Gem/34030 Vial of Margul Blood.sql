@@ -11,19 +11,12 @@ VALUES (34030,   1,       2048) /* ItemType - Gem */
      , (34030,  13,         50) /* StackUnitEncumbrance */
      , (34030,  15,          0) /* StackUnitValue */
      , (34030,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (34030,  65,        101) /* Placement - Resting */
      , (34030,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34030,  94,       2048) /* TargetType - Gem */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34030,   1, False) /* Stuck */
-     , (34030,  11, True ) /* IgnoreCollisions */
-     , (34030,  13, True ) /* Ethereal */
-     , (34030,  14, True ) /* GravityStatus */
-     , (34030,  19, True ) /* Attackable */;
+     , (34030,  94,       2048) /* TargetType - Gem */
+     , (34030, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34030,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (34030,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34030,   1, 'Vial of Margul Blood') /* Name */;

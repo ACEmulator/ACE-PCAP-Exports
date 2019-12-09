@@ -13,18 +13,13 @@ VALUES (22447,   1,        128) /* ItemType - Misc */
      , (22447,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22447,  19,          0) /* Value */
      , (22447,  33,          0) /* Bonded - Normal */
-     , (22447,  65,        101) /* Placement - Resting */
      , (22447,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22447,  94,        128) /* TargetType - Misc */
-     , (22447, 114,          0) /* Attuned - Normal */;
+     , (22447, 114,          0) /* Attuned - Normal */
+     , (22447, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22447,   1, False) /* Stuck */
-     , (22447,  11, True ) /* IgnoreCollisions */
-     , (22447,  13, True ) /* Ethereal */
-     , (22447,  14, True ) /* GravityStatus */
-     , (22447,  19, True ) /* Attackable */
-     , (22447,  69, False) /* IsSellable */;
+VALUES (22447,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22447,   1, 'Treated Hyssop') /* Name */

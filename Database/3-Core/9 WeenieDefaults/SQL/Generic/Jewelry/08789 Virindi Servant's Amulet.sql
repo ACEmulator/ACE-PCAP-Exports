@@ -10,24 +10,19 @@ VALUES (8789,   1,          8) /* ItemType - Jewelry */
      , (8789,  16,          1) /* ItemUseable - No */
      , (8789,  18,          1) /* UiEffects - Magical */
      , (8789,  19,       8000) /* Value */
-     , (8789,  65,        101) /* Placement - Resting */
      , (8789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8789, 106,        300) /* ItemSpellcraft */
      , (8789, 107,        230) /* ItemCurMana */
      , (8789, 108,        230) /* ItemMaxMana */
-     , (8789, 109,        190) /* ItemDifficulty */;
+     , (8789, 109,        190) /* ItemDifficulty */
+     , (8789, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8789,   1, False) /* Stuck */
-     , (8789,  11, True ) /* IgnoreCollisions */
-     , (8789,  13, True ) /* Ethereal */
-     , (8789,  14, True ) /* GravityStatus */
-     , (8789,  19, True ) /* Attackable */
-     , (8789,  22, True ) /* Inscribable */;
+VALUES (8789,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8789,   5, -0.033333) /* ManaRate */
-     , (8789,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (8789,   5,   -0.03) /* ManaRate */
+     , (8789,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8789,   1, 'Virindi Servant''s Amulet') /* Name */

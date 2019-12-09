@@ -11,12 +11,7 @@ VALUES (12663,   1,        128) /* ItemType - Misc */
      , (12663,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12663,   1, True ) /* Stuck */
-     , (12663,  11, True ) /* IgnoreCollisions */
-     , (12663,  12, True ) /* ReportCollisions */
-     , (12663,  13, False) /* Ethereal */
-     , (12663,  14, True ) /* GravityStatus */
-     , (12663,  19, True ) /* Attackable */;
+VALUES (12663,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12663,   1, 'Strathelar''s Watch Cottages') /* Name */

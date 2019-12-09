@@ -8,7 +8,7 @@ VALUES (53273,   1,         16) /* ItemType - Creature */
      , (53273,   6,        255) /* ItemsCapacity */
      , (53273,   7,        255) /* ContainersCapacity */
      , (53273,  16,         32) /* ItemUseable - Remote */
-     , (53273,  93,    4260884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP, EdgeSlide */
+     , (53273,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (53273,  95,          8) /* RadarBlipColor - Yellow */
      , (53273, 307,          0) /* DamageRating */
      , (53273, 308,          0) /* DamageResistRating */
@@ -38,11 +38,7 @@ VALUES (53273,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53273,   1, True ) /* Stuck */
-     , (53273,  11, True ) /* IgnoreCollisions */
-     , (53273,  13, True ) /* Ethereal */
-     , (53273,  14, True ) /* GravityStatus */
-     , (53273,  19, False) /* Attackable */
-     , (53273,  42, True ) /* AllowEdgeSlide */;
+     , (53273,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53273,  39,       2) /* DefaultScale */

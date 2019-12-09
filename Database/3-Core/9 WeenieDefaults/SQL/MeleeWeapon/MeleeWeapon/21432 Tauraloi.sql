@@ -12,17 +12,12 @@ VALUES (21432,   1,          1) /* ItemType - MeleeWeapon */
      , (21432,  18,          1) /* UiEffects - Magical */
      , (21432,  19,       4000) /* Value */
      , (21432,  51,          1) /* CombatUse - Melee */
-     , (21432,  65,          1) /* Placement - RightHandCombat */
      , (21432,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21432, 151,          2) /* HookType - Wall */;
+     , (21432, 151,          2) /* HookType - Wall */
+     , (21432, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21432,   1, False) /* Stuck */
-     , (21432,  11, True ) /* IgnoreCollisions */
-     , (21432,  13, True ) /* Ethereal */
-     , (21432,  14, True ) /* GravityStatus */
-     , (21432,  19, True ) /* Attackable */
-     , (21432,  22, True ) /* Inscribable */;
+VALUES (21432,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21432,   1, 'Tauraloi') /* Name */;

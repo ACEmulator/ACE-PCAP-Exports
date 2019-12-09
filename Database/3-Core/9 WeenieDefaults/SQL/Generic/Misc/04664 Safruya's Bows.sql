@@ -11,11 +11,7 @@ VALUES (4664,   1,        128) /* ItemType - Misc */
      , (4664,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4664,   1, True ) /* Stuck */
-     , (4664,  11, True ) /* IgnoreCollisions */
-     , (4664,  12, True ) /* ReportCollisions */
-     , (4664,  13, False) /* Ethereal */
-     , (4664,  19, True ) /* Attackable */;
+VALUES (4664,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4664,   1, 'Safruya''s Bows') /* Name */

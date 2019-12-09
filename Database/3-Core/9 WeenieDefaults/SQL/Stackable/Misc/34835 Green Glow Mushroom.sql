@@ -13,18 +13,11 @@ VALUES (34835,   1,        128) /* ItemType - Misc */
      , (34835,  16,          1) /* ItemUseable - No */
      , (34835,  18,          2) /* UiEffects - Poisoned */
      , (34835,  19,         10) /* Value */
-     , (34835,  65,        101) /* Placement - Resting */
-     , (34835,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34835,   1, False) /* Stuck */
-     , (34835,  11, True ) /* IgnoreCollisions */
-     , (34835,  13, True ) /* Ethereal */
-     , (34835,  14, True ) /* GravityStatus */
-     , (34835,  19, True ) /* Attackable */;
+     , (34835,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34835, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34835,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (34835,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34835,   1, 'Green Glow Mushroom') /* Name */

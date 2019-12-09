@@ -18,12 +18,7 @@ VALUES (33165,   1,         16) /* ItemType - Creature */
      , (33165, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33165,   1, True ) /* Stuck */
-     , (33165,  12, True ) /* ReportCollisions */
-     , (33165,  13, False) /* Ethereal */
-     , (33165,  14, True ) /* GravityStatus */
-     , (33165,  19, True ) /* Attackable */
-     , (33165,  42, True ) /* AllowEdgeSlide */;
+VALUES (33165,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33165,   1, 'Shadow Cyst') /* Name */

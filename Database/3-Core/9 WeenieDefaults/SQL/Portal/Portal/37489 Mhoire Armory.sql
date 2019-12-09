@@ -13,19 +13,13 @@ VALUES (37489,   1,      65536) /* ItemType - Portal */
      , (37489, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37489,   1, True ) /* Stuck */
-     , (37489,  12, True ) /* ReportCollisions */
-     , (37489,  13, True ) /* Ethereal */
-     , (37489,  14, True ) /* GravityStatus */
-     , (37489,  15, True ) /* LightsStatus */
-     , (37489,  19, True ) /* Attackable */;
+VALUES (37489,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37489,  54, -0.100000001490116) /* UseRadius */;
+VALUES (37489,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37489,   1, 'Mhoire Armory') /* Name */
-     , (37489,  38, 'Mhoire Armory') /* AppraisalPortalDestination */
      , (37489, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

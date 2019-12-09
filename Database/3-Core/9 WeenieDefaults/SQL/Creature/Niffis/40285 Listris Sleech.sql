@@ -15,14 +15,10 @@ VALUES (40285,   1,         16) /* ItemType - Creature */
      , (40285, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40285,   1, True ) /* Stuck */
-     , (40285,  12, True ) /* ReportCollisions */
-     , (40285,  13, False) /* Ethereal */
-     , (40285,  14, True ) /* GravityStatus */
-     , (40285,  19, True ) /* Attackable */;
+VALUES (40285,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40285,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (40285,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40285,   1, 'Listris Sleech') /* Name */

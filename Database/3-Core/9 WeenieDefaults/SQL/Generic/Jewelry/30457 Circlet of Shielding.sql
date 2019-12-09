@@ -10,25 +10,20 @@ VALUES (30457,   1,          8) /* ItemType - Jewelry */
      , (30457,  16,          1) /* ItemUseable - No */
      , (30457,  19,       2000) /* Value */
      , (30457,  33,          1) /* Bonded - Bonded */
-     , (30457,  65,        101) /* Placement - Resting */
      , (30457,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30457, 106,        200) /* ItemSpellcraft */
      , (30457, 107,        799) /* ItemCurMana */
      , (30457, 108,        800) /* ItemMaxMana */
      , (30457, 109,        190) /* ItemDifficulty */
-     , (30457, 114,          1) /* Attuned - Attuned */;
+     , (30457, 114,          1) /* Attuned - Attuned */
+     , (30457, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30457,   1, False) /* Stuck */
-     , (30457,  11, True ) /* IgnoreCollisions */
-     , (30457,  13, True ) /* Ethereal */
-     , (30457,  14, True ) /* GravityStatus */
-     , (30457,  19, True ) /* Attackable */
-     , (30457,  22, True ) /* Inscribable */
+VALUES (30457,  22, True ) /* Inscribable */
      , (30457,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30457,   5,  -0.033) /* ManaRate */
+VALUES (30457,   5,   -0.03) /* ManaRate */
      , (30457,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

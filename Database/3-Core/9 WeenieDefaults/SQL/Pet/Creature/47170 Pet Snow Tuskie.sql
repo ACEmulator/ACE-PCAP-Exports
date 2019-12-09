@@ -18,14 +18,10 @@ VALUES (47170,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47170,   1, True ) /* Stuck */
-     , (47170,  11, True ) /* IgnoreCollisions */
-     , (47170,  13, True ) /* Ethereal */
-     , (47170,  14, True ) /* GravityStatus */
-     , (47170,  19, False) /* Attackable */
-     , (47170,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (47170,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47170,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (47170,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47170,   1, 'Pet Snow Tuskie') /* Name */

@@ -12,12 +12,7 @@ VALUES (52581,   1,       1024) /* ItemType - Useless */
      , (52581, 151,          6) /* HookType - Wall, Ceiling */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52581,   1, False) /* Stuck */
-     , (52581,  11, True ) /* IgnoreCollisions */
-     , (52581,  13, True ) /* Ethereal */
-     , (52581,  14, True ) /* GravityStatus */
-     , (52581,  19, True ) /* Attackable */
-     , (52581,  22, True ) /* Inscribable */;
+VALUES (52581,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52581,  39,       2) /* DefaultScale */;

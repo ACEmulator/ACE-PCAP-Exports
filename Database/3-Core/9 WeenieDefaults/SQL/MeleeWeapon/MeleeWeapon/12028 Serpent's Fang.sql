@@ -11,17 +11,12 @@ VALUES (12028,   1,          1) /* ItemType - MeleeWeapon */
      , (12028,  18,          1) /* UiEffects - Magical */
      , (12028,  19,       7000) /* Value */
      , (12028,  51,          1) /* CombatUse - Melee */
-     , (12028,  65,        101) /* Placement - Resting */
      , (12028,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12028, 151,          2) /* HookType - Wall */;
+     , (12028, 151,          2) /* HookType - Wall */
+     , (12028, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12028,   1, False) /* Stuck */
-     , (12028,  11, True ) /* IgnoreCollisions */
-     , (12028,  13, True ) /* Ethereal */
-     , (12028,  14, True ) /* GravityStatus */
-     , (12028,  19, True ) /* Attackable */
-     , (12028,  22, True ) /* Inscribable */;
+VALUES (12028,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12028,   1, 'Serpent''s Fang') /* Name */;

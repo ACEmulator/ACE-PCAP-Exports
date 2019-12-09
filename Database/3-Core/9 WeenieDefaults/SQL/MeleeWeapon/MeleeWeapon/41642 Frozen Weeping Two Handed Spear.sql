@@ -11,17 +11,12 @@ VALUES (41642,   1,          1) /* ItemType - MeleeWeapon */
      , (41642,  18,          1) /* UiEffects - Magical */
      , (41642,  19,       8000) /* Value */
      , (41642,  51,          5) /* CombatUse - TwoHanded */
-     , (41642,  65,        101) /* Placement - Resting */
      , (41642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41642, 151,          2) /* HookType - Wall */;
+     , (41642, 151,          2) /* HookType - Wall */
+     , (41642, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41642,   1, False) /* Stuck */
-     , (41642,  11, True ) /* IgnoreCollisions */
-     , (41642,  13, True ) /* Ethereal */
-     , (41642,  14, True ) /* GravityStatus */
-     , (41642,  19, True ) /* Attackable */
-     , (41642,  22, True ) /* Inscribable */;
+VALUES (41642,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41642,   1, 'Frozen Weeping Two Handed Spear') /* Name */;

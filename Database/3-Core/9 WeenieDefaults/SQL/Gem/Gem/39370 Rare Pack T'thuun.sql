@@ -14,12 +14,7 @@ VALUES (39370,   1,       2048) /* ItemType - Gem */
      , (39370, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39370,   1, False) /* Stuck */
-     , (39370,  11, True ) /* IgnoreCollisions */
-     , (39370,  13, True ) /* Ethereal */
-     , (39370,  14, True ) /* GravityStatus */
-     , (39370,  19, True ) /* Attackable */
-     , (39370,  22, True ) /* Inscribable */;
+VALUES (39370,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (39370,  39,     0.5) /* DefaultScale */;

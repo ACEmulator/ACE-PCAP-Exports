@@ -18,11 +18,7 @@ VALUES (35127,   1,         16) /* ItemType - Creature */
      , (35127, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35127,   1, True ) /* Stuck */
-     , (35127,  12, True ) /* ReportCollisions */
-     , (35127,  13, False) /* Ethereal */
-     , (35127,  14, True ) /* GravityStatus */
-     , (35127,  19, True ) /* Attackable */;
+VALUES (35127,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35127,   1, 'Adept of Acid') /* Name */

@@ -15,11 +15,7 @@ VALUES (31837,   1,         16) /* ItemType - Creature */
      , (31837, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31837,   1, True ) /* Stuck */
-     , (31837,  12, True ) /* ReportCollisions */
-     , (31837,  13, False) /* Ethereal */
-     , (31837,  14, True ) /* GravityStatus */
-     , (31837,  19, True ) /* Attackable */;
+VALUES (31837,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31837,   1, 'Remoran Sand Stalker') /* Name */

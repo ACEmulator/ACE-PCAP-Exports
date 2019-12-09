@@ -13,17 +13,12 @@ VALUES (34912,   1,       1024) /* ItemType - Useless */
      , (34912,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (34912,  19,          0) /* Value */
      , (34912,  33,          1) /* Bonded - Bonded */
-     , (34912,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34912,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34912,  94,       1024) /* TargetType - Useless */
      , (34912, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34912,   1, False) /* Stuck */
-     , (34912,  11, True ) /* IgnoreCollisions */
-     , (34912,  13, True ) /* Ethereal */
-     , (34912,  14, True ) /* GravityStatus */
-     , (34912,  19, True ) /* Attackable */
-     , (34912,  22, True ) /* Inscribable */;
+VALUES (34912,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34912,   1, 'Stone of Rez''arel') /* Name */

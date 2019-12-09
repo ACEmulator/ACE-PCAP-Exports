@@ -15,12 +15,7 @@ VALUES (51287,   1,         16) /* ItemType - Creature */
      , (51287, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51287,   1, True ) /* Stuck */
-     , (51287,  12, True ) /* ReportCollisions */
-     , (51287,  13, False) /* Ethereal */
-     , (51287,  14, True ) /* GravityStatus */
-     , (51287,  19, True ) /* Attackable */
-     , (51287,  42, True ) /* AllowEdgeSlide */;
+VALUES (51287,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51287,   1, 'Virindi Clandestine') /* Name */

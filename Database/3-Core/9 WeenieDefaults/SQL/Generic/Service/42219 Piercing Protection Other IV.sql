@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42219,   1,    1048576) /* ItemType - Service */
      , (42219,  16,          1) /* ItemUseable - No */
      , (42219,  19,        200) /* Value */
-     , (42219,  65,        101) /* Placement - Resting */
-     , (42219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42219,   1, False) /* Stuck */
-     , (42219,  11, True ) /* IgnoreCollisions */
-     , (42219,  13, True ) /* Ethereal */
-     , (42219,  14, True ) /* GravityStatus */
-     , (42219,  19, True ) /* Attackable */;
+     , (42219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (42219, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42219,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (42219,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42219,   1, 'Piercing Protection Other IV') /* Name */;

@@ -8,20 +8,15 @@ VALUES (879,   1,        128) /* ItemType - Misc */
      , (879,   5,       9000) /* EncumbranceVal */
      , (879,  16,          1) /* ItemUseable - No */
      , (879,  19,        125) /* Value */
-     , (879,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (879,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (879,   1, True ) /* Stuck */
-     , (879,  11, True ) /* IgnoreCollisions */
-     , (879,  12, True ) /* ReportCollisions */
-     , (879,  13, False) /* Ethereal */
-     , (879,  14, True ) /* GravityStatus */
-     , (879,  19, True ) /* Attackable */;
+VALUES (879,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (879, 8010,       0) /* PCAPRecordedVelocityX */
      , (879, 8011,       0) /* PCAPRecordedVelocityY */
-     , (879, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (879, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (879,   1, 'The Laughing Kirin') /* Name */

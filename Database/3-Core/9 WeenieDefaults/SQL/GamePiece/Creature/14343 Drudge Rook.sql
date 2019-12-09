@@ -16,13 +16,10 @@ VALUES (14343,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14343,   1, True ) /* Stuck */
-     , (14343,  12, True ) /* ReportCollisions */
-     , (14343,  13, True ) /* Ethereal */
-     , (14343,  14, True ) /* GravityStatus */
      , (14343,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14343,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (14343,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14343,   1, 'Drudge Rook') /* Name */

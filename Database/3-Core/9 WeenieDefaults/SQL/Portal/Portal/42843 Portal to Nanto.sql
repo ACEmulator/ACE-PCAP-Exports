@@ -12,20 +12,14 @@ VALUES (42843,   1,      65536) /* ItemType - Portal */
      , (42843, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42843,   1, True ) /* Stuck */
-     , (42843,  12, True ) /* ReportCollisions */
-     , (42843,  13, True ) /* Ethereal */
-     , (42843,  14, True ) /* GravityStatus */
-     , (42843,  15, True ) /* LightsStatus */
-     , (42843,  19, True ) /* Attackable */;
+VALUES (42843,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42843,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42843,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42843,   1, 'Portal to Nanto') /* Name */
      , (42843,  16, 'This portal goes to Nanto, a sleepy Sho town. This is a good town for characters over level 10.') /* LongDesc */
-     , (42843,  38, 'Portal to Nanto (52.2S, 82.5E).') /* AppraisalPortalDestination */
      , (42843, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

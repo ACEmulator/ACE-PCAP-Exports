@@ -9,17 +9,13 @@ VALUES (137,   1,        512) /* ItemType - Container */
      , (137,   6,         24) /* ItemsCapacity */
      , (137,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (137,  19,         65) /* Value */
-     , (137,  65,        101) /* Placement - Resting */
-     , (137,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (137,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (137, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (137,   1, False) /* Stuck */
-     , (137,   2, True ) /* Open */
-     , (137,  11, True ) /* IgnoreCollisions */
-     , (137,  13, True ) /* Ethereal */
-     , (137,  14, True ) /* GravityStatus */
-     , (137,  19, True ) /* Attackable */
-     , (137,  22, True ) /* Inscribable */;
+VALUES (137,   2, False) /* Open */
+     , (137,  22, True ) /* Inscribable */
+     , (137,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (137,  39,     1.5) /* DefaultScale */;

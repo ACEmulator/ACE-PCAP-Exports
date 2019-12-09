@@ -15,11 +15,7 @@ VALUES (31030,   1,         16) /* ItemType - Creature */
      , (31030, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31030,   1, True ) /* Stuck */
-     , (31030,  12, True ) /* ReportCollisions */
-     , (31030,  13, False) /* Ethereal */
-     , (31030,  14, True ) /* GravityStatus */
-     , (31030,  19, True ) /* Attackable */;
+VALUES (31030,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31030,   1, 'Mudwort Thrungus') /* Name */

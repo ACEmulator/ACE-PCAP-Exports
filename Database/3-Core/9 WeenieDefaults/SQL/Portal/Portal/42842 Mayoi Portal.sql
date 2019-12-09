@@ -12,20 +12,14 @@ VALUES (42842,   1,      65536) /* ItemType - Portal */
      , (42842, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42842,   1, True ) /* Stuck */
-     , (42842,  12, True ) /* ReportCollisions */
-     , (42842,  13, True ) /* Ethereal */
-     , (42842,  14, True ) /* GravityStatus */
-     , (42842,  15, True ) /* LightsStatus */
-     , (42842,  19, True ) /* Attackable */;
+VALUES (42842,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42842,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42842,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42842,   1, 'Mayoi Portal') /* Name */
      , (42842,  16, 'This portal goes to Mayoi, a coastal settlement renowned for Shoyanen Kenchu, the master mage of the Sho people, who lives in a spire on the outskirts of town. This is a good town for characters over level 30.') /* LongDesc */
-     , (42842,  38, 'Mayoi Portal (61.9S, 82.5E).') /* AppraisalPortalDestination */
      , (42842, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -9,22 +9,17 @@ VALUES (2143,   1,        512) /* ItemType - Container */
      , (2143,  16,         48) /* ItemUseable - ViewedRemote */
      , (2143,  19,        300) /* Value */
      , (2143,  38,         90) /* ResistLockpick */
-     , (2143,  65,        101) /* Placement - Resting */
      , (2143,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (2143, 173,          8) /* AppraisalLockpickSuccessPercent */;
+     , (2143, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2143,   1, True ) /* Stuck */
      , (2143,   2, False) /* Open */
      , (2143,   3, False) /* Locked */
-     , (2143,  11, True ) /* IgnoreCollisions */
-     , (2143,  12, True ) /* ReportCollisions */
-     , (2143,  13, False) /* Ethereal */
-     , (2143,  14, True ) /* GravityStatus */
-     , (2143,  19, True ) /* Attackable */;
+     , (2143,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2143,  54, 2.29999995231628) /* UseRadius */;
+VALUES (2143,  54,     2.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2143,   1, 'Thorsten Cragstone''s Tomb') /* Name */

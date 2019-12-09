@@ -12,18 +12,13 @@ VALUES (6055,   1,       2048) /* ItemType - Gem */
      , (6055,  15,          0) /* StackUnitValue */
      , (6055,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6055,  19,          0) /* Value */
-     , (6055,  65,        101) /* Placement - Resting */
      , (6055,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6055,  94,       2048) /* TargetType - Gem */
-     , (6055, 151,          2) /* HookType - Wall */;
+     , (6055, 151,          2) /* HookType - Wall */
+     , (6055, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6055,   1, False) /* Stuck */
-     , (6055,  11, True ) /* IgnoreCollisions */
-     , (6055,  13, True ) /* Ethereal */
-     , (6055,  14, True ) /* GravityStatus */
-     , (6055,  19, True ) /* Attackable */
-     , (6055,  22, True ) /* Inscribable */;
+VALUES (6055,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6055,   1, 'Cracked Shard') /* Name */

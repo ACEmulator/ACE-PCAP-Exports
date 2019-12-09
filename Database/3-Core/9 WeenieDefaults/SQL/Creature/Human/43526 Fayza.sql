@@ -20,12 +20,7 @@ VALUES (43526,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43526,   1, True ) /* Stuck */
-     , (43526,  12, True ) /* ReportCollisions */
-     , (43526,  13, False) /* Ethereal */
-     , (43526,  14, True ) /* GravityStatus */
-     , (43526,  19, False) /* Attackable */
-     , (43526,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43526,  42, True ) /* AllowEdgeSlide */;
+     , (43526,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43526,   1, 'Fayza') /* Name */

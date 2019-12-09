@@ -17,7 +17,6 @@ VALUES (21353,   1,          1) /* ItemType - MeleeWeapon */
      , (21353,  48,         45) /* WeaponSkill - LightWeapons */
      , (21353,  49,         30) /* WeaponTime */
      , (21353,  51,          1) /* CombatUse - Melee */
-     , (21353,  65,        101) /* Placement - Resting */
      , (21353,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21353, 114,          1) /* Attuned - Attuned */
      , (21353, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (21353,   1,          1) /* ItemType - MeleeWeapon */
      , (21353, 160,        275) /* WieldDifficulty */
      , (21353, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */
      , (21353, 353,          3) /* WeaponType - Axe */
-     , (21353, 8030,          0);
+     , (21353, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21353,   1, False) /* Stuck */
-     , (21353,  11, True ) /* IgnoreCollisions */
-     , (21353,  13, True ) /* Ethereal */
-     , (21353,  14, True ) /* GravityStatus */
-     , (21353,  15, True ) /* LightsStatus */
-     , (21353,  19, True ) /* Attackable */
-     , (21353,  22, True ) /* Inscribable */
+VALUES (21353,  22, True ) /* Inscribable */
      , (21353,  69, False) /* IsSellable */
      , (21353,  99, True ) /* Ivoryable */;
 
@@ -46,7 +40,7 @@ VALUES (21353,  21,       0) /* WeaponLength */
      , (21353,  29,       1) /* WeaponDefense */
      , (21353,  62,    1.15) /* WeaponOffense */
      , (21353,  63,       1) /* DamageMod */
-     , (21353,  76, 0.699999988079071) /* Translucency */
+     , (21353,  76,     0.7) /* Translucency */
      , (21353,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

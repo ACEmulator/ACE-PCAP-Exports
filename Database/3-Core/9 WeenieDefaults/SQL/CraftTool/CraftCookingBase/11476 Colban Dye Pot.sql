@@ -12,18 +12,13 @@ VALUES (11476,   1,    4194304) /* ItemType - CraftCookingBase */
      , (11476,  15,        100) /* StackUnitValue */
      , (11476,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11476,  19,        100) /* Value */
-     , (11476,  65,        101) /* Placement - Resting */
      , (11476,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11476,  94,        134) /* TargetType - Vestements, Misc */
-     , (11476, 151,          9) /* HookType - Floor, Yard */;
+     , (11476, 151,          9) /* HookType - Floor, Yard */
+     , (11476, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11476,   1, False) /* Stuck */
-     , (11476,  11, True ) /* IgnoreCollisions */
-     , (11476,  13, True ) /* Ethereal */
-     , (11476,  14, True ) /* GravityStatus */
-     , (11476,  19, True ) /* Attackable */
-     , (11476,  69, False) /* IsSellable */;
+VALUES (11476,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11476,   1, 'Colban Dye Pot') /* Name */

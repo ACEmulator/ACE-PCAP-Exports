@@ -16,14 +16,10 @@ VALUES (36829,   1,         16) /* ItemType - Creature */
      , (36829, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36829,   1, True ) /* Stuck */
-     , (36829,  12, True ) /* ReportCollisions */
-     , (36829,  13, False) /* Ethereal */
-     , (36829,  14, True ) /* GravityStatus */
-     , (36829,  19, True ) /* Attackable */;
+VALUES (36829,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36829,  76, 0.300000011920929) /* Translucency */;
+VALUES (36829,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36829,   1, 'Acidic Diamond Golem') /* Name */

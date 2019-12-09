@@ -11,15 +11,10 @@ VALUES (9199,   1,      65536) /* ItemType - Portal */
      , (9199, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9199,   1, True ) /* Stuck */
-     , (9199,  12, True ) /* ReportCollisions */
-     , (9199,  13, True ) /* Ethereal */
-     , (9199,  14, True ) /* GravityStatus */
-     , (9199,  15, True ) /* LightsStatus */
-     , (9199,  19, True ) /* Attackable */;
+VALUES (9199,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9199,  54, -0.100000001490116) /* UseRadius */;
+VALUES (9199,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9199,   1, 'Sand Shallow') /* Name */

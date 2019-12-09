@@ -16,7 +16,6 @@ VALUES (45395,   1,          1) /* ItemType - MeleeWeapon */
      , (45395,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45395,  49,         25) /* WeaponTime */
      , (45395,  51,          1) /* CombatUse - Melee */
-     , (45395,  65,        101) /* Placement - Resting */
      , (45395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45395, 105,          7) /* ItemWorkmanship */
      , (45395, 106,        282) /* ItemSpellcraft */
@@ -37,27 +36,23 @@ VALUES (45395,   1,          1) /* ItemType - MeleeWeapon */
      , (45395, 178,         49) /* GemType */
      , (45395, 179,          4) /* ImbuedEffect - ArmorRending */
      , (45395, 353,          2) /* WeaponType - Sword */
-     , (45395, 8030,          0);
+     , (45395, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (45395, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45395,   1, False) /* Stuck */
-     , (45395,  11, True ) /* IgnoreCollisions */
-     , (45395,  13, True ) /* Ethereal */
-     , (45395,  14, True ) /* GravityStatus */
-     , (45395,  19, True ) /* Attackable */
-     , (45395,  22, True ) /* Inscribable */
+VALUES (45395,  22, True ) /* Inscribable */
      , (45395,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45395,   5, -0.0555555559694767) /* ManaRate */
+VALUES (45395,   5,   -0.06) /* ManaRate */
      , (45395,  21,       0) /* WeaponLength */
-     , (45395,  22, 0.239999994635582) /* DamageVariance */
+     , (45395,  22,    0.24) /* DamageVariance */
      , (45395,  26,       0) /* MaximumVelocity */
      , (45395,  29,    1.25) /* WeaponDefense */
-     , (45395,  39, 1.10000002384186) /* DefaultScale */
-     , (45395,  62, 1.12999999523163) /* WeaponOffense */
+     , (45395,  39,     1.1) /* DefaultScale */
+     , (45395,  62,    1.13) /* WeaponOffense */
      , (45395,  63,       1) /* DamageMod */
-     , (45395, 149,   1.005) /* WeaponMissileDefense */
+     , (45395, 149,       1) /* WeaponMissileDefense */
      , (45395, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

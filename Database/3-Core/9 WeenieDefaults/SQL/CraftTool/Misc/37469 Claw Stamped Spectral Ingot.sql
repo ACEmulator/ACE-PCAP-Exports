@@ -13,18 +13,13 @@ VALUES (37469,   1,        128) /* ItemType - Misc */
      , (37469,  16,          8) /* ItemUseable - Contained */
      , (37469,  19,          1) /* Value */
      , (37469,  33,         -1) /* Bonded - Slippery */
-     , (37469,  65,        101) /* Placement - Resting */
      , (37469,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37469,  94,         16) /* TargetType - Creature */
-     , (37469, 114,          0) /* Attuned - Normal */;
+     , (37469, 114,          0) /* Attuned - Normal */
+     , (37469, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37469,   1, False) /* Stuck */
-     , (37469,  11, True ) /* IgnoreCollisions */
-     , (37469,  13, True ) /* Ethereal */
-     , (37469,  14, True ) /* GravityStatus */
-     , (37469,  19, True ) /* Attackable */
-     , (37469,  22, True ) /* Inscribable */;
+VALUES (37469,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37469,   1, 'Claw Stamped Spectral Ingot') /* Name */

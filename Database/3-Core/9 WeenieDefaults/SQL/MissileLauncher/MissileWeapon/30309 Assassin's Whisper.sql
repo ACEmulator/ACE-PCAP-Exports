@@ -12,17 +12,12 @@ VALUES (30309,   1,        256) /* ItemType - MissileWeapon */
      , (30309,  19,      50000) /* Value */
      , (30309,  50,          2) /* AmmoType - Bolt */
      , (30309,  51,          2) /* CombatUse - Missle */
-     , (30309,  65,          3) /* Placement - LeftHand */
      , (30309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30309, 151,          2) /* HookType - Wall */;
+     , (30309, 151,          2) /* HookType - Wall */
+     , (30309, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30309,   1, False) /* Stuck */
-     , (30309,  11, True ) /* IgnoreCollisions */
-     , (30309,  13, True ) /* Ethereal */
-     , (30309,  14, True ) /* GravityStatus */
-     , (30309,  19, True ) /* Attackable */
-     , (30309,  22, True ) /* Inscribable */;
+VALUES (30309,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30309,   1, 'Assassin''s Whisper') /* Name */;

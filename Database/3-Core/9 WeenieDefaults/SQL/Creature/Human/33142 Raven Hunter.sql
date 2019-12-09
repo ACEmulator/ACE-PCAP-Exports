@@ -17,11 +17,7 @@ VALUES (33142,   1,         16) /* ItemType - Creature */
      , (33142, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33142,   1, True ) /* Stuck */
-     , (33142,  12, True ) /* ReportCollisions */
-     , (33142,  13, False) /* Ethereal */
-     , (33142,  14, True ) /* GravityStatus */
-     , (33142,  19, True ) /* Attackable */;
+VALUES (33142,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33142,   1, 'Raven Hunter') /* Name */

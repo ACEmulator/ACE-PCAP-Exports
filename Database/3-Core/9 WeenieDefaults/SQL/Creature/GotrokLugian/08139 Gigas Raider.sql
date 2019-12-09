@@ -15,11 +15,7 @@ VALUES (8139,   1,         16) /* ItemType - Creature */
      , (8139, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8139,   1, True ) /* Stuck */
-     , (8139,  12, True ) /* ReportCollisions */
-     , (8139,  13, False) /* Ethereal */
-     , (8139,  14, True ) /* GravityStatus */
-     , (8139,  19, True ) /* Attackable */;
+VALUES (8139,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8139,   1, 'Gigas Raider') /* Name */

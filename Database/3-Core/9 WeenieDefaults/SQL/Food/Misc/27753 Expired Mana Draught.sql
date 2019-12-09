@@ -12,19 +12,14 @@ VALUES (27753,   1,        128) /* ItemType - Misc */
      , (27753,  15,          0) /* StackUnitValue */
      , (27753,  16,          8) /* ItemUseable - Contained */
      , (27753,  19,          0) /* Value */
-     , (27753,  65,        101) /* Placement - Resting */
      , (27753,  89,          6) /* BoosterEnum - Mana */
      , (27753,  90,         10) /* BoostValue */
      , (27753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27753, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (27753, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (27753, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27753,   1, False) /* Stuck */
-     , (27753,  11, True ) /* IgnoreCollisions */
-     , (27753,  13, True ) /* Ethereal */
-     , (27753,  14, True ) /* GravityStatus */
-     , (27753,  19, True ) /* Attackable */
-     , (27753,  69, False) /* IsSellable */;
+VALUES (27753,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27753,   1, 'Expired Mana Draught') /* Name */

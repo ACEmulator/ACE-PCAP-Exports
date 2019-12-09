@@ -11,12 +11,7 @@ VALUES (14300,   1,        128) /* ItemType - Misc */
      , (14300,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14300,   1, True ) /* Stuck */
-     , (14300,  11, True ) /* IgnoreCollisions */
-     , (14300,  12, True ) /* ReportCollisions */
-     , (14300,  13, False) /* Ethereal */
-     , (14300,  14, True ) /* GravityStatus */
-     , (14300,  19, True ) /* Attackable */;
+VALUES (14300,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14300,   1, 'Cactus Acres') /* Name */;

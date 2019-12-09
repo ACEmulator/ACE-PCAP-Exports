@@ -12,19 +12,13 @@ VALUES (19155,   1,      65536) /* ItemType - Portal */
      , (19155, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19155,   1, True ) /* Stuck */
-     , (19155,  12, True ) /* ReportCollisions */
-     , (19155,  13, True ) /* Ethereal */
-     , (19155,  14, True ) /* GravityStatus */
-     , (19155,  15, True ) /* LightsStatus */
-     , (19155,  19, True ) /* Attackable */;
+VALUES (19155,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19155,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19155,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19155,   1, 'Rending Talon Cottages Portal') /* Name */
-     , (19155,  38, 'Rending Talon Cottages Portal (39.3N, 29.6W).') /* AppraisalPortalDestination */
      , (19155, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

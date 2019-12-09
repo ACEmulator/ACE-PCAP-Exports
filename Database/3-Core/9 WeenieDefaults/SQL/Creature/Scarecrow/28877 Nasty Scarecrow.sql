@@ -16,11 +16,7 @@ VALUES (28877,   1,         16) /* ItemType - Creature */
      , (28877, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28877,   1, True ) /* Stuck */
-     , (28877,  12, True ) /* ReportCollisions */
-     , (28877,  13, False) /* Ethereal */
-     , (28877,  14, True ) /* GravityStatus */
-     , (28877,  19, True ) /* Attackable */;
+VALUES (28877,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28877,   1, 'Nasty Scarecrow') /* Name */

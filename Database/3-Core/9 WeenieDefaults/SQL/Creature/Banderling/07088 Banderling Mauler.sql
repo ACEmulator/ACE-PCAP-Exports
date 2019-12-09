@@ -16,14 +16,10 @@ VALUES (7088,   1,         16) /* ItemType - Creature */
      , (7088, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7088,   1, True ) /* Stuck */
-     , (7088,  12, True ) /* ReportCollisions */
-     , (7088,  13, False) /* Ethereal */
-     , (7088,  14, True ) /* GravityStatus */
-     , (7088,  19, True ) /* Attackable */;
+VALUES (7088,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7088,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (7088,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7088,   1, 'Banderling Mauler') /* Name */

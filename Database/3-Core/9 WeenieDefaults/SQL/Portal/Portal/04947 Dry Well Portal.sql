@@ -14,19 +14,13 @@ VALUES (4947,   1,      65536) /* ItemType - Portal */
      , (4947, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4947,   1, True ) /* Stuck */
-     , (4947,  12, True ) /* ReportCollisions */
-     , (4947,  13, True ) /* Ethereal */
-     , (4947,  14, True ) /* GravityStatus */
-     , (4947,  15, True ) /* LightsStatus */
-     , (4947,  19, True ) /* Attackable */;
+VALUES (4947,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4947,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4947,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4947,   1, 'Dry Well Portal') /* Name */
-     , (4947,  38, 'Dry Well Portal') /* AppraisalPortalDestination */
      , (4947, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

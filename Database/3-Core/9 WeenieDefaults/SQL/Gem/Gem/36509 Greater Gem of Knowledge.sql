@@ -13,15 +13,8 @@ VALUES (36509,   1,       2048) /* ItemType - Gem */
      , (36509,  16,          1) /* ItemUseable - No */
      , (36509,  18,          2) /* UiEffects - Poisoned */
      , (36509,  19,         40) /* Value */
-     , (36509,  65,        101) /* Placement - Resting */
-     , (36509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36509,   1, False) /* Stuck */
-     , (36509,  11, True ) /* IgnoreCollisions */
-     , (36509,  13, True ) /* Ethereal */
-     , (36509,  14, True ) /* GravityStatus */
-     , (36509,  19, True ) /* Attackable */;
+     , (36509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36509, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36509,   1, 'Greater Gem of Knowledge') /* Name */

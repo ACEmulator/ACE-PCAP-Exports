@@ -9,17 +9,12 @@ VALUES (25340,   1,        128) /* ItemType - Misc */
      , (25340,  16,          1) /* ItemUseable - No */
      , (25340,  19,          0) /* Value */
      , (25340,  33,          1) /* Bonded - Bonded */
-     , (25340,  65,        101) /* Placement - Resting */
      , (25340,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25340, 114,          1) /* Attuned - Attuned */;
+     , (25340, 114,          1) /* Attuned - Attuned */
+     , (25340, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25340,   1, False) /* Stuck */
-     , (25340,  11, True ) /* IgnoreCollisions */
-     , (25340,  13, True ) /* Ethereal */
-     , (25340,  14, True ) /* GravityStatus */
-     , (25340,  19, True ) /* Attackable */
-     , (25340,  22, True ) /* Inscribable */;
+VALUES (25340,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25340,   1, 'Broken Virindi Observer Mask') /* Name */

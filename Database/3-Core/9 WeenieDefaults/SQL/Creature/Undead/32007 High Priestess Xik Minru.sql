@@ -16,14 +16,10 @@ VALUES (32007,   1,         16) /* ItemType - Creature */
      , (32007, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32007,   1, True ) /* Stuck */
-     , (32007,  12, True ) /* ReportCollisions */
-     , (32007,  13, False) /* Ethereal */
-     , (32007,  14, True ) /* GravityStatus */
-     , (32007,  19, True ) /* Attackable */;
+VALUES (32007,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32007,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (32007,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32007,   1, 'High Priestess Xik Minru') /* Name */

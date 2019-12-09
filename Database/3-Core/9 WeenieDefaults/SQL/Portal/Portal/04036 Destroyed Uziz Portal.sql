@@ -11,20 +11,14 @@ VALUES (4036,   1,      65536) /* ItemType - Portal */
      , (4036, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4036,   1, True ) /* Stuck */
-     , (4036,  11, True ) /* IgnoreCollisions */
-     , (4036,  13, True ) /* Ethereal */
-     , (4036,  14, True ) /* GravityStatus */
-     , (4036,  15, True ) /* LightsStatus */
-     , (4036,  19, True ) /* Attackable */;
+VALUES (4036,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4036,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4036,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4036,   1, 'Destroyed Uziz Portal') /* Name */
      , (4036,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (4036,  38, 'Destroyed Uziz Portal (24.8S, 28.4E).') /* AppraisalPortalDestination */
      , (4036, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

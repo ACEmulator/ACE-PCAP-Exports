@@ -26,15 +26,10 @@ VALUES (33208,   1,          1) /* ItemType - MeleeWeapon */
      , (33208, 159,          1) /* WieldSkillType - Axe */
      , (33208, 160,        120) /* WieldDifficulty */
      , (33208, 353,          6) /* WeaponType - Dagger */
-     , (33208, 8030,          0);
+     , (33208, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33208,   1, False) /* Stuck */
-     , (33208,  11, True ) /* IgnoreCollisions */
-     , (33208,  13, True ) /* Ethereal */
-     , (33208,  14, True ) /* GravityStatus */
-     , (33208,  19, True ) /* Attackable */
-     , (33208,  22, True ) /* Inscribable */;
+VALUES (33208,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33208,   5,   -0.05) /* ManaRate */

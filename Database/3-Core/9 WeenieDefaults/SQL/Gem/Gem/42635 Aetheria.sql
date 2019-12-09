@@ -15,26 +15,21 @@ VALUES (42635,   1,       2048) /* ItemType - Gem */
      , (42635,  16,          1) /* ItemUseable - No */
      , (42635,  18,          1) /* UiEffects - Magical */
      , (42635,  19,      10000) /* Value */
-     , (42635,  65,        101) /* Placement - Resting */
      , (42635,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42635, 158,          7) /* WieldRequirements - Level */
      , (42635, 159,          1) /* WieldSkillType - Axe */
      , (42635, 160,         75) /* WieldDifficulty */
      , (42635, 265,         37) /* EquipmentSetId - AetheriaFury */
      , (42635, 319,          4) /* ItemMaxLevel */
-     , (42635, 320,          2) /* ItemXpStyle - ScalesWithLevel */;
+     , (42635, 320,          2) /* ItemXpStyle - ScalesWithLevel */
+     , (42635, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (42635,   4, 2141671909) /* ItemTotalXp */
      , (42635,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42635,   1, False) /* Stuck */
-     , (42635,  11, True ) /* IgnoreCollisions */
-     , (42635,  13, True ) /* Ethereal */
-     , (42635,  14, True ) /* GravityStatus */
-     , (42635,  19, True ) /* Attackable */
-     , (42635,  22, True ) /* Inscribable */;
+VALUES (42635,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42635,   1, 'Aetheria') /* Name */

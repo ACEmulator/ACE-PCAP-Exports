@@ -8,17 +8,12 @@ VALUES (33958,   1,       2048) /* ItemType - Gem */
      , (33958,   5,          1) /* EncumbranceVal */
      , (33958,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (33958,  19,          0) /* Value */
-     , (33958,  65,        101) /* Placement - Resting */
      , (33958,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33958,  94,      32768) /* TargetType - Caster */;
+     , (33958,  94,      32768) /* TargetType - Caster */
+     , (33958, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33958,   1, False) /* Stuck */
-     , (33958,  11, True ) /* IgnoreCollisions */
-     , (33958,  13, True ) /* Ethereal */
-     , (33958,  14, True ) /* GravityStatus */
-     , (33958,  19, True ) /* Attackable */
-     , (33958,  22, True ) /* Inscribable */;
+VALUES (33958,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33958,   1, 'Crystal of Frozen Elemental Essence') /* Name */

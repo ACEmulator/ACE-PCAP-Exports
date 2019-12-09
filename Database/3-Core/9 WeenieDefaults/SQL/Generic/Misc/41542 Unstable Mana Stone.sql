@@ -10,17 +10,12 @@ VALUES (41542,   1,        128) /* ItemType - Misc */
      , (41542,  18,         32) /* UiEffects - Fire */
      , (41542,  19,          0) /* Value */
      , (41542,  33,          1) /* Bonded - Bonded */
-     , (41542,  65,        101) /* Placement - Resting */
      , (41542,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41542, 114,          1) /* Attuned - Attuned */;
+     , (41542, 114,          1) /* Attuned - Attuned */
+     , (41542, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41542,   1, False) /* Stuck */
-     , (41542,  11, True ) /* IgnoreCollisions */
-     , (41542,  13, True ) /* Ethereal */
-     , (41542,  14, True ) /* GravityStatus */
-     , (41542,  19, True ) /* Attackable */
-     , (41542,  22, True ) /* Inscribable */
+VALUES (41542,  22, True ) /* Inscribable */
      , (41542,  69, False) /* IsSellable */
      , (41542,  99, False) /* Ivoryable */;
 

@@ -12,20 +12,15 @@ VALUES (6324,   1,        128) /* ItemType - Misc */
      , (6324,  15,       5000) /* StackUnitValue */
      , (6324,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6324,  19,       5000) /* Value */
-     , (6324,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (6324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6324,  94,        128) /* TargetType - Misc */
      , (6324, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6324,   1, False) /* Stuck */
-     , (6324,  11, True ) /* IgnoreCollisions */
-     , (6324,  13, True ) /* Ethereal */
-     , (6324,  14, True ) /* GravityStatus */
-     , (6324,  19, True ) /* Attackable */
-     , (6324,  22, True ) /* Inscribable */;
+VALUES (6324,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6324,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (6324,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6324,   1, 'Dagger Glyph') /* Name */

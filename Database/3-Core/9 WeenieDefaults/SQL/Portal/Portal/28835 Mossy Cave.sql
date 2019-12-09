@@ -12,19 +12,13 @@ VALUES (28835,   1,      65536) /* ItemType - Portal */
      , (28835, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28835,   1, True ) /* Stuck */
-     , (28835,  12, True ) /* ReportCollisions */
-     , (28835,  13, True ) /* Ethereal */
-     , (28835,  14, True ) /* GravityStatus */
-     , (28835,  15, True ) /* LightsStatus */
-     , (28835,  19, True ) /* Attackable */;
+VALUES (28835,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28835,  54, -0.100000001490116) /* UseRadius */;
+VALUES (28835,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28835,   1, 'Mossy Cave') /* Name */
-     , (28835,  38, 'Mossy Cave') /* AppraisalPortalDestination */
      , (28835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,19 +12,13 @@ VALUES (14615,   1,      65536) /* ItemType - Portal */
      , (14615, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14615,   1, True ) /* Stuck */
-     , (14615,  12, True ) /* ReportCollisions */
-     , (14615,  13, True ) /* Ethereal */
-     , (14615,  14, True ) /* GravityStatus */
-     , (14615,  15, True ) /* LightsStatus */
-     , (14615,  19, True ) /* Attackable */;
+VALUES (14615,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14615,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14615,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14615,   1, 'Bretslef Cottages Portal') /* Name */
-     , (14615,  38, 'Bretslef Cottages Portal (68.1N, 36.7E).') /* AppraisalPortalDestination */
      , (14615, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

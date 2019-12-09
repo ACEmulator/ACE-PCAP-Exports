@@ -10,17 +10,12 @@ VALUES (30525,   1,          2) /* ItemType - Armor */
      , (30525,   9,         32) /* ValidLocations - HandWear */
      , (30525,  16,          1) /* ItemUseable - No */
      , (30525,  19,      50000) /* Value */
-     , (30525,  65,        101) /* Placement - Resting */
      , (30525,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30525, 151,          2) /* HookType - Wall */;
+     , (30525, 151,          2) /* HookType - Wall */
+     , (30525, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30525,   1, False) /* Stuck */
-     , (30525,  11, True ) /* IgnoreCollisions */
-     , (30525,  13, True ) /* Ethereal */
-     , (30525,  14, True ) /* GravityStatus */
-     , (30525,  19, True ) /* Attackable */
-     , (30525,  22, True ) /* Inscribable */;
+VALUES (30525,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30525,   1, 'Chainmail Gauntlets') /* Name */;

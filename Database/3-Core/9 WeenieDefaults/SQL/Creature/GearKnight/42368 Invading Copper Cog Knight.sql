@@ -16,14 +16,10 @@ VALUES (42368,   1,         16) /* ItemType - Creature */
      , (42368, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42368,   1, True ) /* Stuck */
-     , (42368,  12, True ) /* ReportCollisions */
-     , (42368,  13, False) /* Ethereal */
-     , (42368,  14, True ) /* GravityStatus */
-     , (42368,  19, True ) /* Attackable */;
+VALUES (42368,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42368,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (42368,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42368,   1, 'Invading Copper Cog Knight') /* Name */

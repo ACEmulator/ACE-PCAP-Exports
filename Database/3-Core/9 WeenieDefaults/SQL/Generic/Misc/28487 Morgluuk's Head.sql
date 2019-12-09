@@ -9,17 +9,12 @@ VALUES (28487,   1,        128) /* ItemType - Misc */
      , (28487,  16,          1) /* ItemUseable - No */
      , (28487,  19,          0) /* Value */
      , (28487,  33,          1) /* Bonded - Bonded */
-     , (28487,  65,        101) /* Placement - Resting */
      , (28487,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28487, 114,          1) /* Attuned - Attuned */;
+     , (28487, 114,          1) /* Attuned - Attuned */
+     , (28487, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28487,   1, False) /* Stuck */
-     , (28487,  11, True ) /* IgnoreCollisions */
-     , (28487,  13, True ) /* Ethereal */
-     , (28487,  14, True ) /* GravityStatus */
-     , (28487,  19, True ) /* Attackable */
-     , (28487,  22, True ) /* Inscribable */;
+VALUES (28487,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28487,   1, 'Morgluuk''s Head') /* Name */

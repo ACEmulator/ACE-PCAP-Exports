@@ -9,17 +9,12 @@ VALUES (46415,   1,        128) /* ItemType - Misc */
      , (46415,  16,          1) /* ItemUseable - No */
      , (46415,  19,          2) /* Value */
      , (46415,  33,          1) /* Bonded - Bonded */
-     , (46415,  65,        101) /* Placement - Resting */
      , (46415,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46415, 114,          1) /* Attuned - Attuned */;
+     , (46415, 114,          1) /* Attuned - Attuned */
+     , (46415, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46415,   1, False) /* Stuck */
-     , (46415,  11, True ) /* IgnoreCollisions */
-     , (46415,  13, True ) /* Ethereal */
-     , (46415,  14, True ) /* GravityStatus */
-     , (46415,  19, True ) /* Attackable */
-     , (46415,  69, False) /* IsSellable */;
+VALUES (46415,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46415,   1, 'Experience Certificate') /* Name */

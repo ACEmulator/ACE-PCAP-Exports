@@ -15,11 +15,7 @@ VALUES (47047,   1,         16) /* ItemType - Creature */
      , (47047, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47047,   1, True ) /* Stuck */
-     , (47047,  12, True ) /* ReportCollisions */
-     , (47047,  13, False) /* Ethereal */
-     , (47047,  14, True ) /* GravityStatus */
-     , (47047,  19, True ) /* Attackable */;
+VALUES (47047,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47047,   1, 'Abducting Crystal') /* Name */

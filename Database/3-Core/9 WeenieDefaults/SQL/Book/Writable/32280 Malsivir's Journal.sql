@@ -7,19 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32280,   1,       8192) /* ItemType - Writable */
      , (32280,   5,        200) /* EncumbranceVal */
      , (32280,  16,          8) /* ItemUseable - Contained */
-     , (32280,  65,        101) /* Placement - Resting */
-     , (32280,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32280,   1, False) /* Stuck */
-     , (32280,  11, True ) /* IgnoreCollisions */
-     , (32280,  13, True ) /* Ethereal */
-     , (32280,  14, True ) /* GravityStatus */
-     , (32280,  19, True ) /* Attackable */;
+     , (32280,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32280, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32280,  39, 1.22000002861023) /* DefaultScale */
-     , (32280,  54, 0.300000011920929) /* UseRadius */;
+VALUES (32280,  39,    1.22) /* DefaultScale */
+     , (32280,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32280,   1, 'Malsivir''s Journal') /* Name */;

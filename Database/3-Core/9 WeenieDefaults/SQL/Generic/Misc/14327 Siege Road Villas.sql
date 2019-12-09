@@ -11,12 +11,7 @@ VALUES (14327,   1,        128) /* ItemType - Misc */
      , (14327,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14327,   1, True ) /* Stuck */
-     , (14327,  11, True ) /* IgnoreCollisions */
-     , (14327,  12, True ) /* ReportCollisions */
-     , (14327,  13, False) /* Ethereal */
-     , (14327,  14, True ) /* GravityStatus */
-     , (14327,  19, True ) /* Attackable */;
+VALUES (14327,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14327,   1, 'Siege Road Villas') /* Name */

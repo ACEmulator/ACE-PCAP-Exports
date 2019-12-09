@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22336,   1,       2048) /* ItemType - Gem */
      , (22336,   5,         10) /* EncumbranceVal */
      , (22336,  16,          8) /* ItemUseable - Contained */
-     , (22336,  65,        101) /* Placement - Resting */
-     , (22336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22336, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22336,   1, False) /* Stuck */
-     , (22336,  11, True ) /* IgnoreCollisions */
-     , (22336,  13, True ) /* Ethereal */
-     , (22336,  14, True ) /* GravityStatus */
-     , (22336,  19, True ) /* Attackable */
-     , (22336,  22, True ) /* Inscribable */;
+VALUES (22336,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22336,   1, 'Magic Defense Gem of Forgetfulness') /* Name */;

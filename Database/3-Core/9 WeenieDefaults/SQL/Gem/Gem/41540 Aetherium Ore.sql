@@ -17,12 +17,7 @@ VALUES (41540,   1,       2048) /* ItemType - Gem */
      , (41540, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41540,   1, False) /* Stuck */
-     , (41540,  11, True ) /* IgnoreCollisions */
-     , (41540,  13, True ) /* Ethereal */
-     , (41540,  14, True ) /* GravityStatus */
-     , (41540,  19, True ) /* Attackable */
-     , (41540,  69, False) /* IsSellable */
+VALUES (41540,  69, False) /* IsSellable */
      , (41540,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

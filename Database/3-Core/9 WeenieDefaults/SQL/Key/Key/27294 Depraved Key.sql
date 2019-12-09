@@ -8,19 +8,14 @@ VALUES (27294,   1,      16384) /* ItemType - Key */
      , (27294,   5,        100) /* EncumbranceVal */
      , (27294,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (27294,  19,          0) /* Value */
-     , (27294,  65,        101) /* Placement - Resting */
      , (27294,  91,          1) /* MaxStructure */
      , (27294,  92,          1) /* Structure */
      , (27294,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27294,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (27294,  94,        640) /* TargetType - LockableMagicTarget */
+     , (27294, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27294,   1, False) /* Stuck */
-     , (27294,  11, True ) /* IgnoreCollisions */
-     , (27294,  13, True ) /* Ethereal */
-     , (27294,  14, True ) /* GravityStatus */
-     , (27294,  19, True ) /* Attackable */
-     , (27294,  22, True ) /* Inscribable */;
+VALUES (27294,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27294,   1, 'Depraved Key') /* Name */

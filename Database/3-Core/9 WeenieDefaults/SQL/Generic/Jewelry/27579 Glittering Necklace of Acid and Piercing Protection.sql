@@ -11,7 +11,6 @@ VALUES (27579,   1,          8) /* ItemType - Jewelry */
      , (27579,  18,          1) /* UiEffects - Magical */
      , (27579,  19,          0) /* Value */
      , (27579,  33,          1) /* Bonded - Bonded */
-     , (27579,  65,        101) /* Placement - Resting */
      , (27579,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27579, 106,        150) /* ItemSpellcraft */
      , (27579, 107,        600) /* ItemCurMana */
@@ -21,20 +20,16 @@ VALUES (27579,   1,          8) /* ItemType - Jewelry */
      , (27579, 151,          2) /* HookType - Wall */
      , (27579, 158,          7) /* WieldRequirements - Level */
      , (27579, 159,          1) /* WieldSkillType - Axe */
-     , (27579, 160,         40) /* WieldDifficulty */;
+     , (27579, 160,         40) /* WieldDifficulty */
+     , (27579, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27579,   1, False) /* Stuck */
-     , (27579,  11, True ) /* IgnoreCollisions */
-     , (27579,  13, True ) /* Ethereal */
-     , (27579,  14, True ) /* GravityStatus */
-     , (27579,  19, True ) /* Attackable */
-     , (27579,  22, True ) /* Inscribable */
+VALUES (27579,  22, True ) /* Inscribable */
      , (27579,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27579,   5, -0.0333333) /* ManaRate */
-     , (27579,  39, 0.469999998807907) /* DefaultScale */;
+VALUES (27579,   5,   -0.03) /* ManaRate */
+     , (27579,  39,    0.47) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27579,   1, 'Glittering Necklace of Acid and Piercing Protection') /* Name */

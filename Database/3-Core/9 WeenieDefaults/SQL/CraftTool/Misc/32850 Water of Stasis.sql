@@ -11,16 +11,9 @@ VALUES (32850,   1,        128) /* ItemType - Misc */
      , (32850,  13,         50) /* StackUnitEncumbrance */
      , (32850,  15,          0) /* StackUnitValue */
      , (32850,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (32850,  65,        101) /* Placement - Resting */
      , (32850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32850,  94,        257) /* TargetType - Weapon */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32850,   1, False) /* Stuck */
-     , (32850,  11, True ) /* IgnoreCollisions */
-     , (32850,  13, True ) /* Ethereal */
-     , (32850,  14, True ) /* GravityStatus */
-     , (32850,  19, True ) /* Attackable */;
+     , (32850,  94,        257) /* TargetType - Weapon */
+     , (32850, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32850,  39,     1.5) /* DefaultScale */;

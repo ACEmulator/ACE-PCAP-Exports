@@ -39,17 +39,10 @@ VALUES (33238,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33238,   1, True ) /* Stuck */
-     , (33238,  11, True ) /* IgnoreCollisions */
-     , (33238,  12, True ) /* ReportCollisions */
-     , (33238,  13, True ) /* Ethereal */
-     , (33238,  14, True ) /* GravityStatus */
-     , (33238,  15, True ) /* LightsStatus */
-     , (33238,  19, False) /* Attackable */
-     , (33238,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (33238,  42, True ) /* AllowEdgeSlide */;
+     , (33238,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33238,  54, 0.100000001490116) /* UseRadius */;
+VALUES (33238,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33238,   1, 'Tunnels to the Harbinger') /* Name */

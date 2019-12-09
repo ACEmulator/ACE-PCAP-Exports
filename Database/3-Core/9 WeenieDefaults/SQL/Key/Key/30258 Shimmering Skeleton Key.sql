@@ -11,20 +11,15 @@ VALUES (30258,   1,      16384) /* ItemType - Key */
      , (30258,  19,          0) /* Value */
      , (30258,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30258,  33,         -1) /* Bonded - Slippery */
-     , (30258,  65,        101) /* Placement - Resting */
      , (30258,  91,          1) /* MaxStructure */
      , (30258,  92,          1) /* Structure */
      , (30258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30258,  94,        640) /* TargetType - LockableMagicTarget */
-     , (30258, 151,          2) /* HookType - Wall */;
+     , (30258, 151,          2) /* HookType - Wall */
+     , (30258, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30258,   1, False) /* Stuck */
-     , (30258,  11, True ) /* IgnoreCollisions */
-     , (30258,  13, True ) /* Ethereal */
-     , (30258,  14, True ) /* GravityStatus */
-     , (30258,  19, True ) /* Attackable */
-     , (30258,  22, True ) /* Inscribable */;
+VALUES (30258,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30258,   1, 'Shimmering Skeleton Key') /* Name */

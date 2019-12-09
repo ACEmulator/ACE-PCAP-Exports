@@ -9,18 +9,11 @@ VALUES (36930,   1,        128) /* ItemType - Misc */
      , (36930,  16,          8) /* ItemUseable - Contained */
      , (36930,  19,          0) /* Value */
      , (36930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36930, 174,          1) /* AppraisalPages */
-     , (36930, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36930,   1, False) /* Stuck */
-     , (36930,  11, True ) /* IgnoreCollisions */
-     , (36930,  13, True ) /* Ethereal */
-     , (36930,  14, True ) /* GravityStatus */
-     , (36930,  19, True ) /* Attackable */;
+     , (36930, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (36930, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36930,  39, 0.200000002980232) /* DefaultScale */
+VALUES (36930,  39,     0.2) /* DefaultScale */
      , (36930,  54,       1) /* UseRadius */
      , (36930,  76,     0.5) /* Translucency */;
 

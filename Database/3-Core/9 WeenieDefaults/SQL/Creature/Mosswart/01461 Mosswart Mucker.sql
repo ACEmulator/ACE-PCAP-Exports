@@ -15,11 +15,7 @@ VALUES (1461,   1,         16) /* ItemType - Creature */
      , (1461, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1461,   1, True ) /* Stuck */
-     , (1461,  12, True ) /* ReportCollisions */
-     , (1461,  13, False) /* Ethereal */
-     , (1461,  14, True ) /* GravityStatus */
-     , (1461,  19, True ) /* Attackable */;
+VALUES (1461,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1461,   1, 'Mosswart Mucker') /* Name */

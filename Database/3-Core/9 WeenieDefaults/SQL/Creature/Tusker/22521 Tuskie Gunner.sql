@@ -16,14 +16,10 @@ VALUES (22521,   1,         16) /* ItemType - Creature */
      , (22521, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22521,   1, True ) /* Stuck */
-     , (22521,  12, True ) /* ReportCollisions */
-     , (22521,  13, False) /* Ethereal */
-     , (22521,  14, True ) /* GravityStatus */
-     , (22521,  19, True ) /* Attackable */;
+VALUES (22521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22521,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (22521,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22521,   1, 'Tuskie Gunner') /* Name */

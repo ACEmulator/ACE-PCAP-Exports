@@ -12,17 +12,10 @@ VALUES (15751,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15751,  15,         10) /* StackUnitValue */
      , (15751,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15751,  19,         10) /* Value */
-     , (15751,  65,        101) /* Placement - Resting */
      , (15751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15751,  94,        136) /* TargetType - Jewelry, Misc */
-     , (15751, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15751,   1, False) /* Stuck */
-     , (15751,  11, True ) /* IgnoreCollisions */
-     , (15751,  13, True ) /* Ethereal */
-     , (15751,  14, True ) /* GravityStatus */
-     , (15751,  19, True ) /* Attackable */;
+     , (15751, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (15751, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15751,   1, 'Elixir of Speed') /* Name */

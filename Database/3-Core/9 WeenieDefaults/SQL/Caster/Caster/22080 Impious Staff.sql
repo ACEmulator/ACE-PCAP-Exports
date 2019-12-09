@@ -12,7 +12,6 @@ VALUES (22080,   1,      32768) /* ItemType - Caster */
      , (22080,  18,          1) /* UiEffects - Magical */
      , (22080,  19,      12000) /* Value */
      , (22080,  33,          1) /* Bonded - Bonded */
-     , (22080,  65,          1) /* Placement - RightHandCombat */
      , (22080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22080,  94,         16) /* TargetType - Creature */
      , (22080, 106,        325) /* ItemSpellcraft */
@@ -24,21 +23,17 @@ VALUES (22080,   1,      32768) /* ItemType - Caster */
      , (22080, 115,        270) /* ItemSkillLevelLimit */
      , (22080, 117,        150) /* ItemManaCost */
      , (22080, 151,          2) /* HookType - Wall */
-     , (22080, 176,         34) /* AppraisalItemSkill */;
+     , (22080, 176,         34) /* AppraisalItemSkill */
+     , (22080, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22080,   1, False) /* Stuck */
-     , (22080,  11, True ) /* IgnoreCollisions */
-     , (22080,  13, True ) /* Ethereal */
-     , (22080,  14, True ) /* GravityStatus */
-     , (22080,  19, True ) /* Attackable */
-     , (22080,  22, True ) /* Inscribable */
+VALUES (22080,  22, True ) /* Inscribable */
      , (22080,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22080,  29,       1) /* WeaponDefense */
-     , (22080,  39, 0.600000023841858) /* DefaultScale */
-     , (22080, 144, 1.47278844592405E-314) /* ManaConversionMod */;
+     , (22080,  39,     0.6) /* DefaultScale */
+     , (22080, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22080,   1, 'Impious Staff') /* Name */

@@ -8,20 +8,13 @@ VALUES (12146,   1,       8192) /* ItemType - Writable */
      , (12146,   5,          5) /* EncumbranceVal */
      , (12146,  16,          8) /* ItemUseable - Contained */
      , (12146,  19,         20) /* Value */
-     , (12146,  65,        101) /* Placement - Resting */
      , (12146,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12146, 174,          3) /* AppraisalPages */
-     , (12146, 175,          3) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12146,   1, False) /* Stuck */
-     , (12146,  11, True ) /* IgnoreCollisions */
-     , (12146,  13, True ) /* Ethereal */
-     , (12146,  14, True ) /* GravityStatus */
-     , (12146,  19, True ) /* Attackable */;
+     , (12146, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (12146, 8042,          3) /* PCAPRecordedAppraisalPages */
+     , (12146, 8043,          3) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12146,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (12146,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12146,   1, 'Simulacra Rumor') /* Name */

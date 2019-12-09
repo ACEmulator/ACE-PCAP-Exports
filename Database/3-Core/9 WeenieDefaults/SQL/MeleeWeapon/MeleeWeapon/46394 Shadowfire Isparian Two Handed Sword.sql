@@ -19,7 +19,6 @@ VALUES (46394,   1,          1) /* ItemType - MeleeWeapon */
      , (46394,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46394,  49,          1) /* WeaponTime */
      , (46394,  51,          5) /* CombatUse - TwoHanded */
-     , (46394,  65,          1) /* Placement - RightHandCombat */
      , (46394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46394, 114,          1) /* Attuned - Attuned */
      , (46394, 151,          2) /* HookType - Wall */
@@ -28,15 +27,11 @@ VALUES (46394,   1,          1) /* ItemType - MeleeWeapon */
      , (46394, 160,        400) /* WieldDifficulty */
      , (46394, 166,         22) /* SlayerCreatureType - Shadow */
      , (46394, 292,          2) /* Cleaving */
-     , (46394, 8030,          0);
+     , (46394, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46394, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46394,   1, False) /* Stuck */
-     , (46394,  11, True ) /* IgnoreCollisions */
-     , (46394,  13, True ) /* Ethereal */
-     , (46394,  14, True ) /* GravityStatus */
-     , (46394,  19, True ) /* Attackable */
-     , (46394,  22, True ) /* Inscribable */
+VALUES (46394,  22, True ) /* Inscribable */
      , (46394,  69, False) /* IsSellable */
      , (46394,  99, True ) /* Ivoryable */;
 

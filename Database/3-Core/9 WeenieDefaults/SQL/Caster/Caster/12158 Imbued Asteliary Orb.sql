@@ -12,7 +12,6 @@ VALUES (12158,   1,      32768) /* ItemType - Caster */
      , (12158,  18,          1) /* UiEffects - Magical */
      , (12158,  19,       3000) /* Value */
      , (12158,  33,          1) /* Bonded - Bonded */
-     , (12158,  65,          1) /* Placement - RightHandCombat */
      , (12158,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (12158,  94,         16) /* TargetType - Creature */
      , (12158, 106,        250) /* ItemSpellcraft */
@@ -22,16 +21,11 @@ VALUES (12158,   1,      32768) /* ItemType - Caster */
      , (12158, 114,          1) /* Attuned - Attuned */
      , (12158, 115,        220) /* ItemSkillLevelLimit */
      , (12158, 151,          2) /* HookType - Wall */
-     , (12158, 176,         16) /* AppraisalItemSkill */;
+     , (12158, 176,         16) /* AppraisalItemSkill */
+     , (12158, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12158,   1, False) /* Stuck */
-     , (12158,  11, True ) /* IgnoreCollisions */
-     , (12158,  13, True ) /* Ethereal */
-     , (12158,  14, True ) /* GravityStatus */
-     , (12158,  15, True ) /* LightsStatus */
-     , (12158,  19, True ) /* Attackable */
-     , (12158,  22, True ) /* Inscribable */
+VALUES (12158,  22, True ) /* Inscribable */
      , (12158,  69, False) /* IsSellable */
      , (12158,  94, True ) /* AppraisalHasAllowedActivator */
      , (12158,  99, True ) /* Ivoryable */;

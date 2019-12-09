@@ -26,16 +26,10 @@ VALUES (21355,   1,          1) /* ItemType - MeleeWeapon */
      , (21355, 160,        275) /* WieldDifficulty */
      , (21355, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */
      , (21355, 353,          1) /* WeaponType - Unarmed */
-     , (21355, 8030,          0);
+     , (21355, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21355,   1, False) /* Stuck */
-     , (21355,  11, True ) /* IgnoreCollisions */
-     , (21355,  13, True ) /* Ethereal */
-     , (21355,  14, True ) /* GravityStatus */
-     , (21355,  15, True ) /* LightsStatus */
-     , (21355,  19, True ) /* Attackable */
-     , (21355,  22, True ) /* Inscribable */
+VALUES (21355,  22, True ) /* Inscribable */
      , (21355,  69, False) /* IsSellable */
      , (21355,  99, True ) /* Ivoryable */;
 

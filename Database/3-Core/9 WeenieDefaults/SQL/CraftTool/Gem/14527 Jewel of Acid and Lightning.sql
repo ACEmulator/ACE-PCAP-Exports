@@ -11,18 +11,13 @@ VALUES (14527,   1,       2048) /* ItemType - Gem */
      , (14527,  13,         40) /* StackUnitEncumbrance */
      , (14527,  15,          0) /* StackUnitValue */
      , (14527,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (14527,  65,        101) /* Placement - Resting */
      , (14527,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14527,  94,       2048) /* TargetType - Gem */
-     , (14527, 151,          9) /* HookType - Floor, Yard */;
+     , (14527, 151,          9) /* HookType - Floor, Yard */
+     , (14527, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14527,   1, False) /* Stuck */
-     , (14527,  11, True ) /* IgnoreCollisions */
-     , (14527,  13, True ) /* Ethereal */
-     , (14527,  14, True ) /* GravityStatus */
-     , (14527,  19, True ) /* Attackable */
-     , (14527,  22, True ) /* Inscribable */;
+VALUES (14527,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14527,   1, 'Jewel of Acid and Lightning') /* Name */;

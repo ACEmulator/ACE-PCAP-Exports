@@ -8,17 +8,12 @@ VALUES (27464,   1,        128) /* ItemType - Misc */
      , (27464,   5,         15) /* EncumbranceVal */
      , (27464,  16,          1) /* ItemUseable - No */
      , (27464,  19,          0) /* Value */
-     , (27464,  65,        101) /* Placement - Resting */
      , (27464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27464, 151,          2) /* HookType - Wall */;
+     , (27464, 151,          2) /* HookType - Wall */
+     , (27464, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27464,   1, False) /* Stuck */
-     , (27464,  11, True ) /* IgnoreCollisions */
-     , (27464,  13, True ) /* Ethereal */
-     , (27464,  14, True ) /* GravityStatus */
-     , (27464,  19, True ) /* Attackable */
-     , (27464,  22, True ) /* Inscribable */;
+VALUES (27464,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27464,   1, 'Candeth Keep Blueprints') /* Name */

@@ -18,7 +18,6 @@ VALUES (19815,   1,          1) /* ItemType - MeleeWeapon */
      , (19815,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (19815,  49,         12) /* WeaponTime */
      , (19815,  51,          1) /* CombatUse - Melee */
-     , (19815,  65,        101) /* Placement - Resting */
      , (19815,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19815, 106,        300) /* ItemSpellcraft */
      , (19815, 107,       1167) /* ItemCurMana */
@@ -29,24 +28,20 @@ VALUES (19815,   1,          1) /* ItemType - MeleeWeapon */
      , (19815, 160,        300) /* WieldDifficulty */
      , (19815, 166,         42) /* SlayerCreatureType - LightningElemental */
      , (19815, 353,          1) /* WeaponType - Unarmed */
-     , (19815, 8030,          0);
+     , (19815, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (19815, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19815,   1, False) /* Stuck */
-     , (19815,  11, True ) /* IgnoreCollisions */
-     , (19815,  13, True ) /* Ethereal */
-     , (19815,  14, True ) /* GravityStatus */
-     , (19815,  19, True ) /* Attackable */
-     , (19815,  22, True ) /* Inscribable */
+VALUES (19815,  22, True ) /* Inscribable */
      , (19815,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19815,   5, -0.100000001490116) /* ManaRate */
+VALUES (19815,   5,    -0.1) /* ManaRate */
      , (19815,  21,       0) /* WeaponLength */
      , (19815,  22,    0.75) /* DamageVariance */
      , (19815,  26,       0) /* MaximumVelocity */
-     , (19815,  29, 1.04999995231628) /* WeaponDefense */
-     , (19815,  62, 1.29999995231628) /* WeaponOffense */
+     , (19815,  29,    1.05) /* WeaponDefense */
+     , (19815,  62,     1.3) /* WeaponOffense */
      , (19815,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

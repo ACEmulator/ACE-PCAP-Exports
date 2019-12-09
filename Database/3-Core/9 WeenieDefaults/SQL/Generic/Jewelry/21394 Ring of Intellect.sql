@@ -10,7 +10,6 @@ VALUES (21394,   1,          8) /* ItemType - Jewelry */
      , (21394,  16,          1) /* ItemUseable - No */
      , (21394,  18,          1) /* UiEffects - Magical */
      , (21394,  19,       4000) /* Value */
-     , (21394,  65,        101) /* Placement - Resting */
      , (21394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21394, 106,        225) /* ItemSpellcraft */
      , (21394, 107,        500) /* ItemCurMana */
@@ -18,19 +17,15 @@ VALUES (21394,   1,          8) /* ItemType - Jewelry */
      , (21394, 109,        175) /* ItemDifficulty */
      , (21394, 158,          8) /* WieldRequirements - Training */
      , (21394, 159,         16) /* WieldSkillType - ManaConversion */
-     , (21394, 160,          2) /* WieldDifficulty */;
+     , (21394, 160,          2) /* WieldDifficulty */
+     , (21394, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21394,   1, False) /* Stuck */
-     , (21394,  11, True ) /* IgnoreCollisions */
-     , (21394,  13, True ) /* Ethereal */
-     , (21394,  14, True ) /* GravityStatus */
-     , (21394,  19, True ) /* Attackable */
-     , (21394,  22, True ) /* Inscribable */
+VALUES (21394,  22, True ) /* Inscribable */
      , (21394,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21394,   5, -0.034000001847744) /* ManaRate */;
+VALUES (21394,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21394,   1, 'Ring of Intellect') /* Name */

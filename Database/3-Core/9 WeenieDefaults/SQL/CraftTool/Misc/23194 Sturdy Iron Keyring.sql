@@ -12,21 +12,16 @@ VALUES (23194,   1,        128) /* ItemType - Misc */
      , (23194,  15,         10) /* StackUnitValue */
      , (23194,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (23194,  19,         10) /* Value */
-     , (23194,  65,        101) /* Placement - Resting */
      , (23194,  91,         50) /* MaxStructure */
      , (23194,  92,         50) /* Structure */
      , (23194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23194,  94,      16384) /* TargetType - Key */
      , (23194, 151,          2) /* HookType - Wall */
-     , (23194, 193,         24) /* NumKeys */;
+     , (23194, 193,         24) /* NumKeys */
+     , (23194, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23194,   1, False) /* Stuck */
-     , (23194,  11, True ) /* IgnoreCollisions */
-     , (23194,  13, True ) /* Ethereal */
-     , (23194,  14, True ) /* GravityStatus */
-     , (23194,  19, True ) /* Attackable */
-     , (23194,  22, True ) /* Inscribable */
+VALUES (23194,  22, True ) /* Inscribable */
      , (23194,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

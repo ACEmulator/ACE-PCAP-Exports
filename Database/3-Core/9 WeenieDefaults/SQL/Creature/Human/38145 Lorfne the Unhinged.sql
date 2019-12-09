@@ -18,12 +18,7 @@ VALUES (38145,   1,         16) /* ItemType - Creature */
      , (38145, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38145,   1, True ) /* Stuck */
-     , (38145,  12, True ) /* ReportCollisions */
-     , (38145,  13, False) /* Ethereal */
-     , (38145,  14, True ) /* GravityStatus */
-     , (38145,  19, True ) /* Attackable */
-     , (38145,  42, True ) /* AllowEdgeSlide */;
+VALUES (38145,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38145,   1, 'Lorfne the Unhinged') /* Name */

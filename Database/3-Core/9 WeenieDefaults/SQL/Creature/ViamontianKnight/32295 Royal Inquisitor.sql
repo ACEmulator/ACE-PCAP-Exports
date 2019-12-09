@@ -18,11 +18,7 @@ VALUES (32295,   1,         16) /* ItemType - Creature */
      , (32295, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32295,   1, True ) /* Stuck */
-     , (32295,  12, True ) /* ReportCollisions */
-     , (32295,  13, False) /* Ethereal */
-     , (32295,  14, True ) /* GravityStatus */
-     , (32295,  19, True ) /* Attackable */;
+VALUES (32295,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32295,   1, 'Royal Inquisitor') /* Name */

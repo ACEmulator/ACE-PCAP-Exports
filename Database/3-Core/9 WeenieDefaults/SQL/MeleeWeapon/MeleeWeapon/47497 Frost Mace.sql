@@ -12,17 +12,12 @@ VALUES (47497,   1,          1) /* ItemType - MeleeWeapon */
      , (47497,  18,        128) /* UiEffects - Frost */
      , (47497,  19,        350) /* Value */
      , (47497,  51,          1) /* CombatUse - Melee */
-     , (47497,  65,          1) /* Placement - RightHandCombat */
      , (47497,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47497, 151,          2) /* HookType - Wall */;
+     , (47497, 151,          2) /* HookType - Wall */
+     , (47497, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47497,   1, False) /* Stuck */
-     , (47497,  11, True ) /* IgnoreCollisions */
-     , (47497,  13, True ) /* Ethereal */
-     , (47497,  14, True ) /* GravityStatus */
-     , (47497,  19, True ) /* Attackable */
-     , (47497,  22, True ) /* Inscribable */;
+VALUES (47497,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47497,   1, 'Frost Mace') /* Name */;

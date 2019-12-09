@@ -8,19 +8,14 @@ VALUES (1533,   1,      16384) /* ItemType - Key */
      , (1533,   5,         20) /* EncumbranceVal */
      , (1533,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (1533,  19,          9) /* Value */
-     , (1533,  65,        101) /* Placement - Resting */
      , (1533,  91,         10) /* MaxStructure */
      , (1533,  92,         10) /* Structure */
      , (1533,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1533,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (1533,  94,        640) /* TargetType - LockableMagicTarget */
+     , (1533, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1533,   1, False) /* Stuck */
-     , (1533,  11, True ) /* IgnoreCollisions */
-     , (1533,  13, True ) /* Ethereal */
-     , (1533,  14, True ) /* GravityStatus */
-     , (1533,  19, True ) /* Attackable */
-     , (1533,  22, True ) /* Inscribable */;
+VALUES (1533,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1533,   1, 'Small Rusted Key') /* Name */

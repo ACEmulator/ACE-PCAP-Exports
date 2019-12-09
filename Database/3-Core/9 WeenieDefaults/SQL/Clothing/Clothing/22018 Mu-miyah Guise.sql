@@ -14,12 +14,7 @@ VALUES (22018,   1,          4) /* ItemType - Clothing */
      , (22018, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22018,   1, False) /* Stuck */
-     , (22018,  11, True ) /* IgnoreCollisions */
-     , (22018,  13, True ) /* Ethereal */
-     , (22018,  14, True ) /* GravityStatus */
-     , (22018,  19, True ) /* Attackable */
-     , (22018,  22, True ) /* Inscribable */;
+VALUES (22018,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22018,   1, 'Mu-miyah Guise') /* Name */;

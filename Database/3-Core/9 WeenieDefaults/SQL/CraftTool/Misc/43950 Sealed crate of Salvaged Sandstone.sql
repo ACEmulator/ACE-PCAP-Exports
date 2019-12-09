@@ -12,20 +12,15 @@ VALUES (43950,   1,        128) /* ItemType - Misc */
      , (43950,  15,          5) /* StackUnitValue */
      , (43950,  16,          8) /* ItemUseable - Contained */
      , (43950,  19,          5) /* Value */
-     , (43950,  65,        101) /* Placement - Resting */
      , (43950,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43950,  94,         16) /* TargetType - Creature */;
+     , (43950,  94,         16) /* TargetType - Creature */
+     , (43950, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43950,   1, False) /* Stuck */
-     , (43950,  11, True ) /* IgnoreCollisions */
-     , (43950,  13, True ) /* Ethereal */
-     , (43950,  14, True ) /* GravityStatus */
-     , (43950,  19, True ) /* Attackable */
-     , (43950,  22, True ) /* Inscribable */;
+VALUES (43950,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43950,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (43950,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43950,   1, 'Sealed crate of Salvaged Sandstone') /* Name */;

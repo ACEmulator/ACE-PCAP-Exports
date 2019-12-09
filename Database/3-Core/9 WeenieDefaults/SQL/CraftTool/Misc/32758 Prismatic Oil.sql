@@ -14,21 +14,16 @@ VALUES (32758,   1,        128) /* ItemType - Misc */
      , (32758,  18,          8) /* UiEffects - BoostMana */
      , (32758,  19,          0) /* Value */
      , (32758,  33,          1) /* Bonded - Bonded */
-     , (32758,  65,        101) /* Placement - Resting */
      , (32758,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32758,  94,        130) /* TargetType - Armor, Misc */
-     , (32758, 114,          1) /* Attuned - Attuned */;
+     , (32758, 114,          1) /* Attuned - Attuned */
+     , (32758, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32758,   1, False) /* Stuck */
-     , (32758,  11, True ) /* IgnoreCollisions */
-     , (32758,  13, True ) /* Ethereal */
-     , (32758,  14, True ) /* GravityStatus */
-     , (32758,  19, True ) /* Attackable */
-     , (32758,  22, True ) /* Inscribable */;
+VALUES (32758,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32758,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (32758,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32758,   1, 'Prismatic Oil') /* Name */

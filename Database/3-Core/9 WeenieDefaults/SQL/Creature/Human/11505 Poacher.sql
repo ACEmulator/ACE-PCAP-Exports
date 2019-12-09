@@ -18,11 +18,7 @@ VALUES (11505,   1,         16) /* ItemType - Creature */
      , (11505, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11505,   1, True ) /* Stuck */
-     , (11505,  12, True ) /* ReportCollisions */
-     , (11505,  13, False) /* Ethereal */
-     , (11505,  14, True ) /* GravityStatus */
-     , (11505,  19, True ) /* Attackable */;
+VALUES (11505,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11505,   1, 'Poacher') /* Name */

@@ -8,21 +8,16 @@ VALUES (706,   1,        128) /* ItemType - Misc */
      , (706,   5,       9000) /* EncumbranceVal */
      , (706,  16,          1) /* ItemUseable - No */
      , (706,  19,        125) /* Value */
-     , (706,  65,        101) /* Placement - Resting */
-     , (706,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (706,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (706, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (706,   1, True ) /* Stuck */
-     , (706,  11, True ) /* IgnoreCollisions */
-     , (706,  12, True ) /* ReportCollisions */
-     , (706,  13, False) /* Ethereal */
-     , (706,  14, True ) /* GravityStatus */
-     , (706,  19, True ) /* Attackable */;
+VALUES (706,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (706, 8010,       0) /* PCAPRecordedVelocityX */
      , (706, 8011,       0) /* PCAPRecordedVelocityY */
-     , (706, 8012, -0.868846416473389) /* PCAPRecordedVelocityZ */;
+     , (706, 8012,   -0.87) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (706,   1, 'Thelnoth''s Remedies') /* Name */

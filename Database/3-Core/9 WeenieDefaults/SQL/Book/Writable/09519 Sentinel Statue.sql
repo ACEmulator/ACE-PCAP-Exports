@@ -9,16 +9,12 @@ VALUES (9519,   1,       8192) /* ItemType - Writable */
      , (9519,  16,         32) /* ItemUseable - Remote */
      , (9519,  19,          0) /* Value */
      , (9519,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
-     , (9519, 174,          1) /* AppraisalPages */
-     , (9519, 175,          1) /* AppraisalMaxPages */
-     , (9519, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9519, 8007,          0) /* PCAPRecordedAutonomousMovement */
+     , (9519, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (9519, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9519,   1, True ) /* Stuck */
-     , (9519,  11, True ) /* IgnoreCollisions */
-     , (9519,  13, False) /* Ethereal */
-     , (9519,  14, True ) /* GravityStatus */
-     , (9519,  19, True ) /* Attackable */;
+VALUES (9519,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9519,  39,       5) /* DefaultScale */

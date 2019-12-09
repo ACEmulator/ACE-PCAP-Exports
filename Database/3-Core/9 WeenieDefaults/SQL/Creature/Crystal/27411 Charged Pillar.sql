@@ -15,12 +15,7 @@ VALUES (27411,   1,         16) /* ItemType - Creature */
      , (27411, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27411,   1, True ) /* Stuck */
-     , (27411,  12, True ) /* ReportCollisions */
-     , (27411,  13, True ) /* Ethereal */
-     , (27411,  14, True ) /* GravityStatus */
-     , (27411,  15, True ) /* LightsStatus */
-     , (27411,  19, True ) /* Attackable */;
+VALUES (27411,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27411,   1, 'Charged Pillar') /* Name */

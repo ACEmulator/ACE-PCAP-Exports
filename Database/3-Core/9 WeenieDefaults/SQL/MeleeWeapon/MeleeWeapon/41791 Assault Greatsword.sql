@@ -16,7 +16,6 @@ VALUES (41791,   1,          1) /* ItemType - MeleeWeapon */
      , (41791,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41791,  49,         40) /* WeaponTime */
      , (41791,  51,          5) /* CombatUse - TwoHanded */
-     , (41791,  65,        101) /* Placement - Resting */
      , (41791,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41791, 106,        400) /* ItemSpellcraft */
      , (41791, 107,        600) /* ItemCurMana */
@@ -29,24 +28,19 @@ VALUES (41791,   1,          1) /* ItemType - MeleeWeapon */
      , (41791, 166,          6) /* SlayerCreatureType - Tumerok */
      , (41791, 292,          2) /* Cleaving */
      , (41791, 353,         11) /* WeaponType - TwoHanded */
-     , (41791, 8030,          0);
+     , (41791, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41791, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41791,   1, False) /* Stuck */
-     , (41791,  11, True ) /* IgnoreCollisions */
-     , (41791,  13, True ) /* Ethereal */
-     , (41791,  14, True ) /* GravityStatus */
-     , (41791,  15, True ) /* LightsStatus */
-     , (41791,  19, True ) /* Attackable */
-     , (41791,  22, True ) /* Inscribable */;
+VALUES (41791,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41791,   5,  -0.025) /* ManaRate */
+VALUES (41791,   5,   -0.02) /* ManaRate */
      , (41791,  21,       0) /* WeaponLength */
      , (41791,  22,     0.6) /* DamageVariance */
      , (41791,  26,       0) /* MaximumVelocity */
      , (41791,  29,    1.06) /* WeaponDefense */
-     , (41791,  39, 1.29999995231628) /* DefaultScale */
+     , (41791,  39,     1.3) /* DefaultScale */
      , (41791,  62,    1.06) /* WeaponOffense */
      , (41791,  63,       1) /* DamageMod */
      , (41791,  77,       1) /* PhysicsScriptIntensity */;

@@ -13,21 +13,16 @@ VALUES (22445,   1,        128) /* ItemType - Misc */
      , (22445,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22445,  19,          0) /* Value */
      , (22445,  33,          0) /* Bonded - Normal */
-     , (22445,  65,        101) /* Placement - Resting */
      , (22445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22445,  94,        128) /* TargetType - Misc */
-     , (22445, 114,          0) /* Attuned - Normal */;
+     , (22445, 114,          0) /* Attuned - Normal */
+     , (22445, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22445,   1, False) /* Stuck */
-     , (22445,  11, True ) /* IgnoreCollisions */
-     , (22445,  13, True ) /* Ethereal */
-     , (22445,  14, True ) /* GravityStatus */
-     , (22445,  19, True ) /* Attackable */
-     , (22445,  69, False) /* IsSellable */;
+VALUES (22445,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22445,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (22445,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22445,   1, 'Soft Bandages') /* Name */

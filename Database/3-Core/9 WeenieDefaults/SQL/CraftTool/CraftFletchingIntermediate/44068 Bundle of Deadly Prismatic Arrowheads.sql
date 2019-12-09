@@ -11,16 +11,9 @@ VALUES (44068,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44068,  15,       1000) /* StackUnitValue */
      , (44068,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44068,  19,       1000) /* Value */
-     , (44068,  65,        101) /* Placement - Resting */
      , (44068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44068,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44068,   1, False) /* Stuck */
-     , (44068,  11, True ) /* IgnoreCollisions */
-     , (44068,  13, True ) /* Ethereal */
-     , (44068,  14, True ) /* GravityStatus */
-     , (44068,  19, True ) /* Attackable */;
+     , (44068,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (44068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44068,   1, 'Bundle of Deadly Prismatic Arrowheads') /* Name */

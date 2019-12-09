@@ -12,15 +12,8 @@ VALUES (2459,   1,         32) /* ItemType - Food */
      , (2459,  15,         10) /* StackUnitValue */
      , (2459,  16,          8) /* ItemUseable - Contained */
      , (2459,  19,         10) /* Value */
-     , (2459,  65,        101) /* Placement - Resting */
-     , (2459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2459,   1, False) /* Stuck */
-     , (2459,  11, True ) /* IgnoreCollisions */
-     , (2459,  13, True ) /* Ethereal */
-     , (2459,  14, True ) /* GravityStatus */
-     , (2459,  19, True ) /* Attackable */;
+     , (2459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (2459, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2459,   1, 'Kumiss') /* Name */

@@ -10,10 +10,7 @@ VALUES (49594,   1,        128) /* ItemType - Misc */
      , (49594, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49594,   1, True ) /* Stuck */
-     , (49594,  11, True ) /* IgnoreCollisions */
-     , (49594,  13, True ) /* Ethereal */
-     , (49594,  19, True ) /* Attackable */;
+VALUES (49594,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49594,  54,     2.5) /* UseRadius */;

@@ -12,19 +12,13 @@ VALUES (15150,   1,      65536) /* ItemType - Portal */
      , (15150, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15150,   1, True ) /* Stuck */
-     , (15150,  12, True ) /* ReportCollisions */
-     , (15150,  13, True ) /* Ethereal */
-     , (15150,  14, True ) /* GravityStatus */
-     , (15150,  15, True ) /* LightsStatus */
-     , (15150,  19, True ) /* Attackable */;
+VALUES (15150,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15150,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15150,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15150,   1, 'Darawyll Village Portal') /* Name */
-     , (15150,  38, 'Darawyll Village Portal (9.5N, 40.7E).') /* AppraisalPortalDestination */
      , (15150, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

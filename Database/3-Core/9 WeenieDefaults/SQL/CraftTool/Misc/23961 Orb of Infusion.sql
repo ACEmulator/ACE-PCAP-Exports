@@ -13,22 +13,17 @@ VALUES (23961,   1,        128) /* ItemType - Misc */
      , (23961,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (23961,  19,          0) /* Value */
      , (23961,  33,          1) /* Bonded - Bonded */
-     , (23961,  65,        101) /* Placement - Resting */
      , (23961,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23961,  94,        130) /* TargetType - Armor, Misc */
      , (23961, 114,          1) /* Attuned - Attuned */
-     , (23961, 151,          2) /* HookType - Wall */;
+     , (23961, 151,          2) /* HookType - Wall */
+     , (23961, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23961,   1, False) /* Stuck */
-     , (23961,  11, True ) /* IgnoreCollisions */
-     , (23961,  13, True ) /* Ethereal */
-     , (23961,  14, True ) /* GravityStatus */
-     , (23961,  19, True ) /* Attackable */
-     , (23961,  22, True ) /* Inscribable */;
+VALUES (23961,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23961,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (23961,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23961,   1, 'Orb of Infusion') /* Name */

@@ -8,20 +8,15 @@ VALUES (880,   1,        128) /* ItemType - Misc */
      , (880,   5,       9000) /* EncumbranceVal */
      , (880,  16,          1) /* ItemUseable - No */
      , (880,  19,        125) /* Value */
-     , (880,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (880,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (880,   1, True ) /* Stuck */
-     , (880,  11, True ) /* IgnoreCollisions */
-     , (880,  12, True ) /* ReportCollisions */
-     , (880,  13, False) /* Ethereal */
-     , (880,  14, True ) /* GravityStatus */
-     , (880,  19, True ) /* Attackable */;
+VALUES (880,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (880, 8010,       0) /* PCAPRecordedVelocityX */
      , (880, 8011,       0) /* PCAPRecordedVelocityY */
-     , (880, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (880, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (880,   1, 'West Wind Tower') /* Name */

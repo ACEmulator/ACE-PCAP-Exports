@@ -16,14 +16,10 @@ VALUES (30647,   1,         16) /* ItemType - Creature */
      , (30647, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30647,   1, True ) /* Stuck */
-     , (30647,  12, True ) /* ReportCollisions */
-     , (30647,  13, False) /* Ethereal */
-     , (30647,  14, True ) /* GravityStatus */
-     , (30647,  19, True ) /* Attackable */;
+VALUES (30647,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30647,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30647,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30647,   1, 'Drudge Ballast') /* Name */

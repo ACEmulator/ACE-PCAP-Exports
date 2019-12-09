@@ -12,19 +12,13 @@ VALUES (13106,   1,      65536) /* ItemType - Portal */
      , (13106, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13106,   1, True ) /* Stuck */
-     , (13106,  12, True ) /* ReportCollisions */
-     , (13106,  13, True ) /* Ethereal */
-     , (13106,  14, True ) /* GravityStatus */
-     , (13106,  15, True ) /* LightsStatus */
-     , (13106,  19, True ) /* Attackable */;
+VALUES (13106,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13106,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13106,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13106,   1, 'Frosty Dale Cottages Portal') /* Name */
-     , (13106,  38, 'Frosty Dale Cottages Portal (77.6N, 6.4E).') /* AppraisalPortalDestination */
      , (13106, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

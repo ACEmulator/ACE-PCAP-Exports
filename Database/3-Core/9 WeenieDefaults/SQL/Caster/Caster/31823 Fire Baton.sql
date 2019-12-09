@@ -12,7 +12,6 @@ VALUES (31823,   1,      32768) /* ItemType - Caster */
      , (31823,  18,         33) /* UiEffects - Magical, Fire */
      , (31823,  19,      36324) /* Value */
      , (31823,  45,         16) /* DamageType - Fire */
-     , (31823,  65,          1) /* Placement - RightHandCombat */
      , (31823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31823,  94,         16) /* TargetType - Creature */
      , (31823, 105,          4) /* ItemWorkmanship */
@@ -25,15 +24,11 @@ VALUES (31823,   1,      32768) /* ItemType - Caster */
      , (31823, 172,          5) /* AppraisalLongDescDecoration */
      , (31823, 177,          4) /* GemCount */
      , (31823, 178,         39) /* GemType */
-     , (31823, 179,        512) /* ImbuedEffect - FireRending */;
+     , (31823, 179,        512) /* ImbuedEffect - FireRending */
+     , (31823, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31823,   1, False) /* Stuck */
-     , (31823,  11, True ) /* IgnoreCollisions */
-     , (31823,  13, True ) /* Ethereal */
-     , (31823,  14, True ) /* GravityStatus */
-     , (31823,  19, True ) /* Attackable */
-     , (31823,  22, True ) /* Inscribable */
+VALUES (31823,  22, True ) /* Inscribable */
      , (31823,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

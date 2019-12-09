@@ -11,17 +11,12 @@ VALUES (29820,   1,          2) /* ItemType - Armor */
      , (29820,  16,          1) /* ItemUseable - No */
      , (29820,  18,          1) /* UiEffects - Magical */
      , (29820,  19,       1500) /* Value */
-     , (29820,  65,        101) /* Placement - Resting */
      , (29820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29820, 151,          2) /* HookType - Wall */;
+     , (29820, 151,          2) /* HookType - Wall */
+     , (29820, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29820,   1, False) /* Stuck */
-     , (29820,  11, True ) /* IgnoreCollisions */
-     , (29820,  13, True ) /* Ethereal */
-     , (29820,  14, True ) /* GravityStatus */
-     , (29820,  19, True ) /* Attackable */
-     , (29820,  22, True ) /* Inscribable */;
+VALUES (29820,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29820,   1, 'Littoral Siraluun Headdress') /* Name */;

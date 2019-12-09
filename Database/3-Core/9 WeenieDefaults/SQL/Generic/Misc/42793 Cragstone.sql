@@ -11,11 +11,7 @@ VALUES (42793,   1,        128) /* ItemType - Misc */
      , (42793,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42793,   1, True ) /* Stuck */
-     , (42793,  11, True ) /* IgnoreCollisions */
-     , (42793,  12, True ) /* ReportCollisions */
-     , (42793,  13, True ) /* Ethereal */
-     , (42793,  19, True ) /* Attackable */;
+VALUES (42793,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42793,   1, 'Cragstone') /* Name */

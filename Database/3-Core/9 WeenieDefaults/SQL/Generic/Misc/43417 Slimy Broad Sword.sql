@@ -9,17 +9,12 @@ VALUES (43417,   1,        128) /* ItemType - Misc */
      , (43417,  16,          1) /* ItemUseable - No */
      , (43417,  19,        500) /* Value */
      , (43417,  33,          1) /* Bonded - Bonded */
-     , (43417,  65,        101) /* Placement - Resting */
      , (43417,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43417, 114,          1) /* Attuned - Attuned */;
+     , (43417, 114,          1) /* Attuned - Attuned */
+     , (43417, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43417,   1, False) /* Stuck */
-     , (43417,  11, True ) /* IgnoreCollisions */
-     , (43417,  13, True ) /* Ethereal */
-     , (43417,  14, True ) /* GravityStatus */
-     , (43417,  19, True ) /* Attackable */
-     , (43417,  22, True ) /* Inscribable */;
+VALUES (43417,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43417,   1, 'Slimy Broad Sword') /* Name */

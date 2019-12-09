@@ -11,11 +11,7 @@ VALUES (4657,   1,        128) /* ItemType - Misc */
      , (4657,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4657,   1, True ) /* Stuck */
-     , (4657,  11, True ) /* IgnoreCollisions */
-     , (4657,  12, True ) /* ReportCollisions */
-     , (4657,  13, False) /* Ethereal */
-     , (4657,  19, True ) /* Attackable */;
+VALUES (4657,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4657,   1, 'Al-Jalima Supplies') /* Name */

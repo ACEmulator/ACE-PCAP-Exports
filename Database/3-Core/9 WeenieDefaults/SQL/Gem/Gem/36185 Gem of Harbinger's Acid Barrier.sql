@@ -13,21 +13,16 @@ VALUES (36185,   1,       2048) /* ItemType - Gem */
      , (36185,  16,          8) /* ItemUseable - Contained */
      , (36185,  18,          1) /* UiEffects - Magical */
      , (36185,  19,       1000) /* Value */
-     , (36185,  65,        101) /* Placement - Resting */
      , (36185,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36185,  94,         16) /* TargetType - Creature */
      , (36185, 106,        300) /* ItemSpellcraft */
      , (36185, 107,        200) /* ItemCurMana */
      , (36185, 108,        200) /* ItemMaxMana */
-     , (36185, 109,          0) /* ItemDifficulty */;
+     , (36185, 109,          0) /* ItemDifficulty */
+     , (36185, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36185,   1, False) /* Stuck */
-     , (36185,  11, True ) /* IgnoreCollisions */
-     , (36185,  13, True ) /* Ethereal */
-     , (36185,  14, True ) /* GravityStatus */
-     , (36185,  19, True ) /* Attackable */
-     , (36185,  69, True ) /* IsSellable */;
+VALUES (36185,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36185,   1, 'Gem of Harbinger''s Acid Barrier') /* Name */

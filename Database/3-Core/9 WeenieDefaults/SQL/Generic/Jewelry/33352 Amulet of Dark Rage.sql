@@ -9,19 +9,14 @@ VALUES (33352,   1,          8) /* ItemType - Jewelry */
      , (33352,   9,      32768) /* ValidLocations - NeckWear */
      , (33352,  16,          1) /* ItemUseable - No */
      , (33352,  19,        500) /* Value */
-     , (33352,  65,        101) /* Placement - Resting */
-     , (33352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (33352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33352, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33352,   1, False) /* Stuck */
-     , (33352,  11, True ) /* IgnoreCollisions */
-     , (33352,  13, True ) /* Ethereal */
-     , (33352,  14, True ) /* GravityStatus */
-     , (33352,  19, True ) /* Attackable */
-     , (33352,  22, True ) /* Inscribable */;
+VALUES (33352,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33352,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33352,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33352,   1, 'Amulet of Dark Rage') /* Name */

@@ -11,17 +11,12 @@ VALUES (46209,   1,          1) /* ItemType - MeleeWeapon */
      , (46209,  18,          1) /* UiEffects - Magical */
      , (46209,  19,       8000) /* Value */
      , (46209,  51,          1) /* CombatUse - Melee */
-     , (46209,  65,        101) /* Placement - Resting */
      , (46209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46209, 151,          2) /* HookType - Wall */;
+     , (46209, 151,          2) /* HookType - Wall */
+     , (46209, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46209,   1, False) /* Stuck */
-     , (46209,  11, True ) /* IgnoreCollisions */
-     , (46209,  13, True ) /* Ethereal */
-     , (46209,  14, True ) /* GravityStatus */
-     , (46209,  19, True ) /* Attackable */
-     , (46209,  22, True ) /* Inscribable */;
+VALUES (46209,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46209,   1, 'Blackfire Shimmering Isparian Spear') /* Name */;

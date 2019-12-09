@@ -8,7 +8,7 @@ VALUES (46303,   1,         16) /* ItemType - Creature */
      , (46303,   6,        255) /* ItemsCapacity */
      , (46303,   7,        255) /* ContainersCapacity */
      , (46303,  16,          1) /* ItemUseable - No */
-     , (46303,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
+     , (46303,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46303, 307,          0) /* DamageRating */
      , (46303, 308,          0) /* DamageResistRating */
      , (46303, 313,          0) /* CritRating */
@@ -36,11 +36,7 @@ VALUES (46303,   1,         16) /* ItemType - Creature */
      , (46303, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46303,   1, True ) /* Stuck */
-     , (46303,  12, True ) /* ReportCollisions */
-     , (46303,  13, False) /* Ethereal */
-     , (46303,  14, True ) /* GravityStatus */
-     , (46303,  19, True ) /* Attackable */;
+VALUES (46303,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46303,   1, 'Wall of Ice') /* Name */

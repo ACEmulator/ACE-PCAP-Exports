@@ -13,19 +13,14 @@ VALUES (36703,   1,        128) /* ItemType - Misc */
      , (36703, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36703,   1, False) /* Stuck */
-     , (36703,  11, True ) /* IgnoreCollisions */
-     , (36703,  13, True ) /* Ethereal */
-     , (36703,  14, True ) /* GravityStatus */
-     , (36703,  19, True ) /* Attackable */
-     , (36703,  22, True ) /* Inscribable */
+VALUES (36703,  22, True ) /* Inscribable */
      , (36703,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36703,  39, 0.899999976158142) /* DefaultScale */
+VALUES (36703,  39,     0.9) /* DefaultScale */
      , (36703, 8010,       0) /* PCAPRecordedVelocityX */
      , (36703, 8011,       0) /* PCAPRecordedVelocityY */
-     , (36703, 8012, -0.00767657766118646) /* PCAPRecordedVelocityZ */;
+     , (36703, 8012,   -0.01) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36703,   1, 'Pristine White Mattekar Hide') /* Name */

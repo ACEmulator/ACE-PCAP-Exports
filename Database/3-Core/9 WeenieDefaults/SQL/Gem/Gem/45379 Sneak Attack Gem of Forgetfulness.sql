@@ -9,17 +9,12 @@ VALUES (45379,   1,       2048) /* ItemType - Gem */
      , (45379,  16,          8) /* ItemUseable - Contained */
      , (45379,  19,          0) /* Value */
      , (45379,  33,          1) /* Bonded - Bonded */
-     , (45379,  65,        101) /* Placement - Resting */
      , (45379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45379, 114,          1) /* Attuned - Attuned */;
+     , (45379, 114,          1) /* Attuned - Attuned */
+     , (45379, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45379,   1, False) /* Stuck */
-     , (45379,  11, True ) /* IgnoreCollisions */
-     , (45379,  13, True ) /* Ethereal */
-     , (45379,  14, True ) /* GravityStatus */
-     , (45379,  19, True ) /* Attackable */
-     , (45379,  22, True ) /* Inscribable */;
+VALUES (45379,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45379,   1, 'Sneak Attack Gem of Forgetfulness') /* Name */

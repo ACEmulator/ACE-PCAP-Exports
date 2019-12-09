@@ -8,20 +8,15 @@ VALUES (244,   1,        128) /* ItemType - Misc */
      , (244,   5,        500) /* EncumbranceVal */
      , (244,  16,          1) /* ItemUseable - No */
      , (244,  19,        500) /* Value */
-     , (244,  65,        101) /* Placement - Resting */
      , (244,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (244, 151,          9) /* HookType - Floor, Yard */;
+     , (244, 151,          9) /* HookType - Floor, Yard */
+     , (244, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (244,   1, False) /* Stuck */
-     , (244,  11, True ) /* IgnoreCollisions */
-     , (244,  13, True ) /* Ethereal */
-     , (244,  14, True ) /* GravityStatus */
-     , (244,  19, True ) /* Attackable */
-     , (244,  22, True ) /* Inscribable */;
+VALUES (244,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (244,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (244,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (244,   1, 'Wood') /* Name */

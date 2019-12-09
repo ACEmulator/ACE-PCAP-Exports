@@ -11,16 +11,9 @@ VALUES (5328,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5328,  15,         10) /* StackUnitValue */
      , (5328,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5328,  19,         10) /* Value */
-     , (5328,  65,        101) /* Placement - Resting */
      , (5328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5328,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5328,   1, False) /* Stuck */
-     , (5328,  11, True ) /* IgnoreCollisions */
-     , (5328,  13, True ) /* Ethereal */
-     , (5328,  14, True ) /* GravityStatus */
-     , (5328,  19, True ) /* Attackable */;
+     , (5328,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */
+     , (5328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5328,   1, 'Victual Infusion') /* Name */

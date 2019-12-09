@@ -12,20 +12,14 @@ VALUES (42845,   1,      65536) /* ItemType - Portal */
      , (42845, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42845,   1, True ) /* Stuck */
-     , (42845,  12, True ) /* ReportCollisions */
-     , (42845,  13, True ) /* Ethereal */
-     , (42845,  14, True ) /* GravityStatus */
-     , (42845,  15, True ) /* LightsStatus */
-     , (42845,  19, True ) /* Attackable */;
+VALUES (42845,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42845,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42845,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42845,   1, 'Baishi Portal') /* Name */
      , (42845,  16, 'This portal goes to Baishi, a town well-known for its sake and the madman that desires it. This is good town for characters over level 40.') /* LongDesc */
-     , (42845,  38, 'Baishi Portal (49.3S, 62.9E).') /* AppraisalPortalDestination */
      , (42845, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

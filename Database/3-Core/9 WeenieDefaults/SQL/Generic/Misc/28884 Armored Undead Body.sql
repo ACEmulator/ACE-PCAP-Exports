@@ -11,12 +11,7 @@ VALUES (28884,   1,        128) /* ItemType - Misc */
      , (28884, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28884,   1, False) /* Stuck */
-     , (28884,  11, True ) /* IgnoreCollisions */
-     , (28884,  13, True ) /* Ethereal */
-     , (28884,  14, True ) /* GravityStatus */
-     , (28884,  19, True ) /* Attackable */
-     , (28884,  22, True ) /* Inscribable */;
+VALUES (28884,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28884,   1, 'Armored Undead Body') /* Name */;

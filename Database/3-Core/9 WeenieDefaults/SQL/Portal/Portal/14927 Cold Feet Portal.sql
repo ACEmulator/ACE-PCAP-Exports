@@ -12,19 +12,13 @@ VALUES (14927,   1,      65536) /* ItemType - Portal */
      , (14927, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14927,   1, True ) /* Stuck */
-     , (14927,  12, True ) /* ReportCollisions */
-     , (14927,  13, True ) /* Ethereal */
-     , (14927,  14, True ) /* GravityStatus */
-     , (14927,  15, True ) /* LightsStatus */
-     , (14927,  19, True ) /* Attackable */;
+VALUES (14927,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14927,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14927,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14927,   1, 'Cold Feet Portal') /* Name */
-     , (14927,  38, 'Cold Feet Portal (32.8N, 55.3E).') /* AppraisalPortalDestination */
      , (14927, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

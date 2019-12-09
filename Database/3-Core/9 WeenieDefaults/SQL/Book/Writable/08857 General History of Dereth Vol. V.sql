@@ -8,20 +8,13 @@ VALUES (8857,   1,       8192) /* ItemType - Writable */
      , (8857,   5,         10) /* EncumbranceVal */
      , (8857,  16,          8) /* ItemUseable - Contained */
      , (8857,  19,          0) /* Value */
-     , (8857,  65,        101) /* Placement - Resting */
      , (8857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8857, 174,         16) /* AppraisalPages */
-     , (8857, 175,         16) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8857,   1, False) /* Stuck */
-     , (8857,  11, True ) /* IgnoreCollisions */
-     , (8857,  13, True ) /* Ethereal */
-     , (8857,  14, True ) /* GravityStatus */
-     , (8857,  19, True ) /* Attackable */;
+     , (8857, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8857, 8042,         16) /* PCAPRecordedAppraisalPages */
+     , (8857, 8043,         16) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8857,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8857,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8857,   1, 'General History of Dereth Vol. V') /* Name */;

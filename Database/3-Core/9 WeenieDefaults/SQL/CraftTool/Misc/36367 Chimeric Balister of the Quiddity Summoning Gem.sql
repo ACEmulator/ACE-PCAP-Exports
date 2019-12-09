@@ -12,17 +12,12 @@ VALUES (36367,   1,        128) /* ItemType - Misc */
      , (36367,  15,          3) /* StackUnitValue */
      , (36367,  16,          8) /* ItemUseable - Contained */
      , (36367,  19,          3) /* Value */
-     , (36367,  65,        101) /* Placement - Resting */
      , (36367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36367,  94,         16) /* TargetType - Creature */;
+     , (36367,  94,         16) /* TargetType - Creature */
+     , (36367, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36367,   1, False) /* Stuck */
-     , (36367,  11, True ) /* IgnoreCollisions */
-     , (36367,  13, True ) /* Ethereal */
-     , (36367,  14, True ) /* GravityStatus */
-     , (36367,  19, True ) /* Attackable */
-     , (36367,  22, True ) /* Inscribable */;
+VALUES (36367,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36367,   1, 'Chimeric Balister of the Quiddity Summoning Gem') /* Name */;

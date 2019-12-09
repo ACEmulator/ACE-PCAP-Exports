@@ -16,7 +16,6 @@ VALUES (41083,   1,          1) /* ItemType - MeleeWeapon */
      , (41083,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41083,  49,         35) /* WeaponTime */
      , (41083,  51,          5) /* CombatUse - TwoHanded */
-     , (41083,  65,          1) /* Placement - RightHandCombat */
      , (41083,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41083, 106,        500) /* ItemSpellcraft */
      , (41083, 107,       7855) /* ItemCurMana */
@@ -29,23 +28,19 @@ VALUES (41083,   1,          1) /* ItemType - MeleeWeapon */
      , (41083, 263,          1) /* ResistanceModifierType */
      , (41083, 292,          2) /* Cleaving */
      , (41083, 353,         11) /* WeaponType - TwoHanded */
-     , (41083, 8030,          0);
+     , (41083, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41083, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41083,   1, False) /* Stuck */
-     , (41083,  11, True ) /* IgnoreCollisions */
-     , (41083,  13, True ) /* Ethereal */
-     , (41083,  14, True ) /* GravityStatus */
-     , (41083,  19, True ) /* Attackable */
-     , (41083,  22, True ) /* Inscribable */;
+VALUES (41083,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41083,   5, -0.0500000007450581) /* ManaRate */
+VALUES (41083,   5,   -0.05) /* ManaRate */
      , (41083,  21,       0) /* WeaponLength */
-     , (41083,  22, 0.550000011920929) /* DamageVariance */
+     , (41083,  22,    0.55) /* DamageVariance */
      , (41083,  26,       0) /* MaximumVelocity */
-     , (41083,  29, 1.10000002384186) /* WeaponDefense */
-     , (41083,  62, 1.14999997615814) /* WeaponOffense */
+     , (41083,  29,     1.1) /* WeaponDefense */
+     , (41083,  62,    1.15) /* WeaponOffense */
      , (41083,  63,       1) /* DamageMod */
      , (41083, 136,       1) /* CriticalMultiplier */
      , (41083, 147,       1) /* CriticalFrequency */

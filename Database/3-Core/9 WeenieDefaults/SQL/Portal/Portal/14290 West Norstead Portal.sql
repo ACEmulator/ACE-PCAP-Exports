@@ -12,19 +12,13 @@ VALUES (14290,   1,      65536) /* ItemType - Portal */
      , (14290, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14290,   1, True ) /* Stuck */
-     , (14290,  12, True ) /* ReportCollisions */
-     , (14290,  13, True ) /* Ethereal */
-     , (14290,  14, True ) /* GravityStatus */
-     , (14290,  15, True ) /* LightsStatus */
-     , (14290,  19, True ) /* Attackable */;
+VALUES (14290,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14290,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14290,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14290,   1, 'West Norstead Portal') /* Name */
-     , (14290,  38, 'West Norstead Portal (75.4N, 40.1E).') /* AppraisalPortalDestination */
      , (14290, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

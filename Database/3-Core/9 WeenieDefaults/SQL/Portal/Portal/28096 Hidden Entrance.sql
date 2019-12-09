@@ -11,15 +11,10 @@ VALUES (28096,   1,      65536) /* ItemType - Portal */
      , (28096, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28096,   1, True ) /* Stuck */
-     , (28096,  12, True ) /* ReportCollisions */
-     , (28096,  13, True ) /* Ethereal */
-     , (28096,  15, True ) /* LightsStatus */
-     , (28096,  19, True ) /* Attackable */;
+VALUES (28096,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28096,   1, 'Hidden Entrance') /* Name */
-     , (28096,  38, 'Hidden Entrance') /* AppraisalPortalDestination */;
+VALUES (28096,   1, 'Hidden Entrance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28096,   1,   33558629) /* Setup */

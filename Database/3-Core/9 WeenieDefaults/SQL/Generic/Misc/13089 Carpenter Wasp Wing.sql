@@ -9,20 +9,15 @@ VALUES (13089,   1,        128) /* ItemType - Misc */
      , (13089,  16,          1) /* ItemUseable - No */
      , (13089,  19,          0) /* Value */
      , (13089,  33,          1) /* Bonded - Bonded */
-     , (13089,  65,        101) /* Placement - Resting */
      , (13089,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13089, 114,          1) /* Attuned - Attuned */;
+     , (13089, 114,          1) /* Attuned - Attuned */
+     , (13089, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13089,   1, False) /* Stuck */
-     , (13089,  11, True ) /* IgnoreCollisions */
-     , (13089,  13, True ) /* Ethereal */
-     , (13089,  14, True ) /* GravityStatus */
-     , (13089,  19, True ) /* Attackable */
-     , (13089,  22, True ) /* Inscribable */;
+VALUES (13089,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13089,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (13089,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13089,   1, 'Carpenter Wasp Wing') /* Name */

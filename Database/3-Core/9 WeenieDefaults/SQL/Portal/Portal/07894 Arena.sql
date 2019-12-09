@@ -11,15 +11,10 @@ VALUES (7894,   1,      65536) /* ItemType - Portal */
      , (7894, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7894,   1, True ) /* Stuck */
-     , (7894,  12, True ) /* ReportCollisions */
-     , (7894,  13, True ) /* Ethereal */
-     , (7894,  14, True ) /* GravityStatus */
-     , (7894,  15, True ) /* LightsStatus */
-     , (7894,  19, True ) /* Attackable */;
+VALUES (7894,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7894,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7894,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7894,   1, 'Arena') /* Name */

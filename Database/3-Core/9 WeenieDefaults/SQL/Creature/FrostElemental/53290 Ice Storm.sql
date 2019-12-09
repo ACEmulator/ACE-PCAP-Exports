@@ -15,12 +15,7 @@ VALUES (53290,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53290,   1, True ) /* Stuck */
-     , (53290,  11, True ) /* IgnoreCollisions */
-     , (53290,  12, True ) /* ReportCollisions */
-     , (53290,  13, True ) /* Ethereal */
-     , (53290,  14, True ) /* GravityStatus */
-     , (53290,  19, False) /* Attackable */
-     , (53290,  42, True ) /* AllowEdgeSlide */;
+     , (53290,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53290,   1, 'Ice Storm') /* Name */

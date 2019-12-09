@@ -8,15 +8,10 @@ VALUES (4136,   1,        128) /* ItemType - Misc */
      , (4136,   5,       9000) /* EncumbranceVal */
      , (4136,  16,          1) /* ItemUseable - No */
      , (4136,  19,        125) /* Value */
-     , (4136,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4136,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4136,   1, True ) /* Stuck */
-     , (4136,  11, True ) /* IgnoreCollisions */
-     , (4136,  12, True ) /* ReportCollisions */
-     , (4136,  13, False) /* Ethereal */
-     , (4136,  14, True ) /* GravityStatus */
-     , (4136,  19, True ) /* Attackable */;
+VALUES (4136,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4136,   1, 'The Gentle Hand') /* Name */

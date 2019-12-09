@@ -11,11 +11,7 @@ VALUES (1790,   1,        128) /* ItemType - Misc */
      , (1790,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1790,   1, True ) /* Stuck */
-     , (1790,  11, True ) /* IgnoreCollisions */
-     , (1790,  12, True ) /* ReportCollisions */
-     , (1790,  13, False) /* Ethereal */
-     , (1790,  19, True ) /* Attackable */;
+VALUES (1790,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1790,   1, 'House of the Seven Stars') /* Name */

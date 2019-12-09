@@ -12,21 +12,16 @@ VALUES (51497,   1,       2048) /* ItemType - Gem */
      , (51497,  15,        653) /* StackUnitValue */
      , (51497,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51497,  19,        653) /* Value */
-     , (51497,  65,        101) /* Placement - Resting */
      , (51497,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51497,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (51497, 151,          2) /* HookType - Wall */;
+     , (51497, 151,          2) /* HookType - Wall */
+     , (51497, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51497,   1, False) /* Stuck */
-     , (51497,  11, True ) /* IgnoreCollisions */
-     , (51497,  13, True ) /* Ethereal */
-     , (51497,  14, True ) /* GravityStatus */
-     , (51497,  19, True ) /* Attackable */
-     , (51497,  22, True ) /* Inscribable */;
+VALUES (51497,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51497,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (51497,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51497,   1, 'Composite Bow with Exquisite Handle') /* Name */;

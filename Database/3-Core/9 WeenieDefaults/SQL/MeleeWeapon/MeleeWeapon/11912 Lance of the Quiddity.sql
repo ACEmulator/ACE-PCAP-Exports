@@ -11,17 +11,11 @@ VALUES (11912,   1,          1) /* ItemType - MeleeWeapon */
      , (11912,  16,          1) /* ItemUseable - No */
      , (11912,  19,       2000) /* Value */
      , (11912,  51,          1) /* CombatUse - Melee */
-     , (11912,  65,          1) /* Placement - RightHandCombat */
-     , (11912,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (11912,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (11912, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11912,   1, False) /* Stuck */
-     , (11912,  11, True ) /* IgnoreCollisions */
-     , (11912,  13, True ) /* Ethereal */
-     , (11912,  14, True ) /* GravityStatus */
-     , (11912,  15, True ) /* LightsStatus */
-     , (11912,  19, True ) /* Attackable */
-     , (11912,  22, True ) /* Inscribable */;
+VALUES (11912,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11912,   1, 'Lance of the Quiddity') /* Name */;

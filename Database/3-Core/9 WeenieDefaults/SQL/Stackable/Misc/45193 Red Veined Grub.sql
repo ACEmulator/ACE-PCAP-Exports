@@ -17,12 +17,7 @@ VALUES (45193,   1,        128) /* ItemType - Misc */
      , (45193, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45193,   1, False) /* Stuck */
-     , (45193,  11, True ) /* IgnoreCollisions */
-     , (45193,  13, True ) /* Ethereal */
-     , (45193,  14, True ) /* GravityStatus */
-     , (45193,  19, True ) /* Attackable */
-     , (45193,  69, False) /* IsSellable */;
+VALUES (45193,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45193,   1, 'Red Veined Grub') /* Name */

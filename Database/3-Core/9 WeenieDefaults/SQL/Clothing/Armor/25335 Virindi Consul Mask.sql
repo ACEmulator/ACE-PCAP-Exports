@@ -12,24 +12,19 @@ VALUES (25335,   1,          2) /* ItemType - Armor */
      , (25335,  18,          1) /* UiEffects - Magical */
      , (25335,  19,       8000) /* Value */
      , (25335,  28,        250) /* ArmorLevel */
-     , (25335,  65,        101) /* Placement - Resting */
      , (25335,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25335, 106,        325) /* ItemSpellcraft */
      , (25335, 107,        800) /* ItemCurMana */
      , (25335, 108,        800) /* ItemMaxMana */
      , (25335, 109,        220) /* ItemDifficulty */
-     , (25335, 151,          2) /* HookType - Wall */;
+     , (25335, 151,          2) /* HookType - Wall */
+     , (25335, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25335,   1, False) /* Stuck */
-     , (25335,  11, True ) /* IgnoreCollisions */
-     , (25335,  13, True ) /* Ethereal */
-     , (25335,  14, True ) /* GravityStatus */
-     , (25335,  19, True ) /* Attackable */
-     , (25335,  22, True ) /* Inscribable */;
+VALUES (25335,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25335,   5, -0.0333) /* ManaRate */
+VALUES (25335,   5,   -0.03) /* ManaRate */
      , (25335,  13,       1) /* ArmorModVsSlash */
      , (25335,  14,       1) /* ArmorModVsPierce */
      , (25335,  15,       1) /* ArmorModVsBludgeon */

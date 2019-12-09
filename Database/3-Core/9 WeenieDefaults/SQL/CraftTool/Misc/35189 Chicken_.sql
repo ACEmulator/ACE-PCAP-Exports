@@ -17,15 +17,10 @@ VALUES (35189,   1,        128) /* ItemType - Misc */
      , (35189, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35189,   1, False) /* Stuck */
-     , (35189,  11, True ) /* IgnoreCollisions */
-     , (35189,  13, True ) /* Ethereal */
-     , (35189,  14, True ) /* GravityStatus */
-     , (35189,  19, True ) /* Attackable */
-     , (35189,  22, True ) /* Inscribable */;
+VALUES (35189,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35189,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35189,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35189,   1, 'Chicken?') /* Name */;

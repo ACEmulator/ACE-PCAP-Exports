@@ -9,15 +9,11 @@ VALUES (1314,   1,        512) /* ItemType - Container */
      , (1314,   6,         10) /* ItemsCapacity */
      , (1314,  16,         48) /* ItemUseable - ViewedRemote */
      , (1314,  19,          0) /* Value */
-     , (1314,  65,        101) /* Placement - Resting */
-     , (1314,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (1314,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
+     , (1314, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1314,   1, True ) /* Stuck */
-     , (1314,  11, True ) /* IgnoreCollisions */
-     , (1314,  13, False) /* Ethereal */
-     , (1314,  14, True ) /* GravityStatus */
-     , (1314,  19, True ) /* Attackable */;
+VALUES (1314,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1314,  54,       1) /* UseRadius */;

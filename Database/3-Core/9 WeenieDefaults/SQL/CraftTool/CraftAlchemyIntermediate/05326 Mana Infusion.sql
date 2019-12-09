@@ -11,16 +11,9 @@ VALUES (5326,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5326,  15,         10) /* StackUnitValue */
      , (5326,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5326,  19,         10) /* Value */
-     , (5326,  65,        101) /* Placement - Resting */
      , (5326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5326,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5326,   1, False) /* Stuck */
-     , (5326,  11, True ) /* IgnoreCollisions */
-     , (5326,  13, True ) /* Ethereal */
-     , (5326,  14, True ) /* GravityStatus */
-     , (5326,  19, True ) /* Attackable */;
+     , (5326,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */
+     , (5326, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5326,   1, 'Mana Infusion') /* Name */

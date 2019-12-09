@@ -13,12 +13,7 @@ VALUES (43895,   1,        128) /* ItemType - Misc */
      , (43895, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43895,   1, False) /* Stuck */
-     , (43895,  11, True ) /* IgnoreCollisions */
-     , (43895,  13, True ) /* Ethereal */
-     , (43895,  14, True ) /* GravityStatus */
-     , (43895,  19, True ) /* Attackable */
-     , (43895,  22, True ) /* Inscribable */;
+VALUES (43895,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43895,   1, 'Strange Purple Crystal from The Shadows') /* Name */

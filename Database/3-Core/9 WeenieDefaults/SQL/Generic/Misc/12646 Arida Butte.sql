@@ -11,12 +11,7 @@ VALUES (12646,   1,        128) /* ItemType - Misc */
      , (12646,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12646,   1, True ) /* Stuck */
-     , (12646,  11, True ) /* IgnoreCollisions */
-     , (12646,  12, True ) /* ReportCollisions */
-     , (12646,  13, False) /* Ethereal */
-     , (12646,  14, True ) /* GravityStatus */
-     , (12646,  19, True ) /* Attackable */;
+VALUES (12646,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12646,   1, 'Arida Butte') /* Name */

@@ -11,15 +11,10 @@ VALUES (28778,   1,      65536) /* ItemType - Portal */
      , (28778, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28778,   1, True ) /* Stuck */
-     , (28778,  12, True ) /* ReportCollisions */
-     , (28778,  13, True ) /* Ethereal */
-     , (28778,  14, True ) /* GravityStatus */
-     , (28778,  15, True ) /* LightsStatus */
-     , (28778,  19, True ) /* Attackable */;
+VALUES (28778,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28778,  54, -0.100000001490116) /* UseRadius */;
+VALUES (28778,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28778,   1, 'Frozen Library') /* Name */

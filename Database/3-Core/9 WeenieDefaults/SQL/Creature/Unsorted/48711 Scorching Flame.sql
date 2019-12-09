@@ -13,15 +13,10 @@ VALUES (48711,   1,         16) /* ItemType - Creature */
      , (48711, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48711,   1, True ) /* Stuck */
-     , (48711,  12, True ) /* ReportCollisions */
-     , (48711,  13, False) /* Ethereal */
-     , (48711,  14, True ) /* GravityStatus */
-     , (48711,  15, True ) /* LightsStatus */
-     , (48711,  19, True ) /* Attackable */;
+VALUES (48711,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48711,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (48711,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48711,   1, 'Scorching Flame') /* Name */

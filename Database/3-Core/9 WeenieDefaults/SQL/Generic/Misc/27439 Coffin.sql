@@ -13,12 +13,7 @@ VALUES (27439,   1,        128) /* ItemType - Misc */
      , (27439, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27439,   1, False) /* Stuck */
-     , (27439,  11, True ) /* IgnoreCollisions */
-     , (27439,  13, True ) /* Ethereal */
-     , (27439,  14, True ) /* GravityStatus */
-     , (27439,  19, True ) /* Attackable */
-     , (27439,  22, True ) /* Inscribable */;
+VALUES (27439,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27439,   1, 'Coffin') /* Name */

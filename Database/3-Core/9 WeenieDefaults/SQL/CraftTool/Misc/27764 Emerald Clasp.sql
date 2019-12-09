@@ -12,17 +12,12 @@ VALUES (27764,   1,        128) /* ItemType - Misc */
      , (27764,  15,       5000) /* StackUnitValue */
      , (27764,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (27764,  19,       5000) /* Value */
-     , (27764,  65,        101) /* Placement - Resting */
      , (27764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27764,  94,       2048) /* TargetType - Gem */;
+     , (27764,  94,       2048) /* TargetType - Gem */
+     , (27764, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27764,   1, False) /* Stuck */
-     , (27764,  11, True ) /* IgnoreCollisions */
-     , (27764,  13, True ) /* Ethereal */
-     , (27764,  14, True ) /* GravityStatus */
-     , (27764,  19, True ) /* Attackable */
-     , (27764,  22, True ) /* Inscribable */;
+VALUES (27764,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27764,  39,     0.5) /* DefaultScale */;

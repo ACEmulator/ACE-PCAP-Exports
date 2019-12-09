@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26056,   1,        128) /* ItemType - Misc */
      , (26056,   5,         10) /* EncumbranceVal */
      , (26056,  16,          1) /* ItemUseable - No */
-     , (26056,  65,        101) /* Placement - Resting */
-     , (26056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (26056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26056, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26056,   1, False) /* Stuck */
-     , (26056,  11, True ) /* IgnoreCollisions */
-     , (26056,  13, True ) /* Ethereal */
-     , (26056,  14, True ) /* GravityStatus */
-     , (26056,  19, True ) /* Attackable */
-     , (26056,  22, True ) /* Inscribable */;
+VALUES (26056,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26056,   1, 'Apology Token') /* Name */;

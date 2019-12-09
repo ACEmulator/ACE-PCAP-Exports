@@ -16,11 +16,7 @@ VALUES (24951,   1,         16) /* ItemType - Creature */
      , (24951, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24951,   1, True ) /* Stuck */
-     , (24951,  12, True ) /* ReportCollisions */
-     , (24951,  13, False) /* Ethereal */
-     , (24951,  14, True ) /* GravityStatus */
-     , (24951,  19, True ) /* Attackable */;
+VALUES (24951,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24951,   1, 'Gotrok Titan') /* Name */

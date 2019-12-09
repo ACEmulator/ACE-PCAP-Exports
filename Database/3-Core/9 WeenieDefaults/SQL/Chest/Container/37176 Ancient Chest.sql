@@ -16,11 +16,7 @@ VALUES (37176,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37176,   1, True ) /* Stuck */
      , (37176,   2, False) /* Open */
-     , (37176,  11, True ) /* IgnoreCollisions */
-     , (37176,  12, True ) /* ReportCollisions */
-     , (37176,  13, False) /* Ethereal */
-     , (37176,  14, True ) /* GravityStatus */
-     , (37176,  19, True ) /* Attackable */;
+     , (37176,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37176,  54,       1) /* UseRadius */;

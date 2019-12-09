@@ -16,14 +16,10 @@ VALUES (36826,   1,         16) /* ItemType - Creature */
      , (36826, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36826,   1, True ) /* Stuck */
-     , (36826,  12, True ) /* ReportCollisions */
-     , (36826,  13, False) /* Ethereal */
-     , (36826,  14, True ) /* GravityStatus */
-     , (36826,  19, True ) /* Attackable */;
+VALUES (36826,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36826,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (36826,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36826,   1, 'Unconquered Drudge') /* Name */

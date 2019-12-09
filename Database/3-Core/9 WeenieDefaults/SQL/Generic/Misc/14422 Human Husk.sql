@@ -9,20 +9,15 @@ VALUES (14422,   1,        128) /* ItemType - Misc */
      , (14422,  16,          1) /* ItemUseable - No */
      , (14422,  19,          0) /* Value */
      , (14422,  33,          1) /* Bonded - Bonded */
-     , (14422,  65,        101) /* Placement - Resting */
      , (14422,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14422, 114,          1) /* Attuned - Attuned */;
+     , (14422, 114,          1) /* Attuned - Attuned */
+     , (14422, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14422,   1, False) /* Stuck */
-     , (14422,  11, True ) /* IgnoreCollisions */
-     , (14422,  13, True ) /* Ethereal */
-     , (14422,  14, True ) /* GravityStatus */
-     , (14422,  19, True ) /* Attackable */
-     , (14422,  22, True ) /* Inscribable */;
+VALUES (14422,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14422,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (14422,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14422,   1, 'Human Husk') /* Name */

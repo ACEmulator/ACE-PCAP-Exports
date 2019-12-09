@@ -13,12 +13,7 @@ VALUES (52397,   1,        128) /* ItemType - Misc */
      , (52397, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52397,   1, False) /* Stuck */
-     , (52397,  11, True ) /* IgnoreCollisions */
-     , (52397,  13, True ) /* Ethereal */
-     , (52397,  14, True ) /* GravityStatus */
-     , (52397,  19, True ) /* Attackable */
-     , (52397,  22, True ) /* Inscribable */;
+VALUES (52397,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52397,   1, 'Pack Max') /* Name */

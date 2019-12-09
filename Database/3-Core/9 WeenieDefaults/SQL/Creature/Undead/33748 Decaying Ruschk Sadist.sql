@@ -15,14 +15,10 @@ VALUES (33748,   1,         16) /* ItemType - Creature */
      , (33748, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33748,   1, True ) /* Stuck */
-     , (33748,  12, True ) /* ReportCollisions */
-     , (33748,  13, False) /* Ethereal */
-     , (33748,  14, True ) /* GravityStatus */
-     , (33748,  19, True ) /* Attackable */;
+VALUES (33748,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33748,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (33748,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33748,   1, 'Decaying Ruschk Sadist') /* Name */

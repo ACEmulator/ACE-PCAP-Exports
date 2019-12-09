@@ -12,17 +12,10 @@ VALUES (15741,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15741,  15,         10) /* StackUnitValue */
      , (15741,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15741,  19,         10) /* Value */
-     , (15741,  65,        101) /* Placement - Resting */
      , (15741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15741,  94,        136) /* TargetType - Jewelry, Misc */
-     , (15741, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15741,   1, False) /* Stuck */
-     , (15741,  11, True ) /* IgnoreCollisions */
-     , (15741,  13, True ) /* Ethereal */
-     , (15741,  14, True ) /* GravityStatus */
-     , (15741,  19, True ) /* Attackable */;
+     , (15741, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (15741, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15741,   1, 'Elixir of Preservation') /* Name */

@@ -8,21 +8,15 @@ VALUES (34399,   1,        128) /* ItemType - Misc */
      , (34399,   5,        200) /* EncumbranceVal */
      , (34399,  16,          1) /* ItemUseable - No */
      , (34399,  19,        100) /* Value */
-     , (34399,  65,        101) /* Placement - Resting */
      , (34399,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
-     , (34399, 151,          9) /* HookType - Floor, Yard */;
+     , (34399, 151,          9) /* HookType - Floor, Yard */
+     , (34399, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34399,   1, False) /* Stuck */
-     , (34399,  11, True ) /* IgnoreCollisions */
-     , (34399,  12, True ) /* ReportCollisions */
-     , (34399,  13, True ) /* Ethereal */
-     , (34399,  14, True ) /* GravityStatus */
-     , (34399,  19, True ) /* Attackable */
-     , (34399,  22, True ) /* Inscribable */;
+VALUES (34399,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34399,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (34399,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34399,   1, 'Doll House') /* Name */

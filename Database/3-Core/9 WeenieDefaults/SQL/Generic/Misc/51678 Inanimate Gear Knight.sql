@@ -11,14 +11,10 @@ VALUES (51678,   1,        128) /* ItemType - Misc */
      , (51678,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51678,   1, True ) /* Stuck */
-     , (51678,  12, True ) /* ReportCollisions */
-     , (51678,  13, False) /* Ethereal */
-     , (51678,  14, True ) /* GravityStatus */
-     , (51678,  19, True ) /* Attackable */;
+VALUES (51678,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51678,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51678,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51678,   1, 'Inanimate Gear Knight') /* Name */;

@@ -12,19 +12,13 @@ VALUES (14673,   1,      65536) /* ItemType - Portal */
      , (14673, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14673,   1, True ) /* Stuck */
-     , (14673,  12, True ) /* ReportCollisions */
-     , (14673,  13, True ) /* Ethereal */
-     , (14673,  14, True ) /* GravityStatus */
-     , (14673,  15, True ) /* LightsStatus */
-     , (14673,  19, True ) /* Attackable */;
+VALUES (14673,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14673,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14673,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14673,   1, 'Tarn Vinara Villas Portal') /* Name */
-     , (14673,  38, 'Tarn Vinara Villas Portal (28.2N, 25.4W).') /* AppraisalPortalDestination */
      , (14673, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

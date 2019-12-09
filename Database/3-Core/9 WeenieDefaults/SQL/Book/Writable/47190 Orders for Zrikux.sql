@@ -9,22 +9,17 @@ VALUES (47190,   1,       8192) /* ItemType - Writable */
      , (47190,  16,          8) /* ItemUseable - Contained */
      , (47190,  19,          0) /* Value */
      , (47190,  33,          1) /* Bonded - Bonded */
-     , (47190,  65,        101) /* Placement - Resting */
      , (47190,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47190, 114,          1) /* Attuned - Attuned */
-     , (47190, 174,          1) /* AppraisalPages */
-     , (47190, 175,          1) /* AppraisalMaxPages */;
+     , (47190, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (47190, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (47190, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47190,   1, False) /* Stuck */
-     , (47190,  11, True ) /* IgnoreCollisions */
-     , (47190,  13, True ) /* Ethereal */
-     , (47190,  14, True ) /* GravityStatus */
-     , (47190,  19, True ) /* Attackable */
-     , (47190,  69, False) /* IsSellable */;
+VALUES (47190,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47190,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (47190,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47190,   1, 'Orders for Zrikux') /* Name */

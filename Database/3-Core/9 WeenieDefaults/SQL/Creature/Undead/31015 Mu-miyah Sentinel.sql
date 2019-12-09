@@ -15,11 +15,7 @@ VALUES (31015,   1,         16) /* ItemType - Creature */
      , (31015, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31015,   1, True ) /* Stuck */
-     , (31015,  12, True ) /* ReportCollisions */
-     , (31015,  13, False) /* Ethereal */
-     , (31015,  14, True ) /* GravityStatus */
-     , (31015,  19, True ) /* Attackable */;
+VALUES (31015,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31015,   1, 'Mu-miyah Sentinel') /* Name */

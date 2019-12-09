@@ -8,20 +8,15 @@ VALUES (4505,   1,        128) /* ItemType - Misc */
      , (4505,   5,       9000) /* EncumbranceVal */
      , (4505,  16,          1) /* ItemUseable - No */
      , (4505,  19,        125) /* Value */
-     , (4505,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4505,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4505,   1, True ) /* Stuck */
-     , (4505,  11, True ) /* IgnoreCollisions */
-     , (4505,  12, True ) /* ReportCollisions */
-     , (4505,  13, False) /* Ethereal */
-     , (4505,  14, True ) /* GravityStatus */
-     , (4505,  19, True ) /* Attackable */;
+VALUES (4505,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4505, 8010,       0) /* PCAPRecordedVelocityX */
      , (4505, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4505, 8012, -0.168991610407829) /* PCAPRecordedVelocityZ */;
+     , (4505, 8012,   -0.17) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4505,   1, 'The Pine and Fir') /* Name */

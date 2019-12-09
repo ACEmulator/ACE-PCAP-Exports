@@ -15,15 +15,10 @@ VALUES (41850,   1,         16) /* ItemType - Creature */
      , (41850, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41850,   1, True ) /* Stuck */
-     , (41850,  12, True ) /* ReportCollisions */
-     , (41850,  13, False) /* Ethereal */
-     , (41850,  14, True ) /* GravityStatus */
-     , (41850,  19, True ) /* Attackable */
-     , (41850,  42, True ) /* AllowEdgeSlide */;
+VALUES (41850,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41850,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (41850,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41850,   1, 'Moarsman Attacker') /* Name */

@@ -12,15 +12,8 @@ VALUES (45033,   1,        128) /* ItemType - Misc */
      , (45033,  15,     250000) /* StackUnitValue */
      , (45033,  16,          8) /* ItemUseable - Contained */
      , (45033,  19,     250000) /* Value */
-     , (45033,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (45033,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45033,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45033,   1, False) /* Stuck */
-     , (45033,  11, True ) /* IgnoreCollisions */
-     , (45033,  13, True ) /* Ethereal */
-     , (45033,  14, True ) /* GravityStatus */
-     , (45033,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45033,  39,     0.5) /* DefaultScale */;

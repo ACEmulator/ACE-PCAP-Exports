@@ -12,17 +12,12 @@ VALUES (7054,   1,        128) /* ItemType - Misc */
      , (7054,  15,          0) /* StackUnitValue */
      , (7054,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7054,  19,          0) /* Value */
-     , (7054,  65,        101) /* Placement - Resting */
      , (7054,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7054,  94,        384) /* TargetType - Misc, MissileWeapon */;
+     , (7054,  94,        384) /* TargetType - Misc, MissileWeapon */
+     , (7054, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7054,   1, False) /* Stuck */
-     , (7054,  11, True ) /* IgnoreCollisions */
-     , (7054,  13, True ) /* Ethereal */
-     , (7054,  14, True ) /* GravityStatus */
-     , (7054,  19, True ) /* Attackable */
-     , (7054,  22, True ) /* Inscribable */
+VALUES (7054,  22, True ) /* Inscribable */
      , (7054,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

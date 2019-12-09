@@ -15,12 +15,7 @@ VALUES (51349,   1,         16) /* ItemType - Creature */
      , (51349, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51349,   1, True ) /* Stuck */
-     , (51349,  12, True ) /* ReportCollisions */
-     , (51349,  13, False) /* Ethereal */
-     , (51349,  14, True ) /* GravityStatus */
-     , (51349,  19, True ) /* Attackable */
-     , (51349,  42, True ) /* AllowEdgeSlide */;
+VALUES (51349,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51349,   1, 'Hollow Servant') /* Name */

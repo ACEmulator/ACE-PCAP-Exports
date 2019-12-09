@@ -15,11 +15,7 @@ VALUES (29349,   1,         16) /* ItemType - Creature */
      , (29349, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29349,   1, True ) /* Stuck */
-     , (29349,  12, True ) /* ReportCollisions */
-     , (29349,  13, False) /* Ethereal */
-     , (29349,  14, True ) /* GravityStatus */
-     , (29349,  19, True ) /* Attackable */;
+VALUES (29349,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29349,   1, 'Kroktok Lugian') /* Name */

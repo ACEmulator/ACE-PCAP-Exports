@@ -16,7 +16,6 @@ VALUES (35976,   1,        256) /* ItemType - MissileWeapon */
      , (35976,  49,         15) /* WeaponTime */
      , (35976,  50,          4) /* AmmoType - Atlatl */
      , (35976,  51,          2) /* CombatUse - Missle */
-     , (35976,  65,        101) /* Placement - Resting */
      , (35976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35976, 106,        250) /* ItemSpellcraft */
      , (35976, 107,        500) /* ItemCurMana */
@@ -28,25 +27,21 @@ VALUES (35976,   1,        256) /* ItemType - MissileWeapon */
      , (35976, 159,         47) /* WieldSkillType - MissileWeapons */
      , (35976, 160,        250) /* WieldDifficulty */
      , (35976, 353,         10) /* WeaponType - Thrown */
-     , (35976, 8030,          0);
+     , (35976, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (35976, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35976,   1, False) /* Stuck */
-     , (35976,  11, True ) /* IgnoreCollisions */
-     , (35976,  13, True ) /* Ethereal */
-     , (35976,  14, True ) /* GravityStatus */
-     , (35976,  19, True ) /* Attackable */
-     , (35976,  22, True ) /* Inscribable */
+VALUES (35976,  22, True ) /* Inscribable */
      , (35976,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35976,   5, -0.0500000007450581) /* ManaRate */
+VALUES (35976,   5,   -0.05) /* ManaRate */
      , (35976,  21,       0) /* WeaponLength */
      , (35976,  22,       0) /* DamageVariance */
      , (35976,  26,    24.9) /* MaximumVelocity */
-     , (35976,  29, 1.12000000476837) /* WeaponDefense */
+     , (35976,  29,    1.12) /* WeaponDefense */
      , (35976,  62,       1) /* WeaponOffense */
-     , (35976,  63, 2.59999990463257) /* DamageMod */
+     , (35976,  63,     2.6) /* DamageMod */
      , (35976, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

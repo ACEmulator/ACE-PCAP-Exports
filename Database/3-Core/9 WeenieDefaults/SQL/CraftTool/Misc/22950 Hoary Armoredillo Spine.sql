@@ -12,20 +12,15 @@ VALUES (22950,   1,        128) /* ItemType - Misc */
      , (22950,  15,         60) /* StackUnitValue */
      , (22950,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22950,  19,         60) /* Value */
-     , (22950,  65,        101) /* Placement - Resting */
      , (22950,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22950,  94,          1) /* TargetType - MeleeWeapon */;
+     , (22950,  94,          1) /* TargetType - MeleeWeapon */
+     , (22950, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22950,   1, False) /* Stuck */
-     , (22950,  11, True ) /* IgnoreCollisions */
-     , (22950,  13, True ) /* Ethereal */
-     , (22950,  14, True ) /* GravityStatus */
-     , (22950,  19, True ) /* Attackable */
-     , (22950,  22, True ) /* Inscribable */;
+VALUES (22950,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22950,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (22950,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22950,   1, 'Hoary Armoredillo Spine') /* Name */

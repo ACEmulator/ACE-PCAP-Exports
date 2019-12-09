@@ -13,19 +13,13 @@ VALUES (8837,   1,      65536) /* ItemType - Portal */
      , (8837, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8837,   1, True ) /* Stuck */
-     , (8837,  12, True ) /* ReportCollisions */
-     , (8837,  13, True ) /* Ethereal */
-     , (8837,  14, True ) /* GravityStatus */
-     , (8837,  15, True ) /* LightsStatus */
-     , (8837,  19, True ) /* Attackable */;
+VALUES (8837,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8837,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8837,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8837,   1, 'Upper Heart of Darkness Portal') /* Name */
-     , (8837,  38, 'Upper Heart of Darkness Portal') /* AppraisalPortalDestination */
      , (8837, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

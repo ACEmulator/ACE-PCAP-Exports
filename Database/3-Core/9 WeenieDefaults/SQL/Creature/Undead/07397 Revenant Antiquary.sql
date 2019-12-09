@@ -16,14 +16,10 @@ VALUES (7397,   1,         16) /* ItemType - Creature */
      , (7397, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7397,   1, True ) /* Stuck */
-     , (7397,  12, True ) /* ReportCollisions */
-     , (7397,  13, False) /* Ethereal */
-     , (7397,  14, True ) /* GravityStatus */
-     , (7397,  19, True ) /* Attackable */;
+VALUES (7397,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7397,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (7397,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7397,   1, 'Revenant Antiquary') /* Name */

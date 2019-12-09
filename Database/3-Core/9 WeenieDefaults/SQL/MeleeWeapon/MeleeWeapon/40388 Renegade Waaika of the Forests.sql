@@ -18,7 +18,6 @@ VALUES (40388,   1,          1) /* ItemType - MeleeWeapon */
      , (40388,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40388,  49,         40) /* WeaponTime */
      , (40388,  51,          1) /* CombatUse - Melee */
-     , (40388,  65,          1) /* Placement - RightHandCombat */
      , (40388,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40388, 106,        250) /* ItemSpellcraft */
      , (40388, 107,        868) /* ItemCurMana */
@@ -31,27 +30,23 @@ VALUES (40388,   1,          1) /* ItemType - MeleeWeapon */
      , (40388, 160,        400) /* WieldDifficulty */
      , (40388, 263,          4) /* ResistanceModifierType */
      , (40388, 353,          4) /* WeaponType - Mace */
-     , (40388, 8030,          0);
+     , (40388, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (40388, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40388,   1, False) /* Stuck */
-     , (40388,  11, True ) /* IgnoreCollisions */
-     , (40388,  13, True ) /* Ethereal */
-     , (40388,  14, True ) /* GravityStatus */
-     , (40388,  19, True ) /* Attackable */
-     , (40388,  22, True ) /* Inscribable */
+VALUES (40388,  22, True ) /* Inscribable */
      , (40388,  69, False) /* IsSellable */
      , (40388,  91, True ) /* Retained */
      , (40388,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40388,   5, -0.033330000936985) /* ManaRate */
+VALUES (40388,   5,   -0.03) /* ManaRate */
      , (40388,  21,       0) /* WeaponLength */
-     , (40388,  22, 0.100000001490116) /* DamageVariance */
+     , (40388,  22,     0.1) /* DamageVariance */
      , (40388,  26,       0) /* MaximumVelocity */
-     , (40388,  29, 1.12000000476837) /* WeaponDefense */
-     , (40388,  39, 1.20000004768372) /* DefaultScale */
-     , (40388,  62, 1.20000004768372) /* WeaponOffense */
+     , (40388,  29,    1.12) /* WeaponDefense */
+     , (40388,  39,     1.2) /* DefaultScale */
+     , (40388,  62,     1.2) /* WeaponOffense */
      , (40388,  63,       1) /* DamageMod */
      , (40388, 136,       1) /* CriticalMultiplier */
      , (40388, 157,       1) /* ResistanceModifier */;

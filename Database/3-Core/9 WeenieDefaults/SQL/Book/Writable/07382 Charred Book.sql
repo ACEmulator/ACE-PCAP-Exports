@@ -8,20 +8,13 @@ VALUES (7382,   1,       8192) /* ItemType - Writable */
      , (7382,   5,        160) /* EncumbranceVal */
      , (7382,  16,          8) /* ItemUseable - Contained */
      , (7382,  19,         90) /* Value */
-     , (7382,  65,        101) /* Placement - Resting */
      , (7382,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7382, 174,          1) /* AppraisalPages */
-     , (7382, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7382,   1, False) /* Stuck */
-     , (7382,  11, True ) /* IgnoreCollisions */
-     , (7382,  13, True ) /* Ethereal */
-     , (7382,  14, True ) /* GravityStatus */
-     , (7382,  19, True ) /* Attackable */;
+     , (7382, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (7382, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (7382, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7382,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (7382,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7382,   1, 'Charred Book') /* Name */

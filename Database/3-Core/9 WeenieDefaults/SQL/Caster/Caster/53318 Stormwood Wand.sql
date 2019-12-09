@@ -11,23 +11,18 @@ VALUES (53318,   1,      32768) /* ItemType - Caster */
      , (53318,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (53318,  18,          1) /* UiEffects - Magical */
      , (53318,  19,        200) /* Value */
-     , (53318,  65,          1) /* Placement - RightHandCombat */
      , (53318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53318,  94,         16) /* TargetType - Creature */
      , (53318, 131,         75) /* MaterialType - Oak */
-     , (53318, 151,          2) /* HookType - Wall */;
+     , (53318, 151,          2) /* HookType - Wall */
+     , (53318, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53318,   1, False) /* Stuck */
-     , (53318,  11, True ) /* IgnoreCollisions */
-     , (53318,  13, True ) /* Ethereal */
-     , (53318,  14, True ) /* GravityStatus */
-     , (53318,  19, True ) /* Attackable */
-     , (53318,  22, True ) /* Inscribable */
+VALUES (53318,  22, True ) /* Inscribable */
      , (53318,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53318,  39, 1.60000002384186) /* DefaultScale */
+VALUES (53318,  39,     1.6) /* DefaultScale */
      , (53318, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

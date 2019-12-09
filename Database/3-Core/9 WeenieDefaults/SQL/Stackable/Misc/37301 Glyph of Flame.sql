@@ -12,15 +12,8 @@ VALUES (37301,   1,        128) /* ItemType - Misc */
      , (37301,  15,      30000) /* StackUnitValue */
      , (37301,  16,          1) /* ItemUseable - No */
      , (37301,  19,      30000) /* Value */
-     , (37301,  65,        101) /* Placement - Resting */
-     , (37301,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37301,   1, False) /* Stuck */
-     , (37301,  11, True ) /* IgnoreCollisions */
-     , (37301,  13, True ) /* Ethereal */
-     , (37301,  14, True ) /* GravityStatus */
-     , (37301,  19, True ) /* Attackable */;
+     , (37301,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37301, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37301,   1, 'Glyph of Flame') /* Name */

@@ -15,14 +15,10 @@ VALUES (39149,   1,         16) /* ItemType - Creature */
      , (39149, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39149,   1, True ) /* Stuck */
-     , (39149,  12, True ) /* ReportCollisions */
-     , (39149,  13, False) /* Ethereal */
-     , (39149,  14, True ) /* GravityStatus */
-     , (39149,  19, True ) /* Attackable */;
+VALUES (39149,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39149,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (39149,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39149,   1, 'Sclavus Marauder') /* Name */

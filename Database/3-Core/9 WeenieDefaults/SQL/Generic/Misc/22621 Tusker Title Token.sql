@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22621,   1,        128) /* ItemType - Misc */
      , (22621,   5,        100) /* EncumbranceVal */
      , (22621,  16,          1) /* ItemUseable - No */
-     , (22621,  65,        101) /* Placement - Resting */
-     , (22621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22621, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22621,   1, False) /* Stuck */
-     , (22621,  11, True ) /* IgnoreCollisions */
-     , (22621,  13, True ) /* Ethereal */
-     , (22621,  14, True ) /* GravityStatus */
-     , (22621,  19, True ) /* Attackable */
-     , (22621,  22, True ) /* Inscribable */;
+VALUES (22621,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22621,   1, 'Tusker Title Token') /* Name */;

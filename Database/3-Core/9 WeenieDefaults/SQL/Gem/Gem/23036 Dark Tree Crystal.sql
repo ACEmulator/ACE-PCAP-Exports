@@ -9,17 +9,12 @@ VALUES (23036,   1,       2048) /* ItemType - Gem */
      , (23036,  16,          1) /* ItemUseable - No */
      , (23036,  19,         75) /* Value */
      , (23036,  33,          1) /* Bonded - Bonded */
-     , (23036,  65,        101) /* Placement - Resting */
      , (23036,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23036, 114,          1) /* Attuned - Attuned */;
+     , (23036, 114,          1) /* Attuned - Attuned */
+     , (23036, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23036,   1, False) /* Stuck */
-     , (23036,  11, True ) /* IgnoreCollisions */
-     , (23036,  13, True ) /* Ethereal */
-     , (23036,  14, True ) /* GravityStatus */
-     , (23036,  19, True ) /* Attackable */
-     , (23036,  22, True ) /* Inscribable */;
+VALUES (23036,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23036,   1, 'Dark Tree Crystal') /* Name */

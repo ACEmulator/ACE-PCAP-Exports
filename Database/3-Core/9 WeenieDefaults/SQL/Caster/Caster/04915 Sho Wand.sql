@@ -11,22 +11,17 @@ VALUES (4915,   1,      32768) /* ItemType - Caster */
      , (4915,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (4915,  18,          1) /* UiEffects - Magical */
      , (4915,  19,         10) /* Value */
-     , (4915,  65,          1) /* Placement - RightHandCombat */
      , (4915,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4915,  94,         16) /* TargetType - Creature */
-     , (4915, 151,          2) /* HookType - Wall */;
+     , (4915, 151,          2) /* HookType - Wall */
+     , (4915, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4915,   1, False) /* Stuck */
-     , (4915,  11, True ) /* IgnoreCollisions */
-     , (4915,  13, True ) /* Ethereal */
-     , (4915,  14, True ) /* GravityStatus */
-     , (4915,  19, True ) /* Attackable */
-     , (4915,  22, True ) /* Inscribable */;
+VALUES (4915,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4915,  29,       1) /* WeaponDefense */
-     , (4915, 144, 1.47282811149036E-314) /* ManaConversionMod */;
+     , (4915, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4915,   1, 'Sho Wand') /* Name */;

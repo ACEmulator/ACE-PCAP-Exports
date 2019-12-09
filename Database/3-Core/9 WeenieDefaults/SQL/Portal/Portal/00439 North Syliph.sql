@@ -12,19 +12,13 @@ VALUES (439,   1,      65536) /* ItemType - Portal */
      , (439, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (439,   1, True ) /* Stuck */
-     , (439,  12, True ) /* ReportCollisions */
-     , (439,  13, True ) /* Ethereal */
-     , (439,  14, True ) /* GravityStatus */
-     , (439,  15, True ) /* LightsStatus */
-     , (439,  19, True ) /* Attackable */;
+VALUES (439,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (439,  54, -0.100000001490116) /* UseRadius */;
+VALUES (439,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (439,   1, 'North Syliph') /* Name */
-     , (439,  38, 'North Syliph (12.7N, 11.8E).') /* AppraisalPortalDestination */
      , (439, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

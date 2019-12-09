@@ -15,14 +15,10 @@ VALUES (12007,   1,         16) /* ItemType - Creature */
      , (12007, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12007,   1, True ) /* Stuck */
-     , (12007,  12, True ) /* ReportCollisions */
-     , (12007,  13, False) /* Ethereal */
-     , (12007,  14, True ) /* GravityStatus */
-     , (12007,  19, True ) /* Attackable */;
+VALUES (12007,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12007,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (12007,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12007,   1, 'Master of the Swamp') /* Name */

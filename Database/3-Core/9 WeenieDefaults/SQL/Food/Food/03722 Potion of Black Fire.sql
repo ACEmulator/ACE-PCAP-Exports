@@ -12,17 +12,10 @@ VALUES (3722,   1,         32) /* ItemType - Food */
      , (3722,  15,       2000) /* StackUnitValue */
      , (3722,  16,          8) /* ItemUseable - Contained */
      , (3722,  19,       2000) /* Value */
-     , (3722,  65,        101) /* Placement - Resting */
      , (3722,  89,          2) /* BoosterEnum - Health */
      , (3722,  90,        100) /* BoostValue */
-     , (3722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3722,   1, False) /* Stuck */
-     , (3722,  11, True ) /* IgnoreCollisions */
-     , (3722,  13, True ) /* Ethereal */
-     , (3722,  14, True ) /* GravityStatus */
-     , (3722,  19, True ) /* Attackable */;
+     , (3722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3722, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3722,   1, 'Potion of Black Fire') /* Name */

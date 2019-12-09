@@ -15,11 +15,7 @@ VALUES (7101,   1,         16) /* ItemType - Creature */
      , (7101, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7101,   1, True ) /* Stuck */
-     , (7101,  12, True ) /* ReportCollisions */
-     , (7101,  13, False) /* Ethereal */
-     , (7101,  14, True ) /* GravityStatus */
-     , (7101,  19, True ) /* Attackable */;
+VALUES (7101,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7101,   1, 'Tiatus Lugian') /* Name */

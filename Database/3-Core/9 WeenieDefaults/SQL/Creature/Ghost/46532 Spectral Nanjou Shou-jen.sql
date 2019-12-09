@@ -15,14 +15,10 @@ VALUES (46532,   1,         16) /* ItemType - Creature */
      , (46532, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46532,   1, True ) /* Stuck */
-     , (46532,  12, True ) /* ReportCollisions */
-     , (46532,  13, False) /* Ethereal */
-     , (46532,  14, True ) /* GravityStatus */
-     , (46532,  19, True ) /* Attackable */;
+VALUES (46532,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46532,  76, 0.850000023841858) /* Translucency */;
+VALUES (46532,  76,    0.85) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46532,   1, 'Spectral Nanjou Shou-jen') /* Name */

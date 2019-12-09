@@ -8,19 +8,14 @@ VALUES (22925,   1,      16384) /* ItemType - Key */
      , (22925,   5,         50) /* EncumbranceVal */
      , (22925,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (22925,  19,        100) /* Value */
-     , (22925,  65,        101) /* Placement - Resting */
      , (22925,  91,          1) /* MaxStructure */
      , (22925,  92,          1) /* Structure */
      , (22925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22925,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (22925,  94,        640) /* TargetType - LockableMagicTarget */
+     , (22925, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22925,   1, False) /* Stuck */
-     , (22925,  11, True ) /* IgnoreCollisions */
-     , (22925,  13, True ) /* Ethereal */
-     , (22925,  14, True ) /* GravityStatus */
-     , (22925,  19, True ) /* Attackable */
-     , (22925,  22, True ) /* Inscribable */;
+VALUES (22925,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22925,   1, 'Athenaeum Key') /* Name */

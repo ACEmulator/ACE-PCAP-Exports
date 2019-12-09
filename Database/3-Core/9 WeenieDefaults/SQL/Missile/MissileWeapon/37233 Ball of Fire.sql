@@ -17,15 +17,6 @@ VALUES (37233,   1,        256) /* ItemType - MissileWeapon */
      , (37233,  51,          2) /* CombatUse - Missle */
      , (37233,  93,     164884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ScriptedCollision, Inelastic */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37233,   1, False) /* Stuck */
-     , (37233,  11, True ) /* IgnoreCollisions */
-     , (37233,  13, True ) /* Ethereal */
-     , (37233,  14, True ) /* GravityStatus */
-     , (37233,  16, True ) /* ScriptedCollision */
-     , (37233,  17, True ) /* Inelastic */
-     , (37233,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37233,  77,       1) /* PhysicsScriptIntensity */
      , (37233,  78,       1) /* Friction */

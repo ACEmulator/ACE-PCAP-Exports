@@ -11,23 +11,18 @@ VALUES (29093,   1,          8) /* ItemType - Jewelry */
      , (29093,  16,          1) /* ItemUseable - No */
      , (29093,  18,          1) /* UiEffects - Magical */
      , (29093,  19,       1000) /* Value */
-     , (29093,  65,        101) /* Placement - Resting */
      , (29093,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29093, 106,         50) /* ItemSpellcraft */
      , (29093, 107,          0) /* ItemCurMana */
-     , (29093, 108,        400) /* ItemMaxMana */;
+     , (29093, 108,        400) /* ItemMaxMana */
+     , (29093, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29093,   1, False) /* Stuck */
-     , (29093,  11, True ) /* IgnoreCollisions */
-     , (29093,  13, True ) /* Ethereal */
-     , (29093,  14, True ) /* GravityStatus */
-     , (29093,  19, True ) /* Attackable */
-     , (29093,  22, True ) /* Inscribable */;
+VALUES (29093,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29093,   5, -0.0125) /* ManaRate */
-     , (29093,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (29093,   5,   -0.01) /* ManaRate */
+     , (29093,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29093,   1, 'Viamontian Guardian Bracelet') /* Name */

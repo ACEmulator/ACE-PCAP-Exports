@@ -11,19 +11,14 @@ VALUES (38925,   1,          1) /* ItemType - MeleeWeapon */
      , (38925,  16,          1) /* ItemUseable - No */
      , (38925,  19,         40) /* Value */
      , (38925,  51,          1) /* CombatUse - Melee */
-     , (38925,  65,          1) /* Placement - RightHandCombat */
-     , (38925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38925, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38925,   1, False) /* Stuck */
-     , (38925,  11, True ) /* IgnoreCollisions */
-     , (38925,  13, True ) /* Ethereal */
-     , (38925,  14, True ) /* GravityStatus */
-     , (38925,  19, True ) /* Attackable */
-     , (38925,  22, True ) /* Inscribable */;
+VALUES (38925,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38925,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (38925,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38925,   1, 'T''thuun Dagger') /* Name */;

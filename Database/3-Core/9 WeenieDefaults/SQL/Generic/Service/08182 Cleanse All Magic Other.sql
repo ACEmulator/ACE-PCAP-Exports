@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8182,   1,    1048576) /* ItemType - Service */
      , (8182,  16,          1) /* ItemUseable - No */
      , (8182,  19,       3000) /* Value */
-     , (8182,  65,        101) /* Placement - Resting */
-     , (8182,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8182,   1, False) /* Stuck */
-     , (8182,  11, True ) /* IgnoreCollisions */
-     , (8182,  13, True ) /* Ethereal */
-     , (8182,  14, True ) /* GravityStatus */
-     , (8182,  19, True ) /* Attackable */;
+     , (8182,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8182, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8182,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (8182,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8182,   1, 'Cleanse All Magic Other') /* Name */;

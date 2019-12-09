@@ -16,14 +16,10 @@ VALUES (43216,   1,         16) /* ItemType - Creature */
      , (43216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43216,   1, True ) /* Stuck */
-     , (43216,  12, True ) /* ReportCollisions */
-     , (43216,  13, False) /* Ethereal */
-     , (43216,  14, True ) /* GravityStatus */
-     , (43216,  19, True ) /* Attackable */;
+VALUES (43216,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43216,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (43216,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43216,   1, 'Subverted Bronze Gauntlet Knight') /* Name */

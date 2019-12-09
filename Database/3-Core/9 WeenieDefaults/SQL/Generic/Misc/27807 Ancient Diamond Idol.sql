@@ -10,17 +10,12 @@ VALUES (27807,   1,        128) /* ItemType - Misc */
      , (27807,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (27807,  16,          1) /* ItemUseable - No */
      , (27807,  19,       5000) /* Value */
-     , (27807,  65,          1) /* Placement - RightHandCombat */
      , (27807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27807, 151,          9) /* HookType - Floor, Yard */;
+     , (27807, 151,          9) /* HookType - Floor, Yard */
+     , (27807, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27807,   1, False) /* Stuck */
-     , (27807,  11, True ) /* IgnoreCollisions */
-     , (27807,  13, True ) /* Ethereal */
-     , (27807,  14, True ) /* GravityStatus */
-     , (27807,  19, True ) /* Attackable */
-     , (27807,  22, True ) /* Inscribable */;
+VALUES (27807,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27807,   1, 'Ancient Diamond Idol') /* Name */

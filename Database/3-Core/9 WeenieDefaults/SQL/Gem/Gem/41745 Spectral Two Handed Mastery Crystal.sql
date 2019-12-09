@@ -13,18 +13,10 @@ VALUES (41745,   1,       2048) /* ItemType - Gem */
      , (41745,  16,          8) /* ItemUseable - Contained */
      , (41745,  18,          1) /* UiEffects - Magical */
      , (41745,  19,          5) /* Value */
-     , (41745,  65,        101) /* Placement - Resting */
      , (41745,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41745,  94,         16) /* TargetType - Creature */
-     , (41745, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41745,   1, False) /* Stuck */
-     , (41745,  11, True ) /* IgnoreCollisions */
-     , (41745,  13, True ) /* Ethereal */
-     , (41745,  14, True ) /* GravityStatus */
-     , (41745,  15, True ) /* LightsStatus */
-     , (41745,  19, True ) /* Attackable */;
+     , (41745, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (41745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41745,   1, 'Spectral Two Handed Mastery Crystal') /* Name */

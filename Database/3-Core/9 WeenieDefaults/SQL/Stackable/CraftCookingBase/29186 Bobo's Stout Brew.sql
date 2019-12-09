@@ -13,17 +13,12 @@ VALUES (29186,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29186,  16,          1) /* ItemUseable - No */
      , (29186,  19,         75) /* Value */
      , (29186,  33,          0) /* Bonded - Normal */
-     , (29186,  65,        101) /* Placement - Resting */
      , (29186,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29186, 114,          0) /* Attuned - Normal */;
+     , (29186, 114,          0) /* Attuned - Normal */
+     , (29186, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29186,   1, False) /* Stuck */
-     , (29186,  11, True ) /* IgnoreCollisions */
-     , (29186,  13, True ) /* Ethereal */
-     , (29186,  14, True ) /* GravityStatus */
-     , (29186,  19, True ) /* Attackable */
-     , (29186,  69, False) /* IsSellable */;
+VALUES (29186,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29186,   1, 'Bobo''s Stout Brew') /* Name */

@@ -12,20 +12,15 @@ VALUES (35536,   1,        128) /* ItemType - Misc */
      , (35536,  15,          1) /* StackUnitValue */
      , (35536,  16,          8) /* ItemUseable - Contained */
      , (35536,  19,          1) /* Value */
-     , (35536,  65,        101) /* Placement - Resting */
      , (35536,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35536,  94,         16) /* TargetType - Creature */;
+     , (35536,  94,         16) /* TargetType - Creature */
+     , (35536, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35536,   1, False) /* Stuck */
-     , (35536,  11, True ) /* IgnoreCollisions */
-     , (35536,  13, True ) /* Ethereal */
-     , (35536,  14, True ) /* GravityStatus */
-     , (35536,  19, True ) /* Attackable */
-     , (35536,  22, True ) /* Inscribable */;
+VALUES (35536,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35536,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35536,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35536,   1, '"Burning Bow" Summoning Gem') /* Name */;

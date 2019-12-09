@@ -8,16 +8,11 @@ VALUES (1108,   1,        128) /* ItemType - Misc */
      , (1108,   5,       9000) /* EncumbranceVal */
      , (1108,  16,          1) /* ItemUseable - No */
      , (1108,  19,        125) /* Value */
-     , (1108,  65,        101) /* Placement - Resting */
-     , (1108,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (1108,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (1108, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1108,   1, True ) /* Stuck */
-     , (1108,  11, True ) /* IgnoreCollisions */
-     , (1108,  12, True ) /* ReportCollisions */
-     , (1108,  13, False) /* Ethereal */
-     , (1108,  14, True ) /* GravityStatus */
-     , (1108,  19, True ) /* Attackable */;
+VALUES (1108,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1108,   1, 'Zaikhal') /* Name */

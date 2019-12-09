@@ -16,15 +16,10 @@ VALUES (22133,   1,         16) /* ItemType - Creature */
      , (22133, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22133,   1, True ) /* Stuck */
-     , (22133,  12, True ) /* ReportCollisions */
-     , (22133,  13, False) /* Ethereal */
-     , (22133,  14, True ) /* GravityStatus */
-     , (22133,  19, True ) /* Attackable */
-     , (22133,  42, True ) /* AllowEdgeSlide */;
+VALUES (22133,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22133,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (22133,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22133,   1, 'Zombie') /* Name */

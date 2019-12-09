@@ -12,20 +12,15 @@ VALUES (35539,   1,        128) /* ItemType - Misc */
      , (35539,  15,          1) /* StackUnitValue */
      , (35539,  16,          8) /* ItemUseable - Contained */
      , (35539,  19,          1) /* Value */
-     , (35539,  65,        101) /* Placement - Resting */
      , (35539,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35539,  94,         16) /* TargetType - Creature */;
+     , (35539,  94,         16) /* TargetType - Creature */
+     , (35539, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35539,   1, False) /* Stuck */
-     , (35539,  11, True ) /* IgnoreCollisions */
-     , (35539,  13, True ) /* Ethereal */
-     , (35539,  14, True ) /* GravityStatus */
-     , (35539,  19, True ) /* Attackable */
-     , (35539,  22, True ) /* Inscribable */;
+VALUES (35539,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35539,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35539,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35539,   1, '"Club of Undead Bashing" Summoning Gem') /* Name */;

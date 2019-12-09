@@ -11,11 +11,7 @@ VALUES (1012,   1,        128) /* ItemType - Misc */
      , (1012,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1012,   1, True ) /* Stuck */
-     , (1012,  11, True ) /* IgnoreCollisions */
-     , (1012,  12, True ) /* ReportCollisions */
-     , (1012,  13, False) /* Ethereal */
-     , (1012,  19, True ) /* Attackable */;
+VALUES (1012,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1012,   1, 'The Open Book') /* Name */

@@ -8,16 +8,11 @@ VALUES (645,   1,        128) /* ItemType - Misc */
      , (645,   5,       9000) /* EncumbranceVal */
      , (645,  16,          1) /* ItemUseable - No */
      , (645,  19,        125) /* Value */
-     , (645,  65,        101) /* Placement - Resting */
-     , (645,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (645,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (645, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (645,   1, True ) /* Stuck */
-     , (645,  11, True ) /* IgnoreCollisions */
-     , (645,  12, True ) /* ReportCollisions */
-     , (645,  13, False) /* Ethereal */
-     , (645,  14, True ) /* GravityStatus */
-     , (645,  19, True ) /* Attackable */;
+VALUES (645,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (645,   1, 'The Gilded Tome ') /* Name */

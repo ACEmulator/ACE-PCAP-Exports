@@ -15,12 +15,7 @@ VALUES (27409,   1,         16) /* ItemType - Creature */
      , (27409, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27409,   1, True ) /* Stuck */
-     , (27409,  12, True ) /* ReportCollisions */
-     , (27409,  13, True ) /* Ethereal */
-     , (27409,  14, True ) /* GravityStatus */
-     , (27409,  15, True ) /* LightsStatus */
-     , (27409,  19, True ) /* Attackable */;
+VALUES (27409,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27409,   1, 'Burning Pillar') /* Name */

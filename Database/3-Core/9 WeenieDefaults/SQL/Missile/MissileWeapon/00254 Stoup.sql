@@ -27,24 +27,18 @@ VALUES (254,   1,        256) /* ItemType - MissileWeapon */
      , (254, 151,          1) /* HookType - Floor */
      , (254, 172,          1) /* AppraisalLongDescDecoration */
      , (254, 353,         10) /* WeaponType - Thrown */
-     , (254, 8030,          0);
+     , (254, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (254,   1, False) /* Stuck */
-     , (254,  11, True ) /* IgnoreCollisions */
-     , (254,  13, True ) /* Ethereal */
-     , (254,  14, True ) /* GravityStatus */
-     , (254,  17, True ) /* Inelastic */
-     , (254,  19, True ) /* Attackable */
-     , (254,  22, True ) /* Inscribable */;
+VALUES (254,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (254,   5, -0.0555555555555556) /* ManaRate */
+VALUES (254,   5,   -0.06) /* ManaRate */
      , (254,  21,       0) /* WeaponLength */
      , (254,  22,    0.25) /* DamageVariance */
      , (254,  26,       0) /* MaximumVelocity */
      , (254,  29,       1) /* WeaponDefense */
-     , (254,  39, 0.330000013113022) /* DefaultScale */
+     , (254,  39,    0.33) /* DefaultScale */
      , (254,  62,       1) /* WeaponOffense */
      , (254,  63,       1) /* DamageMod */
      , (254,  78,       1) /* Friction */

@@ -17,12 +17,7 @@ VALUES (7824,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7824, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7824,   1, False) /* Stuck */
-     , (7824,  11, True ) /* IgnoreCollisions */
-     , (7824,  13, True ) /* Ethereal */
-     , (7824,  14, True ) /* GravityStatus */
-     , (7824,  19, True ) /* Attackable */
-     , (7824,  22, True ) /* Inscribable */;
+VALUES (7824,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7824,   1, 'Metal Press') /* Name */

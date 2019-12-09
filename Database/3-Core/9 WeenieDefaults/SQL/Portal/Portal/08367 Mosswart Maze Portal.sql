@@ -12,19 +12,13 @@ VALUES (8367,   1,      65536) /* ItemType - Portal */
      , (8367, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8367,   1, True ) /* Stuck */
-     , (8367,  12, True ) /* ReportCollisions */
-     , (8367,  13, True ) /* Ethereal */
-     , (8367,  14, True ) /* GravityStatus */
-     , (8367,  15, True ) /* LightsStatus */
-     , (8367,  19, True ) /* Attackable */;
+VALUES (8367,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8367,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8367,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8367,   1, 'Mosswart Maze Portal') /* Name */
-     , (8367,  38, 'Mosswart Maze Portal') /* AppraisalPortalDestination */
      , (8367, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,18 +13,11 @@ VALUES (36642,   1,        128) /* ItemType - Misc */
      , (36642,  16,          1) /* ItemUseable - No */
      , (36642,  19,       1000) /* Value */
      , (36642,  33,          1) /* Bonded - Bonded */
-     , (36642,  65,        101) /* Placement - Resting */
-     , (36642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36642,   1, False) /* Stuck */
-     , (36642,  11, True ) /* IgnoreCollisions */
-     , (36642,  13, True ) /* Ethereal */
-     , (36642,  14, True ) /* GravityStatus */
-     , (36642,  19, True ) /* Attackable */;
+     , (36642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36642, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36642,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (36642,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36642,   1, 'Powdered Chorizite Pea') /* Name */

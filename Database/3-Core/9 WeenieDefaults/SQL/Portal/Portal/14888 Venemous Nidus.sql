@@ -13,19 +13,13 @@ VALUES (14888,   1,      65536) /* ItemType - Portal */
      , (14888, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14888,   1, True ) /* Stuck */
-     , (14888,  12, True ) /* ReportCollisions */
-     , (14888,  13, True ) /* Ethereal */
-     , (14888,  14, True ) /* GravityStatus */
-     , (14888,  15, True ) /* LightsStatus */
-     , (14888,  19, True ) /* Attackable */;
+VALUES (14888,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14888,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14888,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14888,   1, 'Venemous Nidus') /* Name */
-     , (14888,  38, 'Venemous Nidus') /* AppraisalPortalDestination */
      , (14888, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

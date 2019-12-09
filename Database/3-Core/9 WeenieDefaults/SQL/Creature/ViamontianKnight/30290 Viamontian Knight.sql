@@ -15,15 +15,10 @@ VALUES (30290,   1,         16) /* ItemType - Creature */
      , (30290, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30290,   1, True ) /* Stuck */
-     , (30290,  12, True ) /* ReportCollisions */
-     , (30290,  13, False) /* Ethereal */
-     , (30290,  14, True ) /* GravityStatus */
-     , (30290,  19, True ) /* Attackable */
-     , (30290,  42, True ) /* AllowEdgeSlide */;
+VALUES (30290,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30290,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30290,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30290,   1, 'Viamontian Knight') /* Name */

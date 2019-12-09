@@ -10,17 +10,12 @@ VALUES (32162,   1,          2) /* ItemType - Armor */
      , (32162,   9,          1) /* ValidLocations - HeadWear */
      , (32162,  16,          1) /* ItemUseable - No */
      , (32162,  19,        200) /* Value */
-     , (32162,  65,        101) /* Placement - Resting */
      , (32162,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32162, 151,          2) /* HookType - Wall */;
+     , (32162, 151,          2) /* HookType - Wall */
+     , (32162, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32162,   1, False) /* Stuck */
-     , (32162,  11, True ) /* IgnoreCollisions */
-     , (32162,  13, True ) /* Ethereal */
-     , (32162,  14, True ) /* GravityStatus */
-     , (32162,  19, True ) /* Attackable */
-     , (32162,  22, True ) /* Inscribable */;
+VALUES (32162,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32162,   1, 'Snowman Mask') /* Name */;

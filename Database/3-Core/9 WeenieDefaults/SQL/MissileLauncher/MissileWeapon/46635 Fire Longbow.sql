@@ -12,19 +12,12 @@ VALUES (46635,   1,        256) /* ItemType - MissileWeapon */
      , (46635,  18,         32) /* UiEffects - Fire */
      , (46635,  50,          1) /* AmmoType - Arrow */
      , (46635,  51,          2) /* CombatUse - Missle */
-     , (46635,  65,          3) /* Placement - LeftHand */
      , (46635,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46635, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46635,   1, False) /* Stuck */
-     , (46635,  11, True ) /* IgnoreCollisions */
-     , (46635,  13, True ) /* Ethereal */
-     , (46635,  14, True ) /* GravityStatus */
-     , (46635,  19, True ) /* Attackable */;
+     , (46635, 151,          2) /* HookType - Wall */
+     , (46635, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46635,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (46635,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46635,   1, 'Fire Longbow') /* Name */;

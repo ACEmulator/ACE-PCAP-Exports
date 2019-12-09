@@ -11,30 +11,25 @@ VALUES (36437,   1,          4) /* ItemType - Clothing */
      , (36437,  16,          1) /* ItemUseable - No */
      , (36437,  19,         20) /* Value */
      , (36437,  28,         50) /* ArmorLevel */
-     , (36437,  65,        101) /* Placement - Resting */
      , (36437,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36437, 106,        200) /* ItemSpellcraft */
      , (36437, 107,        200) /* ItemCurMana */
      , (36437, 108,        200) /* ItemMaxMana */
-     , (36437, 109,          0) /* ItemDifficulty */;
+     , (36437, 109,          0) /* ItemDifficulty */
+     , (36437, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36437,   1, False) /* Stuck */
-     , (36437,  11, True ) /* IgnoreCollisions */
-     , (36437,  13, True ) /* Ethereal */
-     , (36437,  14, True ) /* GravityStatus */
-     , (36437,  19, True ) /* Attackable */
-     , (36437,  22, True ) /* Inscribable */;
+VALUES (36437,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36437,   5, -0.0333) /* ManaRate */
-     , (36437,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (36437,  14, 0.800000011920929) /* ArmorModVsPierce */
+VALUES (36437,   5,   -0.03) /* ManaRate */
+     , (36437,  13,     0.8) /* ArmorModVsSlash */
+     , (36437,  14,     0.8) /* ArmorModVsPierce */
      , (36437,  15,       1) /* ArmorModVsBludgeon */
-     , (36437,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (36437,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (36437,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (36437,  19, 0.200000002980232) /* ArmorModVsElectric */
+     , (36437,  16,     0.2) /* ArmorModVsCold */
+     , (36437,  17,     0.2) /* ArmorModVsFire */
+     , (36437,  18,     0.1) /* ArmorModVsAcid */
+     , (36437,  19,     0.2) /* ArmorModVsElectric */
      , (36437, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

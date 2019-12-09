@@ -15,14 +15,10 @@ VALUES (6772,   1,         16) /* ItemType - Creature */
      , (6772, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6772,   1, True ) /* Stuck */
-     , (6772,  12, True ) /* ReportCollisions */
-     , (6772,  13, False) /* Ethereal */
-     , (6772,  14, True ) /* GravityStatus */
-     , (6772,  19, True ) /* Attackable */;
+VALUES (6772,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6772,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (6772,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6772,   1, 'Greater Mu-miyah') /* Name */

@@ -12,18 +12,13 @@ VALUES (51484,   1,       2048) /* ItemType - Gem */
      , (51484,  15,        653) /* StackUnitValue */
      , (51484,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51484,  19,        653) /* Value */
-     , (51484,  65,        101) /* Placement - Resting */
      , (51484,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51484,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (51484, 151,          2) /* HookType - Wall */;
+     , (51484, 151,          2) /* HookType - Wall */
+     , (51484, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51484,   1, False) /* Stuck */
-     , (51484,  11, True ) /* IgnoreCollisions */
-     , (51484,  13, True ) /* Ethereal */
-     , (51484,  14, True ) /* GravityStatus */
-     , (51484,  19, True ) /* Attackable */
-     , (51484,  22, True ) /* Inscribable */;
+VALUES (51484,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51484,   1, 'Rynthid Tentacle Bow') /* Name */;

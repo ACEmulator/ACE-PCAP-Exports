@@ -12,19 +12,13 @@ VALUES (44117,   1,      65536) /* ItemType - Portal */
      , (44117, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44117,   1, True ) /* Stuck */
-     , (44117,  12, True ) /* ReportCollisions */
-     , (44117,  13, True ) /* Ethereal */
-     , (44117,  14, True ) /* GravityStatus */
-     , (44117,  15, True ) /* LightsStatus */
-     , (44117,  19, True ) /* Attackable */;
+VALUES (44117,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44117,  54, -0.100000001490116) /* UseRadius */;
+VALUES (44117,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44117,   1, 'Sand Caves') /* Name */
-     , (44117,  38, 'Sand Caves') /* AppraisalPortalDestination */
      , (44117, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

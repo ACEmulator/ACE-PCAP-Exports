@@ -15,15 +15,11 @@ VALUES (51832,   1,         16) /* ItemType - Creature */
      , (51832, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51832,   1, True ) /* Stuck */
-     , (51832,  12, True ) /* ReportCollisions */
-     , (51832,  13, False) /* Ethereal */
-     , (51832,  14, True ) /* GravityStatus */
-     , (51832,  19, True ) /* Attackable */;
+VALUES (51832,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51832,  39, 1.20000004768372) /* DefaultScale */
-     , (51832,  76, 0.600000023841858) /* Translucency */;
+VALUES (51832,  39,     1.2) /* DefaultScale */
+     , (51832,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51832,   1, 'Acidic Tendril') /* Name */

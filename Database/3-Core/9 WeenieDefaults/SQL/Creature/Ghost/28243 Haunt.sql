@@ -15,17 +15,13 @@ VALUES (28243,   1,         16) /* ItemType - Creature */
      , (28243, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28243,   1, True ) /* Stuck */
-     , (28243,  12, True ) /* ReportCollisions */
-     , (28243,  13, False) /* Ethereal */
-     , (28243,  14, True ) /* GravityStatus */
-     , (28243,  19, True ) /* Attackable */;
+VALUES (28243,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28243,  76,     0.5) /* Translucency */
-     , (28243, 8010, -0.211851894855499) /* PCAPRecordedVelocityX */
-     , (28243, 8011, -0.126231402158737) /* PCAPRecordedVelocityY */
-     , (28243, 8012, -0.179927513003349) /* PCAPRecordedVelocityZ */;
+     , (28243, 8010,   -0.21) /* PCAPRecordedVelocityX */
+     , (28243, 8011,   -0.13) /* PCAPRecordedVelocityY */
+     , (28243, 8012,   -0.18) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28243,   1, 'Haunt') /* Name */

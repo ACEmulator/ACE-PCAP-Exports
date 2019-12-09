@@ -10,16 +10,11 @@ VALUES (46008,   1,          4) /* ItemType - Clothing */
      , (46008,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
      , (46008,  16,          1) /* ItemUseable - No */
      , (46008,  19,        100) /* Value */
-     , (46008,  65,        101) /* Placement - Resting */
-     , (46008,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (46008,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46008, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46008,   1, False) /* Stuck */
-     , (46008,  11, True ) /* IgnoreCollisions */
-     , (46008,  13, True ) /* Ethereal */
-     , (46008,  14, True ) /* GravityStatus */
-     , (46008,  19, True ) /* Attackable */
-     , (46008,  22, True ) /* Inscribable */;
+VALUES (46008,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46008,   1, 'Amateur Explorer Pants') /* Name */;

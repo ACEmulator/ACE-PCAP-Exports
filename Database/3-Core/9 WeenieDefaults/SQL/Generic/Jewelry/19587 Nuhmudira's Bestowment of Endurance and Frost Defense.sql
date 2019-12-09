@@ -12,7 +12,6 @@ VALUES (19587,   1,          8) /* ItemType - Jewelry */
      , (19587,  18,        128) /* UiEffects - Frost */
      , (19587,  19,       5000) /* Value */
      , (19587,  33,          1) /* Bonded - Bonded */
-     , (19587,  65,        101) /* Placement - Resting */
      , (19587,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19587, 106,        225) /* ItemSpellcraft */
      , (19587, 107,        142) /* ItemCurMana */
@@ -22,22 +21,18 @@ VALUES (19587,   1,          8) /* ItemType - Jewelry */
      , (19587, 151,          2) /* HookType - Wall */
      , (19587, 158,          7) /* WieldRequirements - Level */
      , (19587, 159,          1) /* WieldSkillType - Axe */
-     , (19587, 160,         45) /* WieldDifficulty */;
+     , (19587, 160,         45) /* WieldDifficulty */
+     , (19587, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19587,   1, False) /* Stuck */
-     , (19587,  11, True ) /* IgnoreCollisions */
-     , (19587,  13, True ) /* Ethereal */
-     , (19587,  14, True ) /* GravityStatus */
-     , (19587,  19, True ) /* Attackable */
-     , (19587,  22, True ) /* Inscribable */
+VALUES (19587,  22, True ) /* Inscribable */
      , (19587,  69, False) /* IsSellable */
      , (19587,  94, True ) /* AppraisalHasAllowedActivator */
      , (19587,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19587,   5,  -0.033) /* ManaRate */
-     , (19587,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19587,   5,   -0.03) /* ManaRate */
+     , (19587,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19587,   1, 'Nuhmudira''s Bestowment of Endurance and Frost Defense') /* Name */

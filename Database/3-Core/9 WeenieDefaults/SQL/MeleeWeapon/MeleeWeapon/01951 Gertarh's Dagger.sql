@@ -16,23 +16,18 @@ VALUES (1951,   1,          1) /* ItemType - MeleeWeapon */
      , (1951,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (1951,  49,         20) /* WeaponTime */
      , (1951,  51,          1) /* CombatUse - Melee */
-     , (1951,  65,          1) /* Placement - RightHandCombat */
      , (1951,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1951, 151,          2) /* HookType - Wall */
      , (1951, 353,          6) /* WeaponType - Dagger */
-     , (1951, 8030,          0);
+     , (1951, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (1951, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1951,   1, False) /* Stuck */
-     , (1951,  11, True ) /* IgnoreCollisions */
-     , (1951,  13, True ) /* Ethereal */
-     , (1951,  14, True ) /* GravityStatus */
-     , (1951,  19, True ) /* Attackable */
-     , (1951,  22, True ) /* Inscribable */;
+VALUES (1951,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1951,  21,       0) /* WeaponLength */
-     , (1951,  22, 0.150000005960464) /* DamageVariance */
+     , (1951,  22,    0.15) /* DamageVariance */
      , (1951,  26,       0) /* MaximumVelocity */
      , (1951,  29,       1) /* WeaponDefense */
      , (1951,  62,       1) /* WeaponOffense */

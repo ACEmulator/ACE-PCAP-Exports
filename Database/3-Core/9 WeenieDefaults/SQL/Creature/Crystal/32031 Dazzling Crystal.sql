@@ -15,11 +15,7 @@ VALUES (32031,   1,         16) /* ItemType - Creature */
      , (32031, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32031,   1, True ) /* Stuck */
-     , (32031,  12, True ) /* ReportCollisions */
-     , (32031,  13, False) /* Ethereal */
-     , (32031,  14, True ) /* GravityStatus */
-     , (32031,  19, True ) /* Attackable */;
+VALUES (32031,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32031,   1, 'Dazzling Crystal') /* Name */

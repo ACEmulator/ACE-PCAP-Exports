@@ -12,7 +12,6 @@ VALUES (45956,   1,      32768) /* ItemType - Caster */
      , (45956,  19,        100) /* Value */
      , (45956,  33,          1) /* Bonded - Bonded */
      , (45956,  45,       1024) /* DamageType - Nether */
-     , (45956,  65,          1) /* Placement - RightHandCombat */
      , (45956,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45956,  94,         16) /* TargetType - Creature */
      , (45956, 106,        250) /* ItemSpellcraft */
@@ -23,24 +22,20 @@ VALUES (45956,   1,      32768) /* ItemType - Caster */
      , (45956, 151,          2) /* HookType - Wall */
      , (45956, 158,          2) /* WieldRequirements - RawSkill */
      , (45956, 159,         43) /* WieldSkillType - VoidMagic */
-     , (45956, 160,        290) /* WieldDifficulty */;
+     , (45956, 160,        290) /* WieldDifficulty */
+     , (45956, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45956,   1, False) /* Stuck */
-     , (45956,  11, True ) /* IgnoreCollisions */
-     , (45956,  13, True ) /* Ethereal */
-     , (45956,  14, True ) /* GravityStatus */
-     , (45956,  19, True ) /* Attackable */
-     , (45956,  22, True ) /* Inscribable */
+VALUES (45956,  22, True ) /* Inscribable */
      , (45956,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45956,   5,  -0.025) /* ManaRate */
-     , (45956,  29, 1.23000000596046) /* WeaponDefense */
-     , (45956,  39, 0.600000023841858) /* DefaultScale */
-     , (45956, 144, 0.136000003814697) /* ManaConversionMod */
+VALUES (45956,   5,   -0.02) /* ManaRate */
+     , (45956,  29,    1.23) /* WeaponDefense */
+     , (45956,  39,     0.6) /* DefaultScale */
+     , (45956, 144,    0.14) /* ManaConversionMod */
      , (45956, 147,       1) /* CriticalFrequency */
-     , (45956, 152, 1.17000000029802) /* ElementalDamageMod */;
+     , (45956, 152,    1.17) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45956,   1, 'Seasoned Explorer Nether Staff') /* Name */;

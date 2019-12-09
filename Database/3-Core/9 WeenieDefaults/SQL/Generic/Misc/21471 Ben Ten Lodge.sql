@@ -11,12 +11,7 @@ VALUES (21471,   1,        128) /* ItemType - Misc */
      , (21471,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21471,   1, True ) /* Stuck */
-     , (21471,  11, True ) /* IgnoreCollisions */
-     , (21471,  12, True ) /* ReportCollisions */
-     , (21471,  13, False) /* Ethereal */
-     , (21471,  14, True ) /* GravityStatus */
-     , (21471,  19, True ) /* Attackable */;
+VALUES (21471,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21471,   1, 'Ben Ten Lodge') /* Name */

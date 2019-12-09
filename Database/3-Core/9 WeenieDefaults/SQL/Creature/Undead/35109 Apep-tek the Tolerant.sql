@@ -18,15 +18,10 @@ VALUES (35109,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35109,   1, True ) /* Stuck */
-     , (35109,  11, True ) /* IgnoreCollisions */
-     , (35109,  12, True ) /* ReportCollisions */
-     , (35109,  13, False) /* Ethereal */
-     , (35109,  14, True ) /* GravityStatus */
-     , (35109,  19, False) /* Attackable */
-     , (35109,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (35109,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35109,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (35109,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35109,   1, 'Apep-tek the Tolerant') /* Name */

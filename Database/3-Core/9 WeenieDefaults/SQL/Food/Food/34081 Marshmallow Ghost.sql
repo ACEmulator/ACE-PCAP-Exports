@@ -12,18 +12,11 @@ VALUES (34081,   1,         32) /* ItemType - Food */
      , (34081,  15,          1) /* StackUnitValue */
      , (34081,  16,          8) /* ItemUseable - Contained */
      , (34081,  19,          1) /* Value */
-     , (34081,  65,        101) /* Placement - Resting */
      , (34081,  89,          6) /* BoosterEnum - Mana */
      , (34081,  90,         40) /* BoostValue */
      , (34081,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34081, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34081,   1, False) /* Stuck */
-     , (34081,  11, True ) /* IgnoreCollisions */
-     , (34081,  13, True ) /* Ethereal */
-     , (34081,  14, True ) /* GravityStatus */
-     , (34081,  19, True ) /* Attackable */;
+     , (34081, 151,          2) /* HookType - Wall */
+     , (34081, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34081,   1, 'Marshmallow Ghost') /* Name */

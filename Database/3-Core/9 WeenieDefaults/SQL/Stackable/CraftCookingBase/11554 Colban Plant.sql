@@ -15,15 +15,8 @@ VALUES (11554,   1,    4194304) /* ItemType - CraftCookingBase */
      , (11554,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11554, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11554,   1, False) /* Stuck */
-     , (11554,  11, True ) /* IgnoreCollisions */
-     , (11554,  13, True ) /* Ethereal */
-     , (11554,  14, True ) /* GravityStatus */
-     , (11554,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11554,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (11554,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11554,   1, 'Colban Plant') /* Name */

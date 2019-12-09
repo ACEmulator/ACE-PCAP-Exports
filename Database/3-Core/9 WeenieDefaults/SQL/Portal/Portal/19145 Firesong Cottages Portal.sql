@@ -12,19 +12,13 @@ VALUES (19145,   1,      65536) /* ItemType - Portal */
      , (19145, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19145,   1, True ) /* Stuck */
-     , (19145,  12, True ) /* ReportCollisions */
-     , (19145,  13, True ) /* Ethereal */
-     , (19145,  14, True ) /* GravityStatus */
-     , (19145,  15, True ) /* LightsStatus */
-     , (19145,  19, True ) /* Attackable */;
+VALUES (19145,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19145,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19145,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19145,   1, 'Firesong Cottages Portal') /* Name */
-     , (19145,  38, 'Firesong Cottages Portal (38.4N, 26.3W).') /* AppraisalPortalDestination */
      , (19145, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

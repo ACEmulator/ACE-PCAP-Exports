@@ -8,16 +8,11 @@ VALUES (24583,   1,        128) /* ItemType - Misc */
      , (24583,   5,       9000) /* EncumbranceVal */
      , (24583,  16,          1) /* ItemUseable - No */
      , (24583,  19,        125) /* Value */
-     , (24583,  65,        101) /* Placement - Resting */
-     , (24583,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (24583,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (24583, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24583,   1, True ) /* Stuck */
-     , (24583,  11, True ) /* IgnoreCollisions */
-     , (24583,  12, True ) /* ReportCollisions */
-     , (24583,  13, False) /* Ethereal */
-     , (24583,  14, True ) /* GravityStatus */
-     , (24583,  19, True ) /* Attackable */;
+VALUES (24583,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24583,   1, 'Shot in the Arm Bowyers') /* Name */

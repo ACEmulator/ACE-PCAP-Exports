@@ -12,19 +12,13 @@ VALUES (9106,   1,      65536) /* ItemType - Portal */
      , (9106, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9106,   1, True ) /* Stuck */
-     , (9106,  12, True ) /* ReportCollisions */
-     , (9106,  13, True ) /* Ethereal */
-     , (9106,  14, True ) /* GravityStatus */
-     , (9106,  15, True ) /* LightsStatus */
-     , (9106,  19, True ) /* Attackable */;
+VALUES (9106,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9106,  54, -0.100000001490116) /* UseRadius */;
+VALUES (9106,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9106,   1, 'Hieromancers'' Halls Portal') /* Name */
-     , (9106,  38, 'Hieromancers'' Halls Portal') /* AppraisalPortalDestination */
      , (9106, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

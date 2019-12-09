@@ -13,21 +13,15 @@ VALUES (42169,   1,      65536) /* ItemType - Portal */
      , (42169, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42169,   1, True ) /* Stuck */
-     , (42169,  12, True ) /* ReportCollisions */
-     , (42169,  13, True ) /* Ethereal */
-     , (42169,  14, True ) /* GravityStatus */
-     , (42169,  15, True ) /* LightsStatus */
-     , (42169,  19, True ) /* Attackable */;
+VALUES (42169,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42169,  39, 0.800000011920929) /* DefaultScale */
-     , (42169,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42169,  39,     0.8) /* DefaultScale */
+     , (42169,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42169,   1, 'Mountain Sewer') /* Name */
      , (42169,  16, 'A portal leading to the Mountain Sewer where the Ancient Arbalest may be found.') /* LongDesc */
-     , (42169,  38, 'Mountain Sewer (60.9S, 82.0E).') /* AppraisalPortalDestination */
      , (42169, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

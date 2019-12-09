@@ -15,12 +15,7 @@ VALUES (36066,   1,    4194304) /* ItemType - CraftCookingBase */
      , (36066,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36066,   1, False) /* Stuck */
-     , (36066,  11, True ) /* IgnoreCollisions */
-     , (36066,  13, True ) /* Ethereal */
-     , (36066,  14, True ) /* GravityStatus */
-     , (36066,  19, True ) /* Attackable */
-     , (36066,  22, True ) /* Inscribable */;
+VALUES (36066,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36066,  39,     1.5) /* DefaultScale */;

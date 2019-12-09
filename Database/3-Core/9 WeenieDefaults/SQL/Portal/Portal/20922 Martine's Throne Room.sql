@@ -12,19 +12,13 @@ VALUES (20922,   1,      65536) /* ItemType - Portal */
      , (20922, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20922,   1, True ) /* Stuck */
-     , (20922,  12, True ) /* ReportCollisions */
-     , (20922,  13, True ) /* Ethereal */
-     , (20922,  14, True ) /* GravityStatus */
-     , (20922,  15, True ) /* LightsStatus */
-     , (20922,  19, True ) /* Attackable */;
+VALUES (20922,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20922,  54, -0.100000001490116) /* UseRadius */;
+VALUES (20922,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20922,   1, 'Martine''s Throne Room') /* Name */
-     , (20922,  38, 'Martine''s Throne Room') /* AppraisalPortalDestination */
      , (20922, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

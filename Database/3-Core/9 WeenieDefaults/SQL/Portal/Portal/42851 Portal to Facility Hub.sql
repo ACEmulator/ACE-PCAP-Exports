@@ -13,20 +13,14 @@ VALUES (42851,   1,      65536) /* ItemType - Portal */
      , (42851, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42851,   1, True ) /* Stuck */
-     , (42851,  12, True ) /* ReportCollisions */
-     , (42851,  13, True ) /* Ethereal */
-     , (42851,  14, True ) /* GravityStatus */
-     , (42851,  15, True ) /* LightsStatus */
-     , (42851,  19, True ) /* Attackable */;
+VALUES (42851,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42851,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42851,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42851,   1, 'Portal to Facility Hub') /* Name */
      , (42851,  16, 'This portal goes to the Facility Hub, a good starting place for new adventurers.') /* LongDesc */
-     , (42851,  38, 'Portal to Facility Hub') /* AppraisalPortalDestination */
      , (42851, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

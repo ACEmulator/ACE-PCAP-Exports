@@ -12,19 +12,13 @@ VALUES (12562,   1,      65536) /* ItemType - Portal */
      , (12562, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12562,   1, True ) /* Stuck */
-     , (12562,  12, True ) /* ReportCollisions */
-     , (12562,  13, True ) /* Ethereal */
-     , (12562,  14, True ) /* GravityStatus */
-     , (12562,  15, True ) /* LightsStatus */
-     , (12562,  19, True ) /* Attackable */;
+VALUES (12562,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12562,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12562,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12562,   1, 'Vesayan Overlook Portal') /* Name */
-     , (12562,  38, 'Vesayan Overlook Portal (68.0S, 78.0E).') /* AppraisalPortalDestination */
      , (12562, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

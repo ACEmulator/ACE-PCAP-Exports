@@ -15,14 +15,10 @@ VALUES (24134,   1,         16) /* ItemType - Creature */
      , (24134, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24134,   1, True ) /* Stuck */
-     , (24134,  12, True ) /* ReportCollisions */
-     , (24134,  13, False) /* Ethereal */
-     , (24134,  14, True ) /* GravityStatus */
-     , (24134,  19, True ) /* Attackable */;
+VALUES (24134,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24134,  39, 2.29999995231628) /* DefaultScale */;
+VALUES (24134,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24134,   1, 'Reedshark Slasher') /* Name */

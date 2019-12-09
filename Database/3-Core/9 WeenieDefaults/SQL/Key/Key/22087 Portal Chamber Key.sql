@@ -9,20 +9,15 @@ VALUES (22087,   1,      16384) /* ItemType - Key */
      , (22087,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (22087,  19,         25) /* Value */
      , (22087,  33,          1) /* Bonded - Bonded */
-     , (22087,  65,        101) /* Placement - Resting */
      , (22087,  91,          3) /* MaxStructure */
      , (22087,  92,          3) /* Structure */
      , (22087,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22087,  94,        640) /* TargetType - LockableMagicTarget */
-     , (22087, 114,          1) /* Attuned - Attuned */;
+     , (22087, 114,          1) /* Attuned - Attuned */
+     , (22087, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22087,   1, False) /* Stuck */
-     , (22087,  11, True ) /* IgnoreCollisions */
-     , (22087,  13, True ) /* Ethereal */
-     , (22087,  14, True ) /* GravityStatus */
-     , (22087,  19, True ) /* Attackable */
-     , (22087,  22, True ) /* Inscribable */;
+VALUES (22087,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22087,   1, 'Portal Chamber Key') /* Name */

@@ -11,15 +11,8 @@ VALUES (44782,   1,        128) /* ItemType - Misc */
      , (44782,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44782, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44782,   1, False) /* Stuck */
-     , (44782,  11, True ) /* IgnoreCollisions */
-     , (44782,  12, True ) /* ReportCollisions */
-     , (44782,  13, True ) /* Ethereal */
-     , (44782,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44782,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44782,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44782,   1, 'Wisp') /* Name */

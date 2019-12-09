@@ -28,15 +28,10 @@ VALUES (30583,   1,          1) /* ItemType - MeleeWeapon */
      , (30583, 177,          3) /* GemCount */
      , (30583, 178,         13) /* GemType */
      , (30583, 353,          4) /* WeaponType - Mace */
-     , (30583, 8030,          0);
+     , (30583, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30583,   1, False) /* Stuck */
-     , (30583,  11, True ) /* IgnoreCollisions */
-     , (30583,  13, True ) /* Ethereal */
-     , (30583,  14, True ) /* GravityStatus */
-     , (30583,  19, True ) /* Attackable */
-     , (30583,  22, True ) /* Inscribable */;
+VALUES (30583,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30583,  21,       0) /* WeaponLength */

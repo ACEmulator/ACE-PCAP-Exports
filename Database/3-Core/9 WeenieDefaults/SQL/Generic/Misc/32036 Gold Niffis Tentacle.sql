@@ -9,17 +9,12 @@ VALUES (32036,   1,        128) /* ItemType - Misc */
      , (32036,  16,          1) /* ItemUseable - No */
      , (32036,  19,          0) /* Value */
      , (32036,  33,          0) /* Bonded - Normal */
-     , (32036,  65,        101) /* Placement - Resting */
      , (32036,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32036, 114,          0) /* Attuned - Normal */;
+     , (32036, 114,          0) /* Attuned - Normal */
+     , (32036, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32036,   1, False) /* Stuck */
-     , (32036,  11, True ) /* IgnoreCollisions */
-     , (32036,  13, True ) /* Ethereal */
-     , (32036,  14, True ) /* GravityStatus */
-     , (32036,  19, True ) /* Attackable */
-     , (32036,  22, True ) /* Inscribable */;
+VALUES (32036,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32036,   1, 'Gold Niffis Tentacle') /* Name */

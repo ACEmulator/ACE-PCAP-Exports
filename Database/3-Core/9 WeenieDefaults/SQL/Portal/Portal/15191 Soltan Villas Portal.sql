@@ -12,19 +12,13 @@ VALUES (15191,   1,      65536) /* ItemType - Portal */
      , (15191, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15191,   1, True ) /* Stuck */
-     , (15191,  12, True ) /* ReportCollisions */
-     , (15191,  13, True ) /* Ethereal */
-     , (15191,  14, True ) /* GravityStatus */
-     , (15191,  15, True ) /* LightsStatus */
-     , (15191,  19, True ) /* Attackable */;
+VALUES (15191,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15191,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15191,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15191,   1, 'Soltan Villas Portal') /* Name */
-     , (15191,  38, 'Soltan Villas Portal (24.8N, 15.3E).') /* AppraisalPortalDestination */
      , (15191, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

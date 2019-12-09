@@ -38,12 +38,7 @@ VALUES (36761,   1,         16) /* ItemType - Creature */
      , (36761, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36761,   1, True ) /* Stuck */
-     , (36761,  12, True ) /* ReportCollisions */
-     , (36761,  13, True ) /* Ethereal */
-     , (36761,  14, True ) /* GravityStatus */
-     , (36761,  15, True ) /* LightsStatus */
-     , (36761,  19, True ) /* Attackable */;
+VALUES (36761,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36761,   1, 'Virindi Portal') /* Name */

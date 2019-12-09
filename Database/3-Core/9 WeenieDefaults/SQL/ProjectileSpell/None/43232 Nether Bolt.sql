@@ -9,21 +9,15 @@ VALUES (43232,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43232,   1, True ) /* Stuck */
-     , (43232,  12, True ) /* ReportCollisions */
-     , (43232,  13, False) /* Ethereal */
-     , (43232,  15, True ) /* LightsStatus */
-     , (43232,  16, True ) /* ScriptedCollision */
-     , (43232,  17, True ) /* Inelastic */
-     , (43232,  19, True ) /* Attackable */
      , (43232,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43232,  77,       1) /* PhysicsScriptIntensity */
      , (43232,  78,       1) /* Friction */
      , (43232,  79,       0) /* Elasticity */
-     , (43232, 8010, -12.0792665481567) /* PCAPRecordedVelocityX */
-     , (43232, 8011, -37.0048942565918) /* PCAPRecordedVelocityY */
-     , (43232, 8012, 2.36666393280029) /* PCAPRecordedVelocityZ */;
+     , (43232, 8010,  -12.08) /* PCAPRecordedVelocityX */
+     , (43232, 8011,     -37) /* PCAPRecordedVelocityY */
+     , (43232, 8012,    2.37) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43232,   1, 'Nether Bolt') /* Name */;

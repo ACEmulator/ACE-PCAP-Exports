@@ -15,7 +15,6 @@ VALUES (33203,   1,        256) /* ItemType - MissileWeapon */
      , (33203,  49,         50) /* WeaponTime */
      , (33203,  50,          4) /* AmmoType - Atlatl */
      , (33203,  51,          2) /* CombatUse - Missle */
-     , (33203,  65,        101) /* Placement - Resting */
      , (33203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33203, 106,        450) /* ItemSpellcraft */
      , (33203, 107,       5783) /* ItemCurMana */
@@ -26,25 +25,21 @@ VALUES (33203,   1,        256) /* ItemType - MissileWeapon */
      , (33203, 159,          1) /* WieldSkillType - Axe */
      , (33203, 160,        120) /* WieldDifficulty */
      , (33203, 353,         10) /* WeaponType - Thrown */
-     , (33203, 8030,          0);
+     , (33203, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33203, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33203,   1, False) /* Stuck */
-     , (33203,  11, True ) /* IgnoreCollisions */
-     , (33203,  13, True ) /* Ethereal */
-     , (33203,  14, True ) /* GravityStatus */
-     , (33203,  19, True ) /* Attackable */
-     , (33203,  22, True ) /* Inscribable */;
+VALUES (33203,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33203,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33203,   5,   -0.05) /* ManaRate */
      , (33203,  21,       0) /* WeaponLength */
      , (33203,  22,       0) /* DamageVariance */
      , (33203,  26,    24.9) /* MaximumVelocity */
-     , (33203,  29, 1.14999997615814) /* WeaponDefense */
-     , (33203,  39, 1.10000002384186) /* DefaultScale */
+     , (33203,  29,    1.15) /* WeaponDefense */
+     , (33203,  39,     1.1) /* DefaultScale */
      , (33203,  62,       1) /* WeaponOffense */
-     , (33203,  63, 2.65000009536743) /* DamageMod */
+     , (33203,  63,    2.65) /* DamageMod */
      , (33203, 136,       1) /* CriticalMultiplier */
      , (33203, 147,       1) /* CriticalFrequency */;
 

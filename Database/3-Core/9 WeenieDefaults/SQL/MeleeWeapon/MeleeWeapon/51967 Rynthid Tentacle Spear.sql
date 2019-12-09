@@ -28,20 +28,15 @@ VALUES (51967,   1,          1) /* ItemType - MeleeWeapon */
      , (51967, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (51967, 160,        420) /* WieldDifficulty */
      , (51967, 166,         19) /* SlayerCreatureType - Virindi */
-     , (51967, 8030,          0);
+     , (51967, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51967,   1, False) /* Stuck */
-     , (51967,  11, True ) /* IgnoreCollisions */
-     , (51967,  13, True ) /* Ethereal */
-     , (51967,  14, True ) /* GravityStatus */
-     , (51967,  19, True ) /* Attackable */
-     , (51967,  22, True ) /* Inscribable */
+VALUES (51967,  22, True ) /* Inscribable */
      , (51967,  85, True ) /* AppraisalHasAllowedWielder */
      , (51967,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51967,   5,  -0.033) /* ManaRate */
+VALUES (51967,   5,   -0.03) /* ManaRate */
      , (51967,  21,       0) /* WeaponLength */
      , (51967,  22,     0.5) /* DamageVariance */
      , (51967,  26,       0) /* MaximumVelocity */

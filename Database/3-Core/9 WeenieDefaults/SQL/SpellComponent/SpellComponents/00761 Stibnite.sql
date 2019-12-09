@@ -12,15 +12,8 @@ VALUES (761,   1,       4096) /* ItemType - SpellComponents */
      , (761,  15,          5) /* StackUnitValue */
      , (761,  16,          1) /* ItemUseable - No */
      , (761,  19,          5) /* Value */
-     , (761,  65,        101) /* Placement - Resting */
-     , (761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (761,   1, False) /* Stuck */
-     , (761,  11, True ) /* IgnoreCollisions */
-     , (761,  13, True ) /* Ethereal */
-     , (761,  14, True ) /* GravityStatus */
-     , (761,  19, True ) /* Attackable */;
+     , (761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (761, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (761,   1, 'Stibnite') /* Name */

@@ -13,21 +13,16 @@ VALUES (20185,   1,       2048) /* ItemType - Gem */
      , (20185,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (20185,  19,          0) /* Value */
      , (20185,  33,          1) /* Bonded - Bonded */
-     , (20185,  65,        101) /* Placement - Resting */
      , (20185,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20185,  94,        128) /* TargetType - Misc */
-     , (20185, 114,          1) /* Attuned - Attuned */;
+     , (20185, 114,          1) /* Attuned - Attuned */
+     , (20185, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20185,   1, False) /* Stuck */
-     , (20185,  11, True ) /* IgnoreCollisions */
-     , (20185,  13, True ) /* Ethereal */
-     , (20185,  14, True ) /* GravityStatus */
-     , (20185,  19, True ) /* Attackable */
-     , (20185,  22, True ) /* Inscribable */;
+VALUES (20185,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20185,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (20185,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20185,   1, 'Imaging Crystal') /* Name */

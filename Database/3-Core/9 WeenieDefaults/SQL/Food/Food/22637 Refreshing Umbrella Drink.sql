@@ -12,17 +12,10 @@ VALUES (22637,   1,         32) /* ItemType - Food */
      , (22637,  15,         30) /* StackUnitValue */
      , (22637,  16,          8) /* ItemUseable - Contained */
      , (22637,  19,         30) /* Value */
-     , (22637,  65,        101) /* Placement - Resting */
      , (22637,  89,          4) /* BoosterEnum - Stamina */
      , (22637,  90,          1) /* BoostValue */
-     , (22637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22637,   1, False) /* Stuck */
-     , (22637,  11, True ) /* IgnoreCollisions */
-     , (22637,  13, True ) /* Ethereal */
-     , (22637,  14, True ) /* GravityStatus */
-     , (22637,  19, True ) /* Attackable */;
+     , (22637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22637, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22637,   1, 'Refreshing Umbrella Drink') /* Name */

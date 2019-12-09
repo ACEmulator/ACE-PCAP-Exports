@@ -18,7 +18,6 @@ VALUES (32600,   1,          1) /* ItemType - MeleeWeapon */
      , (32600,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (32600,  49,          1) /* WeaponTime */
      , (32600,  51,          1) /* CombatUse - Melee */
-     , (32600,  65,        101) /* Placement - Resting */
      , (32600,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32600, 114,          0) /* Attuned - Normal */
      , (32600, 151,          2) /* HookType - Wall */
@@ -27,25 +26,21 @@ VALUES (32600,   1,          1) /* ItemType - MeleeWeapon */
      , (32600, 160,        400) /* WieldDifficulty */
      , (32600, 166,         22) /* SlayerCreatureType - Shadow */
      , (32600, 353,          2) /* WeaponType - Sword */
-     , (32600, 8030,          0);
+     , (32600, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (32600, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32600,   1, False) /* Stuck */
-     , (32600,  11, True ) /* IgnoreCollisions */
-     , (32600,  13, True ) /* Ethereal */
-     , (32600,  14, True ) /* GravityStatus */
-     , (32600,  19, True ) /* Attackable */
-     , (32600,  22, True ) /* Inscribable */
+VALUES (32600,  22, True ) /* Inscribable */
      , (32600,  69, False) /* IsSellable */
      , (32600,  85, True ) /* AppraisalHasAllowedWielder */
      , (32600,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32600,  21,       0) /* WeaponLength */
-     , (32600,  22, 0.400000005960464) /* DamageVariance */
+     , (32600,  22,     0.4) /* DamageVariance */
      , (32600,  26,       0) /* MaximumVelocity */
-     , (32600,  29, 1.26999998092651) /* WeaponDefense */
-     , (32600,  62, 1.30999994277954) /* WeaponOffense */
+     , (32600,  29,    1.27) /* WeaponDefense */
+     , (32600,  62,    1.31) /* WeaponOffense */
      , (32600,  63,       1) /* DamageMod */
      , (32600, 136,       1) /* CriticalMultiplier */
      , (32600, 147,       1) /* CriticalFrequency */;

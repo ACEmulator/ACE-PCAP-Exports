@@ -12,15 +12,8 @@ VALUES (2455,   1,         32) /* ItemType - Food */
      , (2455,  15,         20) /* StackUnitValue */
      , (2455,  16,          8) /* ItemUseable - Contained */
      , (2455,  19,         20) /* Value */
-     , (2455,  65,        101) /* Placement - Resting */
-     , (2455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2455,   1, False) /* Stuck */
-     , (2455,  11, True ) /* IgnoreCollisions */
-     , (2455,  13, True ) /* Ethereal */
-     , (2455,  14, True ) /* GravityStatus */
-     , (2455,  19, True ) /* Attackable */;
+     , (2455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (2455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2455,   1, 'Grape Juice') /* Name */

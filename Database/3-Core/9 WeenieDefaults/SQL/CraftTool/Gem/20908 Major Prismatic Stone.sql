@@ -13,22 +13,17 @@ VALUES (20908,   1,       2048) /* ItemType - Gem */
      , (20908,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20908,  19,          0) /* Value */
      , (20908,  33,          1) /* Bonded - Bonded */
-     , (20908,  65,        101) /* Placement - Resting */
      , (20908,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20908,  94,      33027) /* TargetType - Armor, WeaponOrCaster */
-     , (20908, 114,          1) /* Attuned - Attuned */;
+     , (20908, 114,          1) /* Attuned - Attuned */
+     , (20908, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20908,   1, False) /* Stuck */
-     , (20908,  11, True ) /* IgnoreCollisions */
-     , (20908,  13, True ) /* Ethereal */
-     , (20908,  14, True ) /* GravityStatus */
-     , (20908,  19, True ) /* Attackable */
-     , (20908,  22, True ) /* Inscribable */
+VALUES (20908,  22, True ) /* Inscribable */
      , (20908,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20908,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (20908,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20908,   1, 'Major Prismatic Stone') /* Name */

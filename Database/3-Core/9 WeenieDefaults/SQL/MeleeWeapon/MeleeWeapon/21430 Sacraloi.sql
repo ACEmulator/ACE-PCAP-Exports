@@ -18,7 +18,6 @@ VALUES (21430,   1,          1) /* ItemType - MeleeWeapon */
      , (21430,  48,         45) /* WeaponSkill - LightWeapons */
      , (21430,  49,          1) /* WeaponTime */
      , (21430,  51,          1) /* CombatUse - Melee */
-     , (21430,  65,        101) /* Placement - Resting */
      , (21430,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21430, 106,        250) /* ItemSpellcraft */
      , (21430, 107,       1000) /* ItemCurMana */
@@ -31,15 +30,11 @@ VALUES (21430,   1,          1) /* ItemType - MeleeWeapon */
      , (21430, 160,        250) /* WieldDifficulty */
      , (21430, 166,          1) /* SlayerCreatureType - Olthoi */
      , (21430, 353,          6) /* WeaponType - Dagger */
-     , (21430, 8030,          0);
+     , (21430, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21430, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21430,   1, False) /* Stuck */
-     , (21430,  11, True ) /* IgnoreCollisions */
-     , (21430,  13, True ) /* Ethereal */
-     , (21430,  14, True ) /* GravityStatus */
-     , (21430,  19, True ) /* Attackable */
-     , (21430,  22, True ) /* Inscribable */
+VALUES (21430,  22, True ) /* Inscribable */
      , (21430,  69, False) /* IsSellable */
      , (21430,  99, True ) /* Ivoryable */;
 

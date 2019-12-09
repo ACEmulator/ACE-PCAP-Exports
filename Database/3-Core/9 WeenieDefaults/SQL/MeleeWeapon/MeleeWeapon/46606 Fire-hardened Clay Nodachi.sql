@@ -15,15 +15,10 @@ VALUES (46606,   1,          1) /* ItemType - MeleeWeapon */
      , (46606,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46606,   1, False) /* Stuck */
-     , (46606,  11, True ) /* IgnoreCollisions */
-     , (46606,  13, True ) /* Ethereal */
-     , (46606,  14, True ) /* GravityStatus */
-     , (46606,  19, True ) /* Attackable */
-     , (46606,  22, True ) /* Inscribable */;
+VALUES (46606,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46606,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (46606,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46606,   1, 'Fire-hardened Clay Nodachi') /* Name */;

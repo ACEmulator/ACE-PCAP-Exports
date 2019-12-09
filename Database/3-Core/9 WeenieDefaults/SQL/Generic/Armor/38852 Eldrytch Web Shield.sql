@@ -13,15 +13,8 @@ VALUES (38852,   1,          2) /* ItemType - Armor */
      , (38852,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38852, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38852,   1, False) /* Stuck */
-     , (38852,  11, True ) /* IgnoreCollisions */
-     , (38852,  13, True ) /* Ethereal */
-     , (38852,  14, True ) /* GravityStatus */
-     , (38852,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38852,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (38852,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38852,   1, 'Eldrytch Web Shield') /* Name */;

@@ -21,12 +21,8 @@ VALUES (4,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4,   1, True ) /* Stuck */
-     , (4,  12, True ) /* ReportCollisions */
-     , (4,  13, False) /* Ethereal */
-     , (4,  14, True ) /* GravityStatus */
      , (4,  19, False) /* Attackable */
      , (4,  25, True ) /* IgnoreHouseBarriers */
-     , (4,  42, True ) /* AllowEdgeSlide */
      , (4,  44, True ) /* IsAdmin */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

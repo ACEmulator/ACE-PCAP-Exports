@@ -13,18 +13,13 @@ VALUES (25781,   1,         32) /* ItemType - Food */
      , (25781,  16,          8) /* ItemUseable - Contained */
      , (25781,  18,          1) /* UiEffects - Magical */
      , (25781,  19,        100) /* Value */
-     , (25781,  65,        101) /* Placement - Resting */
      , (25781,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25781,  94,         16) /* TargetType - Creature */
-     , (25781, 151,          1) /* HookType - Floor */;
+     , (25781, 151,          1) /* HookType - Floor */
+     , (25781, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25781,   1, False) /* Stuck */
-     , (25781,  11, True ) /* IgnoreCollisions */
-     , (25781,  13, True ) /* Ethereal */
-     , (25781,  14, True ) /* GravityStatus */
-     , (25781,  19, True ) /* Attackable */
-     , (25781,  22, True ) /* Inscribable */;
+VALUES (25781,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25781,   1, 'Snow Pie') /* Name */;

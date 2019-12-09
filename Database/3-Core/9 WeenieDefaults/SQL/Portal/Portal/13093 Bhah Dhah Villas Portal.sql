@@ -12,19 +12,13 @@ VALUES (13093,   1,      65536) /* ItemType - Portal */
      , (13093, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13093,   1, True ) /* Stuck */
-     , (13093,  12, True ) /* ReportCollisions */
-     , (13093,  13, True ) /* Ethereal */
-     , (13093,  14, True ) /* GravityStatus */
-     , (13093,  15, True ) /* LightsStatus */
-     , (13093,  19, True ) /* Attackable */;
+VALUES (13093,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13093,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13093,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13093,   1, 'Bhah Dhah Villas Portal') /* Name */
-     , (13093,  38, 'Bhah Dhah Villas Portal (41.2S, 26.8E).') /* AppraisalPortalDestination */
      , (13093, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

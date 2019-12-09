@@ -11,11 +11,7 @@ VALUES (43016,   1,        128) /* ItemType - Misc */
      , (43016,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43016,   1, True ) /* Stuck */
-     , (43016,  11, True ) /* IgnoreCollisions */
-     , (43016,  12, True ) /* ReportCollisions */
-     , (43016,  13, True ) /* Ethereal */
-     , (43016,  19, True ) /* Attackable */;
+VALUES (43016,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43016,   1, 'Gharu''ndim') /* Name */

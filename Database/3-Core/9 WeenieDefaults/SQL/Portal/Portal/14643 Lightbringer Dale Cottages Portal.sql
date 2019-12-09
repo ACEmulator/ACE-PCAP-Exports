@@ -12,19 +12,13 @@ VALUES (14643,   1,      65536) /* ItemType - Portal */
      , (14643, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14643,   1, True ) /* Stuck */
-     , (14643,  12, True ) /* ReportCollisions */
-     , (14643,  13, True ) /* Ethereal */
-     , (14643,  14, True ) /* GravityStatus */
-     , (14643,  15, True ) /* LightsStatus */
-     , (14643,  19, True ) /* Attackable */;
+VALUES (14643,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14643,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14643,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14643,   1, 'Lightbringer Dale Cottages Portal') /* Name */
-     , (14643,  38, 'Lightbringer Dale Cottages Portal (81.8N, 17.7W).') /* AppraisalPortalDestination */
      , (14643, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

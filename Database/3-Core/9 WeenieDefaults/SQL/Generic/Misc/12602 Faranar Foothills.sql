@@ -11,12 +11,7 @@ VALUES (12602,   1,        128) /* ItemType - Misc */
      , (12602,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12602,   1, True ) /* Stuck */
-     , (12602,  11, True ) /* IgnoreCollisions */
-     , (12602,  12, True ) /* ReportCollisions */
-     , (12602,  13, False) /* Ethereal */
-     , (12602,  14, True ) /* GravityStatus */
-     , (12602,  19, True ) /* Attackable */;
+VALUES (12602,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12602,   1, 'Faranar Foothills') /* Name */

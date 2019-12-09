@@ -13,16 +13,9 @@ VALUES (53073,   1,       2048) /* ItemType - Gem */
      , (53073,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53073,  18,        256) /* UiEffects - Acid */
      , (53073,  19,         25) /* Value */
-     , (53073,  65,        101) /* Placement - Resting */
      , (53073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53073,  94,          6) /* TargetType - Vestements */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53073,   1, False) /* Stuck */
-     , (53073,  11, True ) /* IgnoreCollisions */
-     , (53073,  13, True ) /* Ethereal */
-     , (53073,  14, True ) /* GravityStatus */
-     , (53073,  19, True ) /* Attackable */;
+     , (53073,  94,          6) /* TargetType - Vestements */
+     , (53073, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53073,   1, 'Empowered Amber: Sollerets of Life') /* Name */

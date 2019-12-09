@@ -12,20 +12,14 @@ VALUES (42835,   1,      65536) /* ItemType - Portal */
      , (42835, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42835,   1, True ) /* Stuck */
-     , (42835,  12, True ) /* ReportCollisions */
-     , (42835,  13, True ) /* Ethereal */
-     , (42835,  14, True ) /* GravityStatus */
-     , (42835,  15, True ) /* LightsStatus */
-     , (42835,  19, True ) /* Attackable */;
+VALUES (42835,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42835,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42835,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42835,   1, 'Portal to Sanamar') /* Name */
      , (42835,  16, 'This portal goes to Sanamar, the capital of New Viamont and town where many new adventurers enter Dereth. This is a good town for characters of all levels.') /* LongDesc */
-     , (42835,  38, 'Portal to Sanamar (72.1N, 60.9W).') /* AppraisalPortalDestination */
      , (42835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

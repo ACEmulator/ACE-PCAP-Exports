@@ -15,20 +15,13 @@ VALUES (53076,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53076,   1, True ) /* Stuck */
-     , (53076,  11, True ) /* IgnoreCollisions */
-     , (53076,  12, True ) /* ReportCollisions */
-     , (53076,  13, False) /* Ethereal */
-     , (53076,  14, True ) /* GravityStatus */
-     , (53076,  15, True ) /* LightsStatus */
-     , (53076,  19, False) /* Attackable */
-     , (53076,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53076,  42, True ) /* AllowEdgeSlide */;
+     , (53076,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53076,  54,       3) /* UseRadius */
      , (53076, 8010,       0) /* PCAPRecordedVelocityX */
      , (53076, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53076, 8012, -0.0100434543564916) /* PCAPRecordedVelocityZ */;
+     , (53076, 8012,   -0.01) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53076,   1, 'Ancient Statue of the Viridian Rise') /* Name */

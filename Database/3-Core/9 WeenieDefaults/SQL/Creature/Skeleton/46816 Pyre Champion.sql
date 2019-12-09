@@ -15,15 +15,10 @@ VALUES (46816,   1,         16) /* ItemType - Creature */
      , (46816, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46816,   1, True ) /* Stuck */
-     , (46816,  12, True ) /* ReportCollisions */
-     , (46816,  13, False) /* Ethereal */
-     , (46816,  14, True ) /* GravityStatus */
-     , (46816,  19, True ) /* Attackable */
-     , (46816,  42, True ) /* AllowEdgeSlide */;
+VALUES (46816,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46816,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (46816,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46816,   1, 'Pyre Champion') /* Name */

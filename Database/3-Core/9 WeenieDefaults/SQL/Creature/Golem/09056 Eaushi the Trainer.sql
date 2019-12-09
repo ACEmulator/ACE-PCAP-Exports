@@ -18,16 +18,11 @@ VALUES (9056,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9056,   1, True ) /* Stuck */
-     , (9056,  11, True ) /* IgnoreCollisions */
-     , (9056,  12, True ) /* ReportCollisions */
-     , (9056,  13, False) /* Ethereal */
-     , (9056,  14, True ) /* GravityStatus */
-     , (9056,  19, False) /* Attackable */
-     , (9056,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (9056,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9056,  39, 0.800000011920929) /* DefaultScale */
-     , (9056,  76, 0.300000011920929) /* Translucency */;
+VALUES (9056,  39,     0.8) /* DefaultScale */
+     , (9056,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9056,   1, 'Eaushi the Trainer') /* Name */

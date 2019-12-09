@@ -13,17 +13,12 @@ VALUES (41932,   1,        128) /* ItemType - Misc */
      , (41932,  16,          1) /* ItemUseable - No */
      , (41932,  19,          0) /* Value */
      , (41932,  33,          1) /* Bonded - Bonded */
-     , (41932,  65,        101) /* Placement - Resting */
      , (41932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41932, 114,          1) /* Attuned - Attuned */;
+     , (41932, 114,          1) /* Attuned - Attuned */
+     , (41932, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41932,   1, False) /* Stuck */
-     , (41932,  11, True ) /* IgnoreCollisions */
-     , (41932,  13, True ) /* Ethereal */
-     , (41932,  14, True ) /* GravityStatus */
-     , (41932,  19, True ) /* Attackable */
-     , (41932,  69, False) /* IsSellable */;
+VALUES (41932,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41932,   1, 'Lord Hendrel''s Brand') /* Name */

@@ -11,17 +11,12 @@ VALUES (14552,   1,        128) /* ItemType - Misc */
      , (14552,  13,         10) /* StackUnitEncumbrance */
      , (14552,  15,          0) /* StackUnitValue */
      , (14552,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (14552,  65,        101) /* Placement - Resting */
      , (14552,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14552,  94,        128) /* TargetType - Misc */;
+     , (14552,  94,        128) /* TargetType - Misc */
+     , (14552, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14552,   1, False) /* Stuck */
-     , (14552,  11, True ) /* IgnoreCollisions */
-     , (14552,  13, True ) /* Ethereal */
-     , (14552,  14, True ) /* GravityStatus */
-     , (14552,  19, True ) /* Attackable */
-     , (14552,  22, True ) /* Inscribable */;
+VALUES (14552,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14552,   1, 'Leather Straps') /* Name */;

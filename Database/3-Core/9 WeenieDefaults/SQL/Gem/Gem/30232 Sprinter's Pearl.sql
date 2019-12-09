@@ -16,22 +16,17 @@ VALUES (30232,   1,       2048) /* ItemType - Gem */
      , (30232,  19,          0) /* Value */
      , (30232,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30232,  33,         -1) /* Bonded - Slippery */
-     , (30232,  65,        101) /* Placement - Resting */
      , (30232,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30232,  94,         16) /* TargetType - Creature */
      , (30232, 106,        325) /* ItemSpellcraft */
      , (30232, 107,      10000) /* ItemCurMana */
      , (30232, 108,      10000) /* ItemMaxMana */
      , (30232, 109,          0) /* ItemDifficulty */
-     , (30232, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30232, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30232, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30232,   1, False) /* Stuck */
-     , (30232,  11, True ) /* IgnoreCollisions */
-     , (30232,  13, True ) /* Ethereal */
-     , (30232,  14, True ) /* GravityStatus */
-     , (30232,  19, True ) /* Attackable */
-     , (30232, 108, True ) /* RareUsesTimer */;
+VALUES (30232, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30232,   1, 'Sprinter''s Pearl') /* Name */

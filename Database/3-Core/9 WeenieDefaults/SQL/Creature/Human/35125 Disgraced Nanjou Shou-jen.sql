@@ -18,11 +18,7 @@ VALUES (35125,   1,         16) /* ItemType - Creature */
      , (35125, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35125,   1, True ) /* Stuck */
-     , (35125,  12, True ) /* ReportCollisions */
-     , (35125,  13, False) /* Ethereal */
-     , (35125,  14, True ) /* GravityStatus */
-     , (35125,  19, True ) /* Attackable */;
+VALUES (35125,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35125,   1, 'Disgraced Nanjou Shou-jen') /* Name */

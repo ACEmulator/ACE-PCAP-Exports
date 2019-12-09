@@ -16,11 +16,7 @@ VALUES (32702,   1,         16) /* ItemType - Creature */
      , (32702, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32702,   1, True ) /* Stuck */
-     , (32702,  12, True ) /* ReportCollisions */
-     , (32702,  13, False) /* Ethereal */
-     , (32702,  14, True ) /* GravityStatus */
-     , (32702,  19, True ) /* Attackable */;
+VALUES (32702,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32702,   1, 'Captain Vietre Lasallia') /* Name */

@@ -11,18 +11,13 @@ VALUES (29567,   1,       2048) /* ItemType - Gem */
      , (29567,  13,        100) /* StackUnitEncumbrance */
      , (29567,  15,          0) /* StackUnitValue */
      , (29567,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (29567,  65,        101) /* Placement - Resting */
      , (29567,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29567,  94,       2048) /* TargetType - Gem */
-     , (29567, 151,          2) /* HookType - Wall */;
+     , (29567, 151,          2) /* HookType - Wall */
+     , (29567, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29567,   1, False) /* Stuck */
-     , (29567,  11, True ) /* IgnoreCollisions */
-     , (29567,  13, True ) /* Ethereal */
-     , (29567,  14, True ) /* GravityStatus */
-     , (29567,  19, True ) /* Attackable */
-     , (29567,  22, True ) /* Inscribable */;
+VALUES (29567,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29567,   1, 'Combined Kukuur Hides') /* Name */;

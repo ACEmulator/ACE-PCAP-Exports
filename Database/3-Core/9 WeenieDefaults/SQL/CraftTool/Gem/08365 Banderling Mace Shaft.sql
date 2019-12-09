@@ -13,18 +13,13 @@ VALUES (8365,   1,       2048) /* ItemType - Gem */
      , (8365,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8365,  19,         10) /* Value */
      , (8365,  33,          1) /* Bonded - Bonded */
-     , (8365,  65,        101) /* Placement - Resting */
      , (8365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8365,  94,       2048) /* TargetType - Gem */
-     , (8365, 114,          1) /* Attuned - Attuned */;
+     , (8365, 114,          1) /* Attuned - Attuned */
+     , (8365, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8365,   1, False) /* Stuck */
-     , (8365,  11, True ) /* IgnoreCollisions */
-     , (8365,  13, True ) /* Ethereal */
-     , (8365,  14, True ) /* GravityStatus */
-     , (8365,  19, True ) /* Attackable */
-     , (8365,  22, True ) /* Inscribable */;
+VALUES (8365,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8365,   1, 'Banderling Mace Shaft') /* Name */

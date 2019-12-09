@@ -15,14 +15,10 @@ VALUES (25874,   1,         16) /* ItemType - Creature */
      , (25874, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25874,   1, True ) /* Stuck */
-     , (25874,  12, True ) /* ReportCollisions */
-     , (25874,  13, False) /* Ethereal */
-     , (25874,  14, True ) /* GravityStatus */
-     , (25874,  19, True ) /* Attackable */;
+VALUES (25874,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25874,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (25874,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25874,   1, 'Listris Nefane') /* Name */

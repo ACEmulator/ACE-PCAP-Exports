@@ -11,15 +11,10 @@ VALUES (11692,   1,        128) /* ItemType - Misc */
      , (11692,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11692,   1, False) /* Stuck */
-     , (11692,  11, True ) /* IgnoreCollisions */
-     , (11692,  13, True ) /* Ethereal */
-     , (11692,  14, True ) /* GravityStatus */
-     , (11692,  19, True ) /* Attackable */
-     , (11692,  22, True ) /* Inscribable */;
+VALUES (11692,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11692,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (11692,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11692,   1, 'Little Green Seeds') /* Name */

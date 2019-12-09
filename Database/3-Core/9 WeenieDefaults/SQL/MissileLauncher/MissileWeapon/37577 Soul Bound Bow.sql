@@ -18,7 +18,6 @@ VALUES (37577,   1,        256) /* ItemType - MissileWeapon */
      , (37577,  49,         35) /* WeaponTime */
      , (37577,  50,          1) /* AmmoType - Arrow */
      , (37577,  51,          2) /* CombatUse - Missle */
-     , (37577,  65,          3) /* Placement - LeftHand */
      , (37577,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (37577, 106,        475) /* ItemSpellcraft */
      , (37577, 107,       1756) /* ItemCurMana */
@@ -30,29 +29,24 @@ VALUES (37577,   1,        256) /* ItemType - MissileWeapon */
      , (37577, 160,        360) /* WieldDifficulty */
      , (37577, 166,         77) /* SlayerCreatureType - Ghost */
      , (37577, 353,          8) /* WeaponType - Bow */
-     , (37577, 8030,          0);
+     , (37577, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (37577, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37577,   1, False) /* Stuck */
-     , (37577,  11, True ) /* IgnoreCollisions */
-     , (37577,  13, True ) /* Ethereal */
-     , (37577,  14, True ) /* GravityStatus */
-     , (37577,  15, True ) /* LightsStatus */
-     , (37577,  19, True ) /* Attackable */
-     , (37577,  22, True ) /* Inscribable */
+VALUES (37577,  22, True ) /* Inscribable */
      , (37577,  69, False) /* IsSellable */
      , (37577,  85, True ) /* AppraisalHasAllowedWielder */
      , (37577,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37577,   5, -0.0500000007450581) /* ManaRate */
+VALUES (37577,   5,   -0.05) /* ManaRate */
      , (37577,  21,       0) /* WeaponLength */
      , (37577,  22,       0) /* DamageVariance */
      , (37577,  26,    26.3) /* MaximumVelocity */
-     , (37577,  29, 1.20000004768372) /* WeaponDefense */
+     , (37577,  29,     1.2) /* WeaponDefense */
      , (37577,  62,       1) /* WeaponOffense */
-     , (37577,  63, 2.70000004768372) /* DamageMod */
-     , (37577,  76, 0.699999988079071) /* Translucency */
+     , (37577,  63,     2.7) /* DamageMod */
+     , (37577,  76,     0.7) /* Translucency */
      , (37577, 136,       1) /* CriticalMultiplier */
      , (37577, 155,       1) /* IgnoreArmor */;
 

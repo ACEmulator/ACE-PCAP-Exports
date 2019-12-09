@@ -12,16 +12,11 @@ VALUES (12073,   1,          1) /* ItemType - MeleeWeapon */
      , (12073,  18,         64) /* UiEffects - Lightning */
      , (12073,  19,        400) /* Value */
      , (12073,  51,          1) /* CombatUse - Melee */
-     , (12073,  65,          1) /* Placement - RightHandCombat */
-     , (12073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12073, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12073,   1, False) /* Stuck */
-     , (12073,  11, True ) /* IgnoreCollisions */
-     , (12073,  13, True ) /* Ethereal */
-     , (12073,  14, True ) /* GravityStatus */
-     , (12073,  19, True ) /* Attackable */
-     , (12073,  22, True ) /* Inscribable */;
+VALUES (12073,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12073,   1, 'Bandit Lightning Simi') /* Name */;

@@ -8,17 +8,12 @@ VALUES (25780,   1,        128) /* ItemType - Misc */
      , (25780,   5,        100) /* EncumbranceVal */
      , (25780,  16,          1) /* ItemUseable - No */
      , (25780,  19,       3000) /* Value */
-     , (25780,  65,        101) /* Placement - Resting */
      , (25780,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25780, 151,          9) /* HookType - Floor, Yard */;
+     , (25780, 151,          9) /* HookType - Floor, Yard */
+     , (25780, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25780,   1, False) /* Stuck */
-     , (25780,  11, True ) /* IgnoreCollisions */
-     , (25780,  13, True ) /* Ethereal */
-     , (25780,  14, True ) /* GravityStatus */
-     , (25780,  19, True ) /* Attackable */
-     , (25780,  22, True ) /* Inscribable */;
+VALUES (25780,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25780,   1, 'Amphorae') /* Name */

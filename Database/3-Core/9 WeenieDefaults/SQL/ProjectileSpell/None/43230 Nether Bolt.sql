@@ -9,13 +9,7 @@ VALUES (43230,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43230,   1, True ) /* Stuck */
-     , (43230,  11, True ) /* IgnoreCollisions */
-     , (43230,  13, True ) /* Ethereal */
-     , (43230,  16, True ) /* ScriptedCollision */
-     , (43230,  17, True ) /* Inelastic */
-     , (43230,  19, True ) /* Attackable */
-     , (43230,  24, True ) /* UiHidden */
-     , (43230,  71, True ) /* NoDraw */;
+     , (43230,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43230,  39,     0.5) /* DefaultScale */

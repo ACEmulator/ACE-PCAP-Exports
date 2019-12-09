@@ -8,17 +8,10 @@ VALUES (34280,   1,       8192) /* ItemType - Writable */
      , (34280,   5,         30) /* EncumbranceVal */
      , (34280,  16,          8) /* ItemUseable - Contained */
      , (34280,  19,         10) /* Value */
-     , (34280,  65,        101) /* Placement - Resting */
      , (34280,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34280, 174,          5) /* AppraisalPages */
-     , (34280, 175,          5) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34280,   1, False) /* Stuck */
-     , (34280,  11, True ) /* IgnoreCollisions */
-     , (34280,  13, True ) /* Ethereal */
-     , (34280,  14, True ) /* GravityStatus */
-     , (34280,  19, True ) /* Attackable */;
+     , (34280, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (34280, 8042,          5) /* PCAPRecordedAppraisalPages */
+     , (34280, 8043,          5) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34280,   1, 'Explorer''s Journal') /* Name */

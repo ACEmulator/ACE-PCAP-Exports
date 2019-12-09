@@ -16,22 +16,17 @@ VALUES (30201,   1,       2048) /* ItemType - Gem */
      , (30201,  19,          0) /* Value */
      , (30201,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30201,  33,         -1) /* Bonded - Slippery */
-     , (30201,  65,        101) /* Placement - Resting */
      , (30201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30201,  94,         16) /* TargetType - Creature */
      , (30201, 106,        325) /* ItemSpellcraft */
      , (30201, 107,      10000) /* ItemCurMana */
      , (30201, 108,      10000) /* ItemMaxMana */
      , (30201, 109,          0) /* ItemDifficulty */
-     , (30201, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30201, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30201, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30201,   1, False) /* Stuck */
-     , (30201,  11, True ) /* IgnoreCollisions */
-     , (30201,  13, True ) /* Ethereal */
-     , (30201,  14, True ) /* GravityStatus */
-     , (30201,  19, True ) /* Attackable */
-     , (30201, 108, True ) /* RareUsesTimer */;
+VALUES (30201, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30201,   1, 'Pearl of Defending') /* Name */

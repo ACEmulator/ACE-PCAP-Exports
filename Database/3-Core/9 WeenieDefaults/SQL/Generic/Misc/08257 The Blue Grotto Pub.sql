@@ -11,11 +11,7 @@ VALUES (8257,   1,        128) /* ItemType - Misc */
      , (8257,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8257,   1, True ) /* Stuck */
-     , (8257,  11, True ) /* IgnoreCollisions */
-     , (8257,  12, True ) /* ReportCollisions */
-     , (8257,  13, False) /* Ethereal */
-     , (8257,  19, True ) /* Attackable */;
+VALUES (8257,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8257,   1, 'The Blue Grotto Pub') /* Name */

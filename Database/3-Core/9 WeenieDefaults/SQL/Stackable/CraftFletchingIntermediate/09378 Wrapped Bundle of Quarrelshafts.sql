@@ -12,16 +12,11 @@ VALUES (9378,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9378,  15,        250) /* StackUnitValue */
      , (9378,  19,        250) /* Value */
      , (9378,  33,          1) /* Bonded - Bonded */
-     , (9378,  65,        101) /* Placement - Resting */
-     , (9378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (9378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9378, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9378,   1, False) /* Stuck */
-     , (9378,  11, True ) /* IgnoreCollisions */
-     , (9378,  13, True ) /* Ethereal */
-     , (9378,  14, True ) /* GravityStatus */
-     , (9378,  19, True ) /* Attackable */
-     , (9378,  69, False) /* IsSellable */;
+VALUES (9378,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9378,   1, 'Wrapped Bundle of Quarrelshafts') /* Name */

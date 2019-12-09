@@ -10,16 +10,11 @@ VALUES (40930,   1,        512) /* ItemType - Container */
      , (40930,   7,         10) /* ContainersCapacity */
      , (40930,  16,         48) /* ItemUseable - ViewedRemote */
      , (40930,  19,       2500) /* Value */
-     , (40930,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (40930,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (40930, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40930,   1, True ) /* Stuck */
-     , (40930,  11, True ) /* IgnoreCollisions */
-     , (40930,  12, True ) /* ReportCollisions */
-     , (40930,  13, False) /* Ethereal */
-     , (40930,  14, True ) /* GravityStatus */
-     , (40930,  19, True ) /* Attackable */;
+VALUES (40930,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40930,  54,       1) /* UseRadius */;

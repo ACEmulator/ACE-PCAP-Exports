@@ -11,7 +11,6 @@ VALUES (26532,   1,      32768) /* ItemType - Caster */
      , (26532,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (26532,  18,          1) /* UiEffects - Magical */
      , (26532,  19,       7800) /* Value */
-     , (26532,  65,          1) /* Placement - RightHandCombat */
      , (26532,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (26532,  94,         16) /* TargetType - Creature */
      , (26532, 106,        375) /* ItemSpellcraft */
@@ -21,22 +20,17 @@ VALUES (26532,   1,      32768) /* ItemType - Caster */
      , (26532, 151,          2) /* HookType - Wall */
      , (26532, 158,          2) /* WieldRequirements - RawSkill */
      , (26532, 159,         32) /* WieldSkillType - ItemEnchantment */
-     , (26532, 160,        250) /* WieldDifficulty */;
+     , (26532, 160,        250) /* WieldDifficulty */
+     , (26532, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26532,   1, False) /* Stuck */
-     , (26532,  11, True ) /* IgnoreCollisions */
-     , (26532,  13, True ) /* Ethereal */
-     , (26532,  14, True ) /* GravityStatus */
-     , (26532,  15, True ) /* LightsStatus */
-     , (26532,  19, True ) /* Attackable */
-     , (26532,  22, True ) /* Inscribable */;
+VALUES (26532,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26532,   5, -0.0500000007450581) /* ManaRate */
+VALUES (26532,   5,   -0.05) /* ManaRate */
      , (26532,  29,       1) /* WeaponDefense */
-     , (26532,  39, 0.600000023841858) /* DefaultScale */
-     , (26532, 144, 0.119999997317791) /* ManaConversionMod */;
+     , (26532,  39,     0.6) /* DefaultScale */
+     , (26532, 144,    0.12) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26532,   1, 'Ixir''s Staff of Eyes') /* Name */

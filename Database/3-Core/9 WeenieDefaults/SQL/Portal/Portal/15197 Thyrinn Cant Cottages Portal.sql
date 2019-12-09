@@ -12,19 +12,13 @@ VALUES (15197,   1,      65536) /* ItemType - Portal */
      , (15197, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15197,   1, True ) /* Stuck */
-     , (15197,  12, True ) /* ReportCollisions */
-     , (15197,  13, True ) /* Ethereal */
-     , (15197,  14, True ) /* GravityStatus */
-     , (15197,  15, True ) /* LightsStatus */
-     , (15197,  19, True ) /* Attackable */;
+VALUES (15197,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15197,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15197,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15197,   1, 'Thyrinn Cant Cottages Portal') /* Name */
-     , (15197,  38, 'Thyrinn Cant Cottages Portal (81.6N, 20.7W).') /* AppraisalPortalDestination */
      , (15197, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,15 +15,10 @@ VALUES (51352,   1,         16) /* ItemType - Creature */
      , (51352, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51352,   1, True ) /* Stuck */
-     , (51352,  12, True ) /* ReportCollisions */
-     , (51352,  13, False) /* Ethereal */
-     , (51352,  14, True ) /* GravityStatus */
-     , (51352,  15, True ) /* LightsStatus */
-     , (51352,  19, True ) /* Attackable */;
+VALUES (51352,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51352,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51352,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51352,   1, 'Freezing Wind') /* Name */

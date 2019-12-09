@@ -15,15 +15,10 @@ VALUES (24289,   1,         16) /* ItemType - Creature */
      , (24289, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24289,   1, True ) /* Stuck */
-     , (24289,  12, True ) /* ReportCollisions */
-     , (24289,  13, False) /* Ethereal */
-     , (24289,  14, True ) /* GravityStatus */
-     , (24289,  19, True ) /* Attackable */
-     , (24289,  42, True ) /* AllowEdgeSlide */;
+VALUES (24289,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24289,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (24289,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24289,   1, 'Cunning Monouga') /* Name */

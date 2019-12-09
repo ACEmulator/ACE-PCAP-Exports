@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32185,   1,        128) /* ItemType - Misc */
      , (32185,   5,        200) /* EncumbranceVal */
      , (32185,  16,          1) /* ItemUseable - No */
-     , (32185,  65,        101) /* Placement - Resting */
      , (32185,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32185, 151,          9) /* HookType - Floor, Yard */;
+     , (32185, 151,          9) /* HookType - Floor, Yard */
+     , (32185, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32185,   1, False) /* Stuck */
-     , (32185,  11, True ) /* IgnoreCollisions */
-     , (32185,  13, True ) /* Ethereal */
-     , (32185,  14, True ) /* GravityStatus */
-     , (32185,  19, True ) /* Attackable */
-     , (32185,  22, True ) /* Inscribable */;
+VALUES (32185,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32185,   1, 'Two Headed Snowman Head') /* Name */;

@@ -10,25 +10,20 @@ VALUES (25787,   1,          8) /* ItemType - Jewelry */
      , (25787,  16,          1) /* ItemUseable - No */
      , (25787,  18,          8) /* UiEffects - BoostMana */
      , (25787,  19,       1000) /* Value */
-     , (25787,  65,        101) /* Placement - Resting */
      , (25787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25787, 106,        150) /* ItemSpellcraft */
      , (25787, 107,        700) /* ItemCurMana */
      , (25787, 108,        720) /* ItemMaxMana */
      , (25787, 109,         10) /* ItemDifficulty */
-     , (25787, 151,          2) /* HookType - Wall */;
+     , (25787, 151,          2) /* HookType - Wall */
+     , (25787, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25787,   1, False) /* Stuck */
-     , (25787,  11, True ) /* IgnoreCollisions */
-     , (25787,  13, True ) /* Ethereal */
-     , (25787,  14, True ) /* GravityStatus */
-     , (25787,  19, True ) /* Attackable */
-     , (25787,  22, True ) /* Inscribable */
+VALUES (25787,  22, True ) /* Inscribable */
      , (25787,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25787,   5, -0.0334) /* ManaRate */;
+VALUES (25787,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25787,   1, 'Ice Badge') /* Name */

@@ -13,18 +13,13 @@ VALUES (9077,   1,        128) /* ItemType - Misc */
      , (9077,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9077,  19,         50) /* Value */
      , (9077,  33,          1) /* Bonded - Bonded */
-     , (9077,  65,        101) /* Placement - Resting */
      , (9077,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9077,  94,          2) /* TargetType - Armor */
-     , (9077, 114,          1) /* Attuned - Attuned */;
+     , (9077, 114,          1) /* Attuned - Attuned */
+     , (9077, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9077,   1, False) /* Stuck */
-     , (9077,  11, True ) /* IgnoreCollisions */
-     , (9077,  13, True ) /* Ethereal */
-     , (9077,  14, True ) /* GravityStatus */
-     , (9077,  19, True ) /* Attackable */
-     , (9077,  22, True ) /* Inscribable */;
+VALUES (9077,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9077,   1, 'Sea Grey Kindling Stone') /* Name */

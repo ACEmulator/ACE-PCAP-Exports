@@ -14,15 +14,8 @@ VALUES (39736,   1,        128) /* ItemType - Misc */
      , (39736,  19,          1) /* Value */
      , (39736,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39736,   1, False) /* Stuck */
-     , (39736,  11, True ) /* IgnoreCollisions */
-     , (39736,  13, True ) /* Ethereal */
-     , (39736,  14, True ) /* GravityStatus */
-     , (39736,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39736,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (39736,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39736,   1, 'Archer Tower Token') /* Name */;

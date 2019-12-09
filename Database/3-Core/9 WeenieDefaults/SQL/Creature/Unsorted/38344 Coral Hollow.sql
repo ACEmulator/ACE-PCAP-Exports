@@ -39,20 +39,14 @@ VALUES (38344,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38344,   1, True ) /* Stuck */
-     , (38344,  11, True ) /* IgnoreCollisions */
-     , (38344,  12, True ) /* ReportCollisions */
-     , (38344,  13, True ) /* Ethereal */
-     , (38344,  14, True ) /* GravityStatus */
-     , (38344,  19, False) /* Attackable */
-     , (38344,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38344,  42, True ) /* AllowEdgeSlide */;
+     , (38344,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38344,  39, 0.300000011920929) /* DefaultScale */
+VALUES (38344,  39,     0.3) /* DefaultScale */
      , (38344,  54,       2) /* UseRadius */
      , (38344, 8010,       0) /* PCAPRecordedVelocityX */
      , (38344, 8011,       0) /* PCAPRecordedVelocityY */
-     , (38344, 8012, -0.0214712861925364) /* PCAPRecordedVelocityZ */;
+     , (38344, 8012,   -0.02) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38344,   1, 'Coral Hollow') /* Name */

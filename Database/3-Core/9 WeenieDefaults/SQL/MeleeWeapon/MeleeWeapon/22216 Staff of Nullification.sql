@@ -16,27 +16,22 @@ VALUES (22216,   1,          1) /* ItemType - MeleeWeapon */
      , (22216,  48,         45) /* WeaponSkill - LightWeapons */
      , (22216,  49,         60) /* WeaponTime */
      , (22216,  51,          1) /* CombatUse - Melee */
-     , (22216,  65,        101) /* Placement - Resting */
      , (22216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22216, 151,          2) /* HookType - Wall */
      , (22216, 166,         68) /* SlayerCreatureType - DarkSarcophagus */
      , (22216, 353,          7) /* WeaponType - Staff */
-     , (22216, 8030,          0);
+     , (22216, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (22216, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22216,   1, False) /* Stuck */
-     , (22216,  11, True ) /* IgnoreCollisions */
-     , (22216,  13, True ) /* Ethereal */
-     , (22216,  14, True ) /* GravityStatus */
-     , (22216,  19, True ) /* Attackable */
-     , (22216,  22, True ) /* Inscribable */;
+VALUES (22216,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22216,  21,       0) /* WeaponLength */
      , (22216,  22,       0) /* DamageVariance */
      , (22216,  26,       0) /* MaximumVelocity */
      , (22216,  29,       1) /* WeaponDefense */
-     , (22216,  39, 0.670000016689301) /* DefaultScale */
+     , (22216,  39,    0.67) /* DefaultScale */
      , (22216,  62,       1) /* WeaponOffense */
      , (22216,  63,       1) /* DamageMod */;
 

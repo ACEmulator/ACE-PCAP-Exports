@@ -11,11 +11,7 @@ VALUES (1065,   1,        128) /* ItemType - Misc */
      , (1065,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1065,   1, True ) /* Stuck */
-     , (1065,  11, True ) /* IgnoreCollisions */
-     , (1065,  12, True ) /* ReportCollisions */
-     , (1065,  13, False) /* Ethereal */
-     , (1065,  19, True ) /* Attackable */;
+VALUES (1065,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1065,   1, 'House of Scrolls') /* Name */

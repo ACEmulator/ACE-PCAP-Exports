@@ -11,19 +11,13 @@ VALUES (27115,   1,      32768) /* ItemType - Caster */
      , (27115,  16,     655364) /* ItemUseable - 655364 */
      , (27115,  18,          1) /* UiEffects - Magical */
      , (27115,  19,        700) /* Value */
-     , (27115,  65,          1) /* Placement - RightHandCombat */
      , (27115,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (27115,  94,         16) /* TargetType - Creature */
-     , (27115, 151,          2) /* HookType - Wall */;
+     , (27115, 151,          2) /* HookType - Wall */
+     , (27115, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27115,   1, False) /* Stuck */
-     , (27115,  11, True ) /* IgnoreCollisions */
-     , (27115,  13, True ) /* Ethereal */
-     , (27115,  14, True ) /* GravityStatus */
-     , (27115,  15, True ) /* LightsStatus */
-     , (27115,  19, True ) /* Attackable */
-     , (27115,  22, True ) /* Inscribable */;
+VALUES (27115,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27115,   1, 'Elysa''s Wondrous Orb') /* Name */;

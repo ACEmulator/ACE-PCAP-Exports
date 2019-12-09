@@ -9,21 +9,16 @@ VALUES (41832,   1,       2048) /* ItemType - Gem */
      , (41832,  16,          1) /* ItemUseable - No */
      , (41832,  19,          0) /* Value */
      , (41832,  33,          1) /* Bonded - Bonded */
-     , (41832,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (41832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41832,  94,         16) /* TargetType - Creature */
      , (41832, 114,          1) /* Attuned - Attuned */
      , (41832, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41832,   1, False) /* Stuck */
-     , (41832,  11, True ) /* IgnoreCollisions */
-     , (41832,  13, True ) /* Ethereal */
-     , (41832,  14, True ) /* GravityStatus */
-     , (41832,  19, True ) /* Attackable */
-     , (41832,  22, True ) /* Inscribable */;
+VALUES (41832,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41832,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (41832,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41832,   1, 'Celestial Hand Supplies') /* Name */

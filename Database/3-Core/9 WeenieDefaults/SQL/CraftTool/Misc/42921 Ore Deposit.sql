@@ -8,19 +8,14 @@ VALUES (42921,   1,        128) /* ItemType - Misc */
      , (42921,   5,       6000) /* EncumbranceVal */
      , (42921,  16,         48) /* ItemUseable - ViewedRemote */
      , (42921,  19,        200) /* Value */
-     , (42921,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (42921,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (42921,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42921,   1, True ) /* Stuck */
-     , (42921,  11, True ) /* IgnoreCollisions */
-     , (42921,  12, True ) /* ReportCollisions */
-     , (42921,  13, False) /* Ethereal */
-     , (42921,  14, True ) /* GravityStatus */
-     , (42921,  19, True ) /* Attackable */;
+VALUES (42921,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42921,  39, 1.60000002384186) /* DefaultScale */
+VALUES (42921,  39,     1.6) /* DefaultScale */
      , (42921,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

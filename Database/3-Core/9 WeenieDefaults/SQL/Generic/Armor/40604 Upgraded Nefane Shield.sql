@@ -15,16 +15,11 @@ VALUES (40604,   1,          2) /* ItemType - Armor */
      , (40604, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40604,   1, False) /* Stuck */
-     , (40604,  11, True ) /* IgnoreCollisions */
-     , (40604,  13, True ) /* Ethereal */
-     , (40604,  14, True ) /* GravityStatus */
-     , (40604,  19, True ) /* Attackable */
-     , (40604,  22, True ) /* Inscribable */
+VALUES (40604,  22, True ) /* Inscribable */
      , (40604,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40604,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (40604,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40604,   1, 'Upgraded Nefane Shield') /* Name */;

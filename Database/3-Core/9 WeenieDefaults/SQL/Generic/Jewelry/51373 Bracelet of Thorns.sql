@@ -11,7 +11,6 @@ VALUES (51373,   1,          8) /* ItemType - Jewelry */
      , (51373,  16,          1) /* ItemUseable - No */
      , (51373,  18,       2048) /* UiEffects - Piercing */
      , (51373,  19,      20000) /* Value */
-     , (51373,  65,        101) /* Placement - Resting */
      , (51373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51373, 106,        200) /* ItemSpellcraft */
      , (51373, 107,        913) /* ItemCurMana */
@@ -19,19 +18,15 @@ VALUES (51373,   1,          8) /* ItemType - Jewelry */
      , (51373, 109,        300) /* ItemDifficulty */
      , (51373, 158,          7) /* WieldRequirements - Level */
      , (51373, 159,          1) /* WieldSkillType - Axe */
-     , (51373, 160,        180) /* WieldDifficulty */;
+     , (51373, 160,        180) /* WieldDifficulty */
+     , (51373, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51373,   1, False) /* Stuck */
-     , (51373,  11, True ) /* IgnoreCollisions */
-     , (51373,  13, True ) /* Ethereal */
-     , (51373,  14, True ) /* GravityStatus */
-     , (51373,  19, True ) /* Attackable */
-     , (51373,  22, True ) /* Inscribable */;
+VALUES (51373,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51373,   5,   -0.04) /* ManaRate */
-     , (51373,  39, 0.670000016689301) /* DefaultScale */;
+     , (51373,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51373,   1, 'Bracelet of Thorns') /* Name */

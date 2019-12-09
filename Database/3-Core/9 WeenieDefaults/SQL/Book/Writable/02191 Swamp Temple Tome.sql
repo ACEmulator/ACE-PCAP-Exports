@@ -8,21 +8,14 @@ VALUES (2191,   1,       8192) /* ItemType - Writable */
      , (2191,   5,        900) /* EncumbranceVal */
      , (2191,  16,         48) /* ItemUseable - ViewedRemote */
      , (2191,  19,         50) /* Value */
-     , (2191,  65,        101) /* Placement - Resting */
      , (2191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2191, 174,          4) /* AppraisalPages */
-     , (2191, 175,          4) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2191,   1, False) /* Stuck */
-     , (2191,  11, True ) /* IgnoreCollisions */
-     , (2191,  13, True ) /* Ethereal */
-     , (2191,  14, True ) /* GravityStatus */
-     , (2191,  19, True ) /* Attackable */;
+     , (2191, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (2191, 8042,          4) /* PCAPRecordedAppraisalPages */
+     , (2191, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2191,  39, 1.22000002861023) /* DefaultScale */
-     , (2191,  54, 0.300000011920929) /* UseRadius */;
+VALUES (2191,  39,    1.22) /* DefaultScale */
+     , (2191,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2191,   1, 'Swamp Temple Tome') /* Name */;

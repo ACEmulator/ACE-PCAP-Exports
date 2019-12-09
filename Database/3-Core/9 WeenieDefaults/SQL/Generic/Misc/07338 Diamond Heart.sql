@@ -8,19 +8,14 @@ VALUES (7338,   1,        128) /* ItemType - Misc */
      , (7338,   5,        300) /* EncumbranceVal */
      , (7338,  16,          1) /* ItemUseable - No */
      , (7338,  19,         20) /* Value */
-     , (7338,  65,        101) /* Placement - Resting */
-     , (7338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7338, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7338,   1, False) /* Stuck */
-     , (7338,  11, True ) /* IgnoreCollisions */
-     , (7338,  13, True ) /* Ethereal */
-     , (7338,  14, True ) /* GravityStatus */
-     , (7338,  19, True ) /* Attackable */
-     , (7338,  22, True ) /* Inscribable */;
+VALUES (7338,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7338,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (7338,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7338,   1, 'Diamond Heart') /* Name */;

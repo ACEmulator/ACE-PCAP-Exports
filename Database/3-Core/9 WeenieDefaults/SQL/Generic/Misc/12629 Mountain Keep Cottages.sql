@@ -11,12 +11,7 @@ VALUES (12629,   1,        128) /* ItemType - Misc */
      , (12629,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12629,   1, True ) /* Stuck */
-     , (12629,  11, True ) /* IgnoreCollisions */
-     , (12629,  12, True ) /* ReportCollisions */
-     , (12629,  13, False) /* Ethereal */
-     , (12629,  14, True ) /* GravityStatus */
-     , (12629,  19, True ) /* Attackable */;
+VALUES (12629,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12629,   1, 'Mountain Keep Cottages') /* Name */

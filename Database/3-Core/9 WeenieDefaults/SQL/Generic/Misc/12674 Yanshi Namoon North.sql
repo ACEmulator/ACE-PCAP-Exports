@@ -11,12 +11,7 @@ VALUES (12674,   1,        128) /* ItemType - Misc */
      , (12674,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12674,   1, True ) /* Stuck */
-     , (12674,  11, True ) /* IgnoreCollisions */
-     , (12674,  12, True ) /* ReportCollisions */
-     , (12674,  13, False) /* Ethereal */
-     , (12674,  14, True ) /* GravityStatus */
-     , (12674,  19, True ) /* Attackable */;
+VALUES (12674,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12674,   1, 'Yanshi Namoon North') /* Name */;

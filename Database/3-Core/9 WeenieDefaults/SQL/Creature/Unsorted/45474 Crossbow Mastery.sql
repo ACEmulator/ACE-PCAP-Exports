@@ -40,19 +40,13 @@ VALUES (45474,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45474,   1, True ) /* Stuck */
-     , (45474,  11, True ) /* IgnoreCollisions */
-     , (45474,  12, True ) /* ReportCollisions */
-     , (45474,  13, False) /* Ethereal */
-     , (45474,  14, True ) /* GravityStatus */
-     , (45474,  19, False) /* Attackable */
-     , (45474,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45474,  42, True ) /* AllowEdgeSlide */;
+     , (45474,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45474,  54,       3) /* UseRadius */
      , (45474, 8010,       0) /* PCAPRecordedVelocityX */
      , (45474, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45474, 8012, -48.3469696044922) /* PCAPRecordedVelocityZ */;
+     , (45474, 8012,  -48.35) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45474,   1, 'Crossbow Mastery') /* Name */

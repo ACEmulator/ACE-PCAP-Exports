@@ -11,7 +11,6 @@ VALUES (8904,   1,      32768) /* ItemType - Caster */
      , (8904,  18,          1) /* UiEffects - Magical */
      , (8904,  19,       3000) /* Value */
      , (8904,  33,          1) /* Bonded - Bonded */
-     , (8904,  65,        101) /* Placement - Resting */
      , (8904,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8904,  94,         16) /* TargetType - Creature */
      , (8904, 106,        200) /* ItemSpellcraft */
@@ -20,16 +19,11 @@ VALUES (8904,   1,      32768) /* ItemType - Caster */
      , (8904, 109,        121) /* ItemDifficulty */
      , (8904, 110,          0) /* ItemAllegianceRankLimit */
      , (8904, 114,          1) /* Attuned - Attuned */
-     , (8904, 151,          2) /* HookType - Wall */;
+     , (8904, 151,          2) /* HookType - Wall */
+     , (8904, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8904,   1, False) /* Stuck */
-     , (8904,  11, True ) /* IgnoreCollisions */
-     , (8904,  13, True ) /* Ethereal */
-     , (8904,  14, True ) /* GravityStatus */
-     , (8904,  15, True ) /* LightsStatus */
-     , (8904,  19, True ) /* Attackable */
-     , (8904,  22, True ) /* Inscribable */
+VALUES (8904,  22, True ) /* Inscribable */
      , (8904,  69, False) /* IsSellable */
      , (8904,  94, True ) /* AppraisalHasAllowedActivator */
      , (8904,  99, True ) /* Ivoryable */;
@@ -37,9 +31,9 @@ VALUES (8904,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8904,   5,   -0.05) /* ManaRate */
      , (8904,  29,       1) /* WeaponDefense */
-     , (8904,  39, 0.699999988079071) /* DefaultScale */
-     , (8904,  76, 0.200000002980232) /* Translucency */
-     , (8904, 144, 1.08013642450938E-314) /* ManaConversionMod */;
+     , (8904,  39,     0.7) /* DefaultScale */
+     , (8904,  76,     0.2) /* Translucency */
+     , (8904, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8904,   1, 'Focusing Stone') /* Name */

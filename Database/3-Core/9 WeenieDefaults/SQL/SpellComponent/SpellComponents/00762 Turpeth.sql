@@ -12,15 +12,8 @@ VALUES (762,   1,       4096) /* ItemType - SpellComponents */
      , (762,  15,          5) /* StackUnitValue */
      , (762,  16,          1) /* ItemUseable - No */
      , (762,  19,          5) /* Value */
-     , (762,  65,        101) /* Placement - Resting */
-     , (762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (762,   1, False) /* Stuck */
-     , (762,  11, True ) /* IgnoreCollisions */
-     , (762,  13, True ) /* Ethereal */
-     , (762,  14, True ) /* GravityStatus */
-     , (762,  19, True ) /* Attackable */;
+     , (762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (762, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (762,   1, 'Turpeth') /* Name */

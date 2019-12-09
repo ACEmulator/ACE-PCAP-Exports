@@ -15,12 +15,7 @@ VALUES (51904,   1,         16) /* ItemType - Creature */
      , (51904, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51904,   1, True ) /* Stuck */
-     , (51904,  12, True ) /* ReportCollisions */
-     , (51904,  13, False) /* Ethereal */
-     , (51904,  14, True ) /* GravityStatus */
-     , (51904,  19, True ) /* Attackable */
-     , (51904,  42, True ) /* AllowEdgeSlide */;
+VALUES (51904,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51904,   1, 'Lugian Minion') /* Name */

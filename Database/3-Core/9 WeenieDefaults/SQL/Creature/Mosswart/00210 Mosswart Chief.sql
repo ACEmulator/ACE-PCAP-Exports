@@ -16,14 +16,10 @@ VALUES (210,   1,         16) /* ItemType - Creature */
      , (210, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (210,   1, True ) /* Stuck */
-     , (210,  12, True ) /* ReportCollisions */
-     , (210,  13, False) /* Ethereal */
-     , (210,  14, True ) /* GravityStatus */
-     , (210,  19, True ) /* Attackable */;
+VALUES (210,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (210,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (210,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (210,   1, 'Mosswart Chief') /* Name */

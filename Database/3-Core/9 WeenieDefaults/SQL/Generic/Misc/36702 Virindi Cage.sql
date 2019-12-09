@@ -8,14 +8,10 @@ VALUES (36702,   1,        128) /* ItemType - Misc */
      , (36702,   5,          0) /* EncumbranceVal */
      , (36702,  16,          1) /* ItemUseable - No */
      , (36702,  19,          0) /* Value */
-     , (36702,  93,      66572) /* PhysicsState - Ethereal, ReportCollisions, Gravity, HasPhysicsBSP */;
+     , (36702,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36702,   1, True ) /* Stuck */
-     , (36702,  12, True ) /* ReportCollisions */
-     , (36702,  13, True ) /* Ethereal */
-     , (36702,  14, True ) /* GravityStatus */
-     , (36702,  19, True ) /* Attackable */;
+VALUES (36702,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36702,   1, 'Virindi Cage') /* Name */

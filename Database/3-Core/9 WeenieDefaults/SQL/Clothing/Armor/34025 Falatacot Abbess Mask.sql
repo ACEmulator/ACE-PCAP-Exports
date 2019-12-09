@@ -10,17 +10,12 @@ VALUES (34025,   1,          2) /* ItemType - Armor */
      , (34025,   9,          1) /* ValidLocations - HeadWear */
      , (34025,  16,          1) /* ItemUseable - No */
      , (34025,  19,        200) /* Value */
-     , (34025,  65,        101) /* Placement - Resting */
      , (34025,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34025, 151,          2) /* HookType - Wall */;
+     , (34025, 151,          2) /* HookType - Wall */
+     , (34025, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34025,   1, False) /* Stuck */
-     , (34025,  11, True ) /* IgnoreCollisions */
-     , (34025,  13, True ) /* Ethereal */
-     , (34025,  14, True ) /* GravityStatus */
-     , (34025,  19, True ) /* Attackable */
-     , (34025,  22, True ) /* Inscribable */;
+VALUES (34025,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34025,   1, 'Falatacot Abbess Mask') /* Name */;

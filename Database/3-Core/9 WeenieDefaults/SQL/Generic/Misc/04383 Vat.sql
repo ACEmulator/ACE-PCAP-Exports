@@ -12,16 +12,12 @@ VALUES (4383,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4383,   1, True ) /* Stuck */
-     , (4383,  11, True ) /* IgnoreCollisions */
-     , (4383,  13, False) /* Ethereal */
-     , (4383,  14, True ) /* GravityStatus */
-     , (4383,  19, True ) /* Attackable */
      , (4383,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4383, 8010,       0) /* PCAPRecordedVelocityX */
      , (4383, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4383, 8012, -0.283035099506378) /* PCAPRecordedVelocityZ */;
+     , (4383, 8012,   -0.28) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4383,   1, 'Vat') /* Name */;

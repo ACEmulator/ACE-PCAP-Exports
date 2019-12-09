@@ -12,18 +12,13 @@ VALUES (9318,   1,        128) /* ItemType - Misc */
      , (9318,  15,          0) /* StackUnitValue */
      , (9318,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9318,  19,          0) /* Value */
-     , (9318,  65,        101) /* Placement - Resting */
      , (9318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9318,  94,        128) /* TargetType - Misc */
-     , (9318, 151,          2) /* HookType - Wall */;
+     , (9318, 151,          2) /* HookType - Wall */
+     , (9318, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9318,   1, False) /* Stuck */
-     , (9318,  11, True ) /* IgnoreCollisions */
-     , (9318,  13, True ) /* Ethereal */
-     , (9318,  14, True ) /* GravityStatus */
-     , (9318,  19, True ) /* Attackable */
-     , (9318,  69, False) /* IsSellable */;
+VALUES (9318,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9318,  39,    0.75) /* DefaultScale */;

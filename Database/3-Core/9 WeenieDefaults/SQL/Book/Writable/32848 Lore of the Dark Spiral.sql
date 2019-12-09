@@ -9,21 +9,14 @@ VALUES (32848,   1,       8192) /* ItemType - Writable */
      , (32848,  16,          8) /* ItemUseable - Contained */
      , (32848,  19,          0) /* Value */
      , (32848,  33,          1) /* Bonded - Bonded */
-     , (32848,  65,        101) /* Placement - Resting */
      , (32848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32848, 114,          1) /* Attuned - Attuned */
-     , (32848, 174,          7) /* AppraisalPages */
-     , (32848, 175,          7) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32848,   1, False) /* Stuck */
-     , (32848,  11, True ) /* IgnoreCollisions */
-     , (32848,  13, True ) /* Ethereal */
-     , (32848,  14, True ) /* GravityStatus */
-     , (32848,  19, True ) /* Attackable */;
+     , (32848, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (32848, 8042,          7) /* PCAPRecordedAppraisalPages */
+     , (32848, 8043,          7) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32848,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (32848,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32848,   1, 'Lore of the Dark Spiral') /* Name */

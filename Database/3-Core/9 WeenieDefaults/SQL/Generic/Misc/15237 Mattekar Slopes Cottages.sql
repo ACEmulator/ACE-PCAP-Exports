@@ -11,12 +11,7 @@ VALUES (15237,   1,        128) /* ItemType - Misc */
      , (15237,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15237,   1, True ) /* Stuck */
-     , (15237,  11, True ) /* IgnoreCollisions */
-     , (15237,  12, True ) /* ReportCollisions */
-     , (15237,  13, False) /* Ethereal */
-     , (15237,  14, True ) /* GravityStatus */
-     , (15237,  19, True ) /* Attackable */;
+VALUES (15237,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15237,   1, 'Mattekar Slopes Cottages') /* Name */

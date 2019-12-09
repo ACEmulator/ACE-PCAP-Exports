@@ -8,19 +8,14 @@ VALUES (6037,   1,      16384) /* ItemType - Key */
      , (6037,   5,         50) /* EncumbranceVal */
      , (6037,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (6037,  19,         15) /* Value */
-     , (6037,  65,        101) /* Placement - Resting */
      , (6037,  91,          2) /* MaxStructure */
      , (6037,  92,          2) /* Structure */
      , (6037,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6037,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (6037,  94,        640) /* TargetType - LockableMagicTarget */
+     , (6037, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6037,   1, False) /* Stuck */
-     , (6037,  11, True ) /* IgnoreCollisions */
-     , (6037,  13, True ) /* Ethereal */
-     , (6037,  14, True ) /* GravityStatus */
-     , (6037,  19, True ) /* Attackable */
-     , (6037,  22, True ) /* Inscribable */;
+VALUES (6037,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6037,   1, 'Key to Hamud''s Chambers') /* Name */

@@ -12,18 +12,13 @@ VALUES (14911,   1,         32) /* ItemType - Food */
      , (14911,  15,          2) /* StackUnitValue */
      , (14911,  16,          8) /* ItemUseable - Contained */
      , (14911,  19,          2) /* Value */
-     , (14911,  65,        101) /* Placement - Resting */
      , (14911,  89,          2) /* BoosterEnum - Health */
      , (14911,  90,         15) /* BoostValue */
-     , (14911,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (14911,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14911, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14911,   1, False) /* Stuck */
-     , (14911,  11, True ) /* IgnoreCollisions */
-     , (14911,  13, True ) /* Ethereal */
-     , (14911,  14, True ) /* GravityStatus */
-     , (14911,  19, True ) /* Attackable */
-     , (14911,  69, False) /* IsSellable */;
+VALUES (14911,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14911,   1, 'Slice of Wedding Cake') /* Name */

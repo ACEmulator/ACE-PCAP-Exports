@@ -12,16 +12,11 @@ VALUES (12075,   1,          1) /* ItemType - MeleeWeapon */
      , (12075,  18,        128) /* UiEffects - Frost */
      , (12075,  19,        400) /* Value */
      , (12075,  51,          1) /* CombatUse - Melee */
-     , (12075,  65,          1) /* Placement - RightHandCombat */
-     , (12075,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12075,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12075, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12075,   1, False) /* Stuck */
-     , (12075,  11, True ) /* IgnoreCollisions */
-     , (12075,  13, True ) /* Ethereal */
-     , (12075,  14, True ) /* GravityStatus */
-     , (12075,  19, True ) /* Attackable */
-     , (12075,  22, True ) /* Inscribable */;
+VALUES (12075,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12075,   1, 'Bandit Frost Simi') /* Name */;

@@ -15,12 +15,7 @@ VALUES (40616,   1,          1) /* ItemType - MeleeWeapon */
      , (40616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40616,   1, False) /* Stuck */
-     , (40616,  11, True ) /* IgnoreCollisions */
-     , (40616,  13, True ) /* Ethereal */
-     , (40616,  14, True ) /* GravityStatus */
-     , (40616,  19, True ) /* Attackable */
-     , (40616,  22, True ) /* Inscribable */;
+VALUES (40616,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40616,   1, 'Fire Spadone') /* Name */;

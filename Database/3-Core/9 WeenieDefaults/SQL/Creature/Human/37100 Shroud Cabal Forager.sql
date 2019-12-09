@@ -17,11 +17,7 @@ VALUES (37100,   1,         16) /* ItemType - Creature */
      , (37100, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37100,   1, True ) /* Stuck */
-     , (37100,  12, True ) /* ReportCollisions */
-     , (37100,  13, False) /* Ethereal */
-     , (37100,  14, True ) /* GravityStatus */
-     , (37100,  19, True ) /* Attackable */;
+VALUES (37100,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37100,   1, 'Shroud Cabal Forager') /* Name */

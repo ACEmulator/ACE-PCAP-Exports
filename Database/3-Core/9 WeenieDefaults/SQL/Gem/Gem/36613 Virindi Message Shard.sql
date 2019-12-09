@@ -17,16 +17,11 @@ VALUES (36613,   1,       2048) /* ItemType - Gem */
      , (36613, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36613,   1, False) /* Stuck */
-     , (36613,  11, True ) /* IgnoreCollisions */
-     , (36613,  13, True ) /* Ethereal */
-     , (36613,  14, True ) /* GravityStatus */
-     , (36613,  19, True ) /* Attackable */
-     , (36613,  22, True ) /* Inscribable */
+VALUES (36613,  22, True ) /* Inscribable */
      , (36613,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36613,  39, 0.200000002980232) /* DefaultScale */
+VALUES (36613,  39,     0.2) /* DefaultScale */
      , (36613,  76,    0.25) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

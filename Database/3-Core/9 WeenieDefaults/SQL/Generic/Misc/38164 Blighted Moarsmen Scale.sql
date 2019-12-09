@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38164,   1,        128) /* ItemType - Misc */
      , (38164,   5,          5) /* EncumbranceVal */
      , (38164,  16,          1) /* ItemUseable - No */
-     , (38164,  65,        101) /* Placement - Resting */
-     , (38164,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38164,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38164, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38164,   1, False) /* Stuck */
-     , (38164,  11, True ) /* IgnoreCollisions */
-     , (38164,  13, True ) /* Ethereal */
-     , (38164,  14, True ) /* GravityStatus */
-     , (38164,  19, True ) /* Attackable */
-     , (38164,  22, True ) /* Inscribable */;
+VALUES (38164,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38164,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (38164,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38164,   1, 'Blighted Moarsmen Scale') /* Name */;

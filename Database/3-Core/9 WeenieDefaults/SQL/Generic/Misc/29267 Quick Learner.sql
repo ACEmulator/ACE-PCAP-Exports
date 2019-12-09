@@ -9,20 +9,15 @@ VALUES (29267,   1,        128) /* ItemType - Misc */
      , (29267,  16,          8) /* ItemUseable - Contained */
      , (29267,  19,          0) /* Value */
      , (29267,  33,          1) /* Bonded - Bonded */
-     , (29267,  65,        101) /* Placement - Resting */
      , (29267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29267, 114,          1) /* Attuned - Attuned */;
+     , (29267, 114,          1) /* Attuned - Attuned */
+     , (29267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29267,   3, 4000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29267,   1, False) /* Stuck */
-     , (29267,  11, True ) /* IgnoreCollisions */
-     , (29267,  13, True ) /* Ethereal */
-     , (29267,  14, True ) /* GravityStatus */
-     , (29267,  19, True ) /* Attackable */
-     , (29267,  22, True ) /* Inscribable */;
+VALUES (29267,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29267,   1, 'Quick Learner') /* Name */

@@ -12,19 +12,13 @@ VALUES (7194,   1,      65536) /* ItemType - Portal */
      , (7194, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7194,   1, True ) /* Stuck */
-     , (7194,  12, True ) /* ReportCollisions */
-     , (7194,  13, True ) /* Ethereal */
-     , (7194,  14, True ) /* GravityStatus */
-     , (7194,  15, True ) /* LightsStatus */
-     , (7194,  19, True ) /* Attackable */;
+VALUES (7194,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7194,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7194,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7194,   1, 'Ayan Baqur Portal') /* Name */
-     , (7194,  38, 'Ayan Baqur Portal (60.5S, 88.0W).') /* AppraisalPortalDestination */
      , (7194, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

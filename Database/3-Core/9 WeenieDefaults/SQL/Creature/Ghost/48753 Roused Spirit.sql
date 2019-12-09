@@ -15,15 +15,11 @@ VALUES (48753,   1,         16) /* ItemType - Creature */
      , (48753, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48753,   1, True ) /* Stuck */
-     , (48753,  12, True ) /* ReportCollisions */
-     , (48753,  13, False) /* Ethereal */
-     , (48753,  14, True ) /* GravityStatus */
-     , (48753,  19, True ) /* Attackable */;
+VALUES (48753,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48753,  39, 0.800000011920929) /* DefaultScale */
-     , (48753,  76, 0.699999988079071) /* Translucency */;
+VALUES (48753,  39,     0.8) /* DefaultScale */
+     , (48753,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48753,   1, 'Roused Spirit') /* Name */

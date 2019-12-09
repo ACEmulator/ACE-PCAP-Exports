@@ -15,12 +15,7 @@ VALUES (16915,   1,         16) /* ItemType - Creature */
      , (16915, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16915,   1, True ) /* Stuck */
-     , (16915,  12, True ) /* ReportCollisions */
-     , (16915,  13, False) /* Ethereal */
-     , (16915,  14, True ) /* GravityStatus */
-     , (16915,  19, True ) /* Attackable */
-     , (16915,  42, True ) /* AllowEdgeSlide */;
+VALUES (16915,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16915,   1, 'Tumideon Hollow Minion') /* Name */

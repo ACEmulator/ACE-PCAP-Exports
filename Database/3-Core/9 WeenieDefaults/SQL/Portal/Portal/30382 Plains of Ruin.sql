@@ -13,19 +13,13 @@ VALUES (30382,   1,      65536) /* ItemType - Portal */
      , (30382, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30382,   1, True ) /* Stuck */
-     , (30382,  12, True ) /* ReportCollisions */
-     , (30382,  13, True ) /* Ethereal */
-     , (30382,  14, True ) /* GravityStatus */
-     , (30382,  15, True ) /* LightsStatus */
-     , (30382,  19, True ) /* Attackable */;
+VALUES (30382,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30382,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30382,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30382,   1, 'Plains of Ruin') /* Name */
-     , (30382,  38, 'Plains of Ruin (90.7N, 51.2W).') /* AppraisalPortalDestination */
      , (30382, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

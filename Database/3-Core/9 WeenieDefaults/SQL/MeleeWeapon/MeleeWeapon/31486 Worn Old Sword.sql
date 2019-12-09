@@ -16,12 +16,7 @@ VALUES (31486,   1,          1) /* ItemType - MeleeWeapon */
      , (31486, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31486,   1, False) /* Stuck */
-     , (31486,  11, True ) /* IgnoreCollisions */
-     , (31486,  13, True ) /* Ethereal */
-     , (31486,  14, True ) /* GravityStatus */
-     , (31486,  19, True ) /* Attackable */
-     , (31486,  22, True ) /* Inscribable */;
+VALUES (31486,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31486,   1, 'Worn Old Sword') /* Name */;

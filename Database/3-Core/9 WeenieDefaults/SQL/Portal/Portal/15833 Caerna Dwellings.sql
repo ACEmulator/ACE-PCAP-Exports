@@ -12,19 +12,13 @@ VALUES (15833,   1,      65536) /* ItemType - Portal */
      , (15833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15833,   1, True ) /* Stuck */
-     , (15833,  12, True ) /* ReportCollisions */
-     , (15833,  13, True ) /* Ethereal */
-     , (15833,  14, True ) /* GravityStatus */
-     , (15833,  15, True ) /* LightsStatus */
-     , (15833,  19, True ) /* Attackable */;
+VALUES (15833,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15833,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15833,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15833,   1, 'Caerna Dwellings') /* Name */
-     , (15833,  38, 'Caerna Dwellings') /* AppraisalPortalDestination */
      , (15833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

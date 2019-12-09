@@ -12,16 +12,11 @@ VALUES (626,   1,       4096) /* ItemType - SpellComponents */
      , (626,  15,          5) /* StackUnitValue */
      , (626,  16,          1) /* ItemUseable - No */
      , (626,  19,          5) /* Value */
-     , (626,  65,        101) /* Placement - Resting */
-     , (626,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (626,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (626, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (626,   1, False) /* Stuck */
-     , (626,  11, True ) /* IgnoreCollisions */
-     , (626,  13, True ) /* Ethereal */
-     , (626,  14, True ) /* GravityStatus */
-     , (626,  19, True ) /* Attackable */
-     , (626,  69, False) /* IsSellable */;
+VALUES (626,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (626,   1, 'Powdered Hematite') /* Name */

@@ -18,7 +18,6 @@ VALUES (41712,   1,          1) /* ItemType - MeleeWeapon */
      , (41712,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41712,  49,         30) /* WeaponTime */
      , (41712,  51,          5) /* CombatUse - TwoHanded */
-     , (41712,  65,          1) /* Placement - RightHandCombat */
      , (41712,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41712, 114,          0) /* Attuned - Normal */
      , (41712, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (41712,   1,          1) /* ItemType - MeleeWeapon */
      , (41712, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41712, 160,        250) /* WieldDifficulty */
      , (41712, 353,         11) /* WeaponType - TwoHanded */
-     , (41712, 8030,          0);
+     , (41712, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41712, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41712,   1, False) /* Stuck */
-     , (41712,  11, True ) /* IgnoreCollisions */
-     , (41712,  13, True ) /* Ethereal */
-     , (41712,  14, True ) /* GravityStatus */
-     , (41712,  15, True ) /* LightsStatus */
-     , (41712,  19, True ) /* Attackable */
-     , (41712,  22, True ) /* Inscribable */
+VALUES (41712,  22, True ) /* Inscribable */
      , (41712,  69, False) /* IsSellable */
      , (41712,  85, True ) /* AppraisalHasAllowedWielder */
      , (41712,  99, False) /* Ivoryable */;
@@ -47,7 +41,7 @@ VALUES (41712,  21,       0) /* WeaponLength */
      , (41712,  29,       1) /* WeaponDefense */
      , (41712,  62,     1.1) /* WeaponOffense */
      , (41712,  63,       1) /* DamageMod */
-     , (41712,  76, 0.699999988079071) /* Translucency */;
+     , (41712,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41712,   1, 'Deadly Hollow Two Handed Spear') /* Name */

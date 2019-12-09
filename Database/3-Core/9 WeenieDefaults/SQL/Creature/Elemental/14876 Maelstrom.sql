@@ -17,15 +17,10 @@ VALUES (14876,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14876,   1, True ) /* Stuck */
-     , (14876,  12, True ) /* ReportCollisions */
-     , (14876,  13, False) /* Ethereal */
-     , (14876,  14, True ) /* GravityStatus */
-     , (14876,  15, True ) /* LightsStatus */
-     , (14876,  19, True ) /* Attackable */
      , (14876, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14876,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (14876,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14876,   1, 'Maelstrom') /* Name */

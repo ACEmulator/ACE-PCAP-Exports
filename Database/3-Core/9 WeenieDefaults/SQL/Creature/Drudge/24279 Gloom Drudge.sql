@@ -16,14 +16,10 @@ VALUES (24279,   1,         16) /* ItemType - Creature */
      , (24279, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24279,   1, True ) /* Stuck */
-     , (24279,  12, True ) /* ReportCollisions */
-     , (24279,  13, False) /* Ethereal */
-     , (24279,  14, True ) /* GravityStatus */
-     , (24279,  19, True ) /* Attackable */;
+VALUES (24279,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24279,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (24279,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24279,   1, 'Gloom Drudge') /* Name */

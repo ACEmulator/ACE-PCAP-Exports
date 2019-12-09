@@ -12,19 +12,12 @@ VALUES (5779,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5779,  15,         10) /* StackUnitValue */
      , (5779,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5779,  19,         10) /* Value */
-     , (5779,  65,        101) /* Placement - Resting */
      , (5779,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5779,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5779,   1, False) /* Stuck */
-     , (5779,  11, True ) /* IgnoreCollisions */
-     , (5779,  13, True ) /* Ethereal */
-     , (5779,  14, True ) /* GravityStatus */
-     , (5779,  19, True ) /* Attackable */;
+     , (5779,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (5779, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5779,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (5779,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5779,   1, 'Strange Stick') /* Name */

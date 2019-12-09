@@ -8,22 +8,15 @@ VALUES (31440,   1,       8192) /* ItemType - Writable */
      , (31440,   5,        100) /* EncumbranceVal */
      , (31440,  16,          8) /* ItemUseable - Contained */
      , (31440,  19,         10) /* Value */
-     , (31440,  65,        101) /* Placement - Resting */
      , (31440,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31440, 151,          2) /* HookType - Wall */
-     , (31440, 174,         11) /* AppraisalPages */
-     , (31440, 175,         11) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31440,   1, False) /* Stuck */
-     , (31440,  11, True ) /* IgnoreCollisions */
-     , (31440,  13, True ) /* Ethereal */
-     , (31440,  14, True ) /* GravityStatus */
-     , (31440,  19, True ) /* Attackable */;
+     , (31440, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (31440, 8042,         11) /* PCAPRecordedAppraisalPages */
+     , (31440, 8043,         11) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31440,  39, 1.22000002861023) /* DefaultScale */
-     , (31440,  54, 0.300000011920929) /* UseRadius */;
+VALUES (31440,  39,    1.22) /* DefaultScale */
+     , (31440,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31440,   1, 'The Grael Rebellion') /* Name */

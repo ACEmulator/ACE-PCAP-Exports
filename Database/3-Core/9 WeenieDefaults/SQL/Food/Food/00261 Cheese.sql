@@ -12,19 +12,14 @@ VALUES (261,   1,         32) /* ItemType - Food */
      , (261,  15,         15) /* StackUnitValue */
      , (261,  16,          8) /* ItemUseable - Contained */
      , (261,  19,         15) /* Value */
-     , (261,  65,        101) /* Placement - Resting */
      , (261,  89,          4) /* BoosterEnum - Stamina */
      , (261,  90,          8) /* BoostValue */
      , (261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (261, 151,          2) /* HookType - Wall */;
+     , (261, 151,          2) /* HookType - Wall */
+     , (261, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (261,   1, False) /* Stuck */
-     , (261,  11, True ) /* IgnoreCollisions */
-     , (261,  13, True ) /* Ethereal */
-     , (261,  14, True ) /* GravityStatus */
-     , (261,  19, True ) /* Attackable */
-     , (261,  69, False) /* IsSellable */;
+VALUES (261,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (261,   1, 'Cheese') /* Name */

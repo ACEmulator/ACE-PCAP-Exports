@@ -11,20 +11,15 @@ VALUES (38486,   1,          2) /* ItemType - Armor */
      , (38486,  16,          1) /* ItemUseable - No */
      , (38486,  18,          1) /* UiEffects - Magical */
      , (38486,  19,      19941) /* Value */
-     , (38486,  65,        101) /* Placement - Resting */
      , (38486,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38486, 131,         60) /* MaterialType - Gold */;
+     , (38486, 131,         60) /* MaterialType - Gold */
+     , (38486, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38486,   1, False) /* Stuck */
-     , (38486,  11, True ) /* IgnoreCollisions */
-     , (38486,  13, True ) /* Ethereal */
-     , (38486,  14, True ) /* GravityStatus */
-     , (38486,  19, True ) /* Attackable */
-     , (38486,  22, True ) /* Inscribable */;
+VALUES (38486,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38486,  39, 1.10000002384186) /* DefaultScale */
+VALUES (38486,  39,     1.1) /* DefaultScale */
      , (38486, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

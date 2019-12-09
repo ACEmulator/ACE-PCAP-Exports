@@ -10,16 +10,11 @@ VALUES (102,   1,          2) /* ItemType - Armor */
      , (102,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (102,  16,          1) /* ItemUseable - No */
      , (102,  19,       1700) /* Value */
-     , (102,  65,        101) /* Placement - Resting */
-     , (102,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (102,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (102, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (102,   1, False) /* Stuck */
-     , (102,  11, True ) /* IgnoreCollisions */
-     , (102,  13, True ) /* Ethereal */
-     , (102,  14, True ) /* GravityStatus */
-     , (102,  19, True ) /* Attackable */
-     , (102,  22, True ) /* Inscribable */;
+VALUES (102,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (102,   1, 'Leather Sleeves') /* Name */;

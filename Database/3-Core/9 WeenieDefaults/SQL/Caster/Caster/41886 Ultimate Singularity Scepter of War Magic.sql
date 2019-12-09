@@ -13,7 +13,6 @@ VALUES (41886,   1,      32768) /* ItemType - Caster */
      , (41886,  19,          0) /* Value */
      , (41886,  33,          1) /* Bonded - Bonded */
      , (41886,  45,          1) /* DamageType - Slash */
-     , (41886,  65,          1) /* Placement - RightHandCombat */
      , (41886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41886,  94,         16) /* TargetType - Creature */
      , (41886, 106,        200) /* ItemSpellcraft */
@@ -25,23 +24,19 @@ VALUES (41886,   1,      32768) /* ItemType - Caster */
      , (41886, 158,          2) /* WieldRequirements - RawSkill */
      , (41886, 159,         34) /* WieldSkillType - WarMagic */
      , (41886, 160,        355) /* WieldDifficulty */
-     , (41886, 166,         19) /* SlayerCreatureType - Virindi */;
+     , (41886, 166,         19) /* SlayerCreatureType - Virindi */
+     , (41886, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41886,   1, False) /* Stuck */
-     , (41886,  11, True ) /* IgnoreCollisions */
-     , (41886,  13, True ) /* Ethereal */
-     , (41886,  14, True ) /* GravityStatus */
-     , (41886,  19, True ) /* Attackable */
-     , (41886,  22, True ) /* Inscribable */
+VALUES (41886,  22, True ) /* Inscribable */
      , (41886,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41886,   5, -0.0329999998211861) /* ManaRate */
-     , (41886,  29, 1.14999997615814) /* WeaponDefense */
-     , (41886, 144, 0.150000005960464) /* ManaConversionMod */
+VALUES (41886,   5,   -0.03) /* ManaRate */
+     , (41886,  29,    1.15) /* WeaponDefense */
+     , (41886, 144,    0.15) /* ManaConversionMod */
      , (41886, 147,       1) /* CriticalFrequency */
-     , (41886, 152, 1.14999997615814) /* ElementalDamageMod */;
+     , (41886, 152,    1.15) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41886,   1, 'Ultimate Singularity Scepter of War Magic') /* Name */

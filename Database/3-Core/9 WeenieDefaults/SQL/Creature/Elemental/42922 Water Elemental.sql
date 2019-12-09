@@ -17,15 +17,10 @@ VALUES (42922,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42922,   1, True ) /* Stuck */
-     , (42922,  12, True ) /* ReportCollisions */
-     , (42922,  13, False) /* Ethereal */
-     , (42922,  14, True ) /* GravityStatus */
-     , (42922,  15, True ) /* LightsStatus */
-     , (42922,  19, True ) /* Attackable */
      , (42922, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42922,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (42922,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42922,   1, 'Water Elemental') /* Name */

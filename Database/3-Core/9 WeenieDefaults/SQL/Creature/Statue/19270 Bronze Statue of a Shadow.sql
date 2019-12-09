@@ -15,15 +15,10 @@ VALUES (19270,   1,         16) /* ItemType - Creature */
      , (19270, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19270,   1, True ) /* Stuck */
-     , (19270,  12, True ) /* ReportCollisions */
-     , (19270,  13, False) /* Ethereal */
-     , (19270,  14, True ) /* GravityStatus */
-     , (19270,  19, True ) /* Attackable */
-     , (19270,  42, True ) /* AllowEdgeSlide */;
+VALUES (19270,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19270,  39, 1.89999997615814) /* DefaultScale */;
+VALUES (19270,  39,     1.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19270,   1, 'Bronze Statue of a Shadow') /* Name */

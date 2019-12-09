@@ -8,16 +8,11 @@ VALUES (31477,   1,        128) /* ItemType - Misc */
      , (31477,   5,         50) /* EncumbranceVal */
      , (31477,  16,          1) /* ItemUseable - No */
      , (31477,  19,          0) /* Value */
-     , (31477,  65,        101) /* Placement - Resting */
-     , (31477,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31477,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31477, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31477,   1, False) /* Stuck */
-     , (31477,  11, True ) /* IgnoreCollisions */
-     , (31477,  13, True ) /* Ethereal */
-     , (31477,  14, True ) /* GravityStatus */
-     , (31477,  19, True ) /* Attackable */
-     , (31477,  22, True ) /* Inscribable */;
+VALUES (31477,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31477,   1, 'Second Half of a Worn Staff') /* Name */

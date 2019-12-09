@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38249,   1,        128) /* ItemType - Misc */
      , (38249,   5,         25) /* EncumbranceVal */
      , (38249,  16,          1) /* ItemUseable - No */
-     , (38249,  65,        101) /* Placement - Resting */
-     , (38249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38249, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38249,   1, False) /* Stuck */
-     , (38249,  11, True ) /* IgnoreCollisions */
-     , (38249,  13, True ) /* Ethereal */
-     , (38249,  14, True ) /* GravityStatus */
-     , (38249,  19, True ) /* Attackable */
-     , (38249,  22, True ) /* Inscribable */;
+VALUES (38249,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38249,   1, 'Sacred Deep Water') /* Name */;

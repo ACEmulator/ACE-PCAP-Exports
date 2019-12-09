@@ -12,17 +12,12 @@ VALUES (47362,   1,          1) /* ItemType - MeleeWeapon */
      , (47362,  18,         64) /* UiEffects - Lightning */
      , (47362,  19,        350) /* Value */
      , (47362,  51,          1) /* CombatUse - Melee */
-     , (47362,  65,          1) /* Placement - RightHandCombat */
      , (47362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47362, 151,          2) /* HookType - Wall */;
+     , (47362, 151,          2) /* HookType - Wall */
+     , (47362, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47362,   1, False) /* Stuck */
-     , (47362,  11, True ) /* IgnoreCollisions */
-     , (47362,  13, True ) /* Ethereal */
-     , (47362,  14, True ) /* GravityStatus */
-     , (47362,  19, True ) /* Attackable */
-     , (47362,  22, True ) /* Inscribable */;
+VALUES (47362,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47362,   1, 'Lightning Club') /* Name */;

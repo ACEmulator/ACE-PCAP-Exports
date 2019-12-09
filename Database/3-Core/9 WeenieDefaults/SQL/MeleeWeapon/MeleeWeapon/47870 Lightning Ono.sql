@@ -12,17 +12,12 @@ VALUES (47870,   1,          1) /* ItemType - MeleeWeapon */
      , (47870,  18,         64) /* UiEffects - Lightning */
      , (47870,  19,        350) /* Value */
      , (47870,  51,          1) /* CombatUse - Melee */
-     , (47870,  65,          1) /* Placement - RightHandCombat */
      , (47870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47870, 151,          2) /* HookType - Wall */;
+     , (47870, 151,          2) /* HookType - Wall */
+     , (47870, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47870,   1, False) /* Stuck */
-     , (47870,  11, True ) /* IgnoreCollisions */
-     , (47870,  13, True ) /* Ethereal */
-     , (47870,  14, True ) /* GravityStatus */
-     , (47870,  19, True ) /* Attackable */
-     , (47870,  22, True ) /* Inscribable */;
+VALUES (47870,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47870,   1, 'Lightning Ono') /* Name */;

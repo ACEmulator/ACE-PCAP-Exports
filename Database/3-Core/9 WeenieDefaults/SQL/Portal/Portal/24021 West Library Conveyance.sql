@@ -6,15 +6,11 @@ VALUES (24021, 'trapportal-knorrlibrarywest', 7, '2019-02-10 00:00:00') /* Porta
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24021,   1,      65536) /* ItemType - Portal */
      , (24021,  16,          1) /* ItemUseable - No */
-     , (24021,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (24021,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (24021, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24021,   1, True ) /* Stuck */
-     , (24021,  12, True ) /* ReportCollisions */
-     , (24021,  13, True ) /* Ethereal */
-     , (24021,  15, True ) /* LightsStatus */
-     , (24021,  19, True ) /* Attackable */;
+VALUES (24021,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24021,   1, 'West Library Conveyance') /* Name */;

@@ -12,28 +12,23 @@ VALUES (10871,   1,          2) /* ItemType - Armor */
      , (10871,  19,          0) /* Value */
      , (10871,  28,        130) /* ArmorLevel */
      , (10871,  33,          1) /* Bonded - Bonded */
-     , (10871,  65,        101) /* Placement - Resting */
      , (10871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10871, 114,          0) /* Attuned - Normal */
-     , (10871, 151,          2) /* HookType - Wall */;
+     , (10871, 151,          2) /* HookType - Wall */
+     , (10871, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10871,   1, False) /* Stuck */
-     , (10871,  11, True ) /* IgnoreCollisions */
-     , (10871,  13, True ) /* Ethereal */
-     , (10871,  14, True ) /* GravityStatus */
-     , (10871,  19, True ) /* Attackable */
-     , (10871,  22, True ) /* Inscribable */
+VALUES (10871,  22, True ) /* Inscribable */
      , (10871,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10871,  13, 0.300000011920929) /* ArmorModVsSlash */
-     , (10871,  14, 0.300000011920929) /* ArmorModVsPierce */
-     , (10871,  15, 0.300000011920929) /* ArmorModVsBludgeon */
-     , (10871,  16, 1.29999995231628) /* ArmorModVsCold */
-     , (10871,  17, 1.29999995231628) /* ArmorModVsFire */
-     , (10871,  18, 1.29999995231628) /* ArmorModVsAcid */
-     , (10871,  19, 1.29999995231628) /* ArmorModVsElectric */
+VALUES (10871,  13,     0.3) /* ArmorModVsSlash */
+     , (10871,  14,     0.3) /* ArmorModVsPierce */
+     , (10871,  15,     0.3) /* ArmorModVsBludgeon */
+     , (10871,  16,     1.3) /* ArmorModVsCold */
+     , (10871,  17,     1.3) /* ArmorModVsFire */
+     , (10871,  18,     1.3) /* ArmorModVsAcid */
+     , (10871,  19,     1.3) /* ArmorModVsElectric */
      , (10871, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

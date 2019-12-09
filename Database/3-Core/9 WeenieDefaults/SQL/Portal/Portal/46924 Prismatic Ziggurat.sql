@@ -13,19 +13,13 @@ VALUES (46924,   1,      65536) /* ItemType - Portal */
      , (46924, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46924,   1, True ) /* Stuck */
-     , (46924,  12, True ) /* ReportCollisions */
-     , (46924,  13, True ) /* Ethereal */
-     , (46924,  14, True ) /* GravityStatus */
-     , (46924,  15, True ) /* LightsStatus */
-     , (46924,  19, True ) /* Attackable */;
+VALUES (46924,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46924,  54, -0.100000001490116) /* UseRadius */;
+VALUES (46924,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46924,   1, 'Prismatic Ziggurat') /* Name */
-     , (46924,  38, 'Prismatic Ziggurat') /* AppraisalPortalDestination */
      , (46924, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

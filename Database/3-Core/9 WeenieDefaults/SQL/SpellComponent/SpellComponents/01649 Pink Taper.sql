@@ -12,15 +12,8 @@ VALUES (1649,   1,       4096) /* ItemType - SpellComponents */
      , (1649,  15,         25) /* StackUnitValue */
      , (1649,  16,          1) /* ItemUseable - No */
      , (1649,  19,         25) /* Value */
-     , (1649,  65,        101) /* Placement - Resting */
-     , (1649,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1649,   1, False) /* Stuck */
-     , (1649,  11, True ) /* IgnoreCollisions */
-     , (1649,  13, True ) /* Ethereal */
-     , (1649,  14, True ) /* GravityStatus */
-     , (1649,  19, True ) /* Attackable */;
+     , (1649,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (1649, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1649,   1, 'Pink Taper') /* Name */;

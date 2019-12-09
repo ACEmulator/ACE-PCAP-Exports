@@ -8,21 +8,14 @@ VALUES (12762,   1,       8192) /* ItemType - Writable */
      , (12762,   5,          5) /* EncumbranceVal */
      , (12762,  16,          8) /* ItemUseable - Contained */
      , (12762,  19,          0) /* Value */
-     , (12762,  65,        101) /* Placement - Resting */
      , (12762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12762, 174,          6) /* AppraisalPages */
-     , (12762, 175,          6) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12762,   1, False) /* Stuck */
-     , (12762,  11, True ) /* IgnoreCollisions */
-     , (12762,  13, True ) /* Ethereal */
-     , (12762,  14, True ) /* GravityStatus */
-     , (12762,  19, True ) /* Attackable */;
+     , (12762, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (12762, 8042,          6) /* PCAPRecordedAppraisalPages */
+     , (12762, 8043,          6) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12762,  39, 1.22000002861023) /* DefaultScale */
-     , (12762,  54, 0.300000011920929) /* UseRadius */;
+VALUES (12762,  39,    1.22) /* DefaultScale */
+     , (12762,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12762,   1, 'Guide to Healing') /* Name */

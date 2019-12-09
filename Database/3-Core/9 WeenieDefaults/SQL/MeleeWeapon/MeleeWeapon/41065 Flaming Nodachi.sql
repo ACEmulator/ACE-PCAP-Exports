@@ -36,15 +36,10 @@ VALUES (41065,   1,          1) /* ItemType - MeleeWeapon */
      , (41065, 178,         49) /* GemType */
      , (41065, 292,          2) /* Cleaving */
      , (41065, 353,         11) /* WeaponType - TwoHanded */
-     , (41065, 8030,          0);
+     , (41065, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41065,   1, False) /* Stuck */
-     , (41065,  11, True ) /* IgnoreCollisions */
-     , (41065,  13, True ) /* Ethereal */
-     , (41065,  14, True ) /* GravityStatus */
-     , (41065,  19, True ) /* Attackable */
-     , (41065,  22, True ) /* Inscribable */;
+VALUES (41065,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41065,   5,   -0.05) /* ManaRate */

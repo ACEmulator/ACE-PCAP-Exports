@@ -9,18 +9,13 @@ VALUES (8549,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8549,   1, True ) /* Stuck */
-     , (8549,  12, True ) /* ReportCollisions */
-     , (8549,  13, False) /* Ethereal */
-     , (8549,  15, True ) /* LightsStatus */
-     , (8549,  17, True ) /* Inelastic */
-     , (8549,  19, True ) /* Attackable */
      , (8549,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8549,  78,       1) /* Friction */
      , (8549,  79,       0) /* Elasticity */
-     , (8549, 8010, 7.53052997589111) /* PCAPRecordedVelocityX */
-     , (8549, 8011, -2.7002067565918) /* PCAPRecordedVelocityY */
+     , (8549, 8010,    7.53) /* PCAPRecordedVelocityX */
+     , (8549, 8011,    -2.7) /* PCAPRecordedVelocityY */
      , (8549, 8012,       0) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

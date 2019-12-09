@@ -18,15 +18,10 @@ VALUES (48815,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48815,   1, True ) /* Stuck */
-     , (48815,  11, True ) /* IgnoreCollisions */
-     , (48815,  12, True ) /* ReportCollisions */
-     , (48815,  13, False) /* Ethereal */
-     , (48815,  14, True ) /* GravityStatus */
-     , (48815,  19, False) /* Attackable */
-     , (48815,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (48815,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48815,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (48815,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48815,   1, 'Janthef') /* Name */

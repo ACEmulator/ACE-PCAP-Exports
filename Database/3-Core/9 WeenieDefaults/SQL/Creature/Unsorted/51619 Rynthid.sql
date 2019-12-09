@@ -14,17 +14,11 @@ VALUES (51619,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51619,   1, True ) /* Stuck */
-     , (51619,  11, True ) /* IgnoreCollisions */
-     , (51619,  12, True ) /* ReportCollisions */
-     , (51619,  13, True ) /* Ethereal */
-     , (51619,  14, True ) /* GravityStatus */
-     , (51619,  19, False) /* Attackable */
-     , (51619,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (51619,  42, True ) /* AllowEdgeSlide */;
+     , (51619,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51619,  54,       3) /* UseRadius */
-     , (51619,  76, 0.949999988079071) /* Translucency */;
+     , (51619,  76,    0.95) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51619,   1, 'Rynthid') /* Name */

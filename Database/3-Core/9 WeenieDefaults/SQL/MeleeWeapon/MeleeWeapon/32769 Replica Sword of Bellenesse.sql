@@ -17,7 +17,6 @@ VALUES (32769,   1,          1) /* ItemType - MeleeWeapon */
      , (32769,  48,         45) /* WeaponSkill - LightWeapons */
      , (32769,  49,         50) /* WeaponTime */
      , (32769,  51,          1) /* CombatUse - Melee */
-     , (32769,  65,        101) /* Placement - Resting */
      , (32769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32769, 106,        300) /* ItemSpellcraft */
      , (32769, 107,       7616) /* ItemCurMana */
@@ -31,26 +30,22 @@ VALUES (32769,   1,          1) /* ItemType - MeleeWeapon */
      , (32769, 166,         83) /* SlayerCreatureType - ViamontianKnight */
      , (32769, 176,          6) /* AppraisalItemSkill */
      , (32769, 353,          2) /* WeaponType - Sword */
-     , (32769, 8030,          0);
+     , (32769, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (32769, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32769,   1, False) /* Stuck */
-     , (32769,  11, True ) /* IgnoreCollisions */
-     , (32769,  13, True ) /* Ethereal */
-     , (32769,  14, True ) /* GravityStatus */
-     , (32769,  19, True ) /* Attackable */
-     , (32769,  22, True ) /* Inscribable */
+VALUES (32769,  22, True ) /* Inscribable */
      , (32769,  69, True ) /* IsSellable */
      , (32769,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32769,   5, -0.0329999998211861) /* ManaRate */
+VALUES (32769,   5,   -0.03) /* ManaRate */
      , (32769,  21,       0) /* WeaponLength */
-     , (32769,  22, 0.400000005960464) /* DamageVariance */
+     , (32769,  22,     0.4) /* DamageVariance */
      , (32769,  26,       0) /* MaximumVelocity */
-     , (32769,  29, 1.14999997615814) /* WeaponDefense */
-     , (32769,  39, 1.20000004768372) /* DefaultScale */
-     , (32769,  62, 1.14999997615814) /* WeaponOffense */
+     , (32769,  29,    1.15) /* WeaponDefense */
+     , (32769,  39,     1.2) /* DefaultScale */
+     , (32769,  62,    1.15) /* WeaponOffense */
      , (32769,  63,       1) /* DamageMod */
      , (32769, 136,       1) /* CriticalMultiplier */
      , (32769, 147,       1) /* CriticalFrequency */;

@@ -12,16 +12,9 @@ VALUES (5810,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5810,  15,          6) /* StackUnitValue */
      , (5810,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5810,  19,          6) /* Value */
-     , (5810,  65,        101) /* Placement - Resting */
      , (5810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5810,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5810,   1, False) /* Stuck */
-     , (5810,  11, True ) /* IgnoreCollisions */
-     , (5810,  13, True ) /* Ethereal */
-     , (5810,  14, True ) /* GravityStatus */
-     , (5810,  19, True ) /* Attackable */;
+     , (5810,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (5810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5810,   1, 'Carrot Cake Batter') /* Name */

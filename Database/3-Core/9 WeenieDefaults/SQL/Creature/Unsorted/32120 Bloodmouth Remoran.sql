@@ -13,11 +13,7 @@ VALUES (32120,   1,         16) /* ItemType - Creature */
      , (32120, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32120,   1, True ) /* Stuck */
-     , (32120,  12, True ) /* ReportCollisions */
-     , (32120,  13, False) /* Ethereal */
-     , (32120,  14, True ) /* GravityStatus */
-     , (32120,  19, True ) /* Attackable */;
+VALUES (32120,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32120,   1, 'Bloodmouth Remoran') /* Name */

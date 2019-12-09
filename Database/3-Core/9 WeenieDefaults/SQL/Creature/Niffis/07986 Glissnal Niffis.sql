@@ -15,14 +15,10 @@ VALUES (7986,   1,         16) /* ItemType - Creature */
      , (7986, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7986,   1, True ) /* Stuck */
-     , (7986,  12, True ) /* ReportCollisions */
-     , (7986,  13, False) /* Ethereal */
-     , (7986,  14, True ) /* GravityStatus */
-     , (7986,  19, True ) /* Attackable */;
+VALUES (7986,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7986,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (7986,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7986,   1, 'Glissnal Niffis') /* Name */

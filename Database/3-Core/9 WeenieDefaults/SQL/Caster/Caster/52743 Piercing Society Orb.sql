@@ -11,21 +11,16 @@ VALUES (52743,   1,      32768) /* ItemType - Caster */
      , (52743,  16,     655364) /* ItemUseable - 655364 */
      , (52743,  18,       2048) /* UiEffects - Piercing */
      , (52743,  19,         15) /* Value */
-     , (52743,  65,          1) /* Placement - RightHandCombat */
      , (52743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52743,  94,         16) /* TargetType - Creature */
-     , (52743, 151,          2) /* HookType - Wall */;
+     , (52743, 151,          2) /* HookType - Wall */
+     , (52743, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52743,   1, False) /* Stuck */
-     , (52743,  11, True ) /* IgnoreCollisions */
-     , (52743,  13, True ) /* Ethereal */
-     , (52743,  14, True ) /* GravityStatus */
-     , (52743,  19, True ) /* Attackable */
-     , (52743,  22, True ) /* Inscribable */;
+VALUES (52743,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52743,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (52743,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52743,   1, 'Piercing Society Orb') /* Name */;

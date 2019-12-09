@@ -8,20 +8,13 @@ VALUES (8209,   1,       8192) /* ItemType - Writable */
      , (8209,   5,         25) /* EncumbranceVal */
      , (8209,  16,          8) /* ItemUseable - Contained */
      , (8209,  19,         10) /* Value */
-     , (8209,  65,        101) /* Placement - Resting */
      , (8209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8209, 174,          1) /* AppraisalPages */
-     , (8209, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8209,   1, False) /* Stuck */
-     , (8209,  11, True ) /* IgnoreCollisions */
-     , (8209,  13, True ) /* Ethereal */
-     , (8209,  14, True ) /* GravityStatus */
-     , (8209,  19, True ) /* Attackable */;
+     , (8209, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8209, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (8209, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8209,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8209,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8209,   1, 'Call for Adventurers!') /* Name */;

@@ -12,21 +12,16 @@ VALUES (7860,   1,         32) /* ItemType - Food */
      , (7860,  15,         39) /* StackUnitValue */
      , (7860,  16,          8) /* ItemUseable - Contained */
      , (7860,  19,         39) /* Value */
-     , (7860,  65,        101) /* Placement - Resting */
      , (7860,  89,          4) /* BoosterEnum - Stamina */
      , (7860,  90,         15) /* BoostValue */
-     , (7860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7860, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7860,   1, False) /* Stuck */
-     , (7860,  11, True ) /* IgnoreCollisions */
-     , (7860,  13, True ) /* Ethereal */
-     , (7860,  14, True ) /* GravityStatus */
-     , (7860,  19, True ) /* Attackable */
-     , (7860,  69, False) /* IsSellable */;
+VALUES (7860,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7860,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (7860,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7860,   1, 'Holtburger') /* Name */

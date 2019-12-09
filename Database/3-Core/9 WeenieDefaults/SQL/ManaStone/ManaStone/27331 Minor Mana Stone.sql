@@ -8,23 +8,18 @@ VALUES (27331,   1,     524288) /* ItemType - ManaStone */
      , (27331,   5,         50) /* EncumbranceVal */
      , (27331,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (27331,  19,        250) /* Value */
-     , (27331,  65,        101) /* Placement - Resting */
      , (27331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27331,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (27331, 107,          0) /* ItemCurMana */
-     , (27331, 151,          2) /* HookType - Wall */;
+     , (27331, 151,          2) /* HookType - Wall */
+     , (27331, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27331,   1, False) /* Stuck */
-     , (27331,  11, True ) /* IgnoreCollisions */
-     , (27331,  13, True ) /* Ethereal */
-     , (27331,  14, True ) /* GravityStatus */
-     , (27331,  19, True ) /* Attackable */
-     , (27331,  22, True ) /* Inscribable */;
+VALUES (27331,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27331,  87,     0.1) /* ItemEfficiency */
-     , (27331, 137,   0.025) /* ManaStoneDestroyChance */;
+     , (27331, 137,    0.02) /* ManaStoneDestroyChance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27331,   1, 'Minor Mana Stone') /* Name */

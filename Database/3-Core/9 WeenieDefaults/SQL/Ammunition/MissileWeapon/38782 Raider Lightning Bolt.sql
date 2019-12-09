@@ -16,26 +16,18 @@ VALUES (38782,   1,        256) /* ItemType - MissileWeapon */
      , (38782,  19,          1) /* Value */
      , (38782,  50,          2) /* AmmoType - Bolt */
      , (38782,  51,          3) /* CombatUse - Ammo */
-     , (38782,  65,         52) /* Placement - MissileFlight */
      , (38782,  93,     132936) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, Gravity, Inelastic */
-     , (38782, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38782,   1, False) /* Stuck */
-     , (38782,  12, True ) /* ReportCollisions */
-     , (38782,  13, False) /* Ethereal */
-     , (38782,  14, True ) /* GravityStatus */
-     , (38782,  17, True ) /* Inelastic */
-     , (38782,  19, True ) /* Attackable */;
+     , (38782, 151,          2) /* HookType - Wall */
+     , (38782, 8041,         52) /* PCAPRecordedPlacement - MissileFlight */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38782,  39, 1.10000002384186) /* DefaultScale */
-     , (38782,  76, 0.800000011920929) /* Translucency */
+VALUES (38782,  39,     1.1) /* DefaultScale */
+     , (38782,  76,     0.8) /* Translucency */
      , (38782,  78,       1) /* Friction */
      , (38782,  79,       0) /* Elasticity */
-     , (38782, 8010, 49.0232810974121) /* PCAPRecordedVelocityX */
-     , (38782, 8011, 9.75428009033203) /* PCAPRecordedVelocityY */
-     , (38782, 8012, -1.25372433662415) /* PCAPRecordedVelocityZ */;
+     , (38782, 8010,   49.02) /* PCAPRecordedVelocityX */
+     , (38782, 8011,    9.75) /* PCAPRecordedVelocityY */
+     , (38782, 8012,   -1.25) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38782,   1, 'Raider Lightning Bolt') /* Name */;

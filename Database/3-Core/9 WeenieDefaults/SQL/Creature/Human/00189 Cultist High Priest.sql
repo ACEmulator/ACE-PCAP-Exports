@@ -18,11 +18,7 @@ VALUES (189,   1,         16) /* ItemType - Creature */
      , (189, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (189,   1, True ) /* Stuck */
-     , (189,  12, True ) /* ReportCollisions */
-     , (189,  13, False) /* Ethereal */
-     , (189,  14, True ) /* GravityStatus */
-     , (189,  19, True ) /* Attackable */;
+VALUES (189,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (189,   1, 'Cultist High Priest') /* Name */

@@ -15,14 +15,10 @@ VALUES (53376,   1,         16) /* ItemType - Creature */
      , (53376, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53376,   1, True ) /* Stuck */
-     , (53376,  12, True ) /* ReportCollisions */
-     , (53376,  13, False) /* Ethereal */
-     , (53376,  14, True ) /* GravityStatus */
-     , (53376,  19, True ) /* Attackable */;
+VALUES (53376,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53376,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (53376,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53376,   1, 'Sath''tik Tendril') /* Name */

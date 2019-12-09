@@ -6,15 +6,11 @@ VALUES (29938, 'doorstatuetemple-jungcit', 19, '2019-02-10 00:00:00') /* Door */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29938,   1,        128) /* ItemType - Misc */
      , (29938,  16,          1) /* ItemUseable - No */
-     , (29938,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (29938,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (29938, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29938,   1, True ) /* Stuck */
-     , (29938,  11, True ) /* IgnoreCollisions */
-     , (29938,  12, True ) /* ReportCollisions */
-     , (29938,  13, False) /* Ethereal */
-     , (29938,  19, True ) /* Attackable */
      , (29938,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -12,22 +12,17 @@ VALUES (12248,   1,        128) /* ItemType - Misc */
      , (12248,  15,         10) /* StackUnitValue */
      , (12248,  16,          8) /* ItemUseable - Contained */
      , (12248,  19,         10) /* Value */
-     , (12248,  65,        101) /* Placement - Resting */
      , (12248,  89,          2) /* BoosterEnum - Health */
      , (12248,  90,         70) /* BoostValue */
      , (12248,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12248, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (12248, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (12248, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12248,   1, False) /* Stuck */
-     , (12248,  11, True ) /* IgnoreCollisions */
-     , (12248,  13, True ) /* Ethereal */
-     , (12248,  14, True ) /* GravityStatus */
-     , (12248,  19, True ) /* Attackable */
-     , (12248,  69, False) /* IsSellable */;
+VALUES (12248,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12248,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (12248,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12248,   1, 'Trade Health Elixir') /* Name */

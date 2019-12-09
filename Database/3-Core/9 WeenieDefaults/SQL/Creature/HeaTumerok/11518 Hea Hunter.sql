@@ -16,14 +16,10 @@ VALUES (11518,   1,         16) /* ItemType - Creature */
      , (11518, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11518,   1, True ) /* Stuck */
-     , (11518,  12, True ) /* ReportCollisions */
-     , (11518,  13, False) /* Ethereal */
-     , (11518,  14, True ) /* GravityStatus */
-     , (11518,  19, True ) /* Attackable */;
+VALUES (11518,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11518,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (11518,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11518,   1, 'Hea Hunter') /* Name */

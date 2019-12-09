@@ -15,14 +15,10 @@ VALUES (41543,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41543,   1, True ) /* Stuck */
-     , (41543,  11, True ) /* IgnoreCollisions */
-     , (41543,  13, True ) /* Ethereal */
-     , (41543,  14, True ) /* GravityStatus */
-     , (41543,  19, False) /* Attackable */
-     , (41543,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (41543,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41543,  39, 0.449999988079071) /* DefaultScale */;
+VALUES (41543,  39,    0.45) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41543,   1, 'Pet Pumpkin Golem') /* Name */

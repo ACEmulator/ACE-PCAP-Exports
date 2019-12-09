@@ -12,19 +12,13 @@ VALUES (15682,   1,      65536) /* ItemType - Portal */
      , (15682, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15682,   1, True ) /* Stuck */
-     , (15682,  12, True ) /* ReportCollisions */
-     , (15682,  13, True ) /* Ethereal */
-     , (15682,  14, True ) /* GravityStatus */
-     , (15682,  15, True ) /* LightsStatus */
-     , (15682,  19, True ) /* Attackable */;
+VALUES (15682,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15682,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15682,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15682,   1, 'Shield of Ispar Villas Portal') /* Name */
-     , (15682,  38, 'Shield of Ispar Villas Portal (40.0S, 36.1E).') /* AppraisalPortalDestination */
      , (15682, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

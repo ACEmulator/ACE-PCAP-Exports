@@ -9,17 +9,12 @@ VALUES (43467,   1,       2048) /* ItemType - Gem */
      , (43467,  16,          1) /* ItemUseable - No */
      , (43467,  19,          0) /* Value */
      , (43467,  33,          1) /* Bonded - Bonded */
-     , (43467,  65,        101) /* Placement - Resting */
      , (43467,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43467, 114,          1) /* Attuned - Attuned */;
+     , (43467, 114,          1) /* Attuned - Attuned */
+     , (43467, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43467,   1, False) /* Stuck */
-     , (43467,  11, True ) /* IgnoreCollisions */
-     , (43467,  13, True ) /* Ethereal */
-     , (43467,  14, True ) /* GravityStatus */
-     , (43467,  19, True ) /* Attackable */
-     , (43467,  22, True ) /* Inscribable */;
+VALUES (43467,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43467,   1, 'Token of the Luminous Pearl of Heart Seeking ') /* Name */

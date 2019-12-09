@@ -13,18 +13,13 @@ VALUES (19482,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (19482,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (19482,  19,          0) /* Value */
      , (19482,  33,          1) /* Bonded - Bonded */
-     , (19482,  65,        101) /* Placement - Resting */
      , (19482,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19482,  94,       2176) /* TargetType - Misc, Gem */
-     , (19482, 114,          1) /* Attuned - Attuned */;
+     , (19482, 114,          1) /* Attuned - Attuned */
+     , (19482, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19482,   1, False) /* Stuck */
-     , (19482,  11, True ) /* IgnoreCollisions */
-     , (19482,  13, True ) /* Ethereal */
-     , (19482,  14, True ) /* GravityStatus */
-     , (19482,  19, True ) /* Attackable */
-     , (19482,  22, True ) /* Inscribable */;
+VALUES (19482,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19482,   1, 'Enchanted Decanter') /* Name */

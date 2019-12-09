@@ -12,19 +12,13 @@ VALUES (15673,   1,      65536) /* ItemType - Portal */
      , (15673, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15673,   1, True ) /* Stuck */
-     , (15673,  12, True ) /* ReportCollisions */
-     , (15673,  13, True ) /* Ethereal */
-     , (15673,  14, True ) /* GravityStatus */
-     , (15673,  15, True ) /* LightsStatus */
-     , (15673,  19, True ) /* Attackable */;
+VALUES (15673,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15673,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15673,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15673,   1, 'Far Horizon Cottages Portal') /* Name */
-     , (15673,  38, 'Far Horizon Cottages Portal (92.9N, 2.4W).') /* AppraisalPortalDestination */
      , (15673, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

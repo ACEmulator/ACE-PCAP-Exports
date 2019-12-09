@@ -9,21 +9,16 @@ VALUES (33927,   1,        128) /* ItemType - Misc */
      , (33927,  16,          1) /* ItemUseable - No */
      , (33927,  19,          0) /* Value */
      , (33927,  33,          1) /* Bonded - Bonded */
-     , (33927,  65,        101) /* Placement - Resting */
      , (33927,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33927, 114,          1) /* Attuned - Attuned */;
+     , (33927, 114,          1) /* Attuned - Attuned */
+     , (33927, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33927,   1, False) /* Stuck */
-     , (33927,  11, True ) /* IgnoreCollisions */
-     , (33927,  13, True ) /* Ethereal */
-     , (33927,  14, True ) /* GravityStatus */
-     , (33927,  19, True ) /* Attackable */
-     , (33927,  22, True ) /* Inscribable */
+VALUES (33927,  22, True ) /* Inscribable */
      , (33927,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33927,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (33927,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33927,   1, 'Letter to Turien Di Furza, from Larinne Kerendova') /* Name */

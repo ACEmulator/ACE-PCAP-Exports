@@ -13,20 +13,15 @@ VALUES (36376,   1,        128) /* ItemType - Misc */
      , (36376,  16,          1) /* ItemUseable - No */
      , (36376,  19,          1) /* Value */
      , (36376,  33,          1) /* Bonded - Bonded */
-     , (36376,  65,        101) /* Placement - Resting */
      , (36376,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36376, 114,          1) /* Attuned - Attuned */;
+     , (36376, 114,          1) /* Attuned - Attuned */
+     , (36376, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36376,   1, False) /* Stuck */
-     , (36376,  11, True ) /* IgnoreCollisions */
-     , (36376,  13, True ) /* Ethereal */
-     , (36376,  14, True ) /* GravityStatus */
-     , (36376,  19, True ) /* Attackable */
-     , (36376,  69, False) /* IsSellable */;
+VALUES (36376,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36376,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (36376,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36376,   1, 'Small Olthoi Venom Sac') /* Name */

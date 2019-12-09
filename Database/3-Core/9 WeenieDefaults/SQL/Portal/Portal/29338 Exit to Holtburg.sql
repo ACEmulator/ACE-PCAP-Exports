@@ -12,20 +12,14 @@ VALUES (29338,   1,      65536) /* ItemType - Portal */
      , (29338, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29338,   1, True ) /* Stuck */
-     , (29338,  12, True ) /* ReportCollisions */
-     , (29338,  13, True ) /* Ethereal */
-     , (29338,  14, True ) /* GravityStatus */
-     , (29338,  15, True ) /* LightsStatus */
-     , (29338,  19, True ) /* Attackable */;
+VALUES (29338,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29338,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29338,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29338,   1, 'Exit to Holtburg') /* Name */
      , (29338,  16, 'You must complete the Sentry''s quest before you may use this portal.') /* LongDesc */
-     , (29338,  38, 'Exit to Holtburg (42.1N, 33.6E).') /* AppraisalPortalDestination */
      , (29338, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

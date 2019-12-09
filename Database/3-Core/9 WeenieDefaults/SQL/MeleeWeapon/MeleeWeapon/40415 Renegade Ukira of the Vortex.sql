@@ -12,20 +12,15 @@ VALUES (40415,   1,          1) /* ItemType - MeleeWeapon */
      , (40415,  18,          1) /* UiEffects - Magical */
      , (40415,  19,      20000) /* Value */
      , (40415,  51,          1) /* CombatUse - Melee */
-     , (40415,  65,          1) /* Placement - RightHandCombat */
      , (40415,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40415, 151,          2) /* HookType - Wall */;
+     , (40415, 151,          2) /* HookType - Wall */
+     , (40415, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40415,   1, False) /* Stuck */
-     , (40415,  11, True ) /* IgnoreCollisions */
-     , (40415,  13, True ) /* Ethereal */
-     , (40415,  14, True ) /* GravityStatus */
-     , (40415,  19, True ) /* Attackable */
-     , (40415,  22, True ) /* Inscribable */;
+VALUES (40415,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40415,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (40415,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40415,   1, 'Renegade Ukira of the Vortex') /* Name */;

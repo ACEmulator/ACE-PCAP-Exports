@@ -8,17 +8,12 @@ VALUES (11931,   1,        128) /* ItemType - Misc */
      , (11931,   5,        500) /* EncumbranceVal */
      , (11931,  16,          1) /* ItemUseable - No */
      , (11931,  19,     100000) /* Value */
-     , (11931,  65,        101) /* Placement - Resting */
      , (11931,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11931, 151,          2) /* HookType - Wall */;
+     , (11931, 151,          2) /* HookType - Wall */
+     , (11931, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11931,   1, False) /* Stuck */
-     , (11931,  11, True ) /* IgnoreCollisions */
-     , (11931,  13, True ) /* Ethereal */
-     , (11931,  14, True ) /* GravityStatus */
-     , (11931,  19, True ) /* Attackable */
-     , (11931,  22, True ) /* Inscribable */;
+VALUES (11931,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11931,   1, 'Dereth Map') /* Name */

@@ -8,16 +8,11 @@ VALUES (685,   1,        128) /* ItemType - Misc */
      , (685,   5,       9000) /* EncumbranceVal */
      , (685,  16,          1) /* ItemUseable - No */
      , (685,  19,        125) /* Value */
-     , (685,  65,        101) /* Placement - Resting */
-     , (685,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (685,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (685, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (685,   1, True ) /* Stuck */
-     , (685,  11, True ) /* IgnoreCollisions */
-     , (685,  12, True ) /* ReportCollisions */
-     , (685,  13, False) /* Ethereal */
-     , (685,  14, True ) /* GravityStatus */
-     , (685,  19, True ) /* Attackable */;
+VALUES (685,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (685,   1, 'Thorsten''s Rest') /* Name */

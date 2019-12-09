@@ -16,15 +16,10 @@ VALUES (20186,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20186,   1, True ) /* Stuck */
-     , (20186,  12, True ) /* ReportCollisions */
-     , (20186,  13, False) /* Ethereal */
-     , (20186,  14, True ) /* GravityStatus */
-     , (20186,  15, True ) /* LightsStatus */
-     , (20186,  19, True ) /* Attackable */
      , (20186, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20186,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (20186,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20186,   1, 'Apozim') /* Name */

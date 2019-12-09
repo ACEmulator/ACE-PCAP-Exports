@@ -13,21 +13,16 @@ VALUES (15817,   1,        128) /* ItemType - Misc */
      , (15817,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (15817,  19,          0) /* Value */
      , (15817,  33,          1) /* Bonded - Bonded */
-     , (15817,  65,        101) /* Placement - Resting */
      , (15817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15817,  94,        128) /* TargetType - Misc */
-     , (15817, 114,          1) /* Attuned - Attuned */;
+     , (15817, 114,          1) /* Attuned - Attuned */
+     , (15817, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15817,   1, False) /* Stuck */
-     , (15817,  11, True ) /* IgnoreCollisions */
-     , (15817,  13, True ) /* Ethereal */
-     , (15817,  14, True ) /* GravityStatus */
-     , (15817,  19, True ) /* Attackable */
-     , (15817,  22, True ) /* Inscribable */;
+VALUES (15817,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15817,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (15817,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15817,   1, 'Wax') /* Name */

@@ -15,21 +15,16 @@ VALUES (32154,   1,          4) /* ItemType - Clothing */
      , (32154, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32154,   1, False) /* Stuck */
-     , (32154,  11, True ) /* IgnoreCollisions */
-     , (32154,  13, True ) /* Ethereal */
-     , (32154,  14, True ) /* GravityStatus */
-     , (32154,  19, True ) /* Attackable */
-     , (32154,  22, True ) /* Inscribable */;
+VALUES (32154,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32154,  13,     0.5) /* ArmorModVsSlash */
      , (32154,  14,     0.5) /* ArmorModVsPierce */
      , (32154,  15,    0.75) /* ArmorModVsBludgeon */
-     , (32154,  16, 0.649999976158142) /* ArmorModVsCold */
-     , (32154,  17, 0.550000011920929) /* ArmorModVsFire */
-     , (32154,  18, 0.550000011920929) /* ArmorModVsAcid */
-     , (32154,  19, 0.649999976158142) /* ArmorModVsElectric */
+     , (32154,  16,    0.65) /* ArmorModVsCold */
+     , (32154,  17,    0.55) /* ArmorModVsFire */
+     , (32154,  18,    0.55) /* ArmorModVsAcid */
+     , (32154,  19,    0.65) /* ArmorModVsElectric */
      , (32154, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

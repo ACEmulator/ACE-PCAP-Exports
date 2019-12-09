@@ -11,12 +11,7 @@ VALUES (15695,   1,        128) /* ItemType - Misc */
      , (15695,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15695,   1, True ) /* Stuck */
-     , (15695,  11, True ) /* IgnoreCollisions */
-     , (15695,  12, True ) /* ReportCollisions */
-     , (15695,  13, False) /* Ethereal */
-     , (15695,  14, True ) /* GravityStatus */
-     , (15695,  19, True ) /* Attackable */;
+VALUES (15695,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15695,   1, 'Broken Haft Vale') /* Name */;

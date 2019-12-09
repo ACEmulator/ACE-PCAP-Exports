@@ -15,14 +15,10 @@ VALUES (46426,   1,         16) /* ItemType - Creature */
      , (46426, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46426,   1, True ) /* Stuck */
-     , (46426,  12, True ) /* ReportCollisions */
-     , (46426,  13, False) /* Ethereal */
-     , (46426,  14, True ) /* GravityStatus */
-     , (46426,  19, True ) /* Attackable */;
+VALUES (46426,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46426,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (46426,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46426,   1, 'Ronin Hirachi') /* Name */

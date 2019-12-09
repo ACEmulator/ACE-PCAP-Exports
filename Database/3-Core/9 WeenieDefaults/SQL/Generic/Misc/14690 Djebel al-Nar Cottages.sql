@@ -11,12 +11,7 @@ VALUES (14690,   1,        128) /* ItemType - Misc */
      , (14690,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14690,   1, True ) /* Stuck */
-     , (14690,  11, True ) /* IgnoreCollisions */
-     , (14690,  12, True ) /* ReportCollisions */
-     , (14690,  13, False) /* Ethereal */
-     , (14690,  14, True ) /* GravityStatus */
-     , (14690,  19, True ) /* Attackable */;
+VALUES (14690,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14690,   1, 'Djebel al-Nar Cottages') /* Name */;

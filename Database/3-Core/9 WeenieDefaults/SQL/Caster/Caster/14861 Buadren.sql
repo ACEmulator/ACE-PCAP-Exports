@@ -10,23 +10,18 @@ VALUES (14861,   1,      32768) /* ItemType - Caster */
      , (14861,  16,          1) /* ItemUseable - No */
      , (14861,  19,          0) /* Value */
      , (14861,  33,          1) /* Bonded - Bonded */
-     , (14861,  65,        101) /* Placement - Resting */
      , (14861,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14861,  94,         16) /* TargetType - Creature */
-     , (14861, 151,          3) /* HookType - Floor, Wall */;
+     , (14861, 151,          3) /* HookType - Floor, Wall */
+     , (14861, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14861,   1, False) /* Stuck */
-     , (14861,  11, True ) /* IgnoreCollisions */
-     , (14861,  13, True ) /* Ethereal */
-     , (14861,  14, True ) /* GravityStatus */
-     , (14861,  19, True ) /* Attackable */
-     , (14861,  22, True ) /* Inscribable */
+VALUES (14861,  22, True ) /* Inscribable */
      , (14861,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14861,  29,       1) /* WeaponDefense */
-     , (14861, 144, 1.065207852566E-314) /* ManaConversionMod */;
+     , (14861, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14861,   1, 'Buadren') /* Name */

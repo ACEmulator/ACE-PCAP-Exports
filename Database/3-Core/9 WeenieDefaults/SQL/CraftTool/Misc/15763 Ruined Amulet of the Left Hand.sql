@@ -13,21 +13,16 @@ VALUES (15763,   1,        128) /* ItemType - Misc */
      , (15763,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15763,  19,          0) /* Value */
      , (15763,  33,          1) /* Bonded - Bonded */
-     , (15763,  65,        101) /* Placement - Resting */
      , (15763,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15763,  94,          2) /* TargetType - Armor */
-     , (15763, 114,          1) /* Attuned - Attuned */;
+     , (15763, 114,          1) /* Attuned - Attuned */
+     , (15763, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15763,   1, False) /* Stuck */
-     , (15763,  11, True ) /* IgnoreCollisions */
-     , (15763,  13, True ) /* Ethereal */
-     , (15763,  14, True ) /* GravityStatus */
-     , (15763,  19, True ) /* Attackable */
-     , (15763,  22, True ) /* Inscribable */;
+VALUES (15763,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15763,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (15763,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15763,   1, 'Ruined Amulet of the Left Hand') /* Name */

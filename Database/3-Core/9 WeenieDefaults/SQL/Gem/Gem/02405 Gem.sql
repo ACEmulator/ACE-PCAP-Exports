@@ -12,17 +12,12 @@ VALUES (2405,   1,       2048) /* ItemType - Gem */
      , (2405,  15,       1607) /* StackUnitValue */
      , (2405,  16,          1) /* ItemUseable - No */
      , (2405,  19,       1607) /* Value */
-     , (2405,  65,        101) /* Placement - Resting */
      , (2405,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2405, 131,         29) /* MaterialType - LavenderJade */;
+     , (2405, 131,         29) /* MaterialType - LavenderJade */
+     , (2405, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2405,   1, False) /* Stuck */
-     , (2405,  11, True ) /* IgnoreCollisions */
-     , (2405,  13, True ) /* Ethereal */
-     , (2405,  14, True ) /* GravityStatus */
-     , (2405,  19, True ) /* Attackable */
-     , (2405,  22, True ) /* Inscribable */;
+VALUES (2405,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2405, 8004,       7) /* PCAPRecordedWorkmanship */;

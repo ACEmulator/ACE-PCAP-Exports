@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15818,   1,        128) /* ItemType - Misc */
      , (15818,   5,        200) /* EncumbranceVal */
      , (15818,  16,          1) /* ItemUseable - No */
-     , (15818,  65,        101) /* Placement - Resting */
-     , (15818,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (15818,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (15818, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15818,   1, False) /* Stuck */
-     , (15818,  11, True ) /* IgnoreCollisions */
-     , (15818,  13, True ) /* Ethereal */
-     , (15818,  14, True ) /* GravityStatus */
-     , (15818,  19, True ) /* Attackable */
-     , (15818,  22, True ) /* Inscribable */;
+VALUES (15818,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15818,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (15818,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15818,   1, 'Wax Mould') /* Name */;

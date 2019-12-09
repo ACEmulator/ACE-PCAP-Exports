@@ -11,11 +11,7 @@ VALUES (35267,   1,        128) /* ItemType - Misc */
      , (35267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35267,   1, True ) /* Stuck */
-     , (35267,  11, True ) /* IgnoreCollisions */
-     , (35267,  13, True ) /* Ethereal */
-     , (35267,  14, True ) /* GravityStatus */
-     , (35267,  19, True ) /* Attackable */;
+VALUES (35267,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35267,   1, 'Gargoyle') /* Name */;

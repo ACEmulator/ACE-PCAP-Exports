@@ -12,18 +12,13 @@ VALUES (15716,   1,        128) /* ItemType - Misc */
      , (15716,  15,      10000) /* StackUnitValue */
      , (15716,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15716,  19,      10000) /* Value */
-     , (15716,  65,        101) /* Placement - Resting */
      , (15716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15716,  94,        128) /* TargetType - Misc */
-     , (15716, 151,          1) /* HookType - Floor */;
+     , (15716, 151,          1) /* HookType - Floor */
+     , (15716, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15716,   1, False) /* Stuck */
-     , (15716,  11, True ) /* IgnoreCollisions */
-     , (15716,  13, True ) /* Ethereal */
-     , (15716,  14, True ) /* GravityStatus */
-     , (15716,  19, True ) /* Attackable */
-     , (15716,  22, True ) /* Inscribable */;
+VALUES (15716,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15716,   1, 'Crystal Vase') /* Name */

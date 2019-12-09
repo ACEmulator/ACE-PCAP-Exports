@@ -16,7 +16,6 @@ VALUES (3769,   1,          1) /* ItemType - MeleeWeapon */
      , (3769,  48,         45) /* WeaponSkill - LightWeapons */
      , (3769,  49,         40) /* WeaponTime */
      , (3769,  51,          1) /* CombatUse - Melee */
-     , (3769,  65,        101) /* Placement - Resting */
      , (3769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3769, 105,          4) /* ItemWorkmanship */
      , (3769, 131,         76) /* MaterialType - Pine */
@@ -28,15 +27,11 @@ VALUES (3769,   1,          1) /* ItemType - MeleeWeapon */
      , (3769, 177,          1) /* GemCount */
      , (3769, 178,         34) /* GemType */
      , (3769, 353,          4) /* WeaponType - Mace */
-     , (3769, 8030,          0);
+     , (3769, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (3769, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3769,   1, False) /* Stuck */
-     , (3769,  11, True ) /* IgnoreCollisions */
-     , (3769,  13, True ) /* Ethereal */
-     , (3769,  14, True ) /* GravityStatus */
-     , (3769,  19, True ) /* Attackable */
-     , (3769,  22, True ) /* Inscribable */;
+VALUES (3769,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3769,  21,       0) /* WeaponLength */

@@ -9,24 +9,19 @@ VALUES (41513,   1,          8) /* ItemType - Jewelry */
      , (41513,   9,   67108864) /* ValidLocations - TrinketOne */
      , (41513,  16,          1) /* ItemUseable - No */
      , (41513,  19,         50) /* Value */
-     , (41513,  65,        101) /* Placement - Resting */
      , (41513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41513, 106,         50) /* ItemSpellcraft */
      , (41513, 107,       6000) /* ItemCurMana */
      , (41513, 108,       6000) /* ItemMaxMana */
-     , (41513, 109,         15) /* ItemDifficulty */;
+     , (41513, 109,         15) /* ItemDifficulty */
+     , (41513, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41513,   1, False) /* Stuck */
-     , (41513,  11, True ) /* IgnoreCollisions */
-     , (41513,  13, True ) /* Ethereal */
-     , (41513,  14, True ) /* GravityStatus */
-     , (41513,  19, True ) /* Attackable */
-     , (41513,  22, True ) /* Inscribable */;
+VALUES (41513,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41513,   5,  -0.049) /* ManaRate */
-     , (41513,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (41513,   5,   -0.05) /* ManaRate */
+     , (41513,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41513,   1, 'Pathwarden Trinket') /* Name */

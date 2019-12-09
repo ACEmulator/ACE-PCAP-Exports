@@ -10,7 +10,6 @@ VALUES (27445,   1,          8) /* ItemType - Jewelry */
      , (27445,  16,          1) /* ItemUseable - No */
      , (27445,  18,          1) /* UiEffects - Magical */
      , (27445,  19,       6000) /* Value */
-     , (27445,  65,        101) /* Placement - Resting */
      , (27445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27445, 106,        500) /* ItemSpellcraft */
      , (27445, 107,        800) /* ItemCurMana */
@@ -19,18 +18,14 @@ VALUES (27445,   1,          8) /* ItemType - Jewelry */
      , (27445, 151,          2) /* HookType - Wall */
      , (27445, 158,          2) /* WieldRequirements - RawSkill */
      , (27445, 159,         14) /* WieldSkillType - ArcaneLore */
-     , (27445, 160,        225) /* WieldDifficulty */;
+     , (27445, 160,        225) /* WieldDifficulty */
+     , (27445, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27445,   1, False) /* Stuck */
-     , (27445,  11, True ) /* IgnoreCollisions */
-     , (27445,  13, True ) /* Ethereal */
-     , (27445,  14, True ) /* GravityStatus */
-     , (27445,  19, True ) /* Attackable */
-     , (27445,  22, True ) /* Inscribable */;
+VALUES (27445,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27445,   5, -0.033333) /* ManaRate */;
+VALUES (27445,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27445,   1, 'Shadow Stone Necklace') /* Name */

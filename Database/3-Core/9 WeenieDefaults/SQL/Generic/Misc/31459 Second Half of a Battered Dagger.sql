@@ -8,16 +8,11 @@ VALUES (31459,   1,        128) /* ItemType - Misc */
      , (31459,   5,         50) /* EncumbranceVal */
      , (31459,  16,          1) /* ItemUseable - No */
      , (31459,  19,          0) /* Value */
-     , (31459,  65,        101) /* Placement - Resting */
-     , (31459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31459, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31459,   1, False) /* Stuck */
-     , (31459,  11, True ) /* IgnoreCollisions */
-     , (31459,  13, True ) /* Ethereal */
-     , (31459,  14, True ) /* GravityStatus */
-     , (31459,  19, True ) /* Attackable */
-     , (31459,  22, True ) /* Inscribable */;
+VALUES (31459,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31459,   1, 'Second Half of a Battered Dagger') /* Name */

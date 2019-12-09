@@ -13,21 +13,16 @@ VALUES (46427,   1,        128) /* ItemType - Misc */
      , (46427,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (46427,  19,          0) /* Value */
      , (46427,  33,          1) /* Bonded - Bonded */
-     , (46427,  65,        101) /* Placement - Resting */
      , (46427,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46427,  94,        128) /* TargetType - Misc */
      , (46427,  98, 1485731706) /* CreationTimestamp */
      , (46427, 114,          1) /* Attuned - Attuned */
      , (46427, 267,       7200) /* Lifespan */
-     , (46427, 268,       7189) /* RemainingLifespan */;
+     , (46427, 268,       7189) /* RemainingLifespan */
+     , (46427, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46427,   1, False) /* Stuck */
-     , (46427,  11, True ) /* IgnoreCollisions */
-     , (46427,  13, True ) /* Ethereal */
-     , (46427,  14, True ) /* GravityStatus */
-     , (46427,  19, True ) /* Attackable */
-     , (46427,  22, True ) /* Inscribable */;
+VALUES (46427,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46427,   1, 'Ancient Skull') /* Name */

@@ -11,17 +11,12 @@ VALUES (22938,   1,        128) /* ItemType - Misc */
      , (22938,  13,         10) /* StackUnitEncumbrance */
      , (22938,  15,          0) /* StackUnitValue */
      , (22938,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (22938,  65,        101) /* Placement - Resting */
      , (22938,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22938,  94,        128) /* TargetType - Misc */;
+     , (22938,  94,        128) /* TargetType - Misc */
+     , (22938, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22938,   1, False) /* Stuck */
-     , (22938,  11, True ) /* IgnoreCollisions */
-     , (22938,  13, True ) /* Ethereal */
-     , (22938,  14, True ) /* GravityStatus */
-     , (22938,  19, True ) /* Attackable */
-     , (22938,  22, True ) /* Inscribable */;
+VALUES (22938,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22938,   1, 'Gem of Lowering Endurance') /* Name */;

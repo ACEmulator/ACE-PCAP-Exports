@@ -17,7 +17,6 @@ VALUES (3894,   1,          1) /* ItemType - MeleeWeapon */
      , (3894,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (3894,  49,         37) /* WeaponTime */
      , (3894,  51,          1) /* CombatUse - Melee */
-     , (3894,  65,          1) /* Placement - RightHandCombat */
      , (3894,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3894, 105,          7) /* ItemWorkmanship */
      , (3894, 106,        276) /* ItemSpellcraft */
@@ -36,27 +35,23 @@ VALUES (3894,   1,          1) /* ItemType - MeleeWeapon */
      , (3894, 177,          5) /* GemCount */
      , (3894, 178,         21) /* GemType */
      , (3894, 353,          2) /* WeaponType - Sword */
-     , (3894, 8030,          0);
+     , (3894, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (3894, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3894,   1, False) /* Stuck */
-     , (3894,  11, True ) /* IgnoreCollisions */
-     , (3894,  13, True ) /* Ethereal */
-     , (3894,  14, True ) /* GravityStatus */
-     , (3894,  19, True ) /* Attackable */
-     , (3894,  22, True ) /* Inscribable */
+VALUES (3894,  22, True ) /* Inscribable */
      , (3894,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3894,   5, -0.0555555555555556) /* ManaRate */
+VALUES (3894,   5,   -0.06) /* ManaRate */
      , (3894,  21,       0) /* WeaponLength */
      , (3894,  22,    0.53) /* DamageVariance */
      , (3894,  26,       0) /* MaximumVelocity */
      , (3894,  29,    1.11) /* WeaponDefense */
-     , (3894,  39, 1.21000003814697) /* DefaultScale */
+     , (3894,  39,    1.21) /* DefaultScale */
      , (3894,  62,    1.15) /* WeaponOffense */
      , (3894,  63,       1) /* DamageMod */
-     , (3894, 150,   1.015) /* WeaponMagicDefense */
+     , (3894, 150,    1.01) /* WeaponMagicDefense */
      , (3894, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

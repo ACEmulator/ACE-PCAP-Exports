@@ -12,20 +12,15 @@ VALUES (34894,   1,        128) /* ItemType - Misc */
      , (34894,  15,       1000) /* StackUnitValue */
      , (34894,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (34894,  19,       1000) /* Value */
-     , (34894,  65,        101) /* Placement - Resting */
      , (34894,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34894,  94,        128) /* TargetType - Misc */;
+     , (34894,  94,        128) /* TargetType - Misc */
+     , (34894, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34894,   1, False) /* Stuck */
-     , (34894,  11, True ) /* IgnoreCollisions */
-     , (34894,  13, True ) /* Ethereal */
-     , (34894,  14, True ) /* GravityStatus */
-     , (34894,  19, True ) /* Attackable */
-     , (34894,  22, True ) /* Inscribable */;
+VALUES (34894,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34894,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (34894,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34894,   1, 'Alchemy Sigil') /* Name */;

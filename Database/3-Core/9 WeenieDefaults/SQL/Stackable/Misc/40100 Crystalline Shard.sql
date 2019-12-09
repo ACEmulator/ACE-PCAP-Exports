@@ -15,15 +15,10 @@ VALUES (40100,   1,        128) /* ItemType - Misc */
      , (40100,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40100,   1, False) /* Stuck */
-     , (40100,  11, True ) /* IgnoreCollisions */
-     , (40100,  13, True ) /* Ethereal */
-     , (40100,  14, True ) /* GravityStatus */
-     , (40100,  19, True ) /* Attackable */
-     , (40100,  69, False) /* IsSellable */;
+VALUES (40100,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40100,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (40100,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40100,   1, 'Crystalline Shard') /* Name */

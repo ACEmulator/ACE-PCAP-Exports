@@ -10,21 +10,15 @@ VALUES (41708,   1,          1) /* ItemType - MeleeWeapon */
      , (41708,  16,          1) /* ItemUseable - No */
      , (41708,  19,       5000) /* Value */
      , (41708,  51,          5) /* CombatUse - TwoHanded */
-     , (41708,  65,        101) /* Placement - Resting */
      , (41708,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (41708, 151,          2) /* HookType - Wall */;
+     , (41708, 151,          2) /* HookType - Wall */
+     , (41708, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41708,   1, False) /* Stuck */
-     , (41708,  11, True ) /* IgnoreCollisions */
-     , (41708,  13, True ) /* Ethereal */
-     , (41708,  14, True ) /* GravityStatus */
-     , (41708,  15, True ) /* LightsStatus */
-     , (41708,  19, True ) /* Attackable */
-     , (41708,  22, True ) /* Inscribable */;
+VALUES (41708,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41708,  76, 0.699999988079071) /* Translucency */;
+VALUES (41708,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41708,   1, 'Phantom Two Handed Spear') /* Name */;

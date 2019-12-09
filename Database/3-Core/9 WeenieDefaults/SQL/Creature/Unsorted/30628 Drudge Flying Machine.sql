@@ -8,7 +8,7 @@ VALUES (30628,   1,         16) /* ItemType - Creature */
      , (30628,   6,        255) /* ItemsCapacity */
      , (30628,   7,        255) /* ContainersCapacity */
      , (30628,  16,         32) /* ItemUseable - Remote */
-     , (30628,  93,    2163740) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP, ReportCollisionsAsEnvironment */
+     , (30628,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30628,  95,          3) /* RadarBlipColor - White */
      , (30628, 307,          0) /* DamageRating */
      , (30628, 308,          0) /* DamageResistRating */
@@ -38,18 +38,13 @@ VALUES (30628,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30628,   1, True ) /* Stuck */
-     , (30628,  11, True ) /* IgnoreCollisions */
-     , (30628,  12, True ) /* ReportCollisions */
-     , (30628,  13, True ) /* Ethereal */
-     , (30628,  14, True ) /* GravityStatus */
-     , (30628,  19, False) /* Attackable */
-     , (30628,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (30628,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30628,  54,      55) /* UseRadius */
      , (30628, 8010,       0) /* PCAPRecordedVelocityX */
      , (30628, 8011,       0) /* PCAPRecordedVelocityY */
-     , (30628, 8012, -0.142346724867821) /* PCAPRecordedVelocityZ */;
+     , (30628, 8012,   -0.14) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30628,   1, 'Drudge Flying Machine') /* Name */

@@ -17,12 +17,7 @@ VALUES (38148,   1,         16) /* ItemType - Creature */
      , (38148, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38148,   1, True ) /* Stuck */
-     , (38148,  12, True ) /* ReportCollisions */
-     , (38148,  13, False) /* Ethereal */
-     , (38148,  14, True ) /* GravityStatus */
-     , (38148,  19, True ) /* Attackable */
-     , (38148,  42, True ) /* AllowEdgeSlide */;
+VALUES (38148,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38148,   1, 'Cloywer the Unstable') /* Name */

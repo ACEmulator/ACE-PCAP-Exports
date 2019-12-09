@@ -9,17 +9,12 @@ VALUES (43509,   1,       2048) /* ItemType - Gem */
      , (43509,  16,          1) /* ItemUseable - No */
      , (43509,  19,          0) /* Value */
      , (43509,  33,          1) /* Bonded - Bonded */
-     , (43509,  65,        101) /* Placement - Resting */
      , (43509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43509, 114,          1) /* Attuned - Attuned */;
+     , (43509, 114,          1) /* Attuned - Attuned */
+     , (43509, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43509,   1, False) /* Stuck */
-     , (43509,  11, True ) /* IgnoreCollisions */
-     , (43509,  13, True ) /* Ethereal */
-     , (43509,  14, True ) /* GravityStatus */
-     , (43509,  19, True ) /* Attackable */
-     , (43509,  22, True ) /* Inscribable */;
+VALUES (43509,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43509,   1, 'Token of the Aura of the Craftsman') /* Name */

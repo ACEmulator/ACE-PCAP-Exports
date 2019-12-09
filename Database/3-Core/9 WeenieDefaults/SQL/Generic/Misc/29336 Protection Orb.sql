@@ -9,17 +9,12 @@ VALUES (29336,   1,        128) /* ItemType - Misc */
      , (29336,  16,          1) /* ItemUseable - No */
      , (29336,  19,          0) /* Value */
      , (29336,  33,          1) /* Bonded - Bonded */
-     , (29336,  65,        101) /* Placement - Resting */
      , (29336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29336, 114,          1) /* Attuned - Attuned */;
+     , (29336, 114,          1) /* Attuned - Attuned */
+     , (29336, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29336,   1, False) /* Stuck */
-     , (29336,  11, True ) /* IgnoreCollisions */
-     , (29336,  13, True ) /* Ethereal */
-     , (29336,  14, True ) /* GravityStatus */
-     , (29336,  19, True ) /* Attackable */
-     , (29336,  22, True ) /* Inscribable */;
+VALUES (29336,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29336,   1, 'Protection Orb') /* Name */

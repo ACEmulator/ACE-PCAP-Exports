@@ -11,18 +11,13 @@ VALUES (11462,   1,        128) /* ItemType - Misc */
      , (11462,  13,        300) /* StackUnitEncumbrance */
      , (11462,  15,          0) /* StackUnitValue */
      , (11462,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (11462,  65,        101) /* Placement - Resting */
      , (11462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11462,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (11462, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (11462, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (11462, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11462,   1, False) /* Stuck */
-     , (11462,  11, True ) /* IgnoreCollisions */
-     , (11462,  13, True ) /* Ethereal */
-     , (11462,  14, True ) /* GravityStatus */
-     , (11462,  19, True ) /* Attackable */
-     , (11462,  22, True ) /* Inscribable */;
+VALUES (11462,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11462,   1, 'Volkama''s Totem of the Rivers') /* Name */;

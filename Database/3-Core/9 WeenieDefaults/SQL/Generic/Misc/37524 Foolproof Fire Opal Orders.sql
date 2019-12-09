@@ -6,18 +6,11 @@ VALUES (37524, 'ace37524-foolprooffireopalorders', 1, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37524,   1,        128) /* ItemType - Misc */
      , (37524,  16,          1) /* ItemUseable - No */
-     , (37524,  65,        101) /* Placement - Resting */
-     , (37524,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37524,   1, False) /* Stuck */
-     , (37524,  11, True ) /* IgnoreCollisions */
-     , (37524,  13, True ) /* Ethereal */
-     , (37524,  14, True ) /* GravityStatus */
-     , (37524,  19, True ) /* Attackable */;
+     , (37524,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37524, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37524,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (37524,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37524,   1, 'Foolproof Fire Opal Orders') /* Name */;

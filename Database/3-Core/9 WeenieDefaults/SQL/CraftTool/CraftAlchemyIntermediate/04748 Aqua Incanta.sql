@@ -12,18 +12,13 @@ VALUES (4748,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (4748,  15,          5) /* StackUnitValue */
      , (4748,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4748,  19,          5) /* Value */
-     , (4748,  65,        101) /* Placement - Resting */
      , (4748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4748,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (4748, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (4748, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (4748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4748,   1, False) /* Stuck */
-     , (4748,  11, True ) /* IgnoreCollisions */
-     , (4748,  13, True ) /* Ethereal */
-     , (4748,  14, True ) /* GravityStatus */
-     , (4748,  19, True ) /* Attackable */
-     , (4748,  69, False) /* IsSellable */;
+VALUES (4748,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4748,   1, 'Aqua Incanta') /* Name */

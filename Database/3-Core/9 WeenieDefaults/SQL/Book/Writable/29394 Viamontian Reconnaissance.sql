@@ -7,15 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29394,   1,       8192) /* ItemType - Writable */
      , (29394,   5,          5) /* EncumbranceVal */
      , (29394,  16,          8) /* ItemUseable - Contained */
-     , (29394,  65,        101) /* Placement - Resting */
-     , (29394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29394,   1, False) /* Stuck */
-     , (29394,  11, True ) /* IgnoreCollisions */
-     , (29394,  13, True ) /* Ethereal */
-     , (29394,  14, True ) /* GravityStatus */
-     , (29394,  19, True ) /* Attackable */;
+     , (29394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29394, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29394,  54,       1) /* UseRadius */;

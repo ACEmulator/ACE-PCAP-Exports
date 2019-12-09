@@ -12,17 +12,10 @@ VALUES (41405,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41405,  15,         10) /* StackUnitValue */
      , (41405,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41405,  19,         10) /* Value */
-     , (41405,  65,        101) /* Placement - Resting */
      , (41405,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41405,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41405, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41405,   1, False) /* Stuck */
-     , (41405,  11, True ) /* IgnoreCollisions */
-     , (41405,  13, True ) /* Ethereal */
-     , (41405,  14, True ) /* GravityStatus */
-     , (41405,  19, True ) /* Attackable */;
+     , (41405, 151,          9) /* HookType - Floor, Yard */
+     , (41405, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41405,   1, 'Gold Setting') /* Name */;

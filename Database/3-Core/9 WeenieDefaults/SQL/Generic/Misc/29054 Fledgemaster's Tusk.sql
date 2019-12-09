@@ -8,18 +8,11 @@ VALUES (29054,   1,        128) /* ItemType - Misc */
      , (29054,   5,        101) /* EncumbranceVal */
      , (29054,  16,          1) /* ItemUseable - No */
      , (29054,  19,         86) /* Value */
-     , (29054,  65,        101) /* Placement - Resting */
-     , (29054,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29054,   1, False) /* Stuck */
-     , (29054,  11, True ) /* IgnoreCollisions */
-     , (29054,  13, True ) /* Ethereal */
-     , (29054,  14, True ) /* GravityStatus */
-     , (29054,  19, True ) /* Attackable */;
+     , (29054,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29054, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29054,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (29054,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29054,   1, 'Fledgemaster''s Tusk') /* Name */;

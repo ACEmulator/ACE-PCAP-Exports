@@ -13,17 +13,10 @@ VALUES (9342,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9342,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9342,  19,        250) /* Value */
      , (9342,  33,          1) /* Bonded - Bonded */
-     , (9342,  65,        101) /* Placement - Resting */
      , (9342,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9342,  94,   75498624) /* TargetType - Misc, Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (9342, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9342,   1, False) /* Stuck */
-     , (9342,  11, True ) /* IgnoreCollisions */
-     , (9342,  13, True ) /* Ethereal */
-     , (9342,  14, True ) /* GravityStatus */
-     , (9342,  19, True ) /* Attackable */;
+     , (9342, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9342, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9342,   1, 'Concentrated Aqua Incanta') /* Name */

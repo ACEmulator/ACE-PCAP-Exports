@@ -12,7 +12,6 @@ VALUES (28068,   1,          2) /* ItemType - Armor */
      , (28068,  19,      16000) /* Value */
      , (28068,  28,        200) /* ArmorLevel */
      , (28068,  33,          1) /* Bonded - Bonded */
-     , (28068,  65,        101) /* Placement - Resting */
      , (28068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28068, 106,        300) /* ItemSpellcraft */
      , (28068, 107,        765) /* ItemCurMana */
@@ -22,25 +21,21 @@ VALUES (28068,   1,          2) /* ItemType - Armor */
      , (28068, 151,          2) /* HookType - Wall */
      , (28068, 158,          7) /* WieldRequirements - Level */
      , (28068, 159,          1) /* WieldSkillType - Axe */
-     , (28068, 160,         40) /* WieldDifficulty */;
+     , (28068, 160,         40) /* WieldDifficulty */
+     , (28068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28068,   1, False) /* Stuck */
-     , (28068,  11, True ) /* IgnoreCollisions */
-     , (28068,  13, True ) /* Ethereal */
-     , (28068,  14, True ) /* GravityStatus */
-     , (28068,  19, True ) /* Attackable */
-     , (28068,  22, True ) /* Inscribable */
+VALUES (28068,  22, True ) /* Inscribable */
      , (28068,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28068,   5, -0.0329999998211861) /* ManaRate */
-     , (28068,  13, 0.600000023841858) /* ArmorModVsSlash */
-     , (28068,  14, 0.600000023841858) /* ArmorModVsPierce */
-     , (28068,  15, 0.600000023841858) /* ArmorModVsBludgeon */
-     , (28068,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (28068,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (28068,  18, 0.200000002980232) /* ArmorModVsAcid */
+VALUES (28068,   5,   -0.03) /* ManaRate */
+     , (28068,  13,     0.6) /* ArmorModVsSlash */
+     , (28068,  14,     0.6) /* ArmorModVsPierce */
+     , (28068,  15,     0.6) /* ArmorModVsBludgeon */
+     , (28068,  16,     0.2) /* ArmorModVsCold */
+     , (28068,  17,     0.2) /* ArmorModVsFire */
+     , (28068,  18,     0.2) /* ArmorModVsAcid */
      , (28068,  19,       1) /* ArmorModVsElectric */
      , (28068, 165,       1) /* ArmorModVsNether */;
 

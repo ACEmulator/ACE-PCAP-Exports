@@ -12,7 +12,6 @@ VALUES (29260,   1,      32768) /* ItemType - Caster */
      , (29260,  18,        513) /* UiEffects - Magical, Bludgeoning */
      , (29260,  19,      14900) /* Value */
      , (29260,  45,          4) /* DamageType - Bludgeon */
-     , (29260,  65,          1) /* Placement - RightHandCombat */
      , (29260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29260,  94,         16) /* TargetType - Creature */
      , (29260, 105,          8) /* ItemWorkmanship */
@@ -38,28 +37,24 @@ VALUES (29260,   1,      32768) /* ItemType - Caster */
      , (29260, 319,         35) /* ItemMaxLevel */
      , (29260, 320,          1) /* ItemXpStyle - Fixed */
      , (29260, 383,          1) /* GearPKDamageRating */
-     , (29260, 384,          1) /* GearPKDamageResistRating */;
+     , (29260, 384,          1) /* GearPKDamageResistRating */
+     , (29260, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29260,   4, 70000000000) /* ItemTotalXp */
      , (29260,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29260,   1, False) /* Stuck */
-     , (29260,  11, True ) /* IgnoreCollisions */
-     , (29260,  13, True ) /* Ethereal */
-     , (29260,  14, True ) /* GravityStatus */
-     , (29260,  19, True ) /* Attackable */
-     , (29260,  22, True ) /* Inscribable */
+VALUES (29260,  22, True ) /* Inscribable */
      , (29260,  85, True ) /* AppraisalHasAllowedWielder */
      , (29260,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29260,   5, -0.0666666701436043) /* ManaRate */
-     , (29260,  29, 1.39000006020069) /* WeaponDefense */
-     , (29260, 144, 0.143999992966652) /* ManaConversionMod */
-     , (29260, 150,   1.035) /* WeaponMagicDefense */
-     , (29260, 152, 1.44000001251698) /* ElementalDamageMod */
+VALUES (29260,   5,   -0.07) /* ManaRate */
+     , (29260,  29,    1.39) /* WeaponDefense */
+     , (29260, 144,    0.14) /* ManaConversionMod */
+     , (29260, 150,    1.03) /* WeaponMagicDefense */
+     , (29260, 152,    1.44) /* ElementalDamageMod */
      , (29260, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

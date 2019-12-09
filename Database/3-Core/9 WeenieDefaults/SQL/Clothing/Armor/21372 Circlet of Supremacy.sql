@@ -13,7 +13,6 @@ VALUES (21372,   1,          2) /* ItemType - Armor */
      , (21372,  19,       4000) /* Value */
      , (21372,  28,        100) /* ArmorLevel */
      , (21372,  36,       9999) /* ResistMagic */
-     , (21372,  65,        101) /* Placement - Resting */
      , (21372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21372, 106,        225) /* ItemSpellcraft */
      , (21372, 107,        437) /* ItemCurMana */
@@ -22,26 +21,22 @@ VALUES (21372,   1,          2) /* ItemType - Armor */
      , (21372, 151,          2) /* HookType - Wall */
      , (21372, 158,          8) /* WieldRequirements - Training */
      , (21372, 159,         35) /* WieldSkillType - Leadership */
-     , (21372, 160,          2) /* WieldDifficulty */;
+     , (21372, 160,          2) /* WieldDifficulty */
+     , (21372, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21372,   1, False) /* Stuck */
-     , (21372,  11, True ) /* IgnoreCollisions */
-     , (21372,  13, True ) /* Ethereal */
-     , (21372,  14, True ) /* GravityStatus */
-     , (21372,  19, True ) /* Attackable */
-     , (21372,  22, True ) /* Inscribable */
+VALUES (21372,  22, True ) /* Inscribable */
      , (21372,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21372,   5,  -0.034) /* ManaRate */
-     , (21372,  13, 0.400000005960464) /* ArmorModVsSlash */
-     , (21372,  14, 0.400000005960464) /* ArmorModVsPierce */
-     , (21372,  15, 0.400000005960464) /* ArmorModVsBludgeon */
-     , (21372,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (21372,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (21372,  18, 0.400000005960464) /* ArmorModVsAcid */
-     , (21372,  19, 0.400000005960464) /* ArmorModVsElectric */
+VALUES (21372,   5,   -0.03) /* ManaRate */
+     , (21372,  13,     0.4) /* ArmorModVsSlash */
+     , (21372,  14,     0.4) /* ArmorModVsPierce */
+     , (21372,  15,     0.4) /* ArmorModVsBludgeon */
+     , (21372,  16,     0.4) /* ArmorModVsCold */
+     , (21372,  17,     0.4) /* ArmorModVsFire */
+     , (21372,  18,     0.4) /* ArmorModVsAcid */
+     , (21372,  19,     0.4) /* ArmorModVsElectric */
      , (21372,  39,     1.5) /* DefaultScale */
      , (21372, 165,       1) /* ArmorModVsNether */;
 

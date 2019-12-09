@@ -11,7 +11,6 @@ VALUES (34706,   1,          8) /* ItemType - Jewelry */
      , (34706,  18,          1) /* UiEffects - Magical */
      , (34706,  19,       5000) /* Value */
      , (34706,  33,          1) /* Bonded - Bonded */
-     , (34706,  65,        101) /* Placement - Resting */
      , (34706,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34706, 106,        325) /* ItemSpellcraft */
      , (34706, 107,       1000) /* ItemCurMana */
@@ -21,20 +20,16 @@ VALUES (34706,   1,          8) /* ItemType - Jewelry */
      , (34706, 158,          7) /* WieldRequirements - Level */
      , (34706, 159,          1) /* WieldSkillType - Axe */
      , (34706, 160,        150) /* WieldDifficulty */
-     , (34706, 265,          9) /* EquipmentSetId - EmpyreanRings */;
+     , (34706, 265,          9) /* EquipmentSetId - EmpyreanRings */
+     , (34706, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34706,   1, False) /* Stuck */
-     , (34706,  11, True ) /* IgnoreCollisions */
-     , (34706,  13, True ) /* Ethereal */
-     , (34706,  14, True ) /* GravityStatus */
-     , (34706,  19, True ) /* Attackable */
-     , (34706,  22, True ) /* Inscribable */
+VALUES (34706,  22, True ) /* Inscribable */
      , (34706,  85, True ) /* AppraisalHasAllowedWielder */
      , (34706,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34706,   5, -0.033333) /* ManaRate */
+VALUES (34706,   5,   -0.03) /* ManaRate */
      , (34706,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

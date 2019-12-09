@@ -15,11 +15,7 @@ VALUES (51344,   1,         16) /* ItemType - Creature */
      , (51344, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51344,   1, True ) /* Stuck */
-     , (51344,  12, True ) /* ReportCollisions */
-     , (51344,  13, False) /* Ethereal */
-     , (51344,  14, True ) /* GravityStatus */
-     , (51344,  19, True ) /* Attackable */;
+VALUES (51344,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51344,   1, 'Experimental Bloodstone Fragment') /* Name */

@@ -14,33 +14,28 @@ VALUES (8133,   1,          4) /* ItemType - Clothing */
      , (8133,  28,          0) /* ArmorLevel */
      , (8133,  33,          1) /* Bonded - Bonded */
      , (8133,  36,       9999) /* ResistMagic */
-     , (8133,  65,        101) /* Placement - Resting */
      , (8133,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8133, 106,        275) /* ItemSpellcraft */
      , (8133, 107,        440) /* ItemCurMana */
      , (8133, 108,        855) /* ItemMaxMana */
      , (8133, 109,        275) /* ItemDifficulty */
      , (8133, 114,          1) /* Attuned - Attuned */
-     , (8133, 151,          2) /* HookType - Wall */;
+     , (8133, 151,          2) /* HookType - Wall */
+     , (8133, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8133,   1, False) /* Stuck */
-     , (8133,  11, True ) /* IgnoreCollisions */
-     , (8133,  13, True ) /* Ethereal */
-     , (8133,  14, True ) /* GravityStatus */
-     , (8133,  19, True ) /* Attackable */
-     , (8133,  22, True ) /* Inscribable */
+VALUES (8133,  22, True ) /* Inscribable */
      , (8133,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8133,   5,   -0.05) /* ManaRate */
-     , (8133,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (8133,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (8133,  13,     0.8) /* ArmorModVsSlash */
+     , (8133,  14,     0.8) /* ArmorModVsPierce */
      , (8133,  15,       1) /* ArmorModVsBludgeon */
-     , (8133,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (8133,  17, 0.800000011920929) /* ArmorModVsFire */
-     , (8133,  18, 0.800000011920929) /* ArmorModVsAcid */
-     , (8133,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (8133,  16,     0.8) /* ArmorModVsCold */
+     , (8133,  17,     0.8) /* ArmorModVsFire */
+     , (8133,  18,     0.8) /* ArmorModVsAcid */
+     , (8133,  19,     0.8) /* ArmorModVsElectric */
      , (8133, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

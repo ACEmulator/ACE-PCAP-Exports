@@ -12,7 +12,6 @@ VALUES (33102,   1,      32768) /* ItemType - Caster */
      , (33102,  18,       1024) /* UiEffects - Slashing */
      , (33102,  19,      20000) /* Value */
      , (33102,  45,          1) /* DamageType - Slash */
-     , (33102,  65,          1) /* Placement - RightHandCombat */
      , (33102,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33102,  94,         16) /* TargetType - Creature */
      , (33102, 106,        450) /* ItemSpellcraft */
@@ -25,26 +24,22 @@ VALUES (33102,   1,      32768) /* ItemType - Caster */
      , (33102, 159,          1) /* WieldSkillType - Axe */
      , (33102, 160,        140) /* WieldDifficulty */
      , (33102, 176,         34) /* AppraisalItemSkill */
-     , (33102, 263,          1) /* ResistanceModifierType */;
+     , (33102, 263,          1) /* ResistanceModifierType */
+     , (33102, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33102,   1, False) /* Stuck */
-     , (33102,  11, True ) /* IgnoreCollisions */
-     , (33102,  13, True ) /* Ethereal */
-     , (33102,  14, True ) /* GravityStatus */
-     , (33102,  19, True ) /* Attackable */
-     , (33102,  22, True ) /* Inscribable */
+VALUES (33102,  22, True ) /* Inscribable */
      , (33102,  69, True ) /* IsSellable */
      , (33102,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33102,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33102,   5,   -0.05) /* ManaRate */
      , (33102,  29,       1) /* WeaponDefense */
      , (33102,  39,     1.5) /* DefaultScale */
-     , (33102, 144, 0.200000002980232) /* ManaConversionMod */
+     , (33102, 144,     0.2) /* ManaConversionMod */
      , (33102, 147,       1) /* CriticalFrequency */
-     , (33102, 150,   1.025) /* WeaponMagicDefense */
-     , (33102, 152, 1.10000002384186) /* ElementalDamageMod */
+     , (33102, 150,    1.02) /* WeaponMagicDefense */
+     , (33102, 152,     1.1) /* ElementalDamageMod */
      , (33102, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

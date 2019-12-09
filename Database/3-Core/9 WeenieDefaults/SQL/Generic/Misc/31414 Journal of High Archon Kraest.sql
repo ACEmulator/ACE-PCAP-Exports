@@ -9,20 +9,15 @@ VALUES (31414,   1,        128) /* ItemType - Misc */
      , (31414,  16,          1) /* ItemUseable - No */
      , (31414,  19,          0) /* Value */
      , (31414,  33,          1) /* Bonded - Bonded */
-     , (31414,  65,        101) /* Placement - Resting */
      , (31414,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31414, 114,          1) /* Attuned - Attuned */;
+     , (31414, 114,          1) /* Attuned - Attuned */
+     , (31414, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31414,   1, False) /* Stuck */
-     , (31414,  11, True ) /* IgnoreCollisions */
-     , (31414,  13, True ) /* Ethereal */
-     , (31414,  14, True ) /* GravityStatus */
-     , (31414,  19, True ) /* Attackable */
-     , (31414,  22, True ) /* Inscribable */;
+VALUES (31414,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31414,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (31414,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31414,   1, 'Journal of High Archon Kraest') /* Name */

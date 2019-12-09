@@ -16,14 +16,10 @@ VALUES (29341,   1,         16) /* ItemType - Creature */
      , (29341, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29341,   1, True ) /* Stuck */
-     , (29341,  12, True ) /* ReportCollisions */
-     , (29341,  13, False) /* Ethereal */
-     , (29341,  14, True ) /* GravityStatus */
-     , (29341,  19, True ) /* Attackable */;
+VALUES (29341,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29341,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (29341,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29341,   1, 'Ruschk Kartak') /* Name */

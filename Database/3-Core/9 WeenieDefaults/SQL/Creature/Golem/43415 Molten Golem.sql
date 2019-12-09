@@ -15,13 +15,7 @@ VALUES (43415,   1,         16) /* ItemType - Creature */
      , (43415, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43415,   1, True ) /* Stuck */
-     , (43415,  12, True ) /* ReportCollisions */
-     , (43415,  13, False) /* Ethereal */
-     , (43415,  14, True ) /* GravityStatus */
-     , (43415,  15, True ) /* LightsStatus */
-     , (43415,  19, True ) /* Attackable */
-     , (43415,  42, True ) /* AllowEdgeSlide */;
+VALUES (43415,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43415,   1, 'Molten Golem') /* Name */

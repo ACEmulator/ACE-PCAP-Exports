@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4611,   1,    1048576) /* ItemType - Service */
      , (4611,  16,          1) /* ItemUseable - No */
      , (4611,  19,        200) /* Value */
-     , (4611,  65,        101) /* Placement - Resting */
-     , (4611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4611,   1, False) /* Stuck */
-     , (4611,  11, True ) /* IgnoreCollisions */
-     , (4611,  13, True ) /* Ethereal */
-     , (4611,  14, True ) /* GravityStatus */
-     , (4611,  19, True ) /* Attackable */;
+     , (4611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4611, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4611,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (4611,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4611,   1, 'Willpower Other II') /* Name */;

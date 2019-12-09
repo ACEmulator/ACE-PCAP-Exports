@@ -13,19 +13,13 @@ VALUES (2089,   1,      65536) /* ItemType - Portal */
      , (2089, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2089,   1, True ) /* Stuck */
-     , (2089,  12, True ) /* ReportCollisions */
-     , (2089,  13, True ) /* Ethereal */
-     , (2089,  14, True ) /* GravityStatus */
-     , (2089,  15, True ) /* LightsStatus */
-     , (2089,  19, True ) /* Attackable */;
+VALUES (2089,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2089,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2089,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2089,   1, 'Rocky Crypt Portal') /* Name */
-     , (2089,  38, 'Rocky Crypt Portal') /* AppraisalPortalDestination */
      , (2089, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,18 +12,13 @@ VALUES (51518,   1,       2048) /* ItemType - Gem */
      , (51518,  15,        653) /* StackUnitValue */
      , (51518,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51518,  19,        653) /* Value */
-     , (51518,  65,        101) /* Placement - Resting */
      , (51518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51518,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (51518, 151,          2) /* HookType - Wall */;
+     , (51518, 151,          2) /* HookType - Wall */
+     , (51518, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51518,   1, False) /* Stuck */
-     , (51518,  11, True ) /* IgnoreCollisions */
-     , (51518,  13, True ) /* Ethereal */
-     , (51518,  14, True ) /* GravityStatus */
-     , (51518,  19, True ) /* Attackable */
-     , (51518,  22, True ) /* Inscribable */;
+VALUES (51518,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51518,   1, 'Blighted Two Handed Spear') /* Name */;

@@ -13,15 +13,10 @@ VALUES (41583,   1,         16) /* ItemType - Creature */
      , (41583, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41583,   1, True ) /* Stuck */
-     , (41583,  12, True ) /* ReportCollisions */
-     , (41583,  13, False) /* Ethereal */
-     , (41583,  14, True ) /* GravityStatus */
-     , (41583,  19, True ) /* Attackable */
-     , (41583,  42, True ) /* AllowEdgeSlide */;
+VALUES (41583,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41583,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (41583,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41583,   1, 'Copper Cog Lesser Lord') /* Name */

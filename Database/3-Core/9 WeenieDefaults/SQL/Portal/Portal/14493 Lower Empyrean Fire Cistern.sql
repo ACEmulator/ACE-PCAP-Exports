@@ -11,15 +11,10 @@ VALUES (14493,   1,      65536) /* ItemType - Portal */
      , (14493, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14493,   1, True ) /* Stuck */
-     , (14493,  12, True ) /* ReportCollisions */
-     , (14493,  13, True ) /* Ethereal */
-     , (14493,  14, True ) /* GravityStatus */
-     , (14493,  15, True ) /* LightsStatus */
-     , (14493,  19, True ) /* Attackable */;
+VALUES (14493,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14493,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14493,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14493,   1, 'Lower Empyrean Fire Cistern') /* Name */

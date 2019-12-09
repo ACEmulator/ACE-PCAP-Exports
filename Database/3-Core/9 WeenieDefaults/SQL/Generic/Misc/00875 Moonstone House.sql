@@ -8,20 +8,15 @@ VALUES (875,   1,        128) /* ItemType - Misc */
      , (875,   5,       9000) /* EncumbranceVal */
      , (875,  16,          1) /* ItemUseable - No */
      , (875,  19,        125) /* Value */
-     , (875,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (875,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (875,   1, True ) /* Stuck */
-     , (875,  11, True ) /* IgnoreCollisions */
-     , (875,  12, True ) /* ReportCollisions */
-     , (875,  13, False) /* Ethereal */
-     , (875,  14, True ) /* GravityStatus */
-     , (875,  19, True ) /* Attackable */;
+VALUES (875,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (875, 8010,       0) /* PCAPRecordedVelocityX */
      , (875, 8011,       0) /* PCAPRecordedVelocityY */
-     , (875, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (875, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (875,   1, 'Moonstone House') /* Name */

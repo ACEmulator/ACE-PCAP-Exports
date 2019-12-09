@@ -13,16 +13,11 @@ VALUES (36450,   1,        128) /* ItemType - Misc */
      , (36450, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36450,   1, False) /* Stuck */
-     , (36450,  11, True ) /* IgnoreCollisions */
-     , (36450,  13, True ) /* Ethereal */
-     , (36450,  14, True ) /* GravityStatus */
-     , (36450,  19, True ) /* Attackable */
-     , (36450,  22, True ) /* Inscribable */;
+VALUES (36450,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36450,  39, 0.300000011920929) /* DefaultScale */
-     , (36450,  76, 0.699999988079071) /* Translucency */;
+VALUES (36450,  39,     0.3) /* DefaultScale */
+     , (36450,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36450,   1, 'Wandering Ghost') /* Name */

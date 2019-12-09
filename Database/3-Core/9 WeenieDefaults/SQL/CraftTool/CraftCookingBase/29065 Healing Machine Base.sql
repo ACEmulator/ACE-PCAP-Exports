@@ -11,17 +11,12 @@ VALUES (29065,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29065,  13,        500) /* StackUnitEncumbrance */
      , (29065,  15,          0) /* StackUnitValue */
      , (29065,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (29065,  65,        101) /* Placement - Resting */
      , (29065,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29065,  94,        128) /* TargetType - Misc */;
+     , (29065,  94,        128) /* TargetType - Misc */
+     , (29065, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29065,   1, False) /* Stuck */
-     , (29065,  11, True ) /* IgnoreCollisions */
-     , (29065,  13, True ) /* Ethereal */
-     , (29065,  14, True ) /* GravityStatus */
-     , (29065,  19, True ) /* Attackable */
-     , (29065,  22, True ) /* Inscribable */;
+VALUES (29065,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29065,   1, 'Healing Machine Base') /* Name */;

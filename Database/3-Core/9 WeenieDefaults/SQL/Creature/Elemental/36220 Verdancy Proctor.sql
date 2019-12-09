@@ -15,15 +15,10 @@ VALUES (36220,   1,         16) /* ItemType - Creature */
      , (36220, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36220,   1, True ) /* Stuck */
-     , (36220,  12, True ) /* ReportCollisions */
-     , (36220,  13, False) /* Ethereal */
-     , (36220,  14, True ) /* GravityStatus */
-     , (36220,  15, True ) /* LightsStatus */
-     , (36220,  19, True ) /* Attackable */;
+VALUES (36220,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36220,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (36220,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36220,   1, 'Verdancy Proctor') /* Name */

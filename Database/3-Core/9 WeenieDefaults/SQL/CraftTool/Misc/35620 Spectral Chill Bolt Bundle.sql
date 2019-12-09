@@ -12,19 +12,12 @@ VALUES (35620,   1,        128) /* ItemType - Misc */
      , (35620,  15,          1) /* StackUnitValue */
      , (35620,  16,          8) /* ItemUseable - Contained */
      , (35620,  19,          1) /* Value */
-     , (35620,  65,        101) /* Placement - Resting */
      , (35620,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35620,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35620,   1, False) /* Stuck */
-     , (35620,  11, True ) /* IgnoreCollisions */
-     , (35620,  13, True ) /* Ethereal */
-     , (35620,  14, True ) /* GravityStatus */
-     , (35620,  19, True ) /* Attackable */;
+     , (35620,  94,         16) /* TargetType - Creature */
+     , (35620, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35620,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35620,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35620,   1, 'Spectral Chill Bolt Bundle') /* Name */;

@@ -17,7 +17,6 @@ VALUES (41901,   1,          1) /* ItemType - MeleeWeapon */
      , (41901,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41901,  49,         40) /* WeaponTime */
      , (41901,  51,          5) /* CombatUse - TwoHanded */
-     , (41901,  65,          1) /* Placement - RightHandCombat */
      , (41901,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41901, 106,        400) /* ItemSpellcraft */
      , (41901, 107,        404) /* ItemCurMana */
@@ -31,26 +30,21 @@ VALUES (41901,   1,          1) /* ItemType - MeleeWeapon */
      , (41901, 263,          1) /* ResistanceModifierType */
      , (41901, 292,          2) /* Cleaving */
      , (41901, 353,         11) /* WeaponType - TwoHanded */
-     , (41901, 8030,          0);
+     , (41901, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41901, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41901,   1, False) /* Stuck */
-     , (41901,  11, True ) /* IgnoreCollisions */
-     , (41901,  13, True ) /* Ethereal */
-     , (41901,  14, True ) /* GravityStatus */
-     , (41901,  15, True ) /* LightsStatus */
-     , (41901,  19, True ) /* Attackable */
-     , (41901,  22, True ) /* Inscribable */
+VALUES (41901,  22, True ) /* Inscribable */
      , (41901,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41901,   5, -0.025000000372529) /* ManaRate */
+VALUES (41901,   5,   -0.03) /* ManaRate */
      , (41901,  21,       0) /* WeaponLength */
-     , (41901,  22, 0.600000023841858) /* DamageVariance */
+     , (41901,  22,     0.6) /* DamageVariance */
      , (41901,  26,       0) /* MaximumVelocity */
-     , (41901,  29, 1.14999997615814) /* WeaponDefense */
-     , (41901,  39, 1.29999995231628) /* DefaultScale */
-     , (41901,  62, 1.14999997615814) /* WeaponOffense */
+     , (41901,  29,    1.15) /* WeaponDefense */
+     , (41901,  39,     1.3) /* DefaultScale */
+     , (41901,  62,    1.15) /* WeaponOffense */
      , (41901,  63,       1) /* DamageMod */
      , (41901,  77,       1) /* PhysicsScriptIntensity */
      , (41901, 157,       1) /* ResistanceModifier */;

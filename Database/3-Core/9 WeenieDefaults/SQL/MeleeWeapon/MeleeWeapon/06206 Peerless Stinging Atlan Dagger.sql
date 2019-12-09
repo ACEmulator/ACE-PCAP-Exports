@@ -12,17 +12,12 @@ VALUES (6206,   1,          1) /* ItemType - MeleeWeapon */
      , (6206,  18,          1) /* UiEffects - Magical */
      , (6206,  19,       5000) /* Value */
      , (6206,  51,          1) /* CombatUse - Melee */
-     , (6206,  65,          1) /* Placement - RightHandCombat */
      , (6206,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6206, 151,          2) /* HookType - Wall */;
+     , (6206, 151,          2) /* HookType - Wall */
+     , (6206, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6206,   1, False) /* Stuck */
-     , (6206,  11, True ) /* IgnoreCollisions */
-     , (6206,  13, True ) /* Ethereal */
-     , (6206,  14, True ) /* GravityStatus */
-     , (6206,  19, True ) /* Attackable */
-     , (6206,  22, True ) /* Inscribable */;
+VALUES (6206,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6206,   1, 'Peerless Stinging Atlan Dagger') /* Name */;

@@ -11,17 +11,12 @@ VALUES (10995,   1,          1) /* ItemType - MeleeWeapon */
      , (10995,  16,          1) /* ItemUseable - No */
      , (10995,  19,       9840) /* Value */
      , (10995,  51,          1) /* CombatUse - Melee */
-     , (10995,  65,          1) /* Placement - RightHandCombat */
      , (10995,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (10995, 151,          2) /* HookType - Wall */;
+     , (10995, 151,          2) /* HookType - Wall */
+     , (10995, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10995,   1, False) /* Stuck */
-     , (10995,  11, True ) /* IgnoreCollisions */
-     , (10995,  13, True ) /* Ethereal */
-     , (10995,  14, True ) /* GravityStatus */
-     , (10995,  19, True ) /* Attackable */
-     , (10995,  22, True ) /* Inscribable */;
+VALUES (10995,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10995,   1, 'Ebon Spine Harpoon') /* Name */;

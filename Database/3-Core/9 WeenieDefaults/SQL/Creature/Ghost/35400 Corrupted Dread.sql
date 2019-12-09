@@ -15,15 +15,11 @@ VALUES (35400,   1,         16) /* ItemType - Creature */
      , (35400, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35400,   1, True ) /* Stuck */
-     , (35400,  12, True ) /* ReportCollisions */
-     , (35400,  13, False) /* Ethereal */
-     , (35400,  14, True ) /* GravityStatus */
-     , (35400,  19, True ) /* Attackable */;
+VALUES (35400,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35400,  39, 0.800000011920929) /* DefaultScale */
-     , (35400,  76, 0.699999988079071) /* Translucency */;
+VALUES (35400,  39,     0.8) /* DefaultScale */
+     , (35400,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35400,   1, 'Corrupted Dread') /* Name */

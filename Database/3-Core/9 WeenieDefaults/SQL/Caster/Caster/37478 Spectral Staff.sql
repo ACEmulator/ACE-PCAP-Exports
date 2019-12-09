@@ -13,7 +13,6 @@ VALUES (37478,   1,      32768) /* ItemType - Caster */
      , (37478,  19,          0) /* Value */
      , (37478,  33,         -1) /* Bonded - Slippery */
      , (37478,  45,          2) /* DamageType - Pierce */
-     , (37478,  65,          1) /* Placement - RightHandCombat */
      , (37478,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (37478,  94,         16) /* TargetType - Creature */
      , (37478,  98, 1485832701) /* CreationTimestamp */
@@ -27,28 +26,23 @@ VALUES (37478,   1,      32768) /* ItemType - Caster */
      , (37478, 166,         77) /* SlayerCreatureType - Ghost */
      , (37478, 263,          2) /* ResistanceModifierType */
      , (37478, 267,     259200) /* Lifespan */
-     , (37478, 268,     258852) /* RemainingLifespan */;
+     , (37478, 268,     258852) /* RemainingLifespan */
+     , (37478, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37478,   1, False) /* Stuck */
-     , (37478,  11, True ) /* IgnoreCollisions */
-     , (37478,  13, True ) /* Ethereal */
-     , (37478,  14, True ) /* GravityStatus */
-     , (37478,  15, True ) /* LightsStatus */
-     , (37478,  19, True ) /* Attackable */
-     , (37478,  22, True ) /* Inscribable */
+VALUES (37478,  22, True ) /* Inscribable */
      , (37478,  69, False) /* IsSellable */
      , (37478,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37478,   5,   -0.05) /* ManaRate */
-     , (37478,  29, 1.37000000178814) /* WeaponDefense */
-     , (37478,  39, 0.699999988079071) /* DefaultScale */
-     , (37478,  76, 0.699999988079071) /* Translucency */
+     , (37478,  29,    1.37) /* WeaponDefense */
+     , (37478,  39,     0.7) /* DefaultScale */
+     , (37478,  76,     0.7) /* Translucency */
      , (37478, 136,       1) /* CriticalMultiplier */
-     , (37478, 144, 0.255000007152557) /* ManaConversionMod */
+     , (37478, 144,    0.26) /* ManaConversionMod */
      , (37478, 147,       1) /* CriticalFrequency */
-     , (37478, 152, 1.27000000029802) /* ElementalDamageMod */
+     , (37478, 152,    1.27) /* ElementalDamageMod */
      , (37478, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

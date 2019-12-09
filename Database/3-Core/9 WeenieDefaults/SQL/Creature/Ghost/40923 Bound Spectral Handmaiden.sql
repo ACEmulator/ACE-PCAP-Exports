@@ -15,15 +15,11 @@ VALUES (40923,   1,         16) /* ItemType - Creature */
      , (40923, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40923,   1, True ) /* Stuck */
-     , (40923,  12, True ) /* ReportCollisions */
-     , (40923,  13, False) /* Ethereal */
-     , (40923,  14, True ) /* GravityStatus */
-     , (40923,  19, True ) /* Attackable */;
+VALUES (40923,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40923,  39, 0.800000011920929) /* DefaultScale */
-     , (40923,  76, 0.800000011920929) /* Translucency */;
+VALUES (40923,  39,     0.8) /* DefaultScale */
+     , (40923,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40923,   1, 'Bound Spectral Handmaiden') /* Name */

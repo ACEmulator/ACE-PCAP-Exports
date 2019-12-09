@@ -12,17 +12,12 @@ VALUES (47687,   1,          1) /* ItemType - MeleeWeapon */
      , (47687,  18,        128) /* UiEffects - Frost */
      , (47687,  19,        460) /* Value */
      , (47687,  51,          1) /* CombatUse - Melee */
-     , (47687,  65,          1) /* Placement - RightHandCombat */
      , (47687,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47687, 151,          2) /* HookType - Wall */;
+     , (47687, 151,          2) /* HookType - Wall */
+     , (47687, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47687,   1, False) /* Stuck */
-     , (47687,  11, True ) /* IgnoreCollisions */
-     , (47687,  13, True ) /* Ethereal */
-     , (47687,  14, True ) /* GravityStatus */
-     , (47687,  19, True ) /* Attackable */
-     , (47687,  22, True ) /* Inscribable */;
+VALUES (47687,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47687,   1, 'Frost Tachi') /* Name */;

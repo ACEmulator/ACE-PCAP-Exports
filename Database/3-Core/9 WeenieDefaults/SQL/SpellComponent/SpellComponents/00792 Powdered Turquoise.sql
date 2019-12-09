@@ -12,16 +12,11 @@ VALUES (792,   1,       4096) /* ItemType - SpellComponents */
      , (792,  15,          5) /* StackUnitValue */
      , (792,  16,          1) /* ItemUseable - No */
      , (792,  19,          5) /* Value */
-     , (792,  65,        101) /* Placement - Resting */
-     , (792,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (792,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (792, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (792,   1, False) /* Stuck */
-     , (792,  11, True ) /* IgnoreCollisions */
-     , (792,  13, True ) /* Ethereal */
-     , (792,  14, True ) /* GravityStatus */
-     , (792,  19, True ) /* Attackable */
-     , (792,  69, False) /* IsSellable */;
+VALUES (792,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (792,   1, 'Powdered Turquoise') /* Name */

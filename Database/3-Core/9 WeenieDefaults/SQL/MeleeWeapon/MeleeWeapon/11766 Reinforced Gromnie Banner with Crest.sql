@@ -10,16 +10,11 @@ VALUES (11766,   1,          1) /* ItemType - MeleeWeapon */
      , (11766,  16,          1) /* ItemUseable - No */
      , (11766,  18,          1) /* UiEffects - Magical */
      , (11766,  51,          1) /* CombatUse - Melee */
-     , (11766,  65,        101) /* Placement - Resting */
-     , (11766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11766, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11766,   1, False) /* Stuck */
-     , (11766,  11, True ) /* IgnoreCollisions */
-     , (11766,  13, True ) /* Ethereal */
-     , (11766,  14, True ) /* GravityStatus */
-     , (11766,  19, True ) /* Attackable */
-     , (11766,  22, True ) /* Inscribable */;
+VALUES (11766,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11766,   1, 'Reinforced Gromnie Banner with Crest') /* Name */;

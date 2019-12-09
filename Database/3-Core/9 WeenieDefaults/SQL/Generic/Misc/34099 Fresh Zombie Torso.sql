@@ -12,15 +12,10 @@ VALUES (34099,   1,        128) /* ItemType - Misc */
      , (34099, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34099,   1, False) /* Stuck */
-     , (34099,  11, True ) /* IgnoreCollisions */
-     , (34099,  13, True ) /* Ethereal */
-     , (34099,  14, True ) /* GravityStatus */
-     , (34099,  19, True ) /* Attackable */
-     , (34099,  22, True ) /* Inscribable */;
+VALUES (34099,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34099,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (34099,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34099,   1, 'Fresh Zombie Torso') /* Name */

@@ -11,15 +11,8 @@ VALUES (37284,   1,        128) /* ItemType - Misc */
      , (37284,  13,          7) /* StackUnitEncumbrance */
      , (37284,  15,          0) /* StackUnitValue */
      , (37284,  16,          1) /* ItemUseable - No */
-     , (37284,  65,        101) /* Placement - Resting */
-     , (37284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37284,   1, False) /* Stuck */
-     , (37284,  11, True ) /* IgnoreCollisions */
-     , (37284,  13, True ) /* Ethereal */
-     , (37284,  14, True ) /* GravityStatus */
-     , (37284,  19, True ) /* Attackable */;
+     , (37284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37284, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37284,   1, 'Seven Cards from the Deck of Hands') /* Name */

@@ -13,17 +13,12 @@ VALUES (44267,   1,        128) /* ItemType - Misc */
      , (44267,  16,          1) /* ItemUseable - No */
      , (44267,  19,          1) /* Value */
      , (44267,  33,          1) /* Bonded - Bonded */
-     , (44267,  65,        101) /* Placement - Resting */
      , (44267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44267, 114,          1) /* Attuned - Attuned */;
+     , (44267, 114,          1) /* Attuned - Attuned */
+     , (44267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44267,   1, False) /* Stuck */
-     , (44267,  11, True ) /* IgnoreCollisions */
-     , (44267,  13, True ) /* Ethereal */
-     , (44267,  14, True ) /* GravityStatus */
-     , (44267,  19, True ) /* Attackable */
-     , (44267,  69, False) /* IsSellable */;
+VALUES (44267,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44267,   1, 'Engraved A''nekshay Bracers') /* Name */

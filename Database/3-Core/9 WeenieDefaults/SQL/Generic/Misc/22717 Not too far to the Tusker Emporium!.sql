@@ -8,16 +8,11 @@ VALUES (22717,   1,        128) /* ItemType - Misc */
      , (22717,   5,       9000) /* EncumbranceVal */
      , (22717,  16,          1) /* ItemUseable - No */
      , (22717,  19,        125) /* Value */
-     , (22717,  65,        101) /* Placement - Resting */
-     , (22717,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (22717,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (22717, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22717,   1, True ) /* Stuck */
-     , (22717,  11, True ) /* IgnoreCollisions */
-     , (22717,  12, True ) /* ReportCollisions */
-     , (22717,  13, False) /* Ethereal */
-     , (22717,  14, True ) /* GravityStatus */
-     , (22717,  19, True ) /* Attackable */;
+VALUES (22717,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22717,   1, 'Not too far to the Tusker Emporium!') /* Name */

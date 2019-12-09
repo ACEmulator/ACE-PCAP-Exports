@@ -9,20 +9,15 @@ VALUES (29287,   1,        128) /* ItemType - Misc */
      , (29287,  16,          8) /* ItemUseable - Contained */
      , (29287,  19,          0) /* Value */
      , (29287,  33,          1) /* Bonded - Bonded */
-     , (29287,  65,        101) /* Placement - Resting */
      , (29287,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29287, 114,          1) /* Attuned - Attuned */;
+     , (29287, 114,          1) /* Attuned - Attuned */
+     , (29287, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29287,   3, 1000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29287,   1, False) /* Stuck */
-     , (29287,  11, True ) /* IgnoreCollisions */
-     , (29287,  13, True ) /* Ethereal */
-     , (29287,  14, True ) /* GravityStatus */
-     , (29287,  19, True ) /* Attackable */
-     , (29287,  22, True ) /* Inscribable */;
+VALUES (29287,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29287,   1, 'Ciandra''s Essence') /* Name */

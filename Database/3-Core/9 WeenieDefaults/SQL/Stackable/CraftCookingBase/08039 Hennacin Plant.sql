@@ -15,15 +15,8 @@ VALUES (8039,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8039, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8039,   1, False) /* Stuck */
-     , (8039,  11, True ) /* IgnoreCollisions */
-     , (8039,  13, True ) /* Ethereal */
-     , (8039,  14, True ) /* GravityStatus */
-     , (8039,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8039,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8039,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8039,   1, 'Hennacin Plant') /* Name */

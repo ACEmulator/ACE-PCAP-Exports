@@ -12,19 +12,13 @@ VALUES (14255,   1,      65536) /* ItemType - Portal */
      , (14255, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14255,   1, True ) /* Stuck */
-     , (14255,  12, True ) /* ReportCollisions */
-     , (14255,  13, True ) /* Ethereal */
-     , (14255,  14, True ) /* GravityStatus */
-     , (14255,  15, True ) /* LightsStatus */
-     , (14255,  19, True ) /* Attackable */;
+VALUES (14255,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14255,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14255,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14255,   1, 'Cactus Acres Portal') /* Name */
-     , (14255,  38, 'Cactus Acres Portal (9.0S, 24.8E).') /* AppraisalPortalDestination */
      , (14255, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

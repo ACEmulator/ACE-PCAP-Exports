@@ -9,17 +9,12 @@ VALUES (36924,   1,        128) /* ItemType - Misc */
      , (36924,  16,          1) /* ItemUseable - No */
      , (36924,  19,          0) /* Value */
      , (36924,  33,          1) /* Bonded - Bonded */
-     , (36924,  65,        101) /* Placement - Resting */
      , (36924,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36924, 114,          1) /* Attuned - Attuned */;
+     , (36924, 114,          1) /* Attuned - Attuned */
+     , (36924, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36924,   1, False) /* Stuck */
-     , (36924,  11, True ) /* IgnoreCollisions */
-     , (36924,  13, True ) /* Ethereal */
-     , (36924,  14, True ) /* GravityStatus */
-     , (36924,  19, True ) /* Attackable */
-     , (36924,  22, True ) /* Inscribable */;
+VALUES (36924,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36924,   1, 'Avoren''s Skull') /* Name */

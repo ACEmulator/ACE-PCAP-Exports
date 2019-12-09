@@ -14,7 +14,6 @@ VALUES (38726,   1,       2048) /* ItemType - Gem */
      , (38726,  18,          1) /* UiEffects - Magical */
      , (38726,  19,     250000) /* Value */
      , (38726,  33,          1) /* Bonded - Bonded */
-     , (38726,  65,        101) /* Placement - Resting */
      , (38726,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38726,  94,         16) /* TargetType - Creature */
      , (38726, 106,        210) /* ItemSpellcraft */
@@ -22,17 +21,11 @@ VALUES (38726,   1,       2048) /* ItemType - Gem */
      , (38726, 108,        500) /* ItemMaxMana */
      , (38726, 109,          0) /* ItemDifficulty */
      , (38726, 110,          0) /* ItemAllegianceRankLimit */
-     , (38726, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38726,   1, False) /* Stuck */
-     , (38726,  11, True ) /* IgnoreCollisions */
-     , (38726,  13, True ) /* Ethereal */
-     , (38726,  14, True ) /* GravityStatus */
-     , (38726,  19, True ) /* Attackable */;
+     , (38726, 114,          1) /* Attuned - Attuned */
+     , (38726, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38726,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (38726,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38726,   1, 'Black Market Gem of Dispelling') /* Name */

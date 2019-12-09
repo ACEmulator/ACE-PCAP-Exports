@@ -12,18 +12,13 @@ VALUES (22616,   1,         32) /* ItemType - Food */
      , (22616,  15,        200) /* StackUnitValue */
      , (22616,  16,          8) /* ItemUseable - Contained */
      , (22616,  19,        200) /* Value */
-     , (22616,  65,        101) /* Placement - Resting */
      , (22616,  89,          4) /* BoosterEnum - Stamina */
      , (22616,  90,         60) /* BoostValue */
-     , (22616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22616, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22616,   1, False) /* Stuck */
-     , (22616,  11, True ) /* IgnoreCollisions */
-     , (22616,  13, True ) /* Ethereal */
-     , (22616,  14, True ) /* GravityStatus */
-     , (22616,  19, True ) /* Attackable */
-     , (22616,  69, False) /* IsSellable */;
+VALUES (22616,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22616,   1, 'Nanner Split') /* Name */

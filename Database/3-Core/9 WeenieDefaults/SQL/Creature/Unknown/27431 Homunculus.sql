@@ -15,11 +15,7 @@ VALUES (27431,   1,         16) /* ItemType - Creature */
      , (27431, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27431,   1, True ) /* Stuck */
-     , (27431,  12, True ) /* ReportCollisions */
-     , (27431,  13, False) /* Ethereal */
-     , (27431,  14, True ) /* GravityStatus */
-     , (27431,  19, True ) /* Attackable */;
+VALUES (27431,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27431,   1, 'Homunculus') /* Name */

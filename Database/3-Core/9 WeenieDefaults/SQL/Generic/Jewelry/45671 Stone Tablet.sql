@@ -8,16 +8,11 @@ VALUES (45671,   1,          8) /* ItemType - Jewelry */
      , (45671,   5,         20) /* EncumbranceVal */
      , (45671,  16,          1) /* ItemUseable - No */
      , (45671,  19,         20) /* Value */
-     , (45671,  65,        101) /* Placement - Resting */
-     , (45671,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45671,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45671, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45671,   1, False) /* Stuck */
-     , (45671,  11, True ) /* IgnoreCollisions */
-     , (45671,  13, True ) /* Ethereal */
-     , (45671,  14, True ) /* GravityStatus */
-     , (45671,  19, True ) /* Attackable */
-     , (45671,  22, True ) /* Inscribable */;
+VALUES (45671,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45671,   1, 'Stone Tablet') /* Name */;

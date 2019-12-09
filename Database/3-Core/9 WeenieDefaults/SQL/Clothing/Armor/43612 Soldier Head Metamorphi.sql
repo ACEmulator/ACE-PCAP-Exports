@@ -10,16 +10,11 @@ VALUES (43612,   1,          2) /* ItemType - Armor */
      , (43612,   9,          1) /* ValidLocations - HeadWear */
      , (43612,  16,          1) /* ItemUseable - No */
      , (43612,  19,        500) /* Value */
-     , (43612,  65,        101) /* Placement - Resting */
-     , (43612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43612, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43612,   1, False) /* Stuck */
-     , (43612,  11, True ) /* IgnoreCollisions */
-     , (43612,  13, True ) /* Ethereal */
-     , (43612,  14, True ) /* GravityStatus */
-     , (43612,  19, True ) /* Attackable */
-     , (43612,  22, True ) /* Inscribable */;
+VALUES (43612,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43612,   1, 'Soldier Head Metamorphi') /* Name */;

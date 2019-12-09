@@ -10,19 +10,14 @@ VALUES (45968,   1,          2) /* ItemType - Armor */
      , (45968,   9,      16384) /* ValidLocations - LowerLegArmor */
      , (45968,  16,          1) /* ItemUseable - No */
      , (45968,  19,        100) /* Value */
-     , (45968,  65,        101) /* Placement - Resting */
-     , (45968,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45968,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45968, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45968,   1, False) /* Stuck */
-     , (45968,  11, True ) /* IgnoreCollisions */
-     , (45968,  13, True ) /* Ethereal */
-     , (45968,  14, True ) /* GravityStatus */
-     , (45968,  19, True ) /* Attackable */
-     , (45968,  22, True ) /* Inscribable */;
+VALUES (45968,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45968,  39, 1.33000004291534) /* DefaultScale */;
+VALUES (45968,  39,    1.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45968,   1, 'Amateur Explorer Greaves') /* Name */;

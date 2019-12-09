@@ -16,14 +16,10 @@ VALUES (4257,   1,         16) /* ItemType - Creature */
      , (4257, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4257,   1, True ) /* Stuck */
-     , (4257,  12, True ) /* ReportCollisions */
-     , (4257,  13, False) /* Ethereal */
-     , (4257,  14, True ) /* GravityStatus */
-     , (4257,  19, True ) /* Attackable */;
+VALUES (4257,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4257,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (4257,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4257,   1, 'Slithis Tentacle') /* Name */

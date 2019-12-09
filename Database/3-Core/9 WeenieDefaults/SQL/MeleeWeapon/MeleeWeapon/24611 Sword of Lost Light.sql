@@ -18,7 +18,6 @@ VALUES (24611,   1,          1) /* ItemType - MeleeWeapon */
      , (24611,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (24611,  49,         30) /* WeaponTime */
      , (24611,  51,          1) /* CombatUse - Melee */
-     , (24611,  65,          1) /* Placement - RightHandCombat */
      , (24611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24611, 106,        260) /* ItemSpellcraft */
      , (24611, 107,        588) /* ItemCurMana */
@@ -28,25 +27,21 @@ VALUES (24611,   1,          1) /* ItemType - MeleeWeapon */
      , (24611, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (24611, 160,        325) /* WieldDifficulty */
      , (24611, 353,          2) /* WeaponType - Sword */
-     , (24611, 8030,          0);
+     , (24611, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (24611, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24611,   1, False) /* Stuck */
-     , (24611,  11, True ) /* IgnoreCollisions */
-     , (24611,  13, True ) /* Ethereal */
-     , (24611,  14, True ) /* GravityStatus */
-     , (24611,  19, True ) /* Attackable */
-     , (24611,  22, True ) /* Inscribable */
+VALUES (24611,  22, True ) /* Inscribable */
      , (24611,  69, False) /* IsSellable */
      , (24611,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24611,   5,  -0.033) /* ManaRate */
+VALUES (24611,   5,   -0.03) /* ManaRate */
      , (24611,  21,       0) /* WeaponLength */
      , (24611,  22,     0.5) /* DamageVariance */
      , (24611,  26,       0) /* MaximumVelocity */
      , (24611,  29,    1.14) /* WeaponDefense */
-     , (24611,  39, 1.29999995231628) /* DefaultScale */
+     , (24611,  39,     1.3) /* DefaultScale */
      , (24611,  62,    1.14) /* WeaponOffense */
      , (24611,  63,       1) /* DamageMod */
      , (24611, 147,       1) /* CriticalFrequency */;

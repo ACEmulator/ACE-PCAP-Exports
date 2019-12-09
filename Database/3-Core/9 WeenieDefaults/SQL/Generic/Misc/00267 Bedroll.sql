@@ -8,17 +8,12 @@ VALUES (267,   1,        128) /* ItemType - Misc */
      , (267,   5,        200) /* EncumbranceVal */
      , (267,  16,          1) /* ItemUseable - No */
      , (267,  19,        500) /* Value */
-     , (267,  65,        101) /* Placement - Resting */
      , (267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (267, 151,          1) /* HookType - Floor */;
+     , (267, 151,          1) /* HookType - Floor */
+     , (267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (267,   1, False) /* Stuck */
-     , (267,  11, True ) /* IgnoreCollisions */
-     , (267,  13, True ) /* Ethereal */
-     , (267,  14, True ) /* GravityStatus */
-     , (267,  19, True ) /* Attackable */
-     , (267,  22, True ) /* Inscribable */;
+VALUES (267,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (267,   1, 'Bedroll') /* Name */

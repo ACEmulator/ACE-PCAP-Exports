@@ -16,15 +16,11 @@ VALUES (48774,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48774,   1, True ) /* Stuck */
-     , (48774,  12, True ) /* ReportCollisions */
-     , (48774,  13, False) /* Ethereal */
-     , (48774,  14, True ) /* GravityStatus */
-     , (48774,  19, True ) /* Attackable */
      , (48774, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48774,  39, 0.800000011920929) /* DefaultScale */
-     , (48774,  76, 0.699999988079071) /* Translucency */;
+VALUES (48774,  39,     0.8) /* DefaultScale */
+     , (48774,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48774,   1, 'Spirit of Protection') /* Name */

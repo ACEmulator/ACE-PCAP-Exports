@@ -11,17 +11,12 @@ VALUES (47875,   1,          1) /* ItemType - MeleeWeapon */
      , (47875,  16,          1) /* ItemUseable - No */
      , (47875,  19,        155) /* Value */
      , (47875,  51,          1) /* CombatUse - Melee */
-     , (47875,  65,          1) /* Placement - RightHandCombat */
      , (47875,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47875, 151,          2) /* HookType - Wall */;
+     , (47875, 151,          2) /* HookType - Wall */
+     , (47875, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47875,   1, False) /* Stuck */
-     , (47875,  11, True ) /* IgnoreCollisions */
-     , (47875,  13, True ) /* Ethereal */
-     , (47875,  14, True ) /* GravityStatus */
-     , (47875,  19, True ) /* Attackable */
-     , (47875,  22, True ) /* Inscribable */;
+VALUES (47875,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47875,   1, 'Katar') /* Name */;

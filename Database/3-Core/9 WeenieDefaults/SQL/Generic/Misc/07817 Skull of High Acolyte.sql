@@ -9,17 +9,12 @@ VALUES (7817,   1,        128) /* ItemType - Misc */
      , (7817,  16,          1) /* ItemUseable - No */
      , (7817,  19,          0) /* Value */
      , (7817,  33,          1) /* Bonded - Bonded */
-     , (7817,  65,        101) /* Placement - Resting */
      , (7817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7817, 114,          1) /* Attuned - Attuned */;
+     , (7817, 114,          1) /* Attuned - Attuned */
+     , (7817, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7817,   1, False) /* Stuck */
-     , (7817,  11, True ) /* IgnoreCollisions */
-     , (7817,  13, True ) /* Ethereal */
-     , (7817,  14, True ) /* GravityStatus */
-     , (7817,  19, True ) /* Attackable */
-     , (7817,  22, True ) /* Inscribable */;
+VALUES (7817,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7817,   1, 'Skull of High Acolyte') /* Name */

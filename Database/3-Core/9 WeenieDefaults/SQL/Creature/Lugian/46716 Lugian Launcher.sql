@@ -18,11 +18,7 @@ VALUES (46716,   1,         16) /* ItemType - Creature */
      , (46716, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46716,   1, True ) /* Stuck */
-     , (46716,  12, True ) /* ReportCollisions */
-     , (46716,  13, False) /* Ethereal */
-     , (46716,  14, True ) /* GravityStatus */
-     , (46716,  19, True ) /* Attackable */;
+VALUES (46716,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46716,   1, 'Lugian Launcher') /* Name */

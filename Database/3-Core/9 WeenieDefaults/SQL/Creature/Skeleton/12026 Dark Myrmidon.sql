@@ -16,11 +16,7 @@ VALUES (12026,   1,         16) /* ItemType - Creature */
      , (12026, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12026,   1, True ) /* Stuck */
-     , (12026,  12, True ) /* ReportCollisions */
-     , (12026,  13, False) /* Ethereal */
-     , (12026,  14, True ) /* GravityStatus */
-     , (12026,  19, True ) /* Attackable */;
+VALUES (12026,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12026,   1, 'Dark Myrmidon') /* Name */

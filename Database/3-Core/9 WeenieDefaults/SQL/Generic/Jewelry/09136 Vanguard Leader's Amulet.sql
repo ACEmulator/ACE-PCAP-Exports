@@ -11,24 +11,19 @@ VALUES (9136,   1,          8) /* ItemType - Jewelry */
      , (9136,  18,          1) /* UiEffects - Magical */
      , (9136,  19,       1500) /* Value */
      , (9136,  36,       9999) /* ResistMagic */
-     , (9136,  65,        101) /* Placement - Resting */
      , (9136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9136, 106,        150) /* ItemSpellcraft */
      , (9136, 107,        400) /* ItemCurMana */
      , (9136, 108,        400) /* ItemMaxMana */
-     , (9136, 109,         10) /* ItemDifficulty */;
+     , (9136, 109,         10) /* ItemDifficulty */
+     , (9136, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9136,   1, False) /* Stuck */
-     , (9136,  11, True ) /* IgnoreCollisions */
-     , (9136,  13, True ) /* Ethereal */
-     , (9136,  14, True ) /* GravityStatus */
-     , (9136,  19, True ) /* Attackable */
-     , (9136,  22, True ) /* Inscribable */;
+VALUES (9136,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9136,   5, -0.033333) /* ManaRate */
-     , (9136,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (9136,   5,   -0.03) /* ManaRate */
+     , (9136,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9136,   1, 'Vanguard Leader''s Amulet') /* Name */

@@ -15,14 +15,10 @@ VALUES (41005,   1,         16) /* ItemType - Creature */
      , (41005, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41005,   1, True ) /* Stuck */
-     , (41005,  12, True ) /* ReportCollisions */
-     , (41005,  13, False) /* Ethereal */
-     , (41005,  14, True ) /* GravityStatus */
-     , (41005,  19, True ) /* Attackable */;
+VALUES (41005,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41005,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (41005,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41005,   1, 'T''thuun Sclavus Huntsmaster') /* Name */

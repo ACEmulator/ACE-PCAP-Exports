@@ -11,12 +11,7 @@ VALUES (15247,   1,        128) /* ItemType - Misc */
      , (15247,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15247,   1, True ) /* Stuck */
-     , (15247,  11, True ) /* IgnoreCollisions */
-     , (15247,  12, True ) /* ReportCollisions */
-     , (15247,  13, False) /* Ethereal */
-     , (15247,  14, True ) /* GravityStatus */
-     , (15247,  19, True ) /* Attackable */;
+VALUES (15247,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15247,   1, 'Palm-of-Stone Villas') /* Name */;

@@ -10,11 +10,7 @@ VALUES (38055,   1,  268435456) /* ItemType - LifeStone */
      , (38055, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38055,   1, True ) /* Stuck */
-     , (38055,  11, True ) /* IgnoreCollisions */
-     , (38055,  13, False) /* Ethereal */
-     , (38055,  14, True ) /* GravityStatus */
-     , (38055,  19, True ) /* Attackable */;
+VALUES (38055,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38055,   1, 'Radiant Blood Banner') /* Name */;

@@ -13,19 +13,13 @@ VALUES (8501,   1,      65536) /* ItemType - Portal */
      , (8501, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8501,   1, True ) /* Stuck */
-     , (8501,  12, True ) /* ReportCollisions */
-     , (8501,  13, True ) /* Ethereal */
-     , (8501,  14, True ) /* GravityStatus */
-     , (8501,  15, True ) /* LightsStatus */
-     , (8501,  19, True ) /* Attackable */;
+VALUES (8501,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8501,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8501,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8501,   1, 'Southern Mt. Esper') /* Name */
-     , (8501,  38, 'Southern Mt. Esper (56.8N, 12.9E).') /* AppraisalPortalDestination */
      , (8501, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -8,19 +8,14 @@ VALUES (27296,   1,      16384) /* ItemType - Key */
      , (27296,   5,        100) /* EncumbranceVal */
      , (27296,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (27296,  19,          0) /* Value */
-     , (27296,  65,        101) /* Placement - Resting */
      , (27296,  91,          1) /* MaxStructure */
      , (27296,  92,          1) /* Structure */
      , (27296,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27296,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (27296,  94,        640) /* TargetType - LockableMagicTarget */
+     , (27296, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27296,   1, False) /* Stuck */
-     , (27296,  11, True ) /* IgnoreCollisions */
-     , (27296,  13, True ) /* Ethereal */
-     , (27296,  14, True ) /* GravityStatus */
-     , (27296,  19, True ) /* Attackable */
-     , (27296,  22, True ) /* Inscribable */;
+VALUES (27296,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27296,   1, 'Wretched Key') /* Name */

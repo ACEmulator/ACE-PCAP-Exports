@@ -9,19 +9,14 @@ VALUES (44121,   1,      16384) /* ItemType - Key */
      , (44121,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (44121,  18,         64) /* UiEffects - Lightning */
      , (44121,  19,      10000) /* Value */
-     , (44121,  65,        101) /* Placement - Resting */
      , (44121,  91,          1) /* MaxStructure */
      , (44121,  92,          1) /* Structure */
      , (44121,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44121,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (44121,  94,        640) /* TargetType - LockableMagicTarget */
+     , (44121, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44121,   1, False) /* Stuck */
-     , (44121,  11, True ) /* IgnoreCollisions */
-     , (44121,  13, True ) /* Ethereal */
-     , (44121,  14, True ) /* GravityStatus */
-     , (44121,  19, True ) /* Attackable */
-     , (44121,  22, True ) /* Inscribable */;
+VALUES (44121,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44121,   1, 'Sandstone Armor Key') /* Name */;

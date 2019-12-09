@@ -10,15 +10,12 @@ VALUES (24065,   1,      32768) /* ItemType - Caster */
      , (24065,  16,          1) /* ItemUseable - No */
      , (24065,  18,          1) /* UiEffects - Magical */
      , (24065,  19,         10) /* Value */
-     , (24065,  65,        101) /* Placement - Resting */
      , (24065,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
-     , (24065,  94,         16) /* TargetType - Creature */;
+     , (24065,  94,         16) /* TargetType - Creature */
+     , (24065, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24065,   1, True ) /* Stuck */
-     , (24065,  11, True ) /* IgnoreCollisions */
-     , (24065,  13, True ) /* Ethereal */
-     , (24065,  19, True ) /* Attackable */;
+VALUES (24065,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24065,  29,       1) /* WeaponDefense */

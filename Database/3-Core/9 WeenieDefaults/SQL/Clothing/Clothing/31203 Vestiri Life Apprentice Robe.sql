@@ -10,16 +10,11 @@ VALUES (31203,   1,          4) /* ItemType - Clothing */
      , (31203,   9,      32512) /* ValidLocations - Armor */
      , (31203,  16,          1) /* ItemUseable - No */
      , (31203,  19,       1120) /* Value */
-     , (31203,  65,        101) /* Placement - Resting */
-     , (31203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31203, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31203,   1, False) /* Stuck */
-     , (31203,  11, True ) /* IgnoreCollisions */
-     , (31203,  13, True ) /* Ethereal */
-     , (31203,  14, True ) /* GravityStatus */
-     , (31203,  19, True ) /* Attackable */
-     , (31203,  22, True ) /* Inscribable */;
+VALUES (31203,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31203,   1, 'Vestiri Life Apprentice Robe') /* Name */;

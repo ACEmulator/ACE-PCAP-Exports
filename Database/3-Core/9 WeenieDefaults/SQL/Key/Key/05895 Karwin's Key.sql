@@ -8,19 +8,14 @@ VALUES (5895,   1,      16384) /* ItemType - Key */
      , (5895,   5,         50) /* EncumbranceVal */
      , (5895,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (5895,  19,         16) /* Value */
-     , (5895,  65,        101) /* Placement - Resting */
      , (5895,  91,          3) /* MaxStructure */
      , (5895,  92,          3) /* Structure */
      , (5895,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5895,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (5895,  94,        640) /* TargetType - LockableMagicTarget */
+     , (5895, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5895,   1, False) /* Stuck */
-     , (5895,  11, True ) /* IgnoreCollisions */
-     , (5895,  13, True ) /* Ethereal */
-     , (5895,  14, True ) /* GravityStatus */
-     , (5895,  19, True ) /* Attackable */
-     , (5895,  22, True ) /* Inscribable */;
+VALUES (5895,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5895,   1, 'Karwin''s Key') /* Name */

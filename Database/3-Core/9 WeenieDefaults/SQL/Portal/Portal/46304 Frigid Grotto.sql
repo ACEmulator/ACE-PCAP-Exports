@@ -13,19 +13,13 @@ VALUES (46304,   1,      65536) /* ItemType - Portal */
      , (46304, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46304,   1, True ) /* Stuck */
-     , (46304,  12, True ) /* ReportCollisions */
-     , (46304,  13, True ) /* Ethereal */
-     , (46304,  14, True ) /* GravityStatus */
-     , (46304,  15, True ) /* LightsStatus */
-     , (46304,  19, True ) /* Attackable */;
+VALUES (46304,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46304,  54, -0.100000001490116) /* UseRadius */;
+VALUES (46304,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46304,   1, 'Frigid Grotto') /* Name */
-     , (46304,  38, 'Frigid Grotto') /* AppraisalPortalDestination */
      , (46304, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

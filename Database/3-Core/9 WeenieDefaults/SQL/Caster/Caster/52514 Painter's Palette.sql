@@ -15,12 +15,7 @@ VALUES (52514,   1,      32768) /* ItemType - Caster */
      , (52514, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52514,   1, False) /* Stuck */
-     , (52514,  11, True ) /* IgnoreCollisions */
-     , (52514,  13, True ) /* Ethereal */
-     , (52514,  14, True ) /* GravityStatus */
-     , (52514,  19, True ) /* Attackable */
-     , (52514,  22, True ) /* Inscribable */;
+VALUES (52514,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52514,  29,       1) /* WeaponDefense */

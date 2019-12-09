@@ -12,16 +12,11 @@ VALUES (21970,   1,        128) /* ItemType - Misc */
      , (21970,  15,       2500) /* StackUnitValue */
      , (21970,  16,          1) /* ItemUseable - No */
      , (21970,  19,       2500) /* Value */
-     , (21970,  65,        101) /* Placement - Resting */
-     , (21970,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (21970,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21970, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21970,   1, False) /* Stuck */
-     , (21970,  11, True ) /* IgnoreCollisions */
-     , (21970,  13, True ) /* Ethereal */
-     , (21970,  14, True ) /* GravityStatus */
-     , (21970,  19, True ) /* Attackable */
-     , (21970,  22, True ) /* Inscribable */;
+VALUES (21970,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21970,   1, 'Infused Low-Grade Chorizite Ore') /* Name */;

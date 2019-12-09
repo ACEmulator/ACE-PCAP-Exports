@@ -16,17 +16,13 @@ VALUES (25804,   1,         16) /* ItemType - Creature */
      , (25804, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25804,   1, True ) /* Stuck */
-     , (25804,  12, True ) /* ReportCollisions */
-     , (25804,  13, False) /* Ethereal */
-     , (25804,  14, True ) /* GravityStatus */
-     , (25804,  19, True ) /* Attackable */;
+VALUES (25804,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25804,  39, 1.20000004768372) /* DefaultScale */
+VALUES (25804,  39,     1.2) /* DefaultScale */
      , (25804, 8010,       0) /* PCAPRecordedVelocityX */
      , (25804, 8011,       0) /* PCAPRecordedVelocityY */
-     , (25804, 8012, -0.0318048298358917) /* PCAPRecordedVelocityZ */;
+     , (25804, 8012,   -0.03) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25804,   1, 'Armored Skeleton Lord') /* Name */

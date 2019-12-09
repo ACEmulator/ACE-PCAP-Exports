@@ -11,12 +11,7 @@ VALUES (14685,   1,        128) /* ItemType - Misc */
      , (14685,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14685,   1, True ) /* Stuck */
-     , (14685,  11, True ) /* IgnoreCollisions */
-     , (14685,  12, True ) /* ReportCollisions */
-     , (14685,  13, False) /* Ethereal */
-     , (14685,  14, True ) /* GravityStatus */
-     , (14685,  19, True ) /* Attackable */;
+VALUES (14685,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14685,   1, 'Bretslef Cottages') /* Name */

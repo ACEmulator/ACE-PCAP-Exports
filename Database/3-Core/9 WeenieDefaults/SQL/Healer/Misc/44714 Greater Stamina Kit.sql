@@ -8,20 +8,15 @@ VALUES (44714,   1,        128) /* ItemType - Misc */
      , (44714,   5,        200) /* EncumbranceVal */
      , (44714,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (44714,  19,       3000) /* Value */
-     , (44714,  65,        101) /* Placement - Resting */
      , (44714,  90,        200) /* BoostValue */
      , (44714,  91,         50) /* MaxStructure */
      , (44714,  92,         50) /* Structure */
      , (44714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44714,  94,         16) /* TargetType - Creature */;
+     , (44714,  94,         16) /* TargetType - Creature */
+     , (44714, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44714,   1, False) /* Stuck */
-     , (44714,  11, True ) /* IgnoreCollisions */
-     , (44714,  13, True ) /* Ethereal */
-     , (44714,  14, True ) /* GravityStatus */
-     , (44714,  19, True ) /* Attackable */
-     , (44714,  22, True ) /* Inscribable */
+VALUES (44714,  22, True ) /* Inscribable */
      , (44714,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

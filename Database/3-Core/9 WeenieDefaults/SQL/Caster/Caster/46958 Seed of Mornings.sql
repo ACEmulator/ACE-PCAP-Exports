@@ -12,7 +12,6 @@ VALUES (46958,   1,      32768) /* ItemType - Caster */
      , (46958,  18,          1) /* UiEffects - Magical */
      , (46958,  19,      20000) /* Value */
      , (46958,  33,          1) /* Bonded - Bonded */
-     , (46958,  65,          1) /* Placement - RightHandCombat */
      , (46958,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (46958,  94,         16) /* TargetType - Creature */
      , (46958, 106,        450) /* ItemSpellcraft */
@@ -23,23 +22,18 @@ VALUES (46958,   1,      32768) /* ItemType - Caster */
      , (46958, 151,          3) /* HookType - Floor, Wall */
      , (46958, 158,          2) /* WieldRequirements - RawSkill */
      , (46958, 159,         33) /* WieldSkillType - LifeMagic */
-     , (46958, 160,        340) /* WieldDifficulty */;
+     , (46958, 160,        340) /* WieldDifficulty */
+     , (46958, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46958,   1, False) /* Stuck */
-     , (46958,  11, True ) /* IgnoreCollisions */
-     , (46958,  13, True ) /* Ethereal */
-     , (46958,  14, True ) /* GravityStatus */
-     , (46958,  15, True ) /* LightsStatus */
-     , (46958,  19, True ) /* Attackable */
-     , (46958,  22, True ) /* Inscribable */
+VALUES (46958,  22, True ) /* Inscribable */
      , (46958,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46958,   5, -0.025000000372529) /* ManaRate */
-     , (46958,  29, 1.20000004768372) /* WeaponDefense */
-     , (46958,  39, 0.600000023841858) /* DefaultScale */
-     , (46958, 144, 0.200000002980232) /* ManaConversionMod */;
+VALUES (46958,   5,   -0.03) /* ManaRate */
+     , (46958,  29,     1.2) /* WeaponDefense */
+     , (46958,  39,     0.6) /* DefaultScale */
+     , (46958, 144,     0.2) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46958,   1, 'Seed of Mornings') /* Name */

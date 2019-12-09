@@ -9,17 +9,12 @@ VALUES (51921,   1,       8192) /* ItemType - Writable */
      , (51921,  16,          1) /* ItemUseable - No */
      , (51921,  19,          0) /* Value */
      , (51921,  33,          1) /* Bonded - Bonded */
-     , (51921,  65,        101) /* Placement - Resting */
      , (51921,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51921, 114,          1) /* Attuned - Attuned */;
+     , (51921, 114,          1) /* Attuned - Attuned */
+     , (51921, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51921,   1, False) /* Stuck */
-     , (51921,  11, True ) /* IgnoreCollisions */
-     , (51921,  13, True ) /* Ethereal */
-     , (51921,  14, True ) /* GravityStatus */
-     , (51921,  19, True ) /* Attackable */
-     , (51921,  22, True ) /* Inscribable */;
+VALUES (51921,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51921,   1, 'Sealed Scroll for Commander Presk') /* Name */

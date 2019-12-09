@@ -11,12 +11,7 @@ VALUES (19166,   1,        128) /* ItemType - Misc */
      , (19166,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19166,   1, True ) /* Stuck */
-     , (19166,  11, True ) /* IgnoreCollisions */
-     , (19166,  12, True ) /* ReportCollisions */
-     , (19166,  13, False) /* Ethereal */
-     , (19166,  14, True ) /* GravityStatus */
-     , (19166,  19, True ) /* Attackable */;
+VALUES (19166,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19166,   1, 'Amarand Villas') /* Name */

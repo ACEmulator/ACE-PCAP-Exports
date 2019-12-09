@@ -17,7 +17,6 @@ VALUES (42666,   1,          1) /* ItemType - MeleeWeapon */
      , (42666,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (42666,  49,          0) /* WeaponTime */
      , (42666,  51,          5) /* CombatUse - TwoHanded */
-     , (42666,  65,        101) /* Placement - Resting */
      , (42666,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42666, 106,        350) /* ItemSpellcraft */
      , (42666, 107,          0) /* ItemCurMana */
@@ -30,27 +29,23 @@ VALUES (42666,   1,          1) /* ItemType - MeleeWeapon */
      , (42666, 319,         50) /* ItemMaxLevel */
      , (42666, 320,          1) /* ItemXpStyle - Fixed */
      , (42666, 353,         11) /* WeaponType - TwoHanded */
-     , (42666, 8030,          0);
+     , (42666, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (42666, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (42666,   4, 100000000000) /* ItemTotalXp */
      , (42666,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42666,   1, False) /* Stuck */
-     , (42666,  11, True ) /* IgnoreCollisions */
-     , (42666,  13, True ) /* Ethereal */
-     , (42666,  14, True ) /* GravityStatus */
-     , (42666,  19, True ) /* Attackable */
-     , (42666,  22, True ) /* Inscribable */;
+VALUES (42666,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42666,   5, -0.0333333015441895) /* ManaRate */
+VALUES (42666,   5,   -0.03) /* ManaRate */
      , (42666,  21,       0) /* WeaponLength */
-     , (42666,  22, 0.19200000166893) /* DamageVariance */
+     , (42666,  22,    0.19) /* DamageVariance */
      , (42666,  26,       0) /* MaximumVelocity */
-     , (42666,  29, 1.37999995052814) /* WeaponDefense */
-     , (42666,  62, 1.17999994754791) /* WeaponOffense */
+     , (42666,  29,    1.38) /* WeaponDefense */
+     , (42666,  62,    1.18) /* WeaponOffense */
      , (42666,  63,       1) /* DamageMod */
      , (42666, 147,       1) /* CriticalFrequency */;
 

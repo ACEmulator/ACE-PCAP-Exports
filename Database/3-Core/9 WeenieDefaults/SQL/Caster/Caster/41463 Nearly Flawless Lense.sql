@@ -11,18 +11,13 @@ VALUES (41463,   1,      32768) /* ItemType - Caster */
      , (41463,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (41463,  18,       1024) /* UiEffects - Slashing */
      , (41463,  19,        500) /* Value */
-     , (41463,  65,          1) /* Placement - RightHandCombat */
      , (41463,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41463,  94,         16) /* TargetType - Creature */
-     , (41463, 151,          2) /* HookType - Wall */;
+     , (41463, 151,          2) /* HookType - Wall */
+     , (41463, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41463,   1, False) /* Stuck */
-     , (41463,  11, True ) /* IgnoreCollisions */
-     , (41463,  13, True ) /* Ethereal */
-     , (41463,  14, True ) /* GravityStatus */
-     , (41463,  19, True ) /* Attackable */
-     , (41463,  22, True ) /* Inscribable */;
+VALUES (41463,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41463,  39,     1.5) /* DefaultScale */;

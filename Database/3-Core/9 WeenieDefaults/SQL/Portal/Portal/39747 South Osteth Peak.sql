@@ -12,18 +12,13 @@ VALUES (39747,   1,      65536) /* ItemType - Portal */
      , (39747, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39747,   1, True ) /* Stuck */
-     , (39747,  12, True ) /* ReportCollisions */
-     , (39747,  13, True ) /* Ethereal */
-     , (39747,  15, True ) /* LightsStatus */
-     , (39747,  19, True ) /* Attackable */;
+VALUES (39747,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39747,  54, -0.100000001490116) /* UseRadius */;
+VALUES (39747,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39747,   1, 'South Osteth Peak') /* Name */
-     , (39747,  38, 'South Osteth Peak (52.6S, 67.6E).') /* AppraisalPortalDestination */
      , (39747, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

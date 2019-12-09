@@ -8,20 +8,15 @@ VALUES (872,   1,        128) /* ItemType - Misc */
      , (872,   5,       9000) /* EncumbranceVal */
      , (872,  16,          1) /* ItemUseable - No */
      , (872,  19,        125) /* Value */
-     , (872,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (872,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (872,   1, True ) /* Stuck */
-     , (872,  11, True ) /* IgnoreCollisions */
-     , (872,  12, True ) /* ReportCollisions */
-     , (872,  13, False) /* Ethereal */
-     , (872,  14, True ) /* GravityStatus */
-     , (872,  19, True ) /* Attackable */;
+VALUES (872,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (872, 8010,       0) /* PCAPRecordedVelocityX */
      , (872, 8011,       0) /* PCAPRecordedVelocityY */
-     , (872, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (872, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (872,   1, 'Rayyib''s Defense') /* Name */

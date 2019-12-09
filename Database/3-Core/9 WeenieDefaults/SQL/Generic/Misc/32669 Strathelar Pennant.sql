@@ -13,12 +13,7 @@ VALUES (32669,   1,        128) /* ItemType - Misc */
      , (32669, 151,         24) /* HookType - Yard, Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32669,   1, False) /* Stuck */
-     , (32669,  11, True ) /* IgnoreCollisions */
-     , (32669,  13, True ) /* Ethereal */
-     , (32669,  14, True ) /* GravityStatus */
-     , (32669,  19, True ) /* Attackable */
-     , (32669,  22, True ) /* Inscribable */;
+VALUES (32669,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32669,   1, 'Strathelar Pennant') /* Name */

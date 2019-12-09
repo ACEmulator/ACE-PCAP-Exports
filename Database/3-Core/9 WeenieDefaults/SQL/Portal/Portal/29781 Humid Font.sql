@@ -11,15 +11,10 @@ VALUES (29781,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29781,   1, True ) /* Stuck */
-     , (29781,  12, True ) /* ReportCollisions */
-     , (29781,  13, True ) /* Ethereal */
-     , (29781,  14, True ) /* GravityStatus */
-     , (29781,  15, True ) /* LightsStatus */
-     , (29781,  19, True ) /* Attackable */
      , (29781,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29781,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29781,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29781,   1, 'Humid Font') /* Name */;

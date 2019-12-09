@@ -16,12 +16,7 @@ VALUES (34897,   1,        128) /* ItemType - Misc */
      , (34897,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34897,   1, False) /* Stuck */
-     , (34897,  11, True ) /* IgnoreCollisions */
-     , (34897,  13, True ) /* Ethereal */
-     , (34897,  14, True ) /* GravityStatus */
-     , (34897,  19, True ) /* Attackable */
-     , (34897,  22, True ) /* Inscribable */;
+VALUES (34897,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34897,   1, 'Lockpicking Sigil') /* Name */

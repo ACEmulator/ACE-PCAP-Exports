@@ -12,16 +12,11 @@ VALUES (12194,   1,          1) /* ItemType - MeleeWeapon */
      , (12194,  18,        256) /* UiEffects - Acid */
      , (12194,  19,        160) /* Value */
      , (12194,  51,          1) /* CombatUse - Melee */
-     , (12194,  65,          1) /* Placement - RightHandCombat */
-     , (12194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12194, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12194,   1, False) /* Stuck */
-     , (12194,  11, True ) /* IgnoreCollisions */
-     , (12194,  13, True ) /* Ethereal */
-     , (12194,  14, True ) /* GravityStatus */
-     , (12194,  19, True ) /* Attackable */
-     , (12194,  22, True ) /* Inscribable */;
+VALUES (12194,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12194,   1, 'Assassin''s Acid Simi') /* Name */;

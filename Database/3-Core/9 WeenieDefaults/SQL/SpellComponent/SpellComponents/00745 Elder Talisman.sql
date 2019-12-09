@@ -12,15 +12,8 @@ VALUES (745,   1,       4096) /* ItemType - SpellComponents */
      , (745,  15,          5) /* StackUnitValue */
      , (745,  16,          1) /* ItemUseable - No */
      , (745,  19,          5) /* Value */
-     , (745,  65,        101) /* Placement - Resting */
-     , (745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (745,   1, False) /* Stuck */
-     , (745,  11, True ) /* IgnoreCollisions */
-     , (745,  13, True ) /* Ethereal */
-     , (745,  14, True ) /* GravityStatus */
-     , (745,  19, True ) /* Attackable */;
+     , (745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (745,   1, 'Elder Talisman') /* Name */;

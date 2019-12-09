@@ -12,20 +12,14 @@ VALUES (42815,   1,      65536) /* ItemType - Portal */
      , (42815, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42815,   1, True ) /* Stuck */
-     , (42815,  12, True ) /* ReportCollisions */
-     , (42815,  13, True ) /* Ethereal */
-     , (42815,  14, True ) /* GravityStatus */
-     , (42815,  15, True ) /* LightsStatus */
-     , (42815,  19, True ) /* Attackable */;
+VALUES (42815,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42815,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42815,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42815,   1, 'Eastham Portal') /* Name */
      , (42815,  16, 'This portal goes to Eastham, a coastal Aluvian town that contains a portal to Asheron''s island home. This is a good town for characters over level 20.') /* LongDesc */
-     , (42815,  38, 'Eastham Portal (16.9N, 63.5E).') /* AppraisalPortalDestination */
      , (42815, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

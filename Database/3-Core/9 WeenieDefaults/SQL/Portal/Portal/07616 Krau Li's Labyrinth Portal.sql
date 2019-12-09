@@ -11,15 +11,10 @@ VALUES (7616,   1,      65536) /* ItemType - Portal */
      , (7616, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7616,   1, True ) /* Stuck */
-     , (7616,  12, True ) /* ReportCollisions */
-     , (7616,  13, True ) /* Ethereal */
-     , (7616,  14, True ) /* GravityStatus */
-     , (7616,  15, True ) /* LightsStatus */
-     , (7616,  19, True ) /* Attackable */;
+VALUES (7616,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7616,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7616,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7616,   1, 'Krau Li''s Labyrinth Portal') /* Name */

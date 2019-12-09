@@ -9,20 +9,15 @@ VALUES (33169,   1,      16384) /* ItemType - Key */
      , (33169,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (33169,  19,         20) /* Value */
      , (33169,  33,          1) /* Bonded - Bonded */
-     , (33169,  65,        101) /* Placement - Resting */
      , (33169,  91,          1) /* MaxStructure */
      , (33169,  92,          1) /* Structure */
      , (33169,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33169,  94,        640) /* TargetType - LockableMagicTarget */
-     , (33169, 114,          1) /* Attuned - Attuned */;
+     , (33169, 114,          1) /* Attuned - Attuned */
+     , (33169, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33169,   1, False) /* Stuck */
-     , (33169,  11, True ) /* IgnoreCollisions */
-     , (33169,  13, True ) /* Ethereal */
-     , (33169,  14, True ) /* GravityStatus */
-     , (33169,  19, True ) /* Attackable */
-     , (33169,  22, True ) /* Inscribable */;
+VALUES (33169,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33169,   1, 'Boney Lump of Flesh') /* Name */

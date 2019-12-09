@@ -15,12 +15,7 @@ VALUES (52262,   1,         16) /* ItemType - Creature */
      , (52262, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52262,   1, True ) /* Stuck */
-     , (52262,  12, True ) /* ReportCollisions */
-     , (52262,  13, True ) /* Ethereal */
-     , (52262,  14, True ) /* GravityStatus */
-     , (52262,  15, True ) /* LightsStatus */
-     , (52262,  19, True ) /* Attackable */;
+VALUES (52262,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52262,   1, 'Pillar of Acid') /* Name */

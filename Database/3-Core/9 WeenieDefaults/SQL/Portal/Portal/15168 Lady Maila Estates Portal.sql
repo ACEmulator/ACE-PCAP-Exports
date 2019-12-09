@@ -12,19 +12,13 @@ VALUES (15168,   1,      65536) /* ItemType - Portal */
      , (15168, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15168,   1, True ) /* Stuck */
-     , (15168,  12, True ) /* ReportCollisions */
-     , (15168,  13, True ) /* Ethereal */
-     , (15168,  14, True ) /* GravityStatus */
-     , (15168,  15, True ) /* LightsStatus */
-     , (15168,  19, True ) /* Attackable */;
+VALUES (15168,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15168,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15168,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15168,   1, 'Lady Maila Estates Portal') /* Name */
-     , (15168,  38, 'Lady Maila Estates Portal (74.4N, 46.3W).') /* AppraisalPortalDestination */
      , (15168, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

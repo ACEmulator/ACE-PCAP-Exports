@@ -14,15 +14,8 @@ VALUES (53408,   1,        128) /* ItemType - Misc */
      , (53408,  19,         10) /* Value */
      , (53408,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53408,   1, False) /* Stuck */
-     , (53408,  11, True ) /* IgnoreCollisions */
-     , (53408,  13, True ) /* Ethereal */
-     , (53408,  14, True ) /* GravityStatus */
-     , (53408,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53408,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (53408,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53408,   1, 'Celestial Hand Gauntlet Writ') /* Name */;

@@ -12,19 +12,13 @@ VALUES (43584,   1,      65536) /* ItemType - Portal */
      , (43584, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43584,   1, True ) /* Stuck */
-     , (43584,  12, True ) /* ReportCollisions */
-     , (43584,  13, True ) /* Ethereal */
-     , (43584,  14, True ) /* GravityStatus */
-     , (43584,  15, True ) /* LightsStatus */
-     , (43584,  19, True ) /* Attackable */;
+VALUES (43584,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43584,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43584,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43584,   1, 'Queen''s Burrow') /* Name */
-     , (43584,  38, 'Queen''s Burrow (66.0N, 82.4E).') /* AppraisalPortalDestination */
      , (43584, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

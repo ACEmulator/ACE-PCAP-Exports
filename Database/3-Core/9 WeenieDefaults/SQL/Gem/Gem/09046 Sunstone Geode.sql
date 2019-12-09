@@ -13,18 +13,12 @@ VALUES (9046,   1,       2048) /* ItemType - Gem */
      , (9046,  16,          1) /* ItemUseable - No */
      , (9046,  19,          8) /* Value */
      , (9046,  33,          1) /* Bonded - Bonded */
-     , (9046,  65,        101) /* Placement - Resting */
      , (9046,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (9046, 114,          1) /* Attuned - Attuned */;
+     , (9046, 114,          1) /* Attuned - Attuned */
+     , (9046, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9046,   1, False) /* Stuck */
-     , (9046,  11, True ) /* IgnoreCollisions */
-     , (9046,  13, True ) /* Ethereal */
-     , (9046,  14, True ) /* GravityStatus */
-     , (9046,  15, True ) /* LightsStatus */
-     , (9046,  19, True ) /* Attackable */
-     , (9046,  22, True ) /* Inscribable */;
+VALUES (9046,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9046,  76,     0.5) /* Translucency */;

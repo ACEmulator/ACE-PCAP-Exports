@@ -12,18 +12,11 @@ VALUES (8324,   1,       4096) /* ItemType - SpellComponents */
      , (8324,  15,        625) /* StackUnitValue */
      , (8324,  16,          1) /* ItemUseable - No */
      , (8324,  19,        625) /* Value */
-     , (8324,  65,        101) /* Placement - Resting */
-     , (8324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8324,   1, False) /* Stuck */
-     , (8324,  11, True ) /* IgnoreCollisions */
-     , (8324,  13, True ) /* Ethereal */
-     , (8324,  14, True ) /* GravityStatus */
-     , (8324,  19, True ) /* Attackable */;
+     , (8324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8324, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8324,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8324,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8324,   1, 'Powdered Quartz Pea') /* Name */;

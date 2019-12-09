@@ -13,16 +13,9 @@ VALUES (38222,   1,        128) /* ItemType - Misc */
      , (38222,  16,          1) /* ItemUseable - No */
      , (38222,  19,          0) /* Value */
      , (38222,  33,          1) /* Bonded - Bonded */
-     , (38222,  65,        101) /* Placement - Resting */
      , (38222,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38222, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38222,   1, False) /* Stuck */
-     , (38222,  11, True ) /* IgnoreCollisions */
-     , (38222,  13, True ) /* Ethereal */
-     , (38222,  14, True ) /* GravityStatus */
-     , (38222,  19, True ) /* Attackable */;
+     , (38222, 114,          1) /* Attuned - Attuned */
+     , (38222, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38222,   1, 'Blighted Mana Crystal') /* Name */

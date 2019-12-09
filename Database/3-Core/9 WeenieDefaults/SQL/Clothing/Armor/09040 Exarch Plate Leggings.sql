@@ -11,16 +11,11 @@ VALUES (9040,   1,          2) /* ItemType - Armor */
      , (9040,  16,          1) /* ItemUseable - No */
      , (9040,  18,          1) /* UiEffects - Magical */
      , (9040,  19,       4800) /* Value */
-     , (9040,  65,        101) /* Placement - Resting */
-     , (9040,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (9040,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9040, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9040,   1, False) /* Stuck */
-     , (9040,  11, True ) /* IgnoreCollisions */
-     , (9040,  13, True ) /* Ethereal */
-     , (9040,  14, True ) /* GravityStatus */
-     , (9040,  19, True ) /* Attackable */
-     , (9040,  22, True ) /* Inscribable */;
+VALUES (9040,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9040,   1, 'Exarch Plate Leggings') /* Name */;

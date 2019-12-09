@@ -13,7 +13,6 @@ VALUES (36489,   1,      32768) /* ItemType - Caster */
      , (36489,  19,      12000) /* Value */
      , (36489,  33,          1) /* Bonded - Bonded */
      , (36489,  45,          8) /* DamageType - Cold */
-     , (36489,  65,          1) /* Placement - RightHandCombat */
      , (36489,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36489,  94,         16) /* TargetType - Creature */
      , (36489, 106,        450) /* ItemSpellcraft */
@@ -26,24 +25,20 @@ VALUES (36489,   1,      32768) /* ItemType - Caster */
      , (36489, 159,         15) /* WieldSkillType - MagicDefense */
      , (36489, 160,        275) /* WieldDifficulty */
      , (36489, 176,         30) /* AppraisalItemSkill */
-     , (36489, 263,          8) /* ResistanceModifierType */;
+     , (36489, 263,          8) /* ResistanceModifierType */
+     , (36489, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36489,   1, False) /* Stuck */
-     , (36489,  11, True ) /* IgnoreCollisions */
-     , (36489,  13, True ) /* Ethereal */
-     , (36489,  14, True ) /* GravityStatus */
-     , (36489,  19, True ) /* Attackable */
-     , (36489,  22, True ) /* Inscribable */
+VALUES (36489,  22, True ) /* Inscribable */
      , (36489,  69, False) /* IsSellable */
      , (36489,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36489,   5, -0.0333000011742115) /* ManaRate */
+VALUES (36489,   5,   -0.03) /* ManaRate */
      , (36489,  29,       1) /* WeaponDefense */
-     , (36489, 144, 0.150000005960464) /* ManaConversionMod */
+     , (36489, 144,    0.15) /* ManaConversionMod */
      , (36489, 147,       1) /* CriticalFrequency */
-     , (36489, 152, 1.10000002384186) /* ElementalDamageMod */
+     , (36489, 152,     1.1) /* ElementalDamageMod */
      , (36489, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

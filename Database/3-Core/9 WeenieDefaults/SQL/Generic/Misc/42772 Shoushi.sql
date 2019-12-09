@@ -11,11 +11,7 @@ VALUES (42772,   1,        128) /* ItemType - Misc */
      , (42772,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42772,   1, True ) /* Stuck */
-     , (42772,  11, True ) /* IgnoreCollisions */
-     , (42772,  12, True ) /* ReportCollisions */
-     , (42772,  13, True ) /* Ethereal */
-     , (42772,  19, True ) /* Attackable */;
+VALUES (42772,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42772,   1, 'Shoushi') /* Name */

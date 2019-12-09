@@ -12,16 +12,9 @@ VALUES (35969,   1,        128) /* ItemType - Misc */
      , (35969,  15,          0) /* StackUnitValue */
      , (35969,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (35969,  19,          0) /* Value */
-     , (35969,  65,        101) /* Placement - Resting */
      , (35969,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35969,  94,        384) /* TargetType - Misc, MissileWeapon */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35969,   1, False) /* Stuck */
-     , (35969,  11, True ) /* IgnoreCollisions */
-     , (35969,  13, True ) /* Ethereal */
-     , (35969,  14, True ) /* GravityStatus */
-     , (35969,  19, True ) /* Attackable */;
+     , (35969,  94,        384) /* TargetType - Misc, MissileWeapon */
+     , (35969, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35969,   1, 'Basic Atlatl Handle') /* Name */

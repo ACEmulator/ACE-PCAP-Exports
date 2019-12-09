@@ -16,14 +16,10 @@ VALUES (29356,   1,         16) /* ItemType - Creature */
      , (29356, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29356,   1, True ) /* Stuck */
-     , (29356,  12, True ) /* ReportCollisions */
-     , (29356,  13, False) /* Ethereal */
-     , (29356,  14, True ) /* GravityStatus */
-     , (29356,  19, True ) /* Attackable */;
+VALUES (29356,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29356,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (29356,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29356,   1, 'Damaged Glacial Golem') /* Name */

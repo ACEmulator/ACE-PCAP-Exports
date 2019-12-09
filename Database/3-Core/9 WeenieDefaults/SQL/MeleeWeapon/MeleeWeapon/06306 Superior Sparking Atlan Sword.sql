@@ -12,17 +12,12 @@ VALUES (6306,   1,          1) /* ItemType - MeleeWeapon */
      , (6306,  18,          1) /* UiEffects - Magical */
      , (6306,  19,       4000) /* Value */
      , (6306,  51,          1) /* CombatUse - Melee */
-     , (6306,  65,          1) /* Placement - RightHandCombat */
      , (6306,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6306, 151,          2) /* HookType - Wall */;
+     , (6306, 151,          2) /* HookType - Wall */
+     , (6306, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6306,   1, False) /* Stuck */
-     , (6306,  11, True ) /* IgnoreCollisions */
-     , (6306,  13, True ) /* Ethereal */
-     , (6306,  14, True ) /* GravityStatus */
-     , (6306,  19, True ) /* Attackable */
-     , (6306,  22, True ) /* Inscribable */;
+VALUES (6306,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6306,   1, 'Superior Sparking Atlan Sword') /* Name */;

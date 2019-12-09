@@ -11,16 +11,9 @@ VALUES (22000,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (22000,  15,        250) /* StackUnitValue */
      , (22000,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22000,  19,        250) /* Value */
-     , (22000,  65,        101) /* Placement - Resting */
      , (22000,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22000,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22000,   1, False) /* Stuck */
-     , (22000,  11, True ) /* IgnoreCollisions */
-     , (22000,  13, True ) /* Ethereal */
-     , (22000,  14, True ) /* GravityStatus */
-     , (22000,  19, True ) /* Attackable */;
+     , (22000,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (22000, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22000,   1, 'Wrapped Bundle of Deadly Chorizite Arrowheads') /* Name */

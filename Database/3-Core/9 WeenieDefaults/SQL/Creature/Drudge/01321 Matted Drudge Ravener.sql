@@ -15,14 +15,10 @@ VALUES (1321,   1,         16) /* ItemType - Creature */
      , (1321, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1321,   1, True ) /* Stuck */
-     , (1321,  12, True ) /* ReportCollisions */
-     , (1321,  13, False) /* Ethereal */
-     , (1321,  14, True ) /* GravityStatus */
-     , (1321,  19, True ) /* Attackable */;
+VALUES (1321,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1321,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (1321,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1321,   1, 'Matted Drudge Ravener') /* Name */

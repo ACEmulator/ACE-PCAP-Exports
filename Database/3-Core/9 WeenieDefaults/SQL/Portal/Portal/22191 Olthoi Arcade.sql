@@ -12,19 +12,13 @@ VALUES (22191,   1,      65536) /* ItemType - Portal */
      , (22191, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22191,   1, True ) /* Stuck */
-     , (22191,  12, True ) /* ReportCollisions */
-     , (22191,  13, True ) /* Ethereal */
-     , (22191,  14, True ) /* GravityStatus */
-     , (22191,  15, True ) /* LightsStatus */
-     , (22191,  19, True ) /* Attackable */;
+VALUES (22191,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22191,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22191,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22191,   1, 'Olthoi Arcade') /* Name */
-     , (22191,  38, 'Olthoi Arcade') /* AppraisalPortalDestination */
      , (22191, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

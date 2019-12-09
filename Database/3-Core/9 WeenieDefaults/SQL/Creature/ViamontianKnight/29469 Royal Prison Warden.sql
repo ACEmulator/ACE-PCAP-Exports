@@ -15,15 +15,10 @@ VALUES (29469,   1,         16) /* ItemType - Creature */
      , (29469, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29469,   1, True ) /* Stuck */
-     , (29469,  12, True ) /* ReportCollisions */
-     , (29469,  13, False) /* Ethereal */
-     , (29469,  14, True ) /* GravityStatus */
-     , (29469,  19, True ) /* Attackable */
-     , (29469,  42, True ) /* AllowEdgeSlide */;
+VALUES (29469,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29469,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (29469,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29469,   1, 'Royal Prison Warden') /* Name */

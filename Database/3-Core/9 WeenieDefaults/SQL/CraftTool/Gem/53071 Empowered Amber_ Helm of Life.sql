@@ -13,16 +13,9 @@ VALUES (53071,   1,       2048) /* ItemType - Gem */
      , (53071,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53071,  18,        256) /* UiEffects - Acid */
      , (53071,  19,         25) /* Value */
-     , (53071,  65,        101) /* Placement - Resting */
      , (53071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53071,  94,          6) /* TargetType - Vestements */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53071,   1, False) /* Stuck */
-     , (53071,  11, True ) /* IgnoreCollisions */
-     , (53071,  13, True ) /* Ethereal */
-     , (53071,  14, True ) /* GravityStatus */
-     , (53071,  19, True ) /* Attackable */;
+     , (53071,  94,          6) /* TargetType - Vestements */
+     , (53071, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53071,   1, 'Empowered Amber: Helm of Life') /* Name */

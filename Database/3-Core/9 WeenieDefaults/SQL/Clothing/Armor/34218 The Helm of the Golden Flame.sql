@@ -11,17 +11,12 @@ VALUES (34218,   1,          2) /* ItemType - Armor */
      , (34218,  16,          1) /* ItemUseable - No */
      , (34218,  18,          1) /* UiEffects - Magical */
      , (34218,  19,      10000) /* Value */
-     , (34218,  65,        101) /* Placement - Resting */
      , (34218,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34218, 151,          2) /* HookType - Wall */;
+     , (34218, 151,          2) /* HookType - Wall */
+     , (34218, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34218,   1, False) /* Stuck */
-     , (34218,  11, True ) /* IgnoreCollisions */
-     , (34218,  13, True ) /* Ethereal */
-     , (34218,  14, True ) /* GravityStatus */
-     , (34218,  19, True ) /* Attackable */
-     , (34218,  22, True ) /* Inscribable */;
+VALUES (34218,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34218,   1, 'The Helm of the Golden Flame') /* Name */;

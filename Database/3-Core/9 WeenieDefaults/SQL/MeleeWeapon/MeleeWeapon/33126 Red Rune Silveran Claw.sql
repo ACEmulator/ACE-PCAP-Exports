@@ -11,20 +11,15 @@ VALUES (33126,   1,          1) /* ItemType - MeleeWeapon */
      , (33126,  16,          1) /* ItemUseable - No */
      , (33126,  19,      20000) /* Value */
      , (33126,  51,          1) /* CombatUse - Melee */
-     , (33126,  65,          1) /* Placement - RightHandCombat */
      , (33126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33126, 151,          2) /* HookType - Wall */;
+     , (33126, 151,          2) /* HookType - Wall */
+     , (33126, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33126,   1, False) /* Stuck */
-     , (33126,  11, True ) /* IgnoreCollisions */
-     , (33126,  13, True ) /* Ethereal */
-     , (33126,  14, True ) /* GravityStatus */
-     , (33126,  19, True ) /* Attackable */
-     , (33126,  22, True ) /* Inscribable */;
+VALUES (33126,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33126,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33126,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33126,   1, 'Red Rune Silveran Claw') /* Name */;

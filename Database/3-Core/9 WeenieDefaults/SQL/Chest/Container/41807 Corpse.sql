@@ -12,12 +12,7 @@ VALUES (41807,   1,        512) /* ItemType - Container */
      , (41807,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41807,   1, True ) /* Stuck */
-     , (41807,  11, True ) /* IgnoreCollisions */
-     , (41807,  12, True ) /* ReportCollisions */
-     , (41807,  13, True ) /* Ethereal */
-     , (41807,  14, True ) /* GravityStatus */
-     , (41807,  19, True ) /* Attackable */;
+VALUES (41807,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41807,  54,       1) /* UseRadius */;

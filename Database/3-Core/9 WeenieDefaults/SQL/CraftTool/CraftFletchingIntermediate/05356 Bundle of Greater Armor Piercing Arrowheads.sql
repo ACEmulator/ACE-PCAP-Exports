@@ -11,16 +11,9 @@ VALUES (5356,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (5356,  15,        300) /* StackUnitValue */
      , (5356,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5356,  19,        300) /* Value */
-     , (5356,  65,        101) /* Placement - Resting */
      , (5356,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5356,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5356,   1, False) /* Stuck */
-     , (5356,  11, True ) /* IgnoreCollisions */
-     , (5356,  13, True ) /* Ethereal */
-     , (5356,  14, True ) /* GravityStatus */
-     , (5356,  19, True ) /* Attackable */;
+     , (5356,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (5356, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5356,   1, 'Bundle of Greater Armor Piercing Arrowheads') /* Name */

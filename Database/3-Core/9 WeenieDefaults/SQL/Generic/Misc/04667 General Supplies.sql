@@ -11,11 +11,7 @@ VALUES (4667,   1,        128) /* ItemType - Misc */
      , (4667,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4667,   1, True ) /* Stuck */
-     , (4667,  11, True ) /* IgnoreCollisions */
-     , (4667,  12, True ) /* ReportCollisions */
-     , (4667,  13, False) /* Ethereal */
-     , (4667,  19, True ) /* Attackable */;
+VALUES (4667,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4667,   1, 'General Supplies') /* Name */

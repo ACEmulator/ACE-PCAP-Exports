@@ -15,14 +15,10 @@ VALUES (9254,   1,         16) /* ItemType - Creature */
      , (9254, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9254,   1, True ) /* Stuck */
-     , (9254,  12, True ) /* ReportCollisions */
-     , (9254,  13, False) /* Ethereal */
-     , (9254,  14, True ) /* GravityStatus */
-     , (9254,  19, True ) /* Attackable */;
+VALUES (9254,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9254,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (9254,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9254,   1, 'Ancient Mu-miyah') /* Name */

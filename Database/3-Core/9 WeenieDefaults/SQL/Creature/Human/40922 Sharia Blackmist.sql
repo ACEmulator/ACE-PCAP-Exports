@@ -20,12 +20,7 @@ VALUES (40922,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40922,   1, True ) /* Stuck */
-     , (40922,  11, True ) /* IgnoreCollisions */
-     , (40922,  12, True ) /* ReportCollisions */
-     , (40922,  13, False) /* Ethereal */
-     , (40922,  14, True ) /* GravityStatus */
-     , (40922,  19, False) /* Attackable */
-     , (40922,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (40922,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40922,   1, 'Sharia Blackmist') /* Name */

@@ -15,11 +15,7 @@ VALUES (180,   1,         16) /* ItemType - Creature */
      , (180, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (180,   1, True ) /* Stuck */
-     , (180,  12, True ) /* ReportCollisions */
-     , (180,  13, False) /* Ethereal */
-     , (180,  14, True ) /* GravityStatus */
-     , (180,  19, True ) /* Attackable */;
+VALUES (180,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (180,   1, 'Sandy Armoredillo') /* Name */

@@ -11,12 +11,7 @@ VALUES (14702,   1,        128) /* ItemType - Misc */
      , (14702,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14702,   1, True ) /* Stuck */
-     , (14702,  11, True ) /* IgnoreCollisions */
-     , (14702,  12, True ) /* ReportCollisions */
-     , (14702,  13, False) /* Ethereal */
-     , (14702,  14, True ) /* GravityStatus */
-     , (14702,  19, True ) /* Attackable */;
+VALUES (14702,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14702,   1, 'Firedew') /* Name */;

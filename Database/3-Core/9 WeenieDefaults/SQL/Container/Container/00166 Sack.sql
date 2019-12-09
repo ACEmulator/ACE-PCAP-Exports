@@ -9,17 +9,13 @@ VALUES (166,   1,        512) /* ItemType - Container */
      , (166,   6,         24) /* ItemsCapacity */
      , (166,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (166,  19,         65) /* Value */
-     , (166,  65,        101) /* Placement - Resting */
-     , (166,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (166,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (166, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (166,   1, False) /* Stuck */
-     , (166,   2, True ) /* Open */
-     , (166,  11, True ) /* IgnoreCollisions */
-     , (166,  13, True ) /* Ethereal */
-     , (166,  14, True ) /* GravityStatus */
-     , (166,  19, True ) /* Attackable */
-     , (166,  22, True ) /* Inscribable */;
+VALUES (166,   2, False) /* Open */
+     , (166,  22, True ) /* Inscribable */
+     , (166,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (166,   1, 'Sack') /* Name */

@@ -13,19 +13,14 @@ VALUES (23856,   1,       2048) /* ItemType - Gem */
      , (23856,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (23856,  19,          0) /* Value */
      , (23856,  33,          1) /* Bonded - Bonded */
-     , (23856,  65,        101) /* Placement - Resting */
      , (23856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23856,  94,          2) /* TargetType - Armor */
      , (23856, 114,          1) /* Attuned - Attuned */
-     , (23856, 151,          2) /* HookType - Wall */;
+     , (23856, 151,          2) /* HookType - Wall */
+     , (23856, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23856,   1, False) /* Stuck */
-     , (23856,  11, True ) /* IgnoreCollisions */
-     , (23856,  13, True ) /* Ethereal */
-     , (23856,  14, True ) /* GravityStatus */
-     , (23856,  19, True ) /* Attackable */
-     , (23856,  22, True ) /* Inscribable */;
+VALUES (23856,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23856,   1, 'Hardened Shard') /* Name */

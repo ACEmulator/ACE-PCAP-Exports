@@ -10,16 +10,9 @@ VALUES (6419,   1,       8192) /* ItemType - Writable */
      , (6419,  19,          5) /* Value */
      , (6419,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6419,   1, False) /* Stuck */
-     , (6419,  11, True ) /* IgnoreCollisions */
-     , (6419,  13, True ) /* Ethereal */
-     , (6419,  14, True ) /* GravityStatus */
-     , (6419,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6419,  39, 0.400000005960464) /* DefaultScale */
-     , (6419,  54, 0.300000011920929) /* UseRadius */;
+VALUES (6419,  39,     0.4) /* DefaultScale */
+     , (6419,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6419,   1, 'The Meeting Halls') /* Name */;

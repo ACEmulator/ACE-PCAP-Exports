@@ -9,17 +9,12 @@ VALUES (33501,   1,        128) /* ItemType - Misc */
      , (33501,  16,          1) /* ItemUseable - No */
      , (33501,  19,          0) /* Value */
      , (33501,  33,          1) /* Bonded - Bonded */
-     , (33501,  65,        101) /* Placement - Resting */
      , (33501,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33501, 114,          1) /* Attuned - Attuned */;
+     , (33501, 114,          1) /* Attuned - Attuned */
+     , (33501, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33501,   1, False) /* Stuck */
-     , (33501,  11, True ) /* IgnoreCollisions */
-     , (33501,  13, True ) /* Ethereal */
-     , (33501,  14, True ) /* GravityStatus */
-     , (33501,  19, True ) /* Attackable */
-     , (33501,  22, True ) /* Inscribable */;
+VALUES (33501,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33501,   1, 'Head of the Mukkir Scion') /* Name */

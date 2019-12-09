@@ -8,17 +8,12 @@ VALUES (11937,   1,        128) /* ItemType - Misc */
      , (11937,   5,         50) /* EncumbranceVal */
      , (11937,  16,          1) /* ItemUseable - No */
      , (11937,  19,     100000) /* Value */
-     , (11937,  65,        101) /* Placement - Resting */
      , (11937,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11937, 151,          1) /* HookType - Floor */;
+     , (11937, 151,          1) /* HookType - Floor */
+     , (11937, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11937,   1, False) /* Stuck */
-     , (11937,  11, True ) /* IgnoreCollisions */
-     , (11937,  13, True ) /* Ethereal */
-     , (11937,  14, True ) /* GravityStatus */
-     , (11937,  19, True ) /* Attackable */
-     , (11937,  22, True ) /* Inscribable */;
+VALUES (11937,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11937,   1, 'Ursuin Rug') /* Name */

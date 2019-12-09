@@ -12,19 +12,13 @@ VALUES (14662,   1,      65536) /* ItemType - Portal */
      , (14662, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14662,   1, True ) /* Stuck */
-     , (14662,  12, True ) /* ReportCollisions */
-     , (14662,  13, True ) /* Ethereal */
-     , (14662,  14, True ) /* GravityStatus */
-     , (14662,  15, True ) /* LightsStatus */
-     , (14662,  19, True ) /* Attackable */;
+VALUES (14662,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14662,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14662,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14662,   1, 'San-Chin Portal') /* Name */
-     , (14662,  38, 'San-Chin Portal (22.4S, 68.7E).') /* AppraisalPortalDestination */
      , (14662, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

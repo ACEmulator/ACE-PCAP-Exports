@@ -13,11 +13,7 @@ VALUES (36649,   1,         16) /* ItemType - Creature */
      , (36649, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36649,   1, True ) /* Stuck */
-     , (36649,  12, True ) /* ReportCollisions */
-     , (36649,  13, False) /* Ethereal */
-     , (36649,  14, True ) /* GravityStatus */
-     , (36649,  19, True ) /* Attackable */;
+VALUES (36649,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36649,   1, 'Shadow Kresovus') /* Name */

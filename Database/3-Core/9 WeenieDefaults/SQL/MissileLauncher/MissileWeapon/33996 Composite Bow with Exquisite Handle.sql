@@ -17,7 +17,6 @@ VALUES (33996,   1,        256) /* ItemType - MissileWeapon */
      , (33996,  49,          1) /* WeaponTime */
      , (33996,  50,          1) /* AmmoType - Arrow */
      , (33996,  51,          2) /* CombatUse - Missle */
-     , (33996,  65,          3) /* Placement - LeftHand */
      , (33996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33996, 106,        450) /* ItemSpellcraft */
      , (33996, 107,        450) /* ItemCurMana */
@@ -28,24 +27,20 @@ VALUES (33996,   1,        256) /* ItemType - MissileWeapon */
      , (33996, 159,         47) /* WieldSkillType - MissileWeapons */
      , (33996, 160,        360) /* WieldDifficulty */
      , (33996, 353,          8) /* WeaponType - Bow */
-     , (33996, 8030,          0);
+     , (33996, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33996, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33996,   1, False) /* Stuck */
-     , (33996,  11, True ) /* IgnoreCollisions */
-     , (33996,  13, True ) /* Ethereal */
-     , (33996,  14, True ) /* GravityStatus */
-     , (33996,  19, True ) /* Attackable */
-     , (33996,  22, True ) /* Inscribable */
+VALUES (33996,  22, True ) /* Inscribable */
      , (33996,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33996,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33996,   5,   -0.05) /* ManaRate */
      , (33996,  21,       0) /* WeaponLength */
      , (33996,  22,       0) /* DamageVariance */
      , (33996,  26,    27.3) /* MaximumVelocity */
-     , (33996,  29, 1.16999995708466) /* WeaponDefense */
-     , (33996,  39, 1.10000002384186) /* DefaultScale */
+     , (33996,  29,    1.17) /* WeaponDefense */
+     , (33996,  39,     1.1) /* DefaultScale */
      , (33996,  62,       1) /* WeaponOffense */
      , (33996,  63,     2.5) /* DamageMod */
      , (33996, 136,       1) /* CriticalMultiplier */

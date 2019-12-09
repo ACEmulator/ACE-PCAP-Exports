@@ -19,12 +19,7 @@ VALUES (52634,   1,         16) /* ItemType - Creature */
      , (52634, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52634,   1, True ) /* Stuck */
-     , (52634,  12, True ) /* ReportCollisions */
-     , (52634,  13, False) /* Ethereal */
-     , (52634,  14, True ) /* GravityStatus */
-     , (52634,  19, True ) /* Attackable */
-     , (52634,  42, True ) /* AllowEdgeSlide */;
+VALUES (52634,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52634,   1, 'A''nekshen Storm Reaver') /* Name */

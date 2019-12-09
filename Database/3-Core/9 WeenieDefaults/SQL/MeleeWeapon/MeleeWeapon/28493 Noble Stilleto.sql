@@ -11,17 +11,12 @@ VALUES (28493,   1,          1) /* ItemType - MeleeWeapon */
      , (28493,  18,          1) /* UiEffects - Magical */
      , (28493,  19,       6000) /* Value */
      , (28493,  51,          1) /* CombatUse - Melee */
-     , (28493,  65,        101) /* Placement - Resting */
      , (28493,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28493, 151,          2) /* HookType - Wall */;
+     , (28493, 151,          2) /* HookType - Wall */
+     , (28493, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28493,   1, False) /* Stuck */
-     , (28493,  11, True ) /* IgnoreCollisions */
-     , (28493,  13, True ) /* Ethereal */
-     , (28493,  14, True ) /* GravityStatus */
-     , (28493,  19, True ) /* Attackable */
-     , (28493,  22, True ) /* Inscribable */;
+VALUES (28493,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28493,   1, 'Noble Stilleto') /* Name */;

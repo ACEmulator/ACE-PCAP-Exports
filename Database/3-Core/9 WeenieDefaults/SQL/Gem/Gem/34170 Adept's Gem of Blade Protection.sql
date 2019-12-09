@@ -12,16 +12,9 @@ VALUES (34170,   1,       2048) /* ItemType - Gem */
      , (34170,  15,          0) /* StackUnitValue */
      , (34170,  16,          8) /* ItemUseable - Contained */
      , (34170,  18,          1) /* UiEffects - Magical */
-     , (34170,  65,        101) /* Placement - Resting */
      , (34170,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34170,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34170,   1, False) /* Stuck */
-     , (34170,  11, True ) /* IgnoreCollisions */
-     , (34170,  13, True ) /* Ethereal */
-     , (34170,  14, True ) /* GravityStatus */
-     , (34170,  19, True ) /* Attackable */;
+     , (34170,  94,         16) /* TargetType - Creature */
+     , (34170, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34170,   1, 'Adept''s Gem of Blade Protection') /* Name */

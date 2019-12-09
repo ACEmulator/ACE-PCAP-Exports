@@ -12,18 +12,11 @@ VALUES (8335,   1,       4096) /* ItemType - SpellComponents */
      , (8335,  15,        250) /* StackUnitValue */
      , (8335,  16,          1) /* ItemUseable - No */
      , (8335,  19,        250) /* Value */
-     , (8335,  65,        101) /* Placement - Resting */
-     , (8335,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8335,   1, False) /* Stuck */
-     , (8335,  11, True ) /* IgnoreCollisions */
-     , (8335,  13, True ) /* Ethereal */
-     , (8335,  14, True ) /* GravityStatus */
-     , (8335,  19, True ) /* Attackable */;
+     , (8335,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8335, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8335,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8335,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8335,   1, 'Blackthorn Pea') /* Name */;

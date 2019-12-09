@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34927,   1,        128) /* ItemType - Misc */
      , (34927,   5,         50) /* EncumbranceVal */
      , (34927,  16,          8) /* ItemUseable - Contained */
-     , (34927,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34927,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34927,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34927,   1, False) /* Stuck */
-     , (34927,  11, True ) /* IgnoreCollisions */
-     , (34927,  13, True ) /* Ethereal */
-     , (34927,  14, True ) /* GravityStatus */
-     , (34927,  19, True ) /* Attackable */
-     , (34927,  22, True ) /* Inscribable */;
+VALUES (34927,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34927,  39,    0.75) /* DefaultScale */;

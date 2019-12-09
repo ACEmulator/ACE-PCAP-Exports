@@ -15,11 +15,7 @@ VALUES (8216,   1,         16) /* ItemType - Creature */
      , (8216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8216,   1, True ) /* Stuck */
-     , (8216,  12, True ) /* ReportCollisions */
-     , (8216,  13, False) /* Ethereal */
-     , (8216,  14, True ) /* GravityStatus */
-     , (8216,  19, True ) /* Attackable */;
+VALUES (8216,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8216,   1, 'Mite Squire') /* Name */

@@ -11,7 +11,6 @@ VALUES (27650,   1,      32768) /* ItemType - Caster */
      , (27650,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (27650,  18,          1) /* UiEffects - Magical */
      , (27650,  19,       2000) /* Value */
-     , (27650,  65,          1) /* Placement - RightHandCombat */
      , (27650,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27650,  94,         16) /* TargetType - Creature */
      , (27650, 106,        250) /* ItemSpellcraft */
@@ -24,21 +23,17 @@ VALUES (27650,   1,      32768) /* ItemType - Caster */
      , (27650, 158,          7) /* WieldRequirements - Level */
      , (27650, 159,          1) /* WieldSkillType - Axe */
      , (27650, 160,         70) /* WieldDifficulty */
-     , (27650, 176,         34) /* AppraisalItemSkill */;
+     , (27650, 176,         34) /* AppraisalItemSkill */
+     , (27650, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27650,   1, False) /* Stuck */
-     , (27650,  11, True ) /* IgnoreCollisions */
-     , (27650,  13, True ) /* Ethereal */
-     , (27650,  14, True ) /* GravityStatus */
-     , (27650,  19, True ) /* Attackable */
-     , (27650,  22, True ) /* Inscribable */;
+VALUES (27650,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27650,   5, -0.0333) /* ManaRate */
-     , (27650,  29, 1.17000000178814) /* WeaponDefense */
-     , (27650, 144, 0.204000005722046) /* ManaConversionMod */
-     , (27650, 152, 1.07000000029802) /* ElementalDamageMod */;
+VALUES (27650,   5,   -0.03) /* ManaRate */
+     , (27650,  29,    1.17) /* WeaponDefense */
+     , (27650, 144,     0.2) /* ManaConversionMod */
+     , (27650, 152,    1.07) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27650,   1, 'Head of the Homunculus') /* Name */

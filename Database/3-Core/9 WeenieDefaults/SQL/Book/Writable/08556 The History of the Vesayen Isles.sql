@@ -10,15 +10,8 @@ VALUES (8556,   1,       8192) /* ItemType - Writable */
      , (8556,  19,        450) /* Value */
      , (8556,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8556,   1, False) /* Stuck */
-     , (8556,  11, True ) /* IgnoreCollisions */
-     , (8556,  13, True ) /* Ethereal */
-     , (8556,  14, True ) /* GravityStatus */
-     , (8556,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8556,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (8556,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8556,   1, 'The History of the Vesayen Isles') /* Name */;

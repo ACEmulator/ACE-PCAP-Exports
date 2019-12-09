@@ -9,17 +9,12 @@ VALUES (24923,   1,        128) /* ItemType - Misc */
      , (24923,  16,          1) /* ItemUseable - No */
      , (24923,  19,          0) /* Value */
      , (24923,  33,          1) /* Bonded - Bonded */
-     , (24923,  65,        101) /* Placement - Resting */
      , (24923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24923, 114,          1) /* Attuned - Attuned */;
+     , (24923, 114,          1) /* Attuned - Attuned */
+     , (24923, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24923,   1, False) /* Stuck */
-     , (24923,  11, True ) /* IgnoreCollisions */
-     , (24923,  13, True ) /* Ethereal */
-     , (24923,  14, True ) /* GravityStatus */
-     , (24923,  19, True ) /* Attackable */
-     , (24923,  22, True ) /* Inscribable */;
+VALUES (24923,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24923,   1, 'Brood Matron Elder Tibia') /* Name */

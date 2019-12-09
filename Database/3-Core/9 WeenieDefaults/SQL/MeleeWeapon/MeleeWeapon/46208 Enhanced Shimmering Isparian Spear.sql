@@ -17,7 +17,6 @@ VALUES (46208,   1,          1) /* ItemType - MeleeWeapon */
      , (46208,  48,         45) /* WeaponSkill - LightWeapons */
      , (46208,  49,         12) /* WeaponTime */
      , (46208,  51,          1) /* CombatUse - Melee */
-     , (46208,  65,        101) /* Placement - Resting */
      , (46208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46208, 106,        350) /* ItemSpellcraft */
      , (46208, 107,        718) /* ItemCurMana */
@@ -29,25 +28,21 @@ VALUES (46208,   1,          1) /* ItemType - MeleeWeapon */
      , (46208, 159,         45) /* WieldSkillType - LightWeapons */
      , (46208, 160,        400) /* WieldDifficulty */
      , (46208, 166,         62) /* SlayerCreatureType - Elemental */
-     , (46208, 8030,          0);
+     , (46208, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46208, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46208,   1, False) /* Stuck */
-     , (46208,  11, True ) /* IgnoreCollisions */
-     , (46208,  13, True ) /* Ethereal */
-     , (46208,  14, True ) /* GravityStatus */
-     , (46208,  19, True ) /* Attackable */
-     , (46208,  22, True ) /* Inscribable */
+VALUES (46208,  22, True ) /* Inscribable */
      , (46208,  69, False) /* IsSellable */
      , (46208,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46208,   5, -0.0329999998211861) /* ManaRate */
+VALUES (46208,   5,   -0.03) /* ManaRate */
      , (46208,  21,       0) /* WeaponLength */
-     , (46208,  22, 0.449999988079071) /* DamageVariance */
+     , (46208,  22,    0.45) /* DamageVariance */
      , (46208,  26,       0) /* MaximumVelocity */
-     , (46208,  29, 1.13999998569489) /* WeaponDefense */
-     , (46208,  62, 1.13999998569489) /* WeaponOffense */
+     , (46208,  29,    1.14) /* WeaponDefense */
+     , (46208,  62,    1.14) /* WeaponOffense */
      , (46208,  63,       1) /* DamageMod */
      , (46208, 155,       1) /* IgnoreArmor */;
 

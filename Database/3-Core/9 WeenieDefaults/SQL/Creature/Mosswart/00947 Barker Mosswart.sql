@@ -16,11 +16,7 @@ VALUES (947,   1,         16) /* ItemType - Creature */
      , (947, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (947,   1, True ) /* Stuck */
-     , (947,  12, True ) /* ReportCollisions */
-     , (947,  13, False) /* Ethereal */
-     , (947,  14, True ) /* GravityStatus */
-     , (947,  19, True ) /* Attackable */;
+VALUES (947,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (947,   1, 'Barker Mosswart') /* Name */

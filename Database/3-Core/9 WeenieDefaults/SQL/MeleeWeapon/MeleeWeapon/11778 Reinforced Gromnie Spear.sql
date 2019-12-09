@@ -11,16 +11,11 @@ VALUES (11778,   1,          1) /* ItemType - MeleeWeapon */
      , (11778,  16,          1) /* ItemUseable - No */
      , (11778,  18,          1) /* UiEffects - Magical */
      , (11778,  51,          1) /* CombatUse - Melee */
-     , (11778,  65,          1) /* Placement - RightHandCombat */
-     , (11778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11778, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11778,   1, False) /* Stuck */
-     , (11778,  11, True ) /* IgnoreCollisions */
-     , (11778,  13, True ) /* Ethereal */
-     , (11778,  14, True ) /* GravityStatus */
-     , (11778,  19, True ) /* Attackable */
-     , (11778,  22, True ) /* Inscribable */;
+VALUES (11778,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11778,   1, 'Reinforced Gromnie Spear') /* Name */;

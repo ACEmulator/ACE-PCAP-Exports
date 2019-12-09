@@ -13,17 +13,12 @@ VALUES (41982,   1,        128) /* ItemType - Misc */
      , (41982,  16,          1) /* ItemUseable - No */
      , (41982,  19,          0) /* Value */
      , (41982,  33,          1) /* Bonded - Bonded */
-     , (41982,  65,        101) /* Placement - Resting */
      , (41982,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41982, 114,          1) /* Attuned - Attuned */;
+     , (41982, 114,          1) /* Attuned - Attuned */
+     , (41982, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41982,   1, False) /* Stuck */
-     , (41982,  11, True ) /* IgnoreCollisions */
-     , (41982,  13, True ) /* Ethereal */
-     , (41982,  14, True ) /* GravityStatus */
-     , (41982,  19, True ) /* Attackable */
-     , (41982,  69, False) /* IsSellable */;
+VALUES (41982,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41982,   1, 'Rytheran''s Jeweled Ring') /* Name */

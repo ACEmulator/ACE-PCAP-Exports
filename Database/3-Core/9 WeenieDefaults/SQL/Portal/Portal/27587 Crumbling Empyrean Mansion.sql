@@ -12,19 +12,13 @@ VALUES (27587,   1,      65536) /* ItemType - Portal */
      , (27587, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27587,   1, True ) /* Stuck */
-     , (27587,  12, True ) /* ReportCollisions */
-     , (27587,  13, True ) /* Ethereal */
-     , (27587,  14, True ) /* GravityStatus */
-     , (27587,  15, True ) /* LightsStatus */
-     , (27587,  19, True ) /* Attackable */;
+VALUES (27587,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27587,  54, -0.100000001490116) /* UseRadius */;
+VALUES (27587,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27587,   1, 'Crumbling Empyrean Mansion') /* Name */
-     , (27587,  38, 'Crumbling Empyrean Mansion') /* AppraisalPortalDestination */
      , (27587, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

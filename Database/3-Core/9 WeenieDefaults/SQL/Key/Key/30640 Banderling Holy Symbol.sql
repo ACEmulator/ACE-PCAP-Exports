@@ -9,20 +9,15 @@ VALUES (30640,   1,      16384) /* ItemType - Key */
      , (30640,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (30640,  19,          0) /* Value */
      , (30640,  33,          1) /* Bonded - Bonded */
-     , (30640,  65,        101) /* Placement - Resting */
      , (30640,  91,          3) /* MaxStructure */
      , (30640,  92,          3) /* Structure */
      , (30640,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30640,  94,        640) /* TargetType - LockableMagicTarget */
-     , (30640, 114,          1) /* Attuned - Attuned */;
+     , (30640, 114,          1) /* Attuned - Attuned */
+     , (30640, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30640,   1, False) /* Stuck */
-     , (30640,  11, True ) /* IgnoreCollisions */
-     , (30640,  13, True ) /* Ethereal */
-     , (30640,  14, True ) /* GravityStatus */
-     , (30640,  19, True ) /* Attackable */
-     , (30640,  22, True ) /* Inscribable */;
+VALUES (30640,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30640,   1, 'Banderling Holy Symbol') /* Name */

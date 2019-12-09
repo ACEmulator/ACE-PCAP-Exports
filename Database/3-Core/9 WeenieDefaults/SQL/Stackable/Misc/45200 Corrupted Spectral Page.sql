@@ -11,15 +11,8 @@ VALUES (45200,   1,        128) /* ItemType - Misc */
      , (45200,  13,          5) /* StackUnitEncumbrance */
      , (45200,  15,          0) /* StackUnitValue */
      , (45200,  16,          1) /* ItemUseable - No */
-     , (45200,  65,        101) /* Placement - Resting */
-     , (45200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45200,   1, False) /* Stuck */
-     , (45200,  11, True ) /* IgnoreCollisions */
-     , (45200,  13, True ) /* Ethereal */
-     , (45200,  14, True ) /* GravityStatus */
-     , (45200,  19, True ) /* Attackable */;
+     , (45200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45200, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45200,   1, 'Corrupted Spectral Page') /* Name */

@@ -13,17 +13,12 @@ VALUES (41933,   1,        128) /* ItemType - Misc */
      , (41933,  16,          1) /* ItemUseable - No */
      , (41933,  19,          0) /* Value */
      , (41933,  33,          1) /* Bonded - Bonded */
-     , (41933,  65,        101) /* Placement - Resting */
      , (41933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41933, 114,          1) /* Attuned - Attuned */;
+     , (41933, 114,          1) /* Attuned - Attuned */
+     , (41933, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41933,   1, False) /* Stuck */
-     , (41933,  11, True ) /* IgnoreCollisions */
-     , (41933,  13, True ) /* Ethereal */
-     , (41933,  14, True ) /* GravityStatus */
-     , (41933,  19, True ) /* Attackable */
-     , (41933,  69, False) /* IsSellable */;
+VALUES (41933,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41933,   1, 'Lady Saliane''s Brand') /* Name */

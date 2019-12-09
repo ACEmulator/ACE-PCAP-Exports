@@ -12,21 +12,16 @@ VALUES (41772,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (41772,  15,         10) /* StackUnitValue */
      , (41772,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41772,  19,         10) /* Value */
-     , (41772,  65,        101) /* Placement - Resting */
      , (41772,  91,        100) /* MaxStructure */
      , (41772,  92,        100) /* Structure */
      , (41772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41772,  94, 1140850688) /* TargetType - CraftAlchemyIntermediate, TinkeringMaterial */
      , (41772, 131,         62) /* MaterialType - Pyreal */
-     , (41772, 151,          9) /* HookType - Floor, Yard */;
+     , (41772, 151,          9) /* HookType - Floor, Yard */
+     , (41772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41772,   1, False) /* Stuck */
-     , (41772,  11, True ) /* IgnoreCollisions */
-     , (41772,  13, True ) /* Ethereal */
-     , (41772,  14, True ) /* GravityStatus */
-     , (41772,  19, True ) /* Attackable */
-     , (41772,  22, True ) /* Inscribable */;
+VALUES (41772,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41772, 8004,      10) /* PCAPRecordedWorkmanship */;

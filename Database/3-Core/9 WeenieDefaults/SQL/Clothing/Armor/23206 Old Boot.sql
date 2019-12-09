@@ -10,17 +10,12 @@ VALUES (23206,   1,          2) /* ItemType - Armor */
      , (23206,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (23206,  16,          1) /* ItemUseable - No */
      , (23206,  19,         15) /* Value */
-     , (23206,  65,        101) /* Placement - Resting */
      , (23206,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23206, 151,          9) /* HookType - Floor, Yard */;
+     , (23206, 151,          9) /* HookType - Floor, Yard */
+     , (23206, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23206,   1, False) /* Stuck */
-     , (23206,  11, True ) /* IgnoreCollisions */
-     , (23206,  13, True ) /* Ethereal */
-     , (23206,  14, True ) /* GravityStatus */
-     , (23206,  19, True ) /* Attackable */
-     , (23206,  22, True ) /* Inscribable */;
+VALUES (23206,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23206,   1, 'Old Boot') /* Name */;

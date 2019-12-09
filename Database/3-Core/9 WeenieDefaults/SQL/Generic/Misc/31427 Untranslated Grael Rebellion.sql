@@ -9,20 +9,15 @@ VALUES (31427,   1,        128) /* ItemType - Misc */
      , (31427,  16,          1) /* ItemUseable - No */
      , (31427,  19,          0) /* Value */
      , (31427,  33,          1) /* Bonded - Bonded */
-     , (31427,  65,        101) /* Placement - Resting */
      , (31427,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31427, 114,          1) /* Attuned - Attuned */;
+     , (31427, 114,          1) /* Attuned - Attuned */
+     , (31427, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31427,   1, False) /* Stuck */
-     , (31427,  11, True ) /* IgnoreCollisions */
-     , (31427,  13, True ) /* Ethereal */
-     , (31427,  14, True ) /* GravityStatus */
-     , (31427,  19, True ) /* Attackable */
-     , (31427,  22, True ) /* Inscribable */;
+VALUES (31427,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31427,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (31427,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31427,   1, 'Untranslated Grael Rebellion') /* Name */

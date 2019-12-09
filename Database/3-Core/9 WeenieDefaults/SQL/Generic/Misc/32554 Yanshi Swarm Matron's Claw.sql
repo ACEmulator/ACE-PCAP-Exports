@@ -9,20 +9,15 @@ VALUES (32554,   1,        128) /* ItemType - Misc */
      , (32554,  16,          1) /* ItemUseable - No */
      , (32554,  19,          0) /* Value */
      , (32554,  33,          1) /* Bonded - Bonded */
-     , (32554,  65,        101) /* Placement - Resting */
      , (32554,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32554, 114,          1) /* Attuned - Attuned */;
+     , (32554, 114,          1) /* Attuned - Attuned */
+     , (32554, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32554,   1, False) /* Stuck */
-     , (32554,  11, True ) /* IgnoreCollisions */
-     , (32554,  13, True ) /* Ethereal */
-     , (32554,  14, True ) /* GravityStatus */
-     , (32554,  19, True ) /* Attackable */
-     , (32554,  22, True ) /* Inscribable */;
+VALUES (32554,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32554,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (32554,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32554,   1, 'Yanshi Swarm Matron''s Claw') /* Name */

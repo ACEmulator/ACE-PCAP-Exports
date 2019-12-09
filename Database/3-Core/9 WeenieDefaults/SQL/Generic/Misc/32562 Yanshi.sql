@@ -8,16 +8,11 @@ VALUES (32562,   1,        128) /* ItemType - Misc */
      , (32562,   5,       9000) /* EncumbranceVal */
      , (32562,  16,          1) /* ItemUseable - No */
      , (32562,  19,        125) /* Value */
-     , (32562,  65,        101) /* Placement - Resting */
-     , (32562,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (32562,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (32562, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32562,   1, True ) /* Stuck */
-     , (32562,  11, True ) /* IgnoreCollisions */
-     , (32562,  12, True ) /* ReportCollisions */
-     , (32562,  13, False) /* Ethereal */
-     , (32562,  14, True ) /* GravityStatus */
-     , (32562,  19, True ) /* Attackable */;
+VALUES (32562,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32562,   1, 'Yanshi') /* Name */

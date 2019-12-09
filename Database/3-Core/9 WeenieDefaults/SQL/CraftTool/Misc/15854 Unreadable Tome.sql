@@ -9,22 +9,17 @@ VALUES (15854,   1,        128) /* ItemType - Misc */
      , (15854,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (15854,  19,          0) /* Value */
      , (15854,  33,          0) /* Bonded - Normal */
-     , (15854,  65,        101) /* Placement - Resting */
      , (15854,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15854,  94,        128) /* TargetType - Misc */
-     , (15854, 114,          0) /* Attuned - Normal */;
+     , (15854, 114,          0) /* Attuned - Normal */
+     , (15854, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15854,   1, False) /* Stuck */
-     , (15854,  11, True ) /* IgnoreCollisions */
-     , (15854,  13, True ) /* Ethereal */
-     , (15854,  14, True ) /* GravityStatus */
-     , (15854,  19, True ) /* Attackable */
-     , (15854,  22, True ) /* Inscribable */
+VALUES (15854,  22, True ) /* Inscribable */
      , (15854,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15854,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (15854,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15854,   1, 'Unreadable Tome') /* Name */

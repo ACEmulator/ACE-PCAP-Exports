@@ -11,12 +11,7 @@ VALUES (19399,   1,        128) /* ItemType - Misc */
      , (19399,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19399,   1, True ) /* Stuck */
-     , (19399,  11, True ) /* IgnoreCollisions */
-     , (19399,  12, True ) /* ReportCollisions */
-     , (19399,  13, False) /* Ethereal */
-     , (19399,  14, True ) /* GravityStatus */
-     , (19399,  19, True ) /* Attackable */;
+VALUES (19399,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19399,   1, 'Winthur Gate') /* Name */;

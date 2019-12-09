@@ -8,21 +8,16 @@ VALUES (11975,   1,       8192) /* ItemType - Writable */
      , (11975,   5,        160) /* EncumbranceVal */
      , (11975,  16,          8) /* ItemUseable - Contained */
      , (11975,  19,         90) /* Value */
-     , (11975,  65,        101) /* Placement - Resting */
      , (11975,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11975, 174,          8) /* AppraisalPages */
-     , (11975, 175,          8) /* AppraisalMaxPages */;
+     , (11975, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (11975, 8042,          8) /* PCAPRecordedAppraisalPages */
+     , (11975, 8043,          8) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11975,   1, False) /* Stuck */
-     , (11975,  11, True ) /* IgnoreCollisions */
-     , (11975,  13, True ) /* Ethereal */
-     , (11975,  14, True ) /* GravityStatus */
-     , (11975,  19, True ) /* Attackable */
-     , (11975,  22, True ) /* Inscribable */;
+VALUES (11975,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11975,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (11975,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11975,   1, 'Bachus Flufen''s Journal') /* Name */;

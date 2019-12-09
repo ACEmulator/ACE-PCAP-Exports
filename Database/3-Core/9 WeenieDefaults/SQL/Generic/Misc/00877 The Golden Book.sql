@@ -8,20 +8,15 @@ VALUES (877,   1,        128) /* ItemType - Misc */
      , (877,   5,       9000) /* EncumbranceVal */
      , (877,  16,          1) /* ItemUseable - No */
      , (877,  19,        125) /* Value */
-     , (877,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (877,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (877,   1, True ) /* Stuck */
-     , (877,  11, True ) /* IgnoreCollisions */
-     , (877,  12, True ) /* ReportCollisions */
-     , (877,  13, False) /* Ethereal */
-     , (877,  14, True ) /* GravityStatus */
-     , (877,  19, True ) /* Attackable */;
+VALUES (877,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (877, 8010,       0) /* PCAPRecordedVelocityX */
      , (877, 8011,       0) /* PCAPRecordedVelocityY */
-     , (877, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (877, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (877,   1, 'The Golden Book') /* Name */

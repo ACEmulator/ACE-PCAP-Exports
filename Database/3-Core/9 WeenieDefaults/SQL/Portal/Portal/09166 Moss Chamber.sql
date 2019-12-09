@@ -11,15 +11,10 @@ VALUES (9166,   1,      65536) /* ItemType - Portal */
      , (9166, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9166,   1, True ) /* Stuck */
-     , (9166,  12, True ) /* ReportCollisions */
-     , (9166,  13, True ) /* Ethereal */
-     , (9166,  14, True ) /* GravityStatus */
-     , (9166,  15, True ) /* LightsStatus */
-     , (9166,  19, True ) /* Attackable */;
+VALUES (9166,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9166,  54, -0.100000001490116) /* UseRadius */;
+VALUES (9166,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9166,   1, 'Moss Chamber') /* Name */

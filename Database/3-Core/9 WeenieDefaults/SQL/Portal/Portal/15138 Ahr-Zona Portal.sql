@@ -12,19 +12,13 @@ VALUES (15138,   1,      65536) /* ItemType - Portal */
      , (15138, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15138,   1, True ) /* Stuck */
-     , (15138,  12, True ) /* ReportCollisions */
-     , (15138,  13, True ) /* Ethereal */
-     , (15138,  14, True ) /* GravityStatus */
-     , (15138,  15, True ) /* LightsStatus */
-     , (15138,  19, True ) /* Attackable */;
+VALUES (15138,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15138,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15138,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15138,   1, 'Ahr-Zona Portal') /* Name */
-     , (15138,  38, 'Ahr-Zona Portal (21.7S, 18.4E).') /* AppraisalPortalDestination */
      , (15138, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

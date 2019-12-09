@@ -11,15 +11,10 @@ VALUES (29434,   1,      65536) /* ItemType - Portal */
      , (29434, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29434,   1, True ) /* Stuck */
-     , (29434,  12, True ) /* ReportCollisions */
-     , (29434,  13, True ) /* Ethereal */
-     , (29434,  14, True ) /* GravityStatus */
-     , (29434,  15, True ) /* LightsStatus */
-     , (29434,  19, True ) /* Attackable */;
+VALUES (29434,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29434,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29434,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29434,   1, 'Exit Copper Legion Keep') /* Name */

@@ -12,19 +12,13 @@ VALUES (15187,   1,      65536) /* ItemType - Portal */
      , (15187, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15187,   1, True ) /* Stuck */
-     , (15187,  12, True ) /* ReportCollisions */
-     , (15187,  13, True ) /* Ethereal */
-     , (15187,  14, True ) /* GravityStatus */
-     , (15187,  15, True ) /* LightsStatus */
-     , (15187,  19, True ) /* Attackable */;
+VALUES (15187,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15187,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15187,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15187,   1, 'Sand Shallow Cottages Portal') /* Name */
-     , (15187,  38, 'Sand Shallow Cottages Portal (12.6S, 0.9E).') /* AppraisalPortalDestination */
      , (15187, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

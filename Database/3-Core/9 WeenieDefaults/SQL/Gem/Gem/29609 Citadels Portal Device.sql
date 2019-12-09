@@ -8,17 +8,12 @@ VALUES (29609,   1,       2048) /* ItemType - Gem */
      , (29609,   5,       3500) /* EncumbranceVal */
      , (29609,  16,          1) /* ItemUseable - No */
      , (29609,  19,      10000) /* Value */
-     , (29609,  65,        101) /* Placement - Resting */
-     , (29609,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (29609, 151,          9) /* HookType - Floor, Yard */;
+     , (29609,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29609, 151,          9) /* HookType - Floor, Yard */
+     , (29609, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29609,   1, False) /* Stuck */
-     , (29609,  11, True ) /* IgnoreCollisions */
-     , (29609,  13, True ) /* Ethereal */
-     , (29609,  14, True ) /* GravityStatus */
-     , (29609,  19, True ) /* Attackable */
-     , (29609,  22, True ) /* Inscribable */;
+VALUES (29609,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29609,   1, 'Citadels Portal Device') /* Name */

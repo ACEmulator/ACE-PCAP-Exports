@@ -12,15 +12,8 @@ VALUES (273,   1,         64) /* ItemType - Money */
      , (273,  15,          1) /* StackUnitValue */
      , (273,  16,          1) /* ItemUseable - No */
      , (273,  19,          1) /* Value */
-     , (273,  65,        101) /* Placement - Resting */
-     , (273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (273,   1, False) /* Stuck */
-     , (273,  11, True ) /* IgnoreCollisions */
-     , (273,  13, True ) /* Ethereal */
-     , (273,  14, True ) /* GravityStatus */
-     , (273,  19, True ) /* Attackable */;
+     , (273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (273, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (273,   1, 'Pyreal') /* Name */;

@@ -16,15 +16,10 @@ VALUES (41586,   1,         16) /* ItemType - Creature */
      , (41586, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41586,   1, True ) /* Stuck */
-     , (41586,  12, True ) /* ReportCollisions */
-     , (41586,  13, False) /* Ethereal */
-     , (41586,  14, True ) /* GravityStatus */
-     , (41586,  19, True ) /* Attackable */
-     , (41586,  42, True ) /* AllowEdgeSlide */;
+VALUES (41586,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41586,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (41586,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41586,   1, 'Iron Blade Lesser Lord') /* Name */

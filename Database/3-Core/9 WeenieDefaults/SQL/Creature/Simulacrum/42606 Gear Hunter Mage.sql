@@ -18,12 +18,7 @@ VALUES (42606,   1,         16) /* ItemType - Creature */
      , (42606, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42606,   1, True ) /* Stuck */
-     , (42606,  12, True ) /* ReportCollisions */
-     , (42606,  13, False) /* Ethereal */
-     , (42606,  14, True ) /* GravityStatus */
-     , (42606,  19, True ) /* Attackable */
-     , (42606,  42, True ) /* AllowEdgeSlide */;
+VALUES (42606,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42606,   1, 'Gear Hunter Mage') /* Name */

@@ -12,15 +12,8 @@ VALUES (37287,   1,        128) /* ItemType - Misc */
      , (37287,  15,          0) /* StackUnitValue */
      , (37287,  16,          1) /* ItemUseable - No */
      , (37287,  19,          0) /* Value */
-     , (37287,  65,        101) /* Placement - Resting */
-     , (37287,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37287,   1, False) /* Stuck */
-     , (37287,  11, True ) /* IgnoreCollisions */
-     , (37287,  13, True ) /* Ethereal */
-     , (37287,  14, True ) /* GravityStatus */
-     , (37287,  19, True ) /* Attackable */;
+     , (37287,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37287, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37287,   1, 'Deck of Hands') /* Name */

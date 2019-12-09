@@ -12,16 +12,9 @@ VALUES (41392,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41392,  15,       1000) /* StackUnitValue */
      , (41392,  16,          1) /* ItemUseable - No */
      , (41392,  19,       1000) /* Value */
-     , (41392,  65,        101) /* Placement - Resting */
      , (41392,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41392, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41392,   1, False) /* Stuck */
-     , (41392,  11, True ) /* IgnoreCollisions */
-     , (41392,  13, True ) /* Ethereal */
-     , (41392,  14, True ) /* GravityStatus */
-     , (41392,  19, True ) /* Attackable */;
+     , (41392, 151,          9) /* HookType - Floor, Yard */
+     , (41392, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41392,   1, 'Finished Lense') /* Name */;

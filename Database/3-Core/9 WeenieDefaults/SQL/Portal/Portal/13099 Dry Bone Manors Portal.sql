@@ -12,19 +12,13 @@ VALUES (13099,   1,      65536) /* ItemType - Portal */
      , (13099, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13099,   1, True ) /* Stuck */
-     , (13099,  12, True ) /* ReportCollisions */
-     , (13099,  13, True ) /* Ethereal */
-     , (13099,  14, True ) /* GravityStatus */
-     , (13099,  15, True ) /* LightsStatus */
-     , (13099,  19, True ) /* Attackable */;
+VALUES (13099,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13099,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13099,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13099,   1, 'Dry Bone Manors Portal') /* Name */
-     , (13099,  38, 'Dry Bone Manors Portal (29.5S, 18.8E).') /* AppraisalPortalDestination */
      , (13099, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

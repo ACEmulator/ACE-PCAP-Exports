@@ -16,11 +16,7 @@ VALUES (33642,   1,         16) /* ItemType - Creature */
      , (33642, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33642,   1, True ) /* Stuck */
-     , (33642,  12, True ) /* ReportCollisions */
-     , (33642,  13, False) /* Ethereal */
-     , (33642,  14, True ) /* GravityStatus */
-     , (33642,  19, True ) /* Attackable */;
+VALUES (33642,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33642,   1, 'Sodden Undead Ruschk') /* Name */

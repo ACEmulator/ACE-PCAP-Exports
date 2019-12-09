@@ -15,14 +15,10 @@ VALUES (44347,   1,         16) /* ItemType - Creature */
      , (44347, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44347,   1, True ) /* Stuck */
-     , (44347,  12, True ) /* ReportCollisions */
-     , (44347,  13, False) /* Ethereal */
-     , (44347,  14, True ) /* GravityStatus */
-     , (44347,  19, True ) /* Attackable */;
+VALUES (44347,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44347,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (44347,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44347,   1, 'Filinuvekta Emissary') /* Name */

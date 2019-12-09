@@ -14,18 +14,13 @@ VALUES (40512,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (40512,  18,          1) /* UiEffects - Magical */
      , (40512,  19,          0) /* Value */
      , (40512,  33,          1) /* Bonded - Bonded */
-     , (40512,  65,        101) /* Placement - Resting */
      , (40512,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40512,  94,          1) /* TargetType - MeleeWeapon */
-     , (40512, 114,          1) /* Attuned - Attuned */;
+     , (40512, 114,          1) /* Attuned - Attuned */
+     , (40512, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40512,   1, False) /* Stuck */
-     , (40512,  11, True ) /* IgnoreCollisions */
-     , (40512,  13, True ) /* Ethereal */
-     , (40512,  14, True ) /* GravityStatus */
-     , (40512,  19, True ) /* Attackable */
-     , (40512,  22, True ) /* Inscribable */;
+VALUES (40512,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40512,   1, 'Empowered Shadowfire Infusion') /* Name */

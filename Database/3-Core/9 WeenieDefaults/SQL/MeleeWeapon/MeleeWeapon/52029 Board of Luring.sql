@@ -11,19 +11,14 @@ VALUES (52029,   1,          1) /* ItemType - MeleeWeapon */
      , (52029,  16,          1) /* ItemUseable - No */
      , (52029,  19,        600) /* Value */
      , (52029,  51,          1) /* CombatUse - Melee */
-     , (52029,  65,          1) /* Placement - RightHandCombat */
-     , (52029,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (52029,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (52029, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52029,   1, False) /* Stuck */
-     , (52029,  11, True ) /* IgnoreCollisions */
-     , (52029,  13, True ) /* Ethereal */
-     , (52029,  14, True ) /* GravityStatus */
-     , (52029,  19, True ) /* Attackable */
-     , (52029,  22, True ) /* Inscribable */;
+VALUES (52029,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52029,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (52029,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52029,   1, 'Board of Luring') /* Name */;

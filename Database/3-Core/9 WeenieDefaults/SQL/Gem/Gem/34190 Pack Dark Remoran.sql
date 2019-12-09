@@ -14,15 +14,10 @@ VALUES (34190,   1,       2048) /* ItemType - Gem */
      , (34190, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34190,   1, False) /* Stuck */
-     , (34190,  11, True ) /* IgnoreCollisions */
-     , (34190,  13, True ) /* Ethereal */
-     , (34190,  14, True ) /* GravityStatus */
-     , (34190,  19, True ) /* Attackable */
-     , (34190,  22, True ) /* Inscribable */;
+VALUES (34190,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34190,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (34190,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34190,   1, 'Pack Dark Remoran') /* Name */

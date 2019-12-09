@@ -12,17 +12,10 @@ VALUES (41418,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41418,  15,        100) /* StackUnitValue */
      , (41418,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41418,  19,        100) /* Value */
-     , (41418,  65,        101) /* Placement - Resting */
      , (41418,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41418,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41418, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41418,   1, False) /* Stuck */
-     , (41418,  11, True ) /* IgnoreCollisions */
-     , (41418,  13, True ) /* Ethereal */
-     , (41418,  14, True ) /* GravityStatus */
-     , (41418,  19, True ) /* Attackable */;
+     , (41418, 151,          9) /* HookType - Floor, Yard */
+     , (41418, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41418,   1, 'Leather Strap') /* Name */;

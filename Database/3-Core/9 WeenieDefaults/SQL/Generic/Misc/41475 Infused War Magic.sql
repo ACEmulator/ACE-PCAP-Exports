@@ -9,20 +9,15 @@ VALUES (41475,   1,        128) /* ItemType - Misc */
      , (41475,  16,          8) /* ItemUseable - Contained */
      , (41475,  19,          0) /* Value */
      , (41475,  33,          1) /* Bonded - Bonded */
-     , (41475,  65,        101) /* Placement - Resting */
      , (41475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41475, 114,          1) /* Attuned - Attuned */;
+     , (41475, 114,          1) /* Attuned - Attuned */
+     , (41475, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41475,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41475,   1, False) /* Stuck */
-     , (41475,  11, True ) /* IgnoreCollisions */
-     , (41475,  13, True ) /* Ethereal */
-     , (41475,  14, True ) /* GravityStatus */
-     , (41475,  19, True ) /* Attackable */
-     , (41475,  22, True ) /* Inscribable */;
+VALUES (41475,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41475,   1, 'Infused War Magic') /* Name */

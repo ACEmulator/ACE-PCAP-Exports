@@ -9,23 +9,16 @@ VALUES (32714,   1,       8192) /* ItemType - Writable */
      , (32714,  16,          8) /* ItemUseable - Contained */
      , (32714,  19,          0) /* Value */
      , (32714,  33,          1) /* Bonded - Bonded */
-     , (32714,  65,        101) /* Placement - Resting */
      , (32714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32714, 114,          1) /* Attuned - Attuned */
      , (32714, 151,          2) /* HookType - Wall */
-     , (32714, 174,          6) /* AppraisalPages */
-     , (32714, 175,          6) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32714,   1, False) /* Stuck */
-     , (32714,  11, True ) /* IgnoreCollisions */
-     , (32714,  13, True ) /* Ethereal */
-     , (32714,  14, True ) /* GravityStatus */
-     , (32714,  19, True ) /* Attackable */;
+     , (32714, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (32714, 8042,          6) /* PCAPRecordedAppraisalPages */
+     , (32714, 8043,          6) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32714,  39, 1.22000002861023) /* DefaultScale */
-     , (32714,  54, 0.300000011920929) /* UseRadius */;
+VALUES (32714,  39,    1.22) /* DefaultScale */
+     , (32714,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32714,   1, 'Castle Pietrus Log Book') /* Name */

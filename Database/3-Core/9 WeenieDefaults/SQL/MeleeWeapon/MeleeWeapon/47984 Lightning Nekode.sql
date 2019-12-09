@@ -12,17 +12,12 @@ VALUES (47984,   1,          1) /* ItemType - MeleeWeapon */
      , (47984,  18,         64) /* UiEffects - Lightning */
      , (47984,  19,        155) /* Value */
      , (47984,  51,          1) /* CombatUse - Melee */
-     , (47984,  65,          1) /* Placement - RightHandCombat */
      , (47984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47984, 151,          2) /* HookType - Wall */;
+     , (47984, 151,          2) /* HookType - Wall */
+     , (47984, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47984,   1, False) /* Stuck */
-     , (47984,  11, True ) /* IgnoreCollisions */
-     , (47984,  13, True ) /* Ethereal */
-     , (47984,  14, True ) /* GravityStatus */
-     , (47984,  19, True ) /* Attackable */
-     , (47984,  22, True ) /* Inscribable */;
+VALUES (47984,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47984,   1, 'Lightning Nekode') /* Name */;

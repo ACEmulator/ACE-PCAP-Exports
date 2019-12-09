@@ -12,19 +12,12 @@ VALUES (42399,   1,        128) /* ItemType - Misc */
      , (42399,  15,          1) /* StackUnitValue */
      , (42399,  16,          8) /* ItemUseable - Contained */
      , (42399,  19,          1) /* Value */
-     , (42399,  65,        101) /* Placement - Resting */
      , (42399,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42399,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42399,   1, False) /* Stuck */
-     , (42399,  11, True ) /* IgnoreCollisions */
-     , (42399,  13, True ) /* Ethereal */
-     , (42399,  14, True ) /* GravityStatus */
-     , (42399,  19, True ) /* Attackable */;
+     , (42399,  94,         16) /* TargetType - Creature */
+     , (42399, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42399,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (42399,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42399,   1, 'Crate of Greater Deadly Blunt Arrowheads') /* Name */

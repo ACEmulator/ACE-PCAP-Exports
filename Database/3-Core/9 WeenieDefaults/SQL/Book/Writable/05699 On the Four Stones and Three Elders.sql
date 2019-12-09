@@ -8,19 +8,12 @@ VALUES (5699,   1,       8192) /* ItemType - Writable */
      , (5699,   5,        160) /* EncumbranceVal */
      , (5699,  16,          8) /* ItemUseable - Contained */
      , (5699,  19,        120) /* Value */
-     , (5699,  65,        101) /* Placement - Resting */
-     , (5699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5699,   1, False) /* Stuck */
-     , (5699,  11, True ) /* IgnoreCollisions */
-     , (5699,  13, True ) /* Ethereal */
-     , (5699,  14, True ) /* GravityStatus */
-     , (5699,  19, True ) /* Attackable */;
+     , (5699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5699, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5699,  39, 1.22000002861023) /* DefaultScale */
-     , (5699,  54, 0.300000011920929) /* UseRadius */;
+VALUES (5699,  39,    1.22) /* DefaultScale */
+     , (5699,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5699,   1, 'On the Four Stones and Three Elders') /* Name */;

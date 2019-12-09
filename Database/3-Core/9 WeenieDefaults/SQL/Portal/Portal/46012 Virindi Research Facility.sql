@@ -13,19 +13,13 @@ VALUES (46012,   1,      65536) /* ItemType - Portal */
      , (46012, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46012,   1, True ) /* Stuck */
-     , (46012,  12, True ) /* ReportCollisions */
-     , (46012,  13, True ) /* Ethereal */
-     , (46012,  14, True ) /* GravityStatus */
-     , (46012,  15, True ) /* LightsStatus */
-     , (46012,  19, True ) /* Attackable */;
+VALUES (46012,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46012,  54, -0.100000001490116) /* UseRadius */;
+VALUES (46012,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46012,   1, 'Virindi Research Facility') /* Name */
-     , (46012,  38, 'Virindi Research Facility') /* AppraisalPortalDestination */
      , (46012, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,17 +15,13 @@ VALUES (51806,   1,         16) /* ItemType - Creature */
      , (51806, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51806,   1, True ) /* Stuck */
-     , (51806,  12, True ) /* ReportCollisions */
-     , (51806,  13, False) /* Ethereal */
-     , (51806,  14, True ) /* GravityStatus */
-     , (51806,  19, True ) /* Attackable */;
+VALUES (51806,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51806,  39, 1.29999995231628) /* DefaultScale */
-     , (51806, 8010, 0.417428493499756) /* PCAPRecordedVelocityX */
-     , (51806, 8011, -0.096663624048233) /* PCAPRecordedVelocityY */
-     , (51806, 8012, -3.2717719078064) /* PCAPRecordedVelocityZ */;
+VALUES (51806,  39,     1.3) /* DefaultScale */
+     , (51806, 8010,    0.42) /* PCAPRecordedVelocityX */
+     , (51806, 8011,    -0.1) /* PCAPRecordedVelocityY */
+     , (51806, 8012,   -3.27) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51806,   1, 'Empowered Despair Wisp') /* Name */

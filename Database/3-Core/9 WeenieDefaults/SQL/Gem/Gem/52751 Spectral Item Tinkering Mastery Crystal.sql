@@ -13,18 +13,10 @@ VALUES (52751,   1,       2048) /* ItemType - Gem */
      , (52751,  16,          8) /* ItemUseable - Contained */
      , (52751,  18,          1) /* UiEffects - Magical */
      , (52751,  19,         10) /* Value */
-     , (52751,  65,        101) /* Placement - Resting */
      , (52751,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (52751,  94,         16) /* TargetType - Creature */
-     , (52751, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52751,   1, False) /* Stuck */
-     , (52751,  11, True ) /* IgnoreCollisions */
-     , (52751,  13, True ) /* Ethereal */
-     , (52751,  14, True ) /* GravityStatus */
-     , (52751,  15, True ) /* LightsStatus */
-     , (52751,  19, True ) /* Attackable */;
+     , (52751, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (52751, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52751,   1, 'Spectral Item Tinkering Mastery Crystal') /* Name */

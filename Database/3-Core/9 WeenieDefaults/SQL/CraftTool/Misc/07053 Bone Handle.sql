@@ -11,17 +11,12 @@ VALUES (7053,   1,        128) /* ItemType - Misc */
      , (7053,  13,         10) /* StackUnitEncumbrance */
      , (7053,  15,          0) /* StackUnitValue */
      , (7053,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (7053,  65,        101) /* Placement - Resting */
      , (7053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7053,  94,        384) /* TargetType - Misc, MissileWeapon */;
+     , (7053,  94,        384) /* TargetType - Misc, MissileWeapon */
+     , (7053, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7053,   1, False) /* Stuck */
-     , (7053,  11, True ) /* IgnoreCollisions */
-     , (7053,  13, True ) /* Ethereal */
-     , (7053,  14, True ) /* GravityStatus */
-     , (7053,  19, True ) /* Attackable */
-     , (7053,  22, True ) /* Inscribable */;
+VALUES (7053,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7053,   1, 'Bone Handle') /* Name */;

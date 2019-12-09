@@ -11,12 +11,7 @@ VALUES (13148,   1,        128) /* ItemType - Misc */
      , (13148,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13148,   1, True ) /* Stuck */
-     , (13148,  11, True ) /* IgnoreCollisions */
-     , (13148,  12, True ) /* ReportCollisions */
-     , (13148,  13, False) /* Ethereal */
-     , (13148,  14, True ) /* GravityStatus */
-     , (13148,  19, True ) /* Attackable */;
+VALUES (13148,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13148,   1, 'Bucolic Villas') /* Name */

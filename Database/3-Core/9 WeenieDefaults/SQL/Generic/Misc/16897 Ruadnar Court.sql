@@ -11,12 +11,7 @@ VALUES (16897,   1,        128) /* ItemType - Misc */
      , (16897,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16897,   1, True ) /* Stuck */
-     , (16897,  11, True ) /* IgnoreCollisions */
-     , (16897,  12, True ) /* ReportCollisions */
-     , (16897,  13, False) /* Ethereal */
-     , (16897,  14, True ) /* GravityStatus */
-     , (16897,  19, True ) /* Attackable */;
+VALUES (16897,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16897,   1, 'Ruadnar Court') /* Name */

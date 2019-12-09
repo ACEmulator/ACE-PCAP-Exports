@@ -15,14 +15,10 @@ VALUES (40469,   1,         16) /* ItemType - Creature */
      , (40469, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40469,   1, True ) /* Stuck */
-     , (40469,  12, True ) /* ReportCollisions */
-     , (40469,  13, False) /* Ethereal */
-     , (40469,  14, True ) /* GravityStatus */
-     , (40469,  19, True ) /* Attackable */;
+VALUES (40469,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40469,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (40469,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40469,   1, 'Corrupted Coral Golem') /* Name */

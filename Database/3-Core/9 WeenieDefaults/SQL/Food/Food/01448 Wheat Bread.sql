@@ -13,17 +13,10 @@ VALUES (1448,   1,         32) /* ItemType - Food */
      , (1448,  16,          8) /* ItemUseable - Contained */
      , (1448,  18,         16) /* UiEffects - BoostStamina */
      , (1448,  19,         60) /* Value */
-     , (1448,  65,        101) /* Placement - Resting */
      , (1448,  89,          4) /* BoosterEnum - Stamina */
      , (1448,  90,         18) /* BoostValue */
-     , (1448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1448,   1, False) /* Stuck */
-     , (1448,  11, True ) /* IgnoreCollisions */
-     , (1448,  13, True ) /* Ethereal */
-     , (1448,  14, True ) /* GravityStatus */
-     , (1448,  19, True ) /* Attackable */;
+     , (1448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (1448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1448,   1, 'Wheat Bread') /* Name */

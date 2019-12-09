@@ -17,7 +17,6 @@ VALUES (41895,   1,        256) /* ItemType - MissileWeapon */
      , (41895,  49,         60) /* WeaponTime */
      , (41895,  50,          2) /* AmmoType - Bolt */
      , (41895,  51,          2) /* CombatUse - Missle */
-     , (41895,  65,          3) /* Placement - LeftHand */
      , (41895,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41895, 106,        400) /* ItemSpellcraft */
      , (41895, 107,        550) /* ItemCurMana */
@@ -30,26 +29,21 @@ VALUES (41895,   1,        256) /* ItemType - MissileWeapon */
      , (41895, 166,          6) /* SlayerCreatureType - Tumerok */
      , (41895, 263,          2) /* ResistanceModifierType */
      , (41895, 353,          9) /* WeaponType - Crossbow */
-     , (41895, 8030,          0);
+     , (41895, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41895, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41895,   1, False) /* Stuck */
-     , (41895,  11, True ) /* IgnoreCollisions */
-     , (41895,  13, True ) /* Ethereal */
-     , (41895,  14, True ) /* GravityStatus */
-     , (41895,  15, True ) /* LightsStatus */
-     , (41895,  19, True ) /* Attackable */
-     , (41895,  22, True ) /* Inscribable */;
+VALUES (41895,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41895,   5, -0.025000000372529) /* ManaRate */
+VALUES (41895,   5,   -0.03) /* ManaRate */
      , (41895,  21,       0) /* WeaponLength */
      , (41895,  22,       0) /* DamageVariance */
      , (41895,  26,    27.3) /* MaximumVelocity */
-     , (41895,  29, 1.14999997615814) /* WeaponDefense */
-     , (41895,  39, 1.20000004768372) /* DefaultScale */
+     , (41895,  29,    1.15) /* WeaponDefense */
+     , (41895,  39,     1.2) /* DefaultScale */
      , (41895,  62,       1) /* WeaponOffense */
-     , (41895,  63, 2.54999995231628) /* DamageMod */
+     , (41895,  63,    2.55) /* DamageMod */
      , (41895,  77,       1) /* PhysicsScriptIntensity */
      , (41895, 157,       1) /* ResistanceModifier */;
 

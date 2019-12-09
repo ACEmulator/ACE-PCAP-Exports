@@ -12,19 +12,13 @@ VALUES (12561,   1,      65536) /* ItemType - Portal */
      , (12561, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12561,   1, True ) /* Stuck */
-     , (12561,  12, True ) /* ReportCollisions */
-     , (12561,  13, True ) /* Ethereal */
-     , (12561,  14, True ) /* GravityStatus */
-     , (12561,  15, True ) /* LightsStatus */
-     , (12561,  19, True ) /* Attackable */;
+VALUES (12561,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12561,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12561,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12561,   1, 'Tou-Tou Penninsula Cottages Portal') /* Name */
-     , (12561,  38, 'Tou-Tou Penninsula Cottages Portal (38.4S, 92.1E).') /* AppraisalPortalDestination */
      , (12561, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

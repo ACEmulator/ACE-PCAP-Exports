@@ -12,16 +12,8 @@ VALUES (52748,   1,       2048) /* ItemType - Gem */
      , (52748,  15,         15) /* StackUnitValue */
      , (52748,  16,          1) /* ItemUseable - No */
      , (52748,  19,         15) /* Value */
-     , (52748,  65,        101) /* Placement - Resting */
-     , (52748,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52748,   1, False) /* Stuck */
-     , (52748,  11, True ) /* IgnoreCollisions */
-     , (52748,  13, True ) /* Ethereal */
-     , (52748,  14, True ) /* GravityStatus */
-     , (52748,  15, True ) /* LightsStatus */
-     , (52748,  19, True ) /* Attackable */;
+     , (52748,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (52748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52748,   1, 'Gauntlet Gem of Knowledge') /* Name */

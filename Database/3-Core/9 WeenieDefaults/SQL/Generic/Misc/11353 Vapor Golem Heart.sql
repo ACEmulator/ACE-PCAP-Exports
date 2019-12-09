@@ -8,19 +8,14 @@ VALUES (11353,   1,        128) /* ItemType - Misc */
      , (11353,   5,        100) /* EncumbranceVal */
      , (11353,  16,          1) /* ItemUseable - No */
      , (11353,  19,        200) /* Value */
-     , (11353,  65,        101) /* Placement - Resting */
-     , (11353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11353,   1, False) /* Stuck */
-     , (11353,  11, True ) /* IgnoreCollisions */
-     , (11353,  13, True ) /* Ethereal */
-     , (11353,  14, True ) /* GravityStatus */
-     , (11353,  19, True ) /* Attackable */
-     , (11353,  22, True ) /* Inscribable */;
+VALUES (11353,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11353,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (11353,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11353,   1, 'Vapor Golem Heart') /* Name */;

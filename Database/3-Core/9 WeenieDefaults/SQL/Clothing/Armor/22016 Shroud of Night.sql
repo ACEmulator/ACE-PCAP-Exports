@@ -12,17 +12,12 @@ VALUES (22016,   1,          2) /* ItemType - Armor */
      , (22016,  16,          1) /* ItemUseable - No */
      , (22016,  18,          1) /* UiEffects - Magical */
      , (22016,  19,       6000) /* Value */
-     , (22016,  65,        101) /* Placement - Resting */
      , (22016,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22016, 151,          2) /* HookType - Wall */;
+     , (22016, 151,          2) /* HookType - Wall */
+     , (22016, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22016,   1, False) /* Stuck */
-     , (22016,  11, True ) /* IgnoreCollisions */
-     , (22016,  13, True ) /* Ethereal */
-     , (22016,  14, True ) /* GravityStatus */
-     , (22016,  19, True ) /* Attackable */
-     , (22016,  22, True ) /* Inscribable */;
+VALUES (22016,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22016,   1, 'Shroud of Night') /* Name */;

@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22355,   1,       2048) /* ItemType - Gem */
      , (22355,   5,         10) /* EncumbranceVal */
      , (22355,  16,          8) /* ItemUseable - Contained */
-     , (22355,  65,        101) /* Placement - Resting */
-     , (22355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22355, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22355,   1, False) /* Stuck */
-     , (22355,  11, True ) /* IgnoreCollisions */
-     , (22355,  13, True ) /* Ethereal */
-     , (22355,  14, True ) /* GravityStatus */
-     , (22355,  19, True ) /* Attackable */
-     , (22355,  22, True ) /* Inscribable */;
+VALUES (22355,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22355,   1, 'Cooking Gem of Enlightenment') /* Name */;

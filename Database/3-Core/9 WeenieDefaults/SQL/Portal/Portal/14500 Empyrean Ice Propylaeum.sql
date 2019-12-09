@@ -13,19 +13,13 @@ VALUES (14500,   1,      65536) /* ItemType - Portal */
      , (14500, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14500,   1, True ) /* Stuck */
-     , (14500,  12, True ) /* ReportCollisions */
-     , (14500,  13, True ) /* Ethereal */
-     , (14500,  14, True ) /* GravityStatus */
-     , (14500,  15, True ) /* LightsStatus */
-     , (14500,  19, True ) /* Attackable */;
+VALUES (14500,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14500,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14500,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14500,   1, 'Empyrean Ice Propylaeum') /* Name */
-     , (14500,  38, 'Empyrean Ice Propylaeum') /* AppraisalPortalDestination */
      , (14500, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

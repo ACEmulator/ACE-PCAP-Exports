@@ -12,17 +12,12 @@ VALUES (27793,   1,        128) /* ItemType - Misc */
      , (27793,  15,          1) /* StackUnitValue */
      , (27793,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (27793,  19,          1) /* Value */
-     , (27793,  65,        101) /* Placement - Resting */
      , (27793,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27793,  94,        128) /* TargetType - Misc */;
+     , (27793,  94,        128) /* TargetType - Misc */
+     , (27793, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27793,   1, False) /* Stuck */
-     , (27793,  11, True ) /* IgnoreCollisions */
-     , (27793,  13, True ) /* Ethereal */
-     , (27793,  14, True ) /* GravityStatus */
-     , (27793,  19, True ) /* Attackable */
-     , (27793,  22, True ) /* Inscribable */;
+VALUES (27793,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27793,   1, 'Blood-soaked Cord') /* Name */;

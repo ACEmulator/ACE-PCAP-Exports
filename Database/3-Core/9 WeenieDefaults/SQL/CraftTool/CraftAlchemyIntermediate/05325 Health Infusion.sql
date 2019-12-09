@@ -12,17 +12,12 @@ VALUES (5325,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5325,  15,         10) /* StackUnitValue */
      , (5325,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5325,  19,         10) /* Value */
-     , (5325,  65,        101) /* Placement - Resting */
      , (5325,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5325,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */;
+     , (5325,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */
+     , (5325, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5325,   1, False) /* Stuck */
-     , (5325,  11, True ) /* IgnoreCollisions */
-     , (5325,  13, True ) /* Ethereal */
-     , (5325,  14, True ) /* GravityStatus */
-     , (5325,  19, True ) /* Attackable */
-     , (5325,  69, False) /* IsSellable */;
+VALUES (5325,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5325,   1, 'Health Infusion') /* Name */

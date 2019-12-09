@@ -11,28 +11,23 @@ VALUES (11784,   1,      32768) /* ItemType - Caster */
      , (11784,  18,          1) /* UiEffects - Magical */
      , (11784,  19,          0) /* Value */
      , (11784,  33,          1) /* Bonded - Bonded */
-     , (11784,  65,        101) /* Placement - Resting */
      , (11784,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11784,  94,         16) /* TargetType - Creature */
      , (11784, 106,        200) /* ItemSpellcraft */
      , (11784, 107,        800) /* ItemCurMana */
      , (11784, 108,        800) /* ItemMaxMana */
      , (11784, 109,         90) /* ItemDifficulty */
-     , (11784, 114,          1) /* Attuned - Attuned */;
+     , (11784, 114,          1) /* Attuned - Attuned */
+     , (11784, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11784,   1, False) /* Stuck */
-     , (11784,  11, True ) /* IgnoreCollisions */
-     , (11784,  13, True ) /* Ethereal */
-     , (11784,  14, True ) /* GravityStatus */
-     , (11784,  19, True ) /* Attackable */
-     , (11784,  22, True ) /* Inscribable */
+VALUES (11784,  22, True ) /* Inscribable */
      , (11784,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11784,   5,  -0.033) /* ManaRate */
+VALUES (11784,   5,   -0.03) /* ManaRate */
      , (11784,  29,       1) /* WeaponDefense */
-     , (11784, 144, 1.83367622363617E-314) /* ManaConversionMod */;
+     , (11784, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11784,   1, 'Reinforced Gromnie Banner with Symbol') /* Name */

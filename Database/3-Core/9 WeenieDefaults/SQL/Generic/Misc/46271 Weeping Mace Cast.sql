@@ -9,17 +9,12 @@ VALUES (46271,   1,        128) /* ItemType - Misc */
      , (46271,  16,          1) /* ItemUseable - No */
      , (46271,  19,       5000) /* Value */
      , (46271,  33,          1) /* Bonded - Bonded */
-     , (46271,  65,        101) /* Placement - Resting */
      , (46271,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46271, 114,          1) /* Attuned - Attuned */;
+     , (46271, 114,          1) /* Attuned - Attuned */
+     , (46271, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46271,   1, False) /* Stuck */
-     , (46271,  11, True ) /* IgnoreCollisions */
-     , (46271,  13, True ) /* Ethereal */
-     , (46271,  14, True ) /* GravityStatus */
-     , (46271,  19, True ) /* Attackable */
-     , (46271,  22, True ) /* Inscribable */;
+VALUES (46271,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46271,   1, 'Weeping Mace Cast') /* Name */

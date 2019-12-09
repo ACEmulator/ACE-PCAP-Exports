@@ -8,22 +8,17 @@ VALUES (35055,   1,        128) /* ItemType - Misc */
      , (35055,   5,          5) /* EncumbranceVal */
      , (35055,  16,          1) /* ItemUseable - No */
      , (35055,  19,          0) /* Value */
-     , (35055,  65,        101) /* Placement - Resting */
      , (35055,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35055,  98, 1485056766) /* CreationTimestamp */
      , (35055, 267,       3600) /* Lifespan */
-     , (35055, 268,       1823) /* RemainingLifespan */;
+     , (35055, 268,       1823) /* RemainingLifespan */
+     , (35055, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35055,   1, False) /* Stuck */
-     , (35055,  11, True ) /* IgnoreCollisions */
-     , (35055,  13, True ) /* Ethereal */
-     , (35055,  14, True ) /* GravityStatus */
-     , (35055,  19, True ) /* Attackable */
-     , (35055,  22, True ) /* Inscribable */;
+VALUES (35055,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35055,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (35055,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35055,   1, 'Colosseum Ticket Stub') /* Name */

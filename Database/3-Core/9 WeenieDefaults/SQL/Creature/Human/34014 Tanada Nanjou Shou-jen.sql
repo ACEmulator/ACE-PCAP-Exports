@@ -17,11 +17,7 @@ VALUES (34014,   1,         16) /* ItemType - Creature */
      , (34014, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34014,   1, True ) /* Stuck */
-     , (34014,  12, True ) /* ReportCollisions */
-     , (34014,  13, False) /* Ethereal */
-     , (34014,  14, True ) /* GravityStatus */
-     , (34014,  19, True ) /* Attackable */;
+VALUES (34014,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34014,   1, 'Tanada Nanjou Shou-jen') /* Name */

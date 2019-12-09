@@ -19,7 +19,6 @@ VALUES (24200,   1,          1) /* ItemType - MeleeWeapon */
      , (24200,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (24200,  49,          1) /* WeaponTime */
      , (24200,  51,          1) /* CombatUse - Melee */
-     , (24200,  65,          1) /* Placement - RightHandCombat */
      , (24200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24200, 106,        300) /* ItemSpellcraft */
      , (24200, 107,        572) /* ItemCurMana */
@@ -31,26 +30,22 @@ VALUES (24200,   1,          1) /* ItemType - MeleeWeapon */
      , (24200, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (24200, 160,        325) /* WieldDifficulty */
      , (24200, 166,         31) /* SlayerCreatureType - Human */
-     , (24200, 8030,          0);
+     , (24200, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (24200, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24200,   1, False) /* Stuck */
-     , (24200,  11, True ) /* IgnoreCollisions */
-     , (24200,  13, True ) /* Ethereal */
-     , (24200,  14, True ) /* GravityStatus */
-     , (24200,  19, True ) /* Attackable */
-     , (24200,  22, True ) /* Inscribable */
+VALUES (24200,  22, True ) /* Inscribable */
      , (24200,  69, False) /* IsSellable */
      , (24200,  85, True ) /* AppraisalHasAllowedWielder */
      , (24200,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24200,   5, -0.025000000372529) /* ManaRate */
+VALUES (24200,   5,   -0.03) /* ManaRate */
      , (24200,  21,       0) /* WeaponLength */
      , (24200,  22,     0.5) /* DamageVariance */
      , (24200,  26,       0) /* MaximumVelocity */
-     , (24200,  29, 1.17999994754791) /* WeaponDefense */
-     , (24200,  62, 1.23000001907349) /* WeaponOffense */
+     , (24200,  29,    1.18) /* WeaponDefense */
+     , (24200,  62,    1.23) /* WeaponOffense */
      , (24200,  63,       1) /* DamageMod */
      , (24200, 155,       1) /* IgnoreArmor */;
 

@@ -17,11 +17,7 @@ VALUES (31718,   1,         16) /* ItemType - Creature */
      , (31718, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31718,   1, True ) /* Stuck */
-     , (31718,  12, True ) /* ReportCollisions */
-     , (31718,  13, False) /* Ethereal */
-     , (31718,  14, True ) /* GravityStatus */
-     , (31718,  19, True ) /* Attackable */;
+VALUES (31718,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31718,   1, 'High Archon Kraest') /* Name */

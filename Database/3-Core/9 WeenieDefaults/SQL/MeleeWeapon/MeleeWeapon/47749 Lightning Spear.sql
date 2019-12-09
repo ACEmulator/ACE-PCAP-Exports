@@ -12,17 +12,12 @@ VALUES (47749,   1,          1) /* ItemType - MeleeWeapon */
      , (47749,  18,         64) /* UiEffects - Lightning */
      , (47749,  19,        170) /* Value */
      , (47749,  51,          1) /* CombatUse - Melee */
-     , (47749,  65,          1) /* Placement - RightHandCombat */
      , (47749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47749, 151,          2) /* HookType - Wall */;
+     , (47749, 151,          2) /* HookType - Wall */
+     , (47749, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47749,   1, False) /* Stuck */
-     , (47749,  11, True ) /* IgnoreCollisions */
-     , (47749,  13, True ) /* Ethereal */
-     , (47749,  14, True ) /* GravityStatus */
-     , (47749,  19, True ) /* Attackable */
-     , (47749,  22, True ) /* Inscribable */;
+VALUES (47749,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47749,   1, 'Lightning Spear') /* Name */;

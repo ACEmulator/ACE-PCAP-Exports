@@ -12,20 +12,14 @@ VALUES (2066,   1,      65536) /* ItemType - Portal */
      , (2066, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2066,   1, True ) /* Stuck */
-     , (2066,  12, True ) /* ReportCollisions */
-     , (2066,  13, True ) /* Ethereal */
-     , (2066,  14, True ) /* GravityStatus */
-     , (2066,  15, True ) /* LightsStatus */
-     , (2066,  19, True ) /* Attackable */;
+VALUES (2066,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2066,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2066,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2066,   1, 'Braid Mansion Ruin') /* Name */
      , (2066,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */
-     , (2066,  38, 'Braid Mansion Ruin') /* AppraisalPortalDestination */
      , (2066, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

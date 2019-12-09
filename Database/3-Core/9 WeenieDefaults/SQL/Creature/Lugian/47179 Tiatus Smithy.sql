@@ -15,11 +15,7 @@ VALUES (47179,   1,         16) /* ItemType - Creature */
      , (47179, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47179,   1, True ) /* Stuck */
-     , (47179,  12, True ) /* ReportCollisions */
-     , (47179,  13, False) /* Ethereal */
-     , (47179,  14, True ) /* GravityStatus */
-     , (47179,  19, True ) /* Attackable */;
+VALUES (47179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47179,   1, 'Tiatus Smithy') /* Name */

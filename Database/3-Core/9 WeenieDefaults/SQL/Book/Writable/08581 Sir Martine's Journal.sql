@@ -8,20 +8,13 @@ VALUES (8581,   1,       8192) /* ItemType - Writable */
      , (8581,   5,         10) /* EncumbranceVal */
      , (8581,  16,          8) /* ItemUseable - Contained */
      , (8581,  19,         10) /* Value */
-     , (8581,  65,        101) /* Placement - Resting */
      , (8581,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8581, 174,         14) /* AppraisalPages */
-     , (8581, 175,         14) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8581,   1, False) /* Stuck */
-     , (8581,  11, True ) /* IgnoreCollisions */
-     , (8581,  13, True ) /* Ethereal */
-     , (8581,  14, True ) /* GravityStatus */
-     , (8581,  19, True ) /* Attackable */;
+     , (8581, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8581, 8042,         14) /* PCAPRecordedAppraisalPages */
+     , (8581, 8043,         14) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8581,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8581,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8581,   1, 'Sir Martine''s Journal') /* Name */

@@ -12,19 +12,13 @@ VALUES (14612,   1,      65536) /* ItemType - Portal */
      , (14612, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14612,   1, True ) /* Stuck */
-     , (14612,  12, True ) /* ReportCollisions */
-     , (14612,  13, True ) /* Ethereal */
-     , (14612,  14, True ) /* GravityStatus */
-     , (14612,  15, True ) /* LightsStatus */
-     , (14612,  19, True ) /* Attackable */;
+VALUES (14612,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14612,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14612,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14612,   1, 'Bellig Mesa Cottages Portal') /* Name */
-     , (14612,  38, 'Bellig Mesa Cottages Portal (14.7N, 19.4E).') /* AppraisalPortalDestination */
      , (14612, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

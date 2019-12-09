@@ -16,7 +16,6 @@ VALUES (30609,   1,          1) /* ItemType - MeleeWeapon */
      , (30609,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (30609,  49,         30) /* WeaponTime */
      , (30609,  51,          1) /* CombatUse - Melee */
-     , (30609,  65,        101) /* Placement - Resting */
      , (30609,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30609, 105,          4) /* ItemWorkmanship */
      , (30609, 106,        199) /* ItemSpellcraft */
@@ -33,25 +32,21 @@ VALUES (30609,   1,          1) /* ItemType - MeleeWeapon */
      , (30609, 172,          1) /* AppraisalLongDescDecoration */
      , (30609, 176,         46) /* AppraisalItemSkill */
      , (30609, 353,          7) /* WeaponType - Staff */
-     , (30609, 8030,          0);
+     , (30609, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (30609, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30609,   1, False) /* Stuck */
-     , (30609,  11, True ) /* IgnoreCollisions */
-     , (30609,  13, True ) /* Ethereal */
-     , (30609,  14, True ) /* GravityStatus */
-     , (30609,  19, True ) /* Attackable */
-     , (30609,  22, True ) /* Inscribable */;
+VALUES (30609,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30609,   5, -0.0416666666666667) /* ManaRate */
+VALUES (30609,   5,   -0.04) /* ManaRate */
      , (30609,  21,       0) /* WeaponLength */
      , (30609,  22,    0.35) /* DamageVariance */
      , (30609,  26,       0) /* MaximumVelocity */
      , (30609,  29,    1.07) /* WeaponDefense */
      , (30609,  62,       1) /* WeaponOffense */
      , (30609,  63,       1) /* DamageMod */
-     , (30609, 149,   1.015) /* WeaponMissileDefense */
+     , (30609, 149,    1.01) /* WeaponMissileDefense */
      , (30609, 8004,       4) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

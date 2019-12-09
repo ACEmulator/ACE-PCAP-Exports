@@ -12,7 +12,6 @@ VALUES (43935,   1,          2) /* ItemType - Armor */
      , (43935,  18,          1) /* UiEffects - Magical */
      , (43935,  19,      20000) /* Value */
      , (43935,  28,        440) /* ArmorLevel */
-     , (43935,  65,        101) /* Placement - Resting */
      , (43935,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43935, 106,        400) /* ItemSpellcraft */
      , (43935, 107,        595) /* ItemCurMana */
@@ -21,25 +20,21 @@ VALUES (43935,   1,          2) /* ItemType - Armor */
      , (43935, 158,          7) /* WieldRequirements - Level */
      , (43935, 159,          1) /* WieldSkillType - Axe */
      , (43935, 160,        180) /* WieldDifficulty */
-     , (43935, 265,         47) /* EquipmentSetId - AncientRelicUpgrade */;
+     , (43935, 265,         47) /* EquipmentSetId - AncientRelicUpgrade */
+     , (43935, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43935,   1, False) /* Stuck */
-     , (43935,  11, True ) /* IgnoreCollisions */
-     , (43935,  13, True ) /* Ethereal */
-     , (43935,  14, True ) /* GravityStatus */
-     , (43935,  19, True ) /* Attackable */
-     , (43935,  22, True ) /* Inscribable */
+VALUES (43935,  22, True ) /* Inscribable */
      , (43935,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43935,   5, -0.0329999998211861) /* ManaRate */
-     , (43935,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (43935,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (43935,  15, 1.29999995231628) /* ArmorModVsBludgeon */
+VALUES (43935,   5,   -0.03) /* ManaRate */
+     , (43935,  13,     1.3) /* ArmorModVsSlash */
+     , (43935,  14,     0.8) /* ArmorModVsPierce */
+     , (43935,  15,     1.3) /* ArmorModVsBludgeon */
      , (43935,  16,       1) /* ArmorModVsCold */
      , (43935,  17,       1) /* ArmorModVsFire */
-     , (43935,  18, 1.10000002384186) /* ArmorModVsAcid */
+     , (43935,  18,     1.1) /* ArmorModVsAcid */
      , (43935,  19,     0.5) /* ArmorModVsElectric */
      , (43935, 165,       1) /* ArmorModVsNether */;
 

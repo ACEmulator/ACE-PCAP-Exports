@@ -15,14 +15,10 @@ VALUES (35270,   1,         16) /* ItemType - Creature */
      , (35270, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35270,   1, True ) /* Stuck */
-     , (35270,  12, True ) /* ReportCollisions */
-     , (35270,  13, True ) /* Ethereal */
-     , (35270,  14, True ) /* GravityStatus */
-     , (35270,  19, True ) /* Attackable */;
+VALUES (35270,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35270,  76, 0.699999988079071) /* Translucency */;
+VALUES (35270,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35270,   1, 'Spectral Dread') /* Name */

@@ -11,12 +11,7 @@ VALUES (22709,   1,        128) /* ItemType - Misc */
      , (22709,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22709,   1, True ) /* Stuck */
-     , (22709,  11, True ) /* IgnoreCollisions */
-     , (22709,  12, True ) /* ReportCollisions */
-     , (22709,  13, False) /* Ethereal */
-     , (22709,  14, True ) /* GravityStatus */
-     , (22709,  19, True ) /* Attackable */;
+VALUES (22709,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22709,   1, 'Tusker King''s Island') /* Name */

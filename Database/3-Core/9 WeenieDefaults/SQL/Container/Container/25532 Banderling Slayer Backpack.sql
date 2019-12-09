@@ -12,16 +12,12 @@ VALUES (25532,   1,        512) /* ItemType - Container */
      , (25532,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25532,   1, False) /* Stuck */
-     , (25532,   2, True ) /* Open */
-     , (25532,  11, True ) /* IgnoreCollisions */
-     , (25532,  13, True ) /* Ethereal */
-     , (25532,  14, True ) /* GravityStatus */
-     , (25532,  19, True ) /* Attackable */
-     , (25532,  22, True ) /* Inscribable */;
+VALUES (25532,   2, False) /* Open */
+     , (25532,  22, True ) /* Inscribable */
+     , (25532,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25532,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (25532,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25532,   1, 'Banderling Slayer Backpack') /* Name */

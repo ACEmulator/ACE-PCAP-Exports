@@ -16,11 +16,7 @@ VALUES (7124,   1,         16) /* ItemType - Creature */
      , (7124, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7124,   1, True ) /* Stuck */
-     , (7124,  12, True ) /* ReportCollisions */
-     , (7124,  13, False) /* Ethereal */
-     , (7124,  14, True ) /* GravityStatus */
-     , (7124,  19, True ) /* Attackable */;
+VALUES (7124,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7124,   1, 'Dark Magus') /* Name */

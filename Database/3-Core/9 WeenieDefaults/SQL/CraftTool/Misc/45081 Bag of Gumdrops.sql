@@ -12,16 +12,11 @@ VALUES (45081,   1,        128) /* ItemType - Misc */
      , (45081,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45081,   1, False) /* Stuck */
-     , (45081,  11, True ) /* IgnoreCollisions */
-     , (45081,  13, True ) /* Ethereal */
-     , (45081,  14, True ) /* GravityStatus */
-     , (45081,  19, True ) /* Attackable */
-     , (45081,  22, True ) /* Inscribable */
+VALUES (45081,  22, True ) /* Inscribable */
      , (45081,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45081,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (45081,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45081,   1, 'Bag of Gumdrops') /* Name */

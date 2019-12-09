@@ -15,14 +15,10 @@ VALUES (32035,   1,         16) /* ItemType - Creature */
      , (32035, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32035,   1, True ) /* Stuck */
-     , (32035,  12, True ) /* ReportCollisions */
-     , (32035,  13, False) /* Ethereal */
-     , (32035,  14, True ) /* GravityStatus */
-     , (32035,  19, True ) /* Attackable */;
+VALUES (32035,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32035,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (32035,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32035,   1, 'Astis Niffis') /* Name */

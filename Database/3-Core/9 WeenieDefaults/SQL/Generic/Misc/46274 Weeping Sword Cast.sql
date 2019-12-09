@@ -8,19 +8,14 @@ VALUES (46274,   1,        128) /* ItemType - Misc */
      , (46274,   5,         50) /* EncumbranceVal */
      , (46274,  16,          1) /* ItemUseable - No */
      , (46274,  19,       5000) /* Value */
-     , (46274,  65,        101) /* Placement - Resting */
-     , (46274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (46274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46274, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46274,   1, False) /* Stuck */
-     , (46274,  11, True ) /* IgnoreCollisions */
-     , (46274,  13, True ) /* Ethereal */
-     , (46274,  14, True ) /* GravityStatus */
-     , (46274,  19, True ) /* Attackable */
-     , (46274,  22, True ) /* Inscribable */;
+VALUES (46274,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46274,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (46274,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46274,   1, 'Weeping Sword Cast') /* Name */;

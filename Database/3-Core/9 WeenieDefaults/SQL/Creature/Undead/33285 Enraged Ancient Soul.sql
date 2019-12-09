@@ -15,15 +15,11 @@ VALUES (33285,   1,         16) /* ItemType - Creature */
      , (33285, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33285,   1, True ) /* Stuck */
-     , (33285,  12, True ) /* ReportCollisions */
-     , (33285,  13, False) /* Ethereal */
-     , (33285,  14, True ) /* GravityStatus */
-     , (33285,  19, True ) /* Attackable */;
+VALUES (33285,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33285,  39, 1.29999995231628) /* DefaultScale */
-     , (33285,  76, 0.600000023841858) /* Translucency */;
+VALUES (33285,  39,     1.3) /* DefaultScale */
+     , (33285,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33285,   1, 'Enraged Ancient Soul') /* Name */

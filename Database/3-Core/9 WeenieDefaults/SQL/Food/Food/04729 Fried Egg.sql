@@ -12,15 +12,8 @@ VALUES (4729,   1,         32) /* ItemType - Food */
      , (4729,  15,         14) /* StackUnitValue */
      , (4729,  16,          8) /* ItemUseable - Contained */
      , (4729,  19,         14) /* Value */
-     , (4729,  65,        101) /* Placement - Resting */
-     , (4729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4729,   1, False) /* Stuck */
-     , (4729,  11, True ) /* IgnoreCollisions */
-     , (4729,  13, True ) /* Ethereal */
-     , (4729,  14, True ) /* GravityStatus */
-     , (4729,  19, True ) /* Attackable */;
+     , (4729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4729, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4729,   1, 'Fried Egg') /* Name */

@@ -11,12 +11,7 @@ VALUES (19174,   1,        128) /* ItemType - Misc */
      , (19174,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19174,   1, True ) /* Stuck */
-     , (19174,  11, True ) /* IgnoreCollisions */
-     , (19174,  12, True ) /* ReportCollisions */
-     , (19174,  13, False) /* Ethereal */
-     , (19174,  14, True ) /* GravityStatus */
-     , (19174,  19, True ) /* Attackable */;
+VALUES (19174,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19174,   1, 'Gredaline Villas') /* Name */

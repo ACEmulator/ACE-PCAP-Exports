@@ -8,16 +8,11 @@ VALUES (31475,   1,        128) /* ItemType - Misc */
      , (31475,   5,         50) /* EncumbranceVal */
      , (31475,  16,          1) /* ItemUseable - No */
      , (31475,  19,          0) /* Value */
-     , (31475,  65,        101) /* Placement - Resting */
-     , (31475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31475, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31475,   1, False) /* Stuck */
-     , (31475,  11, True ) /* IgnoreCollisions */
-     , (31475,  13, True ) /* Ethereal */
-     , (31475,  14, True ) /* GravityStatus */
-     , (31475,  19, True ) /* Attackable */
-     , (31475,  22, True ) /* Inscribable */;
+VALUES (31475,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31475,   1, 'Second Half of a Worn Cestus') /* Name */

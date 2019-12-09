@@ -12,16 +12,9 @@ VALUES (4758,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4758,  15,          6) /* StackUnitValue */
      , (4758,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4758,  19,          6) /* Value */
-     , (4758,  65,        101) /* Placement - Resting */
      , (4758,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4758,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4758,   1, False) /* Stuck */
-     , (4758,  11, True ) /* IgnoreCollisions */
-     , (4758,  13, True ) /* Ethereal */
-     , (4758,  14, True ) /* GravityStatus */
-     , (4758,  19, True ) /* Attackable */;
+     , (4758,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (4758, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4758,   1, 'Cookie Dough') /* Name */

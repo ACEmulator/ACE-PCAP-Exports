@@ -13,18 +13,13 @@ VALUES (9343,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9343,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9343,  19,        500) /* Value */
      , (9343,  33,          1) /* Bonded - Bonded */
-     , (9343,  65,        101) /* Placement - Resting */
      , (9343,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9343,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (9343, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (9343, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9343, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9343,   1, False) /* Stuck */
-     , (9343,  11, True ) /* IgnoreCollisions */
-     , (9343,  13, True ) /* Ethereal */
-     , (9343,  14, True ) /* GravityStatus */
-     , (9343,  19, True ) /* Attackable */
-     , (9343,  69, False) /* IsSellable */;
+VALUES (9343,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9343,   1, 'Concentrated Bloodseeker Infusion') /* Name */

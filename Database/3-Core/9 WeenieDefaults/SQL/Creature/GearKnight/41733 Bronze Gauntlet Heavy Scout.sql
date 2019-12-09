@@ -16,14 +16,10 @@ VALUES (41733,   1,         16) /* ItemType - Creature */
      , (41733, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41733,   1, True ) /* Stuck */
-     , (41733,  12, True ) /* ReportCollisions */
-     , (41733,  13, False) /* Ethereal */
-     , (41733,  14, True ) /* GravityStatus */
-     , (41733,  19, True ) /* Attackable */;
+VALUES (41733,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41733,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (41733,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41733,   1, 'Bronze Gauntlet Heavy Scout') /* Name */

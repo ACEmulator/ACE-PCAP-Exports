@@ -12,19 +12,12 @@ VALUES (6118,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (6118,  15,          5) /* StackUnitValue */
      , (6118,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6118,  19,          5) /* Value */
-     , (6118,  65,        101) /* Placement - Resting */
      , (6118,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6118,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6118,   1, False) /* Stuck */
-     , (6118,  11, True ) /* IgnoreCollisions */
-     , (6118,  13, True ) /* Ethereal */
-     , (6118,  14, True ) /* GravityStatus */
-     , (6118,  19, True ) /* Attackable */;
+     , (6118,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (6118, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6118,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (6118,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6118,   1, 'Pile of Short Sticks') /* Name */

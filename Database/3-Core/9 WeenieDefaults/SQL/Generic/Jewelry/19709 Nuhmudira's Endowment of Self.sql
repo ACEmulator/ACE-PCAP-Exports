@@ -10,19 +10,14 @@ VALUES (19709,   1,          8) /* ItemType - Jewelry */
      , (19709,  16,          1) /* ItemUseable - No */
      , (19709,  18,          1) /* UiEffects - Magical */
      , (19709,  19,       5000) /* Value */
-     , (19709,  65,        101) /* Placement - Resting */
-     , (19709,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (19709,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19709, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19709,   1, False) /* Stuck */
-     , (19709,  11, True ) /* IgnoreCollisions */
-     , (19709,  13, True ) /* Ethereal */
-     , (19709,  14, True ) /* GravityStatus */
-     , (19709,  19, True ) /* Attackable */
-     , (19709,  22, True ) /* Inscribable */;
+VALUES (19709,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19709,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19709,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19709,   1, 'Nuhmudira''s Endowment of Self') /* Name */;

@@ -17,15 +17,10 @@ VALUES (52627,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52627,   1, True ) /* Stuck */
-     , (52627,  12, True ) /* ReportCollisions */
-     , (52627,  13, False) /* Ethereal */
-     , (52627,  14, True ) /* GravityStatus */
-     , (52627,  19, True ) /* Attackable */
-     , (52627,  42, True ) /* AllowEdgeSlide */
      , (52627, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52627,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (52627,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52627,   1, 'Guardian Wisp') /* Name */

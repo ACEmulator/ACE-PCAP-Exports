@@ -14,20 +14,14 @@ VALUES (32235,   1,      65536) /* ItemType - Portal */
      , (32235, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32235,   1, True ) /* Stuck */
-     , (32235,  12, True ) /* ReportCollisions */
-     , (32235,  13, True ) /* Ethereal */
-     , (32235,  14, True ) /* GravityStatus */
-     , (32235,  15, True ) /* LightsStatus */
-     , (32235,  19, True ) /* Attackable */;
+VALUES (32235,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32235,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32235,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32235,   1, 'Mistress Halmera''s Dig') /* Name */
      , (32235,  16, 'This dungeon is quest-restricted.  Speak with Qath al-Haddash in Qalaba''r to learn more.') /* LongDesc */
-     , (32235,  38, 'Mistress Halmera''s Dig') /* AppraisalPortalDestination */
      , (32235, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

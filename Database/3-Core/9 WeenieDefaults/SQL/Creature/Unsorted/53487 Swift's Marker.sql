@@ -39,20 +39,13 @@ VALUES (53487,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53487,   1, True ) /* Stuck */
-     , (53487,  11, True ) /* IgnoreCollisions */
-     , (53487,  12, True ) /* ReportCollisions */
-     , (53487,  13, False) /* Ethereal */
-     , (53487,  14, True ) /* GravityStatus */
-     , (53487,  15, True ) /* LightsStatus */
-     , (53487,  19, False) /* Attackable */
-     , (53487,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53487,  42, True ) /* AllowEdgeSlide */;
+     , (53487,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53487,  54,       3) /* UseRadius */
      , (53487, 8010,       0) /* PCAPRecordedVelocityX */
      , (53487, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53487, 8012, -0.160606488585472) /* PCAPRecordedVelocityZ */;
+     , (53487, 8012,   -0.16) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53487,   1, 'Swift''s Marker') /* Name */

@@ -15,14 +15,10 @@ VALUES (8431,   1,         16) /* ItemType - Creature */
      , (8431, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8431,   1, True ) /* Stuck */
-     , (8431,  12, True ) /* ReportCollisions */
-     , (8431,  13, False) /* Ethereal */
-     , (8431,  14, True ) /* GravityStatus */
-     , (8431,  19, True ) /* Attackable */;
+VALUES (8431,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8431,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (8431,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8431,   1, 'Nomad Mu-miyah') /* Name */

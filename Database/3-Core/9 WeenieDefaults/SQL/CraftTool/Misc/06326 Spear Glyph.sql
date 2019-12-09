@@ -12,21 +12,16 @@ VALUES (6326,   1,        128) /* ItemType - Misc */
      , (6326,  15,       5000) /* StackUnitValue */
      , (6326,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6326,  19,       5000) /* Value */
-     , (6326,  65,        101) /* Placement - Resting */
      , (6326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6326,  94,        128) /* TargetType - Misc */
-     , (6326, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (6326, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (6326, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6326,   1, False) /* Stuck */
-     , (6326,  11, True ) /* IgnoreCollisions */
-     , (6326,  13, True ) /* Ethereal */
-     , (6326,  14, True ) /* GravityStatus */
-     , (6326,  19, True ) /* Attackable */
-     , (6326,  22, True ) /* Inscribable */;
+VALUES (6326,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6326,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (6326,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6326,   1, 'Spear Glyph') /* Name */;

@@ -12,19 +12,13 @@ VALUES (12500,   1,      65536) /* ItemType - Portal */
      , (12500, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12500,   1, True ) /* Stuck */
-     , (12500,  12, True ) /* ReportCollisions */
-     , (12500,  13, True ) /* Ethereal */
-     , (12500,  14, True ) /* GravityStatus */
-     , (12500,  15, True ) /* LightsStatus */
-     , (12500,  19, True ) /* Attackable */;
+VALUES (12500,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12500,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12500,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12500,   1, 'Gaerwel Edge Settlement Portal') /* Name */
-     , (12500,  38, 'Gaerwel Edge Settlement Portal (6.3N, 62.9E).') /* AppraisalPortalDestination */
      , (12500, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

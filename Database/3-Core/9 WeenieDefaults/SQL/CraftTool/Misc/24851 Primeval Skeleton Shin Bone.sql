@@ -12,18 +12,13 @@ VALUES (24851,   1,        128) /* ItemType - Misc */
      , (24851,  15,          0) /* StackUnitValue */
      , (24851,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24851,  19,          0) /* Value */
-     , (24851,  65,        101) /* Placement - Resting */
      , (24851,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24851,  94,        128) /* TargetType - Misc */
-     , (24851, 151,          2) /* HookType - Wall */;
+     , (24851, 151,          2) /* HookType - Wall */
+     , (24851, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24851,   1, False) /* Stuck */
-     , (24851,  11, True ) /* IgnoreCollisions */
-     , (24851,  13, True ) /* Ethereal */
-     , (24851,  14, True ) /* GravityStatus */
-     , (24851,  19, True ) /* Attackable */
-     , (24851,  22, True ) /* Inscribable */;
+VALUES (24851,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24851,   1, 'Primeval Skeleton Shin Bone') /* Name */;

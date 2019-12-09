@@ -12,29 +12,24 @@ VALUES (29050,   1,          2) /* ItemType - Armor */
      , (29050,  19,        913) /* Value */
      , (29050,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (29050,  28,        170) /* ArmorLevel */
-     , (29050,  65,        101) /* Placement - Resting */
      , (29050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29050, 106,        200) /* ItemSpellcraft */
      , (29050, 107,        300) /* ItemCurMana */
-     , (29050, 108,        300) /* ItemMaxMana */;
+     , (29050, 108,        300) /* ItemMaxMana */
+     , (29050, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29050,   1, False) /* Stuck */
-     , (29050,  11, True ) /* IgnoreCollisions */
-     , (29050,  13, True ) /* Ethereal */
-     , (29050,  14, True ) /* GravityStatus */
-     , (29050,  19, True ) /* Attackable */
-     , (29050,  22, True ) /* Inscribable */;
+VALUES (29050,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29050,   5,  -0.049) /* ManaRate */
-     , (29050,  13, 1.20000004768372) /* ArmorModVsSlash */
+VALUES (29050,   5,   -0.05) /* ManaRate */
+     , (29050,  13,     1.2) /* ArmorModVsSlash */
      , (29050,  14,       1) /* ArmorModVsPierce */
-     , (29050,  15, 0.800000011920929) /* ArmorModVsBludgeon */
+     , (29050,  15,     0.8) /* ArmorModVsBludgeon */
      , (29050,  16,       1) /* ArmorModVsCold */
-     , (29050,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (29050,  18, 0.400000005960464) /* ArmorModVsAcid */
-     , (29050,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (29050,  17,     0.4) /* ArmorModVsFire */
+     , (29050,  18,     0.4) /* ArmorModVsAcid */
+     , (29050,  19,     0.4) /* ArmorModVsElectric */
      , (29050, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

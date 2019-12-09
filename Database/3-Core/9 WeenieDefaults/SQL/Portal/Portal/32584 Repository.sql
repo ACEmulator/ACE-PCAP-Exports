@@ -13,20 +13,14 @@ VALUES (32584,   1,      65536) /* ItemType - Portal */
      , (32584, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32584,   1, True ) /* Stuck */
-     , (32584,  12, True ) /* ReportCollisions */
-     , (32584,  13, True ) /* Ethereal */
-     , (32584,  14, True ) /* GravityStatus */
-     , (32584,  15, True ) /* LightsStatus */
-     , (32584,  19, True ) /* Attackable */;
+VALUES (32584,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32584,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32584,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32584,   1, 'Repository') /* Name */
      , (32584,  16, 'Shadow Stone Repository') /* LongDesc */
-     , (32584,  38, 'Repository') /* AppraisalPortalDestination */
      , (32584, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

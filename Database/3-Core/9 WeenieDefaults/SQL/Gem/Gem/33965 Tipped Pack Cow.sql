@@ -14,15 +14,10 @@ VALUES (33965,   1,       2048) /* ItemType - Gem */
      , (33965, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33965,   1, False) /* Stuck */
-     , (33965,  11, True ) /* IgnoreCollisions */
-     , (33965,  13, True ) /* Ethereal */
-     , (33965,  14, True ) /* GravityStatus */
-     , (33965,  19, True ) /* Attackable */
-     , (33965,  22, True ) /* Inscribable */;
+VALUES (33965,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33965,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (33965,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33965,   1, 'Tipped Pack Cow') /* Name */

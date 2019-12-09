@@ -38,14 +38,10 @@ VALUES (42040,   1,         16) /* ItemType - Creature */
      , (42040, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42040,   1, True ) /* Stuck */
-     , (42040,  12, True ) /* ReportCollisions */
-     , (42040,  13, False) /* Ethereal */
-     , (42040,  14, True ) /* GravityStatus */
-     , (42040,  19, True ) /* Attackable */;
+VALUES (42040,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42040,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (42040,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42040,   1, 'Noble Remains') /* Name */

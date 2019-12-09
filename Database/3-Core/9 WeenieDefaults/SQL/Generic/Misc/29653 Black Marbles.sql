@@ -8,16 +8,11 @@ VALUES (29653,   1,        128) /* ItemType - Misc */
      , (29653,   5,          1) /* EncumbranceVal */
      , (29653,  16,          1) /* ItemUseable - No */
      , (29653,  19,          0) /* Value */
-     , (29653,  65,        101) /* Placement - Resting */
-     , (29653,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29653,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29653, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29653,   1, False) /* Stuck */
-     , (29653,  11, True ) /* IgnoreCollisions */
-     , (29653,  13, True ) /* Ethereal */
-     , (29653,  14, True ) /* GravityStatus */
-     , (29653,  19, True ) /* Attackable */
-     , (29653,  22, True ) /* Inscribable */;
+VALUES (29653,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29653,   1, 'Black Marbles') /* Name */

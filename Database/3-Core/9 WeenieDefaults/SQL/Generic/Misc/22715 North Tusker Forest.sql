@@ -11,12 +11,7 @@ VALUES (22715,   1,        128) /* ItemType - Misc */
      , (22715,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22715,   1, True ) /* Stuck */
-     , (22715,  11, True ) /* IgnoreCollisions */
-     , (22715,  12, True ) /* ReportCollisions */
-     , (22715,  13, False) /* Ethereal */
-     , (22715,  14, True ) /* GravityStatus */
-     , (22715,  19, True ) /* Attackable */;
+VALUES (22715,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22715,   1, 'North Tusker Forest') /* Name */

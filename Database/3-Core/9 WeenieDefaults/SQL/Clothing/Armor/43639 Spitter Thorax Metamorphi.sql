@@ -10,16 +10,11 @@ VALUES (43639,   1,          2) /* ItemType - Armor */
      , (43639,   9,        512) /* ValidLocations - ChestArmor */
      , (43639,  16,          1) /* ItemUseable - No */
      , (43639,  19,       1300) /* Value */
-     , (43639,  65,        101) /* Placement - Resting */
-     , (43639,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43639,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43639, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43639,   1, False) /* Stuck */
-     , (43639,  11, True ) /* IgnoreCollisions */
-     , (43639,  13, True ) /* Ethereal */
-     , (43639,  14, True ) /* GravityStatus */
-     , (43639,  19, True ) /* Attackable */
-     , (43639,  22, True ) /* Inscribable */;
+VALUES (43639,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43639,   1, 'Spitter Thorax Metamorphi') /* Name */;

@@ -12,16 +12,9 @@ VALUES (7922,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7922,  15,         25) /* StackUnitValue */
      , (7922,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7922,  19,         25) /* Value */
-     , (7922,  65,        101) /* Placement - Resting */
      , (7922,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7922,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7922,   1, False) /* Stuck */
-     , (7922,  11, True ) /* IgnoreCollisions */
-     , (7922,  13, True ) /* Ethereal */
-     , (7922,  14, True ) /* GravityStatus */
-     , (7922,  19, True ) /* Attackable */;
+     , (7922,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (7922, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7922,   1, 'Ground Rabbit') /* Name */

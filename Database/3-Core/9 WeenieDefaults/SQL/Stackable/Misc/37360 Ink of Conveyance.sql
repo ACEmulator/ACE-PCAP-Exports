@@ -12,15 +12,8 @@ VALUES (37360,   1,        128) /* ItemType - Misc */
      , (37360,  15,      30000) /* StackUnitValue */
      , (37360,  16,          1) /* ItemUseable - No */
      , (37360,  19,      30000) /* Value */
-     , (37360,  65,        101) /* Placement - Resting */
-     , (37360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37360,   1, False) /* Stuck */
-     , (37360,  11, True ) /* IgnoreCollisions */
-     , (37360,  13, True ) /* Ethereal */
-     , (37360,  14, True ) /* GravityStatus */
-     , (37360,  19, True ) /* Attackable */;
+     , (37360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37360, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37360,   1, 'Ink of Conveyance') /* Name */

@@ -15,17 +15,13 @@ VALUES (15757,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15757,   1, True ) /* Stuck */
      , (15757,   2, False) /* Open */
-     , (15757,  11, True ) /* IgnoreCollisions */
-     , (15757,  12, True ) /* ReportCollisions */
-     , (15757,  13, False) /* Ethereal */
-     , (15757,  14, True ) /* GravityStatus */
-     , (15757,  19, True ) /* Attackable */;
+     , (15757,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15757,  54,       1) /* UseRadius */
      , (15757, 8010,       0) /* PCAPRecordedVelocityX */
      , (15757, 8011,       0) /* PCAPRecordedVelocityY */
-     , (15757, 8012, -0.0992651209235191) /* PCAPRecordedVelocityZ */;
+     , (15757, 8012,    -0.1) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15757,   1, 'The skeleton of Lania Cartoth') /* Name */

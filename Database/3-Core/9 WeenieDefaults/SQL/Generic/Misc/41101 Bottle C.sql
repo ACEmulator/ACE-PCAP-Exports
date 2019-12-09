@@ -7,15 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41101,   1,        128) /* ItemType - Misc */
      , (41101,   5,         20) /* EncumbranceVal */
      , (41101,  16,          1) /* ItemUseable - No */
-     , (41101,  65,        101) /* Placement - Resting */
-     , (41101,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */;
+     , (41101,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
+     , (41101, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41101,   1, False) /* Stuck */
-     , (41101,  11, True ) /* IgnoreCollisions */
-     , (41101,  13, True ) /* Ethereal */
-     , (41101,  19, True ) /* Attackable */
-     , (41101,  22, True ) /* Inscribable */;
+VALUES (41101,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41101,   1, 'Bottle C') /* Name */;

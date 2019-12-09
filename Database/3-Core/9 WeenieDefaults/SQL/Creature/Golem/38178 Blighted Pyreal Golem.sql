@@ -16,11 +16,7 @@ VALUES (38178,   1,         16) /* ItemType - Creature */
      , (38178, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38178,   1, True ) /* Stuck */
-     , (38178,  12, True ) /* ReportCollisions */
-     , (38178,  13, False) /* Ethereal */
-     , (38178,  14, True ) /* GravityStatus */
-     , (38178,  19, True ) /* Attackable */;
+VALUES (38178,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38178,   1, 'Blighted Pyreal Golem') /* Name */

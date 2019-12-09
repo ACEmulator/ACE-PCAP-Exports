@@ -12,20 +12,15 @@ VALUES (14860,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14860,  15,         10) /* StackUnitValue */
      , (14860,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14860,  19,         10) /* Value */
-     , (14860,  65,        101) /* Placement - Resting */
      , (14860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14860,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */;
+     , (14860,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */
+     , (14860, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14860,   1, False) /* Stuck */
-     , (14860,  11, True ) /* IgnoreCollisions */
-     , (14860,  13, True ) /* Ethereal */
-     , (14860,  14, True ) /* GravityStatus */
-     , (14860,  19, True ) /* Attackable */
-     , (14860,  69, False) /* IsSellable */;
+VALUES (14860,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14860,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (14860,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14860,   1, 'Ground Nutmeg') /* Name */

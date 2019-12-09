@@ -9,17 +9,12 @@ VALUES (49521,   1,       2048) /* ItemType - Gem */
      , (49521,  16,          1) /* ItemUseable - No */
      , (49521,  19,          0) /* Value */
      , (49521,  33,          1) /* Bonded - Bonded */
-     , (49521,  65,        101) /* Placement - Resting */
      , (49521,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (49521, 114,          1) /* Attuned - Attuned */;
+     , (49521, 114,          1) /* Attuned - Attuned */
+     , (49521, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49521,   1, False) /* Stuck */
-     , (49521,  11, True ) /* IgnoreCollisions */
-     , (49521,  13, True ) /* Ethereal */
-     , (49521,  14, True ) /* GravityStatus */
-     , (49521,  19, True ) /* Attackable */
-     , (49521,  22, True ) /* Inscribable */;
+VALUES (49521,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49521,   1, 'Token of the Aura of the World') /* Name */

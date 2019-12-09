@@ -12,19 +12,14 @@ VALUES (35416,   1,        128) /* ItemType - Misc */
      , (35416,  15,          0) /* StackUnitValue */
      , (35416,  16,          1) /* ItemUseable - No */
      , (35416,  19,          0) /* Value */
-     , (35416,  65,        101) /* Placement - Resting */
-     , (35416,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (35416,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (35416, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35416,   1, False) /* Stuck */
-     , (35416,  11, True ) /* IgnoreCollisions */
-     , (35416,  13, True ) /* Ethereal */
-     , (35416,  14, True ) /* GravityStatus */
-     , (35416,  19, True ) /* Attackable */
-     , (35416,  69, False) /* IsSellable */;
+VALUES (35416,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35416,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (35416,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35416,   1, 'Torn Cloth Scrap') /* Name */

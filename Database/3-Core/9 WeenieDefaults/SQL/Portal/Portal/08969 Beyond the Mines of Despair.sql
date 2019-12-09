@@ -12,19 +12,13 @@ VALUES (8969,   1,      65536) /* ItemType - Portal */
      , (8969, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8969,   1, True ) /* Stuck */
-     , (8969,  12, True ) /* ReportCollisions */
-     , (8969,  13, True ) /* Ethereal */
-     , (8969,  14, True ) /* GravityStatus */
-     , (8969,  15, True ) /* LightsStatus */
-     , (8969,  19, True ) /* Attackable */;
+VALUES (8969,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8969,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8969,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8969,   1, 'Beyond the Mines of Despair') /* Name */
-     , (8969,  38, 'Beyond the Mines of Despair') /* AppraisalPortalDestination */
      , (8969, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

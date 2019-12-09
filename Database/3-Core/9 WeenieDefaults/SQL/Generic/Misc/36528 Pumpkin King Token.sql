@@ -9,17 +9,12 @@ VALUES (36528,   1,        128) /* ItemType - Misc */
      , (36528,  16,          1) /* ItemUseable - No */
      , (36528,  19,          0) /* Value */
      , (36528,  33,          1) /* Bonded - Bonded */
-     , (36528,  65,        101) /* Placement - Resting */
      , (36528,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36528, 114,          1) /* Attuned - Attuned */;
+     , (36528, 114,          1) /* Attuned - Attuned */
+     , (36528, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36528,   1, False) /* Stuck */
-     , (36528,  11, True ) /* IgnoreCollisions */
-     , (36528,  13, True ) /* Ethereal */
-     , (36528,  14, True ) /* GravityStatus */
-     , (36528,  19, True ) /* Attackable */
-     , (36528,  22, True ) /* Inscribable */;
+VALUES (36528,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36528,   1, 'Pumpkin King Token') /* Name */

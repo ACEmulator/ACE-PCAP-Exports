@@ -8,17 +8,12 @@ VALUES (32179,   1,        128) /* ItemType - Misc */
      , (32179,   5,        200) /* EncumbranceVal */
      , (32179,  16,          1) /* ItemUseable - No */
      , (32179,  19,          0) /* Value */
-     , (32179,  65,        101) /* Placement - Resting */
      , (32179,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32179, 151,          9) /* HookType - Floor, Yard */;
+     , (32179, 151,          9) /* HookType - Floor, Yard */
+     , (32179, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32179,   1, False) /* Stuck */
-     , (32179,  11, True ) /* IgnoreCollisions */
-     , (32179,  13, True ) /* Ethereal */
-     , (32179,  14, True ) /* GravityStatus */
-     , (32179,  19, True ) /* Attackable */
-     , (32179,  22, True ) /* Inscribable */;
+VALUES (32179,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32179,   1, 'Fiun Head') /* Name */

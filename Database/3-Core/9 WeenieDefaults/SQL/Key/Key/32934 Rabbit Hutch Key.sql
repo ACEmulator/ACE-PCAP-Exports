@@ -9,20 +9,15 @@ VALUES (32934,   1,      16384) /* ItemType - Key */
      , (32934,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (32934,  19,          3) /* Value */
      , (32934,  33,          1) /* Bonded - Bonded */
-     , (32934,  65,        101) /* Placement - Resting */
      , (32934,  91,          1) /* MaxStructure */
      , (32934,  92,          1) /* Structure */
      , (32934,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32934,  94,        640) /* TargetType - LockableMagicTarget */
-     , (32934, 114,          1) /* Attuned - Attuned */;
+     , (32934, 114,          1) /* Attuned - Attuned */
+     , (32934, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32934,   1, False) /* Stuck */
-     , (32934,  11, True ) /* IgnoreCollisions */
-     , (32934,  13, True ) /* Ethereal */
-     , (32934,  14, True ) /* GravityStatus */
-     , (32934,  19, True ) /* Attackable */
-     , (32934,  22, True ) /* Inscribable */;
+VALUES (32934,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32934,   1, 'Rabbit Hutch Key') /* Name */

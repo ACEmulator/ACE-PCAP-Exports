@@ -12,16 +12,12 @@ VALUES (7470,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7470,   1, True ) /* Stuck */
-     , (7470,  12, True ) /* ReportCollisions */
-     , (7470,  13, True ) /* Ethereal */
-     , (7470,  14, True ) /* GravityStatus */
-     , (7470,  19, True ) /* Attackable */
      , (7470,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7470, 8010,       0) /* PCAPRecordedVelocityX */
      , (7470, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7470, 8012, -2.5718457698822) /* PCAPRecordedVelocityZ */;
+     , (7470, 8012,   -2.57) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7470,   1, 'Yellow Side Steam') /* Name */;

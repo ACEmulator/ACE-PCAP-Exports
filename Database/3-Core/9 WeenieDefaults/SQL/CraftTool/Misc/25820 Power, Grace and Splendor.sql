@@ -18,12 +18,7 @@ VALUES (25820,   1,        128) /* ItemType - Misc */
      , (25820, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25820,   1, False) /* Stuck */
-     , (25820,  11, True ) /* IgnoreCollisions */
-     , (25820,  13, True ) /* Ethereal */
-     , (25820,  14, True ) /* GravityStatus */
-     , (25820,  19, True ) /* Attackable */
-     , (25820,  22, True ) /* Inscribable */
+VALUES (25820,  22, True ) /* Inscribable */
      , (25820,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -10,17 +10,12 @@ VALUES (52699,   1,      32768) /* ItemType - Caster */
      , (52699,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (52699,  16,          1) /* ItemUseable - No */
      , (52699,  19,        200) /* Value */
-     , (52699,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (52699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52699,  94,         16) /* TargetType - Creature */
      , (52699, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52699,   1, False) /* Stuck */
-     , (52699,  11, True ) /* IgnoreCollisions */
-     , (52699,  13, True ) /* Ethereal */
-     , (52699,  14, True ) /* GravityStatus */
-     , (52699,  19, True ) /* Attackable */
-     , (52699,  22, True ) /* Inscribable */;
+VALUES (52699,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52699,  29,       1) /* WeaponDefense */

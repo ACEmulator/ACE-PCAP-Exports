@@ -11,24 +11,19 @@ VALUES (8683,   1,          8) /* ItemType - Jewelry */
      , (8683,  16,          1) /* ItemUseable - No */
      , (8683,  18,          1) /* UiEffects - Magical */
      , (8683,  19,          1) /* Value */
-     , (8683,  65,        101) /* Placement - Resting */
      , (8683,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8683, 106,        150) /* ItemSpellcraft */
      , (8683, 107,          0) /* ItemCurMana */
      , (8683, 108,        400) /* ItemMaxMana */
-     , (8683, 109,         15) /* ItemDifficulty */;
+     , (8683, 109,         15) /* ItemDifficulty */
+     , (8683, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8683,   1, False) /* Stuck */
-     , (8683,  11, True ) /* IgnoreCollisions */
-     , (8683,  13, True ) /* Ethereal */
-     , (8683,  14, True ) /* GravityStatus */
-     , (8683,  19, True ) /* Attackable */
-     , (8683,  22, True ) /* Inscribable */;
+VALUES (8683,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8683,   5,  -0.025) /* ManaRate */
-     , (8683,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (8683,   5,   -0.02) /* ManaRate */
+     , (8683,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8683,   1, 'A Society Bracelet Of Coordination') /* Name */;

@@ -8,20 +8,15 @@ VALUES (876,   1,        128) /* ItemType - Misc */
      , (876,   5,       9000) /* EncumbranceVal */
      , (876,  16,          1) /* ItemUseable - No */
      , (876,  19,        125) /* Value */
-     , (876,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (876,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (876,   1, True ) /* Stuck */
-     , (876,  11, True ) /* IgnoreCollisions */
-     , (876,  12, True ) /* ReportCollisions */
-     , (876,  13, False) /* Ethereal */
-     , (876,  14, True ) /* GravityStatus */
-     , (876,  19, True ) /* Attackable */;
+VALUES (876,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (876, 8010,       0) /* PCAPRecordedVelocityX */
      , (876, 8011,       0) /* PCAPRecordedVelocityY */
-     , (876, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (876, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (876,   1, 'The Shining Shield') /* Name */

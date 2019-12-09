@@ -13,19 +13,13 @@ VALUES (8502,   1,      65536) /* ItemType - Portal */
      , (8502, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8502,   1, True ) /* Stuck */
-     , (8502,  12, True ) /* ReportCollisions */
-     , (8502,  13, True ) /* Ethereal */
-     , (8502,  14, True ) /* GravityStatus */
-     , (8502,  15, True ) /* LightsStatus */
-     , (8502,  19, True ) /* Attackable */;
+VALUES (8502,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8502,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8502,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8502,   1, 'South Shore Heights') /* Name */
-     , (8502,  38, 'South Shore Heights (86.2S, 39.6E).') /* AppraisalPortalDestination */
      , (8502, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -16,7 +16,6 @@ VALUES (45449,   1,          1) /* ItemType - MeleeWeapon */
      , (45449,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (45449,  49,         50) /* WeaponTime */
      , (45449,  51,          1) /* CombatUse - Melee */
-     , (45449,  65,        101) /* Placement - Resting */
      , (45449,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45449, 106,        400) /* ItemSpellcraft */
      , (45449, 107,       2535) /* ItemCurMana */
@@ -28,27 +27,23 @@ VALUES (45449,   1,          1) /* ItemType - MeleeWeapon */
      , (45449, 319,         50) /* ItemMaxLevel */
      , (45449, 320,          1) /* ItemXpStyle - Fixed */
      , (45449, 353,          4) /* WeaponType - Mace */
-     , (45449, 8030,          0);
+     , (45449, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (45449, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (45449,   4, 100000000000) /* ItemTotalXp */
      , (45449,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45449,   1, False) /* Stuck */
-     , (45449,  11, True ) /* IgnoreCollisions */
-     , (45449,  13, True ) /* Ethereal */
-     , (45449,  14, True ) /* GravityStatus */
-     , (45449,  19, True ) /* Attackable */
-     , (45449,  22, True ) /* Inscribable */;
+VALUES (45449,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45449,   5, -0.0500000007450581) /* ManaRate */
+VALUES (45449,   5,   -0.05) /* ManaRate */
      , (45449,  21,       0) /* WeaponLength */
-     , (45449,  22, 0.300000011920929) /* DamageVariance */
+     , (45449,  22,     0.3) /* DamageVariance */
      , (45449,  26,       0) /* MaximumVelocity */
-     , (45449,  29, 1.17999994754791) /* WeaponDefense */
-     , (45449,  62, 1.17999994754791) /* WeaponOffense */
+     , (45449,  29,    1.18) /* WeaponDefense */
+     , (45449,  62,    1.18) /* WeaponOffense */
      , (45449,  63,       1) /* DamageMod */
      , (45449, 136,       1) /* CriticalMultiplier */;
 

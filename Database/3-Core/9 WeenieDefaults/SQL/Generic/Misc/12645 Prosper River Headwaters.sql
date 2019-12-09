@@ -11,12 +11,7 @@ VALUES (12645,   1,        128) /* ItemType - Misc */
      , (12645,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12645,   1, True ) /* Stuck */
-     , (12645,  11, True ) /* IgnoreCollisions */
-     , (12645,  12, True ) /* ReportCollisions */
-     , (12645,  13, False) /* Ethereal */
-     , (12645,  14, True ) /* GravityStatus */
-     , (12645,  19, True ) /* Attackable */;
+VALUES (12645,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12645,   1, 'Prosper River Headwaters') /* Name */;

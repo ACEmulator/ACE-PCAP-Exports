@@ -12,19 +12,13 @@ VALUES (1430,   1,      65536) /* ItemType - Portal */
      , (1430, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1430,   1, True ) /* Stuck */
-     , (1430,  12, True ) /* ReportCollisions */
-     , (1430,  13, True ) /* Ethereal */
-     , (1430,  14, True ) /* GravityStatus */
-     , (1430,  15, True ) /* LightsStatus */
-     , (1430,  19, True ) /* Attackable */;
+VALUES (1430,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1430,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1430,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1430,   1, 'Halls of the Lost Light') /* Name */
-     , (1430,  38, 'Halls of the Lost Light') /* AppraisalPortalDestination */
      , (1430, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

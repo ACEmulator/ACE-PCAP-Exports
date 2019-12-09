@@ -16,14 +16,10 @@ VALUES (22899,   1,         16) /* ItemType - Creature */
      , (22899, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22899,   1, True ) /* Stuck */
-     , (22899,  12, True ) /* ReportCollisions */
-     , (22899,  13, False) /* Ethereal */
-     , (22899,  14, True ) /* GravityStatus */
-     , (22899,  19, True ) /* Attackable */;
+VALUES (22899,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22899,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (22899,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22899,   1, 'Drudge Seraph') /* Name */

@@ -12,21 +12,16 @@ VALUES (51451,   1,       2048) /* ItemType - Gem */
      , (51451,  15,        653) /* StackUnitValue */
      , (51451,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51451,  19,        653) /* Value */
-     , (51451,  65,        101) /* Placement - Resting */
      , (51451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51451,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (51451, 151,          2) /* HookType - Wall */;
+     , (51451, 151,          2) /* HookType - Wall */
+     , (51451, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51451,   1, False) /* Stuck */
-     , (51451,  11, True ) /* IgnoreCollisions */
-     , (51451,  13, True ) /* Ethereal */
-     , (51451,  14, True ) /* GravityStatus */
-     , (51451,  19, True ) /* Attackable */
-     , (51451,  22, True ) /* Inscribable */;
+VALUES (51451,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51451,  39, 1.39999997615814) /* DefaultScale */
+VALUES (51451,  39,     1.4) /* DefaultScale */
      , (51451,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -16,7 +16,6 @@ VALUES (41064,   1,          1) /* ItemType - MeleeWeapon */
      , (41064,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41064,  49,         33) /* WeaponTime */
      , (41064,  51,          5) /* CombatUse - TwoHanded */
-     , (41064,  65,        101) /* Placement - Resting */
      , (41064,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41064, 105,          7) /* ItemWorkmanship */
      , (41064, 131,         60) /* MaterialType - Gold */
@@ -29,15 +28,11 @@ VALUES (41064,   1,          1) /* ItemType - MeleeWeapon */
      , (41064, 178,         20) /* GemType */
      , (41064, 292,          2) /* Cleaving */
      , (41064, 353,         11) /* WeaponType - TwoHanded */
-     , (41064, 8030,          0);
+     , (41064, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41064, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41064,   1, False) /* Stuck */
-     , (41064,  11, True ) /* IgnoreCollisions */
-     , (41064,  13, True ) /* Ethereal */
-     , (41064,  14, True ) /* GravityStatus */
-     , (41064,  19, True ) /* Attackable */
-     , (41064,  22, True ) /* Inscribable */;
+VALUES (41064,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41064,  21,       0) /* WeaponLength */

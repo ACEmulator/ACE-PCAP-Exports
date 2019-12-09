@@ -9,17 +9,12 @@ VALUES (22362,   1,       2048) /* ItemType - Gem */
      , (22362,  16,          8) /* ItemUseable - Contained */
      , (22362,  19,          0) /* Value */
      , (22362,  33,          1) /* Bonded - Bonded */
-     , (22362,  65,        101) /* Placement - Resting */
      , (22362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22362, 114,          1) /* Attuned - Attuned */;
+     , (22362, 114,          1) /* Attuned - Attuned */
+     , (22362, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22362,   1, False) /* Stuck */
-     , (22362,  11, True ) /* IgnoreCollisions */
-     , (22362,  13, True ) /* Ethereal */
-     , (22362,  14, True ) /* GravityStatus */
-     , (22362,  19, True ) /* Attackable */
-     , (22362,  22, True ) /* Inscribable */;
+VALUES (22362,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22362,   1, 'Healing Gem of Enlightenment') /* Name */

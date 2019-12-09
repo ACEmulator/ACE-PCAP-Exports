@@ -11,17 +11,12 @@ VALUES (7061,   1,        128) /* ItemType - Misc */
      , (7061,  13,        100) /* StackUnitEncumbrance */
      , (7061,  15,          0) /* StackUnitValue */
      , (7061,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (7061,  65,        101) /* Placement - Resting */
      , (7061,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7061,  94,        128) /* TargetType - Misc */;
+     , (7061,  94,        128) /* TargetType - Misc */
+     , (7061, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7061,   1, False) /* Stuck */
-     , (7061,  11, True ) /* IgnoreCollisions */
-     , (7061,  13, True ) /* Ethereal */
-     , (7061,  14, True ) /* GravityStatus */
-     , (7061,  19, True ) /* Attackable */
-     , (7061,  22, True ) /* Inscribable */;
+VALUES (7061,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7061,   1, 'Composite Stave') /* Name */;

@@ -8,16 +8,11 @@ VALUES (1085,   1,        128) /* ItemType - Misc */
      , (1085,   5,       9000) /* EncumbranceVal */
      , (1085,  16,          1) /* ItemUseable - No */
      , (1085,  19,        125) /* Value */
-     , (1085,  65,        101) /* Placement - Resting */
-     , (1085,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (1085,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (1085, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1085,   1, True ) /* Stuck */
-     , (1085,  11, True ) /* IgnoreCollisions */
-     , (1085,  12, True ) /* ReportCollisions */
-     , (1085,  13, False) /* Ethereal */
-     , (1085,  14, True ) /* GravityStatus */
-     , (1085,  19, True ) /* Attackable */;
+VALUES (1085,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1085,   1, 'Adornments') /* Name */

@@ -11,17 +11,12 @@ VALUES (45452,   1,          1) /* ItemType - MeleeWeapon */
      , (45452,  16,          1) /* ItemUseable - No */
      , (45452,  19,      50000) /* Value */
      , (45452,  51,          1) /* CombatUse - Melee */
-     , (45452,  65,          1) /* Placement - RightHandCombat */
      , (45452,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45452, 151,          2) /* HookType - Wall */;
+     , (45452, 151,          2) /* HookType - Wall */
+     , (45452, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45452,   1, False) /* Stuck */
-     , (45452,  11, True ) /* IgnoreCollisions */
-     , (45452,  13, True ) /* Ethereal */
-     , (45452,  14, True ) /* GravityStatus */
-     , (45452,  19, True ) /* Attackable */
-     , (45452,  22, True ) /* Inscribable */;
+VALUES (45452,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45452,   1, 'Pillar of Fearlessness') /* Name */;

@@ -10,16 +10,11 @@ VALUES (43655,   1,          2) /* ItemType - Armor */
      , (43655,   9,          1) /* ValidLocations - HeadWear */
      , (43655,  16,          1) /* ItemUseable - No */
      , (43655,  19,        500) /* Value */
-     , (43655,  65,        101) /* Placement - Resting */
-     , (43655,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43655,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43655, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43655,   1, False) /* Stuck */
-     , (43655,  11, True ) /* IgnoreCollisions */
-     , (43655,  13, True ) /* Ethereal */
-     , (43655,  14, True ) /* GravityStatus */
-     , (43655,  19, True ) /* Attackable */
-     , (43655,  22, True ) /* Inscribable */;
+VALUES (43655,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43655,   1, 'Spitter Head Metamorphi') /* Name */;

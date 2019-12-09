@@ -12,21 +12,16 @@ VALUES (6353,   1,        128) /* ItemType - Misc */
      , (6353,  15,         10) /* StackUnitValue */
      , (6353,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6353,  19,         10) /* Value */
-     , (6353,  65,        101) /* Placement - Resting */
      , (6353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6353,  94,        128) /* TargetType - Misc */
-     , (6353, 151,          2) /* HookType - Wall */;
+     , (6353, 151,          2) /* HookType - Wall */
+     , (6353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6353,   1, False) /* Stuck */
-     , (6353,  11, True ) /* IgnoreCollisions */
-     , (6353,  13, True ) /* Ethereal */
-     , (6353,  14, True ) /* GravityStatus */
-     , (6353,  19, True ) /* Attackable */
-     , (6353,  22, True ) /* Inscribable */;
+VALUES (6353,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6353,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (6353,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6353,   1, 'Pyreal Mote') /* Name */

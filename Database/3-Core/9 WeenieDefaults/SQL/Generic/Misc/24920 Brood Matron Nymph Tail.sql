@@ -9,17 +9,12 @@ VALUES (24920,   1,        128) /* ItemType - Misc */
      , (24920,  16,          1) /* ItemUseable - No */
      , (24920,  19,          0) /* Value */
      , (24920,  33,          1) /* Bonded - Bonded */
-     , (24920,  65,        101) /* Placement - Resting */
      , (24920,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24920, 114,          1) /* Attuned - Attuned */;
+     , (24920, 114,          1) /* Attuned - Attuned */
+     , (24920, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24920,   1, False) /* Stuck */
-     , (24920,  11, True ) /* IgnoreCollisions */
-     , (24920,  13, True ) /* Ethereal */
-     , (24920,  14, True ) /* GravityStatus */
-     , (24920,  19, True ) /* Attackable */
-     , (24920,  22, True ) /* Inscribable */;
+VALUES (24920,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24920,   1, 'Brood Matron Nymph Tail') /* Name */

@@ -8,15 +8,10 @@ VALUES (8449,   1,        128) /* ItemType - Misc */
      , (8449,   5,       9000) /* EncumbranceVal */
      , (8449,  16,          1) /* ItemUseable - No */
      , (8449,  19,        125) /* Value */
-     , (8449,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (8449,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8449,   1, True ) /* Stuck */
-     , (8449,  11, True ) /* IgnoreCollisions */
-     , (8449,  12, True ) /* ReportCollisions */
-     , (8449,  13, False) /* Ethereal */
-     , (8449,  14, True ) /* GravityStatus */
-     , (8449,  19, True ) /* Attackable */;
+VALUES (8449,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8449,   1, 'The Wildsong Inn') /* Name */

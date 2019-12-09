@@ -13,19 +13,13 @@ VALUES (45723,   1,      65536) /* ItemType - Portal */
      , (45723, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45723,   1, True ) /* Stuck */
-     , (45723,  12, True ) /* ReportCollisions */
-     , (45723,  13, True ) /* Ethereal */
-     , (45723,  14, True ) /* GravityStatus */
-     , (45723,  15, True ) /* LightsStatus */
-     , (45723,  19, True ) /* Attackable */;
+VALUES (45723,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45723,  54, -0.100000001490116) /* UseRadius */;
+VALUES (45723,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45723,   1, 'Acidic Refuge') /* Name */
-     , (45723,  38, 'Acidic Refuge') /* AppraisalPortalDestination */
      , (45723, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

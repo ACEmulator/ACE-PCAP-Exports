@@ -11,17 +11,12 @@ VALUES (22716,   1,        128) /* ItemType - Misc */
      , (22716,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22716,   1, True ) /* Stuck */
-     , (22716,  11, True ) /* IgnoreCollisions */
-     , (22716,  12, True ) /* ReportCollisions */
-     , (22716,  13, False) /* Ethereal */
-     , (22716,  14, True ) /* GravityStatus */
-     , (22716,  19, True ) /* Attackable */;
+VALUES (22716,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22716, 8010,       0) /* PCAPRecordedVelocityX */
      , (22716, 8011,       0) /* PCAPRecordedVelocityY */
-     , (22716, 8012, -0.37868857383728) /* PCAPRecordedVelocityZ */;
+     , (22716, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22716,   1, 'South Tusker Forest') /* Name */

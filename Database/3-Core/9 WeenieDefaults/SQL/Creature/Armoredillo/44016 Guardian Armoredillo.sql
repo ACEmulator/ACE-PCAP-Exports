@@ -16,14 +16,10 @@ VALUES (44016,   1,         16) /* ItemType - Creature */
      , (44016, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44016,   1, True ) /* Stuck */
-     , (44016,  12, True ) /* ReportCollisions */
-     , (44016,  13, False) /* Ethereal */
-     , (44016,  14, True ) /* GravityStatus */
-     , (44016,  19, True ) /* Attackable */;
+VALUES (44016,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44016,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (44016,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44016,   1, 'Guardian Armoredillo') /* Name */

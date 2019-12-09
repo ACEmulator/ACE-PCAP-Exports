@@ -15,16 +15,12 @@ VALUES (42063,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42063,   1, True ) /* Stuck */
-     , (42063,  11, True ) /* IgnoreCollisions */
-     , (42063,  13, True ) /* Ethereal */
-     , (42063,  14, True ) /* GravityStatus */
-     , (42063,  19, False) /* Attackable */
-     , (42063,  42, True ) /* AllowEdgeSlide */;
+     , (42063,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42063,  39, 0.699999988079071) /* DefaultScale */
+VALUES (42063,  39,     0.7) /* DefaultScale */
      , (42063,  54,       3) /* UseRadius */
-     , (42063,  76, 0.300000011920929) /* Translucency */;
+     , (42063,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42063,   1, 'Spectral Fountain') /* Name */

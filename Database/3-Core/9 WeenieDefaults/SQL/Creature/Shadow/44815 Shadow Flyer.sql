@@ -15,15 +15,11 @@ VALUES (44815,   1,         16) /* ItemType - Creature */
      , (44815, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44815,   1, True ) /* Stuck */
-     , (44815,  12, True ) /* ReportCollisions */
-     , (44815,  13, False) /* Ethereal */
-     , (44815,  14, True ) /* GravityStatus */
-     , (44815,  19, True ) /* Attackable */;
+VALUES (44815,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44815,  39, 1.10000002384186) /* DefaultScale */
-     , (44815,  76, 0.200000002980232) /* Translucency */;
+VALUES (44815,  39,     1.1) /* DefaultScale */
+     , (44815,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44815,   1, 'Shadow Flyer') /* Name */

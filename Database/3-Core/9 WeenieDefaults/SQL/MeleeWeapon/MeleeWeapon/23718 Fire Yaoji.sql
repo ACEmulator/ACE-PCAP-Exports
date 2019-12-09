@@ -11,16 +11,11 @@ VALUES (23718,   1,          1) /* ItemType - MeleeWeapon */
      , (23718,  16,          1) /* ItemUseable - No */
      , (23718,  19,        220) /* Value */
      , (23718,  51,          1) /* CombatUse - Melee */
-     , (23718,  65,          1) /* Placement - RightHandCombat */
-     , (23718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23718, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23718,   1, False) /* Stuck */
-     , (23718,  11, True ) /* IgnoreCollisions */
-     , (23718,  13, True ) /* Ethereal */
-     , (23718,  14, True ) /* GravityStatus */
-     , (23718,  19, True ) /* Attackable */
-     , (23718,  22, True ) /* Inscribable */;
+VALUES (23718,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23718,   1, 'Fire Yaoji') /* Name */;

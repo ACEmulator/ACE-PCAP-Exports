@@ -16,12 +16,7 @@ VALUES (52715,   1,         16) /* ItemType - Creature */
      , (52715, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52715,   1, True ) /* Stuck */
-     , (52715,  12, True ) /* ReportCollisions */
-     , (52715,  13, False) /* Ethereal */
-     , (52715,  14, True ) /* GravityStatus */
-     , (52715,  19, True ) /* Attackable */
-     , (52715,  42, True ) /* AllowEdgeSlide */;
+VALUES (52715,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52715,   1, 'Corrosive Archer') /* Name */

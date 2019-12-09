@@ -12,18 +12,11 @@ VALUES (25730,   1,       4096) /* ItemType - SpellComponents */
      , (25730,  15,          5) /* StackUnitValue */
      , (25730,  16,          1) /* ItemUseable - No */
      , (25730,  19,          5) /* Value */
-     , (25730,  65,        101) /* Placement - Resting */
-     , (25730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25730,   1, False) /* Stuck */
-     , (25730,  11, True ) /* IgnoreCollisions */
-     , (25730,  13, True ) /* Ethereal */
-     , (25730,  14, True ) /* GravityStatus */
-     , (25730,  19, True ) /* Attackable */;
+     , (25730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (25730, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25730,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (25730,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25730,   1, 'Banyan Talisman') /* Name */;

@@ -11,12 +11,7 @@ VALUES (13173,   1,        128) /* ItemType - Misc */
      , (13173,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13173,   1, True ) /* Stuck */
-     , (13173,  11, True ) /* IgnoreCollisions */
-     , (13173,  12, True ) /* ReportCollisions */
-     , (13173,  13, False) /* Ethereal */
-     , (13173,  14, True ) /* GravityStatus */
-     , (13173,  19, True ) /* Attackable */;
+VALUES (13173,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13173,   1, 'Qalaba''r Seaside Villas') /* Name */

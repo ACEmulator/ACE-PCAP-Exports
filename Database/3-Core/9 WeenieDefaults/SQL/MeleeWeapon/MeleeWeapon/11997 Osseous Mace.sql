@@ -15,7 +15,6 @@ VALUES (11997,   1,          1) /* ItemType - MeleeWeapon */
      , (11997,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (11997,  49,         40) /* WeaponTime */
      , (11997,  51,          1) /* CombatUse - Melee */
-     , (11997,  65,        101) /* Placement - Resting */
      , (11997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11997, 106,        200) /* ItemSpellcraft */
      , (11997, 107,        500) /* ItemCurMana */
@@ -23,24 +22,20 @@ VALUES (11997,   1,          1) /* ItemType - MeleeWeapon */
      , (11997, 109,          0) /* ItemDifficulty */
      , (11997, 151,          2) /* HookType - Wall */
      , (11997, 353,          4) /* WeaponType - Mace */
-     , (11997, 8030,          0);
+     , (11997, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (11997, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11997,   1, False) /* Stuck */
-     , (11997,  11, True ) /* IgnoreCollisions */
-     , (11997,  13, True ) /* Ethereal */
-     , (11997,  14, True ) /* GravityStatus */
-     , (11997,  19, True ) /* Attackable */
-     , (11997,  22, True ) /* Inscribable */;
+VALUES (11997,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11997,   5, -0.017000000923872) /* ManaRate */
+VALUES (11997,   5,   -0.02) /* ManaRate */
      , (11997,  21,       0) /* WeaponLength */
      , (11997,  22,     0.5) /* DamageVariance */
      , (11997,  26,       0) /* MaximumVelocity */
-     , (11997,  29, 1.05999994277954) /* WeaponDefense */
-     , (11997,  39, 1.20000004768372) /* DefaultScale */
-     , (11997,  62, 1.03999996185303) /* WeaponOffense */
+     , (11997,  29,    1.06) /* WeaponDefense */
+     , (11997,  39,     1.2) /* DefaultScale */
+     , (11997,  62,    1.04) /* WeaponOffense */
      , (11997,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -12,19 +12,13 @@ VALUES (13129,   1,      65536) /* ItemType - Portal */
      , (13129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13129,   1, True ) /* Stuck */
-     , (13129,  12, True ) /* ReportCollisions */
-     , (13129,  13, True ) /* Ethereal */
-     , (13129,  14, True ) /* GravityStatus */
-     , (13129,  15, True ) /* LightsStatus */
-     , (13129,  19, True ) /* Attackable */;
+VALUES (13129,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13129,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13129,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13129,   1, 'Slinker Meadows Portal') /* Name */
-     , (13129,  38, 'Slinker Meadows Portal (3.2N, 60.1E).') /* AppraisalPortalDestination */
      , (13129, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

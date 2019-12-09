@@ -8,21 +8,14 @@ VALUES (7239,   1,       8192) /* ItemType - Writable */
      , (7239,   5,        160) /* EncumbranceVal */
      , (7239,  16,          8) /* ItemUseable - Contained */
      , (7239,  19,          0) /* Value */
-     , (7239,  65,        101) /* Placement - Resting */
      , (7239,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7239, 174,          7) /* AppraisalPages */
-     , (7239, 175,          7) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7239,   1, False) /* Stuck */
-     , (7239,  11, True ) /* IgnoreCollisions */
-     , (7239,  13, True ) /* Ethereal */
-     , (7239,  14, True ) /* GravityStatus */
-     , (7239,  19, True ) /* Attackable */;
+     , (7239, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (7239, 8042,          7) /* PCAPRecordedAppraisalPages */
+     , (7239, 8043,          7) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7239,  39, 1.22000002861023) /* DefaultScale */
-     , (7239,  54, 0.300000011920929) /* UseRadius */;
+VALUES (7239,  39,    1.22) /* DefaultScale */
+     , (7239,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7239,   1, 'Yaun Hanzu''s Composite Bow Manual') /* Name */

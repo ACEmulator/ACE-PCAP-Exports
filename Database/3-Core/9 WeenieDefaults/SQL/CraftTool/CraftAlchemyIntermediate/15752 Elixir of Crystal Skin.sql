@@ -12,17 +12,10 @@ VALUES (15752,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15752,  15,         10) /* StackUnitValue */
      , (15752,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15752,  19,         10) /* Value */
-     , (15752,  65,        101) /* Placement - Resting */
      , (15752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15752,  94,        136) /* TargetType - Jewelry, Misc */
-     , (15752, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15752,   1, False) /* Stuck */
-     , (15752,  11, True ) /* IgnoreCollisions */
-     , (15752,  13, True ) /* Ethereal */
-     , (15752,  14, True ) /* GravityStatus */
-     , (15752,  19, True ) /* Attackable */;
+     , (15752, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (15752, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15752,   1, 'Elixir of Crystal Skin') /* Name */

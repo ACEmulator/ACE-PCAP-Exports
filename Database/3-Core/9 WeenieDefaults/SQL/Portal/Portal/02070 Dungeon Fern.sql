@@ -12,19 +12,13 @@ VALUES (2070,   1,      65536) /* ItemType - Portal */
      , (2070, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2070,   1, True ) /* Stuck */
-     , (2070,  12, True ) /* ReportCollisions */
-     , (2070,  13, True ) /* Ethereal */
-     , (2070,  14, True ) /* GravityStatus */
-     , (2070,  15, True ) /* LightsStatus */
-     , (2070,  19, True ) /* Attackable */;
+VALUES (2070,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2070,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2070,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2070,   1, 'Dungeon Fern') /* Name */
-     , (2070,  38, 'Dungeon Fern') /* AppraisalPortalDestination */
      , (2070, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -8,19 +8,14 @@ VALUES (9591,   1,        128) /* ItemType - Misc */
      , (9591,   5,         10) /* EncumbranceVal */
      , (9591,  16,          1) /* ItemUseable - No */
      , (9591,  19,      10000) /* Value */
-     , (9591,  65,        101) /* Placement - Resting */
-     , (9591,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (9591,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9591, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9591,   1, False) /* Stuck */
-     , (9591,  11, True ) /* IgnoreCollisions */
-     , (9591,  13, True ) /* Ethereal */
-     , (9591,  14, True ) /* GravityStatus */
-     , (9591,  19, True ) /* Attackable */
-     , (9591,  22, True ) /* Inscribable */;
+VALUES (9591,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9591,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (9591,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9591,   1, 'Unarmed Combat Skill Puzzle Piece') /* Name */;

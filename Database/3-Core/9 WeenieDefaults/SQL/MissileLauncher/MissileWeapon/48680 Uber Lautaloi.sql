@@ -12,17 +12,12 @@ VALUES (48680,   1,        256) /* ItemType - MissileWeapon */
      , (48680,  19,       4000) /* Value */
      , (48680,  50,          1) /* AmmoType - Arrow */
      , (48680,  51,          2) /* CombatUse - Missle */
-     , (48680,  65,        101) /* Placement - Resting */
      , (48680,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48680, 151,          2) /* HookType - Wall */;
+     , (48680, 151,          2) /* HookType - Wall */
+     , (48680, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48680,   1, False) /* Stuck */
-     , (48680,  11, True ) /* IgnoreCollisions */
-     , (48680,  13, True ) /* Ethereal */
-     , (48680,  14, True ) /* GravityStatus */
-     , (48680,  19, True ) /* Attackable */
-     , (48680,  22, True ) /* Inscribable */;
+VALUES (48680,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48680,   1, 'Uber Lautaloi') /* Name */;

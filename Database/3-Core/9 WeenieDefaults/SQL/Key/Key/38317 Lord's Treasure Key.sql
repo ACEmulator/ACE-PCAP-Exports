@@ -9,20 +9,15 @@ VALUES (38317,   1,      16384) /* ItemType - Key */
      , (38317,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (38317,  19,          0) /* Value */
      , (38317,  33,          1) /* Bonded - Bonded */
-     , (38317,  65,        101) /* Placement - Resting */
      , (38317,  91,          4) /* MaxStructure */
      , (38317,  92,          4) /* Structure */
      , (38317,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38317,  94,        640) /* TargetType - LockableMagicTarget */
-     , (38317, 114,          1) /* Attuned - Attuned */;
+     , (38317, 114,          1) /* Attuned - Attuned */
+     , (38317, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38317,   1, False) /* Stuck */
-     , (38317,  11, True ) /* IgnoreCollisions */
-     , (38317,  13, True ) /* Ethereal */
-     , (38317,  14, True ) /* GravityStatus */
-     , (38317,  19, True ) /* Attackable */
-     , (38317,  22, True ) /* Inscribable */
+VALUES (38317,  22, True ) /* Inscribable */
      , (38317,  69, False) /* IsSellable */
      , (38317,  99, False) /* Ivoryable */;
 

@@ -15,12 +15,7 @@ VALUES (28555,   1,         16) /* ItemType - Creature */
      , (28555, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28555,   1, True ) /* Stuck */
-     , (28555,  12, True ) /* ReportCollisions */
-     , (28555,  13, False) /* Ethereal */
-     , (28555,  14, True ) /* GravityStatus */
-     , (28555,  19, True ) /* Attackable */
-     , (28555,  42, True ) /* AllowEdgeSlide */;
+VALUES (28555,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28555,   1, 'Grizzled Monouga') /* Name */

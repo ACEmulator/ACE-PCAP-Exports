@@ -10,17 +10,12 @@ VALUES (32989,   1,          8) /* ItemType - Jewelry */
      , (32989,  16,          1) /* ItemUseable - No */
      , (32989,  19,          0) /* Value */
      , (32989,  33,          1) /* Bonded - Bonded */
-     , (32989,  65,        101) /* Placement - Resting */
      , (32989,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32989, 114,          1) /* Attuned - Attuned */;
+     , (32989, 114,          1) /* Attuned - Attuned */
+     , (32989, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32989,   1, False) /* Stuck */
-     , (32989,  11, True ) /* IgnoreCollisions */
-     , (32989,  13, True ) /* Ethereal */
-     , (32989,  14, True ) /* GravityStatus */
-     , (32989,  19, True ) /* Attackable */
-     , (32989,  22, True ) /* Inscribable */;
+VALUES (32989,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32989,  39,     0.5) /* DefaultScale */;

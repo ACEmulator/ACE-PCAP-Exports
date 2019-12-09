@@ -11,16 +11,11 @@ VALUES (22778,   1,          1) /* ItemType - MeleeWeapon */
      , (22778,  16,          1) /* ItemUseable - No */
      , (22778,  19,         40) /* Value */
      , (22778,  51,          1) /* CombatUse - Melee */
-     , (22778,  65,          1) /* Placement - RightHandCombat */
-     , (22778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22778, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22778,   1, False) /* Stuck */
-     , (22778,  11, True ) /* IgnoreCollisions */
-     , (22778,  13, True ) /* Ethereal */
-     , (22778,  14, True ) /* GravityStatus */
-     , (22778,  19, True ) /* Attackable */
-     , (22778,  22, True ) /* Inscribable */;
+VALUES (22778,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22778,   1, 'Bandit Dagger') /* Name */;

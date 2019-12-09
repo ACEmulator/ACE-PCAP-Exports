@@ -9,20 +9,15 @@ VALUES (30356,   1,          8) /* ItemType - Jewelry */
      , (30356,   9,     196608) /* ValidLocations - WristWear */
      , (30356,  16,          1) /* ItemUseable - No */
      , (30356,  19,      50000) /* Value */
-     , (30356,  65,        101) /* Placement - Resting */
      , (30356,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30356, 151,          2) /* HookType - Wall */;
+     , (30356, 151,          2) /* HookType - Wall */
+     , (30356, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30356,   1, False) /* Stuck */
-     , (30356,  11, True ) /* IgnoreCollisions */
-     , (30356,  13, True ) /* Ethereal */
-     , (30356,  14, True ) /* GravityStatus */
-     , (30356,  19, True ) /* Attackable */
-     , (30356,  22, True ) /* Inscribable */;
+VALUES (30356,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30356,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (30356,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30356,   1, 'Circle of Pure Thought') /* Name */;

@@ -11,11 +11,7 @@ VALUES (1008,   1,        128) /* ItemType - Misc */
      , (1008,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1008,   1, True ) /* Stuck */
-     , (1008,  11, True ) /* IgnoreCollisions */
-     , (1008,  12, True ) /* ReportCollisions */
-     , (1008,  13, False) /* Ethereal */
-     , (1008,  19, True ) /* Attackable */;
+VALUES (1008,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1008,   1, 'Loom and Oven') /* Name */

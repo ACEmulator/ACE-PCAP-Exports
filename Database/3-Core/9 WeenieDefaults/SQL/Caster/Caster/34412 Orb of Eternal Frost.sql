@@ -12,27 +12,21 @@ VALUES (34412,   1,      32768) /* ItemType - Caster */
      , (34412,  18,          1) /* UiEffects - Magical */
      , (34412,  19,       2300) /* Value */
      , (34412,  33,          1) /* Bonded - Bonded */
-     , (34412,  65,          1) /* Placement - RightHandCombat */
      , (34412,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (34412,  94,         16) /* TargetType - Creature */
      , (34412, 106,         10) /* ItemSpellcraft */
      , (34412, 107,        120) /* ItemCurMana */
      , (34412, 108,        120) /* ItemMaxMana */
      , (34412, 117,         10) /* ItemManaCost */
-     , (34412, 151,          2) /* HookType - Wall */;
+     , (34412, 151,          2) /* HookType - Wall */
+     , (34412, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34412,   1, False) /* Stuck */
-     , (34412,  11, True ) /* IgnoreCollisions */
-     , (34412,  13, True ) /* Ethereal */
-     , (34412,  14, True ) /* GravityStatus */
-     , (34412,  15, True ) /* LightsStatus */
-     , (34412,  19, True ) /* Attackable */
-     , (34412,  22, True ) /* Inscribable */;
+VALUES (34412,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34412,  29,       1) /* WeaponDefense */
-     , (34412, 144, 1.08306367304697E-314) /* ManaConversionMod */;
+     , (34412, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34412,   1, 'Orb of Eternal Frost') /* Name */

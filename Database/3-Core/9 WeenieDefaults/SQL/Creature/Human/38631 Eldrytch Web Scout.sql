@@ -17,11 +17,7 @@ VALUES (38631,   1,         16) /* ItemType - Creature */
      , (38631, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38631,   1, True ) /* Stuck */
-     , (38631,  12, True ) /* ReportCollisions */
-     , (38631,  13, False) /* Ethereal */
-     , (38631,  14, True ) /* GravityStatus */
-     , (38631,  19, True ) /* Attackable */;
+VALUES (38631,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38631,   1, 'Eldrytch Web Scout') /* Name */

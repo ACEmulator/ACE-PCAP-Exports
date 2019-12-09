@@ -12,19 +12,13 @@ VALUES (14650,   1,      65536) /* ItemType - Portal */
      , (14650, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14650,   1, True ) /* Stuck */
-     , (14650,  12, True ) /* ReportCollisions */
-     , (14650,  13, True ) /* Ethereal */
-     , (14650,  14, True ) /* GravityStatus */
-     , (14650,  15, True ) /* LightsStatus */
-     , (14650,  19, True ) /* Attackable */;
+VALUES (14650,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14650,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14650,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14650,   1, 'Lost Wish Cottages Portal') /* Name */
-     , (14650,  38, 'Lost Wish Cottages Portal (40.0N, 63.2E).') /* AppraisalPortalDestination */
      , (14650, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

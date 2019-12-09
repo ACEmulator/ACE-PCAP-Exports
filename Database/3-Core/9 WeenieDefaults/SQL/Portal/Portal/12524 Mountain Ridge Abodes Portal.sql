@@ -12,19 +12,13 @@ VALUES (12524,   1,      65536) /* ItemType - Portal */
      , (12524, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12524,   1, True ) /* Stuck */
-     , (12524,  12, True ) /* ReportCollisions */
-     , (12524,  13, True ) /* Ethereal */
-     , (12524,  14, True ) /* GravityStatus */
-     , (12524,  15, True ) /* LightsStatus */
-     , (12524,  19, True ) /* Attackable */;
+VALUES (12524,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12524,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12524,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12524,   1, 'Mountain Ridge Abodes Portal') /* Name */
-     , (12524,  38, 'Mountain Ridge Abodes Portal (34.5N, 22.5E).') /* AppraisalPortalDestination */
      , (12524, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

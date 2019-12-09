@@ -10,17 +10,12 @@ VALUES (33682,   1,        128) /* ItemType - Misc */
      , (33682,  18,          8) /* UiEffects - BoostMana */
      , (33682,  19,          0) /* Value */
      , (33682,  33,          0) /* Bonded - Normal */
-     , (33682,  65,        101) /* Placement - Resting */
      , (33682,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33682, 114,          0) /* Attuned - Normal */;
+     , (33682, 114,          0) /* Attuned - Normal */
+     , (33682, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33682,   1, False) /* Stuck */
-     , (33682,  11, True ) /* IgnoreCollisions */
-     , (33682,  13, True ) /* Ethereal */
-     , (33682,  14, True ) /* GravityStatus */
-     , (33682,  19, True ) /* Attackable */
-     , (33682,  22, True ) /* Inscribable */;
+VALUES (33682,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33682,   1, 'Degenerate Shadow Essence') /* Name */

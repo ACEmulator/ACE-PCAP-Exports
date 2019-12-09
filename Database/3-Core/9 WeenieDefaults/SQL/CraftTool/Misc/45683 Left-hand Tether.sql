@@ -13,19 +13,12 @@ VALUES (45683,   1,        128) /* ItemType - Misc */
      , (45683,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (45683,  18,          1) /* UiEffects - Magical */
      , (45683,  19,         10) /* Value */
-     , (45683,  65,        101) /* Placement - Resting */
      , (45683,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45683,  94,          1) /* TargetType - MeleeWeapon */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45683,   1, False) /* Stuck */
-     , (45683,  11, True ) /* IgnoreCollisions */
-     , (45683,  13, True ) /* Ethereal */
-     , (45683,  14, True ) /* GravityStatus */
-     , (45683,  19, True ) /* Attackable */;
+     , (45683,  94,          1) /* TargetType - MeleeWeapon */
+     , (45683, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45683,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (45683,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45683,   1, 'Left-hand Tether') /* Name */;

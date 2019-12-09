@@ -12,17 +12,10 @@ VALUES (265,   1,    4194304) /* ItemType - CraftCookingBase */
      , (265,  15,         20) /* StackUnitValue */
      , (265,  16,          8) /* ItemUseable - Contained */
      , (265,  19,         20) /* Value */
-     , (265,  65,        101) /* Placement - Resting */
      , (265,  89,          4) /* BoosterEnum - Stamina */
      , (265,  90,         10) /* BoostValue */
-     , (265,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (265,   1, False) /* Stuck */
-     , (265,  11, True ) /* IgnoreCollisions */
-     , (265,  13, True ) /* Ethereal */
-     , (265,  14, True ) /* GravityStatus */
-     , (265,  19, True ) /* Attackable */;
+     , (265,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (265, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (265,   1, 'Meat') /* Name */

@@ -15,15 +15,10 @@ VALUES (40483,   1,         16) /* ItemType - Creature */
      , (40483, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40483,   1, True ) /* Stuck */
-     , (40483,  12, True ) /* ReportCollisions */
-     , (40483,  13, False) /* Ethereal */
-     , (40483,  14, True ) /* GravityStatus */
-     , (40483,  19, True ) /* Attackable */
-     , (40483,  42, True ) /* AllowEdgeSlide */;
+VALUES (40483,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40483,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (40483,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40483,   1, 'Shoguth Moarsman') /* Name */

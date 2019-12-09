@@ -12,19 +12,13 @@ VALUES (15177,   1,      65536) /* ItemType - Portal */
      , (15177, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15177,   1, True ) /* Stuck */
-     , (15177,  12, True ) /* ReportCollisions */
-     , (15177,  13, True ) /* Ethereal */
-     , (15177,  14, True ) /* GravityStatus */
-     , (15177,  15, True ) /* LightsStatus */
-     , (15177,  19, True ) /* Attackable */;
+VALUES (15177,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15177,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15177,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15177,   1, 'Nalib Cavana Settlement Portal') /* Name */
-     , (15177,  38, 'Nalib Cavana Settlement Portal (31.3N, 25.5W).') /* AppraisalPortalDestination */
      , (15177, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

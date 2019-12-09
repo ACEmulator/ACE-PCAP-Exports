@@ -13,19 +13,13 @@ VALUES (29482,   1,      65536) /* ItemType - Portal */
      , (29482, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29482,   1, True ) /* Stuck */
-     , (29482,  12, True ) /* ReportCollisions */
-     , (29482,  13, True ) /* Ethereal */
-     , (29482,  14, True ) /* GravityStatus */
-     , (29482,  15, True ) /* LightsStatus */
-     , (29482,  19, True ) /* Attackable */;
+VALUES (29482,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29482,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29482,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29482,   1, 'Exit Lugian Ice Tunnels') /* Name */
-     , (29482,  38, 'Exit Lugian Ice Tunnels (93.3N, 50.1W).') /* AppraisalPortalDestination */
      , (29482, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

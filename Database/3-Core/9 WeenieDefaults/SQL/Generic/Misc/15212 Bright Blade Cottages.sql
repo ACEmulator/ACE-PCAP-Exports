@@ -11,12 +11,7 @@ VALUES (15212,   1,        128) /* ItemType - Misc */
      , (15212,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15212,   1, True ) /* Stuck */
-     , (15212,  11, True ) /* IgnoreCollisions */
-     , (15212,  12, True ) /* ReportCollisions */
-     , (15212,  13, False) /* Ethereal */
-     , (15212,  14, True ) /* GravityStatus */
-     , (15212,  19, True ) /* Attackable */;
+VALUES (15212,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15212,   1, 'Bright Blade Cottages') /* Name */;

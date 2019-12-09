@@ -13,20 +13,15 @@ VALUES (53480,   1,        128) /* ItemType - Misc */
      , (53480,  16,          1) /* ItemUseable - No */
      , (53480,  19,          1) /* Value */
      , (53480,  33,          1) /* Bonded - Bonded */
-     , (53480,  65,        101) /* Placement - Resting */
      , (53480,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53480,  98, 1485848356) /* CreationTimestamp */
      , (53480, 114,          1) /* Attuned - Attuned */
      , (53480, 267,      15000) /* Lifespan */
-     , (53480, 268,      15000) /* RemainingLifespan */;
+     , (53480, 268,      15000) /* RemainingLifespan */
+     , (53480, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53480,   1, False) /* Stuck */
-     , (53480,  11, True ) /* IgnoreCollisions */
-     , (53480,  13, True ) /* Ethereal */
-     , (53480,  14, True ) /* GravityStatus */
-     , (53480,  19, True ) /* Attackable */
-     , (53480,  69, False) /* IsSellable */;
+VALUES (53480,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53480,   1, 'Viridian Key of the Second Portal') /* Name */

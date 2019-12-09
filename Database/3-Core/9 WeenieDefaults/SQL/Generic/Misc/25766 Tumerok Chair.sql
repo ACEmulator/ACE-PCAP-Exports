@@ -8,17 +8,11 @@ VALUES (25766,   1,        128) /* ItemType - Misc */
      , (25766,   5,        200) /* EncumbranceVal */
      , (25766,  16,          1) /* ItemUseable - No */
      , (25766,  19,       6000) /* Value */
-     , (25766,  93,      66588) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (25766,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
      , (25766, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25766,   1, False) /* Stuck */
-     , (25766,  11, True ) /* IgnoreCollisions */
-     , (25766,  12, True ) /* ReportCollisions */
-     , (25766,  13, True ) /* Ethereal */
-     , (25766,  14, True ) /* GravityStatus */
-     , (25766,  19, True ) /* Attackable */
-     , (25766,  22, True ) /* Inscribable */;
+VALUES (25766,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25766,   1, 'Tumerok Chair') /* Name */

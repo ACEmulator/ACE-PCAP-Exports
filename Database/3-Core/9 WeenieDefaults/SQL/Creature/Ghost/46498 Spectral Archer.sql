@@ -18,12 +18,7 @@ VALUES (46498,   1,         16) /* ItemType - Creature */
      , (46498, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46498,   1, True ) /* Stuck */
-     , (46498,  12, True ) /* ReportCollisions */
-     , (46498,  13, False) /* Ethereal */
-     , (46498,  14, True ) /* GravityStatus */
-     , (46498,  19, True ) /* Attackable */
-     , (46498,  42, True ) /* AllowEdgeSlide */;
+VALUES (46498,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46498,   1, 'Spectral Archer') /* Name */

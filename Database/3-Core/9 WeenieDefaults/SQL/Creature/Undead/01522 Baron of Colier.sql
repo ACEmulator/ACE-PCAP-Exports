@@ -16,14 +16,10 @@ VALUES (1522,   1,         16) /* ItemType - Creature */
      , (1522, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1522,   1, True ) /* Stuck */
-     , (1522,  12, True ) /* ReportCollisions */
-     , (1522,  13, False) /* Ethereal */
-     , (1522,  14, True ) /* GravityStatus */
-     , (1522,  19, True ) /* Attackable */;
+VALUES (1522,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1522,  39, 1.11000001430511) /* DefaultScale */;
+VALUES (1522,  39,    1.11) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1522,   1, 'Baron of Colier') /* Name */

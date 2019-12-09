@@ -11,7 +11,6 @@ VALUES (129,   1,          4) /* ItemType - Clothing */
      , (129,  16,          1) /* ItemUseable - No */
      , (129,  19,         57) /* Value */
      , (129,  28,        257) /* ArmorLevel */
-     , (129,  65,        101) /* Placement - Resting */
      , (129,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (129, 105,          4) /* ItemWorkmanship */
      , (129, 106,        212) /* ItemSpellcraft */
@@ -23,26 +22,22 @@ VALUES (129,   1,          4) /* ItemType - Clothing */
      , (129, 131,         52) /* MaterialType - Leather */
      , (129, 172,          5) /* AppraisalLongDescDecoration */
      , (129, 177,          2) /* GemCount */
-     , (129, 178,         45) /* GemType */;
+     , (129, 178,         45) /* GemType */
+     , (129, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (129,   1, False) /* Stuck */
-     , (129,  11, True ) /* IgnoreCollisions */
-     , (129,  13, True ) /* Ethereal */
-     , (129,  14, True ) /* GravityStatus */
-     , (129,  19, True ) /* Attackable */
-     , (129,  22, True ) /* Inscribable */
+VALUES (129,  22, True ) /* Inscribable */
      , (129, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (129,   5,   -0.05) /* ManaRate */
-     , (129,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (129,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (129,  13,     1.2) /* ArmorModVsSlash */
+     , (129,  14,     0.8) /* ArmorModVsPierce */
      , (129,  15,       1) /* ArmorModVsBludgeon */
      , (129,  16,     0.5) /* ArmorModVsCold */
      , (129,  17,     0.5) /* ArmorModVsFire */
-     , (129,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (129,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (129,  18,     0.3) /* ArmorModVsAcid */
+     , (129,  19,     0.8) /* ArmorModVsElectric */
      , (129, 165,       1) /* ArmorModVsNether */
      , (129, 8004,       2) /* PCAPRecordedWorkmanship */;
 

@@ -11,20 +11,15 @@ VALUES (7062,   1,        128) /* ItemType - Misc */
      , (7062,  13,         10) /* StackUnitEncumbrance */
      , (7062,  15,          0) /* StackUnitValue */
      , (7062,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (7062,  65,        101) /* Placement - Resting */
      , (7062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7062,  94,        128) /* TargetType - Misc */;
+     , (7062,  94,        128) /* TargetType - Misc */
+     , (7062, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7062,   1, False) /* Stuck */
-     , (7062,  11, True ) /* IgnoreCollisions */
-     , (7062,  13, True ) /* Ethereal */
-     , (7062,  14, True ) /* GravityStatus */
-     , (7062,  19, True ) /* Attackable */
-     , (7062,  22, True ) /* Inscribable */;
+VALUES (7062,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7062,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (7062,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7062,   1, 'Oiled String') /* Name */;

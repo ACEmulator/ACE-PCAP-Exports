@@ -12,19 +12,13 @@ VALUES (12496,   1,      65536) /* ItemType - Portal */
      , (12496, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12496,   1, True ) /* Stuck */
-     , (12496,  12, True ) /* ReportCollisions */
-     , (12496,  13, True ) /* Ethereal */
-     , (12496,  14, True ) /* GravityStatus */
-     , (12496,  15, True ) /* LightsStatus */
-     , (12496,  19, True ) /* Attackable */;
+VALUES (12496,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12496,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12496,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12496,   1, 'Faranar Foothills Portal') /* Name */
-     , (12496,  38, 'Faranar Foothills Portal (15.2S, 41.0E).') /* AppraisalPortalDestination */
      , (12496, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

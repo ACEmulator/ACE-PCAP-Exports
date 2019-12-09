@@ -14,16 +14,9 @@ VALUES (38614,   1,        128) /* ItemType - Misc */
      , (38614,  18,          4) /* UiEffects - BoostHealth */
      , (38614,  19,          0) /* Value */
      , (38614,  33,          1) /* Bonded - Bonded */
-     , (38614,  65,        101) /* Placement - Resting */
      , (38614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38614, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38614,   1, False) /* Stuck */
-     , (38614,  11, True ) /* IgnoreCollisions */
-     , (38614,  13, True ) /* Ethereal */
-     , (38614,  14, True ) /* GravityStatus */
-     , (38614,  19, True ) /* Attackable */;
+     , (38614, 114,          1) /* Attuned - Attuned */
+     , (38614, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38614,   1, 'Falatacot Battle Report') /* Name */

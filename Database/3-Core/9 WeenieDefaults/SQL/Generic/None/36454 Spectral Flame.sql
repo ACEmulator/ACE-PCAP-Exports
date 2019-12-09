@@ -9,21 +9,15 @@ VALUES (36454,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36454,   1, True ) /* Stuck */
-     , (36454,  12, True ) /* ReportCollisions */
-     , (36454,  13, False) /* Ethereal */
-     , (36454,  15, True ) /* LightsStatus */
-     , (36454,  16, True ) /* ScriptedCollision */
-     , (36454,  17, True ) /* Inelastic */
-     , (36454,  19, True ) /* Attackable */
      , (36454,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36454,  77,       1) /* PhysicsScriptIntensity */
      , (36454,  78,       1) /* Friction */
      , (36454,  79,       0) /* Elasticity */
-     , (36454, 8010, -15.9343156814575) /* PCAPRecordedVelocityX */
-     , (36454, 8011, 5.15742111206055) /* PCAPRecordedVelocityY */
-     , (36454, 8012, -1.353346824646) /* PCAPRecordedVelocityZ */;
+     , (36454, 8010,  -15.93) /* PCAPRecordedVelocityX */
+     , (36454, 8011,    5.16) /* PCAPRecordedVelocityY */
+     , (36454, 8012,   -1.35) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36454,   1, 'Spectral Flame') /* Name */;

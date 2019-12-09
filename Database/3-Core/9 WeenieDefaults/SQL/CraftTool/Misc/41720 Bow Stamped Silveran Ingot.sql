@@ -13,18 +13,13 @@ VALUES (41720,   1,        128) /* ItemType - Misc */
      , (41720,  16,          8) /* ItemUseable - Contained */
      , (41720,  19,          1) /* Value */
      , (41720,  33,         -1) /* Bonded - Slippery */
-     , (41720,  65,        101) /* Placement - Resting */
      , (41720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41720,  94,         16) /* TargetType - Creature */
-     , (41720, 114,          0) /* Attuned - Normal */;
+     , (41720, 114,          0) /* Attuned - Normal */
+     , (41720, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41720,   1, False) /* Stuck */
-     , (41720,  11, True ) /* IgnoreCollisions */
-     , (41720,  13, True ) /* Ethereal */
-     , (41720,  14, True ) /* GravityStatus */
-     , (41720,  19, True ) /* Attackable */
-     , (41720,  22, True ) /* Inscribable */;
+VALUES (41720,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41720,   1, 'Bow Stamped Silveran Ingot') /* Name */

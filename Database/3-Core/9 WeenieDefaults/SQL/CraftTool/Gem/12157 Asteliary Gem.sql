@@ -12,17 +12,12 @@ VALUES (12157,   1,       2048) /* ItemType - Gem */
      , (12157,  15,          0) /* StackUnitValue */
      , (12157,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (12157,  19,          0) /* Value */
-     , (12157,  65,        101) /* Placement - Resting */
      , (12157,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12157,  94,      32770) /* TargetType - Armor, Caster */;
+     , (12157,  94,      32770) /* TargetType - Armor, Caster */
+     , (12157, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12157,   1, False) /* Stuck */
-     , (12157,  11, True ) /* IgnoreCollisions */
-     , (12157,  13, True ) /* Ethereal */
-     , (12157,  14, True ) /* GravityStatus */
-     , (12157,  19, True ) /* Attackable */
-     , (12157,  22, True ) /* Inscribable */;
+VALUES (12157,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12157,   1, 'Asteliary Gem') /* Name */

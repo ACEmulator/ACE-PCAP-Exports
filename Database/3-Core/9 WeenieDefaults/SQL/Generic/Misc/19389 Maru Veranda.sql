@@ -11,12 +11,7 @@ VALUES (19389,   1,        128) /* ItemType - Misc */
      , (19389,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19389,   1, True ) /* Stuck */
-     , (19389,  11, True ) /* IgnoreCollisions */
-     , (19389,  12, True ) /* ReportCollisions */
-     , (19389,  13, False) /* Ethereal */
-     , (19389,  14, True ) /* GravityStatus */
-     , (19389,  19, True ) /* Attackable */;
+VALUES (19389,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19389,   1, 'Maru Veranda') /* Name */

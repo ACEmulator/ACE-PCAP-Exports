@@ -39,19 +39,13 @@ VALUES (25489,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25489,   1, True ) /* Stuck */
-     , (25489,  11, True ) /* IgnoreCollisions */
-     , (25489,  12, True ) /* ReportCollisions */
-     , (25489,  13, False) /* Ethereal */
-     , (25489,  14, True ) /* GravityStatus */
-     , (25489,  19, False) /* Attackable */
-     , (25489,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (25489,  42, True ) /* AllowEdgeSlide */;
+     , (25489,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25489,  54,     5.5) /* UseRadius */
      , (25489, 8010,       0) /* PCAPRecordedVelocityX */
      , (25489, 8011,       0) /* PCAPRecordedVelocityY */
-     , (25489, 8012, -0.0832063481211662) /* PCAPRecordedVelocityZ */;
+     , (25489, 8012,   -0.08) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25489,   1, 'Pool of Goo') /* Name */

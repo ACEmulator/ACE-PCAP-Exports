@@ -38,17 +38,11 @@ VALUES (33060,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33060,   1, True ) /* Stuck */
-     , (33060,  11, True ) /* IgnoreCollisions */
-     , (33060,  12, True ) /* ReportCollisions */
-     , (33060,  13, False) /* Ethereal */
-     , (33060,  14, True ) /* GravityStatus */
-     , (33060,  19, False) /* Attackable */
-     , (33060,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (33060,  42, True ) /* AllowEdgeSlide */;
+     , (33060,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33060,  39, 1.29999995231628) /* DefaultScale */
-     , (33060,  54, 1.70000004768372) /* UseRadius */;
+VALUES (33060,  39,     1.3) /* DefaultScale */
+     , (33060,  54,     1.7) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33060,   1, 'Dark Monolith') /* Name */

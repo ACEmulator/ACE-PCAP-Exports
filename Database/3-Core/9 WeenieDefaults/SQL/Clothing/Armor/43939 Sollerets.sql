@@ -11,17 +11,12 @@ VALUES (43939,   1,          2) /* ItemType - Armor */
      , (43939,  16,          1) /* ItemUseable - No */
      , (43939,  18,          1) /* UiEffects - Magical */
      , (43939,  19,      20000) /* Value */
-     , (43939,  65,        101) /* Placement - Resting */
      , (43939,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43939, 151,          2) /* HookType - Wall */;
+     , (43939, 151,          2) /* HookType - Wall */
+     , (43939, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43939,   1, False) /* Stuck */
-     , (43939,  11, True ) /* IgnoreCollisions */
-     , (43939,  13, True ) /* Ethereal */
-     , (43939,  14, True ) /* GravityStatus */
-     , (43939,  19, True ) /* Attackable */
-     , (43939,  22, True ) /* Inscribable */;
+VALUES (43939,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43939,   1, 'Sollerets') /* Name */;

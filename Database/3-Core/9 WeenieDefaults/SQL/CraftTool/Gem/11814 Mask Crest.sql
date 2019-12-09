@@ -12,21 +12,16 @@ VALUES (11814,   1,       2048) /* ItemType - Gem */
      , (11814,  15,          0) /* StackUnitValue */
      , (11814,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11814,  19,          0) /* Value */
-     , (11814,  65,        101) /* Placement - Resting */
      , (11814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11814,  94,        128) /* TargetType - Misc */
-     , (11814, 151,          2) /* HookType - Wall */;
+     , (11814, 151,          2) /* HookType - Wall */
+     , (11814, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11814,   1, False) /* Stuck */
-     , (11814,  11, True ) /* IgnoreCollisions */
-     , (11814,  13, True ) /* Ethereal */
-     , (11814,  14, True ) /* GravityStatus */
-     , (11814,  19, True ) /* Attackable */
-     , (11814,  22, True ) /* Inscribable */;
+VALUES (11814,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11814,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (11814,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11814,   1, 'Mask Crest') /* Name */

@@ -13,21 +13,15 @@ VALUES (42165,   1,      65536) /* ItemType - Portal */
      , (42165, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42165,   1, True ) /* Stuck */
-     , (42165,  12, True ) /* ReportCollisions */
-     , (42165,  13, True ) /* Ethereal */
-     , (42165,  14, True ) /* GravityStatus */
-     , (42165,  15, True ) /* LightsStatus */
-     , (42165,  19, True ) /* Attackable */;
+VALUES (42165,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42165,  39, 0.800000011920929) /* DefaultScale */
-     , (42165,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42165,  39,     0.8) /* DefaultScale */
+     , (42165,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42165,   1, 'Hunter''s Leap') /* Name */
      , (42165,  16, 'A portal leading to the Hunter''s Leap where the Lilitha''s Bow may be found.') /* LongDesc */
-     , (42165,  38, 'Hunter''s Leap (35.8N, 33.5E).') /* AppraisalPortalDestination */
      , (42165, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,15 +6,11 @@ VALUES (46575, 'ace46575-door', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46575,   1,        128) /* ItemType - Misc */
      , (46575,  16,          1) /* ItemUseable - No */
-     , (46575,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (46575,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (46575, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46575,   1, True ) /* Stuck */
-     , (46575,  11, True ) /* IgnoreCollisions */
-     , (46575,  12, True ) /* ReportCollisions */
-     , (46575,  13, False) /* Ethereal */
-     , (46575,  19, True ) /* Attackable */;
+VALUES (46575,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46575,  54,       2) /* UseRadius */;

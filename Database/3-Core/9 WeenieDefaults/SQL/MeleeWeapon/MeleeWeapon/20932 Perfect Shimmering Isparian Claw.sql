@@ -18,7 +18,6 @@ VALUES (20932,   1,          1) /* ItemType - MeleeWeapon */
      , (20932,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (20932,  49,         12) /* WeaponTime */
      , (20932,  51,          1) /* CombatUse - Melee */
-     , (20932,  65,        101) /* Placement - Resting */
      , (20932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20932, 106,        300) /* ItemSpellcraft */
      , (20932, 107,       1064) /* ItemCurMana */
@@ -29,24 +28,20 @@ VALUES (20932,   1,          1) /* ItemType - MeleeWeapon */
      , (20932, 160,        300) /* WieldDifficulty */
      , (20932, 166,         62) /* SlayerCreatureType - Elemental */
      , (20932, 353,          1) /* WeaponType - Unarmed */
-     , (20932, 8030,          0);
+     , (20932, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (20932, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20932,   1, False) /* Stuck */
-     , (20932,  11, True ) /* IgnoreCollisions */
-     , (20932,  13, True ) /* Ethereal */
-     , (20932,  14, True ) /* GravityStatus */
-     , (20932,  19, True ) /* Attackable */
-     , (20932,  22, True ) /* Inscribable */
+VALUES (20932,  22, True ) /* Inscribable */
      , (20932,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20932,   5, -0.100000001490116) /* ManaRate */
+VALUES (20932,   5,    -0.1) /* ManaRate */
      , (20932,  21,       0) /* WeaponLength */
      , (20932,  22,    0.75) /* DamageVariance */
      , (20932,  26,       0) /* MaximumVelocity */
-     , (20932,  29, 1.04999995231628) /* WeaponDefense */
-     , (20932,  62, 1.29999995231628) /* WeaponOffense */
+     , (20932,  29,    1.05) /* WeaponDefense */
+     , (20932,  62,     1.3) /* WeaponOffense */
      , (20932,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

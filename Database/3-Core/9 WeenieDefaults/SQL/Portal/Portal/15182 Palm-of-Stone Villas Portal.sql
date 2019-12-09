@@ -11,15 +11,10 @@ VALUES (15182,   1,      65536) /* ItemType - Portal */
      , (15182, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15182,   1, True ) /* Stuck */
-     , (15182,  12, True ) /* ReportCollisions */
-     , (15182,  13, True ) /* Ethereal */
-     , (15182,  14, True ) /* GravityStatus */
-     , (15182,  15, True ) /* LightsStatus */
-     , (15182,  19, True ) /* Attackable */;
+VALUES (15182,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15182,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15182,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15182,   1, 'Palm-of-Stone Villas Portal') /* Name */

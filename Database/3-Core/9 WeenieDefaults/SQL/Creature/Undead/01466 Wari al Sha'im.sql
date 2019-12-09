@@ -16,14 +16,10 @@ VALUES (1466,   1,         16) /* ItemType - Creature */
      , (1466, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1466,   1, True ) /* Stuck */
-     , (1466,  12, True ) /* ReportCollisions */
-     , (1466,  13, False) /* Ethereal */
-     , (1466,  14, True ) /* GravityStatus */
-     , (1466,  19, True ) /* Attackable */;
+VALUES (1466,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1466,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (1466,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1466,   1, 'Wari al Sha''im') /* Name */

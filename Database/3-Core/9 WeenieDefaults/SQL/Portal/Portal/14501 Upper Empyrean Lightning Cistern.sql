@@ -13,19 +13,13 @@ VALUES (14501,   1,      65536) /* ItemType - Portal */
      , (14501, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14501,   1, True ) /* Stuck */
-     , (14501,  12, True ) /* ReportCollisions */
-     , (14501,  13, True ) /* Ethereal */
-     , (14501,  14, True ) /* GravityStatus */
-     , (14501,  15, True ) /* LightsStatus */
-     , (14501,  19, True ) /* Attackable */;
+VALUES (14501,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14501,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14501,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14501,   1, 'Upper Empyrean Lightning Cistern') /* Name */
-     , (14501,  38, 'Upper Empyrean Lightning Cistern') /* AppraisalPortalDestination */
      , (14501, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

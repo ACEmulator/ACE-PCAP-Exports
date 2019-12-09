@@ -12,19 +12,13 @@ VALUES (12560,   1,      65536) /* ItemType - Portal */
      , (12560, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12560,   1, True ) /* Stuck */
-     , (12560,  12, True ) /* ReportCollisions */
-     , (12560,  13, True ) /* Ethereal */
-     , (12560,  14, True ) /* GravityStatus */
-     , (12560,  15, True ) /* LightsStatus */
-     , (12560,  19, True ) /* Attackable */;
+VALUES (12560,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12560,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12560,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12560,   1, 'Tiofor Deeps Portal') /* Name */
-     , (12560,  38, 'Tiofor Deeps Portal (40.7N, 5.5W).') /* AppraisalPortalDestination */
      , (12560, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

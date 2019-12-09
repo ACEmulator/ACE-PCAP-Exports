@@ -16,12 +16,7 @@ VALUES (47234,   1,          1) /* ItemType - MeleeWeapon */
      , (47234, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47234,   1, False) /* Stuck */
-     , (47234,  11, True ) /* IgnoreCollisions */
-     , (47234,  13, True ) /* Ethereal */
-     , (47234,  14, True ) /* GravityStatus */
-     , (47234,  19, True ) /* Attackable */
-     , (47234,  22, True ) /* Inscribable */;
+VALUES (47234,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47234,   1, 'Acid Board with Nail') /* Name */;

@@ -19,14 +19,10 @@ VALUES (51702,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51702,   1, True ) /* Stuck */
-     , (51702,  12, True ) /* ReportCollisions */
-     , (51702,  13, False) /* Ethereal */
-     , (51702,  14, True ) /* GravityStatus */
-     , (51702,  19, True ) /* Attackable */
      , (51702, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51702,  76, 0.699999988079071) /* Translucency */;
+VALUES (51702,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51702,   1, 'Apparition of Envy') /* Name */

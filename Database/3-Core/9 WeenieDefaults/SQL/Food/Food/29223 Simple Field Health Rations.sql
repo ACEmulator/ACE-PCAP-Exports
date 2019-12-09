@@ -13,18 +13,13 @@ VALUES (29223,   1,         32) /* ItemType - Food */
      , (29223,  16,          8) /* ItemUseable - Contained */
      , (29223,  18,          4) /* UiEffects - BoostHealth */
      , (29223,  19,          0) /* Value */
-     , (29223,  65,        101) /* Placement - Resting */
      , (29223,  89,          2) /* BoosterEnum - Health */
      , (29223,  90,         50) /* BoostValue */
-     , (29223,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29223,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29223, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29223,   1, False) /* Stuck */
-     , (29223,  11, True ) /* IgnoreCollisions */
-     , (29223,  13, True ) /* Ethereal */
-     , (29223,  14, True ) /* GravityStatus */
-     , (29223,  19, True ) /* Attackable */
-     , (29223,  69, False) /* IsSellable */;
+VALUES (29223,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29223,   1, 'Simple Field Health Rations') /* Name */

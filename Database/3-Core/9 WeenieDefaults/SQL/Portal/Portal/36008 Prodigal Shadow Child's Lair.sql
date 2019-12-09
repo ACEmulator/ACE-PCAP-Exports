@@ -13,20 +13,14 @@ VALUES (36008,   1,      65536) /* ItemType - Portal */
      , (36008, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36008,   1, True ) /* Stuck */
-     , (36008,  12, True ) /* ReportCollisions */
-     , (36008,  13, True ) /* Ethereal */
-     , (36008,  14, True ) /* GravityStatus */
-     , (36008,  15, True ) /* LightsStatus */
-     , (36008,  19, True ) /* Attackable */;
+VALUES (36008,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36008,  54, -0.100000001490116) /* UseRadius */;
+VALUES (36008,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36008,   1, 'Prodigal Shadow Child''s Lair') /* Name */
      , (36008,  16, 'This portal coruscates with strange energies, filling you with an eerie warmth when you get close to it, even though it doesn''t seem to radiate any actual heat.') /* LongDesc */
-     , (36008,  38, 'Prodigal Shadow Child''s Lair') /* AppraisalPortalDestination */
      , (36008, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

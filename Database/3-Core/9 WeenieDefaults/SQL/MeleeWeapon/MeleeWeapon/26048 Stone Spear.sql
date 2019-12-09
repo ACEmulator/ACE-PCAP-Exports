@@ -11,16 +11,11 @@ VALUES (26048,   1,          1) /* ItemType - MeleeWeapon */
      , (26048,  16,          1) /* ItemUseable - No */
      , (26048,  19,        425) /* Value */
      , (26048,  51,          1) /* CombatUse - Melee */
-     , (26048,  65,          1) /* Placement - RightHandCombat */
-     , (26048,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (26048,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26048, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26048,   1, False) /* Stuck */
-     , (26048,  11, True ) /* IgnoreCollisions */
-     , (26048,  13, True ) /* Ethereal */
-     , (26048,  14, True ) /* GravityStatus */
-     , (26048,  19, True ) /* Attackable */
-     , (26048,  22, True ) /* Inscribable */;
+VALUES (26048,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26048,   1, 'Stone Spear') /* Name */;

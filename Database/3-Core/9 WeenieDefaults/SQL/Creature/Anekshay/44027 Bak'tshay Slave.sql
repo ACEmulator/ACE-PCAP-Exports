@@ -17,14 +17,10 @@ VALUES (44027,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44027,   1, True ) /* Stuck */
-     , (44027,  12, True ) /* ReportCollisions */
-     , (44027,  13, False) /* Ethereal */
-     , (44027,  14, True ) /* GravityStatus */
-     , (44027,  19, True ) /* Attackable */
      , (44027, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44027,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (44027,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44027,   1, 'Bak''tshay Slave') /* Name */

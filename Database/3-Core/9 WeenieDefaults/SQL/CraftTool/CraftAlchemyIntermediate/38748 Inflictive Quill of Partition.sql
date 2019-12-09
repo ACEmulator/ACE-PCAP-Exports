@@ -13,16 +13,9 @@ VALUES (38748,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38748,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (38748,  18,          1) /* UiEffects - Magical */
      , (38748,  19,      50000) /* Value */
-     , (38748,  65,        101) /* Placement - Resting */
      , (38748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38748,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38748,   1, False) /* Stuck */
-     , (38748,  11, True ) /* IgnoreCollisions */
-     , (38748,  13, True ) /* Ethereal */
-     , (38748,  14, True ) /* GravityStatus */
-     , (38748,  19, True ) /* Attackable */;
+     , (38748,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
+     , (38748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38748,   1, 'Inflictive Quill of Partition') /* Name */

@@ -17,7 +17,6 @@ VALUES (29908,   1,          1) /* ItemType - MeleeWeapon */
      , (29908,  48,         45) /* WeaponSkill - LightWeapons */
      , (29908,  49,         60) /* WeaponTime */
      , (29908,  51,          1) /* CombatUse - Melee */
-     , (29908,  65,          1) /* Placement - RightHandCombat */
      , (29908,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29908, 106,        200) /* ItemSpellcraft */
      , (29908, 107,        400) /* ItemCurMana */
@@ -25,23 +24,19 @@ VALUES (29908,   1,          1) /* ItemType - MeleeWeapon */
      , (29908, 109,         25) /* ItemDifficulty */
      , (29908, 151,          2) /* HookType - Wall */
      , (29908, 353,          3) /* WeaponType - Axe */
-     , (29908, 8030,          0);
+     , (29908, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (29908, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29908,   1, False) /* Stuck */
-     , (29908,  11, True ) /* IgnoreCollisions */
-     , (29908,  13, True ) /* Ethereal */
-     , (29908,  14, True ) /* GravityStatus */
-     , (29908,  19, True ) /* Attackable */
-     , (29908,  22, True ) /* Inscribable */;
+VALUES (29908,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29908,   5, -0.0329999998211861) /* ManaRate */
+VALUES (29908,   5,   -0.03) /* ManaRate */
      , (29908,  21,       0) /* WeaponLength */
-     , (29908,  22, 0.400000005960464) /* DamageVariance */
+     , (29908,  22,     0.4) /* DamageVariance */
      , (29908,  26,       0) /* MaximumVelocity */
-     , (29908,  29, 1.02999997138977) /* WeaponDefense */
-     , (29908,  62, 1.02999997138977) /* WeaponOffense */
+     , (29908,  29,    1.03) /* WeaponDefense */
+     , (29908,  62,    1.03) /* WeaponOffense */
      , (29908,  63,       1) /* DamageMod */
      , (29908,  77,       1) /* PhysicsScriptIntensity */;
 

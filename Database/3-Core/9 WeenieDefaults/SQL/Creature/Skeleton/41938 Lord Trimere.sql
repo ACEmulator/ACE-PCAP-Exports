@@ -15,14 +15,10 @@ VALUES (41938,   1,         16) /* ItemType - Creature */
      , (41938, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41938,   1, True ) /* Stuck */
-     , (41938,  12, True ) /* ReportCollisions */
-     , (41938,  13, False) /* Ethereal */
-     , (41938,  14, True ) /* GravityStatus */
-     , (41938,  19, True ) /* Attackable */;
+VALUES (41938,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41938,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (41938,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41938,   1, 'Lord Trimere') /* Name */

@@ -12,19 +12,13 @@ VALUES (1903,   1,      65536) /* ItemType - Portal */
      , (1903, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1903,   1, True ) /* Stuck */
-     , (1903,  12, True ) /* ReportCollisions */
-     , (1903,  13, True ) /* Ethereal */
-     , (1903,  14, True ) /* GravityStatus */
-     , (1903,  15, True ) /* LightsStatus */
-     , (1903,  19, True ) /* Attackable */;
+VALUES (1903,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1903,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1903,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1903,   1, 'Desert Ridge Border') /* Name */
-     , (1903,  38, 'Desert Ridge Border (5.6S, 40.0E).') /* AppraisalPortalDestination */
      , (1903, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

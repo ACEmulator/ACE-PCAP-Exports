@@ -12,18 +12,13 @@ VALUES (14898,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14898,  15,         25) /* StackUnitValue */
      , (14898,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14898,  19,         25) /* Value */
-     , (14898,  65,        101) /* Placement - Resting */
      , (14898,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14898,  94,    4194592) /* TargetType - Food, MissileWeapon, CraftCookingBase */
-     , (14898, 151,          2) /* HookType - Wall */;
+     , (14898, 151,          2) /* HookType - Wall */
+     , (14898, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14898,   1, False) /* Stuck */
-     , (14898,  11, True ) /* IgnoreCollisions */
-     , (14898,  13, True ) /* Ethereal */
-     , (14898,  14, True ) /* GravityStatus */
-     , (14898,  19, True ) /* Attackable */
-     , (14898,  22, True ) /* Inscribable */;
+VALUES (14898,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14898,   1, 'Wedding Cake Knife') /* Name */

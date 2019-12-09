@@ -17,13 +17,6 @@ VALUES (11140,   1,         32) /* ItemType - Food */
      , (11140,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11140, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11140,   1, False) /* Stuck */
-     , (11140,  11, True ) /* IgnoreCollisions */
-     , (11140,  13, True ) /* Ethereal */
-     , (11140,  14, True ) /* GravityStatus */
-     , (11140,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11140,   1, 'Olthoi Egg') /* Name */
      , (11140,  14, 'Use this item to eat it, if you have a stomach of steel.') /* Use */

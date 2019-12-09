@@ -9,22 +9,16 @@ VALUES (37159,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37159,   1, True ) /* Stuck */
-     , (37159,  12, True ) /* ReportCollisions */
-     , (37159,  13, False) /* Ethereal */
-     , (37159,  15, True ) /* LightsStatus */
-     , (37159,  16, True ) /* ScriptedCollision */
-     , (37159,  17, True ) /* Inelastic */
-     , (37159,  19, True ) /* Attackable */
      , (37159,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37159,  77,       1) /* PhysicsScriptIntensity */
      , (37159,  78,       1) /* Friction */
      , (37159,  79,       0) /* Elasticity */
-     , (37159, 8010, -10.6065912246704) /* PCAPRecordedVelocityX */
-     , (37159, 8011, -10.6066131591797) /* PCAPRecordedVelocityY */
+     , (37159, 8010,  -10.61) /* PCAPRecordedVelocityX */
+     , (37159, 8011,  -10.61) /* PCAPRecordedVelocityY */
      , (37159, 8012,       0) /* PCAPRecordedVelocityZ */
-     , (37159, 8016, 0.628318548202515) /* PCAPRecordeOmegaX */
+     , (37159, 8016,    0.63) /* PCAPRecordeOmegaX */
      , (37159, 8017,       0) /* PCAPRecordeOmegaY */
      , (37159, 8018,       0) /* PCAPRecordeOmegaZ */;
 

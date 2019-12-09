@@ -11,18 +11,13 @@ VALUES (46125,   1,      32768) /* ItemType - Caster */
      , (46125,  16,          1) /* ItemUseable - No */
      , (46125,  18,          1) /* UiEffects - Magical */
      , (46125,  19,       4000) /* Value */
-     , (46125,  65,          1) /* Placement - RightHandCombat */
      , (46125,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46125,  94,         16) /* TargetType - Creature */
-     , (46125, 151,          2) /* HookType - Wall */;
+     , (46125, 151,          2) /* HookType - Wall */
+     , (46125, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46125,   1, False) /* Stuck */
-     , (46125,  11, True ) /* IgnoreCollisions */
-     , (46125,  13, True ) /* Ethereal */
-     , (46125,  14, True ) /* GravityStatus */
-     , (46125,  19, True ) /* Attackable */
-     , (46125,  22, True ) /* Inscribable */;
+VALUES (46125,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46125,   1, 'Minor Shivering Atlan Wand') /* Name */;

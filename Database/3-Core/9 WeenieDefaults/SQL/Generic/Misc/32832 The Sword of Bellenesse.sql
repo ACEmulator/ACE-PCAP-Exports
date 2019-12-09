@@ -9,21 +9,16 @@ VALUES (32832,   1,        128) /* ItemType - Misc */
      , (32832,  16,          1) /* ItemUseable - No */
      , (32832,  19,          0) /* Value */
      , (32832,  33,          1) /* Bonded - Bonded */
-     , (32832,  65,        101) /* Placement - Resting */
      , (32832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32832, 114,          1) /* Attuned - Attuned */;
+     , (32832, 114,          1) /* Attuned - Attuned */
+     , (32832, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32832,   1, False) /* Stuck */
-     , (32832,  11, True ) /* IgnoreCollisions */
-     , (32832,  13, True ) /* Ethereal */
-     , (32832,  14, True ) /* GravityStatus */
-     , (32832,  19, True ) /* Attackable */
-     , (32832,  22, True ) /* Inscribable */
+VALUES (32832,  22, True ) /* Inscribable */
      , (32832,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32832,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (32832,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32832,   1, 'The Sword of Bellenesse') /* Name */

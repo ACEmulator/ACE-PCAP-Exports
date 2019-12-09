@@ -8,15 +8,11 @@ VALUES (854,   1,        128) /* ItemType - Misc */
      , (854,   5,         50) /* EncumbranceVal */
      , (854,  16,         32) /* ItemUseable - Remote */
      , (854,  19,          0) /* Value */
-     , (854,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (854,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (854, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (854,   1, True ) /* Stuck */
-     , (854,  11, True ) /* IgnoreCollisions */
-     , (854,  13, False) /* Ethereal */
-     , (854,  14, True ) /* GravityStatus */
-     , (854,  19, True ) /* Attackable */;
+VALUES (854,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (854,  54,       5) /* UseRadius */;

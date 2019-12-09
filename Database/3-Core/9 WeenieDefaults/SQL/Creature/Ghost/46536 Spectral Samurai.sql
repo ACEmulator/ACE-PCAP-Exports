@@ -19,11 +19,7 @@ VALUES (46536,   1,         16) /* ItemType - Creature */
      , (46536, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46536,   1, True ) /* Stuck */
-     , (46536,  12, True ) /* ReportCollisions */
-     , (46536,  13, False) /* Ethereal */
-     , (46536,  14, True ) /* GravityStatus */
-     , (46536,  19, True ) /* Attackable */;
+VALUES (46536,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46536,   1, 'Spectral Samurai') /* Name */

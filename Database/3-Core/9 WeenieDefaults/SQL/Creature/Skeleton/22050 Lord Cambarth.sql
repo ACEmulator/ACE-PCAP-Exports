@@ -16,11 +16,7 @@ VALUES (22050,   1,         16) /* ItemType - Creature */
      , (22050, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22050,   1, True ) /* Stuck */
-     , (22050,  12, True ) /* ReportCollisions */
-     , (22050,  13, False) /* Ethereal */
-     , (22050,  14, True ) /* GravityStatus */
-     , (22050,  19, True ) /* Attackable */;
+VALUES (22050,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22050,   1, 'Lord Cambarth') /* Name */

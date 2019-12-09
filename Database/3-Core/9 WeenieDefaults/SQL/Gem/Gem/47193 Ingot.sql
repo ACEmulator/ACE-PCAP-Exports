@@ -8,15 +8,11 @@ VALUES (47193,   1,       2048) /* ItemType - Gem */
      , (47193,   5,        750) /* EncumbranceVal */
      , (47193,  16,          1) /* ItemUseable - No */
      , (47193,  19,         30) /* Value */
-     , (47193,  65,        101) /* Placement - Resting */
-     , (47193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (47193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (47193, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47193,   1, True ) /* Stuck */
-     , (47193,  11, True ) /* IgnoreCollisions */
-     , (47193,  13, True ) /* Ethereal */
-     , (47193,  14, True ) /* GravityStatus */
-     , (47193,  19, True ) /* Attackable */;
+VALUES (47193,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47193,   1, 'Ingot') /* Name */;

@@ -13,19 +13,14 @@ VALUES (11456,   1,        128) /* ItemType - Misc */
      , (11456,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11456,  19,          0) /* Value */
      , (11456,  33,          0) /* Bonded - Normal */
-     , (11456,  65,        101) /* Placement - Resting */
      , (11456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11456,  94,        128) /* TargetType - Misc */
      , (11456, 114,          0) /* Attuned - Normal */
-     , (11456, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (11456, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (11456, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11456,   1, False) /* Stuck */
-     , (11456,  11, True ) /* IgnoreCollisions */
-     , (11456,  13, True ) /* Ethereal */
-     , (11456,  14, True ) /* GravityStatus */
-     , (11456,  19, True ) /* Attackable */
-     , (11456,  22, True ) /* Inscribable */;
+VALUES (11456,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11456,   1, 'Totem of Volkama') /* Name */

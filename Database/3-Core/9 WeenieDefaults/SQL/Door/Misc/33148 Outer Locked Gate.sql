@@ -6,15 +6,11 @@ VALUES (33148, 'ace33148-outerlockedgate', 19, '2019-02-10 00:00:00') /* Door */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33148,   1,        128) /* ItemType - Misc */
      , (33148,  16,         32) /* ItemUseable - Remote */
-     , (33148,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (33148,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (33148, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33148,   1, True ) /* Stuck */
-     , (33148,  11, True ) /* IgnoreCollisions */
-     , (33148,  12, True ) /* ReportCollisions */
-     , (33148,  13, False) /* Ethereal */
-     , (33148,  19, True ) /* Attackable */;
+VALUES (33148,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33148,  54,       2) /* UseRadius */;

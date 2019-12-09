@@ -15,12 +15,7 @@ VALUES (40786,   1,         16) /* ItemType - Creature */
      , (40786, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40786,   1, True ) /* Stuck */
-     , (40786,  12, True ) /* ReportCollisions */
-     , (40786,  13, False) /* Ethereal */
-     , (40786,  14, True ) /* GravityStatus */
-     , (40786,  19, True ) /* Attackable */
-     , (40786,  42, True ) /* AllowEdgeSlide */;
+VALUES (40786,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40786,   1, 'Progenitor of Lightning') /* Name */

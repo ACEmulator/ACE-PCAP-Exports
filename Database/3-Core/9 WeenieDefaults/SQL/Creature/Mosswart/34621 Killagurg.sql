@@ -16,14 +16,10 @@ VALUES (34621,   1,         16) /* ItemType - Creature */
      , (34621, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34621,   1, True ) /* Stuck */
-     , (34621,  12, True ) /* ReportCollisions */
-     , (34621,  13, False) /* Ethereal */
-     , (34621,  14, True ) /* GravityStatus */
-     , (34621,  19, True ) /* Attackable */;
+VALUES (34621,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34621,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (34621,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34621,   1, 'Killagurg') /* Name */

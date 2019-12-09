@@ -15,14 +15,10 @@ VALUES (25875,   1,         16) /* ItemType - Creature */
      , (25875, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25875,   1, True ) /* Stuck */
-     , (25875,  12, True ) /* ReportCollisions */
-     , (25875,  13, False) /* Ethereal */
-     , (25875,  14, True ) /* GravityStatus */
-     , (25875,  19, True ) /* Attackable */;
+VALUES (25875,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25875,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (25875,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25875,   1, 'Parfal Nefane') /* Name */

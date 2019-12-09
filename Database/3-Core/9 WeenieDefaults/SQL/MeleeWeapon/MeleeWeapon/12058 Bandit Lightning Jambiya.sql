@@ -12,16 +12,11 @@ VALUES (12058,   1,          1) /* ItemType - MeleeWeapon */
      , (12058,  18,         64) /* UiEffects - Lightning */
      , (12058,  19,         75) /* Value */
      , (12058,  51,          1) /* CombatUse - Melee */
-     , (12058,  65,          1) /* Placement - RightHandCombat */
-     , (12058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12058, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12058,   1, False) /* Stuck */
-     , (12058,  11, True ) /* IgnoreCollisions */
-     , (12058,  13, True ) /* Ethereal */
-     , (12058,  14, True ) /* GravityStatus */
-     , (12058,  19, True ) /* Attackable */
-     , (12058,  22, True ) /* Inscribable */;
+VALUES (12058,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12058,   1, 'Bandit Lightning Jambiya') /* Name */;

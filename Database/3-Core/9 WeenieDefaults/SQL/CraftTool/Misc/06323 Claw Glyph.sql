@@ -12,20 +12,15 @@ VALUES (6323,   1,        128) /* ItemType - Misc */
      , (6323,  15,       5000) /* StackUnitValue */
      , (6323,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6323,  19,       5000) /* Value */
-     , (6323,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (6323,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6323,  94,        128) /* TargetType - Misc */
      , (6323, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6323,   1, False) /* Stuck */
-     , (6323,  11, True ) /* IgnoreCollisions */
-     , (6323,  13, True ) /* Ethereal */
-     , (6323,  14, True ) /* GravityStatus */
-     , (6323,  19, True ) /* Attackable */
-     , (6323,  22, True ) /* Inscribable */;
+VALUES (6323,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6323,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (6323,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6323,   1, 'Claw Glyph') /* Name */

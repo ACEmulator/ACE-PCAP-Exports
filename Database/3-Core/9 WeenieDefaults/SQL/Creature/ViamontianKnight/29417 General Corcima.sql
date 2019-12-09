@@ -16,14 +16,10 @@ VALUES (29417,   1,         16) /* ItemType - Creature */
      , (29417, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29417,   1, True ) /* Stuck */
-     , (29417,  12, True ) /* ReportCollisions */
-     , (29417,  13, False) /* Ethereal */
-     , (29417,  14, True ) /* GravityStatus */
-     , (29417,  19, True ) /* Attackable */;
+VALUES (29417,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29417,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (29417,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29417,   1, 'General Corcima') /* Name */

@@ -11,17 +11,12 @@ VALUES (19976,   1,          1) /* ItemType - MeleeWeapon */
      , (19976,  18,          1) /* UiEffects - Magical */
      , (19976,  19,       6000) /* Value */
      , (19976,  51,          1) /* CombatUse - Melee */
-     , (19976,  65,        101) /* Placement - Resting */
      , (19976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19976, 151,          2) /* HookType - Wall */;
+     , (19976, 151,          2) /* HookType - Wall */
+     , (19976, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19976,   1, False) /* Stuck */
-     , (19976,  11, True ) /* IgnoreCollisions */
-     , (19976,  13, True ) /* Ethereal */
-     , (19976,  14, True ) /* GravityStatus */
-     , (19976,  19, True ) /* Attackable */
-     , (19976,  22, True ) /* Inscribable */;
+VALUES (19976,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19976,   1, 'Superb Dissolving Isparian Staff') /* Name */;

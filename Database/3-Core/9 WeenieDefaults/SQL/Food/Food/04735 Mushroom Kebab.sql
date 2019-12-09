@@ -12,18 +12,13 @@ VALUES (4735,   1,         32) /* ItemType - Food */
      , (4735,  15,         18) /* StackUnitValue */
      , (4735,  16,          8) /* ItemUseable - Contained */
      , (4735,  19,         18) /* Value */
-     , (4735,  65,        101) /* Placement - Resting */
      , (4735,  89,          4) /* BoosterEnum - Stamina */
      , (4735,  90,          9) /* BoostValue */
-     , (4735,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (4735,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4735, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4735,   1, False) /* Stuck */
-     , (4735,  11, True ) /* IgnoreCollisions */
-     , (4735,  13, True ) /* Ethereal */
-     , (4735,  14, True ) /* GravityStatus */
-     , (4735,  19, True ) /* Attackable */
-     , (4735,  69, False) /* IsSellable */;
+VALUES (4735,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4735,   1, 'Mushroom Kebab') /* Name */

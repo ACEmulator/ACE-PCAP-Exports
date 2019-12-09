@@ -10,7 +10,6 @@ VALUES (25893,   1,          8) /* ItemType - Jewelry */
      , (25893,  16,          1) /* ItemUseable - No */
      , (25893,  18,          1) /* UiEffects - Magical */
      , (25893,  19,       6000) /* Value */
-     , (25893,  65,        101) /* Placement - Resting */
      , (25893,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25893, 106,        300) /* ItemSpellcraft */
      , (25893, 107,        740) /* ItemCurMana */
@@ -18,18 +17,14 @@ VALUES (25893,   1,          8) /* ItemType - Jewelry */
      , (25893, 109,        100) /* ItemDifficulty */
      , (25893, 158,          7) /* WieldRequirements - Level */
      , (25893, 159,          1) /* WieldSkillType - Axe */
-     , (25893, 160,        100) /* WieldDifficulty */;
+     , (25893, 160,        100) /* WieldDifficulty */
+     , (25893, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25893,   1, False) /* Stuck */
-     , (25893,  11, True ) /* IgnoreCollisions */
-     , (25893,  13, True ) /* Ethereal */
-     , (25893,  14, True ) /* GravityStatus */
-     , (25893,  19, True ) /* Attackable */
-     , (25893,  22, True ) /* Inscribable */;
+VALUES (25893,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25893,   5, -0.033333) /* ManaRate */
+VALUES (25893,   5,   -0.03) /* ManaRate */
      , (25893,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

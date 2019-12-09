@@ -15,14 +15,10 @@ VALUES (27414,   1,         16) /* ItemType - Creature */
      , (27414, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27414,   1, True ) /* Stuck */
-     , (27414,  12, True ) /* ReportCollisions */
-     , (27414,  13, False) /* Ethereal */
-     , (27414,  14, True ) /* GravityStatus */
-     , (27414,  19, True ) /* Attackable */;
+VALUES (27414,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27414,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (27414,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27414,   1, 'Kerthump the Ear Taker') /* Name */

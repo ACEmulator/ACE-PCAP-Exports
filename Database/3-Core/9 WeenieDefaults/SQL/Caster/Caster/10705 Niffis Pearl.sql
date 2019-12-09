@@ -11,7 +11,6 @@ VALUES (10705,   1,      32768) /* ItemType - Caster */
      , (10705,  16,          1) /* ItemUseable - No */
      , (10705,  18,          1) /* UiEffects - Magical */
      , (10705,  19,       1200) /* Value */
-     , (10705,  65,          1) /* Placement - RightHandCombat */
      , (10705,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (10705,  94,         16) /* TargetType - Creature */
      , (10705, 106,        200) /* ItemSpellcraft */
@@ -19,22 +18,17 @@ VALUES (10705,   1,      32768) /* ItemType - Caster */
      , (10705, 108,        600) /* ItemMaxMana */
      , (10705, 115,         80) /* ItemSkillLevelLimit */
      , (10705, 151,          2) /* HookType - Wall */
-     , (10705, 176,         16) /* AppraisalItemSkill */;
+     , (10705, 176,         16) /* AppraisalItemSkill */
+     , (10705, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10705,   1, False) /* Stuck */
-     , (10705,  11, True ) /* IgnoreCollisions */
-     , (10705,  13, True ) /* Ethereal */
-     , (10705,  14, True ) /* GravityStatus */
-     , (10705,  15, True ) /* LightsStatus */
-     , (10705,  19, True ) /* Attackable */
-     , (10705,  22, True ) /* Inscribable */;
+VALUES (10705,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10705,   5,  -0.025) /* ManaRate */
+VALUES (10705,   5,   -0.02) /* ManaRate */
      , (10705,  29,       1) /* WeaponDefense */
-     , (10705,  39, 0.899999976158142) /* DefaultScale */
-     , (10705, 144, 1.08060957092171E-314) /* ManaConversionMod */;
+     , (10705,  39,     0.9) /* DefaultScale */
+     , (10705, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10705,   1, 'Niffis Pearl') /* Name */

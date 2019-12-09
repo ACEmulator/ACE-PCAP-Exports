@@ -18,15 +18,10 @@ VALUES (7405,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7405,   1, True ) /* Stuck */
-     , (7405,  11, True ) /* IgnoreCollisions */
-     , (7405,  12, True ) /* ReportCollisions */
-     , (7405,  13, False) /* Ethereal */
-     , (7405,  14, True ) /* GravityStatus */
-     , (7405,  19, False) /* Attackable */
-     , (7405,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (7405,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7405,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (7405,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7405,   1, 'Smithing Golem') /* Name */

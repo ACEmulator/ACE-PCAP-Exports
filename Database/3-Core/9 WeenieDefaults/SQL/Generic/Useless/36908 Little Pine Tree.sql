@@ -8,17 +8,12 @@ VALUES (36908,   1,       1024) /* ItemType - Useless */
      , (36908,   5,        500) /* EncumbranceVal */
      , (36908,  16,          1) /* ItemUseable - No */
      , (36908,  19,       1000) /* Value */
-     , (36908,  65,        101) /* Placement - Resting */
      , (36908,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36908, 151,          9) /* HookType - Floor, Yard */;
+     , (36908, 151,          9) /* HookType - Floor, Yard */
+     , (36908, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36908,   1, False) /* Stuck */
-     , (36908,  11, True ) /* IgnoreCollisions */
-     , (36908,  13, True ) /* Ethereal */
-     , (36908,  14, True ) /* GravityStatus */
-     , (36908,  19, True ) /* Attackable */
-     , (36908,  22, True ) /* Inscribable */;
+VALUES (36908,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36908,   1, 'Little Pine Tree') /* Name */;

@@ -12,16 +12,9 @@ VALUES (12253,   1,    4194304) /* ItemType - CraftCookingBase */
      , (12253,  15,          4) /* StackUnitValue */
      , (12253,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (12253,  19,          4) /* Value */
-     , (12253,  65,        101) /* Placement - Resting */
      , (12253,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12253,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12253,   1, False) /* Stuck */
-     , (12253,  11, True ) /* IgnoreCollisions */
-     , (12253,  13, True ) /* Ethereal */
-     , (12253,  14, True ) /* GravityStatus */
-     , (12253,  19, True ) /* Attackable */;
+     , (12253,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (12253, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12253,   1, 'Monougat') /* Name */

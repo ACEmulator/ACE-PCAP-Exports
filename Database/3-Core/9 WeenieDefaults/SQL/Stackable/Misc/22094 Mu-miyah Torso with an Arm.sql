@@ -15,15 +15,10 @@ VALUES (22094,   1,        128) /* ItemType - Misc */
      , (22094, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22094,   1, False) /* Stuck */
-     , (22094,  11, True ) /* IgnoreCollisions */
-     , (22094,  13, True ) /* Ethereal */
-     , (22094,  14, True ) /* GravityStatus */
-     , (22094,  19, True ) /* Attackable */
-     , (22094,  22, True ) /* Inscribable */;
+VALUES (22094,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22094,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22094,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22094,   1, 'Mu-miyah Torso with an Arm') /* Name */;

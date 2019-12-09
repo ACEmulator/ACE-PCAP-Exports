@@ -15,14 +15,10 @@ VALUES (43206,   1,         16) /* ItemType - Creature */
      , (43206, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43206,   1, True ) /* Stuck */
-     , (43206,  12, True ) /* ReportCollisions */
-     , (43206,  13, False) /* Ethereal */
-     , (43206,  14, True ) /* GravityStatus */
-     , (43206,  19, True ) /* Attackable */;
+VALUES (43206,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43206,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (43206,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43206,   1, 'Apostate Grand Director') /* Name */

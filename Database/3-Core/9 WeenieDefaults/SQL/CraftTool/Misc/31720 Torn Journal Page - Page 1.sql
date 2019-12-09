@@ -13,20 +13,13 @@ VALUES (31720,   1,        128) /* ItemType - Misc */
      , (31720,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31720,  19,          0) /* Value */
      , (31720,  33,          1) /* Bonded - Bonded */
-     , (31720,  65,        101) /* Placement - Resting */
      , (31720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31720,  94,        128) /* TargetType - Misc */
-     , (31720, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31720,   1, False) /* Stuck */
-     , (31720,  11, True ) /* IgnoreCollisions */
-     , (31720,  13, True ) /* Ethereal */
-     , (31720,  14, True ) /* GravityStatus */
-     , (31720,  19, True ) /* Attackable */;
+     , (31720, 114,          1) /* Attuned - Attuned */
+     , (31720, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31720,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (31720,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31720,   1, 'Torn Journal Page - Page 1') /* Name */

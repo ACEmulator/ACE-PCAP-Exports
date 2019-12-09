@@ -39,15 +39,10 @@ VALUES (36532,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36532,   1, True ) /* Stuck */
-     , (36532,  11, True ) /* IgnoreCollisions */
-     , (36532,  12, True ) /* ReportCollisions */
-     , (36532,  13, False) /* Ethereal */
-     , (36532,  14, True ) /* GravityStatus */
-     , (36532,  19, False) /* Attackable */
-     , (36532,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (36532,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36532,  54, 0.100000001490116) /* UseRadius */;
+VALUES (36532,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36532,   1, 'Arena of the Pumpkin King') /* Name */

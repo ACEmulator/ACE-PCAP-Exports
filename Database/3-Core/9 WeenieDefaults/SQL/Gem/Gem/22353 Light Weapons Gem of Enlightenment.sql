@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22353,   1,       2048) /* ItemType - Gem */
      , (22353,   5,         10) /* EncumbranceVal */
      , (22353,  16,          8) /* ItemUseable - Contained */
-     , (22353,  65,        101) /* Placement - Resting */
-     , (22353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22353,   1, False) /* Stuck */
-     , (22353,  11, True ) /* IgnoreCollisions */
-     , (22353,  13, True ) /* Ethereal */
-     , (22353,  14, True ) /* GravityStatus */
-     , (22353,  19, True ) /* Attackable */
-     , (22353,  22, True ) /* Inscribable */;
+VALUES (22353,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22353,   1, 'Light Weapons Gem of Enlightenment') /* Name */;

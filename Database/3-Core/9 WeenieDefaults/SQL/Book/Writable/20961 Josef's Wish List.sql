@@ -8,20 +8,13 @@ VALUES (20961,   1,       8192) /* ItemType - Writable */
      , (20961,   5,         50) /* EncumbranceVal */
      , (20961,  16,          8) /* ItemUseable - Contained */
      , (20961,  19,          0) /* Value */
-     , (20961,  65,        101) /* Placement - Resting */
      , (20961,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20961, 174,          1) /* AppraisalPages */
-     , (20961, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20961,   1, False) /* Stuck */
-     , (20961,  11, True ) /* IgnoreCollisions */
-     , (20961,  13, True ) /* Ethereal */
-     , (20961,  14, True ) /* GravityStatus */
-     , (20961,  19, True ) /* Attackable */;
+     , (20961, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (20961, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (20961, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20961,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (20961,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20961,   1, 'Josef''s Wish List') /* Name */

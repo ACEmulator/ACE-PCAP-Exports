@@ -12,16 +12,9 @@ VALUES (37258,   1,        128) /* ItemType - Misc */
      , (37258,  15,          0) /* StackUnitValue */
      , (37258,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37258,  19,          0) /* Value */
-     , (37258,  65,        101) /* Placement - Resting */
      , (37258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37258,  94,        128) /* TargetType - Misc */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37258,   1, False) /* Stuck */
-     , (37258,  11, True ) /* IgnoreCollisions */
-     , (37258,  13, True ) /* Ethereal */
-     , (37258,  14, True ) /* GravityStatus */
-     , (37258,  19, True ) /* Attackable */;
+     , (37258,  94,        128) /* TargetType - Misc */
+     , (37258, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37258,   1, 'Queen of Eyes') /* Name */

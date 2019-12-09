@@ -12,18 +12,11 @@ VALUES (546,   1,         32) /* ItemType - Food */
      , (546,  15,          6) /* StackUnitValue */
      , (546,  16,          8) /* ItemUseable - Contained */
      , (546,  19,          6) /* Value */
-     , (546,  65,        101) /* Placement - Resting */
      , (546,  89,          4) /* BoosterEnum - Stamina */
      , (546,  90,          4) /* BoostValue */
      , (546,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (546, 151,         15) /* HookType - Floor, Wall, Ceiling, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (546,   1, False) /* Stuck */
-     , (546,  11, True ) /* IgnoreCollisions */
-     , (546,  13, True ) /* Ethereal */
-     , (546,  14, True ) /* GravityStatus */
-     , (546,  19, True ) /* Attackable */;
+     , (546, 151,         15) /* HookType - Floor, Wall, Ceiling, Yard */
+     , (546, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (546,   1, 'Egg') /* Name */

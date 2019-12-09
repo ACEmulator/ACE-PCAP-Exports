@@ -16,12 +16,7 @@ VALUES (33324,   1,        128) /* ItemType - Misc */
      , (33324,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33324,   1, False) /* Stuck */
-     , (33324,  11, True ) /* IgnoreCollisions */
-     , (33324,  13, True ) /* Ethereal */
-     , (33324,  14, True ) /* GravityStatus */
-     , (33324,  19, True ) /* Attackable */
-     , (33324,  22, True ) /* Inscribable */;
+VALUES (33324,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33324,   1, 'Shadow Shard') /* Name */;

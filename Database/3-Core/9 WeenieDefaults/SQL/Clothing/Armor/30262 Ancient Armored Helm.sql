@@ -10,16 +10,11 @@ VALUES (30262,   1,          2) /* ItemType - Armor */
      , (30262,   9,          1) /* ValidLocations - HeadWear */
      , (30262,  16,          1) /* ItemUseable - No */
      , (30262,  19,       6000) /* Value */
-     , (30262,  65,        101) /* Placement - Resting */
-     , (30262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (30262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30262, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30262,   1, False) /* Stuck */
-     , (30262,  11, True ) /* IgnoreCollisions */
-     , (30262,  13, True ) /* Ethereal */
-     , (30262,  14, True ) /* GravityStatus */
-     , (30262,  19, True ) /* Attackable */
-     , (30262,  22, True ) /* Inscribable */;
+VALUES (30262,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30262,   1, 'Ancient Armored Helm') /* Name */;

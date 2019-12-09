@@ -9,21 +9,16 @@ VALUES (36677,   1,        128) /* ItemType - Misc */
      , (36677,  16,          1) /* ItemUseable - No */
      , (36677,  19,        100) /* Value */
      , (36677,  33,          1) /* Bonded - Bonded */
-     , (36677,  65,        101) /* Placement - Resting */
      , (36677,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36677, 114,          1) /* Attuned - Attuned */;
+     , (36677, 114,          1) /* Attuned - Attuned */
+     , (36677, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36677,   1, False) /* Stuck */
-     , (36677,  11, True ) /* IgnoreCollisions */
-     , (36677,  13, True ) /* Ethereal */
-     , (36677,  14, True ) /* GravityStatus */
-     , (36677,  19, True ) /* Attackable */
-     , (36677,  22, True ) /* Inscribable */
+VALUES (36677,  22, True ) /* Inscribable */
      , (36677,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36677,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (36677,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36677,   1, 'Robes of Grey Dawn') /* Name */

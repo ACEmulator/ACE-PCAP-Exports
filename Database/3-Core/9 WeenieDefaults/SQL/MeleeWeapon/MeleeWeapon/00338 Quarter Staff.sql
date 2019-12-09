@@ -11,20 +11,15 @@ VALUES (338,   1,          1) /* ItemType - MeleeWeapon */
      , (338,  16,          1) /* ItemUseable - No */
      , (338,  19,        130) /* Value */
      , (338,  51,          1) /* CombatUse - Melee */
-     , (338,  65,          1) /* Placement - RightHandCombat */
      , (338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (338, 151,          2) /* HookType - Wall */;
+     , (338, 151,          2) /* HookType - Wall */
+     , (338, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (338,   1, False) /* Stuck */
-     , (338,  11, True ) /* IgnoreCollisions */
-     , (338,  13, True ) /* Ethereal */
-     , (338,  14, True ) /* GravityStatus */
-     , (338,  19, True ) /* Attackable */
-     , (338,  22, True ) /* Inscribable */;
+VALUES (338,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (338,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (338,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (338,   1, 'Quarter Staff') /* Name */;

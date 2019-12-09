@@ -39,20 +39,13 @@ VALUES (53486,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53486,   1, True ) /* Stuck */
-     , (53486,  11, True ) /* IgnoreCollisions */
-     , (53486,  12, True ) /* ReportCollisions */
-     , (53486,  13, False) /* Ethereal */
-     , (53486,  14, True ) /* GravityStatus */
-     , (53486,  15, True ) /* LightsStatus */
-     , (53486,  19, False) /* Attackable */
-     , (53486,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53486,  42, True ) /* AllowEdgeSlide */;
+     , (53486,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53486,  54,       3) /* UseRadius */
      , (53486, 8010,       0) /* PCAPRecordedVelocityX */
      , (53486, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53486, 8012, -0.146503940224648) /* PCAPRecordedVelocityZ */;
+     , (53486, 8012,   -0.15) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53486,   1, 'Brellegia''s Marker') /* Name */

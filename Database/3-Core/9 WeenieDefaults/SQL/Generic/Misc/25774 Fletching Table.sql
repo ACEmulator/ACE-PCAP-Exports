@@ -8,17 +8,12 @@ VALUES (25774,   1,        128) /* ItemType - Misc */
      , (25774,   5,        300) /* EncumbranceVal */
      , (25774,  16,          1) /* ItemUseable - No */
      , (25774,  19,       6000) /* Value */
-     , (25774,  65,        101) /* Placement - Resting */
-     , (25774,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (25774, 151,          1) /* HookType - Floor */;
+     , (25774,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (25774, 151,          1) /* HookType - Floor */
+     , (25774, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25774,   1, False) /* Stuck */
-     , (25774,  11, True ) /* IgnoreCollisions */
-     , (25774,  13, True ) /* Ethereal */
-     , (25774,  14, True ) /* GravityStatus */
-     , (25774,  19, True ) /* Attackable */
-     , (25774,  22, True ) /* Inscribable */;
+VALUES (25774,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25774,   1, 'Fletching Table') /* Name */

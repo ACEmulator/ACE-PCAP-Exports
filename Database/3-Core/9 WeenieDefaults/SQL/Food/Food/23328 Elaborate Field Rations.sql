@@ -12,18 +12,13 @@ VALUES (23328,   1,         32) /* ItemType - Food */
      , (23328,  15,          0) /* StackUnitValue */
      , (23328,  16,          8) /* ItemUseable - Contained */
      , (23328,  19,          0) /* Value */
-     , (23328,  65,        101) /* Placement - Resting */
      , (23328,  89,          4) /* BoosterEnum - Stamina */
      , (23328,  90,        100) /* BoostValue */
-     , (23328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23328,   1, False) /* Stuck */
-     , (23328,  11, True ) /* IgnoreCollisions */
-     , (23328,  13, True ) /* Ethereal */
-     , (23328,  14, True ) /* GravityStatus */
-     , (23328,  19, True ) /* Attackable */
-     , (23328,  69, False) /* IsSellable */;
+VALUES (23328,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23328,   1, 'Elaborate Field Rations') /* Name */

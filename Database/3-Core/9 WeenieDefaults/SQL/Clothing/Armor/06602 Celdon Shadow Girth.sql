@@ -11,16 +11,11 @@ VALUES (6602,   1,          2) /* ItemType - Armor */
      , (6602,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (6602,  16,          1) /* ItemUseable - No */
      , (6602,  19,       1610) /* Value */
-     , (6602,  65,        101) /* Placement - Resting */
-     , (6602,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (6602,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6602, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6602,   1, False) /* Stuck */
-     , (6602,  11, True ) /* IgnoreCollisions */
-     , (6602,  13, True ) /* Ethereal */
-     , (6602,  14, True ) /* GravityStatus */
-     , (6602,  19, True ) /* Attackable */
-     , (6602,  22, True ) /* Inscribable */;
+VALUES (6602,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6602,   1, 'Celdon Shadow Girth') /* Name */;

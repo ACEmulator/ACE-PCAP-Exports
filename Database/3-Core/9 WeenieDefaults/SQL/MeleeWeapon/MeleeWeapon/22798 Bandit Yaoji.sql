@@ -11,16 +11,11 @@ VALUES (22798,   1,          1) /* ItemType - MeleeWeapon */
      , (22798,  16,          1) /* ItemUseable - No */
      , (22798,  19,        220) /* Value */
      , (22798,  51,          1) /* CombatUse - Melee */
-     , (22798,  65,          1) /* Placement - RightHandCombat */
-     , (22798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22798, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22798,   1, False) /* Stuck */
-     , (22798,  11, True ) /* IgnoreCollisions */
-     , (22798,  13, True ) /* Ethereal */
-     , (22798,  14, True ) /* GravityStatus */
-     , (22798,  19, True ) /* Attackable */
-     , (22798,  22, True ) /* Inscribable */;
+VALUES (22798,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22798,   1, 'Bandit Yaoji') /* Name */;

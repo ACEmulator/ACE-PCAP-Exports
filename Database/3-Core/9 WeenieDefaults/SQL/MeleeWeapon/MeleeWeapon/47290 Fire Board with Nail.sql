@@ -16,12 +16,7 @@ VALUES (47290,   1,          1) /* ItemType - MeleeWeapon */
      , (47290, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47290,   1, False) /* Stuck */
-     , (47290,  11, True ) /* IgnoreCollisions */
-     , (47290,  13, True ) /* Ethereal */
-     , (47290,  14, True ) /* GravityStatus */
-     , (47290,  19, True ) /* Attackable */
-     , (47290,  22, True ) /* Inscribable */;
+VALUES (47290,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47290,   1, 'Fire Board with Nail') /* Name */;

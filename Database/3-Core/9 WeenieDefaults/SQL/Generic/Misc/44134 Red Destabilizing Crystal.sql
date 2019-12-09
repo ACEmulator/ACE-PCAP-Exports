@@ -11,12 +11,7 @@ VALUES (44134,   1,        128) /* ItemType - Misc */
      , (44134,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44134,   1, False) /* Stuck */
-     , (44134,  11, True ) /* IgnoreCollisions */
-     , (44134,  13, True ) /* Ethereal */
-     , (44134,  14, True ) /* GravityStatus */
-     , (44134,  19, True ) /* Attackable */
-     , (44134,  22, True ) /* Inscribable */;
+VALUES (44134,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44134,   1, 'Red Destabilizing Crystal') /* Name */;

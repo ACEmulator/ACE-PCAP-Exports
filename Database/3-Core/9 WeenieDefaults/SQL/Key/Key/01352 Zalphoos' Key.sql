@@ -8,19 +8,14 @@ VALUES (1352,   1,      16384) /* ItemType - Key */
      , (1352,   5,         50) /* EncumbranceVal */
      , (1352,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (1352,  19,        600) /* Value */
-     , (1352,  65,        101) /* Placement - Resting */
      , (1352,  91,          3) /* MaxStructure */
      , (1352,  92,          3) /* Structure */
      , (1352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1352,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (1352,  94,        640) /* TargetType - LockableMagicTarget */
+     , (1352, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1352,   1, False) /* Stuck */
-     , (1352,  11, True ) /* IgnoreCollisions */
-     , (1352,  13, True ) /* Ethereal */
-     , (1352,  14, True ) /* GravityStatus */
-     , (1352,  19, True ) /* Attackable */
-     , (1352,  22, True ) /* Inscribable */;
+VALUES (1352,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1352,   1, 'Zalphoos'' Key') /* Name */

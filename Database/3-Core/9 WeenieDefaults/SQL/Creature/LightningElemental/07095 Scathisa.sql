@@ -17,15 +17,10 @@ VALUES (7095,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7095,   1, True ) /* Stuck */
-     , (7095,  12, True ) /* ReportCollisions */
-     , (7095,  13, False) /* Ethereal */
-     , (7095,  14, True ) /* GravityStatus */
-     , (7095,  15, True ) /* LightsStatus */
-     , (7095,  19, True ) /* Attackable */
      , (7095, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7095,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (7095,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7095,   1, 'Scathisa') /* Name */

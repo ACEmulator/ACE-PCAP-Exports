@@ -18,7 +18,6 @@ VALUES (10916,   1,        256) /* ItemType - MissileWeapon */
      , (10916,  49,         45) /* WeaponTime */
      , (10916,  50,          1) /* AmmoType - Arrow */
      , (10916,  51,          2) /* CombatUse - Missle */
-     , (10916,  65,          3) /* Placement - LeftHand */
      , (10916,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10916, 106,        200) /* ItemSpellcraft */
      , (10916, 107,        500) /* ItemCurMana */
@@ -28,25 +27,21 @@ VALUES (10916,   1,        256) /* ItemType - MissileWeapon */
      , (10916, 151,          2) /* HookType - Wall */
      , (10916, 176,         47) /* AppraisalItemSkill */
      , (10916, 353,          8) /* WeaponType - Bow */
-     , (10916, 8030,          0);
+     , (10916, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (10916, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10916,   1, False) /* Stuck */
-     , (10916,  11, True ) /* IgnoreCollisions */
-     , (10916,  13, True ) /* Ethereal */
-     , (10916,  14, True ) /* GravityStatus */
-     , (10916,  19, True ) /* Attackable */
-     , (10916,  22, True ) /* Inscribable */
+VALUES (10916,  22, True ) /* Inscribable */
      , (10916,  85, True ) /* AppraisalHasAllowedWielder */
      , (10916,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10916,   5, -0.0329999998211861) /* ManaRate */
+VALUES (10916,   5,   -0.03) /* ManaRate */
      , (10916,  21,       0) /* WeaponLength */
      , (10916,  22,       0) /* DamageVariance */
      , (10916,  26,    27.3) /* MaximumVelocity */
-     , (10916,  29, 1.05999994277954) /* WeaponDefense */
-     , (10916,  39, 1.10000002384186) /* DefaultScale */
+     , (10916,  29,    1.06) /* WeaponDefense */
+     , (10916,  39,     1.1) /* DefaultScale */
      , (10916,  62,       1) /* WeaponOffense */
      , (10916,  63,       2) /* DamageMod */;
 

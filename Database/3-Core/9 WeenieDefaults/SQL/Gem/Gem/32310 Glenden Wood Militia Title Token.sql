@@ -9,17 +9,12 @@ VALUES (32310,   1,       2048) /* ItemType - Gem */
      , (32310,  16,          1) /* ItemUseable - No */
      , (32310,  19,        100) /* Value */
      , (32310,  33,          1) /* Bonded - Bonded */
-     , (32310,  65,        101) /* Placement - Resting */
      , (32310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32310, 114,          1) /* Attuned - Attuned */;
+     , (32310, 114,          1) /* Attuned - Attuned */
+     , (32310, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32310,   1, False) /* Stuck */
-     , (32310,  11, True ) /* IgnoreCollisions */
-     , (32310,  13, True ) /* Ethereal */
-     , (32310,  14, True ) /* GravityStatus */
-     , (32310,  19, True ) /* Attackable */
-     , (32310,  22, True ) /* Inscribable */;
+VALUES (32310,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32310,   1, 'Glenden Wood Militia Title Token') /* Name */

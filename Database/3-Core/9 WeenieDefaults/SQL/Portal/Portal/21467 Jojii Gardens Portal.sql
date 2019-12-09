@@ -11,15 +11,10 @@ VALUES (21467,   1,      65536) /* ItemType - Portal */
      , (21467, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21467,   1, True ) /* Stuck */
-     , (21467,  12, True ) /* ReportCollisions */
-     , (21467,  13, True ) /* Ethereal */
-     , (21467,  14, True ) /* GravityStatus */
-     , (21467,  15, True ) /* LightsStatus */
-     , (21467,  19, True ) /* Attackable */;
+VALUES (21467,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21467,  54, -0.100000001490116) /* UseRadius */;
+VALUES (21467,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21467,   1, 'Jojii Gardens Portal') /* Name */

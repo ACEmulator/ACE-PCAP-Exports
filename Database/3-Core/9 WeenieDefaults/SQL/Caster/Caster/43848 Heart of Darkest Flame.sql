@@ -10,18 +10,13 @@ VALUES (43848,   1,      32768) /* ItemType - Caster */
      , (43848,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (43848,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (43848,  19,      50000) /* Value */
-     , (43848,  65,          1) /* Placement - RightHandCombat */
      , (43848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43848,  94,         16) /* TargetType - Creature */
-     , (43848, 151,          2) /* HookType - Wall */;
+     , (43848, 151,          2) /* HookType - Wall */
+     , (43848, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43848,   1, False) /* Stuck */
-     , (43848,  11, True ) /* IgnoreCollisions */
-     , (43848,  13, True ) /* Ethereal */
-     , (43848,  14, True ) /* GravityStatus */
-     , (43848,  19, True ) /* Attackable */
-     , (43848,  22, True ) /* Inscribable */;
+VALUES (43848,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43848,   1, 'Heart of Darkest Flame') /* Name */;

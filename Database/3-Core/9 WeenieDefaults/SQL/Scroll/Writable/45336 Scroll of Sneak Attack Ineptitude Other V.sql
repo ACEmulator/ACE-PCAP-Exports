@@ -8,16 +8,11 @@ VALUES (45336,   1,       8192) /* ItemType - Writable */
      , (45336,   5,         30) /* EncumbranceVal */
      , (45336,  16,          8) /* ItemUseable - Contained */
      , (45336,  19,        200) /* Value */
-     , (45336,  65,        101) /* Placement - Resting */
-     , (45336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45336, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45336,   1, False) /* Stuck */
-     , (45336,  11, True ) /* IgnoreCollisions */
-     , (45336,  13, True ) /* Ethereal */
-     , (45336,  14, True ) /* GravityStatus */
-     , (45336,  19, True ) /* Attackable */
-     , (45336,  22, True ) /* Inscribable */;
+VALUES (45336,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45336,  39,     1.5) /* DefaultScale */;

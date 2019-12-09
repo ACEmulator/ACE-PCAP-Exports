@@ -15,14 +15,10 @@ VALUES (8215,   1,         16) /* ItemType - Creature */
      , (8215, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8215,   1, True ) /* Stuck */
-     , (8215,  12, True ) /* ReportCollisions */
-     , (8215,  13, False) /* Ethereal */
-     , (8215,  14, True ) /* GravityStatus */
-     , (8215,  19, True ) /* Attackable */;
+VALUES (8215,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8215,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8215,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8215,   1, 'Mite Warrior Princess') /* Name */

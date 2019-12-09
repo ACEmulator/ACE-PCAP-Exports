@@ -9,20 +9,15 @@ VALUES (25710,   1,      16384) /* ItemType - Key */
      , (25710,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (25710,  19,          0) /* Value */
      , (25710,  33,          1) /* Bonded - Bonded */
-     , (25710,  65,        101) /* Placement - Resting */
      , (25710,  91,          1) /* MaxStructure */
      , (25710,  92,          1) /* Structure */
      , (25710,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25710,  94,        640) /* TargetType - LockableMagicTarget */
-     , (25710, 114,          1) /* Attuned - Attuned */;
+     , (25710, 114,          1) /* Attuned - Attuned */
+     , (25710, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25710,   1, False) /* Stuck */
-     , (25710,  11, True ) /* IgnoreCollisions */
-     , (25710,  13, True ) /* Ethereal */
-     , (25710,  14, True ) /* GravityStatus */
-     , (25710,  19, True ) /* Attackable */
-     , (25710,  22, True ) /* Inscribable */;
+VALUES (25710,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25710,   1, 'Gate Key') /* Name */

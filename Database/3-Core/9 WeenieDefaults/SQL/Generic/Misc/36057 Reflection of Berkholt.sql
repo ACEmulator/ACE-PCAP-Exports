@@ -8,16 +8,11 @@ VALUES (36057,   1,        128) /* ItemType - Misc */
      , (36057,   5,          1) /* EncumbranceVal */
      , (36057,  16,          1) /* ItemUseable - No */
      , (36057,  18,         64) /* UiEffects - Lightning */
-     , (36057,  65,        101) /* Placement - Resting */
-     , (36057,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36057,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36057, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36057,   1, False) /* Stuck */
-     , (36057,  11, True ) /* IgnoreCollisions */
-     , (36057,  13, True ) /* Ethereal */
-     , (36057,  14, True ) /* GravityStatus */
-     , (36057,  19, True ) /* Attackable */
-     , (36057,  22, True ) /* Inscribable */;
+VALUES (36057,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36057,   1, 'Reflection of Berkholt') /* Name */;

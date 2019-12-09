@@ -10,15 +10,11 @@ VALUES (22119,   1,        128) /* ItemType - Misc */
      , (22119, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22119,   1, True ) /* Stuck */
-     , (22119,  11, True ) /* IgnoreCollisions */
-     , (22119,  13, True ) /* Ethereal */
-     , (22119,  14, True ) /* GravityStatus */
-     , (22119,  19, True ) /* Attackable */;
+VALUES (22119,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22119,  39, 1.20000004768372) /* DefaultScale */
-     , (22119,  76, 0.349999994039536) /* Translucency */;
+VALUES (22119,  39,     1.2) /* DefaultScale */
+     , (22119,  76,    0.35) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22119,   1, 'Hanging Apparition') /* Name */;

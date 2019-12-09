@@ -13,21 +13,16 @@ VALUES (8903,   1,        128) /* ItemType - Misc */
      , (8903,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8903,  19,       3000) /* Value */
      , (8903,  33,          1) /* Bonded - Bonded */
-     , (8903,  65,        101) /* Placement - Resting */
      , (8903,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8903,  94,        128) /* TargetType - Misc */
-     , (8903, 114,          1) /* Attuned - Attuned */;
+     , (8903, 114,          1) /* Attuned - Attuned */
+     , (8903, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8903,   1, False) /* Stuck */
-     , (8903,  11, True ) /* IgnoreCollisions */
-     , (8903,  13, True ) /* Ethereal */
-     , (8903,  14, True ) /* GravityStatus */
-     , (8903,  19, True ) /* Attackable */
-     , (8903,  22, True ) /* Inscribable */;
+VALUES (8903,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8903,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (8903,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8903,   1, 'Focusing Stone') /* Name */

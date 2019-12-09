@@ -8,19 +8,14 @@ VALUES (28205,   1,        128) /* ItemType - Misc */
      , (28205,   5,        105) /* EncumbranceVal */
      , (28205,  16,          1) /* ItemUseable - No */
      , (28205,  19,         80) /* Value */
-     , (28205,  65,        101) /* Placement - Resting */
-     , (28205,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28205,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28205, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28205,   1, False) /* Stuck */
-     , (28205,  11, True ) /* IgnoreCollisions */
-     , (28205,  13, True ) /* Ethereal */
-     , (28205,  14, True ) /* GravityStatus */
-     , (28205,  19, True ) /* Attackable */
-     , (28205,  22, True ) /* Inscribable */;
+VALUES (28205,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28205,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (28205,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28205,   1, 'Azure Gromnie Tooth') /* Name */;

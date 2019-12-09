@@ -8,16 +8,11 @@ VALUES (36058,   1,        128) /* ItemType - Misc */
      , (36058,   5,          1) /* EncumbranceVal */
      , (36058,  16,          1) /* ItemUseable - No */
      , (36058,  18,         64) /* UiEffects - Lightning */
-     , (36058,  65,        101) /* Placement - Resting */
-     , (36058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36058, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36058,   1, False) /* Stuck */
-     , (36058,  11, True ) /* IgnoreCollisions */
-     , (36058,  13, True ) /* Ethereal */
-     , (36058,  14, True ) /* GravityStatus */
-     , (36058,  19, True ) /* Attackable */
-     , (36058,  22, True ) /* Inscribable */;
+VALUES (36058,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36058,   1, 'Reflection of Daryam ibn Zubed') /* Name */;

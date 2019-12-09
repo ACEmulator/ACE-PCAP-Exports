@@ -11,11 +11,7 @@ VALUES (42777,   1,        128) /* ItemType - Misc */
      , (42777,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42777,   1, True ) /* Stuck */
-     , (42777,  11, True ) /* IgnoreCollisions */
-     , (42777,  12, True ) /* ReportCollisions */
-     , (42777,  13, True ) /* Ethereal */
-     , (42777,  19, True ) /* Attackable */;
+VALUES (42777,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42777,   1, 'Baishi') /* Name */

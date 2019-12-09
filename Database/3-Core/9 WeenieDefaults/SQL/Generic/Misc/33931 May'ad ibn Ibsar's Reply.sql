@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33931,   1,        128) /* ItemType - Misc */
      , (33931,   5,         15) /* EncumbranceVal */
      , (33931,  16,          1) /* ItemUseable - No */
-     , (33931,  65,        101) /* Placement - Resting */
-     , (33931,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (33931,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33931, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33931,   1, False) /* Stuck */
-     , (33931,  11, True ) /* IgnoreCollisions */
-     , (33931,  13, True ) /* Ethereal */
-     , (33931,  14, True ) /* GravityStatus */
-     , (33931,  19, True ) /* Attackable */
-     , (33931,  22, True ) /* Inscribable */;
+VALUES (33931,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33931,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33931,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33931,   1, 'May''ad ibn Ibsar''s Reply') /* Name */;

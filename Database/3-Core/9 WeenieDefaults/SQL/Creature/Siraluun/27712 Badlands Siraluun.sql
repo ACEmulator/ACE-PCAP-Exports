@@ -15,14 +15,10 @@ VALUES (27712,   1,         16) /* ItemType - Creature */
      , (27712, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27712,   1, True ) /* Stuck */
-     , (27712,  12, True ) /* ReportCollisions */
-     , (27712,  13, False) /* Ethereal */
-     , (27712,  14, True ) /* GravityStatus */
-     , (27712,  19, True ) /* Attackable */;
+VALUES (27712,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27712,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (27712,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27712,   1, 'Badlands Siraluun') /* Name */

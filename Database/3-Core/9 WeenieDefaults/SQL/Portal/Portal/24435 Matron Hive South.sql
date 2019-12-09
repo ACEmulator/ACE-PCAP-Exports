@@ -13,19 +13,13 @@ VALUES (24435,   1,      65536) /* ItemType - Portal */
      , (24435, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24435,   1, True ) /* Stuck */
-     , (24435,  12, True ) /* ReportCollisions */
-     , (24435,  13, True ) /* Ethereal */
-     , (24435,  14, True ) /* GravityStatus */
-     , (24435,  15, True ) /* LightsStatus */
-     , (24435,  19, True ) /* Attackable */;
+VALUES (24435,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24435,  54, -0.100000001490116) /* UseRadius */;
+VALUES (24435,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24435,   1, 'Matron Hive South') /* Name */
-     , (24435,  38, 'Matron Hive South') /* AppraisalPortalDestination */
      , (24435, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

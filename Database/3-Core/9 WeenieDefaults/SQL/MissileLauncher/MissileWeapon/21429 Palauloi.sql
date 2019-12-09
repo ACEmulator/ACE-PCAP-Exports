@@ -18,7 +18,6 @@ VALUES (21429,   1,        256) /* ItemType - MissileWeapon */
      , (21429,  49,         70) /* WeaponTime */
      , (21429,  50,          2) /* AmmoType - Bolt */
      , (21429,  51,          2) /* CombatUse - Missle */
-     , (21429,  65,        101) /* Placement - Resting */
      , (21429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21429, 106,        250) /* ItemSpellcraft */
      , (21429, 107,        132) /* ItemCurMana */
@@ -31,26 +30,22 @@ VALUES (21429,   1,        256) /* ItemType - MissileWeapon */
      , (21429, 160,        250) /* WieldDifficulty */
      , (21429, 166,          1) /* SlayerCreatureType - Olthoi */
      , (21429, 353,          9) /* WeaponType - Crossbow */
-     , (21429, 8030,          0);
+     , (21429, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21429, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21429,   1, False) /* Stuck */
-     , (21429,  11, True ) /* IgnoreCollisions */
-     , (21429,  13, True ) /* Ethereal */
-     , (21429,  14, True ) /* GravityStatus */
-     , (21429,  19, True ) /* Attackable */
-     , (21429,  22, True ) /* Inscribable */
+VALUES (21429,  22, True ) /* Inscribable */
      , (21429,  69, False) /* IsSellable */
      , (21429,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21429,   5, -0.0500000007450581) /* ManaRate */
+VALUES (21429,   5,   -0.05) /* ManaRate */
      , (21429,  21,       0) /* WeaponLength */
      , (21429,  22,       0) /* DamageVariance */
      , (21429,  26,    27.3) /* MaximumVelocity */
      , (21429,  29,    1.25) /* WeaponDefense */
      , (21429,  62,       1) /* WeaponOffense */
-     , (21429,  63, 2.40000009536743) /* DamageMod */;
+     , (21429,  63,     2.4) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21429,   1, 'Palauloi') /* Name */

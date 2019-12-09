@@ -13,19 +13,13 @@ VALUES (5447,   1,      65536) /* ItemType - Portal */
      , (5447, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5447,   1, True ) /* Stuck */
-     , (5447,  12, True ) /* ReportCollisions */
-     , (5447,  13, True ) /* Ethereal */
-     , (5447,  14, True ) /* GravityStatus */
-     , (5447,  15, True ) /* LightsStatus */
-     , (5447,  19, True ) /* Attackable */;
+VALUES (5447,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5447,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5447,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5447,   1, 'Darktide Festival Stone Portal') /* Name */
-     , (5447,  38, 'Darktide Festival Stone Portal (59.7S, 90.0W).') /* AppraisalPortalDestination */
      , (5447, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

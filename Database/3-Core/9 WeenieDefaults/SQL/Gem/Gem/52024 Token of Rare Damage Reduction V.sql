@@ -9,17 +9,12 @@ VALUES (52024,   1,       2048) /* ItemType - Gem */
      , (52024,  16,          1) /* ItemUseable - No */
      , (52024,  19,          0) /* Value */
      , (52024,  33,          1) /* Bonded - Bonded */
-     , (52024,  65,        101) /* Placement - Resting */
      , (52024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52024, 114,          1) /* Attuned - Attuned */;
+     , (52024, 114,          1) /* Attuned - Attuned */
+     , (52024, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52024,   1, False) /* Stuck */
-     , (52024,  11, True ) /* IgnoreCollisions */
-     , (52024,  13, True ) /* Ethereal */
-     , (52024,  14, True ) /* GravityStatus */
-     , (52024,  19, True ) /* Attackable */
-     , (52024,  22, True ) /* Inscribable */;
+VALUES (52024,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52024,   1, 'Token of Rare Damage Reduction V') /* Name */

@@ -26,15 +26,11 @@ VALUES (41959,   1,         16) /* ItemType - Creature */
      , (41959, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41959,   1, True ) /* Stuck */
-     , (41959,  12, True ) /* ReportCollisions */
-     , (41959,  13, False) /* Ethereal */
-     , (41959,  14, True ) /* GravityStatus */
-     , (41959,  19, True ) /* Attackable */;
+VALUES (41959,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41959,   5,       2) /* ManaRate */
-     , (41959,  39, 1.20000004768372) /* DefaultScale */;
+     , (41959,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41959,   1, 'Guardian Statue') /* Name */

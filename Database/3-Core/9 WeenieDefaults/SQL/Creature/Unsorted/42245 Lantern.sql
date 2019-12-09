@@ -38,19 +38,13 @@ VALUES (42245,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42245,   1, True ) /* Stuck */
-     , (42245,  11, True ) /* IgnoreCollisions */
-     , (42245,  12, True ) /* ReportCollisions */
-     , (42245,  13, True ) /* Ethereal */
-     , (42245,  14, True ) /* GravityStatus */
-     , (42245,  19, False) /* Attackable */
-     , (42245,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (42245,  42, True ) /* AllowEdgeSlide */;
+     , (42245,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42245,  54,       3) /* UseRadius */
      , (42245, 8010,       0) /* PCAPRecordedVelocityX */
      , (42245, 8011,       0) /* PCAPRecordedVelocityY */
-     , (42245, 8012, -0.214777112007141) /* PCAPRecordedVelocityZ */;
+     , (42245, 8012,   -0.21) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42245,   1, 'Lantern') /* Name */

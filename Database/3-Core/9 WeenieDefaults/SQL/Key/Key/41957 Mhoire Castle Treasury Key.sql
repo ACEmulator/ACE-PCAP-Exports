@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41957,   1,      16384) /* ItemType - Key */
      , (41957,   5,         50) /* EncumbranceVal */
      , (41957,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (41957,  65,        101) /* Placement - Resting */
      , (41957,  91,          1) /* MaxStructure */
      , (41957,  92,          1) /* Structure */
      , (41957,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41957,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (41957,  94,        640) /* TargetType - LockableMagicTarget */
+     , (41957, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41957,   1, False) /* Stuck */
-     , (41957,  11, True ) /* IgnoreCollisions */
-     , (41957,  13, True ) /* Ethereal */
-     , (41957,  14, True ) /* GravityStatus */
-     , (41957,  19, True ) /* Attackable */
-     , (41957,  22, True ) /* Inscribable */;
+VALUES (41957,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41957,   1, 'Mhoire Castle Treasury Key') /* Name */;

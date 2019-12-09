@@ -8,19 +8,14 @@ VALUES (3686,   1,        128) /* ItemType - Misc */
      , (3686,   5,        150) /* EncumbranceVal */
      , (3686,  16,          1) /* ItemUseable - No */
      , (3686,  19,        150) /* Value */
-     , (3686,  65,        101) /* Placement - Resting */
-     , (3686,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (3686,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3686, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3686,   1, False) /* Stuck */
-     , (3686,  11, True ) /* IgnoreCollisions */
-     , (3686,  13, True ) /* Ethereal */
-     , (3686,  14, True ) /* GravityStatus */
-     , (3686,  19, True ) /* Attackable */
-     , (3686,  22, True ) /* Inscribable */;
+VALUES (3686,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3686,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (3686,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3686,   1, 'Black Rock') /* Name */;

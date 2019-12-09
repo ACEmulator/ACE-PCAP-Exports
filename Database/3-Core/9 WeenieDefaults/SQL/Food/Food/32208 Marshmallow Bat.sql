@@ -12,18 +12,11 @@ VALUES (32208,   1,         32) /* ItemType - Food */
      , (32208,  15,          1) /* StackUnitValue */
      , (32208,  16,          8) /* ItemUseable - Contained */
      , (32208,  19,          1) /* Value */
-     , (32208,  65,        101) /* Placement - Resting */
      , (32208,  89,          2) /* BoosterEnum - Health */
      , (32208,  90,         40) /* BoostValue */
      , (32208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32208, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32208,   1, False) /* Stuck */
-     , (32208,  11, True ) /* IgnoreCollisions */
-     , (32208,  13, True ) /* Ethereal */
-     , (32208,  14, True ) /* GravityStatus */
-     , (32208,  19, True ) /* Attackable */;
+     , (32208, 151,          2) /* HookType - Wall */
+     , (32208, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32208,   1, 'Marshmallow Bat') /* Name */

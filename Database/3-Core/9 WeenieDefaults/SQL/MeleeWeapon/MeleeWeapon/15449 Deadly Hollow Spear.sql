@@ -18,7 +18,6 @@ VALUES (15449,   1,          1) /* ItemType - MeleeWeapon */
      , (15449,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (15449,  49,         30) /* WeaponTime */
      , (15449,  51,          1) /* CombatUse - Melee */
-     , (15449,  65,          1) /* Placement - RightHandCombat */
      , (15449,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (15449, 114,          1) /* Attuned - Attuned */
      , (15449, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (15449,   1,          1) /* ItemType - MeleeWeapon */
      , (15449, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (15449, 160,        250) /* WieldDifficulty */
      , (15449, 353,          5) /* WeaponType - Spear */
-     , (15449, 8030,          0);
+     , (15449, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (15449, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15449,   1, False) /* Stuck */
-     , (15449,  11, True ) /* IgnoreCollisions */
-     , (15449,  13, True ) /* Ethereal */
-     , (15449,  14, True ) /* GravityStatus */
-     , (15449,  15, True ) /* LightsStatus */
-     , (15449,  19, True ) /* Attackable */
-     , (15449,  22, True ) /* Inscribable */
+VALUES (15449,  22, True ) /* Inscribable */
      , (15449,  69, False) /* IsSellable */
      , (15449,  99, True ) /* Ivoryable */;
 
@@ -46,7 +40,7 @@ VALUES (15449,  21,       0) /* WeaponLength */
      , (15449,  29,       1) /* WeaponDefense */
      , (15449,  62,     1.1) /* WeaponOffense */
      , (15449,  63,       1) /* DamageMod */
-     , (15449,  76, 0.699999988079071) /* Translucency */;
+     , (15449,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15449,   1, 'Deadly Hollow Spear') /* Name */

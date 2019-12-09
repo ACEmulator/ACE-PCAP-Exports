@@ -12,15 +12,8 @@ VALUES (37330,   1,        128) /* ItemType - Misc */
      , (37330,  15,      30000) /* StackUnitValue */
      , (37330,  16,          1) /* ItemUseable - No */
      , (37330,  19,      30000) /* Value */
-     , (37330,  65,        101) /* Placement - Resting */
-     , (37330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37330,   1, False) /* Stuck */
-     , (37330,  11, True ) /* IgnoreCollisions */
-     , (37330,  13, True ) /* Ethereal */
-     , (37330,  14, True ) /* GravityStatus */
-     , (37330,  19, True ) /* Attackable */;
+     , (37330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37330, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37330,   1, 'Glyph of Salvaging') /* Name */

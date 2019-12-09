@@ -12,20 +12,15 @@ VALUES (19409,   1,        128) /* ItemType - Misc */
      , (19409,  15,       5000) /* StackUnitValue */
      , (19409,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (19409,  19,       5000) /* Value */
-     , (19409,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (19409,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19409,  94,        128) /* TargetType - Misc */
      , (19409, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19409,   1, False) /* Stuck */
-     , (19409,  11, True ) /* IgnoreCollisions */
-     , (19409,  13, True ) /* Ethereal */
-     , (19409,  14, True ) /* GravityStatus */
-     , (19409,  19, True ) /* Attackable */
-     , (19409,  22, True ) /* Inscribable */;
+VALUES (19409,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19409,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (19409,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19409,   1, 'Heavy Weapons Glyph') /* Name */

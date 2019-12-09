@@ -12,16 +12,11 @@ VALUES (23688,   1,          1) /* ItemType - MeleeWeapon */
      , (23688,  18,        256) /* UiEffects - Acid */
      , (23688,  19,        425) /* Value */
      , (23688,  51,          1) /* CombatUse - Melee */
-     , (23688,  65,          1) /* Placement - RightHandCombat */
-     , (23688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23688, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23688,   1, False) /* Stuck */
-     , (23688,  11, True ) /* IgnoreCollisions */
-     , (23688,  13, True ) /* Ethereal */
-     , (23688,  14, True ) /* GravityStatus */
-     , (23688,  19, True ) /* Attackable */
-     , (23688,  22, True ) /* Inscribable */;
+VALUES (23688,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23688,   1, 'Acid Spear') /* Name */;

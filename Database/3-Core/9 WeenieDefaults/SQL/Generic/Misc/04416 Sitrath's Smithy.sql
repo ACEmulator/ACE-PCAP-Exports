@@ -8,15 +8,10 @@ VALUES (4416,   1,        128) /* ItemType - Misc */
      , (4416,   5,       9000) /* EncumbranceVal */
      , (4416,  16,          1) /* ItemUseable - No */
      , (4416,  19,        125) /* Value */
-     , (4416,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4416,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4416,   1, True ) /* Stuck */
-     , (4416,  11, True ) /* IgnoreCollisions */
-     , (4416,  12, True ) /* ReportCollisions */
-     , (4416,  13, False) /* Ethereal */
-     , (4416,  14, True ) /* GravityStatus */
-     , (4416,  19, True ) /* Attackable */;
+VALUES (4416,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4416,   1, 'Sitrath''s Smithy') /* Name */

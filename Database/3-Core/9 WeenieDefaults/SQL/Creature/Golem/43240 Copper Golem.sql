@@ -15,12 +15,7 @@ VALUES (43240,   1,         16) /* ItemType - Creature */
      , (43240, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43240,   1, True ) /* Stuck */
-     , (43240,  12, True ) /* ReportCollisions */
-     , (43240,  13, False) /* Ethereal */
-     , (43240,  14, True ) /* GravityStatus */
-     , (43240,  19, True ) /* Attackable */
-     , (43240,  42, True ) /* AllowEdgeSlide */;
+VALUES (43240,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43240,   1, 'Copper Golem') /* Name */

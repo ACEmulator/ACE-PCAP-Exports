@@ -11,7 +11,6 @@ VALUES (37222,   1,      32768) /* ItemType - Caster */
      , (37222,  18,       2049) /* UiEffects - Magical, Piercing */
      , (37222,  19,      18727) /* Value */
      , (37222,  45,          2) /* DamageType - Pierce */
-     , (37222,  65,        101) /* Placement - Resting */
      , (37222,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37222,  94,         16) /* TargetType - Creature */
      , (37222, 105,          9) /* ItemWorkmanship */
@@ -28,20 +27,16 @@ VALUES (37222,   1,      32768) /* ItemType - Caster */
      , (37222, 160,        385) /* WieldDifficulty */
      , (37222, 172,          5) /* AppraisalLongDescDecoration */
      , (37222, 177,          4) /* GemCount */
-     , (37222, 178,         47) /* GemType */;
+     , (37222, 178,         47) /* GemType */
+     , (37222, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37222,   1, False) /* Stuck */
-     , (37222,  11, True ) /* IgnoreCollisions */
-     , (37222,  13, True ) /* Ethereal */
-     , (37222,  14, True ) /* GravityStatus */
-     , (37222,  19, True ) /* Attackable */
-     , (37222,  22, True ) /* Inscribable */;
+VALUES (37222,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37222,   5, -0.0666666666666667) /* ManaRate */
+VALUES (37222,   5,   -0.07) /* ManaRate */
      , (37222,  29,     1.2) /* WeaponDefense */
-     , (37222,  39, 0.600000023841858) /* DefaultScale */
+     , (37222,  39,     0.6) /* DefaultScale */
      , (37222, 144,    0.06) /* ManaConversionMod */
      , (37222, 152,    1.18) /* ElementalDamageMod */
      , (37222, 8004,       9) /* PCAPRecordedWorkmanship */;

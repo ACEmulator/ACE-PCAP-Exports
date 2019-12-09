@@ -20,14 +20,10 @@ VALUES (52711,   1,         16) /* ItemType - Creature */
      , (52711, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52711,   1, True ) /* Stuck */
-     , (52711,  12, True ) /* ReportCollisions */
-     , (52711,  13, False) /* Ethereal */
-     , (52711,  14, True ) /* GravityStatus */
-     , (52711,  19, True ) /* Attackable */;
+VALUES (52711,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52711,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (52711,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52711,   1, 'Wight Sage') /* Name */

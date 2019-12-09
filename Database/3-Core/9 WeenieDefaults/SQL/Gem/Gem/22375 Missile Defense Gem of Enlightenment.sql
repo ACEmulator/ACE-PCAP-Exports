@@ -9,17 +9,12 @@ VALUES (22375,   1,       2048) /* ItemType - Gem */
      , (22375,  16,          8) /* ItemUseable - Contained */
      , (22375,  19,          0) /* Value */
      , (22375,  33,          1) /* Bonded - Bonded */
-     , (22375,  65,        101) /* Placement - Resting */
      , (22375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22375, 114,          1) /* Attuned - Attuned */;
+     , (22375, 114,          1) /* Attuned - Attuned */
+     , (22375, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22375,   1, False) /* Stuck */
-     , (22375,  11, True ) /* IgnoreCollisions */
-     , (22375,  13, True ) /* Ethereal */
-     , (22375,  14, True ) /* GravityStatus */
-     , (22375,  19, True ) /* Attackable */
-     , (22375,  22, True ) /* Inscribable */;
+VALUES (22375,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22375,   1, 'Missile Defense Gem of Enlightenment') /* Name */

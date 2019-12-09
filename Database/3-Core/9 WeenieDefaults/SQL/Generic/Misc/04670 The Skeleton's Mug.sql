@@ -11,11 +11,7 @@ VALUES (4670,   1,        128) /* ItemType - Misc */
      , (4670,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4670,   1, True ) /* Stuck */
-     , (4670,  11, True ) /* IgnoreCollisions */
-     , (4670,  12, True ) /* ReportCollisions */
-     , (4670,  13, False) /* Ethereal */
-     , (4670,  19, True ) /* Attackable */;
+VALUES (4670,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4670,   1, 'The Skeleton''s Mug') /* Name */

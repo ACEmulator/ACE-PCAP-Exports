@@ -9,12 +9,6 @@ VALUES (8635,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8635,   1, True ) /* Stuck */
-     , (8635,  12, True ) /* ReportCollisions */
-     , (8635,  13, False) /* Ethereal */
-     , (8635,  15, True ) /* LightsStatus */
-     , (8635,  16, True ) /* ScriptedCollision */
-     , (8635,  17, True ) /* Inelastic */
-     , (8635,  19, True ) /* Attackable */
      , (8635,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -22,9 +16,9 @@ VALUES (8635,  39,     0.5) /* DefaultScale */
      , (8635,  77,       1) /* PhysicsScriptIntensity */
      , (8635,  78,       1) /* Friction */
      , (8635,  79,       0) /* Elasticity */
-     , (8635, 8010, -30.4436798095703) /* PCAPRecordedVelocityX */
-     , (8635, 8011, 13.7776517868042) /* PCAPRecordedVelocityY */
-     , (8635, 8012, -13.5994672775269) /* PCAPRecordedVelocityZ */;
+     , (8635, 8010,  -30.44) /* PCAPRecordedVelocityX */
+     , (8635, 8011,   13.78) /* PCAPRecordedVelocityY */
+     , (8635, 8012,   -13.6) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8635,   1, 'Electric Discharge') /* Name */;

@@ -13,18 +13,13 @@ VALUES (29228,   1,         32) /* ItemType - Food */
      , (29228,  16,          8) /* ItemUseable - Contained */
      , (29228,  18,          8) /* UiEffects - BoostMana */
      , (29228,  19,          0) /* Value */
-     , (29228,  65,        101) /* Placement - Resting */
      , (29228,  89,          6) /* BoosterEnum - Mana */
      , (29228,  90,         70) /* BoostValue */
-     , (29228,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29228,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29228, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29228,   1, False) /* Stuck */
-     , (29228,  11, True ) /* IgnoreCollisions */
-     , (29228,  13, True ) /* Ethereal */
-     , (29228,  14, True ) /* GravityStatus */
-     , (29228,  19, True ) /* Attackable */
-     , (29228,  69, False) /* IsSellable */;
+VALUES (29228,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29228,   1, 'Elaborate Field Mana Rations') /* Name */

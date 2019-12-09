@@ -12,20 +12,14 @@ VALUES (42816,   1,      65536) /* ItemType - Portal */
      , (42816, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42816,   1, True ) /* Stuck */
-     , (42816,  12, True ) /* ReportCollisions */
-     , (42816,  13, True ) /* Ethereal */
-     , (42816,  14, True ) /* GravityStatus */
-     , (42816,  15, True ) /* LightsStatus */
-     , (42816,  19, True ) /* Attackable */;
+VALUES (42816,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42816,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42816,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42816,   1, 'Lytelthorpe Portal') /* Name */
      , (42816,  16, 'This portal goes to the town of Lytelthorpe, an Aluvian settlement surrounded by rich farmlands. This is a good town for characters over level 10.') /* LongDesc */
-     , (42816,  38, 'Lytelthorpe Portal (1.1N, 51.7E).') /* AppraisalPortalDestination */
      , (42816, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

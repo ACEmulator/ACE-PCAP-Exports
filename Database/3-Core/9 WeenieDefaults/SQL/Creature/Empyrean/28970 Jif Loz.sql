@@ -18,18 +18,12 @@ VALUES (28970,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28970,   1, True ) /* Stuck */
-     , (28970,  11, True ) /* IgnoreCollisions */
-     , (28970,  12, True ) /* ReportCollisions */
-     , (28970,  13, False) /* Ethereal */
-     , (28970,  14, True ) /* GravityStatus */
-     , (28970,  19, False) /* Attackable */
-     , (28970,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (28970,  42, True ) /* AllowEdgeSlide */;
+     , (28970,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28970,  39, 1.29999995231628) /* DefaultScale */
+VALUES (28970,  39,     1.3) /* DefaultScale */
      , (28970,  54,       3) /* UseRadius */
-     , (28970,  76, 0.800000011920929) /* Translucency */;
+     , (28970,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28970,   1, 'Jif Loz') /* Name */

@@ -10,11 +10,7 @@ VALUES (38053,   1,  268435456) /* ItemType - LifeStone */
      , (38053, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38053,   1, True ) /* Stuck */
-     , (38053,  11, True ) /* IgnoreCollisions */
-     , (38053,  13, False) /* Ethereal */
-     , (38053,  14, True ) /* GravityStatus */
-     , (38053,  19, True ) /* Attackable */;
+VALUES (38053,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38053,   1, 'Celestial Hand Banner') /* Name */;

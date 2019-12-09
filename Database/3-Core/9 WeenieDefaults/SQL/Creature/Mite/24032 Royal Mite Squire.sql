@@ -15,14 +15,10 @@ VALUES (24032,   1,         16) /* ItemType - Creature */
      , (24032, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24032,   1, True ) /* Stuck */
-     , (24032,  12, True ) /* ReportCollisions */
-     , (24032,  13, False) /* Ethereal */
-     , (24032,  14, True ) /* GravityStatus */
-     , (24032,  19, True ) /* Attackable */;
+VALUES (24032,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24032,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (24032,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24032,   1, 'Royal Mite Squire') /* Name */

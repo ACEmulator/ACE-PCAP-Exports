@@ -8,15 +8,10 @@ VALUES (4513,   1,        128) /* ItemType - Misc */
      , (4513,   5,       9000) /* EncumbranceVal */
      , (4513,  16,          1) /* ItemUseable - No */
      , (4513,  19,        125) /* Value */
-     , (4513,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4513,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4513,   1, True ) /* Stuck */
-     , (4513,  11, True ) /* IgnoreCollisions */
-     , (4513,  12, True ) /* ReportCollisions */
-     , (4513,  13, False) /* Ethereal */
-     , (4513,  14, True ) /* GravityStatus */
-     , (4513,  19, True ) /* Attackable */;
+VALUES (4513,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4513,   1, 'The Full Net') /* Name */

@@ -19,23 +19,17 @@ VALUES (7576,   1,          1) /* ItemType - MeleeWeapon */
      , (7576,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (7576,  49,         30) /* WeaponTime */
      , (7576,  51,          1) /* CombatUse - Melee */
-     , (7576,  65,          1) /* Placement - RightHandCombat */
      , (7576,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7576, 114,          1) /* Attuned - Attuned */
      , (7576, 158,          2) /* WieldRequirements - RawSkill */
      , (7576, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (7576, 160,        250) /* WieldDifficulty */
      , (7576, 353,          2) /* WeaponType - Sword */
-     , (7576, 8030,          0);
+     , (7576, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7576, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7576,   1, False) /* Stuck */
-     , (7576,  11, True ) /* IgnoreCollisions */
-     , (7576,  13, True ) /* Ethereal */
-     , (7576,  14, True ) /* GravityStatus */
-     , (7576,  15, True ) /* LightsStatus */
-     , (7576,  19, True ) /* Attackable */
-     , (7576,  22, True ) /* Inscribable */;
+VALUES (7576,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7576,  21,       0) /* WeaponLength */
@@ -44,7 +38,7 @@ VALUES (7576,  21,       0) /* WeaponLength */
      , (7576,  29,       1) /* WeaponDefense */
      , (7576,  62,     1.1) /* WeaponOffense */
      , (7576,  63,       1) /* DamageMod */
-     , (7576,  76, 0.699999988079071) /* Translucency */;
+     , (7576,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7576,   1, 'Ravenous Sword') /* Name */

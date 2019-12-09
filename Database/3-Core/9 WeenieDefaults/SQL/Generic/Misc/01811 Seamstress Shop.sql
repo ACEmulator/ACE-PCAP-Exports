@@ -11,11 +11,7 @@ VALUES (1811,   1,        128) /* ItemType - Misc */
      , (1811,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1811,   1, True ) /* Stuck */
-     , (1811,  11, True ) /* IgnoreCollisions */
-     , (1811,  12, True ) /* ReportCollisions */
-     , (1811,  13, False) /* Ethereal */
-     , (1811,  19, True ) /* Attackable */;
+VALUES (1811,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1811,   1, 'Seamstress Shop') /* Name */

@@ -12,21 +12,16 @@ VALUES (7832,   1,         32) /* ItemType - Food */
      , (7832,  15,         45) /* StackUnitValue */
      , (7832,  16,          8) /* ItemUseable - Contained */
      , (7832,  19,         45) /* Value */
-     , (7832,  65,        101) /* Placement - Resting */
      , (7832,  89,          4) /* BoosterEnum - Stamina */
      , (7832,  90,         22) /* BoostValue */
-     , (7832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7832, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7832,   1, False) /* Stuck */
-     , (7832,  11, True ) /* IgnoreCollisions */
-     , (7832,  13, True ) /* Ethereal */
-     , (7832,  14, True ) /* GravityStatus */
-     , (7832,  19, True ) /* Attackable */
-     , (7832,  69, False) /* IsSellable */;
+VALUES (7832,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7832,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (7832,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7832,   1, 'Bar of Milk Chocolate') /* Name */

@@ -8,18 +8,11 @@ VALUES (9384,   1,       8192) /* ItemType - Writable */
      , (9384,   5,          5) /* EncumbranceVal */
      , (9384,  16,          8) /* ItemUseable - Contained */
      , (9384,  19,         10) /* Value */
-     , (9384,  65,        101) /* Placement - Resting */
-     , (9384,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9384,   1, False) /* Stuck */
-     , (9384,  11, True ) /* IgnoreCollisions */
-     , (9384,  13, True ) /* Ethereal */
-     , (9384,  14, True ) /* GravityStatus */
-     , (9384,  19, True ) /* Attackable */;
+     , (9384,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9384, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9384,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (9384,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9384,   1, 'Translated Virindi Envoy''s Note') /* Name */;

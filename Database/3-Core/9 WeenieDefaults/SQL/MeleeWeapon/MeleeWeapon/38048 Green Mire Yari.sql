@@ -17,7 +17,6 @@ VALUES (38048,   1,          1) /* ItemType - MeleeWeapon */
      , (38048,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (38048,  49,         25) /* WeaponTime */
      , (38048,  51,          1) /* CombatUse - Melee */
-     , (38048,  65,          1) /* Placement - RightHandCombat */
      , (38048,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38048, 106,         55) /* ItemSpellcraft */
      , (38048, 107,        300) /* ItemCurMana */
@@ -26,15 +25,11 @@ VALUES (38048,   1,          1) /* ItemType - MeleeWeapon */
      , (38048, 114,          1) /* Attuned - Attuned */
      , (38048, 151,          2) /* HookType - Wall */
      , (38048, 353,          5) /* WeaponType - Spear */
-     , (38048, 8030,          0);
+     , (38048, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (38048, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38048,   1, False) /* Stuck */
-     , (38048,  11, True ) /* IgnoreCollisions */
-     , (38048,  13, True ) /* Ethereal */
-     , (38048,  14, True ) /* GravityStatus */
-     , (38048,  19, True ) /* Attackable */
-     , (38048,  22, True ) /* Inscribable */
+VALUES (38048,  22, True ) /* Inscribable */
      , (38048,  69, False) /* IsSellable */
      , (38048,  99, True ) /* Ivoryable */;
 

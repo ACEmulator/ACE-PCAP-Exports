@@ -12,7 +12,6 @@ VALUES (9393,   1,          2) /* ItemType - Armor */
      , (9393,  18,          1) /* UiEffects - Magical */
      , (9393,  19,       4500) /* Value */
      , (9393,  28,         80) /* ArmorLevel */
-     , (9393,  65,        101) /* Placement - Resting */
      , (9393,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9393, 106,        200) /* ItemSpellcraft */
      , (9393, 107,         50) /* ItemCurMana */
@@ -20,23 +19,19 @@ VALUES (9393,   1,          2) /* ItemType - Armor */
      , (9393, 109,          0) /* ItemDifficulty */
      , (9393, 115,        200) /* ItemSkillLevelLimit */
      , (9393, 151,          2) /* HookType - Wall */
-     , (9393, 176,          6) /* AppraisalItemSkill */;
+     , (9393, 176,          6) /* AppraisalItemSkill */
+     , (9393, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9393,   1, False) /* Stuck */
-     , (9393,  11, True ) /* IgnoreCollisions */
-     , (9393,  13, True ) /* Ethereal */
-     , (9393,  14, True ) /* GravityStatus */
-     , (9393,  19, True ) /* Attackable */
-     , (9393,  22, True ) /* Inscribable */;
+VALUES (9393,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9393,   5, -0.00999999977648258) /* ManaRate */
-     , (9393,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (9393,  14, 0.899999976158142) /* ArmorModVsPierce */
-     , (9393,  15, 0.899999976158142) /* ArmorModVsBludgeon */
+VALUES (9393,   5,   -0.01) /* ManaRate */
+     , (9393,  13,     1.2) /* ArmorModVsSlash */
+     , (9393,  14,     0.9) /* ArmorModVsPierce */
+     , (9393,  15,     0.9) /* ArmorModVsBludgeon */
      , (9393,  16,       2) /* ArmorModVsCold */
-     , (9393,  17, 0.699999988079071) /* ArmorModVsFire */
+     , (9393,  17,     0.7) /* ArmorModVsFire */
      , (9393,  18,       1) /* ArmorModVsAcid */
      , (9393,  19,       2) /* ArmorModVsElectric */
      , (9393, 165,       1) /* ArmorModVsNether */;

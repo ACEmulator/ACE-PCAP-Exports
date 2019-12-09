@@ -15,12 +15,7 @@ VALUES (40780,   1,         16) /* ItemType - Creature */
      , (40780, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40780,   1, True ) /* Stuck */
-     , (40780,  12, True ) /* ReportCollisions */
-     , (40780,  13, False) /* Ethereal */
-     , (40780,  14, True ) /* GravityStatus */
-     , (40780,  19, True ) /* Attackable */
-     , (40780,  42, True ) /* AllowEdgeSlide */;
+VALUES (40780,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40780,   1, 'Progenitor of Frost') /* Name */

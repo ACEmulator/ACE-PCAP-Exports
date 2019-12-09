@@ -12,7 +12,6 @@ VALUES (14504,   1,          8) /* ItemType - Jewelry */
      , (14504,  19,       8500) /* Value */
      , (14504,  33,          1) /* Bonded - Bonded */
      , (14504,  36,       9999) /* ResistMagic */
-     , (14504,  65,        101) /* Placement - Resting */
      , (14504,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14504, 106,        400) /* ItemSpellcraft */
      , (14504, 107,        600) /* ItemCurMana */
@@ -22,19 +21,15 @@ VALUES (14504,   1,          8) /* ItemType - Jewelry */
      , (14504, 151,          2) /* HookType - Wall */
      , (14504, 158,          7) /* WieldRequirements - Level */
      , (14504, 159,          1) /* WieldSkillType - Axe */
-     , (14504, 160,         50) /* WieldDifficulty */;
+     , (14504, 160,         50) /* WieldDifficulty */
+     , (14504, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14504,   1, False) /* Stuck */
-     , (14504,  11, True ) /* IgnoreCollisions */
-     , (14504,  13, True ) /* Ethereal */
-     , (14504,  14, True ) /* GravityStatus */
-     , (14504,  19, True ) /* Attackable */
-     , (14504,  22, True ) /* Inscribable */
+VALUES (14504,  22, True ) /* Inscribable */
      , (14504,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14504,   5, -0.033333) /* ManaRate */;
+VALUES (14504,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14504,   1, 'Ebuillant Bracelet') /* Name */

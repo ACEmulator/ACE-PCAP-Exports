@@ -15,14 +15,10 @@ VALUES (41582,   1,         16) /* ItemType - Creature */
      , (41582, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41582,   1, True ) /* Stuck */
-     , (41582,  12, True ) /* ReportCollisions */
-     , (41582,  13, False) /* Ethereal */
-     , (41582,  14, True ) /* GravityStatus */
-     , (41582,  19, True ) /* Attackable */;
+VALUES (41582,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41582,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (41582,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41582,   1, 'Bronze Gauntlet Guardian') /* Name */

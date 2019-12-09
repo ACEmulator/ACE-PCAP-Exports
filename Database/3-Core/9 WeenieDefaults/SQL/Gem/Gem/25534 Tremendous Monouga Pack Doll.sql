@@ -14,12 +14,7 @@ VALUES (25534,   1,       2048) /* ItemType - Gem */
      , (25534, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25534,   1, False) /* Stuck */
-     , (25534,  11, True ) /* IgnoreCollisions */
-     , (25534,  13, True ) /* Ethereal */
-     , (25534,  14, True ) /* GravityStatus */
-     , (25534,  19, True ) /* Attackable */
-     , (25534,  22, True ) /* Inscribable */;
+VALUES (25534,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25534,   1, 'Tremendous Monouga Pack Doll') /* Name */

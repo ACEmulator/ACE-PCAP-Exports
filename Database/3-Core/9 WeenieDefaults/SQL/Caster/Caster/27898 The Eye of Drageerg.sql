@@ -11,7 +11,6 @@ VALUES (27898,   1,      32768) /* ItemType - Caster */
      , (27898,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (27898,  18,          1) /* UiEffects - Magical */
      , (27898,  19,       1100) /* Value */
-     , (27898,  65,          1) /* Placement - RightHandCombat */
      , (27898,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (27898,  94,         16) /* TargetType - Creature */
      , (27898, 106,        155) /* ItemSpellcraft */
@@ -20,21 +19,16 @@ VALUES (27898,   1,      32768) /* ItemType - Caster */
      , (27898, 109,         15) /* ItemDifficulty */
      , (27898, 115,        110) /* ItemSkillLevelLimit */
      , (27898, 151,          2) /* HookType - Wall */
-     , (27898, 176,         33) /* AppraisalItemSkill */;
+     , (27898, 176,         33) /* AppraisalItemSkill */
+     , (27898, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27898,   1, False) /* Stuck */
-     , (27898,  11, True ) /* IgnoreCollisions */
-     , (27898,  13, True ) /* Ethereal */
-     , (27898,  14, True ) /* GravityStatus */
-     , (27898,  15, True ) /* LightsStatus */
-     , (27898,  19, True ) /* Attackable */
-     , (27898,  22, True ) /* Inscribable */;
+VALUES (27898,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27898,   5, -0.00999999977648258) /* ManaRate */
+VALUES (27898,   5,   -0.01) /* ManaRate */
      , (27898,  29,       1) /* WeaponDefense */
-     , (27898, 144, 0.0299999993294477) /* ManaConversionMod */;
+     , (27898, 144,    0.03) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27898,   1, 'The Eye of Drageerg') /* Name */

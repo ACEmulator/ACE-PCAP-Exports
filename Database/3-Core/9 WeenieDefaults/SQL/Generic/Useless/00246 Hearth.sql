@@ -8,17 +8,12 @@ VALUES (246,   1,       1024) /* ItemType - Useless */
      , (246,   5,       5000) /* EncumbranceVal */
      , (246,  16,          1) /* ItemUseable - No */
      , (246,  19,      10000) /* Value */
-     , (246,  65,        101) /* Placement - Resting */
-     , (246,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (246, 151,          1) /* HookType - Floor */;
+     , (246,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (246, 151,          1) /* HookType - Floor */
+     , (246, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (246,   1, False) /* Stuck */
-     , (246,  11, True ) /* IgnoreCollisions */
-     , (246,  13, True ) /* Ethereal */
-     , (246,  14, True ) /* GravityStatus */
-     , (246,  19, True ) /* Attackable */
-     , (246,  22, True ) /* Inscribable */;
+VALUES (246,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (246,   1, 'Hearth') /* Name */

@@ -15,14 +15,10 @@ VALUES (28250,   1,         16) /* ItemType - Creature */
      , (28250, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28250,   1, True ) /* Stuck */
-     , (28250,  12, True ) /* ReportCollisions */
-     , (28250,  13, False) /* Ethereal */
-     , (28250,  14, True ) /* GravityStatus */
-     , (28250,  19, True ) /* Attackable */;
+VALUES (28250,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28250,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (28250,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28250,   1, 'Black Phyntos Swarm') /* Name */

@@ -13,24 +13,17 @@ VALUES (22822,   1,       2048) /* ItemType - Gem */
      , (22822,  16,          8) /* ItemUseable - Contained */
      , (22822,  18,          1) /* UiEffects - Magical */
      , (22822,  19,       1000) /* Value */
-     , (22822,  65,        101) /* Placement - Resting */
      , (22822,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22822,  94,         16) /* TargetType - Creature */
      , (22822, 106,        210) /* ItemSpellcraft */
      , (22822, 107,        150) /* ItemCurMana */
      , (22822, 108,        250) /* ItemMaxMana */
      , (22822, 109,          0) /* ItemDifficulty */
-     , (22822, 110,          0) /* ItemAllegianceRankLimit */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22822,   1, False) /* Stuck */
-     , (22822,  11, True ) /* IgnoreCollisions */
-     , (22822,  13, True ) /* Ethereal */
-     , (22822,  14, True ) /* GravityStatus */
-     , (22822,  19, True ) /* Attackable */;
+     , (22822, 110,          0) /* ItemAllegianceRankLimit */
+     , (22822, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22822,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (22822,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22822,   1, 'Gem of Dispersal') /* Name */

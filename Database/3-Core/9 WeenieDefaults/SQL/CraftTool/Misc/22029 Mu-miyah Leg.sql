@@ -11,18 +11,13 @@ VALUES (22029,   1,        128) /* ItemType - Misc */
      , (22029,  13,        250) /* StackUnitEncumbrance */
      , (22029,  15,          0) /* StackUnitValue */
      , (22029,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (22029,  65,        101) /* Placement - Resting */
      , (22029,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22029,  94,        128) /* TargetType - Misc */
-     , (22029, 151,          2) /* HookType - Wall */;
+     , (22029, 151,          2) /* HookType - Wall */
+     , (22029, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22029,   1, False) /* Stuck */
-     , (22029,  11, True ) /* IgnoreCollisions */
-     , (22029,  13, True ) /* Ethereal */
-     , (22029,  14, True ) /* GravityStatus */
-     , (22029,  19, True ) /* Attackable */
-     , (22029,  22, True ) /* Inscribable */;
+VALUES (22029,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22029,   1, 'Mu-miyah Leg') /* Name */;

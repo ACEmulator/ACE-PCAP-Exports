@@ -15,17 +15,13 @@ VALUES (7978,   1,         16) /* ItemType - Creature */
      , (7978, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7978,   1, True ) /* Stuck */
-     , (7978,  12, True ) /* ReportCollisions */
-     , (7978,  13, False) /* Ethereal */
-     , (7978,  14, True ) /* GravityStatus */
-     , (7978,  19, True ) /* Attackable */;
+VALUES (7978,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7978,  77,       1) /* PhysicsScriptIntensity */
      , (7978, 8010,       0) /* PCAPRecordedVelocityX */
      , (7978, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7978, 8012, -0.0193801168352365) /* PCAPRecordedVelocityZ */;
+     , (7978, 8012,   -0.02) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7978,   1, 'Scrawed Grievver') /* Name */

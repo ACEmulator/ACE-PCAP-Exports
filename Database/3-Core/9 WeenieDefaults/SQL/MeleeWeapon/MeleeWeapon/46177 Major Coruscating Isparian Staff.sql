@@ -12,17 +12,12 @@ VALUES (46177,   1,          1) /* ItemType - MeleeWeapon */
      , (46177,  18,          1) /* UiEffects - Magical */
      , (46177,  19,       8000) /* Value */
      , (46177,  51,          1) /* CombatUse - Melee */
-     , (46177,  65,          1) /* Placement - RightHandCombat */
      , (46177,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46177, 151,          2) /* HookType - Wall */;
+     , (46177, 151,          2) /* HookType - Wall */
+     , (46177, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46177,   1, False) /* Stuck */
-     , (46177,  11, True ) /* IgnoreCollisions */
-     , (46177,  13, True ) /* Ethereal */
-     , (46177,  14, True ) /* GravityStatus */
-     , (46177,  19, True ) /* Attackable */
-     , (46177,  22, True ) /* Inscribable */;
+VALUES (46177,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46177,   1, 'Major Coruscating Isparian Staff') /* Name */;

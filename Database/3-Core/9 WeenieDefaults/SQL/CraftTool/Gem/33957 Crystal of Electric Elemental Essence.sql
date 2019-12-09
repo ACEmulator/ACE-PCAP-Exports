@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33957,   1,       2048) /* ItemType - Gem */
      , (33957,   5,          1) /* EncumbranceVal */
      , (33957,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (33957,  65,        101) /* Placement - Resting */
      , (33957,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33957,  94,      32768) /* TargetType - Caster */;
+     , (33957,  94,      32768) /* TargetType - Caster */
+     , (33957, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33957,   1, False) /* Stuck */
-     , (33957,  11, True ) /* IgnoreCollisions */
-     , (33957,  13, True ) /* Ethereal */
-     , (33957,  14, True ) /* GravityStatus */
-     , (33957,  19, True ) /* Attackable */
-     , (33957,  22, True ) /* Inscribable */;
+VALUES (33957,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33957,   1, 'Crystal of Electric Elemental Essence') /* Name */;

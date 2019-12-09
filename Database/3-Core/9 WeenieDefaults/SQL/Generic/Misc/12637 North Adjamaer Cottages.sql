@@ -11,12 +11,7 @@ VALUES (12637,   1,        128) /* ItemType - Misc */
      , (12637,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12637,   1, True ) /* Stuck */
-     , (12637,  11, True ) /* IgnoreCollisions */
-     , (12637,  12, True ) /* ReportCollisions */
-     , (12637,  13, False) /* Ethereal */
-     , (12637,  14, True ) /* GravityStatus */
-     , (12637,  19, True ) /* Attackable */;
+VALUES (12637,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12637,   1, 'North Adjamaer Cottages') /* Name */

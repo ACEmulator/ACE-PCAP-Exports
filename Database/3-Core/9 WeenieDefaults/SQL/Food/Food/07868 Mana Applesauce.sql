@@ -13,18 +13,13 @@ VALUES (7868,   1,         32) /* ItemType - Food */
      , (7868,  16,          8) /* ItemUseable - Contained */
      , (7868,  18,          8) /* UiEffects - BoostMana */
      , (7868,  19,         70) /* Value */
-     , (7868,  65,        101) /* Placement - Resting */
      , (7868,  89,          6) /* BoosterEnum - Mana */
      , (7868,  90,         24) /* BoostValue */
-     , (7868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7868, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7868,   1, False) /* Stuck */
-     , (7868,  11, True ) /* IgnoreCollisions */
-     , (7868,  13, True ) /* Ethereal */
-     , (7868,  14, True ) /* GravityStatus */
-     , (7868,  19, True ) /* Attackable */
-     , (7868,  69, False) /* IsSellable */;
+VALUES (7868,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7868,   1, 'Mana Applesauce') /* Name */

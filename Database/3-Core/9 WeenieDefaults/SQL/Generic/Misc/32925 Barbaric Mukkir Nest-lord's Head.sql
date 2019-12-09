@@ -9,17 +9,12 @@ VALUES (32925,   1,        128) /* ItemType - Misc */
      , (32925,  16,          1) /* ItemUseable - No */
      , (32925,  19,          0) /* Value */
      , (32925,  33,          1) /* Bonded - Bonded */
-     , (32925,  65,        101) /* Placement - Resting */
      , (32925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32925, 114,          1) /* Attuned - Attuned */;
+     , (32925, 114,          1) /* Attuned - Attuned */
+     , (32925, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32925,   1, False) /* Stuck */
-     , (32925,  11, True ) /* IgnoreCollisions */
-     , (32925,  13, True ) /* Ethereal */
-     , (32925,  14, True ) /* GravityStatus */
-     , (32925,  19, True ) /* Attackable */
-     , (32925,  22, True ) /* Inscribable */;
+VALUES (32925,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32925,   1, 'Barbaric Mukkir Nest-lord''s Head') /* Name */

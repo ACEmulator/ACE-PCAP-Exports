@@ -11,12 +11,7 @@ VALUES (12670,   1,        128) /* ItemType - Misc */
      , (12670,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12670,   1, True ) /* Stuck */
-     , (12670,  11, True ) /* IgnoreCollisions */
-     , (12670,  12, True ) /* ReportCollisions */
-     , (12670,  13, False) /* Ethereal */
-     , (12670,  14, True ) /* GravityStatus */
-     , (12670,  19, True ) /* Attackable */;
+VALUES (12670,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12670,   1, 'Whispering Pines Cottages') /* Name */;

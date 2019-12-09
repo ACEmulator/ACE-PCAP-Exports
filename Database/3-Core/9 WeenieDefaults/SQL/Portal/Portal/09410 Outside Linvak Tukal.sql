@@ -12,19 +12,13 @@ VALUES (9410,   1,      65536) /* ItemType - Portal */
      , (9410, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9410,   1, True ) /* Stuck */
-     , (9410,  12, True ) /* ReportCollisions */
-     , (9410,  13, True ) /* Ethereal */
-     , (9410,  14, True ) /* GravityStatus */
-     , (9410,  15, True ) /* LightsStatus */
-     , (9410,  19, True ) /* Attackable */;
+VALUES (9410,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9410,  54, -0.100000001490116) /* UseRadius */;
+VALUES (9410,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9410,   1, 'Outside Linvak Tukal') /* Name */
-     , (9410,  38, 'Outside Linvak Tukal (75.7S, 28.2E).') /* AppraisalPortalDestination */
      , (9410, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

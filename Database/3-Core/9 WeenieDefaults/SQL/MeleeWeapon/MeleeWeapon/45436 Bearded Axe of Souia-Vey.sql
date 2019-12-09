@@ -16,7 +16,6 @@ VALUES (45436,   1,          1) /* ItemType - MeleeWeapon */
      , (45436,  48,         45) /* WeaponSkill - LightWeapons */
      , (45436,  49,          0) /* WeaponTime */
      , (45436,  51,          1) /* CombatUse - Melee */
-     , (45436,  65,        101) /* Placement - Resting */
      , (45436,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45436, 106,        350) /* ItemSpellcraft */
      , (45436, 107,       1703) /* ItemCurMana */
@@ -29,28 +28,24 @@ VALUES (45436,   1,          1) /* ItemType - MeleeWeapon */
      , (45436, 319,         50) /* ItemMaxLevel */
      , (45436, 320,          1) /* ItemXpStyle - Fixed */
      , (45436, 353,          3) /* WeaponType - Axe */
-     , (45436, 8030,          0);
+     , (45436, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (45436, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (45436,   4, 13565250749) /* ItemTotalXp */
      , (45436,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45436,   1, False) /* Stuck */
-     , (45436,  11, True ) /* IgnoreCollisions */
-     , (45436,  13, True ) /* Ethereal */
-     , (45436,  14, True ) /* GravityStatus */
-     , (45436,  19, True ) /* Attackable */
-     , (45436,  22, True ) /* Inscribable */
+VALUES (45436,  22, True ) /* Inscribable */
      , (45436,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45436,   5, -0.0333333015441895) /* ManaRate */
+VALUES (45436,   5,   -0.03) /* ManaRate */
      , (45436,  21,       0) /* WeaponLength */
-     , (45436,  22, 0.400000005960464) /* DamageVariance */
+     , (45436,  22,     0.4) /* DamageVariance */
      , (45436,  26,       0) /* MaximumVelocity */
-     , (45436,  29, 1.37999995052814) /* WeaponDefense */
-     , (45436,  62, 1.47999997437) /* WeaponOffense */
+     , (45436,  29,    1.38) /* WeaponDefense */
+     , (45436,  62,    1.48) /* WeaponOffense */
      , (45436,  63,       1) /* DamageMod */
      , (45436,  77,       1) /* PhysicsScriptIntensity */;
 

@@ -12,17 +12,12 @@ VALUES (6130,   1,          1) /* ItemType - MeleeWeapon */
      , (6130,  18,          1) /* UiEffects - Magical */
      , (6130,  19,       5000) /* Value */
      , (6130,  51,          1) /* CombatUse - Melee */
-     , (6130,  65,          1) /* Placement - RightHandCombat */
      , (6130,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6130, 151,          2) /* HookType - Wall */;
+     , (6130, 151,          2) /* HookType - Wall */
+     , (6130, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6130,   1, False) /* Stuck */
-     , (6130,  11, True ) /* IgnoreCollisions */
-     , (6130,  13, True ) /* Ethereal */
-     , (6130,  14, True ) /* GravityStatus */
-     , (6130,  19, True ) /* Attackable */
-     , (6130,  22, True ) /* Inscribable */;
+VALUES (6130,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6130,   1, 'Peerless Sparking Atlan Staff') /* Name */;

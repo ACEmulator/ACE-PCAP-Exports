@@ -12,18 +12,13 @@ VALUES (29124,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29124,  15,         20) /* StackUnitValue */
      , (29124,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29124,  19,         20) /* Value */
-     , (29124,  65,        101) /* Placement - Resting */
      , (29124,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29124,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (29124, 151,          2) /* HookType - Wall */;
+     , (29124, 151,          2) /* HookType - Wall */
+     , (29124, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29124,   1, False) /* Stuck */
-     , (29124,  11, True ) /* IgnoreCollisions */
-     , (29124,  13, True ) /* Ethereal */
-     , (29124,  14, True ) /* GravityStatus */
-     , (29124,  19, True ) /* Attackable */
-     , (29124,  69, False) /* IsSellable */;
+VALUES (29124,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29124,   1, 'Plain Barley') /* Name */

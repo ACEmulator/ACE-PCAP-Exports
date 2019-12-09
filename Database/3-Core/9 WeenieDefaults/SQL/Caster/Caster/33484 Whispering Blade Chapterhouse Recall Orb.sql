@@ -12,7 +12,6 @@ VALUES (33484,   1,      32768) /* ItemType - Caster */
      , (33484,  18,          1) /* UiEffects - Magical */
      , (33484,  19,       5000) /* Value */
      , (33484,  33,          1) /* Bonded - Bonded */
-     , (33484,  65,          1) /* Placement - RightHandCombat */
      , (33484,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (33484,  94,         16) /* TargetType - Creature */
      , (33484, 106,        400) /* ItemSpellcraft */
@@ -24,21 +23,16 @@ VALUES (33484,   1,      32768) /* ItemType - Caster */
      , (33484, 151,          2) /* HookType - Wall */
      , (33484, 158,          7) /* WieldRequirements - Level */
      , (33484, 159,          1) /* WieldSkillType - Axe */
-     , (33484, 160,        140) /* WieldDifficulty */;
+     , (33484, 160,        140) /* WieldDifficulty */
+     , (33484, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33484,   1, False) /* Stuck */
-     , (33484,  11, True ) /* IgnoreCollisions */
-     , (33484,  13, True ) /* Ethereal */
-     , (33484,  14, True ) /* GravityStatus */
-     , (33484,  15, True ) /* LightsStatus */
-     , (33484,  19, True ) /* Attackable */
-     , (33484,  22, True ) /* Inscribable */;
+VALUES (33484,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33484,  29,       1) /* WeaponDefense */
-     , (33484,  39, 0.600000023841858) /* DefaultScale */
-     , (33484, 144, 1.1391879691671E-314) /* ManaConversionMod */;
+     , (33484,  39,     0.6) /* DefaultScale */
+     , (33484, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33484,   1, 'Whispering Blade Chapterhouse Recall Orb') /* Name */

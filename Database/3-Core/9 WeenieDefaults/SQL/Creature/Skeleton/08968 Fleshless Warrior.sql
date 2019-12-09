@@ -15,11 +15,7 @@ VALUES (8968,   1,         16) /* ItemType - Creature */
      , (8968, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8968,   1, True ) /* Stuck */
-     , (8968,  12, True ) /* ReportCollisions */
-     , (8968,  13, False) /* Ethereal */
-     , (8968,  14, True ) /* GravityStatus */
-     , (8968,  19, True ) /* Attackable */;
+VALUES (8968,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8968,   1, 'Fleshless Warrior') /* Name */

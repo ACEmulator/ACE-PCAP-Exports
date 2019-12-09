@@ -12,15 +12,8 @@ VALUES (5783,   1,         32) /* ItemType - Food */
      , (5783,  15,         30) /* StackUnitValue */
      , (5783,  16,          8) /* ItemUseable - Contained */
      , (5783,  19,         30) /* Value */
-     , (5783,  65,        101) /* Placement - Resting */
-     , (5783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5783,   1, False) /* Stuck */
-     , (5783,  11, True ) /* IgnoreCollisions */
-     , (5783,  13, True ) /* Ethereal */
-     , (5783,  14, True ) /* GravityStatus */
-     , (5783,  19, True ) /* Attackable */;
+     , (5783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5783, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5783,   1, 'Spiced Apple Pie') /* Name */

@@ -15,14 +15,10 @@ VALUES (26470,   1,         16) /* ItemType - Creature */
      , (26470, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26470,   1, True ) /* Stuck */
-     , (26470,  12, True ) /* ReportCollisions */
-     , (26470,  13, False) /* Ethereal */
-     , (26470,  14, True ) /* GravityStatus */
-     , (26470,  19, True ) /* Attackable */;
+VALUES (26470,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26470,  39, 1.45000004768372) /* DefaultScale */;
+VALUES (26470,  39,    1.45) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26470,   1, 'Fire Shreth') /* Name */

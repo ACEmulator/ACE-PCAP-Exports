@@ -11,17 +11,12 @@ VALUES (35598,   1,          1) /* ItemType - MeleeWeapon */
      , (35598,  18,          1) /* UiEffects - Magical */
      , (35598,  19,      48990) /* Value */
      , (35598,  51,          1) /* CombatUse - Melee */
-     , (35598,  65,        101) /* Placement - Resting */
      , (35598,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35598, 151,          2) /* HookType - Wall */;
+     , (35598, 151,          2) /* HookType - Wall */
+     , (35598, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35598,   1, False) /* Stuck */
-     , (35598,  11, True ) /* IgnoreCollisions */
-     , (35598,  13, True ) /* Ethereal */
-     , (35598,  14, True ) /* GravityStatus */
-     , (35598,  19, True ) /* Attackable */
-     , (35598,  22, True ) /* Inscribable */;
+VALUES (35598,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35598,   1, 'Bonecrunch''s Hammer') /* Name */;

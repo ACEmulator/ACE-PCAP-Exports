@@ -9,17 +9,12 @@ VALUES (22826,   1,       2048) /* ItemType - Gem */
      , (22826,  16,          1) /* ItemUseable - No */
      , (22826,  19,         75) /* Value */
      , (22826,  33,          1) /* Bonded - Bonded */
-     , (22826,  65,        101) /* Placement - Resting */
      , (22826,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22826, 114,          1) /* Attuned - Attuned */;
+     , (22826, 114,          1) /* Attuned - Attuned */
+     , (22826, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22826,   1, False) /* Stuck */
-     , (22826,  11, True ) /* IgnoreCollisions */
-     , (22826,  13, True ) /* Ethereal */
-     , (22826,  14, True ) /* GravityStatus */
-     , (22826,  19, True ) /* Attackable */
-     , (22826,  22, True ) /* Inscribable */;
+VALUES (22826,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22826,   1, 'Daichroic Crystal') /* Name */

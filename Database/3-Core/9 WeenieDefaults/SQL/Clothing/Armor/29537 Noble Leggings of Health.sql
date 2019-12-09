@@ -10,17 +10,12 @@ VALUES (29537,   1,          2) /* ItemType - Armor */
      , (29537,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (29537,  16,          1) /* ItemUseable - No */
      , (29537,  19,       8000) /* Value */
-     , (29537,  65,        101) /* Placement - Resting */
      , (29537,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29537, 151,          2) /* HookType - Wall */;
+     , (29537, 151,          2) /* HookType - Wall */
+     , (29537, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29537,   1, False) /* Stuck */
-     , (29537,  11, True ) /* IgnoreCollisions */
-     , (29537,  13, True ) /* Ethereal */
-     , (29537,  14, True ) /* GravityStatus */
-     , (29537,  19, True ) /* Attackable */
-     , (29537,  22, True ) /* Inscribable */;
+VALUES (29537,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29537,   1, 'Noble Leggings of Health') /* Name */;

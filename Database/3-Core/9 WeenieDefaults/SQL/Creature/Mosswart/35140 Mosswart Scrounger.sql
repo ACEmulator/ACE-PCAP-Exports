@@ -16,11 +16,7 @@ VALUES (35140,   1,         16) /* ItemType - Creature */
      , (35140, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35140,   1, True ) /* Stuck */
-     , (35140,  12, True ) /* ReportCollisions */
-     , (35140,  13, False) /* Ethereal */
-     , (35140,  14, True ) /* GravityStatus */
-     , (35140,  19, True ) /* Attackable */;
+VALUES (35140,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35140,   1, 'Mosswart Scrounger') /* Name */

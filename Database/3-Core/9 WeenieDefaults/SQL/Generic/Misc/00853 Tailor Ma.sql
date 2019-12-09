@@ -8,15 +8,10 @@ VALUES (853,   1,        128) /* ItemType - Misc */
      , (853,   5,       9000) /* EncumbranceVal */
      , (853,  16,          1) /* ItemUseable - No */
      , (853,  19,        125) /* Value */
-     , (853,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (853,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (853,   1, True ) /* Stuck */
-     , (853,  11, True ) /* IgnoreCollisions */
-     , (853,  12, True ) /* ReportCollisions */
-     , (853,  13, False) /* Ethereal */
-     , (853,  14, True ) /* GravityStatus */
-     , (853,  19, True ) /* Attackable */;
+VALUES (853,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (853,   1, 'Tailor Ma') /* Name */

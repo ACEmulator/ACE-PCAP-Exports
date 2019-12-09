@@ -12,19 +12,13 @@ VALUES (15186,   1,      65536) /* ItemType - Portal */
      , (15186, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15186,   1, True ) /* Stuck */
-     , (15186,  12, True ) /* ReportCollisions */
-     , (15186,  13, True ) /* Ethereal */
-     , (15186,  14, True ) /* GravityStatus */
-     , (15186,  15, True ) /* LightsStatus */
-     , (15186,  19, True ) /* Attackable */;
+VALUES (15186,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15186,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15186,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15186,   1, 'Return of Mumiyah Cottages Portal') /* Name */
-     , (15186,  38, 'Return of Mumiyah Cottages Portal (6.4S, 4.2E).') /* AppraisalPortalDestination */
      , (15186, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

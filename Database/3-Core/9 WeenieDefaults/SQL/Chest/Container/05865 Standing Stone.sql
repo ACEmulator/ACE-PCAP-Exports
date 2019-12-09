@@ -10,22 +10,18 @@ VALUES (5865,   1,        512) /* ItemType - Container */
      , (5865,   7,         10) /* ContainersCapacity */
      , (5865,  16,         48) /* ItemUseable - ViewedRemote */
      , (5865,  19,       2500) /* Value */
-     , (5865,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (5865,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5865,   1, True ) /* Stuck */
      , (5865,   2, False) /* Open */
-     , (5865,  11, True ) /* IgnoreCollisions */
-     , (5865,  12, True ) /* ReportCollisions */
-     , (5865,  13, False) /* Ethereal */
-     , (5865,  14, True ) /* GravityStatus */
-     , (5865,  19, True ) /* Attackable */;
+     , (5865,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5865,  54,       1) /* UseRadius */
      , (5865, 8010,       0) /* PCAPRecordedVelocityX */
      , (5865, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5865, 8012, -0.135003671050072) /* PCAPRecordedVelocityZ */;
+     , (5865, 8012,   -0.14) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5865,   1, 'Standing Stone') /* Name */

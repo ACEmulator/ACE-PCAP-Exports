@@ -13,21 +13,15 @@ VALUES (42166,   1,      65536) /* ItemType - Portal */
      , (42166, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42166,   1, True ) /* Stuck */
-     , (42166,  12, True ) /* ReportCollisions */
-     , (42166,  13, True ) /* Ethereal */
-     , (42166,  14, True ) /* GravityStatus */
-     , (42166,  15, True ) /* LightsStatus */
-     , (42166,  19, True ) /* Attackable */;
+VALUES (42166,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42166,  39, 0.800000011920929) /* DefaultScale */
-     , (42166,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42166,  39,     0.8) /* DefaultScale */
+     , (42166,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42166,   1, 'Banderling Conquest Dungeon') /* Name */
      , (42166,  16, 'A portal leading to the Banderling Conquest Dungeon where part of the Explorer''s Mace may be found.') /* LongDesc */
-     , (42166,  38, 'Banderling Conquest Dungeon (29.1S, 50.6E).') /* AppraisalPortalDestination */
      , (42166, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

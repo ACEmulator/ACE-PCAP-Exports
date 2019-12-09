@@ -15,14 +15,10 @@ VALUES (42444,   1,         16) /* ItemType - Creature */
      , (42444, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42444,   1, True ) /* Stuck */
-     , (42444,  12, True ) /* ReportCollisions */
-     , (42444,  13, False) /* Ethereal */
-     , (42444,  14, True ) /* GravityStatus */
-     , (42444,  19, True ) /* Attackable */;
+VALUES (42444,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42444,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (42444,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42444,   1, 'Stasis Wisp') /* Name */

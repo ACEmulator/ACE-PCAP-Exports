@@ -12,17 +12,9 @@ VALUES (31881,   1,       2048) /* ItemType - Gem */
      , (31881,  15,          0) /* StackUnitValue */
      , (31881,  16,          1) /* ItemUseable - No */
      , (31881,  18,          1) /* UiEffects - Magical */
-     , (31881,  65,        101) /* Placement - Resting */
      , (31881,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (31881,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31881,   1, False) /* Stuck */
-     , (31881,  11, True ) /* IgnoreCollisions */
-     , (31881,  13, True ) /* Ethereal */
-     , (31881,  14, True ) /* GravityStatus */
-     , (31881,  15, True ) /* LightsStatus */
-     , (31881,  19, True ) /* Attackable */;
+     , (31881,  94,         16) /* TargetType - Creature */
+     , (31881, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31881,   1, 'Brilliant Shard') /* Name */;

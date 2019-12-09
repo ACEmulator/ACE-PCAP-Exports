@@ -12,17 +12,12 @@ VALUES (52631,   1,          1) /* ItemType - MeleeWeapon */
      , (52631,  18,         64) /* UiEffects - Lightning */
      , (52631,  19,        380) /* Value */
      , (52631,  51,          5) /* CombatUse - TwoHanded */
-     , (52631,  65,          1) /* Placement - RightHandCombat */
      , (52631,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52631, 151,          2) /* HookType - Wall */;
+     , (52631, 151,          2) /* HookType - Wall */
+     , (52631, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52631,   1, False) /* Stuck */
-     , (52631,  11, True ) /* IgnoreCollisions */
-     , (52631,  13, True ) /* Ethereal */
-     , (52631,  14, True ) /* GravityStatus */
-     , (52631,  19, True ) /* Attackable */
-     , (52631,  22, True ) /* Inscribable */;
+VALUES (52631,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52631,   1, 'A''nekshen Stormwood Sword') /* Name */;

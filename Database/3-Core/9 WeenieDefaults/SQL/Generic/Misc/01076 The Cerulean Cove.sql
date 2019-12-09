@@ -11,11 +11,7 @@ VALUES (1076,   1,        128) /* ItemType - Misc */
      , (1076,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1076,   1, True ) /* Stuck */
-     , (1076,  11, True ) /* IgnoreCollisions */
-     , (1076,  12, True ) /* ReportCollisions */
-     , (1076,  13, False) /* Ethereal */
-     , (1076,  19, True ) /* Attackable */;
+VALUES (1076,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1076,   1, 'The Cerulean Cove') /* Name */

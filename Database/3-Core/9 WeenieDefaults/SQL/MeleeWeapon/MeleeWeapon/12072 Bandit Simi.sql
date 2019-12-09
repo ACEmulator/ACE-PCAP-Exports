@@ -11,16 +11,11 @@ VALUES (12072,   1,          1) /* ItemType - MeleeWeapon */
      , (12072,  16,          1) /* ItemUseable - No */
      , (12072,  19,        160) /* Value */
      , (12072,  51,          1) /* CombatUse - Melee */
-     , (12072,  65,          1) /* Placement - RightHandCombat */
-     , (12072,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12072,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12072, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12072,   1, False) /* Stuck */
-     , (12072,  11, True ) /* IgnoreCollisions */
-     , (12072,  13, True ) /* Ethereal */
-     , (12072,  14, True ) /* GravityStatus */
-     , (12072,  19, True ) /* Attackable */
-     , (12072,  22, True ) /* Inscribable */;
+VALUES (12072,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12072,   1, 'Bandit Simi') /* Name */;

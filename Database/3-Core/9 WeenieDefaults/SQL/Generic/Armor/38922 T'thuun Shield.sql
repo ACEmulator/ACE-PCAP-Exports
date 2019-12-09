@@ -13,15 +13,8 @@ VALUES (38922,   1,          2) /* ItemType - Armor */
      , (38922,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38922, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38922,   1, False) /* Stuck */
-     , (38922,  11, True ) /* IgnoreCollisions */
-     , (38922,  13, True ) /* Ethereal */
-     , (38922,  14, True ) /* GravityStatus */
-     , (38922,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38922,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (38922,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38922,   1, 'T''thuun Shield') /* Name */;

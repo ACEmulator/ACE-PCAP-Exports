@@ -12,17 +12,10 @@ VALUES (29204,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29204,  15,          0) /* StackUnitValue */
      , (29204,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29204,  19,          0) /* Value */
-     , (29204,  65,        101) /* Placement - Resting */
      , (29204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29204,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (29204, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29204,   1, False) /* Stuck */
-     , (29204,  11, True ) /* IgnoreCollisions */
-     , (29204,  13, True ) /* Ethereal */
-     , (29204,  14, True ) /* GravityStatus */
-     , (29204,  19, True ) /* Attackable */;
+     , (29204, 151,          2) /* HookType - Wall */
+     , (29204, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29204,   1, 'Tusker Spit') /* Name */

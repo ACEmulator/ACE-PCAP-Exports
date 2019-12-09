@@ -11,12 +11,7 @@ VALUES (13172,   1,        128) /* ItemType - Misc */
      , (13172,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13172,   1, True ) /* Stuck */
-     , (13172,  11, True ) /* IgnoreCollisions */
-     , (13172,  12, True ) /* ReportCollisions */
-     , (13172,  13, False) /* Ethereal */
-     , (13172,  14, True ) /* GravityStatus */
-     , (13172,  19, True ) /* Attackable */;
+VALUES (13172,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13172,   1, 'Qalabar Oasis Settlement') /* Name */

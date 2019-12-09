@@ -15,14 +15,10 @@ VALUES (9146,   1,         16) /* ItemType - Creature */
      , (9146, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9146,   1, True ) /* Stuck */
-     , (9146,  12, True ) /* ReportCollisions */
-     , (9146,  13, False) /* Ethereal */
-     , (9146,  14, True ) /* GravityStatus */
-     , (9146,  19, True ) /* Attackable */;
+VALUES (9146,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9146,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (9146,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9146,   1, 'Tumerok South Vanguard Leader') /* Name */

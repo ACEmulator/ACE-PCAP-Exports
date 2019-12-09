@@ -12,19 +12,13 @@ VALUES (11957,   1,      65536) /* ItemType - Portal */
      , (11957, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11957,   1, True ) /* Stuck */
-     , (11957,  12, True ) /* ReportCollisions */
-     , (11957,  13, True ) /* Ethereal */
-     , (11957,  14, True ) /* GravityStatus */
-     , (11957,  15, True ) /* LightsStatus */
-     , (11957,  19, True ) /* Attackable */;
+VALUES (11957,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11957,  54, -0.100000001490116) /* UseRadius */;
+VALUES (11957,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11957,   1, 'Base of the Cliffs Portal') /* Name */
-     , (11957,  38, 'Base of the Cliffs Portal (42.0N, 77.8W).') /* AppraisalPortalDestination */
      , (11957, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

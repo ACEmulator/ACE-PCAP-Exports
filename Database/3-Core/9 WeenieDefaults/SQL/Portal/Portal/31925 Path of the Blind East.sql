@@ -11,15 +11,10 @@ VALUES (31925,   1,      65536) /* ItemType - Portal */
      , (31925, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31925,   1, True ) /* Stuck */
-     , (31925,  12, True ) /* ReportCollisions */
-     , (31925,  13, True ) /* Ethereal */
-     , (31925,  14, True ) /* GravityStatus */
-     , (31925,  15, True ) /* LightsStatus */
-     , (31925,  19, True ) /* Attackable */;
+VALUES (31925,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31925,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31925,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31925,   1, 'Path of the Blind East') /* Name */

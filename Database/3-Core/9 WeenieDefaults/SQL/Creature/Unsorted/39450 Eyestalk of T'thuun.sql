@@ -13,11 +13,7 @@ VALUES (39450,   1,         16) /* ItemType - Creature */
      , (39450, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39450,   1, True ) /* Stuck */
-     , (39450,  12, True ) /* ReportCollisions */
-     , (39450,  13, False) /* Ethereal */
-     , (39450,  14, True ) /* GravityStatus */
-     , (39450,  19, True ) /* Attackable */;
+VALUES (39450,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39450,   1, 'Eyestalk of T''thuun') /* Name */

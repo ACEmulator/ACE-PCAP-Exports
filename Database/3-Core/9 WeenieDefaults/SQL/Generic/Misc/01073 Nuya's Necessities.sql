@@ -11,11 +11,7 @@ VALUES (1073,   1,        128) /* ItemType - Misc */
      , (1073,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1073,   1, True ) /* Stuck */
-     , (1073,  11, True ) /* IgnoreCollisions */
-     , (1073,  12, True ) /* ReportCollisions */
-     , (1073,  13, False) /* Ethereal */
-     , (1073,  19, True ) /* Attackable */;
+VALUES (1073,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1073,   1, 'Nuya''s Necessities') /* Name */

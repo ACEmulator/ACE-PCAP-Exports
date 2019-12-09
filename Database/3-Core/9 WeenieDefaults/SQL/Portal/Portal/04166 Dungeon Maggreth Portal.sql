@@ -12,19 +12,13 @@ VALUES (4166,   1,      65536) /* ItemType - Portal */
      , (4166, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4166,   1, True ) /* Stuck */
-     , (4166,  12, True ) /* ReportCollisions */
-     , (4166,  13, True ) /* Ethereal */
-     , (4166,  14, True ) /* GravityStatus */
-     , (4166,  15, True ) /* LightsStatus */
-     , (4166,  19, True ) /* Attackable */;
+VALUES (4166,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4166,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4166,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4166,   1, 'Dungeon Maggreth Portal') /* Name */
-     , (4166,  38, 'Dungeon Maggreth Portal') /* AppraisalPortalDestination */
      , (4166, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

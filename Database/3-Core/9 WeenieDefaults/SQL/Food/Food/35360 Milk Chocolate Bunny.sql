@@ -17,15 +17,10 @@ VALUES (35360,   1,         32) /* ItemType - Food */
      , (35360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35360,   1, False) /* Stuck */
-     , (35360,  11, True ) /* IgnoreCollisions */
-     , (35360,  13, True ) /* Ethereal */
-     , (35360,  14, True ) /* GravityStatus */
-     , (35360,  19, True ) /* Attackable */
-     , (35360,  69, False) /* IsSellable */;
+VALUES (35360,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35360,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (35360,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35360,   1, 'Milk Chocolate Bunny') /* Name */

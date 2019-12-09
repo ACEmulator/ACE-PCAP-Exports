@@ -13,12 +13,7 @@ VALUES (52263,   1,         16) /* ItemType - Creature */
      , (52263, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52263,   1, True ) /* Stuck */
-     , (52263,  12, True ) /* ReportCollisions */
-     , (52263,  13, True ) /* Ethereal */
-     , (52263,  14, True ) /* GravityStatus */
-     , (52263,  15, True ) /* LightsStatus */
-     , (52263,  19, True ) /* Attackable */;
+VALUES (52263,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52263,   1, 'Pillar of Fire') /* Name */

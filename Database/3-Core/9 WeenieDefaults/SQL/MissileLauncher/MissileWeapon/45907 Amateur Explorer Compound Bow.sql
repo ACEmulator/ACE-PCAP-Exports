@@ -17,15 +17,10 @@ VALUES (45907,   1,        256) /* ItemType - MissileWeapon */
      , (45907, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45907,   1, False) /* Stuck */
-     , (45907,  11, True ) /* IgnoreCollisions */
-     , (45907,  13, True ) /* Ethereal */
-     , (45907,  14, True ) /* GravityStatus */
-     , (45907,  19, True ) /* Attackable */
-     , (45907,  22, True ) /* Inscribable */;
+VALUES (45907,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45907,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (45907,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45907,   1, 'Amateur Explorer Compound Bow') /* Name */;

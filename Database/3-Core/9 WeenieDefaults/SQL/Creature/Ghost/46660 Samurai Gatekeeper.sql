@@ -15,11 +15,7 @@ VALUES (46660,   1,         16) /* ItemType - Creature */
      , (46660, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46660,   1, True ) /* Stuck */
-     , (46660,  12, True ) /* ReportCollisions */
-     , (46660,  13, False) /* Ethereal */
-     , (46660,  14, True ) /* GravityStatus */
-     , (46660,  19, True ) /* Attackable */;
+VALUES (46660,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46660,   1, 'Samurai Gatekeeper') /* Name */

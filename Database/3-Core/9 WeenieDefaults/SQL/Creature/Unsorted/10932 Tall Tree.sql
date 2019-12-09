@@ -14,13 +14,7 @@ VALUES (10932,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10932,   1, True ) /* Stuck */
-     , (10932,  11, True ) /* IgnoreCollisions */
-     , (10932,  12, True ) /* ReportCollisions */
-     , (10932,  13, False) /* Ethereal */
-     , (10932,  14, True ) /* GravityStatus */
-     , (10932,  19, False) /* Attackable */
-     , (10932,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (10932,  42, True ) /* AllowEdgeSlide */;
+     , (10932,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10932,   1, 'Tall Tree') /* Name */

@@ -10,23 +10,18 @@ VALUES (12221,   1,      32768) /* ItemType - Caster */
      , (12221,  16,          1) /* ItemUseable - No */
      , (12221,  18,          1) /* UiEffects - Magical */
      , (12221,  19,         75) /* Value */
-     , (12221,  65,        101) /* Placement - Resting */
      , (12221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12221,  94,         16) /* TargetType - Creature */
-     , (12221, 151,          2) /* HookType - Wall */;
+     , (12221, 151,          2) /* HookType - Wall */
+     , (12221, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12221,   1, False) /* Stuck */
-     , (12221,  11, True ) /* IgnoreCollisions */
-     , (12221,  13, True ) /* Ethereal */
-     , (12221,  14, True ) /* GravityStatus */
-     , (12221,  19, True ) /* Attackable */
-     , (12221,  22, True ) /* Inscribable */;
+VALUES (12221,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12221,  29,       1) /* WeaponDefense */
-     , (12221,  39, 1.20000004768372) /* DefaultScale */
-     , (12221, 144, 1.47282915594514E-314) /* ManaConversionMod */;
+     , (12221,  39,     1.2) /* DefaultScale */
+     , (12221, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12221,   1, 'Drudge Wand') /* Name */

@@ -11,12 +11,7 @@ VALUES (12600,   1,        128) /* ItemType - Misc */
      , (12600,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12600,   1, True ) /* Stuck */
-     , (12600,  11, True ) /* IgnoreCollisions */
-     , (12600,  12, True ) /* ReportCollisions */
-     , (12600,  13, False) /* Ethereal */
-     , (12600,  14, True ) /* GravityStatus */
-     , (12600,  19, True ) /* Attackable */;
+VALUES (12600,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12600,   1, 'Eaves of Tiofor Settlement') /* Name */

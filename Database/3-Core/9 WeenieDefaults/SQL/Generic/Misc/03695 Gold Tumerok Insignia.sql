@@ -8,19 +8,14 @@ VALUES (3695,   1,        128) /* ItemType - Misc */
      , (3695,   5,        150) /* EncumbranceVal */
      , (3695,  16,          1) /* ItemUseable - No */
      , (3695,  19,        200) /* Value */
-     , (3695,  65,        101) /* Placement - Resting */
-     , (3695,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (3695,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3695, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3695,   1, False) /* Stuck */
-     , (3695,  11, True ) /* IgnoreCollisions */
-     , (3695,  13, True ) /* Ethereal */
-     , (3695,  14, True ) /* GravityStatus */
-     , (3695,  19, True ) /* Attackable */
-     , (3695,  22, True ) /* Inscribable */;
+VALUES (3695,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3695,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (3695,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3695,   1, 'Gold Tumerok Insignia') /* Name */;

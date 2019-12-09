@@ -14,13 +14,6 @@ VALUES (29119,   1,         32) /* ItemType - Food */
      , (29119,  19,         10) /* Value */
      , (29119,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29119,   1, False) /* Stuck */
-     , (29119,  11, True ) /* IgnoreCollisions */
-     , (29119,  13, True ) /* Ethereal */
-     , (29119,  14, True ) /* GravityStatus */
-     , (29119,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29119,   1, 'Glorious Stout') /* Name */
      , (29119,  20, 'Bottles of Glorious Stout') /* PluralName */;

@@ -18,13 +18,7 @@ VALUES (45495,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45495,   1, True ) /* Stuck */
-     , (45495,  11, True ) /* IgnoreCollisions */
-     , (45495,  12, True ) /* ReportCollisions */
-     , (45495,  13, False) /* Ethereal */
-     , (45495,  14, True ) /* GravityStatus */
-     , (45495,  19, False) /* Attackable */
-     , (45495,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45495,  42, True ) /* AllowEdgeSlide */;
+     , (45495,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45495,   1, 'Emissary of Asheron') /* Name */

@@ -13,17 +13,12 @@ VALUES (53174,   1,       2048) /* ItemType - Gem */
      , (53174,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53174,  18,        256) /* UiEffects - Acid */
      , (53174,  19,         25) /* Value */
-     , (53174,  65,        101) /* Placement - Resting */
      , (53174,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53174,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (53174,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (53174, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53174,   1, False) /* Stuck */
-     , (53174,  11, True ) /* IgnoreCollisions */
-     , (53174,  13, True ) /* Ethereal */
-     , (53174,  14, True ) /* GravityStatus */
-     , (53174,  19, True ) /* Attackable */
-     , (53174,  22, True ) /* Inscribable */;
+VALUES (53174,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53174,   1, 'Luminous Amber of the 29th Tier Paragon') /* Name */

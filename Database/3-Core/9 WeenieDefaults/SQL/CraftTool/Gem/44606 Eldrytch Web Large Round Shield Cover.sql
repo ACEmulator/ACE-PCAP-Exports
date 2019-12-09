@@ -13,20 +13,15 @@ VALUES (44606,   1,       2048) /* ItemType - Gem */
      , (44606,  15,         50) /* StackUnitValue */
      , (44606,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44606,  19,         50) /* Value */
-     , (44606,  65,        101) /* Placement - Resting */
      , (44606,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44606,  94,          2) /* TargetType - Armor */;
+     , (44606,  94,          2) /* TargetType - Armor */
+     , (44606, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44606,   1, False) /* Stuck */
-     , (44606,  11, True ) /* IgnoreCollisions */
-     , (44606,  13, True ) /* Ethereal */
-     , (44606,  14, True ) /* GravityStatus */
-     , (44606,  19, True ) /* Attackable */
-     , (44606,  22, True ) /* Inscribable */;
+VALUES (44606,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44606,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44606,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44606,   1, 'Eldrytch Web Large Round Shield Cover') /* Name */;

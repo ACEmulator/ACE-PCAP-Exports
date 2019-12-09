@@ -16,12 +16,7 @@ VALUES (40360,   1,        128) /* ItemType - Misc */
      , (40360,  94,      33025) /* TargetType - WeaponOrCaster */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40360,   1, False) /* Stuck */
-     , (40360,  11, True ) /* IgnoreCollisions */
-     , (40360,  13, True ) /* Ethereal */
-     , (40360,  14, True ) /* GravityStatus */
-     , (40360,  19, True ) /* Attackable */
-     , (40360,  22, True ) /* Inscribable */;
+VALUES (40360,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40360,   1, 'Nutrient Oil Soaked Totem') /* Name */;

@@ -13,11 +13,7 @@ VALUES (9381,   1,         16) /* ItemType - Creature */
      , (9381, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9381,   1, True ) /* Stuck */
-     , (9381,  12, True ) /* ReportCollisions */
-     , (9381,  13, False) /* Ethereal */
-     , (9381,  14, True ) /* GravityStatus */
-     , (9381,  19, True ) /* Attackable */;
+VALUES (9381,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9381,   1, 'Esard the Legate') /* Name */

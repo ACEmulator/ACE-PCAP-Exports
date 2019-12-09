@@ -8,18 +8,11 @@ VALUES (9595,   1,       8192) /* ItemType - Writable */
      , (9595,   5,          5) /* EncumbranceVal */
      , (9595,  16,          8) /* ItemUseable - Contained */
      , (9595,  19,          5) /* Value */
-     , (9595,  65,        101) /* Placement - Resting */
-     , (9595,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9595,   1, False) /* Stuck */
-     , (9595,  11, True ) /* IgnoreCollisions */
-     , (9595,  13, True ) /* Ethereal */
-     , (9595,  14, True ) /* GravityStatus */
-     , (9595,  19, True ) /* Attackable */;
+     , (9595,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9595, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9595,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (9595,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9595,   1, 'Handbook of the Bestowers'' Guild') /* Name */;

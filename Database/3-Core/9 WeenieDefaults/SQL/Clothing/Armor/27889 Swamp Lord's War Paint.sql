@@ -11,31 +11,26 @@ VALUES (27889,   1,          2) /* ItemType - Armor */
      , (27889,  16,          1) /* ItemUseable - No */
      , (27889,  19,       1500) /* Value */
      , (27889,  28,        190) /* ArmorLevel */
-     , (27889,  65,        101) /* Placement - Resting */
      , (27889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27889, 106,        150) /* ItemSpellcraft */
      , (27889, 107,        524) /* ItemCurMana */
      , (27889, 108,        650) /* ItemMaxMana */
-     , (27889, 109,        145) /* ItemDifficulty */;
+     , (27889, 109,        145) /* ItemDifficulty */
+     , (27889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27889,   1, False) /* Stuck */
-     , (27889,  11, True ) /* IgnoreCollisions */
-     , (27889,  13, True ) /* Ethereal */
-     , (27889,  14, True ) /* GravityStatus */
-     , (27889,  19, True ) /* Attackable */
-     , (27889,  22, True ) /* Inscribable */
+VALUES (27889,  22, True ) /* Inscribable */
      , (27889, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27889,   5, -0.0333000011742115) /* ManaRate */
+VALUES (27889,   5,   -0.03) /* ManaRate */
      , (27889,  13,       1) /* ArmorModVsSlash */
      , (27889,  14,       1) /* ArmorModVsPierce */
      , (27889,  15,       1) /* ArmorModVsBludgeon */
-     , (27889,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (27889,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (27889,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (27889,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (27889,  16,     0.4) /* ArmorModVsCold */
+     , (27889,  17,     0.6) /* ArmorModVsFire */
+     , (27889,  18,     0.6) /* ArmorModVsAcid */
+     , (27889,  19,     0.4) /* ArmorModVsElectric */
      , (27889, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

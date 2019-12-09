@@ -16,22 +16,17 @@ VALUES (30240,   1,       2048) /* ItemType - Gem */
      , (30240,  19,          0) /* Value */
      , (30240,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30240,  33,         -1) /* Bonded - Slippery */
-     , (30240,  65,        101) /* Placement - Resting */
      , (30240,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30240,  94,         16) /* TargetType - Creature */
      , (30240, 106,        325) /* ItemSpellcraft */
      , (30240, 107,      10000) /* ItemCurMana */
      , (30240, 108,      10000) /* ItemMaxMana */
      , (30240, 109,          0) /* ItemDifficulty */
-     , (30240, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30240, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30240, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30240,   1, False) /* Stuck */
-     , (30240,  11, True ) /* IgnoreCollisions */
-     , (30240,  13, True ) /* Ethereal */
-     , (30240,  14, True ) /* GravityStatus */
-     , (30240,  19, True ) /* Attackable */
-     , (30240, 108, True ) /* RareUsesTimer */;
+VALUES (30240, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30240,   1, 'Lugian''s Pearl') /* Name */

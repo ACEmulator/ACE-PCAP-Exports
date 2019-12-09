@@ -12,20 +12,14 @@ VALUES (42821,   1,      65536) /* ItemType - Portal */
      , (42821, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42821,   1, True ) /* Stuck */
-     , (42821,  12, True ) /* ReportCollisions */
-     , (42821,  13, True ) /* Ethereal */
-     , (42821,  14, True ) /* GravityStatus */
-     , (42821,  15, True ) /* LightsStatus */
-     , (42821,  19, True ) /* Attackable */;
+VALUES (42821,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42821,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42821,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42821,   1, 'Uziz Portal') /* Name */
      , (42821,  16, 'This portal goes to the town of Uziz in the heart of the Yushad Ridge. This is a good town for characters over level 20.') /* LongDesc */
-     , (42821,  38, 'Uziz Portal (24.8S, 28.4E).') /* AppraisalPortalDestination */
      , (42821, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

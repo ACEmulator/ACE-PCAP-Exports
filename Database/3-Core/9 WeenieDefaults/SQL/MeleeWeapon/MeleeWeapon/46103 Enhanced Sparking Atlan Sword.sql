@@ -17,7 +17,6 @@ VALUES (46103,   1,          1) /* ItemType - MeleeWeapon */
      , (46103,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46103,  49,         35) /* WeaponTime */
      , (46103,  51,          1) /* CombatUse - Melee */
-     , (46103,  65,        101) /* Placement - Resting */
      , (46103,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46103, 106,        350) /* ItemSpellcraft */
      , (46103, 107,        750) /* ItemCurMana */
@@ -29,20 +28,16 @@ VALUES (46103,   1,          1) /* ItemType - MeleeWeapon */
      , (46103, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (46103, 160,        400) /* WieldDifficulty */
      , (46103, 263,         64) /* ResistanceModifierType */
-     , (46103, 8030,          0);
+     , (46103, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46103, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46103,   1, False) /* Stuck */
-     , (46103,  11, True ) /* IgnoreCollisions */
-     , (46103,  13, True ) /* Ethereal */
-     , (46103,  14, True ) /* GravityStatus */
-     , (46103,  19, True ) /* Attackable */
-     , (46103,  22, True ) /* Inscribable */
+VALUES (46103,  22, True ) /* Inscribable */
      , (46103,  69, False) /* IsSellable */
      , (46103,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46103,   5,  -0.033) /* ManaRate */
+VALUES (46103,   5,   -0.03) /* ManaRate */
      , (46103,  21,       0) /* WeaponLength */
      , (46103,  22,    0.43) /* DamageVariance */
      , (46103,  26,       0) /* MaximumVelocity */

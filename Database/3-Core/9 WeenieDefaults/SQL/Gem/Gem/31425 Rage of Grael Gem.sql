@@ -13,7 +13,6 @@ VALUES (31425,   1,       2048) /* ItemType - Gem */
      , (31425,  16,          8) /* ItemUseable - Contained */
      , (31425,  18,          1) /* UiEffects - Magical */
      , (31425,  19,          0) /* Value */
-     , (31425,  65,        101) /* Placement - Resting */
      , (31425,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31425,  94,         16) /* TargetType - Creature */
      , (31425, 106,        210) /* ItemSpellcraft */
@@ -21,14 +20,8 @@ VALUES (31425,   1,       2048) /* ItemType - Gem */
      , (31425, 108,        200) /* ItemMaxMana */
      , (31425, 109,          0) /* ItemDifficulty */
      , (31425, 110,          0) /* ItemAllegianceRankLimit */
-     , (31425, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31425,   1, False) /* Stuck */
-     , (31425,  11, True ) /* IgnoreCollisions */
-     , (31425,  13, True ) /* Ethereal */
-     , (31425,  14, True ) /* GravityStatus */
-     , (31425,  19, True ) /* Attackable */;
+     , (31425, 151,          2) /* HookType - Wall */
+     , (31425, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31425,   1, 'Rage of Grael Gem') /* Name */

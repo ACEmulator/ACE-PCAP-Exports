@@ -13,17 +13,12 @@ VALUES (38237,   1,         64) /* ItemType - Money */
      , (38237,  16,          1) /* ItemUseable - No */
      , (38237,  19,          0) /* Value */
      , (38237,  33,          1) /* Bonded - Bonded */
-     , (38237,  65,        101) /* Placement - Resting */
      , (38237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38237, 114,          1) /* Attuned - Attuned */;
+     , (38237, 114,          1) /* Attuned - Attuned */
+     , (38237, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38237,   1, False) /* Stuck */
-     , (38237,  11, True ) /* IgnoreCollisions */
-     , (38237,  13, True ) /* Ethereal */
-     , (38237,  14, True ) /* GravityStatus */
-     , (38237,  19, True ) /* Attackable */
-     , (38237,  69, False) /* IsSellable */;
+VALUES (38237,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38237,   1, 'Eldrytch Web Trade Token') /* Name */

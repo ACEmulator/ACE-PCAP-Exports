@@ -15,22 +15,17 @@ VALUES (45368,   1,       2048) /* ItemType - Gem */
      , (45368,  18,          1) /* UiEffects - Magical */
      , (45368,  19,          0) /* Value */
      , (45368,  33,         -1) /* Bonded - Slippery */
-     , (45368,  65,        101) /* Placement - Resting */
      , (45368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45368,  94,         16) /* TargetType - Creature */
      , (45368, 106,        325) /* ItemSpellcraft */
      , (45368, 107,      10000) /* ItemCurMana */
      , (45368, 108,      10000) /* ItemMaxMana */
      , (45368, 109,          0) /* ItemDifficulty */
-     , (45368, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (45368, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (45368, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45368,   1, False) /* Stuck */
-     , (45368,  11, True ) /* IgnoreCollisions */
-     , (45368,  13, True ) /* Ethereal */
-     , (45368,  14, True ) /* GravityStatus */
-     , (45368,  19, True ) /* Attackable */
-     , (45368, 108, True ) /* RareUsesTimer */;
+VALUES (45368, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45368,   1, 'Berzerker''s Crystal') /* Name */

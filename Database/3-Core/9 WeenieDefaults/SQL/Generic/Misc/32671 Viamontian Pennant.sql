@@ -13,13 +13,6 @@ VALUES (32671,   1,        128) /* ItemType - Misc */
      , (32671,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32671, 114,          1) /* Attuned - Attuned */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32671,   1, False) /* Stuck */
-     , (32671,  11, True ) /* IgnoreCollisions */
-     , (32671,  13, True ) /* Ethereal */
-     , (32671,  14, True ) /* GravityStatus */
-     , (32671,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32671,   1, 'Viamontian Pennant') /* Name */
      , (32671,  15, 'A pennant found upon the corpse of the captain of Pietrus Castle.') /* ShortDesc */;

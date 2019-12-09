@@ -12,17 +12,12 @@ VALUES (34098,   1,        128) /* ItemType - Misc */
      , (34098,  15,          0) /* StackUnitValue */
      , (34098,  16,          1) /* ItemUseable - No */
      , (34098,  19,          0) /* Value */
-     , (34098,  65,        101) /* Placement - Resting */
      , (34098,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34098, 151,          2) /* HookType - Wall */;
+     , (34098, 151,          2) /* HookType - Wall */
+     , (34098, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34098,   1, False) /* Stuck */
-     , (34098,  11, True ) /* IgnoreCollisions */
-     , (34098,  13, True ) /* Ethereal */
-     , (34098,  14, True ) /* GravityStatus */
-     , (34098,  19, True ) /* Attackable */
-     , (34098,  22, True ) /* Inscribable */;
+VALUES (34098,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34098,   1, 'Fresh Zombie Leg') /* Name */

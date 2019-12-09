@@ -11,22 +11,17 @@ VALUES (4916,   1,      32768) /* ItemType - Caster */
      , (4916,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (4916,  18,          1) /* UiEffects - Magical */
      , (4916,  19,         10) /* Value */
-     , (4916,  65,          1) /* Placement - RightHandCombat */
      , (4916,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4916,  94,         16) /* TargetType - Creature */
-     , (4916, 151,          2) /* HookType - Wall */;
+     , (4916, 151,          2) /* HookType - Wall */
+     , (4916, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4916,   1, False) /* Stuck */
-     , (4916,  11, True ) /* IgnoreCollisions */
-     , (4916,  13, True ) /* Ethereal */
-     , (4916,  14, True ) /* GravityStatus */
-     , (4916,  19, True ) /* Attackable */
-     , (4916,  22, True ) /* Inscribable */;
+VALUES (4916,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4916,  29,       1) /* WeaponDefense */
-     , (4916, 144, 1.0830312682694E-314) /* ManaConversionMod */;
+     , (4916, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4916,   1, 'Gharu''ndim Wand') /* Name */;

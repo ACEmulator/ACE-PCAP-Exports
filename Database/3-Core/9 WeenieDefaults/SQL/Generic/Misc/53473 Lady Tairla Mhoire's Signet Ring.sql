@@ -9,21 +9,16 @@ VALUES (53473,   1,        128) /* ItemType - Misc */
      , (53473,  16,          1) /* ItemUseable - No */
      , (53473,  19,          0) /* Value */
      , (53473,  33,          1) /* Bonded - Bonded */
-     , (53473,  65,        101) /* Placement - Resting */
      , (53473,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53473, 114,          1) /* Attuned - Attuned */;
+     , (53473, 114,          1) /* Attuned - Attuned */
+     , (53473, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53473,   1, False) /* Stuck */
-     , (53473,  11, True ) /* IgnoreCollisions */
-     , (53473,  13, True ) /* Ethereal */
-     , (53473,  14, True ) /* GravityStatus */
-     , (53473,  19, True ) /* Attackable */
-     , (53473,  22, True ) /* Inscribable */
+VALUES (53473,  22, True ) /* Inscribable */
      , (53473,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53473,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (53473,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53473,   1, 'Lady Tairla Mhoire''s Signet Ring') /* Name */

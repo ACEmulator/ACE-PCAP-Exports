@@ -22,17 +22,12 @@ VALUES (4704,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4704,   1, True ) /* Stuck */
-     , (4704,  11, True ) /* IgnoreCollisions */
-     , (4704,  12, True ) /* ReportCollisions */
-     , (4704,  13, False) /* Ethereal */
-     , (4704,  14, True ) /* GravityStatus */
      , (4704,  19, False) /* Attackable */
-     , (4704,  39, True ) /* DealMagicalItems */
-     , (4704,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (4704,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4704,  37, 0.899999976158142) /* BuyPrice */
-     , (4704,  38, 1.54999995231628) /* SellPrice */
+VALUES (4704,  37,     0.9) /* BuyPrice */
+     , (4704,  38,    1.55) /* SellPrice */
      , (4704,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

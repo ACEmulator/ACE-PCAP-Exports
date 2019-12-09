@@ -17,7 +17,6 @@ VALUES (21356,   1,          1) /* ItemType - MeleeWeapon */
      , (21356,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (21356,  49,         30) /* WeaponTime */
      , (21356,  51,          1) /* CombatUse - Melee */
-     , (21356,  65,        101) /* Placement - Resting */
      , (21356,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21356, 114,          1) /* Attuned - Attuned */
      , (21356, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (21356,   1,          1) /* ItemType - MeleeWeapon */
      , (21356, 160,        275) /* WieldDifficulty */
      , (21356, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */
      , (21356, 353,          4) /* WeaponType - Mace */
-     , (21356, 8030,          0);
+     , (21356, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21356, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21356,   1, False) /* Stuck */
-     , (21356,  11, True ) /* IgnoreCollisions */
-     , (21356,  13, True ) /* Ethereal */
-     , (21356,  14, True ) /* GravityStatus */
-     , (21356,  15, True ) /* LightsStatus */
-     , (21356,  19, True ) /* Attackable */
-     , (21356,  22, True ) /* Inscribable */
+VALUES (21356,  22, True ) /* Inscribable */
      , (21356,  69, False) /* IsSellable */
      , (21356,  99, True ) /* Ivoryable */;
 
@@ -46,7 +40,7 @@ VALUES (21356,  21,       0) /* WeaponLength */
      , (21356,  29,       1) /* WeaponDefense */
      , (21356,  62,    1.15) /* WeaponOffense */
      , (21356,  63,       1) /* DamageMod */
-     , (21356,  76, 0.699999988079071) /* Translucency */;
+     , (21356,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21356,   1, 'Phantom Mace') /* Name */

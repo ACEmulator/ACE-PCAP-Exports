@@ -18,7 +18,6 @@ VALUES (42932,   1,          1) /* ItemType - MeleeWeapon */
      , (42932,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (42932,  49,         35) /* WeaponTime */
      , (42932,  51,          5) /* CombatUse - TwoHanded */
-     , (42932,  65,          1) /* Placement - RightHandCombat */
      , (42932,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (42932, 106,        475) /* ItemSpellcraft */
      , (42932, 107,       2661) /* ItemCurMana */
@@ -30,16 +29,11 @@ VALUES (42932,   1,          1) /* ItemType - MeleeWeapon */
      , (42932, 263,          1) /* ResistanceModifierType */
      , (42932, 292,          3) /* Cleaving */
      , (42932, 353,         11) /* WeaponType - TwoHanded */
-     , (42932, 8030,          0);
+     , (42932, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (42932, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42932,   1, False) /* Stuck */
-     , (42932,  11, True ) /* IgnoreCollisions */
-     , (42932,  13, True ) /* Ethereal */
-     , (42932,  14, True ) /* GravityStatus */
-     , (42932,  15, True ) /* LightsStatus */
-     , (42932,  19, True ) /* Attackable */
-     , (42932,  22, True ) /* Inscribable */;
+VALUES (42932,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42932,   5,   -0.05) /* ManaRate */
@@ -47,7 +41,7 @@ VALUES (42932,   5,   -0.05) /* ManaRate */
      , (42932,  22,    0.25) /* DamageVariance */
      , (42932,  26,       0) /* MaximumVelocity */
      , (42932,  29,    1.15) /* WeaponDefense */
-     , (42932,  39, 1.10000002384186) /* DefaultScale */
+     , (42932,  39,     1.1) /* DefaultScale */
      , (42932,  62,     1.2) /* WeaponOffense */
      , (42932,  63,       1) /* DamageMod */
      , (42932, 147,       1) /* CriticalFrequency */

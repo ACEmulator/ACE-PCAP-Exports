@@ -12,19 +12,13 @@ VALUES (12493,   1,      65536) /* ItemType - Portal */
      , (12493, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12493,   1, True ) /* Stuck */
-     , (12493,  12, True ) /* ReportCollisions */
-     , (12493,  13, True ) /* Ethereal */
-     , (12493,  14, True ) /* GravityStatus */
-     , (12493,  15, True ) /* LightsStatus */
-     , (12493,  19, True ) /* Attackable */;
+VALUES (12493,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12493,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12493,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12493,   1, 'East Span Way Settlement Portal') /* Name */
-     , (12493,  38, 'East Span Way Settlement Portal (32.9N, 48.4E).') /* AppraisalPortalDestination */
      , (12493, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,19 +12,13 @@ VALUES (15194,   1,      65536) /* ItemType - Portal */
      , (15194, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15194,   1, True ) /* Stuck */
-     , (15194,  12, True ) /* ReportCollisions */
-     , (15194,  13, True ) /* Ethereal */
-     , (15194,  14, True ) /* GravityStatus */
-     , (15194,  15, True ) /* LightsStatus */
-     , (15194,  19, True ) /* Attackable */;
+VALUES (15194,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15194,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15194,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15194,   1, 'Stormtree Villas Portal') /* Name */
-     , (15194,  38, 'Stormtree Villas Portal (56.0N, 35.1W).') /* AppraisalPortalDestination */
      , (15194, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

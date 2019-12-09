@@ -12,18 +12,13 @@ VALUES (11469,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (11469,  15,         10) /* StackUnitValue */
      , (11469,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11469,  19,         10) /* Value */
-     , (11469,  65,        101) /* Placement - Resting */
      , (11469,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11469,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (11469, 151,          9) /* HookType - Floor, Yard */;
+     , (11469, 151,          9) /* HookType - Floor, Yard */
+     , (11469, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11469,   1, False) /* Stuck */
-     , (11469,  11, True ) /* IgnoreCollisions */
-     , (11469,  13, True ) /* Ethereal */
-     , (11469,  14, True ) /* GravityStatus */
-     , (11469,  19, True ) /* Attackable */
-     , (11469,  69, False) /* IsSellable */;
+VALUES (11469,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11469,   1, 'Vial of Thananim Dye') /* Name */

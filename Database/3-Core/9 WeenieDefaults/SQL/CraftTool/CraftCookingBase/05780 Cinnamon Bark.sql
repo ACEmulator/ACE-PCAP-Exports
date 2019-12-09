@@ -12,20 +12,15 @@ VALUES (5780,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5780,  15,          5) /* StackUnitValue */
      , (5780,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5780,  19,          5) /* Value */
-     , (5780,  65,        101) /* Placement - Resting */
      , (5780,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5780,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
+     , (5780,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (5780, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5780,   1, False) /* Stuck */
-     , (5780,  11, True ) /* IgnoreCollisions */
-     , (5780,  13, True ) /* Ethereal */
-     , (5780,  14, True ) /* GravityStatus */
-     , (5780,  19, True ) /* Attackable */
-     , (5780,  69, False) /* IsSellable */;
+VALUES (5780,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5780,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (5780,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5780,   1, 'Cinnamon Bark') /* Name */

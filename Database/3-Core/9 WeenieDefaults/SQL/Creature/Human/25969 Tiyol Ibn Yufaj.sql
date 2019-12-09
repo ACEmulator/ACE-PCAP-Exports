@@ -17,11 +17,7 @@ VALUES (25969,   1,         16) /* ItemType - Creature */
      , (25969, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25969,   1, True ) /* Stuck */
-     , (25969,  12, True ) /* ReportCollisions */
-     , (25969,  13, False) /* Ethereal */
-     , (25969,  14, True ) /* GravityStatus */
-     , (25969,  19, True ) /* Attackable */;
+VALUES (25969,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25969,   1, 'Tiyol Ibn Yufaj') /* Name */

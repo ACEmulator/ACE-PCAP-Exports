@@ -12,32 +12,27 @@ VALUES (12214,   1,          2) /* ItemType - Armor */
      , (12214,  18,          1) /* UiEffects - Magical */
      , (12214,  19,       4000) /* Value */
      , (12214,  28,        250) /* ArmorLevel */
-     , (12214,  65,        101) /* Placement - Resting */
      , (12214,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12214, 106,        250) /* ItemSpellcraft */
      , (12214, 107,        400) /* ItemCurMana */
      , (12214, 108,        400) /* ItemMaxMana */
      , (12214, 109,        100) /* ItemDifficulty */
      , (12214, 151,          2) /* HookType - Wall */
-     , (12214, 188,          3) /* HeritageGroup - Sho */;
+     , (12214, 188,          3) /* HeritageGroup - Sho */
+     , (12214, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12214,   1, False) /* Stuck */
-     , (12214,  11, True ) /* IgnoreCollisions */
-     , (12214,  13, True ) /* Ethereal */
-     , (12214,  14, True ) /* GravityStatus */
-     , (12214,  19, True ) /* Attackable */
-     , (12214,  22, True ) /* Inscribable */;
+VALUES (12214,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12214,   5, -0.0333000011742115) /* ManaRate */
-     , (12214,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (12214,  14, 1.29999995231628) /* ArmorModVsPierce */
+VALUES (12214,   5,   -0.03) /* ManaRate */
+     , (12214,  13,     1.3) /* ArmorModVsSlash */
+     , (12214,  14,     1.3) /* ArmorModVsPierce */
      , (12214,  15,       1) /* ArmorModVsBludgeon */
      , (12214,  16,     1.5) /* ArmorModVsCold */
      , (12214,  17,       1) /* ArmorModVsFire */
      , (12214,  18,     1.5) /* ArmorModVsAcid */
-     , (12214,  19, 1.20000004768372) /* ArmorModVsElectric */
+     , (12214,  19,     1.2) /* ArmorModVsElectric */
      , (12214, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

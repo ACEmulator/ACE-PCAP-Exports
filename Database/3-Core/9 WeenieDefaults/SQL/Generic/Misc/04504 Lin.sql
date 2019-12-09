@@ -8,16 +8,11 @@ VALUES (4504,   1,        128) /* ItemType - Misc */
      , (4504,   5,       9000) /* EncumbranceVal */
      , (4504,  16,          1) /* ItemUseable - No */
      , (4504,  19,        125) /* Value */
-     , (4504,  65,        101) /* Placement - Resting */
-     , (4504,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (4504,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (4504, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4504,   1, True ) /* Stuck */
-     , (4504,  11, True ) /* IgnoreCollisions */
-     , (4504,  12, True ) /* ReportCollisions */
-     , (4504,  13, False) /* Ethereal */
-     , (4504,  14, True ) /* GravityStatus */
-     , (4504,  19, True ) /* Attackable */;
+VALUES (4504,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4504,   1, 'Lin') /* Name */

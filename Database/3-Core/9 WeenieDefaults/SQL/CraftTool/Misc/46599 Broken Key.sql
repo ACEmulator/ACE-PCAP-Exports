@@ -12,20 +12,15 @@ VALUES (46599,   1,        128) /* ItemType - Misc */
      , (46599,  15,          0) /* StackUnitValue */
      , (46599,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (46599,  19,          0) /* Value */
-     , (46599,  65,        101) /* Placement - Resting */
      , (46599,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46599,  94,        128) /* TargetType - Misc */
      , (46599,  98, 1485730301) /* CreationTimestamp */
      , (46599, 267,       3600) /* Lifespan */
-     , (46599, 268,       3596) /* RemainingLifespan */;
+     , (46599, 268,       3596) /* RemainingLifespan */
+     , (46599, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46599,   1, False) /* Stuck */
-     , (46599,  11, True ) /* IgnoreCollisions */
-     , (46599,  13, True ) /* Ethereal */
-     , (46599,  14, True ) /* GravityStatus */
-     , (46599,  19, True ) /* Attackable */
-     , (46599,  22, True ) /* Inscribable */
+VALUES (46599,  22, True ) /* Inscribable */
      , (46599,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

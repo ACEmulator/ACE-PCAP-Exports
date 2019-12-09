@@ -11,9 +11,6 @@ VALUES (23929,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23929,   1, True ) /* Stuck */
-     , (23929,  11, True ) /* IgnoreCollisions */
-     , (23929,  13, False) /* Ethereal */
-     , (23929,  19, True ) /* Attackable */
      , (23929,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

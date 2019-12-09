@@ -13,21 +13,14 @@ VALUES (9192,   1,       2048) /* ItemType - Gem */
      , (9192,  16,          8) /* ItemUseable - Contained */
      , (9192,  18,          1) /* UiEffects - Magical */
      , (9192,  19,        500) /* Value */
-     , (9192,  65,        101) /* Placement - Resting */
      , (9192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9192,  94,         16) /* TargetType - Creature */
      , (9192, 106,        210) /* ItemSpellcraft */
      , (9192, 107,        100) /* ItemCurMana */
      , (9192, 108,        200) /* ItemMaxMana */
      , (9192, 109,          0) /* ItemDifficulty */
-     , (9192, 110,          0) /* ItemAllegianceRankLimit */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9192,   1, False) /* Stuck */
-     , (9192,  11, True ) /* IgnoreCollisions */
-     , (9192,  13, True ) /* Ethereal */
-     , (9192,  14, True ) /* GravityStatus */
-     , (9192,  19, True ) /* Attackable */;
+     , (9192, 110,          0) /* ItemAllegianceRankLimit */
+     , (9192, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9192,   1, 'Gem of Purity') /* Name */

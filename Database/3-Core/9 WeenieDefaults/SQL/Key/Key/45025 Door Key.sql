@@ -8,19 +8,14 @@ VALUES (45025,   1,      16384) /* ItemType - Key */
      , (45025,   5,         50) /* EncumbranceVal */
      , (45025,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (45025,  19,        100) /* Value */
-     , (45025,  65,        101) /* Placement - Resting */
      , (45025,  91,          1) /* MaxStructure */
      , (45025,  92,          1) /* Structure */
      , (45025,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45025,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (45025,  94,        640) /* TargetType - LockableMagicTarget */
+     , (45025, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45025,   1, False) /* Stuck */
-     , (45025,  11, True ) /* IgnoreCollisions */
-     , (45025,  13, True ) /* Ethereal */
-     , (45025,  14, True ) /* GravityStatus */
-     , (45025,  19, True ) /* Attackable */
-     , (45025,  22, True ) /* Inscribable */;
+VALUES (45025,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45025,   1, 'Door Key') /* Name */

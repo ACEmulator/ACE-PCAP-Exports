@@ -11,12 +11,7 @@ VALUES (15696,   1,        128) /* ItemType - Misc */
      , (15696,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15696,   1, True ) /* Stuck */
-     , (15696,  11, True ) /* IgnoreCollisions */
-     , (15696,  12, True ) /* ReportCollisions */
-     , (15696,  13, False) /* Ethereal */
-     , (15696,  14, True ) /* GravityStatus */
-     , (15696,  19, True ) /* Attackable */;
+VALUES (15696,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15696,   1, 'Colier View Hill') /* Name */;

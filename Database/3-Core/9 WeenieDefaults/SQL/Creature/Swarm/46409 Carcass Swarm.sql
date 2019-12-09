@@ -15,11 +15,7 @@ VALUES (46409,   1,         16) /* ItemType - Creature */
      , (46409, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46409,   1, True ) /* Stuck */
-     , (46409,  12, True ) /* ReportCollisions */
-     , (46409,  13, False) /* Ethereal */
-     , (46409,  14, True ) /* GravityStatus */
-     , (46409,  19, True ) /* Attackable */;
+VALUES (46409,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46409,   1, 'Carcass Swarm') /* Name */

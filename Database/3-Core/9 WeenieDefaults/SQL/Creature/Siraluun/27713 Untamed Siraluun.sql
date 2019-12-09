@@ -15,14 +15,10 @@ VALUES (27713,   1,         16) /* ItemType - Creature */
      , (27713, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27713,   1, True ) /* Stuck */
-     , (27713,  12, True ) /* ReportCollisions */
-     , (27713,  13, False) /* Ethereal */
-     , (27713,  14, True ) /* GravityStatus */
-     , (27713,  19, True ) /* Attackable */;
+VALUES (27713,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27713,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (27713,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27713,   1, 'Untamed Siraluun') /* Name */

@@ -17,15 +17,10 @@ VALUES (51474,   1,       2048) /* ItemType - Gem */
      , (51474, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51474,   1, False) /* Stuck */
-     , (51474,  11, True ) /* IgnoreCollisions */
-     , (51474,  13, True ) /* Ethereal */
-     , (51474,  14, True ) /* GravityStatus */
-     , (51474,  19, True ) /* Attackable */
-     , (51474,  22, True ) /* Inscribable */;
+VALUES (51474,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51474,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (51474,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51474,   1, 'Orb of the Bunny Booty') /* Name */;

@@ -16,14 +16,10 @@ VALUES (36835,   1,         16) /* ItemType - Creature */
      , (36835, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36835,   1, True ) /* Stuck */
-     , (36835,  12, True ) /* ReportCollisions */
-     , (36835,  13, False) /* Ethereal */
-     , (36835,  14, True ) /* GravityStatus */
-     , (36835,  19, True ) /* Attackable */;
+VALUES (36835,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36835,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (36835,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36835,   1, 'Dire Champion Lugian') /* Name */

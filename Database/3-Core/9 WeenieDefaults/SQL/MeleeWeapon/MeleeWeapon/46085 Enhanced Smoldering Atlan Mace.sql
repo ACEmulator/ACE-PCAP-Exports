@@ -11,17 +11,12 @@ VALUES (46085,   1,          1) /* ItemType - MeleeWeapon */
      , (46085,  18,          1) /* UiEffects - Magical */
      , (46085,  19,       5000) /* Value */
      , (46085,  51,          1) /* CombatUse - Melee */
-     , (46085,  65,        101) /* Placement - Resting */
      , (46085,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46085, 151,          2) /* HookType - Wall */;
+     , (46085, 151,          2) /* HookType - Wall */
+     , (46085, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46085,   1, False) /* Stuck */
-     , (46085,  11, True ) /* IgnoreCollisions */
-     , (46085,  13, True ) /* Ethereal */
-     , (46085,  14, True ) /* GravityStatus */
-     , (46085,  19, True ) /* Attackable */
-     , (46085,  22, True ) /* Inscribable */;
+VALUES (46085,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46085,   1, 'Enhanced Smoldering Atlan Mace') /* Name */;

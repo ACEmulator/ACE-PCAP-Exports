@@ -12,19 +12,12 @@ VALUES (46802,   1,        128) /* ItemType - Misc */
      , (46802,  15,          1) /* StackUnitValue */
      , (46802,  16,          8) /* ItemUseable - Contained */
      , (46802,  19,          1) /* Value */
-     , (46802,  65,        101) /* Placement - Resting */
      , (46802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46802,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46802,   1, False) /* Stuck */
-     , (46802,  11, True ) /* IgnoreCollisions */
-     , (46802,  13, True ) /* Ethereal */
-     , (46802,  14, True ) /* GravityStatus */
-     , (46802,  19, True ) /* Attackable */;
+     , (46802,  94,         16) /* TargetType - Creature */
+     , (46802, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46802,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (46802,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46802,   1, 'Boxed A''nekshay Token') /* Name */;

@@ -15,11 +15,7 @@ VALUES (14427,   1,         16) /* ItemType - Creature */
      , (14427, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14427,   1, True ) /* Stuck */
-     , (14427,  12, True ) /* ReportCollisions */
-     , (14427,  13, False) /* Ethereal */
-     , (14427,  14, True ) /* GravityStatus */
-     , (14427,  19, True ) /* Attackable */;
+VALUES (14427,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14427,   1, 'Hollow Minion') /* Name */

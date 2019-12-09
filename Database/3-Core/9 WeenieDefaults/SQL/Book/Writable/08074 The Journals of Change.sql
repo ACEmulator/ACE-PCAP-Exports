@@ -8,18 +8,11 @@ VALUES (8074,   1,       8192) /* ItemType - Writable */
      , (8074,   5,        160) /* EncumbranceVal */
      , (8074,  16,          8) /* ItemUseable - Contained */
      , (8074,  19,         90) /* Value */
-     , (8074,  65,        101) /* Placement - Resting */
-     , (8074,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8074,   1, False) /* Stuck */
-     , (8074,  11, True ) /* IgnoreCollisions */
-     , (8074,  13, True ) /* Ethereal */
-     , (8074,  14, True ) /* GravityStatus */
-     , (8074,  19, True ) /* Attackable */;
+     , (8074,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8074, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8074,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8074,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8074,   1, 'The Journals of Change') /* Name */;

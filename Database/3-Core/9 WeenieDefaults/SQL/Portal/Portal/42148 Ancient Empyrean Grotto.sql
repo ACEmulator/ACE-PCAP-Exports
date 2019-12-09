@@ -13,21 +13,15 @@ VALUES (42148,   1,      65536) /* ItemType - Portal */
      , (42148, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42148,   1, True ) /* Stuck */
-     , (42148,  12, True ) /* ReportCollisions */
-     , (42148,  13, True ) /* Ethereal */
-     , (42148,  14, True ) /* GravityStatus */
-     , (42148,  15, True ) /* LightsStatus */
-     , (42148,  19, True ) /* Attackable */;
+VALUES (42148,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42148,  39, 0.800000011920929) /* DefaultScale */
-     , (42148,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42148,  39,     0.8) /* DefaultScale */
+     , (42148,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42148,   1, 'Ancient Empyrean Grotto') /* Name */
      , (42148,  16, 'A portal leading to the Marae Lassel Plateau near An Ancient Empyrean Grotto where the Legionary Pincer may be found.') /* LongDesc */
-     , (42148,  38, 'Ancient Empyrean Grotto (52.6N, 73.1W).') /* AppraisalPortalDestination */
      , (42148, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

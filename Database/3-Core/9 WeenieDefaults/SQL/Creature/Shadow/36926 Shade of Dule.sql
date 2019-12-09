@@ -19,16 +19,11 @@ VALUES (36926,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36926,   1, True ) /* Stuck */
-     , (36926,  11, True ) /* IgnoreCollisions */
-     , (36926,  12, True ) /* ReportCollisions */
-     , (36926,  13, False) /* Ethereal */
-     , (36926,  14, True ) /* GravityStatus */
-     , (36926,  19, False) /* Attackable */
-     , (36926,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (36926,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36926,  39, 1.29999995231628) /* DefaultScale */
-     , (36926,  76, 0.400000005960464) /* Translucency */;
+VALUES (36926,  39,     1.3) /* DefaultScale */
+     , (36926,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36926,   1, 'Shade of Dule') /* Name */

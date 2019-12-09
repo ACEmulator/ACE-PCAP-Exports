@@ -11,17 +11,12 @@ VALUES (7078,   1,        128) /* ItemType - Misc */
      , (7078,  13,         10) /* StackUnitEncumbrance */
      , (7078,  15,          0) /* StackUnitValue */
      , (7078,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (7078,  65,        101) /* Placement - Resting */
      , (7078,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7078,  94,        384) /* TargetType - Misc, MissileWeapon */;
+     , (7078,  94,        384) /* TargetType - Misc, MissileWeapon */
+     , (7078, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7078,   1, False) /* Stuck */
-     , (7078,  11, True ) /* IgnoreCollisions */
-     , (7078,  13, True ) /* Ethereal */
-     , (7078,  14, True ) /* GravityStatus */
-     , (7078,  19, True ) /* Attackable */
-     , (7078,  22, True ) /* Inscribable */;
+VALUES (7078,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7078,   1, 'Crossbow Stock') /* Name */;

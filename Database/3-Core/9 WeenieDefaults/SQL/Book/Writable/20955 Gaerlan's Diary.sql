@@ -8,20 +8,13 @@ VALUES (20955,   1,       8192) /* ItemType - Writable */
      , (20955,   5,        160) /* EncumbranceVal */
      , (20955,  16,          8) /* ItemUseable - Contained */
      , (20955,  19,         90) /* Value */
-     , (20955,  65,        101) /* Placement - Resting */
      , (20955,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20955, 174,         60) /* AppraisalPages */
-     , (20955, 175,         60) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20955,   1, False) /* Stuck */
-     , (20955,  11, True ) /* IgnoreCollisions */
-     , (20955,  13, True ) /* Ethereal */
-     , (20955,  14, True ) /* GravityStatus */
-     , (20955,  19, True ) /* Attackable */;
+     , (20955, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (20955, 8042,         60) /* PCAPRecordedAppraisalPages */
+     , (20955, 8043,         60) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20955,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (20955,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20955,   1, 'Gaerlan''s Diary') /* Name */;

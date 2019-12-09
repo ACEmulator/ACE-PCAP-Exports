@@ -13,20 +13,15 @@ VALUES (44888,   1,       2048) /* ItemType - Gem */
      , (44888,  15,         50) /* StackUnitValue */
      , (44888,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44888,  19,         50) /* Value */
-     , (44888,  65,        101) /* Placement - Resting */
      , (44888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44888,  94,          4) /* TargetType - Clothing */;
+     , (44888,  94,          4) /* TargetType - Clothing */
+     , (44888, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44888,   1, False) /* Stuck */
-     , (44888,  11, True ) /* IgnoreCollisions */
-     , (44888,  13, True ) /* Ethereal */
-     , (44888,  14, True ) /* GravityStatus */
-     , (44888,  19, True ) /* Attackable */
-     , (44888,  22, True ) /* Inscribable */;
+VALUES (44888,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44888,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44888,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44888,   1, 'Eldrytch Web Cloak') /* Name */;

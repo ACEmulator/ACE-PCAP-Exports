@@ -5,19 +5,15 @@ VALUES (21188, 'acidelementalhighcampgen', 1, '2019-02-10 00:00:00') /* Generic 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21188,   1,          0) /* ItemType - None */
-     , (21188,  65,        101) /* Placement - Resting */
-     , (21188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (21188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21188, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21188,   1, True ) /* Stuck */
-     , (21188,  11, True ) /* IgnoreCollisions */
-     , (21188,  13, True ) /* Ethereal */
-     , (21188,  14, True ) /* GravityStatus */
-     , (21188,  19, True ) /* Attackable */
      , (21188,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21188,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (21188,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21188,   1, 'Prismatic Crystal') /* Name */;

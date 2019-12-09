@@ -12,16 +12,11 @@ VALUES (6345,   1,        128) /* ItemType - Misc */
      , (6345,  15,       5000) /* StackUnitValue */
      , (6345,  16,          1) /* ItemUseable - No */
      , (6345,  19,       5000) /* Value */
-     , (6345,  65,        101) /* Placement - Resting */
-     , (6345,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (6345,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6345, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6345,   1, False) /* Stuck */
-     , (6345,  11, True ) /* IgnoreCollisions */
-     , (6345,  13, True ) /* Ethereal */
-     , (6345,  14, True ) /* GravityStatus */
-     , (6345,  19, True ) /* Attackable */
-     , (6345,  22, True ) /* Inscribable */;
+VALUES (6345,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6345,   1, 'Superb Infused Pyreal Ingot') /* Name */;

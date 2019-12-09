@@ -11,11 +11,7 @@ VALUES (4662,   1,        128) /* ItemType - Misc */
      , (4662,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4662,   1, True ) /* Stuck */
-     , (4662,  11, True ) /* IgnoreCollisions */
-     , (4662,  12, True ) /* ReportCollisions */
-     , (4662,  13, False) /* Ethereal */
-     , (4662,  19, True ) /* Attackable */;
+VALUES (4662,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4662,   1, 'Desert Magic Supplies') /* Name */

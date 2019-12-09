@@ -17,7 +17,6 @@ VALUES (11436,   1,          1) /* ItemType - MeleeWeapon */
      , (11436,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (11436,  49,         20) /* WeaponTime */
      , (11436,  51,          1) /* CombatUse - Melee */
-     , (11436,  65,        101) /* Placement - Resting */
      , (11436,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11436, 106,        250) /* ItemSpellcraft */
      , (11436, 107,        772) /* ItemCurMana */
@@ -29,27 +28,23 @@ VALUES (11436,   1,          1) /* ItemType - MeleeWeapon */
      , (11436, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (11436, 160,        250) /* WieldDifficulty */
      , (11436, 353,          7) /* WeaponType - Staff */
-     , (11436, 8030,          0);
+     , (11436, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (11436, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11436,   1, False) /* Stuck */
-     , (11436,  11, True ) /* IgnoreCollisions */
-     , (11436,  13, True ) /* Ethereal */
-     , (11436,  14, True ) /* GravityStatus */
-     , (11436,  19, True ) /* Attackable */
-     , (11436,  22, True ) /* Inscribable */
+VALUES (11436,  22, True ) /* Inscribable */
      , (11436,  69, False) /* IsSellable */
      , (11436,  85, True ) /* AppraisalHasAllowedWielder */
      , (11436,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11436,   5, -0.033330000936985) /* ManaRate */
+VALUES (11436,   5,   -0.03) /* ManaRate */
      , (11436,  21,       0) /* WeaponLength */
      , (11436,  22,     0.5) /* DamageVariance */
      , (11436,  26,       0) /* MaximumVelocity */
-     , (11436,  29, 1.08000004291534) /* WeaponDefense */
-     , (11436,  39, 1.20000004768372) /* DefaultScale */
-     , (11436,  62, 1.08000004291534) /* WeaponOffense */
+     , (11436,  29,    1.08) /* WeaponDefense */
+     , (11436,  39,     1.2) /* DefaultScale */
+     , (11436,  62,    1.08) /* WeaponOffense */
      , (11436,  63,       1) /* DamageMod */
      , (11436, 136,       1) /* CriticalMultiplier */
      , (11436, 147,       1) /* CriticalFrequency */;

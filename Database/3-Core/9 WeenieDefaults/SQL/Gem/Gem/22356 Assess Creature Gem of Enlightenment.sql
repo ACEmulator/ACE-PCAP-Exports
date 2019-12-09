@@ -9,17 +9,12 @@ VALUES (22356,   1,       2048) /* ItemType - Gem */
      , (22356,  16,          8) /* ItemUseable - Contained */
      , (22356,  19,          0) /* Value */
      , (22356,  33,          1) /* Bonded - Bonded */
-     , (22356,  65,        101) /* Placement - Resting */
      , (22356,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22356, 114,          1) /* Attuned - Attuned */;
+     , (22356, 114,          1) /* Attuned - Attuned */
+     , (22356, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22356,   1, False) /* Stuck */
-     , (22356,  11, True ) /* IgnoreCollisions */
-     , (22356,  13, True ) /* Ethereal */
-     , (22356,  14, True ) /* GravityStatus */
-     , (22356,  19, True ) /* Attackable */
-     , (22356,  22, True ) /* Inscribable */;
+VALUES (22356,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22356,   1, 'Assess Creature Gem of Enlightenment') /* Name */

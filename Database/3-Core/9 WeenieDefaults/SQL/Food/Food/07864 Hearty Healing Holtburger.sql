@@ -13,21 +13,16 @@ VALUES (7864,   1,         32) /* ItemType - Food */
      , (7864,  16,          8) /* ItemUseable - Contained */
      , (7864,  18,          4) /* UiEffects - BoostHealth */
      , (7864,  19,        129) /* Value */
-     , (7864,  65,        101) /* Placement - Resting */
      , (7864,  89,          2) /* BoosterEnum - Health */
      , (7864,  90,         40) /* BoostValue */
-     , (7864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7864, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7864,   1, False) /* Stuck */
-     , (7864,  11, True ) /* IgnoreCollisions */
-     , (7864,  13, True ) /* Ethereal */
-     , (7864,  14, True ) /* GravityStatus */
-     , (7864,  19, True ) /* Attackable */
-     , (7864,  69, False) /* IsSellable */;
+VALUES (7864,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7864,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (7864,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7864,   1, 'Hearty Healing Holtburger') /* Name */

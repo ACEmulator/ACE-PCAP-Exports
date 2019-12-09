@@ -10,15 +10,10 @@ VALUES (33886,   1,        128) /* ItemType - Misc */
      , (33886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33886,   1, False) /* Stuck */
-     , (33886,  11, True ) /* IgnoreCollisions */
-     , (33886,  13, True ) /* Ethereal */
-     , (33886,  14, True ) /* GravityStatus */
-     , (33886,  19, True ) /* Attackable */
-     , (33886,  22, True ) /* Inscribable */;
+VALUES (33886,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33886,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (33886,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33886,   1, 'Abyssal Gateway Token') /* Name */;

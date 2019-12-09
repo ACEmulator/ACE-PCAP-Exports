@@ -15,15 +15,10 @@ VALUES (8672,   1,         16) /* ItemType - Creature */
      , (8672, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8672,   1, True ) /* Stuck */
-     , (8672,  12, True ) /* ReportCollisions */
-     , (8672,  13, False) /* Ethereal */
-     , (8672,  14, True ) /* GravityStatus */
-     , (8672,  19, True ) /* Attackable */
-     , (8672,  42, True ) /* AllowEdgeSlide */;
+VALUES (8672,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8672,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (8672,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8672,   1, 'Risen Soldier') /* Name */

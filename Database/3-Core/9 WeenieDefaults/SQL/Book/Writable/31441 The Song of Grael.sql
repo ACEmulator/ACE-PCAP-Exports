@@ -8,22 +8,15 @@ VALUES (31441,   1,       8192) /* ItemType - Writable */
      , (31441,   5,        100) /* EncumbranceVal */
      , (31441,  16,          8) /* ItemUseable - Contained */
      , (31441,  19,         10) /* Value */
-     , (31441,  65,        101) /* Placement - Resting */
      , (31441,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31441, 151,          2) /* HookType - Wall */
-     , (31441, 174,          6) /* AppraisalPages */
-     , (31441, 175,          6) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31441,   1, False) /* Stuck */
-     , (31441,  11, True ) /* IgnoreCollisions */
-     , (31441,  13, True ) /* Ethereal */
-     , (31441,  14, True ) /* GravityStatus */
-     , (31441,  19, True ) /* Attackable */;
+     , (31441, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (31441, 8042,          6) /* PCAPRecordedAppraisalPages */
+     , (31441, 8043,          6) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31441,  39, 1.22000002861023) /* DefaultScale */
-     , (31441,  54, 0.300000011920929) /* UseRadius */;
+VALUES (31441,  39,    1.22) /* DefaultScale */
+     , (31441,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31441,   1, 'The Song of Grael') /* Name */

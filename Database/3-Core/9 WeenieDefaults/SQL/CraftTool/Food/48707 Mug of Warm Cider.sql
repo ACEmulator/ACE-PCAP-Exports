@@ -13,20 +13,13 @@ VALUES (48707,   1,         32) /* ItemType - Food */
      , (48707,  16,          8) /* ItemUseable - Contained */
      , (48707,  18,          1) /* UiEffects - Magical */
      , (48707,  19,         10) /* Value */
-     , (48707,  65,        101) /* Placement - Resting */
      , (48707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48707,  94,         16) /* TargetType - Creature */
      , (48707, 106,        250) /* ItemSpellcraft */
      , (48707, 107,        100) /* ItemCurMana */
      , (48707, 108,        100) /* ItemMaxMana */
-     , (48707, 109,          0) /* ItemDifficulty */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48707,   1, False) /* Stuck */
-     , (48707,  11, True ) /* IgnoreCollisions */
-     , (48707,  13, True ) /* Ethereal */
-     , (48707,  14, True ) /* GravityStatus */
-     , (48707,  19, True ) /* Attackable */;
+     , (48707, 109,          0) /* ItemDifficulty */
+     , (48707, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48707,   1, 'Mug of Warm Cider') /* Name */

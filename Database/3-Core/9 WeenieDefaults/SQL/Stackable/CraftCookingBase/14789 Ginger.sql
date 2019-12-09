@@ -14,15 +14,8 @@ VALUES (14789,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14789,  19,         10) /* Value */
      , (14789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14789,   1, False) /* Stuck */
-     , (14789,  11, True ) /* IgnoreCollisions */
-     , (14789,  13, True ) /* Ethereal */
-     , (14789,  14, True ) /* GravityStatus */
-     , (14789,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14789,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (14789,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14789,   1, 'Ginger') /* Name */

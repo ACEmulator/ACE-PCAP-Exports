@@ -12,18 +12,13 @@ VALUES (41400,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41400,  15,       1000) /* StackUnitValue */
      , (41400,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41400,  19,       1000) /* Value */
-     , (41400,  65,        101) /* Placement - Resting */
      , (41400,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41400,  94,    3013615) /* TargetType - Item */
-     , (41400, 151,          9) /* HookType - Floor, Yard */;
+     , (41400, 151,          9) /* HookType - Floor, Yard */
+     , (41400, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41400,   1, False) /* Stuck */
-     , (41400,  11, True ) /* IgnoreCollisions */
-     , (41400,  13, True ) /* Ethereal */
-     , (41400,  14, True ) /* GravityStatus */
-     , (41400,  19, True ) /* Attackable */
-     , (41400,  22, True ) /* Inscribable */;
+VALUES (41400,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41400,   1, 'Lapping Plate') /* Name */

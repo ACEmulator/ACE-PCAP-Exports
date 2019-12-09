@@ -9,11 +9,7 @@ VALUES (19484,   1,        128) /* ItemType - Misc */
      , (19484,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19484,   1, True ) /* Stuck */
-     , (19484,  11, True ) /* IgnoreCollisions */
-     , (19484,  13, False) /* Ethereal */
-     , (19484,  14, True ) /* GravityStatus */
-     , (19484,  19, True ) /* Attackable */;
+VALUES (19484,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19484,   1, 'Essence Font') /* Name */;

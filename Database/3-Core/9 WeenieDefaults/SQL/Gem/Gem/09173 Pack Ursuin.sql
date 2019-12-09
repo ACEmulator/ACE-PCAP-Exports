@@ -14,15 +14,10 @@ VALUES (9173,   1,       2048) /* ItemType - Gem */
      , (9173, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9173,   1, False) /* Stuck */
-     , (9173,  11, True ) /* IgnoreCollisions */
-     , (9173,  13, True ) /* Ethereal */
-     , (9173,  14, True ) /* GravityStatus */
-     , (9173,  19, True ) /* Attackable */
-     , (9173,  22, True ) /* Inscribable */;
+VALUES (9173,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9173,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (9173,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9173,   1, 'Pack Ursuin') /* Name */

@@ -11,12 +11,7 @@ VALUES (21473,   1,        128) /* ItemType - Misc */
      , (21473,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21473,   1, True ) /* Stuck */
-     , (21473,  11, True ) /* IgnoreCollisions */
-     , (21473,  12, True ) /* ReportCollisions */
-     , (21473,  13, False) /* Ethereal */
-     , (21473,  14, True ) /* GravityStatus */
-     , (21473,  19, True ) /* Attackable */;
+VALUES (21473,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21473,   1, 'Celcynd Grotto') /* Name */

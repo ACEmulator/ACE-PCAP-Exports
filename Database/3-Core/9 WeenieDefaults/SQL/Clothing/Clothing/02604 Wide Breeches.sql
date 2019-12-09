@@ -12,31 +12,26 @@ VALUES (2604,   1,          4) /* ItemType - Clothing */
      , (2604,  18,          1) /* UiEffects - Magical */
      , (2604,  19,       7498) /* Value */
      , (2604,  28,          0) /* ArmorLevel */
-     , (2604,  65,        101) /* Placement - Resting */
      , (2604,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2604, 105,          5) /* ItemWorkmanship */
      , (2604, 131,          5) /* MaterialType - Satin */
      , (2604, 172,          5) /* AppraisalLongDescDecoration */
      , (2604, 177,          1) /* GemCount */
-     , (2604, 178,         41) /* GemType */;
+     , (2604, 178,         41) /* GemType */
+     , (2604, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2604,   1, False) /* Stuck */
-     , (2604,  11, True ) /* IgnoreCollisions */
-     , (2604,  13, True ) /* Ethereal */
-     , (2604,  14, True ) /* GravityStatus */
-     , (2604,  19, True ) /* Attackable */
-     , (2604,  22, True ) /* Inscribable */
+VALUES (2604,  22, True ) /* Inscribable */
      , (2604, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2604,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (2604,  14, 0.800000011920929) /* ArmorModVsPierce */
+VALUES (2604,  13,     0.8) /* ArmorModVsSlash */
+     , (2604,  14,     0.8) /* ArmorModVsPierce */
      , (2604,  15,       1) /* ArmorModVsBludgeon */
-     , (2604,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (2604,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (2604,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (2604,  19, 0.200000002980232) /* ArmorModVsElectric */
+     , (2604,  16,     0.2) /* ArmorModVsCold */
+     , (2604,  17,     0.2) /* ArmorModVsFire */
+     , (2604,  18,     0.1) /* ArmorModVsAcid */
+     , (2604,  19,     0.2) /* ArmorModVsElectric */
      , (2604, 165,       1) /* ArmorModVsNether */
      , (2604, 8004,       5) /* PCAPRecordedWorkmanship */;
 

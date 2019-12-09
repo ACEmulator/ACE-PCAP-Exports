@@ -12,18 +12,13 @@ VALUES (8650,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8650,  15,        100) /* StackUnitValue */
      , (8650,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8650,  19,        100) /* Value */
-     , (8650,  65,        101) /* Placement - Resting */
      , (8650,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8650,  94,        134) /* TargetType - Vestements, Misc */
-     , (8650, 151,          9) /* HookType - Floor, Yard */;
+     , (8650, 151,          9) /* HookType - Floor, Yard */
+     , (8650, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8650,   1, False) /* Stuck */
-     , (8650,  11, True ) /* IgnoreCollisions */
-     , (8650,  13, True ) /* Ethereal */
-     , (8650,  14, True ) /* GravityStatus */
-     , (8650,  19, True ) /* Attackable */
-     , (8650,  69, False) /* IsSellable */;
+VALUES (8650,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8650,   1, 'Lapyan Dye Pot') /* Name */

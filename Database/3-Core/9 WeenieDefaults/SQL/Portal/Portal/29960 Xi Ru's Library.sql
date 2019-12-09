@@ -11,15 +11,10 @@ VALUES (29960,   1,      65536) /* ItemType - Portal */
      , (29960, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29960,   1, True ) /* Stuck */
-     , (29960,  12, True ) /* ReportCollisions */
-     , (29960,  13, True ) /* Ethereal */
-     , (29960,  14, True ) /* GravityStatus */
-     , (29960,  15, True ) /* LightsStatus */
-     , (29960,  19, True ) /* Attackable */;
+VALUES (29960,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29960,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29960,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29960,   1, 'Xi Ru''s Library') /* Name */

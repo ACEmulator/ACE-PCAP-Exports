@@ -12,19 +12,13 @@ VALUES (14257,   1,      65536) /* ItemType - Portal */
      , (14257, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14257,   1, True ) /* Stuck */
-     , (14257,  12, True ) /* ReportCollisions */
-     , (14257,  13, True ) /* Ethereal */
-     , (14257,  14, True ) /* GravityStatus */
-     , (14257,  15, True ) /* LightsStatus */
-     , (14257,  19, True ) /* Attackable */;
+VALUES (14257,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14257,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14257,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14257,   1, 'Crescent Lane Cottages Portal') /* Name */
-     , (14257,  38, 'Crescent Lane Cottages Portal (14.6S, 66.4E).') /* AppraisalPortalDestination */
      , (14257, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

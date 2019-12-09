@@ -8,17 +8,12 @@ VALUES (8147,   1,        128) /* ItemType - Misc */
      , (8147,   5,        800) /* EncumbranceVal */
      , (8147,  16,          1) /* ItemUseable - No */
      , (8147,  19,          0) /* Value */
-     , (8147,  65,        101) /* Placement - Resting */
      , (8147,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8147, 151,          9) /* HookType - Floor, Yard */;
+     , (8147, 151,          9) /* HookType - Floor, Yard */
+     , (8147, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8147,   1, False) /* Stuck */
-     , (8147,  11, True ) /* IgnoreCollisions */
-     , (8147,  13, True ) /* Ethereal */
-     , (8147,  14, True ) /* GravityStatus */
-     , (8147,  19, True ) /* Attackable */
-     , (8147,  22, True ) /* Inscribable */;
+VALUES (8147,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8147,   1, 'Tusker Head') /* Name */

@@ -16,15 +16,10 @@ VALUES (14879,   1,         16) /* ItemType - Creature */
      , (14879, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14879,   1, True ) /* Stuck */
-     , (14879,  12, True ) /* ReportCollisions */
-     , (14879,  13, False) /* Ethereal */
-     , (14879,  14, True ) /* GravityStatus */
-     , (14879,  15, True ) /* LightsStatus */
-     , (14879,  19, True ) /* Attackable */;
+VALUES (14879,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14879,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (14879,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14879,   1, 'Sirrocco') /* Name */

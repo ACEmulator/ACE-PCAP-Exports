@@ -16,11 +16,7 @@ VALUES (1618,   1,         16) /* ItemType - Creature */
      , (1618, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1618,   1, True ) /* Stuck */
-     , (1618,  12, True ) /* ReportCollisions */
-     , (1618,  13, False) /* Ethereal */
-     , (1618,  14, True ) /* GravityStatus */
-     , (1618,  19, True ) /* Attackable */;
+VALUES (1618,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1618,   1, 'Gigas Lugian') /* Name */

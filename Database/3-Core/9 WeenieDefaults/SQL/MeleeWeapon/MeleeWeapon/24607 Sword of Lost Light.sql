@@ -17,7 +17,6 @@ VALUES (24607,   1,          1) /* ItemType - MeleeWeapon */
      , (24607,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (24607,  49,         30) /* WeaponTime */
      , (24607,  51,          1) /* CombatUse - Melee */
-     , (24607,  65,        101) /* Placement - Resting */
      , (24607,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24607, 106,        260) /* ItemSpellcraft */
      , (24607, 107,        588) /* ItemCurMana */
@@ -27,25 +26,21 @@ VALUES (24607,   1,          1) /* ItemType - MeleeWeapon */
      , (24607, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (24607, 160,        250) /* WieldDifficulty */
      , (24607, 353,          2) /* WeaponType - Sword */
-     , (24607, 8030,          0);
+     , (24607, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (24607, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24607,   1, False) /* Stuck */
-     , (24607,  11, True ) /* IgnoreCollisions */
-     , (24607,  13, True ) /* Ethereal */
-     , (24607,  14, True ) /* GravityStatus */
-     , (24607,  19, True ) /* Attackable */
-     , (24607,  22, True ) /* Inscribable */
+VALUES (24607,  22, True ) /* Inscribable */
      , (24607,  69, False) /* IsSellable */
      , (24607,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24607,   5,  -0.033) /* ManaRate */
+VALUES (24607,   5,   -0.03) /* ManaRate */
      , (24607,  21,       0) /* WeaponLength */
      , (24607,  22,     0.5) /* DamageVariance */
      , (24607,  26,       0) /* MaximumVelocity */
      , (24607,  29,    1.08) /* WeaponDefense */
-     , (24607,  39, 1.29999995231628) /* DefaultScale */
+     , (24607,  39,     1.3) /* DefaultScale */
      , (24607,  62,    1.08) /* WeaponOffense */
      , (24607,  63,       1) /* DamageMod */
      , (24607, 147,       1) /* CriticalFrequency */;

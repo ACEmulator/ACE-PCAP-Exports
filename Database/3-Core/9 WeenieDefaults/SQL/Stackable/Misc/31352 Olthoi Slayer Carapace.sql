@@ -13,16 +13,9 @@ VALUES (31352,   1,        128) /* ItemType - Misc */
      , (31352,  16,          1) /* ItemUseable - No */
      , (31352,  19,      10000) /* Value */
      , (31352,  33,          1) /* Bonded - Bonded */
-     , (31352,  65,        101) /* Placement - Resting */
      , (31352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31352, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31352,   1, False) /* Stuck */
-     , (31352,  11, True ) /* IgnoreCollisions */
-     , (31352,  13, True ) /* Ethereal */
-     , (31352,  14, True ) /* GravityStatus */
-     , (31352,  19, True ) /* Attackable */;
+     , (31352, 114,          1) /* Attuned - Attuned */
+     , (31352, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31352,   1, 'Olthoi Slayer Carapace') /* Name */

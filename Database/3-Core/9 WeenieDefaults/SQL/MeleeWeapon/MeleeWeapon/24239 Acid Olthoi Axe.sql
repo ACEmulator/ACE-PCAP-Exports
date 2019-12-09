@@ -16,7 +16,6 @@ VALUES (24239,   1,          1) /* ItemType - MeleeWeapon */
      , (24239,  48,         45) /* WeaponSkill - LightWeapons */
      , (24239,  49,         55) /* WeaponTime */
      , (24239,  51,          1) /* CombatUse - Melee */
-     , (24239,  65,        101) /* Placement - Resting */
      , (24239,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24239, 106,        250) /* ItemSpellcraft */
      , (24239, 107,        464) /* ItemCurMana */
@@ -26,24 +25,20 @@ VALUES (24239,   1,          1) /* ItemType - MeleeWeapon */
      , (24239, 159,         45) /* WieldSkillType - LightWeapons */
      , (24239, 160,        300) /* WieldDifficulty */
      , (24239, 353,          3) /* WeaponType - Axe */
-     , (24239, 8030,          0);
+     , (24239, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (24239, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24239,   1, False) /* Stuck */
-     , (24239,  11, True ) /* IgnoreCollisions */
-     , (24239,  13, True ) /* Ethereal */
-     , (24239,  14, True ) /* GravityStatus */
-     , (24239,  19, True ) /* Attackable */
-     , (24239,  22, True ) /* Inscribable */;
+VALUES (24239,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24239,   5, -0.0500000007450581) /* ManaRate */
+VALUES (24239,   5,   -0.05) /* ManaRate */
      , (24239,  21,       0) /* WeaponLength */
      , (24239,  22,     0.5) /* DamageVariance */
      , (24239,  26,       0) /* MaximumVelocity */
-     , (24239,  29, 1.10000002384186) /* WeaponDefense */
+     , (24239,  29,     1.1) /* WeaponDefense */
      , (24239,  39,    0.75) /* DefaultScale */
-     , (24239,  62, 1.10000002384186) /* WeaponOffense */
+     , (24239,  62,     1.1) /* WeaponOffense */
      , (24239,  63,       1) /* DamageMod */
      , (24239,  77,       1) /* PhysicsScriptIntensity */
      , (24239, 136,       1) /* CriticalMultiplier */;

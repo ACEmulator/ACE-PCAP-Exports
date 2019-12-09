@@ -11,17 +11,12 @@ VALUES (52635,   1,          1) /* ItemType - MeleeWeapon */
      , (52635,  16,          1) /* ItemUseable - No */
      , (52635,  19,        460) /* Value */
      , (52635,  51,          1) /* CombatUse - Melee */
-     , (52635,  65,          1) /* Placement - RightHandCombat */
      , (52635,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52635, 151,          2) /* HookType - Wall */;
+     , (52635, 151,          2) /* HookType - Wall */
+     , (52635, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52635,   1, False) /* Stuck */
-     , (52635,  11, True ) /* IgnoreCollisions */
-     , (52635,  13, True ) /* Ethereal */
-     , (52635,  14, True ) /* GravityStatus */
-     , (52635,  19, True ) /* Attackable */
-     , (52635,  22, True ) /* Inscribable */;
+VALUES (52635,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52635,   1, 'Thorn Dagger') /* Name */;

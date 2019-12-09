@@ -20,12 +20,7 @@ VALUES (29104,   1,         32) /* ItemType - Food */
      , (29104, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29104,   1, False) /* Stuck */
-     , (29104,  11, True ) /* IgnoreCollisions */
-     , (29104,  13, True ) /* Ethereal */
-     , (29104,  14, True ) /* GravityStatus */
-     , (29104,  19, True ) /* Attackable */
-     , (29104,  69, False) /* IsSellable */;
+VALUES (29104,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29104,   1, 'Amber Ape') /* Name */

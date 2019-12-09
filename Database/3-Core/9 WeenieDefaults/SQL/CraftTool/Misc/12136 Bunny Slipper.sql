@@ -13,18 +13,13 @@ VALUES (12136,   1,        128) /* ItemType - Misc */
      , (12136,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (12136,  19,          1) /* Value */
      , (12136,  33,          0) /* Bonded - Normal */
-     , (12136,  65,        101) /* Placement - Resting */
      , (12136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12136,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (12136, 114,          0) /* Attuned - Normal */;
+     , (12136, 114,          0) /* Attuned - Normal */
+     , (12136, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12136,   1, False) /* Stuck */
-     , (12136,  11, True ) /* IgnoreCollisions */
-     , (12136,  13, True ) /* Ethereal */
-     , (12136,  14, True ) /* GravityStatus */
-     , (12136,  19, True ) /* Attackable */
-     , (12136,  22, True ) /* Inscribable */;
+VALUES (12136,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12136,   1, 'Bunny Slipper') /* Name */

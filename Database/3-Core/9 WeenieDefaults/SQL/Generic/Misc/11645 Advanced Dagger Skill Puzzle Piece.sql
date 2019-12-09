@@ -8,19 +8,14 @@ VALUES (11645,   1,        128) /* ItemType - Misc */
      , (11645,   5,         10) /* EncumbranceVal */
      , (11645,  16,          1) /* ItemUseable - No */
      , (11645,  19,      10000) /* Value */
-     , (11645,  65,        101) /* Placement - Resting */
-     , (11645,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11645,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11645, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11645,   1, False) /* Stuck */
-     , (11645,  11, True ) /* IgnoreCollisions */
-     , (11645,  13, True ) /* Ethereal */
-     , (11645,  14, True ) /* GravityStatus */
-     , (11645,  19, True ) /* Attackable */
-     , (11645,  22, True ) /* Inscribable */;
+VALUES (11645,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11645,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (11645,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11645,   1, 'Advanced Dagger Skill Puzzle Piece') /* Name */;

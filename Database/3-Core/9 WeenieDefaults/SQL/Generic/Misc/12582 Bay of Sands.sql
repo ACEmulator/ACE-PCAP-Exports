@@ -11,12 +11,7 @@ VALUES (12582,   1,        128) /* ItemType - Misc */
      , (12582,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12582,   1, True ) /* Stuck */
-     , (12582,  11, True ) /* IgnoreCollisions */
-     , (12582,  12, True ) /* ReportCollisions */
-     , (12582,  13, False) /* Ethereal */
-     , (12582,  14, True ) /* GravityStatus */
-     , (12582,  19, True ) /* Attackable */;
+VALUES (12582,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12582,   1, 'Bay of Sands') /* Name */

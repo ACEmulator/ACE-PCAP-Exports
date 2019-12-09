@@ -14,15 +14,8 @@ VALUES (36544,   1,        128) /* ItemType - Misc */
      , (36544,  19,         30) /* Value */
      , (36544,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36544,   1, False) /* Stuck */
-     , (36544,  11, True ) /* IgnoreCollisions */
-     , (36544,  13, True ) /* Ethereal */
-     , (36544,  14, True ) /* GravityStatus */
-     , (36544,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36544,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (36544,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36544,   1, 'The Master Pass') /* Name */;

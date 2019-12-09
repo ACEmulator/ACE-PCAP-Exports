@@ -12,19 +12,13 @@ VALUES (15684,   1,      65536) /* ItemType - Portal */
      , (15684, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15684,   1, True ) /* Stuck */
-     , (15684,  12, True ) /* ReportCollisions */
-     , (15684,  13, True ) /* Ethereal */
-     , (15684,  14, True ) /* GravityStatus */
-     , (15684,  15, True ) /* LightsStatus */
-     , (15684,  19, True ) /* Attackable */;
+VALUES (15684,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15684,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15684,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15684,   1, 'Songview Portal') /* Name */
-     , (15684,  38, 'Songview Portal (60.8N, 19.3E).') /* AppraisalPortalDestination */
      , (15684, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

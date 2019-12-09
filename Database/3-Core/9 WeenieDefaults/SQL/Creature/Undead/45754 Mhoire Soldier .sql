@@ -20,12 +20,7 @@ VALUES (45754,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45754,   1, True ) /* Stuck */
-     , (45754,  12, True ) /* ReportCollisions */
-     , (45754,  13, False) /* Ethereal */
-     , (45754,  14, True ) /* GravityStatus */
-     , (45754,  19, False) /* Attackable */
-     , (45754,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45754,  42, True ) /* AllowEdgeSlide */;
+     , (45754,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45754,   1, 'Mhoire Soldier ') /* Name */

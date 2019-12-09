@@ -10,16 +10,11 @@ VALUES (32703,   1,          8) /* ItemType - Jewelry */
      , (32703,  16,          1) /* ItemUseable - No */
      , (32703,  18,          1) /* UiEffects - Magical */
      , (32703,  19,        500) /* Value */
-     , (32703,  65,        101) /* Placement - Resting */
-     , (32703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (32703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32703, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32703,   1, False) /* Stuck */
-     , (32703,  11, True ) /* IgnoreCollisions */
-     , (32703,  13, True ) /* Ethereal */
-     , (32703,  14, True ) /* GravityStatus */
-     , (32703,  19, True ) /* Attackable */
-     , (32703,  22, True ) /* Inscribable */;
+VALUES (32703,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32703,   1, 'Bracelet of Passage') /* Name */

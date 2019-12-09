@@ -9,17 +9,12 @@ VALUES (43455,   1,       2048) /* ItemType - Gem */
      , (43455,  16,          1) /* ItemUseable - No */
      , (43455,  19,          0) /* Value */
      , (43455,  33,          1) /* Bonded - Bonded */
-     , (43455,  65,        101) /* Placement - Resting */
      , (43455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43455, 114,          1) /* Attuned - Attuned */;
+     , (43455, 114,          1) /* Attuned - Attuned */
+     , (43455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43455,   1, False) /* Stuck */
-     , (43455,  11, True ) /* IgnoreCollisions */
-     , (43455,  13, True ) /* Ethereal */
-     , (43455,  14, True ) /* GravityStatus */
-     , (43455,  19, True ) /* Attackable */
-     , (43455,  22, True ) /* Inscribable */;
+VALUES (43455,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43455,   1, 'Haebrean Token of the Aura of Hardening') /* Name */

@@ -15,11 +15,7 @@ VALUES (12272,   1,         16) /* ItemType - Creature */
      , (12272, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12272,   1, True ) /* Stuck */
-     , (12272,  12, True ) /* ReportCollisions */
-     , (12272,  13, False) /* Ethereal */
-     , (12272,  14, True ) /* GravityStatus */
-     , (12272,  19, True ) /* Attackable */;
+VALUES (12272,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12272,   1, 'Singular Extas Raider') /* Name */

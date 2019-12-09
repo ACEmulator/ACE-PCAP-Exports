@@ -15,15 +15,10 @@ VALUES (46281,   1,         16) /* ItemType - Creature */
      , (46281, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46281,   1, True ) /* Stuck */
-     , (46281,  12, True ) /* ReportCollisions */
-     , (46281,  13, False) /* Ethereal */
-     , (46281,  14, True ) /* GravityStatus */
-     , (46281,  19, True ) /* Attackable */
-     , (46281,  42, True ) /* AllowEdgeSlide */;
+VALUES (46281,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46281,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (46281,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46281,   1, 'Dark Master') /* Name */

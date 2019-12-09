@@ -12,17 +12,12 @@ VALUES (47468,   1,          1) /* ItemType - MeleeWeapon */
      , (47468,  18,         64) /* UiEffects - Lightning */
      , (47468,  19,        350) /* Value */
      , (47468,  51,          1) /* CombatUse - Melee */
-     , (47468,  65,          1) /* Placement - RightHandCombat */
      , (47468,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47468, 151,          2) /* HookType - Wall */;
+     , (47468, 151,          2) /* HookType - Wall */
+     , (47468, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47468,   1, False) /* Stuck */
-     , (47468,  11, True ) /* IgnoreCollisions */
-     , (47468,  13, True ) /* Ethereal */
-     , (47468,  14, True ) /* GravityStatus */
-     , (47468,  19, True ) /* Attackable */
-     , (47468,  22, True ) /* Inscribable */;
+VALUES (47468,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47468,   1, 'Lightning Mace') /* Name */;

@@ -13,19 +13,13 @@ VALUES (53447,   1,      65536) /* ItemType - Portal */
      , (53447, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53447,   1, True ) /* Stuck */
-     , (53447,  12, True ) /* ReportCollisions */
-     , (53447,  13, True ) /* Ethereal */
-     , (53447,  14, True ) /* GravityStatus */
-     , (53447,  15, True ) /* LightsStatus */
-     , (53447,  19, True ) /* Attackable */;
+VALUES (53447,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53447,  54, -0.100000001490116) /* UseRadius */;
+VALUES (53447,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53447,   1, 'Eldrytch Web Gauntlet') /* Name */
-     , (53447,  38, 'Eldrytch Web Gauntlet') /* AppraisalPortalDestination */
      , (53447, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

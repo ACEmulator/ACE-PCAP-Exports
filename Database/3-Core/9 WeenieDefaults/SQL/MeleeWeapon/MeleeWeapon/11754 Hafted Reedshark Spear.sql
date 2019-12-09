@@ -11,16 +11,11 @@ VALUES (11754,   1,          1) /* ItemType - MeleeWeapon */
      , (11754,  16,          1) /* ItemUseable - No */
      , (11754,  18,          1) /* UiEffects - Magical */
      , (11754,  51,          1) /* CombatUse - Melee */
-     , (11754,  65,          1) /* Placement - RightHandCombat */
-     , (11754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11754, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11754,   1, False) /* Stuck */
-     , (11754,  11, True ) /* IgnoreCollisions */
-     , (11754,  13, True ) /* Ethereal */
-     , (11754,  14, True ) /* GravityStatus */
-     , (11754,  19, True ) /* Attackable */
-     , (11754,  22, True ) /* Inscribable */;
+VALUES (11754,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11754,   1, 'Hafted Reedshark Spear') /* Name */;

@@ -12,18 +12,11 @@ VALUES (776,   1,       4096) /* ItemType - SpellComponents */
      , (776,  15,         10) /* StackUnitValue */
      , (776,  16,          1) /* ItemUseable - No */
      , (776,  19,         10) /* Value */
-     , (776,  65,        101) /* Placement - Resting */
-     , (776,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (776,   1, False) /* Stuck */
-     , (776,  11, True ) /* IgnoreCollisions */
-     , (776,  13, True ) /* Ethereal */
-     , (776,  14, True ) /* GravityStatus */
-     , (776,  19, True ) /* Attackable */;
+     , (776,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (776, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (776,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (776,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (776,   1, 'Mugwort') /* Name */

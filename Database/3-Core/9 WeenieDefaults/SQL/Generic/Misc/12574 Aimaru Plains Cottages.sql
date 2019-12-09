@@ -11,12 +11,7 @@ VALUES (12574,   1,        128) /* ItemType - Misc */
      , (12574,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12574,   1, True ) /* Stuck */
-     , (12574,  11, True ) /* IgnoreCollisions */
-     , (12574,  12, True ) /* ReportCollisions */
-     , (12574,  13, False) /* Ethereal */
-     , (12574,  14, True ) /* GravityStatus */
-     , (12574,  19, True ) /* Attackable */;
+VALUES (12574,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12574,   1, 'Aimaru Plains Cottages') /* Name */;

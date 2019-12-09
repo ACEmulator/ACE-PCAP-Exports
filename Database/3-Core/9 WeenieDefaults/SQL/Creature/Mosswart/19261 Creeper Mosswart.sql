@@ -16,14 +16,10 @@ VALUES (19261,   1,         16) /* ItemType - Creature */
      , (19261, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19261,   1, True ) /* Stuck */
-     , (19261,  12, True ) /* ReportCollisions */
-     , (19261,  13, False) /* Ethereal */
-     , (19261,  14, True ) /* GravityStatus */
-     , (19261,  19, True ) /* Attackable */;
+VALUES (19261,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19261,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (19261,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19261,   1, 'Creeper Mosswart') /* Name */

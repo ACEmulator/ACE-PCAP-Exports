@@ -11,12 +11,7 @@ VALUES (12628,   1,        128) /* ItemType - Misc */
      , (12628,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12628,   1, True ) /* Stuck */
-     , (12628,  11, True ) /* IgnoreCollisions */
-     , (12628,  12, True ) /* ReportCollisions */
-     , (12628,  13, False) /* Ethereal */
-     , (12628,  14, True ) /* GravityStatus */
-     , (12628,  19, True ) /* Attackable */;
+VALUES (12628,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12628,   1, 'Mosswart Place Cottages') /* Name */

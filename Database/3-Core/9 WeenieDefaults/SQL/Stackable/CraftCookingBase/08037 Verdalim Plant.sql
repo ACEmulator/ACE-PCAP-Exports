@@ -15,15 +15,8 @@ VALUES (8037,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8037,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8037, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8037,   1, False) /* Stuck */
-     , (8037,  11, True ) /* IgnoreCollisions */
-     , (8037,  13, True ) /* Ethereal */
-     , (8037,  14, True ) /* GravityStatus */
-     , (8037,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8037,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8037,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8037,   1, 'Verdalim Plant') /* Name */

@@ -15,15 +15,8 @@ VALUES (8644,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8644,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8644, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8644,   1, False) /* Stuck */
-     , (8644,  11, True ) /* IgnoreCollisions */
-     , (8644,  13, True ) /* Ethereal */
-     , (8644,  14, True ) /* GravityStatus */
-     , (8644,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8644,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8644,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8644,   1, 'Lapyan Plant') /* Name */

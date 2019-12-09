@@ -15,22 +15,17 @@ VALUES (45367,   1,       2048) /* ItemType - Gem */
      , (45367,  18,          1) /* UiEffects - Magical */
      , (45367,  19,          0) /* Value */
      , (45367,  33,         -1) /* Bonded - Slippery */
-     , (45367,  65,        101) /* Placement - Resting */
      , (45367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45367,  94,         16) /* TargetType - Creature */
      , (45367, 106,        325) /* ItemSpellcraft */
      , (45367, 107,      10000) /* ItemCurMana */
      , (45367, 108,      10000) /* ItemMaxMana */
      , (45367, 109,          0) /* ItemDifficulty */
-     , (45367, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (45367, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (45367, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45367,   1, False) /* Stuck */
-     , (45367,  11, True ) /* IgnoreCollisions */
-     , (45367,  13, True ) /* Ethereal */
-     , (45367,  14, True ) /* GravityStatus */
-     , (45367,  19, True ) /* Attackable */
-     , (45367, 108, True ) /* RareUsesTimer */;
+VALUES (45367, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45367,   1, 'Warrior''s Crystal') /* Name */

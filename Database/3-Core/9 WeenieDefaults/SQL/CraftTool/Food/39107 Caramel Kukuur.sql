@@ -13,7 +13,6 @@ VALUES (39107,   1,         32) /* ItemType - Food */
      , (39107,  16,          8) /* ItemUseable - Contained */
      , (39107,  18,          1) /* UiEffects - Magical */
      , (39107,  19,         10) /* Value */
-     , (39107,  65,        101) /* Placement - Resting */
      , (39107,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39107,  94,         16) /* TargetType - Creature */
      , (39107, 106,        300) /* ItemSpellcraft */
@@ -21,19 +20,15 @@ VALUES (39107,   1,         32) /* ItemType - Food */
      , (39107, 108,         50) /* ItemMaxMana */
      , (39107, 109,          0) /* ItemDifficulty */
      , (39107, 110,          0) /* ItemAllegianceRankLimit */
-     , (39107, 151,          9) /* HookType - Floor, Yard */;
+     , (39107, 151,          9) /* HookType - Floor, Yard */
+     , (39107, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39107,   1, False) /* Stuck */
-     , (39107,  11, True ) /* IgnoreCollisions */
-     , (39107,  13, True ) /* Ethereal */
-     , (39107,  14, True ) /* GravityStatus */
-     , (39107,  19, True ) /* Attackable */
-     , (39107,  22, True ) /* Inscribable */
+VALUES (39107,  22, True ) /* Inscribable */
      , (39107,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39107,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (39107,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39107,   1, 'Caramel Kukuur') /* Name */

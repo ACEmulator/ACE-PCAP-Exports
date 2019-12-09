@@ -8,17 +8,12 @@ VALUES (25782,   1,        128) /* ItemType - Misc */
      , (25782,   5,       1000) /* EncumbranceVal */
      , (25782,  16,          1) /* ItemUseable - No */
      , (25782,  19,       1000) /* Value */
-     , (25782,  65,        101) /* Placement - Resting */
      , (25782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25782, 151,          1) /* HookType - Floor */;
+     , (25782, 151,          1) /* HookType - Floor */
+     , (25782, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25782,   1, False) /* Stuck */
-     , (25782,  11, True ) /* IgnoreCollisions */
-     , (25782,  13, True ) /* Ethereal */
-     , (25782,  14, True ) /* GravityStatus */
-     , (25782,  19, True ) /* Attackable */
-     , (25782,  22, True ) /* Inscribable */;
+VALUES (25782,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25782,   1, 'Ice Box') /* Name */

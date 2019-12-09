@@ -11,12 +11,7 @@ VALUES (13166,   1,        128) /* ItemType - Misc */
      , (13166,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13166,   1, True ) /* Stuck */
-     , (13166,  11, True ) /* IgnoreCollisions */
-     , (13166,  12, True ) /* ReportCollisions */
-     , (13166,  13, False) /* Ethereal */
-     , (13166,  14, True ) /* GravityStatus */
-     , (13166,  19, True ) /* Attackable */;
+VALUES (13166,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13166,   1, 'Naqut Dreams Villas') /* Name */

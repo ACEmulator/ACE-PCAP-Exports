@@ -12,19 +12,13 @@ VALUES (15172,   1,      65536) /* ItemType - Portal */
      , (15172, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15172,   1, True ) /* Stuck */
-     , (15172,  12, True ) /* ReportCollisions */
-     , (15172,  13, True ) /* Ethereal */
-     , (15172,  14, True ) /* GravityStatus */
-     , (15172,  15, True ) /* LightsStatus */
-     , (15172,  19, True ) /* Attackable */;
+VALUES (15172,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15172,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15172,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15172,   1, 'Mattekar Slopes Cottages Portal') /* Name */
-     , (15172,  38, 'Mattekar Slopes Cottages Portal (68.8S, 30.6E).') /* AppraisalPortalDestination */
      , (15172, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

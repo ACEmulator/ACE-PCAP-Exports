@@ -12,7 +12,6 @@ VALUES (38475,   1,          2) /* ItemType - Armor */
      , (38475,  18,          1) /* UiEffects - Magical */
      , (38475,  19,      22839) /* Value */
      , (38475,  28,        272) /* ArmorLevel */
-     , (38475,  65,        101) /* Placement - Resting */
      , (38475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38475, 105,          8) /* ItemWorkmanship */
      , (38475, 106,        370) /* ItemSpellcraft */
@@ -27,27 +26,23 @@ VALUES (38475,   1,          2) /* ItemType - Armor */
      , (38475, 160,        101) /* WieldDifficulty */
      , (38475, 172,          1) /* AppraisalLongDescDecoration */
      , (38475, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38475, 375,          1) /* GearCritDamageResist */;
+     , (38475, 375,          1) /* GearCritDamageResist */
+     , (38475, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38475,   1, False) /* Stuck */
-     , (38475,  11, True ) /* IgnoreCollisions */
-     , (38475,  13, True ) /* Ethereal */
-     , (38475,  14, True ) /* GravityStatus */
-     , (38475,  19, True ) /* Attackable */
-     , (38475,  22, True ) /* Inscribable */
+VALUES (38475,  22, True ) /* Inscribable */
      , (38475, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38475,   5, -0.0666666666666667) /* ManaRate */
-     , (38475,  13, 1.29999995231628) /* ArmorModVsSlash */
+VALUES (38475,   5,   -0.07) /* ManaRate */
+     , (38475,  13,     1.3) /* ArmorModVsSlash */
      , (38475,  14,       1) /* ArmorModVsPierce */
      , (38475,  15,       1) /* ArmorModVsBludgeon */
-     , (38475,  16, 1.27879881858826) /* ArmorModVsCold */
-     , (38475,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (38475,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (38475,  19, 1.09265434741974) /* ArmorModVsElectric */
-     , (38475,  39, 1.33000004291534) /* DefaultScale */
+     , (38475,  16,    1.28) /* ArmorModVsCold */
+     , (38475,  17,     0.4) /* ArmorModVsFire */
+     , (38475,  18,     0.6) /* ArmorModVsAcid */
+     , (38475,  19,    1.09) /* ArmorModVsElectric */
+     , (38475,  39,    1.33) /* DefaultScale */
      , (38475, 165,       1) /* ArmorModVsNether */
      , (38475, 8004,       8) /* PCAPRecordedWorkmanship */;
 

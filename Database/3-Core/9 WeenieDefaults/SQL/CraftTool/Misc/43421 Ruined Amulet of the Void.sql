@@ -13,21 +13,16 @@ VALUES (43421,   1,        128) /* ItemType - Misc */
      , (43421,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (43421,  19,          0) /* Value */
      , (43421,  33,          1) /* Bonded - Bonded */
-     , (43421,  65,        101) /* Placement - Resting */
      , (43421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43421,  94,          2) /* TargetType - Armor */
-     , (43421, 114,          1) /* Attuned - Attuned */;
+     , (43421, 114,          1) /* Attuned - Attuned */
+     , (43421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43421,   1, False) /* Stuck */
-     , (43421,  11, True ) /* IgnoreCollisions */
-     , (43421,  13, True ) /* Ethereal */
-     , (43421,  14, True ) /* GravityStatus */
-     , (43421,  19, True ) /* Attackable */
-     , (43421,  22, True ) /* Inscribable */;
+VALUES (43421,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43421,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (43421,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43421,   1, 'Ruined Amulet of the Void') /* Name */

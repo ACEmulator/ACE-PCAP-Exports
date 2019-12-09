@@ -17,11 +17,7 @@ VALUES (31406,   1,         16) /* ItemType - Creature */
      , (31406, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31406,   1, True ) /* Stuck */
-     , (31406,  12, True ) /* ReportCollisions */
-     , (31406,  13, False) /* Ethereal */
-     , (31406,  14, True ) /* GravityStatus */
-     , (31406,  19, True ) /* Attackable */;
+VALUES (31406,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31406,   1, 'Archon Traesis') /* Name */

@@ -15,11 +15,7 @@ VALUES (1629,   1,         16) /* ItemType - Creature */
      , (1629, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1629,   1, True ) /* Stuck */
-     , (1629,  12, True ) /* ReportCollisions */
-     , (1629,  13, False) /* Ethereal */
-     , (1629,  14, True ) /* GravityStatus */
-     , (1629,  19, True ) /* Attackable */;
+VALUES (1629,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1629,   1, 'Tusker Guard') /* Name */

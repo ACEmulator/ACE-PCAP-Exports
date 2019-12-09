@@ -15,14 +15,10 @@ VALUES (51807,   1,         16) /* ItemType - Creature */
      , (51807, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51807,   1, True ) /* Stuck */
-     , (51807,  12, True ) /* ReportCollisions */
-     , (51807,  13, False) /* Ethereal */
-     , (51807,  14, True ) /* GravityStatus */
-     , (51807,  19, True ) /* Attackable */;
+VALUES (51807,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51807,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51807,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51807,   1, 'Empowered Hatred Wisp') /* Name */

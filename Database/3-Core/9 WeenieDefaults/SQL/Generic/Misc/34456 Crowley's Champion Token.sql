@@ -9,17 +9,12 @@ VALUES (34456,   1,        128) /* ItemType - Misc */
      , (34456,  16,          1) /* ItemUseable - No */
      , (34456,  19,          0) /* Value */
      , (34456,  33,          1) /* Bonded - Bonded */
-     , (34456,  65,        101) /* Placement - Resting */
      , (34456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34456, 114,          1) /* Attuned - Attuned */;
+     , (34456, 114,          1) /* Attuned - Attuned */
+     , (34456, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34456,   1, False) /* Stuck */
-     , (34456,  11, True ) /* IgnoreCollisions */
-     , (34456,  13, True ) /* Ethereal */
-     , (34456,  14, True ) /* GravityStatus */
-     , (34456,  19, True ) /* Attackable */
-     , (34456,  22, True ) /* Inscribable */;
+VALUES (34456,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34456,   1, 'Crowley''s Champion Token') /* Name */

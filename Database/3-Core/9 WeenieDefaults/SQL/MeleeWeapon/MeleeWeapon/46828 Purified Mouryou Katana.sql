@@ -18,7 +18,6 @@ VALUES (46828,   1,          1) /* ItemType - MeleeWeapon */
      , (46828,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46828,  49,          0) /* WeaponTime */
      , (46828,  51,          1) /* CombatUse - Melee */
-     , (46828,  65,          1) /* Placement - RightHandCombat */
      , (46828,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (46828, 106,        475) /* ItemSpellcraft */
      , (46828, 107,       2564) /* ItemCurMana */
@@ -32,32 +31,27 @@ VALUES (46828,   1,          1) /* ItemType - MeleeWeapon */
      , (46828, 265,        140) /* EquipmentSetId - UNKNOWN_140 */
      , (46828, 319,         50) /* ItemMaxLevel */
      , (46828, 320,          1) /* ItemXpStyle - Fixed */
-     , (46828, 8030,          0);
+     , (46828, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46828, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (46828,   4, 29932925542) /* ItemTotalXp */
      , (46828,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46828,   1, False) /* Stuck */
-     , (46828,  11, True ) /* IgnoreCollisions */
-     , (46828,  13, True ) /* Ethereal */
-     , (46828,  14, True ) /* GravityStatus */
-     , (46828,  15, True ) /* LightsStatus */
-     , (46828,  19, True ) /* Attackable */
-     , (46828,  22, True ) /* Inscribable */
+VALUES (46828,  22, True ) /* Inscribable */
      , (46828,  69, False) /* IsSellable */
      , (46828,  85, True ) /* AppraisalHasAllowedWielder */
      , (46828,  91, True ) /* Retained */
      , (46828,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46828,   5, -0.0500000007450581) /* ManaRate */
+VALUES (46828,   5,   -0.05) /* ManaRate */
      , (46828,  21,       0) /* WeaponLength */
-     , (46828,  22, 0.349999994039536) /* DamageVariance */
+     , (46828,  22,    0.35) /* DamageVariance */
      , (46828,  26,       0) /* MaximumVelocity */
-     , (46828,  29, 1.34999997913837) /* WeaponDefense */
-     , (46828,  62, 1.45000000298023) /* WeaponOffense */
+     , (46828,  29,    1.35) /* WeaponDefense */
+     , (46828,  62,    1.45) /* WeaponOffense */
      , (46828,  63,       1) /* DamageMod */
      , (46828, 136,       1) /* CriticalMultiplier */
      , (46828, 155,       1) /* IgnoreArmor */;

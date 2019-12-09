@@ -11,15 +11,10 @@ VALUES (13096,   1,      65536) /* ItemType - Portal */
      , (13096, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13096,   1, True ) /* Stuck */
-     , (13096,  12, True ) /* ReportCollisions */
-     , (13096,  13, True ) /* Ethereal */
-     , (13096,  14, True ) /* GravityStatus */
-     , (13096,  15, True ) /* LightsStatus */
-     , (13096,  19, True ) /* Attackable */;
+VALUES (13096,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13096,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13096,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13096,   1, 'Charbone Ridge Portal') /* Name */

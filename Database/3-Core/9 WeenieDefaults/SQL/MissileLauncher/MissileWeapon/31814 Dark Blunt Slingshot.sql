@@ -29,22 +29,17 @@ VALUES (31814,   1,        256) /* ItemType - MissileWeapon */
      , (31814, 178,         16) /* GemType */
      , (31814, 204,         13) /* ElementalDamageBonus */
      , (31814, 353,         10) /* WeaponType - Thrown */
-     , (31814, 8030,          0);
+     , (31814, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31814,   1, False) /* Stuck */
-     , (31814,  11, True ) /* IgnoreCollisions */
-     , (31814,  13, True ) /* Ethereal */
-     , (31814,  14, True ) /* GravityStatus */
-     , (31814,  19, True ) /* Attackable */
-     , (31814,  22, True ) /* Inscribable */;
+VALUES (31814,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31814,  21,       0) /* WeaponLength */
      , (31814,  22,       0) /* DamageVariance */
      , (31814,  26,    24.9) /* MaximumVelocity */
      , (31814,  29,    1.15) /* WeaponDefense */
-     , (31814,  39, 1.10000002384186) /* DefaultScale */
+     , (31814,  39,     1.1) /* DefaultScale */
      , (31814,  62,       1) /* WeaponOffense */
      , (31814,  63,    2.43) /* DamageMod */
      , (31814, 8004,       5) /* PCAPRecordedWorkmanship */;

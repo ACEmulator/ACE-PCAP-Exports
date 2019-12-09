@@ -29,20 +29,15 @@ VALUES (51988,   1,        256) /* ItemType - MissileWeapon */
      , (51988, 160,        375) /* WieldDifficulty */
      , (51988, 166,         19) /* SlayerCreatureType - Virindi */
      , (51988, 204,         16) /* ElementalDamageBonus */
-     , (51988, 8030,          0);
+     , (51988, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51988,   1, False) /* Stuck */
-     , (51988,  11, True ) /* IgnoreCollisions */
-     , (51988,  13, True ) /* Ethereal */
-     , (51988,  14, True ) /* GravityStatus */
-     , (51988,  19, True ) /* Attackable */
-     , (51988,  22, True ) /* Inscribable */
+VALUES (51988,  22, True ) /* Inscribable */
      , (51988,  69, False) /* IsSellable */
      , (51988,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51988,   5,  -0.033) /* ManaRate */
+VALUES (51988,   5,   -0.03) /* ManaRate */
      , (51988,  21,       0) /* WeaponLength */
      , (51988,  22,       0) /* DamageVariance */
      , (51988,  26,    27.3) /* MaximumVelocity */

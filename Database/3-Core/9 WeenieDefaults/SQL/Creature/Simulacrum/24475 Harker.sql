@@ -18,11 +18,7 @@ VALUES (24475,   1,         16) /* ItemType - Creature */
      , (24475, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24475,   1, True ) /* Stuck */
-     , (24475,  12, True ) /* ReportCollisions */
-     , (24475,  13, False) /* Ethereal */
-     , (24475,  14, True ) /* GravityStatus */
-     , (24475,  19, True ) /* Attackable */;
+VALUES (24475,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24475,   1, 'Harker') /* Name */

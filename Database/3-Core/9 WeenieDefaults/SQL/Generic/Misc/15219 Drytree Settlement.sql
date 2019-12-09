@@ -11,12 +11,7 @@ VALUES (15219,   1,        128) /* ItemType - Misc */
      , (15219,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15219,   1, True ) /* Stuck */
-     , (15219,  11, True ) /* IgnoreCollisions */
-     , (15219,  12, True ) /* ReportCollisions */
-     , (15219,  13, False) /* Ethereal */
-     , (15219,  14, True ) /* GravityStatus */
-     , (15219,  19, True ) /* Attackable */;
+VALUES (15219,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15219,   1, 'Drytree Settlement') /* Name */;

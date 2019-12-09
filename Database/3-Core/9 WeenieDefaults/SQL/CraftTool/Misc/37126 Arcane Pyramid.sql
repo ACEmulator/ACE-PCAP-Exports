@@ -12,18 +12,13 @@ VALUES (37126,   1,        128) /* ItemType - Misc */
      , (37126,  15,       5000) /* StackUnitValue */
      , (37126,  16,          8) /* ItemUseable - Contained */
      , (37126,  19,       5000) /* Value */
-     , (37126,  65,        101) /* Placement - Resting */
      , (37126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37126,  94,         16) /* TargetType - Creature */
-     , (37126, 151,          2) /* HookType - Wall */;
+     , (37126, 151,          2) /* HookType - Wall */
+     , (37126, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37126,   1, False) /* Stuck */
-     , (37126,  11, True ) /* IgnoreCollisions */
-     , (37126,  13, True ) /* Ethereal */
-     , (37126,  14, True ) /* GravityStatus */
-     , (37126,  19, True ) /* Attackable */
-     , (37126,  22, True ) /* Inscribable */;
+VALUES (37126,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37126,   1, 'Arcane Pyramid') /* Name */;

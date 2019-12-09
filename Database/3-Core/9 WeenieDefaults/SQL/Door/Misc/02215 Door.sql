@@ -6,15 +6,11 @@ VALUES (2215, 'doortumerokg', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2215,   1,        128) /* ItemType - Misc */
      , (2215,  16,         32) /* ItemUseable - Remote */
-     , (2215,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (2215,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (2215, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2215,   1, True ) /* Stuck */
-     , (2215,  11, True ) /* IgnoreCollisions */
-     , (2215,  12, True ) /* ReportCollisions */
-     , (2215,  13, False) /* Ethereal */
-     , (2215,  19, True ) /* Attackable */;
+VALUES (2215,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2215,  54,       2) /* UseRadius */;

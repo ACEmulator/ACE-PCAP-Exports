@@ -11,16 +11,9 @@ VALUES (37246,   1,        128) /* ItemType - Misc */
      , (37246,  13,          1) /* StackUnitEncumbrance */
      , (37246,  15,          0) /* StackUnitValue */
      , (37246,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (37246,  65,        101) /* Placement - Resting */
      , (37246,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37246,  94,        128) /* TargetType - Misc */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37246,   1, False) /* Stuck */
-     , (37246,  11, True ) /* IgnoreCollisions */
-     , (37246,  13, True ) /* Ethereal */
-     , (37246,  14, True ) /* GravityStatus */
-     , (37246,  19, True ) /* Attackable */;
+     , (37246,  94,        128) /* TargetType - Misc */
+     , (37246, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37246,   1, 'King of Hands') /* Name */

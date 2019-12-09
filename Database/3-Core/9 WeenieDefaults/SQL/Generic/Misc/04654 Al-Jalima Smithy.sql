@@ -11,11 +11,7 @@ VALUES (4654,   1,        128) /* ItemType - Misc */
      , (4654,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4654,   1, True ) /* Stuck */
-     , (4654,  11, True ) /* IgnoreCollisions */
-     , (4654,  12, True ) /* ReportCollisions */
-     , (4654,  13, False) /* Ethereal */
-     , (4654,  19, True ) /* Attackable */;
+VALUES (4654,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4654,   1, 'Al-Jalima Smithy') /* Name */

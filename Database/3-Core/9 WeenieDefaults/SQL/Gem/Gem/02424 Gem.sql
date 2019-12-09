@@ -13,7 +13,6 @@ VALUES (2424,   1,       2048) /* ItemType - Gem */
      , (2424,  16,          8) /* ItemUseable - Contained */
      , (2424,  18,          1) /* UiEffects - Magical */
      , (2424,  19,       1645) /* Value */
-     , (2424,  65,        101) /* Placement - Resting */
      , (2424,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2424, 105,          6) /* ItemWorkmanship */
      , (2424, 106,        200) /* ItemSpellcraft */
@@ -24,15 +23,11 @@ VALUES (2424,   1,       2048) /* ItemType - Gem */
      , (2424, 115,          0) /* ItemSkillLevelLimit */
      , (2424, 117,        300) /* ItemManaCost */
      , (2424, 131,         34) /* MaterialType - Peridot */
-     , (2424, 172,          1) /* AppraisalLongDescDecoration */;
+     , (2424, 172,          1) /* AppraisalLongDescDecoration */
+     , (2424, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2424,   1, False) /* Stuck */
-     , (2424,  11, True ) /* IgnoreCollisions */
-     , (2424,  13, True ) /* Ethereal */
-     , (2424,  14, True ) /* GravityStatus */
-     , (2424,  19, True ) /* Attackable */
-     , (2424,  22, True ) /* Inscribable */;
+VALUES (2424,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2424, 8004,       6) /* PCAPRecordedWorkmanship */;

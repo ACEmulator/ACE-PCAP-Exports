@@ -13,12 +13,7 @@ VALUES (37378,   1,         16) /* ItemType - Creature */
      , (37378, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37378,   1, True ) /* Stuck */
-     , (37378,  12, True ) /* ReportCollisions */
-     , (37378,  13, False) /* Ethereal */
-     , (37378,  14, True ) /* GravityStatus */
-     , (37378,  19, True ) /* Attackable */
-     , (37378,  42, True ) /* AllowEdgeSlide */;
+VALUES (37378,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37378,   1, 'Aerbax''s Shadow') /* Name */

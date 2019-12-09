@@ -11,7 +11,6 @@ VALUES (7407,   1,      32768) /* ItemType - Caster */
      , (7407,  18,          1) /* UiEffects - Magical */
      , (7407,  19,      10150) /* Value */
      , (7407,  33,          1) /* Bonded - Bonded */
-     , (7407,  65,        101) /* Placement - Resting */
      , (7407,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7407,  94,         16) /* TargetType - Creature */
      , (7407, 106,        210) /* ItemSpellcraft */
@@ -22,23 +21,18 @@ VALUES (7407,   1,      32768) /* ItemType - Caster */
      , (7407, 114,          0) /* Attuned - Normal */
      , (7407, 115,        230) /* ItemSkillLevelLimit */
      , (7407, 151,          2) /* HookType - Wall */
-     , (7407, 176,         34) /* AppraisalItemSkill */;
+     , (7407, 176,         34) /* AppraisalItemSkill */
+     , (7407, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7407,   1, False) /* Stuck */
-     , (7407,  11, True ) /* IgnoreCollisions */
-     , (7407,  13, True ) /* Ethereal */
-     , (7407,  14, True ) /* GravityStatus */
-     , (7407,  15, True ) /* LightsStatus */
-     , (7407,  19, True ) /* Attackable */
-     , (7407,  22, True ) /* Inscribable */
+VALUES (7407,  22, True ) /* Inscribable */
      , (7407,  85, True ) /* AppraisalHasAllowedWielder */
      , (7407,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7407,   5, -0.0829999968409538) /* ManaRate */
+VALUES (7407,   5,   -0.08) /* ManaRate */
      , (7407,  29,       1) /* WeaponDefense */
-     , (7407, 144, 1.21624798922685E-314) /* ManaConversionMod */;
+     , (7407, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7407,   1, 'Staff of Aerfalle') /* Name */

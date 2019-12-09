@@ -8,15 +8,10 @@ VALUES (22711,   1,        128) /* ItemType - Misc */
      , (22711,   5,       9000) /* EncumbranceVal */
      , (22711,  16,          1) /* ItemUseable - No */
      , (22711,  19,        125) /* Value */
-     , (22711,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (22711,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22711,   1, True ) /* Stuck */
-     , (22711,  11, True ) /* IgnoreCollisions */
-     , (22711,  12, True ) /* ReportCollisions */
-     , (22711,  13, False) /* Ethereal */
-     , (22711,  14, True ) /* GravityStatus */
-     , (22711,  19, True ) /* Attackable */;
+VALUES (22711,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22711,   1, 'Crude Tusker Painting') /* Name */

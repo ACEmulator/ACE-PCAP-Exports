@@ -12,17 +12,10 @@ VALUES (14912,   1,         32) /* ItemType - Food */
      , (14912,  15,       1000) /* StackUnitValue */
      , (14912,  16,          8) /* ItemUseable - Contained */
      , (14912,  19,       1000) /* Value */
-     , (14912,  65,        101) /* Placement - Resting */
      , (14912,  89,          4) /* BoosterEnum - Stamina */
      , (14912,  90,         30) /* BoostValue */
-     , (14912,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14912,   1, False) /* Stuck */
-     , (14912,  11, True ) /* IgnoreCollisions */
-     , (14912,  13, True ) /* Ethereal */
-     , (14912,  14, True ) /* GravityStatus */
-     , (14912,  19, True ) /* Attackable */;
+     , (14912,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14912, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14912,   1, 'Bottle of Champagne') /* Name */

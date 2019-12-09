@@ -10,7 +10,6 @@ VALUES (27106,   1,          8) /* ItemType - Jewelry */
      , (27106,  16,          1) /* ItemUseable - No */
      , (27106,  18,          1) /* UiEffects - Magical */
      , (27106,  19,        700) /* Value */
-     , (27106,  65,        101) /* Placement - Resting */
      , (27106,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27106, 106,        125) /* ItemSpellcraft */
      , (27106, 107,        600) /* ItemCurMana */
@@ -19,18 +18,14 @@ VALUES (27106,   1,          8) /* ItemType - Jewelry */
      , (27106, 151,          2) /* HookType - Wall */
      , (27106, 158,          7) /* WieldRequirements - Level */
      , (27106, 159,          1) /* WieldSkillType - Axe */
-     , (27106, 160,         35) /* WieldDifficulty */;
+     , (27106, 160,         35) /* WieldDifficulty */
+     , (27106, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27106,   1, False) /* Stuck */
-     , (27106,  11, True ) /* IgnoreCollisions */
-     , (27106,  13, True ) /* Ethereal */
-     , (27106,  14, True ) /* GravityStatus */
-     , (27106,  19, True ) /* Attackable */
-     , (27106,  22, True ) /* Inscribable */;
+VALUES (27106,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27106,   5, -0.033333) /* ManaRate */;
+VALUES (27106,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27106,   1, 'Elysa''s Bangle') /* Name */

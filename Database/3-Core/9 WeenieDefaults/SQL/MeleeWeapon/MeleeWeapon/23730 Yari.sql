@@ -11,16 +11,11 @@ VALUES (23730,   1,          1) /* ItemType - MeleeWeapon */
      , (23730,  16,          1) /* ItemUseable - No */
      , (23730,  19,        600) /* Value */
      , (23730,  51,          1) /* CombatUse - Melee */
-     , (23730,  65,          1) /* Placement - RightHandCombat */
-     , (23730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23730, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23730,   1, False) /* Stuck */
-     , (23730,  11, True ) /* IgnoreCollisions */
-     , (23730,  13, True ) /* Ethereal */
-     , (23730,  14, True ) /* GravityStatus */
-     , (23730,  19, True ) /* Attackable */
-     , (23730,  22, True ) /* Inscribable */;
+VALUES (23730,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23730,   1, 'Yari') /* Name */;

@@ -13,19 +13,13 @@ VALUES (29501,   1,      65536) /* ItemType - Portal */
      , (29501, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29501,   1, True ) /* Stuck */
-     , (29501,  12, True ) /* ReportCollisions */
-     , (29501,  13, True ) /* Ethereal */
-     , (29501,  14, True ) /* GravityStatus */
-     , (29501,  15, True ) /* LightsStatus */
-     , (29501,  19, True ) /* Attackable */;
+VALUES (29501,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29501,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29501,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29501,   1, 'Exit Karlun''s Fort') /* Name */
-     , (29501,  38, 'Exit Karlun''s Fort (89.2N, 67.8W).') /* AppraisalPortalDestination */
      , (29501, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,19 +13,13 @@ VALUES (14886,   1,      65536) /* ItemType - Portal */
      , (14886, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14886,   1, True ) /* Stuck */
-     , (14886,  12, True ) /* ReportCollisions */
-     , (14886,  13, True ) /* Ethereal */
-     , (14886,  14, True ) /* GravityStatus */
-     , (14886,  15, True ) /* LightsStatus */
-     , (14886,  19, True ) /* Attackable */;
+VALUES (14886,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14886,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14886,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14886,   1, 'Malignant Tabernacle') /* Name */
-     , (14886,  38, 'Malignant Tabernacle') /* AppraisalPortalDestination */
      , (14886, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

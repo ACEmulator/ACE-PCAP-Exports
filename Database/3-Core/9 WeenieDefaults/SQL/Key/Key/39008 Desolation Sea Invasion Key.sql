@@ -9,20 +9,15 @@ VALUES (39008,   1,      16384) /* ItemType - Key */
      , (39008,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (39008,  19,          0) /* Value */
      , (39008,  33,          1) /* Bonded - Bonded */
-     , (39008,  65,        101) /* Placement - Resting */
      , (39008,  91,          1) /* MaxStructure */
      , (39008,  92,          1) /* Structure */
      , (39008,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39008,  94,        640) /* TargetType - LockableMagicTarget */
-     , (39008, 114,          1) /* Attuned - Attuned */;
+     , (39008, 114,          1) /* Attuned - Attuned */
+     , (39008, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39008,   1, False) /* Stuck */
-     , (39008,  11, True ) /* IgnoreCollisions */
-     , (39008,  13, True ) /* Ethereal */
-     , (39008,  14, True ) /* GravityStatus */
-     , (39008,  19, True ) /* Attackable */
-     , (39008,  22, True ) /* Inscribable */;
+VALUES (39008,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39008,   1, 'Desolation Sea Invasion Key') /* Name */

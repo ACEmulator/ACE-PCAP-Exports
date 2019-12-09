@@ -13,21 +13,15 @@ VALUES (42163,   1,      65536) /* ItemType - Portal */
      , (42163, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42163,   1, True ) /* Stuck */
-     , (42163,  12, True ) /* ReportCollisions */
-     , (42163,  13, True ) /* Ethereal */
-     , (42163,  14, True ) /* GravityStatus */
-     , (42163,  15, True ) /* LightsStatus */
-     , (42163,  19, True ) /* Attackable */;
+VALUES (42163,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42163,  39, 0.800000011920929) /* DefaultScale */
-     , (42163,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42163,  39,     0.8) /* DefaultScale */
+     , (42163,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42163,   1, 'Mosswart Camp') /* Name */
      , (42163,  16, 'A portal leading to a Mosswart Camp where the Ice Tachi will be found.') /* LongDesc */
-     , (42163,  38, 'Mosswart Camp (27.5S, 70.6E).') /* AppraisalPortalDestination */
      , (42163, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

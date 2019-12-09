@@ -15,11 +15,7 @@ VALUES (28649,   1,         16) /* ItemType - Creature */
      , (28649, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28649,   1, True ) /* Stuck */
-     , (28649,  12, True ) /* ReportCollisions */
-     , (28649,  13, False) /* Ethereal */
-     , (28649,  14, True ) /* GravityStatus */
-     , (28649,  19, True ) /* Attackable */;
+VALUES (28649,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28649,   1, 'Crazed Fiun') /* Name */

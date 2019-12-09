@@ -16,7 +16,6 @@ VALUES (24559,   1,        256) /* ItemType - MissileWeapon */
      , (24559,  49,         60) /* WeaponTime */
      , (24559,  50,          2) /* AmmoType - Bolt */
      , (24559,  51,          2) /* CombatUse - Missle */
-     , (24559,  65,        101) /* Placement - Resting */
      , (24559,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (24559, 106,        400) /* ItemSpellcraft */
      , (24559, 107,        988) /* ItemCurMana */
@@ -26,24 +25,19 @@ VALUES (24559,   1,        256) /* ItemType - MissileWeapon */
      , (24559, 159,         47) /* WieldSkillType - MissileWeapons */
      , (24559, 160,        290) /* WieldDifficulty */
      , (24559, 353,          9) /* WeaponType - Crossbow */
-     , (24559, 8030,          0);
+     , (24559, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (24559, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24559,   1, False) /* Stuck */
-     , (24559,  11, True ) /* IgnoreCollisions */
-     , (24559,  13, True ) /* Ethereal */
-     , (24559,  14, True ) /* GravityStatus */
-     , (24559,  15, True ) /* LightsStatus */
-     , (24559,  19, True ) /* Attackable */
-     , (24559,  22, True ) /* Inscribable */;
+VALUES (24559,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24559,   5, -0.0500000007450581) /* ManaRate */
+VALUES (24559,   5,   -0.05) /* ManaRate */
      , (24559,  21,       0) /* WeaponLength */
      , (24559,  22,       0) /* DamageVariance */
      , (24559,  26,    27.3) /* MaximumVelocity */
-     , (24559,  29, 1.08000004291534) /* WeaponDefense */
-     , (24559,  39, 1.20000004768372) /* DefaultScale */
+     , (24559,  29,    1.08) /* WeaponDefense */
+     , (24559,  39,     1.2) /* DefaultScale */
      , (24559,  62,       1) /* WeaponOffense */
      , (24559,  63,    2.75) /* DamageMod */
      , (24559,  77,       1) /* PhysicsScriptIntensity */

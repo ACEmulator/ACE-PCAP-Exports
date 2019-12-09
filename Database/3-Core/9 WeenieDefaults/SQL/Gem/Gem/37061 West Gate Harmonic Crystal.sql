@@ -13,16 +13,11 @@ VALUES (37061,   1,       2048) /* ItemType - Gem */
      , (37061,  16,          1) /* ItemUseable - No */
      , (37061,  18,         64) /* UiEffects - Lightning */
      , (37061,  19,         10) /* Value */
-     , (37061,  65,        101) /* Placement - Resting */
-     , (37061,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37061,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37061, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37061,   1, False) /* Stuck */
-     , (37061,  11, True ) /* IgnoreCollisions */
-     , (37061,  13, True ) /* Ethereal */
-     , (37061,  14, True ) /* GravityStatus */
-     , (37061,  19, True ) /* Attackable */
-     , (37061,  22, True ) /* Inscribable */;
+VALUES (37061,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37061,   1, 'West Gate Harmonic Crystal') /* Name */

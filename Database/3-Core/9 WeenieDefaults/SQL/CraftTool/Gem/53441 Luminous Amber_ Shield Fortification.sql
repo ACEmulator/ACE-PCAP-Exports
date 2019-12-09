@@ -14,17 +14,12 @@ VALUES (53441,   1,       2048) /* ItemType - Gem */
      , (53441,  18,        256) /* UiEffects - Acid */
      , (53441,  19,         25) /* Value */
      , (53441,  33,          1) /* Bonded - Bonded */
-     , (53441,  65,        101) /* Placement - Resting */
      , (53441,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53441,  94,          2) /* TargetType - Armor */;
+     , (53441,  94,          2) /* TargetType - Armor */
+     , (53441, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53441,   1, False) /* Stuck */
-     , (53441,  11, True ) /* IgnoreCollisions */
-     , (53441,  13, True ) /* Ethereal */
-     , (53441,  14, True ) /* GravityStatus */
-     , (53441,  19, True ) /* Attackable */
-     , (53441,  69, False) /* IsSellable */;
+VALUES (53441,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53441,   1, 'Luminous Amber: Shield Fortification') /* Name */

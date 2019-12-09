@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27474,   1,      16384) /* ItemType - Key */
      , (27474,   5,        900) /* EncumbranceVal */
      , (27474,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (27474,  65,        101) /* Placement - Resting */
      , (27474,  91,          1) /* MaxStructure */
      , (27474,  92,          1) /* Structure */
      , (27474,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27474,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (27474,  94,        640) /* TargetType - LockableMagicTarget */
+     , (27474, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27474,   1, False) /* Stuck */
-     , (27474,  11, True ) /* IgnoreCollisions */
-     , (27474,  13, True ) /* Ethereal */
-     , (27474,  14, True ) /* GravityStatus */
-     , (27474,  19, True ) /* Attackable */
-     , (27474,  22, True ) /* Inscribable */;
+VALUES (27474,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27474,   1, 'Lugian-Forged Key') /* Name */;

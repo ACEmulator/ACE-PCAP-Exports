@@ -12,18 +12,11 @@ VALUES (34855,   1,    4194304) /* ItemType - CraftCookingBase */
      , (34855,  15,         50) /* StackUnitValue */
      , (34855,  16,          1) /* ItemUseable - No */
      , (34855,  19,         50) /* Value */
-     , (34855,  65,        101) /* Placement - Resting */
-     , (34855,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34855,   1, False) /* Stuck */
-     , (34855,  11, True ) /* IgnoreCollisions */
-     , (34855,  13, True ) /* Ethereal */
-     , (34855,  14, True ) /* GravityStatus */
-     , (34855,  19, True ) /* Attackable */;
+     , (34855,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34855, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34855,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (34855,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34855,   1, 'Tiriun Mushroom Cap') /* Name */

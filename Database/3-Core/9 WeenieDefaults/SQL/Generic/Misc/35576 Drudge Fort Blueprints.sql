@@ -9,18 +9,13 @@ VALUES (35576,   1,        128) /* ItemType - Misc */
      , (35576,  16,          1) /* ItemUseable - No */
      , (35576,  19,          0) /* Value */
      , (35576,  33,          1) /* Bonded - Bonded */
-     , (35576,  65,        101) /* Placement - Resting */
      , (35576,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35576, 114,          1) /* Attuned - Attuned */
-     , (35576, 151,          2) /* HookType - Wall */;
+     , (35576, 151,          2) /* HookType - Wall */
+     , (35576, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35576,   1, False) /* Stuck */
-     , (35576,  11, True ) /* IgnoreCollisions */
-     , (35576,  13, True ) /* Ethereal */
-     , (35576,  14, True ) /* GravityStatus */
-     , (35576,  19, True ) /* Attackable */
-     , (35576,  69, False) /* IsSellable */;
+VALUES (35576,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35576,   1, 'Drudge Fort Blueprints') /* Name */

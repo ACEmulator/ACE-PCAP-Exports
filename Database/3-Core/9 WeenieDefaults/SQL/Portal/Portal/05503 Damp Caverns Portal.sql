@@ -13,19 +13,13 @@ VALUES (5503,   1,      65536) /* ItemType - Portal */
      , (5503, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5503,   1, True ) /* Stuck */
-     , (5503,  12, True ) /* ReportCollisions */
-     , (5503,  13, True ) /* Ethereal */
-     , (5503,  14, True ) /* GravityStatus */
-     , (5503,  15, True ) /* LightsStatus */
-     , (5503,  19, True ) /* Attackable */;
+VALUES (5503,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5503,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5503,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5503,   1, 'Damp Caverns Portal') /* Name */
-     , (5503,  38, 'Damp Caverns Portal') /* AppraisalPortalDestination */
      , (5503, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

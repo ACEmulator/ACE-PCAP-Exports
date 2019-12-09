@@ -10,19 +10,14 @@ VALUES (53411,   1,          8) /* ItemType - Jewelry */
      , (53411,  16,          1) /* ItemUseable - No */
      , (53411,  18,          1) /* UiEffects - Magical */
      , (53411,  19,         15) /* Value */
-     , (53411,  65,        101) /* Placement - Resting */
-     , (53411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (53411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (53411, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53411,   1, False) /* Stuck */
-     , (53411,  11, True ) /* IgnoreCollisions */
-     , (53411,  13, True ) /* Ethereal */
-     , (53411,  14, True ) /* GravityStatus */
-     , (53411,  19, True ) /* Attackable */
-     , (53411,  22, True ) /* Inscribable */;
+VALUES (53411,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53411,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (53411,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53411,   1, 'Bracelet of Constitution') /* Name */;

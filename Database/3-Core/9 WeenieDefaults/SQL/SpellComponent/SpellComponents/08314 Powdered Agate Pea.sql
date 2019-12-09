@@ -12,18 +12,11 @@ VALUES (8314,   1,       4096) /* ItemType - SpellComponents */
      , (8314,  15,        625) /* StackUnitValue */
      , (8314,  16,          1) /* ItemUseable - No */
      , (8314,  19,        625) /* Value */
-     , (8314,  65,        101) /* Placement - Resting */
-     , (8314,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8314,   1, False) /* Stuck */
-     , (8314,  11, True ) /* IgnoreCollisions */
-     , (8314,  13, True ) /* Ethereal */
-     , (8314,  14, True ) /* GravityStatus */
-     , (8314,  19, True ) /* Attackable */;
+     , (8314,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8314, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8314,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8314,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8314,   1, 'Powdered Agate Pea') /* Name */;

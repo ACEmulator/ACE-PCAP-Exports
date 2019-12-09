@@ -12,19 +12,13 @@ VALUES (15669,   1,      65536) /* ItemType - Portal */
      , (15669, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15669,   1, True ) /* Stuck */
-     , (15669,  12, True ) /* ReportCollisions */
-     , (15669,  13, True ) /* Ethereal */
-     , (15669,  14, True ) /* GravityStatus */
-     , (15669,  15, True ) /* LightsStatus */
-     , (15669,  19, True ) /* Attackable */;
+VALUES (15669,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15669,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15669,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15669,   1, 'Broken Haft Vale Portal') /* Name */
-     , (15669,  38, 'Broken Haft Vale Portal (72.1N, 55.2E).') /* AppraisalPortalDestination */
      , (15669, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

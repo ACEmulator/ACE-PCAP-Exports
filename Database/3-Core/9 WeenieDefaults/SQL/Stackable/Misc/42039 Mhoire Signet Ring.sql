@@ -13,17 +13,12 @@ VALUES (42039,   1,        128) /* ItemType - Misc */
      , (42039,  16,          1) /* ItemUseable - No */
      , (42039,  19,          0) /* Value */
      , (42039,  33,          1) /* Bonded - Bonded */
-     , (42039,  65,        101) /* Placement - Resting */
      , (42039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42039, 114,          1) /* Attuned - Attuned */;
+     , (42039, 114,          1) /* Attuned - Attuned */
+     , (42039, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42039,   1, False) /* Stuck */
-     , (42039,  11, True ) /* IgnoreCollisions */
-     , (42039,  13, True ) /* Ethereal */
-     , (42039,  14, True ) /* GravityStatus */
-     , (42039,  19, True ) /* Attackable */
-     , (42039,  69, False) /* IsSellable */;
+VALUES (42039,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42039,   1, 'Mhoire Signet Ring') /* Name */

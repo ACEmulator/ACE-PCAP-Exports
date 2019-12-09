@@ -12,16 +12,11 @@ VALUES (12051,   1,          1) /* ItemType - MeleeWeapon */
      , (12051,  18,        256) /* UiEffects - Acid */
      , (12051,  19,        100) /* Value */
      , (12051,  51,          1) /* CombatUse - Melee */
-     , (12051,  65,          1) /* Placement - RightHandCombat */
-     , (12051,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12051,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12051, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12051,   1, False) /* Stuck */
-     , (12051,  11, True ) /* IgnoreCollisions */
-     , (12051,  13, True ) /* Ethereal */
-     , (12051,  14, True ) /* GravityStatus */
-     , (12051,  19, True ) /* Attackable */
-     , (12051,  22, True ) /* Inscribable */;
+VALUES (12051,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12051,   1, 'Bandit Acid Dagger') /* Name */;

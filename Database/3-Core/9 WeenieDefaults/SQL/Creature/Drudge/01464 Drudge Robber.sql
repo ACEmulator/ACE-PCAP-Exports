@@ -15,16 +15,12 @@ VALUES (1464,   1,         16) /* ItemType - Creature */
      , (1464, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1464,   1, True ) /* Stuck */
-     , (1464,  12, True ) /* ReportCollisions */
-     , (1464,  13, False) /* Ethereal */
-     , (1464,  14, True ) /* GravityStatus */
-     , (1464,  19, True ) /* Attackable */;
+VALUES (1464,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1464, 8010,       0) /* PCAPRecordedVelocityX */
      , (1464, 8011,       0) /* PCAPRecordedVelocityY */
-     , (1464, 8012, -7.36551475524902) /* PCAPRecordedVelocityZ */;
+     , (1464, 8012,   -7.37) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1464,   1, 'Drudge Robber') /* Name */

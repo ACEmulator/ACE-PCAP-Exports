@@ -13,15 +13,8 @@ VALUES (38853,   1,          2) /* ItemType - Armor */
      , (38853,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38853, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38853,   1, False) /* Stuck */
-     , (38853,  11, True ) /* IgnoreCollisions */
-     , (38853,  13, True ) /* Ethereal */
-     , (38853,  14, True ) /* GravityStatus */
-     , (38853,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38853,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (38853,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38853,   1, 'Radiant Blood Shield') /* Name */;

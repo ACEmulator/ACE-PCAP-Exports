@@ -13,20 +13,14 @@ VALUES (37385,   1,      65536) /* ItemType - Portal */
      , (37385, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37385,   1, True ) /* Stuck */
-     , (37385,  12, True ) /* ReportCollisions */
-     , (37385,  13, True ) /* Ethereal */
-     , (37385,  14, True ) /* GravityStatus */
-     , (37385,  15, True ) /* LightsStatus */
-     , (37385,  19, True ) /* Attackable */;
+VALUES (37385,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37385,  54, -0.100000001490116) /* UseRadius */;
+VALUES (37385,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37385,   1, 'Eldrytch Web Stronghold') /* Name */
      , (37385,  16, 'You must be a member of the Society of the Eldrytch Web to enter this Portal.') /* LongDesc */
-     , (37385,  38, 'Eldrytch Web Stronghold') /* AppraisalPortalDestination */
      , (37385, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

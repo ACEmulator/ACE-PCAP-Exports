@@ -12,15 +12,8 @@ VALUES (41814,   1,        128) /* ItemType - Misc */
      , (41814,  15,          5) /* StackUnitValue */
      , (41814,  16,          1) /* ItemUseable - No */
      , (41814,  19,          5) /* Value */
-     , (41814,  65,        101) /* Placement - Resting */
-     , (41814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41814,   1, False) /* Stuck */
-     , (41814,  11, True ) /* IgnoreCollisions */
-     , (41814,  13, True ) /* Ethereal */
-     , (41814,  14, True ) /* GravityStatus */
-     , (41814,  19, True ) /* Attackable */;
+     , (41814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41814, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41814,   1, 'Phyntos Honey') /* Name */

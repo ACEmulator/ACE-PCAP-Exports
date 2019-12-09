@@ -9,20 +9,15 @@ VALUES (35179,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35179,   1, True ) /* Stuck */
-     , (35179,  12, True ) /* ReportCollisions */
-     , (35179,  13, False) /* Ethereal */
-     , (35179,  15, True ) /* LightsStatus */
-     , (35179,  17, True ) /* Inelastic */
-     , (35179,  19, True ) /* Attackable */
      , (35179,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35179,  39, 0.899999976158142) /* DefaultScale */
+VALUES (35179,  39,     0.9) /* DefaultScale */
      , (35179,  78,       1) /* Friction */
      , (35179,  79,       0) /* Elasticity */
-     , (35179, 8010, 1.04384732246399) /* PCAPRecordedVelocityX */
-     , (35179, 8011, 7.3776741027832) /* PCAPRecordedVelocityY */
-     , (35179, 8012, -5.04780244827271) /* PCAPRecordedVelocityZ */;
+     , (35179, 8010,    1.04) /* PCAPRecordedVelocityX */
+     , (35179, 8011,    7.38) /* PCAPRecordedVelocityY */
+     , (35179, 8012,   -5.05) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35179,   1, 'Egg') /* Name */;

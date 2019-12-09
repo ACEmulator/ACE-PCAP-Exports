@@ -17,15 +17,10 @@ VALUES (30755,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30755,   1, True ) /* Stuck */
-     , (30755,  12, True ) /* ReportCollisions */
-     , (30755,  13, False) /* Ethereal */
-     , (30755,  14, True ) /* GravityStatus */
-     , (30755,  15, True ) /* LightsStatus */
-     , (30755,  19, True ) /* Attackable */
      , (30755, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30755,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (30755,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30755,   1, 'Virulence') /* Name */

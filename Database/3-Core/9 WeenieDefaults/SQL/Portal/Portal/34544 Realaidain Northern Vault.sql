@@ -11,15 +11,10 @@ VALUES (34544,   1,      65536) /* ItemType - Portal */
      , (34544, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34544,   1, True ) /* Stuck */
-     , (34544,  12, True ) /* ReportCollisions */
-     , (34544,  13, True ) /* Ethereal */
-     , (34544,  14, True ) /* GravityStatus */
-     , (34544,  15, True ) /* LightsStatus */
-     , (34544,  19, True ) /* Attackable */;
+VALUES (34544,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34544,  54, -0.100000001490116) /* UseRadius */;
+VALUES (34544,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34544,   1, 'Realaidain Northern Vault') /* Name */

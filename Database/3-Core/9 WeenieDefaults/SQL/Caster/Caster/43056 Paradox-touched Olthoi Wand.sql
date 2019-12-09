@@ -13,7 +13,6 @@ VALUES (43056,   1,      32768) /* ItemType - Caster */
      , (43056,  19,      10000) /* Value */
      , (43056,  33,          1) /* Bonded - Bonded */
      , (43056,  45,          2) /* DamageType - Pierce */
-     , (43056,  65,          1) /* Placement - RightHandCombat */
      , (43056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43056,  94,         16) /* TargetType - Creature */
      , (43056, 106,        450) /* ItemSpellcraft */
@@ -25,21 +24,17 @@ VALUES (43056,   1,      32768) /* ItemType - Caster */
      , (43056, 159,         33) /* WieldSkillType - LifeMagic */
      , (43056, 160,        355) /* WieldDifficulty */
      , (43056, 166,          1) /* SlayerCreatureType - Olthoi */
-     , (43056, 263,          2) /* ResistanceModifierType */;
+     , (43056, 263,          2) /* ResistanceModifierType */
+     , (43056, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43056,   1, False) /* Stuck */
-     , (43056,  11, True ) /* IgnoreCollisions */
-     , (43056,  13, True ) /* Ethereal */
-     , (43056,  14, True ) /* GravityStatus */
-     , (43056,  19, True ) /* Attackable */
-     , (43056,  22, True ) /* Inscribable */
+VALUES (43056,  22, True ) /* Inscribable */
      , (43056,  69, False) /* IsSellable */
      , (43056,  91, True ) /* Retained */
      , (43056,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43056,   5, -0.0333) /* ManaRate */
+VALUES (43056,   5,   -0.03) /* ManaRate */
      , (43056,  29,    1.15) /* WeaponDefense */
      , (43056,  39,     1.5) /* DefaultScale */
      , (43056, 144,     0.2) /* ManaConversionMod */

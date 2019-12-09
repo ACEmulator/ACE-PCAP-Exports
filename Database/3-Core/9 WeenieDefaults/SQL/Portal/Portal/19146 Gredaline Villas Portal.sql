@@ -12,19 +12,13 @@ VALUES (19146,   1,      65536) /* ItemType - Portal */
      , (19146, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19146,   1, True ) /* Stuck */
-     , (19146,  12, True ) /* ReportCollisions */
-     , (19146,  13, True ) /* Ethereal */
-     , (19146,  14, True ) /* GravityStatus */
-     , (19146,  15, True ) /* LightsStatus */
-     , (19146,  19, True ) /* Attackable */;
+VALUES (19146,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19146,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19146,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19146,   1, 'Gredaline Villas Portal') /* Name */
-     , (19146,  38, 'Gredaline Villas Portal (60.1S, 32.1E).') /* AppraisalPortalDestination */
      , (19146, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

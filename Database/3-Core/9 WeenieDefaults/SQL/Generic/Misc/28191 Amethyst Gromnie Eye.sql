@@ -8,19 +8,14 @@ VALUES (28191,   1,        128) /* ItemType - Misc */
      , (28191,   5,        150) /* EncumbranceVal */
      , (28191,  16,          1) /* ItemUseable - No */
      , (28191,  19,       1500) /* Value */
-     , (28191,  65,        101) /* Placement - Resting */
-     , (28191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28191, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28191,   1, False) /* Stuck */
-     , (28191,  11, True ) /* IgnoreCollisions */
-     , (28191,  13, True ) /* Ethereal */
-     , (28191,  14, True ) /* GravityStatus */
-     , (28191,  19, True ) /* Attackable */
-     , (28191,  22, True ) /* Inscribable */;
+VALUES (28191,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28191,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (28191,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28191,   1, 'Amethyst Gromnie Eye') /* Name */;

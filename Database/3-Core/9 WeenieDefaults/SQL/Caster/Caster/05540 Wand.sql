@@ -10,18 +10,13 @@ VALUES (5540,   1,      32768) /* ItemType - Caster */
      , (5540,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (5540,  18,          1) /* UiEffects - Magical */
      , (5540,  19,        100) /* Value */
-     , (5540,  65,        101) /* Placement - Resting */
      , (5540,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5540,  94,         16) /* TargetType - Creature */
-     , (5540, 151,          2) /* HookType - Wall */;
+     , (5540, 151,          2) /* HookType - Wall */
+     , (5540, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5540,   1, False) /* Stuck */
-     , (5540,  11, True ) /* IgnoreCollisions */
-     , (5540,  13, True ) /* Ethereal */
-     , (5540,  14, True ) /* GravityStatus */
-     , (5540,  19, True ) /* Attackable */
-     , (5540,  22, True ) /* Inscribable */;
+VALUES (5540,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5540,   1, 'Wand') /* Name */;

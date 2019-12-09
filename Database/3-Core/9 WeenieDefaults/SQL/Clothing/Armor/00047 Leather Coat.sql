@@ -12,7 +12,6 @@ VALUES (47,   1,          2) /* ItemType - Armor */
      , (47,  18,          1) /* UiEffects - Magical */
      , (47,  19,       1077) /* Value */
      , (47,  28,         36) /* ArmorLevel */
-     , (47,  65,        101) /* Placement - Resting */
      , (47,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47, 105,          3) /* ItemWorkmanship */
      , (47, 106,          2) /* ItemSpellcraft */
@@ -21,26 +20,22 @@ VALUES (47,   1,          2) /* ItemType - Armor */
      , (47, 109,          2) /* ItemDifficulty */
      , (47, 110,          0) /* ItemAllegianceRankLimit */
      , (47, 115,          0) /* ItemSkillLevelLimit */
-     , (47, 131,         53) /* MaterialType - ArmoredilloHide */;
+     , (47, 131,         53) /* MaterialType - ArmoredilloHide */
+     , (47, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47,   1, False) /* Stuck */
-     , (47,  11, True ) /* IgnoreCollisions */
-     , (47,  13, True ) /* Ethereal */
-     , (47,  14, True ) /* GravityStatus */
-     , (47,  19, True ) /* Attackable */
-     , (47,  22, True ) /* Inscribable */
+VALUES (47,  22, True ) /* Inscribable */
      , (47, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47,   5, -0.00833333376795053) /* ManaRate */
+VALUES (47,   5,   -0.01) /* ManaRate */
      , (47,  13,       1) /* ArmorModVsSlash */
-     , (47,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (47,  14,     0.8) /* ArmorModVsPierce */
      , (47,  15,       1) /* ArmorModVsBludgeon */
      , (47,  16,     0.5) /* ArmorModVsCold */
      , (47,  17,     0.5) /* ArmorModVsFire */
-     , (47,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (47,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (47,  18,     0.3) /* ArmorModVsAcid */
+     , (47,  19,     0.6) /* ArmorModVsElectric */
      , (47, 165,       1) /* ArmorModVsNether */
      , (47, 8004,       3) /* PCAPRecordedWorkmanship */;
 

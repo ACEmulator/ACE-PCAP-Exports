@@ -15,12 +15,7 @@ VALUES (48986,   1,          1) /* ItemType - MeleeWeapon */
      , (48986,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48986,   1, False) /* Stuck */
-     , (48986,  11, True ) /* IgnoreCollisions */
-     , (48986,  13, True ) /* Ethereal */
-     , (48986,  14, True ) /* GravityStatus */
-     , (48986,  19, True ) /* Attackable */
-     , (48986,  22, True ) /* Inscribable */;
+VALUES (48986,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48986,   1, 'Flaming Hatchet') /* Name */;

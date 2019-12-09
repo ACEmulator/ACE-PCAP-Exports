@@ -27,16 +27,11 @@ VALUES (35506,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35506,   1, True ) /* Stuck */
-     , (35506,  11, True ) /* IgnoreCollisions */
-     , (35506,  12, True ) /* ReportCollisions */
-     , (35506,  13, False) /* Ethereal */
-     , (35506,  14, True ) /* GravityStatus */
-     , (35506,  19, False) /* Attackable */
-     , (35506,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (35506,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35506,   5,       2) /* ManaRate */
-     , (35506,  39, 1.20000004768372) /* DefaultScale */;
+     , (35506,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35506,   1, 'Guardian Statue') /* Name */

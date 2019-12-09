@@ -8,19 +8,14 @@ VALUES (5124,   1,        128) /* ItemType - Misc */
      , (5124,   5,          5) /* EncumbranceVal */
      , (5124,  16,          1) /* ItemUseable - No */
      , (5124,  19,          0) /* Value */
-     , (5124,  65,        101) /* Placement - Resting */
-     , (5124,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (5124,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5124, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5124,   1, False) /* Stuck */
-     , (5124,  11, True ) /* IgnoreCollisions */
-     , (5124,  13, True ) /* Ethereal */
-     , (5124,  14, True ) /* GravityStatus */
-     , (5124,  19, True ) /* Attackable */
-     , (5124,  22, True ) /* Inscribable */;
+VALUES (5124,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5124,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (5124,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5124,   1, 'Broken Taper') /* Name */

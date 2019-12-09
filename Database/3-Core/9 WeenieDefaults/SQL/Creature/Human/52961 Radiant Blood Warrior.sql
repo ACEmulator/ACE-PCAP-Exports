@@ -21,13 +21,7 @@ VALUES (52961,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52961,   1, True ) /* Stuck */
-     , (52961,  11, True ) /* IgnoreCollisions */
-     , (52961,  12, True ) /* ReportCollisions */
-     , (52961,  13, False) /* Ethereal */
-     , (52961,  14, True ) /* GravityStatus */
-     , (52961,  19, False) /* Attackable */
-     , (52961,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (52961,  42, True ) /* AllowEdgeSlide */;
+     , (52961,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52961,   1, 'Radiant Blood Warrior') /* Name */

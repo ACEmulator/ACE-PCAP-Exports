@@ -15,14 +15,10 @@ VALUES (941,   1,         16) /* ItemType - Creature */
      , (941, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (941,   1, True ) /* Stuck */
-     , (941,  12, True ) /* ReportCollisions */
-     , (941,  13, False) /* Ethereal */
-     , (941,  14, True ) /* GravityStatus */
-     , (941,  19, True ) /* Attackable */;
+VALUES (941,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (941,  76, 0.200000002980232) /* Translucency */;
+VALUES (941,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (941,   1, 'Water Golem') /* Name */

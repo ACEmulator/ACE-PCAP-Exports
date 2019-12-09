@@ -16,7 +16,6 @@ VALUES (33942,   1,          1) /* ItemType - MeleeWeapon */
      , (33942,  48,         45) /* WeaponSkill - LightWeapons */
      , (33942,  49,         30) /* WeaponTime */
      , (33942,  51,          1) /* CombatUse - Melee */
-     , (33942,  65,        101) /* Placement - Resting */
      , (33942,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33942, 106,        275) /* ItemSpellcraft */
      , (33942, 107,       1511) /* ItemCurMana */
@@ -27,23 +26,19 @@ VALUES (33942,   1,          1) /* ItemType - MeleeWeapon */
      , (33942, 160,        325) /* WieldDifficulty */
      , (33942, 263,         32) /* ResistanceModifierType */
      , (33942, 353,          5) /* WeaponType - Spear */
-     , (33942, 8030,          0);
+     , (33942, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33942, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33942,   1, False) /* Stuck */
-     , (33942,  11, True ) /* IgnoreCollisions */
-     , (33942,  13, True ) /* Ethereal */
-     , (33942,  14, True ) /* GravityStatus */
-     , (33942,  19, True ) /* Attackable */
-     , (33942,  22, True ) /* Inscribable */;
+VALUES (33942,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33942,   5, -0.0329999998211861) /* ManaRate */
+VALUES (33942,   5,   -0.03) /* ManaRate */
      , (33942,  21,       0) /* WeaponLength */
-     , (33942,  22, 0.660000026226044) /* DamageVariance */
+     , (33942,  22,    0.66) /* DamageVariance */
      , (33942,  26,       0) /* MaximumVelocity */
-     , (33942,  29, 1.10000002384186) /* WeaponDefense */
-     , (33942,  62, 1.14999997615814) /* WeaponOffense */
+     , (33942,  29,     1.1) /* WeaponDefense */
+     , (33942,  62,    1.15) /* WeaponOffense */
      , (33942,  63,       1) /* DamageMod */
      , (33942, 136,       1) /* CriticalMultiplier */
      , (33942, 157,       1) /* ResistanceModifier */;

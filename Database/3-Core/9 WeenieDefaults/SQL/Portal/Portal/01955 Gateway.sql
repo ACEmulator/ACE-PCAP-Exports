@@ -15,10 +15,7 @@ VALUES (1955,   1,      65536) /* ItemType - Portal */
      , (1955, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1955,   1, True ) /* Stuck */
-     , (1955,  13, True ) /* Ethereal */
-     , (1955,  15, True ) /* LightsStatus */
-     , (1955,  19, True ) /* Attackable */;
+VALUES (1955,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1955,  54,    0.75) /* UseRadius */;
@@ -26,7 +23,6 @@ VALUES (1955,  54,    0.75) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1955,   1, 'Gateway') /* Name */
      , (1955,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */
-     , (1955,  38, 'Gateway') /* AppraisalPortalDestination */
      , (1955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

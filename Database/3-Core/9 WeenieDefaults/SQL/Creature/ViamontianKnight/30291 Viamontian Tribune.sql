@@ -16,15 +16,10 @@ VALUES (30291,   1,         16) /* ItemType - Creature */
      , (30291, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30291,   1, True ) /* Stuck */
-     , (30291,  12, True ) /* ReportCollisions */
-     , (30291,  13, False) /* Ethereal */
-     , (30291,  14, True ) /* GravityStatus */
-     , (30291,  19, True ) /* Attackable */
-     , (30291,  42, True ) /* AllowEdgeSlide */;
+VALUES (30291,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30291,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30291,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30291,   1, 'Viamontian Tribune') /* Name */

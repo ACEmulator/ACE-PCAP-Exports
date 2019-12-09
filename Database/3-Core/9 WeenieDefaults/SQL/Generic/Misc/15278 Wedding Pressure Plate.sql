@@ -8,15 +8,11 @@ VALUES (15278,   1,        128) /* ItemType - Misc */
      , (15278,   5,        500) /* EncumbranceVal */
      , (15278,  16,          1) /* ItemUseable - No */
      , (15278,  19,       1000) /* Value */
-     , (15278,  93,      66572) /* PhysicsState - Ethereal, ReportCollisions, Gravity, HasPhysicsBSP */
+     , (15278,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (15278, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15278,   1, True ) /* Stuck */
-     , (15278,  12, True ) /* ReportCollisions */
-     , (15278,  13, True ) /* Ethereal */
-     , (15278,  14, True ) /* GravityStatus */
-     , (15278,  19, True ) /* Attackable */;
+VALUES (15278,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15278,   1, 'Wedding Pressure Plate') /* Name */

@@ -12,15 +12,8 @@ VALUES (4733,   1,         32) /* ItemType - Food */
      , (4733,  15,         18) /* StackUnitValue */
      , (4733,  16,          8) /* ItemUseable - Contained */
      , (4733,  19,         18) /* Value */
-     , (4733,  65,        101) /* Placement - Resting */
-     , (4733,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4733,   1, False) /* Stuck */
-     , (4733,  11, True ) /* IgnoreCollisions */
-     , (4733,  13, True ) /* Ethereal */
-     , (4733,  14, True ) /* GravityStatus */
-     , (4733,  19, True ) /* Attackable */;
+     , (4733,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4733, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4733,   1, 'Kimchi') /* Name */

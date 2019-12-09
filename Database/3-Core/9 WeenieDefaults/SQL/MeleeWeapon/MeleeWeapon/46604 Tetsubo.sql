@@ -14,15 +14,10 @@ VALUES (46604,   1,          1) /* ItemType - MeleeWeapon */
      , (46604,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46604,   1, False) /* Stuck */
-     , (46604,  11, True ) /* IgnoreCollisions */
-     , (46604,  13, True ) /* Ethereal */
-     , (46604,  14, True ) /* GravityStatus */
-     , (46604,  19, True ) /* Attackable */
-     , (46604,  22, True ) /* Inscribable */;
+VALUES (46604,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46604,  39, 0.850000023841858) /* DefaultScale */;
+VALUES (46604,  39,    0.85) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46604,   1, 'Tetsubo') /* Name */;

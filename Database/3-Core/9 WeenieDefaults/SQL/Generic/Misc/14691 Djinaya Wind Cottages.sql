@@ -11,12 +11,7 @@ VALUES (14691,   1,        128) /* ItemType - Misc */
      , (14691,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14691,   1, True ) /* Stuck */
-     , (14691,  11, True ) /* IgnoreCollisions */
-     , (14691,  12, True ) /* ReportCollisions */
-     , (14691,  13, False) /* Ethereal */
-     , (14691,  14, True ) /* GravityStatus */
-     , (14691,  19, True ) /* Attackable */;
+VALUES (14691,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14691,   1, 'Djinaya Wind Cottages') /* Name */

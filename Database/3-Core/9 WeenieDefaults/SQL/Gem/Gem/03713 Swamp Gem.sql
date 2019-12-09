@@ -13,22 +13,17 @@ VALUES (3713,   1,       2048) /* ItemType - Gem */
      , (3713,  16,          8) /* ItemUseable - Contained */
      , (3713,  18,          1) /* UiEffects - Magical */
      , (3713,  19,        750) /* Value */
-     , (3713,  65,        101) /* Placement - Resting */
      , (3713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3713,  94,         16) /* TargetType - Creature */
      , (3713, 106,        100) /* ItemSpellcraft */
      , (3713, 107,         30) /* ItemCurMana */
      , (3713, 108,         30) /* ItemMaxMana */
      , (3713, 109,          0) /* ItemDifficulty */
-     , (3713, 110,          0) /* ItemAllegianceRankLimit */;
+     , (3713, 110,          0) /* ItemAllegianceRankLimit */
+     , (3713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3713,   1, False) /* Stuck */
-     , (3713,  11, True ) /* IgnoreCollisions */
-     , (3713,  13, True ) /* Ethereal */
-     , (3713,  14, True ) /* GravityStatus */
-     , (3713,  19, True ) /* Attackable */
-     , (3713,  22, True ) /* Inscribable */;
+VALUES (3713,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3713,   1, 'Swamp Gem') /* Name */

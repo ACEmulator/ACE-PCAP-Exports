@@ -15,12 +15,7 @@ VALUES (30334,   1,          1) /* ItemType - MeleeWeapon */
      , (30334, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30334,   1, False) /* Stuck */
-     , (30334,  11, True ) /* IgnoreCollisions */
-     , (30334,  13, True ) /* Ethereal */
-     , (30334,  14, True ) /* GravityStatus */
-     , (30334,  19, True ) /* Attackable */
-     , (30334,  22, True ) /* Inscribable */;
+VALUES (30334,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30334,   1, 'Fist of Three Principles') /* Name */;

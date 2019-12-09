@@ -16,11 +16,7 @@ VALUES (8142,   1,         16) /* ItemType - Creature */
      , (8142, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8142,   1, True ) /* Stuck */
-     , (8142,  12, True ) /* ReportCollisions */
-     , (8142,  13, False) /* Ethereal */
-     , (8142,  14, True ) /* GravityStatus */
-     , (8142,  19, True ) /* Attackable */;
+VALUES (8142,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8142,   1, 'Obeloth Raider') /* Name */

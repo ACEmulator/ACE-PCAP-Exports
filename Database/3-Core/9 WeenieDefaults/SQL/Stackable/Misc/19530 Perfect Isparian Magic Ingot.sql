@@ -11,16 +11,11 @@ VALUES (19530,   1,        128) /* ItemType - Misc */
      , (19530,  13,       1000) /* StackUnitEncumbrance */
      , (19530,  15,          0) /* StackUnitValue */
      , (19530,  16,          1) /* ItemUseable - No */
-     , (19530,  65,        101) /* Placement - Resting */
-     , (19530,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (19530,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19530, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19530,   1, False) /* Stuck */
-     , (19530,  11, True ) /* IgnoreCollisions */
-     , (19530,  13, True ) /* Ethereal */
-     , (19530,  14, True ) /* GravityStatus */
-     , (19530,  19, True ) /* Attackable */
-     , (19530,  22, True ) /* Inscribable */;
+VALUES (19530,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19530,   1, 'Perfect Isparian Magic Ingot') /* Name */;

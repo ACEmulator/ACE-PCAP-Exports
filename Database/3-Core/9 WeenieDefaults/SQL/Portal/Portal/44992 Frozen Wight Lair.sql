@@ -13,20 +13,14 @@ VALUES (44992,   1,      65536) /* ItemType - Portal */
      , (44992, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44992,   1, True ) /* Stuck */
-     , (44992,  12, True ) /* ReportCollisions */
-     , (44992,  13, True ) /* Ethereal */
-     , (44992,  14, True ) /* GravityStatus */
-     , (44992,  15, True ) /* LightsStatus */
-     , (44992,  19, True ) /* Attackable */;
+VALUES (44992,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44992,  39, 0.800000011920929) /* DefaultScale */
-     , (44992,  54, -0.100000001490116) /* UseRadius */;
+VALUES (44992,  39,     0.8) /* DefaultScale */
+     , (44992,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44992,   1, 'Frozen Wight Lair') /* Name */
-     , (44992,  38, 'Frozen Wight Lair') /* AppraisalPortalDestination */
      , (44992, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

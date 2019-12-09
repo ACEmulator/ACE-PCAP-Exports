@@ -12,19 +12,13 @@ VALUES (14623,   1,      65536) /* ItemType - Portal */
      , (14623, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14623,   1, True ) /* Stuck */
-     , (14623,  12, True ) /* ReportCollisions */
-     , (14623,  13, True ) /* Ethereal */
-     , (14623,  14, True ) /* GravityStatus */
-     , (14623,  15, True ) /* LightsStatus */
-     , (14623,  19, True ) /* Attackable */;
+VALUES (14623,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14623,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14623,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14623,   1, 'East Morntide Villas Portal') /* Name */
-     , (14623,  38, 'East Morntide Villas Portal (38.5N, 12.7W).') /* AppraisalPortalDestination */
      , (14623, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

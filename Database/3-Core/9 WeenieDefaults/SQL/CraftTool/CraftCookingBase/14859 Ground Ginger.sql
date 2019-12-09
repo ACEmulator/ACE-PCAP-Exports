@@ -12,20 +12,15 @@ VALUES (14859,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14859,  15,         10) /* StackUnitValue */
      , (14859,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14859,  19,         10) /* Value */
-     , (14859,  65,        101) /* Placement - Resting */
      , (14859,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14859,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */;
+     , (14859,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */
+     , (14859, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14859,   1, False) /* Stuck */
-     , (14859,  11, True ) /* IgnoreCollisions */
-     , (14859,  13, True ) /* Ethereal */
-     , (14859,  14, True ) /* GravityStatus */
-     , (14859,  19, True ) /* Attackable */
-     , (14859,  69, False) /* IsSellable */;
+VALUES (14859,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14859,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (14859,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14859,   1, 'Ground Ginger') /* Name */

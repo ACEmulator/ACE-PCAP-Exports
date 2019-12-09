@@ -18,11 +18,7 @@ VALUES (34080,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34080,   1, True ) /* Stuck */
-     , (34080,  11, True ) /* IgnoreCollisions */
-     , (34080,  13, True ) /* Ethereal */
-     , (34080,  14, True ) /* GravityStatus */
-     , (34080,  19, False) /* Attackable */
-     , (34080,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (34080,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34080,   1, 'Pet Pumpkin') /* Name */

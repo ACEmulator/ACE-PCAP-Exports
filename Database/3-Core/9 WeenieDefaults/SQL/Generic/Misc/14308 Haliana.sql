@@ -11,12 +11,7 @@ VALUES (14308,   1,        128) /* ItemType - Misc */
      , (14308,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14308,   1, True ) /* Stuck */
-     , (14308,  11, True ) /* IgnoreCollisions */
-     , (14308,  12, True ) /* ReportCollisions */
-     , (14308,  13, False) /* Ethereal */
-     , (14308,  14, True ) /* GravityStatus */
-     , (14308,  19, True ) /* Attackable */;
+VALUES (14308,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14308,   1, 'Haliana') /* Name */

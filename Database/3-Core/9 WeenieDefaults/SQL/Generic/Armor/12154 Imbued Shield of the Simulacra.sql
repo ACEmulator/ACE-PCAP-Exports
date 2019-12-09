@@ -25,25 +25,20 @@ VALUES (12154,   1,          2) /* ItemType - Armor */
      , (12154, 176,         48) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12154,   1, False) /* Stuck */
-     , (12154,  11, True ) /* IgnoreCollisions */
-     , (12154,  13, True ) /* Ethereal */
-     , (12154,  14, True ) /* GravityStatus */
-     , (12154,  19, True ) /* Attackable */
-     , (12154,  22, True ) /* Inscribable */
+VALUES (12154,  22, True ) /* Inscribable */
      , (12154,  69, False) /* IsSellable */
      , (12154,  94, True ) /* AppraisalHasAllowedActivator */
      , (12154,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12154,   5, -0.0500000007450581) /* ManaRate */
+VALUES (12154,   5,   -0.05) /* ManaRate */
      , (12154,  13,       1) /* ArmorModVsSlash */
-     , (12154,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (12154,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (12154,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (12154,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (12154,  14,     0.8) /* ArmorModVsPierce */
+     , (12154,  15,     1.2) /* ArmorModVsBludgeon */
+     , (12154,  16,     0.6) /* ArmorModVsCold */
+     , (12154,  17,     0.6) /* ArmorModVsFire */
      , (12154,  18,       1) /* ArmorModVsAcid */
-     , (12154,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (12154,  19,     0.6) /* ArmorModVsElectric */
      , (12154,  39,    1.25) /* DefaultScale */
      , (12154, 165,       1) /* ArmorModVsNether */;
 

@@ -11,12 +11,7 @@ VALUES (12675,   1,        128) /* ItemType - Misc */
      , (12675,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12675,   1, True ) /* Stuck */
-     , (12675,  11, True ) /* IgnoreCollisions */
-     , (12675,  12, True ) /* ReportCollisions */
-     , (12675,  13, False) /* Ethereal */
-     , (12675,  14, True ) /* GravityStatus */
-     , (12675,  19, True ) /* Attackable */;
+VALUES (12675,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12675,   1, 'Yukikaze ') /* Name */;

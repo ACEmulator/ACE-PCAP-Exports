@@ -7,15 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34464,   1,        128) /* ItemType - Misc */
      , (34464,   5,        100) /* EncumbranceVal */
      , (34464,  16,          1) /* ItemUseable - No */
-     , (34464,  65,        101) /* Placement - Resting */
-     , (34464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34464,   1, False) /* Stuck */
-     , (34464,  11, True ) /* IgnoreCollisions */
-     , (34464,  13, True ) /* Ethereal */
-     , (34464,  14, True ) /* GravityStatus */
-     , (34464,  19, True ) /* Attackable */;
+     , (34464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34464, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34464,   1, 'Imbued Pyreal Mote') /* Name */;

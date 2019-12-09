@@ -11,15 +11,10 @@ VALUES (8392,   1,      65536) /* ItemType - Portal */
      , (8392, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8392,   1, True ) /* Stuck */
-     , (8392,  12, True ) /* ReportCollisions */
-     , (8392,  13, True ) /* Ethereal */
-     , (8392,  14, True ) /* GravityStatus */
-     , (8392,  15, True ) /* LightsStatus */
-     , (8392,  19, True ) /* Attackable */;
+VALUES (8392,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8392,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8392,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8392,   1, 'Tumideon Fortress Portal') /* Name */

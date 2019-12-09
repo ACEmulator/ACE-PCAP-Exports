@@ -11,15 +11,10 @@ VALUES (3640,   1,      65536) /* ItemType - Portal */
      , (3640, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3640,   1, True ) /* Stuck */
-     , (3640,  12, True ) /* ReportCollisions */
-     , (3640,  13, True ) /* Ethereal */
-     , (3640,  14, True ) /* GravityStatus */
-     , (3640,  15, True ) /* LightsStatus */
-     , (3640,  19, True ) /* Attackable */;
+VALUES (3640,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3640,  54, -0.100000001490116) /* UseRadius */;
+VALUES (3640,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3640,   1, 'Mountain Halls') /* Name */

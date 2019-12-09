@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31608,   1,        128) /* ItemType - Misc */
      , (31608,   5,          5) /* EncumbranceVal */
      , (31608,  16,          1) /* ItemUseable - No */
-     , (31608,  65,        101) /* Placement - Resting */
      , (31608,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31608, 151,          2) /* HookType - Wall */;
+     , (31608, 151,          2) /* HookType - Wall */
+     , (31608, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31608,   1, False) /* Stuck */
-     , (31608,  11, True ) /* IgnoreCollisions */
-     , (31608,  13, True ) /* Ethereal */
-     , (31608,  14, True ) /* GravityStatus */
-     , (31608,  19, True ) /* Attackable */
-     , (31608,  22, True ) /* Inscribable */;
+VALUES (31608,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31608,   1, 'Ebon Gromnie Eradicator Plaque') /* Name */;

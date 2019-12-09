@@ -30,26 +30,21 @@ VALUES (30349,   1,        256) /* ItemType - MissileWeapon */
      , (30349, 319,         50) /* ItemMaxLevel */
      , (30349, 320,          1) /* ItemXpStyle - Fixed */
      , (30349, 353,         10) /* WeaponType - Thrown */
-     , (30349, 8030,          0);
+     , (30349, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30349,   4, 78797676591) /* ItemTotalXp */
      , (30349,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30349,   1, False) /* Stuck */
-     , (30349,  11, True ) /* IgnoreCollisions */
-     , (30349,  13, True ) /* Ethereal */
-     , (30349,  14, True ) /* GravityStatus */
-     , (30349,  19, True ) /* Attackable */
-     , (30349,  22, True ) /* Inscribable */;
+VALUES (30349,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30349,   5, -0.0333333) /* ManaRate */
+VALUES (30349,   5,   -0.03) /* ManaRate */
      , (30349,  21,       0) /* WeaponLength */
      , (30349,  22,       0) /* DamageVariance */
      , (30349,  26,    24.9) /* MaximumVelocity */
-     , (30349,  29, 1.38000000298023) /* WeaponDefense */
+     , (30349,  29,    1.38) /* WeaponDefense */
      , (30349,  62,       1) /* WeaponOffense */
      , (30349,  63,     2.9) /* DamageMod */;
 

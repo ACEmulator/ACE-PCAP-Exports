@@ -8,17 +8,12 @@ VALUES (27933,   1,       2048) /* ItemType - Gem */
      , (27933,   5,      12500) /* EncumbranceVal */
      , (27933,  16,          1) /* ItemUseable - No */
      , (27933,  19,     100000) /* Value */
-     , (27933,  65,        101) /* Placement - Resting */
-     , (27933,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (27933, 151,          9) /* HookType - Floor, Yard */;
+     , (27933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27933, 151,          9) /* HookType - Floor, Yard */
+     , (27933, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27933,   1, False) /* Stuck */
-     , (27933,  11, True ) /* IgnoreCollisions */
-     , (27933,  13, True ) /* Ethereal */
-     , (27933,  14, True ) /* GravityStatus */
-     , (27933,  19, True ) /* Attackable */
-     , (27933,  22, True ) /* Inscribable */;
+VALUES (27933,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27933,   1, 'A Carved Mosswart Statue') /* Name */

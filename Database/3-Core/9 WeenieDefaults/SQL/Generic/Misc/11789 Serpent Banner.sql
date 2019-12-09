@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11789,   1,        128) /* ItemType - Misc */
      , (11789,   5,        100) /* EncumbranceVal */
      , (11789,  16,          1) /* ItemUseable - No */
-     , (11789,  65,        101) /* Placement - Resting */
-     , (11789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11789, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11789,   1, False) /* Stuck */
-     , (11789,  11, True ) /* IgnoreCollisions */
-     , (11789,  13, True ) /* Ethereal */
-     , (11789,  14, True ) /* GravityStatus */
-     , (11789,  19, True ) /* Attackable */
-     , (11789,  22, True ) /* Inscribable */;
+VALUES (11789,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11789,   1, 'Serpent Banner') /* Name */;

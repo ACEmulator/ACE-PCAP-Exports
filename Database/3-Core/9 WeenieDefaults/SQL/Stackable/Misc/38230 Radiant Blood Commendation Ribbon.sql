@@ -13,20 +13,15 @@ VALUES (38230,   1,        128) /* ItemType - Misc */
      , (38230,  16,          1) /* ItemUseable - No */
      , (38230,  19,          0) /* Value */
      , (38230,  33,          1) /* Bonded - Bonded */
-     , (38230,  65,        101) /* Placement - Resting */
      , (38230,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38230, 114,          1) /* Attuned - Attuned */;
+     , (38230, 114,          1) /* Attuned - Attuned */
+     , (38230, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38230,   1, False) /* Stuck */
-     , (38230,  11, True ) /* IgnoreCollisions */
-     , (38230,  13, True ) /* Ethereal */
-     , (38230,  14, True ) /* GravityStatus */
-     , (38230,  19, True ) /* Attackable */
-     , (38230,  69, False) /* IsSellable */;
+VALUES (38230,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38230,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (38230,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38230,   1, 'Radiant Blood Commendation Ribbon') /* Name */

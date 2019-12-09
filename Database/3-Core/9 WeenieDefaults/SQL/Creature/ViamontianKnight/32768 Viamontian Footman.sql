@@ -16,15 +16,10 @@ VALUES (32768,   1,         16) /* ItemType - Creature */
      , (32768, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32768,   1, True ) /* Stuck */
-     , (32768,  12, True ) /* ReportCollisions */
-     , (32768,  13, False) /* Ethereal */
-     , (32768,  14, True ) /* GravityStatus */
-     , (32768,  19, True ) /* Attackable */
-     , (32768,  42, True ) /* AllowEdgeSlide */;
+VALUES (32768,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32768,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (32768,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32768,   1, 'Viamontian Footman') /* Name */

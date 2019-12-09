@@ -12,17 +12,12 @@ VALUES (46092,   1,          1) /* ItemType - MeleeWeapon */
      , (46092,  18,          1) /* UiEffects - Magical */
      , (46092,  19,       5000) /* Value */
      , (46092,  51,          1) /* CombatUse - Melee */
-     , (46092,  65,          1) /* Placement - RightHandCombat */
      , (46092,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46092, 151,          2) /* HookType - Wall */;
+     , (46092, 151,          2) /* HookType - Wall */
+     , (46092, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46092,   1, False) /* Stuck */
-     , (46092,  11, True ) /* IgnoreCollisions */
-     , (46092,  13, True ) /* Ethereal */
-     , (46092,  14, True ) /* GravityStatus */
-     , (46092,  19, True ) /* Attackable */
-     , (46092,  22, True ) /* Inscribable */;
+VALUES (46092,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46092,   1, 'Blackfire Smoldering Atlan Sword') /* Name */;

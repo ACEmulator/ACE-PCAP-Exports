@@ -19,7 +19,6 @@ VALUES (32640,   1,        256) /* ItemType - MissileWeapon */
      , (32640,  49,          1) /* WeaponTime */
      , (32640,  50,          1) /* AmmoType - Arrow */
      , (32640,  51,          2) /* CombatUse - Missle */
-     , (32640,  65,          3) /* Placement - LeftHand */
      , (32640,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32640, 114,          1) /* Attuned - Attuned */
      , (32640, 151,          2) /* HookType - Wall */
@@ -29,15 +28,11 @@ VALUES (32640,   1,        256) /* ItemType - MissileWeapon */
      , (32640, 166,         22) /* SlayerCreatureType - Shadow */
      , (32640, 204,         12) /* ElementalDamageBonus */
      , (32640, 353,          8) /* WeaponType - Bow */
-     , (32640, 8030,          0);
+     , (32640, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (32640, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32640,   1, False) /* Stuck */
-     , (32640,  11, True ) /* IgnoreCollisions */
-     , (32640,  13, True ) /* Ethereal */
-     , (32640,  14, True ) /* GravityStatus */
-     , (32640,  19, True ) /* Attackable */
-     , (32640,  22, True ) /* Inscribable */
+VALUES (32640,  22, True ) /* Inscribable */
      , (32640,  69, False) /* IsSellable */
      , (32640,  99, True ) /* Ivoryable */;
 
@@ -45,9 +40,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32640,  21,       0) /* WeaponLength */
      , (32640,  22,       0) /* DamageVariance */
      , (32640,  26,    27.3) /* MaximumVelocity */
-     , (32640,  29, 1.28999996185303) /* WeaponDefense */
+     , (32640,  29,    1.29) /* WeaponDefense */
      , (32640,  62,       1) /* WeaponOffense */
-     , (32640,  63, 2.29999995231628) /* DamageMod */
+     , (32640,  63,     2.3) /* DamageMod */
      , (32640, 136,       1) /* CriticalMultiplier */
      , (32640, 147,       1) /* CriticalFrequency */;
 

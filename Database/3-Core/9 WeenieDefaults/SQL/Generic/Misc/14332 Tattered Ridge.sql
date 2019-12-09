@@ -11,12 +11,7 @@ VALUES (14332,   1,        128) /* ItemType - Misc */
      , (14332,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14332,   1, True ) /* Stuck */
-     , (14332,  11, True ) /* IgnoreCollisions */
-     , (14332,  12, True ) /* ReportCollisions */
-     , (14332,  13, False) /* Ethereal */
-     , (14332,  14, True ) /* GravityStatus */
-     , (14332,  19, True ) /* Attackable */;
+VALUES (14332,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14332,   1, 'Tattered Ridge') /* Name */

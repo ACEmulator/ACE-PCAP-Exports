@@ -11,11 +11,7 @@ VALUES (6866,   1,        128) /* ItemType - Misc */
      , (6866,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6866,   1, True ) /* Stuck */
-     , (6866,  11, True ) /* IgnoreCollisions */
-     , (6866,  12, True ) /* ReportCollisions */
-     , (6866,  13, False) /* Ethereal */
-     , (6866,  19, True ) /* Attackable */;
+VALUES (6866,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6866,   1, 'A Human Archmage') /* Name */

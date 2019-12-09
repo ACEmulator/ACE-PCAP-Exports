@@ -13,23 +13,17 @@ VALUES (36189,   1,         32) /* ItemType - Food */
      , (36189,  16,          8) /* ItemUseable - Contained */
      , (36189,  18,          1) /* UiEffects - Magical */
      , (36189,  19,         20) /* Value */
-     , (36189,  65,        101) /* Placement - Resting */
      , (36189,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36189,  94,         16) /* TargetType - Creature */
      , (36189, 106,        300) /* ItemSpellcraft */
      , (36189, 107,         50) /* ItemCurMana */
      , (36189, 108,         50) /* ItemMaxMana */
      , (36189, 109,          0) /* ItemDifficulty */
-     , (36189, 110,          0) /* ItemAllegianceRankLimit */;
+     , (36189, 110,          0) /* ItemAllegianceRankLimit */
+     , (36189, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36189,   1, False) /* Stuck */
-     , (36189,  11, True ) /* IgnoreCollisions */
-     , (36189,  13, True ) /* Ethereal */
-     , (36189,  14, True ) /* GravityStatus */
-     , (36189,  15, True ) /* LightsStatus */
-     , (36189,  19, True ) /* Attackable */
-     , (36189,  69, True ) /* IsSellable */;
+VALUES (36189,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36189,   1, 'Harbinger Blood Infusion') /* Name */

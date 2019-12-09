@@ -10,18 +10,13 @@ VALUES (27648,   1,      32768) /* ItemType - Caster */
      , (27648,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (27648,  18,          1) /* UiEffects - Magical */
      , (27648,  19,       2000) /* Value */
-     , (27648,  65,        101) /* Placement - Resting */
      , (27648,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27648,  94,         16) /* TargetType - Creature */
-     , (27648, 151,          2) /* HookType - Wall */;
+     , (27648, 151,          2) /* HookType - Wall */
+     , (27648, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27648,   1, False) /* Stuck */
-     , (27648,  11, True ) /* IgnoreCollisions */
-     , (27648,  13, True ) /* Ethereal */
-     , (27648,  14, True ) /* GravityStatus */
-     , (27648,  19, True ) /* Attackable */
-     , (27648,  22, True ) /* Inscribable */;
+VALUES (27648,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27648,   1, 'Head of the Homunculus') /* Name */;

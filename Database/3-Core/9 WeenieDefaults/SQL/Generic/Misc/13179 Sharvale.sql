@@ -11,12 +11,7 @@ VALUES (13179,   1,        128) /* ItemType - Misc */
      , (13179,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13179,   1, True ) /* Stuck */
-     , (13179,  11, True ) /* IgnoreCollisions */
-     , (13179,  12, True ) /* ReportCollisions */
-     , (13179,  13, False) /* Ethereal */
-     , (13179,  14, True ) /* GravityStatus */
-     , (13179,  19, True ) /* Attackable */;
+VALUES (13179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13179,   1, 'Sharvale') /* Name */

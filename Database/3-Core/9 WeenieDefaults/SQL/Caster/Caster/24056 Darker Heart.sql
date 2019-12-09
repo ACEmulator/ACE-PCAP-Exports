@@ -11,7 +11,6 @@ VALUES (24056,   1,      32768) /* ItemType - Caster */
      , (24056,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (24056,  18,          1) /* UiEffects - Magical */
      , (24056,  19,       2000) /* Value */
-     , (24056,  65,          1) /* Placement - RightHandCombat */
      , (24056,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (24056,  94,         16) /* TargetType - Creature */
      , (24056, 106,        250) /* ItemSpellcraft */
@@ -19,23 +18,18 @@ VALUES (24056,   1,      32768) /* ItemType - Caster */
      , (24056, 108,       1800) /* ItemMaxMana */
      , (24056, 115,        250) /* ItemSkillLevelLimit */
      , (24056, 151,          2) /* HookType - Wall */
-     , (24056, 176,         16) /* AppraisalItemSkill */;
+     , (24056, 176,         16) /* AppraisalItemSkill */
+     , (24056, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24056,   1, False) /* Stuck */
-     , (24056,  11, True ) /* IgnoreCollisions */
-     , (24056,  13, True ) /* Ethereal */
-     , (24056,  14, True ) /* GravityStatus */
-     , (24056,  15, True ) /* LightsStatus */
-     , (24056,  19, True ) /* Attackable */
-     , (24056,  22, True ) /* Inscribable */;
+VALUES (24056,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24056,   5, -0.0500000007450581) /* ManaRate */
+VALUES (24056,   5,   -0.05) /* ManaRate */
      , (24056,  29,       1) /* WeaponDefense */
-     , (24056,  39, 1.39999997615814) /* DefaultScale */
+     , (24056,  39,     1.4) /* DefaultScale */
      , (24056,  76,     0.5) /* Translucency */
-     , (24056, 144, 0.0799999982118607) /* ManaConversionMod */;
+     , (24056, 144,    0.08) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24056,   1, 'Darker Heart') /* Name */

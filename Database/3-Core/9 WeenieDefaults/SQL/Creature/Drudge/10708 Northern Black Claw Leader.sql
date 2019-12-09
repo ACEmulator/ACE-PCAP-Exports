@@ -15,14 +15,10 @@ VALUES (10708,   1,         16) /* ItemType - Creature */
      , (10708, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10708,   1, True ) /* Stuck */
-     , (10708,  12, True ) /* ReportCollisions */
-     , (10708,  13, False) /* Ethereal */
-     , (10708,  14, True ) /* GravityStatus */
-     , (10708,  19, True ) /* Attackable */;
+VALUES (10708,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10708,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (10708,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10708,   1, 'Northern Black Claw Leader') /* Name */

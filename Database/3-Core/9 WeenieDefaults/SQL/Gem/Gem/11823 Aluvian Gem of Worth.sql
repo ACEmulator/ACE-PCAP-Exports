@@ -13,19 +13,12 @@ VALUES (11823,   1,       2048) /* ItemType - Gem */
      , (11823,  16,          8) /* ItemUseable - Contained */
      , (11823,  18,          1) /* UiEffects - Magical */
      , (11823,  19,       1500) /* Value */
-     , (11823,  65,        101) /* Placement - Resting */
      , (11823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11823,  94,         16) /* TargetType - Creature */
      , (11823, 106,        210) /* ItemSpellcraft */
      , (11823, 107,        700) /* ItemCurMana */
-     , (11823, 108,        700) /* ItemMaxMana */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11823,   1, False) /* Stuck */
-     , (11823,  11, True ) /* IgnoreCollisions */
-     , (11823,  13, True ) /* Ethereal */
-     , (11823,  14, True ) /* GravityStatus */
-     , (11823,  19, True ) /* Attackable */;
+     , (11823, 108,        700) /* ItemMaxMana */
+     , (11823, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11823,   1, 'Aluvian Gem of Worth') /* Name */

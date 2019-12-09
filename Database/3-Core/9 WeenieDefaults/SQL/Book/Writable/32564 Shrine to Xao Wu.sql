@@ -8,17 +8,13 @@ VALUES (32564,   1,       8192) /* ItemType - Writable */
      , (32564,   5,       8000) /* EncumbranceVal */
      , (32564,  16,         32) /* ItemUseable - Remote */
      , (32564,  19,          0) /* Value */
-     , (32564,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (32564, 174,          1) /* AppraisalPages */
-     , (32564, 175,          1) /* AppraisalMaxPages */
-     , (32564, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32564,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
+     , (32564, 8007,          0) /* PCAPRecordedAutonomousMovement */
+     , (32564, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (32564, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32564,   1, True ) /* Stuck */
-     , (32564,  11, True ) /* IgnoreCollisions */
-     , (32564,  13, False) /* Ethereal */
-     , (32564,  14, True ) /* GravityStatus */
-     , (32564,  19, True ) /* Attackable */;
+VALUES (32564,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32564,  54,    22.5) /* UseRadius */;

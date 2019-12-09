@@ -13,22 +13,14 @@ VALUES (37088,   1,       2048) /* ItemType - Gem */
      , (37088,  16,          8) /* ItemUseable - Contained */
      , (37088,  18,          1) /* UiEffects - Magical */
      , (37088,  19,          0) /* Value */
-     , (37088,  65,        101) /* Placement - Resting */
      , (37088,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (37088,  94,         16) /* TargetType - Creature */
      , (37088, 106,        300) /* ItemSpellcraft */
      , (37088, 107,        100) /* ItemCurMana */
      , (37088, 108,        100) /* ItemMaxMana */
      , (37088, 109,          0) /* ItemDifficulty */
-     , (37088, 110,          0) /* ItemAllegianceRankLimit */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37088,   1, False) /* Stuck */
-     , (37088,  11, True ) /* IgnoreCollisions */
-     , (37088,  13, True ) /* Ethereal */
-     , (37088,  14, True ) /* GravityStatus */
-     , (37088,  15, True ) /* LightsStatus */
-     , (37088,  19, True ) /* Attackable */;
+     , (37088, 110,          0) /* ItemAllegianceRankLimit */
+     , (37088, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37088,   1, 'Invitation to the Battle Burrows') /* Name */

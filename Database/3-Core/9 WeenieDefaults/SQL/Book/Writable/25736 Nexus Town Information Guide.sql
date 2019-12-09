@@ -8,20 +8,13 @@ VALUES (25736,   1,       8192) /* ItemType - Writable */
      , (25736,   5,         10) /* EncumbranceVal */
      , (25736,  16,          8) /* ItemUseable - Contained */
      , (25736,  19,          0) /* Value */
-     , (25736,  65,        101) /* Placement - Resting */
      , (25736,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25736, 174,          9) /* AppraisalPages */
-     , (25736, 175,          9) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25736,   1, False) /* Stuck */
-     , (25736,  11, True ) /* IgnoreCollisions */
-     , (25736,  13, True ) /* Ethereal */
-     , (25736,  14, True ) /* GravityStatus */
-     , (25736,  19, True ) /* Attackable */;
+     , (25736, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (25736, 8042,          9) /* PCAPRecordedAppraisalPages */
+     , (25736, 8043,          9) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25736,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (25736,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25736,   1, 'Nexus Town Information Guide') /* Name */

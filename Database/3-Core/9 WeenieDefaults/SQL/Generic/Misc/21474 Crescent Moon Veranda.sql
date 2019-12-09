@@ -11,12 +11,7 @@ VALUES (21474,   1,        128) /* ItemType - Misc */
      , (21474,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21474,   1, True ) /* Stuck */
-     , (21474,  11, True ) /* IgnoreCollisions */
-     , (21474,  12, True ) /* ReportCollisions */
-     , (21474,  13, False) /* Ethereal */
-     , (21474,  14, True ) /* GravityStatus */
-     , (21474,  19, True ) /* Attackable */;
+VALUES (21474,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21474,   1, 'Crescent Moon Veranda') /* Name */

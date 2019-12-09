@@ -13,15 +13,10 @@ VALUES (45709,   1,         16) /* ItemType - Creature */
      , (45709, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45709,   1, True ) /* Stuck */
-     , (45709,  12, True ) /* ReportCollisions */
-     , (45709,  13, False) /* Ethereal */
-     , (45709,  14, True ) /* GravityStatus */
-     , (45709,  19, True ) /* Attackable */
-     , (45709,  42, True ) /* AllowEdgeSlide */;
+VALUES (45709,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45709,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (45709,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45709,   1, 'Tenebrous Guard') /* Name */

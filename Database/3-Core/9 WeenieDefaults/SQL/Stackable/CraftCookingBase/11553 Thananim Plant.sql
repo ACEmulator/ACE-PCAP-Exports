@@ -15,15 +15,8 @@ VALUES (11553,   1,    4194304) /* ItemType - CraftCookingBase */
      , (11553,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11553, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11553,   1, False) /* Stuck */
-     , (11553,  11, True ) /* IgnoreCollisions */
-     , (11553,  13, True ) /* Ethereal */
-     , (11553,  14, True ) /* GravityStatus */
-     , (11553,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11553,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (11553,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11553,   1, 'Thananim Plant') /* Name */

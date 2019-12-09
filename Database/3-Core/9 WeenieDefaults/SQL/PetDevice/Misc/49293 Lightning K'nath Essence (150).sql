@@ -10,7 +10,6 @@ VALUES (49293,   1,        128) /* ItemType - Misc */
      , (49293,  18,         64) /* UiEffects - Lightning */
      , (49293,  19,       8000) /* Value */
      , (49293,  33,          0) /* Bonded - Normal */
-     , (49293,  65,        101) /* Placement - Resting */
      , (49293,  91,         50) /* MaxStructure */
      , (49293,  92,         50) /* Structure */
      , (49293,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -24,19 +23,15 @@ VALUES (49293,   1,        128) /* ItemType - Misc */
      , (49293, 370,         10) /* GearDamage */
      , (49293, 372,         11) /* GearCrit */
      , (49293, 374,          1) /* GearCritDamage */
-     , (49293, 375,         14) /* GearCritDamageResist */;
+     , (49293, 375,         14) /* GearCritDamageResist */
+     , (49293, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49293,   1, False) /* Stuck */
-     , (49293,  11, True ) /* IgnoreCollisions */
-     , (49293,  13, True ) /* Ethereal */
-     , (49293,  14, True ) /* GravityStatus */
-     , (49293,  19, True ) /* Attackable */
-     , (49293,  22, True ) /* Inscribable */
+VALUES (49293,  22, True ) /* Inscribable */
      , (49293,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49293,  39, 0.400000005960464) /* DefaultScale */
+VALUES (49293,  39,     0.4) /* DefaultScale */
      , (49293, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

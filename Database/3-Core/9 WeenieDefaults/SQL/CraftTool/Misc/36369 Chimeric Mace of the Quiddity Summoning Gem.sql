@@ -12,20 +12,15 @@ VALUES (36369,   1,        128) /* ItemType - Misc */
      , (36369,  15,          3) /* StackUnitValue */
      , (36369,  16,          8) /* ItemUseable - Contained */
      , (36369,  19,          3) /* Value */
-     , (36369,  65,        101) /* Placement - Resting */
      , (36369,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36369,  94,         16) /* TargetType - Creature */;
+     , (36369,  94,         16) /* TargetType - Creature */
+     , (36369, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36369,   1, False) /* Stuck */
-     , (36369,  11, True ) /* IgnoreCollisions */
-     , (36369,  13, True ) /* Ethereal */
-     , (36369,  14, True ) /* GravityStatus */
-     , (36369,  19, True ) /* Attackable */
-     , (36369,  22, True ) /* Inscribable */;
+VALUES (36369,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36369,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36369,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36369,   1, 'Chimeric Mace of the Quiddity Summoning Gem') /* Name */;

@@ -15,14 +15,10 @@ VALUES (40471,   1,         16) /* ItemType - Creature */
      , (40471, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40471,   1, True ) /* Stuck */
-     , (40471,  12, True ) /* ReportCollisions */
-     , (40471,  13, False) /* Ethereal */
-     , (40471,  14, True ) /* GravityStatus */
-     , (40471,  19, True ) /* Attackable */;
+VALUES (40471,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40471,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (40471,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40471,   1, 'Sand Lurker') /* Name */

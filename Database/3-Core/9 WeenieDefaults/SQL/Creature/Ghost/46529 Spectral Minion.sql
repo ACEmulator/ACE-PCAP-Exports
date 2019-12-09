@@ -18,11 +18,7 @@ VALUES (46529,   1,         16) /* ItemType - Creature */
      , (46529, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46529,   1, True ) /* Stuck */
-     , (46529,  12, True ) /* ReportCollisions */
-     , (46529,  13, False) /* Ethereal */
-     , (46529,  14, True ) /* GravityStatus */
-     , (46529,  19, True ) /* Attackable */;
+VALUES (46529,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46529,   1, 'Spectral Minion') /* Name */

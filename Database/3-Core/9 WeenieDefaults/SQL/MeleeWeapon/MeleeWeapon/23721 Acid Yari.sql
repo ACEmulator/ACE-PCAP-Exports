@@ -12,16 +12,11 @@ VALUES (23721,   1,          1) /* ItemType - MeleeWeapon */
      , (23721,  18,        256) /* UiEffects - Acid */
      , (23721,  19,        600) /* Value */
      , (23721,  51,          1) /* CombatUse - Melee */
-     , (23721,  65,          1) /* Placement - RightHandCombat */
-     , (23721,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23721,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23721, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23721,   1, False) /* Stuck */
-     , (23721,  11, True ) /* IgnoreCollisions */
-     , (23721,  13, True ) /* Ethereal */
-     , (23721,  14, True ) /* GravityStatus */
-     , (23721,  19, True ) /* Attackable */
-     , (23721,  22, True ) /* Inscribable */;
+VALUES (23721,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23721,   1, 'Acid Yari') /* Name */;

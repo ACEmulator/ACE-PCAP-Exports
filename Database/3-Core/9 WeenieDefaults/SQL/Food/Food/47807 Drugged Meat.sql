@@ -12,15 +12,8 @@ VALUES (47807,   1,         32) /* ItemType - Food */
      , (47807,  15,          5) /* StackUnitValue */
      , (47807,  16,          1) /* ItemUseable - No */
      , (47807,  19,          5) /* Value */
-     , (47807,  65,        101) /* Placement - Resting */
-     , (47807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47807,   1, False) /* Stuck */
-     , (47807,  11, True ) /* IgnoreCollisions */
-     , (47807,  13, True ) /* Ethereal */
-     , (47807,  14, True ) /* GravityStatus */
-     , (47807,  19, True ) /* Attackable */;
+     , (47807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (47807, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47807,   1, 'Drugged Meat') /* Name */

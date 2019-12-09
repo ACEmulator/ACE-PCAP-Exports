@@ -11,21 +11,16 @@ VALUES (52741,   1,      32768) /* ItemType - Caster */
      , (52741,  16,     655364) /* ItemUseable - 655364 */
      , (52741,  18,       1024) /* UiEffects - Slashing */
      , (52741,  19,         15) /* Value */
-     , (52741,  65,          1) /* Placement - RightHandCombat */
      , (52741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52741,  94,         16) /* TargetType - Creature */
-     , (52741, 151,          2) /* HookType - Wall */;
+     , (52741, 151,          2) /* HookType - Wall */
+     , (52741, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52741,   1, False) /* Stuck */
-     , (52741,  11, True ) /* IgnoreCollisions */
-     , (52741,  13, True ) /* Ethereal */
-     , (52741,  14, True ) /* GravityStatus */
-     , (52741,  19, True ) /* Attackable */
-     , (52741,  22, True ) /* Inscribable */;
+VALUES (52741,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52741,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (52741,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52741,   1, 'Slicing Society Orb') /* Name */;

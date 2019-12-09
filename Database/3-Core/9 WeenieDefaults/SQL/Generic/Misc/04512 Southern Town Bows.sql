@@ -8,15 +8,10 @@ VALUES (4512,   1,        128) /* ItemType - Misc */
      , (4512,   5,       9000) /* EncumbranceVal */
      , (4512,  16,          1) /* ItemUseable - No */
      , (4512,  19,        125) /* Value */
-     , (4512,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4512,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4512,   1, True ) /* Stuck */
-     , (4512,  11, True ) /* IgnoreCollisions */
-     , (4512,  12, True ) /* ReportCollisions */
-     , (4512,  13, False) /* Ethereal */
-     , (4512,  14, True ) /* GravityStatus */
-     , (4512,  19, True ) /* Attackable */;
+VALUES (4512,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4512,   1, 'Southern Town Bows') /* Name */

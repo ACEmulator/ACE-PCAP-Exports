@@ -12,17 +12,12 @@ VALUES (3794,   1,          1) /* ItemType - MeleeWeapon */
      , (3794,  18,        256) /* UiEffects - Acid */
      , (3794,  19,         75) /* Value */
      , (3794,  51,          1) /* CombatUse - Melee */
-     , (3794,  65,          1) /* Placement - RightHandCombat */
      , (3794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3794, 151,          2) /* HookType - Wall */;
+     , (3794, 151,          2) /* HookType - Wall */
+     , (3794, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3794,   1, False) /* Stuck */
-     , (3794,  11, True ) /* IgnoreCollisions */
-     , (3794,  13, True ) /* Ethereal */
-     , (3794,  14, True ) /* GravityStatus */
-     , (3794,  19, True ) /* Attackable */
-     , (3794,  22, True ) /* Inscribable */;
+VALUES (3794,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3794,   1, 'Acid Jambiya') /* Name */;

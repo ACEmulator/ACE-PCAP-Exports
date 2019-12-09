@@ -13,16 +13,9 @@ VALUES (53440,   1,       2048) /* ItemType - Gem */
      , (53440,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53440,  18,        256) /* UiEffects - Acid */
      , (53440,  19,         25) /* Value */
-     , (53440,  65,        101) /* Placement - Resting */
      , (53440,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53440,  94,          2) /* TargetType - Armor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53440,   1, False) /* Stuck */
-     , (53440,  11, True ) /* IgnoreCollisions */
-     , (53440,  13, True ) /* Ethereal */
-     , (53440,  14, True ) /* GravityStatus */
-     , (53440,  19, True ) /* Attackable */;
+     , (53440,  94,          2) /* TargetType - Armor */
+     , (53440, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53440,   1, 'Empowered Amber: Shield Reinforcement') /* Name */

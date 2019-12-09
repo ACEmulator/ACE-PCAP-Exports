@@ -8,19 +8,14 @@ VALUES (5157,   1,      16384) /* ItemType - Key */
      , (5157,   5,        135) /* EncumbranceVal */
      , (5157,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (5157,  19,          0) /* Value */
-     , (5157,  65,        101) /* Placement - Resting */
      , (5157,  91,          1) /* MaxStructure */
      , (5157,  92,          1) /* Structure */
      , (5157,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5157,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (5157,  94,        640) /* TargetType - LockableMagicTarget */
+     , (5157, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5157,   1, False) /* Stuck */
-     , (5157,  11, True ) /* IgnoreCollisions */
-     , (5157,  13, True ) /* Ethereal */
-     , (5157,  14, True ) /* GravityStatus */
-     , (5157,  19, True ) /* Attackable */
-     , (5157,  22, True ) /* Inscribable */;
+VALUES (5157,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5157,   1, 'Jilsaya''s Key') /* Name */

@@ -8,19 +8,14 @@ VALUES (4894,   1,      16384) /* ItemType - Key */
      , (4894,   5,         50) /* EncumbranceVal */
      , (4894,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (4894,  19,          0) /* Value */
-     , (4894,  65,        101) /* Placement - Resting */
      , (4894,  91,          3) /* MaxStructure */
      , (4894,  92,          3) /* Structure */
      , (4894,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4894,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (4894,  94,        640) /* TargetType - LockableMagicTarget */
+     , (4894, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4894,   1, False) /* Stuck */
-     , (4894,  11, True ) /* IgnoreCollisions */
-     , (4894,  13, True ) /* Ethereal */
-     , (4894,  14, True ) /* GravityStatus */
-     , (4894,  19, True ) /* Attackable */
-     , (4894,  22, True ) /* Inscribable */;
+VALUES (4894,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4894,   1, 'Key from Aleval') /* Name */

@@ -9,16 +9,9 @@ VALUES (31872,   1,        128) /* ItemType - Misc */
      , (31872,  16,          1) /* ItemUseable - No */
      , (31872,  19,          0) /* Value */
      , (31872,  33,          1) /* Bonded - Bonded */
-     , (31872,  65,        101) /* Placement - Resting */
      , (31872,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31872, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31872,   1, False) /* Stuck */
-     , (31872,  11, True ) /* IgnoreCollisions */
-     , (31872,  13, True ) /* Ethereal */
-     , (31872,  14, True ) /* GravityStatus */
-     , (31872,  19, True ) /* Attackable */;
+     , (31872, 114,          1) /* Attuned - Attuned */
+     , (31872, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31872,   1, 'Watcher Token') /* Name */

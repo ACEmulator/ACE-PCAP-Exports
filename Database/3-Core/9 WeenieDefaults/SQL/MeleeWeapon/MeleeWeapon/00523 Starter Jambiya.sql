@@ -11,20 +11,15 @@ VALUES (523,   1,          1) /* ItemType - MeleeWeapon */
      , (523,  16,          1) /* ItemUseable - No */
      , (523,  19,         10) /* Value */
      , (523,  51,          1) /* CombatUse - Melee */
-     , (523,  65,          1) /* Placement - RightHandCombat */
      , (523,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (523, 151,          2) /* HookType - Wall */;
+     , (523, 151,          2) /* HookType - Wall */
+     , (523, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (523,   1, False) /* Stuck */
-     , (523,  11, True ) /* IgnoreCollisions */
-     , (523,  13, True ) /* Ethereal */
-     , (523,  14, True ) /* GravityStatus */
-     , (523,  19, True ) /* Attackable */
-     , (523,  22, True ) /* Inscribable */;
+VALUES (523,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (523,  39, 0.829999983310699) /* DefaultScale */;
+VALUES (523,  39,    0.83) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (523,   1, 'Starter Jambiya') /* Name */;

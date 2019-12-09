@@ -12,24 +12,19 @@ VALUES (23922,   1,        512) /* ItemType - Container */
      , (23922,  19,        600) /* Value */
      , (23922,  38,        300) /* ResistLockpick */
      , (23922,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (23922, 173,         93) /* AppraisalLockpickSuccessPercent */
      , (23922, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23922,   1, True ) /* Stuck */
      , (23922,   2, False) /* Open */
      , (23922,   3, False) /* Locked */
-     , (23922,  11, True ) /* IgnoreCollisions */
-     , (23922,  12, True ) /* ReportCollisions */
-     , (23922,  13, False) /* Ethereal */
-     , (23922,  14, True ) /* GravityStatus */
-     , (23922,  19, True ) /* Attackable */;
+     , (23922,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23922,  54,       1) /* UseRadius */
      , (23922, 8010,       0) /* PCAPRecordedVelocityX */
      , (23922, 8011,       0) /* PCAPRecordedVelocityY */
-     , (23922, 8012, -0.0115773677825928) /* PCAPRecordedVelocityZ */;
+     , (23922, 8012,   -0.01) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23922,   1, 'Lock Box') /* Name */

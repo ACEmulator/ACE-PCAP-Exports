@@ -12,13 +12,10 @@ VALUES (6425,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6425,   1, True ) /* Stuck */
-     , (6425,  12, True ) /* ReportCollisions */
-     , (6425,  13, True ) /* Ethereal */
-     , (6425,  19, True ) /* Attackable */
      , (6425,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6425,  39, 0.449999988079071) /* DefaultScale */;
+VALUES (6425,  39,    0.45) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6425,   1, '"Mini Mag-Ma!"') /* Name */;

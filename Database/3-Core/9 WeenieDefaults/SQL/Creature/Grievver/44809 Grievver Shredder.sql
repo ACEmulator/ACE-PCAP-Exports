@@ -15,18 +15,14 @@ VALUES (44809,   1,         16) /* ItemType - Creature */
      , (44809, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44809,   1, True ) /* Stuck */
-     , (44809,  12, True ) /* ReportCollisions */
-     , (44809,  13, False) /* Ethereal */
-     , (44809,  14, True ) /* GravityStatus */
-     , (44809,  19, True ) /* Attackable */;
+VALUES (44809,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44809,  39, 1.60000002384186) /* DefaultScale */
+VALUES (44809,  39,     1.6) /* DefaultScale */
      , (44809,  77,       1) /* PhysicsScriptIntensity */
      , (44809, 8010,       0) /* PCAPRecordedVelocityX */
      , (44809, 8011,       0) /* PCAPRecordedVelocityY */
-     , (44809, 8012, -0.0376001596450806) /* PCAPRecordedVelocityZ */;
+     , (44809, 8012,   -0.04) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44809,   1, 'Grievver Shredder') /* Name */

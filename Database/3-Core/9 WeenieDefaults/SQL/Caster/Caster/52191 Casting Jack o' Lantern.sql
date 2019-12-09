@@ -11,23 +11,18 @@ VALUES (52191,   1,      32768) /* ItemType - Caster */
      , (52191,  16,          1) /* ItemUseable - No */
      , (52191,  18,         32) /* UiEffects - Fire */
      , (52191,  19,        200) /* Value */
-     , (52191,  65,          1) /* Placement - RightHandCombat */
      , (52191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52191,  94,         16) /* TargetType - Creature */
-     , (52191, 151,          2) /* HookType - Wall */;
+     , (52191, 151,          2) /* HookType - Wall */
+     , (52191, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52191,   1, False) /* Stuck */
-     , (52191,  11, True ) /* IgnoreCollisions */
-     , (52191,  13, True ) /* Ethereal */
-     , (52191,  14, True ) /* GravityStatus */
-     , (52191,  19, True ) /* Attackable */
-     , (52191,  22, True ) /* Inscribable */;
+VALUES (52191,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52191,  29,     1.1) /* WeaponDefense */
      , (52191,  39,    0.75) /* DefaultScale */
-     , (52191, 144, 1.15773404036276E-314) /* ManaConversionMod */;
+     , (52191, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52191,   1, 'Casting Jack o'' Lantern') /* Name */

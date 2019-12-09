@@ -13,18 +13,13 @@ VALUES (22940,   1,        128) /* ItemType - Misc */
      , (22940,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22940,  19,          0) /* Value */
      , (22940,  33,          1) /* Bonded - Bonded */
-     , (22940,  65,        101) /* Placement - Resting */
      , (22940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22940,  94,        128) /* TargetType - Misc */
-     , (22940, 114,          1) /* Attuned - Attuned */;
+     , (22940, 114,          1) /* Attuned - Attuned */
+     , (22940, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22940,   1, False) /* Stuck */
-     , (22940,  11, True ) /* IgnoreCollisions */
-     , (22940,  13, True ) /* Ethereal */
-     , (22940,  14, True ) /* GravityStatus */
-     , (22940,  19, True ) /* Attackable */
-     , (22940,  22, True ) /* Inscribable */;
+VALUES (22940,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22940,   1, 'Gem of Lowering Quickness') /* Name */

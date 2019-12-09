@@ -12,16 +12,11 @@ VALUES (33080,   1,          1) /* ItemType - MeleeWeapon */
      , (33080,  18,          1) /* UiEffects - Magical */
      , (33080,  19,        220) /* Value */
      , (33080,  51,          1) /* CombatUse - Melee */
-     , (33080,  65,          1) /* Placement - RightHandCombat */
-     , (33080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (33080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33080, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33080,   1, False) /* Stuck */
-     , (33080,  11, True ) /* IgnoreCollisions */
-     , (33080,  13, True ) /* Ethereal */
-     , (33080,  14, True ) /* GravityStatus */
-     , (33080,  19, True ) /* Attackable */
-     , (33080,  22, True ) /* Inscribable */;
+VALUES (33080,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33080,   1, 'Shadow Blade') /* Name */;

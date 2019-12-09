@@ -10,18 +10,13 @@ VALUES (20176,   1,      32768) /* ItemType - Caster */
      , (20176,  16,          1) /* ItemUseable - No */
      , (20176,  18,          1) /* UiEffects - Magical */
      , (20176,  19,       6000) /* Value */
-     , (20176,  65,        101) /* Placement - Resting */
      , (20176,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20176,  94,         16) /* TargetType - Creature */
-     , (20176, 151,          2) /* HookType - Wall */;
+     , (20176, 151,          2) /* HookType - Wall */
+     , (20176, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20176,   1, False) /* Stuck */
-     , (20176,  11, True ) /* IgnoreCollisions */
-     , (20176,  13, True ) /* Ethereal */
-     , (20176,  14, True ) /* GravityStatus */
-     , (20176,  19, True ) /* Attackable */
-     , (20176,  22, True ) /* Inscribable */;
+VALUES (20176,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20176,   1, 'Superb Dissolving Isparian Wand') /* Name */;

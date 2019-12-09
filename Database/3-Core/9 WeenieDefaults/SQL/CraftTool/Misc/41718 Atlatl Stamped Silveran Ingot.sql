@@ -12,20 +12,15 @@ VALUES (41718,   1,        128) /* ItemType - Misc */
      , (41718,  15,          1) /* StackUnitValue */
      , (41718,  16,          8) /* ItemUseable - Contained */
      , (41718,  19,          1) /* Value */
-     , (41718,  65,        101) /* Placement - Resting */
      , (41718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41718,  94,         16) /* TargetType - Creature */;
+     , (41718,  94,         16) /* TargetType - Creature */
+     , (41718, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41718,   1, False) /* Stuck */
-     , (41718,  11, True ) /* IgnoreCollisions */
-     , (41718,  13, True ) /* Ethereal */
-     , (41718,  14, True ) /* GravityStatus */
-     , (41718,  19, True ) /* Attackable */
-     , (41718,  22, True ) /* Inscribable */;
+VALUES (41718,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41718,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (41718,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41718,   1, 'Atlatl Stamped Silveran Ingot') /* Name */;

@@ -13,19 +13,14 @@ VALUES (2433,   1,       2048) /* ItemType - Gem */
      , (2433,  16,          8) /* ItemUseable - Contained */
      , (2433,  18,          1) /* UiEffects - Magical */
      , (2433,  19,       1069) /* Value */
-     , (2433,  65,        101) /* Placement - Resting */
      , (2433,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2433, 105,          7) /* ItemWorkmanship */
      , (2433, 131,         37) /* MaterialType - RoseQuartz */
-     , (2433, 172,          1) /* AppraisalLongDescDecoration */;
+     , (2433, 172,          1) /* AppraisalLongDescDecoration */
+     , (2433, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2433,   1, False) /* Stuck */
-     , (2433,  11, True ) /* IgnoreCollisions */
-     , (2433,  13, True ) /* Ethereal */
-     , (2433,  14, True ) /* GravityStatus */
-     , (2433,  19, True ) /* Attackable */
-     , (2433,  22, True ) /* Inscribable */;
+VALUES (2433,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2433, 8004,       6) /* PCAPRecordedWorkmanship */;

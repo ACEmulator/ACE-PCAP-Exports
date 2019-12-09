@@ -11,11 +11,7 @@ VALUES (4639,   1,        128) /* ItemType - Misc */
      , (4639,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4639,   1, True ) /* Stuck */
-     , (4639,  11, True ) /* IgnoreCollisions */
-     , (4639,  12, True ) /* ReportCollisions */
-     , (4639,  13, False) /* Ethereal */
-     , (4639,  19, True ) /* Attackable */;
+VALUES (4639,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4639,   1, 'Armaments of Truth') /* Name */

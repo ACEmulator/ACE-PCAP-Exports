@@ -11,20 +11,14 @@ VALUES (38323,   1,        128) /* ItemType - Misc */
      , (38323,  16,          1) /* ItemUseable - No */
      , (38323,  18,          1) /* UiEffects - Magical */
      , (38323,  19,       7800) /* Value */
-     , (38323,  65,          1) /* Placement - RightHandCombat */
-     , (38323,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (38323,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (38323, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38323,   1, False) /* Stuck */
-     , (38323,  11, True ) /* IgnoreCollisions */
-     , (38323,  13, True ) /* Ethereal */
-     , (38323,  14, True ) /* GravityStatus */
-     , (38323,  15, True ) /* LightsStatus */
-     , (38323,  19, True ) /* Attackable */
-     , (38323,  22, True ) /* Inscribable */;
+VALUES (38323,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38323,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (38323,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38323,   1, 'Klarmox''s Staff') /* Name */;

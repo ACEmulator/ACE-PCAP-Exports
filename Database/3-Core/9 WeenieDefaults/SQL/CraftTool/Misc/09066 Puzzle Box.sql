@@ -12,18 +12,13 @@ VALUES (9066,   1,        128) /* ItemType - Misc */
      , (9066,  15,        100) /* StackUnitValue */
      , (9066,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9066,  19,        100) /* Value */
-     , (9066,  65,        101) /* Placement - Resting */
      , (9066,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9066,  94,       8192) /* TargetType - Writable */
-     , (9066, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (9066, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9066, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9066,   1, False) /* Stuck */
-     , (9066,  11, True ) /* IgnoreCollisions */
-     , (9066,  13, True ) /* Ethereal */
-     , (9066,  14, True ) /* GravityStatus */
-     , (9066,  19, True ) /* Attackable */
-     , (9066,  22, True ) /* Inscribable */;
+VALUES (9066,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9066,   1, 'Puzzle Box') /* Name */

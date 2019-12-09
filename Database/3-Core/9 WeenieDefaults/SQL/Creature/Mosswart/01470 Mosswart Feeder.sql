@@ -16,14 +16,10 @@ VALUES (1470,   1,         16) /* ItemType - Creature */
      , (1470, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1470,   1, True ) /* Stuck */
-     , (1470,  12, True ) /* ReportCollisions */
-     , (1470,  13, False) /* Ethereal */
-     , (1470,  14, True ) /* GravityStatus */
-     , (1470,  19, True ) /* Attackable */;
+VALUES (1470,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1470,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (1470,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1470,   1, 'Mosswart Feeder') /* Name */

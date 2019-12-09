@@ -10,25 +10,20 @@ VALUES (10972,   1,          8) /* ItemType - Jewelry */
      , (10972,  16,          1) /* ItemUseable - No */
      , (10972,  18,          1) /* UiEffects - Magical */
      , (10972,  19,       5800) /* Value */
-     , (10972,  65,        101) /* Placement - Resting */
      , (10972,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10972, 106,        225) /* ItemSpellcraft */
      , (10972, 107,          0) /* ItemCurMana */
      , (10972, 108,       1400) /* ItemMaxMana */
      , (10972, 109,          0) /* ItemDifficulty */
-     , (10972, 110,          1) /* ItemAllegianceRankLimit */;
+     , (10972, 110,          1) /* ItemAllegianceRankLimit */
+     , (10972, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10972,   1, False) /* Stuck */
-     , (10972,  11, True ) /* IgnoreCollisions */
-     , (10972,  13, True ) /* Ethereal */
-     , (10972,  14, True ) /* GravityStatus */
-     , (10972,  19, True ) /* Attackable */
-     , (10972,  22, True ) /* Inscribable */;
+VALUES (10972,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10972,   5,   -0.01) /* ManaRate */
-     , (10972,  39, 0.800000011920929) /* DefaultScale */;
+     , (10972,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10972,   1, 'Utelari''s Collar') /* Name */

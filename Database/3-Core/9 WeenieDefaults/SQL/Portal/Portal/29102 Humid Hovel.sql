@@ -11,15 +11,10 @@ VALUES (29102,   1,      65536) /* ItemType - Portal */
      , (29102, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29102,   1, True ) /* Stuck */
-     , (29102,  12, True ) /* ReportCollisions */
-     , (29102,  13, True ) /* Ethereal */
-     , (29102,  14, True ) /* GravityStatus */
-     , (29102,  15, True ) /* LightsStatus */
-     , (29102,  19, True ) /* Attackable */;
+VALUES (29102,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29102,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29102,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29102,   1, 'Humid Hovel') /* Name */

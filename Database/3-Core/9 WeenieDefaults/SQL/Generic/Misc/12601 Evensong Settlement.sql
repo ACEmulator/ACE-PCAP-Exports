@@ -11,12 +11,7 @@ VALUES (12601,   1,        128) /* ItemType - Misc */
      , (12601,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12601,   1, True ) /* Stuck */
-     , (12601,  11, True ) /* IgnoreCollisions */
-     , (12601,  12, True ) /* ReportCollisions */
-     , (12601,  13, False) /* Ethereal */
-     , (12601,  14, True ) /* GravityStatus */
-     , (12601,  19, True ) /* Attackable */;
+VALUES (12601,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12601,   1, 'Evensong Settlement') /* Name */

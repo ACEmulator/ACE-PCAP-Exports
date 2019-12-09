@@ -16,7 +16,6 @@ VALUES (356,   1,          1) /* ItemType - MeleeWeapon */
      , (356,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (356,  49,         30) /* WeaponTime */
      , (356,  51,          1) /* CombatUse - Melee */
-     , (356,  65,          1) /* Placement - RightHandCombat */
      , (356,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (356, 105,          5) /* ItemWorkmanship */
      , (356, 106,        210) /* ItemSpellcraft */
@@ -35,26 +34,22 @@ VALUES (356,   1,          1) /* ItemType - MeleeWeapon */
      , (356, 177,          1) /* GemCount */
      , (356, 178,         11) /* GemType */
      , (356, 353,          4) /* WeaponType - Mace */
-     , (356, 8030,          0);
+     , (356, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (356, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (356,   1, False) /* Stuck */
-     , (356,  11, True ) /* IgnoreCollisions */
-     , (356,  13, True ) /* Ethereal */
-     , (356,  14, True ) /* GravityStatus */
-     , (356,  19, True ) /* Attackable */
-     , (356,  22, True ) /* Inscribable */;
+VALUES (356,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (356,   5, -0.0416666666666667) /* ManaRate */
+VALUES (356,   5,   -0.04) /* ManaRate */
      , (356,  21,       0) /* WeaponLength */
      , (356,  22,    0.32) /* DamageVariance */
      , (356,  26,       0) /* MaximumVelocity */
      , (356,  29,    1.08) /* WeaponDefense */
-     , (356,  39, 0.899999976158142) /* DefaultScale */
+     , (356,  39,     0.9) /* DefaultScale */
      , (356,  62,    1.02) /* WeaponOffense */
      , (356,  63,       1) /* DamageMod */
-     , (356, 149,   1.025) /* WeaponMissileDefense */;
+     , (356, 149,    1.02) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (356,   1, 'Tofun') /* Name */

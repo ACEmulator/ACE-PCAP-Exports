@@ -11,11 +11,7 @@ VALUES (42863,   1,        128) /* ItemType - Misc */
      , (42863,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42863,   1, True ) /* Stuck */
-     , (42863,  11, True ) /* IgnoreCollisions */
-     , (42863,  12, True ) /* ReportCollisions */
-     , (42863,  13, True ) /* Ethereal */
-     , (42863,  19, True ) /* Attackable */;
+VALUES (42863,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42863,   1, 'Mite') /* Name */

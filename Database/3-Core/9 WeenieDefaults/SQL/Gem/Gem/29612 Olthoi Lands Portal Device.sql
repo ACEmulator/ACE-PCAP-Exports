@@ -8,17 +8,12 @@ VALUES (29612,   1,       2048) /* ItemType - Gem */
      , (29612,   5,       3500) /* EncumbranceVal */
      , (29612,  16,          1) /* ItemUseable - No */
      , (29612,  19,      10000) /* Value */
-     , (29612,  65,        101) /* Placement - Resting */
-     , (29612,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (29612, 151,          9) /* HookType - Floor, Yard */;
+     , (29612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29612, 151,          9) /* HookType - Floor, Yard */
+     , (29612, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29612,   1, False) /* Stuck */
-     , (29612,  11, True ) /* IgnoreCollisions */
-     , (29612,  13, True ) /* Ethereal */
-     , (29612,  14, True ) /* GravityStatus */
-     , (29612,  19, True ) /* Attackable */
-     , (29612,  22, True ) /* Inscribable */;
+VALUES (29612,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29612,   1, 'Olthoi Lands Portal Device') /* Name */

@@ -14,15 +14,10 @@ VALUES (32206,   1,       2048) /* ItemType - Gem */
      , (32206, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32206,   1, False) /* Stuck */
-     , (32206,  11, True ) /* IgnoreCollisions */
-     , (32206,  13, True ) /* Ethereal */
-     , (32206,  14, True ) /* GravityStatus */
-     , (32206,  19, True ) /* Attackable */
-     , (32206,  22, True ) /* Inscribable */;
+VALUES (32206,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32206,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (32206,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32206,   1, 'Pack Pumpkin Lord') /* Name */

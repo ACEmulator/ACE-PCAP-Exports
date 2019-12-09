@@ -15,11 +15,7 @@ VALUES (43220,   1,         16) /* ItemType - Creature */
      , (43220, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43220,   1, True ) /* Stuck */
-     , (43220,  12, True ) /* ReportCollisions */
-     , (43220,  13, False) /* Ethereal */
-     , (43220,  14, True ) /* GravityStatus */
-     , (43220,  19, True ) /* Attackable */;
+VALUES (43220,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43220,   1, 'Apostate Virindi Inquisitor') /* Name */

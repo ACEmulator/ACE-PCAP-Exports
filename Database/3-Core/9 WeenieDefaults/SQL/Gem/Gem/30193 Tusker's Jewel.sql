@@ -16,22 +16,17 @@ VALUES (30193,   1,       2048) /* ItemType - Gem */
      , (30193,  19,          0) /* Value */
      , (30193,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30193,  33,         -1) /* Bonded - Slippery */
-     , (30193,  65,        101) /* Placement - Resting */
      , (30193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30193,  94,         16) /* TargetType - Creature */
      , (30193, 106,        325) /* ItemSpellcraft */
      , (30193, 107,      10000) /* ItemCurMana */
      , (30193, 108,      10000) /* ItemMaxMana */
      , (30193, 109,          0) /* ItemDifficulty */
-     , (30193, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30193, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30193, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30193,   1, False) /* Stuck */
-     , (30193,  11, True ) /* IgnoreCollisions */
-     , (30193,  13, True ) /* Ethereal */
-     , (30193,  14, True ) /* GravityStatus */
-     , (30193,  19, True ) /* Attackable */
-     , (30193, 108, True ) /* RareUsesTimer */;
+VALUES (30193, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30193,   1, 'Tusker''s Jewel') /* Name */

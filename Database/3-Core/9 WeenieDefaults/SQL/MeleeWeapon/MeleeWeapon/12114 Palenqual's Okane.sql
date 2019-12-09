@@ -11,19 +11,14 @@ VALUES (12114,   1,          1) /* ItemType - MeleeWeapon */
      , (12114,  16,          1) /* ItemUseable - No */
      , (12114,  18,          1) /* UiEffects - Magical */
      , (12114,  51,          1) /* CombatUse - Melee */
-     , (12114,  65,          1) /* Placement - RightHandCombat */
-     , (12114,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12114,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12114, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12114,   1, False) /* Stuck */
-     , (12114,  11, True ) /* IgnoreCollisions */
-     , (12114,  13, True ) /* Ethereal */
-     , (12114,  14, True ) /* GravityStatus */
-     , (12114,  19, True ) /* Attackable */
-     , (12114,  22, True ) /* Inscribable */;
+VALUES (12114,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12114,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (12114,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12114,   1, 'Palenqual''s Okane') /* Name */;

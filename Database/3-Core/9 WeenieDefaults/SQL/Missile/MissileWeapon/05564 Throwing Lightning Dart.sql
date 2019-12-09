@@ -15,17 +15,9 @@ VALUES (5564,   1,        256) /* ItemType - MissileWeapon */
      , (5564,  18,         64) /* UiEffects - Lightning */
      , (5564,  19,          4) /* Value */
      , (5564,  51,          2) /* CombatUse - Missle */
-     , (5564,  65,        101) /* Placement - Resting */
      , (5564,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (5564, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5564,   1, False) /* Stuck */
-     , (5564,  11, True ) /* IgnoreCollisions */
-     , (5564,  13, True ) /* Ethereal */
-     , (5564,  14, True ) /* GravityStatus */
-     , (5564,  17, True ) /* Inelastic */
-     , (5564,  19, True ) /* Attackable */;
+     , (5564, 151,          2) /* HookType - Wall */
+     , (5564, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5564,  78,       1) /* Friction */

@@ -8,16 +8,11 @@ VALUES (725,   1,        128) /* ItemType - Misc */
      , (725,   5,       9000) /* EncumbranceVal */
      , (725,  16,          1) /* ItemUseable - No */
      , (725,  19,        125) /* Value */
-     , (725,  65,        101) /* Placement - Resting */
-     , (725,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (725,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (725, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (725,   1, True ) /* Stuck */
-     , (725,  11, True ) /* IgnoreCollisions */
-     , (725,  12, True ) /* ReportCollisions */
-     , (725,  13, False) /* Ethereal */
-     , (725,  14, True ) /* GravityStatus */
-     , (725,  19, True ) /* Attackable */;
+VALUES (725,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (725,   1, 'Peldin''s Bows') /* Name */

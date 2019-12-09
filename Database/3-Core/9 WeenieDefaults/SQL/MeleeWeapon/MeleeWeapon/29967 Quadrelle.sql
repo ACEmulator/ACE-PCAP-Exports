@@ -15,12 +15,7 @@ VALUES (29967,   1,          1) /* ItemType - MeleeWeapon */
      , (29967, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29967,   1, False) /* Stuck */
-     , (29967,  11, True ) /* IgnoreCollisions */
-     , (29967,  13, True ) /* Ethereal */
-     , (29967,  14, True ) /* GravityStatus */
-     , (29967,  19, True ) /* Attackable */
-     , (29967,  22, True ) /* Inscribable */;
+VALUES (29967,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29967,   1, 'Quadrelle') /* Name */;

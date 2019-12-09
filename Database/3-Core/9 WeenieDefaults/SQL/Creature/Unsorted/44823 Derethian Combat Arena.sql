@@ -15,17 +15,10 @@ VALUES (44823,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44823,   1, True ) /* Stuck */
-     , (44823,  11, True ) /* IgnoreCollisions */
-     , (44823,  12, True ) /* ReportCollisions */
-     , (44823,  13, True ) /* Ethereal */
-     , (44823,  14, True ) /* GravityStatus */
-     , (44823,  15, True ) /* LightsStatus */
-     , (44823,  19, False) /* Attackable */
-     , (44823,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (44823,  42, True ) /* AllowEdgeSlide */;
+     , (44823,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44823,  54, 0.100000001490116) /* UseRadius */;
+VALUES (44823,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44823,   1, 'Derethian Combat Arena') /* Name */

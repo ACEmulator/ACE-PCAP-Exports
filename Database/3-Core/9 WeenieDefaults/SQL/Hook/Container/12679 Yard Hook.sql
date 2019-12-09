@@ -14,10 +14,7 @@ VALUES (12679,   1,        512) /* ItemType - Container */
      , (12679, 152,         -1) /* HookItemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12679,   1, True ) /* Stuck */
-     , (12679,  11, True ) /* IgnoreCollisions */
-     , (12679,  13, True ) /* Ethereal */
-     , (12679,  19, True ) /* Attackable */;
+VALUES (12679,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12679,  39,     0.5) /* DefaultScale */

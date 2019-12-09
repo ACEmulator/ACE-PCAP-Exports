@@ -12,16 +12,9 @@ VALUES (31988,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31988,  15,      10000) /* StackUnitValue */
      , (31988,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31988,  19,      10000) /* Value */
-     , (31988,  65,        101) /* Placement - Resting */
      , (31988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31988,  94,          2) /* TargetType - Armor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31988,   1, False) /* Stuck */
-     , (31988,  11, True ) /* IgnoreCollisions */
-     , (31988,  13, True ) /* Ethereal */
-     , (31988,  14, True ) /* GravityStatus */
-     , (31988,  19, True ) /* Attackable */;
+     , (31988,  94,          2) /* TargetType - Armor */
+     , (31988, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31988,   1, 'Ochre Pigmentation Apparatus') /* Name */

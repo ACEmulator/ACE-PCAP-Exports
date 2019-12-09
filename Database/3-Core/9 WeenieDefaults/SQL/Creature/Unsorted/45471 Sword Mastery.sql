@@ -40,19 +40,13 @@ VALUES (45471,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45471,   1, True ) /* Stuck */
-     , (45471,  11, True ) /* IgnoreCollisions */
-     , (45471,  12, True ) /* ReportCollisions */
-     , (45471,  13, False) /* Ethereal */
-     , (45471,  14, True ) /* GravityStatus */
-     , (45471,  19, False) /* Attackable */
-     , (45471,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45471,  42, True ) /* AllowEdgeSlide */;
+     , (45471,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45471,  54,       3) /* UseRadius */
      , (45471, 8010,       0) /* PCAPRecordedVelocityX */
      , (45471, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45471, 8012, -46.3793907165527) /* PCAPRecordedVelocityZ */;
+     , (45471, 8012,  -46.38) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45471,   1, 'Sword Mastery') /* Name */

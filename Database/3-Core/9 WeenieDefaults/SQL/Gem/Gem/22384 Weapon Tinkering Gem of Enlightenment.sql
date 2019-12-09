@@ -9,17 +9,12 @@ VALUES (22384,   1,       2048) /* ItemType - Gem */
      , (22384,  16,          8) /* ItemUseable - Contained */
      , (22384,  19,          0) /* Value */
      , (22384,  33,          1) /* Bonded - Bonded */
-     , (22384,  65,        101) /* Placement - Resting */
      , (22384,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22384, 114,          1) /* Attuned - Attuned */;
+     , (22384, 114,          1) /* Attuned - Attuned */
+     , (22384, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22384,   1, False) /* Stuck */
-     , (22384,  11, True ) /* IgnoreCollisions */
-     , (22384,  13, True ) /* Ethereal */
-     , (22384,  14, True ) /* GravityStatus */
-     , (22384,  19, True ) /* Attackable */
-     , (22384,  22, True ) /* Inscribable */;
+VALUES (22384,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22384,   1, 'Weapon Tinkering Gem of Enlightenment') /* Name */

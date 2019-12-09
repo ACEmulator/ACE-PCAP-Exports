@@ -15,14 +15,10 @@ VALUES (53375,   1,         16) /* ItemType - Creature */
      , (53375, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53375,   1, True ) /* Stuck */
-     , (53375,  12, True ) /* ReportCollisions */
-     , (53375,  13, False) /* Ethereal */
-     , (53375,  14, True ) /* GravityStatus */
-     , (53375,  19, True ) /* Attackable */;
+VALUES (53375,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53375,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (53375,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53375,   1, 'Sath''tik Eyestalk') /* Name */

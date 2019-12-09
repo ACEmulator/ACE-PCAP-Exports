@@ -13,20 +13,15 @@ VALUES (44889,   1,       2048) /* ItemType - Gem */
      , (44889,  15,         50) /* StackUnitValue */
      , (44889,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44889,  19,         50) /* Value */
-     , (44889,  65,        101) /* Placement - Resting */
      , (44889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44889,  94,          4) /* TargetType - Clothing */;
+     , (44889,  94,          4) /* TargetType - Clothing */
+     , (44889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44889,   1, False) /* Stuck */
-     , (44889,  11, True ) /* IgnoreCollisions */
-     , (44889,  13, True ) /* Ethereal */
-     , (44889,  14, True ) /* GravityStatus */
-     , (44889,  19, True ) /* Attackable */
-     , (44889,  22, True ) /* Inscribable */;
+VALUES (44889,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44889,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44889,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44889,   1, 'Radiant Blood Cloak') /* Name */;

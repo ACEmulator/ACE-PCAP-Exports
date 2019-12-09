@@ -13,14 +13,10 @@ VALUES (39193,   1,         16) /* ItemType - Creature */
      , (39193, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39193,   1, True ) /* Stuck */
-     , (39193,  12, True ) /* ReportCollisions */
-     , (39193,  13, False) /* Ethereal */
-     , (39193,  14, True ) /* GravityStatus */
-     , (39193,  19, True ) /* Attackable */;
+VALUES (39193,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39193,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (39193,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39193,   1, 'Patriarch''s Executioner') /* Name */

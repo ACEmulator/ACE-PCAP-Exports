@@ -15,11 +15,7 @@ VALUES (7553,   1,         16) /* ItemType - Creature */
      , (7553, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7553,   1, True ) /* Stuck */
-     , (7553,  12, True ) /* ReportCollisions */
-     , (7553,  13, False) /* Ethereal */
-     , (7553,  14, True ) /* GravityStatus */
-     , (7553,  19, True ) /* Attackable */;
+VALUES (7553,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7553,   1, 'Laigus Raider') /* Name */

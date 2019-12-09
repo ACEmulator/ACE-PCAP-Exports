@@ -13,20 +13,15 @@ VALUES (43747,   1,        128) /* ItemType - Misc */
      , (43747,  16,          1) /* ItemUseable - No */
      , (43747,  19,          1) /* Value */
      , (43747,  33,          1) /* Bonded - Bonded */
-     , (43747,  65,        101) /* Placement - Resting */
      , (43747,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43747, 114,          1) /* Attuned - Attuned */;
+     , (43747, 114,          1) /* Attuned - Attuned */
+     , (43747, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43747,   1, False) /* Stuck */
-     , (43747,  11, True ) /* IgnoreCollisions */
-     , (43747,  13, True ) /* Ethereal */
-     , (43747,  14, True ) /* GravityStatus */
-     , (43747,  19, True ) /* Attackable */
-     , (43747,  69, False) /* IsSellable */;
+VALUES (43747,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43747,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (43747,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43747,   1, 'Mutated Olthoi Gland') /* Name */

@@ -11,15 +11,10 @@ VALUES (32712,   1,      65536) /* ItemType - Portal */
      , (32712, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32712,   1, True ) /* Stuck */
-     , (32712,  12, True ) /* ReportCollisions */
-     , (32712,  13, True ) /* Ethereal */
-     , (32712,  14, True ) /* GravityStatus */
-     , (32712,  15, True ) /* LightsStatus */
-     , (32712,  19, True ) /* Attackable */;
+VALUES (32712,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32712,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32712,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32712,   1, 'Castle Pietrus') /* Name */

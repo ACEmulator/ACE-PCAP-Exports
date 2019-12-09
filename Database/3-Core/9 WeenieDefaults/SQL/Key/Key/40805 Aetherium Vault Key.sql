@@ -8,19 +8,14 @@ VALUES (40805,   1,      16384) /* ItemType - Key */
      , (40805,   5,         50) /* EncumbranceVal */
      , (40805,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (40805,  19,          0) /* Value */
-     , (40805,  65,        101) /* Placement - Resting */
      , (40805,  91,          1) /* MaxStructure */
      , (40805,  92,          1) /* Structure */
      , (40805,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40805,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (40805,  94,        640) /* TargetType - LockableMagicTarget */
+     , (40805, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40805,   1, False) /* Stuck */
-     , (40805,  11, True ) /* IgnoreCollisions */
-     , (40805,  13, True ) /* Ethereal */
-     , (40805,  14, True ) /* GravityStatus */
-     , (40805,  19, True ) /* Attackable */
-     , (40805,  22, True ) /* Inscribable */;
+VALUES (40805,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40805,   1, 'Aetherium Vault Key') /* Name */

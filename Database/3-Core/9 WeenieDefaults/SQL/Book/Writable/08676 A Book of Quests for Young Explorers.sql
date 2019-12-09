@@ -8,20 +8,13 @@ VALUES (8676,   1,       8192) /* ItemType - Writable */
      , (8676,   5,         10) /* EncumbranceVal */
      , (8676,  16,          8) /* ItemUseable - Contained */
      , (8676,  19,          0) /* Value */
-     , (8676,  65,        101) /* Placement - Resting */
      , (8676,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8676, 174,         11) /* AppraisalPages */
-     , (8676, 175,         11) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8676,   1, False) /* Stuck */
-     , (8676,  11, True ) /* IgnoreCollisions */
-     , (8676,  13, True ) /* Ethereal */
-     , (8676,  14, True ) /* GravityStatus */
-     , (8676,  19, True ) /* Attackable */;
+     , (8676, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8676, 8042,         11) /* PCAPRecordedAppraisalPages */
+     , (8676, 8043,         11) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8676,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8676,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8676,   1, 'A Book of Quests for Young Explorers') /* Name */

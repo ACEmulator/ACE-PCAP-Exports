@@ -13,18 +13,13 @@ VALUES (6662,   1,       2048) /* ItemType - Gem */
      , (6662,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6662,  19,       3200) /* Value */
      , (6662,  33,          1) /* Bonded - Bonded */
-     , (6662,  65,        101) /* Placement - Resting */
      , (6662,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6662,  94,          1) /* TargetType - MeleeWeapon */
-     , (6662, 114,          1) /* Attuned - Attuned */;
+     , (6662, 114,          1) /* Attuned - Attuned */
+     , (6662, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6662,   1, False) /* Stuck */
-     , (6662,  11, True ) /* IgnoreCollisions */
-     , (6662,  13, True ) /* Ethereal */
-     , (6662,  14, True ) /* GravityStatus */
-     , (6662,  19, True ) /* Attackable */
-     , (6662,  22, True ) /* Inscribable */;
+VALUES (6662,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6662,   1, 'The Ruby Mahwan') /* Name */

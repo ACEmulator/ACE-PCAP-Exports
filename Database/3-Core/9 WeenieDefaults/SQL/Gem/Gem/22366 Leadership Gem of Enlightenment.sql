@@ -9,17 +9,12 @@ VALUES (22366,   1,       2048) /* ItemType - Gem */
      , (22366,  16,          8) /* ItemUseable - Contained */
      , (22366,  19,          0) /* Value */
      , (22366,  33,          1) /* Bonded - Bonded */
-     , (22366,  65,        101) /* Placement - Resting */
      , (22366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22366, 114,          1) /* Attuned - Attuned */;
+     , (22366, 114,          1) /* Attuned - Attuned */
+     , (22366, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22366,   1, False) /* Stuck */
-     , (22366,  11, True ) /* IgnoreCollisions */
-     , (22366,  13, True ) /* Ethereal */
-     , (22366,  14, True ) /* GravityStatus */
-     , (22366,  19, True ) /* Attackable */
-     , (22366,  22, True ) /* Inscribable */;
+VALUES (22366,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22366,   1, 'Leadership Gem of Enlightenment') /* Name */

@@ -12,21 +12,15 @@ VALUES (41913,   1,          1) /* ItemType - MeleeWeapon */
      , (41913,  18,          1) /* UiEffects - Magical */
      , (41913,  19,      20000) /* Value */
      , (41913,  51,          1) /* CombatUse - Melee */
-     , (41913,  65,          1) /* Placement - RightHandCombat */
      , (41913,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (41913, 151,          2) /* HookType - Wall */;
+     , (41913, 151,          2) /* HookType - Wall */
+     , (41913, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41913,   1, False) /* Stuck */
-     , (41913,  11, True ) /* IgnoreCollisions */
-     , (41913,  13, True ) /* Ethereal */
-     , (41913,  14, True ) /* GravityStatus */
-     , (41913,  15, True ) /* LightsStatus */
-     , (41913,  19, True ) /* Attackable */
-     , (41913,  22, True ) /* Inscribable */;
+VALUES (41913,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41913,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (41913,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41913,   1, 'Enhanced Blade of the Quiddity') /* Name */;

@@ -12,16 +12,9 @@ VALUES (31989,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31989,  15,      10000) /* StackUnitValue */
      , (31989,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31989,  19,      10000) /* Value */
-     , (31989,  65,        101) /* Placement - Resting */
      , (31989,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31989,  94,          2) /* TargetType - Armor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31989,   1, False) /* Stuck */
-     , (31989,  11, True ) /* IgnoreCollisions */
-     , (31989,  13, True ) /* Ethereal */
-     , (31989,  14, True ) /* GravityStatus */
-     , (31989,  19, True ) /* Attackable */;
+     , (31989,  94,          2) /* TargetType - Armor */
+     , (31989, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31989,   1, 'Atramentous Pigmentation Apparatus') /* Name */

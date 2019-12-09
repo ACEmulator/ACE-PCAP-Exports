@@ -22,23 +22,17 @@ VALUES (43134,   1,        256) /* ItemType - MissileWeapon */
      , (43134,  49,         -1) /* WeaponTime */
      , (43134,  50,          2) /* AmmoType - Bolt */
      , (43134,  51,          3) /* CombatUse - Ammo */
-     , (43134,  65,          1) /* Placement - RightHandCombat */
      , (43134,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (43134, 114,          1) /* Attuned - Attuned */
      , (43134, 307,          5) /* DamageRating */
      , (43134, 313,          0) /* CritRating */
      , (43134, 314,          0) /* CritDamageRating */
      , (43134, 386,          0) /* Overpower */
-     , (43134, 8030,          0);
+     , (43134, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (43134, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43134,   1, False) /* Stuck */
-     , (43134,  11, True ) /* IgnoreCollisions */
-     , (43134,  13, True ) /* Ethereal */
-     , (43134,  14, True ) /* GravityStatus */
-     , (43134,  17, True ) /* Inelastic */
-     , (43134,  19, True ) /* Attackable */
-     , (43134,  69, False) /* IsSellable */
+VALUES (43134,  69, False) /* IsSellable */
      , (43134,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -46,10 +40,10 @@ VALUES (43134,  21,       0) /* WeaponLength */
      , (43134,  22,    0.25) /* DamageVariance */
      , (43134,  26,       0) /* MaximumVelocity */
      , (43134,  29,       1) /* WeaponDefense */
-     , (43134,  39, 1.10000002384186) /* DefaultScale */
+     , (43134,  39,     1.1) /* DefaultScale */
      , (43134,  62,       1) /* WeaponOffense */
      , (43134,  63,       1) /* DamageMod */
-     , (43134,  76, 0.800000011920929) /* Translucency */
+     , (43134,  76,     0.8) /* Translucency */
      , (43134,  78,       1) /* Friction */
      , (43134,  79,       0) /* Elasticity */
      , (43134, 136,       1) /* CriticalMultiplier */

@@ -12,19 +12,13 @@ VALUES (14276,   1,      65536) /* ItemType - Portal */
      , (14276, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14276,   1, True ) /* Stuck */
-     , (14276,  12, True ) /* ReportCollisions */
-     , (14276,  13, True ) /* Ethereal */
-     , (14276,  14, True ) /* GravityStatus */
-     , (14276,  15, True ) /* LightsStatus */
-     , (14276,  19, True ) /* Attackable */;
+VALUES (14276,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14276,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14276,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14276,   1, 'Narsys Portal') /* Name */
-     , (14276,  38, 'Narsys Portal (15.8S, 72.9E).') /* AppraisalPortalDestination */
      , (14276, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

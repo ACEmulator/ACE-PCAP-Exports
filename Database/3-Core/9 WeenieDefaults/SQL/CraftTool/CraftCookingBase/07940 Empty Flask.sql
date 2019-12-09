@@ -12,21 +12,16 @@ VALUES (7940,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7940,  15,          1) /* StackUnitValue */
      , (7940,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (7940,  19,          1) /* Value */
-     , (7940,  65,        101) /* Placement - Resting */
      , (7940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7940,  94,    4194304) /* TargetType - CraftCookingBase */
      , (7940, 105,          7) /* ItemWorkmanship */
      , (7940, 131,         67) /* MaterialType - Granite */
      , (7940, 151,          1) /* HookType - Floor */
-     , (7940, 172,          1) /* AppraisalLongDescDecoration */;
+     , (7940, 172,          1) /* AppraisalLongDescDecoration */
+     , (7940, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7940,   1, False) /* Stuck */
-     , (7940,  11, True ) /* IgnoreCollisions */
-     , (7940,  13, True ) /* Ethereal */
-     , (7940,  14, True ) /* GravityStatus */
-     , (7940,  19, True ) /* Attackable */
-     , (7940,  22, True ) /* Inscribable */;
+VALUES (7940,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7940, 8004,       3) /* PCAPRecordedWorkmanship */;

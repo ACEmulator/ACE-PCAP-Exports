@@ -14,12 +14,7 @@ VALUES (7312,   1,          2) /* ItemType - Armor */
      , (7312,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7312,   1, False) /* Stuck */
-     , (7312,  11, True ) /* IgnoreCollisions */
-     , (7312,  13, True ) /* Ethereal */
-     , (7312,  14, True ) /* GravityStatus */
-     , (7312,  19, True ) /* Attackable */
-     , (7312,  22, True ) /* Inscribable */;
+VALUES (7312,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7312,  39,    0.75) /* DefaultScale */;

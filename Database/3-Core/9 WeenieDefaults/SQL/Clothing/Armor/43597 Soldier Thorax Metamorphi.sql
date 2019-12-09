@@ -10,16 +10,11 @@ VALUES (43597,   1,          2) /* ItemType - Armor */
      , (43597,   9,        512) /* ValidLocations - ChestArmor */
      , (43597,  16,          1) /* ItemUseable - No */
      , (43597,  19,       1300) /* Value */
-     , (43597,  65,        101) /* Placement - Resting */
-     , (43597,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43597,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43597, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43597,   1, False) /* Stuck */
-     , (43597,  11, True ) /* IgnoreCollisions */
-     , (43597,  13, True ) /* Ethereal */
-     , (43597,  14, True ) /* GravityStatus */
-     , (43597,  19, True ) /* Attackable */
-     , (43597,  22, True ) /* Inscribable */;
+VALUES (43597,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43597,   1, 'Soldier Thorax Metamorphi') /* Name */;

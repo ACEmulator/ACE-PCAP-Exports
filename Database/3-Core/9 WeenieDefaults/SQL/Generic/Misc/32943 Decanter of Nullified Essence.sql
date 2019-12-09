@@ -10,17 +10,12 @@ VALUES (32943,   1,        128) /* ItemType - Misc */
      , (32943,  18,          1) /* UiEffects - Magical */
      , (32943,  19,         20) /* Value */
      , (32943,  33,          0) /* Bonded - Normal */
-     , (32943,  65,        101) /* Placement - Resting */
      , (32943,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32943, 114,          0) /* Attuned - Normal */;
+     , (32943, 114,          0) /* Attuned - Normal */
+     , (32943, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32943,   1, False) /* Stuck */
-     , (32943,  11, True ) /* IgnoreCollisions */
-     , (32943,  13, True ) /* Ethereal */
-     , (32943,  14, True ) /* GravityStatus */
-     , (32943,  19, True ) /* Attackable */
-     , (32943,  22, True ) /* Inscribable */;
+VALUES (32943,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32943,   1, 'Decanter of Nullified Essence') /* Name */

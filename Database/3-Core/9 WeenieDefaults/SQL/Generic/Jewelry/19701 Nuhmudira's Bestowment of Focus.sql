@@ -10,19 +10,14 @@ VALUES (19701,   1,          8) /* ItemType - Jewelry */
      , (19701,  16,          1) /* ItemUseable - No */
      , (19701,  18,          1) /* UiEffects - Magical */
      , (19701,  19,       5000) /* Value */
-     , (19701,  65,        101) /* Placement - Resting */
-     , (19701,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (19701,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19701, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19701,   1, False) /* Stuck */
-     , (19701,  11, True ) /* IgnoreCollisions */
-     , (19701,  13, True ) /* Ethereal */
-     , (19701,  14, True ) /* GravityStatus */
-     , (19701,  19, True ) /* Attackable */
-     , (19701,  22, True ) /* Inscribable */;
+VALUES (19701,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19701,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19701,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19701,   1, 'Nuhmudira''s Bestowment of Focus') /* Name */;

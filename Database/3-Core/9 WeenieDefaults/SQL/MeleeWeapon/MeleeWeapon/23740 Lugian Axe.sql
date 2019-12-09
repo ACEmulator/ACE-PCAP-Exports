@@ -11,21 +11,16 @@ VALUES (23740,   1,          1) /* ItemType - MeleeWeapon */
      , (23740,  16,          1) /* ItemUseable - No */
      , (23740,  19,        750) /* Value */
      , (23740,  51,          1) /* CombatUse - Melee */
-     , (23740,  65,          1) /* Placement - RightHandCombat */
      , (23740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23740, 151,          2) /* HookType - Wall */;
+     , (23740, 151,          2) /* HookType - Wall */
+     , (23740, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23740,   1, False) /* Stuck */
-     , (23740,  11, True ) /* IgnoreCollisions */
-     , (23740,  13, True ) /* Ethereal */
-     , (23740,  14, True ) /* GravityStatus */
-     , (23740,  19, True ) /* Attackable */
-     , (23740,  22, True ) /* Inscribable */;
+VALUES (23740,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23740,  39,       2) /* DefaultScale */
-     , (23740,  76, 0.699999988079071) /* Translucency */;
+     , (23740,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23740,   1, 'Lugian Axe') /* Name */;

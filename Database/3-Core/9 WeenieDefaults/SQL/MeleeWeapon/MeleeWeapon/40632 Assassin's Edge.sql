@@ -29,23 +29,18 @@ VALUES (40632,   1,          1) /* ItemType - MeleeWeapon */
      , (40632, 160,        370) /* WieldDifficulty */
      , (40632, 176,         44) /* AppraisalItemSkill */
      , (40632, 353,          6) /* WeaponType - Dagger */
-     , (40632, 8030,          0);
+     , (40632, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40632,   1, False) /* Stuck */
-     , (40632,  11, True ) /* IgnoreCollisions */
-     , (40632,  13, True ) /* Ethereal */
-     , (40632,  14, True ) /* GravityStatus */
-     , (40632,  19, True ) /* Attackable */
-     , (40632,  22, True ) /* Inscribable */;
+VALUES (40632,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40632,   5, -0.330000013113022) /* ManaRate */
+VALUES (40632,   5,   -0.33) /* ManaRate */
      , (40632,  21,       0) /* WeaponLength */
-     , (40632,  22, 0.899999976158142) /* DamageVariance */
+     , (40632,  22,     0.9) /* DamageVariance */
      , (40632,  26,       0) /* MaximumVelocity */
-     , (40632,  29, 1.10000002384186) /* WeaponDefense */
-     , (40632,  62, 1.20000004768372) /* WeaponOffense */
+     , (40632,  29,     1.1) /* WeaponDefense */
+     , (40632,  62,     1.2) /* WeaponOffense */
      , (40632,  63,       1) /* DamageMod */
      , (40632, 136,       1) /* CriticalMultiplier */
      , (40632, 147,       1) /* CriticalFrequency */;

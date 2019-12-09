@@ -18,15 +18,10 @@ VALUES (7403,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7403,   1, True ) /* Stuck */
-     , (7403,  11, True ) /* IgnoreCollisions */
-     , (7403,  12, True ) /* ReportCollisions */
-     , (7403,  13, False) /* Ethereal */
-     , (7403,  14, True ) /* GravityStatus */
-     , (7403,  19, False) /* Attackable */
-     , (7403,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (7403,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7403,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (7403,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7403,   1, 'Faladha the Emissary') /* Name */

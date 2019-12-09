@@ -9,17 +9,12 @@ VALUES (35808,   1,        128) /* ItemType - Misc */
      , (35808,  16,          1) /* ItemUseable - No */
      , (35808,  19,         10) /* Value */
      , (35808,  33,          1) /* Bonded - Bonded */
-     , (35808,  65,        101) /* Placement - Resting */
      , (35808,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35808, 114,          1) /* Attuned - Attuned */;
+     , (35808, 114,          1) /* Attuned - Attuned */
+     , (35808, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35808,   1, False) /* Stuck */
-     , (35808,  11, True ) /* IgnoreCollisions */
-     , (35808,  13, True ) /* Ethereal */
-     , (35808,  14, True ) /* GravityStatus */
-     , (35808,  19, True ) /* Attackable */
-     , (35808,  22, True ) /* Inscribable */;
+VALUES (35808,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35808,   1, 'Arbitrator''s Augmentation Token') /* Name */

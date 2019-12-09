@@ -15,11 +15,7 @@ VALUES (46428,   1,         16) /* ItemType - Creature */
      , (46428, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46428,   1, True ) /* Stuck */
-     , (46428,  12, True ) /* ReportCollisions */
-     , (46428,  13, False) /* Ethereal */
-     , (46428,  14, True ) /* GravityStatus */
-     , (46428,  19, True ) /* Attackable */;
+VALUES (46428,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46428,   1, 'Ronin Shimakawa') /* Name */

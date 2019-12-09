@@ -9,20 +9,15 @@ VALUES (31426,   1,        128) /* ItemType - Misc */
      , (31426,  16,          1) /* ItemUseable - No */
      , (31426,  19,          0) /* Value */
      , (31426,  33,          1) /* Bonded - Bonded */
-     , (31426,  65,        101) /* Placement - Resting */
      , (31426,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31426, 114,          1) /* Attuned - Attuned */;
+     , (31426, 114,          1) /* Attuned - Attuned */
+     , (31426, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31426,   1, False) /* Stuck */
-     , (31426,  11, True ) /* IgnoreCollisions */
-     , (31426,  13, True ) /* Ethereal */
-     , (31426,  14, True ) /* GravityStatus */
-     , (31426,  19, True ) /* Attackable */
-     , (31426,  22, True ) /* Inscribable */;
+VALUES (31426,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31426,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (31426,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31426,   1, 'Untranslated Dreams of Salt and Ash') /* Name */

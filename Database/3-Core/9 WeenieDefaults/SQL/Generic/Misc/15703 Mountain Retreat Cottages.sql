@@ -11,12 +11,7 @@ VALUES (15703,   1,        128) /* ItemType - Misc */
      , (15703,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15703,   1, True ) /* Stuck */
-     , (15703,  11, True ) /* IgnoreCollisions */
-     , (15703,  12, True ) /* ReportCollisions */
-     , (15703,  13, False) /* Ethereal */
-     , (15703,  14, True ) /* GravityStatus */
-     , (15703,  19, True ) /* Attackable */;
+VALUES (15703,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15703,   1, 'Mountain Retreat Cottages') /* Name */;

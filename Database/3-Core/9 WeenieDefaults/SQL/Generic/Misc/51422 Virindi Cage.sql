@@ -8,16 +8,11 @@ VALUES (51422,   1,        128) /* ItemType - Misc */
      , (51422,   5,        800) /* EncumbranceVal */
      , (51422,  16,         32) /* ItemUseable - Remote */
      , (51422,  19,       1000) /* Value */
-     , (51422,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (51422,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51422, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51422,   1, False) /* Stuck */
-     , (51422,  11, True ) /* IgnoreCollisions */
-     , (51422,  13, True ) /* Ethereal */
-     , (51422,  14, True ) /* GravityStatus */
-     , (51422,  19, True ) /* Attackable */
-     , (51422,  22, True ) /* Inscribable */;
+VALUES (51422,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51422,   1, 'Virindi Cage') /* Name */

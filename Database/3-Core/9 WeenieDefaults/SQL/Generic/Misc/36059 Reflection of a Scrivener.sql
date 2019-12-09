@@ -8,16 +8,11 @@ VALUES (36059,   1,        128) /* ItemType - Misc */
      , (36059,   5,          1) /* EncumbranceVal */
      , (36059,  16,          1) /* ItemUseable - No */
      , (36059,  18,         64) /* UiEffects - Lightning */
-     , (36059,  65,        101) /* Placement - Resting */
-     , (36059,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36059,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36059, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36059,   1, False) /* Stuck */
-     , (36059,  11, True ) /* IgnoreCollisions */
-     , (36059,  13, True ) /* Ethereal */
-     , (36059,  14, True ) /* GravityStatus */
-     , (36059,  19, True ) /* Attackable */
-     , (36059,  22, True ) /* Inscribable */;
+VALUES (36059,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36059,   1, 'Reflection of a Scrivener') /* Name */;

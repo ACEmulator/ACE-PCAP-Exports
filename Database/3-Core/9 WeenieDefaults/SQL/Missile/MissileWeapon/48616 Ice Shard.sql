@@ -27,20 +27,12 @@ VALUES (48616,   1,        256) /* ItemType - MissileWeapon */
      , (48616, 314,          0) /* CritDamageRating */
      , (48616, 353,         10) /* WeaponType - Thrown */
      , (48616, 386,          0) /* Overpower */
-     , (48616, 8030,          0);
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48616,   1, False) /* Stuck */
-     , (48616,  11, True ) /* IgnoreCollisions */
-     , (48616,  13, True ) /* Ethereal */
-     , (48616,  14, True ) /* GravityStatus */
-     , (48616,  17, True ) /* Inelastic */
-     , (48616,  19, True ) /* Attackable */;
+     , (48616, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48616,  21,       0) /* WeaponLength */
      , (48616,  22,     0.5) /* DamageVariance */
-     , (48616,  26, 23.2000007629395) /* MaximumVelocity */
+     , (48616,  26,    23.2) /* MaximumVelocity */
      , (48616,  29,       1) /* WeaponDefense */
      , (48616,  62,       1) /* WeaponOffense */
      , (48616,  63,       1) /* DamageMod */

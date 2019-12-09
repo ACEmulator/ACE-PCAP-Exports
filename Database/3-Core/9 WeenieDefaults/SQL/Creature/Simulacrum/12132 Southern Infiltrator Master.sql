@@ -17,11 +17,7 @@ VALUES (12132,   1,         16) /* ItemType - Creature */
      , (12132, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12132,   1, True ) /* Stuck */
-     , (12132,  12, True ) /* ReportCollisions */
-     , (12132,  13, False) /* Ethereal */
-     , (12132,  14, True ) /* GravityStatus */
-     , (12132,  19, True ) /* Attackable */;
+VALUES (12132,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12132,   1, 'Southern Infiltrator Master') /* Name */

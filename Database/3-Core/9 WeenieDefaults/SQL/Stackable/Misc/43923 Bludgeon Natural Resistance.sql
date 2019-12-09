@@ -14,15 +14,8 @@ VALUES (43923,   1,        128) /* ItemType - Misc */
      , (43923,  19,          1) /* Value */
      , (43923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43923,   1, False) /* Stuck */
-     , (43923,  11, True ) /* IgnoreCollisions */
-     , (43923,  13, True ) /* Ethereal */
-     , (43923,  14, True ) /* GravityStatus */
-     , (43923,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43923,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (43923,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43923,   1, 'Bludgeon Natural Resistance') /* Name */;

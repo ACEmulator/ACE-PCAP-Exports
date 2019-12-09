@@ -8,15 +8,11 @@ VALUES (5073,   1,        128) /* ItemType - Misc */
      , (5073,   5,       9000) /* EncumbranceVal */
      , (5073,  16,          1) /* ItemUseable - No */
      , (5073,  19,        125) /* Value */
-     , (5073,  65,        101) /* Placement - Resting */
-     , (5073,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5073,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5073, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5073,   1, True ) /* Stuck */
-     , (5073,  11, True ) /* IgnoreCollisions */
-     , (5073,  12, True ) /* ReportCollisions */
-     , (5073,  13, False) /* Ethereal */
-     , (5073,  19, True ) /* Attackable */;
+VALUES (5073,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5073,   1, 'North Nanto Outpost') /* Name */

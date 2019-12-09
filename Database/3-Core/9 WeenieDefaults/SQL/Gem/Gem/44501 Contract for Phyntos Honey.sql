@@ -12,19 +12,13 @@ VALUES (44501,   1,       2048) /* ItemType - Gem */
      , (44501,  16,          8) /* ItemUseable - Contained */
      , (44501,  18,          2) /* UiEffects - Poisoned */
      , (44501,  19,        100) /* Value */
-     , (44501,  65,        101) /* Placement - Resting */
      , (44501,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44501,  94,         16) /* TargetType - Creature */
-     , (44501, 280,        100) /* SharedCooldown */;
+     , (44501, 280,        100) /* SharedCooldown */
+     , (44501, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44501,   1, False) /* Stuck */
-     , (44501,  11, True ) /* IgnoreCollisions */
-     , (44501,  13, True ) /* Ethereal */
-     , (44501,  14, True ) /* GravityStatus */
-     , (44501,  15, True ) /* LightsStatus */
-     , (44501,  19, True ) /* Attackable */
-     , (44501,  22, True ) /* Inscribable */;
+VALUES (44501,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44501, 167,       2) /* CooldownDuration */;

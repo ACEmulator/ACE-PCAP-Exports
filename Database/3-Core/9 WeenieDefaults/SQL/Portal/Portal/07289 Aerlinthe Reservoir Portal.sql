@@ -12,19 +12,13 @@ VALUES (7289,   1,      65536) /* ItemType - Portal */
      , (7289, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7289,   1, True ) /* Stuck */
-     , (7289,  12, True ) /* ReportCollisions */
-     , (7289,  13, True ) /* Ethereal */
-     , (7289,  14, True ) /* GravityStatus */
-     , (7289,  15, True ) /* LightsStatus */
-     , (7289,  19, True ) /* Attackable */;
+VALUES (7289,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7289,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7289,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7289,   1, 'Aerlinthe Reservoir Portal') /* Name */
-     , (7289,  38, 'Aerlinthe Reservoir Portal') /* AppraisalPortalDestination */;
+VALUES (7289,   1, 'Aerlinthe Reservoir Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7289,   1,   33556677) /* Setup */

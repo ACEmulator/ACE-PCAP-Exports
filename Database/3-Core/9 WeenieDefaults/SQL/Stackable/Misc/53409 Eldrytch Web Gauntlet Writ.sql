@@ -14,15 +14,8 @@ VALUES (53409,   1,        128) /* ItemType - Misc */
      , (53409,  19,         10) /* Value */
      , (53409,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53409,   1, False) /* Stuck */
-     , (53409,  11, True ) /* IgnoreCollisions */
-     , (53409,  13, True ) /* Ethereal */
-     , (53409,  14, True ) /* GravityStatus */
-     , (53409,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53409,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (53409,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53409,   1, 'Eldrytch Web Gauntlet Writ') /* Name */;

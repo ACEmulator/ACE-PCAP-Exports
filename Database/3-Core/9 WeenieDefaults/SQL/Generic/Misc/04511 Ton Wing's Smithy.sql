@@ -8,20 +8,15 @@ VALUES (4511,   1,        128) /* ItemType - Misc */
      , (4511,   5,       9000) /* EncumbranceVal */
      , (4511,  16,          1) /* ItemUseable - No */
      , (4511,  19,        125) /* Value */
-     , (4511,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4511,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4511,   1, True ) /* Stuck */
-     , (4511,  11, True ) /* IgnoreCollisions */
-     , (4511,  12, True ) /* ReportCollisions */
-     , (4511,  13, False) /* Ethereal */
-     , (4511,  14, True ) /* GravityStatus */
-     , (4511,  19, True ) /* Attackable */;
+VALUES (4511,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4511, 8010,       0) /* PCAPRecordedVelocityX */
      , (4511, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4511, 8012, -1.01281988620758) /* PCAPRecordedVelocityZ */;
+     , (4511, 8012,   -1.01) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4511,   1, 'Ton Wing''s Smithy') /* Name */

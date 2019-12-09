@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44824,   1,        128) /* ItemType - Misc */
      , (44824,   5,         10) /* EncumbranceVal */
      , (44824,  16,          1) /* ItemUseable - No */
-     , (44824,  65,        101) /* Placement - Resting */
-     , (44824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44824, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44824,   1, False) /* Stuck */
-     , (44824,  11, True ) /* IgnoreCollisions */
-     , (44824,  13, True ) /* Ethereal */
-     , (44824,  14, True ) /* GravityStatus */
-     , (44824,  19, True ) /* Attackable */
-     , (44824,  22, True ) /* Inscribable */;
+VALUES (44824,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44824,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (44824,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44824,   1, 'Attunement Device Bolt') /* Name */;

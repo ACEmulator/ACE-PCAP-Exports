@@ -9,20 +9,15 @@ VALUES (39016,   1,      16384) /* ItemType - Key */
      , (39016,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (39016,  19,          0) /* Value */
      , (39016,  33,          1) /* Bonded - Bonded */
-     , (39016,  65,        101) /* Placement - Resting */
      , (39016,  91,          1) /* MaxStructure */
      , (39016,  92,          1) /* Structure */
      , (39016,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39016,  94,        640) /* TargetType - LockableMagicTarget */
-     , (39016, 114,          1) /* Attuned - Attuned */;
+     , (39016, 114,          1) /* Attuned - Attuned */
+     , (39016, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39016,   1, False) /* Stuck */
-     , (39016,  11, True ) /* IgnoreCollisions */
-     , (39016,  13, True ) /* Ethereal */
-     , (39016,  14, True ) /* GravityStatus */
-     , (39016,  19, True ) /* Attackable */
-     , (39016,  22, True ) /* Inscribable */;
+VALUES (39016,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39016,   1, 'Putrid Sea Invasion Key') /* Name */

@@ -12,19 +12,13 @@ VALUES (12507,   1,      65536) /* ItemType - Portal */
      , (12507, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12507,   1, True ) /* Stuck */
-     , (12507,  12, True ) /* ReportCollisions */
-     , (12507,  13, True ) /* Ethereal */
-     , (12507,  14, True ) /* GravityStatus */
-     , (12507,  15, True ) /* LightsStatus */
-     , (12507,  19, True ) /* Attackable */;
+VALUES (12507,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12507,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12507,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12507,   1, 'Janaa Ridge Settlement Portal') /* Name */
-     , (12507,  38, 'Janaa Ridge Settlement Portal (7.0S, 22.3E).') /* AppraisalPortalDestination */
      , (12507, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

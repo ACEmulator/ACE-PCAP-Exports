@@ -12,17 +12,12 @@ VALUES (51914,   1,       2048) /* ItemType - Gem */
      , (51914,  15,         50) /* StackUnitValue */
      , (51914,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51914,  19,         50) /* Value */
-     , (51914,  65,        101) /* Placement - Resting */
      , (51914,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51914,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (51914,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (51914, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51914,   1, False) /* Stuck */
-     , (51914,  11, True ) /* IgnoreCollisions */
-     , (51914,  13, True ) /* Ethereal */
-     , (51914,  14, True ) /* GravityStatus */
-     , (51914,  19, True ) /* Attackable */
-     , (51914,  22, True ) /* Inscribable */;
+VALUES (51914,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51914,   1, 'Damaged Shadow Blade') /* Name */

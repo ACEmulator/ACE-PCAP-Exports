@@ -12,7 +12,6 @@ VALUES (46945,   1,      32768) /* ItemType - Caster */
      , (46945,  18,          1) /* UiEffects - Magical */
      , (46945,  19,       4000) /* Value */
      , (46945,  33,          1) /* Bonded - Bonded */
-     , (46945,  65,          1) /* Placement - RightHandCombat */
      , (46945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46945,  94,         16) /* TargetType - Creature */
      , (46945, 106,        450) /* ItemSpellcraft */
@@ -24,24 +23,20 @@ VALUES (46945,   1,      32768) /* ItemType - Caster */
      , (46945, 151,          2) /* HookType - Wall */
      , (46945, 158,          8) /* WieldRequirements - Training */
      , (46945, 159,         33) /* WieldSkillType - LifeMagic */
-     , (46945, 160,          2) /* WieldDifficulty */;
+     , (46945, 160,          2) /* WieldDifficulty */
+     , (46945, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46945,   1, False) /* Stuck */
-     , (46945,  11, True ) /* IgnoreCollisions */
-     , (46945,  13, True ) /* Ethereal */
-     , (46945,  14, True ) /* GravityStatus */
-     , (46945,  19, True ) /* Attackable */
-     , (46945,  22, True ) /* Inscribable */
+VALUES (46945,  22, True ) /* Inscribable */
      , (46945,  69, False) /* IsSellable */
      , (46945,  85, True ) /* AppraisalHasAllowedWielder */
      , (46945,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46945,   5,    -0.2) /* ManaRate */
-     , (46945,  29, 1.45000000298023) /* WeaponDefense */
-     , (46945, 144, 0.269999992847443) /* ManaConversionMod */
-     , (46945, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (46945,  29,    1.45) /* WeaponDefense */
+     , (46945, 144,    0.27) /* ManaConversionMod */
+     , (46945, 152,    1.08) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46945,   1, 'Modified Saulandoi') /* Name */

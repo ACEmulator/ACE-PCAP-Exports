@@ -15,12 +15,7 @@ VALUES (48613,   1,          1) /* ItemType - MeleeWeapon */
      , (48613, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48613,   1, False) /* Stuck */
-     , (48613,  11, True ) /* IgnoreCollisions */
-     , (48613,  13, True ) /* Ethereal */
-     , (48613,  14, True ) /* GravityStatus */
-     , (48613,  19, True ) /* Attackable */
-     , (48613,  22, True ) /* Inscribable */;
+VALUES (48613,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48613,   1, 'Glacial Blade') /* Name */;

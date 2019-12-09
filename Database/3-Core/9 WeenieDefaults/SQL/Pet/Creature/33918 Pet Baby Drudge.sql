@@ -18,14 +18,10 @@ VALUES (33918,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33918,   1, True ) /* Stuck */
-     , (33918,  11, True ) /* IgnoreCollisions */
-     , (33918,  13, True ) /* Ethereal */
-     , (33918,  14, True ) /* GravityStatus */
-     , (33918,  19, False) /* Attackable */
-     , (33918,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (33918,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33918,  39, 0.649999976158142) /* DefaultScale */;
+VALUES (33918,  39,    0.65) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33918,   1, 'Pet Baby Drudge') /* Name */

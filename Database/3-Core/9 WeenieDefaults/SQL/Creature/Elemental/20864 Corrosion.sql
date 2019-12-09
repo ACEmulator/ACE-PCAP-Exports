@@ -15,15 +15,10 @@ VALUES (20864,   1,         16) /* ItemType - Creature */
      , (20864, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20864,   1, True ) /* Stuck */
-     , (20864,  12, True ) /* ReportCollisions */
-     , (20864,  13, False) /* Ethereal */
-     , (20864,  14, True ) /* GravityStatus */
-     , (20864,  15, True ) /* LightsStatus */
-     , (20864,  19, True ) /* Attackable */;
+VALUES (20864,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20864,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (20864,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20864,   1, 'Corrosion') /* Name */

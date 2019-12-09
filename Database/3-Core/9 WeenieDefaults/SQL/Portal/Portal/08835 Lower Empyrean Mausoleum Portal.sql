@@ -13,19 +13,13 @@ VALUES (8835,   1,      65536) /* ItemType - Portal */
      , (8835, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8835,   1, True ) /* Stuck */
-     , (8835,  12, True ) /* ReportCollisions */
-     , (8835,  13, True ) /* Ethereal */
-     , (8835,  14, True ) /* GravityStatus */
-     , (8835,  15, True ) /* LightsStatus */
-     , (8835,  19, True ) /* Attackable */;
+VALUES (8835,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8835,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8835,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8835,   1, 'Lower Empyrean Mausoleum Portal') /* Name */
-     , (8835,  38, 'Lower Empyrean Mausoleum Portal') /* AppraisalPortalDestination */
      , (8835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

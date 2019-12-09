@@ -12,16 +12,9 @@ VALUES (37365,   1,        128) /* ItemType - Misc */
      , (37365,  15,      30000) /* StackUnitValue */
      , (37365,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37365,  19,      30000) /* Value */
-     , (37365,  65,        101) /* Placement - Resting */
      , (37365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37365,  94,       4224) /* TargetType - Misc, SpellComponents */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37365,   1, False) /* Stuck */
-     , (37365,  11, True ) /* IgnoreCollisions */
-     , (37365,  13, True ) /* Ethereal */
-     , (37365,  14, True ) /* GravityStatus */
-     , (37365,  19, True ) /* Attackable */;
+     , (37365,  94,       4224) /* TargetType - Misc, SpellComponents */
+     , (37365, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37365,   1, 'Quill of Benevolence') /* Name */

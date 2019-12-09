@@ -11,12 +11,7 @@ VALUES (15245,   1,        128) /* ItemType - Misc */
      , (15245,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15245,   1, True ) /* Stuck */
-     , (15245,  11, True ) /* IgnoreCollisions */
-     , (15245,  12, True ) /* ReportCollisions */
-     , (15245,  13, False) /* Ethereal */
-     , (15245,  14, True ) /* GravityStatus */
-     , (15245,  19, True ) /* Attackable */;
+VALUES (15245,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15245,   1, 'Northfire Estates') /* Name */

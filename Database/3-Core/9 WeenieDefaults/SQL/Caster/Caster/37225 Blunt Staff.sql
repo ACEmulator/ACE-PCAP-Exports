@@ -12,7 +12,6 @@ VALUES (37225,   1,      32768) /* ItemType - Caster */
      , (37225,  18,        512) /* UiEffects - Bludgeoning */
      , (37225,  19,      21247) /* Value */
      , (37225,  45,          4) /* DamageType - Bludgeon */
-     , (37225,  65,          1) /* Placement - RightHandCombat */
      , (37225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37225,  94,         16) /* TargetType - Creature */
      , (37225, 105,          9) /* ItemWorkmanship */
@@ -26,23 +25,19 @@ VALUES (37225,   1,      32768) /* ItemType - Caster */
      , (37225, 172,          7) /* AppraisalLongDescDecoration */
      , (37225, 177,          3) /* GemCount */
      , (37225, 178,         41) /* GemType */
-     , (37225, 179,         32) /* ImbuedEffect - BludgeonRending */;
+     , (37225, 179,         32) /* ImbuedEffect - BludgeonRending */
+     , (37225, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37225,   1, False) /* Stuck */
-     , (37225,  11, True ) /* IgnoreCollisions */
-     , (37225,  13, True ) /* Ethereal */
-     , (37225,  14, True ) /* GravityStatus */
-     , (37225,  19, True ) /* Attackable */
-     , (37225,  22, True ) /* Inscribable */
+VALUES (37225,  22, True ) /* Inscribable */
      , (37225,  85, True ) /* AppraisalHasAllowedWielder */
      , (37225,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37225,  29, 1.45000000298023) /* WeaponDefense */
-     , (37225,  39, 0.600000023841858) /* DefaultScale */
-     , (37225, 144, 0.143999992966652) /* ManaConversionMod */
-     , (37225, 152, 1.21999998390675) /* ElementalDamageMod */
+VALUES (37225,  29,    1.45) /* WeaponDefense */
+     , (37225,  39,     0.6) /* DefaultScale */
+     , (37225, 144,    0.14) /* ManaConversionMod */
+     , (37225, 152,    1.22) /* ElementalDamageMod */
      , (37225, 8004,       9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -8,17 +8,12 @@ VALUES (24853,   1,        128) /* ItemType - Misc */
      , (24853,   5,         10) /* EncumbranceVal */
      , (24853,  16,          1) /* ItemUseable - No */
      , (24853,  19,         10) /* Value */
-     , (24853,  65,        101) /* Placement - Resting */
      , (24853,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24853, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (24853, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (24853, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24853,   1, False) /* Stuck */
-     , (24853,  11, True ) /* IgnoreCollisions */
-     , (24853,  13, True ) /* Ethereal */
-     , (24853,  14, True ) /* GravityStatus */
-     , (24853,  19, True ) /* Attackable */
-     , (24853,  22, True ) /* Inscribable */;
+VALUES (24853,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24853,   1, 'Essence of a Phantasm') /* Name */;

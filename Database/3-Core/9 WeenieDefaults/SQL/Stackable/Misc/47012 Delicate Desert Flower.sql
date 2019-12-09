@@ -14,13 +14,6 @@ VALUES (47012,   1,        128) /* ItemType - Misc */
      , (47012,  19,          1) /* Value */
      , (47012,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47012,   1, False) /* Stuck */
-     , (47012,  11, True ) /* IgnoreCollisions */
-     , (47012,  13, True ) /* Ethereal */
-     , (47012,  14, True ) /* GravityStatus */
-     , (47012,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47012,  39,     0.5) /* DefaultScale */;
 

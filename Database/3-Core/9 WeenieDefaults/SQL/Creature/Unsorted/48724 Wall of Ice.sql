@@ -8,7 +8,7 @@ VALUES (48724,   1,         16) /* ItemType - Creature */
      , (48724,   6,        255) /* ItemsCapacity */
      , (48724,   7,        255) /* ContainersCapacity */
      , (48724,  16,          1) /* ItemUseable - No */
-     , (48724,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
+     , (48724,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (48724, 307,          0) /* DamageRating */
      , (48724, 308,          0) /* DamageResistRating */
      , (48724, 313,          0) /* CritRating */
@@ -37,9 +37,6 @@ VALUES (48724,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48724,   1, True ) /* Stuck */
-     , (48724,  12, True ) /* ReportCollisions */
-     , (48724,  13, False) /* Ethereal */
-     , (48724,  14, True ) /* GravityStatus */
      , (48724,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

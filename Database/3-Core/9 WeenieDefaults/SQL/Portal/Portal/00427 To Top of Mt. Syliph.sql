@@ -12,19 +12,13 @@ VALUES (427,   1,      65536) /* ItemType - Portal */
      , (427, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (427,   1, True ) /* Stuck */
-     , (427,  12, True ) /* ReportCollisions */
-     , (427,  13, True ) /* Ethereal */
-     , (427,  14, True ) /* GravityStatus */
-     , (427,  15, True ) /* LightsStatus */
-     , (427,  19, True ) /* Attackable */;
+VALUES (427,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (427,  54, -0.100000001490116) /* UseRadius */;
+VALUES (427,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (427,   1, 'To Top of Mt. Syliph') /* Name */
-     , (427,  38, 'To Top of Mt. Syliph (12.3N, 11.5E).') /* AppraisalPortalDestination */
      , (427, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

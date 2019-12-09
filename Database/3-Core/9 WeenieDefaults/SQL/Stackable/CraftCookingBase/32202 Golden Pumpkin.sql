@@ -12,16 +12,9 @@ VALUES (32202,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32202,  15,         10) /* StackUnitValue */
      , (32202,  16,          1) /* ItemUseable - No */
      , (32202,  19,         10) /* Value */
-     , (32202,  65,        101) /* Placement - Resting */
      , (32202,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32202, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32202,   1, False) /* Stuck */
-     , (32202,  11, True ) /* IgnoreCollisions */
-     , (32202,  13, True ) /* Ethereal */
-     , (32202,  14, True ) /* GravityStatus */
-     , (32202,  19, True ) /* Attackable */;
+     , (32202, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (32202, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32202,   1, 'Golden Pumpkin') /* Name */;

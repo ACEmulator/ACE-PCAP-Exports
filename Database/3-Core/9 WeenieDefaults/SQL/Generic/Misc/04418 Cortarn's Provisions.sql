@@ -8,15 +8,10 @@ VALUES (4418,   1,        128) /* ItemType - Misc */
      , (4418,   5,       9000) /* EncumbranceVal */
      , (4418,  16,          1) /* ItemUseable - No */
      , (4418,  19,        125) /* Value */
-     , (4418,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4418,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4418,   1, True ) /* Stuck */
-     , (4418,  11, True ) /* IgnoreCollisions */
-     , (4418,  12, True ) /* ReportCollisions */
-     , (4418,  13, False) /* Ethereal */
-     , (4418,  14, True ) /* GravityStatus */
-     , (4418,  19, True ) /* Attackable */;
+VALUES (4418,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4418,   1, 'Cortarn''s Provisions') /* Name */

@@ -16,15 +16,11 @@ VALUES (44629,   1,         16) /* ItemType - Creature */
      , (44629, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44629,   1, True ) /* Stuck */
-     , (44629,  12, True ) /* ReportCollisions */
-     , (44629,  13, False) /* Ethereal */
-     , (44629,  14, True ) /* GravityStatus */
-     , (44629,  19, True ) /* Attackable */;
+VALUES (44629,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44629,  39,      10) /* DefaultScale */
-     , (44629,  76, 0.800000011920929) /* Translucency */;
+     , (44629,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44629,   1, 'Shadow Vortex') /* Name */

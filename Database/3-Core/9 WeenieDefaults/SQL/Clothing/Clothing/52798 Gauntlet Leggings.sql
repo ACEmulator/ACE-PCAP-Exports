@@ -12,7 +12,6 @@ VALUES (52798,   1,          4) /* ItemType - Clothing */
      , (52798,  19,         20) /* Value */
      , (52798,  28,          0) /* ArmorLevel */
      , (52798,  33,          1) /* Bonded - Bonded */
-     , (52798,  65,        101) /* Placement - Resting */
      , (52798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52798, 106,        400) /* ItemSpellcraft */
      , (52798, 107,       4000) /* ItemCurMana */
@@ -22,15 +21,11 @@ VALUES (52798,   1,          4) /* ItemType - Clothing */
      , (52798, 158,          7) /* WieldRequirements - Level */
      , (52798, 159,          1) /* WieldSkillType - Axe */
      , (52798, 160,        180) /* WieldDifficulty */
-     , (52798, 265,        137) /* EquipmentSetId - GauntletGarb */;
+     , (52798, 265,        137) /* EquipmentSetId - GauntletGarb */
+     , (52798, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52798,   1, False) /* Stuck */
-     , (52798,  11, True ) /* IgnoreCollisions */
-     , (52798,  13, True ) /* Ethereal */
-     , (52798,  14, True ) /* GravityStatus */
-     , (52798,  19, True ) /* Attackable */
-     , (52798,  22, True ) /* Inscribable */
+VALUES (52798,  22, True ) /* Inscribable */
      , (52798,  69, False) /* IsSellable */
      , (52798,  99, True ) /* Ivoryable */
      , (52798, 100, True ) /* Dyable */;

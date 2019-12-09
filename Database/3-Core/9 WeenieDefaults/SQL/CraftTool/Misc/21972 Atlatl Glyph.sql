@@ -12,21 +12,16 @@ VALUES (21972,   1,        128) /* ItemType - Misc */
      , (21972,  15,       5000) /* StackUnitValue */
      , (21972,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21972,  19,       5000) /* Value */
-     , (21972,  65,        101) /* Placement - Resting */
      , (21972,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21972,  94,        128) /* TargetType - Misc */
-     , (21972, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (21972, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (21972, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21972,   1, False) /* Stuck */
-     , (21972,  11, True ) /* IgnoreCollisions */
-     , (21972,  13, True ) /* Ethereal */
-     , (21972,  14, True ) /* GravityStatus */
-     , (21972,  19, True ) /* Attackable */
-     , (21972,  22, True ) /* Inscribable */;
+VALUES (21972,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21972,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (21972,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21972,   1, 'Atlatl Glyph') /* Name */;

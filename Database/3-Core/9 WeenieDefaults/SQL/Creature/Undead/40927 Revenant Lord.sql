@@ -16,14 +16,10 @@ VALUES (40927,   1,         16) /* ItemType - Creature */
      , (40927, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40927,   1, True ) /* Stuck */
-     , (40927,  12, True ) /* ReportCollisions */
-     , (40927,  13, False) /* Ethereal */
-     , (40927,  14, True ) /* GravityStatus */
-     , (40927,  19, True ) /* Attackable */;
+VALUES (40927,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40927,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (40927,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40927,   1, 'Revenant Lord') /* Name */

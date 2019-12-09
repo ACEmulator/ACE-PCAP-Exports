@@ -8,19 +8,14 @@ VALUES (24836,   1,        128) /* ItemType - Misc */
      , (24836,   5,         40) /* EncumbranceVal */
      , (24836,  16,          1) /* ItemUseable - No */
      , (24836,  19,          5) /* Value */
-     , (24836,  65,        101) /* Placement - Resting */
-     , (24836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (24836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24836, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24836,   1, False) /* Stuck */
-     , (24836,  11, True ) /* IgnoreCollisions */
-     , (24836,  13, True ) /* Ethereal */
-     , (24836,  14, True ) /* GravityStatus */
-     , (24836,  19, True ) /* Attackable */
-     , (24836,  22, True ) /* Inscribable */;
+VALUES (24836,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24836,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (24836,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24836,   1, 'Cabalist Drudge Charm') /* Name */;

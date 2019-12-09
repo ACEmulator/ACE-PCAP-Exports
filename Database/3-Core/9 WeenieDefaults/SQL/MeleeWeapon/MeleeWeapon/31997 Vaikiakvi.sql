@@ -11,16 +11,11 @@ VALUES (31997,   1,          1) /* ItemType - MeleeWeapon */
      , (31997,  16,          1) /* ItemUseable - No */
      , (31997,  18,         64) /* UiEffects - Lightning */
      , (31997,  51,          1) /* CombatUse - Melee */
-     , (31997,  65,          1) /* Placement - RightHandCombat */
-     , (31997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31997, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31997,   1, False) /* Stuck */
-     , (31997,  11, True ) /* IgnoreCollisions */
-     , (31997,  13, True ) /* Ethereal */
-     , (31997,  14, True ) /* GravityStatus */
-     , (31997,  19, True ) /* Attackable */
-     , (31997,  22, True ) /* Inscribable */;
+VALUES (31997,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31997,   1, 'Vaikiakvi') /* Name */;

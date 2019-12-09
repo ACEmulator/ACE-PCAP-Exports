@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22357,   1,       2048) /* ItemType - Gem */
      , (22357,   5,         10) /* EncumbranceVal */
      , (22357,  16,          8) /* ItemUseable - Contained */
-     , (22357,  65,        101) /* Placement - Resting */
-     , (22357,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22357,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22357, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22357,   1, False) /* Stuck */
-     , (22357,  11, True ) /* IgnoreCollisions */
-     , (22357,  13, True ) /* Ethereal */
-     , (22357,  14, True ) /* GravityStatus */
-     , (22357,  19, True ) /* Attackable */
-     , (22357,  22, True ) /* Inscribable */;
+VALUES (22357,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22357,   1, 'Creature Enchantment Gem of Enlightenment') /* Name */;

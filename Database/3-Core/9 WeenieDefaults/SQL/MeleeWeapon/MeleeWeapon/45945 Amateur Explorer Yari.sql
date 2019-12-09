@@ -11,17 +11,12 @@ VALUES (45945,   1,          1) /* ItemType - MeleeWeapon */
      , (45945,  16,          1) /* ItemUseable - No */
      , (45945,  19,        100) /* Value */
      , (45945,  51,          1) /* CombatUse - Melee */
-     , (45945,  65,          1) /* Placement - RightHandCombat */
      , (45945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45945, 151,          2) /* HookType - Wall */;
+     , (45945, 151,          2) /* HookType - Wall */
+     , (45945, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45945,   1, False) /* Stuck */
-     , (45945,  11, True ) /* IgnoreCollisions */
-     , (45945,  13, True ) /* Ethereal */
-     , (45945,  14, True ) /* GravityStatus */
-     , (45945,  19, True ) /* Attackable */
-     , (45945,  22, True ) /* Inscribable */;
+VALUES (45945,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45945,   1, 'Amateur Explorer Yari') /* Name */;

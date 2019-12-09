@@ -15,16 +15,11 @@ VALUES (45463,   1,          1) /* ItemType - MeleeWeapon */
      , (45463, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45463,   1, False) /* Stuck */
-     , (45463,  11, True ) /* IgnoreCollisions */
-     , (45463,  13, True ) /* Ethereal */
-     , (45463,  14, True ) /* GravityStatus */
-     , (45463,  19, True ) /* Attackable */
-     , (45463,  22, True ) /* Inscribable */
+VALUES (45463,  22, True ) /* Inscribable */
      , (45463,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45463,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (45463,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45463,   1, 'Desert Wyrm') /* Name */;

@@ -18,12 +18,7 @@ VALUES (38413,   1,         64) /* ItemType - Money */
      , (38413, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38413,   1, False) /* Stuck */
-     , (38413,  11, True ) /* IgnoreCollisions */
-     , (38413,  13, True ) /* Ethereal */
-     , (38413,  14, True ) /* GravityStatus */
-     , (38413,  19, True ) /* Attackable */
-     , (38413,  69, False) /* IsSellable */
+VALUES (38413,  69, False) /* IsSellable */
      , (38413,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

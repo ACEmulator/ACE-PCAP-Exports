@@ -12,19 +12,14 @@ VALUES (2460,   1,        128) /* ItemType - Misc */
      , (2460,  15,         85) /* StackUnitValue */
      , (2460,  16,          8) /* ItemUseable - Contained */
      , (2460,  19,         85) /* Value */
-     , (2460,  65,        101) /* Placement - Resting */
      , (2460,  89,          6) /* BoosterEnum - Mana */
      , (2460,  90,         10) /* BoostValue */
      , (2460,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2460, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (2460, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (2460, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2460,   1, False) /* Stuck */
-     , (2460,  11, True ) /* IgnoreCollisions */
-     , (2460,  13, True ) /* Ethereal */
-     , (2460,  14, True ) /* GravityStatus */
-     , (2460,  19, True ) /* Attackable */
-     , (2460,  69, False) /* IsSellable */;
+VALUES (2460,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2460,   1, 'Mana Draught') /* Name */

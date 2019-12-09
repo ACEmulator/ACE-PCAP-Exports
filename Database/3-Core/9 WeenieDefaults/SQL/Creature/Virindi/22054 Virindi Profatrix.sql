@@ -15,11 +15,7 @@ VALUES (22054,   1,         16) /* ItemType - Creature */
      , (22054, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22054,   1, True ) /* Stuck */
-     , (22054,  12, True ) /* ReportCollisions */
-     , (22054,  13, False) /* Ethereal */
-     , (22054,  14, True ) /* GravityStatus */
-     , (22054,  19, True ) /* Attackable */;
+VALUES (22054,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22054,   1, 'Virindi Profatrix') /* Name */

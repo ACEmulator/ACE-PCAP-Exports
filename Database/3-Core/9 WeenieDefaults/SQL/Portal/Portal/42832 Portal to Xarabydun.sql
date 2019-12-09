@@ -12,20 +12,14 @@ VALUES (42832,   1,      65536) /* ItemType - Portal */
      , (42832, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42832,   1, True ) /* Stuck */
-     , (42832,  12, True ) /* ReportCollisions */
-     , (42832,  13, True ) /* Ethereal */
-     , (42832,  14, True ) /* GravityStatus */
-     , (42832,  15, True ) /* LightsStatus */
-     , (42832,  19, True ) /* Attackable */;
+VALUES (42832,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42832,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42832,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42832,   1, 'Portal to Xarabydun') /* Name */
      , (42832,  16, 'This portal goes to the town of Xarabydun, in the southern reaches of the A''mun desert. This is a good town for characters over level 10, but be careful --  the surrounding area can be a bit rough.') /* LongDesc */
-     , (42832,  38, 'Portal to Xarabydun (41.9S, 16.1E).') /* AppraisalPortalDestination */
      , (42832, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

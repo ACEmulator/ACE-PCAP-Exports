@@ -12,17 +12,12 @@ VALUES (46073,   1,          1) /* ItemType - MeleeWeapon */
      , (46073,  18,          1) /* UiEffects - Magical */
      , (46073,  19,       5000) /* Value */
      , (46073,  51,          1) /* CombatUse - Melee */
-     , (46073,  65,          1) /* Placement - RightHandCombat */
      , (46073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46073, 151,          2) /* HookType - Wall */;
+     , (46073, 151,          2) /* HookType - Wall */
+     , (46073, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46073,   1, False) /* Stuck */
-     , (46073,  11, True ) /* IgnoreCollisions */
-     , (46073,  13, True ) /* Ethereal */
-     , (46073,  14, True ) /* GravityStatus */
-     , (46073,  19, True ) /* Attackable */
-     , (46073,  22, True ) /* Inscribable */;
+VALUES (46073,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46073,   1, 'Major Shivering Atlan Mace') /* Name */;

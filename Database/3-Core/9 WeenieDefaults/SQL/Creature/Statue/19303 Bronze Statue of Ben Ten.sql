@@ -16,14 +16,10 @@ VALUES (19303,   1,         16) /* ItemType - Creature */
      , (19303, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19303,   1, True ) /* Stuck */
-     , (19303,  12, True ) /* ReportCollisions */
-     , (19303,  13, False) /* Ethereal */
-     , (19303,  14, True ) /* GravityStatus */
-     , (19303,  19, True ) /* Attackable */;
+VALUES (19303,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19303,  39, 2.29999995231628) /* DefaultScale */;
+VALUES (19303,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19303,   1, 'Bronze Statue of Ben Ten') /* Name */

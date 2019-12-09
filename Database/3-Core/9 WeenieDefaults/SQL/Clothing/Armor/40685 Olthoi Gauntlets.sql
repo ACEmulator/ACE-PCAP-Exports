@@ -12,7 +12,6 @@ VALUES (40685,   1,          2) /* ItemType - Armor */
      , (40685,  19,      21496) /* Value */
      , (40685,  28,        423) /* ArmorLevel */
      , (40685,  36,       9999) /* ResistMagic */
-     , (40685,  65,        101) /* Placement - Resting */
      , (40685,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40685, 105,          5) /* ItemWorkmanship */
      , (40685, 106,        370) /* ItemSpellcraft */
@@ -30,26 +29,22 @@ VALUES (40685,   1,          2) /* ItemType - Armor */
      , (40685, 178,         23) /* GemType */
      , (40685, 270,          7) /* WieldRequirements2 - Level */
      , (40685, 271,          1) /* WieldSkillType2 - Axe */
-     , (40685, 272,        150) /* WieldDifficulty2 */;
+     , (40685, 272,        150) /* WieldDifficulty2 */
+     , (40685, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40685,   1, False) /* Stuck */
-     , (40685,  11, True ) /* IgnoreCollisions */
-     , (40685,  13, True ) /* Ethereal */
-     , (40685,  14, True ) /* GravityStatus */
-     , (40685,  19, True ) /* Attackable */
-     , (40685,  22, True ) /* Inscribable */
+VALUES (40685,  22, True ) /* Inscribable */
      , (40685, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40685,   5, -0.0666666666666667) /* ManaRate */
-     , (40685,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (40685,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (40685,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (40685,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (40685,  17, 0.800000011920929) /* ArmorModVsFire */
-     , (40685,  18, 0.800000011920929) /* ArmorModVsAcid */
-     , (40685,  19, 1.20000004768372) /* ArmorModVsElectric */
+VALUES (40685,   5,   -0.07) /* ManaRate */
+     , (40685,  13,     1.3) /* ArmorModVsSlash */
+     , (40685,  14,     1.3) /* ArmorModVsPierce */
+     , (40685,  15,     1.4) /* ArmorModVsBludgeon */
+     , (40685,  16,     0.8) /* ArmorModVsCold */
+     , (40685,  17,     0.8) /* ArmorModVsFire */
+     , (40685,  18,     0.8) /* ArmorModVsAcid */
+     , (40685,  19,     1.2) /* ArmorModVsElectric */
      , (40685, 165,       1) /* ArmorModVsNether */
      , (40685, 8004,       5) /* PCAPRecordedWorkmanship */;
 

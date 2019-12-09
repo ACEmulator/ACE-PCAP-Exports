@@ -12,20 +12,15 @@ VALUES (36515,   1,        128) /* ItemType - Misc */
      , (36515,  15,          1) /* StackUnitValue */
      , (36515,  16,          8) /* ItemUseable - Contained */
      , (36515,  19,          1) /* Value */
-     , (36515,  65,        101) /* Placement - Resting */
      , (36515,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36515,  94,         16) /* TargetType - Creature */;
+     , (36515,  94,         16) /* TargetType - Creature */
+     , (36515, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36515,   1, False) /* Stuck */
-     , (36515,  11, True ) /* IgnoreCollisions */
-     , (36515,  13, True ) /* Ethereal */
-     , (36515,  14, True ) /* GravityStatus */
-     , (36515,  19, True ) /* Attackable */
-     , (36515,  22, True ) /* Inscribable */;
+VALUES (36515,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36515,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36515,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36515,   1, 'Wrapped Pyreal Sliver') /* Name */;

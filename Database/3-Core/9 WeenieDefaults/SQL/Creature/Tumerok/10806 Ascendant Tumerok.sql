@@ -16,14 +16,10 @@ VALUES (10806,   1,         16) /* ItemType - Creature */
      , (10806, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10806,   1, True ) /* Stuck */
-     , (10806,  12, True ) /* ReportCollisions */
-     , (10806,  13, False) /* Ethereal */
-     , (10806,  14, True ) /* GravityStatus */
-     , (10806,  19, True ) /* Attackable */;
+VALUES (10806,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10806,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (10806,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10806,   1, 'Ascendant Tumerok') /* Name */

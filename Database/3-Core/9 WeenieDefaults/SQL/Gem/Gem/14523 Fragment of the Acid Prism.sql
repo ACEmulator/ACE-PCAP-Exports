@@ -14,12 +14,7 @@ VALUES (14523,   1,       2048) /* ItemType - Gem */
      , (14523,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14523,   1, False) /* Stuck */
-     , (14523,  11, True ) /* IgnoreCollisions */
-     , (14523,  13, True ) /* Ethereal */
-     , (14523,  14, True ) /* GravityStatus */
-     , (14523,  19, True ) /* Attackable */
-     , (14523,  22, True ) /* Inscribable */;
+VALUES (14523,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14523,   1, 'Fragment of the Acid Prism') /* Name */;

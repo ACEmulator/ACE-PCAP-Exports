@@ -8,15 +8,11 @@ VALUES (5069,   1,        128) /* ItemType - Misc */
      , (5069,   5,       9000) /* EncumbranceVal */
      , (5069,  16,          1) /* ItemUseable - No */
      , (5069,  19,        125) /* Value */
-     , (5069,  65,        101) /* Placement - Resting */
-     , (5069,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5069,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5069, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5069,   1, True ) /* Stuck */
-     , (5069,  11, True ) /* IgnoreCollisions */
-     , (5069,  12, True ) /* ReportCollisions */
-     , (5069,  13, False) /* Ethereal */
-     , (5069,  19, True ) /* Attackable */;
+VALUES (5069,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5069,   1, 'West Holtburg Outpost') /* Name */

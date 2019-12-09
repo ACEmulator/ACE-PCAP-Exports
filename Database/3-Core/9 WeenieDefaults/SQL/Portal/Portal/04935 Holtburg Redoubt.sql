@@ -14,20 +14,14 @@ VALUES (4935,   1,      65536) /* ItemType - Portal */
      , (4935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4935,   1, True ) /* Stuck */
-     , (4935,  12, True ) /* ReportCollisions */
-     , (4935,  13, True ) /* Ethereal */
-     , (4935,  14, True ) /* GravityStatus */
-     , (4935,  15, True ) /* LightsStatus */
-     , (4935,  19, True ) /* Attackable */;
+VALUES (4935,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4935,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4935,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4935,   1, 'Holtburg Redoubt') /* Name */
      , (4935,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */
-     , (4935,  38, 'Holtburg Redoubt') /* AppraisalPortalDestination */
      , (4935, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

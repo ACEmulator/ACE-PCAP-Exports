@@ -12,19 +12,13 @@ VALUES (39409,   1,      65536) /* ItemType - Portal */
      , (39409, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39409,   1, True ) /* Stuck */
-     , (39409,  12, True ) /* ReportCollisions */
-     , (39409,  13, True ) /* Ethereal */
-     , (39409,  14, True ) /* GravityStatus */
-     , (39409,  15, True ) /* LightsStatus */
-     , (39409,  19, True ) /* Attackable */;
+VALUES (39409,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39409,  54, -0.100000001490116) /* UseRadius */;
+VALUES (39409,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39409,   1, 'Patriarch''s Valley') /* Name */
-     , (39409,  38, 'Patriarch''s Valley (58.5N, 10.3W).') /* AppraisalPortalDestination */
      , (39409, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

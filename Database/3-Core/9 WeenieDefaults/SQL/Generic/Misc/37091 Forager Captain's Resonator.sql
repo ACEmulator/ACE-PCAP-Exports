@@ -9,17 +9,12 @@ VALUES (37091,   1,        128) /* ItemType - Misc */
      , (37091,  16,          1) /* ItemUseable - No */
      , (37091,  19,          0) /* Value */
      , (37091,  33,          1) /* Bonded - Bonded */
-     , (37091,  65,        101) /* Placement - Resting */
      , (37091,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37091, 114,          1) /* Attuned - Attuned */;
+     , (37091, 114,          1) /* Attuned - Attuned */
+     , (37091, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37091,   1, False) /* Stuck */
-     , (37091,  11, True ) /* IgnoreCollisions */
-     , (37091,  13, True ) /* Ethereal */
-     , (37091,  14, True ) /* GravityStatus */
-     , (37091,  19, True ) /* Attackable */
-     , (37091,  22, True ) /* Inscribable */;
+VALUES (37091,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37091,   1, 'Forager Captain''s Resonator') /* Name */

@@ -16,11 +16,7 @@ VALUES (30901,   1,         16) /* ItemType - Creature */
      , (30901, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30901,   1, True ) /* Stuck */
-     , (30901,  12, True ) /* ReportCollisions */
-     , (30901,  13, False) /* Ethereal */
-     , (30901,  14, True ) /* GravityStatus */
-     , (30901,  19, True ) /* Attackable */;
+VALUES (30901,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30901,   1, 'Banished Lugian') /* Name */

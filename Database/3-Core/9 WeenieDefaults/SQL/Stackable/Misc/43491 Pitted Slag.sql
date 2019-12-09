@@ -13,16 +13,9 @@ VALUES (43491,   1,        128) /* ItemType - Misc */
      , (43491,  16,          1) /* ItemUseable - No */
      , (43491,  19,          0) /* Value */
      , (43491,  33,          1) /* Bonded - Bonded */
-     , (43491,  65,        101) /* Placement - Resting */
      , (43491,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43491, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43491,   1, False) /* Stuck */
-     , (43491,  11, True ) /* IgnoreCollisions */
-     , (43491,  13, True ) /* Ethereal */
-     , (43491,  14, True ) /* GravityStatus */
-     , (43491,  19, True ) /* Attackable */;
+     , (43491, 114,          1) /* Attuned - Attuned */
+     , (43491, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43491,   1, 'Pitted Slag') /* Name */

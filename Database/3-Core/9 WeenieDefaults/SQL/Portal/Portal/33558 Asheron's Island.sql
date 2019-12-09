@@ -12,19 +12,13 @@ VALUES (33558,   1,      65536) /* ItemType - Portal */
      , (33558, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33558,   1, True ) /* Stuck */
-     , (33558,  12, True ) /* ReportCollisions */
-     , (33558,  13, True ) /* Ethereal */
-     , (33558,  14, True ) /* GravityStatus */
-     , (33558,  15, True ) /* LightsStatus */
-     , (33558,  19, True ) /* Attackable */;
+VALUES (33558,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33558,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33558,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33558,   1, 'Asheron''s Island') /* Name */
-     , (33558,  38, 'Asheron''s Island (16.1N, 69.3E).') /* AppraisalPortalDestination */
      , (33558, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,16 +12,11 @@ VALUES (8699,   1,          2) /* ItemType - Armor */
      , (8699,  16,          1) /* ItemUseable - No */
      , (8699,  18,          1) /* UiEffects - Magical */
      , (8699,  19,          1) /* Value */
-     , (8699,  65,        101) /* Placement - Resting */
-     , (8699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (8699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8699, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8699,   1, False) /* Stuck */
-     , (8699,  11, True ) /* IgnoreCollisions */
-     , (8699,  13, True ) /* Ethereal */
-     , (8699,  14, True ) /* GravityStatus */
-     , (8699,  19, True ) /* Attackable */
-     , (8699,  22, True ) /* Inscribable */;
+VALUES (8699,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8699,   1, 'A Pair Of Society Leather Leggings') /* Name */;

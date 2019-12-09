@@ -11,12 +11,7 @@ VALUES (21479,   1,        128) /* ItemType - Misc */
      , (21479,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21479,   1, True ) /* Stuck */
-     , (21479,  11, True ) /* IgnoreCollisions */
-     , (21479,  12, True ) /* ReportCollisions */
-     , (21479,  13, False) /* Ethereal */
-     , (21479,  14, True ) /* GravityStatus */
-     , (21479,  19, True ) /* Attackable */;
+VALUES (21479,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21479,   1, 'Jojii Gardens') /* Name */;

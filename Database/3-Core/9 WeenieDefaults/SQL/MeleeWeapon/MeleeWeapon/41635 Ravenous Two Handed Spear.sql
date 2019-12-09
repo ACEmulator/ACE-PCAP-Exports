@@ -12,20 +12,14 @@ VALUES (41635,   1,          1) /* ItemType - MeleeWeapon */
      , (41635,  18,          1) /* UiEffects - Magical */
      , (41635,  19,       5000) /* Value */
      , (41635,  51,          5) /* CombatUse - TwoHanded */
-     , (41635,  65,          1) /* Placement - RightHandCombat */
-     , (41635,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (41635,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (41635, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41635,   1, False) /* Stuck */
-     , (41635,  11, True ) /* IgnoreCollisions */
-     , (41635,  13, True ) /* Ethereal */
-     , (41635,  14, True ) /* GravityStatus */
-     , (41635,  15, True ) /* LightsStatus */
-     , (41635,  19, True ) /* Attackable */
-     , (41635,  22, True ) /* Inscribable */;
+VALUES (41635,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41635,  76, 0.699999988079071) /* Translucency */;
+VALUES (41635,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41635,   1, 'Ravenous Two Handed Spear') /* Name */;

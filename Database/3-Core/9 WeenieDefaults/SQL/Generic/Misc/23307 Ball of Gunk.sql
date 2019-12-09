@@ -9,17 +9,12 @@ VALUES (23307,   1,        128) /* ItemType - Misc */
      , (23307,   9,   16777216) /* ValidLocations - Held */
      , (23307,  16,          1) /* ItemUseable - No */
      , (23307,  19,          5) /* Value */
-     , (23307,  65,        101) /* Placement - Resting */
      , (23307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23307, 151,          7) /* HookType - Floor, Wall, Ceiling */;
+     , (23307, 151,          7) /* HookType - Floor, Wall, Ceiling */
+     , (23307, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23307,   1, False) /* Stuck */
-     , (23307,  11, True ) /* IgnoreCollisions */
-     , (23307,  13, True ) /* Ethereal */
-     , (23307,  14, True ) /* GravityStatus */
-     , (23307,  19, True ) /* Attackable */
-     , (23307,  22, True ) /* Inscribable */;
+VALUES (23307,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23307,   1, 'Ball of Gunk') /* Name */

@@ -13,7 +13,6 @@ VALUES (40394,   1,      32768) /* ItemType - Caster */
      , (40394,  19,      20000) /* Value */
      , (40394,  33,          1) /* Bonded - Bonded */
      , (40394,  45,          2) /* DamageType - Pierce */
-     , (40394,  65,          1) /* Placement - RightHandCombat */
      , (40394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40394,  94,         16) /* TargetType - Creature */
      , (40394, 106,        250) /* ItemSpellcraft */
@@ -24,26 +23,22 @@ VALUES (40394,   1,      32768) /* ItemType - Caster */
      , (40394, 158,          2) /* WieldRequirements - RawSkill */
      , (40394, 159,         16) /* WieldSkillType - ManaConversion */
      , (40394, 160,        270) /* WieldDifficulty */
-     , (40394, 263,          2) /* ResistanceModifierType */;
+     , (40394, 263,          2) /* ResistanceModifierType */
+     , (40394, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40394,   1, False) /* Stuck */
-     , (40394,  11, True ) /* IgnoreCollisions */
-     , (40394,  13, True ) /* Ethereal */
-     , (40394,  14, True ) /* GravityStatus */
-     , (40394,  19, True ) /* Attackable */
-     , (40394,  22, True ) /* Inscribable */
+VALUES (40394,  22, True ) /* Inscribable */
      , (40394,  69, False) /* IsSellable */
      , (40394,  85, True ) /* AppraisalHasAllowedWielder */
      , (40394,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40394,   5, -0.033333) /* ManaRate */
-     , (40394,  29, 1.29000000178814) /* WeaponDefense */
+VALUES (40394,   5,   -0.03) /* ManaRate */
+     , (40394,  29,    1.29) /* WeaponDefense */
      , (40394, 136,       1) /* CriticalMultiplier */
-     , (40394, 144, 0.255000007152557) /* ManaConversionMod */
-     , (40394, 150,   1.025) /* WeaponMagicDefense */
-     , (40394, 152, 1.17000000029802) /* ElementalDamageMod */
+     , (40394, 144,    0.26) /* ManaConversionMod */
+     , (40394, 150,    1.02) /* WeaponMagicDefense */
+     , (40394, 152,    1.17) /* ElementalDamageMod */
      , (40394, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -15,14 +15,10 @@ VALUES (30837,   1,         16) /* ItemType - Creature */
      , (30837, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30837,   1, True ) /* Stuck */
-     , (30837,  12, True ) /* ReportCollisions */
-     , (30837,  13, False) /* Ethereal */
-     , (30837,  14, True ) /* GravityStatus */
-     , (30837,  19, True ) /* Attackable */;
+VALUES (30837,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30837,  76, 0.200000002980232) /* Translucency */;
+VALUES (30837,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30837,   1, 'Shadow Infiltrator') /* Name */

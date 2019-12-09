@@ -13,19 +13,13 @@ VALUES (51569,   1,      65536) /* ItemType - Portal */
      , (51569, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51569,   1, True ) /* Stuck */
-     , (51569,  12, True ) /* ReportCollisions */
-     , (51569,  13, True ) /* Ethereal */
-     , (51569,  14, True ) /* GravityStatus */
-     , (51569,  15, True ) /* LightsStatus */
-     , (51569,  19, True ) /* Attackable */;
+VALUES (51569,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51569,  54, -0.100000001490116) /* UseRadius */;
+VALUES (51569,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51569,   1, 'Seed of Misery') /* Name */
-     , (51569,  38, 'Seed of Misery') /* AppraisalPortalDestination */
      , (51569, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

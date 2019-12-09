@@ -8,18 +8,11 @@ VALUES (43184,   1,       8192) /* ItemType - Writable */
      , (43184,   5,        460) /* EncumbranceVal */
      , (43184,  16,          8) /* ItemUseable - Contained */
      , (43184,  19,         15) /* Value */
-     , (43184,  65,        101) /* Placement - Resting */
-     , (43184,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43184,   1, False) /* Stuck */
-     , (43184,  11, True ) /* IgnoreCollisions */
-     , (43184,  13, True ) /* Ethereal */
-     , (43184,  14, True ) /* GravityStatus */
-     , (43184,  19, True ) /* Attackable */;
+     , (43184,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43184, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43184,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (43184,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43184,   1, 'Innate Ability Switching') /* Name */;

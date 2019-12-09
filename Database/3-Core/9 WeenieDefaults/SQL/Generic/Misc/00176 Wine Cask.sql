@@ -8,19 +8,14 @@ VALUES (176,   1,        128) /* ItemType - Misc */
      , (176,   5,       6000) /* EncumbranceVal */
      , (176,  16,          1) /* ItemUseable - No */
      , (176,  19,        200) /* Value */
-     , (176,  65,        101) /* Placement - Resting */
-     , (176,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (176,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (176, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (176,   1, True ) /* Stuck */
-     , (176,  11, True ) /* IgnoreCollisions */
-     , (176,  12, True ) /* ReportCollisions */
-     , (176,  13, False) /* Ethereal */
-     , (176,  14, True ) /* GravityStatus */
-     , (176,  19, True ) /* Attackable */;
+VALUES (176,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (176,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (176,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (176,   1, 'Wine Cask') /* Name */;

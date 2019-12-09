@@ -9,17 +9,12 @@ VALUES (36927,   1,        128) /* ItemType - Misc */
      , (36927,  16,          1) /* ItemUseable - No */
      , (36927,  19,          0) /* Value */
      , (36927,  33,          1) /* Bonded - Bonded */
-     , (36927,  65,        101) /* Placement - Resting */
      , (36927,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36927, 114,          1) /* Attuned - Attuned */;
+     , (36927, 114,          1) /* Attuned - Attuned */
+     , (36927, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36927,   1, False) /* Stuck */
-     , (36927,  11, True ) /* IgnoreCollisions */
-     , (36927,  13, True ) /* Ethereal */
-     , (36927,  14, True ) /* GravityStatus */
-     , (36927,  19, True ) /* Attackable */
-     , (36927,  22, True ) /* Inscribable */;
+VALUES (36927,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36927,   1, 'Claw of the Hopeslayer') /* Name */

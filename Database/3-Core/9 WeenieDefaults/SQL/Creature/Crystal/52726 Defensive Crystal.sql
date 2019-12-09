@@ -16,12 +16,7 @@ VALUES (52726,   1,         16) /* ItemType - Creature */
      , (52726, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52726,   1, True ) /* Stuck */
-     , (52726,  12, True ) /* ReportCollisions */
-     , (52726,  13, True ) /* Ethereal */
-     , (52726,  14, True ) /* GravityStatus */
-     , (52726,  15, True ) /* LightsStatus */
-     , (52726,  19, True ) /* Attackable */;
+VALUES (52726,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52726,   1, 'Defensive Crystal') /* Name */

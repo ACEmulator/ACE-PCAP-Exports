@@ -11,16 +11,11 @@ VALUES (8695,   1,          2) /* ItemType - Armor */
      , (8695,  16,          1) /* ItemUseable - No */
      , (8695,  18,          1) /* UiEffects - Magical */
      , (8695,  19,          1) /* Value */
-     , (8695,  65,        101) /* Placement - Resting */
-     , (8695,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (8695,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8695, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8695,   1, False) /* Stuck */
-     , (8695,  11, True ) /* IgnoreCollisions */
-     , (8695,  13, True ) /* Ethereal */
-     , (8695,  14, True ) /* GravityStatus */
-     , (8695,  19, True ) /* Attackable */
-     , (8695,  22, True ) /* Inscribable */;
+VALUES (8695,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8695,   1, 'A Society Leather Girth') /* Name */;

@@ -19,22 +19,16 @@ VALUES (9232,   1,        256) /* ItemType - MissileWeapon */
      , (9232,  49,         -1) /* WeaponTime */
      , (9232,  50,          8) /* AmmoType - ArrowCrystal */
      , (9232,  51,          3) /* CombatUse - Ammo */
-     , (9232,  65,        101) /* Placement - Resting */
      , (9232,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (9232, 151,          2) /* HookType - Wall */
      , (9232, 158,          2) /* WieldRequirements - RawSkill */
      , (9232, 159,         47) /* WieldSkillType - MissileWeapons */
      , (9232, 160,        290) /* WieldDifficulty */
-     , (9232, 8030,          0);
+     , (9232, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (9232, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9232,   1, False) /* Stuck */
-     , (9232,  11, True ) /* IgnoreCollisions */
-     , (9232,  13, True ) /* Ethereal */
-     , (9232,  14, True ) /* GravityStatus */
-     , (9232,  17, True ) /* Inelastic */
-     , (9232,  19, True ) /* Attackable */
-     , (9232,  69, False) /* IsSellable */;
+VALUES (9232,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9232,  21,       0) /* WeaponLength */

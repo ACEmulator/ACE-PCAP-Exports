@@ -13,17 +13,12 @@ VALUES (11134,   1,         32) /* ItemType - Food */
      , (11134,  16,          8) /* ItemUseable - Contained */
      , (11134,  18,          1) /* UiEffects - Magical */
      , (11134,  19,       5000) /* Value */
-     , (11134,  65,        101) /* Placement - Resting */
      , (11134,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11134,  94,         16) /* TargetType - Creature */;
+     , (11134,  94,         16) /* TargetType - Creature */
+     , (11134, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11134,   1, False) /* Stuck */
-     , (11134,  11, True ) /* IgnoreCollisions */
-     , (11134,  13, True ) /* Ethereal */
-     , (11134,  14, True ) /* GravityStatus */
-     , (11134,  19, True ) /* Attackable */
-     , (11134,  22, True ) /* Inscribable */;
+VALUES (11134,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11134,   1, 'Olthoi Cake') /* Name */;

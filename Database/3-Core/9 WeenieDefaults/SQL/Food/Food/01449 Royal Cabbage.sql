@@ -13,17 +13,10 @@ VALUES (1449,   1,         32) /* ItemType - Food */
      , (1449,  16,          8) /* ItemUseable - Contained */
      , (1449,  18,          4) /* UiEffects - BoostHealth */
      , (1449,  19,         48) /* Value */
-     , (1449,  65,        101) /* Placement - Resting */
      , (1449,  89,          2) /* BoosterEnum - Health */
      , (1449,  90,          6) /* BoostValue */
-     , (1449,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1449,   1, False) /* Stuck */
-     , (1449,  11, True ) /* IgnoreCollisions */
-     , (1449,  13, True ) /* Ethereal */
-     , (1449,  14, True ) /* GravityStatus */
-     , (1449,  19, True ) /* Attackable */;
+     , (1449,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (1449, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1449,   1, 'Royal Cabbage') /* Name */

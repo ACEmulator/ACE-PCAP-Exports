@@ -12,7 +12,6 @@ VALUES (25371,   1,          8) /* ItemType - Jewelry */
      , (25371,  19,       8000) /* Value */
      , (25371,  33,          1) /* Bonded - Bonded */
      , (25371,  36,       9999) /* ResistMagic */
-     , (25371,  65,        101) /* Placement - Resting */
      , (25371,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25371, 106,        320) /* ItemSpellcraft */
      , (25371, 107,       1052) /* ItemCurMana */
@@ -21,19 +20,15 @@ VALUES (25371,   1,          8) /* ItemType - Jewelry */
      , (25371, 114,          1) /* Attuned - Attuned */
      , (25371, 158,          7) /* WieldRequirements - Level */
      , (25371, 159,          1) /* WieldSkillType - Axe */
-     , (25371, 160,         60) /* WieldDifficulty */;
+     , (25371, 160,         60) /* WieldDifficulty */
+     , (25371, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25371,   1, False) /* Stuck */
-     , (25371,  11, True ) /* IgnoreCollisions */
-     , (25371,  13, True ) /* Ethereal */
-     , (25371,  14, True ) /* GravityStatus */
-     , (25371,  19, True ) /* Attackable */
-     , (25371,  22, True ) /* Inscribable */
+VALUES (25371,  22, True ) /* Inscribable */
      , (25371,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25371,   5,  -0.033) /* ManaRate */;
+VALUES (25371,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25371,   1, 'Bracelet of Dark Essence') /* Name */

@@ -13,19 +13,13 @@ VALUES (27298,   1,      65536) /* ItemType - Portal */
      , (27298, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27298,   1, True ) /* Stuck */
-     , (27298,  12, True ) /* ReportCollisions */
-     , (27298,  13, True ) /* Ethereal */
-     , (27298,  14, True ) /* GravityStatus */
-     , (27298,  15, True ) /* LightsStatus */
-     , (27298,  19, True ) /* Attackable */;
+VALUES (27298,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27298,  54, -0.100000001490116) /* UseRadius */;
+VALUES (27298,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27298,   1, 'The Orphanage') /* Name */
-     , (27298,  38, 'The Orphanage') /* AppraisalPortalDestination */
      , (27298, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

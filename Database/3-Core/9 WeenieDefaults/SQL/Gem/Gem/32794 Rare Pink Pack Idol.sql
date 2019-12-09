@@ -13,16 +13,10 @@ VALUES (32794,   1,       2048) /* ItemType - Gem */
      , (32794, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32794,   1, False) /* Stuck */
-     , (32794,  11, True ) /* IgnoreCollisions */
-     , (32794,  13, True ) /* Ethereal */
-     , (32794,  14, True ) /* GravityStatus */
-     , (32794,  15, True ) /* LightsStatus */
-     , (32794,  19, True ) /* Attackable */
-     , (32794,  22, True ) /* Inscribable */;
+VALUES (32794,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32794,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (32794,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32794,   1, 'Rare Pink Pack Idol') /* Name */

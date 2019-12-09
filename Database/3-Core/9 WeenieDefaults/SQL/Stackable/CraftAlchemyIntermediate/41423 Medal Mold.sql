@@ -12,17 +12,12 @@ VALUES (41423,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41423,  15,      10000) /* StackUnitValue */
      , (41423,  16,          1) /* ItemUseable - No */
      , (41423,  19,      10000) /* Value */
-     , (41423,  65,        101) /* Placement - Resting */
      , (41423,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41423, 151,          9) /* HookType - Floor, Yard */;
+     , (41423, 151,          9) /* HookType - Floor, Yard */
+     , (41423, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41423,   1, False) /* Stuck */
-     , (41423,  11, True ) /* IgnoreCollisions */
-     , (41423,  13, True ) /* Ethereal */
-     , (41423,  14, True ) /* GravityStatus */
-     , (41423,  19, True ) /* Attackable */
-     , (41423,  22, True ) /* Inscribable */;
+VALUES (41423,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41423,   1, 'Medal Mold') /* Name */;

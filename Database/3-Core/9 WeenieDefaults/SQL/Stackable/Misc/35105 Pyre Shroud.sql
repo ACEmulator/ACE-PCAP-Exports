@@ -13,17 +13,12 @@ VALUES (35105,   1,        128) /* ItemType - Misc */
      , (35105,  16,          1) /* ItemUseable - No */
      , (35105,  19,          0) /* Value */
      , (35105,  33,          1) /* Bonded - Bonded */
-     , (35105,  65,        101) /* Placement - Resting */
      , (35105,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35105, 114,          1) /* Attuned - Attuned */;
+     , (35105, 114,          1) /* Attuned - Attuned */
+     , (35105, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35105,   1, False) /* Stuck */
-     , (35105,  11, True ) /* IgnoreCollisions */
-     , (35105,  13, True ) /* Ethereal */
-     , (35105,  14, True ) /* GravityStatus */
-     , (35105,  19, True ) /* Attackable */
-     , (35105,  69, False) /* IsSellable */;
+VALUES (35105,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35105,   1, 'Pyre Shroud') /* Name */

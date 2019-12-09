@@ -12,16 +12,9 @@ VALUES (37251,   1,        128) /* ItemType - Misc */
      , (37251,  15,          0) /* StackUnitValue */
      , (37251,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37251,  19,          0) /* Value */
-     , (37251,  65,        101) /* Placement - Resting */
      , (37251,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37251,  94,        128) /* TargetType - Misc */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37251,   1, False) /* Stuck */
-     , (37251,  11, True ) /* IgnoreCollisions */
-     , (37251,  13, True ) /* Ethereal */
-     , (37251,  14, True ) /* GravityStatus */
-     , (37251,  19, True ) /* Attackable */;
+     , (37251,  94,        128) /* TargetType - Misc */
+     , (37251, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37251,   1, 'Five of Eyes') /* Name */

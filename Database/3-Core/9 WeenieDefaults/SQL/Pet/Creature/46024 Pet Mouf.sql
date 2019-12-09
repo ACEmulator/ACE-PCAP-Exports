@@ -18,14 +18,10 @@ VALUES (46024,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46024,   1, True ) /* Stuck */
-     , (46024,  11, True ) /* IgnoreCollisions */
-     , (46024,  13, True ) /* Ethereal */
-     , (46024,  14, True ) /* GravityStatus */
-     , (46024,  19, False) /* Attackable */
-     , (46024,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (46024,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46024,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (46024,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46024,   1, 'Pet Mouf') /* Name */

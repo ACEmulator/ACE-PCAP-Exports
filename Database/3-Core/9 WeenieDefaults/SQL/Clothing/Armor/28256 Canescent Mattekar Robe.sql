@@ -10,17 +10,12 @@ VALUES (28256,   1,          2) /* ItemType - Armor */
      , (28256,   9,      32512) /* ValidLocations - Armor */
      , (28256,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (28256,  16,          1) /* ItemUseable - No */
-     , (28256,  65,        101) /* Placement - Resting */
      , (28256,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28256, 151,          2) /* HookType - Wall */;
+     , (28256, 151,          2) /* HookType - Wall */
+     , (28256, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28256,   1, False) /* Stuck */
-     , (28256,  11, True ) /* IgnoreCollisions */
-     , (28256,  13, True ) /* Ethereal */
-     , (28256,  14, True ) /* GravityStatus */
-     , (28256,  19, True ) /* Attackable */
-     , (28256,  22, True ) /* Inscribable */;
+VALUES (28256,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28256,   1, 'Canescent Mattekar Robe') /* Name */;

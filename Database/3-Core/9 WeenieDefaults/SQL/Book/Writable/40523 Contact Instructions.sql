@@ -9,22 +9,17 @@ VALUES (40523,   1,       8192) /* ItemType - Writable */
      , (40523,  16,          8) /* ItemUseable - Contained */
      , (40523,  19,          0) /* Value */
      , (40523,  33,          1) /* Bonded - Bonded */
-     , (40523,  65,        101) /* Placement - Resting */
      , (40523,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40523,  98, 1485370426) /* CreationTimestamp */
      , (40523, 114,          1) /* Attuned - Attuned */
-     , (40523, 174,          1) /* AppraisalPages */
-     , (40523, 175,          1) /* AppraisalMaxPages */
      , (40523, 267,        600) /* Lifespan */
-     , (40523, 268,        569) /* RemainingLifespan */;
+     , (40523, 268,        569) /* RemainingLifespan */
+     , (40523, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (40523, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (40523, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40523,   1, False) /* Stuck */
-     , (40523,  11, True ) /* IgnoreCollisions */
-     , (40523,  13, True ) /* Ethereal */
-     , (40523,  14, True ) /* GravityStatus */
-     , (40523,  19, True ) /* Attackable */
-     , (40523,  69, True ) /* IsSellable */;
+VALUES (40523,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40523,  54,       1) /* UseRadius */;

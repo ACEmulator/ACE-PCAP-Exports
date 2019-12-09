@@ -15,11 +15,7 @@ VALUES (31908,   1,         16) /* ItemType - Creature */
      , (31908, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31908,   1, True ) /* Stuck */
-     , (31908,  12, True ) /* ReportCollisions */
-     , (31908,  13, False) /* Ethereal */
-     , (31908,  14, True ) /* GravityStatus */
-     , (31908,  19, True ) /* Attackable */;
+VALUES (31908,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31908,   1, 'Remoran Raker') /* Name */

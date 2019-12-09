@@ -6,7 +6,7 @@ VALUES (35003, 'ace35003-thecolosseum', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35003,   1,      65536) /* ItemType - Portal */
      , (35003,  16,         32) /* ItemUseable - Remote */
-     , (35003,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (35003,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (35003,  98, 1485735841) /* CreationTimestamp */
      , (35003, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (35003, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -14,18 +14,13 @@ VALUES (35003,   1,      65536) /* ItemType - Portal */
      , (35003, 268,        179) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35003,   1, True ) /* Stuck */
-     , (35003,  11, True ) /* IgnoreCollisions */
-     , (35003,  13, False) /* Ethereal */
-     , (35003,  14, True ) /* GravityStatus */
-     , (35003,  19, True ) /* Attackable */;
+VALUES (35003,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35003,  54, 0.300000011920929) /* UseRadius */;
+VALUES (35003,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35003,   1, 'The Colosseum') /* Name */
-     , (35003,  38, 'The Colosseum') /* AppraisalPortalDestination */;
+VALUES (35003,   1, 'The Colosseum') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35003,   1,   33560143) /* Setup */

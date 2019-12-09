@@ -12,19 +12,13 @@ VALUES (15156,   1,      65536) /* ItemType - Portal */
      , (15156, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15156,   1, True ) /* Stuck */
-     , (15156,  12, True ) /* ReportCollisions */
-     , (15156,  13, True ) /* Ethereal */
-     , (15156,  14, True ) /* GravityStatus */
-     , (15156,  15, True ) /* LightsStatus */
-     , (15156,  19, True ) /* Attackable */;
+VALUES (15156,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15156,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15156,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15156,   1, 'East Al-Jalima Villas Portal') /* Name */
-     , (15156,  38, 'East Al-Jalima Villas Portal (7.7N, 17.7E).') /* AppraisalPortalDestination */
      , (15156, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

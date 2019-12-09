@@ -12,19 +12,13 @@ VALUES (8584,   1,      65536) /* ItemType - Portal */
      , (8584, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8584,   1, True ) /* Stuck */
-     , (8584,  12, True ) /* ReportCollisions */
-     , (8584,  13, True ) /* Ethereal */
-     , (8584,  14, True ) /* GravityStatus */
-     , (8584,  15, True ) /* LightsStatus */
-     , (8584,  19, True ) /* Attackable */;
+VALUES (8584,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8584,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8584,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8584,   1, 'Moarsmen Spawning Grounds') /* Name */
-     , (8584,  38, 'Moarsmen Spawning Grounds') /* AppraisalPortalDestination */
      , (8584, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

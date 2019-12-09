@@ -10,22 +10,17 @@ VALUES (35876,   1,        128) /* ItemType - Misc */
      , (35876,  18,         64) /* UiEffects - Lightning */
      , (35876,  19,          0) /* Value */
      , (35876,  33,          1) /* Bonded - Bonded */
-     , (35876,  65,        101) /* Placement - Resting */
      , (35876,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35876, 114,          1) /* Attuned - Attuned */;
+     , (35876, 114,          1) /* Attuned - Attuned */
+     , (35876, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35876,   1, False) /* Stuck */
-     , (35876,  11, True ) /* IgnoreCollisions */
-     , (35876,  13, True ) /* Ethereal */
-     , (35876,  14, True ) /* GravityStatus */
-     , (35876,  19, True ) /* Attackable */
-     , (35876,  22, True ) /* Inscribable */
+VALUES (35876,  22, True ) /* Inscribable */
      , (35876,  69, False) /* IsSellable */
      , (35876,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35876,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (35876,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35876,   1, 'Coruscating Olthoi Scent Gland') /* Name */

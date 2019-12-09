@@ -17,7 +17,6 @@ VALUES (10765,   1,          1) /* ItemType - MeleeWeapon */
      , (10765,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (10765,  49,         40) /* WeaponTime */
      , (10765,  51,          1) /* CombatUse - Melee */
-     , (10765,  65,          1) /* Placement - RightHandCombat */
      , (10765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10765, 106,        300) /* ItemSpellcraft */
      , (10765, 107,         27) /* ItemCurMana */
@@ -27,23 +26,19 @@ VALUES (10765,   1,          1) /* ItemType - MeleeWeapon */
      , (10765, 151,          2) /* HookType - Wall */
      , (10765, 176,         46) /* AppraisalItemSkill */
      , (10765, 353,          3) /* WeaponType - Axe */
-     , (10765, 8030,          0);
+     , (10765, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (10765, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10765,   1, False) /* Stuck */
-     , (10765,  11, True ) /* IgnoreCollisions */
-     , (10765,  13, True ) /* Ethereal */
-     , (10765,  14, True ) /* GravityStatus */
-     , (10765,  19, True ) /* Attackable */
-     , (10765,  22, True ) /* Inscribable */;
+VALUES (10765,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10765,   5, -0.100000001490116) /* ManaRate */
+VALUES (10765,   5,    -0.1) /* ManaRate */
      , (10765,  21,       0) /* WeaponLength */
      , (10765,  22,     0.5) /* DamageVariance */
      , (10765,  26,       0) /* MaximumVelocity */
-     , (10765,  29, 1.03999996185303) /* WeaponDefense */
-     , (10765,  62, 1.08000004291534) /* WeaponOffense */
+     , (10765,  29,    1.04) /* WeaponDefense */
+     , (10765,  62,    1.08) /* WeaponOffense */
      , (10765,  63,       1) /* DamageMod */
      , (10765,  77,       1) /* PhysicsScriptIntensity */
      , (10765, 136,       1) /* CriticalMultiplier */;

@@ -11,7 +11,6 @@ VALUES (41464,   1,      32768) /* ItemType - Caster */
      , (41464,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (41464,  18,       1024) /* UiEffects - Slashing */
      , (41464,  19,        500) /* Value */
-     , (41464,  65,          1) /* Placement - RightHandCombat */
      , (41464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41464,  94,         16) /* TargetType - Creature */
      , (41464, 106,        400) /* ItemSpellcraft */
@@ -20,23 +19,19 @@ VALUES (41464,   1,      32768) /* ItemType - Caster */
      , (41464, 151,          2) /* HookType - Wall */
      , (41464, 158,          2) /* WieldRequirements - RawSkill */
      , (41464, 159,         27) /* WieldSkillType - AssessCreature */
-     , (41464, 160,        175) /* WieldDifficulty */;
+     , (41464, 160,        175) /* WieldDifficulty */
+     , (41464, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41464,   1, False) /* Stuck */
-     , (41464,  11, True ) /* IgnoreCollisions */
-     , (41464,  13, True ) /* Ethereal */
-     , (41464,  14, True ) /* GravityStatus */
-     , (41464,  19, True ) /* Attackable */
-     , (41464,  22, True ) /* Inscribable */
+VALUES (41464,  22, True ) /* Inscribable */
      , (41464,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41464,   5,   -0.05) /* ManaRate */
-     , (41464,  29, 1.37000000178814) /* WeaponDefense */
+     , (41464,  29,    1.37) /* WeaponDefense */
      , (41464,  39,     1.5) /* DefaultScale */
-     , (41464, 144, 1.96551831167598E-314) /* ManaConversionMod */
-     , (41464, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (41464, 144,       0) /* ManaConversionMod */
+     , (41464, 152,    1.07) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41464,   1, 'Flawless Lense') /* Name */

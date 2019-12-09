@@ -37,11 +37,7 @@ VALUES (28249,   1,         16) /* ItemType - Creature */
      , (28249, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28249,   1, True ) /* Stuck */
-     , (28249,  12, True ) /* ReportCollisions */
-     , (28249,  13, False) /* Ethereal */
-     , (28249,  14, True ) /* GravityStatus */
-     , (28249,  19, True ) /* Attackable */;
+VALUES (28249,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28249,   1, 'Black Phyntos Hive') /* Name */

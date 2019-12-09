@@ -14,12 +14,7 @@ VALUES (32852,   1,          1) /* ItemType - MeleeWeapon */
      , (32852,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32852,   1, False) /* Stuck */
-     , (32852,  11, True ) /* IgnoreCollisions */
-     , (32852,  13, True ) /* Ethereal */
-     , (32852,  14, True ) /* GravityStatus */
-     , (32852,  19, True ) /* Attackable */
-     , (32852,  22, True ) /* Inscribable */;
+VALUES (32852,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32852,   1, 'Blade of the Realm') /* Name */;

@@ -11,15 +11,10 @@ VALUES (15672,   1,      65536) /* ItemType - Portal */
      , (15672, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15672,   1, True ) /* Stuck */
-     , (15672,  12, True ) /* ReportCollisions */
-     , (15672,  13, True ) /* Ethereal */
-     , (15672,  14, True ) /* GravityStatus */
-     , (15672,  15, True ) /* LightsStatus */
-     , (15672,  19, True ) /* Attackable */;
+VALUES (15672,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15672,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15672,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15672,   1, 'Demonsbane Cottages Portal') /* Name */

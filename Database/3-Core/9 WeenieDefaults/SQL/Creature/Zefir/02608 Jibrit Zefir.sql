@@ -15,14 +15,10 @@ VALUES (2608,   1,         16) /* ItemType - Creature */
      , (2608, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2608,   1, True ) /* Stuck */
-     , (2608,  12, True ) /* ReportCollisions */
-     , (2608,  13, False) /* Ethereal */
-     , (2608,  14, True ) /* GravityStatus */
-     , (2608,  19, True ) /* Attackable */;
+VALUES (2608,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2608,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (2608,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2608,   1, 'Jibrit Zefir') /* Name */

@@ -11,12 +11,7 @@ VALUES (15262,   1,        128) /* ItemType - Misc */
      , (15262,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15262,   1, True ) /* Stuck */
-     , (15262,  11, True ) /* IgnoreCollisions */
-     , (15262,  12, True ) /* ReportCollisions */
-     , (15262,  13, False) /* Ethereal */
-     , (15262,  14, True ) /* GravityStatus */
-     , (15262,  19, True ) /* Attackable */;
+VALUES (15262,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15262,   1, 'Thyrinn Cant Cottages') /* Name */

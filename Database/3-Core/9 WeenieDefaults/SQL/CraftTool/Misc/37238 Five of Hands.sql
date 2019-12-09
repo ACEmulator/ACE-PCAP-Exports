@@ -11,16 +11,9 @@ VALUES (37238,   1,        128) /* ItemType - Misc */
      , (37238,  13,          1) /* StackUnitEncumbrance */
      , (37238,  15,          0) /* StackUnitValue */
      , (37238,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (37238,  65,        101) /* Placement - Resting */
      , (37238,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37238,  94,        128) /* TargetType - Misc */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37238,   1, False) /* Stuck */
-     , (37238,  11, True ) /* IgnoreCollisions */
-     , (37238,  13, True ) /* Ethereal */
-     , (37238,  14, True ) /* GravityStatus */
-     , (37238,  19, True ) /* Attackable */;
+     , (37238,  94,        128) /* TargetType - Misc */
+     , (37238, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37238,   1, 'Five of Hands') /* Name */

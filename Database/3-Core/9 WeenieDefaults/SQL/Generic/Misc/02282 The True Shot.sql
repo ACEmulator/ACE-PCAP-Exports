@@ -8,15 +8,10 @@ VALUES (2282,   1,        128) /* ItemType - Misc */
      , (2282,   5,       9000) /* EncumbranceVal */
      , (2282,  16,          1) /* ItemUseable - No */
      , (2282,  19,        125) /* Value */
-     , (2282,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (2282,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2282,   1, True ) /* Stuck */
-     , (2282,  11, True ) /* IgnoreCollisions */
-     , (2282,  12, True ) /* ReportCollisions */
-     , (2282,  13, False) /* Ethereal */
-     , (2282,  14, True ) /* GravityStatus */
-     , (2282,  19, True ) /* Attackable */;
+VALUES (2282,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2282,   1, 'The True Shot') /* Name */

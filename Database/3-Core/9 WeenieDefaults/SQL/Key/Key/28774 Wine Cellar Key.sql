@@ -9,20 +9,15 @@ VALUES (28774,   1,      16384) /* ItemType - Key */
      , (28774,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (28774,  19,          0) /* Value */
      , (28774,  33,          1) /* Bonded - Bonded */
-     , (28774,  65,        101) /* Placement - Resting */
      , (28774,  91,          3) /* MaxStructure */
      , (28774,  92,          3) /* Structure */
      , (28774,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28774,  94,        640) /* TargetType - LockableMagicTarget */
-     , (28774, 114,          1) /* Attuned - Attuned */;
+     , (28774, 114,          1) /* Attuned - Attuned */
+     , (28774, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28774,   1, False) /* Stuck */
-     , (28774,  11, True ) /* IgnoreCollisions */
-     , (28774,  13, True ) /* Ethereal */
-     , (28774,  14, True ) /* GravityStatus */
-     , (28774,  19, True ) /* Attackable */
-     , (28774,  22, True ) /* Inscribable */;
+VALUES (28774,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28774,   1, 'Wine Cellar Key') /* Name */

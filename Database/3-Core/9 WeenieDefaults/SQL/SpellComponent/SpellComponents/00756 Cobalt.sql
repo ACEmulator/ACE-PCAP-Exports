@@ -12,15 +12,8 @@ VALUES (756,   1,       4096) /* ItemType - SpellComponents */
      , (756,  15,          5) /* StackUnitValue */
      , (756,  16,          1) /* ItemUseable - No */
      , (756,  19,          5) /* Value */
-     , (756,  65,        101) /* Placement - Resting */
-     , (756,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (756,   1, False) /* Stuck */
-     , (756,  11, True ) /* IgnoreCollisions */
-     , (756,  13, True ) /* Ethereal */
-     , (756,  14, True ) /* GravityStatus */
-     , (756,  19, True ) /* Attackable */;
+     , (756,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (756, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (756,   1, 'Cobalt') /* Name */

@@ -9,17 +9,12 @@ VALUES (34267,   1,        128) /* ItemType - Misc */
      , (34267,  16,         32) /* ItemUseable - Remote */
      , (34267,  18,          1) /* UiEffects - Magical */
      , (34267,  19,       1000) /* Value */
-     , (34267,  65,        101) /* Placement - Resting */
      , (34267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34267, 151,          9) /* HookType - Floor, Yard */;
+     , (34267, 151,          9) /* HookType - Floor, Yard */
+     , (34267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34267,   1, False) /* Stuck */
-     , (34267,  11, True ) /* IgnoreCollisions */
-     , (34267,  13, True ) /* Ethereal */
-     , (34267,  14, True ) /* GravityStatus */
-     , (34267,  19, True ) /* Attackable */
-     , (34267,  22, True ) /* Inscribable */;
+VALUES (34267,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34267,   1, 'Mystical Mug') /* Name */

@@ -13,21 +13,15 @@ VALUES (42150,   1,      65536) /* ItemType - Portal */
      , (42150, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42150,   1, True ) /* Stuck */
-     , (42150,  12, True ) /* ReportCollisions */
-     , (42150,  13, True ) /* Ethereal */
-     , (42150,  14, True ) /* GravityStatus */
-     , (42150,  15, True ) /* LightsStatus */
-     , (42150,  19, True ) /* Attackable */;
+VALUES (42150,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42150,  39, 0.800000011920929) /* DefaultScale */
-     , (42150,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42150,  39,     0.8) /* DefaultScale */
+     , (42150,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42150,   1, 'Colier') /* Name */
      , (42150,  16, 'A portal leading to Colier Mine where the Baron''s Amulet of Life Giving may be found.') /* LongDesc */
-     , (42150,  38, 'Colier (57.1N, 37.7E).') /* AppraisalPortalDestination */
      , (42150, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

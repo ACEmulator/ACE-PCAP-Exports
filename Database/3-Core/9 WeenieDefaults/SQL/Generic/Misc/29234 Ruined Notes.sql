@@ -9,17 +9,12 @@ VALUES (29234,   1,        128) /* ItemType - Misc */
      , (29234,  16,          1) /* ItemUseable - No */
      , (29234,  19,          0) /* Value */
      , (29234,  33,          1) /* Bonded - Bonded */
-     , (29234,  65,        101) /* Placement - Resting */
      , (29234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29234, 114,          1) /* Attuned - Attuned */;
+     , (29234, 114,          1) /* Attuned - Attuned */
+     , (29234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29234,   1, False) /* Stuck */
-     , (29234,  11, True ) /* IgnoreCollisions */
-     , (29234,  13, True ) /* Ethereal */
-     , (29234,  14, True ) /* GravityStatus */
-     , (29234,  19, True ) /* Attackable */
-     , (29234,  22, True ) /* Inscribable */;
+VALUES (29234,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29234,   1, 'Ruined Notes') /* Name */

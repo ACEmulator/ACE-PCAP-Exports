@@ -12,19 +12,13 @@ VALUES (14261,   1,      65536) /* ItemType - Portal */
      , (14261, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14261,   1, True ) /* Stuck */
-     , (14261,  12, True ) /* ReportCollisions */
-     , (14261,  13, True ) /* Ethereal */
-     , (14261,  14, True ) /* GravityStatus */
-     , (14261,  15, True ) /* LightsStatus */
-     , (14261,  19, True ) /* Attackable */;
+VALUES (14261,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14261,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14261,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14261,   1, 'West Baishi Settlement Portal') /* Name */
-     , (14261,  38, 'West Baishi Settlement Portal (49.8S, 56.8E).') /* AppraisalPortalDestination */
      , (14261, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

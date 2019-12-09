@@ -9,19 +9,14 @@ VALUES (33861,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33861,   1, True ) /* Stuck */
-     , (33861,  12, True ) /* ReportCollisions */
-     , (33861,  13, False) /* Ethereal */
-     , (33861,  15, True ) /* LightsStatus */
-     , (33861,  17, True ) /* Inelastic */
-     , (33861,  19, True ) /* Attackable */
      , (33861,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33861,  78,       1) /* Friction */
      , (33861,  79,       0) /* Elasticity */
-     , (33861, 8010, 2.91139268875122) /* PCAPRecordedVelocityX */
-     , (33861, 8011, 0.589735567569733) /* PCAPRecordedVelocityY */
-     , (33861, 8012, -1.95007395744324) /* PCAPRecordedVelocityZ */;
+     , (33861, 8010,    2.91) /* PCAPRecordedVelocityX */
+     , (33861, 8011,    0.59) /* PCAPRecordedVelocityY */
+     , (33861, 8012,   -1.95) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33861,   1, 'Acid Wave') /* Name */;

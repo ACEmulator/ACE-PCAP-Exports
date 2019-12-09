@@ -8,20 +8,13 @@ VALUES (24870,   1,       8192) /* ItemType - Writable */
      , (24870,   5,        500) /* EncumbranceVal */
      , (24870,  16,          8) /* ItemUseable - Contained */
      , (24870,  19,          0) /* Value */
-     , (24870,  65,        101) /* Placement - Resting */
      , (24870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24870, 174,         16) /* AppraisalPages */
-     , (24870, 175,         16) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24870,   1, False) /* Stuck */
-     , (24870,  11, True ) /* IgnoreCollisions */
-     , (24870,  13, True ) /* Ethereal */
-     , (24870,  14, True ) /* GravityStatus */
-     , (24870,  19, True ) /* Attackable */;
+     , (24870, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (24870, 8042,         16) /* PCAPRecordedAppraisalPages */
+     , (24870, 8043,         16) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24870,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (24870,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24870,   1, 'Experimentation') /* Name */;

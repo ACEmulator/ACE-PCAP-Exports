@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8146,   1,        128) /* ItemType - Misc */
      , (8146,   5,        200) /* EncumbranceVal */
      , (8146,  16,          1) /* ItemUseable - No */
-     , (8146,  65,        101) /* Placement - Resting */
      , (8146,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8146, 151,          9) /* HookType - Floor, Yard */;
+     , (8146, 151,          9) /* HookType - Floor, Yard */
+     , (8146, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8146,   1, False) /* Stuck */
-     , (8146,  11, True ) /* IgnoreCollisions */
-     , (8146,  13, True ) /* Ethereal */
-     , (8146,  14, True ) /* GravityStatus */
-     , (8146,  19, True ) /* Attackable */
-     , (8146,  22, True ) /* Inscribable */;
+VALUES (8146,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8146,   1, 'Mosswart Head') /* Name */;

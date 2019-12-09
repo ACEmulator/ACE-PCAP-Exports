@@ -15,14 +15,10 @@ VALUES (25868,   1,         16) /* ItemType - Creature */
      , (25868, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25868,   1, True ) /* Stuck */
-     , (25868,  12, True ) /* ReportCollisions */
-     , (25868,  13, False) /* Ethereal */
-     , (25868,  14, True ) /* GravityStatus */
-     , (25868,  19, True ) /* Attackable */;
+VALUES (25868,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25868,  39, 2.20000004768372) /* DefaultScale */;
+VALUES (25868,  39,     2.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25868,   1, 'Colossal Mite') /* Name */

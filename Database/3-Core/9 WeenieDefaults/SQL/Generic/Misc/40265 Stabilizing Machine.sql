@@ -10,12 +10,7 @@ VALUES (40265,   1,        128) /* ItemType - Misc */
      , (40265, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40265,   1, True ) /* Stuck */
-     , (40265,  11, True ) /* IgnoreCollisions */
-     , (40265,  12, True ) /* ReportCollisions */
-     , (40265,  13, False) /* Ethereal */
-     , (40265,  14, True ) /* GravityStatus */
-     , (40265,  19, True ) /* Attackable */;
+VALUES (40265,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40265,   1, 'Stabilizing Machine') /* Name */

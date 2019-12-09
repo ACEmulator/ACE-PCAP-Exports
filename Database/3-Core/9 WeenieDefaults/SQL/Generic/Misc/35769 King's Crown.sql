@@ -13,12 +13,7 @@ VALUES (35769,   1,        128) /* ItemType - Misc */
      , (35769, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35769,   1, False) /* Stuck */
-     , (35769,  11, True ) /* IgnoreCollisions */
-     , (35769,  13, True ) /* Ethereal */
-     , (35769,  14, True ) /* GravityStatus */
-     , (35769,  19, True ) /* Attackable */
-     , (35769,  22, True ) /* Inscribable */;
+VALUES (35769,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35769,   1, 'King''s Crown') /* Name */

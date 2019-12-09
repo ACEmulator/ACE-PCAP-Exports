@@ -11,15 +11,10 @@ VALUES (21416,   1,      65536) /* ItemType - Portal */
      , (21416, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21416,   1, True ) /* Stuck */
-     , (21416,  12, True ) /* ReportCollisions */
-     , (21416,  13, True ) /* Ethereal */
-     , (21416,  14, True ) /* GravityStatus */
-     , (21416,  15, True ) /* LightsStatus */
-     , (21416,  19, True ) /* Attackable */;
+VALUES (21416,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21416,  54, -0.100000001490116) /* UseRadius */;
+VALUES (21416,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21416,   1, 'Fire Guardian Lair') /* Name */

@@ -12,15 +12,8 @@ VALUES (742,   1,       4096) /* ItemType - SpellComponents */
      , (742,  15,          5) /* StackUnitValue */
      , (742,  16,          1) /* ItemUseable - No */
      , (742,  19,          5) /* Value */
-     , (742,  65,        101) /* Placement - Resting */
-     , (742,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (742,   1, False) /* Stuck */
-     , (742,  11, True ) /* IgnoreCollisions */
-     , (742,  13, True ) /* Ethereal */
-     , (742,  14, True ) /* GravityStatus */
-     , (742,  19, True ) /* Attackable */;
+     , (742,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (742, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (742,   1, 'Blackthorn Talisman') /* Name */;

@@ -11,12 +11,7 @@ VALUES (16903,   1,        128) /* ItemType - Misc */
      , (16903,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16903,   1, True ) /* Stuck */
-     , (16903,  11, True ) /* IgnoreCollisions */
-     , (16903,  12, True ) /* ReportCollisions */
-     , (16903,  13, False) /* Ethereal */
-     , (16903,  14, True ) /* GravityStatus */
-     , (16903,  19, True ) /* Attackable */;
+VALUES (16903,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16903,   1, 'Treyval Veranda') /* Name */

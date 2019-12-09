@@ -12,19 +12,13 @@ VALUES (14287,   1,      65536) /* ItemType - Portal */
      , (14287, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14287,   1, True ) /* Stuck */
-     , (14287,  12, True ) /* ReportCollisions */
-     , (14287,  13, True ) /* Ethereal */
-     , (14287,  14, True ) /* GravityStatus */
-     , (14287,  15, True ) /* LightsStatus */
-     , (14287,  19, True ) /* Attackable */;
+VALUES (14287,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14287,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14287,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14287,   1, 'Tattered Ridge Portal') /* Name */
-     , (14287,  38, 'Tattered Ridge Portal (60.0S, 44.4E).') /* AppraisalPortalDestination */
      , (14287, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,16 +13,11 @@ VALUES (3712,   1,       2048) /* ItemType - Gem */
      , (3712,  16,          8) /* ItemUseable - Contained */
      , (3712,  18,          1) /* UiEffects - Magical */
      , (3712,  19,       1500) /* Value */
-     , (3712,  65,        101) /* Placement - Resting */
-     , (3712,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (3712,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3712, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3712,   1, False) /* Stuck */
-     , (3712,  11, True ) /* IgnoreCollisions */
-     , (3712,  13, True ) /* Ethereal */
-     , (3712,  14, True ) /* GravityStatus */
-     , (3712,  19, True ) /* Attackable */
-     , (3712,  22, True ) /* Inscribable */;
+VALUES (3712,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3712,   1, 'Red Gem') /* Name */;

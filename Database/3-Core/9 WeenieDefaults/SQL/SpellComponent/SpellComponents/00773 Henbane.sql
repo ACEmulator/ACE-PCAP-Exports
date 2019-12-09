@@ -12,18 +12,11 @@ VALUES (773,   1,       4096) /* ItemType - SpellComponents */
      , (773,  15,         10) /* StackUnitValue */
      , (773,  16,          1) /* ItemUseable - No */
      , (773,  19,         10) /* Value */
-     , (773,  65,        101) /* Placement - Resting */
-     , (773,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (773,   1, False) /* Stuck */
-     , (773,  11, True ) /* IgnoreCollisions */
-     , (773,  13, True ) /* Ethereal */
-     , (773,  14, True ) /* GravityStatus */
-     , (773,  19, True ) /* Attackable */;
+     , (773,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (773, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (773,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (773,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (773,   1, 'Henbane') /* Name */

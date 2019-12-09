@@ -29,16 +29,10 @@ VALUES (150,   1,        256) /* ItemType - MissileWeapon */
      , (150, 177,          4) /* GemCount */
      , (150, 178,         36) /* GemType */
      , (150, 353,         10) /* WeaponType - Thrown */
-     , (150, 8030,          0);
+     , (150, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (150,   1, False) /* Stuck */
-     , (150,  11, True ) /* IgnoreCollisions */
-     , (150,  13, True ) /* Ethereal */
-     , (150,  14, True ) /* GravityStatus */
-     , (150,  17, True ) /* Inelastic */
-     , (150,  19, True ) /* Attackable */
-     , (150,  22, True ) /* Inscribable */;
+VALUES (150,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (150,   5,   -0.05) /* ManaRate */
@@ -46,7 +40,7 @@ VALUES (150,   5,   -0.05) /* ManaRate */
      , (150,  22,    0.25) /* DamageVariance */
      , (150,  26,       0) /* MaximumVelocity */
      , (150,  29,       1) /* WeaponDefense */
-     , (150,  39, 0.300000011920929) /* DefaultScale */
+     , (150,  39,     0.3) /* DefaultScale */
      , (150,  62,       1) /* WeaponOffense */
      , (150,  63,       1) /* DamageMod */
      , (150,  78,       1) /* Friction */

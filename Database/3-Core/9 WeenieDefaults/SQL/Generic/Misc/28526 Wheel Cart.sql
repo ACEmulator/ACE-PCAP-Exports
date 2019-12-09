@@ -9,16 +9,11 @@ VALUES (28526,   1,        128) /* ItemType - Misc */
      , (28526,  16,          1) /* ItemUseable - No */
      , (28526,  19,          0) /* Value */
      , (28526,  33,          1) /* Bonded - Bonded */
-     , (28526,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (28526,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28526, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28526,   1, False) /* Stuck */
-     , (28526,  11, True ) /* IgnoreCollisions */
-     , (28526,  13, True ) /* Ethereal */
-     , (28526,  14, True ) /* GravityStatus */
-     , (28526,  19, True ) /* Attackable */
-     , (28526,  22, True ) /* Inscribable */;
+VALUES (28526,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28526,   1, 'Wheel Cart') /* Name */

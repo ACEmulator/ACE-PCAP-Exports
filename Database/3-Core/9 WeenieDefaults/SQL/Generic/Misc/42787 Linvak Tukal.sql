@@ -11,11 +11,7 @@ VALUES (42787,   1,        128) /* ItemType - Misc */
      , (42787,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42787,   1, True ) /* Stuck */
-     , (42787,  11, True ) /* IgnoreCollisions */
-     , (42787,  12, True ) /* ReportCollisions */
-     , (42787,  13, True ) /* Ethereal */
-     , (42787,  19, True ) /* Attackable */;
+VALUES (42787,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42787,   1, 'Linvak Tukal') /* Name */

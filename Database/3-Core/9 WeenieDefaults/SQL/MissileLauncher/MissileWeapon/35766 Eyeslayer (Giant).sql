@@ -16,7 +16,6 @@ VALUES (35766,   1,        256) /* ItemType - MissileWeapon */
      , (35766,  49,         30) /* WeaponTime */
      , (35766,  50,          4) /* AmmoType - Atlatl */
      , (35766,  51,          2) /* CombatUse - Missle */
-     , (35766,  65,        101) /* Placement - Resting */
      , (35766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35766, 106,        400) /* ItemSpellcraft */
      , (35766, 107,        697) /* ItemCurMana */
@@ -29,18 +28,14 @@ VALUES (35766,   1,        256) /* ItemType - MissileWeapon */
      , (35766, 166,         28) /* SlayerCreatureType - Monouga */
      , (35766, 204,         14) /* ElementalDamageBonus */
      , (35766, 353,         10) /* WeaponType - Thrown */
-     , (35766, 8030,          0);
+     , (35766, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (35766, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35766,   1, False) /* Stuck */
-     , (35766,  11, True ) /* IgnoreCollisions */
-     , (35766,  13, True ) /* Ethereal */
-     , (35766,  14, True ) /* GravityStatus */
-     , (35766,  19, True ) /* Attackable */
-     , (35766,  22, True ) /* Inscribable */;
+VALUES (35766,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35766,   5,  -0.033) /* ManaRate */
+VALUES (35766,   5,   -0.03) /* ManaRate */
      , (35766,  21,       0) /* WeaponLength */
      , (35766,  22,       0) /* DamageVariance */
      , (35766,  26,    24.9) /* MaximumVelocity */

@@ -8,20 +8,13 @@ VALUES (8814,   1,       8192) /* ItemType - Writable */
      , (8814,   5,         10) /* EncumbranceVal */
      , (8814,  16,          8) /* ItemUseable - Contained */
      , (8814,  19,          0) /* Value */
-     , (8814,  65,        101) /* Placement - Resting */
      , (8814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8814, 174,          9) /* AppraisalPages */
-     , (8814, 175,          9) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8814,   1, False) /* Stuck */
-     , (8814,  11, True ) /* IgnoreCollisions */
-     , (8814,  13, True ) /* Ethereal */
-     , (8814,  14, True ) /* GravityStatus */
-     , (8814,  19, True ) /* Attackable */;
+     , (8814, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8814, 8042,          9) /* PCAPRecordedAppraisalPages */
+     , (8814, 8043,          9) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8814,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8814,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8814,   1, 'Asheron''s Second Missive') /* Name */

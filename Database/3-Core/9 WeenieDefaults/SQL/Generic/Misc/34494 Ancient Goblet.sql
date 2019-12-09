@@ -9,16 +9,9 @@ VALUES (34494,   1,        128) /* ItemType - Misc */
      , (34494,  16,          1) /* ItemUseable - No */
      , (34494,  19,          0) /* Value */
      , (34494,  33,          1) /* Bonded - Bonded */
-     , (34494,  65,        101) /* Placement - Resting */
      , (34494,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34494, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34494,   1, False) /* Stuck */
-     , (34494,  11, True ) /* IgnoreCollisions */
-     , (34494,  13, True ) /* Ethereal */
-     , (34494,  14, True ) /* GravityStatus */
-     , (34494,  19, True ) /* Attackable */;
+     , (34494, 114,          1) /* Attuned - Attuned */
+     , (34494, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34494,   1, 'Ancient Goblet') /* Name */

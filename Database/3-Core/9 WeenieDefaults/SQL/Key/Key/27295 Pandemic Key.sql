@@ -8,19 +8,14 @@ VALUES (27295,   1,      16384) /* ItemType - Key */
      , (27295,   5,        100) /* EncumbranceVal */
      , (27295,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (27295,  19,          0) /* Value */
-     , (27295,  65,        101) /* Placement - Resting */
      , (27295,  91,          1) /* MaxStructure */
      , (27295,  92,          1) /* Structure */
      , (27295,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27295,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (27295,  94,        640) /* TargetType - LockableMagicTarget */
+     , (27295, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27295,   1, False) /* Stuck */
-     , (27295,  11, True ) /* IgnoreCollisions */
-     , (27295,  13, True ) /* Ethereal */
-     , (27295,  14, True ) /* GravityStatus */
-     , (27295,  19, True ) /* Attackable */
-     , (27295,  22, True ) /* Inscribable */;
+VALUES (27295,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27295,   1, 'Pandemic Key') /* Name */

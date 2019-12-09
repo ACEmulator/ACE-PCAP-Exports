@@ -12,18 +12,11 @@ VALUES (22578,   1,    4194304) /* ItemType - CraftCookingBase */
      , (22578,  15,         50) /* StackUnitValue */
      , (22578,  16,          8) /* ItemUseable - Contained */
      , (22578,  19,         50) /* Value */
-     , (22578,  65,        101) /* Placement - Resting */
      , (22578,  89,          4) /* BoosterEnum - Stamina */
      , (22578,  90,          6) /* BoostValue */
      , (22578,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22578, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22578,   1, False) /* Stuck */
-     , (22578,  11, True ) /* IgnoreCollisions */
-     , (22578,  13, True ) /* Ethereal */
-     , (22578,  14, True ) /* GravityStatus */
-     , (22578,  19, True ) /* Attackable */;
+     , (22578, 151,          2) /* HookType - Wall */
+     , (22578, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22578,   1, 'Bunch of Nanners') /* Name */

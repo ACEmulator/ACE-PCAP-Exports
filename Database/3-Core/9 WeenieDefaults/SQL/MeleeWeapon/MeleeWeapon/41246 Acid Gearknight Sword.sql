@@ -16,12 +16,7 @@ VALUES (41246,   1,          1) /* ItemType - MeleeWeapon */
      , (41246, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41246,   1, False) /* Stuck */
-     , (41246,  11, True ) /* IgnoreCollisions */
-     , (41246,  13, True ) /* Ethereal */
-     , (41246,  14, True ) /* GravityStatus */
-     , (41246,  19, True ) /* Attackable */
-     , (41246,  22, True ) /* Inscribable */;
+VALUES (41246,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41246,   1, 'Acid Gearknight Sword') /* Name */;

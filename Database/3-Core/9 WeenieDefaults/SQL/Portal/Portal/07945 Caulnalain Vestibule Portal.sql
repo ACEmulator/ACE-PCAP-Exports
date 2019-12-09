@@ -13,19 +13,13 @@ VALUES (7945,   1,      65536) /* ItemType - Portal */
      , (7945, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7945,   1, True ) /* Stuck */
-     , (7945,  12, True ) /* ReportCollisions */
-     , (7945,  13, True ) /* Ethereal */
-     , (7945,  14, True ) /* GravityStatus */
-     , (7945,  15, True ) /* LightsStatus */
-     , (7945,  19, True ) /* Attackable */;
+VALUES (7945,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7945,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7945,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7945,   1, 'Caulnalain Vestibule Portal') /* Name */
-     , (7945,  38, 'Caulnalain Vestibule Portal') /* AppraisalPortalDestination */
      , (7945, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

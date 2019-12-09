@@ -17,7 +17,6 @@ VALUES (8526,   1,          1) /* ItemType - MeleeWeapon */
      , (8526,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (8526,  49,         40) /* WeaponTime */
      , (8526,  51,          1) /* CombatUse - Melee */
-     , (8526,  65,          1) /* Placement - RightHandCombat */
      , (8526,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8526, 106,        260) /* ItemSpellcraft */
      , (8526, 107,        854) /* ItemCurMana */
@@ -27,24 +26,20 @@ VALUES (8526,   1,          1) /* ItemType - MeleeWeapon */
      , (8526, 151,          2) /* HookType - Wall */
      , (8526, 176,         46) /* AppraisalItemSkill */
      , (8526, 353,          7) /* WeaponType - Staff */
-     , (8526, 8030,          0);
+     , (8526, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (8526, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8526,   1, False) /* Stuck */
-     , (8526,  11, True ) /* IgnoreCollisions */
-     , (8526,  13, True ) /* Ethereal */
-     , (8526,  14, True ) /* GravityStatus */
-     , (8526,  19, True ) /* Attackable */
-     , (8526,  22, True ) /* Inscribable */;
+VALUES (8526,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8526,   5, -0.0500000007450581) /* ManaRate */
+VALUES (8526,   5,   -0.05) /* ManaRate */
      , (8526,  21,       0) /* WeaponLength */
-     , (8526,  22, 0.300000011920929) /* DamageVariance */
+     , (8526,  22,     0.3) /* DamageVariance */
      , (8526,  26,       0) /* MaximumVelocity */
-     , (8526,  29, 1.03999996185303) /* WeaponDefense */
+     , (8526,  29,    1.04) /* WeaponDefense */
      , (8526,  39,    1.25) /* DefaultScale */
-     , (8526,  62, 1.01999998092651) /* WeaponOffense */
+     , (8526,  62,    1.02) /* WeaponOffense */
      , (8526,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

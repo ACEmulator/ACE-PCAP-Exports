@@ -9,17 +9,12 @@ VALUES (30361,   1,          8) /* ItemType - Jewelry */
      , (30361,   9,     786432) /* ValidLocations - FingerWear */
      , (30361,  16,          1) /* ItemUseable - No */
      , (30361,  19,      50000) /* Value */
-     , (30361,  65,        101) /* Placement - Resting */
      , (30361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30361, 151,          2) /* HookType - Wall */;
+     , (30361, 151,          2) /* HookType - Wall */
+     , (30361, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30361,   1, False) /* Stuck */
-     , (30361,  11, True ) /* IgnoreCollisions */
-     , (30361,  13, True ) /* Ethereal */
-     , (30361,  14, True ) /* GravityStatus */
-     , (30361,  19, True ) /* Attackable */
-     , (30361,  22, True ) /* Inscribable */;
+VALUES (30361,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30361,  39,     0.5) /* DefaultScale */;

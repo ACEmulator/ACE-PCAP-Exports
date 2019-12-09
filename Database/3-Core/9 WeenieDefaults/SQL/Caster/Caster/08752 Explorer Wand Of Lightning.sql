@@ -11,18 +11,13 @@ VALUES (8752,   1,      32768) /* ItemType - Caster */
      , (8752,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8752,  18,          1) /* UiEffects - Magical */
      , (8752,  19,          1) /* Value */
-     , (8752,  65,          1) /* Placement - RightHandCombat */
      , (8752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8752,  94,         16) /* TargetType - Creature */
-     , (8752, 151,          2) /* HookType - Wall */;
+     , (8752, 151,          2) /* HookType - Wall */
+     , (8752, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8752,   1, False) /* Stuck */
-     , (8752,  11, True ) /* IgnoreCollisions */
-     , (8752,  13, True ) /* Ethereal */
-     , (8752,  14, True ) /* GravityStatus */
-     , (8752,  19, True ) /* Attackable */
-     , (8752,  22, True ) /* Inscribable */;
+VALUES (8752,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8752,   1, 'Explorer Wand Of Lightning') /* Name */;

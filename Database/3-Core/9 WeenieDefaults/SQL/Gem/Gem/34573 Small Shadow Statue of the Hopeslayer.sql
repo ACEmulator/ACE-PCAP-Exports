@@ -14,16 +14,11 @@ VALUES (34573,   1,       2048) /* ItemType - Gem */
      , (34573, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34573,   1, False) /* Stuck */
-     , (34573,  11, True ) /* IgnoreCollisions */
-     , (34573,  13, True ) /* Ethereal */
-     , (34573,  14, True ) /* GravityStatus */
-     , (34573,  19, True ) /* Attackable */
-     , (34573,  22, True ) /* Inscribable */
+VALUES (34573,  22, True ) /* Inscribable */
      , (34573,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34573,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (34573,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34573,   1, 'Small Shadow Statue of the Hopeslayer') /* Name */

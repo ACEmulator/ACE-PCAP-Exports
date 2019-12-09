@@ -11,16 +11,9 @@ VALUES (33983,   1,        128) /* ItemType - Misc */
      , (33983,  13,         10) /* StackUnitEncumbrance */
      , (33983,  15,          0) /* StackUnitValue */
      , (33983,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (33983,  65,        101) /* Placement - Resting */
      , (33983,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33983,  94,        384) /* TargetType - Misc, MissileWeapon */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33983,   1, False) /* Stuck */
-     , (33983,  11, True ) /* IgnoreCollisions */
-     , (33983,  13, True ) /* Ethereal */
-     , (33983,  14, True ) /* GravityStatus */
-     , (33983,  19, True ) /* Attackable */;
+     , (33983,  94,        384) /* TargetType - Misc, MissileWeapon */
+     , (33983, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33983,   1, 'Superb Bone Handle') /* Name */;

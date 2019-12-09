@@ -16,11 +16,7 @@ VALUES (22052,   1,         16) /* ItemType - Creature */
      , (22052, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22052,   1, True ) /* Stuck */
-     , (22052,  12, True ) /* ReportCollisions */
-     , (22052,  13, False) /* Ethereal */
-     , (22052,  14, True ) /* GravityStatus */
-     , (22052,  19, True ) /* Attackable */;
+VALUES (22052,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22052,   1, 'Seared Guard') /* Name */

@@ -12,13 +12,7 @@ VALUES (51659,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51659,   1, True ) /* Stuck */
-     , (51659,  11, True ) /* IgnoreCollisions */
-     , (51659,  12, True ) /* ReportCollisions */
-     , (51659,  13, True ) /* Ethereal */
-     , (51659,  14, True ) /* GravityStatus */
-     , (51659,  19, True ) /* Attackable */
-     , (51659,  24, True ) /* UiHidden */
-     , (51659,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (51659,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51659,   1, 'Chemical Reaction') /* Name */;

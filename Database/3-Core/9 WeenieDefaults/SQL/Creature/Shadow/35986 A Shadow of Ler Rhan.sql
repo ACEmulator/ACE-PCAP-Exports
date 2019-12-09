@@ -17,15 +17,11 @@ VALUES (35986,   1,         16) /* ItemType - Creature */
      , (35986, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35986,   1, True ) /* Stuck */
-     , (35986,  12, True ) /* ReportCollisions */
-     , (35986,  13, False) /* Ethereal */
-     , (35986,  14, True ) /* GravityStatus */
-     , (35986,  19, True ) /* Attackable */;
+VALUES (35986,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35986,  39, 1.29999995231628) /* DefaultScale */
-     , (35986,  76, 0.400000005960464) /* Translucency */;
+VALUES (35986,  39,     1.3) /* DefaultScale */
+     , (35986,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35986,   1, 'A Shadow of Ler Rhan') /* Name */

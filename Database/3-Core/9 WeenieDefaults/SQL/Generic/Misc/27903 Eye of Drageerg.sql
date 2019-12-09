@@ -9,20 +9,15 @@ VALUES (27903,   1,        128) /* ItemType - Misc */
      , (27903,  16,          1) /* ItemUseable - No */
      , (27903,  19,         10) /* Value */
      , (27903,  33,          1) /* Bonded - Bonded */
-     , (27903,  65,        101) /* Placement - Resting */
      , (27903,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27903, 114,          1) /* Attuned - Attuned */;
+     , (27903, 114,          1) /* Attuned - Attuned */
+     , (27903, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27903,   1, False) /* Stuck */
-     , (27903,  11, True ) /* IgnoreCollisions */
-     , (27903,  13, True ) /* Ethereal */
-     , (27903,  14, True ) /* GravityStatus */
-     , (27903,  19, True ) /* Attackable */
-     , (27903,  22, True ) /* Inscribable */;
+VALUES (27903,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27903,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (27903,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27903,   1, 'Eye of Drageerg') /* Name */

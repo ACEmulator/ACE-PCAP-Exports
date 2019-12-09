@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28729,   1,        128) /* ItemType - Misc */
      , (28729,   5,         50) /* EncumbranceVal */
      , (28729,  16,          1) /* ItemUseable - No */
-     , (28729,  65,        101) /* Placement - Resting */
-     , (28729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28729, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28729,   1, False) /* Stuck */
-     , (28729,  11, True ) /* IgnoreCollisions */
-     , (28729,  13, True ) /* Ethereal */
-     , (28729,  14, True ) /* GravityStatus */
-     , (28729,  19, True ) /* Attackable */
-     , (28729,  22, True ) /* Inscribable */;
+VALUES (28729,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28729,   1, 'Augmented Ice Shard') /* Name */;

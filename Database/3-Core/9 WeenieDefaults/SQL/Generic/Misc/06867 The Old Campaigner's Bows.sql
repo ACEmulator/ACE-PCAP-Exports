@@ -11,11 +11,7 @@ VALUES (6867,   1,        128) /* ItemType - Misc */
      , (6867,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6867,   1, True ) /* Stuck */
-     , (6867,  11, True ) /* IgnoreCollisions */
-     , (6867,  12, True ) /* ReportCollisions */
-     , (6867,  13, False) /* Ethereal */
-     , (6867,  19, True ) /* Attackable */;
+VALUES (6867,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6867,   1, 'The Old Campaigner''s Bows') /* Name */

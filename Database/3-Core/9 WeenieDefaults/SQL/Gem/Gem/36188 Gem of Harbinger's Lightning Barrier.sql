@@ -13,21 +13,16 @@ VALUES (36188,   1,       2048) /* ItemType - Gem */
      , (36188,  16,          8) /* ItemUseable - Contained */
      , (36188,  18,          1) /* UiEffects - Magical */
      , (36188,  19,       1000) /* Value */
-     , (36188,  65,        101) /* Placement - Resting */
      , (36188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36188,  94,         16) /* TargetType - Creature */
      , (36188, 106,        300) /* ItemSpellcraft */
      , (36188, 107,        200) /* ItemCurMana */
      , (36188, 108,        200) /* ItemMaxMana */
-     , (36188, 109,          0) /* ItemDifficulty */;
+     , (36188, 109,          0) /* ItemDifficulty */
+     , (36188, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36188,   1, False) /* Stuck */
-     , (36188,  11, True ) /* IgnoreCollisions */
-     , (36188,  13, True ) /* Ethereal */
-     , (36188,  14, True ) /* GravityStatus */
-     , (36188,  19, True ) /* Attackable */
-     , (36188,  69, True ) /* IsSellable */;
+VALUES (36188,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36188,   1, 'Gem of Harbinger''s Lightning Barrier') /* Name */

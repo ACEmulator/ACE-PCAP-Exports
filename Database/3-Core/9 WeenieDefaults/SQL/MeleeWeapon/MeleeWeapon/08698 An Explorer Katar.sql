@@ -12,17 +12,12 @@ VALUES (8698,   1,          1) /* ItemType - MeleeWeapon */
      , (8698,  18,          1) /* UiEffects - Magical */
      , (8698,  19,          1) /* Value */
      , (8698,  51,          1) /* CombatUse - Melee */
-     , (8698,  65,          1) /* Placement - RightHandCombat */
      , (8698,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8698, 151,          2) /* HookType - Wall */;
+     , (8698, 151,          2) /* HookType - Wall */
+     , (8698, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8698,   1, False) /* Stuck */
-     , (8698,  11, True ) /* IgnoreCollisions */
-     , (8698,  13, True ) /* Ethereal */
-     , (8698,  14, True ) /* GravityStatus */
-     , (8698,  19, True ) /* Attackable */
-     , (8698,  22, True ) /* Inscribable */;
+VALUES (8698,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8698,   1, 'An Explorer Katar') /* Name */;

@@ -15,12 +15,7 @@ VALUES (53014,   1,         16) /* ItemType - Creature */
      , (53014, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53014,   1, True ) /* Stuck */
-     , (53014,  12, True ) /* ReportCollisions */
-     , (53014,  13, False) /* Ethereal */
-     , (53014,  14, True ) /* GravityStatus */
-     , (53014,  19, True ) /* Attackable */
-     , (53014,  42, True ) /* AllowEdgeSlide */;
+VALUES (53014,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53014,   1, 'Thunder Poult') /* Name */

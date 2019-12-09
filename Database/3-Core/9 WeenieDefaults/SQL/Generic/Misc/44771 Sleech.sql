@@ -11,15 +11,8 @@ VALUES (44771,   1,        128) /* ItemType - Misc */
      , (44771,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44771, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44771,   1, False) /* Stuck */
-     , (44771,  11, True ) /* IgnoreCollisions */
-     , (44771,  12, True ) /* ReportCollisions */
-     , (44771,  13, True ) /* Ethereal */
-     , (44771,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44771,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44771,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44771,   1, 'Sleech') /* Name */;

@@ -11,16 +11,11 @@ VALUES (35095,   1,          1) /* ItemType - MeleeWeapon */
      , (35095,  16,          1) /* ItemUseable - No */
      , (35095,  19,        125) /* Value */
      , (35095,  51,          1) /* CombatUse - Melee */
-     , (35095,  65,          1) /* Placement - RightHandCombat */
-     , (35095,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (35095,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (35095, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35095,   1, False) /* Stuck */
-     , (35095,  11, True ) /* IgnoreCollisions */
-     , (35095,  13, True ) /* Ethereal */
-     , (35095,  14, True ) /* GravityStatus */
-     , (35095,  19, True ) /* Attackable */
-     , (35095,  22, True ) /* Inscribable */;
+VALUES (35095,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35095,   1, 'Pyre Claw') /* Name */;

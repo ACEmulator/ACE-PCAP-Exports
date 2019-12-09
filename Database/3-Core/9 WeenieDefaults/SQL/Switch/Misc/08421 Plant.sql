@@ -10,13 +10,10 @@ VALUES (8421,   1,        128) /* ItemType - Misc */
      , (8421, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8421,   1, True ) /* Stuck */
-     , (8421,  11, True ) /* IgnoreCollisions */
-     , (8421,  13, False) /* Ethereal */
-     , (8421,  19, True ) /* Attackable */;
+VALUES (8421,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8421,  39, 0.800000011920929) /* DefaultScale */
+VALUES (8421,  39,     0.8) /* DefaultScale */
      , (8421,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

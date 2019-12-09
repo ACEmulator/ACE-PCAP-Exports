@@ -13,21 +13,16 @@ VALUES (14882,   1,       2048) /* ItemType - Gem */
      , (14882,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14882,  19,          0) /* Value */
      , (14882,  33,          1) /* Bonded - Bonded */
-     , (14882,  65,        101) /* Placement - Resting */
      , (14882,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14882,  94,       2048) /* TargetType - Gem */
-     , (14882, 114,          1) /* Attuned - Attuned */;
+     , (14882, 114,          1) /* Attuned - Attuned */
+     , (14882, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14882,   1, False) /* Stuck */
-     , (14882,  11, True ) /* IgnoreCollisions */
-     , (14882,  13, True ) /* Ethereal */
-     , (14882,  14, True ) /* GravityStatus */
-     , (14882,  19, True ) /* Attackable */
-     , (14882,  22, True ) /* Inscribable */;
+VALUES (14882,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14882,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (14882,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14882,   1, 'Ring of a Singularity Key') /* Name */

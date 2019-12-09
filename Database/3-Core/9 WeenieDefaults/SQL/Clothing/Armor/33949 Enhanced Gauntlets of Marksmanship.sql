@@ -11,16 +11,11 @@ VALUES (33949,   1,          2) /* ItemType - Armor */
      , (33949,  16,          1) /* ItemUseable - No */
      , (33949,  18,          1) /* UiEffects - Magical */
      , (33949,  19,       6000) /* Value */
-     , (33949,  65,        101) /* Placement - Resting */
-     , (33949,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (33949,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33949, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33949,   1, False) /* Stuck */
-     , (33949,  11, True ) /* IgnoreCollisions */
-     , (33949,  13, True ) /* Ethereal */
-     , (33949,  14, True ) /* GravityStatus */
-     , (33949,  19, True ) /* Attackable */
-     , (33949,  22, True ) /* Inscribable */;
+VALUES (33949,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33949,   1, 'Enhanced Gauntlets of Marksmanship') /* Name */;

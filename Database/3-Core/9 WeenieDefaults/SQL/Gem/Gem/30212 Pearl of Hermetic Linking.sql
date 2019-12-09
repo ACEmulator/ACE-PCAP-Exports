@@ -16,22 +16,17 @@ VALUES (30212,   1,       2048) /* ItemType - Gem */
      , (30212,  19,          0) /* Value */
      , (30212,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30212,  33,         -1) /* Bonded - Slippery */
-     , (30212,  65,        101) /* Placement - Resting */
      , (30212,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30212,  94,         16) /* TargetType - Creature */
      , (30212, 106,        325) /* ItemSpellcraft */
      , (30212, 107,      10000) /* ItemCurMana */
      , (30212, 108,      10000) /* ItemMaxMana */
      , (30212, 109,          0) /* ItemDifficulty */
-     , (30212, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30212, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30212, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30212,   1, False) /* Stuck */
-     , (30212,  11, True ) /* IgnoreCollisions */
-     , (30212,  13, True ) /* Ethereal */
-     , (30212,  14, True ) /* GravityStatus */
-     , (30212,  19, True ) /* Attackable */
-     , (30212, 108, True ) /* RareUsesTimer */;
+VALUES (30212, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30212,   1, 'Pearl of Hermetic Linking') /* Name */

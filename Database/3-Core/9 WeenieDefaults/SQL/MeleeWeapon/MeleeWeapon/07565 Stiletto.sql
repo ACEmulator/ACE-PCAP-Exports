@@ -22,16 +22,10 @@ VALUES (7565,   1,          1) /* ItemType - MeleeWeapon */
      , (7565, 114,          1) /* Attuned - Attuned */
      , (7565, 151,          2) /* HookType - Wall */
      , (7565, 353,          6) /* WeaponType - Dagger */
-     , (7565, 8030,          0);
+     , (7565, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7565,   1, False) /* Stuck */
-     , (7565,  11, True ) /* IgnoreCollisions */
-     , (7565,  13, True ) /* Ethereal */
-     , (7565,  14, True ) /* GravityStatus */
-     , (7565,  15, True ) /* LightsStatus */
-     , (7565,  19, True ) /* Attackable */
-     , (7565,  22, True ) /* Inscribable */;
+VALUES (7565,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7565,  21,       0) /* WeaponLength */

@@ -12,19 +12,13 @@ VALUES (39000,   1,      65536) /* ItemType - Portal */
      , (39000, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39000,   1, True ) /* Stuck */
-     , (39000,  12, True ) /* ReportCollisions */
-     , (39000,  13, True ) /* Ethereal */
-     , (39000,  14, True ) /* GravityStatus */
-     , (39000,  15, True ) /* LightsStatus */
-     , (39000,  19, True ) /* Attackable */;
+VALUES (39000,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39000,  54, -0.100000001490116) /* UseRadius */;
+VALUES (39000,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39000,   1, 'Yaraq Casino VIP Portal') /* Name */
-     , (39000,  38, 'Yaraq Casino VIP Portal (21.5S, 0.8W).') /* AppraisalPortalDestination */
      , (39000, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

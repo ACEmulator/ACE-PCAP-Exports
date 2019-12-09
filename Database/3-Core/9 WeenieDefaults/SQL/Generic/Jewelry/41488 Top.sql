@@ -9,22 +9,17 @@ VALUES (41488,   1,          8) /* ItemType - Jewelry */
      , (41488,   9,   67108864) /* ValidLocations - TrinketOne */
      , (41488,  16,          1) /* ItemUseable - No */
      , (41488,  19,        162) /* Value */
-     , (41488,  65,        101) /* Placement - Resting */
      , (41488,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41488, 105,          6) /* ItemWorkmanship */
      , (41488, 131,         59) /* MaterialType - Copper */
-     , (41488, 172,          1) /* AppraisalLongDescDecoration */;
+     , (41488, 172,          1) /* AppraisalLongDescDecoration */
+     , (41488, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41488,   1, False) /* Stuck */
-     , (41488,  11, True ) /* IgnoreCollisions */
-     , (41488,  13, True ) /* Ethereal */
-     , (41488,  14, True ) /* GravityStatus */
-     , (41488,  19, True ) /* Attackable */
-     , (41488,  22, True ) /* Inscribable */;
+VALUES (41488,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41488,  39, 0.400000005960464) /* DefaultScale */
+VALUES (41488,  39,     0.4) /* DefaultScale */
      , (41488, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

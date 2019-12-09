@@ -13,21 +13,15 @@ VALUES (42152,   1,      65536) /* ItemType - Portal */
      , (42152, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42152,   1, True ) /* Stuck */
-     , (42152,  12, True ) /* ReportCollisions */
-     , (42152,  13, True ) /* Ethereal */
-     , (42152,  14, True ) /* GravityStatus */
-     , (42152,  15, True ) /* LightsStatus */
-     , (42152,  19, True ) /* Attackable */;
+VALUES (42152,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42152,  39, 0.800000011920929) /* DefaultScale */
-     , (42152,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42152,  39,     0.8) /* DefaultScale */
+     , (42152,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42152,   1, 'Mite Maze') /* Name */
      , (42152,  16, 'A portal leading to the the Lost Wish Mountains near the Mite Maze where Branith''s stolen possessions may be found.') /* LongDesc */
-     , (42152,  38, 'Mite Maze (41.1N, 57.0E).') /* AppraisalPortalDestination */
      , (42152, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

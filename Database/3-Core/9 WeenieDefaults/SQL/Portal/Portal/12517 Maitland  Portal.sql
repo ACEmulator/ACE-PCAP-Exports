@@ -12,19 +12,13 @@ VALUES (12517,   1,      65536) /* ItemType - Portal */
      , (12517, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12517,   1, True ) /* Stuck */
-     , (12517,  12, True ) /* ReportCollisions */
-     , (12517,  13, True ) /* Ethereal */
-     , (12517,  14, True ) /* GravityStatus */
-     , (12517,  15, True ) /* LightsStatus */
-     , (12517,  19, True ) /* Attackable */;
+VALUES (12517,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12517,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12517,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12517,   1, 'Maitland  Portal') /* Name */
-     , (12517,  38, 'Maitland  Portal (25.5N, 6.7E).') /* AppraisalPortalDestination */
      , (12517, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

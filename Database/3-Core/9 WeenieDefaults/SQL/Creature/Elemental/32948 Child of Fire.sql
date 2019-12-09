@@ -15,15 +15,10 @@ VALUES (32948,   1,         16) /* ItemType - Creature */
      , (32948, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32948,   1, True ) /* Stuck */
-     , (32948,  12, True ) /* ReportCollisions */
-     , (32948,  13, False) /* Ethereal */
-     , (32948,  14, True ) /* GravityStatus */
-     , (32948,  15, True ) /* LightsStatus */
-     , (32948,  19, True ) /* Attackable */;
+VALUES (32948,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32948,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (32948,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32948,   1, 'Child of Fire') /* Name */

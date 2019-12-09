@@ -18,18 +18,13 @@ VALUES (36852,   1,         16) /* ItemType - Creature */
      , (36852, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36852,   1, True ) /* Stuck */
-     , (36852,  12, True ) /* ReportCollisions */
-     , (36852,  13, False) /* Ethereal */
-     , (36852,  14, True ) /* GravityStatus */
-     , (36852,  19, True ) /* Attackable */
-     , (36852,  42, True ) /* AllowEdgeSlide */;
+VALUES (36852,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36852,  76,     0.5) /* Translucency */
      , (36852, 8010,       0) /* PCAPRecordedVelocityX */
      , (36852, 8011,       0) /* PCAPRecordedVelocityY */
-     , (36852, 8012, -0.0991307720541954) /* PCAPRecordedVelocityZ */;
+     , (36852, 8012,    -0.1) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36852,   1, 'Shadow Spectre') /* Name */

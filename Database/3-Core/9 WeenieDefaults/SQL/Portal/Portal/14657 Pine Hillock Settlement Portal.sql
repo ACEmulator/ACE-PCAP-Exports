@@ -12,19 +12,13 @@ VALUES (14657,   1,      65536) /* ItemType - Portal */
      , (14657, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14657,   1, True ) /* Stuck */
-     , (14657,  12, True ) /* ReportCollisions */
-     , (14657,  13, True ) /* Ethereal */
-     , (14657,  14, True ) /* GravityStatus */
-     , (14657,  15, True ) /* LightsStatus */
-     , (14657,  19, True ) /* Attackable */;
+VALUES (14657,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14657,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14657,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14657,   1, 'Pine Hillock Settlement Portal') /* Name */
-     , (14657,  38, 'Pine Hillock Settlement Portal (45.7N, 14.6E).') /* AppraisalPortalDestination */
      , (14657, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

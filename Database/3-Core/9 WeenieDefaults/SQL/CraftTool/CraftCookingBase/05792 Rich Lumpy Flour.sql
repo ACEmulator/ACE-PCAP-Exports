@@ -12,17 +12,12 @@ VALUES (5792,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5792,  15,          3) /* StackUnitValue */
      , (5792,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5792,  19,          3) /* Value */
-     , (5792,  65,        101) /* Placement - Resting */
      , (5792,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5792,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
+     , (5792,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (5792, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5792,   1, False) /* Stuck */
-     , (5792,  11, True ) /* IgnoreCollisions */
-     , (5792,  13, True ) /* Ethereal */
-     , (5792,  14, True ) /* GravityStatus */
-     , (5792,  19, True ) /* Attackable */
-     , (5792,  69, False) /* IsSellable */;
+VALUES (5792,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5792,   1, 'Rich Lumpy Flour') /* Name */

@@ -11,18 +11,14 @@ VALUES (39745,   1,        512) /* ItemType - Container */
      , (39745,  18,          1) /* UiEffects - Magical */
      , (39745,  19,          0) /* Value */
      , (39745,  33,          1) /* Bonded - Bonded */
-     , (39745,  65,        101) /* Placement - Resting */
      , (39745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (39745, 114,          1) /* Attuned - Attuned */;
+     , (39745, 114,          1) /* Attuned - Attuned */
+     , (39745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39745,   1, False) /* Stuck */
-     , (39745,   2, True ) /* Open */
-     , (39745,  11, True ) /* IgnoreCollisions */
-     , (39745,  13, True ) /* Ethereal */
-     , (39745,  14, True ) /* GravityStatus */
-     , (39745,  19, True ) /* Attackable */
+VALUES (39745,   2, False) /* Open */
      , (39745,  22, True ) /* Inscribable */
+     , (39745,  34, False) /* DefaultOpen */
      , (39745,  69, False) /* IsSellable */
      , (39745,  99, False) /* Ivoryable */;
 

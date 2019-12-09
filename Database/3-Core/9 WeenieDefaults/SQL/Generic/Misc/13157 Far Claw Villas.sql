@@ -11,12 +11,7 @@ VALUES (13157,   1,        128) /* ItemType - Misc */
      , (13157,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13157,   1, True ) /* Stuck */
-     , (13157,  11, True ) /* IgnoreCollisions */
-     , (13157,  12, True ) /* ReportCollisions */
-     , (13157,  13, False) /* Ethereal */
-     , (13157,  14, True ) /* GravityStatus */
-     , (13157,  19, True ) /* Attackable */;
+VALUES (13157,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13157,   1, 'Far Claw Villas') /* Name */

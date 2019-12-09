@@ -16,11 +16,7 @@ VALUES (25806,   1,         16) /* ItemType - Creature */
      , (25806, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25806,   1, True ) /* Stuck */
-     , (25806,  12, True ) /* ReportCollisions */
-     , (25806,  13, False) /* Ethereal */
-     , (25806,  14, True ) /* GravityStatus */
-     , (25806,  19, True ) /* Attackable */;
+VALUES (25806,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25806,   1, 'Tormenter') /* Name */

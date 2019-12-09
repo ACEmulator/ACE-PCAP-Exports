@@ -11,28 +11,23 @@ VALUES (11757,   1,      32768) /* ItemType - Caster */
      , (11757,  18,          1) /* UiEffects - Magical */
      , (11757,  19,          0) /* Value */
      , (11757,  33,          1) /* Bonded - Bonded */
-     , (11757,  65,        101) /* Placement - Resting */
      , (11757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11757,  94,         16) /* TargetType - Creature */
      , (11757, 106,        200) /* ItemSpellcraft */
      , (11757, 107,        599) /* ItemCurMana */
      , (11757, 108,        600) /* ItemMaxMana */
      , (11757, 109,         60) /* ItemDifficulty */
-     , (11757, 114,          1) /* Attuned - Attuned */;
+     , (11757, 114,          1) /* Attuned - Attuned */
+     , (11757, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11757,   1, False) /* Stuck */
-     , (11757,  11, True ) /* IgnoreCollisions */
-     , (11757,  13, True ) /* Ethereal */
-     , (11757,  14, True ) /* GravityStatus */
-     , (11757,  19, True ) /* Attackable */
-     , (11757,  22, True ) /* Inscribable */
+VALUES (11757,  22, True ) /* Inscribable */
      , (11757,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11757,   5,  -0.025) /* ManaRate */
-     , (11757,  29, 1.17000000178814) /* WeaponDefense */
-     , (11757, 144, 1.29916824394614E-314) /* ManaConversionMod */;
+VALUES (11757,   5,   -0.02) /* ManaRate */
+     , (11757,  29,    1.17) /* WeaponDefense */
+     , (11757, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11757,   1, 'Hafted Falcon Banner with Symbol') /* Name */

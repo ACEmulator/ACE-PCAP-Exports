@@ -6,14 +6,11 @@ VALUES (51414, 'ace51414-bookcase', 1, '2019-02-10 00:00:00') /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51414,   1,        128) /* ItemType - Misc */
      , (51414,  16,         48) /* ItemUseable - ViewedRemote */
-     , (51414,  93,      65556) /* PhysicsState - Ethereal, IgnoreCollisions, HasPhysicsBSP */
+     , (51414,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (51414, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51414,   1, True ) /* Stuck */
-     , (51414,  11, True ) /* IgnoreCollisions */
-     , (51414,  13, True ) /* Ethereal */
-     , (51414,  19, True ) /* Attackable */;
+VALUES (51414,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51414,  54,       2) /* UseRadius */;

@@ -12,19 +12,13 @@ VALUES (37047,   1,      65536) /* ItemType - Portal */
      , (37047, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37047,   1, True ) /* Stuck */
-     , (37047,  11, True ) /* IgnoreCollisions */
-     , (37047,  13, True ) /* Ethereal */
-     , (37047,  14, True ) /* GravityStatus */
-     , (37047,  15, True ) /* LightsStatus */
-     , (37047,  19, True ) /* Attackable */;
+VALUES (37047,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37047,  54, 0.100000001490116) /* UseRadius */;
+VALUES (37047,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37047,   1, 'Emissary''s Return Portal') /* Name */
-     , (37047,  38, 'Emissary''s Return Portal') /* AppraisalPortalDestination */
      , (37047, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

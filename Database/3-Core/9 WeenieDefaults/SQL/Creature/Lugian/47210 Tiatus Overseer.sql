@@ -16,11 +16,7 @@ VALUES (47210,   1,         16) /* ItemType - Creature */
      , (47210, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47210,   1, True ) /* Stuck */
-     , (47210,  12, True ) /* ReportCollisions */
-     , (47210,  13, False) /* Ethereal */
-     , (47210,  14, True ) /* GravityStatus */
-     , (47210,  19, True ) /* Attackable */;
+VALUES (47210,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47210,   1, 'Tiatus Overseer') /* Name */

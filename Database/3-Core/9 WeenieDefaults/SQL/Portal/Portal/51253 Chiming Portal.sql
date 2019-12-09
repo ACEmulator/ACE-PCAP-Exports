@@ -11,15 +11,10 @@ VALUES (51253,   1,      65536) /* ItemType - Portal */
      , (51253, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51253,   1, True ) /* Stuck */
-     , (51253,  12, True ) /* ReportCollisions */
-     , (51253,  13, True ) /* Ethereal */
-     , (51253,  14, True ) /* GravityStatus */
-     , (51253,  15, True ) /* LightsStatus */
-     , (51253,  19, True ) /* Attackable */;
+VALUES (51253,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51253,  54, -0.100000001490116) /* UseRadius */;
+VALUES (51253,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51253,   1, 'Chiming Portal') /* Name */

@@ -17,11 +17,7 @@ VALUES (37098,   1,         16) /* ItemType - Creature */
      , (37098, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37098,   1, True ) /* Stuck */
-     , (37098,  12, True ) /* ReportCollisions */
-     , (37098,  13, False) /* Ethereal */
-     , (37098,  14, True ) /* GravityStatus */
-     , (37098,  19, True ) /* Attackable */;
+VALUES (37098,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37098,   1, 'Shroud Cabal Raider') /* Name */

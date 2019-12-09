@@ -13,16 +13,9 @@ VALUES (53299,   1,       2048) /* ItemType - Gem */
      , (53299,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53299,  18,        256) /* UiEffects - Acid */
      , (53299,  19,         25) /* Value */
-     , (53299,  65,        101) /* Placement - Resting */
      , (53299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53299,  94,          6) /* TargetType - Vestements */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53299,   1, False) /* Stuck */
-     , (53299,  11, True ) /* IgnoreCollisions */
-     , (53299,  13, True ) /* Ethereal */
-     , (53299,  14, True ) /* GravityStatus */
-     , (53299,  19, True ) /* Attackable */;
+     , (53299,  94,          6) /* TargetType - Vestements */
+     , (53299, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53299,   1, 'Luminous Amber: Gauntlets of the Storm') /* Name */

@@ -16,14 +16,10 @@ VALUES (36823,   1,         16) /* ItemType - Creature */
      , (36823, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36823,   1, True ) /* Stuck */
-     , (36823,  12, True ) /* ReportCollisions */
-     , (36823,  13, False) /* Ethereal */
-     , (36823,  14, True ) /* GravityStatus */
-     , (36823,  19, True ) /* Attackable */;
+VALUES (36823,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36823,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (36823,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36823,   1, 'Drudge Cabalist') /* Name */

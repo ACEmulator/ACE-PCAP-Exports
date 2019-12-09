@@ -12,23 +12,18 @@ VALUES (46181,   1,      32768) /* ItemType - Caster */
      , (46181,  18,          1) /* UiEffects - Magical */
      , (46181,  19,       8000) /* Value */
      , (46181,  33,          1) /* Bonded - Bonded */
-     , (46181,  65,          1) /* Placement - RightHandCombat */
      , (46181,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46181,  94,         16) /* TargetType - Creature */
-     , (46181, 151,          2) /* HookType - Wall */;
+     , (46181, 151,          2) /* HookType - Wall */
+     , (46181, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46181,   1, False) /* Stuck */
-     , (46181,  11, True ) /* IgnoreCollisions */
-     , (46181,  13, True ) /* Ethereal */
-     , (46181,  14, True ) /* GravityStatus */
-     , (46181,  19, True ) /* Attackable */
-     , (46181,  22, True ) /* Inscribable */
+VALUES (46181,  22, True ) /* Inscribable */
      , (46181,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46181,  29,    1.08) /* WeaponDefense */
-     , (46181, 144, 1.26377189147015E-314) /* ManaConversionMod */;
+     , (46181, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46181,   1, 'Isparian Wand') /* Name */

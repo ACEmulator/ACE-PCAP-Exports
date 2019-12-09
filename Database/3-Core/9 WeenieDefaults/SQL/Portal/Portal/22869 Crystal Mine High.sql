@@ -11,15 +11,10 @@ VALUES (22869,   1,      65536) /* ItemType - Portal */
      , (22869, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22869,   1, True ) /* Stuck */
-     , (22869,  12, True ) /* ReportCollisions */
-     , (22869,  13, True ) /* Ethereal */
-     , (22869,  14, True ) /* GravityStatus */
-     , (22869,  15, True ) /* LightsStatus */
-     , (22869,  19, True ) /* Attackable */;
+VALUES (22869,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22869,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22869,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22869,   1, 'Crystal Mine High') /* Name */

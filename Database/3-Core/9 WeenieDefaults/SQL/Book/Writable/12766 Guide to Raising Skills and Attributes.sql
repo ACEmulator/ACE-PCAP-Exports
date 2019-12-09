@@ -9,22 +9,15 @@ VALUES (12766,   1,       8192) /* ItemType - Writable */
      , (12766,  16,          8) /* ItemUseable - Contained */
      , (12766,  19,          0) /* Value */
      , (12766,  33,          1) /* Bonded - Bonded */
-     , (12766,  65,        101) /* Placement - Resting */
      , (12766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12766, 114,          0) /* Attuned - Normal */
-     , (12766, 174,          2) /* AppraisalPages */
-     , (12766, 175,          2) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12766,   1, False) /* Stuck */
-     , (12766,  11, True ) /* IgnoreCollisions */
-     , (12766,  13, True ) /* Ethereal */
-     , (12766,  14, True ) /* GravityStatus */
-     , (12766,  19, True ) /* Attackable */;
+     , (12766, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (12766, 8042,          2) /* PCAPRecordedAppraisalPages */
+     , (12766, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12766,  39, 1.22000002861023) /* DefaultScale */
-     , (12766,  54, 0.300000011920929) /* UseRadius */;
+VALUES (12766,  39,    1.22) /* DefaultScale */
+     , (12766,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12766,   1, 'Guide to Raising Skills and Attributes') /* Name */;

@@ -11,7 +11,6 @@ VALUES (19551,   1,          8) /* ItemType - Jewelry */
      , (19551,  18,        256) /* UiEffects - Acid */
      , (19551,  19,       5000) /* Value */
      , (19551,  33,          1) /* Bonded - Bonded */
-     , (19551,  65,        101) /* Placement - Resting */
      , (19551,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19551, 106,        225) /* ItemSpellcraft */
      , (19551, 107,         81) /* ItemCurMana */
@@ -21,22 +20,18 @@ VALUES (19551,   1,          8) /* ItemType - Jewelry */
      , (19551, 151,          2) /* HookType - Wall */
      , (19551, 158,          7) /* WieldRequirements - Level */
      , (19551, 159,          1) /* WieldSkillType - Axe */
-     , (19551, 160,         45) /* WieldDifficulty */;
+     , (19551, 160,         45) /* WieldDifficulty */
+     , (19551, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19551,   1, False) /* Stuck */
-     , (19551,  11, True ) /* IgnoreCollisions */
-     , (19551,  13, True ) /* Ethereal */
-     , (19551,  14, True ) /* GravityStatus */
-     , (19551,  19, True ) /* Attackable */
-     , (19551,  22, True ) /* Inscribable */
+VALUES (19551,  22, True ) /* Inscribable */
      , (19551,  69, False) /* IsSellable */
      , (19551,  94, True ) /* AppraisalHasAllowedActivator */
      , (19551,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19551,   5,  -0.033) /* ManaRate */
-     , (19551,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19551,   5,   -0.03) /* ManaRate */
+     , (19551,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19551,   1, 'Nuhmudira''s Bestowment of Coordination and Acid Defense') /* Name */

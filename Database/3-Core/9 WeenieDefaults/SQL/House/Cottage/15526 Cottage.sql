@@ -7,20 +7,16 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15526,   1,        128) /* ItemType - Misc */
      , (15526,   5,         10) /* EncumbranceVal */
      , (15526,  16,          1) /* ItemUseable - No */
-     , (15526,  65,        101) /* Placement - Resting */
      , (15526,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
-     , (15526, 155,          1) /* HouseType - Cottage */;
+     , (15526, 155,          1) /* HouseType - Cottage */
+     , (15526, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15526,   1, True ) /* Stuck */
-     , (15526,  11, True ) /* IgnoreCollisions */
-     , (15526,  13, True ) /* Ethereal */
-     , (15526,  19, True ) /* Attackable */
-     , (15526,  24, True ) /* UiHidden */
-     , (15526,  71, True ) /* NoDraw */;
+     , (15526,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15526,  39, 0.100000001490116) /* DefaultScale */;
+VALUES (15526,  39,     0.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15526,   1, 'Cottage') /* Name */;

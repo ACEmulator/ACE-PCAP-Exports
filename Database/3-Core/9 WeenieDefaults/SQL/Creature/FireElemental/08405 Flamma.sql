@@ -16,16 +16,10 @@ VALUES (8405,   1,         16) /* ItemType - Creature */
      , (8405, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8405,   1, True ) /* Stuck */
-     , (8405,  12, True ) /* ReportCollisions */
-     , (8405,  13, False) /* Ethereal */
-     , (8405,  14, True ) /* GravityStatus */
-     , (8405,  15, True ) /* LightsStatus */
-     , (8405,  19, True ) /* Attackable */
-     , (8405,  42, True ) /* AllowEdgeSlide */;
+VALUES (8405,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8405,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (8405,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8405,   1, 'Flamma') /* Name */

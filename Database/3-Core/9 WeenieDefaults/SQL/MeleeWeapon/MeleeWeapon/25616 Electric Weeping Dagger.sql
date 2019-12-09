@@ -18,7 +18,6 @@ VALUES (25616,   1,          1) /* ItemType - MeleeWeapon */
      , (25616,  48,         45) /* WeaponSkill - LightWeapons */
      , (25616,  49,          1) /* WeaponTime */
      , (25616,  51,          1) /* CombatUse - Melee */
-     , (25616,  65,        101) /* Placement - Resting */
      , (25616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25616, 106,        300) /* ItemSpellcraft */
      , (25616, 107,        703) /* ItemCurMana */
@@ -30,19 +29,15 @@ VALUES (25616,   1,          1) /* ItemType - MeleeWeapon */
      , (25616, 159,         45) /* WieldSkillType - LightWeapons */
      , (25616, 160,        325) /* WieldDifficulty */
      , (25616, 166,         31) /* SlayerCreatureType - Human */
-     , (25616, 8030,          0);
+     , (25616, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (25616, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25616,   1, False) /* Stuck */
-     , (25616,  11, True ) /* IgnoreCollisions */
-     , (25616,  13, True ) /* Ethereal */
-     , (25616,  14, True ) /* GravityStatus */
-     , (25616,  19, True ) /* Attackable */
-     , (25616,  22, True ) /* Inscribable */
+VALUES (25616,  22, True ) /* Inscribable */
      , (25616,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25616,   5,  -0.025) /* ManaRate */
+VALUES (25616,   5,   -0.02) /* ManaRate */
      , (25616,  21,       0) /* WeaponLength */
      , (25616,  22,     0.3) /* DamageVariance */
      , (25616,  26,       0) /* MaximumVelocity */

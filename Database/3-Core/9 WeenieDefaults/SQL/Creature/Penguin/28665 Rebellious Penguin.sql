@@ -15,11 +15,7 @@ VALUES (28665,   1,         16) /* ItemType - Creature */
      , (28665, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28665,   1, True ) /* Stuck */
-     , (28665,  12, True ) /* ReportCollisions */
-     , (28665,  13, False) /* Ethereal */
-     , (28665,  14, True ) /* GravityStatus */
-     , (28665,  19, True ) /* Attackable */;
+VALUES (28665,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28665,   1, 'Rebellious Penguin') /* Name */

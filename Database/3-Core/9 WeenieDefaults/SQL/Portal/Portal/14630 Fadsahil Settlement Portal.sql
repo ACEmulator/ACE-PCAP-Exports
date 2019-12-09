@@ -12,19 +12,13 @@ VALUES (14630,   1,      65536) /* ItemType - Portal */
      , (14630, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14630,   1, True ) /* Stuck */
-     , (14630,  12, True ) /* ReportCollisions */
-     , (14630,  13, True ) /* Ethereal */
-     , (14630,  14, True ) /* GravityStatus */
-     , (14630,  15, True ) /* LightsStatus */
-     , (14630,  19, True ) /* Attackable */;
+VALUES (14630,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14630,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14630,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14630,   1, 'Fadsahil Settlement Portal') /* Name */
-     , (14630,  38, 'Fadsahil Settlement Portal (48.8N, 43.9W).') /* AppraisalPortalDestination */
      , (14630, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

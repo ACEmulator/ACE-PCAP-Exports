@@ -15,11 +15,7 @@ VALUES (2564,   1,         16) /* ItemType - Creature */
      , (2564, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2564,   1, True ) /* Stuck */
-     , (2564,  12, True ) /* ReportCollisions */
-     , (2564,  13, False) /* Ethereal */
-     , (2564,  14, True ) /* GravityStatus */
-     , (2564,  19, True ) /* Attackable */;
+VALUES (2564,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2564,   1, 'Freshwater Armoredillo') /* Name */

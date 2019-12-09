@@ -11,7 +11,6 @@ VALUES (9491,   1,      32768) /* ItemType - Caster */
      , (9491,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (9491,  18,          1) /* UiEffects - Magical */
      , (9491,  19,       2000) /* Value */
-     , (9491,  65,          1) /* Placement - RightHandCombat */
      , (9491,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9491,  94,         16) /* TargetType - Creature */
      , (9491, 106,         65) /* ItemSpellcraft */
@@ -20,20 +19,16 @@ VALUES (9491,   1,      32768) /* ItemType - Caster */
      , (9491, 109,        100) /* ItemDifficulty */
      , (9491, 115,        200) /* ItemSkillLevelLimit */
      , (9491, 151,          2) /* HookType - Wall */
-     , (9491, 176,         16) /* AppraisalItemSkill */;
+     , (9491, 176,         16) /* AppraisalItemSkill */
+     , (9491, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9491,   1, False) /* Stuck */
-     , (9491,  11, True ) /* IgnoreCollisions */
-     , (9491,  13, True ) /* Ethereal */
-     , (9491,  14, True ) /* GravityStatus */
-     , (9491,  19, True ) /* Attackable */
-     , (9491,  22, True ) /* Inscribable */;
+VALUES (9491,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9491,   5,  -0.033) /* ManaRate */
+VALUES (9491,   5,   -0.03) /* ManaRate */
      , (9491,  29,       1) /* WeaponDefense */
-     , (9491, 144, 1.36631260413943E-314) /* ManaConversionMod */;
+     , (9491, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9491,   1, 'Staff of Clarity') /* Name */

@@ -13,21 +13,16 @@ VALUES (43146,   1,        128) /* ItemType - Misc */
      , (43146,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (43146,  19,          0) /* Value */
      , (43146,  33,          1) /* Bonded - Bonded */
-     , (43146,  65,        101) /* Placement - Resting */
      , (43146,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43146,  94,          2) /* TargetType - Armor */
-     , (43146, 114,          1) /* Attuned - Attuned */;
+     , (43146, 114,          1) /* Attuned - Attuned */
+     , (43146, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43146,   1, False) /* Stuck */
-     , (43146,  11, True ) /* IgnoreCollisions */
-     , (43146,  13, True ) /* Ethereal */
-     , (43146,  14, True ) /* GravityStatus */
-     , (43146,  19, True ) /* Attackable */
-     , (43146,  22, True ) /* Inscribable */;
+VALUES (43146,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43146,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (43146,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43146,   1, 'Ruined Amulet of the Two Hander') /* Name */

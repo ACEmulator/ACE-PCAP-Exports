@@ -11,16 +11,11 @@ VALUES (7628,   1,          2) /* ItemType - Armor */
      , (7628,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (7628,  16,          1) /* ItemUseable - No */
      , (7628,  19,       2680) /* Value */
-     , (7628,  65,        101) /* Placement - Resting */
-     , (7628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7628, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7628,   1, False) /* Stuck */
-     , (7628,  11, True ) /* IgnoreCollisions */
-     , (7628,  13, True ) /* Ethereal */
-     , (7628,  14, True ) /* GravityStatus */
-     , (7628,  19, True ) /* Attackable */
-     , (7628,  22, True ) /* Inscribable */;
+VALUES (7628,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7628,   1, 'Greater Celdon Shadow Breastplate') /* Name */;

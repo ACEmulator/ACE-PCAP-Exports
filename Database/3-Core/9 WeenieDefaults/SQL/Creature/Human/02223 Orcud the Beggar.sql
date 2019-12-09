@@ -20,12 +20,7 @@ VALUES (2223,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2223,   1, True ) /* Stuck */
-     , (2223,  11, True ) /* IgnoreCollisions */
-     , (2223,  12, True ) /* ReportCollisions */
-     , (2223,  13, False) /* Ethereal */
-     , (2223,  14, True ) /* GravityStatus */
-     , (2223,  19, False) /* Attackable */
-     , (2223,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (2223,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2223,   1, 'Orcud the Beggar') /* Name */

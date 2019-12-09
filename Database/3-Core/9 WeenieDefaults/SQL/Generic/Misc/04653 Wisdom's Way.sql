@@ -11,11 +11,7 @@ VALUES (4653,   1,        128) /* ItemType - Misc */
      , (4653,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4653,   1, True ) /* Stuck */
-     , (4653,  11, True ) /* IgnoreCollisions */
-     , (4653,  12, True ) /* ReportCollisions */
-     , (4653,  13, False) /* Ethereal */
-     , (4653,  19, True ) /* Attackable */;
+VALUES (4653,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4653,   1, 'Wisdom''s Way') /* Name */

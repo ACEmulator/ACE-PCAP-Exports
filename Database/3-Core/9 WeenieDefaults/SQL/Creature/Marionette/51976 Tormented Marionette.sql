@@ -15,14 +15,10 @@ VALUES (51976,   1,         16) /* ItemType - Creature */
      , (51976, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51976,   1, True ) /* Stuck */
-     , (51976,  12, True ) /* ReportCollisions */
-     , (51976,  13, False) /* Ethereal */
-     , (51976,  14, True ) /* GravityStatus */
-     , (51976,  19, True ) /* Attackable */;
+VALUES (51976,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51976,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (51976,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51976,   1, 'Tormented Marionette') /* Name */

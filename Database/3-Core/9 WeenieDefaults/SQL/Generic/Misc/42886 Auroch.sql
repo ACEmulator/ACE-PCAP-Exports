@@ -11,11 +11,7 @@ VALUES (42886,   1,        128) /* ItemType - Misc */
      , (42886,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42886,   1, True ) /* Stuck */
-     , (42886,  11, True ) /* IgnoreCollisions */
-     , (42886,  12, True ) /* ReportCollisions */
-     , (42886,  13, True ) /* Ethereal */
-     , (42886,  19, True ) /* Attackable */;
+VALUES (42886,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42886,   1, 'Auroch') /* Name */

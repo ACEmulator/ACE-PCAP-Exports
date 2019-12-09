@@ -11,15 +11,10 @@ VALUES (25227,   1,      65536) /* ItemType - Portal */
      , (25227, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25227,   1, True ) /* Stuck */
-     , (25227,  12, True ) /* ReportCollisions */
-     , (25227,  13, True ) /* Ethereal */
-     , (25227,  14, True ) /* GravityStatus */
-     , (25227,  15, True ) /* LightsStatus */
-     , (25227,  19, True ) /* Attackable */;
+VALUES (25227,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25227,  54, -0.100000001490116) /* UseRadius */;
+VALUES (25227,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25227,   1, 'Tainted Grotto') /* Name */

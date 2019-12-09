@@ -15,11 +15,7 @@ VALUES (36862,   1,         16) /* ItemType - Creature */
      , (36862, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36862,   1, True ) /* Stuck */
-     , (36862,  12, True ) /* ReportCollisions */
-     , (36862,  13, False) /* Ethereal */
-     , (36862,  14, True ) /* GravityStatus */
-     , (36862,  19, True ) /* Attackable */;
+VALUES (36862,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36862,   1, 'Virindi Desecrator') /* Name */

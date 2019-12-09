@@ -13,18 +13,11 @@ VALUES (34836,   1,        128) /* ItemType - Misc */
      , (34836,  16,          1) /* ItemUseable - No */
      , (34836,  18,          4) /* UiEffects - BoostHealth */
      , (34836,  19,         10) /* Value */
-     , (34836,  65,        101) /* Placement - Resting */
-     , (34836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34836,   1, False) /* Stuck */
-     , (34836,  11, True ) /* IgnoreCollisions */
-     , (34836,  13, True ) /* Ethereal */
-     , (34836,  14, True ) /* GravityStatus */
-     , (34836,  19, True ) /* Attackable */;
+     , (34836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34836, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34836,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (34836,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34836,   1, 'Red Glow Mushroom') /* Name */

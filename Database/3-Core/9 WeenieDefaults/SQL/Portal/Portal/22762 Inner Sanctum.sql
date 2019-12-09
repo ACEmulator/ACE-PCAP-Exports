@@ -13,14 +13,10 @@ VALUES (22762,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22762,   1, True ) /* Stuck */
-     , (22762,  12, True ) /* ReportCollisions */
-     , (22762,  13, True ) /* Ethereal */
-     , (22762,  14, True ) /* GravityStatus */
-     , (22762,  15, True ) /* LightsStatus */
-     , (22762,  19, True ) /* Attackable */;
+     , (22762,  88, False) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22762,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22762,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22762,   1, 'Inner Sanctum') /* Name */

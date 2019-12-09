@@ -16,15 +16,10 @@ VALUES (2574,   1,         16) /* ItemType - Creature */
      , (2574, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2574,   1, True ) /* Stuck */
-     , (2574,  12, True ) /* ReportCollisions */
-     , (2574,  13, False) /* Ethereal */
-     , (2574,  14, True ) /* GravityStatus */
-     , (2574,  19, True ) /* Attackable */
-     , (2574,  42, True ) /* AllowEdgeSlide */;
+VALUES (2574,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2574,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (2574,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2574,   1, 'Rough Monouga') /* Name */

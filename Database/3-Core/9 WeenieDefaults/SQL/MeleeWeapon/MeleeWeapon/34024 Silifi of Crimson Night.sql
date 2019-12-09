@@ -18,7 +18,6 @@ VALUES (34024,   1,          1) /* ItemType - MeleeWeapon */
      , (34024,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (34024,  49,         50) /* WeaponTime */
      , (34024,  51,          1) /* CombatUse - Melee */
-     , (34024,  65,          1) /* Placement - RightHandCombat */
      , (34024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34024, 106,        170) /* ItemSpellcraft */
      , (34024, 107,        896) /* ItemCurMana */
@@ -31,27 +30,23 @@ VALUES (34024,   1,          1) /* ItemType - MeleeWeapon */
      , (34024, 160,        370) /* WieldDifficulty */
      , (34024, 263,         64) /* ResistanceModifierType */
      , (34024, 353,          3) /* WeaponType - Axe */
-     , (34024, 8030,          0);
+     , (34024, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (34024, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34024,   1, False) /* Stuck */
-     , (34024,  11, True ) /* IgnoreCollisions */
-     , (34024,  13, True ) /* Ethereal */
-     , (34024,  14, True ) /* GravityStatus */
-     , (34024,  19, True ) /* Attackable */
-     , (34024,  22, True ) /* Inscribable */
+VALUES (34024,  22, True ) /* Inscribable */
      , (34024,  69, False) /* IsSellable */
      , (34024,  85, True ) /* AppraisalHasAllowedWielder */
      , (34024,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34024,   5, -0.0500000007450581) /* ManaRate */
+VALUES (34024,   5,   -0.05) /* ManaRate */
      , (34024,  21,       0) /* WeaponLength */
      , (34024,  22,     0.5) /* DamageVariance */
      , (34024,  26,       0) /* MaximumVelocity */
-     , (34024,  29, 1.14999997615814) /* WeaponDefense */
+     , (34024,  29,    1.15) /* WeaponDefense */
      , (34024,  39,    1.25) /* DefaultScale */
-     , (34024,  62, 1.20000004768372) /* WeaponOffense */
+     , (34024,  62,     1.2) /* WeaponOffense */
      , (34024,  63,       1) /* DamageMod */
      , (34024, 136,       1) /* CriticalMultiplier */
      , (34024, 157,       1) /* ResistanceModifier */;

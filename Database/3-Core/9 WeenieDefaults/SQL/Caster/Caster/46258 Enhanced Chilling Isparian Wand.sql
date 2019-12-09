@@ -12,7 +12,6 @@ VALUES (46258,   1,      32768) /* ItemType - Caster */
      , (46258,  19,       8000) /* Value */
      , (46258,  33,          1) /* Bonded - Bonded */
      , (46258,  45,          8) /* DamageType - Cold */
-     , (46258,  65,        101) /* Placement - Resting */
      , (46258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46258,  94,         16) /* TargetType - Creature */
      , (46258, 106,        350) /* ItemSpellcraft */
@@ -24,25 +23,21 @@ VALUES (46258,   1,      32768) /* ItemType - Caster */
      , (46258, 158,          2) /* WieldRequirements - RawSkill */
      , (46258, 159,         34) /* WieldSkillType - WarMagic */
      , (46258, 160,        355) /* WieldDifficulty */
-     , (46258, 166,         38) /* SlayerCreatureType - FireElemental */;
+     , (46258, 166,         38) /* SlayerCreatureType - FireElemental */
+     , (46258, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46258,   1, False) /* Stuck */
-     , (46258,  11, True ) /* IgnoreCollisions */
-     , (46258,  13, True ) /* Ethereal */
-     , (46258,  14, True ) /* GravityStatus */
-     , (46258,  19, True ) /* Attackable */
-     , (46258,  22, True ) /* Inscribable */
+VALUES (46258,  22, True ) /* Inscribable */
      , (46258,  69, False) /* IsSellable */
      , (46258,  85, True ) /* AppraisalHasAllowedWielder */
      , (46258,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46258,   5, -0.025000000372529) /* ManaRate */
-     , (46258,  29, 1.13999998569489) /* WeaponDefense */
-     , (46258, 144, 0.0799999982118607) /* ManaConversionMod */
+VALUES (46258,   5,   -0.03) /* ManaRate */
+     , (46258,  29,    1.14) /* WeaponDefense */
+     , (46258, 144,    0.08) /* ManaConversionMod */
      , (46258, 147,       1) /* CriticalFrequency */
-     , (46258, 152, 1.19000005722046) /* ElementalDamageMod */;
+     , (46258, 152,    1.19) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46258,   1, 'Enhanced Chilling Isparian Wand') /* Name */

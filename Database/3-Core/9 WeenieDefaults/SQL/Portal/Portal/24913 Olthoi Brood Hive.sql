@@ -11,15 +11,10 @@ VALUES (24913,   1,      65536) /* ItemType - Portal */
      , (24913, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24913,   1, True ) /* Stuck */
-     , (24913,  12, True ) /* ReportCollisions */
-     , (24913,  13, True ) /* Ethereal */
-     , (24913,  14, True ) /* GravityStatus */
-     , (24913,  15, True ) /* LightsStatus */
-     , (24913,  19, True ) /* Attackable */;
+VALUES (24913,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24913,  54, -0.100000001490116) /* UseRadius */;
+VALUES (24913,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24913,   1, 'Olthoi Brood Hive') /* Name */

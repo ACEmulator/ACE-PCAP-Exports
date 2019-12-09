@@ -17,19 +17,14 @@ VALUES (47447,   1,          1) /* ItemType - MeleeWeapon */
      , (47447,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (47447,  49,         40) /* WeaponTime */
      , (47447,  51,          1) /* CombatUse - Melee */
-     , (47447,  65,          1) /* Placement - RightHandCombat */
      , (47447,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47447, 151,          2) /* HookType - Wall */
      , (47447, 353,          4) /* WeaponType - Mace */
-     , (47447, 8030,          0);
+     , (47447, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (47447, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47447,   1, False) /* Stuck */
-     , (47447,  11, True ) /* IgnoreCollisions */
-     , (47447,  13, True ) /* Ethereal */
-     , (47447,  14, True ) /* GravityStatus */
-     , (47447,  19, True ) /* Attackable */
-     , (47447,  22, True ) /* Inscribable */;
+VALUES (47447,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47447,  21,       0) /* WeaponLength */

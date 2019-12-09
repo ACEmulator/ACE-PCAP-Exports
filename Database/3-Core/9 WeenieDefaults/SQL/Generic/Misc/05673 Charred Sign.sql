@@ -8,16 +8,11 @@ VALUES (5673,   1,        128) /* ItemType - Misc */
      , (5673,   5,       9000) /* EncumbranceVal */
      , (5673,  16,          1) /* ItemUseable - No */
      , (5673,  19,        125) /* Value */
-     , (5673,  65,        101) /* Placement - Resting */
-     , (5673,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (5673,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (5673, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5673,   1, True ) /* Stuck */
-     , (5673,  11, True ) /* IgnoreCollisions */
-     , (5673,  12, True ) /* ReportCollisions */
-     , (5673,  13, False) /* Ethereal */
-     , (5673,  14, True ) /* GravityStatus */
-     , (5673,  19, True ) /* Attackable */;
+VALUES (5673,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5673,   1, 'Charred Sign') /* Name */

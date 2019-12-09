@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24849,   1,        128) /* ItemType - Misc */
      , (24849,   5,        500) /* EncumbranceVal */
      , (24849,  16,          1) /* ItemUseable - No */
-     , (24849,  65,        101) /* Placement - Resting */
-     , (24849,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (24849,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24849, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24849,   1, False) /* Stuck */
-     , (24849,  11, True ) /* IgnoreCollisions */
-     , (24849,  13, True ) /* Ethereal */
-     , (24849,  14, True ) /* GravityStatus */
-     , (24849,  19, True ) /* Attackable */
-     , (24849,  22, True ) /* Inscribable */;
+VALUES (24849,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24849,   1, 'Gauloth Shreth Hide') /* Name */;

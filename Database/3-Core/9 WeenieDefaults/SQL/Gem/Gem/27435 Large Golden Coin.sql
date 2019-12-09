@@ -10,21 +10,16 @@ VALUES (27435,   1,       2048) /* ItemType - Gem */
      , (27435,  16,          1) /* ItemUseable - No */
      , (27435,  19,       1000) /* Value */
      , (27435,  33,          1) /* Bonded - Bonded */
-     , (27435,  65,        101) /* Placement - Resting */
      , (27435,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27435, 114,          1) /* Attuned - Attuned */;
+     , (27435, 114,          1) /* Attuned - Attuned */
+     , (27435, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27435,   1, False) /* Stuck */
-     , (27435,  11, True ) /* IgnoreCollisions */
-     , (27435,  13, True ) /* Ethereal */
-     , (27435,  14, True ) /* GravityStatus */
-     , (27435,  19, True ) /* Attackable */
-     , (27435,  22, True ) /* Inscribable */
+VALUES (27435,  22, True ) /* Inscribable */
      , (27435,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27435,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (27435,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27435,   1, 'Large Golden Coin') /* Name */

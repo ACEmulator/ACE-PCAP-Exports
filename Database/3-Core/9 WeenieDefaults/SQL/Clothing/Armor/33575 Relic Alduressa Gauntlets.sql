@@ -22,22 +22,17 @@ VALUES (33575,   1,          2) /* ItemType - Armor */
      , (33575, 265,          7) /* EquipmentSetId - AlduressaRelic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33575,   1, False) /* Stuck */
-     , (33575,  11, True ) /* IgnoreCollisions */
-     , (33575,  13, True ) /* Ethereal */
-     , (33575,  14, True ) /* GravityStatus */
-     , (33575,  19, True ) /* Attackable */
-     , (33575,  22, True ) /* Inscribable */;
+VALUES (33575,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33575,   5, -0.0219999998807907) /* ManaRate */
+VALUES (33575,   5,   -0.02) /* ManaRate */
      , (33575,  13,       1) /* ArmorModVsSlash */
-     , (33575,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (33575,  14,     1.2) /* ArmorModVsPierce */
      , (33575,  15,       1) /* ArmorModVsBludgeon */
-     , (33575,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (33575,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (33575,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (33575,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (33575,  16,     0.4) /* ArmorModVsCold */
+     , (33575,  17,     0.4) /* ArmorModVsFire */
+     , (33575,  18,     0.6) /* ArmorModVsAcid */
+     , (33575,  19,     0.4) /* ArmorModVsElectric */
      , (33575, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

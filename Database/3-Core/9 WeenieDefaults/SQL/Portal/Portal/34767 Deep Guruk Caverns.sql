@@ -11,15 +11,10 @@ VALUES (34767,   1,      65536) /* ItemType - Portal */
      , (34767, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34767,   1, True ) /* Stuck */
-     , (34767,  12, True ) /* ReportCollisions */
-     , (34767,  13, True ) /* Ethereal */
-     , (34767,  14, True ) /* GravityStatus */
-     , (34767,  15, True ) /* LightsStatus */
-     , (34767,  19, True ) /* Attackable */;
+VALUES (34767,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34767,  54, -0.100000001490116) /* UseRadius */;
+VALUES (34767,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34767,   1, 'Deep Guruk Caverns') /* Name */

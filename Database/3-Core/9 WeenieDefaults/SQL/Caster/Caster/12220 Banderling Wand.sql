@@ -11,23 +11,18 @@ VALUES (12220,   1,      32768) /* ItemType - Caster */
      , (12220,  16,          1) /* ItemUseable - No */
      , (12220,  18,          1) /* UiEffects - Magical */
      , (12220,  19,         75) /* Value */
-     , (12220,  65,          1) /* Placement - RightHandCombat */
      , (12220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12220,  94,         16) /* TargetType - Creature */
-     , (12220, 151,          2) /* HookType - Wall */;
+     , (12220, 151,          2) /* HookType - Wall */
+     , (12220, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12220,   1, False) /* Stuck */
-     , (12220,  11, True ) /* IgnoreCollisions */
-     , (12220,  13, True ) /* Ethereal */
-     , (12220,  14, True ) /* GravityStatus */
-     , (12220,  19, True ) /* Attackable */
-     , (12220,  22, True ) /* Inscribable */;
+VALUES (12220,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12220,  29,       1) /* WeaponDefense */
-     , (12220,  39, 1.20000004768372) /* DefaultScale */
-     , (12220, 144, 1.28306442372309E-314) /* ManaConversionMod */;
+     , (12220,  39,     1.2) /* DefaultScale */
+     , (12220, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12220,   1, 'Banderling Wand') /* Name */

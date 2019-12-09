@@ -19,7 +19,6 @@ VALUES (32644,   1,          1) /* ItemType - MeleeWeapon */
      , (32644,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (32644,  49,          1) /* WeaponTime */
      , (32644,  51,          1) /* CombatUse - Melee */
-     , (32644,  65,          1) /* Placement - RightHandCombat */
      , (32644,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32644, 114,          1) /* Attuned - Attuned */
      , (32644, 151,          2) /* HookType - Wall */
@@ -28,24 +27,20 @@ VALUES (32644,   1,          1) /* ItemType - MeleeWeapon */
      , (32644, 160,        400) /* WieldDifficulty */
      , (32644, 166,         22) /* SlayerCreatureType - Shadow */
      , (32644, 353,          4) /* WeaponType - Mace */
-     , (32644, 8030,          0);
+     , (32644, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (32644, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32644,   1, False) /* Stuck */
-     , (32644,  11, True ) /* IgnoreCollisions */
-     , (32644,  13, True ) /* Ethereal */
-     , (32644,  14, True ) /* GravityStatus */
-     , (32644,  19, True ) /* Attackable */
-     , (32644,  22, True ) /* Inscribable */
+VALUES (32644,  22, True ) /* Inscribable */
      , (32644,  69, False) /* IsSellable */
      , (32644,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32644,  21,       0) /* WeaponLength */
-     , (32644,  22, 0.300000011920929) /* DamageVariance */
+     , (32644,  22,     0.3) /* DamageVariance */
      , (32644,  26,       0) /* MaximumVelocity */
-     , (32644,  29, 1.30999994277954) /* WeaponDefense */
-     , (32644,  62, 1.26999998092651) /* WeaponOffense */
+     , (32644,  29,    1.31) /* WeaponDefense */
+     , (32644,  62,    1.27) /* WeaponOffense */
      , (32644,  63,       1) /* DamageMod */
      , (32644, 136,       1) /* CriticalMultiplier */
      , (32644, 147,       1) /* CriticalFrequency */;

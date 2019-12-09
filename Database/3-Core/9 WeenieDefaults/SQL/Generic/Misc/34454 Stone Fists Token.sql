@@ -9,17 +9,12 @@ VALUES (34454,   1,        128) /* ItemType - Misc */
      , (34454,  16,          1) /* ItemUseable - No */
      , (34454,  19,          0) /* Value */
      , (34454,  33,          1) /* Bonded - Bonded */
-     , (34454,  65,        101) /* Placement - Resting */
      , (34454,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34454, 114,          1) /* Attuned - Attuned */;
+     , (34454, 114,          1) /* Attuned - Attuned */
+     , (34454, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34454,   1, False) /* Stuck */
-     , (34454,  11, True ) /* IgnoreCollisions */
-     , (34454,  13, True ) /* Ethereal */
-     , (34454,  14, True ) /* GravityStatus */
-     , (34454,  19, True ) /* Attackable */
-     , (34454,  22, True ) /* Inscribable */;
+VALUES (34454,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34454,   1, 'Stone Fists Token') /* Name */

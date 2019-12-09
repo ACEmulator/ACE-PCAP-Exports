@@ -8,15 +8,11 @@ VALUES (42326,   1,        128) /* ItemType - Misc */
      , (42326,   5,        540) /* EncumbranceVal */
      , (42326,  16,          1) /* ItemUseable - No */
      , (42326,  19,        653) /* Value */
-     , (42326,  65,        101) /* Placement - Resting */
-     , (42326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (42326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (42326, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42326,   1, True ) /* Stuck */
-     , (42326,  11, True ) /* IgnoreCollisions */
-     , (42326,  13, True ) /* Ethereal */
-     , (42326,  14, True ) /* GravityStatus */
-     , (42326,  19, True ) /* Attackable */;
+VALUES (42326,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42326,   1, 'Radiant Blood Sollerets') /* Name */;

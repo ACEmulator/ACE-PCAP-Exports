@@ -13,16 +13,9 @@ VALUES (48918,   1,        128) /* ItemType - Misc */
      , (48918,  16,          1) /* ItemUseable - No */
      , (48918,  19,        100) /* Value */
      , (48918,  33,          1) /* Bonded - Bonded */
-     , (48918,  65,        101) /* Placement - Resting */
      , (48918,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48918, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48918,   1, False) /* Stuck */
-     , (48918,  11, True ) /* IgnoreCollisions */
-     , (48918,  13, True ) /* Ethereal */
-     , (48918,  14, True ) /* GravityStatus */
-     , (48918,  19, True ) /* Attackable */;
+     , (48918, 114,          1) /* Attuned - Attuned */
+     , (48918, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48918,   1, 'Legendary Token') /* Name */

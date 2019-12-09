@@ -12,18 +12,11 @@ VALUES (34863,   1,    4194304) /* ItemType - CraftCookingBase */
      , (34863,  15,         50) /* StackUnitValue */
      , (34863,  16,          1) /* ItemUseable - No */
      , (34863,  19,         50) /* Value */
-     , (34863,  65,        101) /* Placement - Resting */
-     , (34863,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34863,   1, False) /* Stuck */
-     , (34863,  11, True ) /* IgnoreCollisions */
-     , (34863,  13, True ) /* Ethereal */
-     , (34863,  14, True ) /* GravityStatus */
-     , (34863,  19, True ) /* Attackable */;
+     , (34863,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34863, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34863,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (34863,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34863,   1, 'Cured Mushroom Stalk') /* Name */

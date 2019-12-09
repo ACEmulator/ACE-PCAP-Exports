@@ -14,7 +14,6 @@ VALUES (36636,   1,        128) /* ItemType - Misc */
      , (36636,  19,         10) /* Value */
      , (36636,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (36636,  33,          1) /* Bonded - Bonded */
-     , (36636,  65,        101) /* Placement - Resting */
      , (36636,  91,        100) /* MaxStructure */
      , (36636,  92,        100) /* Structure */
      , (36636,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -22,15 +21,11 @@ VALUES (36636,   1,        128) /* ItemType - Misc */
      , (36636, 105,        100) /* ItemWorkmanship */
      , (36636, 131,         50) /* MaterialType - Zircon */
      , (36636, 151,          9) /* HookType - Floor, Yard */
-     , (36636, 170,         10) /* NumItemsInMaterial */;
+     , (36636, 170,         10) /* NumItemsInMaterial */
+     , (36636, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36636,   1, False) /* Stuck */
-     , (36636,  11, True ) /* IgnoreCollisions */
-     , (36636,  13, True ) /* Ethereal */
-     , (36636,  14, True ) /* GravityStatus */
-     , (36636,  19, True ) /* Attackable */
-     , (36636,  22, True ) /* Inscribable */;
+VALUES (36636,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36636, 8004,      10) /* PCAPRecordedWorkmanship */;

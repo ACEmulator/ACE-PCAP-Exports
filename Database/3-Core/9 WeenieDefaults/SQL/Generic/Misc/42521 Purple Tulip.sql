@@ -11,13 +11,7 @@ VALUES (42521,   1,        128) /* ItemType - Misc */
      , (42521,  95,          8) /* RadarBlipColor - Yellow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42521,   1, False) /* Stuck */
-     , (42521,  11, True ) /* IgnoreCollisions */
-     , (42521,  12, True ) /* ReportCollisions */
-     , (42521,  13, True ) /* Ethereal */
-     , (42521,  14, True ) /* GravityStatus */
-     , (42521,  19, True ) /* Attackable */
-     , (42521,  22, True ) /* Inscribable */;
+VALUES (42521,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42521,   1, 'Purple Tulip') /* Name */;

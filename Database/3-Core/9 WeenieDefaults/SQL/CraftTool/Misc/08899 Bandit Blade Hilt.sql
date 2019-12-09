@@ -13,18 +13,13 @@ VALUES (8899,   1,        128) /* ItemType - Misc */
      , (8899,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8899,  19,         10) /* Value */
      , (8899,  33,          1) /* Bonded - Bonded */
-     , (8899,  65,        101) /* Placement - Resting */
      , (8899,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8899,  94,          1) /* TargetType - MeleeWeapon */
-     , (8899, 114,          1) /* Attuned - Attuned */;
+     , (8899, 114,          1) /* Attuned - Attuned */
+     , (8899, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8899,   1, False) /* Stuck */
-     , (8899,  11, True ) /* IgnoreCollisions */
-     , (8899,  13, True ) /* Ethereal */
-     , (8899,  14, True ) /* GravityStatus */
-     , (8899,  19, True ) /* Attackable */
-     , (8899,  22, True ) /* Inscribable */
+VALUES (8899,  22, True ) /* Inscribable */
      , (8899,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

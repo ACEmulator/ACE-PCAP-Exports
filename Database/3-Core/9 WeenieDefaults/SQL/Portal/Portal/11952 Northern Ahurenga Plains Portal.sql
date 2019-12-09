@@ -12,19 +12,13 @@ VALUES (11952,   1,      65536) /* ItemType - Portal */
      , (11952, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11952,   1, True ) /* Stuck */
-     , (11952,  12, True ) /* ReportCollisions */
-     , (11952,  13, True ) /* Ethereal */
-     , (11952,  14, True ) /* GravityStatus */
-     , (11952,  15, True ) /* LightsStatus */
-     , (11952,  19, True ) /* Attackable */;
+VALUES (11952,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11952,  54, -0.100000001490116) /* UseRadius */;
+VALUES (11952,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11952,   1, 'Northern Ahurenga Plains Portal') /* Name */
-     , (11952,  38, 'Northern Ahurenga Plains Portal (52.1N, 86.2W).') /* AppraisalPortalDestination */
      , (11952, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

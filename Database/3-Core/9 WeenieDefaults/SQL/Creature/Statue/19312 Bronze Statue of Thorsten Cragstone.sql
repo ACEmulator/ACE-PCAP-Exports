@@ -16,14 +16,10 @@ VALUES (19312,   1,         16) /* ItemType - Creature */
      , (19312, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19312,   1, True ) /* Stuck */
-     , (19312,  12, True ) /* ReportCollisions */
-     , (19312,  13, False) /* Ethereal */
-     , (19312,  14, True ) /* GravityStatus */
-     , (19312,  19, True ) /* Attackable */;
+VALUES (19312,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19312,  39, 2.29999995231628) /* DefaultScale */;
+VALUES (19312,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19312,   1, 'Bronze Statue of Thorsten Cragstone') /* Name */

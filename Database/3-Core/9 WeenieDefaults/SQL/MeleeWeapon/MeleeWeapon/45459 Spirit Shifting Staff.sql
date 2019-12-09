@@ -11,20 +11,15 @@ VALUES (45459,   1,          1) /* ItemType - MeleeWeapon */
      , (45459,  16,          1) /* ItemUseable - No */
      , (45459,  19,      50000) /* Value */
      , (45459,  51,          1) /* CombatUse - Melee */
-     , (45459,  65,          1) /* Placement - RightHandCombat */
      , (45459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45459, 151,          2) /* HookType - Wall */;
+     , (45459, 151,          2) /* HookType - Wall */
+     , (45459, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45459,   1, False) /* Stuck */
-     , (45459,  11, True ) /* IgnoreCollisions */
-     , (45459,  13, True ) /* Ethereal */
-     , (45459,  14, True ) /* GravityStatus */
-     , (45459,  19, True ) /* Attackable */
-     , (45459,  22, True ) /* Inscribable */;
+VALUES (45459,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45459,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (45459,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45459,   1, 'Spirit Shifting Staff') /* Name */;

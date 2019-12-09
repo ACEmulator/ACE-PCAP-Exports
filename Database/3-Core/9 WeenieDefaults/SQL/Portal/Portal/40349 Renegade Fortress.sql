@@ -13,19 +13,13 @@ VALUES (40349,   1,      65536) /* ItemType - Portal */
      , (40349, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40349,   1, True ) /* Stuck */
-     , (40349,  12, True ) /* ReportCollisions */
-     , (40349,  13, True ) /* Ethereal */
-     , (40349,  14, True ) /* GravityStatus */
-     , (40349,  15, True ) /* LightsStatus */
-     , (40349,  19, True ) /* Attackable */;
+VALUES (40349,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40349,  54, -0.100000001490116) /* UseRadius */;
+VALUES (40349,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40349,   1, 'Renegade Fortress') /* Name */
-     , (40349,  38, 'Renegade Fortress') /* AppraisalPortalDestination */
      , (40349, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

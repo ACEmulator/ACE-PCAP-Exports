@@ -16,15 +16,10 @@ VALUES (20188,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20188,   1, True ) /* Stuck */
-     , (20188,  12, True ) /* ReportCollisions */
-     , (20188,  13, False) /* Ethereal */
-     , (20188,  14, True ) /* GravityStatus */
-     , (20188,  15, True ) /* LightsStatus */
-     , (20188,  19, True ) /* Attackable */
      , (20188, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20188,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (20188,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20188,   1, 'Mox') /* Name */

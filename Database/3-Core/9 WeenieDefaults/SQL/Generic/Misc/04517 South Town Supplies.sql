@@ -8,15 +8,10 @@ VALUES (4517,   1,        128) /* ItemType - Misc */
      , (4517,   5,       9000) /* EncumbranceVal */
      , (4517,  16,          1) /* ItemUseable - No */
      , (4517,  19,        125) /* Value */
-     , (4517,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4517,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4517,   1, True ) /* Stuck */
-     , (4517,  11, True ) /* IgnoreCollisions */
-     , (4517,  12, True ) /* ReportCollisions */
-     , (4517,  13, False) /* Ethereal */
-     , (4517,  14, True ) /* GravityStatus */
-     , (4517,  19, True ) /* Attackable */;
+VALUES (4517,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4517,   1, 'South Town Supplies') /* Name */

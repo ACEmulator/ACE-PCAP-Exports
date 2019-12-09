@@ -17,7 +17,6 @@ VALUES (7451,   1,          1) /* ItemType - MeleeWeapon */
      , (7451,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (7451,  49,          0) /* WeaponTime */
      , (7451,  51,          1) /* CombatUse - Melee */
-     , (7451,  65,        101) /* Placement - Resting */
      , (7451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7451, 106,        200) /* ItemSpellcraft */
      , (7451, 107,        626) /* ItemCurMana */
@@ -28,25 +27,21 @@ VALUES (7451,   1,          1) /* ItemType - MeleeWeapon */
      , (7451, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (7451, 160,        300) /* WieldDifficulty */
      , (7451, 353,          1) /* WeaponType - Unarmed */
-     , (7451, 8030,          0);
+     , (7451, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7451, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7451,   1, False) /* Stuck */
-     , (7451,  11, True ) /* IgnoreCollisions */
-     , (7451,  13, True ) /* Ethereal */
-     , (7451,  14, True ) /* GravityStatus */
-     , (7451,  19, True ) /* Attackable */
-     , (7451,  22, True ) /* Inscribable */
+VALUES (7451,  22, True ) /* Inscribable */
      , (7451,  69, False) /* IsSellable */
      , (7451,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7451,   5, -0.0329999998211861) /* ManaRate */
+VALUES (7451,   5,   -0.03) /* ManaRate */
      , (7451,  21,       0) /* WeaponLength */
      , (7451,  22,    0.75) /* DamageVariance */
      , (7451,  26,       0) /* MaximumVelocity */
-     , (7451,  29, 1.30999998748302) /* WeaponDefense */
-     , (7451,  62, 1.25999991595745) /* WeaponOffense */
+     , (7451,  29,    1.31) /* WeaponDefense */
+     , (7451,  62,    1.26) /* WeaponOffense */
      , (7451,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

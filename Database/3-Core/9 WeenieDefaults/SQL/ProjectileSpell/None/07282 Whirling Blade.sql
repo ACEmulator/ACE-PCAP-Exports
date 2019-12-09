@@ -9,20 +9,15 @@ VALUES (7282,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7282,   1, True ) /* Stuck */
-     , (7282,  12, True ) /* ReportCollisions */
-     , (7282,  13, False) /* Ethereal */
-     , (7282,  15, True ) /* LightsStatus */
-     , (7282,  17, True ) /* Inelastic */
-     , (7282,  19, True ) /* Attackable */
      , (7282,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7282,  39,       2) /* DefaultScale */
      , (7282,  78,       1) /* Friction */
      , (7282,  79,       0) /* Elasticity */
-     , (7282, 8010, 3.92900800704956) /* PCAPRecordedVelocityX */
-     , (7282, 8011, 6.64206218719482) /* PCAPRecordedVelocityY */
-     , (7282, 8012, -1.47271168231964) /* PCAPRecordedVelocityZ */;
+     , (7282, 8010,    3.93) /* PCAPRecordedVelocityX */
+     , (7282, 8011,    6.64) /* PCAPRecordedVelocityY */
+     , (7282, 8012,   -1.47) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7282,   1, 'Whirling Blade') /* Name */;

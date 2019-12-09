@@ -13,17 +13,12 @@ VALUES (36363,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (36363,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36363,  19,          1) /* Value */
      , (36363,  33,          1) /* Bonded - Bonded */
-     , (36363,  65,        101) /* Placement - Resting */
      , (36363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36363,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (36363,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (36363, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36363,   1, False) /* Stuck */
-     , (36363,  11, True ) /* IgnoreCollisions */
-     , (36363,  13, True ) /* Ethereal */
-     , (36363,  14, True ) /* GravityStatus */
-     , (36363,  19, True ) /* Attackable */
-     , (36363,  69, False) /* IsSellable */;
+VALUES (36363,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36363,   1, 'Wrapped Bundle of Olthoi Acid Arrowheads') /* Name */

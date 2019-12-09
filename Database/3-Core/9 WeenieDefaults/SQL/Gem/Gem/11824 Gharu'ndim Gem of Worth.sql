@@ -13,19 +13,12 @@ VALUES (11824,   1,       2048) /* ItemType - Gem */
      , (11824,  16,          8) /* ItemUseable - Contained */
      , (11824,  18,          1) /* UiEffects - Magical */
      , (11824,  19,       1500) /* Value */
-     , (11824,  65,        101) /* Placement - Resting */
      , (11824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11824,  94,         16) /* TargetType - Creature */
      , (11824, 106,        210) /* ItemSpellcraft */
      , (11824, 107,        700) /* ItemCurMana */
-     , (11824, 108,        700) /* ItemMaxMana */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11824,   1, False) /* Stuck */
-     , (11824,  11, True ) /* IgnoreCollisions */
-     , (11824,  13, True ) /* Ethereal */
-     , (11824,  14, True ) /* GravityStatus */
-     , (11824,  19, True ) /* Attackable */;
+     , (11824, 108,        700) /* ItemMaxMana */
+     , (11824, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11824,   1, 'Gharu''ndim Gem of Worth') /* Name */

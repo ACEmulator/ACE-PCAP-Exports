@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28358,   1,       2048) /* ItemType - Gem */
      , (28358,   5,         20) /* EncumbranceVal */
      , (28358,  16,          1) /* ItemUseable - No */
-     , (28358,  65,        101) /* Placement - Resting */
-     , (28358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28358, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28358,   1, False) /* Stuck */
-     , (28358,  11, True ) /* IgnoreCollisions */
-     , (28358,  13, True ) /* Ethereal */
-     , (28358,  14, True ) /* GravityStatus */
-     , (28358,  19, True ) /* Attackable */
-     , (28358,  22, True ) /* Inscribable */;
+VALUES (28358,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28358,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (28358,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28358,   1, 'Emblem of Serpent''s Hold') /* Name */;

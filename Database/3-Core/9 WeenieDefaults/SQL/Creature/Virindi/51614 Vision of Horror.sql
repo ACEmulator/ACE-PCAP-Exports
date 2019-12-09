@@ -18,13 +18,7 @@ VALUES (51614,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51614,   1, True ) /* Stuck */
-     , (51614,  11, True ) /* IgnoreCollisions */
-     , (51614,  12, True ) /* ReportCollisions */
-     , (51614,  13, False) /* Ethereal */
-     , (51614,  14, True ) /* GravityStatus */
-     , (51614,  19, False) /* Attackable */
-     , (51614,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (51614,  42, True ) /* AllowEdgeSlide */;
+     , (51614,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51614,   1, 'Vision of Horror') /* Name */

@@ -11,18 +11,13 @@ VALUES (46123,   1,      32768) /* ItemType - Caster */
      , (46123,  16,          1) /* ItemUseable - No */
      , (46123,  18,          1) /* UiEffects - Magical */
      , (46123,  19,       4000) /* Value */
-     , (46123,  65,          1) /* Placement - RightHandCombat */
      , (46123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46123,  94,         16) /* TargetType - Creature */
-     , (46123, 151,          2) /* HookType - Wall */;
+     , (46123, 151,          2) /* HookType - Wall */
+     , (46123, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46123,   1, False) /* Stuck */
-     , (46123,  11, True ) /* IgnoreCollisions */
-     , (46123,  13, True ) /* Ethereal */
-     , (46123,  14, True ) /* GravityStatus */
-     , (46123,  19, True ) /* Attackable */
-     , (46123,  22, True ) /* Inscribable */;
+VALUES (46123,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46123,   1, 'Blackfire Shivering Atlan Wand') /* Name */;

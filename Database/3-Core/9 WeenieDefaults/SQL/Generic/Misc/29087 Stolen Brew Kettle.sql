@@ -9,17 +9,12 @@ VALUES (29087,   1,        128) /* ItemType - Misc */
      , (29087,  16,          1) /* ItemUseable - No */
      , (29087,  19,          0) /* Value */
      , (29087,  33,          1) /* Bonded - Bonded */
-     , (29087,  65,        101) /* Placement - Resting */
      , (29087,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29087, 114,          0) /* Attuned - Normal */;
+     , (29087, 114,          0) /* Attuned - Normal */
+     , (29087, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29087,   1, False) /* Stuck */
-     , (29087,  11, True ) /* IgnoreCollisions */
-     , (29087,  13, True ) /* Ethereal */
-     , (29087,  14, True ) /* GravityStatus */
-     , (29087,  19, True ) /* Attackable */
-     , (29087,  22, True ) /* Inscribable */;
+VALUES (29087,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29087,   1, 'Stolen Brew Kettle') /* Name */

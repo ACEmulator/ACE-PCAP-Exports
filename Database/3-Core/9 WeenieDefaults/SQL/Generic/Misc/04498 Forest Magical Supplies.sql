@@ -8,15 +8,10 @@ VALUES (4498,   1,        128) /* ItemType - Misc */
      , (4498,   5,       9000) /* EncumbranceVal */
      , (4498,  16,          1) /* ItemUseable - No */
      , (4498,  19,        125) /* Value */
-     , (4498,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4498,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4498,   1, True ) /* Stuck */
-     , (4498,  11, True ) /* IgnoreCollisions */
-     , (4498,  12, True ) /* ReportCollisions */
-     , (4498,  13, False) /* Ethereal */
-     , (4498,  14, True ) /* GravityStatus */
-     , (4498,  19, True ) /* Attackable */;
+VALUES (4498,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4498,   1, 'Forest Magical Supplies') /* Name */

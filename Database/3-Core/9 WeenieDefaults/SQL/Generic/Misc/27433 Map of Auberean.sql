@@ -8,17 +8,12 @@ VALUES (27433,   1,        128) /* ItemType - Misc */
      , (27433,   5,        800) /* EncumbranceVal */
      , (27433,  16,          1) /* ItemUseable - No */
      , (27433,  19,      10000) /* Value */
-     , (27433,  65,        101) /* Placement - Resting */
      , (27433,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27433, 151,          2) /* HookType - Wall */;
+     , (27433, 151,          2) /* HookType - Wall */
+     , (27433, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27433,   1, False) /* Stuck */
-     , (27433,  11, True ) /* IgnoreCollisions */
-     , (27433,  13, True ) /* Ethereal */
-     , (27433,  14, True ) /* GravityStatus */
-     , (27433,  19, True ) /* Attackable */
-     , (27433,  22, True ) /* Inscribable */;
+VALUES (27433,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27433,   1, 'Map of Auberean') /* Name */

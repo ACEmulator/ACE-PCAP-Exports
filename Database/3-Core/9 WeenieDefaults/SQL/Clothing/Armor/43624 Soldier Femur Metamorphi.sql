@@ -10,16 +10,11 @@ VALUES (43624,   1,          2) /* ItemType - Armor */
      , (43624,   9,       8192) /* ValidLocations - UpperLegArmor */
      , (43624,  16,          1) /* ItemUseable - No */
      , (43624,  19,        500) /* Value */
-     , (43624,  65,        101) /* Placement - Resting */
-     , (43624,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43624,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43624, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43624,   1, False) /* Stuck */
-     , (43624,  11, True ) /* IgnoreCollisions */
-     , (43624,  13, True ) /* Ethereal */
-     , (43624,  14, True ) /* GravityStatus */
-     , (43624,  19, True ) /* Attackable */
-     , (43624,  22, True ) /* Inscribable */;
+VALUES (43624,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43624,   1, 'Soldier Femur Metamorphi') /* Name */;

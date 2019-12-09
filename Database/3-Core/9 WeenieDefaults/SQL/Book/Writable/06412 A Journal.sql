@@ -8,19 +8,12 @@ VALUES (6412,   1,       8192) /* ItemType - Writable */
      , (6412,   5,         80) /* EncumbranceVal */
      , (6412,  16,          8) /* ItemUseable - Contained */
      , (6412,  19,        400) /* Value */
-     , (6412,  65,        101) /* Placement - Resting */
-     , (6412,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6412,   1, False) /* Stuck */
-     , (6412,  11, True ) /* IgnoreCollisions */
-     , (6412,  13, True ) /* Ethereal */
-     , (6412,  14, True ) /* GravityStatus */
-     , (6412,  19, True ) /* Attackable */;
+     , (6412,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6412, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6412,  39, 1.22000002861023) /* DefaultScale */
-     , (6412,  54, 0.300000011920929) /* UseRadius */;
+VALUES (6412,  39,    1.22) /* DefaultScale */
+     , (6412,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6412,   1, 'A Journal') /* Name */;

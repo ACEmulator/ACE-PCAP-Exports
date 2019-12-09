@@ -10,21 +10,15 @@ VALUES (37582,   1,          1) /* ItemType - MeleeWeapon */
      , (37582,  16,          1) /* ItemUseable - No */
      , (37582,  18,          1) /* UiEffects - Magical */
      , (37582,  51,          1) /* CombatUse - Melee */
-     , (37582,  65,        101) /* Placement - Resting */
      , (37582,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (37582, 151,          2) /* HookType - Wall */;
+     , (37582, 151,          2) /* HookType - Wall */
+     , (37582, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37582,   1, False) /* Stuck */
-     , (37582,  11, True ) /* IgnoreCollisions */
-     , (37582,  13, True ) /* Ethereal */
-     , (37582,  14, True ) /* GravityStatus */
-     , (37582,  15, True ) /* LightsStatus */
-     , (37582,  19, True ) /* Attackable */
-     , (37582,  22, True ) /* Inscribable */;
+VALUES (37582,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37582,  76, 0.699999988079071) /* Translucency */;
+VALUES (37582,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37582,   1, 'Soul Bound Spear') /* Name */;

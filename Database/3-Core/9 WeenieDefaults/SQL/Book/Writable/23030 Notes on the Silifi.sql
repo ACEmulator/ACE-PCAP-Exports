@@ -8,15 +8,8 @@ VALUES (23030,   1,       8192) /* ItemType - Writable */
      , (23030,   5,         10) /* EncumbranceVal */
      , (23030,  16,          8) /* ItemUseable - Contained */
      , (23030,  19,         10) /* Value */
-     , (23030,  65,        101) /* Placement - Resting */
-     , (23030,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23030,   1, False) /* Stuck */
-     , (23030,  11, True ) /* IgnoreCollisions */
-     , (23030,  13, True ) /* Ethereal */
-     , (23030,  14, True ) /* GravityStatus */
-     , (23030,  19, True ) /* Attackable */;
+     , (23030,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23030, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23030,   1, 'Notes on the Silifi') /* Name */;

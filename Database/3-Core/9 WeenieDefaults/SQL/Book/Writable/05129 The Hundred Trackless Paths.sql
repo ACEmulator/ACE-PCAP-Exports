@@ -9,22 +9,15 @@ VALUES (5129,   1,       8192) /* ItemType - Writable */
      , (5129,  16,          8) /* ItemUseable - Contained */
      , (5129,  19,         90) /* Value */
      , (5129,  33,          1) /* Bonded - Bonded */
-     , (5129,  65,        101) /* Placement - Resting */
      , (5129,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5129, 114,          1) /* Attuned - Attuned */
-     , (5129, 174,          5) /* AppraisalPages */
-     , (5129, 175,          8) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5129,   1, False) /* Stuck */
-     , (5129,  11, True ) /* IgnoreCollisions */
-     , (5129,  13, True ) /* Ethereal */
-     , (5129,  14, True ) /* GravityStatus */
-     , (5129,  19, True ) /* Attackable */;
+     , (5129, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (5129, 8042,          5) /* PCAPRecordedAppraisalPages */
+     , (5129, 8043,          8) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5129,  39, 1.22000002861023) /* DefaultScale */
-     , (5129,  54, 0.300000011920929) /* UseRadius */;
+VALUES (5129,  39,    1.22) /* DefaultScale */
+     , (5129,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5129,   1, 'The Hundred Trackless Paths') /* Name */

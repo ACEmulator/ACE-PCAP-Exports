@@ -9,20 +9,15 @@ VALUES (35402,   1,      16384) /* ItemType - Key */
      , (35402,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (35402,  19,          0) /* Value */
      , (35402,  33,          1) /* Bonded - Bonded */
-     , (35402,  65,        101) /* Placement - Resting */
      , (35402,  91,          1) /* MaxStructure */
      , (35402,  92,          1) /* Structure */
      , (35402,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35402,  94,        640) /* TargetType - LockableMagicTarget */
-     , (35402, 114,          1) /* Attuned - Attuned */;
+     , (35402, 114,          1) /* Attuned - Attuned */
+     , (35402, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35402,   1, False) /* Stuck */
-     , (35402,  11, True ) /* IgnoreCollisions */
-     , (35402,  13, True ) /* Ethereal */
-     , (35402,  14, True ) /* GravityStatus */
-     , (35402,  19, True ) /* Attackable */
-     , (35402,  22, True ) /* Inscribable */;
+VALUES (35402,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35402,   1, 'Lord Cynreft Mhoire''s Key') /* Name */

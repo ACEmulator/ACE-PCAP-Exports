@@ -30,15 +30,10 @@ VALUES (30600,   1,          1) /* ItemType - MeleeWeapon */
      , (30600, 178,         16) /* GemType */
      , (30600, 179,         64) /* ImbuedEffect - AcidRending */
      , (30600, 353,          6) /* WeaponType - Dagger */
-     , (30600, 8030,          0);
+     , (30600, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30600,   1, False) /* Stuck */
-     , (30600,  11, True ) /* IgnoreCollisions */
-     , (30600,  13, True ) /* Ethereal */
-     , (30600,  14, True ) /* GravityStatus */
-     , (30600,  19, True ) /* Attackable */
-     , (30600,  22, True ) /* Inscribable */;
+VALUES (30600,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30600,  21,       0) /* WeaponLength */

@@ -11,16 +11,9 @@ VALUES (24545,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (24545,  15,       2000) /* StackUnitValue */
      , (24545,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24545,  19,       2000) /* Value */
-     , (24545,  65,        101) /* Placement - Resting */
      , (24545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24545,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24545,   1, False) /* Stuck */
-     , (24545,  11, True ) /* IgnoreCollisions */
-     , (24545,  13, True ) /* Ethereal */
-     , (24545,  14, True ) /* GravityStatus */
-     , (24545,  19, True ) /* Attackable */;
+     , (24545,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (24545, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24545,   1, 'Wrapped Bundle of Deadly Barbed Arrowheads') /* Name */

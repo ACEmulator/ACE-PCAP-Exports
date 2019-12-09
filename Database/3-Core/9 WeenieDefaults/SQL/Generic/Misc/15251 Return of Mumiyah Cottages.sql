@@ -11,12 +11,7 @@ VALUES (15251,   1,        128) /* ItemType - Misc */
      , (15251,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15251,   1, True ) /* Stuck */
-     , (15251,  11, True ) /* IgnoreCollisions */
-     , (15251,  12, True ) /* ReportCollisions */
-     , (15251,  13, False) /* Ethereal */
-     , (15251,  14, True ) /* GravityStatus */
-     , (15251,  19, True ) /* Attackable */;
+VALUES (15251,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15251,   1, 'Return of Mumiyah Cottages') /* Name */

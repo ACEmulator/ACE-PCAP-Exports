@@ -8,15 +8,11 @@ VALUES (5083,   1,        128) /* ItemType - Misc */
      , (5083,   5,       9000) /* EncumbranceVal */
      , (5083,  16,          1) /* ItemUseable - No */
      , (5083,  19,        125) /* Value */
-     , (5083,  65,        101) /* Placement - Resting */
-     , (5083,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5083,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5083, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5083,   1, True ) /* Stuck */
-     , (5083,  11, True ) /* IgnoreCollisions */
-     , (5083,  12, True ) /* ReportCollisions */
-     , (5083,  13, False) /* Ethereal */
-     , (5083,  19, True ) /* Attackable */;
+VALUES (5083,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5083,   1, 'North Yaraq Outpost') /* Name */

@@ -14,15 +14,10 @@ VALUES (33802,   1,       2048) /* ItemType - Gem */
      , (33802, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33802,   1, False) /* Stuck */
-     , (33802,  11, True ) /* IgnoreCollisions */
-     , (33802,  13, True ) /* Ethereal */
-     , (33802,  14, True ) /* GravityStatus */
-     , (33802,  19, True ) /* Attackable */
-     , (33802,  22, True ) /* Inscribable */;
+VALUES (33802,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33802,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (33802,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33802,   1, 'Pack Grael') /* Name */

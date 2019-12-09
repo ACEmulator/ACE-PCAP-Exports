@@ -12,19 +12,13 @@ VALUES (13108,   1,      65536) /* ItemType - Portal */
      , (13108, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13108,   1, True ) /* Stuck */
-     , (13108,  12, True ) /* ReportCollisions */
-     , (13108,  13, True ) /* Ethereal */
-     , (13108,  14, True ) /* GravityStatus */
-     , (13108,  15, True ) /* LightsStatus */
-     , (13108,  19, True ) /* Attackable */;
+VALUES (13108,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13108,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13108,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13108,   1, 'Highland Manors Portal') /* Name */
-     , (13108,  38, 'Highland Manors Portal (63.2N, 16.9E).') /* AppraisalPortalDestination */
      , (13108, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

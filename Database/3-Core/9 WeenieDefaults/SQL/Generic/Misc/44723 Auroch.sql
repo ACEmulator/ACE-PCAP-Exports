@@ -11,15 +11,8 @@ VALUES (44723,   1,        128) /* ItemType - Misc */
      , (44723,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44723, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44723,   1, False) /* Stuck */
-     , (44723,  11, True ) /* IgnoreCollisions */
-     , (44723,  12, True ) /* ReportCollisions */
-     , (44723,  13, True ) /* Ethereal */
-     , (44723,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44723,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44723,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44723,   1, 'Auroch') /* Name */;

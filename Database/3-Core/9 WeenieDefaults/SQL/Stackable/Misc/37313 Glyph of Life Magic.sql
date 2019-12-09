@@ -12,15 +12,8 @@ VALUES (37313,   1,        128) /* ItemType - Misc */
      , (37313,  15,      30000) /* StackUnitValue */
      , (37313,  16,          1) /* ItemUseable - No */
      , (37313,  19,      30000) /* Value */
-     , (37313,  65,        101) /* Placement - Resting */
-     , (37313,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37313,   1, False) /* Stuck */
-     , (37313,  11, True ) /* IgnoreCollisions */
-     , (37313,  13, True ) /* Ethereal */
-     , (37313,  14, True ) /* GravityStatus */
-     , (37313,  19, True ) /* Attackable */;
+     , (37313,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37313, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37313,   1, 'Glyph of Life Magic') /* Name */

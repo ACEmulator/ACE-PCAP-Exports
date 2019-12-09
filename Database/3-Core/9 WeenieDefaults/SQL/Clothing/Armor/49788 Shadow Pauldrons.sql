@@ -10,16 +10,11 @@ VALUES (49788,   1,          2) /* ItemType - Armor */
      , (49788,   9,       2048) /* ValidLocations - UpperArmArmor */
      , (49788,  16,          1) /* ItemUseable - No */
      , (49788,  19,       1000) /* Value */
-     , (49788,  65,        101) /* Placement - Resting */
-     , (49788,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (49788,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (49788, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49788,   1, False) /* Stuck */
-     , (49788,  11, True ) /* IgnoreCollisions */
-     , (49788,  13, True ) /* Ethereal */
-     , (49788,  14, True ) /* GravityStatus */
-     , (49788,  19, True ) /* Attackable */
-     , (49788,  22, True ) /* Inscribable */;
+VALUES (49788,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49788,   1, 'Shadow Pauldrons') /* Name */;

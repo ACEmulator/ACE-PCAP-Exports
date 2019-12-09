@@ -9,17 +9,12 @@ VALUES (28738,   1,        128) /* ItemType - Misc */
      , (28738,  16,          1) /* ItemUseable - No */
      , (28738,  19,          0) /* Value */
      , (28738,  33,          1) /* Bonded - Bonded */
-     , (28738,  65,        101) /* Placement - Resting */
      , (28738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28738, 114,          0) /* Attuned - Normal */;
+     , (28738, 114,          0) /* Attuned - Normal */
+     , (28738, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28738,   1, False) /* Stuck */
-     , (28738,  11, True ) /* IgnoreCollisions */
-     , (28738,  13, True ) /* Ethereal */
-     , (28738,  14, True ) /* GravityStatus */
-     , (28738,  19, True ) /* Attackable */
-     , (28738,  22, True ) /* Inscribable */;
+VALUES (28738,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28738,   1, 'Half-Digested Virindi Mask') /* Name */

@@ -13,15 +13,10 @@ VALUES (44827,   1,        128) /* ItemType - Misc */
      , (44827, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44827,   1, False) /* Stuck */
-     , (44827,  11, True ) /* IgnoreCollisions */
-     , (44827,  13, True ) /* Ethereal */
-     , (44827,  14, True ) /* GravityStatus */
-     , (44827,  19, True ) /* Attackable */
-     , (44827,  22, True ) /* Inscribable */;
+VALUES (44827,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44827,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (44827,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44827,   1, 'Attunement Crystal') /* Name */

@@ -15,11 +15,7 @@ VALUES (198,   1,         16) /* ItemType - Creature */
      , (198, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (198,   1, True ) /* Stuck */
-     , (198,  12, True ) /* ReportCollisions */
-     , (198,  13, False) /* Ethereal */
-     , (198,  14, True ) /* GravityStatus */
-     , (198,  19, True ) /* Attackable */;
+VALUES (198,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (198,   1, 'Limestone Golem') /* Name */

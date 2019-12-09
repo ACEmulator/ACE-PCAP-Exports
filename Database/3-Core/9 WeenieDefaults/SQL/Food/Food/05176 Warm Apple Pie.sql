@@ -11,15 +11,8 @@ VALUES (5176,   1,         32) /* ItemType - Food */
      , (5176,  13,         10) /* StackUnitEncumbrance */
      , (5176,  15,          0) /* StackUnitValue */
      , (5176,  16,          8) /* ItemUseable - Contained */
-     , (5176,  65,        101) /* Placement - Resting */
-     , (5176,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5176,   1, False) /* Stuck */
-     , (5176,  11, True ) /* IgnoreCollisions */
-     , (5176,  13, True ) /* Ethereal */
-     , (5176,  14, True ) /* GravityStatus */
-     , (5176,  19, True ) /* Attackable */;
+     , (5176,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5176, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5176,   1, 'Warm Apple Pie') /* Name */

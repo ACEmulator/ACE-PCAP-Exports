@@ -13,20 +13,14 @@ VALUES (32675,   1,      65536) /* ItemType - Portal */
      , (32675, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32675,   1, True ) /* Stuck */
-     , (32675,  12, True ) /* ReportCollisions */
-     , (32675,  13, True ) /* Ethereal */
-     , (32675,  14, True ) /* GravityStatus */
-     , (32675,  15, True ) /* LightsStatus */
-     , (32675,  19, True ) /* Attackable */;
+VALUES (32675,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32675,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32675,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32675,   1, 'Cells of the Black Book') /* Name */
      , (32675,  16, 'This dungeon is quest restricted and PK restricted.  Speak with Hassha about gaining entry.') /* LongDesc */
-     , (32675,  38, 'Cells of the Black Book') /* AppraisalPortalDestination */
      , (32675, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

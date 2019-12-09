@@ -20,15 +20,10 @@ VALUES (43480,   1,         16) /* ItemType - Creature */
      , (43480, 8007,          1) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43480,   1, True ) /* Stuck */
-     , (43480,  12, True ) /* ReportCollisions */
-     , (43480,  13, False) /* Ethereal */
-     , (43480,  14, True ) /* GravityStatus */
-     , (43480,  19, True ) /* Attackable */
-     , (43480,  42, True ) /* AllowEdgeSlide */;
+VALUES (43480,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43480,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (43480,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43480,   1, 'Big Red Olthoi') /* Name */

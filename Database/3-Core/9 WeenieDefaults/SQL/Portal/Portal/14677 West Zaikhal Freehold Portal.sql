@@ -12,19 +12,13 @@ VALUES (14677,   1,      65536) /* ItemType - Portal */
      , (14677, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14677,   1, True ) /* Stuck */
-     , (14677,  12, True ) /* ReportCollisions */
-     , (14677,  13, True ) /* Ethereal */
-     , (14677,  14, True ) /* GravityStatus */
-     , (14677,  15, True ) /* LightsStatus */
-     , (14677,  19, True ) /* Attackable */;
+VALUES (14677,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14677,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14677,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14677,   1, 'West Zaikhal Freehold Portal') /* Name */
-     , (14677,  38, 'West Zaikhal Freehold Portal (16.9N, 9.5W).') /* AppraisalPortalDestination */
      , (14677, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

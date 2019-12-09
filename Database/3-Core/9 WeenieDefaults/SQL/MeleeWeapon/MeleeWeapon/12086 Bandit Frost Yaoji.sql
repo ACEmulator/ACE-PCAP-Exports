@@ -12,16 +12,11 @@ VALUES (12086,   1,          1) /* ItemType - MeleeWeapon */
      , (12086,  18,        128) /* UiEffects - Frost */
      , (12086,  19,        550) /* Value */
      , (12086,  51,          1) /* CombatUse - Melee */
-     , (12086,  65,          1) /* Placement - RightHandCombat */
-     , (12086,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12086,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12086, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12086,   1, False) /* Stuck */
-     , (12086,  11, True ) /* IgnoreCollisions */
-     , (12086,  13, True ) /* Ethereal */
-     , (12086,  14, True ) /* GravityStatus */
-     , (12086,  19, True ) /* Attackable */
-     , (12086,  22, True ) /* Inscribable */;
+VALUES (12086,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12086,   1, 'Bandit Frost Yaoji') /* Name */;

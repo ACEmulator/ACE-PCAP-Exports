@@ -12,18 +12,11 @@ VALUES (8304,   1,       4096) /* ItemType - SpellComponents */
      , (8304,  15,        625) /* StackUnitValue */
      , (8304,  16,          1) /* ItemUseable - No */
      , (8304,  19,        625) /* Value */
-     , (8304,  65,        101) /* Placement - Resting */
-     , (8304,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8304,   1, False) /* Stuck */
-     , (8304,  11, True ) /* IgnoreCollisions */
-     , (8304,  13, True ) /* Ethereal */
-     , (8304,  14, True ) /* GravityStatus */
-     , (8304,  19, True ) /* Attackable */;
+     , (8304,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8304, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8304,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8304,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8304,   1, 'Cinnabar Pea') /* Name */;

@@ -16,11 +16,7 @@ VALUES (2487,   1,         16) /* ItemType - Creature */
      , (2487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2487,   1, True ) /* Stuck */
-     , (2487,  12, True ) /* ReportCollisions */
-     , (2487,  13, False) /* Ethereal */
-     , (2487,  14, True ) /* GravityStatus */
-     , (2487,  19, True ) /* Attackable */;
+VALUES (2487,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2487,   1, 'Tumerok Worker') /* Name */

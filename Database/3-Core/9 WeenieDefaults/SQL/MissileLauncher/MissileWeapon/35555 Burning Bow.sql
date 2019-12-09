@@ -14,12 +14,7 @@ VALUES (35555,   1,        256) /* ItemType - MissileWeapon */
      , (35555,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35555,   1, False) /* Stuck */
-     , (35555,  11, True ) /* IgnoreCollisions */
-     , (35555,  13, True ) /* Ethereal */
-     , (35555,  14, True ) /* GravityStatus */
-     , (35555,  19, True ) /* Attackable */
-     , (35555,  22, True ) /* Inscribable */;
+VALUES (35555,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35555,   1, 'Burning Bow') /* Name */;

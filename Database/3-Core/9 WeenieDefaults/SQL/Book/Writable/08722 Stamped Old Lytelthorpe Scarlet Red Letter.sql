@@ -9,22 +9,17 @@ VALUES (8722,   1,       8192) /* ItemType - Writable */
      , (8722,  16,          8) /* ItemUseable - Contained */
      , (8722,  19,          1) /* Value */
      , (8722,  33,          1) /* Bonded - Bonded */
-     , (8722,  65,        101) /* Placement - Resting */
      , (8722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8722, 114,          1) /* Attuned - Attuned */
-     , (8722, 174,          2) /* AppraisalPages */
-     , (8722, 175,          2) /* AppraisalMaxPages */;
+     , (8722, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8722, 8042,          2) /* PCAPRecordedAppraisalPages */
+     , (8722, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8722,   1, False) /* Stuck */
-     , (8722,  11, True ) /* IgnoreCollisions */
-     , (8722,  13, True ) /* Ethereal */
-     , (8722,  14, True ) /* GravityStatus */
-     , (8722,  19, True ) /* Attackable */
-     , (8722,  69, False) /* IsSellable */;
+VALUES (8722,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8722,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8722,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8722,   1, 'Stamped Old Lytelthorpe Scarlet Red Letter') /* Name */

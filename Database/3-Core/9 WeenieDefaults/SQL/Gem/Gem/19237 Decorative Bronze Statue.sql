@@ -14,15 +14,10 @@ VALUES (19237,   1,       2048) /* ItemType - Gem */
      , (19237, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19237,   1, False) /* Stuck */
-     , (19237,  11, True ) /* IgnoreCollisions */
-     , (19237,  13, True ) /* Ethereal */
-     , (19237,  14, True ) /* GravityStatus */
-     , (19237,  19, True ) /* Attackable */
-     , (19237,  22, True ) /* Inscribable */;
+VALUES (19237,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19237,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (19237,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19237,   1, 'Decorative Bronze Statue') /* Name */

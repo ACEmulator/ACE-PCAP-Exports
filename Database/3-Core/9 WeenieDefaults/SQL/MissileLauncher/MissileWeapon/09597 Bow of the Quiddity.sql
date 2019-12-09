@@ -17,7 +17,6 @@ VALUES (9597,   1,        256) /* ItemType - MissileWeapon */
      , (9597,  49,         50) /* WeaponTime */
      , (9597,  50,          1) /* AmmoType - Arrow */
      , (9597,  51,          2) /* CombatUse - Missle */
-     , (9597,  65,          3) /* Placement - LeftHand */
      , (9597,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (9597, 106,        400) /* ItemSpellcraft */
      , (9597, 107,        553) /* ItemCurMana */
@@ -25,25 +24,20 @@ VALUES (9597,   1,        256) /* ItemType - MissileWeapon */
      , (9597, 109,         50) /* ItemDifficulty */
      , (9597, 151,          2) /* HookType - Wall */
      , (9597, 353,          8) /* WeaponType - Bow */
-     , (9597, 8030,          0);
+     , (9597, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (9597, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9597,   1, False) /* Stuck */
-     , (9597,  11, True ) /* IgnoreCollisions */
-     , (9597,  13, True ) /* Ethereal */
-     , (9597,  14, True ) /* GravityStatus */
-     , (9597,  15, True ) /* LightsStatus */
-     , (9597,  19, True ) /* Attackable */
-     , (9597,  22, True ) /* Inscribable */;
+VALUES (9597,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9597,   5, -0.025000000372529) /* ManaRate */
+VALUES (9597,   5,   -0.03) /* ManaRate */
      , (9597,  21,       0) /* WeaponLength */
      , (9597,  22,       0) /* DamageVariance */
      , (9597,  26,    26.3) /* MaximumVelocity */
      , (9597,  29,       1) /* WeaponDefense */
      , (9597,  62,       1) /* WeaponOffense */
-     , (9597,  63, 2.13000011444092) /* DamageMod */;
+     , (9597,  63,    2.13) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9597,   1, 'Bow of the Quiddity') /* Name */

@@ -14,19 +14,13 @@ VALUES (29485,   1,      65536) /* ItemType - Portal */
      , (29485, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29485,   1, True ) /* Stuck */
-     , (29485,  12, True ) /* ReportCollisions */
-     , (29485,  13, True ) /* Ethereal */
-     , (29485,  14, True ) /* GravityStatus */
-     , (29485,  15, True ) /* LightsStatus */
-     , (29485,  19, True ) /* Attackable */;
+VALUES (29485,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29485,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29485,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29485,   1, 'Viamontian Royal Prison') /* Name */
-     , (29485,  38, 'Viamontian Royal Prison') /* AppraisalPortalDestination */
      , (29485, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

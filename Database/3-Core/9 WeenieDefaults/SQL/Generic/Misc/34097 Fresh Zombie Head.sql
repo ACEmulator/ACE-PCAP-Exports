@@ -8,17 +8,12 @@ VALUES (34097,   1,        128) /* ItemType - Misc */
      , (34097,   5,         50) /* EncumbranceVal */
      , (34097,  16,          1) /* ItemUseable - No */
      , (34097,  19,          0) /* Value */
-     , (34097,  65,        101) /* Placement - Resting */
      , (34097,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34097, 151,          2) /* HookType - Wall */;
+     , (34097, 151,          2) /* HookType - Wall */
+     , (34097, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34097,   1, False) /* Stuck */
-     , (34097,  11, True ) /* IgnoreCollisions */
-     , (34097,  13, True ) /* Ethereal */
-     , (34097,  14, True ) /* GravityStatus */
-     , (34097,  19, True ) /* Attackable */
-     , (34097,  22, True ) /* Inscribable */;
+VALUES (34097,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34097,   1, 'Fresh Zombie Head') /* Name */

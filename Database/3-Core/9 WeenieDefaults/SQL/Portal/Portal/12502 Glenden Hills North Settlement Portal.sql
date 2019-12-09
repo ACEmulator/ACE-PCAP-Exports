@@ -12,19 +12,13 @@ VALUES (12502,   1,      65536) /* ItemType - Portal */
      , (12502, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12502,   1, True ) /* Stuck */
-     , (12502,  12, True ) /* ReportCollisions */
-     , (12502,  13, True ) /* Ethereal */
-     , (12502,  14, True ) /* GravityStatus */
-     , (12502,  15, True ) /* LightsStatus */
-     , (12502,  19, True ) /* Attackable */;
+VALUES (12502,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12502,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12502,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12502,   1, 'Glenden Hills North Settlement Portal') /* Name */
-     , (12502,  38, 'Glenden Hills North Settlement Portal (35.0N, 26.8E).') /* AppraisalPortalDestination */
      , (12502, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

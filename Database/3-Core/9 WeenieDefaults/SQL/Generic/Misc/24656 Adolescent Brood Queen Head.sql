@@ -9,17 +9,12 @@ VALUES (24656,   1,        128) /* ItemType - Misc */
      , (24656,  16,          1) /* ItemUseable - No */
      , (24656,  19,          0) /* Value */
      , (24656,  33,          1) /* Bonded - Bonded */
-     , (24656,  65,        101) /* Placement - Resting */
      , (24656,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24656, 114,          1) /* Attuned - Attuned */;
+     , (24656, 114,          1) /* Attuned - Attuned */
+     , (24656, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24656,   1, False) /* Stuck */
-     , (24656,  11, True ) /* IgnoreCollisions */
-     , (24656,  13, True ) /* Ethereal */
-     , (24656,  14, True ) /* GravityStatus */
-     , (24656,  19, True ) /* Attackable */
-     , (24656,  22, True ) /* Inscribable */;
+VALUES (24656,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24656,   1, 'Adolescent Brood Queen Head') /* Name */

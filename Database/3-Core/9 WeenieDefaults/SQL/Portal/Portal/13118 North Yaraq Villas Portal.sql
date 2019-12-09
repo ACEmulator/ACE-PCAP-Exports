@@ -12,19 +12,13 @@ VALUES (13118,   1,      65536) /* ItemType - Portal */
      , (13118, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13118,   1, True ) /* Stuck */
-     , (13118,  12, True ) /* ReportCollisions */
-     , (13118,  13, True ) /* Ethereal */
-     , (13118,  14, True ) /* GravityStatus */
-     , (13118,  15, True ) /* LightsStatus */
-     , (13118,  19, True ) /* Attackable */;
+VALUES (13118,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13118,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13118,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13118,   1, 'North Yaraq Villas Portal') /* Name */
-     , (13118,  38, 'North Yaraq Villas Portal (15.0S, 2.7W).') /* AppraisalPortalDestination */
      , (13118, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

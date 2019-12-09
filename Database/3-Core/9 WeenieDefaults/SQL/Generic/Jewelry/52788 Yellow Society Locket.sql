@@ -11,7 +11,6 @@ VALUES (52788,   1,          8) /* ItemType - Jewelry */
      , (52788,  16,          1) /* ItemUseable - No */
      , (52788,  19,      50000) /* Value */
      , (52788,  33,          1) /* Bonded - Bonded */
-     , (52788,  65,        101) /* Placement - Resting */
      , (52788,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52788, 106,        350) /* ItemSpellcraft */
      , (52788, 107,       2990) /* ItemCurMana */
@@ -24,25 +23,21 @@ VALUES (52788,   1,          8) /* ItemType - Jewelry */
      , (52788, 160,        180) /* WieldDifficulty */
      , (52788, 265,        132) /* EquipmentSetId - YellowSocietyLocket */
      , (52788, 319,         10) /* ItemMaxLevel */
-     , (52788, 320,          1) /* ItemXpStyle - Fixed */;
+     , (52788, 320,          1) /* ItemXpStyle - Fixed */
+     , (52788, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (52788,   4, 10540786660) /* ItemTotalXp */
      , (52788,   5, 4000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52788,   1, False) /* Stuck */
-     , (52788,  11, True ) /* IgnoreCollisions */
-     , (52788,  13, True ) /* Ethereal */
-     , (52788,  14, True ) /* GravityStatus */
-     , (52788,  19, True ) /* Attackable */
-     , (52788,  22, True ) /* Inscribable */
+VALUES (52788,  22, True ) /* Inscribable */
      , (52788,  69, False) /* IsSellable */
      , (52788,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52788,   5, -0.0333333) /* ManaRate */
-     , (52788,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (52788,   5,   -0.03) /* ManaRate */
+     , (52788,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52788,   1, 'Yellow Society Locket') /* Name */

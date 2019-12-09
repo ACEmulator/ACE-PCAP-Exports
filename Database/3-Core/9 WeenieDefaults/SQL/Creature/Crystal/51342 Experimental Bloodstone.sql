@@ -16,14 +16,10 @@ VALUES (51342,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51342,   1, True ) /* Stuck */
-     , (51342,  12, True ) /* ReportCollisions */
-     , (51342,  13, False) /* Ethereal */
-     , (51342,  14, True ) /* GravityStatus */
-     , (51342,  19, True ) /* Attackable */
      , (51342, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51342,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51342,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51342,   1, 'Experimental Bloodstone') /* Name */

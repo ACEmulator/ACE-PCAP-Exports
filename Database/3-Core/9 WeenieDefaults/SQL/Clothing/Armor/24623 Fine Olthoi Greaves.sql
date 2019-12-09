@@ -12,30 +12,25 @@ VALUES (24623,   1,          2) /* ItemType - Armor */
      , (24623,  19,       3000) /* Value */
      , (24623,  28,        450) /* ArmorLevel */
      , (24623,  36,       9999) /* ResistMagic */
-     , (24623,  65,        101) /* Placement - Resting */
      , (24623,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24623, 158,          7) /* WieldRequirements - Level */
      , (24623, 159,          1) /* WieldSkillType - Axe */
-     , (24623, 160,         60) /* WieldDifficulty */;
+     , (24623, 160,         60) /* WieldDifficulty */
+     , (24623, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24623,   1, False) /* Stuck */
-     , (24623,  11, True ) /* IgnoreCollisions */
-     , (24623,  13, True ) /* Ethereal */
-     , (24623,  14, True ) /* GravityStatus */
-     , (24623,  19, True ) /* Attackable */
-     , (24623,  22, True ) /* Inscribable */
+VALUES (24623,  22, True ) /* Inscribable */
      , (24623, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24623,  13, 1.60000002384186) /* ArmorModVsSlash */
-     , (24623,  14, 1.20000004768372) /* ArmorModVsPierce */
-     , (24623,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (24623,  16, 1.39999997615814) /* ArmorModVsCold */
-     , (24623,  17, 1.39999997615814) /* ArmorModVsFire */
+VALUES (24623,  13,     1.6) /* ArmorModVsSlash */
+     , (24623,  14,     1.2) /* ArmorModVsPierce */
+     , (24623,  15,     1.2) /* ArmorModVsBludgeon */
+     , (24623,  16,     1.4) /* ArmorModVsCold */
+     , (24623,  17,     1.4) /* ArmorModVsFire */
      , (24623,  18,       2) /* ArmorModVsAcid */
      , (24623,  19,     1.5) /* ArmorModVsElectric */
-     , (24623,  39, 1.33000004291534) /* DefaultScale */
+     , (24623,  39,    1.33) /* DefaultScale */
      , (24623, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

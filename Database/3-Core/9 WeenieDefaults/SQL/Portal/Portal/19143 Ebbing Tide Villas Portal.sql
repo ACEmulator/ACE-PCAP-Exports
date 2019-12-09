@@ -12,19 +12,13 @@ VALUES (19143,   1,      65536) /* ItemType - Portal */
      , (19143, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19143,   1, True ) /* Stuck */
-     , (19143,  12, True ) /* ReportCollisions */
-     , (19143,  13, True ) /* Ethereal */
-     , (19143,  14, True ) /* GravityStatus */
-     , (19143,  15, True ) /* LightsStatus */
-     , (19143,  19, True ) /* Attackable */;
+VALUES (19143,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19143,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19143,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19143,   1, 'Ebbing Tide Villas Portal') /* Name */
-     , (19143,  38, 'Ebbing Tide Villas Portal (61.7S, 14.5E).') /* AppraisalPortalDestination */
      , (19143, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

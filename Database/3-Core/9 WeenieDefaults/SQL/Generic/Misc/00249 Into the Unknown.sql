@@ -8,17 +8,12 @@ VALUES (249,   1,        128) /* ItemType - Misc */
      , (249,   5,       5000) /* EncumbranceVal */
      , (249,  16,          1) /* ItemUseable - No */
      , (249,  19,      12904) /* Value */
-     , (249,  65,        101) /* Placement - Resting */
      , (249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (249, 151,          2) /* HookType - Wall */;
+     , (249, 151,          2) /* HookType - Wall */
+     , (249, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (249,   1, False) /* Stuck */
-     , (249,  11, True ) /* IgnoreCollisions */
-     , (249,  13, True ) /* Ethereal */
-     , (249,  14, True ) /* GravityStatus */
-     , (249,  19, True ) /* Attackable */
-     , (249,  22, True ) /* Inscribable */;
+VALUES (249,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (249,   1, 'Into the Unknown') /* Name */

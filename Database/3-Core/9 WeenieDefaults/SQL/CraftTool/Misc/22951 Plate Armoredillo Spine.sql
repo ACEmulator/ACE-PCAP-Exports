@@ -12,20 +12,15 @@ VALUES (22951,   1,        128) /* ItemType - Misc */
      , (22951,  15,         60) /* StackUnitValue */
      , (22951,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22951,  19,         60) /* Value */
-     , (22951,  65,        101) /* Placement - Resting */
      , (22951,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22951,  94,          1) /* TargetType - MeleeWeapon */;
+     , (22951,  94,          1) /* TargetType - MeleeWeapon */
+     , (22951, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22951,   1, False) /* Stuck */
-     , (22951,  11, True ) /* IgnoreCollisions */
-     , (22951,  13, True ) /* Ethereal */
-     , (22951,  14, True ) /* GravityStatus */
-     , (22951,  19, True ) /* Attackable */
-     , (22951,  22, True ) /* Inscribable */;
+VALUES (22951,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22951,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (22951,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22951,   1, 'Plate Armoredillo Spine') /* Name */

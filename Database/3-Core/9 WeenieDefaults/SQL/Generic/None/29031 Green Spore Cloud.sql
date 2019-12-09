@@ -9,12 +9,6 @@ VALUES (29031,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29031,   1, True ) /* Stuck */
-     , (29031,  12, True ) /* ReportCollisions */
-     , (29031,  13, False) /* Ethereal */
-     , (29031,  15, True ) /* LightsStatus */
-     , (29031,  16, True ) /* ScriptedCollision */
-     , (29031,  17, True ) /* Inelastic */
-     , (29031,  19, True ) /* Attackable */
      , (29031,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -22,9 +16,9 @@ VALUES (29031,  39,     0.5) /* DefaultScale */
      , (29031,  77,       1) /* PhysicsScriptIntensity */
      , (29031,  78,       1) /* Friction */
      , (29031,  79,       0) /* Elasticity */
-     , (29031, 8010, 1.23314535617828) /* PCAPRecordedVelocityX */
-     , (29031, 8011, 1.17709970474243) /* PCAPRecordedVelocityY */
-     , (29031, 8012, -0.0951381549239159) /* PCAPRecordedVelocityZ */;
+     , (29031, 8010,    1.23) /* PCAPRecordedVelocityX */
+     , (29031, 8011,    1.18) /* PCAPRecordedVelocityY */
+     , (29031, 8012,    -0.1) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29031,   1, 'Green Spore Cloud') /* Name */;

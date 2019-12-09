@@ -8,23 +8,18 @@ VALUES (24518,   1,        128) /* ItemType - Misc */
      , (24518,   5,       9000) /* EncumbranceVal */
      , (24518,  16,          1) /* ItemUseable - No */
      , (24518,  19,     200000) /* Value */
-     , (24518,  65,        101) /* Placement - Resting */
      , (24518,  92,        100) /* Structure */
      , (24518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24518, 105,         10) /* ItemWorkmanship */
      , (24518, 131,         60) /* MaterialType - Gold */
-     , (24518, 151,          1) /* HookType - Floor */;
+     , (24518, 151,          1) /* HookType - Floor */
+     , (24518, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24518,   1, False) /* Stuck */
-     , (24518,  11, True ) /* IgnoreCollisions */
-     , (24518,  13, True ) /* Ethereal */
-     , (24518,  14, True ) /* GravityStatus */
-     , (24518,  19, True ) /* Attackable */
-     , (24518,  22, True ) /* Inscribable */;
+VALUES (24518,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24518,  39, 1.10000002384186) /* DefaultScale */
+VALUES (24518,  39,     1.1) /* DefaultScale */
      , (24518, 8004,      10) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

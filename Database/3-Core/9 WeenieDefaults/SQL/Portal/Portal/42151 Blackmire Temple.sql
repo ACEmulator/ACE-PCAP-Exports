@@ -13,21 +13,15 @@ VALUES (42151,   1,      65536) /* ItemType - Portal */
      , (42151, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42151,   1, True ) /* Stuck */
-     , (42151,  12, True ) /* ReportCollisions */
-     , (42151,  13, True ) /* Ethereal */
-     , (42151,  14, True ) /* GravityStatus */
-     , (42151,  15, True ) /* LightsStatus */
-     , (42151,  19, True ) /* Attackable */;
+VALUES (42151,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42151,  39, 0.800000011920929) /* DefaultScale */
-     , (42151,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42151,  39,     0.8) /* DefaultScale */
+     , (42151,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42151,   1, 'Blackmire Temple') /* Name */
      , (42151,  16, 'A portal leading a Blackmire Temple where blackmire lore pages may be found.') /* LongDesc */
-     , (42151,  38, 'Blackmire Temple (21.8S, 48.0E).') /* AppraisalPortalDestination */
      , (42151, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

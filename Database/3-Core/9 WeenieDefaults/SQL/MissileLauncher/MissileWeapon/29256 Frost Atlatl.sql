@@ -16,7 +16,6 @@ VALUES (29256,   1,        256) /* ItemType - MissileWeapon */
      , (29256,  49,         18) /* WeaponTime */
      , (29256,  50,          4) /* AmmoType - Atlatl */
      , (29256,  51,          2) /* CombatUse - Missle */
-     , (29256,  65,        101) /* Placement - Resting */
      , (29256,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29256, 105,          7) /* ItemWorkmanship */
      , (29256, 106,        370) /* ItemSpellcraft */
@@ -36,23 +35,19 @@ VALUES (29256,   1,        256) /* ItemType - MissileWeapon */
      , (29256, 178,         38) /* GemType */
      , (29256, 204,         16) /* ElementalDamageBonus */
      , (29256, 353,         10) /* WeaponType - Thrown */
-     , (29256, 8030,          0);
+     , (29256, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (29256, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29256,   1, False) /* Stuck */
-     , (29256,  11, True ) /* IgnoreCollisions */
-     , (29256,  13, True ) /* Ethereal */
-     , (29256,  14, True ) /* GravityStatus */
-     , (29256,  19, True ) /* Attackable */
-     , (29256,  22, True ) /* Inscribable */;
+VALUES (29256,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29256,   5, -0.0666666666666667) /* ManaRate */
+VALUES (29256,   5,   -0.07) /* ManaRate */
      , (29256,  21,       0) /* WeaponLength */
      , (29256,  22,       0) /* DamageVariance */
      , (29256,  26,    24.9) /* MaximumVelocity */
      , (29256,  29,    1.18) /* WeaponDefense */
-     , (29256,  39, 1.10000002384186) /* DefaultScale */
+     , (29256,  39,     1.1) /* DefaultScale */
      , (29256,  62,       1) /* WeaponOffense */
      , (29256,  63,    2.55) /* DamageMod */
      , (29256, 8004,       6) /* PCAPRecordedWorkmanship */;

@@ -11,12 +11,7 @@ VALUES (19170,   1,        128) /* ItemType - Misc */
      , (19170,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19170,   1, True ) /* Stuck */
-     , (19170,  11, True ) /* IgnoreCollisions */
-     , (19170,  12, True ) /* ReportCollisions */
-     , (19170,  13, False) /* Ethereal */
-     , (19170,  14, True ) /* GravityStatus */
-     , (19170,  19, True ) /* Attackable */;
+VALUES (19170,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19170,   1, 'Defiant Prey Cottages') /* Name */;

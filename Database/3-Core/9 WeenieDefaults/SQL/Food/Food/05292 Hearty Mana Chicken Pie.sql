@@ -13,18 +13,13 @@ VALUES (5292,   1,         32) /* ItemType - Food */
      , (5292,  16,          8) /* ItemUseable - Contained */
      , (5292,  18,          8) /* UiEffects - BoostMana */
      , (5292,  19,        140) /* Value */
-     , (5292,  65,        101) /* Placement - Resting */
      , (5292,  89,          6) /* BoosterEnum - Mana */
      , (5292,  90,         45) /* BoostValue */
-     , (5292,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (5292,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5292, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5292,   1, False) /* Stuck */
-     , (5292,  11, True ) /* IgnoreCollisions */
-     , (5292,  13, True ) /* Ethereal */
-     , (5292,  14, True ) /* GravityStatus */
-     , (5292,  19, True ) /* Attackable */
-     , (5292,  69, False) /* IsSellable */;
+VALUES (5292,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5292,   1, 'Hearty Mana Chicken Pie') /* Name */

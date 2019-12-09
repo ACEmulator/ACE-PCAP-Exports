@@ -13,7 +13,6 @@ VALUES (46941,   1,      32768) /* ItemType - Caster */
      , (46941,  19,       4000) /* Value */
      , (46941,  33,          1) /* Bonded - Bonded */
      , (46941,  45,         32) /* DamageType - Acid */
-     , (46941,  65,          1) /* Placement - RightHandCombat */
      , (46941,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46941,  94,         16) /* TargetType - Creature */
      , (46941, 106,        400) /* ItemSpellcraft */
@@ -26,15 +25,11 @@ VALUES (46941,   1,      32768) /* ItemType - Caster */
      , (46941, 158,          8) /* WieldRequirements - Training */
      , (46941, 159,         34) /* WieldSkillType - WarMagic */
      , (46941, 160,          2) /* WieldDifficulty */
-     , (46941, 263,         32) /* ResistanceModifierType */;
+     , (46941, 263,         32) /* ResistanceModifierType */
+     , (46941, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46941,   1, False) /* Stuck */
-     , (46941,  11, True ) /* IgnoreCollisions */
-     , (46941,  13, True ) /* Ethereal */
-     , (46941,  14, True ) /* GravityStatus */
-     , (46941,  19, True ) /* Attackable */
-     , (46941,  22, True ) /* Inscribable */
+VALUES (46941,  22, True ) /* Inscribable */
      , (46941,  69, False) /* IsSellable */
      , (46941,  99, True ) /* Ivoryable */;
 

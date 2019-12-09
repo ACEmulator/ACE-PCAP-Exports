@@ -15,14 +15,10 @@ VALUES (34972,   1,         16) /* ItemType - Creature */
      , (34972, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34972,   1, True ) /* Stuck */
-     , (34972,  12, True ) /* ReportCollisions */
-     , (34972,  13, False) /* Ethereal */
-     , (34972,  14, True ) /* GravityStatus */
-     , (34972,  19, True ) /* Attackable */;
+VALUES (34972,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34972,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (34972,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34972,   1, 'Falatacot Blood Elder') /* Name */

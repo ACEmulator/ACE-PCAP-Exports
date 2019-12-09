@@ -8,16 +8,11 @@ VALUES (2267,   1,        128) /* ItemType - Misc */
      , (2267,   5,       9000) /* EncumbranceVal */
      , (2267,  16,          1) /* ItemUseable - No */
      , (2267,  19,        125) /* Value */
-     , (2267,  65,        101) /* Placement - Resting */
-     , (2267,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2267,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2267,   1, True ) /* Stuck */
-     , (2267,  11, True ) /* IgnoreCollisions */
-     , (2267,  12, True ) /* ReportCollisions */
-     , (2267,  13, False) /* Ethereal */
-     , (2267,  14, True ) /* GravityStatus */
-     , (2267,  19, True ) /* Attackable */;
+VALUES (2267,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2267,   1, 'The Soaring Shaft') /* Name */

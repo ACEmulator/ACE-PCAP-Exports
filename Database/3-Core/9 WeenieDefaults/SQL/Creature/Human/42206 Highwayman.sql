@@ -17,11 +17,7 @@ VALUES (42206,   1,         16) /* ItemType - Creature */
      , (42206, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42206,   1, True ) /* Stuck */
-     , (42206,  12, True ) /* ReportCollisions */
-     , (42206,  13, False) /* Ethereal */
-     , (42206,  14, True ) /* GravityStatus */
-     , (42206,  19, True ) /* Attackable */;
+VALUES (42206,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42206,   1, 'Highwayman') /* Name */

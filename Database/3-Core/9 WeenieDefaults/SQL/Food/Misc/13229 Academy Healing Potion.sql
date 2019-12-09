@@ -12,19 +12,14 @@ VALUES (13229,   1,        128) /* ItemType - Misc */
      , (13229,  15,         75) /* StackUnitValue */
      , (13229,  16,          8) /* ItemUseable - Contained */
      , (13229,  19,         75) /* Value */
-     , (13229,  65,        101) /* Placement - Resting */
      , (13229,  89,          2) /* BoosterEnum - Health */
      , (13229,  90,         25) /* BoostValue */
      , (13229,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13229, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (13229, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (13229, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13229,   1, False) /* Stuck */
-     , (13229,  11, True ) /* IgnoreCollisions */
-     , (13229,  13, True ) /* Ethereal */
-     , (13229,  14, True ) /* GravityStatus */
-     , (13229,  19, True ) /* Attackable */
-     , (13229,  22, True ) /* Inscribable */;
+VALUES (13229,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13229,   1, 'Academy Healing Potion') /* Name */

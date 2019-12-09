@@ -11,16 +11,11 @@ VALUES (8632,   1,          1) /* ItemType - MeleeWeapon */
      , (8632,  16,          1) /* ItemUseable - No */
      , (8632,  19,        200) /* Value */
      , (8632,  51,          1) /* CombatUse - Melee */
-     , (8632,  65,          1) /* Placement - RightHandCombat */
-     , (8632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (8632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8632, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8632,   1, False) /* Stuck */
-     , (8632,  11, True ) /* IgnoreCollisions */
-     , (8632,  13, True ) /* Ethereal */
-     , (8632,  14, True ) /* GravityStatus */
-     , (8632,  19, True ) /* Attackable */
-     , (8632,  22, True ) /* Inscribable */;
+VALUES (8632,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8632,   1, 'Scimitar') /* Name */;

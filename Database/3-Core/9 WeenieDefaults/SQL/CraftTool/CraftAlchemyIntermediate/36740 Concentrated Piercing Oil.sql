@@ -13,18 +13,13 @@ VALUES (36740,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (36740,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36740,  19,        750) /* Value */
      , (36740,  33,          1) /* Bonded - Bonded */
-     , (36740,  65,        101) /* Placement - Resting */
      , (36740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36740,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (36740, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (36740, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (36740, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36740,   1, False) /* Stuck */
-     , (36740,  11, True ) /* IgnoreCollisions */
-     , (36740,  13, True ) /* Ethereal */
-     , (36740,  14, True ) /* GravityStatus */
-     , (36740,  19, True ) /* Attackable */
-     , (36740,  69, False) /* IsSellable */;
+VALUES (36740,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36740,   1, 'Concentrated Piercing Oil') /* Name */

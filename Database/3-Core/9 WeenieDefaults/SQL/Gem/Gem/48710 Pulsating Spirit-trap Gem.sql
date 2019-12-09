@@ -11,20 +11,14 @@ VALUES (48710,   1,       2048) /* ItemType - Gem */
      , (48710,  13,         50) /* StackUnitEncumbrance */
      , (48710,  15,          0) /* StackUnitValue */
      , (48710,  16,          1) /* ItemUseable - No */
-     , (48710,  65,        101) /* Placement - Resting */
-     , (48710,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (48710,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (48710, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48710,   1, False) /* Stuck */
-     , (48710,  11, True ) /* IgnoreCollisions */
-     , (48710,  13, True ) /* Ethereal */
-     , (48710,  14, True ) /* GravityStatus */
-     , (48710,  15, True ) /* LightsStatus */
-     , (48710,  19, True ) /* Attackable */
-     , (48710,  22, True ) /* Inscribable */;
+VALUES (48710,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48710,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (48710,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48710,   1, 'Pulsating Spirit-trap Gem') /* Name */;

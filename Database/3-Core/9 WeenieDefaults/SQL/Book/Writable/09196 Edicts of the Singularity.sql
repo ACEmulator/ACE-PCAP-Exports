@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9196,   1,       8192) /* ItemType - Writable */
      , (9196,   5,          5) /* EncumbranceVal */
      , (9196,  16,          8) /* ItemUseable - Contained */
-     , (9196,  65,        101) /* Placement - Resting */
-     , (9196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9196,   1, False) /* Stuck */
-     , (9196,  11, True ) /* IgnoreCollisions */
-     , (9196,  13, True ) /* Ethereal */
-     , (9196,  14, True ) /* GravityStatus */
-     , (9196,  19, True ) /* Attackable */;
+     , (9196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9196, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9196,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (9196,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9196,   1, 'Edicts of the Singularity') /* Name */;

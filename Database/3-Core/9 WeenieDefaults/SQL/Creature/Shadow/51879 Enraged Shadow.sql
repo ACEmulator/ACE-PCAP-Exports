@@ -15,12 +15,7 @@ VALUES (51879,   1,         16) /* ItemType - Creature */
      , (51879, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51879,   1, True ) /* Stuck */
-     , (51879,  12, True ) /* ReportCollisions */
-     , (51879,  13, False) /* Ethereal */
-     , (51879,  14, True ) /* GravityStatus */
-     , (51879,  19, True ) /* Attackable */
-     , (51879,  42, True ) /* AllowEdgeSlide */;
+VALUES (51879,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51879,   1, 'Enraged Shadow') /* Name */

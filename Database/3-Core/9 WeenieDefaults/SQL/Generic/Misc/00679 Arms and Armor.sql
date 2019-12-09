@@ -8,16 +8,11 @@ VALUES (679,   1,        128) /* ItemType - Misc */
      , (679,   5,       9000) /* EncumbranceVal */
      , (679,  16,          1) /* ItemUseable - No */
      , (679,  19,        125) /* Value */
-     , (679,  65,        101) /* Placement - Resting */
-     , (679,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (679,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (679, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (679,   1, True ) /* Stuck */
-     , (679,  11, True ) /* IgnoreCollisions */
-     , (679,  12, True ) /* ReportCollisions */
-     , (679,  13, False) /* Ethereal */
-     , (679,  14, True ) /* GravityStatus */
-     , (679,  19, True ) /* Attackable */;
+VALUES (679,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (679,   1, 'Arms and Armor') /* Name */

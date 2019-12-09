@@ -11,11 +11,7 @@ VALUES (8255,   1,        128) /* ItemType - Misc */
      , (8255,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8255,   1, True ) /* Stuck */
-     , (8255,  11, True ) /* IgnoreCollisions */
-     , (8255,  12, True ) /* ReportCollisions */
-     , (8255,  13, False) /* Ethereal */
-     , (8255,  19, True ) /* Attackable */;
+VALUES (8255,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8255,   1, 'Archmage Sign') /* Name */

@@ -12,15 +12,8 @@ VALUES (37300,   1,        128) /* ItemType - Misc */
      , (37300,  15,      30000) /* StackUnitValue */
      , (37300,  16,          1) /* ItemUseable - No */
      , (37300,  19,      30000) /* Value */
-     , (37300,  65,        101) /* Placement - Resting */
-     , (37300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37300,   1, False) /* Stuck */
-     , (37300,  11, True ) /* IgnoreCollisions */
-     , (37300,  13, True ) /* Ethereal */
-     , (37300,  14, True ) /* GravityStatus */
-     , (37300,  19, True ) /* Attackable */;
+     , (37300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37300, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37300,   1, 'Glyph of Endurance') /* Name */

@@ -9,17 +9,12 @@ VALUES (22354,   1,       2048) /* ItemType - Gem */
      , (22354,  16,          8) /* ItemUseable - Contained */
      , (22354,  19,          0) /* Value */
      , (22354,  33,          1) /* Bonded - Bonded */
-     , (22354,  65,        101) /* Placement - Resting */
      , (22354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22354, 114,          1) /* Attuned - Attuned */;
+     , (22354, 114,          1) /* Attuned - Attuned */
+     , (22354, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22354,   1, False) /* Stuck */
-     , (22354,  11, True ) /* IgnoreCollisions */
-     , (22354,  13, True ) /* Ethereal */
-     , (22354,  14, True ) /* GravityStatus */
-     , (22354,  19, True ) /* Attackable */
-     , (22354,  22, True ) /* Inscribable */;
+VALUES (22354,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22354,   1, 'Missile Weapons Gem of Enlightenment') /* Name */

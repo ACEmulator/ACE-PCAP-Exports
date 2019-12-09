@@ -12,19 +12,13 @@ VALUES (15663,   1,      65536) /* ItemType - Portal */
      , (15663, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15663,   1, True ) /* Stuck */
-     , (15663,  12, True ) /* ReportCollisions */
-     , (15663,  13, True ) /* Ethereal */
-     , (15663,  14, True ) /* GravityStatus */
-     , (15663,  15, True ) /* LightsStatus */
-     , (15663,  19, True ) /* Attackable */;
+VALUES (15663,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15663,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15663,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15663,   1, 'Ardent Realm Portal') /* Name */
-     , (15663,  38, 'Ardent Realm Portal (39.9S, 33.0E).') /* AppraisalPortalDestination */
      , (15663, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

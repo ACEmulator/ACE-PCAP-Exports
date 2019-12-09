@@ -11,17 +11,12 @@ VALUES (19809,   1,          1) /* ItemType - MeleeWeapon */
      , (19809,  18,          1) /* UiEffects - Magical */
      , (19809,  19,       8000) /* Value */
      , (19809,  51,          1) /* CombatUse - Melee */
-     , (19809,  65,        101) /* Placement - Resting */
      , (19809,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19809, 151,          2) /* HookType - Wall */;
+     , (19809, 151,          2) /* HookType - Wall */
+     , (19809, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19809,   1, False) /* Stuck */
-     , (19809,  11, True ) /* IgnoreCollisions */
-     , (19809,  13, True ) /* Ethereal */
-     , (19809,  14, True ) /* GravityStatus */
-     , (19809,  19, True ) /* Attackable */
-     , (19809,  22, True ) /* Inscribable */;
+VALUES (19809,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19809,   1, 'Perfect Chilling Isparian Claw') /* Name */;

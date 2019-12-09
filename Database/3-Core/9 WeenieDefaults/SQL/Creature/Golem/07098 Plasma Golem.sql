@@ -16,11 +16,7 @@ VALUES (7098,   1,         16) /* ItemType - Creature */
      , (7098, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7098,   1, True ) /* Stuck */
-     , (7098,  12, True ) /* ReportCollisions */
-     , (7098,  13, False) /* Ethereal */
-     , (7098,  14, True ) /* GravityStatus */
-     , (7098,  19, True ) /* Attackable */;
+VALUES (7098,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7098,   1, 'Plasma Golem') /* Name */

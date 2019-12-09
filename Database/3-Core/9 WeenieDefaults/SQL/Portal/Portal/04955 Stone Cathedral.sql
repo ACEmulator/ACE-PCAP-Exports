@@ -14,20 +14,14 @@ VALUES (4955,   1,      65536) /* ItemType - Portal */
      , (4955, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4955,   1, True ) /* Stuck */
-     , (4955,  12, True ) /* ReportCollisions */
-     , (4955,  13, True ) /* Ethereal */
-     , (4955,  14, True ) /* GravityStatus */
-     , (4955,  15, True ) /* LightsStatus */
-     , (4955,  19, True ) /* Attackable */;
+VALUES (4955,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4955,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4955,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4955,   1, 'Stone Cathedral') /* Name */
      , (4955,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */
-     , (4955,  38, 'Stone Cathedral') /* AppraisalPortalDestination */
      , (4955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

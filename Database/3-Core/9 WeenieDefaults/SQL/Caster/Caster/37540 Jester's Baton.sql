@@ -10,20 +10,15 @@ VALUES (37540,   1,      32768) /* ItemType - Caster */
      , (37540,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (37540,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (37540,  18,         32) /* UiEffects - Fire */
-     , (37540,  65,          1) /* Placement - RightHandCombat */
      , (37540,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37540,  94,         16) /* TargetType - Creature */;
+     , (37540,  94,         16) /* TargetType - Creature */
+     , (37540, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37540,   1, False) /* Stuck */
-     , (37540,  11, True ) /* IgnoreCollisions */
-     , (37540,  13, True ) /* Ethereal */
-     , (37540,  14, True ) /* GravityStatus */
-     , (37540,  19, True ) /* Attackable */
-     , (37540,  22, True ) /* Inscribable */;
+VALUES (37540,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37540,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (37540,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37540,   1, 'Jester''s Baton') /* Name */;

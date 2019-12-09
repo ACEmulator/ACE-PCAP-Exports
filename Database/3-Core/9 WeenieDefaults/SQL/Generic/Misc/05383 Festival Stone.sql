@@ -13,12 +13,7 @@ VALUES (5383,   1,        128) /* ItemType - Misc */
      , (5383, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5383,   1, True ) /* Stuck */
-     , (5383,  11, True ) /* IgnoreCollisions */
-     , (5383,  12, True ) /* ReportCollisions */
-     , (5383,  13, False) /* Ethereal */
-     , (5383,  14, True ) /* GravityStatus */
-     , (5383,  19, True ) /* Attackable */;
+VALUES (5383,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5383,   1, 'Festival Stone') /* Name */

@@ -16,28 +16,23 @@ VALUES (15886,   1,        256) /* ItemType - MissileWeapon */
      , (15886,  49,        370) /* WeaponTime */
      , (15886,  50,          1) /* AmmoType - Arrow */
      , (15886,  51,          2) /* CombatUse - Missle */
-     , (15886,  65,          3) /* Placement - LeftHand */
      , (15886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15886, 151,          2) /* HookType - Wall */
      , (15886, 353,          8) /* WeaponType - Bow */
-     , (15886, 8030,          0);
+     , (15886, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (15886, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15886,   1, False) /* Stuck */
-     , (15886,  11, True ) /* IgnoreCollisions */
-     , (15886,  13, True ) /* Ethereal */
-     , (15886,  14, True ) /* GravityStatus */
-     , (15886,  19, True ) /* Attackable */
-     , (15886,  22, True ) /* Inscribable */;
+VALUES (15886,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15886,  21,       0) /* WeaponLength */
      , (15886,  22,       0) /* DamageVariance */
      , (15886,  26,    27.3) /* MaximumVelocity */
-     , (15886,  29, 1.17000000178814) /* WeaponDefense */
-     , (15886,  39, 1.79999995231628) /* DefaultScale */
-     , (15886,  62, 1.20000000298023) /* WeaponOffense */
-     , (15886,  63, 1.33000004291534) /* DamageMod */;
+     , (15886,  29,    1.17) /* WeaponDefense */
+     , (15886,  39,     1.8) /* DefaultScale */
+     , (15886,  62,     1.2) /* WeaponOffense */
+     , (15886,  63,    1.33) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15886,   1, 'Bronze Longbow') /* Name */

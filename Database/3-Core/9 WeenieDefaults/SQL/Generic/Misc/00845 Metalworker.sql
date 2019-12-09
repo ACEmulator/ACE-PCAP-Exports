@@ -8,15 +8,10 @@ VALUES (845,   1,        128) /* ItemType - Misc */
      , (845,   5,       9000) /* EncumbranceVal */
      , (845,  16,          1) /* ItemUseable - No */
      , (845,  19,        125) /* Value */
-     , (845,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (845,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (845,   1, True ) /* Stuck */
-     , (845,  11, True ) /* IgnoreCollisions */
-     , (845,  12, True ) /* ReportCollisions */
-     , (845,  13, False) /* Ethereal */
-     , (845,  14, True ) /* GravityStatus */
-     , (845,  19, True ) /* Attackable */;
+VALUES (845,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (845,   1, 'Metalworker') /* Name */

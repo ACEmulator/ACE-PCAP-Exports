@@ -15,14 +15,10 @@ VALUES (177,   1,         16) /* ItemType - Creature */
      , (177, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (177,   1, True ) /* Stuck */
-     , (177,  12, True ) /* ReportCollisions */
-     , (177,  13, False) /* Ethereal */
-     , (177,  14, True ) /* GravityStatus */
-     , (177,  19, True ) /* Attackable */;
+VALUES (177,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (177,  39, 0.850000023841858) /* DefaultScale */;
+VALUES (177,  39,    0.85) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (177,   1, 'Spiny Armoredillo') /* Name */

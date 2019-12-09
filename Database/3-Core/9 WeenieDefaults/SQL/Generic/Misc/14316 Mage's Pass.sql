@@ -11,12 +11,7 @@ VALUES (14316,   1,        128) /* ItemType - Misc */
      , (14316,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14316,   1, True ) /* Stuck */
-     , (14316,  11, True ) /* IgnoreCollisions */
-     , (14316,  12, True ) /* ReportCollisions */
-     , (14316,  13, False) /* Ethereal */
-     , (14316,  14, True ) /* GravityStatus */
-     , (14316,  19, True ) /* Attackable */;
+VALUES (14316,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14316,   1, 'Mage''s Pass') /* Name */;

@@ -11,16 +11,9 @@ VALUES (43148,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (43148,  15,          1) /* StackUnitValue */
      , (43148,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (43148,  19,          1) /* Value */
-     , (43148,  65,        101) /* Placement - Resting */
      , (43148,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43148,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43148,   1, False) /* Stuck */
-     , (43148,  11, True ) /* IgnoreCollisions */
-     , (43148,  13, True ) /* Ethereal */
-     , (43148,  14, True ) /* GravityStatus */
-     , (43148,  19, True ) /* Attackable */;
+     , (43148,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (43148, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43148,   1, 'Wrapped Bundle of Gear Blade Slashing Arrowheads') /* Name */

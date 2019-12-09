@@ -12,20 +12,14 @@ VALUES (42826,   1,      65536) /* ItemType - Portal */
      , (42826, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42826,   1, True ) /* Stuck */
-     , (42826,  12, True ) /* ReportCollisions */
-     , (42826,  13, True ) /* Ethereal */
-     , (42826,  14, True ) /* GravityStatus */
-     , (42826,  15, True ) /* LightsStatus */
-     , (42826,  19, True ) /* Attackable */;
+VALUES (42826,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42826,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42826,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42826,   1, 'Portal to Greenspire') /* Name */
      , (42826,  16, 'This portal goes to the town of Greenspire on the island of Marae Lassel. This is a good town for characters over level 10.') /* LongDesc */
-     , (42826,  38, 'Portal to Greenspire (43.2N, 66.8W).') /* AppraisalPortalDestination */
      , (42826, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

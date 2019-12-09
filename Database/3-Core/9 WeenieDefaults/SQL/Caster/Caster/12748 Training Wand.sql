@@ -10,22 +10,17 @@ VALUES (12748,   1,      32768) /* ItemType - Caster */
      , (12748,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (12748,  16,          1) /* ItemUseable - No */
      , (12748,  19,         25) /* Value */
-     , (12748,  65,          1) /* Placement - RightHandCombat */
      , (12748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12748,  94,         16) /* TargetType - Creature */
-     , (12748, 151,          2) /* HookType - Wall */;
+     , (12748, 151,          2) /* HookType - Wall */
+     , (12748, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12748,   1, False) /* Stuck */
-     , (12748,  11, True ) /* IgnoreCollisions */
-     , (12748,  13, True ) /* Ethereal */
-     , (12748,  14, True ) /* GravityStatus */
-     , (12748,  19, True ) /* Attackable */
-     , (12748,  22, True ) /* Inscribable */;
+VALUES (12748,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12748,  29,       1) /* WeaponDefense */
-     , (12748, 144, 1.82289741972291E-314) /* ManaConversionMod */;
+     , (12748, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12748,   1, 'Training Wand') /* Name */

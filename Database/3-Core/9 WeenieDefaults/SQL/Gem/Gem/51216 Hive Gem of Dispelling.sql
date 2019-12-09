@@ -14,24 +14,17 @@ VALUES (51216,   1,       2048) /* ItemType - Gem */
      , (51216,  18,          1) /* UiEffects - Magical */
      , (51216,  19,          1) /* Value */
      , (51216,  33,          1) /* Bonded - Bonded */
-     , (51216,  65,        101) /* Placement - Resting */
      , (51216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51216,  94,         16) /* TargetType - Creature */
      , (51216, 106,        210) /* ItemSpellcraft */
      , (51216, 107,        500) /* ItemCurMana */
      , (51216, 108,        500) /* ItemMaxMana */
      , (51216, 109,          0) /* ItemDifficulty */
-     , (51216, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51216,   1, False) /* Stuck */
-     , (51216,  11, True ) /* IgnoreCollisions */
-     , (51216,  13, True ) /* Ethereal */
-     , (51216,  14, True ) /* GravityStatus */
-     , (51216,  19, True ) /* Attackable */;
+     , (51216, 114,          1) /* Attuned - Attuned */
+     , (51216, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51216,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (51216,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51216,   1, 'Hive Gem of Dispelling') /* Name */

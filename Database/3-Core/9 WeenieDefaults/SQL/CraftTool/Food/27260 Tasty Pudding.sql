@@ -13,20 +13,13 @@ VALUES (27260,   1,         32) /* ItemType - Food */
      , (27260,  16,          8) /* ItemUseable - Contained */
      , (27260,  18,          1) /* UiEffects - Magical */
      , (27260,  19,        100) /* Value */
-     , (27260,  65,        101) /* Placement - Resting */
      , (27260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27260,  94,         16) /* TargetType - Creature */
      , (27260, 106,        150) /* ItemSpellcraft */
      , (27260, 107,         50) /* ItemCurMana */
      , (27260, 108,         50) /* ItemMaxMana */
-     , (27260, 109,          0) /* ItemDifficulty */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27260,   1, False) /* Stuck */
-     , (27260,  11, True ) /* IgnoreCollisions */
-     , (27260,  13, True ) /* Ethereal */
-     , (27260,  14, True ) /* GravityStatus */
-     , (27260,  19, True ) /* Attackable */;
+     , (27260, 109,          0) /* ItemDifficulty */
+     , (27260, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27260,   1, 'Tasty Pudding') /* Name */

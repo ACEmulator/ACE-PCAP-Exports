@@ -8,17 +8,12 @@ VALUES (247,   1,        128) /* ItemType - Misc */
      , (247,   5,       5000) /* EncumbranceVal */
      , (247,  16,          1) /* ItemUseable - No */
      , (247,  19,      12904) /* Value */
-     , (247,  65,        101) /* Placement - Resting */
      , (247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (247, 151,          2) /* HookType - Wall */;
+     , (247, 151,          2) /* HookType - Wall */
+     , (247, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (247,   1, False) /* Stuck */
-     , (247,  11, True ) /* IgnoreCollisions */
-     , (247,  13, True ) /* Ethereal */
-     , (247,  14, True ) /* GravityStatus */
-     , (247,  19, True ) /* Attackable */
-     , (247,  22, True ) /* Inscribable */;
+VALUES (247,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (247,   1, 'Outcast') /* Name */

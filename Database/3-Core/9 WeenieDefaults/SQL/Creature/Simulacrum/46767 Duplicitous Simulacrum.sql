@@ -18,11 +18,7 @@ VALUES (46767,   1,         16) /* ItemType - Creature */
      , (46767, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46767,   1, True ) /* Stuck */
-     , (46767,  12, True ) /* ReportCollisions */
-     , (46767,  13, False) /* Ethereal */
-     , (46767,  14, True ) /* GravityStatus */
-     , (46767,  19, True ) /* Attackable */;
+VALUES (46767,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46767,   1, 'Duplicitous Simulacrum') /* Name */

@@ -11,16 +11,11 @@ VALUES (23780,   1,          2) /* ItemType - Armor */
      , (23780,  16,          1) /* ItemUseable - No */
      , (23780,  18,          1) /* UiEffects - Magical */
      , (23780,  19,       2610) /* Value */
-     , (23780,  65,        101) /* Placement - Resting */
-     , (23780,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23780,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23780, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23780,   1, False) /* Stuck */
-     , (23780,  11, True ) /* IgnoreCollisions */
-     , (23780,  13, True ) /* Ethereal */
-     , (23780,  14, True ) /* GravityStatus */
-     , (23780,  19, True ) /* Attackable */
-     , (23780,  22, True ) /* Inscribable */;
+VALUES (23780,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23780,   1, 'Hardened Amuli Coat') /* Name */;

@@ -8,16 +8,11 @@ VALUES (2237,   1,        128) /* ItemType - Misc */
      , (2237,   5,       9000) /* EncumbranceVal */
      , (2237,  16,          1) /* ItemUseable - No */
      , (2237,  19,        125) /* Value */
-     , (2237,  65,        101) /* Placement - Resting */
-     , (2237,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2237,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2237, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2237,   1, True ) /* Stuck */
-     , (2237,  11, True ) /* IgnoreCollisions */
-     , (2237,  12, True ) /* ReportCollisions */
-     , (2237,  13, False) /* Ethereal */
-     , (2237,  14, True ) /* GravityStatus */
-     , (2237,  19, True ) /* Attackable */;
+VALUES (2237,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2237,   1, 'Armaments') /* Name */

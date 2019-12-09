@@ -12,21 +12,16 @@ VALUES (27797,   1,        128) /* ItemType - Misc */
      , (27797,  15,       1000) /* StackUnitValue */
      , (27797,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (27797,  19,       1000) /* Value */
-     , (27797,  65,        101) /* Placement - Resting */
      , (27797,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27797,  94,        130) /* TargetType - Armor, Misc */
-     , (27797, 151,          2) /* HookType - Wall */;
+     , (27797, 151,          2) /* HookType - Wall */
+     , (27797, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27797,   1, False) /* Stuck */
-     , (27797,  11, True ) /* IgnoreCollisions */
-     , (27797,  13, True ) /* Ethereal */
-     , (27797,  14, True ) /* GravityStatus */
-     , (27797,  19, True ) /* Attackable */
-     , (27797,  22, True ) /* Inscribable */;
+VALUES (27797,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27797,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (27797,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27797,   1, 'Vial of Black Blood') /* Name */;

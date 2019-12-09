@@ -12,15 +12,8 @@ VALUES (37367,   1,        128) /* ItemType - Misc */
      , (37367,  15,      30000) /* StackUnitValue */
      , (37367,  16,          1) /* ItemUseable - No */
      , (37367,  19,      30000) /* Value */
-     , (37367,  65,        101) /* Placement - Resting */
-     , (37367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37367,   1, False) /* Stuck */
-     , (37367,  11, True ) /* IgnoreCollisions */
-     , (37367,  13, True ) /* Ethereal */
-     , (37367,  14, True ) /* GravityStatus */
-     , (37367,  19, True ) /* Attackable */;
+     , (37367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37367, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37367,   1, 'Glyph of Light Weapons') /* Name */

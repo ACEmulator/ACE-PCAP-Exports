@@ -39,20 +39,13 @@ VALUES (53488,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53488,   1, True ) /* Stuck */
-     , (53488,  11, True ) /* IgnoreCollisions */
-     , (53488,  12, True ) /* ReportCollisions */
-     , (53488,  13, False) /* Ethereal */
-     , (53488,  14, True ) /* GravityStatus */
-     , (53488,  15, True ) /* LightsStatus */
-     , (53488,  19, False) /* Attackable */
-     , (53488,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53488,  42, True ) /* AllowEdgeSlide */;
+     , (53488,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53488,  54,       3) /* UseRadius */
      , (53488, 8010,       0) /* PCAPRecordedVelocityX */
      , (53488, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53488, 8012, -0.297882407903671) /* PCAPRecordedVelocityZ */;
+     , (53488, 8012,    -0.3) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53488,   1, 'Aangesilus'' Marker') /* Name */

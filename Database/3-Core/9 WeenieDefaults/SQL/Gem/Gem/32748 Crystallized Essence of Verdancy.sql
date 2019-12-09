@@ -14,15 +14,10 @@ VALUES (32748,   1,       2048) /* ItemType - Gem */
      , (32748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32748,   1, False) /* Stuck */
-     , (32748,  11, True ) /* IgnoreCollisions */
-     , (32748,  13, True ) /* Ethereal */
-     , (32748,  14, True ) /* GravityStatus */
-     , (32748,  19, True ) /* Attackable */
-     , (32748,  22, True ) /* Inscribable */;
+VALUES (32748,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32748,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (32748,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32748,   1, 'Crystallized Essence of Verdancy') /* Name */;

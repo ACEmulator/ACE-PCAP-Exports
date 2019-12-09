@@ -16,22 +16,17 @@ VALUES (30241,   1,       2048) /* ItemType - Gem */
      , (30241,  19,          0) /* Value */
      , (30241,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30241,  33,         -1) /* Bonded - Slippery */
-     , (30241,  65,        101) /* Placement - Resting */
      , (30241,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30241,  94,         16) /* TargetType - Creature */
      , (30241, 106,        325) /* ItemSpellcraft */
      , (30241, 107,      10000) /* ItemCurMana */
      , (30241, 108,      10000) /* ItemMaxMana */
      , (30241, 109,          0) /* ItemDifficulty */
-     , (30241, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30241, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30241, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30241,   1, False) /* Stuck */
-     , (30241,  11, True ) /* IgnoreCollisions */
-     , (30241,  13, True ) /* Ethereal */
-     , (30241,  14, True ) /* GravityStatus */
-     , (30241,  19, True ) /* Attackable */
-     , (30241, 108, True ) /* RareUsesTimer */;
+VALUES (30241, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30241,   1, 'Pearl of Swift Killing') /* Name */

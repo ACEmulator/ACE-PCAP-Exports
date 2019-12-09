@@ -12,18 +12,11 @@ VALUES (8285,   1,       4096) /* ItemType - SpellComponents */
      , (8285,  15,       1250) /* StackUnitValue */
      , (8285,  16,          1) /* ItemUseable - No */
      , (8285,  19,       1250) /* Value */
-     , (8285,  65,        101) /* Placement - Resting */
-     , (8285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8285,   1, False) /* Stuck */
-     , (8285,  11, True ) /* IgnoreCollisions */
-     , (8285,  13, True ) /* Ethereal */
-     , (8285,  14, True ) /* GravityStatus */
-     , (8285,  19, True ) /* Attackable */;
+     , (8285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8285, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8285,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8285,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8285,   1, 'Bistort Pea') /* Name */;

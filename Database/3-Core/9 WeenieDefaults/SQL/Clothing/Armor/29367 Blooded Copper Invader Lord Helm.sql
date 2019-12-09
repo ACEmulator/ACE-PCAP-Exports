@@ -11,17 +11,12 @@ VALUES (29367,   1,          2) /* ItemType - Armor */
      , (29367,  16,          1) /* ItemUseable - No */
      , (29367,  18,          1) /* UiEffects - Magical */
      , (29367,  19,       2500) /* Value */
-     , (29367,  65,        101) /* Placement - Resting */
      , (29367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29367, 151,          2) /* HookType - Wall */;
+     , (29367, 151,          2) /* HookType - Wall */
+     , (29367, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29367,   1, False) /* Stuck */
-     , (29367,  11, True ) /* IgnoreCollisions */
-     , (29367,  13, True ) /* Ethereal */
-     , (29367,  14, True ) /* GravityStatus */
-     , (29367,  19, True ) /* Attackable */
-     , (29367,  22, True ) /* Inscribable */;
+VALUES (29367,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29367,   1, 'Blooded Copper Invader Lord Helm') /* Name */;

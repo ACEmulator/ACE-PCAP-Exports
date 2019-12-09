@@ -12,15 +12,8 @@ VALUES (744,   1,       4096) /* ItemType - SpellComponents */
      , (744,  15,          5) /* StackUnitValue */
      , (744,  16,          1) /* ItemUseable - No */
      , (744,  19,          5) /* Value */
-     , (744,  65,        101) /* Placement - Resting */
-     , (744,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (744,   1, False) /* Stuck */
-     , (744,  11, True ) /* IgnoreCollisions */
-     , (744,  13, True ) /* Ethereal */
-     , (744,  14, True ) /* GravityStatus */
-     , (744,  19, True ) /* Attackable */;
+     , (744,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (744, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (744,   1, 'Ebony Talisman') /* Name */;

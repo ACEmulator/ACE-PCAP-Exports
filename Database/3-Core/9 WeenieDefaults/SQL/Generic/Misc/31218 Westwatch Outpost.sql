@@ -8,15 +8,11 @@ VALUES (31218,   1,        128) /* ItemType - Misc */
      , (31218,   5,       9000) /* EncumbranceVal */
      , (31218,  16,          1) /* ItemUseable - No */
      , (31218,  19,        125) /* Value */
-     , (31218,  65,        101) /* Placement - Resting */
-     , (31218,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (31218,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (31218, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31218,   1, True ) /* Stuck */
-     , (31218,  11, True ) /* IgnoreCollisions */
-     , (31218,  12, True ) /* ReportCollisions */
-     , (31218,  13, False) /* Ethereal */
-     , (31218,  19, True ) /* Attackable */;
+VALUES (31218,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31218,   1, 'Westwatch Outpost') /* Name */

@@ -11,17 +11,12 @@ VALUES (45916,   1,          1) /* ItemType - MeleeWeapon */
      , (45916,  16,          1) /* ItemUseable - No */
      , (45916,  19,        100) /* Value */
      , (45916,  51,          1) /* CombatUse - Melee */
-     , (45916,  65,          1) /* Placement - RightHandCombat */
      , (45916,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45916, 151,          2) /* HookType - Wall */;
+     , (45916, 151,          2) /* HookType - Wall */
+     , (45916, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45916,   1, False) /* Stuck */
-     , (45916,  11, True ) /* IgnoreCollisions */
-     , (45916,  13, True ) /* Ethereal */
-     , (45916,  14, True ) /* GravityStatus */
-     , (45916,  19, True ) /* Attackable */
-     , (45916,  22, True ) /* Inscribable */;
+VALUES (45916,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45916,   1, 'Seasoned Explorer Budiaq') /* Name */;

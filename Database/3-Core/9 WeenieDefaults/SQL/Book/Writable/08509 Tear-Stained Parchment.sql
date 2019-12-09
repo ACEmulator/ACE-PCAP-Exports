@@ -8,17 +8,10 @@ VALUES (8509,   1,       8192) /* ItemType - Writable */
      , (8509,   5,         25) /* EncumbranceVal */
      , (8509,  16,          8) /* ItemUseable - Contained */
      , (8509,  19,         90) /* Value */
-     , (8509,  65,        101) /* Placement - Resting */
      , (8509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8509, 174,          1) /* AppraisalPages */
-     , (8509, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8509,   1, False) /* Stuck */
-     , (8509,  11, True ) /* IgnoreCollisions */
-     , (8509,  13, True ) /* Ethereal */
-     , (8509,  14, True ) /* GravityStatus */
-     , (8509,  19, True ) /* Attackable */;
+     , (8509, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8509, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (8509, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8509,   1, 'Tear-Stained Parchment') /* Name */

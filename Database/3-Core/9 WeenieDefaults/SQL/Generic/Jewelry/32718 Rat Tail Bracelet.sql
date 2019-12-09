@@ -12,7 +12,6 @@ VALUES (32718,   1,          8) /* ItemType - Jewelry */
      , (32718,  18,          1) /* UiEffects - Magical */
      , (32718,  19,         10) /* Value */
      , (32718,  33,          1) /* Bonded - Bonded */
-     , (32718,  65,        101) /* Placement - Resting */
      , (32718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32718, 106,         60) /* ItemSpellcraft */
      , (32718, 107,        679) /* ItemCurMana */
@@ -20,19 +19,15 @@ VALUES (32718,   1,          8) /* ItemType - Jewelry */
      , (32718, 114,          0) /* Attuned - Normal */
      , (32718, 158,          7) /* WieldRequirements - Level */
      , (32718, 159,          1) /* WieldSkillType - Axe */
-     , (32718, 160,         20) /* WieldDifficulty */;
+     , (32718, 160,         20) /* WieldDifficulty */
+     , (32718, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32718,   1, False) /* Stuck */
-     , (32718,  11, True ) /* IgnoreCollisions */
-     , (32718,  13, True ) /* Ethereal */
-     , (32718,  14, True ) /* GravityStatus */
-     , (32718,  19, True ) /* Attackable */
-     , (32718,  22, True ) /* Inscribable */;
+VALUES (32718,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32718,   5, -0.033333) /* ManaRate */
-     , (32718,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (32718,   5,   -0.03) /* ManaRate */
+     , (32718,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32718,   1, 'Rat Tail Bracelet') /* Name */

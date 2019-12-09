@@ -8,16 +8,11 @@ VALUES (1111,   1,        128) /* ItemType - Misc */
      , (1111,   5,       9000) /* EncumbranceVal */
      , (1111,  16,          1) /* ItemUseable - No */
      , (1111,  19,        125) /* Value */
-     , (1111,  65,        101) /* Placement - Resting */
-     , (1111,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (1111,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (1111, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1111,   1, True ) /* Stuck */
-     , (1111,  11, True ) /* IgnoreCollisions */
-     , (1111,  12, True ) /* ReportCollisions */
-     , (1111,  13, False) /* Ethereal */
-     , (1111,  14, True ) /* GravityStatus */
-     , (1111,  19, True ) /* Attackable */;
+VALUES (1111,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1111,   1, 'Qalaba''r') /* Name */

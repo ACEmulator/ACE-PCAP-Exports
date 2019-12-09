@@ -10,16 +10,11 @@ VALUES (46006,   1,          8) /* ItemType - Jewelry */
      , (46006,  16,          1) /* ItemUseable - No */
      , (46006,  18,          1) /* UiEffects - Magical */
      , (46006,  19,        100) /* Value */
-     , (46006,  65,        101) /* Placement - Resting */
-     , (46006,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (46006,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46006, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46006,   1, False) /* Stuck */
-     , (46006,  11, True ) /* IgnoreCollisions */
-     , (46006,  13, True ) /* Ethereal */
-     , (46006,  14, True ) /* GravityStatus */
-     , (46006,  19, True ) /* Attackable */
-     , (46006,  22, True ) /* Inscribable */;
+VALUES (46006,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46006,  39,     0.5) /* DefaultScale */;

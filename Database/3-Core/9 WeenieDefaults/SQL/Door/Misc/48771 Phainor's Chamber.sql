@@ -8,18 +8,15 @@ VALUES (48771,   1,        128) /* ItemType - Misc */
      , (48771,  16,         32) /* ItemUseable - Remote */
      , (48771,  19,          0) /* Value */
      , (48771,  38,       9999) /* ResistLockpick */
-     , (48771,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
-     , (48771, 173,          0) /* AppraisalLockpickSuccessPercent */
+     , (48771,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (48771, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48771,   1, True ) /* Stuck */
      , (48771,   2, False) /* Open */
      , (48771,   3, True ) /* Locked */
-     , (48771,  11, True ) /* IgnoreCollisions */
-     , (48771,  12, True ) /* ReportCollisions */
-     , (48771,  13, False) /* Ethereal */
-     , (48771,  19, True ) /* Attackable */;
+     , (48771,  34, False) /* DefaultOpen */
+     , (48771,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48771,  54,       2) /* UseRadius */;

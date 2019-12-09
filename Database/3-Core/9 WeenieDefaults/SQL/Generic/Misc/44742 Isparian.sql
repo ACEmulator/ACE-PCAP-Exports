@@ -11,15 +11,8 @@ VALUES (44742,   1,        128) /* ItemType - Misc */
      , (44742,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44742, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44742,   1, False) /* Stuck */
-     , (44742,  11, True ) /* IgnoreCollisions */
-     , (44742,  12, True ) /* ReportCollisions */
-     , (44742,  13, True ) /* Ethereal */
-     , (44742,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44742,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44742,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44742,   1, 'Isparian') /* Name */

@@ -18,7 +18,6 @@ VALUES (40518,   1,          1) /* ItemType - MeleeWeapon */
      , (40518,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40518,  49,         30) /* WeaponTime */
      , (40518,  51,          1) /* CombatUse - Melee */
-     , (40518,  65,          1) /* Placement - RightHandCombat */
      , (40518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40518, 106,        460) /* ItemSpellcraft */
      , (40518, 107,       1404) /* ItemCurMana */
@@ -29,27 +28,23 @@ VALUES (40518,   1,          1) /* ItemType - MeleeWeapon */
      , (40518, 160,        370) /* WieldDifficulty */
      , (40518, 166,         22) /* SlayerCreatureType - Shadow */
      , (40518, 353,          2) /* WeaponType - Sword */
-     , (40518, 8030,          0);
+     , (40518, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (40518, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40518,   1, False) /* Stuck */
-     , (40518,  11, True ) /* IgnoreCollisions */
-     , (40518,  13, True ) /* Ethereal */
-     , (40518,  14, True ) /* GravityStatus */
-     , (40518,  19, True ) /* Attackable */
-     , (40518,  22, True ) /* Inscribable */
+VALUES (40518,  22, True ) /* Inscribable */
      , (40518,  69, False) /* IsSellable */
      , (40518,  85, True ) /* AppraisalHasAllowedWielder */
      , (40518,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40518,   5, -0.0329999998211861) /* ManaRate */
+VALUES (40518,   5,   -0.03) /* ManaRate */
      , (40518,  21,       0) /* WeaponLength */
      , (40518,  22,     0.5) /* DamageVariance */
      , (40518,  26,       0) /* MaximumVelocity */
-     , (40518,  29, 1.17999994754791) /* WeaponDefense */
-     , (40518,  39, 1.29999995231628) /* DefaultScale */
-     , (40518,  62, 1.17999994754791) /* WeaponOffense */
+     , (40518,  29,    1.18) /* WeaponDefense */
+     , (40518,  39,     1.3) /* DefaultScale */
+     , (40518,  62,    1.18) /* WeaponOffense */
      , (40518,  63,       1) /* DamageMod */
      , (40518, 147,       1) /* CriticalFrequency */;
 

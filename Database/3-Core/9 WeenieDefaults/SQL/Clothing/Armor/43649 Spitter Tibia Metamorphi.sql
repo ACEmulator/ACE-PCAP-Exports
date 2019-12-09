@@ -10,16 +10,11 @@ VALUES (43649,   1,          2) /* ItemType - Armor */
      , (43649,   9,      16384) /* ValidLocations - LowerLegArmor */
      , (43649,  16,          1) /* ItemUseable - No */
      , (43649,  19,        250) /* Value */
-     , (43649,  65,        101) /* Placement - Resting */
-     , (43649,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43649,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43649, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43649,   1, False) /* Stuck */
-     , (43649,  11, True ) /* IgnoreCollisions */
-     , (43649,  13, True ) /* Ethereal */
-     , (43649,  14, True ) /* GravityStatus */
-     , (43649,  19, True ) /* Attackable */
-     , (43649,  22, True ) /* Inscribable */;
+VALUES (43649,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43649,   1, 'Spitter Tibia Metamorphi') /* Name */;

@@ -8,15 +8,8 @@ VALUES (31698,   1,        128) /* ItemType - Misc */
      , (31698,   5,        500) /* EncumbranceVal */
      , (31698,  16,          1) /* ItemUseable - No */
      , (31698,  19,        100) /* Value */
-     , (31698,  65,        101) /* Placement - Resting */
-     , (31698,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31698,   1, False) /* Stuck */
-     , (31698,  11, True ) /* IgnoreCollisions */
-     , (31698,  13, True ) /* Ethereal */
-     , (31698,  14, True ) /* GravityStatus */
-     , (31698,  19, True ) /* Attackable */;
+     , (31698,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31698, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31698,   1, 'Fine Leather Scraps') /* Name */;

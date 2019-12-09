@@ -12,18 +12,13 @@ VALUES (10794,   1,      65536) /* ItemType - Portal */
      , (10794, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10794,   1, True ) /* Stuck */
-     , (10794,  12, True ) /* ReportCollisions */
-     , (10794,  13, True ) /* Ethereal */
-     , (10794,  15, True ) /* LightsStatus */
-     , (10794,  19, True ) /* Attackable */;
+VALUES (10794,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10794,  54, -0.100000001490116) /* UseRadius */;
+VALUES (10794,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10794,   1, 'Singularity Caul') /* Name */
-     , (10794,  38, 'Singularity Caul (98.0S, 94.7W).') /* AppraisalPortalDestination */
      , (10794, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

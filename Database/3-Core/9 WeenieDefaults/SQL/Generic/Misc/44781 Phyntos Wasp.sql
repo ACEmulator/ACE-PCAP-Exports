@@ -11,15 +11,8 @@ VALUES (44781,   1,        128) /* ItemType - Misc */
      , (44781,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44781, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44781,   1, False) /* Stuck */
-     , (44781,  11, True ) /* IgnoreCollisions */
-     , (44781,  12, True ) /* ReportCollisions */
-     , (44781,  13, True ) /* Ethereal */
-     , (44781,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44781,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44781,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44781,   1, 'Phyntos Wasp') /* Name */

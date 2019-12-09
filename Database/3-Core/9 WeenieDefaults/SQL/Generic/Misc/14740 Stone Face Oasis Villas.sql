@@ -11,12 +11,7 @@ VALUES (14740,   1,        128) /* ItemType - Misc */
      , (14740,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14740,   1, True ) /* Stuck */
-     , (14740,  11, True ) /* IgnoreCollisions */
-     , (14740,  12, True ) /* ReportCollisions */
-     , (14740,  13, False) /* Ethereal */
-     , (14740,  14, True ) /* GravityStatus */
-     , (14740,  19, True ) /* Attackable */;
+VALUES (14740,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14740,   1, 'Stone Face Oasis Villas') /* Name */

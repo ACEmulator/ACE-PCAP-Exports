@@ -12,15 +12,8 @@ VALUES (4718,   1,         32) /* ItemType - Food */
      , (4718,  15,         20) /* StackUnitValue */
      , (4718,  16,          8) /* ItemUseable - Contained */
      , (4718,  19,         20) /* Value */
-     , (4718,  65,        101) /* Placement - Resting */
-     , (4718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4718,   1, False) /* Stuck */
-     , (4718,  11, True ) /* IgnoreCollisions */
-     , (4718,  13, True ) /* Ethereal */
-     , (4718,  14, True ) /* GravityStatus */
-     , (4718,  19, True ) /* Attackable */;
+     , (4718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4718, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4718,   1, 'Chicken Rice') /* Name */

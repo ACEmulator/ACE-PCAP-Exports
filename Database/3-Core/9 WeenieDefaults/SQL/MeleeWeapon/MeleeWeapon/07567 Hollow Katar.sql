@@ -18,20 +18,14 @@ VALUES (7567,   1,          1) /* ItemType - MeleeWeapon */
      , (7567,  48,         45) /* WeaponSkill - LightWeapons */
      , (7567,  49,         20) /* WeaponTime */
      , (7567,  51,          1) /* CombatUse - Melee */
-     , (7567,  65,          1) /* Placement - RightHandCombat */
      , (7567,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7567, 114,          1) /* Attuned - Attuned */
      , (7567, 353,          1) /* WeaponType - Unarmed */
-     , (7567, 8030,          0);
+     , (7567, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7567, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7567,   1, False) /* Stuck */
-     , (7567,  11, True ) /* IgnoreCollisions */
-     , (7567,  13, True ) /* Ethereal */
-     , (7567,  14, True ) /* GravityStatus */
-     , (7567,  15, True ) /* LightsStatus */
-     , (7567,  19, True ) /* Attackable */
-     , (7567,  22, True ) /* Inscribable */;
+VALUES (7567,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7567,  21,       0) /* WeaponLength */
@@ -40,7 +34,7 @@ VALUES (7567,  21,       0) /* WeaponLength */
      , (7567,  29,    1.05) /* WeaponDefense */
      , (7567,  62,    1.05) /* WeaponOffense */
      , (7567,  63,       1) /* DamageMod */
-     , (7567,  76, 0.699999988079071) /* Translucency */;
+     , (7567,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7567,   1, 'Hollow Katar') /* Name */

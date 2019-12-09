@@ -17,7 +17,6 @@ VALUES (41889,   1,          1) /* ItemType - MeleeWeapon */
      , (41889,  48,         45) /* WeaponSkill - LightWeapons */
      , (41889,  49,         40) /* WeaponTime */
      , (41889,  51,          1) /* CombatUse - Melee */
-     , (41889,  65,        101) /* Placement - Resting */
      , (41889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41889, 106,        200) /* ItemSpellcraft */
      , (41889, 107,        566) /* ItemCurMana */
@@ -30,26 +29,22 @@ VALUES (41889,   1,          1) /* ItemType - MeleeWeapon */
      , (41889, 160,        400) /* WieldDifficulty */
      , (41889, 166,         19) /* SlayerCreatureType - Virindi */
      , (41889, 353,          2) /* WeaponType - Sword */
-     , (41889, 8030,          0);
+     , (41889, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41889,   1, False) /* Stuck */
-     , (41889,  11, True ) /* IgnoreCollisions */
-     , (41889,  13, True ) /* Ethereal */
-     , (41889,  14, True ) /* GravityStatus */
-     , (41889,  19, True ) /* Attackable */
-     , (41889,  22, True ) /* Inscribable */
+VALUES (41889,  22, True ) /* Inscribable */
      , (41889,  85, True ) /* AppraisalHasAllowedWielder */
      , (41889,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41889,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41889,   5,   -0.03) /* ManaRate */
      , (41889,  21,       0) /* WeaponLength */
      , (41889,  22,     0.5) /* DamageVariance */
      , (41889,  26,       0) /* MaximumVelocity */
-     , (41889,  29, 1.14999997615814) /* WeaponDefense */
-     , (41889,  39, 1.10000002384186) /* DefaultScale */
-     , (41889,  62, 1.14999997615814) /* WeaponOffense */
+     , (41889,  29,    1.15) /* WeaponDefense */
+     , (41889,  39,     1.1) /* DefaultScale */
+     , (41889,  62,    1.15) /* WeaponOffense */
      , (41889,  63,       1) /* DamageMod */
      , (41889, 136,       1) /* CriticalMultiplier */
      , (41889, 147,       1) /* CriticalFrequency */

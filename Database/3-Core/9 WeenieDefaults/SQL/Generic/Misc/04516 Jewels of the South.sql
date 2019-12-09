@@ -8,15 +8,10 @@ VALUES (4516,   1,        128) /* ItemType - Misc */
      , (4516,   5,       9000) /* EncumbranceVal */
      , (4516,  16,          1) /* ItemUseable - No */
      , (4516,  19,        125) /* Value */
-     , (4516,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4516,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4516,   1, True ) /* Stuck */
-     , (4516,  11, True ) /* IgnoreCollisions */
-     , (4516,  12, True ) /* ReportCollisions */
-     , (4516,  13, False) /* Ethereal */
-     , (4516,  14, True ) /* GravityStatus */
-     , (4516,  19, True ) /* Attackable */;
+VALUES (4516,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4516,   1, 'Jewels of the South') /* Name */

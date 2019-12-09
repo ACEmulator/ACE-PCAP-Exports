@@ -9,22 +9,17 @@ VALUES (34421,   1,        128) /* ItemType - Misc */
      , (34421,  16,          8) /* ItemUseable - Contained */
      , (34421,  18,          1) /* UiEffects - Magical */
      , (34421,  19,         50) /* Value */
-     , (34421,  65,        101) /* Placement - Resting */
      , (34421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34421,  94,         16) /* TargetType - Creature */
-     , (34421, 151,          2) /* HookType - Wall */;
+     , (34421, 151,          2) /* HookType - Wall */
+     , (34421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34421,   1, False) /* Stuck */
-     , (34421,  11, True ) /* IgnoreCollisions */
-     , (34421,  13, True ) /* Ethereal */
-     , (34421,  14, True ) /* GravityStatus */
-     , (34421,  19, True ) /* Attackable */
-     , (34421,  22, True ) /* Inscribable */
+VALUES (34421,  22, True ) /* Inscribable */
      , (34421,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34421,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (34421,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34421,   1, 'Magic Hat') /* Name */

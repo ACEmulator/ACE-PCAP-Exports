@@ -13,20 +13,14 @@ VALUES (28481,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28481,   1, True ) /* Stuck */
-     , (28481,  12, True ) /* ReportCollisions */
-     , (28481,  13, True ) /* Ethereal */
-     , (28481,  14, True ) /* GravityStatus */
-     , (28481,  15, True ) /* LightsStatus */
-     , (28481,  19, True ) /* Attackable */
      , (28481,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28481,  39,     1.5) /* DefaultScale */
-     , (28481,  54, -0.100000001490116) /* UseRadius */;
+     , (28481,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28481,   1, 'Vile-Smelling Refuse') /* Name */
-     , (28481,  38, 'Vile-Smelling Refuse') /* AppraisalPortalDestination */;
+VALUES (28481,   1, 'Vile-Smelling Refuse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28481,   1,   33558852) /* Setup */

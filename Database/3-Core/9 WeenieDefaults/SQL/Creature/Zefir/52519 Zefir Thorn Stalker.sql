@@ -17,12 +17,7 @@ VALUES (52519,   1,         16) /* ItemType - Creature */
      , (52519, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52519,   1, True ) /* Stuck */
-     , (52519,  12, True ) /* ReportCollisions */
-     , (52519,  13, False) /* Ethereal */
-     , (52519,  14, True ) /* GravityStatus */
-     , (52519,  19, True ) /* Attackable */
-     , (52519,  42, True ) /* AllowEdgeSlide */;
+VALUES (52519,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52519,   1, 'Zefir Thorn Stalker') /* Name */

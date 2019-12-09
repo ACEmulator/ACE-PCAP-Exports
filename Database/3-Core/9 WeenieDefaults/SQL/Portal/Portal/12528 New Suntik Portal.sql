@@ -12,19 +12,13 @@ VALUES (12528,   1,      65536) /* ItemType - Portal */
      , (12528, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12528,   1, True ) /* Stuck */
-     , (12528,  12, True ) /* ReportCollisions */
-     , (12528,  13, True ) /* Ethereal */
-     , (12528,  14, True ) /* GravityStatus */
-     , (12528,  15, True ) /* LightsStatus */
-     , (12528,  19, True ) /* Attackable */;
+VALUES (12528,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12528,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12528,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12528,   1, 'New Suntik Portal') /* Name */
-     , (12528,  38, 'New Suntik Portal (18.8N, 4.2E).') /* AppraisalPortalDestination */
      , (12528, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

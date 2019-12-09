@@ -8,17 +8,12 @@ VALUES (31757,   1,        128) /* ItemType - Misc */
      , (31757,   5,        100) /* EncumbranceVal */
      , (31757,  16,         32) /* ItemUseable - Remote */
      , (31757,  19,        100) /* Value */
-     , (31757,  65,        101) /* Placement - Resting */
      , (31757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31757, 151,          9) /* HookType - Floor, Yard */;
+     , (31757, 151,          9) /* HookType - Floor, Yard */
+     , (31757, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31757,   1, False) /* Stuck */
-     , (31757,  11, True ) /* IgnoreCollisions */
-     , (31757,  13, True ) /* Ethereal */
-     , (31757,  14, True ) /* GravityStatus */
-     , (31757,  19, True ) /* Attackable */
-     , (31757,  22, True ) /* Inscribable */;
+VALUES (31757,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31757,   1, 'Fertilized Pitcher Plant') /* Name */

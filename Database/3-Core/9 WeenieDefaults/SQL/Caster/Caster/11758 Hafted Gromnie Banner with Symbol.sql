@@ -9,17 +9,12 @@ VALUES (11758,   1,      32768) /* ItemType - Caster */
      , (11758,   9,   16777216) /* ValidLocations - Held */
      , (11758,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (11758,  18,          1) /* UiEffects - Magical */
-     , (11758,  65,        101) /* Placement - Resting */
      , (11758,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11758,  94,         16) /* TargetType - Creature */;
+     , (11758,  94,         16) /* TargetType - Creature */
+     , (11758, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11758,   1, False) /* Stuck */
-     , (11758,  11, True ) /* IgnoreCollisions */
-     , (11758,  13, True ) /* Ethereal */
-     , (11758,  14, True ) /* GravityStatus */
-     , (11758,  19, True ) /* Attackable */
-     , (11758,  22, True ) /* Inscribable */;
+VALUES (11758,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11758,   1, 'Hafted Gromnie Banner with Symbol') /* Name */;

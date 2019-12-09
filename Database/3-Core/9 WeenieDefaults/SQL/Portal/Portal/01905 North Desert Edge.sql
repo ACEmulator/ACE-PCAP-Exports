@@ -12,19 +12,13 @@ VALUES (1905,   1,      65536) /* ItemType - Portal */
      , (1905, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1905,   1, True ) /* Stuck */
-     , (1905,  12, True ) /* ReportCollisions */
-     , (1905,  13, True ) /* Ethereal */
-     , (1905,  14, True ) /* GravityStatus */
-     , (1905,  15, True ) /* LightsStatus */
-     , (1905,  19, True ) /* Attackable */;
+VALUES (1905,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1905,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1905,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1905,   1, 'North Desert Edge') /* Name */
-     , (1905,  38, 'North Desert Edge (4.7S, 3.1W).') /* AppraisalPortalDestination */
      , (1905, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

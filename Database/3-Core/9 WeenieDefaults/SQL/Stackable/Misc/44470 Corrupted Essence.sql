@@ -14,16 +14,9 @@ VALUES (44470,   1,        128) /* ItemType - Misc */
      , (44470,  18,          8) /* UiEffects - BoostMana */
      , (44470,  19,          0) /* Value */
      , (44470,  33,          0) /* Bonded - Normal */
-     , (44470,  65,        101) /* Placement - Resting */
      , (44470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44470, 114,          0) /* Attuned - Normal */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44470,   1, False) /* Stuck */
-     , (44470,  11, True ) /* IgnoreCollisions */
-     , (44470,  13, True ) /* Ethereal */
-     , (44470,  14, True ) /* GravityStatus */
-     , (44470,  19, True ) /* Attackable */;
+     , (44470, 114,          0) /* Attuned - Normal */
+     , (44470, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44470,   1, 'Corrupted Essence') /* Name */

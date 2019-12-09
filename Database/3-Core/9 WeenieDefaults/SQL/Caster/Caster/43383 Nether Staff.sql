@@ -12,7 +12,6 @@ VALUES (43383,   1,      32768) /* ItemType - Caster */
      , (43383,  18,          1) /* UiEffects - Magical */
      , (43383,  19,      22456) /* Value */
      , (43383,  45,       1024) /* DamageType - Nether */
-     , (43383,  65,          1) /* Placement - RightHandCombat */
      , (43383,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43383,  94,         16) /* TargetType - Creature */
      , (43383, 105,          7) /* ItemWorkmanship */
@@ -31,22 +30,18 @@ VALUES (43383,   1,      32768) /* ItemType - Caster */
      , (43383, 172,          5) /* AppraisalLongDescDecoration */
      , (43383, 177,          2) /* GemCount */
      , (43383, 178,         21) /* GemType */
-     , (43383, 179,          1) /* ImbuedEffect - CriticalStrike */;
+     , (43383, 179,          1) /* ImbuedEffect - CriticalStrike */
+     , (43383, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43383,   1, False) /* Stuck */
-     , (43383,  11, True ) /* IgnoreCollisions */
-     , (43383,  13, True ) /* Ethereal */
-     , (43383,  14, True ) /* GravityStatus */
-     , (43383,  19, True ) /* Attackable */
-     , (43383,  22, True ) /* Inscribable */;
+VALUES (43383,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43383,   5, -0.0555555559694767) /* ManaRate */
-     , (43383,  29, 1.50000007450581) /* WeaponDefense */
-     , (43383,  39, 0.600000023841858) /* DefaultScale */
-     , (43383, 144, 0.143999992966652) /* ManaConversionMod */
-     , (43383, 152, 1.25999994575977) /* ElementalDamageMod */
+VALUES (43383,   5,   -0.06) /* ManaRate */
+     , (43383,  29,     1.5) /* WeaponDefense */
+     , (43383,  39,     0.6) /* DefaultScale */
+     , (43383, 144,    0.14) /* ManaConversionMod */
+     , (43383, 152,    1.26) /* ElementalDamageMod */
      , (43383, 8004,       9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

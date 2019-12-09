@@ -11,12 +11,7 @@ VALUES (4524,   1,        128) /* ItemType - Misc */
      , (4524,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4524,   1, True ) /* Stuck */
-     , (4524,  11, True ) /* IgnoreCollisions */
-     , (4524,  12, True ) /* ReportCollisions */
-     , (4524,  13, False) /* Ethereal */
-     , (4524,  14, True ) /* GravityStatus */
-     , (4524,  19, True ) /* Attackable */;
+VALUES (4524,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4524,   1, 'Nanto Outpost') /* Name */

@@ -10,16 +10,11 @@ VALUES (13219,   1,          2) /* ItemType - Armor */
      , (13219,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (13219,  16,          1) /* ItemUseable - No */
      , (13219,  19,        150) /* Value */
-     , (13219,  65,        101) /* Placement - Resting */
-     , (13219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (13219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (13219, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13219,   1, False) /* Stuck */
-     , (13219,  11, True ) /* IgnoreCollisions */
-     , (13219,  13, True ) /* Ethereal */
-     , (13219,  14, True ) /* GravityStatus */
-     , (13219,  19, True ) /* Attackable */
-     , (13219,  22, True ) /* Inscribable */;
+VALUES (13219,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13219,   1, 'Academy Coat') /* Name */;

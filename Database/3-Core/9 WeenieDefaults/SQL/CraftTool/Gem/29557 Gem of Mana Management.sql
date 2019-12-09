@@ -12,18 +12,13 @@ VALUES (29557,   1,       2048) /* ItemType - Gem */
      , (29557,  15,          0) /* StackUnitValue */
      , (29557,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29557,  19,          0) /* Value */
-     , (29557,  65,        101) /* Placement - Resting */
      , (29557,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29557,  94,      33041) /* TargetType - Creature, WeaponOrCaster */
-     , (29557, 151,          2) /* HookType - Wall */;
+     , (29557, 151,          2) /* HookType - Wall */
+     , (29557, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29557,   1, False) /* Stuck */
-     , (29557,  11, True ) /* IgnoreCollisions */
-     , (29557,  13, True ) /* Ethereal */
-     , (29557,  14, True ) /* GravityStatus */
-     , (29557,  19, True ) /* Attackable */
-     , (29557,  22, True ) /* Inscribable */
+VALUES (29557,  22, True ) /* Inscribable */
      , (29557,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

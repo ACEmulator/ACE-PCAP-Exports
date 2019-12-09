@@ -12,19 +12,13 @@ VALUES (21462,   1,      65536) /* ItemType - Portal */
      , (21462, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21462,   1, True ) /* Stuck */
-     , (21462,  12, True ) /* ReportCollisions */
-     , (21462,  13, True ) /* Ethereal */
-     , (21462,  14, True ) /* GravityStatus */
-     , (21462,  15, True ) /* LightsStatus */
-     , (21462,  19, True ) /* Attackable */;
+VALUES (21462,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21462,  54, -0.100000001490116) /* UseRadius */;
+VALUES (21462,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21462,   1, 'Crescent Moon Veranda Portal') /* Name */
-     , (21462,  38, 'Crescent Moon Veranda Portal') /* AppraisalPortalDestination */
      , (21462, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

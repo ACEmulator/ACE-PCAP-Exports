@@ -15,17 +15,13 @@ VALUES (4180,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4180,   1, True ) /* Stuck */
      , (4180,   2, False) /* Open */
-     , (4180,  11, True ) /* IgnoreCollisions */
-     , (4180,  12, True ) /* ReportCollisions */
-     , (4180,  13, True ) /* Ethereal */
-     , (4180,  14, True ) /* GravityStatus */
-     , (4180,  19, True ) /* Attackable */;
+     , (4180,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4180,  54,       1) /* UseRadius */
      , (4180, 8010,       0) /* PCAPRecordedVelocityX */
      , (4180, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4180, 8012, -0.0271992217749357) /* PCAPRecordedVelocityZ */;
+     , (4180, 8012,   -0.03) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4180,   1, 'Corpse') /* Name */;

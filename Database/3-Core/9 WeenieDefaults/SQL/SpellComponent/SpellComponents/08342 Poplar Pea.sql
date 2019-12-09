@@ -12,18 +12,11 @@ VALUES (8342,   1,       4096) /* ItemType - SpellComponents */
      , (8342,  15,        250) /* StackUnitValue */
      , (8342,  16,          1) /* ItemUseable - No */
      , (8342,  19,        250) /* Value */
-     , (8342,  65,        101) /* Placement - Resting */
-     , (8342,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8342,   1, False) /* Stuck */
-     , (8342,  11, True ) /* IgnoreCollisions */
-     , (8342,  13, True ) /* Ethereal */
-     , (8342,  14, True ) /* GravityStatus */
-     , (8342,  19, True ) /* Attackable */;
+     , (8342,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8342, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8342,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8342,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8342,   1, 'Poplar Pea') /* Name */;

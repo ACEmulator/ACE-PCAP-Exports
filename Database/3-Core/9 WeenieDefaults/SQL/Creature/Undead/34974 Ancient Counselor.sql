@@ -15,15 +15,11 @@ VALUES (34974,   1,         16) /* ItemType - Creature */
      , (34974, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34974,   1, True ) /* Stuck */
-     , (34974,  12, True ) /* ReportCollisions */
-     , (34974,  13, False) /* Ethereal */
-     , (34974,  14, True ) /* GravityStatus */
-     , (34974,  19, True ) /* Attackable */;
+VALUES (34974,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34974,  39, 1.29999995231628) /* DefaultScale */
-     , (34974,  76, 0.600000023841858) /* Translucency */;
+VALUES (34974,  39,     1.3) /* DefaultScale */
+     , (34974,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34974,   1, 'Ancient Counselor') /* Name */

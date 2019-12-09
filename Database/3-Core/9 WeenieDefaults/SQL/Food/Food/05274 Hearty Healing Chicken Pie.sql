@@ -13,15 +13,8 @@ VALUES (5274,   1,         32) /* ItemType - Food */
      , (5274,  16,          8) /* ItemUseable - Contained */
      , (5274,  18,          4) /* UiEffects - BoostHealth */
      , (5274,  19,        140) /* Value */
-     , (5274,  65,        101) /* Placement - Resting */
-     , (5274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5274,   1, False) /* Stuck */
-     , (5274,  11, True ) /* IgnoreCollisions */
-     , (5274,  13, True ) /* Ethereal */
-     , (5274,  14, True ) /* GravityStatus */
-     , (5274,  19, True ) /* Attackable */;
+     , (5274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5274, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5274,   1, 'Hearty Healing Chicken Pie') /* Name */

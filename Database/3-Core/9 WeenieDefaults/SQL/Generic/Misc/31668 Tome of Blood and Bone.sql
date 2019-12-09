@@ -13,12 +13,7 @@ VALUES (31668,   1,        128) /* ItemType - Misc */
      , (31668, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31668,   1, False) /* Stuck */
-     , (31668,  11, True ) /* IgnoreCollisions */
-     , (31668,  13, True ) /* Ethereal */
-     , (31668,  14, True ) /* GravityStatus */
-     , (31668,  19, True ) /* Attackable */
-     , (31668,  22, True ) /* Inscribable */
+VALUES (31668,  22, True ) /* Inscribable */
      , (31668,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

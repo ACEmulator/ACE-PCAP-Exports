@@ -14,19 +14,13 @@ VALUES (29512,   1,      65536) /* ItemType - Portal */
      , (29512, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29512,   1, True ) /* Stuck */
-     , (29512,  12, True ) /* ReportCollisions */
-     , (29512,  13, True ) /* Ethereal */
-     , (29512,  14, True ) /* GravityStatus */
-     , (29512,  15, True ) /* LightsStatus */
-     , (29512,  19, True ) /* Attackable */;
+VALUES (29512,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29512,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29512,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29512,   1, 'Cannibal Caverns') /* Name */
-     , (29512,  38, 'Cannibal Caverns') /* AppraisalPortalDestination */
      , (29512, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

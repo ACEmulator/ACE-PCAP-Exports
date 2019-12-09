@@ -12,18 +12,13 @@ VALUES (8643,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (8643,  15,         10) /* StackUnitValue */
      , (8643,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8643,  19,         10) /* Value */
-     , (8643,  65,        101) /* Placement - Resting */
      , (8643,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8643,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (8643, 151,          9) /* HookType - Floor, Yard */;
+     , (8643, 151,          9) /* HookType - Floor, Yard */
+     , (8643, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8643,   1, False) /* Stuck */
-     , (8643,  11, True ) /* IgnoreCollisions */
-     , (8643,  13, True ) /* Ethereal */
-     , (8643,  14, True ) /* GravityStatus */
-     , (8643,  19, True ) /* Attackable */
-     , (8643,  69, False) /* IsSellable */;
+VALUES (8643,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8643,   1, 'Vial of Argenory Dye') /* Name */

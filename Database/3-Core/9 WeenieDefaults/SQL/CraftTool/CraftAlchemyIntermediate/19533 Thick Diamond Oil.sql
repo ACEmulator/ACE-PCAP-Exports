@@ -11,18 +11,13 @@ VALUES (19533,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (19533,  13,         15) /* StackUnitEncumbrance */
      , (19533,  15,          0) /* StackUnitValue */
      , (19533,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (19533,  65,        101) /* Placement - Resting */
      , (19533,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19533,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (19533, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (19533, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (19533, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19533,   1, False) /* Stuck */
-     , (19533,  11, True ) /* IgnoreCollisions */
-     , (19533,  13, True ) /* Ethereal */
-     , (19533,  14, True ) /* GravityStatus */
-     , (19533,  19, True ) /* Attackable */
-     , (19533,  22, True ) /* Inscribable */;
+VALUES (19533,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19533,   1, 'Thick Diamond Oil') /* Name */;

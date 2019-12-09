@@ -12,19 +12,13 @@ VALUES (7612,   1,      65536) /* ItemType - Portal */
      , (7612, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7612,   1, True ) /* Stuck */
-     , (7612,  12, True ) /* ReportCollisions */
-     , (7612,  13, True ) /* Ethereal */
-     , (7612,  14, True ) /* GravityStatus */
-     , (7612,  15, True ) /* LightsStatus */
-     , (7612,  19, True ) /* Attackable */;
+VALUES (7612,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7612,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7612,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7612,   1, 'Lugian Excavations Portal') /* Name */
-     , (7612,  38, 'Lugian Excavations Portal') /* AppraisalPortalDestination */
      , (7612, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

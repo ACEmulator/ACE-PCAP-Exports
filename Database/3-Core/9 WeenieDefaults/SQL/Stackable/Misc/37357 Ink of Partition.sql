@@ -12,15 +12,8 @@ VALUES (37357,   1,        128) /* ItemType - Misc */
      , (37357,  15,      30000) /* StackUnitValue */
      , (37357,  16,          1) /* ItemUseable - No */
      , (37357,  19,      30000) /* Value */
-     , (37357,  65,        101) /* Placement - Resting */
-     , (37357,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37357,   1, False) /* Stuck */
-     , (37357,  11, True ) /* IgnoreCollisions */
-     , (37357,  13, True ) /* Ethereal */
-     , (37357,  14, True ) /* GravityStatus */
-     , (37357,  19, True ) /* Attackable */;
+     , (37357,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37357, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37357,   1, 'Ink of Partition') /* Name */

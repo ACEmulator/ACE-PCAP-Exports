@@ -9,18 +9,13 @@ VALUES (4612,   1,     524288) /* ItemType - ManaStone */
      , (4612,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (4612,  18,          1) /* UiEffects - Magical */
      , (4612,  19,        350) /* Value */
-     , (4612,  65,        101) /* Placement - Resting */
      , (4612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4612,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
-     , (4612, 151,          2) /* HookType - Wall */;
+     , (4612, 151,          2) /* HookType - Wall */
+     , (4612, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4612,   1, False) /* Stuck */
-     , (4612,  11, True ) /* IgnoreCollisions */
-     , (4612,  13, True ) /* Ethereal */
-     , (4612,  14, True ) /* GravityStatus */
-     , (4612,  19, True ) /* Attackable */
-     , (4612,  22, True ) /* Inscribable */;
+VALUES (4612,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4612,   1, 'Tiny Mana Charge') /* Name */;

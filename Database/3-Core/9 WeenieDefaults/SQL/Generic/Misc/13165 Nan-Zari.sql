@@ -11,12 +11,7 @@ VALUES (13165,   1,        128) /* ItemType - Misc */
      , (13165,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13165,   1, True ) /* Stuck */
-     , (13165,  11, True ) /* IgnoreCollisions */
-     , (13165,  12, True ) /* ReportCollisions */
-     , (13165,  13, False) /* Ethereal */
-     , (13165,  14, True ) /* GravityStatus */
-     , (13165,  19, True ) /* Attackable */;
+VALUES (13165,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13165,   1, 'Nan-Zari') /* Name */;

@@ -12,19 +12,14 @@ VALUES (5634,   1,        128) /* ItemType - Misc */
      , (5634,  15,         30) /* StackUnitValue */
      , (5634,  16,          8) /* ItemUseable - Contained */
      , (5634,  19,         30) /* Value */
-     , (5634,  65,        101) /* Placement - Resting */
      , (5634,  89,          4) /* BoosterEnum - Stamina */
      , (5634,  90,         10) /* BoostValue */
      , (5634,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5634, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (5634, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (5634, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5634,   1, False) /* Stuck */
-     , (5634,  11, True ) /* IgnoreCollisions */
-     , (5634,  13, True ) /* Ethereal */
-     , (5634,  14, True ) /* GravityStatus */
-     , (5634,  19, True ) /* Attackable */
-     , (5634,  69, False) /* IsSellable */;
+VALUES (5634,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5634,   1, 'Stamina Draught') /* Name */

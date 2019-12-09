@@ -12,19 +12,13 @@ VALUES (1123,   1,      65536) /* ItemType - Portal */
      , (1123, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1123,   1, True ) /* Stuck */
-     , (1123,  12, True ) /* ReportCollisions */
-     , (1123,  13, True ) /* Ethereal */
-     , (1123,  14, True ) /* GravityStatus */
-     , (1123,  15, True ) /* LightsStatus */
-     , (1123,  19, True ) /* Attackable */;
+VALUES (1123,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1123,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1123,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1123,   1, 'Dungeon Manor Portal') /* Name */
-     , (1123,  38, 'Dungeon Manor Portal') /* AppraisalPortalDestination */
      , (1123, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

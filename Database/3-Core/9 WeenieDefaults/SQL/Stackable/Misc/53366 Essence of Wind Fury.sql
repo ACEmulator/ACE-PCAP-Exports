@@ -12,16 +12,11 @@ VALUES (53366,   1,        128) /* ItemType - Misc */
      , (53366,  15,          0) /* StackUnitValue */
      , (53366,  16,          1) /* ItemUseable - No */
      , (53366,  19,          0) /* Value */
-     , (53366,  65,        101) /* Placement - Resting */
-     , (53366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (53366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (53366, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53366,   1, False) /* Stuck */
-     , (53366,  11, True ) /* IgnoreCollisions */
-     , (53366,  13, True ) /* Ethereal */
-     , (53366,  14, True ) /* GravityStatus */
-     , (53366,  19, True ) /* Attackable */
-     , (53366,  22, True ) /* Inscribable */;
+VALUES (53366,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53366,   1, 'Essence of Wind Fury') /* Name */

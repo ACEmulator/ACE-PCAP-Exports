@@ -11,15 +11,8 @@ VALUES (44765,   1,        128) /* ItemType - Misc */
      , (44765,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44765, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44765,   1, False) /* Stuck */
-     , (44765,  11, True ) /* IgnoreCollisions */
-     , (44765,  12, True ) /* ReportCollisions */
-     , (44765,  13, True ) /* Ethereal */
-     , (44765,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44765,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44765,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44765,   1, 'Shadow') /* Name */

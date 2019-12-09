@@ -12,17 +12,12 @@ VALUES (7042,   1,        128) /* ItemType - Misc */
      , (7042,  15,          0) /* StackUnitValue */
      , (7042,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7042,  19,          0) /* Value */
-     , (7042,  65,        101) /* Placement - Resting */
      , (7042,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7042,  94,        128) /* TargetType - Misc */;
+     , (7042,  94,        128) /* TargetType - Misc */
+     , (7042, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7042,   1, False) /* Stuck */
-     , (7042,  11, True ) /* IgnoreCollisions */
-     , (7042,  13, True ) /* Ethereal */
-     , (7042,  14, True ) /* GravityStatus */
-     , (7042,  19, True ) /* Attackable */
-     , (7042,  22, True ) /* Inscribable */;
+VALUES (7042,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7042,   1, 'Small Lugian Sinew') /* Name */

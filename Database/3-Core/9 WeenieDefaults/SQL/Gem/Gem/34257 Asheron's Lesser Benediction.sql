@@ -14,20 +14,15 @@ VALUES (34257,   1,       2048) /* ItemType - Gem */
      , (34257,  18,          2) /* UiEffects - Poisoned */
      , (34257,  19,          0) /* Value */
      , (34257,  33,          1) /* Bonded - Bonded */
-     , (34257,  65,        101) /* Placement - Resting */
      , (34257,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34257,  94,         16) /* TargetType - Creature */
      , (34257, 114,          1) /* Attuned - Attuned */
      , (34257, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (34257, 280,          2) /* SharedCooldown */;
+     , (34257, 280,          2) /* SharedCooldown */
+     , (34257, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34257,   1, False) /* Stuck */
-     , (34257,  11, True ) /* IgnoreCollisions */
-     , (34257,  13, True ) /* Ethereal */
-     , (34257,  14, True ) /* GravityStatus */
-     , (34257,  19, True ) /* Attackable */
-     , (34257,  22, True ) /* Inscribable */
+VALUES (34257,  22, True ) /* Inscribable */
      , (34257,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

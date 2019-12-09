@@ -11,12 +11,7 @@ VALUES (13162,   1,        128) /* ItemType - Misc */
      , (13162,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13162,   1, True ) /* Stuck */
-     , (13162,  11, True ) /* IgnoreCollisions */
-     , (13162,  12, True ) /* ReportCollisions */
-     , (13162,  13, False) /* Ethereal */
-     , (13162,  14, True ) /* GravityStatus */
-     , (13162,  19, True ) /* Attackable */;
+VALUES (13162,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13162,   1, 'Iceea Hills Estates') /* Name */;

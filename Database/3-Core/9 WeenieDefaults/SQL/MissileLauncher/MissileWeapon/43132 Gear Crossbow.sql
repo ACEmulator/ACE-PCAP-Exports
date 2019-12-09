@@ -16,12 +16,7 @@ VALUES (43132,   1,        256) /* ItemType - MissileWeapon */
      , (43132, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43132,   1, False) /* Stuck */
-     , (43132,  11, True ) /* IgnoreCollisions */
-     , (43132,  13, True ) /* Ethereal */
-     , (43132,  14, True ) /* GravityStatus */
-     , (43132,  19, True ) /* Attackable */
-     , (43132,  22, True ) /* Inscribable */;
+VALUES (43132,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43132,  39,     1.5) /* DefaultScale */;

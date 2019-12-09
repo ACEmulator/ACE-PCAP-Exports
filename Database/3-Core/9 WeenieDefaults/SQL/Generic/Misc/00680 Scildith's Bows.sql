@@ -8,16 +8,11 @@ VALUES (680,   1,        128) /* ItemType - Misc */
      , (680,   5,       9000) /* EncumbranceVal */
      , (680,  16,          1) /* ItemUseable - No */
      , (680,  19,        125) /* Value */
-     , (680,  65,        101) /* Placement - Resting */
-     , (680,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (680,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (680, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (680,   1, True ) /* Stuck */
-     , (680,  11, True ) /* IgnoreCollisions */
-     , (680,  12, True ) /* ReportCollisions */
-     , (680,  13, False) /* Ethereal */
-     , (680,  14, True ) /* GravityStatus */
-     , (680,  19, True ) /* Attackable */;
+VALUES (680,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (680,   1, 'Scildith''s Bows') /* Name */

@@ -38,14 +38,10 @@ VALUES (44297,   1,         16) /* ItemType - Creature */
      , (44297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44297,   1, True ) /* Stuck */
-     , (44297,  12, True ) /* ReportCollisions */
-     , (44297,  13, False) /* Ethereal */
-     , (44297,  14, True ) /* GravityStatus */
-     , (44297,  19, True ) /* Attackable */;
+VALUES (44297,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44297,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (44297,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44297,   1, 'Cracked Stone Tablet') /* Name */

@@ -12,19 +12,13 @@ VALUES (6103,   1,      65536) /* ItemType - Portal */
      , (6103, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6103,   1, True ) /* Stuck */
-     , (6103,  12, True ) /* ReportCollisions */
-     , (6103,  13, True ) /* Ethereal */
-     , (6103,  14, True ) /* GravityStatus */
-     , (6103,  15, True ) /* LightsStatus */
-     , (6103,  19, True ) /* Attackable */;
+VALUES (6103,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6103,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6103,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6103,   1, 'Rithwic Meeting Hall Portal') /* Name */
-     , (6103,  38, 'Rithwic Meeting Hall Portal') /* AppraisalPortalDestination */
      , (6103, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

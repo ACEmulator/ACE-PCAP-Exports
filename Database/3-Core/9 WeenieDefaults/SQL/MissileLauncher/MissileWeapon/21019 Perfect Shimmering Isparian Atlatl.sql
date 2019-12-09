@@ -12,17 +12,12 @@ VALUES (21019,   1,        256) /* ItemType - MissileWeapon */
      , (21019,  19,       8000) /* Value */
      , (21019,  50,          4) /* AmmoType - Atlatl */
      , (21019,  51,          2) /* CombatUse - Missle */
-     , (21019,  65,        101) /* Placement - Resting */
      , (21019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21019, 151,          2) /* HookType - Wall */;
+     , (21019, 151,          2) /* HookType - Wall */
+     , (21019, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21019,   1, False) /* Stuck */
-     , (21019,  11, True ) /* IgnoreCollisions */
-     , (21019,  13, True ) /* Ethereal */
-     , (21019,  14, True ) /* GravityStatus */
-     , (21019,  19, True ) /* Attackable */
-     , (21019,  22, True ) /* Inscribable */;
+VALUES (21019,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21019,   1, 'Perfect Shimmering Isparian Atlatl') /* Name */;

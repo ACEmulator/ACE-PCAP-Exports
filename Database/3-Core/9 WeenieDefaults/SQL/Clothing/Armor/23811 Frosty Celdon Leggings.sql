@@ -11,16 +11,11 @@ VALUES (23811,   1,          2) /* ItemType - Armor */
      , (23811,  16,          1) /* ItemUseable - No */
      , (23811,  18,        128) /* UiEffects - Frost */
      , (23811,  19,       2140) /* Value */
-     , (23811,  65,        101) /* Placement - Resting */
-     , (23811,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23811,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23811, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23811,   1, False) /* Stuck */
-     , (23811,  11, True ) /* IgnoreCollisions */
-     , (23811,  13, True ) /* Ethereal */
-     , (23811,  14, True ) /* GravityStatus */
-     , (23811,  19, True ) /* Attackable */
-     , (23811,  22, True ) /* Inscribable */;
+VALUES (23811,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23811,   1, 'Frosty Celdon Leggings') /* Name */;

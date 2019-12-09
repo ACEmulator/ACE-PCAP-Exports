@@ -11,20 +11,14 @@ VALUES (45525,   1,          1) /* ItemType - MeleeWeapon */
      , (45525,  16,          1) /* ItemUseable - No */
      , (45525,  18,          1) /* UiEffects - Magical */
      , (45525,  51,          1) /* CombatUse - Melee */
-     , (45525,  65,          1) /* Placement - RightHandCombat */
-     , (45525,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (45525,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (45525, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45525,   1, False) /* Stuck */
-     , (45525,  11, True ) /* IgnoreCollisions */
-     , (45525,  13, True ) /* Ethereal */
-     , (45525,  14, True ) /* GravityStatus */
-     , (45525,  15, True ) /* LightsStatus */
-     , (45525,  19, True ) /* Attackable */
-     , (45525,  22, True ) /* Inscribable */;
+VALUES (45525,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45525,  76, 0.699999988079071) /* Translucency */;
+VALUES (45525,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45525,   1, 'Soul Bound Dagger') /* Name */;

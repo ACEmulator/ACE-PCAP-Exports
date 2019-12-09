@@ -12,17 +12,12 @@ VALUES (23361,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (23361,  15,         50) /* StackUnitValue */
      , (23361,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (23361,  19,         50) /* Value */
-     , (23361,  65,        101) /* Placement - Resting */
      , (23361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23361,  94,        130) /* TargetType - Armor, Misc */;
+     , (23361,  94,        130) /* TargetType - Armor, Misc */
+     , (23361, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23361,   1, False) /* Stuck */
-     , (23361,  11, True ) /* IgnoreCollisions */
-     , (23361,  13, True ) /* Ethereal */
-     , (23361,  14, True ) /* GravityStatus */
-     , (23361,  19, True ) /* Attackable */
-     , (23361,  22, True ) /* Inscribable */;
+VALUES (23361,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23361,   1, 'Chorizite Formula') /* Name */;

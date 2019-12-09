@@ -15,14 +15,10 @@ VALUES (21787,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21787,   1, True ) /* Stuck */
-     , (21787,  12, True ) /* ReportCollisions */
-     , (21787,  13, False) /* Ethereal */
-     , (21787,  14, True ) /* GravityStatus */
-     , (21787,  19, False) /* Attackable */
-     , (21787,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (21787,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21787,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (21787,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21787,   1, 'Icy Tentacle') /* Name */

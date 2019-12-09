@@ -9,23 +9,16 @@ VALUES (20976,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20976,   1, True ) /* Stuck */
-     , (20976,  12, True ) /* ReportCollisions */
-     , (20976,  13, False) /* Ethereal */
-     , (20976,  14, True ) /* GravityStatus */
-     , (20976,  15, True ) /* LightsStatus */
-     , (20976,  16, True ) /* ScriptedCollision */
-     , (20976,  17, True ) /* Inelastic */
-     , (20976,  19, True ) /* Attackable */
      , (20976,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20976,  39, 0.400000005960464) /* DefaultScale */
+VALUES (20976,  39,     0.4) /* DefaultScale */
      , (20976,  77,       1) /* PhysicsScriptIntensity */
      , (20976,  78,       1) /* Friction */
      , (20976,  79,       0) /* Elasticity */
-     , (20976, 8010, -34.3849830627441) /* PCAPRecordedVelocityX */
-     , (20976, 8011, -19.3474597930908) /* PCAPRecordedVelocityY */
-     , (20976, 8012, 4.44554424285889) /* PCAPRecordedVelocityZ */;
+     , (20976, 8010,  -34.38) /* PCAPRecordedVelocityX */
+     , (20976, 8011,  -19.35) /* PCAPRecordedVelocityY */
+     , (20976, 8012,    4.45) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20976,   1, 'Frost Bolt') /* Name */;

@@ -15,14 +15,10 @@ VALUES (31340,   1,         16) /* ItemType - Creature */
      , (31340, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31340,   1, True ) /* Stuck */
-     , (31340,  12, True ) /* ReportCollisions */
-     , (31340,  13, False) /* Ethereal */
-     , (31340,  14, True ) /* GravityStatus */
-     , (31340,  19, True ) /* Attackable */;
+VALUES (31340,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31340,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (31340,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31340,   1, 'Guardian Blue Coral Golem') /* Name */

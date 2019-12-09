@@ -9,17 +9,12 @@ VALUES (22329,   1,       2048) /* ItemType - Gem */
      , (22329,  16,          8) /* ItemUseable - Contained */
      , (22329,  19,          0) /* Value */
      , (22329,  33,          1) /* Bonded - Bonded */
-     , (22329,  65,        101) /* Placement - Resting */
      , (22329,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22329, 114,          1) /* Attuned - Attuned */;
+     , (22329, 114,          1) /* Attuned - Attuned */
+     , (22329, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22329,   1, False) /* Stuck */
-     , (22329,  11, True ) /* IgnoreCollisions */
-     , (22329,  13, True ) /* Ethereal */
-     , (22329,  14, True ) /* GravityStatus */
-     , (22329,  19, True ) /* Attackable */
-     , (22329,  22, True ) /* Inscribable */;
+VALUES (22329,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22329,   1, 'Item Enchantment Gem of Forgetfulness') /* Name */

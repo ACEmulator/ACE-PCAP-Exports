@@ -15,15 +15,10 @@ VALUES (51358,   1,         16) /* ItemType - Creature */
      , (51358, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51358,   1, True ) /* Stuck */
-     , (51358,  12, True ) /* ReportCollisions */
-     , (51358,  13, False) /* Ethereal */
-     , (51358,  14, True ) /* GravityStatus */
-     , (51358,  19, True ) /* Attackable */
-     , (51358,  42, True ) /* AllowEdgeSlide */;
+VALUES (51358,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51358,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51358,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51358,   1, 'Gurog Guardian Minion') /* Name */

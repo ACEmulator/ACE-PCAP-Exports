@@ -7,20 +7,15 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23888,   1,      16384) /* ItemType - Key */
      , (23888,   5,         50) /* EncumbranceVal */
      , (23888,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (23888,  65,        101) /* Placement - Resting */
      , (23888,  91,          1) /* MaxStructure */
      , (23888,  92,          1) /* Structure */
      , (23888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23888,  94,        640) /* TargetType - LockableMagicTarget */
-     , (23888, 151,          2) /* HookType - Wall */;
+     , (23888, 151,          2) /* HookType - Wall */
+     , (23888, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23888,   1, False) /* Stuck */
-     , (23888,  11, True ) /* IgnoreCollisions */
-     , (23888,  13, True ) /* Ethereal */
-     , (23888,  14, True ) /* GravityStatus */
-     , (23888,  19, True ) /* Attackable */
-     , (23888,  22, True ) /* Inscribable */;
+VALUES (23888,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23888,   1, 'Ulgrim''s Golden Key') /* Name */;

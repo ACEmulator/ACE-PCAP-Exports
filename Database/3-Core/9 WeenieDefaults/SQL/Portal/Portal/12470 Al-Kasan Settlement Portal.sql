@@ -12,19 +12,13 @@ VALUES (12470,   1,      65536) /* ItemType - Portal */
      , (12470, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12470,   1, True ) /* Stuck */
-     , (12470,  12, True ) /* ReportCollisions */
-     , (12470,  13, True ) /* Ethereal */
-     , (12470,  14, True ) /* GravityStatus */
-     , (12470,  15, True ) /* LightsStatus */
-     , (12470,  19, True ) /* Attackable */;
+VALUES (12470,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12470,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12470,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12470,   1, 'Al-Kasan Settlement Portal') /* Name */
-     , (12470,  38, 'Al-Kasan Settlement Portal (33.2S, 9.8E).') /* AppraisalPortalDestination */
      , (12470, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

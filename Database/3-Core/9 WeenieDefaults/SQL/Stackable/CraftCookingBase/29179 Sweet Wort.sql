@@ -12,15 +12,8 @@ VALUES (29179,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29179,  15,         50) /* StackUnitValue */
      , (29179,  16,          1) /* ItemUseable - No */
      , (29179,  19,         50) /* Value */
-     , (29179,  65,        101) /* Placement - Resting */
-     , (29179,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29179,   1, False) /* Stuck */
-     , (29179,  11, True ) /* IgnoreCollisions */
-     , (29179,  13, True ) /* Ethereal */
-     , (29179,  14, True ) /* GravityStatus */
-     , (29179,  19, True ) /* Attackable */;
+     , (29179,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29179, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29179,   1, 'Sweet Wort') /* Name */

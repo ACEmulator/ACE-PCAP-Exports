@@ -10,20 +10,15 @@ VALUES (15858,   1,          8) /* ItemType - Jewelry */
      , (15858,  16,          1) /* ItemUseable - No */
      , (15858,  18,          1) /* UiEffects - Magical */
      , (15858,  19,       8000) /* Value */
-     , (15858,  65,        101) /* Placement - Resting */
      , (15858,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15858, 151,          2) /* HookType - Wall */;
+     , (15858, 151,          2) /* HookType - Wall */
+     , (15858, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15858,   1, False) /* Stuck */
-     , (15858,  11, True ) /* IgnoreCollisions */
-     , (15858,  13, True ) /* Ethereal */
-     , (15858,  14, True ) /* GravityStatus */
-     , (15858,  19, True ) /* Attackable */
-     , (15858,  22, True ) /* Inscribable */;
+VALUES (15858,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15858,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (15858,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15858,   1, 'Encrusted Bloodstone Jewel') /* Name */;

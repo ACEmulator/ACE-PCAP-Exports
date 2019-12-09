@@ -8,19 +8,14 @@ VALUES (42348,   1,        128) /* ItemType - Misc */
      , (42348,   5,        225) /* EncumbranceVal */
      , (42348,  16,          1) /* ItemUseable - No */
      , (42348,  19,         50) /* Value */
-     , (42348,  65,        101) /* Placement - Resting */
-     , (42348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (42348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (42348, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42348,   1, False) /* Stuck */
-     , (42348,  11, True ) /* IgnoreCollisions */
-     , (42348,  13, True ) /* Ethereal */
-     , (42348,  14, True ) /* GravityStatus */
-     , (42348,  19, True ) /* Attackable */
-     , (42348,  22, True ) /* Inscribable */;
+VALUES (42348,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42348,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (42348,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42348,   1, 'Black Coral Heart') /* Name */;

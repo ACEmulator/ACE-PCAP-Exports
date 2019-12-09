@@ -9,20 +9,15 @@ VALUES (9310,   1,        128) /* ItemType - Misc */
      , (9310,  16,          1) /* ItemUseable - No */
      , (9310,  19,          0) /* Value */
      , (9310,  33,          1) /* Bonded - Bonded */
-     , (9310,  65,        101) /* Placement - Resting */
      , (9310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9310, 114,          1) /* Attuned - Attuned */;
+     , (9310, 114,          1) /* Attuned - Attuned */
+     , (9310, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9310,   1, False) /* Stuck */
-     , (9310,  11, True ) /* IgnoreCollisions */
-     , (9310,  13, True ) /* Ethereal */
-     , (9310,  14, True ) /* GravityStatus */
-     , (9310,  19, True ) /* Attackable */
-     , (9310,  22, True ) /* Inscribable */;
+VALUES (9310,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9310,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (9310,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9310,   1, 'A Large Mnemosyne') /* Name */

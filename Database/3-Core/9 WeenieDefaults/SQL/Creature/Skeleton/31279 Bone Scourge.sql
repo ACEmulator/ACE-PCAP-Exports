@@ -16,12 +16,7 @@ VALUES (31279,   1,         16) /* ItemType - Creature */
      , (31279, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31279,   1, True ) /* Stuck */
-     , (31279,  12, True ) /* ReportCollisions */
-     , (31279,  13, False) /* Ethereal */
-     , (31279,  14, True ) /* GravityStatus */
-     , (31279,  19, True ) /* Attackable */
-     , (31279,  42, True ) /* AllowEdgeSlide */;
+VALUES (31279,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31279,   1, 'Bone Scourge') /* Name */

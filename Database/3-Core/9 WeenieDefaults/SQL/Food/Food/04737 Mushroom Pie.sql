@@ -12,15 +12,8 @@ VALUES (4737,   1,         32) /* ItemType - Food */
      , (4737,  15,         26) /* StackUnitValue */
      , (4737,  16,          8) /* ItemUseable - Contained */
      , (4737,  19,         26) /* Value */
-     , (4737,  65,        101) /* Placement - Resting */
-     , (4737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4737,   1, False) /* Stuck */
-     , (4737,  11, True ) /* IgnoreCollisions */
-     , (4737,  13, True ) /* Ethereal */
-     , (4737,  14, True ) /* GravityStatus */
-     , (4737,  19, True ) /* Attackable */;
+     , (4737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4737, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4737,   1, 'Mushroom Pie') /* Name */

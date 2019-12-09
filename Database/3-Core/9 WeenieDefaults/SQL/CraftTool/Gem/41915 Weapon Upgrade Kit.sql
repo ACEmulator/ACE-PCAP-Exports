@@ -12,17 +12,12 @@ VALUES (41915,   1,       2048) /* ItemType - Gem */
      , (41915,  15,          5) /* StackUnitValue */
      , (41915,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41915,  19,          5) /* Value */
-     , (41915,  65,        101) /* Placement - Resting */
      , (41915,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41915,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (41915,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (41915, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41915,   1, False) /* Stuck */
-     , (41915,  11, True ) /* IgnoreCollisions */
-     , (41915,  13, True ) /* Ethereal */
-     , (41915,  14, True ) /* GravityStatus */
-     , (41915,  19, True ) /* Attackable */
-     , (41915,  22, True ) /* Inscribable */
+VALUES (41915,  22, True ) /* Inscribable */
      , (41915,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

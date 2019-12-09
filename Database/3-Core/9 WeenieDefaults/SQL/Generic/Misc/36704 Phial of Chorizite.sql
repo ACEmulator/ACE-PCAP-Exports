@@ -10,17 +10,12 @@ VALUES (36704,   1,        128) /* ItemType - Misc */
      , (36704,  18,          1) /* UiEffects - Magical */
      , (36704,  19,       3000) /* Value */
      , (36704,  33,          1) /* Bonded - Bonded */
-     , (36704,  65,        101) /* Placement - Resting */
      , (36704,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36704, 114,          1) /* Attuned - Attuned */;
+     , (36704, 114,          1) /* Attuned - Attuned */
+     , (36704, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36704,   1, False) /* Stuck */
-     , (36704,  11, True ) /* IgnoreCollisions */
-     , (36704,  13, True ) /* Ethereal */
-     , (36704,  14, True ) /* GravityStatus */
-     , (36704,  19, True ) /* Attackable */
-     , (36704,  22, True ) /* Inscribable */;
+VALUES (36704,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36704,   1, 'Phial of Chorizite') /* Name */

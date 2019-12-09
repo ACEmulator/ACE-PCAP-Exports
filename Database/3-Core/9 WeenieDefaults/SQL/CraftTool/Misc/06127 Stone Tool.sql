@@ -12,17 +12,12 @@ VALUES (6127,   1,        128) /* ItemType - Misc */
      , (6127,  15,       5000) /* StackUnitValue */
      , (6127,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6127,  19,       5000) /* Value */
-     , (6127,  65,        101) /* Placement - Resting */
      , (6127,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6127,  94,      33159) /* TargetType - Misc, RedirectableItemEnchantmentTarget */;
+     , (6127,  94,      33159) /* TargetType - Misc, RedirectableItemEnchantmentTarget */
+     , (6127, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6127,   1, False) /* Stuck */
-     , (6127,  11, True ) /* IgnoreCollisions */
-     , (6127,  13, True ) /* Ethereal */
-     , (6127,  14, True ) /* GravityStatus */
-     , (6127,  19, True ) /* Attackable */
-     , (6127,  22, True ) /* Inscribable */;
+VALUES (6127,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6127,  39,     1.5) /* DefaultScale */;

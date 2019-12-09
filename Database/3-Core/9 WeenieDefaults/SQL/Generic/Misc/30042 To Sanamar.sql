@@ -8,16 +8,11 @@ VALUES (30042,   1,        128) /* ItemType - Misc */
      , (30042,   5,       9000) /* EncumbranceVal */
      , (30042,  16,          1) /* ItemUseable - No */
      , (30042,  19,        125) /* Value */
-     , (30042,  65,        101) /* Placement - Resting */
-     , (30042,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (30042,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (30042, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30042,   1, True ) /* Stuck */
-     , (30042,  11, True ) /* IgnoreCollisions */
-     , (30042,  12, True ) /* ReportCollisions */
-     , (30042,  13, False) /* Ethereal */
-     , (30042,  14, True ) /* GravityStatus */
-     , (30042,  19, True ) /* Attackable */;
+VALUES (30042,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30042,   1, 'To Sanamar') /* Name */

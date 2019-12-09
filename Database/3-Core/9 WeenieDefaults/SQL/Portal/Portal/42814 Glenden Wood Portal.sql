@@ -12,20 +12,14 @@ VALUES (42814,   1,      65536) /* ItemType - Portal */
      , (42814, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42814,   1, True ) /* Stuck */
-     , (42814,  12, True ) /* ReportCollisions */
-     , (42814,  13, True ) /* Ethereal */
-     , (42814,  14, True ) /* GravityStatus */
-     , (42814,  15, True ) /* LightsStatus */
-     , (42814,  19, True ) /* Attackable */;
+VALUES (42814,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42814,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42814,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42814,   1, 'Glenden Wood Portal') /* Name */
      , (42814,  16, 'This portal goes to Glenden Wood, a village surrounded by the tall trees of the Tiofor Woods. Despite the truce between Queen Elysa and King Varicci, the town is besieged on all sides by Viamontian soldiers. This is a good town for characters over level 40.') /* LongDesc */
-     , (42814,  38, 'Glenden Wood Portal (29.7N, 26.5E).') /* AppraisalPortalDestination */
      , (42814, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

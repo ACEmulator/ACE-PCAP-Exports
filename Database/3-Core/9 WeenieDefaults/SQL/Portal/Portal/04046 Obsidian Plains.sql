@@ -13,19 +13,13 @@ VALUES (4046,   1,      65536) /* ItemType - Portal */
      , (4046, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4046,   1, True ) /* Stuck */
-     , (4046,  12, True ) /* ReportCollisions */
-     , (4046,  13, True ) /* Ethereal */
-     , (4046,  14, True ) /* GravityStatus */
-     , (4046,  15, True ) /* LightsStatus */
-     , (4046,  19, True ) /* Attackable */;
+VALUES (4046,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4046,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4046,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4046,   1, 'Obsidian Plains') /* Name */
-     , (4046,  38, 'Obsidian Plains (64.0S, 65.3W).') /* AppraisalPortalDestination */
      , (4046, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

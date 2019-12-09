@@ -17,12 +17,7 @@ VALUES (14526,   1,       2048) /* ItemType - Gem */
      , (14526, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14526,   1, False) /* Stuck */
-     , (14526,  11, True ) /* IgnoreCollisions */
-     , (14526,  13, True ) /* Ethereal */
-     , (14526,  14, True ) /* GravityStatus */
-     , (14526,  19, True ) /* Attackable */
-     , (14526,  22, True ) /* Inscribable */;
+VALUES (14526,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14526,   1, 'Fragment of the Lightning Prism') /* Name */

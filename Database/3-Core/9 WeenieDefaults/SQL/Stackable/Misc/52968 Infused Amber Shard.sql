@@ -12,16 +12,11 @@ VALUES (52968,   1,        128) /* ItemType - Misc */
      , (52968,  15,          1) /* StackUnitValue */
      , (52968,  16,          1) /* ItemUseable - No */
      , (52968,  19,          1) /* Value */
-     , (52968,  65,        101) /* Placement - Resting */
-     , (52968,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (52968,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (52968, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52968,   1, False) /* Stuck */
-     , (52968,  11, True ) /* IgnoreCollisions */
-     , (52968,  13, True ) /* Ethereal */
-     , (52968,  14, True ) /* GravityStatus */
-     , (52968,  19, True ) /* Attackable */
-     , (52968,  69, False) /* IsSellable */;
+VALUES (52968,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52968,   1, 'Infused Amber Shard') /* Name */

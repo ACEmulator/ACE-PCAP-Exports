@@ -9,18 +9,13 @@ VALUES (29103,   1,        128) /* ItemType - Misc */
      , (29103,  16,         32) /* ItemUseable - Remote */
      , (29103,  19,          0) /* Value */
      , (29103,  33,          1) /* Bonded - Bonded */
-     , (29103,  65,        101) /* Placement - Resting */
-     , (29103,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (29103,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29103, 114,          0) /* Attuned - Normal */
-     , (29103, 151,          9) /* HookType - Floor, Yard */;
+     , (29103, 151,          9) /* HookType - Floor, Yard */
+     , (29103, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29103,   1, False) /* Stuck */
-     , (29103,  11, True ) /* IgnoreCollisions */
-     , (29103,  13, True ) /* Ethereal */
-     , (29103,  14, True ) /* GravityStatus */
-     , (29103,  19, True ) /* Attackable */
-     , (29103,  22, True ) /* Inscribable */;
+VALUES (29103,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29103,  54,       3) /* UseRadius */;

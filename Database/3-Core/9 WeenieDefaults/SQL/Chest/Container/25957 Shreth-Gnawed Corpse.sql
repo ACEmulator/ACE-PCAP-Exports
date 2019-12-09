@@ -15,17 +15,13 @@ VALUES (25957,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25957,   1, True ) /* Stuck */
      , (25957,   2, False) /* Open */
-     , (25957,  11, True ) /* IgnoreCollisions */
-     , (25957,  12, True ) /* ReportCollisions */
-     , (25957,  13, True ) /* Ethereal */
-     , (25957,  14, True ) /* GravityStatus */
-     , (25957,  19, True ) /* Attackable */;
+     , (25957,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25957,  54,       1) /* UseRadius */
      , (25957, 8010,       0) /* PCAPRecordedVelocityX */
      , (25957, 8011,       0) /* PCAPRecordedVelocityY */
-     , (25957, 8012, -0.151098668575287) /* PCAPRecordedVelocityZ */;
+     , (25957, 8012,   -0.15) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25957,   1, 'Shreth-Gnawed Corpse') /* Name */

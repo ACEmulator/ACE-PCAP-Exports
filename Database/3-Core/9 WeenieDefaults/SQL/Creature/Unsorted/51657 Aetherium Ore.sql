@@ -15,13 +15,10 @@ VALUES (51657,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51657,   1, True ) /* Stuck */
-     , (51657,  12, True ) /* ReportCollisions */
-     , (51657,  13, False) /* Ethereal */
-     , (51657,  14, True ) /* GravityStatus */
      , (51657,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51657,  76, 0.600000023841858) /* Translucency */;
+VALUES (51657,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51657,   1, 'Aetherium Ore') /* Name */

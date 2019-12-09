@@ -15,11 +15,7 @@ VALUES (23555,   1,         16) /* ItemType - Creature */
      , (23555, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23555,   1, True ) /* Stuck */
-     , (23555,  12, True ) /* ReportCollisions */
-     , (23555,  13, False) /* Ethereal */
-     , (23555,  14, True ) /* GravityStatus */
-     , (23555,  19, True ) /* Attackable */;
+VALUES (23555,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23555,   1, 'Telumiat Hollow Minion') /* Name */

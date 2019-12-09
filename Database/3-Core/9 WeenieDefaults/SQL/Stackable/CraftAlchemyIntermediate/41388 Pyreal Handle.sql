@@ -12,17 +12,12 @@ VALUES (41388,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41388,  15,         10) /* StackUnitValue */
      , (41388,  16,          1) /* ItemUseable - No */
      , (41388,  19,         10) /* Value */
-     , (41388,  65,        101) /* Placement - Resting */
      , (41388,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41388, 151,          9) /* HookType - Floor, Yard */;
+     , (41388, 151,          9) /* HookType - Floor, Yard */
+     , (41388, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41388,   1, False) /* Stuck */
-     , (41388,  11, True ) /* IgnoreCollisions */
-     , (41388,  13, True ) /* Ethereal */
-     , (41388,  14, True ) /* GravityStatus */
-     , (41388,  19, True ) /* Attackable */
-     , (41388,  22, True ) /* Inscribable */;
+VALUES (41388,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41388,   1, 'Pyreal Handle') /* Name */;

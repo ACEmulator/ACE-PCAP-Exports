@@ -8,17 +8,12 @@ VALUES (31684,   1,        128) /* ItemType - Misc */
      , (31684,   5,        100) /* EncumbranceVal */
      , (31684,  16,          1) /* ItemUseable - No */
      , (31684,  19,        100) /* Value */
-     , (31684,  65,        101) /* Placement - Resting */
      , (31684,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31684, 151,          9) /* HookType - Floor, Yard */;
+     , (31684, 151,          9) /* HookType - Floor, Yard */
+     , (31684, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31684,   1, False) /* Stuck */
-     , (31684,  11, True ) /* IgnoreCollisions */
-     , (31684,  13, True ) /* Ethereal */
-     , (31684,  14, True ) /* GravityStatus */
-     , (31684,  19, True ) /* Attackable */
-     , (31684,  22, True ) /* Inscribable */;
+VALUES (31684,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31684,   1, 'Monster Fly Trap') /* Name */;

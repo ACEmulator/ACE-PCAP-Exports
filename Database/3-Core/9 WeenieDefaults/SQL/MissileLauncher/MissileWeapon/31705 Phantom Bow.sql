@@ -12,21 +12,15 @@ VALUES (31705,   1,        256) /* ItemType - MissileWeapon */
      , (31705,  19,       4000) /* Value */
      , (31705,  50,         64) /* AmmoType - ArrowChorizite */
      , (31705,  51,          2) /* CombatUse - Missle */
-     , (31705,  65,          3) /* Placement - LeftHand */
      , (31705,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (31705, 151,          2) /* HookType - Wall */;
+     , (31705, 151,          2) /* HookType - Wall */
+     , (31705, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31705,   1, False) /* Stuck */
-     , (31705,  11, True ) /* IgnoreCollisions */
-     , (31705,  13, True ) /* Ethereal */
-     , (31705,  14, True ) /* GravityStatus */
-     , (31705,  15, True ) /* LightsStatus */
-     , (31705,  19, True ) /* Attackable */
-     , (31705,  22, True ) /* Inscribable */;
+VALUES (31705,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31705,  76, 0.699999988079071) /* Translucency */
+VALUES (31705,  76,     0.7) /* Translucency */
      , (31705,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

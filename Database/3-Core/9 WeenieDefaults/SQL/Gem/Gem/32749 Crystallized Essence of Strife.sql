@@ -14,15 +14,10 @@ VALUES (32749,   1,       2048) /* ItemType - Gem */
      , (32749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32749,   1, False) /* Stuck */
-     , (32749,  11, True ) /* IgnoreCollisions */
-     , (32749,  13, True ) /* Ethereal */
-     , (32749,  14, True ) /* GravityStatus */
-     , (32749,  19, True ) /* Attackable */
-     , (32749,  22, True ) /* Inscribable */;
+VALUES (32749,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32749,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (32749,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32749,   1, 'Crystallized Essence of Strife') /* Name */;

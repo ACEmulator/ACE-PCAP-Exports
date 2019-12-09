@@ -8,15 +8,10 @@ VALUES (849,   1,        128) /* ItemType - Misc */
      , (849,   5,       9000) /* EncumbranceVal */
      , (849,  16,          1) /* ItemUseable - No */
      , (849,  19,        125) /* Value */
-     , (849,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (849,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (849,   1, True ) /* Stuck */
-     , (849,  11, True ) /* IgnoreCollisions */
-     , (849,  12, True ) /* ReportCollisions */
-     , (849,  13, False) /* Ethereal */
-     , (849,  14, True ) /* GravityStatus */
-     , (849,  19, True ) /* Attackable */;
+VALUES (849,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (849,   1, 'Konaji''s Jewels') /* Name */

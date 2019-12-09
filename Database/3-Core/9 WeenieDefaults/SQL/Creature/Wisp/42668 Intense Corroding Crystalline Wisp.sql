@@ -15,12 +15,7 @@ VALUES (42668,   1,         16) /* ItemType - Creature */
      , (42668, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42668,   1, True ) /* Stuck */
-     , (42668,  12, True ) /* ReportCollisions */
-     , (42668,  13, False) /* Ethereal */
-     , (42668,  14, True ) /* GravityStatus */
-     , (42668,  19, True ) /* Attackable */
-     , (42668,  42, True ) /* AllowEdgeSlide */;
+VALUES (42668,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42668,   1, 'Intense Corroding Crystalline Wisp') /* Name */

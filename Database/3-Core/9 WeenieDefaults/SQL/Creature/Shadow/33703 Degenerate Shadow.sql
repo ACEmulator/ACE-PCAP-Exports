@@ -17,12 +17,7 @@ VALUES (33703,   1,         16) /* ItemType - Creature */
      , (33703, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33703,   1, True ) /* Stuck */
-     , (33703,  12, True ) /* ReportCollisions */
-     , (33703,  13, False) /* Ethereal */
-     , (33703,  14, True ) /* GravityStatus */
-     , (33703,  19, True ) /* Attackable */
-     , (33703,  42, True ) /* AllowEdgeSlide */;
+VALUES (33703,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33703,   1, 'Degenerate Shadow') /* Name */

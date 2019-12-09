@@ -15,15 +15,10 @@ VALUES (31832,   1,         16) /* ItemType - Creature */
      , (31832, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31832,   1, True ) /* Stuck */
-     , (31832,  12, True ) /* ReportCollisions */
-     , (31832,  13, False) /* Ethereal */
-     , (31832,  14, True ) /* GravityStatus */
-     , (31832,  19, True ) /* Attackable */
-     , (31832,  42, True ) /* AllowEdgeSlide */;
+VALUES (31832,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31832,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (31832,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31832,   1, 'Caustic Knight') /* Name */

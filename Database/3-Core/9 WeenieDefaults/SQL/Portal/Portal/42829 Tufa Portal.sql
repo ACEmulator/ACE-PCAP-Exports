@@ -12,20 +12,14 @@ VALUES (42829,   1,      65536) /* ItemType - Portal */
      , (42829, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42829,   1, True ) /* Stuck */
-     , (42829,  12, True ) /* ReportCollisions */
-     , (42829,  13, True ) /* Ethereal */
-     , (42829,  14, True ) /* GravityStatus */
-     , (42829,  15, True ) /* LightsStatus */
-     , (42829,  19, True ) /* Attackable */;
+VALUES (42829,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42829,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42829,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42829,   1, 'Tufa Portal') /* Name */
      , (42829,  16, 'This portal goes to Tufa, the once peaceful desert oasis that was destroyed by Shadows during the Fourth Sending of Darkness. The residents have since regrouped in tents and buildings surrounded the crater of their former homes. This is a good town for characters over level 20.') /* LongDesc */
-     , (42829,  38, 'Tufa Portal (14.8S, 6.1E).') /* AppraisalPortalDestination */
      , (42829, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

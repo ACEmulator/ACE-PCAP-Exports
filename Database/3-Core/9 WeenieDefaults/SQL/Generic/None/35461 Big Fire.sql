@@ -9,21 +9,15 @@ VALUES (35461,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35461,   1, True ) /* Stuck */
-     , (35461,  12, True ) /* ReportCollisions */
-     , (35461,  13, False) /* Ethereal */
-     , (35461,  15, True ) /* LightsStatus */
-     , (35461,  16, True ) /* ScriptedCollision */
-     , (35461,  17, True ) /* Inelastic */
-     , (35461,  19, True ) /* Attackable */
      , (35461,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35461,  77,       1) /* PhysicsScriptIntensity */
      , (35461,  78,       1) /* Friction */
      , (35461,  79,       0) /* Elasticity */
-     , (35461, 8010, 12.3547744750977) /* PCAPRecordedVelocityX */
-     , (35461, 8011, -3.48610758781433) /* PCAPRecordedVelocityY */
-     , (35461, 8012, -1.16576850414276) /* PCAPRecordedVelocityZ */;
+     , (35461, 8010,   12.35) /* PCAPRecordedVelocityX */
+     , (35461, 8011,   -3.49) /* PCAPRecordedVelocityY */
+     , (35461, 8012,   -1.17) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35461,   1, 'Big Fire') /* Name */;

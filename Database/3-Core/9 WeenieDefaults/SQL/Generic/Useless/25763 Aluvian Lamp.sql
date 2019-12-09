@@ -8,18 +8,12 @@ VALUES (25763,   1,       1024) /* ItemType - Useless */
      , (25763,   5,         50) /* EncumbranceVal */
      , (25763,  16,          1) /* ItemUseable - No */
      , (25763,  19,       5000) /* Value */
-     , (25763,  65,        101) /* Placement - Resting */
      , (25763,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (25763, 151,          2) /* HookType - Wall */;
+     , (25763, 151,          2) /* HookType - Wall */
+     , (25763, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25763,   1, False) /* Stuck */
-     , (25763,  11, True ) /* IgnoreCollisions */
-     , (25763,  13, True ) /* Ethereal */
-     , (25763,  14, True ) /* GravityStatus */
-     , (25763,  15, True ) /* LightsStatus */
-     , (25763,  19, True ) /* Attackable */
-     , (25763,  22, True ) /* Inscribable */;
+VALUES (25763,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25763,   1, 'Aluvian Lamp') /* Name */

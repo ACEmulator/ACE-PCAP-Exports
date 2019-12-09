@@ -8,21 +8,16 @@ VALUES (726,   1,        128) /* ItemType - Misc */
      , (726,   5,       9000) /* EncumbranceVal */
      , (726,  16,          1) /* ItemUseable - No */
      , (726,  19,        125) /* Value */
-     , (726,  65,        101) /* Placement - Resting */
-     , (726,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (726,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (726, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (726,   1, True ) /* Stuck */
-     , (726,  11, True ) /* IgnoreCollisions */
-     , (726,  12, True ) /* ReportCollisions */
-     , (726,  13, False) /* Ethereal */
-     , (726,  14, True ) /* GravityStatus */
-     , (726,  19, True ) /* Attackable */;
+VALUES (726,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (726, 8010,       0) /* PCAPRecordedVelocityX */
      , (726, 8011,       0) /* PCAPRecordedVelocityY */
-     , (726, 8012, -0.753979325294495) /* PCAPRecordedVelocityZ */;
+     , (726, 8012,   -0.75) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (726,   1, 'Food and Attire') /* Name */

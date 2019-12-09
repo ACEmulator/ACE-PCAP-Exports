@@ -21,17 +21,12 @@ VALUES (31393,   1,          2) /* ItemType - Armor */
      , (31393, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31393,   1, False) /* Stuck */
-     , (31393,  11, True ) /* IgnoreCollisions */
-     , (31393,  13, True ) /* Ethereal */
-     , (31393,  14, True ) /* GravityStatus */
-     , (31393,  19, True ) /* Attackable */
-     , (31393,  22, True ) /* Inscribable */
+VALUES (31393,  22, True ) /* Inscribable */
      , (31393,  69, False) /* IsSellable */
      , (31393, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31393,   5,  -0.025) /* ManaRate */
+VALUES (31393,   5,   -0.02) /* ManaRate */
      , (31393,  13,       1) /* ArmorModVsSlash */
      , (31393,  14,       1) /* ArmorModVsPierce */
      , (31393,  15,       2) /* ArmorModVsBludgeon */

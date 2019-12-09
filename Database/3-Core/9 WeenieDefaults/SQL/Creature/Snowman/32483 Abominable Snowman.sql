@@ -15,14 +15,10 @@ VALUES (32483,   1,         16) /* ItemType - Creature */
      , (32483, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32483,   1, True ) /* Stuck */
-     , (32483,  12, True ) /* ReportCollisions */
-     , (32483,  13, False) /* Ethereal */
-     , (32483,  14, True ) /* GravityStatus */
-     , (32483,  19, True ) /* Attackable */;
+VALUES (32483,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32483,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (32483,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32483,   1, 'Abominable Snowman') /* Name */

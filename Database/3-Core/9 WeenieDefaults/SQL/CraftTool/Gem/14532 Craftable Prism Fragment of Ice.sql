@@ -17,12 +17,7 @@ VALUES (14532,   1,       2048) /* ItemType - Gem */
      , (14532, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14532,   1, False) /* Stuck */
-     , (14532,  11, True ) /* IgnoreCollisions */
-     , (14532,  13, True ) /* Ethereal */
-     , (14532,  14, True ) /* GravityStatus */
-     , (14532,  19, True ) /* Attackable */
-     , (14532,  22, True ) /* Inscribable */;
+VALUES (14532,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14532,   1, 'Craftable Prism Fragment of Ice') /* Name */

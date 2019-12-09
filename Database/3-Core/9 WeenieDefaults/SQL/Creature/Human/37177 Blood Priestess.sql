@@ -18,11 +18,7 @@ VALUES (37177,   1,         16) /* ItemType - Creature */
      , (37177, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37177,   1, True ) /* Stuck */
-     , (37177,  12, True ) /* ReportCollisions */
-     , (37177,  13, False) /* Ethereal */
-     , (37177,  14, True ) /* GravityStatus */
-     , (37177,  19, True ) /* Attackable */;
+VALUES (37177,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37177,   1, 'Blood Priestess') /* Name */

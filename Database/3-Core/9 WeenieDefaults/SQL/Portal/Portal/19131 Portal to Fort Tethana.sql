@@ -12,19 +12,13 @@ VALUES (19131,   1,      65536) /* ItemType - Portal */
      , (19131, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19131,   1, True ) /* Stuck */
-     , (19131,  12, True ) /* ReportCollisions */
-     , (19131,  13, True ) /* Ethereal */
-     , (19131,  14, True ) /* GravityStatus */
-     , (19131,  15, True ) /* LightsStatus */
-     , (19131,  19, True ) /* Attackable */;
+VALUES (19131,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19131,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19131,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19131,   1, 'Portal to Fort Tethana') /* Name */
-     , (19131,  38, 'Portal to Fort Tethana (1.7N, 71.2W).') /* AppraisalPortalDestination */
      , (19131, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

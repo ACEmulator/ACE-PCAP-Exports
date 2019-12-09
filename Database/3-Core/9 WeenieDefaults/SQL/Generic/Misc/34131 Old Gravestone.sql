@@ -10,17 +10,13 @@ VALUES (34131,   1,        128) /* ItemType - Misc */
      , (34131, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34131,   1, True ) /* Stuck */
-     , (34131,  11, True ) /* IgnoreCollisions */
-     , (34131,  13, False) /* Ethereal */
-     , (34131,  14, True ) /* GravityStatus */
-     , (34131,  19, True ) /* Attackable */;
+VALUES (34131,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34131,  54,     2.5) /* UseRadius */
-     , (34131, 8010, -0.448459774255753) /* PCAPRecordedVelocityX */
-     , (34131, 8011, 0.448459774255753) /* PCAPRecordedVelocityY */
-     , (34131, 8012, -0.499230265617371) /* PCAPRecordedVelocityZ */;
+     , (34131, 8010,   -0.45) /* PCAPRecordedVelocityX */
+     , (34131, 8011,    0.45) /* PCAPRecordedVelocityY */
+     , (34131, 8012,    -0.5) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34131,   1, 'Old Gravestone') /* Name */

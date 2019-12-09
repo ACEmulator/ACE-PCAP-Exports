@@ -14,7 +14,6 @@ VALUES (36708,   1,       2048) /* ItemType - Gem */
      , (36708,  18,          1) /* UiEffects - Magical */
      , (36708,  19,          5) /* Value */
      , (36708,  33,          1) /* Bonded - Bonded */
-     , (36708,  65,        101) /* Placement - Resting */
      , (36708,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36708,  94,         16) /* TargetType - Creature */
      , (36708, 106,        325) /* ItemSpellcraft */
@@ -22,15 +21,11 @@ VALUES (36708,   1,       2048) /* ItemType - Gem */
      , (36708, 108,      10000) /* ItemMaxMana */
      , (36708, 109,          0) /* ItemDifficulty */
      , (36708, 114,          1) /* Attuned - Attuned */
-     , (36708, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (36708, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (36708, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36708,   1, False) /* Stuck */
-     , (36708,  11, True ) /* IgnoreCollisions */
-     , (36708,  13, True ) /* Ethereal */
-     , (36708,  14, True ) /* GravityStatus */
-     , (36708,  19, True ) /* Attackable */
-     , (36708,  69, False) /* IsSellable */
+VALUES (36708,  69, False) /* IsSellable */
      , (36708, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

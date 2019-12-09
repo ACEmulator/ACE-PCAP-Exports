@@ -15,11 +15,7 @@ VALUES (7987,   1,         16) /* ItemType - Creature */
      , (7987, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7987,   1, True ) /* Stuck */
-     , (7987,  12, True ) /* ReportCollisions */
-     , (7987,  13, False) /* Ethereal */
-     , (7987,  14, True ) /* GravityStatus */
-     , (7987,  19, True ) /* Attackable */;
+VALUES (7987,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7987,   1, 'Opor Niffis') /* Name */

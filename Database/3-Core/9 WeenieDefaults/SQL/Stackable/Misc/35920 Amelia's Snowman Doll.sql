@@ -20,12 +20,7 @@ VALUES (35920,   1,        128) /* ItemType - Misc */
      , (35920, 268,       3599) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35920,   1, False) /* Stuck */
-     , (35920,  11, True ) /* IgnoreCollisions */
-     , (35920,  13, True ) /* Ethereal */
-     , (35920,  14, True ) /* GravityStatus */
-     , (35920,  19, True ) /* Attackable */
-     , (35920,  69, False) /* IsSellable */;
+VALUES (35920,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35920,  39,     0.5) /* DefaultScale */;

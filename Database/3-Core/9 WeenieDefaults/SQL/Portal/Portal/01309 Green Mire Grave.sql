@@ -12,19 +12,13 @@ VALUES (1309,   1,      65536) /* ItemType - Portal */
      , (1309, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1309,   1, True ) /* Stuck */
-     , (1309,  12, True ) /* ReportCollisions */
-     , (1309,  13, True ) /* Ethereal */
-     , (1309,  14, True ) /* GravityStatus */
-     , (1309,  15, True ) /* LightsStatus */
-     , (1309,  19, True ) /* Attackable */;
+VALUES (1309,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1309,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1309,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1309,   1, 'Green Mire Grave') /* Name */
-     , (1309,  38, 'Green Mire Grave') /* AppraisalPortalDestination */
      , (1309, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

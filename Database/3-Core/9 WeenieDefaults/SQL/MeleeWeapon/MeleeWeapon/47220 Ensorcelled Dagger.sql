@@ -11,16 +11,11 @@ VALUES (47220,   1,          1) /* ItemType - MeleeWeapon */
      , (47220,  16,          1) /* ItemUseable - No */
      , (47220,  19,        340) /* Value */
      , (47220,  51,          1) /* CombatUse - Melee */
-     , (47220,  65,          1) /* Placement - RightHandCombat */
-     , (47220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (47220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (47220, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47220,   1, False) /* Stuck */
-     , (47220,  11, True ) /* IgnoreCollisions */
-     , (47220,  13, True ) /* Ethereal */
-     , (47220,  14, True ) /* GravityStatus */
-     , (47220,  19, True ) /* Attackable */
-     , (47220,  22, True ) /* Inscribable */;
+VALUES (47220,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47220,   1, 'Ensorcelled Dagger') /* Name */;

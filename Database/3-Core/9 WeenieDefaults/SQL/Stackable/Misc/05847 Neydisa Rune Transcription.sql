@@ -12,17 +12,12 @@ VALUES (5847,   1,        128) /* ItemType - Misc */
      , (5847,  15,         20) /* StackUnitValue */
      , (5847,  19,         20) /* Value */
      , (5847,  33,          1) /* Bonded - Bonded */
-     , (5847,  65,        101) /* Placement - Resting */
      , (5847,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5847, 114,          1) /* Attuned - Attuned */;
+     , (5847, 114,          1) /* Attuned - Attuned */
+     , (5847, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5847,   1, False) /* Stuck */
-     , (5847,  11, True ) /* IgnoreCollisions */
-     , (5847,  13, True ) /* Ethereal */
-     , (5847,  14, True ) /* GravityStatus */
-     , (5847,  19, True ) /* Attackable */
-     , (5847,  22, True ) /* Inscribable */;
+VALUES (5847,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5847,   1, 'Neydisa Rune Transcription') /* Name */

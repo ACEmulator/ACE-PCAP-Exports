@@ -12,20 +12,15 @@ VALUES (41619,   1,        128) /* ItemType - Misc */
      , (41619,  15,       5000) /* StackUnitValue */
      , (41619,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41619,  19,       5000) /* Value */
-     , (41619,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (41619,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41619,  94,        128) /* TargetType - Misc */
      , (41619, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41619,   1, False) /* Stuck */
-     , (41619,  11, True ) /* IgnoreCollisions */
-     , (41619,  13, True ) /* Ethereal */
-     , (41619,  14, True ) /* GravityStatus */
-     , (41619,  19, True ) /* Attackable */
-     , (41619,  22, True ) /* Inscribable */;
+VALUES (41619,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41619,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (41619,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41619,   1, 'Two Handed Weapons Glyph') /* Name */

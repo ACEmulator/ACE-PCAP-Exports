@@ -8,20 +8,13 @@ VALUES (9119,   1,       8192) /* ItemType - Writable */
      , (9119,   5,         10) /* EncumbranceVal */
      , (9119,  16,          8) /* ItemUseable - Contained */
      , (9119,  19,          0) /* Value */
-     , (9119,  65,        101) /* Placement - Resting */
      , (9119,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9119, 174,         16) /* AppraisalPages */
-     , (9119, 175,         16) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9119,   1, False) /* Stuck */
-     , (9119,  11, True ) /* IgnoreCollisions */
-     , (9119,  13, True ) /* Ethereal */
-     , (9119,  14, True ) /* GravityStatus */
-     , (9119,  19, True ) /* Attackable */;
+     , (9119, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (9119, 8042,         16) /* PCAPRecordedAppraisalPages */
+     , (9119, 8043,         16) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9119,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (9119,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9119,   1, 'Facilitation') /* Name */

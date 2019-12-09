@@ -8,16 +8,11 @@ VALUES (29654,   1,        128) /* ItemType - Misc */
      , (29654,   5,          1) /* EncumbranceVal */
      , (29654,  16,          1) /* ItemUseable - No */
      , (29654,  19,          0) /* Value */
-     , (29654,  65,        101) /* Placement - Resting */
-     , (29654,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29654,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29654, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29654,   1, False) /* Stuck */
-     , (29654,  11, True ) /* IgnoreCollisions */
-     , (29654,  13, True ) /* Ethereal */
-     , (29654,  14, True ) /* GravityStatus */
-     , (29654,  19, True ) /* Attackable */
-     , (29654,  22, True ) /* Inscribable */;
+VALUES (29654,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29654,   1, 'Mixed Marbles') /* Name */

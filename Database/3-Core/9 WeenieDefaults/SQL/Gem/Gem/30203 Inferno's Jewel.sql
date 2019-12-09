@@ -16,22 +16,17 @@ VALUES (30203,   1,       2048) /* ItemType - Gem */
      , (30203,  19,          0) /* Value */
      , (30203,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30203,  33,         -1) /* Bonded - Slippery */
-     , (30203,  65,        101) /* Placement - Resting */
      , (30203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30203,  94,         16) /* TargetType - Creature */
      , (30203, 106,        325) /* ItemSpellcraft */
      , (30203, 107,      10000) /* ItemCurMana */
      , (30203, 108,      10000) /* ItemMaxMana */
      , (30203, 109,          0) /* ItemDifficulty */
-     , (30203, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30203, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30203, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30203,   1, False) /* Stuck */
-     , (30203,  11, True ) /* IgnoreCollisions */
-     , (30203,  13, True ) /* Ethereal */
-     , (30203,  14, True ) /* GravityStatus */
-     , (30203,  19, True ) /* Attackable */
-     , (30203, 108, True ) /* RareUsesTimer */;
+VALUES (30203, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30203,   1, 'Inferno''s Jewel') /* Name */

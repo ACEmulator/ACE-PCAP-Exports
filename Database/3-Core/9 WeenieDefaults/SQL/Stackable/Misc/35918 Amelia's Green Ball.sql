@@ -13,20 +13,15 @@ VALUES (35918,   1,        128) /* ItemType - Misc */
      , (35918,  16,          1) /* ItemUseable - No */
      , (35918,  19,          0) /* Value */
      , (35918,  33,          1) /* Bonded - Bonded */
-     , (35918,  65,        101) /* Placement - Resting */
      , (35918,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35918,  98, 1483945826) /* CreationTimestamp */
      , (35918, 114,          1) /* Attuned - Attuned */
      , (35918, 267,       3600) /* Lifespan */
-     , (35918, 268,       3600) /* RemainingLifespan */;
+     , (35918, 268,       3600) /* RemainingLifespan */
+     , (35918, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35918,   1, False) /* Stuck */
-     , (35918,  11, True ) /* IgnoreCollisions */
-     , (35918,  13, True ) /* Ethereal */
-     , (35918,  14, True ) /* GravityStatus */
-     , (35918,  19, True ) /* Attackable */
-     , (35918,  69, False) /* IsSellable */;
+VALUES (35918,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35918,   1, 'Amelia''s Green Ball') /* Name */

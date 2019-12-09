@@ -16,15 +16,10 @@ VALUES (52620,   1,         16) /* ItemType - Creature */
      , (52620, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52620,   1, True ) /* Stuck */
-     , (52620,  12, True ) /* ReportCollisions */
-     , (52620,  13, False) /* Ethereal */
-     , (52620,  14, True ) /* GravityStatus */
-     , (52620,  19, True ) /* Attackable */
-     , (52620,  42, True ) /* AllowEdgeSlide */;
+VALUES (52620,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52620,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (52620,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52620,   1, 'Poisonous Brier Wasp') /* Name */

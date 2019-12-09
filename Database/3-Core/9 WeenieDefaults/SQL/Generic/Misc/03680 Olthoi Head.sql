@@ -8,20 +8,15 @@ VALUES (3680,   1,        128) /* ItemType - Misc */
      , (3680,   5,       1050) /* EncumbranceVal */
      , (3680,  16,          1) /* ItemUseable - No */
      , (3680,  19,        200) /* Value */
-     , (3680,  65,        101) /* Placement - Resting */
      , (3680,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3680, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (3680, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (3680, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3680,   1, False) /* Stuck */
-     , (3680,  11, True ) /* IgnoreCollisions */
-     , (3680,  13, True ) /* Ethereal */
-     , (3680,  14, True ) /* GravityStatus */
-     , (3680,  19, True ) /* Attackable */
-     , (3680,  22, True ) /* Inscribable */;
+VALUES (3680,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3680,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (3680,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3680,   1, 'Olthoi Head') /* Name */;

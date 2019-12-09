@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22372,   1,       2048) /* ItemType - Gem */
      , (22372,   5,         10) /* EncumbranceVal */
      , (22372,  16,          8) /* ItemUseable - Contained */
-     , (22372,  65,        101) /* Placement - Resting */
-     , (22372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22372, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22372,   1, False) /* Stuck */
-     , (22372,  11, True ) /* IgnoreCollisions */
-     , (22372,  13, True ) /* Ethereal */
-     , (22372,  14, True ) /* GravityStatus */
-     , (22372,  19, True ) /* Attackable */
-     , (22372,  22, True ) /* Inscribable */;
+VALUES (22372,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22372,   1, 'Magic Item Tinkering Gem of Enlightenment') /* Name */;

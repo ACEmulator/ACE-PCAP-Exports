@@ -9,17 +9,12 @@ VALUES (43894,   1,        128) /* ItemType - Misc */
      , (43894,  16,          1) /* ItemUseable - No */
      , (43894,  19,          0) /* Value */
      , (43894,  33,          1) /* Bonded - Bonded */
-     , (43894,  65,        101) /* Placement - Resting */
      , (43894,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43894, 114,          1) /* Attuned - Attuned */;
+     , (43894, 114,          1) /* Attuned - Attuned */
+     , (43894, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43894,   1, False) /* Stuck */
-     , (43894,  11, True ) /* IgnoreCollisions */
-     , (43894,  13, True ) /* Ethereal */
-     , (43894,  14, True ) /* GravityStatus */
-     , (43894,  19, True ) /* Attackable */
-     , (43894,  22, True ) /* Inscribable */;
+VALUES (43894,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43894,   1, 'Message from Isin Dule to Asheron') /* Name */;

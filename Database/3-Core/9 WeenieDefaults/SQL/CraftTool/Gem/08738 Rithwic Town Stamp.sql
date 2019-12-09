@@ -13,18 +13,13 @@ VALUES (8738,   1,       2048) /* ItemType - Gem */
      , (8738,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8738,  19,          1) /* Value */
      , (8738,  33,          1) /* Bonded - Bonded */
-     , (8738,  65,        101) /* Placement - Resting */
      , (8738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8738,  94,       8192) /* TargetType - Writable */
-     , (8738, 114,          1) /* Attuned - Attuned */;
+     , (8738, 114,          1) /* Attuned - Attuned */
+     , (8738, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8738,   1, False) /* Stuck */
-     , (8738,  11, True ) /* IgnoreCollisions */
-     , (8738,  13, True ) /* Ethereal */
-     , (8738,  14, True ) /* GravityStatus */
-     , (8738,  19, True ) /* Attackable */
-     , (8738,  22, True ) /* Inscribable */;
+VALUES (8738,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8738,  39,       3) /* DefaultScale */;

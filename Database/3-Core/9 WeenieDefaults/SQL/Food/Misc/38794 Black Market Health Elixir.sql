@@ -14,20 +14,13 @@ VALUES (38794,   1,        128) /* ItemType - Misc */
      , (38794,  18,          1) /* UiEffects - Magical */
      , (38794,  19,     100000) /* Value */
      , (38794,  33,          1) /* Bonded - Bonded */
-     , (38794,  65,        101) /* Placement - Resting */
      , (38794,  89,          2) /* BoosterEnum - Health */
      , (38794,  90,        300) /* BoostValue */
      , (38794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38794, 114,          1) /* Attuned - Attuned */
      , (38794, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (38794, 280,          4) /* SharedCooldown */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38794,   1, False) /* Stuck */
-     , (38794,  11, True ) /* IgnoreCollisions */
-     , (38794,  13, True ) /* Ethereal */
-     , (38794,  14, True ) /* GravityStatus */
-     , (38794,  19, True ) /* Attackable */;
+     , (38794, 280,          4) /* SharedCooldown */
+     , (38794, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38794, 167,     300) /* CooldownDuration */;

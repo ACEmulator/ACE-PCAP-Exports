@@ -8,19 +8,14 @@ VALUES (11647,   1,        128) /* ItemType - Misc */
      , (11647,   5,         10) /* EncumbranceVal */
      , (11647,  16,          1) /* ItemUseable - No */
      , (11647,  19,      10000) /* Value */
-     , (11647,  65,        101) /* Placement - Resting */
-     , (11647,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11647,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11647, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11647,   1, False) /* Stuck */
-     , (11647,  11, True ) /* IgnoreCollisions */
-     , (11647,  13, True ) /* Ethereal */
-     , (11647,  14, True ) /* GravityStatus */
-     , (11647,  19, True ) /* Attackable */
-     , (11647,  22, True ) /* Inscribable */;
+VALUES (11647,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11647,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (11647,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11647,   1, 'Advanced Cooking Skill Puzzle Piece') /* Name */;

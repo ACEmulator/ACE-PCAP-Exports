@@ -15,12 +15,7 @@ VALUES (51902,   1,         16) /* ItemType - Creature */
      , (51902, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51902,   1, True ) /* Stuck */
-     , (51902,  12, True ) /* ReportCollisions */
-     , (51902,  13, False) /* Ethereal */
-     , (51902,  14, True ) /* GravityStatus */
-     , (51902,  19, True ) /* Attackable */
-     , (51902,  42, True ) /* AllowEdgeSlide */;
+VALUES (51902,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51902,   1, 'Lugian Lackey') /* Name */

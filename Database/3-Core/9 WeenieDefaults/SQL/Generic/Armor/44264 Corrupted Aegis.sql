@@ -14,12 +14,7 @@ VALUES (44264,   1,          2) /* ItemType - Armor */
      , (44264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44264,   1, False) /* Stuck */
-     , (44264,  11, True ) /* IgnoreCollisions */
-     , (44264,  13, True ) /* Ethereal */
-     , (44264,  14, True ) /* GravityStatus */
-     , (44264,  19, True ) /* Attackable */
-     , (44264,  22, True ) /* Inscribable */;
+VALUES (44264,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44264,   1, 'Corrupted Aegis') /* Name */;

@@ -11,19 +11,12 @@ VALUES (36734,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (36734,  15,      20000) /* StackUnitValue */
      , (36734,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36734,  19,      20000) /* Value */
-     , (36734,  65,        101) /* Placement - Resting */
      , (36734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36734,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36734,   1, False) /* Stuck */
-     , (36734,  11, True ) /* IgnoreCollisions */
-     , (36734,  13, True ) /* Ethereal */
-     , (36734,  14, True ) /* GravityStatus */
-     , (36734,  19, True ) /* Attackable */;
+     , (36734,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
+     , (36734, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36734,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36734,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36734,   1, 'Enchanted Pyreal Phial Pea') /* Name */

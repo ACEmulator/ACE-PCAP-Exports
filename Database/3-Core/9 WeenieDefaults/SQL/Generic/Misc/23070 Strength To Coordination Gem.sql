@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23070,   1,        128) /* ItemType - Misc */
      , (23070,   5,         10) /* EncumbranceVal */
      , (23070,  16,          8) /* ItemUseable - Contained */
-     , (23070,  65,        101) /* Placement - Resting */
-     , (23070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23070, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23070,   1, False) /* Stuck */
-     , (23070,  11, True ) /* IgnoreCollisions */
-     , (23070,  13, True ) /* Ethereal */
-     , (23070,  14, True ) /* GravityStatus */
-     , (23070,  19, True ) /* Attackable */
-     , (23070,  22, True ) /* Inscribable */;
+VALUES (23070,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23070,   1, 'Strength To Coordination Gem') /* Name */;

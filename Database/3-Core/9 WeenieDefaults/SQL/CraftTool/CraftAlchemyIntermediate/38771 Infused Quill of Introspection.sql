@@ -13,16 +13,9 @@ VALUES (38771,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38771,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (38771,  18,          1) /* UiEffects - Magical */
      , (38771,  19,      40000) /* Value */
-     , (38771,  65,        101) /* Placement - Resting */
      , (38771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38771,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38771,   1, False) /* Stuck */
-     , (38771,  11, True ) /* IgnoreCollisions */
-     , (38771,  13, True ) /* Ethereal */
-     , (38771,  14, True ) /* GravityStatus */
-     , (38771,  19, True ) /* Attackable */;
+     , (38771,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
+     , (38771, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38771,   1, 'Infused Quill of Introspection') /* Name */

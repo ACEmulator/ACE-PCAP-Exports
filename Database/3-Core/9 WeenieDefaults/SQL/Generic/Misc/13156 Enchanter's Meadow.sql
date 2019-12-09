@@ -11,12 +11,7 @@ VALUES (13156,   1,        128) /* ItemType - Misc */
      , (13156,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13156,   1, True ) /* Stuck */
-     , (13156,  11, True ) /* IgnoreCollisions */
-     , (13156,  12, True ) /* ReportCollisions */
-     , (13156,  13, False) /* Ethereal */
-     , (13156,  14, True ) /* GravityStatus */
-     , (13156,  19, True ) /* Attackable */;
+VALUES (13156,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13156,   1, 'Enchanter''s Meadow') /* Name */;

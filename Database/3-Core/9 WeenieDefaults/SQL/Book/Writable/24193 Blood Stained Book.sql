@@ -8,20 +8,13 @@ VALUES (24193,   1,       8192) /* ItemType - Writable */
      , (24193,   5,        100) /* EncumbranceVal */
      , (24193,  16,          8) /* ItemUseable - Contained */
      , (24193,  19,         50) /* Value */
-     , (24193,  65,        101) /* Placement - Resting */
      , (24193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24193, 174,          9) /* AppraisalPages */
-     , (24193, 175,          9) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24193,   1, False) /* Stuck */
-     , (24193,  11, True ) /* IgnoreCollisions */
-     , (24193,  13, True ) /* Ethereal */
-     , (24193,  14, True ) /* GravityStatus */
-     , (24193,  19, True ) /* Attackable */;
+     , (24193, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (24193, 8042,          9) /* PCAPRecordedAppraisalPages */
+     , (24193, 8043,          9) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24193,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (24193,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24193,   1, 'Blood Stained Book') /* Name */;

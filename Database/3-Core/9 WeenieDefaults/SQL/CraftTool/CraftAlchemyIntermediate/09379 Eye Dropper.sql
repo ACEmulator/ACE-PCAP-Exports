@@ -13,18 +13,13 @@ VALUES (9379,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9379,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9379,  19,      25000) /* Value */
      , (9379,  33,          1) /* Bonded - Bonded */
-     , (9379,  65,        101) /* Placement - Resting */
      , (9379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9379,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (9379, 151,          2) /* HookType - Wall */;
+     , (9379, 151,          2) /* HookType - Wall */
+     , (9379, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9379,   1, False) /* Stuck */
-     , (9379,  11, True ) /* IgnoreCollisions */
-     , (9379,  13, True ) /* Ethereal */
-     , (9379,  14, True ) /* GravityStatus */
-     , (9379,  19, True ) /* Attackable */
-     , (9379,  22, True ) /* Inscribable */;
+VALUES (9379,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9379,  39,       2) /* DefaultScale */;

@@ -12,16 +12,9 @@ VALUES (24821,   1,       2048) /* ItemType - Gem */
      , (24821,  15,          0) /* StackUnitValue */
      , (24821,  16,          8) /* ItemUseable - Contained */
      , (24821,  18,          1) /* UiEffects - Magical */
-     , (24821,  65,        101) /* Placement - Resting */
      , (24821,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24821,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24821,   1, False) /* Stuck */
-     , (24821,  11, True ) /* IgnoreCollisions */
-     , (24821,  13, True ) /* Ethereal */
-     , (24821,  14, True ) /* GravityStatus */
-     , (24821,  19, True ) /* Attackable */;
+     , (24821,  94,         16) /* TargetType - Creature */
+     , (24821, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24821,   1, 'Gem of Greater Cold Protection') /* Name */

@@ -15,11 +15,7 @@ VALUES (24314,   1,         16) /* ItemType - Creature */
      , (24314, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24314,   1, True ) /* Stuck */
-     , (24314,  12, True ) /* ReportCollisions */
-     , (24314,  13, False) /* Ethereal */
-     , (24314,  14, True ) /* GravityStatus */
-     , (24314,  19, True ) /* Attackable */;
+VALUES (24314,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24314,   1, 'Skeletal Champion') /* Name */

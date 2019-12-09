@@ -10,12 +10,7 @@ VALUES (43826,   1,        128) /* ItemType - Misc */
      , (43826,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43826,   1, False) /* Stuck */
-     , (43826,  11, True ) /* IgnoreCollisions */
-     , (43826,  13, True ) /* Ethereal */
-     , (43826,  14, True ) /* GravityStatus */
-     , (43826,  19, True ) /* Attackable */
-     , (43826,  22, True ) /* Inscribable */;
+VALUES (43826,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43826,   1, 'Shattered Master Bloodstone Shard') /* Name */;

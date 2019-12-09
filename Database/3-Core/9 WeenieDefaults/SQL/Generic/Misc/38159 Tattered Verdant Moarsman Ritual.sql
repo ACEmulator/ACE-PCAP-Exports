@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38159,   1,        128) /* ItemType - Misc */
      , (38159,   5,         10) /* EncumbranceVal */
      , (38159,  16,          1) /* ItemUseable - No */
-     , (38159,  65,        101) /* Placement - Resting */
-     , (38159,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38159,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38159, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38159,   1, False) /* Stuck */
-     , (38159,  11, True ) /* IgnoreCollisions */
-     , (38159,  13, True ) /* Ethereal */
-     , (38159,  14, True ) /* GravityStatus */
-     , (38159,  19, True ) /* Attackable */
-     , (38159,  22, True ) /* Inscribable */;
+VALUES (38159,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38159,   1, 'Tattered Verdant Moarsman Ritual') /* Name */;

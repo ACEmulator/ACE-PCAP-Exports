@@ -11,12 +11,7 @@ VALUES (12617,   1,        128) /* ItemType - Misc */
      , (12617,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12617,   1, True ) /* Stuck */
-     , (12617,  11, True ) /* IgnoreCollisions */
-     , (12617,  12, True ) /* ReportCollisions */
-     , (12617,  13, False) /* Ethereal */
-     , (12617,  14, True ) /* GravityStatus */
-     , (12617,  19, True ) /* Attackable */;
+VALUES (12617,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12617,   1, 'Leafdawning Settlement') /* Name */

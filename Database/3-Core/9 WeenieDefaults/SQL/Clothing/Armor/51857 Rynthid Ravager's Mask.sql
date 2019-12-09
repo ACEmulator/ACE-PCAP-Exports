@@ -10,17 +10,12 @@ VALUES (51857,   1,          2) /* ItemType - Armor */
      , (51857,   9,          1) /* ValidLocations - HeadWear */
      , (51857,  16,          1) /* ItemUseable - No */
      , (51857,  18,          1) /* UiEffects - Magical */
-     , (51857,  65,        101) /* Placement - Resting */
      , (51857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51857, 151,          2) /* HookType - Wall */;
+     , (51857, 151,          2) /* HookType - Wall */
+     , (51857, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51857,   1, False) /* Stuck */
-     , (51857,  11, True ) /* IgnoreCollisions */
-     , (51857,  13, True ) /* Ethereal */
-     , (51857,  14, True ) /* GravityStatus */
-     , (51857,  19, True ) /* Attackable */
-     , (51857,  22, True ) /* Inscribable */;
+VALUES (51857,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51857,   1, 'Rynthid Ravager''s Mask') /* Name */;

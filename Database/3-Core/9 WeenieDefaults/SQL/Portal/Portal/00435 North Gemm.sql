@@ -12,19 +12,13 @@ VALUES (435,   1,      65536) /* ItemType - Portal */
      , (435, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (435,   1, True ) /* Stuck */
-     , (435,  12, True ) /* ReportCollisions */
-     , (435,  13, True ) /* Ethereal */
-     , (435,  14, True ) /* GravityStatus */
-     , (435,  15, True ) /* LightsStatus */
-     , (435,  19, True ) /* Attackable */;
+VALUES (435,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (435,  54, -0.100000001490116) /* UseRadius */;
+VALUES (435,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (435,   1, 'North Gemm') /* Name */
-     , (435,  38, 'North Gemm (16.3N, 14.7E).') /* AppraisalPortalDestination */
      , (435, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

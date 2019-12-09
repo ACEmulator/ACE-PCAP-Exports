@@ -18,7 +18,6 @@ VALUES (30678,   1,          1) /* ItemType - MeleeWeapon */
      , (30678,  48,         45) /* WeaponSkill - LightWeapons */
      , (30678,  49,          0) /* WeaponTime */
      , (30678,  51,          1) /* CombatUse - Melee */
-     , (30678,  65,          1) /* Placement - RightHandCombat */
      , (30678,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30678, 106,        300) /* ItemSpellcraft */
      , (30678, 107,       2999) /* ItemCurMana */
@@ -29,15 +28,11 @@ VALUES (30678,   1,          1) /* ItemType - MeleeWeapon */
      , (30678, 159,         45) /* WieldSkillType - LightWeapons */
      , (30678, 160,        370) /* WieldDifficulty */
      , (30678, 353,          3) /* WeaponType - Axe */
-     , (30678, 8030,          0);
+     , (30678, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (30678, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30678,   1, False) /* Stuck */
-     , (30678,  11, True ) /* IgnoreCollisions */
-     , (30678,  13, True ) /* Ethereal */
-     , (30678,  14, True ) /* GravityStatus */
-     , (30678,  19, True ) /* Attackable */
-     , (30678,  22, True ) /* Inscribable */
+VALUES (30678,  22, True ) /* Inscribable */
      , (30678,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,8 +40,8 @@ VALUES (30678,   5,   -0.05) /* ManaRate */
      , (30678,  21,       0) /* WeaponLength */
      , (30678,  22,     0.5) /* DamageVariance */
      , (30678,  26,       0) /* MaximumVelocity */
-     , (30678,  29, 1.30000000178814) /* WeaponDefense */
-     , (30678,  62, 1.25000000178814) /* WeaponOffense */
+     , (30678,  29,     1.3) /* WeaponDefense */
+     , (30678,  62,    1.25) /* WeaponOffense */
      , (30678,  63,       1) /* DamageMod */
      , (30678,  77,       1) /* PhysicsScriptIntensity */
      , (30678, 136,       1) /* CriticalMultiplier */;

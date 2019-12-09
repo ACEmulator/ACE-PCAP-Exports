@@ -6,15 +6,11 @@ VALUES (25970, 'doordecrepittower', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25970,   1,        128) /* ItemType - Misc */
      , (25970,  16,         32) /* ItemUseable - Remote */
-     , (25970,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (25970,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (25970, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25970,   1, True ) /* Stuck */
-     , (25970,  11, True ) /* IgnoreCollisions */
-     , (25970,  12, True ) /* ReportCollisions */
-     , (25970,  13, False) /* Ethereal */
-     , (25970,  19, True ) /* Attackable */;
+VALUES (25970,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25970,  54,       2) /* UseRadius */;

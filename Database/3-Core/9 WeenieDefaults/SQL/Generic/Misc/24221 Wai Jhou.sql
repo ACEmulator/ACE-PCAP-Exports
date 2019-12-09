@@ -8,16 +8,11 @@ VALUES (24221,   1,        128) /* ItemType - Misc */
      , (24221,   5,       9000) /* EncumbranceVal */
      , (24221,  16,          1) /* ItemUseable - No */
      , (24221,  19,        125) /* Value */
-     , (24221,  65,        101) /* Placement - Resting */
-     , (24221,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (24221,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (24221, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24221,   1, True ) /* Stuck */
-     , (24221,  11, True ) /* IgnoreCollisions */
-     , (24221,  12, True ) /* ReportCollisions */
-     , (24221,  13, False) /* Ethereal */
-     , (24221,  14, True ) /* GravityStatus */
-     , (24221,  19, True ) /* Attackable */;
+VALUES (24221,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24221,   1, 'Wai Jhou') /* Name */

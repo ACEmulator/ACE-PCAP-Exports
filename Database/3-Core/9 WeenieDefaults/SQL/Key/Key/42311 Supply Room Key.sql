@@ -8,19 +8,14 @@ VALUES (42311,   1,      16384) /* ItemType - Key */
      , (42311,   5,         50) /* EncumbranceVal */
      , (42311,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (42311,  19,        100) /* Value */
-     , (42311,  65,        101) /* Placement - Resting */
      , (42311,  91,          1) /* MaxStructure */
      , (42311,  92,          1) /* Structure */
      , (42311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42311,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (42311,  94,        640) /* TargetType - LockableMagicTarget */
+     , (42311, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42311,   1, False) /* Stuck */
-     , (42311,  11, True ) /* IgnoreCollisions */
-     , (42311,  13, True ) /* Ethereal */
-     , (42311,  14, True ) /* GravityStatus */
-     , (42311,  19, True ) /* Attackable */
-     , (42311,  22, True ) /* Inscribable */;
+VALUES (42311,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42311,   1, 'Supply Room Key') /* Name */;

@@ -10,19 +10,14 @@ VALUES (8705,   1,          8) /* ItemType - Jewelry */
      , (8705,  16,          1) /* ItemUseable - No */
      , (8705,  18,          1) /* UiEffects - Magical */
      , (8705,  19,          1) /* Value */
-     , (8705,  65,        101) /* Placement - Resting */
-     , (8705,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (8705,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8705, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8705,   1, False) /* Stuck */
-     , (8705,  11, True ) /* IgnoreCollisions */
-     , (8705,  13, True ) /* Ethereal */
-     , (8705,  14, True ) /* GravityStatus */
-     , (8705,  19, True ) /* Attackable */
-     , (8705,  22, True ) /* Inscribable */;
+VALUES (8705,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8705,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (8705,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8705,   1, 'A Society Necklace Of Focus') /* Name */;

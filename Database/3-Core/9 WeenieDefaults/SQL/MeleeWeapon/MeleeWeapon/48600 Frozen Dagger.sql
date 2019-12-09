@@ -15,12 +15,7 @@ VALUES (48600,   1,          1) /* ItemType - MeleeWeapon */
      , (48600, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48600,   1, False) /* Stuck */
-     , (48600,  11, True ) /* IgnoreCollisions */
-     , (48600,  13, True ) /* Ethereal */
-     , (48600,  14, True ) /* GravityStatus */
-     , (48600,  19, True ) /* Attackable */
-     , (48600,  22, True ) /* Inscribable */;
+VALUES (48600,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48600,   1, 'Frozen Dagger') /* Name */;

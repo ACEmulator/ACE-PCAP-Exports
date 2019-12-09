@@ -15,14 +15,10 @@ VALUES (24864,   1,         16) /* ItemType - Creature */
      , (24864, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24864,   1, True ) /* Stuck */
-     , (24864,  12, True ) /* ReportCollisions */
-     , (24864,  13, False) /* Ethereal */
-     , (24864,  14, True ) /* GravityStatus */
-     , (24864,  19, True ) /* Attackable */;
+VALUES (24864,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24864,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (24864,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24864,   1, 'Iorik Eye Stalk') /* Name */

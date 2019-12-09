@@ -12,17 +12,12 @@ VALUES (48042,   1,          1) /* ItemType - MeleeWeapon */
      , (48042,  18,        256) /* UiEffects - Acid */
      , (48042,  19,        155) /* Value */
      , (48042,  51,          1) /* CombatUse - Melee */
-     , (48042,  65,          1) /* Placement - RightHandCombat */
      , (48042,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48042, 151,          2) /* HookType - Wall */;
+     , (48042, 151,          2) /* HookType - Wall */
+     , (48042, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48042,   1, False) /* Stuck */
-     , (48042,  11, True ) /* IgnoreCollisions */
-     , (48042,  13, True ) /* Ethereal */
-     , (48042,  14, True ) /* GravityStatus */
-     , (48042,  19, True ) /* Attackable */
-     , (48042,  22, True ) /* Inscribable */;
+VALUES (48042,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48042,   1, 'Acid Nekode') /* Name */;

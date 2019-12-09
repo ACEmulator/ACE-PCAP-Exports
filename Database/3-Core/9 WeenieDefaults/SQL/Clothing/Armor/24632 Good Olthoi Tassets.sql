@@ -12,30 +12,25 @@ VALUES (24632,   1,          2) /* ItemType - Armor */
      , (24632,  19,       3000) /* Value */
      , (24632,  28,        400) /* ArmorLevel */
      , (24632,  36,       9999) /* ResistMagic */
-     , (24632,  65,        101) /* Placement - Resting */
      , (24632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24632, 158,          7) /* WieldRequirements - Level */
      , (24632, 159,          1) /* WieldSkillType - Axe */
-     , (24632, 160,         40) /* WieldDifficulty */;
+     , (24632, 160,         40) /* WieldDifficulty */
+     , (24632, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24632,   1, False) /* Stuck */
-     , (24632,  11, True ) /* IgnoreCollisions */
-     , (24632,  13, True ) /* Ethereal */
-     , (24632,  14, True ) /* GravityStatus */
-     , (24632,  19, True ) /* Attackable */
-     , (24632,  22, True ) /* Inscribable */
+VALUES (24632,  22, True ) /* Inscribable */
      , (24632, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24632,  13,     1.5) /* ArmorModVsSlash */
-     , (24632,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (24632,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (24632,  16, 1.29999995231628) /* ArmorModVsCold */
-     , (24632,  17, 1.29999995231628) /* ArmorModVsFire */
+     , (24632,  14,     1.1) /* ArmorModVsPierce */
+     , (24632,  15,     1.1) /* ArmorModVsBludgeon */
+     , (24632,  16,     1.3) /* ArmorModVsCold */
+     , (24632,  17,     1.3) /* ArmorModVsFire */
      , (24632,  18,       2) /* ArmorModVsAcid */
-     , (24632,  19, 1.39999997615814) /* ArmorModVsElectric */
-     , (24632,  39, 1.33000004291534) /* DefaultScale */
+     , (24632,  19,     1.4) /* ArmorModVsElectric */
+     , (24632,  39,    1.33) /* DefaultScale */
      , (24632, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

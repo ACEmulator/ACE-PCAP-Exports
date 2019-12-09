@@ -15,12 +15,7 @@ VALUES (8645,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (8645,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8645,   1, False) /* Stuck */
-     , (8645,  11, True ) /* IgnoreCollisions */
-     , (8645,  13, True ) /* Ethereal */
-     , (8645,  14, True ) /* GravityStatus */
-     , (8645,  19, True ) /* Attackable */
-     , (8645,  69, False) /* IsSellable */;
+VALUES (8645,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8645,  39,       2) /* DefaultScale */;

@@ -12,19 +12,13 @@ VALUES (15683,   1,      65536) /* ItemType - Portal */
      , (15683, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15683,   1, True ) /* Stuck */
-     , (15683,  12, True ) /* ReportCollisions */
-     , (15683,  13, True ) /* Ethereal */
-     , (15683,  14, True ) /* GravityStatus */
-     , (15683,  15, True ) /* LightsStatus */
-     , (15683,  19, True ) /* Attackable */;
+VALUES (15683,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15683,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15683,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15683,   1, 'Shield of Valor Cottages Portal') /* Name */
-     , (15683,  38, 'Shield of Valor Cottages Portal (29.5N, 33.5W).') /* AppraisalPortalDestination */
      , (15683, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

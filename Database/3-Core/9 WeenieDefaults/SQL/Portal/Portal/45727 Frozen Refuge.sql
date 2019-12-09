@@ -13,19 +13,13 @@ VALUES (45727,   1,      65536) /* ItemType - Portal */
      , (45727, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45727,   1, True ) /* Stuck */
-     , (45727,  12, True ) /* ReportCollisions */
-     , (45727,  13, True ) /* Ethereal */
-     , (45727,  14, True ) /* GravityStatus */
-     , (45727,  15, True ) /* LightsStatus */
-     , (45727,  19, True ) /* Attackable */;
+VALUES (45727,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45727,  54, -0.100000001490116) /* UseRadius */;
+VALUES (45727,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45727,   1, 'Frozen Refuge') /* Name */
-     , (45727,  38, 'Frozen Refuge') /* AppraisalPortalDestination */
      , (45727, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

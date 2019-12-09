@@ -12,15 +12,8 @@ VALUES (45372,   1,        128) /* ItemType - Misc */
      , (45372,  15,      30000) /* StackUnitValue */
      , (45372,  16,          1) /* ItemUseable - No */
      , (45372,  19,      30000) /* Value */
-     , (45372,  65,        101) /* Placement - Resting */
-     , (45372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45372,   1, False) /* Stuck */
-     , (45372,  11, True ) /* IgnoreCollisions */
-     , (45372,  13, True ) /* Ethereal */
-     , (45372,  14, True ) /* GravityStatus */
-     , (45372,  19, True ) /* Attackable */;
+     , (45372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45372, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45372,   1, 'Glyph of Recklessness') /* Name */

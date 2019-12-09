@@ -12,12 +12,7 @@ VALUES (8016,   1,        128) /* ItemType - Misc */
      , (8016,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8016,   1, True ) /* Stuck */
-     , (8016,  11, True ) /* IgnoreCollisions */
-     , (8016,  12, True ) /* ReportCollisions */
-     , (8016,  13, False) /* Ethereal */
-     , (8016,  14, True ) /* GravityStatus */
-     , (8016,  19, True ) /* Attackable */;
+VALUES (8016,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8016,  54,       2) /* UseRadius */;

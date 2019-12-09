@@ -8,19 +8,14 @@ VALUES (52745,   1,      16384) /* ItemType - Key */
      , (52745,   5,        500) /* EncumbranceVal */
      , (52745,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (52745,  19,         15) /* Value */
-     , (52745,  65,        101) /* Placement - Resting */
      , (52745,  91,          1) /* MaxStructure */
      , (52745,  92,          1) /* Structure */
      , (52745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52745,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (52745,  94,        640) /* TargetType - LockableMagicTarget */
+     , (52745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52745,   1, False) /* Stuck */
-     , (52745,  11, True ) /* IgnoreCollisions */
-     , (52745,  13, True ) /* Ethereal */
-     , (52745,  14, True ) /* GravityStatus */
-     , (52745,  19, True ) /* Attackable */
-     , (52745,  22, True ) /* Inscribable */;
+VALUES (52745,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52745,   1, 'Exquisite Casino Key') /* Name */;

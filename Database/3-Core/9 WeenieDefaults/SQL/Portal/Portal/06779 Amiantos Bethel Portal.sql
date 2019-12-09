@@ -11,14 +11,10 @@ VALUES (6779,   1,      65536) /* ItemType - Portal */
      , (6779, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6779,   1, True ) /* Stuck */
-     , (6779,  12, True ) /* ReportCollisions */
-     , (6779,  13, True ) /* Ethereal */
-     , (6779,  15, True ) /* LightsStatus */
-     , (6779,  19, True ) /* Attackable */;
+VALUES (6779,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6779,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6779,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6779,   1, 'Amiantos Bethel Portal') /* Name */

@@ -13,16 +13,9 @@ VALUES (53021,   1,       2048) /* ItemType - Gem */
      , (53021,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53021,  18,         32) /* UiEffects - Fire */
      , (53021,  19,         25) /* Value */
-     , (53021,  65,        101) /* Placement - Resting */
      , (53021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53021,  94,          6) /* TargetType - Vestements */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53021,   1, False) /* Stuck */
-     , (53021,  11, True ) /* IgnoreCollisions */
-     , (53021,  13, True ) /* Ethereal */
-     , (53021,  14, True ) /* GravityStatus */
-     , (53021,  19, True ) /* Attackable */;
+     , (53021,  94,          6) /* TargetType - Vestements */
+     , (53021, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53021,   1, 'Corrupted Amber: Breastplate of the Corrupted Soul.') /* Name */

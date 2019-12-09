@@ -14,12 +14,7 @@ VALUES (29991,   1,          1) /* ItemType - MeleeWeapon */
      , (29991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29991,   1, False) /* Stuck */
-     , (29991,  11, True ) /* IgnoreCollisions */
-     , (29991,  13, True ) /* Ethereal */
-     , (29991,  14, True ) /* GravityStatus */
-     , (29991,  19, True ) /* Attackable */
-     , (29991,  22, True ) /* Inscribable */;
+VALUES (29991,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29991,   1, 'Frigid Splinter') /* Name */;

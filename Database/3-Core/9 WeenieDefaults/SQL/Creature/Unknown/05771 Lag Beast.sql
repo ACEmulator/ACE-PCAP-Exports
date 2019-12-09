@@ -15,11 +15,7 @@ VALUES (5771,   1,         16) /* ItemType - Creature */
      , (5771, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5771,   1, True ) /* Stuck */
-     , (5771,  12, True ) /* ReportCollisions */
-     , (5771,  13, False) /* Ethereal */
-     , (5771,  14, True ) /* GravityStatus */
-     , (5771,  19, True ) /* Attackable */;
+VALUES (5771,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5771,   1, 'Lag Beast') /* Name */

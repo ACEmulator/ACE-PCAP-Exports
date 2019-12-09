@@ -10,16 +10,11 @@ VALUES (45976,   1,          2) /* ItemType - Armor */
      , (45976,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (45976,  16,          1) /* ItemUseable - No */
      , (45976,  19,        100) /* Value */
-     , (45976,  65,        101) /* Placement - Resting */
-     , (45976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45976, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45976,   1, False) /* Stuck */
-     , (45976,  11, True ) /* IgnoreCollisions */
-     , (45976,  13, True ) /* Ethereal */
-     , (45976,  14, True ) /* GravityStatus */
-     , (45976,  19, True ) /* Attackable */
-     , (45976,  22, True ) /* Inscribable */;
+VALUES (45976,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45976,   1, 'Amateur Explorer Boots') /* Name */;

@@ -9,21 +9,14 @@ VALUES (24105,   1,       8192) /* ItemType - Writable */
      , (24105,  16,          8) /* ItemUseable - Contained */
      , (24105,  19,         25) /* Value */
      , (24105,  33,          1) /* Bonded - Bonded */
-     , (24105,  65,        101) /* Placement - Resting */
      , (24105,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24105, 114,          1) /* Attuned - Attuned */
-     , (24105, 174,         11) /* AppraisalPages */
-     , (24105, 175,         11) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24105,   1, False) /* Stuck */
-     , (24105,  11, True ) /* IgnoreCollisions */
-     , (24105,  13, True ) /* Ethereal */
-     , (24105,  14, True ) /* GravityStatus */
-     , (24105,  19, True ) /* Attackable */;
+     , (24105, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (24105, 8042,         11) /* PCAPRecordedAppraisalPages */
+     , (24105, 8043,         11) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24105,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (24105,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24105,   1, 'A Tale of Paths') /* Name */;

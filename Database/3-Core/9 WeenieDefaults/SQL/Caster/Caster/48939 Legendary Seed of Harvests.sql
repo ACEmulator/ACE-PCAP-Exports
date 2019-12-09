@@ -12,7 +12,6 @@ VALUES (48939,   1,      32768) /* ItemType - Caster */
      , (48939,  19,      20000) /* Value */
      , (48939,  33,          1) /* Bonded - Bonded */
      , (48939,  45,         16) /* DamageType - Fire */
-     , (48939,  65,        101) /* Placement - Resting */
      , (48939,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (48939,  94,         16) /* TargetType - Creature */
      , (48939, 106,        450) /* ItemSpellcraft */
@@ -24,24 +23,19 @@ VALUES (48939,   1,      32768) /* ItemType - Caster */
      , (48939, 158,          2) /* WieldRequirements - RawSkill */
      , (48939, 159,         34) /* WieldSkillType - WarMagic */
      , (48939, 160,        340) /* WieldDifficulty */
-     , (48939, 263,         16) /* ResistanceModifierType */;
+     , (48939, 263,         16) /* ResistanceModifierType */
+     , (48939, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48939,   1, False) /* Stuck */
-     , (48939,  11, True ) /* IgnoreCollisions */
-     , (48939,  13, True ) /* Ethereal */
-     , (48939,  14, True ) /* GravityStatus */
-     , (48939,  15, True ) /* LightsStatus */
-     , (48939,  19, True ) /* Attackable */
-     , (48939,  22, True ) /* Inscribable */
+VALUES (48939,  22, True ) /* Inscribable */
      , (48939,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48939,   5, -0.025000000372529) /* ManaRate */
-     , (48939,  29, 1.14999997615814) /* WeaponDefense */
-     , (48939,  39, 0.600000023841858) /* DefaultScale */
-     , (48939, 144, 0.150000005960464) /* ManaConversionMod */
-     , (48939, 152, 1.10000002384186) /* ElementalDamageMod */
+VALUES (48939,   5,   -0.03) /* ManaRate */
+     , (48939,  29,    1.15) /* WeaponDefense */
+     , (48939,  39,     0.6) /* DefaultScale */
+     , (48939, 144,    0.15) /* ManaConversionMod */
+     , (48939, 152,     1.1) /* ElementalDamageMod */
      , (48939, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

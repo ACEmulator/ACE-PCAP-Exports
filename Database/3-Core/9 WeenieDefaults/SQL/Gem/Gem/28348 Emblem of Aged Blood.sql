@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28348,   1,       2048) /* ItemType - Gem */
      , (28348,   5,         20) /* EncumbranceVal */
      , (28348,  16,          1) /* ItemUseable - No */
-     , (28348,  65,        101) /* Placement - Resting */
-     , (28348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28348, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28348,   1, False) /* Stuck */
-     , (28348,  11, True ) /* IgnoreCollisions */
-     , (28348,  13, True ) /* Ethereal */
-     , (28348,  14, True ) /* GravityStatus */
-     , (28348,  19, True ) /* Attackable */
-     , (28348,  22, True ) /* Inscribable */;
+VALUES (28348,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28348,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (28348,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28348,   1, 'Emblem of Aged Blood') /* Name */;

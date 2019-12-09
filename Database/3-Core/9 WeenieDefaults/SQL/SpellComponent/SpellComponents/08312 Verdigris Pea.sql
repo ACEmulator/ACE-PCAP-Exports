@@ -12,18 +12,11 @@ VALUES (8312,   1,       4096) /* ItemType - SpellComponents */
      , (8312,  15,        625) /* StackUnitValue */
      , (8312,  16,          1) /* ItemUseable - No */
      , (8312,  19,        625) /* Value */
-     , (8312,  65,        101) /* Placement - Resting */
-     , (8312,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8312,   1, False) /* Stuck */
-     , (8312,  11, True ) /* IgnoreCollisions */
-     , (8312,  13, True ) /* Ethereal */
-     , (8312,  14, True ) /* GravityStatus */
-     , (8312,  19, True ) /* Attackable */;
+     , (8312,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8312, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8312,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8312,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8312,   1, 'Verdigris Pea') /* Name */;

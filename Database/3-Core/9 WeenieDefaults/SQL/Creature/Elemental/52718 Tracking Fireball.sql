@@ -15,14 +15,10 @@ VALUES (52718,   1,         16) /* ItemType - Creature */
      , (52718, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52718,   1, True ) /* Stuck */
-     , (52718,  12, True ) /* ReportCollisions */
-     , (52718,  13, False) /* Ethereal */
-     , (52718,  14, True ) /* GravityStatus */
-     , (52718,  19, True ) /* Attackable */;
+VALUES (52718,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52718,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (52718,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52718,   1, 'Tracking Fireball') /* Name */

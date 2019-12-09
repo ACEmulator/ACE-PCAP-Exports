@@ -33,18 +33,13 @@ VALUES (30589,   1,          1) /* ItemType - MeleeWeapon */
      , (30589, 172,          1) /* AppraisalLongDescDecoration */
      , (30589, 176,         44) /* AppraisalItemSkill */
      , (30589, 353,          4) /* WeaponType - Mace */
-     , (30589, 8030,          0);
+     , (30589, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30589,   1, False) /* Stuck */
-     , (30589,  11, True ) /* IgnoreCollisions */
-     , (30589,  13, True ) /* Ethereal */
-     , (30589,  14, True ) /* GravityStatus */
-     , (30589,  19, True ) /* Attackable */
-     , (30589,  22, True ) /* Inscribable */;
+VALUES (30589,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30589,   5, -0.0416666666666667) /* ManaRate */
+VALUES (30589,   5,   -0.04) /* ManaRate */
      , (30589,  21,       0) /* WeaponLength */
      , (30589,  22,    0.37) /* DamageVariance */
      , (30589,  26,       0) /* MaximumVelocity */

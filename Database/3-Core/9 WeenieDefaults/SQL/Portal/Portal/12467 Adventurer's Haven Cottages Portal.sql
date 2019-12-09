@@ -12,19 +12,13 @@ VALUES (12467,   1,      65536) /* ItemType - Portal */
      , (12467, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12467,   1, True ) /* Stuck */
-     , (12467,  12, True ) /* ReportCollisions */
-     , (12467,  13, True ) /* Ethereal */
-     , (12467,  14, True ) /* GravityStatus */
-     , (12467,  15, True ) /* LightsStatus */
-     , (12467,  19, True ) /* Attackable */;
+VALUES (12467,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12467,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12467,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12467,   1, 'Adventurer''s Haven Cottages Portal') /* Name */
-     , (12467,  38, 'Adventurer''s Haven Cottages Portal (1.6N, 36.1E).') /* AppraisalPortalDestination */
      , (12467, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

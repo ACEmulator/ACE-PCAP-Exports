@@ -15,13 +15,6 @@ VALUES (7826,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7826,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7826,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7826,   1, False) /* Stuck */
-     , (7826,  11, True ) /* IgnoreCollisions */
-     , (7826,  13, True ) /* Ethereal */
-     , (7826,  14, True ) /* GravityStatus */
-     , (7826,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7826,   1, 'Roasted Beans') /* Name */
      , (7826,  20, 'Heaps of Roasted Beans') /* PluralName */;

@@ -15,14 +15,10 @@ VALUES (8427,   1,         16) /* ItemType - Creature */
      , (8427, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8427,   1, True ) /* Stuck */
-     , (8427,  12, True ) /* ReportCollisions */
-     , (8427,  13, False) /* Ethereal */
-     , (8427,  14, True ) /* GravityStatus */
-     , (8427,  19, True ) /* Attackable */;
+VALUES (8427,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8427,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8427,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8427,   1, 'Mosswart Fanatic') /* Name */

@@ -10,16 +10,12 @@ VALUES (5866,   1,        512) /* ItemType - Container */
      , (5866,   7,         10) /* ContainersCapacity */
      , (5866,  16,         48) /* ItemUseable - ViewedRemote */
      , (5866,  19,       2500) /* Value */
-     , (5866,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (5866,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5866,   1, True ) /* Stuck */
      , (5866,   2, False) /* Open */
-     , (5866,  11, True ) /* IgnoreCollisions */
-     , (5866,  12, True ) /* ReportCollisions */
-     , (5866,  13, False) /* Ethereal */
-     , (5866,  14, True ) /* GravityStatus */
-     , (5866,  19, True ) /* Attackable */;
+     , (5866,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5866,  54,       1) /* UseRadius */;

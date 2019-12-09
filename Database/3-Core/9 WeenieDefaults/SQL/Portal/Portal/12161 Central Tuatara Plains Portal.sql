@@ -13,19 +13,13 @@ VALUES (12161,   1,      65536) /* ItemType - Portal */
      , (12161, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12161,   1, True ) /* Stuck */
-     , (12161,  12, True ) /* ReportCollisions */
-     , (12161,  13, True ) /* Ethereal */
-     , (12161,  14, True ) /* GravityStatus */
-     , (12161,  15, True ) /* LightsStatus */
-     , (12161,  19, True ) /* Attackable */;
+VALUES (12161,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12161,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12161,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12161,   1, 'Central Tuatara Plains Portal') /* Name */
-     , (12161,  38, 'Central Tuatara Plains Portal (56.1N, 75.2W).') /* AppraisalPortalDestination */
      , (12161, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

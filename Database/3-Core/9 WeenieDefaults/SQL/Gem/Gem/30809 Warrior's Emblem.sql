@@ -23,14 +23,6 @@ VALUES (30809,   1,       2048) /* ItemType - Gem */
      , (30809, 114,          0) /* Attuned - Normal */
      , (30809, 280,       1000) /* SharedCooldown */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30809,   1, False) /* Stuck */
-     , (30809,  11, True ) /* IgnoreCollisions */
-     , (30809,  13, True ) /* Ethereal */
-     , (30809,  14, True ) /* GravityStatus */
-     , (30809,  15, True ) /* LightsStatus */
-     , (30809,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30809, 167,      15) /* CooldownDuration */;
 

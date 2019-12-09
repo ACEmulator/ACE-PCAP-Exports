@@ -16,12 +16,7 @@ VALUES (24326,   1,         16) /* ItemType - Creature */
      , (24326, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24326,   1, True ) /* Stuck */
-     , (24326,  12, True ) /* ReportCollisions */
-     , (24326,  13, False) /* Ethereal */
-     , (24326,  14, True ) /* GravityStatus */
-     , (24326,  19, True ) /* Attackable */
-     , (24326,  42, True ) /* AllowEdgeSlide */;
+VALUES (24326,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24326,   1, 'Risen Lord') /* Name */

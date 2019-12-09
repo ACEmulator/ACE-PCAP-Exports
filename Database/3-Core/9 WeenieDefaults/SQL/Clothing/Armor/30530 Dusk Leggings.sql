@@ -13,7 +13,6 @@ VALUES (30530,   1,          2) /* ItemType - Armor */
      , (30530,  19,      50000) /* Value */
      , (30530,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30530,  28,        500) /* ArmorLevel */
-     , (30530,  65,        101) /* Placement - Resting */
      , (30530,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30530, 106,        350) /* ItemSpellcraft */
      , (30530, 107,       1985) /* ItemCurMana */
@@ -22,28 +21,24 @@ VALUES (30530,   1,          2) /* ItemType - Armor */
      , (30530, 151,          2) /* HookType - Wall */
      , (30530, 265,         40) /* EquipmentSetId - RareDamageResistance */
      , (30530, 319,         50) /* ItemMaxLevel */
-     , (30530, 320,          1) /* ItemXpStyle - Fixed */;
+     , (30530, 320,          1) /* ItemXpStyle - Fixed */
+     , (30530, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30530,   4,          0) /* ItemTotalXp */
      , (30530,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30530,   1, False) /* Stuck */
-     , (30530,  11, True ) /* IgnoreCollisions */
-     , (30530,  13, True ) /* Ethereal */
-     , (30530,  14, True ) /* GravityStatus */
-     , (30530,  19, True ) /* Attackable */
-     , (30530,  22, True ) /* Inscribable */;
+VALUES (30530,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30530,   5, -0.0333333015441895) /* ManaRate */
-     , (30530,  13, 1.10000002384186) /* ArmorModVsSlash */
-     , (30530,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (30530,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30530,  16, 1.20000004768372) /* ArmorModVsCold */
-     , (30530,  17, 1.10000002384186) /* ArmorModVsFire */
-     , (30530,  18, 1.39999997615814) /* ArmorModVsAcid */
+VALUES (30530,   5,   -0.03) /* ManaRate */
+     , (30530,  13,     1.1) /* ArmorModVsSlash */
+     , (30530,  14,     1.3) /* ArmorModVsPierce */
+     , (30530,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30530,  16,     1.2) /* ArmorModVsCold */
+     , (30530,  17,     1.1) /* ArmorModVsFire */
+     , (30530,  18,     1.4) /* ArmorModVsAcid */
      , (30530,  19,       1) /* ArmorModVsElectric */
      , (30530, 165,       1) /* ArmorModVsNether */;
 

@@ -9,20 +9,15 @@ VALUES (23995,   1,      16384) /* ItemType - Key */
      , (23995,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (23995,  19,          0) /* Value */
      , (23995,  33,          1) /* Bonded - Bonded */
-     , (23995,  65,        101) /* Placement - Resting */
      , (23995,  91,          1) /* MaxStructure */
      , (23995,  92,          1) /* Structure */
      , (23995,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23995,  94,        640) /* TargetType - LockableMagicTarget */
-     , (23995, 114,          1) /* Attuned - Attuned */;
+     , (23995, 114,          1) /* Attuned - Attuned */
+     , (23995, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23995,   1, False) /* Stuck */
-     , (23995,  11, True ) /* IgnoreCollisions */
-     , (23995,  13, True ) /* Ethereal */
-     , (23995,  14, True ) /* GravityStatus */
-     , (23995,  19, True ) /* Attackable */
-     , (23995,  22, True ) /* Inscribable */;
+VALUES (23995,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23995,   1, 'Key to the Sentinel Cache') /* Name */

@@ -16,15 +16,10 @@ VALUES (36844,   1,         16) /* ItemType - Creature */
      , (36844, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36844,   1, True ) /* Stuck */
-     , (36844,  12, True ) /* ReportCollisions */
-     , (36844,  13, False) /* Ethereal */
-     , (36844,  14, True ) /* GravityStatus */
-     , (36844,  19, True ) /* Attackable */
-     , (36844,  42, True ) /* AllowEdgeSlide */;
+VALUES (36844,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36844,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (36844,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36844,   1, 'Pugnacious Monouga') /* Name */

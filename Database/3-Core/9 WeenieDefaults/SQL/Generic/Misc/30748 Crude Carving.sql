@@ -9,17 +9,12 @@ VALUES (30748,   1,        128) /* ItemType - Misc */
      , (30748,  16,          1) /* ItemUseable - No */
      , (30748,  19,          0) /* Value */
      , (30748,  33,          0) /* Bonded - Normal */
-     , (30748,  65,        101) /* Placement - Resting */
      , (30748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30748, 114,          0) /* Attuned - Normal */;
+     , (30748, 114,          0) /* Attuned - Normal */
+     , (30748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30748,   1, False) /* Stuck */
-     , (30748,  11, True ) /* IgnoreCollisions */
-     , (30748,  13, True ) /* Ethereal */
-     , (30748,  14, True ) /* GravityStatus */
-     , (30748,  19, True ) /* Attackable */
-     , (30748,  22, True ) /* Inscribable */;
+VALUES (30748,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30748,   1, 'Crude Carving') /* Name */

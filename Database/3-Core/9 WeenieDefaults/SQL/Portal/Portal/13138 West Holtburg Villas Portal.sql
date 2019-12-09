@@ -12,19 +12,13 @@ VALUES (13138,   1,      65536) /* ItemType - Portal */
      , (13138, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13138,   1, True ) /* Stuck */
-     , (13138,  12, True ) /* ReportCollisions */
-     , (13138,  13, True ) /* Ethereal */
-     , (13138,  14, True ) /* GravityStatus */
-     , (13138,  15, True ) /* LightsStatus */
-     , (13138,  19, True ) /* Attackable */;
+VALUES (13138,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13138,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13138,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13138,   1, 'West Holtburg Villas Portal') /* Name */
-     , (13138,  38, 'West Holtburg Villas Portal (46.5N, 40.5E).') /* AppraisalPortalDestination */
      , (13138, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

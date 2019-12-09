@@ -14,17 +14,12 @@ VALUES (28773,   1,      16384) /* ItemType - Key */
      , (28773, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28773,   1, False) /* Stuck */
-     , (28773,  11, True ) /* IgnoreCollisions */
-     , (28773,  13, True ) /* Ethereal */
-     , (28773,  14, True ) /* GravityStatus */
-     , (28773,  19, True ) /* Attackable */
-     , (28773,  22, True ) /* Inscribable */;
+VALUES (28773,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28773, 8010,       0) /* PCAPRecordedVelocityX */
      , (28773, 8011,       0) /* PCAPRecordedVelocityY */
-     , (28773, 8012, -0.167385846376419) /* PCAPRecordedVelocityZ */;
+     , (28773, 8012,   -0.17) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28773,   1, 'Dericost Ruin Key') /* Name */;

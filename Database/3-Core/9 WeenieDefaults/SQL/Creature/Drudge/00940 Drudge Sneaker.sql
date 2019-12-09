@@ -15,14 +15,10 @@ VALUES (940,   1,         16) /* ItemType - Creature */
      , (940, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (940,   1, True ) /* Stuck */
-     , (940,  12, True ) /* ReportCollisions */
-     , (940,  13, False) /* Ethereal */
-     , (940,  14, True ) /* GravityStatus */
-     , (940,  19, True ) /* Attackable */;
+VALUES (940,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (940,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (940,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (940,   1, 'Drudge Sneaker') /* Name */

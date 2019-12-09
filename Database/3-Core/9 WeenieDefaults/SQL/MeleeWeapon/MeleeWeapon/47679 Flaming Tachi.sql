@@ -12,17 +12,12 @@ VALUES (47679,   1,          1) /* ItemType - MeleeWeapon */
      , (47679,  18,         32) /* UiEffects - Fire */
      , (47679,  19,        460) /* Value */
      , (47679,  51,          1) /* CombatUse - Melee */
-     , (47679,  65,          1) /* Placement - RightHandCombat */
      , (47679,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47679, 151,          2) /* HookType - Wall */;
+     , (47679, 151,          2) /* HookType - Wall */
+     , (47679, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47679,   1, False) /* Stuck */
-     , (47679,  11, True ) /* IgnoreCollisions */
-     , (47679,  13, True ) /* Ethereal */
-     , (47679,  14, True ) /* GravityStatus */
-     , (47679,  19, True ) /* Attackable */
-     , (47679,  22, True ) /* Inscribable */;
+VALUES (47679,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47679,   1, 'Flaming Tachi') /* Name */;

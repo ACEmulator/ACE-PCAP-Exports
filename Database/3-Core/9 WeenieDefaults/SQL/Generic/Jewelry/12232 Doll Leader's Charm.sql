@@ -12,25 +12,20 @@ VALUES (12232,   1,          8) /* ItemType - Jewelry */
      , (12232,  18,          1) /* UiEffects - Magical */
      , (12232,  19,       3000) /* Value */
      , (12232,  36,       9999) /* ResistMagic */
-     , (12232,  65,        101) /* Placement - Resting */
      , (12232,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12232, 106,        300) /* ItemSpellcraft */
      , (12232, 107,        600) /* ItemCurMana */
      , (12232, 108,        600) /* ItemMaxMana */
      , (12232, 109,        100) /* ItemDifficulty */
      , (12232, 115,        190) /* ItemSkillLevelLimit */
-     , (12232, 176,         34) /* AppraisalItemSkill */;
+     , (12232, 176,         34) /* AppraisalItemSkill */
+     , (12232, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12232,   1, False) /* Stuck */
-     , (12232,  11, True ) /* IgnoreCollisions */
-     , (12232,  13, True ) /* Ethereal */
-     , (12232,  14, True ) /* GravityStatus */
-     , (12232,  19, True ) /* Attackable */
-     , (12232,  22, True ) /* Inscribable */;
+VALUES (12232,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12232,   5, -0.033333) /* ManaRate */;
+VALUES (12232,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12232,   1, 'Doll Leader''s Charm') /* Name */

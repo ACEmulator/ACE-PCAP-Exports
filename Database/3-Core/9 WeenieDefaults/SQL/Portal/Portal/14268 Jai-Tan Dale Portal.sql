@@ -12,19 +12,13 @@ VALUES (14268,   1,      65536) /* ItemType - Portal */
      , (14268, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14268,   1, True ) /* Stuck */
-     , (14268,  12, True ) /* ReportCollisions */
-     , (14268,  13, True ) /* Ethereal */
-     , (14268,  14, True ) /* GravityStatus */
-     , (14268,  15, True ) /* LightsStatus */
-     , (14268,  19, True ) /* Attackable */;
+VALUES (14268,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14268,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14268,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14268,   1, 'Jai-Tan Dale Portal') /* Name */
-     , (14268,  38, 'Jai-Tan Dale Portal (45.6S, 59.2E).') /* AppraisalPortalDestination */
      , (14268, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

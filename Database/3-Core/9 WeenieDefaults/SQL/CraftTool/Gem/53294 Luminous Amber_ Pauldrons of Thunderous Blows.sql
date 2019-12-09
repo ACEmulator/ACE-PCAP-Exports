@@ -14,17 +14,12 @@ VALUES (53294,   1,       2048) /* ItemType - Gem */
      , (53294,  18,        256) /* UiEffects - Acid */
      , (53294,  19,         25) /* Value */
      , (53294,  33,          1) /* Bonded - Bonded */
-     , (53294,  65,        101) /* Placement - Resting */
      , (53294,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53294,  94,          6) /* TargetType - Vestements */;
+     , (53294,  94,          6) /* TargetType - Vestements */
+     , (53294, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53294,   1, False) /* Stuck */
-     , (53294,  11, True ) /* IgnoreCollisions */
-     , (53294,  13, True ) /* Ethereal */
-     , (53294,  14, True ) /* GravityStatus */
-     , (53294,  19, True ) /* Attackable */
-     , (53294,  69, False) /* IsSellable */;
+VALUES (53294,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53294,   1, 'Luminous Amber: Pauldrons of Thunderous Blows') /* Name */

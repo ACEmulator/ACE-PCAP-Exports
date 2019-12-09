@@ -12,21 +12,16 @@ VALUES (51456,   1,       2048) /* ItemType - Gem */
      , (51456,  15,        653) /* StackUnitValue */
      , (51456,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51456,  19,        653) /* Value */
-     , (51456,  65,        101) /* Placement - Resting */
      , (51456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51456,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (51456, 151,          2) /* HookType - Wall */;
+     , (51456, 151,          2) /* HookType - Wall */
+     , (51456, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51456,   1, False) /* Stuck */
-     , (51456,  11, True ) /* IgnoreCollisions */
-     , (51456,  13, True ) /* Ethereal */
-     , (51456,  14, True ) /* GravityStatus */
-     , (51456,  19, True ) /* Attackable */
-     , (51456,  22, True ) /* Inscribable */;
+VALUES (51456,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51456,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (51456,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51456,   1, 'Olthoi Sword') /* Name */;

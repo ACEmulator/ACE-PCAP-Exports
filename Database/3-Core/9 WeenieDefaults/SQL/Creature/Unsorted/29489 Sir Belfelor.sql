@@ -13,11 +13,7 @@ VALUES (29489,   1,         16) /* ItemType - Creature */
      , (29489, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29489,   1, True ) /* Stuck */
-     , (29489,  12, True ) /* ReportCollisions */
-     , (29489,  13, False) /* Ethereal */
-     , (29489,  14, True ) /* GravityStatus */
-     , (29489,  19, True ) /* Attackable */;
+VALUES (29489,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29489,   1, 'Sir Belfelor') /* Name */

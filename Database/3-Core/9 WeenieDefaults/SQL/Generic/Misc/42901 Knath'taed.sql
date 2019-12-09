@@ -11,11 +11,7 @@ VALUES (42901,   1,        128) /* ItemType - Misc */
      , (42901,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42901,   1, True ) /* Stuck */
-     , (42901,  11, True ) /* IgnoreCollisions */
-     , (42901,  12, True ) /* ReportCollisions */
-     , (42901,  13, True ) /* Ethereal */
-     , (42901,  19, True ) /* Attackable */;
+VALUES (42901,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42901,   1, 'Knath''taed') /* Name */

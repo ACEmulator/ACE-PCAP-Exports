@@ -11,15 +11,10 @@ VALUES (22230,   1,      65536) /* ItemType - Portal */
      , (22230, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22230,   1, True ) /* Stuck */
-     , (22230,  12, True ) /* ReportCollisions */
-     , (22230,  13, True ) /* Ethereal */
-     , (22230,  14, True ) /* GravityStatus */
-     , (22230,  15, True ) /* LightsStatus */
-     , (22230,  19, True ) /* Attackable */;
+VALUES (22230,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22230,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22230,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22230,   1, 'Triumphal Gardens Portal') /* Name */

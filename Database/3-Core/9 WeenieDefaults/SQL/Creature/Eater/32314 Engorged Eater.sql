@@ -15,14 +15,10 @@ VALUES (32314,   1,         16) /* ItemType - Creature */
      , (32314, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32314,   1, True ) /* Stuck */
-     , (32314,  12, True ) /* ReportCollisions */
-     , (32314,  13, False) /* Ethereal */
-     , (32314,  14, True ) /* GravityStatus */
-     , (32314,  19, True ) /* Attackable */;
+VALUES (32314,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32314,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (32314,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32314,   1, 'Engorged Eater') /* Name */

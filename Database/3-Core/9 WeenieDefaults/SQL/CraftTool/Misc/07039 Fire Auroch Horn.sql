@@ -12,20 +12,15 @@ VALUES (7039,   1,        128) /* ItemType - Misc */
      , (7039,  15,          0) /* StackUnitValue */
      , (7039,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7039,  19,          0) /* Value */
-     , (7039,  65,        101) /* Placement - Resting */
      , (7039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7039,  94,        128) /* TargetType - Misc */;
+     , (7039,  94,        128) /* TargetType - Misc */
+     , (7039, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7039,   1, False) /* Stuck */
-     , (7039,  11, True ) /* IgnoreCollisions */
-     , (7039,  13, True ) /* Ethereal */
-     , (7039,  14, True ) /* GravityStatus */
-     , (7039,  19, True ) /* Attackable */
-     , (7039,  22, True ) /* Inscribable */;
+VALUES (7039,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7039,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (7039,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7039,   1, 'Fire Auroch Horn') /* Name */

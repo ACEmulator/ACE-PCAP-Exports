@@ -11,17 +11,12 @@ VALUES (24260,   1,          4) /* ItemType - Clothing */
      , (24260,  16,          1) /* ItemUseable - No */
      , (24260,  19,       6000) /* Value */
      , (24260,  28,        240) /* ArmorLevel */
-     , (24260,  65,        101) /* Placement - Resting */
      , (24260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24260, 151,          2) /* HookType - Wall */;
+     , (24260, 151,          2) /* HookType - Wall */
+     , (24260, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24260,   1, False) /* Stuck */
-     , (24260,  11, True ) /* IgnoreCollisions */
-     , (24260,  13, True ) /* Ethereal */
-     , (24260,  14, True ) /* GravityStatus */
-     , (24260,  19, True ) /* Attackable */
-     , (24260,  22, True ) /* Inscribable */
+VALUES (24260,  22, True ) /* Inscribable */
      , (24260, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

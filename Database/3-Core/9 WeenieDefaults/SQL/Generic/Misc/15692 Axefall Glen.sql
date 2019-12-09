@@ -11,12 +11,7 @@ VALUES (15692,   1,        128) /* ItemType - Misc */
      , (15692,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15692,   1, True ) /* Stuck */
-     , (15692,  11, True ) /* IgnoreCollisions */
-     , (15692,  12, True ) /* ReportCollisions */
-     , (15692,  13, False) /* Ethereal */
-     , (15692,  14, True ) /* GravityStatus */
-     , (15692,  19, True ) /* Attackable */;
+VALUES (15692,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15692,   1, 'Axefall Glen') /* Name */

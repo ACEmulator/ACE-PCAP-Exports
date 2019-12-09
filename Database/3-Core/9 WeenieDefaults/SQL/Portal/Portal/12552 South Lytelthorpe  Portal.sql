@@ -12,19 +12,13 @@ VALUES (12552,   1,      65536) /* ItemType - Portal */
      , (12552, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12552,   1, True ) /* Stuck */
-     , (12552,  12, True ) /* ReportCollisions */
-     , (12552,  13, True ) /* Ethereal */
-     , (12552,  14, True ) /* GravityStatus */
-     , (12552,  15, True ) /* LightsStatus */
-     , (12552,  19, True ) /* Attackable */;
+VALUES (12552,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12552,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12552,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12552,   1, 'South Lytelthorpe  Portal') /* Name */
-     , (12552,  38, 'South Lytelthorpe  Portal (2.3S, 53.9E).') /* AppraisalPortalDestination */
      , (12552, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

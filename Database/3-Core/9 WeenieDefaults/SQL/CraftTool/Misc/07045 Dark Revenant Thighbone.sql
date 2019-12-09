@@ -12,18 +12,13 @@ VALUES (7045,   1,        128) /* ItemType - Misc */
      , (7045,  15,          0) /* StackUnitValue */
      , (7045,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7045,  19,          0) /* Value */
-     , (7045,  65,        101) /* Placement - Resting */
      , (7045,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7045,  94,        128) /* TargetType - Misc */
-     , (7045, 151,          2) /* HookType - Wall */;
+     , (7045, 151,          2) /* HookType - Wall */
+     , (7045, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7045,   1, False) /* Stuck */
-     , (7045,  11, True ) /* IgnoreCollisions */
-     , (7045,  13, True ) /* Ethereal */
-     , (7045,  14, True ) /* GravityStatus */
-     , (7045,  19, True ) /* Attackable */
-     , (7045,  22, True ) /* Inscribable */;
+VALUES (7045,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7045,   1, 'Dark Revenant Thighbone') /* Name */

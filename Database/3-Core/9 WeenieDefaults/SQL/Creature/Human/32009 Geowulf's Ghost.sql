@@ -18,14 +18,10 @@ VALUES (32009,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32009,   1, True ) /* Stuck */
-     , (32009,  11, True ) /* IgnoreCollisions */
-     , (32009,  13, True ) /* Ethereal */
-     , (32009,  14, True ) /* GravityStatus */
-     , (32009,  19, False) /* Attackable */
-     , (32009,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (32009,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32009,  76, 0.899999976158142) /* Translucency */;
+VALUES (32009,  76,     0.9) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32009,   1, 'Geowulf''s Ghost') /* Name */

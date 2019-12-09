@@ -12,16 +12,11 @@ VALUES (789,   1,       4096) /* ItemType - SpellComponents */
      , (789,  15,          5) /* StackUnitValue */
      , (789,  16,          1) /* ItemUseable - No */
      , (789,  19,          5) /* Value */
-     , (789,  65,        101) /* Placement - Resting */
-     , (789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (789, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (789,   1, False) /* Stuck */
-     , (789,  11, True ) /* IgnoreCollisions */
-     , (789,  13, True ) /* Ethereal */
-     , (789,  14, True ) /* GravityStatus */
-     , (789,  19, True ) /* Attackable */
-     , (789,  69, False) /* IsSellable */;
+VALUES (789,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (789,   1, 'Powdered Moonstone') /* Name */

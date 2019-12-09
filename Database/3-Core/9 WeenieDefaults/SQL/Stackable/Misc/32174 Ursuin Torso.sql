@@ -15,15 +15,10 @@ VALUES (32174,   1,        128) /* ItemType - Misc */
      , (32174, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32174,   1, False) /* Stuck */
-     , (32174,  11, True ) /* IgnoreCollisions */
-     , (32174,  13, True ) /* Ethereal */
-     , (32174,  14, True ) /* GravityStatus */
-     , (32174,  19, True ) /* Attackable */
-     , (32174,  22, True ) /* Inscribable */;
+VALUES (32174,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32174,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (32174,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32174,   1, 'Ursuin Torso') /* Name */;

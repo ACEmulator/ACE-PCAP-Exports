@@ -15,11 +15,7 @@ VALUES (42435,   1,         16) /* ItemType - Creature */
      , (42435, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42435,   1, True ) /* Stuck */
-     , (42435,  12, True ) /* ReportCollisions */
-     , (42435,  13, False) /* Ethereal */
-     , (42435,  14, True ) /* GravityStatus */
-     , (42435,  19, True ) /* Attackable */;
+VALUES (42435,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42435,   1, 'Drudge Prowler') /* Name */

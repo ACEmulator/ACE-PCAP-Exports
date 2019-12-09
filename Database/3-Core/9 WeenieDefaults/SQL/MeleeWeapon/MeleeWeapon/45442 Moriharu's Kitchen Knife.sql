@@ -10,17 +10,12 @@ VALUES (45442,   1,          1) /* ItemType - MeleeWeapon */
      , (45442,  16,          1) /* ItemUseable - No */
      , (45442,  19,      50000) /* Value */
      , (45442,  51,          1) /* CombatUse - Melee */
-     , (45442,  65,        101) /* Placement - Resting */
      , (45442,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45442, 151,          2) /* HookType - Wall */;
+     , (45442, 151,          2) /* HookType - Wall */
+     , (45442, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45442,   1, False) /* Stuck */
-     , (45442,  11, True ) /* IgnoreCollisions */
-     , (45442,  13, True ) /* Ethereal */
-     , (45442,  14, True ) /* GravityStatus */
-     , (45442,  19, True ) /* Attackable */
-     , (45442,  22, True ) /* Inscribable */;
+VALUES (45442,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45442,   1, 'Moriharu''s Kitchen Knife') /* Name */;

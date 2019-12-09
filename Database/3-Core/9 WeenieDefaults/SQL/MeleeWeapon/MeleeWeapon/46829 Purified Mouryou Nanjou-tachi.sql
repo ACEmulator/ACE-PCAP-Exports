@@ -11,18 +11,12 @@ VALUES (46829,   1,          1) /* ItemType - MeleeWeapon */
      , (46829,  16,          1) /* ItemUseable - No */
      , (46829,  18,          1) /* UiEffects - Magical */
      , (46829,  51,          1) /* CombatUse - Melee */
-     , (46829,  65,          1) /* Placement - RightHandCombat */
      , (46829,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (46829, 151,          2) /* HookType - Wall */;
+     , (46829, 151,          2) /* HookType - Wall */
+     , (46829, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46829,   1, False) /* Stuck */
-     , (46829,  11, True ) /* IgnoreCollisions */
-     , (46829,  13, True ) /* Ethereal */
-     , (46829,  14, True ) /* GravityStatus */
-     , (46829,  15, True ) /* LightsStatus */
-     , (46829,  19, True ) /* Attackable */
-     , (46829,  22, True ) /* Inscribable */;
+VALUES (46829,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46829,   1, 'Purified Mouryou Nanjou-tachi') /* Name */;

@@ -29,19 +29,14 @@ VALUES (37402,   1,          1) /* ItemType - MeleeWeapon */
      , (37402, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (37402, 160,        325) /* WieldDifficulty */
      , (37402, 353,          4) /* WeaponType - Mace */
-     , (37402, 8030,          0);
+     , (37402, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37402,   1, False) /* Stuck */
-     , (37402,  11, True ) /* IgnoreCollisions */
-     , (37402,  13, True ) /* Ethereal */
-     , (37402,  14, True ) /* GravityStatus */
-     , (37402,  19, True ) /* Attackable */
-     , (37402,  22, True ) /* Inscribable */
+VALUES (37402,  22, True ) /* Inscribable */
      , (37402,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37402,   5, -0.03333333) /* ManaRate */
+VALUES (37402,   5,   -0.03) /* ManaRate */
      , (37402,  21,       0) /* WeaponLength */
      , (37402,  22,    0.33) /* DamageVariance */
      , (37402,  26,       0) /* MaximumVelocity */

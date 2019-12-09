@@ -15,15 +15,10 @@ VALUES (51357,   1,         16) /* ItemType - Creature */
      , (51357, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51357,   1, True ) /* Stuck */
-     , (51357,  12, True ) /* ReportCollisions */
-     , (51357,  13, False) /* Ethereal */
-     , (51357,  14, True ) /* GravityStatus */
-     , (51357,  19, True ) /* Attackable */
-     , (51357,  42, True ) /* AllowEdgeSlide */;
+VALUES (51357,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51357,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51357,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51357,   1, 'Gurog Guardian Henchman') /* Name */

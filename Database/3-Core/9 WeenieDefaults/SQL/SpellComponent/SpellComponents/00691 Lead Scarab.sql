@@ -12,16 +12,9 @@ VALUES (691,   1,       4096) /* ItemType - SpellComponents */
      , (691,  15,         10) /* StackUnitValue */
      , (691,  16,          1) /* ItemUseable - No */
      , (691,  19,         10) /* Value */
-     , (691,  65,        101) /* Placement - Resting */
      , (691,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (691, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (691,   1, False) /* Stuck */
-     , (691,  11, True ) /* IgnoreCollisions */
-     , (691,  13, True ) /* Ethereal */
-     , (691,  14, True ) /* GravityStatus */
-     , (691,  19, True ) /* Attackable */;
+     , (691, 151,          2) /* HookType - Wall */
+     , (691, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (691,   1, 'Lead Scarab') /* Name */;

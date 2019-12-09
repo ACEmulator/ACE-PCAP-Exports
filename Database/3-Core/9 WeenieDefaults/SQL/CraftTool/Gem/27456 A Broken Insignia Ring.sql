@@ -13,21 +13,16 @@ VALUES (27456,   1,       2048) /* ItemType - Gem */
      , (27456,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (27456,  19,          0) /* Value */
      , (27456,  33,          1) /* Bonded - Bonded */
-     , (27456,  65,        101) /* Placement - Resting */
      , (27456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27456,  94,       2048) /* TargetType - Gem */
-     , (27456, 114,          1) /* Attuned - Attuned */;
+     , (27456, 114,          1) /* Attuned - Attuned */
+     , (27456, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27456,   1, False) /* Stuck */
-     , (27456,  11, True ) /* IgnoreCollisions */
-     , (27456,  13, True ) /* Ethereal */
-     , (27456,  14, True ) /* GravityStatus */
-     , (27456,  19, True ) /* Attackable */
-     , (27456,  22, True ) /* Inscribable */;
+VALUES (27456,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27456,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (27456,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27456,   1, 'A Broken Insignia Ring') /* Name */

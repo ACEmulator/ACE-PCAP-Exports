@@ -9,18 +9,13 @@ VALUES (34275,   1,        128) /* ItemType - Misc */
      , (34275,  16,          1) /* ItemUseable - No */
      , (34275,  19,         10) /* Value */
      , (34275,  33,          0) /* Bonded - Normal */
-     , (34275,  65,        101) /* Placement - Resting */
      , (34275,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34275, 114,          0) /* Attuned - Normal */
-     , (34275, 151,          2) /* HookType - Wall */;
+     , (34275, 151,          2) /* HookType - Wall */
+     , (34275, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34275,   1, False) /* Stuck */
-     , (34275,  11, True ) /* IgnoreCollisions */
-     , (34275,  13, True ) /* Ethereal */
-     , (34275,  14, True ) /* GravityStatus */
-     , (34275,  19, True ) /* Attackable */
-     , (34275,  22, True ) /* Inscribable */;
+VALUES (34275,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34275,   1, 'Ulgrim''s Contest Mug') /* Name */

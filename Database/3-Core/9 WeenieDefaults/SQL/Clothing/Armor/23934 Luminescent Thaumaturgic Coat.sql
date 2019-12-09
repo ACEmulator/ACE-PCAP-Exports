@@ -11,16 +11,11 @@ VALUES (23934,   1,          2) /* ItemType - Armor */
      , (23934,  16,          1) /* ItemUseable - No */
      , (23934,  18,          1) /* UiEffects - Magical */
      , (23934,  19,       6800) /* Value */
-     , (23934,  65,        101) /* Placement - Resting */
-     , (23934,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23934,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23934, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23934,   1, False) /* Stuck */
-     , (23934,  11, True ) /* IgnoreCollisions */
-     , (23934,  13, True ) /* Ethereal */
-     , (23934,  14, True ) /* GravityStatus */
-     , (23934,  19, True ) /* Attackable */
-     , (23934,  22, True ) /* Inscribable */;
+VALUES (23934,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23934,   1, 'Luminescent Thaumaturgic Coat') /* Name */;

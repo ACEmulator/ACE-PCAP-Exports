@@ -12,20 +12,14 @@ VALUES (43003,   1,      65536) /* ItemType - Portal */
      , (43003, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43003,   1, True ) /* Stuck */
-     , (43003,  12, True ) /* ReportCollisions */
-     , (43003,  13, True ) /* Ethereal */
-     , (43003,  14, True ) /* GravityStatus */
-     , (43003,  15, True ) /* LightsStatus */
-     , (43003,  19, True ) /* Attackable */;
+VALUES (43003,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43003,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43003,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43003,   1, 'Danby''s Outpost') /* Name */
      , (43003,  16, 'This portal goes to Danby''s Outpost, a settlement on the northern edge of the inner sea. This outpost is a good place for characters over level 40.') /* LongDesc */
-     , (43003,  38, 'Danby''s Outpost (23.2N, 29.9W).') /* AppraisalPortalDestination */
      , (43003, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,15 +15,10 @@ VALUES (36967,   1,         16) /* ItemType - Creature */
      , (36967, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36967,   1, True ) /* Stuck */
-     , (36967,  12, True ) /* ReportCollisions */
-     , (36967,  13, False) /* Ethereal */
-     , (36967,  14, True ) /* GravityStatus */
-     , (36967,  19, True ) /* Attackable */
-     , (36967,  42, True ) /* AllowEdgeSlide */;
+VALUES (36967,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36967,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (36967,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36967,   1, 'Tusker Protector') /* Name */

@@ -13,21 +13,15 @@ VALUES (42161,   1,      65536) /* ItemType - Portal */
      , (42161, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42161,   1, True ) /* Stuck */
-     , (42161,  12, True ) /* ReportCollisions */
-     , (42161,  13, True ) /* Ethereal */
-     , (42161,  14, True ) /* GravityStatus */
-     , (42161,  15, True ) /* LightsStatus */
-     , (42161,  19, True ) /* Attackable */;
+VALUES (42161,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42161,  39, 0.800000011920929) /* DefaultScale */
-     , (42161,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42161,  39,     0.8) /* DefaultScale */
+     , (42161,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42161,   1, 'Bellig Tower Base') /* Name */
      , (42161,  16, 'A portal leading to the Bellig Tower Base where the Hammer of Lightning may be found.') /* LongDesc */
-     , (42161,  38, 'Bellig Tower Base (17.7N, 15.9E).') /* AppraisalPortalDestination */
      , (42161, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

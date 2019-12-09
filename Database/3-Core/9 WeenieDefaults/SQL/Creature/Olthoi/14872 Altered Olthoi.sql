@@ -15,19 +15,15 @@ VALUES (14872,   1,         16) /* ItemType - Creature */
      , (14872, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14872,   1, True ) /* Stuck */
-     , (14872,  12, True ) /* ReportCollisions */
-     , (14872,  13, False) /* Ethereal */
-     , (14872,  14, True ) /* GravityStatus */
-     , (14872,  19, True ) /* Attackable */;
+VALUES (14872,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14872,  39, 1.10000002384186) /* DefaultScale */
+VALUES (14872,  39,     1.1) /* DefaultScale */
      , (14872,  76,    0.25) /* Translucency */
      , (14872,  77,       1) /* PhysicsScriptIntensity */
-     , (14872, 8010, 0.174651026725769) /* PCAPRecordedVelocityX */
-     , (14872, 8011, 0.174651026725769) /* PCAPRecordedVelocityY */
-     , (14872, 8012, -0.0291085038334131) /* PCAPRecordedVelocityZ */;
+     , (14872, 8010,    0.17) /* PCAPRecordedVelocityX */
+     , (14872, 8011,    0.17) /* PCAPRecordedVelocityY */
+     , (14872, 8012,   -0.03) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14872,   1, 'Altered Olthoi') /* Name */

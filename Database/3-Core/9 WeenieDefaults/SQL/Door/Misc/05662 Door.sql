@@ -6,17 +6,15 @@ VALUES (5662, 'doormageacademylv3', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5662,   1,        128) /* ItemType - Misc */
      , (5662,  16,         32) /* ItemUseable - Remote */
-     , (5662,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (5662,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (5662, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5662,   1, True ) /* Stuck */
      , (5662,   2, False) /* Open */
      , (5662,   3, True ) /* Locked */
-     , (5662,  11, True ) /* IgnoreCollisions */
-     , (5662,  12, True ) /* ReportCollisions */
-     , (5662,  13, False) /* Ethereal */
-     , (5662,  19, True ) /* Attackable */;
+     , (5662,  34, False) /* DefaultOpen */
+     , (5662,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5662,  54,       2) /* UseRadius */;

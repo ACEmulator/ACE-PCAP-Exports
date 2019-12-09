@@ -11,17 +11,12 @@ VALUES (6202,   1,          1) /* ItemType - MeleeWeapon */
      , (6202,  18,          1) /* UiEffects - Magical */
      , (6202,  19,       5000) /* Value */
      , (6202,  51,          1) /* CombatUse - Melee */
-     , (6202,  65,        101) /* Placement - Resting */
      , (6202,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6202, 151,          2) /* HookType - Wall */;
+     , (6202, 151,          2) /* HookType - Wall */
+     , (6202, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6202,   1, False) /* Stuck */
-     , (6202,  11, True ) /* IgnoreCollisions */
-     , (6202,  13, True ) /* Ethereal */
-     , (6202,  14, True ) /* GravityStatus */
-     , (6202,  19, True ) /* Attackable */
-     , (6202,  22, True ) /* Inscribable */;
+VALUES (6202,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6202,   1, 'Peerless Smoldering Atlan Dagger') /* Name */;

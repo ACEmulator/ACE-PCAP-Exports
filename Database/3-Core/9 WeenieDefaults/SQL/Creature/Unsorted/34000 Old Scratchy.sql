@@ -13,14 +13,10 @@ VALUES (34000,   1,         16) /* ItemType - Creature */
      , (34000, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34000,   1, True ) /* Stuck */
-     , (34000,  12, True ) /* ReportCollisions */
-     , (34000,  13, False) /* Ethereal */
-     , (34000,  14, True ) /* GravityStatus */
-     , (34000,  19, True ) /* Attackable */;
+VALUES (34000,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34000,  39, 2.29999995231628) /* DefaultScale */;
+VALUES (34000,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34000,   1, 'Old Scratchy') /* Name */

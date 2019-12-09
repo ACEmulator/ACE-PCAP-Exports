@@ -8,20 +8,15 @@ VALUES (8454,   1,        128) /* ItemType - Misc */
      , (8454,   5,       9000) /* EncumbranceVal */
      , (8454,  16,          1) /* ItemUseable - No */
      , (8454,  19,        125) /* Value */
-     , (8454,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (8454,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8454,   1, True ) /* Stuck */
-     , (8454,  11, True ) /* IgnoreCollisions */
-     , (8454,  12, True ) /* ReportCollisions */
-     , (8454,  13, False) /* Ethereal */
-     , (8454,  14, True ) /* GravityStatus */
-     , (8454,  19, True ) /* Attackable */;
+VALUES (8454,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8454, 8010,       0) /* PCAPRecordedVelocityX */
      , (8454, 8011,       0) /* PCAPRecordedVelocityY */
-     , (8454, 8012, -0.377168089151382) /* PCAPRecordedVelocityZ */;
+     , (8454, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8454,   1, 'The Whipping Vine') /* Name */

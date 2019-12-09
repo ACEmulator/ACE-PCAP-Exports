@@ -16,12 +16,7 @@ VALUES (52626,   1,         16) /* ItemType - Creature */
      , (52626, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52626,   1, True ) /* Stuck */
-     , (52626,  12, True ) /* ReportCollisions */
-     , (52626,  13, False) /* Ethereal */
-     , (52626,  14, True ) /* GravityStatus */
-     , (52626,  19, True ) /* Attackable */
-     , (52626,  42, True ) /* AllowEdgeSlide */;
+VALUES (52626,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52626,   1, 'Oaken Guardian') /* Name */

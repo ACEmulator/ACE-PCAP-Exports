@@ -9,17 +9,12 @@ VALUES (40515,   1,        128) /* ItemType - Misc */
      , (40515,  16,          1) /* ItemUseable - No */
      , (40515,  19,          5) /* Value */
      , (40515,  33,          1) /* Bonded - Bonded */
-     , (40515,  65,        101) /* Placement - Resting */
      , (40515,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40515, 114,          1) /* Attuned - Attuned */;
+     , (40515, 114,          1) /* Attuned - Attuned */
+     , (40515, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40515,   1, False) /* Stuck */
-     , (40515,  11, True ) /* IgnoreCollisions */
-     , (40515,  13, True ) /* Ethereal */
-     , (40515,  14, True ) /* GravityStatus */
-     , (40515,  19, True ) /* Attackable */
-     , (40515,  22, True ) /* Inscribable */;
+VALUES (40515,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40515,   1, 'Inert Shadowfire Infusion') /* Name */

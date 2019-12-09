@@ -12,18 +12,13 @@ VALUES (8020,   1,        128) /* ItemType - Misc */
      , (8020,  15,          0) /* StackUnitValue */
      , (8020,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8020,  19,          0) /* Value */
-     , (8020,  65,        101) /* Placement - Resting */
      , (8020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8020,  94,        128) /* TargetType - Misc */
-     , (8020, 151,          2) /* HookType - Wall */;
+     , (8020, 151,          2) /* HookType - Wall */
+     , (8020, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8020,   1, False) /* Stuck */
-     , (8020,  11, True ) /* IgnoreCollisions */
-     , (8020,  13, True ) /* Ethereal */
-     , (8020,  14, True ) /* GravityStatus */
-     , (8020,  19, True ) /* Attackable */
-     , (8020,  22, True ) /* Inscribable */;
+VALUES (8020,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8020,   1, 'Fenmalain Key') /* Name */

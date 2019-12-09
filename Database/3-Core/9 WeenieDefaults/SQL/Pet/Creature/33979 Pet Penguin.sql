@@ -18,14 +18,10 @@ VALUES (33979,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33979,   1, True ) /* Stuck */
-     , (33979,  11, True ) /* IgnoreCollisions */
-     , (33979,  13, True ) /* Ethereal */
-     , (33979,  14, True ) /* GravityStatus */
-     , (33979,  19, False) /* Attackable */
-     , (33979,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (33979,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33979,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33979,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33979,   1, 'Pet Penguin') /* Name */

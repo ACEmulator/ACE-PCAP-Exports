@@ -15,12 +15,7 @@ VALUES (51982,   1,         16) /* ItemType - Creature */
      , (51982, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51982,   1, True ) /* Stuck */
-     , (51982,  12, True ) /* ReportCollisions */
-     , (51982,  13, False) /* Ethereal */
-     , (51982,  14, True ) /* GravityStatus */
-     , (51982,  19, True ) /* Attackable */
-     , (51982,  42, True ) /* AllowEdgeSlide */;
+VALUES (51982,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51982,   1, 'Lothus Guardian of Torment') /* Name */

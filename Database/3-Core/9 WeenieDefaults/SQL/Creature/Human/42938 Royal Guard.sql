@@ -21,13 +21,7 @@ VALUES (42938,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42938,   1, True ) /* Stuck */
-     , (42938,  11, True ) /* IgnoreCollisions */
-     , (42938,  12, True ) /* ReportCollisions */
-     , (42938,  13, False) /* Ethereal */
-     , (42938,  14, True ) /* GravityStatus */
-     , (42938,  19, False) /* Attackable */
-     , (42938,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (42938,  42, True ) /* AllowEdgeSlide */;
+     , (42938,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42938,  54,       3) /* UseRadius */;

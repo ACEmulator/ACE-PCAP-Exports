@@ -14,20 +14,14 @@ VALUES (5198,   1,      65536) /* ItemType - Portal */
      , (5198, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5198,   1, True ) /* Stuck */
-     , (5198,  12, True ) /* ReportCollisions */
-     , (5198,  13, True ) /* Ethereal */
-     , (5198,  14, True ) /* GravityStatus */
-     , (5198,  15, True ) /* LightsStatus */
-     , (5198,  19, True ) /* Attackable */;
+VALUES (5198,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5198,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5198,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5198,   1, 'Sea Temple Catacombs') /* Name */
      , (5198,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */
-     , (5198,  38, 'Sea Temple Catacombs') /* AppraisalPortalDestination */
      , (5198, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

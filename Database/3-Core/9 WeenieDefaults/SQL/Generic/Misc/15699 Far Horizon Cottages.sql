@@ -11,12 +11,7 @@ VALUES (15699,   1,        128) /* ItemType - Misc */
      , (15699,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15699,   1, True ) /* Stuck */
-     , (15699,  11, True ) /* IgnoreCollisions */
-     , (15699,  12, True ) /* ReportCollisions */
-     , (15699,  13, False) /* Ethereal */
-     , (15699,  14, True ) /* GravityStatus */
-     , (15699,  19, True ) /* Attackable */;
+VALUES (15699,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15699,   1, 'Far Horizon Cottages') /* Name */

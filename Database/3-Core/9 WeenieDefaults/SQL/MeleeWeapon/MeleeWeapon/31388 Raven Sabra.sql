@@ -21,15 +21,10 @@ VALUES (31388,   1,          1) /* ItemType - MeleeWeapon */
      , (31388,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31388, 114,          1) /* Attuned - Attuned */
      , (31388, 353,          2) /* WeaponType - Sword */
-     , (31388, 8030,          0);
+     , (31388, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31388,   1, False) /* Stuck */
-     , (31388,  11, True ) /* IgnoreCollisions */
-     , (31388,  13, True ) /* Ethereal */
-     , (31388,  14, True ) /* GravityStatus */
-     , (31388,  19, True ) /* Attackable */
-     , (31388,  22, True ) /* Inscribable */;
+VALUES (31388,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31388,  21,       0) /* WeaponLength */

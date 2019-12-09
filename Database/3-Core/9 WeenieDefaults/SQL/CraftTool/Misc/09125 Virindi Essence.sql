@@ -13,18 +13,13 @@ VALUES (9125,   1,        128) /* ItemType - Misc */
      , (9125,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9125,  19,          0) /* Value */
      , (9125,  33,          1) /* Bonded - Bonded */
-     , (9125,  65,        101) /* Placement - Resting */
      , (9125,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9125,  94,        128) /* TargetType - Misc */
-     , (9125, 114,          1) /* Attuned - Attuned */;
+     , (9125, 114,          1) /* Attuned - Attuned */
+     , (9125, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9125,   1, False) /* Stuck */
-     , (9125,  11, True ) /* IgnoreCollisions */
-     , (9125,  13, True ) /* Ethereal */
-     , (9125,  14, True ) /* GravityStatus */
-     , (9125,  19, True ) /* Attackable */
-     , (9125,  22, True ) /* Inscribable */;
+VALUES (9125,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9125,   1, 'Virindi Essence') /* Name */

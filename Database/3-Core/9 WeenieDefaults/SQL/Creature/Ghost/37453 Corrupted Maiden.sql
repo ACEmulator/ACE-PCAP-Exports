@@ -15,14 +15,10 @@ VALUES (37453,   1,         16) /* ItemType - Creature */
      , (37453, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37453,   1, True ) /* Stuck */
-     , (37453,  12, True ) /* ReportCollisions */
-     , (37453,  13, False) /* Ethereal */
-     , (37453,  14, True ) /* GravityStatus */
-     , (37453,  19, True ) /* Attackable */;
+VALUES (37453,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37453,  76, 0.800000011920929) /* Translucency */;
+VALUES (37453,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37453,   1, 'Corrupted Maiden') /* Name */

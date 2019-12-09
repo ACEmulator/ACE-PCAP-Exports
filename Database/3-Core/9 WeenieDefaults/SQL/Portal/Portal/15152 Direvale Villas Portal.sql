@@ -12,19 +12,13 @@ VALUES (15152,   1,      65536) /* ItemType - Portal */
      , (15152, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15152,   1, True ) /* Stuck */
-     , (15152,  12, True ) /* ReportCollisions */
-     , (15152,  13, True ) /* Ethereal */
-     , (15152,  14, True ) /* GravityStatus */
-     , (15152,  15, True ) /* LightsStatus */
-     , (15152,  19, True ) /* Attackable */;
+VALUES (15152,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15152,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15152,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15152,   1, 'Direvale Villas Portal') /* Name */
-     , (15152,  38, 'Direvale Villas Portal (32.9N, 22.2W).') /* AppraisalPortalDestination */
      , (15152, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

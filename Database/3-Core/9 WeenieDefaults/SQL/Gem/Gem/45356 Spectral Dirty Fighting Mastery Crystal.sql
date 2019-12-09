@@ -13,18 +13,10 @@ VALUES (45356,   1,       2048) /* ItemType - Gem */
      , (45356,  16,          8) /* ItemUseable - Contained */
      , (45356,  18,          1) /* UiEffects - Magical */
      , (45356,  19,          5) /* Value */
-     , (45356,  65,        101) /* Placement - Resting */
      , (45356,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45356,  94,         16) /* TargetType - Creature */
-     , (45356, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45356,   1, False) /* Stuck */
-     , (45356,  11, True ) /* IgnoreCollisions */
-     , (45356,  13, True ) /* Ethereal */
-     , (45356,  14, True ) /* GravityStatus */
-     , (45356,  15, True ) /* LightsStatus */
-     , (45356,  19, True ) /* Attackable */;
+     , (45356, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (45356, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45356,   1, 'Spectral Dirty Fighting Mastery Crystal') /* Name */

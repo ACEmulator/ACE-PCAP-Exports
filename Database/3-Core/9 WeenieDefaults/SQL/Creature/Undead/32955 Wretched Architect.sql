@@ -16,15 +16,10 @@ VALUES (32955,   1,         16) /* ItemType - Creature */
      , (32955, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32955,   1, True ) /* Stuck */
-     , (32955,  12, True ) /* ReportCollisions */
-     , (32955,  13, False) /* Ethereal */
-     , (32955,  14, True ) /* GravityStatus */
-     , (32955,  19, True ) /* Attackable */
-     , (32955,  42, True ) /* AllowEdgeSlide */;
+VALUES (32955,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32955,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (32955,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32955,   1, 'Wretched Architect') /* Name */

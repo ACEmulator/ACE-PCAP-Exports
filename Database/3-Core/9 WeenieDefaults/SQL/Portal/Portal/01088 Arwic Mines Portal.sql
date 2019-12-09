@@ -12,19 +12,13 @@ VALUES (1088,   1,      65536) /* ItemType - Portal */
      , (1088, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1088,   1, True ) /* Stuck */
-     , (1088,  12, True ) /* ReportCollisions */
-     , (1088,  13, True ) /* Ethereal */
-     , (1088,  14, True ) /* GravityStatus */
-     , (1088,  15, True ) /* LightsStatus */
-     , (1088,  19, True ) /* Attackable */;
+VALUES (1088,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1088,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1088,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1088,   1, 'Arwic Mines Portal') /* Name */
-     , (1088,  38, 'Arwic Mines Portal') /* AppraisalPortalDestination */
      , (1088, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

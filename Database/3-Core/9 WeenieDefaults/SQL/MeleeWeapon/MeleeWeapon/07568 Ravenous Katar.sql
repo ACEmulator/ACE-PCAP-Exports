@@ -18,32 +18,26 @@ VALUES (7568,   1,          1) /* ItemType - MeleeWeapon */
      , (7568,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (7568,  49,         10) /* WeaponTime */
      , (7568,  51,          1) /* CombatUse - Melee */
-     , (7568,  65,        101) /* Placement - Resting */
      , (7568,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7568, 114,          1) /* Attuned - Attuned */
      , (7568, 158,          2) /* WieldRequirements - RawSkill */
      , (7568, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (7568, 160,        250) /* WieldDifficulty */
      , (7568, 353,          1) /* WeaponType - Unarmed */
-     , (7568, 8030,          0);
+     , (7568, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7568, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7568,   1, False) /* Stuck */
-     , (7568,  11, True ) /* IgnoreCollisions */
-     , (7568,  13, True ) /* Ethereal */
-     , (7568,  14, True ) /* GravityStatus */
-     , (7568,  15, True ) /* LightsStatus */
-     , (7568,  19, True ) /* Attackable */
-     , (7568,  22, True ) /* Inscribable */;
+VALUES (7568,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7568,  21,       0) /* WeaponLength */
      , (7568,  22,    0.75) /* DamageVariance */
      , (7568,  26,       0) /* MaximumVelocity */
      , (7568,  29,       1) /* WeaponDefense */
-     , (7568,  62, 1.10000002384186) /* WeaponOffense */
+     , (7568,  62,     1.1) /* WeaponOffense */
      , (7568,  63,       1) /* DamageMod */
-     , (7568,  76, 0.699999988079071) /* Translucency */;
+     , (7568,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7568,   1, 'Ravenous Katar') /* Name */

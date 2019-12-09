@@ -34,15 +34,10 @@ VALUES (30556,   1,          1) /* ItemType - MeleeWeapon */
      , (30556, 177,          1) /* GemCount */
      , (30556, 178,         28) /* GemType */
      , (30556, 353,          3) /* WeaponType - Axe */
-     , (30556, 8030,          0);
+     , (30556, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30556,   1, False) /* Stuck */
-     , (30556,  11, True ) /* IgnoreCollisions */
-     , (30556,  13, True ) /* Ethereal */
-     , (30556,  14, True ) /* GravityStatus */
-     , (30556,  19, True ) /* Attackable */
-     , (30556,  22, True ) /* Inscribable */;
+VALUES (30556,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30556,   5,   -0.05) /* ManaRate */
@@ -52,7 +47,7 @@ VALUES (30556,   5,   -0.05) /* ManaRate */
      , (30556,  29,    1.04) /* WeaponDefense */
      , (30556,  62,    1.11) /* WeaponOffense */
      , (30556,  63,       1) /* DamageMod */
-     , (30556, 149,   1.005) /* WeaponMissileDefense */;
+     , (30556, 149,       1) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30556,   1, 'Hatchet') /* Name */

@@ -12,19 +12,13 @@ VALUES (12527,   1,      65536) /* ItemType - Portal */
      , (12527, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12527,   1, True ) /* Stuck */
-     , (12527,  12, True ) /* ReportCollisions */
-     , (12527,  13, True ) /* Ethereal */
-     , (12527,  14, True ) /* GravityStatus */
-     , (12527,  15, True ) /* LightsStatus */
-     , (12527,  19, True ) /* Attackable */;
+VALUES (12527,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12527,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12527,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12527,   1, 'New Colier Portal') /* Name */
-     , (12527,  38, 'New Colier Portal (61.1N, 31.2E).') /* AppraisalPortalDestination */
      , (12527, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,18 +13,13 @@ VALUES (5278,   1,         32) /* ItemType - Food */
      , (5278,  16,          8) /* ItemUseable - Contained */
      , (5278,  18,          4) /* UiEffects - BoostHealth */
      , (5278,  19,        135) /* Value */
-     , (5278,  65,        101) /* Placement - Resting */
      , (5278,  89,          2) /* BoosterEnum - Health */
      , (5278,  90,         39) /* BoostValue */
-     , (5278,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (5278,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5278, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5278,   1, False) /* Stuck */
-     , (5278,  11, True ) /* IgnoreCollisions */
-     , (5278,  13, True ) /* Ethereal */
-     , (5278,  14, True ) /* GravityStatus */
-     , (5278,  19, True ) /* Attackable */
-     , (5278,  69, False) /* IsSellable */;
+VALUES (5278,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5278,   1, 'Hearty Healing Fish Stew') /* Name */

@@ -8,21 +8,16 @@ VALUES (709,   1,        128) /* ItemType - Misc */
      , (709,   5,       9000) /* EncumbranceVal */
      , (709,  16,          1) /* ItemUseable - No */
      , (709,  19,        125) /* Value */
-     , (709,  65,        101) /* Placement - Resting */
-     , (709,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (709,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (709, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (709,   1, True ) /* Stuck */
-     , (709,  11, True ) /* IgnoreCollisions */
-     , (709,  12, True ) /* ReportCollisions */
-     , (709,  13, False) /* Ethereal */
-     , (709,  14, True ) /* GravityStatus */
-     , (709,  19, True ) /* Attackable */;
+VALUES (709,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (709, 8010,       0) /* PCAPRecordedVelocityX */
      , (709, 8011,       0) /* PCAPRecordedVelocityY */
-     , (709, 8012, -0.857044756412506) /* PCAPRecordedVelocityZ */;
+     , (709, 8012,   -0.86) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (709,   1, 'Ecutha''s Raiments') /* Name */

@@ -18,7 +18,6 @@ VALUES (30306,   1,        256) /* ItemType - MissileWeapon */
      , (30306,  49,        100) /* WeaponTime */
      , (30306,  50,          2) /* AmmoType - Bolt */
      , (30306,  51,          2) /* CombatUse - Missle */
-     , (30306,  65,          3) /* Placement - LeftHand */
      , (30306,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30306, 106,        350) /* ItemSpellcraft */
      , (30306, 107,       1944) /* ItemCurMana */
@@ -31,29 +30,25 @@ VALUES (30306,   1,        256) /* ItemType - MissileWeapon */
      , (30306, 319,         50) /* ItemMaxLevel */
      , (30306, 320,          1) /* ItemXpStyle - Fixed */
      , (30306, 353,          9) /* WeaponType - Crossbow */
-     , (30306, 8030,          0);
+     , (30306, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (30306, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30306,   4, 16216382438) /* ItemTotalXp */
      , (30306,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30306,   1, False) /* Stuck */
-     , (30306,  11, True ) /* IgnoreCollisions */
-     , (30306,  13, True ) /* Ethereal */
-     , (30306,  14, True ) /* GravityStatus */
-     , (30306,  19, True ) /* Attackable */
-     , (30306,  22, True ) /* Inscribable */;
+VALUES (30306,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30306,   5, -0.0333333015441895) /* ManaRate */
+VALUES (30306,   5,   -0.03) /* ManaRate */
      , (30306,  21,       0) /* WeaponLength */
      , (30306,  22,       0) /* DamageVariance */
      , (30306,  26,    27.3) /* MaximumVelocity */
-     , (30306,  29, 1.21999990940094) /* WeaponDefense */
-     , (30306,  39, 1.20000004768372) /* DefaultScale */
-     , (30306,  62, 1.03999996185303) /* WeaponOffense */
-     , (30306,  63, 2.20000004768372) /* DamageMod */
+     , (30306,  29,    1.22) /* WeaponDefense */
+     , (30306,  39,     1.2) /* DefaultScale */
+     , (30306,  62,    1.04) /* WeaponOffense */
+     , (30306,  63,     2.2) /* DamageMod */
      , (30306, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

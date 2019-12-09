@@ -16,11 +16,7 @@ VALUES (39511,   1,         16) /* ItemType - Creature */
      , (39511, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39511,   1, True ) /* Stuck */
-     , (39511,  12, True ) /* ReportCollisions */
-     , (39511,  13, False) /* Ethereal */
-     , (39511,  14, True ) /* GravityStatus */
-     , (39511,  19, True ) /* Attackable */;
+VALUES (39511,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39511,   1, 'Scarecrow Guard') /* Name */

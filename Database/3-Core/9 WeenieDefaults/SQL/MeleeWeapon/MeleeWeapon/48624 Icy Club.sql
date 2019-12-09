@@ -15,12 +15,7 @@ VALUES (48624,   1,          1) /* ItemType - MeleeWeapon */
      , (48624, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48624,   1, False) /* Stuck */
-     , (48624,  11, True ) /* IgnoreCollisions */
-     , (48624,  13, True ) /* Ethereal */
-     , (48624,  14, True ) /* GravityStatus */
-     , (48624,  19, True ) /* Attackable */
-     , (48624,  22, True ) /* Inscribable */;
+VALUES (48624,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48624,   1, 'Icy Club') /* Name */;

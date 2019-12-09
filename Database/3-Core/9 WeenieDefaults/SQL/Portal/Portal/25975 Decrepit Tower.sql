@@ -13,19 +13,13 @@ VALUES (25975,   1,      65536) /* ItemType - Portal */
      , (25975, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25975,   1, True ) /* Stuck */
-     , (25975,  12, True ) /* ReportCollisions */
-     , (25975,  13, True ) /* Ethereal */
-     , (25975,  14, True ) /* GravityStatus */
-     , (25975,  15, True ) /* LightsStatus */
-     , (25975,  19, True ) /* Attackable */;
+VALUES (25975,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25975,  54, -0.100000001490116) /* UseRadius */;
+VALUES (25975,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25975,   1, 'Decrepit Tower') /* Name */
-     , (25975,  38, 'Decrepit Tower') /* AppraisalPortalDestination */
      , (25975, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

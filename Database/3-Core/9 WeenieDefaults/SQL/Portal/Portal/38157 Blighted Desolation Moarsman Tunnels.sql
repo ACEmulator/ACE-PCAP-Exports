@@ -13,19 +13,13 @@ VALUES (38157,   1,      65536) /* ItemType - Portal */
      , (38157, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38157,   1, True ) /* Stuck */
-     , (38157,  12, True ) /* ReportCollisions */
-     , (38157,  13, True ) /* Ethereal */
-     , (38157,  14, True ) /* GravityStatus */
-     , (38157,  15, True ) /* LightsStatus */
-     , (38157,  19, True ) /* Attackable */;
+VALUES (38157,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38157,  54, -0.100000001490116) /* UseRadius */;
+VALUES (38157,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38157,   1, 'Blighted Desolation Moarsman Tunnels') /* Name */
-     , (38157,  38, 'Blighted Desolation Moarsman Tunnels') /* AppraisalPortalDestination */
      , (38157, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

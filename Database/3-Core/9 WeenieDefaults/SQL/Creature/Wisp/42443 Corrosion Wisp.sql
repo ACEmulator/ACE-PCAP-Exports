@@ -16,14 +16,10 @@ VALUES (42443,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42443,   1, True ) /* Stuck */
-     , (42443,  12, True ) /* ReportCollisions */
-     , (42443,  13, False) /* Ethereal */
-     , (42443,  14, True ) /* GravityStatus */
-     , (42443,  19, True ) /* Attackable */
      , (42443, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42443,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (42443,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42443,   1, 'Corrosion Wisp') /* Name */

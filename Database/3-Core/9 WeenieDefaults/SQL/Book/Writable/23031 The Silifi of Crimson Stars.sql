@@ -8,15 +8,8 @@ VALUES (23031,   1,       8192) /* ItemType - Writable */
      , (23031,   5,         10) /* EncumbranceVal */
      , (23031,  16,          8) /* ItemUseable - Contained */
      , (23031,  19,         10) /* Value */
-     , (23031,  65,        101) /* Placement - Resting */
-     , (23031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23031,   1, False) /* Stuck */
-     , (23031,  11, True ) /* IgnoreCollisions */
-     , (23031,  13, True ) /* Ethereal */
-     , (23031,  14, True ) /* GravityStatus */
-     , (23031,  19, True ) /* Attackable */;
+     , (23031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23031, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23031,   1, 'The Silifi of Crimson Stars') /* Name */;

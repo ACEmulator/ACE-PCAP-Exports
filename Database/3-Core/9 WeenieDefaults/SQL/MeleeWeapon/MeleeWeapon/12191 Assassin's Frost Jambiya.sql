@@ -12,16 +12,11 @@ VALUES (12191,   1,          1) /* ItemType - MeleeWeapon */
      , (12191,  18,        128) /* UiEffects - Frost */
      , (12191,  19,         75) /* Value */
      , (12191,  51,          1) /* CombatUse - Melee */
-     , (12191,  65,          1) /* Placement - RightHandCombat */
-     , (12191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12191, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12191,   1, False) /* Stuck */
-     , (12191,  11, True ) /* IgnoreCollisions */
-     , (12191,  13, True ) /* Ethereal */
-     , (12191,  14, True ) /* GravityStatus */
-     , (12191,  19, True ) /* Attackable */
-     , (12191,  22, True ) /* Inscribable */;
+VALUES (12191,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12191,   1, 'Assassin''s Frost Jambiya') /* Name */;

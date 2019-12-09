@@ -12,19 +12,13 @@ VALUES (15139,   1,      65536) /* ItemType - Portal */
      , (15139, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15139,   1, True ) /* Stuck */
-     , (15139,  12, True ) /* ReportCollisions */
-     , (15139,  13, True ) /* Ethereal */
-     , (15139,  14, True ) /* GravityStatus */
-     , (15139,  15, True ) /* LightsStatus */
-     , (15139,  19, True ) /* Attackable */;
+VALUES (15139,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15139,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15139,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15139,   1, 'Al-Mar Oasis Portal') /* Name */
-     , (15139,  38, 'Al-Mar Oasis Portal (47.1S, 16.9E).') /* AppraisalPortalDestination */
      , (15139, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

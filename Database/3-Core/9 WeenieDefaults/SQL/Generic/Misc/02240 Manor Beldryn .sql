@@ -8,16 +8,11 @@ VALUES (2240,   1,        128) /* ItemType - Misc */
      , (2240,   5,       9000) /* EncumbranceVal */
      , (2240,  16,          1) /* ItemUseable - No */
      , (2240,  19,        125) /* Value */
-     , (2240,  65,        101) /* Placement - Resting */
-     , (2240,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2240,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2240, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2240,   1, True ) /* Stuck */
-     , (2240,  11, True ) /* IgnoreCollisions */
-     , (2240,  12, True ) /* ReportCollisions */
-     , (2240,  13, False) /* Ethereal */
-     , (2240,  14, True ) /* GravityStatus */
-     , (2240,  19, True ) /* Attackable */;
+VALUES (2240,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2240,   1, 'Manor Beldryn ') /* Name */

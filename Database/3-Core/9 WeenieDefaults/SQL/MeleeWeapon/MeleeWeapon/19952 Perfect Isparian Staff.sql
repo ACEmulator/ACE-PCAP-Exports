@@ -12,17 +12,12 @@ VALUES (19952,   1,          1) /* ItemType - MeleeWeapon */
      , (19952,  18,          1) /* UiEffects - Magical */
      , (19952,  19,       8000) /* Value */
      , (19952,  51,          1) /* CombatUse - Melee */
-     , (19952,  65,          1) /* Placement - RightHandCombat */
      , (19952,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19952, 151,          2) /* HookType - Wall */;
+     , (19952, 151,          2) /* HookType - Wall */
+     , (19952, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19952,   1, False) /* Stuck */
-     , (19952,  11, True ) /* IgnoreCollisions */
-     , (19952,  13, True ) /* Ethereal */
-     , (19952,  14, True ) /* GravityStatus */
-     , (19952,  19, True ) /* Attackable */
-     , (19952,  22, True ) /* Inscribable */;
+VALUES (19952,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19952,   1, 'Perfect Isparian Staff') /* Name */;

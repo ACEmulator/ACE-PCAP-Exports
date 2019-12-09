@@ -9,18 +9,11 @@ VALUES (27783,   1,       8192) /* ItemType - Writable */
      , (27783,  16,          8) /* ItemUseable - Contained */
      , (27783,  19,         15) /* Value */
      , (27783,  33,          1) /* Bonded - Bonded */
-     , (27783,  65,        101) /* Placement - Resting */
      , (27783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27783, 114,          1) /* Attuned - Attuned */
-     , (27783, 174,          1) /* AppraisalPages */
-     , (27783, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27783,   1, False) /* Stuck */
-     , (27783,  11, True ) /* IgnoreCollisions */
-     , (27783,  13, True ) /* Ethereal */
-     , (27783,  14, True ) /* GravityStatus */
-     , (27783,  19, True ) /* Attackable */;
+     , (27783, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (27783, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (27783, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27783,   1, 'Blackened Tome') /* Name */

@@ -16,14 +16,10 @@ VALUES (1521,   1,         16) /* ItemType - Creature */
      , (1521, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1521,   1, True ) /* Stuck */
-     , (1521,  12, True ) /* ReportCollisions */
-     , (1521,  13, False) /* Ethereal */
-     , (1521,  14, True ) /* GravityStatus */
-     , (1521,  19, True ) /* Attackable */;
+VALUES (1521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1521,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (1521,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1521,   1, 'Heavy Drudge Prowler') /* Name */

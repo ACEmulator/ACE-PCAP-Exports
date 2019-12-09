@@ -11,12 +11,7 @@ VALUES (19386,   1,        128) /* ItemType - Misc */
      , (19386,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19386,   1, True ) /* Stuck */
-     , (19386,  11, True ) /* IgnoreCollisions */
-     , (19386,  12, True ) /* ReportCollisions */
-     , (19386,  13, False) /* Ethereal */
-     , (19386,  14, True ) /* GravityStatus */
-     , (19386,  19, True ) /* Attackable */;
+VALUES (19386,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19386,   1, 'Heartland Yard') /* Name */;

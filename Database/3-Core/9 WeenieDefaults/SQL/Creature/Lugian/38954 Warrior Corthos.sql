@@ -16,14 +16,10 @@ VALUES (38954,   1,         16) /* ItemType - Creature */
      , (38954, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38954,   1, True ) /* Stuck */
-     , (38954,  12, True ) /* ReportCollisions */
-     , (38954,  13, False) /* Ethereal */
-     , (38954,  14, True ) /* GravityStatus */
-     , (38954,  19, True ) /* Attackable */;
+VALUES (38954,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38954,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (38954,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38954,   1, 'Warrior Corthos') /* Name */

@@ -13,19 +13,13 @@ VALUES (29237,   1,      65536) /* ItemType - Portal */
      , (29237, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29237,   1, True ) /* Stuck */
-     , (29237,  12, True ) /* ReportCollisions */
-     , (29237,  13, True ) /* Ethereal */
-     , (29237,  14, True ) /* GravityStatus */
-     , (29237,  15, True ) /* LightsStatus */
-     , (29237,  19, True ) /* Attackable */;
+VALUES (29237,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29237,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29237,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29237,   1, 'Ishaq''s Cellar') /* Name */
-     , (29237,  38, 'Ishaq''s Cellar') /* AppraisalPortalDestination */
      , (29237, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

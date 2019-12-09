@@ -11,16 +11,9 @@ VALUES (36497,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (36497,  15,          1) /* StackUnitValue */
      , (36497,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36497,  19,          1) /* Value */
-     , (36497,  65,        101) /* Placement - Resting */
      , (36497,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36497,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36497,   1, False) /* Stuck */
-     , (36497,  11, True ) /* IgnoreCollisions */
-     , (36497,  13, True ) /* Ethereal */
-     , (36497,  14, True ) /* GravityStatus */
-     , (36497,  19, True ) /* Attackable */;
+     , (36497,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (36497, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36497,   1, 'Wrapped Bundle of Greater Deadly Blunt Arrowheads') /* Name */

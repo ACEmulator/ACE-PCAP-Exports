@@ -6,15 +6,11 @@ VALUES (24011, 'trapportal-knorrdormcaerlin', 7, '2019-02-10 00:00:00') /* Porta
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24011,   1,      65536) /* ItemType - Portal */
      , (24011,  16,          1) /* ItemUseable - No */
-     , (24011,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (24011,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (24011, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24011,   1, True ) /* Stuck */
-     , (24011,  12, True ) /* ReportCollisions */
-     , (24011,  13, True ) /* Ethereal */
-     , (24011,  15, True ) /* LightsStatus */
-     , (24011,  19, True ) /* Attackable */;
+VALUES (24011,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24011,   1, 'Caerlin Dormitory Conveyance') /* Name */;

@@ -8,16 +8,11 @@ VALUES (36068,   1,        128) /* ItemType - Misc */
      , (36068,   5,          1) /* EncumbranceVal */
      , (36068,  16,          1) /* ItemUseable - No */
      , (36068,  18,         64) /* UiEffects - Lightning */
-     , (36068,  65,        101) /* Placement - Resting */
-     , (36068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36068,   1, False) /* Stuck */
-     , (36068,  11, True ) /* IgnoreCollisions */
-     , (36068,  13, True ) /* Ethereal */
-     , (36068,  14, True ) /* GravityStatus */
-     , (36068,  19, True ) /* Attackable */
-     , (36068,  22, True ) /* Inscribable */;
+VALUES (36068,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36068,   1, 'Essence of Loyalty') /* Name */;

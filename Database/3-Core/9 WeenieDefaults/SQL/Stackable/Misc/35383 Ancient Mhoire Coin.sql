@@ -13,17 +13,12 @@ VALUES (35383,   1,        128) /* ItemType - Misc */
      , (35383,  16,          1) /* ItemUseable - No */
      , (35383,  19,          1) /* Value */
      , (35383,  33,          1) /* Bonded - Bonded */
-     , (35383,  65,        101) /* Placement - Resting */
      , (35383,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35383, 114,          1) /* Attuned - Attuned */;
+     , (35383, 114,          1) /* Attuned - Attuned */
+     , (35383, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35383,   1, False) /* Stuck */
-     , (35383,  11, True ) /* IgnoreCollisions */
-     , (35383,  13, True ) /* Ethereal */
-     , (35383,  14, True ) /* GravityStatus */
-     , (35383,  19, True ) /* Attackable */
-     , (35383,  69, False) /* IsSellable */;
+VALUES (35383,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35383,   1, 'Ancient Mhoire Coin') /* Name */

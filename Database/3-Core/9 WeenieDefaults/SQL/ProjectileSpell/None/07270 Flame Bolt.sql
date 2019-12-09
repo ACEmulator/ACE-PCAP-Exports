@@ -9,19 +9,14 @@ VALUES (7270,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7270,   1, True ) /* Stuck */
-     , (7270,  12, True ) /* ReportCollisions */
-     , (7270,  13, False) /* Ethereal */
-     , (7270,  15, True ) /* LightsStatus */
-     , (7270,  17, True ) /* Inelastic */
-     , (7270,  19, True ) /* Attackable */
      , (7270,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7270,  78,       1) /* Friction */
      , (7270,  79,       0) /* Elasticity */
-     , (7270, 8010, -0.885534822940826) /* PCAPRecordedVelocityX */
-     , (7270, 8011, 0.732208549976349) /* PCAPRecordedVelocityY */
-     , (7270, 8012, -0.285982698202133) /* PCAPRecordedVelocityZ */;
+     , (7270, 8010,   -0.89) /* PCAPRecordedVelocityX */
+     , (7270, 8011,    0.73) /* PCAPRecordedVelocityY */
+     , (7270, 8012,   -0.29) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7270,   1, 'Flame Bolt') /* Name */;

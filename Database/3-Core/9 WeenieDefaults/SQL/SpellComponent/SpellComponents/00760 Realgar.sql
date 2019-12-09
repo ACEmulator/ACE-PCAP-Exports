@@ -12,15 +12,8 @@ VALUES (760,   1,       4096) /* ItemType - SpellComponents */
      , (760,  15,          5) /* StackUnitValue */
      , (760,  16,          1) /* ItemUseable - No */
      , (760,  19,          5) /* Value */
-     , (760,  65,        101) /* Placement - Resting */
-     , (760,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (760,   1, False) /* Stuck */
-     , (760,  11, True ) /* IgnoreCollisions */
-     , (760,  13, True ) /* Ethereal */
-     , (760,  14, True ) /* GravityStatus */
-     , (760,  19, True ) /* Attackable */;
+     , (760,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (760, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (760,   1, 'Realgar') /* Name */

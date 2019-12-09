@@ -11,20 +11,14 @@ VALUES (8554,   1,      65536) /* ItemType - Portal */
      , (8554, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8554,   1, True ) /* Stuck */
-     , (8554,  11, True ) /* IgnoreCollisions */
-     , (8554,  13, True ) /* Ethereal */
-     , (8554,  14, True ) /* GravityStatus */
-     , (8554,  15, True ) /* LightsStatus */
-     , (8554,  19, True ) /* Attackable */;
+VALUES (8554,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8554,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8554,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8554,   1, 'Destroyed Portal to Kryst') /* Name */
      , (8554,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (8554,  38, 'Destroyed Portal to Kryst (74.6S, 84.2E).') /* AppraisalPortalDestination */
      , (8554, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

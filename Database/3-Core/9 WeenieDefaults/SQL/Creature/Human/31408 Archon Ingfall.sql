@@ -17,11 +17,7 @@ VALUES (31408,   1,         16) /* ItemType - Creature */
      , (31408, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31408,   1, True ) /* Stuck */
-     , (31408,  12, True ) /* ReportCollisions */
-     , (31408,  13, False) /* Ethereal */
-     , (31408,  14, True ) /* GravityStatus */
-     , (31408,  19, True ) /* Attackable */;
+VALUES (31408,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31408,   1, 'Archon Ingfall') /* Name */

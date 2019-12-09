@@ -8,15 +8,10 @@ VALUES (4421,   1,        128) /* ItemType - Misc */
      , (4421,   5,       9000) /* EncumbranceVal */
      , (4421,  16,          1) /* ItemUseable - No */
      , (4421,  19,        125) /* Value */
-     , (4421,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4421,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4421,   1, True ) /* Stuck */
-     , (4421,  11, True ) /* IgnoreCollisions */
-     , (4421,  12, True ) /* ReportCollisions */
-     , (4421,  13, False) /* Ethereal */
-     , (4421,  14, True ) /* GravityStatus */
-     , (4421,  19, True ) /* Attackable */;
+VALUES (4421,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4421,   1, 'Sarthagg''s Jewels and Gems') /* Name */

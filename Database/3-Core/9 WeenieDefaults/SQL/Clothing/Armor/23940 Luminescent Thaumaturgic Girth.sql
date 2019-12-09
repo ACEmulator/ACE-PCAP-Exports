@@ -11,16 +11,11 @@ VALUES (23940,   1,          2) /* ItemType - Armor */
      , (23940,  16,          1) /* ItemUseable - No */
      , (23940,  18,          1) /* UiEffects - Magical */
      , (23940,  19,       4400) /* Value */
-     , (23940,  65,        101) /* Placement - Resting */
-     , (23940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23940, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23940,   1, False) /* Stuck */
-     , (23940,  11, True ) /* IgnoreCollisions */
-     , (23940,  13, True ) /* Ethereal */
-     , (23940,  14, True ) /* GravityStatus */
-     , (23940,  19, True ) /* Attackable */
-     , (23940,  22, True ) /* Inscribable */;
+VALUES (23940,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23940,   1, 'Luminescent Thaumaturgic Girth') /* Name */;

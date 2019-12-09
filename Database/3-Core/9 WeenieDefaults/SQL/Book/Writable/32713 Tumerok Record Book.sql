@@ -9,23 +9,16 @@ VALUES (32713,   1,       8192) /* ItemType - Writable */
      , (32713,  16,          8) /* ItemUseable - Contained */
      , (32713,  19,          0) /* Value */
      , (32713,  33,          1) /* Bonded - Bonded */
-     , (32713,  65,        101) /* Placement - Resting */
      , (32713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32713, 114,          1) /* Attuned - Attuned */
      , (32713, 151,          2) /* HookType - Wall */
-     , (32713, 174,          6) /* AppraisalPages */
-     , (32713, 175,          6) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32713,   1, False) /* Stuck */
-     , (32713,  11, True ) /* IgnoreCollisions */
-     , (32713,  13, True ) /* Ethereal */
-     , (32713,  14, True ) /* GravityStatus */
-     , (32713,  19, True ) /* Attackable */;
+     , (32713, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (32713, 8042,          6) /* PCAPRecordedAppraisalPages */
+     , (32713, 8043,          6) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32713,  39, 1.22000002861023) /* DefaultScale */
-     , (32713,  54, 0.300000011920929) /* UseRadius */;
+VALUES (32713,  39,    1.22) /* DefaultScale */
+     , (32713,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32713,   1, 'Tumerok Record Book') /* Name */

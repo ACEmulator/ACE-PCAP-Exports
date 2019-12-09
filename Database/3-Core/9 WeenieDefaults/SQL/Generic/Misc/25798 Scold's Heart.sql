@@ -14,12 +14,7 @@ VALUES (25798,   1,        128) /* ItemType - Misc */
      , (25798, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25798,   1, False) /* Stuck */
-     , (25798,  11, True ) /* IgnoreCollisions */
-     , (25798,  13, True ) /* Ethereal */
-     , (25798,  14, True ) /* GravityStatus */
-     , (25798,  19, True ) /* Attackable */
-     , (25798,  22, True ) /* Inscribable */;
+VALUES (25798,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25798,   1, 'Scold''s Heart') /* Name */

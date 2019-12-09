@@ -12,19 +12,13 @@ VALUES (12541,   1,      65536) /* ItemType - Portal */
      , (12541, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12541,   1, True ) /* Stuck */
-     , (12541,  12, True ) /* ReportCollisions */
-     , (12541,  13, True ) /* Ethereal */
-     , (12541,  14, True ) /* GravityStatus */
-     , (12541,  15, True ) /* LightsStatus */
-     , (12541,  19, True ) /* Attackable */;
+VALUES (12541,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12541,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12541,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12541,   1, 'Sanai Portal') /* Name */
-     , (12541,  38, 'Sanai Portal (19.2N, 18.3W).') /* AppraisalPortalDestination */
      , (12541, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

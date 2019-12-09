@@ -15,11 +15,7 @@ VALUES (40132,   1,         16) /* ItemType - Creature */
      , (40132, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40132,   1, True ) /* Stuck */
-     , (40132,  12, True ) /* ReportCollisions */
-     , (40132,  13, False) /* Ethereal */
-     , (40132,  14, True ) /* GravityStatus */
-     , (40132,  19, True ) /* Attackable */;
+VALUES (40132,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40132,   1, 'Aggregate Crystalline Wisp') /* Name */

@@ -29,20 +29,15 @@ VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556, 267,      10800) /* Lifespan */
      , (35556, 268,      10798) /* RemainingLifespan */
      , (35556, 353,          9) /* WeaponType - Crossbow */
-     , (35556, 8030,          0);
+     , (35556, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35556,   1, False) /* Stuck */
-     , (35556,  11, True ) /* IgnoreCollisions */
-     , (35556,  13, True ) /* Ethereal */
-     , (35556,  14, True ) /* GravityStatus */
-     , (35556,  19, True ) /* Attackable */
-     , (35556,  22, True ) /* Inscribable */
+VALUES (35556,  22, True ) /* Inscribable */
      , (35556,  69, False) /* IsSellable */
      , (35556,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35556,   5,  -0.033) /* ManaRate */
+VALUES (35556,   5,   -0.03) /* ManaRate */
      , (35556,  21,       0) /* WeaponLength */
      , (35556,  22,       0) /* DamageVariance */
      , (35556,  26,    27.3) /* MaximumVelocity */

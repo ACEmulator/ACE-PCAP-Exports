@@ -9,17 +9,12 @@ VALUES (43498,   1,       2048) /* ItemType - Gem */
      , (43498,  16,          1) /* ItemUseable - No */
      , (43498,  19,          0) /* Value */
      , (43498,  33,          1) /* Bonded - Bonded */
-     , (43498,  65,        101) /* Placement - Resting */
      , (43498,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43498, 114,          1) /* Attuned - Attuned */;
+     , (43498, 114,          1) /* Attuned - Attuned */
+     , (43498, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43498,   1, False) /* Stuck */
-     , (43498,  11, True ) /* IgnoreCollisions */
-     , (43498,  13, True ) /* Ethereal */
-     , (43498,  14, True ) /* GravityStatus */
-     , (43498,  19, True ) /* Attackable */
-     , (43498,  22, True ) /* Inscribable */;
+VALUES (43498,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43498,   1, 'Token of the Aura of Glory') /* Name */

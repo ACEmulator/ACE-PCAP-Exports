@@ -12,20 +12,14 @@ VALUES (42841,   1,      65536) /* ItemType - Portal */
      , (42841, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42841,   1, True ) /* Stuck */
-     , (42841,  12, True ) /* ReportCollisions */
-     , (42841,  13, True ) /* Ethereal */
-     , (42841,  14, True ) /* GravityStatus */
-     , (42841,  15, True ) /* LightsStatus */
-     , (42841,  19, True ) /* Attackable */;
+VALUES (42841,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42841,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42841,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42841,   1, 'Portal to Tou-Tou') /* Name */
      , (42841,  16, 'This portal goes to the Sho town of Tou-Tou, perched on the tip of the Tou-Tou peninsula. This is a good town for characters over level 20.') /* LongDesc */
-     , (42841,  38, 'Portal to Tou-Tou (30.4S, 94.7E).') /* AppraisalPortalDestination */
      , (42841, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

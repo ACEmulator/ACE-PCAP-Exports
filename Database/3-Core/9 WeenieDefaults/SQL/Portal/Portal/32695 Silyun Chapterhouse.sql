@@ -11,15 +11,10 @@ VALUES (32695,   1,      65536) /* ItemType - Portal */
      , (32695, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32695,   1, True ) /* Stuck */
-     , (32695,  12, True ) /* ReportCollisions */
-     , (32695,  13, True ) /* Ethereal */
-     , (32695,  14, True ) /* GravityStatus */
-     , (32695,  15, True ) /* LightsStatus */
-     , (32695,  19, True ) /* Attackable */;
+VALUES (32695,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32695,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32695,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32695,   1, 'Silyun Chapterhouse') /* Name */

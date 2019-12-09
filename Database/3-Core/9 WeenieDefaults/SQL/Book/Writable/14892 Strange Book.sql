@@ -8,17 +8,13 @@ VALUES (14892,   1,       8192) /* ItemType - Writable */
      , (14892,   5,         25) /* EncumbranceVal */
      , (14892,  16,          8) /* ItemUseable - Contained */
      , (14892,  19,          1) /* Value */
-     , (14892,  65,        101) /* Placement - Resting */
      , (14892,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14892, 174,          1) /* AppraisalPages */
-     , (14892, 175,          1) /* AppraisalMaxPages */;
+     , (14892, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (14892, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (14892, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14892,   1, True ) /* Stuck */
-     , (14892,  11, True ) /* IgnoreCollisions */
-     , (14892,  13, True ) /* Ethereal */
-     , (14892,  14, True ) /* GravityStatus */
-     , (14892,  19, True ) /* Attackable */;
+VALUES (14892,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14892,   1, 'Strange Book') /* Name */

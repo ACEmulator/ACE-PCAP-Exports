@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41749,   1,        128) /* ItemType - Misc */
      , (41749,   5,          5) /* EncumbranceVal */
      , (41749,  16,          1) /* ItemUseable - No */
-     , (41749,  65,        101) /* Placement - Resting */
-     , (41749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (41749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41749, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41749,   1, False) /* Stuck */
-     , (41749,  11, True ) /* IgnoreCollisions */
-     , (41749,  13, True ) /* Ethereal */
-     , (41749,  14, True ) /* GravityStatus */
-     , (41749,  19, True ) /* Attackable */
-     , (41749,  22, True ) /* Inscribable */;
+VALUES (41749,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41749,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (41749,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41749,   1, '10th Anniversary Night Club Ticket') /* Name */;

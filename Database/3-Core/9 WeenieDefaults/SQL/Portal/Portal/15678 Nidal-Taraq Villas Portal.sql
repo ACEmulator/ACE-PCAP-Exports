@@ -12,19 +12,13 @@ VALUES (15678,   1,      65536) /* ItemType - Portal */
      , (15678, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15678,   1, True ) /* Stuck */
-     , (15678,  12, True ) /* ReportCollisions */
-     , (15678,  13, True ) /* Ethereal */
-     , (15678,  14, True ) /* GravityStatus */
-     , (15678,  15, True ) /* LightsStatus */
-     , (15678,  19, True ) /* Attackable */;
+VALUES (15678,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15678,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15678,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15678,   1, 'Nidal-Taraq Villas Portal') /* Name */
-     , (15678,  38, 'Nidal-Taraq Villas Portal (15.3N, 17.5W).') /* AppraisalPortalDestination */
      , (15678, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

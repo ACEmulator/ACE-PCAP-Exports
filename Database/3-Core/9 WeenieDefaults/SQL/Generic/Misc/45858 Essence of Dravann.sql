@@ -9,17 +9,12 @@ VALUES (45858,   1,        128) /* ItemType - Misc */
      , (45858,  16,          1) /* ItemUseable - No */
      , (45858,  19,         15) /* Value */
      , (45858,  33,          1) /* Bonded - Bonded */
-     , (45858,  65,        101) /* Placement - Resting */
      , (45858,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45858, 114,          1) /* Attuned - Attuned */;
+     , (45858, 114,          1) /* Attuned - Attuned */
+     , (45858, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45858,   1, False) /* Stuck */
-     , (45858,  11, True ) /* IgnoreCollisions */
-     , (45858,  13, True ) /* Ethereal */
-     , (45858,  14, True ) /* GravityStatus */
-     , (45858,  19, True ) /* Attackable */
-     , (45858,  22, True ) /* Inscribable */;
+VALUES (45858,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45858,   1, 'Essence of Dravann') /* Name */

@@ -39,16 +39,11 @@ VALUES (35869,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35869,   1, True ) /* Stuck */
-     , (35869,  11, True ) /* IgnoreCollisions */
-     , (35869,  12, True ) /* ReportCollisions */
-     , (35869,  13, False) /* Ethereal */
-     , (35869,  14, True ) /* GravityStatus */
-     , (35869,  19, False) /* Attackable */
-     , (35869,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (35869,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35869,  39, 1.60000002384186) /* DefaultScale */
-     , (35869,  54, 0.100000001490116) /* UseRadius */;
+VALUES (35869,  39,     1.6) /* DefaultScale */
+     , (35869,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35869,   1, 'Gladiator Diemos') /* Name */

@@ -16,17 +16,13 @@ VALUES (19306,   1,         16) /* ItemType - Creature */
      , (19306, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19306,   1, True ) /* Stuck */
-     , (19306,  12, True ) /* ReportCollisions */
-     , (19306,  13, False) /* Ethereal */
-     , (19306,  14, True ) /* GravityStatus */
-     , (19306,  19, True ) /* Attackable */;
+VALUES (19306,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19306,  39, 2.29999995231628) /* DefaultScale */
+VALUES (19306,  39,     2.3) /* DefaultScale */
      , (19306, 8010,       0) /* PCAPRecordedVelocityX */
      , (19306, 8011,       0) /* PCAPRecordedVelocityY */
-     , (19306, 8012, -4.48809814453125) /* PCAPRecordedVelocityZ */;
+     , (19306, 8012,   -4.49) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19306,   1, 'Bronze Statue of a Sclavus') /* Name */

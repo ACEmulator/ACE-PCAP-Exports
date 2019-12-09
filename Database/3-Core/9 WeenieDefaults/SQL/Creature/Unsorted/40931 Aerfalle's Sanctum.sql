@@ -39,17 +39,10 @@ VALUES (40931,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40931,   1, True ) /* Stuck */
-     , (40931,  11, True ) /* IgnoreCollisions */
-     , (40931,  12, True ) /* ReportCollisions */
-     , (40931,  13, False) /* Ethereal */
-     , (40931,  14, True ) /* GravityStatus */
-     , (40931,  15, True ) /* LightsStatus */
-     , (40931,  19, False) /* Attackable */
-     , (40931,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (40931,  42, True ) /* AllowEdgeSlide */;
+     , (40931,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40931,  54, 0.100000001490116) /* UseRadius */;
+VALUES (40931,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40931,   1, 'Aerfalle''s Sanctum') /* Name */

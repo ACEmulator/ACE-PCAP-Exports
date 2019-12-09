@@ -18,13 +18,7 @@ VALUES (51592,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51592,   1, True ) /* Stuck */
-     , (51592,  11, True ) /* IgnoreCollisions */
-     , (51592,  12, True ) /* ReportCollisions */
-     , (51592,  13, False) /* Ethereal */
-     , (51592,  14, True ) /* GravityStatus */
-     , (51592,  19, False) /* Attackable */
-     , (51592,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (51592,  42, True ) /* AllowEdgeSlide */;
+     , (51592,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51592,   1, 'Virindi Delegate') /* Name */

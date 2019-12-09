@@ -11,15 +11,10 @@ VALUES (22097,   1,        128) /* ItemType - Misc */
      , (22097, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22097,   1, False) /* Stuck */
-     , (22097,  11, True ) /* IgnoreCollisions */
-     , (22097,  13, True ) /* Ethereal */
-     , (22097,  14, True ) /* GravityStatus */
-     , (22097,  19, True ) /* Attackable */
-     , (22097,  22, True ) /* Inscribable */;
+VALUES (22097,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22097,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22097,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22097,   1, 'Mu-miyah Body with a head.') /* Name */;

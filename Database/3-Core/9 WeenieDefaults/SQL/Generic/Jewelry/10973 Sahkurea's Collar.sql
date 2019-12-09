@@ -10,25 +10,20 @@ VALUES (10973,   1,          8) /* ItemType - Jewelry */
      , (10973,  16,          1) /* ItemUseable - No */
      , (10973,  18,          1) /* UiEffects - Magical */
      , (10973,  19,       5800) /* Value */
-     , (10973,  65,        101) /* Placement - Resting */
      , (10973,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10973, 106,        225) /* ItemSpellcraft */
      , (10973, 107,        326) /* ItemCurMana */
      , (10973, 108,       1400) /* ItemMaxMana */
      , (10973, 109,          0) /* ItemDifficulty */
-     , (10973, 110,          1) /* ItemAllegianceRankLimit */;
+     , (10973, 110,          1) /* ItemAllegianceRankLimit */
+     , (10973, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10973,   1, False) /* Stuck */
-     , (10973,  11, True ) /* IgnoreCollisions */
-     , (10973,  13, True ) /* Ethereal */
-     , (10973,  14, True ) /* GravityStatus */
-     , (10973,  19, True ) /* Attackable */
-     , (10973,  22, True ) /* Inscribable */;
+VALUES (10973,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10973,   5, -0.00999999977648258) /* ManaRate */
-     , (10973,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (10973,   5,   -0.01) /* ManaRate */
+     , (10973,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10973,   1, 'Sahkurea''s Collar') /* Name */

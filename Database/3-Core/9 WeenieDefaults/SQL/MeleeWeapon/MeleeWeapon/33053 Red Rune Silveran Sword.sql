@@ -16,7 +16,6 @@ VALUES (33053,   1,          1) /* ItemType - MeleeWeapon */
      , (33053,  48,         45) /* WeaponSkill - LightWeapons */
      , (33053,  49,         35) /* WeaponTime */
      , (33053,  51,          1) /* CombatUse - Melee */
-     , (33053,  65,          1) /* Placement - RightHandCombat */
      , (33053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33053, 106,        500) /* ItemSpellcraft */
      , (33053, 107,       7156) /* ItemCurMana */
@@ -28,23 +27,19 @@ VALUES (33053,   1,          1) /* ItemType - MeleeWeapon */
      , (33053, 160,        140) /* WieldDifficulty */
      , (33053, 263,          1) /* ResistanceModifierType */
      , (33053, 353,          2) /* WeaponType - Sword */
-     , (33053, 8030,          0);
+     , (33053, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33053, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33053,   1, False) /* Stuck */
-     , (33053,  11, True ) /* IgnoreCollisions */
-     , (33053,  13, True ) /* Ethereal */
-     , (33053,  14, True ) /* GravityStatus */
-     , (33053,  19, True ) /* Attackable */
-     , (33053,  22, True ) /* Inscribable */;
+VALUES (33053,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33053,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33053,   5,   -0.05) /* ManaRate */
      , (33053,  21,       0) /* WeaponLength */
      , (33053,  22,     0.5) /* DamageVariance */
      , (33053,  26,       0) /* MaximumVelocity */
-     , (33053,  29, 1.10000002384186) /* WeaponDefense */
-     , (33053,  62, 1.14999997615814) /* WeaponOffense */
+     , (33053,  29,     1.1) /* WeaponDefense */
+     , (33053,  62,    1.15) /* WeaponOffense */
      , (33053,  63,       1) /* DamageMod */
      , (33053, 136,       1) /* CriticalMultiplier */
      , (33053, 147,       1) /* CriticalFrequency */

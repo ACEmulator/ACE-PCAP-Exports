@@ -9,17 +9,12 @@ VALUES (11790,   1,        128) /* ItemType - Misc */
      , (11790,  16,          1) /* ItemUseable - No */
      , (11790,  19,          0) /* Value */
      , (11790,  33,          1) /* Bonded - Bonded */
-     , (11790,  65,        101) /* Placement - Resting */
      , (11790,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11790, 114,          1) /* Attuned - Attuned */;
+     , (11790, 114,          1) /* Attuned - Attuned */
+     , (11790, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11790,   1, False) /* Stuck */
-     , (11790,  11, True ) /* IgnoreCollisions */
-     , (11790,  13, True ) /* Ethereal */
-     , (11790,  14, True ) /* GravityStatus */
-     , (11790,  19, True ) /* Attackable */
-     , (11790,  22, True ) /* Inscribable */;
+VALUES (11790,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11790,   1, 'Shreth Banner') /* Name */

@@ -13,17 +13,12 @@ VALUES (42875,   1,        128) /* ItemType - Misc */
      , (42875,  16,          1) /* ItemUseable - No */
      , (42875,  19,          0) /* Value */
      , (42875,  33,          1) /* Bonded - Bonded */
-     , (42875,  65,        101) /* Placement - Resting */
      , (42875,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42875, 114,          1) /* Attuned - Attuned */;
+     , (42875, 114,          1) /* Attuned - Attuned */
+     , (42875, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42875,   1, False) /* Stuck */
-     , (42875,  11, True ) /* IgnoreCollisions */
-     , (42875,  13, True ) /* Ethereal */
-     , (42875,  14, True ) /* GravityStatus */
-     , (42875,  19, True ) /* Attackable */
-     , (42875,  69, False) /* IsSellable */;
+VALUES (42875,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42875,   1, 'Chunk of Ore') /* Name */

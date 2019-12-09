@@ -17,11 +17,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5045,   1, True ) /* Stuck */
      , (5045,   2, False) /* Open */
      , (5045,   3, False) /* Locked */
-     , (5045,  11, True ) /* IgnoreCollisions */
-     , (5045,  12, True ) /* ReportCollisions */
-     , (5045,  13, False) /* Ethereal */
-     , (5045,  14, True ) /* GravityStatus */
-     , (5045,  19, True ) /* Attackable */;
+     , (5045,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5045,  54,       1) /* UseRadius */;

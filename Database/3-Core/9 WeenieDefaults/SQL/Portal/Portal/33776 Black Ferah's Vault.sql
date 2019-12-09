@@ -13,19 +13,13 @@ VALUES (33776,   1,      65536) /* ItemType - Portal */
      , (33776, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33776,   1, True ) /* Stuck */
-     , (33776,  12, True ) /* ReportCollisions */
-     , (33776,  13, True ) /* Ethereal */
-     , (33776,  14, True ) /* GravityStatus */
-     , (33776,  15, True ) /* LightsStatus */
-     , (33776,  19, True ) /* Attackable */;
+VALUES (33776,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33776,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33776,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33776,   1, 'Black Ferah''s Vault') /* Name */
-     , (33776,  38, 'Black Ferah''s Vault') /* AppraisalPortalDestination */
      , (33776, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

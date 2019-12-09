@@ -8,7 +8,7 @@ VALUES (52295,   1,         16) /* ItemType - Creature */
      , (52295,   6,        255) /* ItemsCapacity */
      , (52295,   7,        255) /* ContainersCapacity */
      , (52295,  16,          1) /* ItemUseable - No */
-     , (52295,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
+     , (52295,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52295, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52295, 307,          0) /* DamageRating */
      , (52295, 308,          0) /* DamageResistRating */
@@ -37,14 +37,10 @@ VALUES (52295,   1,         16) /* ItemType - Creature */
      , (52295, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52295,   1, True ) /* Stuck */
-     , (52295,  12, True ) /* ReportCollisions */
-     , (52295,  13, False) /* Ethereal */
-     , (52295,  14, True ) /* GravityStatus */
-     , (52295,  19, True ) /* Attackable */;
+VALUES (52295,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52295,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (52295,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52295,   1, 'Sarcophagus') /* Name */

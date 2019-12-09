@@ -11,19 +11,12 @@ VALUES (23267,   1,    4194304) /* ItemType - CraftCookingBase */
      , (23267,  13,         10) /* StackUnitEncumbrance */
      , (23267,  15,          0) /* StackUnitValue */
      , (23267,  16,          8) /* ItemUseable - Contained */
-     , (23267,  65,        101) /* Placement - Resting */
      , (23267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23267, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23267,   1, False) /* Stuck */
-     , (23267,  11, True ) /* IgnoreCollisions */
-     , (23267,  13, True ) /* Ethereal */
-     , (23267,  14, True ) /* GravityStatus */
-     , (23267,  19, True ) /* Attackable */;
+     , (23267, 151,          2) /* HookType - Wall */
+     , (23267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23267,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (23267,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23267,   1, 'Purple Guppy') /* Name */

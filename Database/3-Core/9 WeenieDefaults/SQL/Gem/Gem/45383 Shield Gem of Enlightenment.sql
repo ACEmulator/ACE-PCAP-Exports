@@ -9,17 +9,12 @@ VALUES (45383,   1,       2048) /* ItemType - Gem */
      , (45383,  16,          8) /* ItemUseable - Contained */
      , (45383,  19,          0) /* Value */
      , (45383,  33,          1) /* Bonded - Bonded */
-     , (45383,  65,        101) /* Placement - Resting */
      , (45383,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45383, 114,          1) /* Attuned - Attuned */;
+     , (45383, 114,          1) /* Attuned - Attuned */
+     , (45383, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45383,   1, False) /* Stuck */
-     , (45383,  11, True ) /* IgnoreCollisions */
-     , (45383,  13, True ) /* Ethereal */
-     , (45383,  14, True ) /* GravityStatus */
-     , (45383,  19, True ) /* Attackable */
-     , (45383,  22, True ) /* Inscribable */;
+VALUES (45383,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45383,   1, 'Shield Gem of Enlightenment') /* Name */

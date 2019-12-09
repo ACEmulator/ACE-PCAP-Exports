@@ -16,11 +16,7 @@ VALUES (14466,   1,         16) /* ItemType - Creature */
      , (14466, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14466,   1, True ) /* Stuck */
-     , (14466,  12, True ) /* ReportCollisions */
-     , (14466,  13, False) /* Ethereal */
-     , (14466,  14, True ) /* GravityStatus */
-     , (14466,  19, True ) /* Attackable */;
+VALUES (14466,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14466,   1, 'Two Headed Snowman') /* Name */

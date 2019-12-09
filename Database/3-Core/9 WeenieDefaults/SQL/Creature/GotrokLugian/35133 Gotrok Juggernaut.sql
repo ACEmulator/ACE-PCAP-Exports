@@ -16,11 +16,7 @@ VALUES (35133,   1,         16) /* ItemType - Creature */
      , (35133, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35133,   1, True ) /* Stuck */
-     , (35133,  12, True ) /* ReportCollisions */
-     , (35133,  13, False) /* Ethereal */
-     , (35133,  14, True ) /* GravityStatus */
-     , (35133,  19, True ) /* Attackable */;
+VALUES (35133,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35133,   1, 'Gotrok Juggernaut') /* Name */

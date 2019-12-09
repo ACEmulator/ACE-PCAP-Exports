@@ -18,18 +18,12 @@ VALUES (28969,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28969,   1, True ) /* Stuck */
-     , (28969,  11, True ) /* IgnoreCollisions */
-     , (28969,  12, True ) /* ReportCollisions */
-     , (28969,  13, False) /* Ethereal */
-     , (28969,  14, True ) /* GravityStatus */
-     , (28969,  19, False) /* Attackable */
-     , (28969,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (28969,  42, True ) /* AllowEdgeSlide */;
+     , (28969,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28969,  39, 1.29999995231628) /* DefaultScale */
+VALUES (28969,  39,     1.3) /* DefaultScale */
      , (28969,  54,       3) /* UseRadius */
-     , (28969,  76, 0.800000011920929) /* Translucency */;
+     , (28969,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28969,   1, 'Hevk Loz') /* Name */

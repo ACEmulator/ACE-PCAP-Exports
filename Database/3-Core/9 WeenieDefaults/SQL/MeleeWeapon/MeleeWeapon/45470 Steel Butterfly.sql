@@ -15,12 +15,7 @@ VALUES (45470,   1,          1) /* ItemType - MeleeWeapon */
      , (45470, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45470,   1, False) /* Stuck */
-     , (45470,  11, True ) /* IgnoreCollisions */
-     , (45470,  13, True ) /* Ethereal */
-     , (45470,  14, True ) /* GravityStatus */
-     , (45470,  19, True ) /* Attackable */
-     , (45470,  22, True ) /* Inscribable */;
+VALUES (45470,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45470,   1, 'Steel Butterfly') /* Name */;

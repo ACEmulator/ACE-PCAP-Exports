@@ -13,21 +13,15 @@ VALUES (42159,   1,      65536) /* ItemType - Portal */
      , (42159, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42159,   1, True ) /* Stuck */
-     , (42159,  12, True ) /* ReportCollisions */
-     , (42159,  13, True ) /* Ethereal */
-     , (42159,  14, True ) /* GravityStatus */
-     , (42159,  15, True ) /* LightsStatus */
-     , (42159,  19, True ) /* Attackable */;
+VALUES (42159,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42159,  39, 0.800000011920929) /* DefaultScale */
-     , (42159,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42159,  39,     0.8) /* DefaultScale */
+     , (42159,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42159,   1, 'Glenden Wood') /* Name */
      , (42159,  16, 'A portal leading to Glendon Wood where the Platemail Hauberk of the Ogre may be found.') /* LongDesc */
-     , (42159,  38, 'Glenden Wood (29.9N, 26.3E).') /* AppraisalPortalDestination */
      , (42159, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

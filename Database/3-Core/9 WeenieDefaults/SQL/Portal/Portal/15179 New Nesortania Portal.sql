@@ -12,19 +12,13 @@ VALUES (15179,   1,      65536) /* ItemType - Portal */
      , (15179, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15179,   1, True ) /* Stuck */
-     , (15179,  12, True ) /* ReportCollisions */
-     , (15179,  13, True ) /* Ethereal */
-     , (15179,  14, True ) /* GravityStatus */
-     , (15179,  15, True ) /* LightsStatus */
-     , (15179,  19, True ) /* Attackable */;
+VALUES (15179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15179,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15179,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15179,   1, 'New Nesortania Portal') /* Name */
-     , (15179,  38, 'New Nesortania Portal (53.6N, 10.4E).') /* AppraisalPortalDestination */
      , (15179, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

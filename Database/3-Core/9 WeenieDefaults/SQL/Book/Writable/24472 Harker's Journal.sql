@@ -8,20 +8,13 @@ VALUES (24472,   1,       8192) /* ItemType - Writable */
      , (24472,   5,        160) /* EncumbranceVal */
      , (24472,  16,          8) /* ItemUseable - Contained */
      , (24472,  19,         90) /* Value */
-     , (24472,  65,        101) /* Placement - Resting */
      , (24472,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24472, 174,          5) /* AppraisalPages */
-     , (24472, 175,          5) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24472,   1, False) /* Stuck */
-     , (24472,  11, True ) /* IgnoreCollisions */
-     , (24472,  13, True ) /* Ethereal */
-     , (24472,  14, True ) /* GravityStatus */
-     , (24472,  19, True ) /* Attackable */;
+     , (24472, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (24472, 8042,          5) /* PCAPRecordedAppraisalPages */
+     , (24472, 8043,          5) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24472,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (24472,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24472,   1, 'Harker''s Journal') /* Name */;

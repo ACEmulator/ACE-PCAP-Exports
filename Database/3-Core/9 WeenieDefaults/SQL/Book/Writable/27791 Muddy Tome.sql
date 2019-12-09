@@ -9,18 +9,11 @@ VALUES (27791,   1,       8192) /* ItemType - Writable */
      , (27791,  16,          8) /* ItemUseable - Contained */
      , (27791,  19,         15) /* Value */
      , (27791,  33,          1) /* Bonded - Bonded */
-     , (27791,  65,        101) /* Placement - Resting */
      , (27791,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27791, 114,          1) /* Attuned - Attuned */
-     , (27791, 174,          1) /* AppraisalPages */
-     , (27791, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27791,   1, False) /* Stuck */
-     , (27791,  11, True ) /* IgnoreCollisions */
-     , (27791,  13, True ) /* Ethereal */
-     , (27791,  14, True ) /* GravityStatus */
-     , (27791,  19, True ) /* Attackable */;
+     , (27791, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (27791, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (27791, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27791,   1, 'Muddy Tome') /* Name */

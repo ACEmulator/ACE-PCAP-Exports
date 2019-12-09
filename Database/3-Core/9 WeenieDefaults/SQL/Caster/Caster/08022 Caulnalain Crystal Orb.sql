@@ -11,19 +11,13 @@ VALUES (8022,   1,      32768) /* ItemType - Caster */
      , (8022,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (8022,  18,          1) /* UiEffects - Magical */
      , (8022,  19,       2000) /* Value */
-     , (8022,  65,          1) /* Placement - RightHandCombat */
      , (8022,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8022,  94,         16) /* TargetType - Creature */
-     , (8022, 151,          2) /* HookType - Wall */;
+     , (8022, 151,          2) /* HookType - Wall */
+     , (8022, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8022,   1, False) /* Stuck */
-     , (8022,  11, True ) /* IgnoreCollisions */
-     , (8022,  13, True ) /* Ethereal */
-     , (8022,  14, True ) /* GravityStatus */
-     , (8022,  15, True ) /* LightsStatus */
-     , (8022,  19, True ) /* Attackable */
-     , (8022,  22, True ) /* Inscribable */;
+VALUES (8022,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8022,  76,     0.5) /* Translucency */;

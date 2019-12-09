@@ -8,17 +8,12 @@ VALUES (8145,   1,        128) /* ItemType - Misc */
      , (8145,   5,        200) /* EncumbranceVal */
      , (8145,  16,          1) /* ItemUseable - No */
      , (8145,  19,          0) /* Value */
-     , (8145,  65,        101) /* Placement - Resting */
      , (8145,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8145, 151,          9) /* HookType - Floor, Yard */;
+     , (8145, 151,          9) /* HookType - Floor, Yard */
+     , (8145, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8145,   1, False) /* Stuck */
-     , (8145,  11, True ) /* IgnoreCollisions */
-     , (8145,  13, True ) /* Ethereal */
-     , (8145,  14, True ) /* GravityStatus */
-     , (8145,  19, True ) /* Attackable */
-     , (8145,  22, True ) /* Inscribable */;
+VALUES (8145,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8145,   1, 'Drudge Head') /* Name */

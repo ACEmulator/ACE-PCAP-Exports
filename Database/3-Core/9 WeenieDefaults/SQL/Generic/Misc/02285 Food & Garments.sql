@@ -8,15 +8,10 @@ VALUES (2285,   1,        128) /* ItemType - Misc */
      , (2285,   5,       9000) /* EncumbranceVal */
      , (2285,  16,          1) /* ItemUseable - No */
      , (2285,  19,        125) /* Value */
-     , (2285,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (2285,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2285,   1, True ) /* Stuck */
-     , (2285,  11, True ) /* IgnoreCollisions */
-     , (2285,  12, True ) /* ReportCollisions */
-     , (2285,  13, False) /* Ethereal */
-     , (2285,  14, True ) /* GravityStatus */
-     , (2285,  19, True ) /* Attackable */;
+VALUES (2285,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2285,   1, 'Food & Garments') /* Name */

@@ -16,15 +16,11 @@ VALUES (43706,   1,         16) /* ItemType - Creature */
      , (43706, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43706,   1, True ) /* Stuck */
-     , (43706,  12, True ) /* ReportCollisions */
-     , (43706,  13, False) /* Ethereal */
-     , (43706,  14, True ) /* GravityStatus */
-     , (43706,  19, True ) /* Attackable */;
+VALUES (43706,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43706,  39, 1.10000002384186) /* DefaultScale */
-     , (43706,  76, 0.300000011920929) /* Translucency */;
+VALUES (43706,  39,     1.1) /* DefaultScale */
+     , (43706,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43706,   1, 'Frost Golem') /* Name */

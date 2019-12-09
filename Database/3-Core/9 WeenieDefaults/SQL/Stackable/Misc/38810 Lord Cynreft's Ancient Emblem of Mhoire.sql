@@ -13,20 +13,15 @@ VALUES (38810,   1,        128) /* ItemType - Misc */
      , (38810,  16,          1) /* ItemUseable - No */
      , (38810,  19,         10) /* Value */
      , (38810,  33,          1) /* Bonded - Bonded */
-     , (38810,  65,        101) /* Placement - Resting */
      , (38810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38810, 114,          1) /* Attuned - Attuned */;
+     , (38810, 114,          1) /* Attuned - Attuned */
+     , (38810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38810,   1, False) /* Stuck */
-     , (38810,  11, True ) /* IgnoreCollisions */
-     , (38810,  13, True ) /* Ethereal */
-     , (38810,  14, True ) /* GravityStatus */
-     , (38810,  19, True ) /* Attackable */
-     , (38810,  69, False) /* IsSellable */;
+VALUES (38810,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38810,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (38810,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38810,   1, 'Lord Cynreft''s Ancient Emblem of Mhoire') /* Name */

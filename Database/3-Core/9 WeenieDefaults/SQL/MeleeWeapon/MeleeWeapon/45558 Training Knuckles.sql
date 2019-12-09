@@ -15,15 +15,10 @@ VALUES (45558,   1,          1) /* ItemType - MeleeWeapon */
      , (45558, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45558,   1, False) /* Stuck */
-     , (45558,  11, True ) /* IgnoreCollisions */
-     , (45558,  13, True ) /* Ethereal */
-     , (45558,  14, True ) /* GravityStatus */
-     , (45558,  19, True ) /* Attackable */
-     , (45558,  22, True ) /* Inscribable */;
+VALUES (45558,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45558,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (45558,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45558,   1, 'Training Knuckles') /* Name */;

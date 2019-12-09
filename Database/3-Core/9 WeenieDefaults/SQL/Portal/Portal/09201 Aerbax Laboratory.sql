@@ -11,15 +11,10 @@ VALUES (9201,   1,      65536) /* ItemType - Portal */
      , (9201, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9201,   1, True ) /* Stuck */
-     , (9201,  12, True ) /* ReportCollisions */
-     , (9201,  13, True ) /* Ethereal */
-     , (9201,  14, True ) /* GravityStatus */
-     , (9201,  15, True ) /* LightsStatus */
-     , (9201,  19, True ) /* Attackable */;
+VALUES (9201,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9201,  54, -0.100000001490116) /* UseRadius */;
+VALUES (9201,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9201,   1, 'Aerbax Laboratory') /* Name */

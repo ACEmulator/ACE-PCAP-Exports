@@ -16,11 +16,7 @@ VALUES (7507,   1,         16) /* ItemType - Creature */
      , (7507, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7507,   1, True ) /* Stuck */
-     , (7507,  12, True ) /* ReportCollisions */
-     , (7507,  13, False) /* Ethereal */
-     , (7507,  14, True ) /* GravityStatus */
-     , (7507,  19, True ) /* Attackable */;
+VALUES (7507,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7507,   1, 'Coral Golem') /* Name */

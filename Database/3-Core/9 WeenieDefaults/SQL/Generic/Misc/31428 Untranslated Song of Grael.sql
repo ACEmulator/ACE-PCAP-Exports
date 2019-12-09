@@ -9,20 +9,15 @@ VALUES (31428,   1,        128) /* ItemType - Misc */
      , (31428,  16,          1) /* ItemUseable - No */
      , (31428,  19,          0) /* Value */
      , (31428,  33,          1) /* Bonded - Bonded */
-     , (31428,  65,        101) /* Placement - Resting */
      , (31428,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31428, 114,          1) /* Attuned - Attuned */;
+     , (31428, 114,          1) /* Attuned - Attuned */
+     , (31428, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31428,   1, False) /* Stuck */
-     , (31428,  11, True ) /* IgnoreCollisions */
-     , (31428,  13, True ) /* Ethereal */
-     , (31428,  14, True ) /* GravityStatus */
-     , (31428,  19, True ) /* Attackable */
-     , (31428,  22, True ) /* Inscribable */;
+VALUES (31428,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31428,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (31428,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31428,   1, 'Untranslated Song of Grael') /* Name */

@@ -22,18 +22,13 @@ VALUES (42709,   1,      32768) /* ItemType - Caster */
      , (42709, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42709,   1, False) /* Stuck */
-     , (42709,  11, True ) /* IgnoreCollisions */
-     , (42709,  13, True ) /* Ethereal */
-     , (42709,  14, True ) /* GravityStatus */
-     , (42709,  19, True ) /* Attackable */
-     , (42709,  22, True ) /* Inscribable */;
+VALUES (42709,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42709,   5, -0.0500000007450581) /* ManaRate */
+VALUES (42709,   5,   -0.05) /* ManaRate */
      , (42709,  29,       1) /* WeaponDefense */
-     , (42709,  39, 0.600000023841858) /* DefaultScale */
-     , (42709, 144, 0.100000001490116) /* ManaConversionMod */;
+     , (42709,  39,     0.6) /* DefaultScale */
+     , (42709, 144,     0.1) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42709,   1, 'Royal Bouquet') /* Name */

@@ -15,12 +15,7 @@ VALUES (52278,   1,         16) /* ItemType - Creature */
      , (52278, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52278,   1, True ) /* Stuck */
-     , (52278,  12, True ) /* ReportCollisions */
-     , (52278,  13, False) /* Ethereal */
-     , (52278,  14, True ) /* GravityStatus */
-     , (52278,  19, True ) /* Attackable */
-     , (52278,  42, True ) /* AllowEdgeSlide */;
+VALUES (52278,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52278,   1, 'Rynthid Sorcerer') /* Name */

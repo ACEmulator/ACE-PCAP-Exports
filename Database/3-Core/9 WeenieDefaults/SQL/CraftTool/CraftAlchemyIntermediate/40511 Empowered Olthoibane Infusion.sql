@@ -12,17 +12,12 @@ VALUES (40511,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (40511,  15,          0) /* StackUnitValue */
      , (40511,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (40511,  18,          1) /* UiEffects - Magical */
-     , (40511,  65,        101) /* Placement - Resting */
      , (40511,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40511,  94,          1) /* TargetType - MeleeWeapon */;
+     , (40511,  94,          1) /* TargetType - MeleeWeapon */
+     , (40511, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40511,   1, False) /* Stuck */
-     , (40511,  11, True ) /* IgnoreCollisions */
-     , (40511,  13, True ) /* Ethereal */
-     , (40511,  14, True ) /* GravityStatus */
-     , (40511,  19, True ) /* Attackable */
-     , (40511,  22, True ) /* Inscribable */;
+VALUES (40511,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40511,   1, 'Empowered Olthoibane Infusion') /* Name */

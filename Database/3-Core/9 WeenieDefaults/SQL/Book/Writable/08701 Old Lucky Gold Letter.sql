@@ -9,22 +9,15 @@ VALUES (8701,   1,       8192) /* ItemType - Writable */
      , (8701,  16,          8) /* ItemUseable - Contained */
      , (8701,  19,          1) /* Value */
      , (8701,  33,          0) /* Bonded - Normal */
-     , (8701,  65,        101) /* Placement - Resting */
      , (8701,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8701, 114,          0) /* Attuned - Normal */
      , (8701, 151,          2) /* HookType - Wall */
-     , (8701, 174,          1) /* AppraisalPages */
-     , (8701, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8701,   1, False) /* Stuck */
-     , (8701,  11, True ) /* IgnoreCollisions */
-     , (8701,  13, True ) /* Ethereal */
-     , (8701,  14, True ) /* GravityStatus */
-     , (8701,  19, True ) /* Attackable */;
+     , (8701, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8701, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (8701, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8701,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8701,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8701,   1, 'Old Lucky Gold Letter') /* Name */

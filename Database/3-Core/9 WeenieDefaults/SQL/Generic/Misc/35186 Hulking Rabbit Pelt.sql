@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35186,   1,        128) /* ItemType - Misc */
      , (35186,   5,        500) /* EncumbranceVal */
      , (35186,  16,          1) /* ItemUseable - No */
-     , (35186,  65,        101) /* Placement - Resting */
-     , (35186,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (35186,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (35186, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35186,   1, False) /* Stuck */
-     , (35186,  11, True ) /* IgnoreCollisions */
-     , (35186,  13, True ) /* Ethereal */
-     , (35186,  14, True ) /* GravityStatus */
-     , (35186,  19, True ) /* Attackable */
-     , (35186,  22, True ) /* Inscribable */;
+VALUES (35186,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35186,   1, 'Hulking Rabbit Pelt') /* Name */;

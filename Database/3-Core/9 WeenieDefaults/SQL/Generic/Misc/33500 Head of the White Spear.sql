@@ -9,17 +9,12 @@ VALUES (33500,   1,        128) /* ItemType - Misc */
      , (33500,  16,          1) /* ItemUseable - No */
      , (33500,  19,          0) /* Value */
      , (33500,  33,          1) /* Bonded - Bonded */
-     , (33500,  65,        101) /* Placement - Resting */
      , (33500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33500, 114,          1) /* Attuned - Attuned */;
+     , (33500, 114,          1) /* Attuned - Attuned */
+     , (33500, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33500,   1, False) /* Stuck */
-     , (33500,  11, True ) /* IgnoreCollisions */
-     , (33500,  13, True ) /* Ethereal */
-     , (33500,  14, True ) /* GravityStatus */
-     , (33500,  19, True ) /* Attackable */
-     , (33500,  22, True ) /* Inscribable */;
+VALUES (33500,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33500,   1, 'Head of the White Spear') /* Name */

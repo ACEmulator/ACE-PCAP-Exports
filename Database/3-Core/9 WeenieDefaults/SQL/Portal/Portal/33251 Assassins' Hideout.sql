@@ -14,19 +14,13 @@ VALUES (33251,   1,      65536) /* ItemType - Portal */
      , (33251, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33251,   1, True ) /* Stuck */
-     , (33251,  12, True ) /* ReportCollisions */
-     , (33251,  13, True ) /* Ethereal */
-     , (33251,  14, True ) /* GravityStatus */
-     , (33251,  15, True ) /* LightsStatus */
-     , (33251,  19, True ) /* Attackable */;
+VALUES (33251,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33251,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33251,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33251,   1, 'Assassins'' Hideout') /* Name */
-     , (33251,  38, 'Assassins'' Hideout') /* AppraisalPortalDestination */
      , (33251, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

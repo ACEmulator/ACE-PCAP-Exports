@@ -15,11 +15,7 @@ VALUES (40499,   1,         16) /* ItemType - Creature */
      , (40499, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40499,   1, True ) /* Stuck */
-     , (40499,  12, True ) /* ReportCollisions */
-     , (40499,  13, False) /* Ethereal */
-     , (40499,  14, True ) /* GravityStatus */
-     , (40499,  19, True ) /* Attackable */;
+VALUES (40499,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40499,   1, 'Apostate Servant') /* Name */

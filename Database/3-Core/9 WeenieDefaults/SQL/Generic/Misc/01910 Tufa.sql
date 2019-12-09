@@ -8,16 +8,11 @@ VALUES (1910,   1,        128) /* ItemType - Misc */
      , (1910,   5,       9000) /* EncumbranceVal */
      , (1910,  16,          1) /* ItemUseable - No */
      , (1910,  19,        125) /* Value */
-     , (1910,  65,        101) /* Placement - Resting */
-     , (1910,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (1910,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (1910, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1910,   1, True ) /* Stuck */
-     , (1910,  11, True ) /* IgnoreCollisions */
-     , (1910,  12, True ) /* ReportCollisions */
-     , (1910,  13, False) /* Ethereal */
-     , (1910,  14, True ) /* GravityStatus */
-     , (1910,  19, True ) /* Attackable */;
+VALUES (1910,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1910,   1, 'Tufa') /* Name */

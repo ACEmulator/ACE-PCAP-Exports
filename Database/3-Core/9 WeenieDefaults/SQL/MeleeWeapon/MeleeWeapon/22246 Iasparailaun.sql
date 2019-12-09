@@ -12,20 +12,15 @@ VALUES (22246,   1,          1) /* ItemType - MeleeWeapon */
      , (22246,  18,         32) /* UiEffects - Fire */
      , (22246,  19,      50000) /* Value */
      , (22246,  51,          1) /* CombatUse - Melee */
-     , (22246,  65,          1) /* Placement - RightHandCombat */
      , (22246,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22246, 151,          2) /* HookType - Wall */;
+     , (22246, 151,          2) /* HookType - Wall */
+     , (22246, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22246,   1, False) /* Stuck */
-     , (22246,  11, True ) /* IgnoreCollisions */
-     , (22246,  13, True ) /* Ethereal */
-     , (22246,  14, True ) /* GravityStatus */
-     , (22246,  19, True ) /* Attackable */
-     , (22246,  22, True ) /* Inscribable */;
+VALUES (22246,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22246,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (22246,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22246,   1, 'Iasparailaun') /* Name */;

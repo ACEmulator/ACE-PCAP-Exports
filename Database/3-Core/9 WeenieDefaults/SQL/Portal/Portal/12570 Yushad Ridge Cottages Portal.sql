@@ -11,15 +11,10 @@ VALUES (12570,   1,      65536) /* ItemType - Portal */
      , (12570, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12570,   1, True ) /* Stuck */
-     , (12570,  12, True ) /* ReportCollisions */
-     , (12570,  13, True ) /* Ethereal */
-     , (12570,  14, True ) /* GravityStatus */
-     , (12570,  15, True ) /* LightsStatus */
-     , (12570,  19, True ) /* Attackable */;
+VALUES (12570,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12570,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12570,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12570,   1, 'Yushad Ridge Cottages Portal') /* Name */

@@ -11,15 +11,10 @@ VALUES (30472,   1,      65536) /* ItemType - Portal */
      , (30472, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30472,   1, True ) /* Stuck */
-     , (30472,  12, True ) /* ReportCollisions */
-     , (30472,  13, True ) /* Ethereal */
-     , (30472,  14, True ) /* GravityStatus */
-     , (30472,  15, True ) /* LightsStatus */
-     , (30472,  19, True ) /* Attackable */;
+VALUES (30472,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30472,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30472,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30472,   1, 'Northern Power Forge') /* Name */

@@ -12,20 +12,14 @@ VALUES (42820,   1,      65536) /* ItemType - Portal */
      , (42820, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42820,   1, True ) /* Stuck */
-     , (42820,  12, True ) /* ReportCollisions */
-     , (42820,  13, True ) /* Ethereal */
-     , (42820,  14, True ) /* GravityStatus */
-     , (42820,  15, True ) /* LightsStatus */
-     , (42820,  19, True ) /* Attackable */;
+VALUES (42820,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42820,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42820,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42820,   1, 'Portal to Holtburg') /* Name */
      , (42820,  16, 'This portal goes to Holtburg, an Aluvian town where many new adventurers enter Dereth. This is a good town for characters of all levels.') /* LongDesc */
-     , (42820,  38, 'Portal to Holtburg (42.1N, 33.6E).') /* AppraisalPortalDestination */
      , (42820, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

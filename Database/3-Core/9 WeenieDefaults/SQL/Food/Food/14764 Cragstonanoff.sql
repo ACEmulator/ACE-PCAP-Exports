@@ -12,15 +12,8 @@ VALUES (14764,   1,         32) /* ItemType - Food */
      , (14764,  15,         20) /* StackUnitValue */
      , (14764,  16,          8) /* ItemUseable - Contained */
      , (14764,  19,         20) /* Value */
-     , (14764,  65,        101) /* Placement - Resting */
-     , (14764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14764,   1, False) /* Stuck */
-     , (14764,  11, True ) /* IgnoreCollisions */
-     , (14764,  13, True ) /* Ethereal */
-     , (14764,  14, True ) /* GravityStatus */
-     , (14764,  19, True ) /* Attackable */;
+     , (14764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14764, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14764,   1, 'Cragstonanoff') /* Name */

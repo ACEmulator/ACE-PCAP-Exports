@@ -14,15 +14,8 @@ VALUES (39737,   1,        128) /* ItemType - Misc */
      , (39737,  19,          2) /* Value */
      , (39737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39737,   1, False) /* Stuck */
-     , (39737,  11, True ) /* IgnoreCollisions */
-     , (39737,  13, True ) /* Ethereal */
-     , (39737,  14, True ) /* GravityStatus */
-     , (39737,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39737,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (39737,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39737,   1, 'Flame Bolt Tower Token') /* Name */;

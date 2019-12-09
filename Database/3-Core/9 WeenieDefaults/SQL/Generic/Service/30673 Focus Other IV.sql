@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30673,   1,    1048576) /* ItemType - Service */
      , (30673,  16,          1) /* ItemUseable - No */
      , (30673,  19,        800) /* Value */
-     , (30673,  65,        101) /* Placement - Resting */
-     , (30673,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30673,   1, False) /* Stuck */
-     , (30673,  11, True ) /* IgnoreCollisions */
-     , (30673,  13, True ) /* Ethereal */
-     , (30673,  14, True ) /* GravityStatus */
-     , (30673,  19, True ) /* Attackable */;
+     , (30673,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30673, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30673,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (30673,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30673,   1, 'Focus Other IV') /* Name */;

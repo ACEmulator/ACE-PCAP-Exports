@@ -8,15 +8,11 @@ VALUES (4658,   1,        128) /* ItemType - Misc */
      , (4658,   5,       9000) /* EncumbranceVal */
      , (4658,  16,          1) /* ItemUseable - No */
      , (4658,  19,        125) /* Value */
-     , (4658,  65,        101) /* Placement - Resting */
-     , (4658,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (4658,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (4658, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4658,   1, True ) /* Stuck */
-     , (4658,  11, True ) /* IgnoreCollisions */
-     , (4658,  12, True ) /* ReportCollisions */
-     , (4658,  13, False) /* Ethereal */
-     , (4658,  19, True ) /* Attackable */;
+VALUES (4658,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4658,   1, 'Al-Jalima') /* Name */

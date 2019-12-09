@@ -15,12 +15,7 @@ VALUES (48770,   1,          1) /* ItemType - MeleeWeapon */
      , (48770,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48770,   1, False) /* Stuck */
-     , (48770,  11, True ) /* IgnoreCollisions */
-     , (48770,  13, True ) /* Ethereal */
-     , (48770,  14, True ) /* GravityStatus */
-     , (48770,  19, True ) /* Attackable */
-     , (48770,  22, True ) /* Inscribable */;
+VALUES (48770,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48770,   1, 'Blade of Phainor') /* Name */;

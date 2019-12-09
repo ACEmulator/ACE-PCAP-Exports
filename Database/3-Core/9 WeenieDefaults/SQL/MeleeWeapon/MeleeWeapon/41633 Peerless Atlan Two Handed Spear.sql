@@ -11,17 +11,12 @@ VALUES (41633,   1,          1) /* ItemType - MeleeWeapon */
      , (41633,  16,          1) /* ItemUseable - No */
      , (41633,  19,       5000) /* Value */
      , (41633,  51,          5) /* CombatUse - TwoHanded */
-     , (41633,  65,          1) /* Placement - RightHandCombat */
      , (41633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41633, 151,          2) /* HookType - Wall */;
+     , (41633, 151,          2) /* HookType - Wall */
+     , (41633, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41633,   1, False) /* Stuck */
-     , (41633,  11, True ) /* IgnoreCollisions */
-     , (41633,  13, True ) /* Ethereal */
-     , (41633,  14, True ) /* GravityStatus */
-     , (41633,  19, True ) /* Attackable */
-     , (41633,  22, True ) /* Inscribable */;
+VALUES (41633,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41633,   1, 'Peerless Atlan Two Handed Spear') /* Name */;

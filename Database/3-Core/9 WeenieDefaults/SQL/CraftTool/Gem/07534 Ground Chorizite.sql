@@ -12,18 +12,13 @@ VALUES (7534,   1,       2048) /* ItemType - Gem */
      , (7534,  15,          0) /* StackUnitValue */
      , (7534,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7534,  19,          0) /* Value */
-     , (7534,  65,        101) /* Placement - Resting */
      , (7534,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7534,  94,       4096) /* TargetType - SpellComponents */
-     , (7534, 151,          9) /* HookType - Floor, Yard */;
+     , (7534, 151,          9) /* HookType - Floor, Yard */
+     , (7534, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7534,   1, False) /* Stuck */
-     , (7534,  11, True ) /* IgnoreCollisions */
-     , (7534,  13, True ) /* Ethereal */
-     , (7534,  14, True ) /* GravityStatus */
-     , (7534,  19, True ) /* Attackable */
-     , (7534,  69, False) /* IsSellable */;
+VALUES (7534,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7534,   1, 'Ground Chorizite') /* Name */

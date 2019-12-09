@@ -8,17 +8,10 @@ VALUES (38172,   1,       8192) /* ItemType - Writable */
      , (38172,   5,         50) /* EncumbranceVal */
      , (38172,  16,          8) /* ItemUseable - Contained */
      , (38172,  19,       1000) /* Value */
-     , (38172,  65,        101) /* Placement - Resting */
      , (38172,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38172, 174,          3) /* AppraisalPages */
-     , (38172, 175,          3) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38172,   1, False) /* Stuck */
-     , (38172,  11, True ) /* IgnoreCollisions */
-     , (38172,  13, True ) /* Ethereal */
-     , (38172,  14, True ) /* GravityStatus */
-     , (38172,  19, True ) /* Attackable */;
+     , (38172, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (38172, 8042,          3) /* PCAPRecordedAppraisalPages */
+     , (38172, 8043,          3) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38172,   1, 'The Creation of Blighted Moarsmen') /* Name */

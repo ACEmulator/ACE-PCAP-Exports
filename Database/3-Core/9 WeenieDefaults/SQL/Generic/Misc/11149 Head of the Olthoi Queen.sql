@@ -8,17 +8,12 @@ VALUES (11149,   1,        128) /* ItemType - Misc */
      , (11149,   5,       2100) /* EncumbranceVal */
      , (11149,  16,          1) /* ItemUseable - No */
      , (11149,  19,          0) /* Value */
-     , (11149,  65,        101) /* Placement - Resting */
      , (11149,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11149, 151,          2) /* HookType - Wall */;
+     , (11149, 151,          2) /* HookType - Wall */
+     , (11149, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11149,   1, False) /* Stuck */
-     , (11149,  11, True ) /* IgnoreCollisions */
-     , (11149,  13, True ) /* Ethereal */
-     , (11149,  14, True ) /* GravityStatus */
-     , (11149,  19, True ) /* Attackable */
-     , (11149,  22, True ) /* Inscribable */;
+VALUES (11149,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11149,   1, 'Head of the Olthoi Queen') /* Name */

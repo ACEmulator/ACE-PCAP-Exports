@@ -15,15 +15,10 @@ VALUES (30648,   1,         16) /* ItemType - Creature */
      , (30648, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30648,   1, True ) /* Stuck */
-     , (30648,  12, True ) /* ReportCollisions */
-     , (30648,  13, False) /* Ethereal */
-     , (30648,  14, True ) /* GravityStatus */
-     , (30648,  19, True ) /* Attackable */
-     , (30648,  42, True ) /* AllowEdgeSlide */;
+VALUES (30648,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30648,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30648,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30648,   1, 'Drudge Aviator') /* Name */

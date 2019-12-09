@@ -12,18 +12,11 @@ VALUES (770,   1,       4096) /* ItemType - SpellComponents */
      , (770,  15,         10) /* StackUnitValue */
      , (770,  16,          1) /* ItemUseable - No */
      , (770,  19,         10) /* Value */
-     , (770,  65,        101) /* Placement - Resting */
-     , (770,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (770,   1, False) /* Stuck */
-     , (770,  11, True ) /* IgnoreCollisions */
-     , (770,  13, True ) /* Ethereal */
-     , (770,  14, True ) /* GravityStatus */
-     , (770,  19, True ) /* Attackable */;
+     , (770,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (770, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (770,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (770,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (770,   1, 'Eyebright') /* Name */

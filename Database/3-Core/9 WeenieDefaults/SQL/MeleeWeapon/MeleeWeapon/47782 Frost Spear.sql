@@ -12,17 +12,12 @@ VALUES (47782,   1,          1) /* ItemType - MeleeWeapon */
      , (47782,  18,        128) /* UiEffects - Frost */
      , (47782,  19,        170) /* Value */
      , (47782,  51,          1) /* CombatUse - Melee */
-     , (47782,  65,          1) /* Placement - RightHandCombat */
      , (47782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47782, 151,          2) /* HookType - Wall */;
+     , (47782, 151,          2) /* HookType - Wall */
+     , (47782, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47782,   1, False) /* Stuck */
-     , (47782,  11, True ) /* IgnoreCollisions */
-     , (47782,  13, True ) /* Ethereal */
-     , (47782,  14, True ) /* GravityStatus */
-     , (47782,  19, True ) /* Attackable */
-     , (47782,  22, True ) /* Inscribable */;
+VALUES (47782,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47782,   1, 'Frost Spear') /* Name */;

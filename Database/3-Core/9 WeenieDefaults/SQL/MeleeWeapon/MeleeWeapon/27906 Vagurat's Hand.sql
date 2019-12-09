@@ -18,7 +18,6 @@ VALUES (27906,   1,          1) /* ItemType - MeleeWeapon */
      , (27906,  48,         45) /* WeaponSkill - LightWeapons */
      , (27906,  49,         45) /* WeaponTime */
      , (27906,  51,          1) /* CombatUse - Melee */
-     , (27906,  65,          1) /* Placement - RightHandCombat */
      , (27906,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27906, 106,        100) /* ItemSpellcraft */
      , (27906, 107,        398) /* ItemCurMana */
@@ -26,24 +25,20 @@ VALUES (27906,   1,          1) /* ItemType - MeleeWeapon */
      , (27906, 109,         30) /* ItemDifficulty */
      , (27906, 151,          2) /* HookType - Wall */
      , (27906, 353,          4) /* WeaponType - Mace */
-     , (27906, 8030,          0);
+     , (27906, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (27906, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27906,   1, False) /* Stuck */
-     , (27906,  11, True ) /* IgnoreCollisions */
-     , (27906,  13, True ) /* Ethereal */
-     , (27906,  14, True ) /* GravityStatus */
-     , (27906,  19, True ) /* Attackable */
-     , (27906,  22, True ) /* Inscribable */
+VALUES (27906,  22, True ) /* Inscribable */
      , (27906,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27906,   5, -0.0333000011742115) /* ManaRate */
+VALUES (27906,   5,   -0.03) /* ManaRate */
      , (27906,  21,       0) /* WeaponLength */
      , (27906,  22,     0.5) /* DamageVariance */
      , (27906,  26,       0) /* MaximumVelocity */
-     , (27906,  29, 1.02999997138977) /* WeaponDefense */
-     , (27906,  62, 1.02999997138977) /* WeaponOffense */
+     , (27906,  29,    1.03) /* WeaponDefense */
+     , (27906,  62,    1.03) /* WeaponOffense */
      , (27906,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

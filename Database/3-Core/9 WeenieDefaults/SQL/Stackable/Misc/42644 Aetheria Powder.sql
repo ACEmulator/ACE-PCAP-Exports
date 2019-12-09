@@ -12,16 +12,11 @@ VALUES (42644,   1,        128) /* ItemType - Misc */
      , (42644,  15,          5) /* StackUnitValue */
      , (42644,  16,          1) /* ItemUseable - No */
      , (42644,  19,          5) /* Value */
-     , (42644,  65,        101) /* Placement - Resting */
-     , (42644,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (42644,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (42644, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42644,   1, False) /* Stuck */
-     , (42644,  11, True ) /* IgnoreCollisions */
-     , (42644,  13, True ) /* Ethereal */
-     , (42644,  14, True ) /* GravityStatus */
-     , (42644,  19, True ) /* Attackable */
-     , (42644,  69, False) /* IsSellable */;
+VALUES (42644,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42644,   1, 'Aetheria Powder') /* Name */
