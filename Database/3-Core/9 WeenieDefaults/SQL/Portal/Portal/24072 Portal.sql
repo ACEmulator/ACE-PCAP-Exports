@@ -12,7 +12,8 @@ VALUES (24072,   1,      65536) /* ItemType - Portal */
      , (24072, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24072,   1, True ) /* Stuck */;
+VALUES (24072,   1, True ) /* Stuck */
+     , (24072,  88, False) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24072,  54,    -0.1) /* UseRadius */;
