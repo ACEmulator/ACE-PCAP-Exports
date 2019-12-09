@@ -11,11 +11,7 @@ VALUES (1002,   1,        128) /* ItemType - Misc */
      , (1002,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1002,   1, True ) /* Stuck */
-     , (1002,  11, True ) /* IgnoreCollisions */
-     , (1002,  12, True ) /* ReportCollisions */
-     , (1002,  13, False) /* Ethereal */
-     , (1002,  19, True ) /* Attackable */;
+VALUES (1002,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1002,   1, 'House of Fathlan') /* Name */

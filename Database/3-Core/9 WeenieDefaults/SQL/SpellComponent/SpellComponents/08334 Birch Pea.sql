@@ -12,18 +12,11 @@ VALUES (8334,   1,       4096) /* ItemType - SpellComponents */
      , (8334,  15,        250) /* StackUnitValue */
      , (8334,  16,          1) /* ItemUseable - No */
      , (8334,  19,        250) /* Value */
-     , (8334,  65,        101) /* Placement - Resting */
-     , (8334,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8334,   1, False) /* Stuck */
-     , (8334,  11, True ) /* IgnoreCollisions */
-     , (8334,  13, True ) /* Ethereal */
-     , (8334,  14, True ) /* GravityStatus */
-     , (8334,  19, True ) /* Attackable */;
+     , (8334,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8334, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8334,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8334,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8334,   1, 'Birch Pea') /* Name */;

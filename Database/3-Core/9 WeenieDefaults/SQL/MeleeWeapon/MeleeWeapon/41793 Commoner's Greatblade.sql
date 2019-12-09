@@ -13,15 +13,10 @@ VALUES (41793,   1,          1) /* ItemType - MeleeWeapon */
      , (41793,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41793,   1, False) /* Stuck */
-     , (41793,  11, True ) /* IgnoreCollisions */
-     , (41793,  13, True ) /* Ethereal */
-     , (41793,  14, True ) /* GravityStatus */
-     , (41793,  19, True ) /* Attackable */
-     , (41793,  22, True ) /* Inscribable */;
+VALUES (41793,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41793,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (41793,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41793,   1, 'Commoner''s Greatblade') /* Name */;

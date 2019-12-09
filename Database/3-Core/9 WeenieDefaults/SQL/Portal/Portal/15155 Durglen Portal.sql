@@ -12,19 +12,13 @@ VALUES (15155,   1,      65536) /* ItemType - Portal */
      , (15155, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15155,   1, True ) /* Stuck */
-     , (15155,  12, True ) /* ReportCollisions */
-     , (15155,  13, True ) /* Ethereal */
-     , (15155,  14, True ) /* GravityStatus */
-     , (15155,  15, True ) /* LightsStatus */
-     , (15155,  19, True ) /* Attackable */;
+VALUES (15155,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15155,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15155,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15155,   1, 'Durglen Portal') /* Name */
-     , (15155,  38, 'Durglen Portal (42.5N, 4.7E).') /* AppraisalPortalDestination */
      , (15155, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

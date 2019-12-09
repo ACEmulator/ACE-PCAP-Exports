@@ -13,19 +13,12 @@ VALUES (11831,   1,       2048) /* ItemType - Gem */
      , (11831,  16,          8) /* ItemUseable - Contained */
      , (11831,  18,          1) /* UiEffects - Magical */
      , (11831,  19,        400) /* Value */
-     , (11831,  65,        101) /* Placement - Resting */
      , (11831,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11831,  94,         16) /* TargetType - Creature */
      , (11831, 106,        210) /* ItemSpellcraft */
      , (11831, 107,        700) /* ItemCurMana */
-     , (11831, 108,        700) /* ItemMaxMana */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11831,   1, False) /* Stuck */
-     , (11831,  11, True ) /* IgnoreCollisions */
-     , (11831,  13, True ) /* Ethereal */
-     , (11831,  14, True ) /* GravityStatus */
-     , (11831,  19, True ) /* Attackable */;
+     , (11831, 108,        700) /* ItemMaxMana */
+     , (11831, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11831,   1, 'Sho Gem of Worth') /* Name */

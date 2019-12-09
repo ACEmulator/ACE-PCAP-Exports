@@ -9,20 +9,15 @@ VALUES (38641,   1,      16384) /* ItemType - Key */
      , (38641,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (38641,  19,          0) /* Value */
      , (38641,  33,          1) /* Bonded - Bonded */
-     , (38641,  65,        101) /* Placement - Resting */
      , (38641,  91,          1) /* MaxStructure */
      , (38641,  92,          1) /* Structure */
      , (38641,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38641,  94,        640) /* TargetType - LockableMagicTarget */
-     , (38641, 114,          1) /* Attuned - Attuned */;
+     , (38641, 114,          1) /* Attuned - Attuned */
+     , (38641, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38641,   1, False) /* Stuck */
-     , (38641,  11, True ) /* IgnoreCollisions */
-     , (38641,  13, True ) /* Ethereal */
-     , (38641,  14, True ) /* GravityStatus */
-     , (38641,  19, True ) /* Attackable */
-     , (38641,  22, True ) /* Inscribable */;
+VALUES (38641,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38641,   1, 'Joroshi''s Key') /* Name */

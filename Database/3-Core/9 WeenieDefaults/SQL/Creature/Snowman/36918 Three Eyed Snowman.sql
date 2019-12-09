@@ -16,14 +16,10 @@ VALUES (36918,   1,         16) /* ItemType - Creature */
      , (36918, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36918,   1, True ) /* Stuck */
-     , (36918,  12, True ) /* ReportCollisions */
-     , (36918,  13, False) /* Ethereal */
-     , (36918,  14, True ) /* GravityStatus */
-     , (36918,  19, True ) /* Attackable */;
+VALUES (36918,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36918,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36918,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36918,   1, 'Three Eyed Snowman') /* Name */

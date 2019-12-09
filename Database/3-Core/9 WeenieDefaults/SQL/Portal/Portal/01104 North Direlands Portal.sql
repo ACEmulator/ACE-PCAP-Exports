@@ -13,19 +13,13 @@ VALUES (1104,   1,      65536) /* ItemType - Portal */
      , (1104, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1104,   1, True ) /* Stuck */
-     , (1104,  12, True ) /* ReportCollisions */
-     , (1104,  13, True ) /* Ethereal */
-     , (1104,  14, True ) /* GravityStatus */
-     , (1104,  15, True ) /* LightsStatus */
-     , (1104,  19, True ) /* Attackable */;
+VALUES (1104,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1104,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1104,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1104,   1, 'North Direlands Portal') /* Name */
-     , (1104,  38, 'North Direlands Portal (24.4N, 53.8W).') /* AppraisalPortalDestination */
      , (1104, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

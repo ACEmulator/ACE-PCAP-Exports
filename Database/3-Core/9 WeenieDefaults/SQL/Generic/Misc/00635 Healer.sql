@@ -8,16 +8,11 @@ VALUES (635,   1,        128) /* ItemType - Misc */
      , (635,   5,       9000) /* EncumbranceVal */
      , (635,  16,          1) /* ItemUseable - No */
      , (635,  19,        125) /* Value */
-     , (635,  65,        101) /* Placement - Resting */
-     , (635,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (635,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (635, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (635,   1, True ) /* Stuck */
-     , (635,  11, True ) /* IgnoreCollisions */
-     , (635,  12, True ) /* ReportCollisions */
-     , (635,  13, False) /* Ethereal */
-     , (635,  14, True ) /* GravityStatus */
-     , (635,  19, True ) /* Attackable */;
+VALUES (635,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (635,   1, 'Healer') /* Name */

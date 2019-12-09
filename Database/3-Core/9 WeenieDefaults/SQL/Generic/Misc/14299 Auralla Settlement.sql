@@ -11,12 +11,7 @@ VALUES (14299,   1,        128) /* ItemType - Misc */
      , (14299,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14299,   1, True ) /* Stuck */
-     , (14299,  11, True ) /* IgnoreCollisions */
-     , (14299,  12, True ) /* ReportCollisions */
-     , (14299,  13, False) /* Ethereal */
-     , (14299,  14, True ) /* GravityStatus */
-     , (14299,  19, True ) /* Attackable */;
+VALUES (14299,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14299,   1, 'Auralla Settlement') /* Name */;

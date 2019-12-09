@@ -15,14 +15,10 @@ VALUES (29052,   1,         16) /* ItemType - Creature */
      , (29052, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29052,   1, True ) /* Stuck */
-     , (29052,  12, True ) /* ReportCollisions */
-     , (29052,  13, False) /* Ethereal */
-     , (29052,  14, True ) /* GravityStatus */
-     , (29052,  19, True ) /* Attackable */;
+VALUES (29052,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29052,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (29052,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29052,   1, 'Ruschk Fledgemaster') /* Name */

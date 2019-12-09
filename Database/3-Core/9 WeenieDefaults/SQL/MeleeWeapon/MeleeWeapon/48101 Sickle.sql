@@ -11,17 +11,12 @@ VALUES (48101,   1,          1) /* ItemType - MeleeWeapon */
      , (48101,  16,          1) /* ItemUseable - No */
      , (48101,  19,         60) /* Value */
      , (48101,  51,          1) /* CombatUse - Melee */
-     , (48101,  65,          1) /* Placement - RightHandCombat */
      , (48101,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48101, 151,          2) /* HookType - Wall */;
+     , (48101, 151,          2) /* HookType - Wall */
+     , (48101, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48101,   1, False) /* Stuck */
-     , (48101,  11, True ) /* IgnoreCollisions */
-     , (48101,  13, True ) /* Ethereal */
-     , (48101,  14, True ) /* GravityStatus */
-     , (48101,  19, True ) /* Attackable */
-     , (48101,  22, True ) /* Inscribable */;
+VALUES (48101,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48101,   1, 'Sickle') /* Name */;

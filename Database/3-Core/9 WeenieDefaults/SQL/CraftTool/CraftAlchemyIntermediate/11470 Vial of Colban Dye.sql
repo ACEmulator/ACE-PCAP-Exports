@@ -12,18 +12,13 @@ VALUES (11470,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (11470,  15,         10) /* StackUnitValue */
      , (11470,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11470,  19,         10) /* Value */
-     , (11470,  65,        101) /* Placement - Resting */
      , (11470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11470,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (11470, 151,          9) /* HookType - Floor, Yard */;
+     , (11470, 151,          9) /* HookType - Floor, Yard */
+     , (11470, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11470,   1, False) /* Stuck */
-     , (11470,  11, True ) /* IgnoreCollisions */
-     , (11470,  13, True ) /* Ethereal */
-     , (11470,  14, True ) /* GravityStatus */
-     , (11470,  19, True ) /* Attackable */
-     , (11470,  69, False) /* IsSellable */;
+VALUES (11470,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11470,   1, 'Vial of Colban Dye') /* Name */

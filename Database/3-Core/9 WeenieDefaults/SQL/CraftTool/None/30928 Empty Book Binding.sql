@@ -12,17 +12,12 @@ VALUES (30928,   1,          0) /* ItemType - None */
      , (30928,  15,          0) /* StackUnitValue */
      , (30928,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (30928,  19,          0) /* Value */
-     , (30928,  65,        101) /* Placement - Resting */
      , (30928,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30928,  94,       8192) /* TargetType - Writable */;
+     , (30928,  94,       8192) /* TargetType - Writable */
+     , (30928, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30928,   1, False) /* Stuck */
-     , (30928,  11, True ) /* IgnoreCollisions */
-     , (30928,  13, True ) /* Ethereal */
-     , (30928,  14, True ) /* GravityStatus */
-     , (30928,  19, True ) /* Attackable */
-     , (30928,  22, True ) /* Inscribable */;
+VALUES (30928,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30928,   1, 'Empty Book Binding') /* Name */

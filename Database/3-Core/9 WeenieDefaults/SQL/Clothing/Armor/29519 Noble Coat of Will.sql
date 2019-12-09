@@ -10,17 +10,12 @@ VALUES (29519,   1,          2) /* ItemType - Armor */
      , (29519,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (29519,  16,          1) /* ItemUseable - No */
      , (29519,  19,       8000) /* Value */
-     , (29519,  65,        101) /* Placement - Resting */
      , (29519,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29519, 151,          2) /* HookType - Wall */;
+     , (29519, 151,          2) /* HookType - Wall */
+     , (29519, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29519,   1, False) /* Stuck */
-     , (29519,  11, True ) /* IgnoreCollisions */
-     , (29519,  13, True ) /* Ethereal */
-     , (29519,  14, True ) /* GravityStatus */
-     , (29519,  19, True ) /* Attackable */
-     , (29519,  22, True ) /* Inscribable */;
+VALUES (29519,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29519,   1, 'Noble Coat of Will') /* Name */;

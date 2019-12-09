@@ -9,22 +9,17 @@ VALUES (23315,   1,          8) /* ItemType - Jewelry */
      , (23315,   9,      32768) /* ValidLocations - NeckWear */
      , (23315,  16,          1) /* ItemUseable - No */
      , (23315,  19,         50) /* Value */
-     , (23315,  65,        101) /* Placement - Resting */
      , (23315,  92,        100) /* Structure */
      , (23315,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23315, 105,          6) /* ItemWorkmanship */
-     , (23315, 131,         60) /* MaterialType - Gold */;
+     , (23315, 131,         60) /* MaterialType - Gold */
+     , (23315, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23315,   1, False) /* Stuck */
-     , (23315,  11, True ) /* IgnoreCollisions */
-     , (23315,  13, True ) /* Ethereal */
-     , (23315,  14, True ) /* GravityStatus */
-     , (23315,  19, True ) /* Attackable */
-     , (23315,  22, True ) /* Inscribable */;
+VALUES (23315,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23315,  39, 0.800000011920929) /* DefaultScale */
+VALUES (23315,  39,     0.8) /* DefaultScale */
      , (23315, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

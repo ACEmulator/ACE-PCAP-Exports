@@ -12,18 +12,14 @@ VALUES (33610,   1,        512) /* ItemType - Container */
      , (33610,  19,       2500) /* Value */
      , (33610,  38,       9999) /* ResistLockpick */
      , (33610,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (33610, 173,          0) /* AppraisalLockpickSuccessPercent */
      , (33610, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33610,   1, True ) /* Stuck */
      , (33610,   2, False) /* Open */
      , (33610,   3, True ) /* Locked */
-     , (33610,  11, True ) /* IgnoreCollisions */
-     , (33610,  12, True ) /* ReportCollisions */
-     , (33610,  13, False) /* Ethereal */
-     , (33610,  14, True ) /* GravityStatus */
-     , (33610,  19, True ) /* Attackable */;
+     , (33610,  34, False) /* DefaultOpen */
+     , (33610,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33610,  54,       1) /* UseRadius */;

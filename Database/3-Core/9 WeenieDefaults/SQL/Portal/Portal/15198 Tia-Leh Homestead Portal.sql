@@ -12,19 +12,13 @@ VALUES (15198,   1,      65536) /* ItemType - Portal */
      , (15198, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15198,   1, True ) /* Stuck */
-     , (15198,  12, True ) /* ReportCollisions */
-     , (15198,  13, True ) /* Ethereal */
-     , (15198,  14, True ) /* GravityStatus */
-     , (15198,  15, True ) /* LightsStatus */
-     , (15198,  19, True ) /* Attackable */;
+VALUES (15198,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15198,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15198,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15198,   1, 'Tia-Leh Homestead Portal') /* Name */
-     , (15198,  38, 'Tia-Leh Homestead Portal (27.9N, 28.8W).') /* AppraisalPortalDestination */
      , (15198, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

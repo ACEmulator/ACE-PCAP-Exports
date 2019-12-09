@@ -12,19 +12,12 @@ VALUES (5790,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5790,  15,          3) /* StackUnitValue */
      , (5790,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5790,  19,          3) /* Value */
-     , (5790,  65,        101) /* Placement - Resting */
      , (5790,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5790,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5790,   1, False) /* Stuck */
-     , (5790,  11, True ) /* IgnoreCollisions */
-     , (5790,  13, True ) /* Ethereal */
-     , (5790,  14, True ) /* GravityStatus */
-     , (5790,  19, True ) /* Attackable */;
+     , (5790,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (5790, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5790,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (5790,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5790,   1, 'Spiced Lump') /* Name */

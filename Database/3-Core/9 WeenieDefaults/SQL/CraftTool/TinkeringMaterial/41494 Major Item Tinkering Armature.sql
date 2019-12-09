@@ -13,21 +13,16 @@ VALUES (41494,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (41494,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41494,  19,         10) /* Value */
      , (41494,  33,          1) /* Bonded - Bonded */
-     , (41494,  65,        101) /* Placement - Resting */
      , (41494,  92,        100) /* Structure */
      , (41494,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41494,  94,          8) /* TargetType - Jewelry */
      , (41494, 105,         35) /* ItemWorkmanship */
      , (41494, 151,          9) /* HookType - Floor, Yard */
-     , (41494, 170,          5) /* NumItemsInMaterial */;
+     , (41494, 170,          5) /* NumItemsInMaterial */
+     , (41494, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41494,   1, False) /* Stuck */
-     , (41494,  11, True ) /* IgnoreCollisions */
-     , (41494,  13, True ) /* Ethereal */
-     , (41494,  14, True ) /* GravityStatus */
-     , (41494,  19, True ) /* Attackable */
-     , (41494,  22, True ) /* Inscribable */;
+VALUES (41494,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41494,   1, 'Major Item Tinkering Armature') /* Name */

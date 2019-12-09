@@ -15,12 +15,7 @@ VALUES (8815,   1,         16) /* ItemType - Creature */
      , (8815, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8815,   1, True ) /* Stuck */
-     , (8815,  12, True ) /* ReportCollisions */
-     , (8815,  13, False) /* Ethereal */
-     , (8815,  14, True ) /* GravityStatus */
-     , (8815,  19, True ) /* Attackable */
-     , (8815,  42, True ) /* AllowEdgeSlide */;
+VALUES (8815,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8815,   1, 'Mausoleum Warden') /* Name */

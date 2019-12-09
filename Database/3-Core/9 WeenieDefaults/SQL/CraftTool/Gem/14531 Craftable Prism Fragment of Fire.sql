@@ -17,12 +17,7 @@ VALUES (14531,   1,       2048) /* ItemType - Gem */
      , (14531, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14531,   1, False) /* Stuck */
-     , (14531,  11, True ) /* IgnoreCollisions */
-     , (14531,  13, True ) /* Ethereal */
-     , (14531,  14, True ) /* GravityStatus */
-     , (14531,  19, True ) /* Attackable */
-     , (14531,  22, True ) /* Inscribable */;
+VALUES (14531,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14531,   1, 'Craftable Prism Fragment of Fire') /* Name */

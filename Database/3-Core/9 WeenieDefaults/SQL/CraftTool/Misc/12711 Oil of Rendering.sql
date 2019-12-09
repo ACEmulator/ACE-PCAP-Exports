@@ -13,21 +13,16 @@ VALUES (12711,   1,        128) /* ItemType - Misc */
      , (12711,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (12711,  19,          0) /* Value */
      , (12711,  33,          1) /* Bonded - Bonded */
-     , (12711,  65,        101) /* Placement - Resting */
      , (12711,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12711,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (12711, 114,          1) /* Attuned - Attuned */;
+     , (12711, 114,          1) /* Attuned - Attuned */
+     , (12711, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12711,   1, False) /* Stuck */
-     , (12711,  11, True ) /* IgnoreCollisions */
-     , (12711,  13, True ) /* Ethereal */
-     , (12711,  14, True ) /* GravityStatus */
-     , (12711,  19, True ) /* Attackable */
-     , (12711,  22, True ) /* Inscribable */;
+VALUES (12711,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12711,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (12711,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12711,   1, 'Oil of Rendering') /* Name */

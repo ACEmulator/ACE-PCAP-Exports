@@ -10,7 +10,6 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (2031,  18,          1) /* UiEffects - Magical */
      , (2031,  19,       1500) /* Value */
-     , (2031,  65,        101) /* Placement - Resting */
      , (2031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2031,  94,         16) /* TargetType - Creature */
      , (2031, 106,        200) /* ItemSpellcraft */
@@ -18,23 +17,19 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031, 108,        600) /* ItemMaxMana */
      , (2031, 115,        100) /* ItemSkillLevelLimit */
      , (2031, 151,          2) /* HookType - Wall */
-     , (2031, 176,         34) /* AppraisalItemSkill */;
+     , (2031, 176,         34) /* AppraisalItemSkill */
+     , (2031, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2031,   1, False) /* Stuck */
-     , (2031,  11, True ) /* IgnoreCollisions */
-     , (2031,  13, True ) /* Ethereal */
-     , (2031,  14, True ) /* GravityStatus */
-     , (2031,  19, True ) /* Attackable */
-     , (2031,  22, True ) /* Inscribable */;
+VALUES (2031,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2031,   5,  -0.025) /* ManaRate */
-     , (2031,  29, 1.20000000298023) /* WeaponDefense */
-     , (2031,  39, 0.699999988079071) /* DefaultScale */
-     , (2031, 144, 1.9442455687611E-314) /* ManaConversionMod */
+VALUES (2031,   5,   -0.02) /* ManaRate */
+     , (2031,  29,     1.2) /* WeaponDefense */
+     , (2031,  39,     0.7) /* DefaultScale */
+     , (2031, 144,       0) /* ManaConversionMod */
      , (2031, 147,       1) /* CriticalFrequency */
-     , (2031, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (2031, 152,    1.08) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2031,   1, 'Branith''s Staff') /* Name */

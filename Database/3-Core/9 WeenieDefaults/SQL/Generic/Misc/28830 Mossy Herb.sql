@@ -9,22 +9,17 @@ VALUES (28830,   1,        128) /* ItemType - Misc */
      , (28830,  16,          1) /* ItemUseable - No */
      , (28830,  19,          0) /* Value */
      , (28830,  33,          1) /* Bonded - Bonded */
-     , (28830,  65,        101) /* Placement - Resting */
      , (28830,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28830, 114,          1) /* Attuned - Attuned */;
+     , (28830, 114,          1) /* Attuned - Attuned */
+     , (28830, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28830,   1, False) /* Stuck */
-     , (28830,  11, True ) /* IgnoreCollisions */
-     , (28830,  13, True ) /* Ethereal */
-     , (28830,  14, True ) /* GravityStatus */
-     , (28830,  19, True ) /* Attackable */
-     , (28830,  22, True ) /* Inscribable */;
+VALUES (28830,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28830, 8010,       0) /* PCAPRecordedVelocityX */
      , (28830, 8011,       0) /* PCAPRecordedVelocityY */
-     , (28830, 8012, -0.295928508043289) /* PCAPRecordedVelocityZ */;
+     , (28830, 8012,    -0.3) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28830,   1, 'Mossy Herb') /* Name */

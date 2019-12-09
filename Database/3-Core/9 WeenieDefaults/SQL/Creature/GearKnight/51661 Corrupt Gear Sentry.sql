@@ -17,15 +17,10 @@ VALUES (51661,   1,         16) /* ItemType - Creature */
      , (51661, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51661,   1, True ) /* Stuck */
-     , (51661,  12, True ) /* ReportCollisions */
-     , (51661,  13, False) /* Ethereal */
-     , (51661,  14, True ) /* GravityStatus */
-     , (51661,  19, True ) /* Attackable */
-     , (51661,  42, True ) /* AllowEdgeSlide */;
+VALUES (51661,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51661,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51661,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51661,   1, 'Corrupt Gear Sentry') /* Name */

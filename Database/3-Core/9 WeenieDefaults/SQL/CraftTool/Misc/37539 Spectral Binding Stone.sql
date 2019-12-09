@@ -14,18 +14,13 @@ VALUES (37539,   1,        128) /* ItemType - Misc */
      , (37539,  18,          1) /* UiEffects - Magical */
      , (37539,  19,         15) /* Value */
      , (37539,  33,          1) /* Bonded - Bonded */
-     , (37539,  65,        101) /* Placement - Resting */
      , (37539,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37539,  94,      33153) /* TargetType - Misc, WeaponOrCaster */
-     , (37539, 114,          1) /* Attuned - Attuned */;
+     , (37539, 114,          1) /* Attuned - Attuned */
+     , (37539, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37539,   1, False) /* Stuck */
-     , (37539,  11, True ) /* IgnoreCollisions */
-     , (37539,  13, True ) /* Ethereal */
-     , (37539,  14, True ) /* GravityStatus */
-     , (37539,  19, True ) /* Attackable */
-     , (37539,  22, True ) /* Inscribable */;
+VALUES (37539,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37539,   1, 'Spectral Binding Stone') /* Name */

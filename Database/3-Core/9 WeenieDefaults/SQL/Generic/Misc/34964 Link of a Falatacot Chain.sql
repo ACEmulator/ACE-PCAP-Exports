@@ -9,20 +9,15 @@ VALUES (34964,   1,        128) /* ItemType - Misc */
      , (34964,  16,          1) /* ItemUseable - No */
      , (34964,  19,          0) /* Value */
      , (34964,  33,          1) /* Bonded - Bonded */
-     , (34964,  65,        101) /* Placement - Resting */
      , (34964,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34964, 114,          1) /* Attuned - Attuned */;
+     , (34964, 114,          1) /* Attuned - Attuned */
+     , (34964, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34964,   1, False) /* Stuck */
-     , (34964,  11, True ) /* IgnoreCollisions */
-     , (34964,  13, True ) /* Ethereal */
-     , (34964,  14, True ) /* GravityStatus */
-     , (34964,  19, True ) /* Attackable */
-     , (34964,  22, True ) /* Inscribable */;
+VALUES (34964,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34964,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (34964,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34964,   1, 'Link of a Falatacot Chain') /* Name */

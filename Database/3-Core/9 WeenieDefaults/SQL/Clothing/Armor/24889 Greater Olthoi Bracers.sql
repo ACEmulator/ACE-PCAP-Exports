@@ -12,29 +12,24 @@ VALUES (24889,   1,          2) /* ItemType - Armor */
      , (24889,  19,       2000) /* Value */
      , (24889,  28,        500) /* ArmorLevel */
      , (24889,  36,       9999) /* ResistMagic */
-     , (24889,  65,        101) /* Placement - Resting */
      , (24889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24889, 158,          7) /* WieldRequirements - Level */
      , (24889, 159,          1) /* WieldSkillType - Axe */
-     , (24889, 160,         80) /* WieldDifficulty */;
+     , (24889, 160,         80) /* WieldDifficulty */
+     , (24889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24889,   1, False) /* Stuck */
-     , (24889,  11, True ) /* IgnoreCollisions */
-     , (24889,  13, True ) /* Ethereal */
-     , (24889,  14, True ) /* GravityStatus */
-     , (24889,  19, True ) /* Attackable */
-     , (24889,  22, True ) /* Inscribable */
+VALUES (24889,  22, True ) /* Inscribable */
      , (24889, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24889,  13, 1.70000004768372) /* ArmorModVsSlash */
-     , (24889,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (24889,  15, 1.29999995231628) /* ArmorModVsBludgeon */
+VALUES (24889,  13,     1.7) /* ArmorModVsSlash */
+     , (24889,  14,     1.3) /* ArmorModVsPierce */
+     , (24889,  15,     1.3) /* ArmorModVsBludgeon */
      , (24889,  16,     1.5) /* ArmorModVsCold */
      , (24889,  17,     1.5) /* ArmorModVsFire */
      , (24889,  18,       2) /* ArmorModVsAcid */
-     , (24889,  19, 1.60000002384186) /* ArmorModVsElectric */
+     , (24889,  19,     1.6) /* ArmorModVsElectric */
      , (24889, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -15,12 +15,7 @@ VALUES (32637,   1,          2) /* ItemType - Armor */
      , (32637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32637,   1, False) /* Stuck */
-     , (32637,  11, True ) /* IgnoreCollisions */
-     , (32637,  13, True ) /* Ethereal */
-     , (32637,  14, True ) /* GravityStatus */
-     , (32637,  19, True ) /* Attackable */
-     , (32637,  22, True ) /* Inscribable */;
+VALUES (32637,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32637,   1, 'Shield of Elysa''s Royal Guard') /* Name */;

@@ -15,16 +15,12 @@ VALUES (23570,   1,         16) /* ItemType - Creature */
      , (23570, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23570,   1, True ) /* Stuck */
-     , (23570,  12, True ) /* ReportCollisions */
-     , (23570,  13, False) /* Ethereal */
-     , (23570,  14, True ) /* GravityStatus */
-     , (23570,  19, True ) /* Attackable */;
+VALUES (23570,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23570, 8010,       0) /* PCAPRecordedVelocityX */
      , (23570, 8011,       0) /* PCAPRecordedVelocityY */
-     , (23570, 8012, -0.189574435353279) /* PCAPRecordedVelocityZ */;
+     , (23570, 8012,   -0.19) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23570,   1, 'Virindi Paradox') /* Name */

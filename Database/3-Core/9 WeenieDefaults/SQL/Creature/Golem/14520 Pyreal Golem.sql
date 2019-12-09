@@ -16,11 +16,7 @@ VALUES (14520,   1,         16) /* ItemType - Creature */
      , (14520, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14520,   1, True ) /* Stuck */
-     , (14520,  12, True ) /* ReportCollisions */
-     , (14520,  13, False) /* Ethereal */
-     , (14520,  14, True ) /* GravityStatus */
-     , (14520,  19, True ) /* Attackable */;
+VALUES (14520,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14520,   1, 'Pyreal Golem') /* Name */

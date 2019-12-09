@@ -16,12 +16,7 @@ VALUES (52573,   1,         16) /* ItemType - Creature */
      , (52573, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52573,   1, True ) /* Stuck */
-     , (52573,  12, True ) /* ReportCollisions */
-     , (52573,  13, False) /* Ethereal */
-     , (52573,  14, True ) /* GravityStatus */
-     , (52573,  19, True ) /* Attackable */
-     , (52573,  42, True ) /* AllowEdgeSlide */;
+VALUES (52573,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52573,   1, 'Zefir Thorn Poisoner') /* Name */

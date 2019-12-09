@@ -16,15 +16,10 @@ VALUES (34084,   1,        128) /* ItemType - Misc */
      , (34084,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34084,   1, False) /* Stuck */
-     , (34084,  11, True ) /* IgnoreCollisions */
-     , (34084,  13, True ) /* Ethereal */
-     , (34084,  14, True ) /* GravityStatus */
-     , (34084,  19, True ) /* Attackable */
-     , (34084,  22, True ) /* Inscribable */;
+VALUES (34084,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34084,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (34084,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34084,   1, 'Inanimate Zombie Butler') /* Name */

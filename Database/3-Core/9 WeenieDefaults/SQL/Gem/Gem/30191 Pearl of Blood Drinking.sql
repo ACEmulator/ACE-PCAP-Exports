@@ -16,22 +16,17 @@ VALUES (30191,   1,       2048) /* ItemType - Gem */
      , (30191,  19,          0) /* Value */
      , (30191,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30191,  33,         -1) /* Bonded - Slippery */
-     , (30191,  65,        101) /* Placement - Resting */
      , (30191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30191,  94,         16) /* TargetType - Creature */
      , (30191, 106,        325) /* ItemSpellcraft */
      , (30191, 107,      10000) /* ItemCurMana */
      , (30191, 108,      10000) /* ItemMaxMana */
      , (30191, 109,          0) /* ItemDifficulty */
-     , (30191, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30191, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30191, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30191,   1, False) /* Stuck */
-     , (30191,  11, True ) /* IgnoreCollisions */
-     , (30191,  13, True ) /* Ethereal */
-     , (30191,  14, True ) /* GravityStatus */
-     , (30191,  19, True ) /* Attackable */
-     , (30191, 108, True ) /* RareUsesTimer */;
+VALUES (30191, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30191,   1, 'Pearl of Blood Drinking') /* Name */

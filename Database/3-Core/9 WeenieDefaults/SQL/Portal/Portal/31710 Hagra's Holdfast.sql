@@ -13,20 +13,14 @@ VALUES (31710,   1,      65536) /* ItemType - Portal */
      , (31710, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31710,   1, True ) /* Stuck */
-     , (31710,  12, True ) /* ReportCollisions */
-     , (31710,  13, True ) /* Ethereal */
-     , (31710,  14, True ) /* GravityStatus */
-     , (31710,  15, True ) /* LightsStatus */
-     , (31710,  19, True ) /* Attackable */;
+VALUES (31710,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31710,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31710,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31710,   1, 'Hagra''s Holdfast') /* Name */
      , (31710,  16, 'This dungeon is quest restricted.  The Hunter Kassoka in Ahurenga might know something about it.') /* LongDesc */
-     , (31710,  38, 'Hagra''s Holdfast') /* AppraisalPortalDestination */
      , (31710, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

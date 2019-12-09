@@ -31,19 +31,14 @@ VALUES (30375,   4, 100000000000) /* ItemTotalXp */
      , (30375,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30375,   1, False) /* Stuck */
-     , (30375,  11, True ) /* IgnoreCollisions */
-     , (30375,  13, True ) /* Ethereal */
-     , (30375,  14, True ) /* GravityStatus */
-     , (30375,  19, True ) /* Attackable */
-     , (30375,  22, True ) /* Inscribable */;
+VALUES (30375,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30375,   5, -0.0333333015441895) /* ManaRate */
-     , (30375,  29, 1.17999994754791) /* WeaponDefense */
-     , (30375, 144, 0.180000007152557) /* ManaConversionMod */
+VALUES (30375,   5,   -0.03) /* ManaRate */
+     , (30375,  29,    1.18) /* WeaponDefense */
+     , (30375, 144,    0.18) /* ManaConversionMod */
      , (30375, 147,       1) /* CriticalFrequency */
-     , (30375, 152, 1.22000002861023) /* ElementalDamageMod */;
+     , (30375, 152,    1.22) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30375,   1, 'Wand of the Frore Crystal') /* Name */

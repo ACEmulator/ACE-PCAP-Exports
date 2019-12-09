@@ -15,11 +15,7 @@ VALUES (52293,   1,         16) /* ItemType - Creature */
      , (52293, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52293,   1, True ) /* Stuck */
-     , (52293,  12, True ) /* ReportCollisions */
-     , (52293,  13, False) /* Ethereal */
-     , (52293,  14, True ) /* GravityStatus */
-     , (52293,  19, True ) /* Attackable */;
+VALUES (52293,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52293,   1, 'Spectral Bloodmage') /* Name */

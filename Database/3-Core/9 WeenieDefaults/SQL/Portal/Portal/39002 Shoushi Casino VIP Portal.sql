@@ -12,19 +12,13 @@ VALUES (39002,   1,      65536) /* ItemType - Portal */
      , (39002, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39002,   1, True ) /* Stuck */
-     , (39002,  12, True ) /* ReportCollisions */
-     , (39002,  13, True ) /* Ethereal */
-     , (39002,  14, True ) /* GravityStatus */
-     , (39002,  15, True ) /* LightsStatus */
-     , (39002,  19, True ) /* Attackable */;
+VALUES (39002,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39002,  54, -0.100000001490116) /* UseRadius */;
+VALUES (39002,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39002,   1, 'Shoushi Casino VIP Portal') /* Name */
-     , (39002,  38, 'Shoushi Casino VIP Portal (34.2S, 73.6E).') /* AppraisalPortalDestination */
      , (39002, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

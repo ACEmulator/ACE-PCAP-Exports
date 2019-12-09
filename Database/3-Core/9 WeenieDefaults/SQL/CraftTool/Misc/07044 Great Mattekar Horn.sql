@@ -12,21 +12,16 @@ VALUES (7044,   1,        128) /* ItemType - Misc */
      , (7044,  15,          0) /* StackUnitValue */
      , (7044,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7044,  19,          0) /* Value */
-     , (7044,  65,        101) /* Placement - Resting */
      , (7044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7044,  94,        128) /* TargetType - Misc */
-     , (7044, 151,          2) /* HookType - Wall */;
+     , (7044, 151,          2) /* HookType - Wall */
+     , (7044, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7044,   1, False) /* Stuck */
-     , (7044,  11, True ) /* IgnoreCollisions */
-     , (7044,  13, True ) /* Ethereal */
-     , (7044,  14, True ) /* GravityStatus */
-     , (7044,  19, True ) /* Attackable */
-     , (7044,  22, True ) /* Inscribable */;
+VALUES (7044,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7044,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (7044,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7044,   1, 'Great Mattekar Horn') /* Name */

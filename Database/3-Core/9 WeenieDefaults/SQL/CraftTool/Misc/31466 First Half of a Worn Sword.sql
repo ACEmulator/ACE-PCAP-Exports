@@ -12,17 +12,12 @@ VALUES (31466,   1,        128) /* ItemType - Misc */
      , (31466,  15,          0) /* StackUnitValue */
      , (31466,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31466,  19,          0) /* Value */
-     , (31466,  65,        101) /* Placement - Resting */
      , (31466,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31466,  94,        128) /* TargetType - Misc */;
+     , (31466,  94,        128) /* TargetType - Misc */
+     , (31466, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31466,   1, False) /* Stuck */
-     , (31466,  11, True ) /* IgnoreCollisions */
-     , (31466,  13, True ) /* Ethereal */
-     , (31466,  14, True ) /* GravityStatus */
-     , (31466,  19, True ) /* Attackable */
-     , (31466,  22, True ) /* Inscribable */;
+VALUES (31466,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31466,   1, 'First Half of a Worn Sword') /* Name */

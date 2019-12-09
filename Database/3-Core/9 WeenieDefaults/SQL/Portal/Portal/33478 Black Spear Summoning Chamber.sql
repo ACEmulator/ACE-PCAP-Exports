@@ -14,19 +14,13 @@ VALUES (33478,   1,      65536) /* ItemType - Portal */
      , (33478, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33478,   1, True ) /* Stuck */
-     , (33478,  12, True ) /* ReportCollisions */
-     , (33478,  13, True ) /* Ethereal */
-     , (33478,  14, True ) /* GravityStatus */
-     , (33478,  15, True ) /* LightsStatus */
-     , (33478,  19, True ) /* Attackable */;
+VALUES (33478,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33478,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33478,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33478,   1, 'Black Spear Summoning Chamber') /* Name */
-     , (33478,  38, 'Black Spear Summoning Chamber') /* AppraisalPortalDestination */
      , (33478, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,19 +12,13 @@ VALUES (12498,   1,      65536) /* ItemType - Portal */
      , (12498, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12498,   1, True ) /* Stuck */
-     , (12498,  12, True ) /* ReportCollisions */
-     , (12498,  13, True ) /* Ethereal */
-     , (12498,  14, True ) /* GravityStatus */
-     , (12498,  15, True ) /* LightsStatus */
-     , (12498,  19, True ) /* Attackable */;
+VALUES (12498,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12498,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12498,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12498,   1, 'Forgotten Hills Portal') /* Name */
-     , (12498,  38, 'Forgotten Hills Portal (14.1N, 37.8E).') /* AppraisalPortalDestination */
      , (12498, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

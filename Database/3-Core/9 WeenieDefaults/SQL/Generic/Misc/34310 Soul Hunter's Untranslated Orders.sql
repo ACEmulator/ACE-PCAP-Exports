@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34310,   1,        128) /* ItemType - Misc */
      , (34310,   5,        100) /* EncumbranceVal */
      , (34310,  16,          1) /* ItemUseable - No */
-     , (34310,  65,        101) /* Placement - Resting */
-     , (34310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34310, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34310,   1, False) /* Stuck */
-     , (34310,  11, True ) /* IgnoreCollisions */
-     , (34310,  13, True ) /* Ethereal */
-     , (34310,  14, True ) /* GravityStatus */
-     , (34310,  19, True ) /* Attackable */
-     , (34310,  22, True ) /* Inscribable */;
+VALUES (34310,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34310,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (34310,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34310,   1, 'Soul Hunter''s Untranslated Orders') /* Name */;

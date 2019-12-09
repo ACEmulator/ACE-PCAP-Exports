@@ -12,19 +12,13 @@ VALUES (1112,   1,      65536) /* ItemType - Portal */
      , (1112, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1112,   1, True ) /* Stuck */
-     , (1112,  12, True ) /* ReportCollisions */
-     , (1112,  13, True ) /* Ethereal */
-     , (1112,  14, True ) /* GravityStatus */
-     , (1112,  15, True ) /* LightsStatus */
-     , (1112,  19, True ) /* Attackable */;
+VALUES (1112,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1112,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1112,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1112,   1, 'Isle of Tears Portal') /* Name */
-     , (1112,  38, 'Isle of Tears Portal (22.5N, 51.9E).') /* AppraisalPortalDestination */
      , (1112, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

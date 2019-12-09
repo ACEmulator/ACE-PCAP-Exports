@@ -17,15 +17,10 @@ VALUES (40102,   1,        128) /* ItemType - Misc */
      , (40102, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40102,   1, False) /* Stuck */
-     , (40102,  11, True ) /* IgnoreCollisions */
-     , (40102,  13, True ) /* Ethereal */
-     , (40102,  14, True ) /* GravityStatus */
-     , (40102,  19, True ) /* Attackable */
-     , (40102,  69, False) /* IsSellable */;
+VALUES (40102,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40102,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (40102,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40102,   1, 'Rare Crystalline Shard') /* Name */

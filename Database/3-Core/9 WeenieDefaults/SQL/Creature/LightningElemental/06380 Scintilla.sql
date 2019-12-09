@@ -17,15 +17,10 @@ VALUES (6380,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6380,   1, True ) /* Stuck */
-     , (6380,  12, True ) /* ReportCollisions */
-     , (6380,  13, False) /* Ethereal */
-     , (6380,  14, True ) /* GravityStatus */
-     , (6380,  15, True ) /* LightsStatus */
-     , (6380,  19, True ) /* Attackable */
      , (6380, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6380,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (6380,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6380,   1, 'Scintilla') /* Name */

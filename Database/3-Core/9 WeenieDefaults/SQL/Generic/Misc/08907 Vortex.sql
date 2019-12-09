@@ -11,11 +11,7 @@ VALUES (8907,   1,        128) /* ItemType - Misc */
      , (8907,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8907,   1, True ) /* Stuck */
-     , (8907,  11, True ) /* IgnoreCollisions */
-     , (8907,  13, True ) /* Ethereal */
-     , (8907,  14, True ) /* GravityStatus */
-     , (8907,  19, True ) /* Attackable */;
+VALUES (8907,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8907,   1, 'Vortex') /* Name */

@@ -9,12 +9,6 @@ VALUES (14570,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14570,   1, True ) /* Stuck */
-     , (14570,  12, True ) /* ReportCollisions */
-     , (14570,  13, False) /* Ethereal */
-     , (14570,  15, True ) /* LightsStatus */
-     , (14570,  16, True ) /* ScriptedCollision */
-     , (14570,  17, True ) /* Inelastic */
-     , (14570,  19, True ) /* Attackable */
      , (14570,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -22,9 +16,9 @@ VALUES (14570,  76,     0.5) /* Translucency */
      , (14570,  77,       1) /* PhysicsScriptIntensity */
      , (14570,  78,       1) /* Friction */
      , (14570,  79,       0) /* Elasticity */
-     , (14570, 8010, 10.7593307495117) /* PCAPRecordedVelocityX */
-     , (14570, 8011, -8.92108535766602) /* PCAPRecordedVelocityY */
-     , (14570, 8012, -0.861967861652374) /* PCAPRecordedVelocityZ */;
+     , (14570, 8010,   10.76) /* PCAPRecordedVelocityX */
+     , (14570, 8011,   -8.92) /* PCAPRecordedVelocityY */
+     , (14570, 8012,   -0.86) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14570,   1, 'Spirit of Aun Tanua') /* Name */;

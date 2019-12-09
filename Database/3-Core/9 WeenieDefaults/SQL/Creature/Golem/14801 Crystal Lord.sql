@@ -15,15 +15,11 @@ VALUES (14801,   1,         16) /* ItemType - Creature */
      , (14801, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14801,   1, True ) /* Stuck */
-     , (14801,  12, True ) /* ReportCollisions */
-     , (14801,  13, False) /* Ethereal */
-     , (14801,  14, True ) /* GravityStatus */
-     , (14801,  19, True ) /* Attackable */;
+VALUES (14801,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14801,  39, 1.60000002384186) /* DefaultScale */
-     , (14801,  76, 0.300000011920929) /* Translucency */;
+VALUES (14801,  39,     1.6) /* DefaultScale */
+     , (14801,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14801,   1, 'Crystal Lord') /* Name */

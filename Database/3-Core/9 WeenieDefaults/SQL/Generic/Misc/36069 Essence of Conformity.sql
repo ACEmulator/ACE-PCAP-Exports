@@ -8,16 +8,11 @@ VALUES (36069,   1,        128) /* ItemType - Misc */
      , (36069,   5,          1) /* EncumbranceVal */
      , (36069,  16,          1) /* ItemUseable - No */
      , (36069,  18,         64) /* UiEffects - Lightning */
-     , (36069,  65,        101) /* Placement - Resting */
-     , (36069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36069, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36069,   1, False) /* Stuck */
-     , (36069,  11, True ) /* IgnoreCollisions */
-     , (36069,  13, True ) /* Ethereal */
-     , (36069,  14, True ) /* GravityStatus */
-     , (36069,  19, True ) /* Attackable */
-     , (36069,  22, True ) /* Inscribable */;
+VALUES (36069,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36069,   1, 'Essence of Conformity') /* Name */;

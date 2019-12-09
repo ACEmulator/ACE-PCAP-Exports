@@ -23,15 +23,10 @@ VALUES (36448,   1,         32) /* ItemType - Food */
      , (36448, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36448,   1, False) /* Stuck */
-     , (36448,  11, True ) /* IgnoreCollisions */
-     , (36448,  13, True ) /* Ethereal */
-     , (36448,  14, True ) /* GravityStatus */
-     , (36448,  19, True ) /* Attackable */
-     , (36448,  69, False) /* IsSellable */;
+VALUES (36448,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36448,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (36448,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36448,   1, 'Rock Candy Knath') /* Name */

@@ -13,11 +13,7 @@ VALUES (31301,   1,        128) /* ItemType - Misc */
      , (31301, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31301,   1, True ) /* Stuck */
-     , (31301,  11, True ) /* IgnoreCollisions */
-     , (31301,  13, True ) /* Ethereal */
-     , (31301,  14, True ) /* GravityStatus */
-     , (31301,  19, True ) /* Attackable */;
+VALUES (31301,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31301,   1, 'Ruschk Fire') /* Name */

@@ -10,22 +10,17 @@ VALUES (12222,   1,      32768) /* ItemType - Caster */
      , (12222,  16,          1) /* ItemUseable - No */
      , (12222,  18,          1) /* UiEffects - Magical */
      , (12222,  19,         75) /* Value */
-     , (12222,  65,        101) /* Placement - Resting */
      , (12222,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12222,  94,         16) /* TargetType - Creature */
-     , (12222, 151,          2) /* HookType - Wall */;
+     , (12222, 151,          2) /* HookType - Wall */
+     , (12222, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12222,   1, False) /* Stuck */
-     , (12222,  11, True ) /* IgnoreCollisions */
-     , (12222,  13, True ) /* Ethereal */
-     , (12222,  14, True ) /* GravityStatus */
-     , (12222,  19, True ) /* Attackable */
-     , (12222,  22, True ) /* Inscribable */;
+VALUES (12222,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12222,  29,       1) /* WeaponDefense */
-     , (12222,  39, 1.20000004768372) /* DefaultScale */
+     , (12222,  39,     1.2) /* DefaultScale */
      , (12222, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

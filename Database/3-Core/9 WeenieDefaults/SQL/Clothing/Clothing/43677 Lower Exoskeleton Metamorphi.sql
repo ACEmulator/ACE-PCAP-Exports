@@ -10,16 +10,11 @@ VALUES (43677,   1,          4) /* ItemType - Clothing */
      , (43677,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
      , (43677,  16,          1) /* ItemUseable - No */
      , (43677,  19,       2000) /* Value */
-     , (43677,  65,        101) /* Placement - Resting */
-     , (43677,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43677,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43677, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43677,   1, False) /* Stuck */
-     , (43677,  11, True ) /* IgnoreCollisions */
-     , (43677,  13, True ) /* Ethereal */
-     , (43677,  14, True ) /* GravityStatus */
-     , (43677,  19, True ) /* Attackable */
-     , (43677,  22, True ) /* Inscribable */;
+VALUES (43677,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43677,   1, 'Lower Exoskeleton Metamorphi') /* Name */;

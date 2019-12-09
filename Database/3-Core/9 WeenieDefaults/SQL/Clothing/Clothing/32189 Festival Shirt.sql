@@ -10,16 +10,11 @@ VALUES (32189,   1,          4) /* ItemType - Clothing */
      , (32189,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
      , (32189,  16,          1) /* ItemUseable - No */
      , (32189,  19,         23) /* Value */
-     , (32189,  65,        101) /* Placement - Resting */
-     , (32189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (32189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32189, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32189,   1, False) /* Stuck */
-     , (32189,  11, True ) /* IgnoreCollisions */
-     , (32189,  13, True ) /* Ethereal */
-     , (32189,  14, True ) /* GravityStatus */
-     , (32189,  19, True ) /* Attackable */
-     , (32189,  22, True ) /* Inscribable */;
+VALUES (32189,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32189,   1, 'Festival Shirt') /* Name */;

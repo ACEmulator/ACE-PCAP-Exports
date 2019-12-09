@@ -13,11 +13,7 @@ VALUES (34327,   1,         16) /* ItemType - Creature */
      , (34327, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34327,   1, True ) /* Stuck */
-     , (34327,  12, True ) /* ReportCollisions */
-     , (34327,  13, False) /* Ethereal */
-     , (34327,  14, True ) /* GravityStatus */
-     , (34327,  19, True ) /* Attackable */;
+VALUES (34327,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34327,   1, 'Thralled Guruk Beast') /* Name */

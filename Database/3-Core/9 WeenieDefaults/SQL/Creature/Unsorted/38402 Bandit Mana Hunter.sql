@@ -13,11 +13,7 @@ VALUES (38402,   1,         16) /* ItemType - Creature */
      , (38402, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38402,   1, True ) /* Stuck */
-     , (38402,  12, True ) /* ReportCollisions */
-     , (38402,  13, False) /* Ethereal */
-     , (38402,  14, True ) /* GravityStatus */
-     , (38402,  19, True ) /* Attackable */;
+VALUES (38402,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38402,   1, 'Bandit Mana Hunter') /* Name */

@@ -12,16 +12,9 @@ VALUES (686,   1,       4096) /* ItemType - SpellComponents */
      , (686,  15,        100) /* StackUnitValue */
      , (686,  16,          1) /* ItemUseable - No */
      , (686,  19,        100) /* Value */
-     , (686,  65,        101) /* Placement - Resting */
      , (686,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (686, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (686,   1, False) /* Stuck */
-     , (686,  11, True ) /* IgnoreCollisions */
-     , (686,  13, True ) /* Ethereal */
-     , (686,  14, True ) /* GravityStatus */
-     , (686,  19, True ) /* Attackable */;
+     , (686, 151,          2) /* HookType - Wall */
+     , (686, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (686,   1, 'Copper Scarab') /* Name */;

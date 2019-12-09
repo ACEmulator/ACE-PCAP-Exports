@@ -12,18 +12,11 @@ VALUES (8291,   1,       4096) /* ItemType - SpellComponents */
      , (8291,  15,       1250) /* StackUnitValue */
      , (8291,  16,          1) /* ItemUseable - No */
      , (8291,  19,       1250) /* Value */
-     , (8291,  65,        101) /* Placement - Resting */
-     , (8291,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8291,   1, False) /* Stuck */
-     , (8291,  11, True ) /* IgnoreCollisions */
-     , (8291,  13, True ) /* Ethereal */
-     , (8291,  14, True ) /* GravityStatus */
-     , (8291,  19, True ) /* Attackable */;
+     , (8291,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8291, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8291,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8291,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8291,   1, 'Ginseng Pea') /* Name */;

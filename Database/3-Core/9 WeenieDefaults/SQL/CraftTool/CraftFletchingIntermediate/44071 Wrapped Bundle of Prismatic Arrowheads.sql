@@ -13,17 +13,12 @@ VALUES (44071,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44071,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44071,  19,       1000) /* Value */
      , (44071,  33,          1) /* Bonded - Bonded */
-     , (44071,  65,        101) /* Placement - Resting */
      , (44071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44071,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (44071,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (44071, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44071,   1, False) /* Stuck */
-     , (44071,  11, True ) /* IgnoreCollisions */
-     , (44071,  13, True ) /* Ethereal */
-     , (44071,  14, True ) /* GravityStatus */
-     , (44071,  19, True ) /* Attackable */
-     , (44071,  69, False) /* IsSellable */;
+VALUES (44071,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44071,   1, 'Wrapped Bundle of Prismatic Arrowheads') /* Name */

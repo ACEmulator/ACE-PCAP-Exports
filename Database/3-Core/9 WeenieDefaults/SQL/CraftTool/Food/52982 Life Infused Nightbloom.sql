@@ -19,15 +19,10 @@ VALUES (52982,   1,         32) /* ItemType - Food */
      , (52982, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52982,   1, False) /* Stuck */
-     , (52982,  11, True ) /* IgnoreCollisions */
-     , (52982,  13, True ) /* Ethereal */
-     , (52982,  14, True ) /* GravityStatus */
-     , (52982,  19, True ) /* Attackable */
-     , (52982,  69, False) /* IsSellable */;
+VALUES (52982,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52982,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (52982,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52982,   1, 'Life Infused Nightbloom') /* Name */

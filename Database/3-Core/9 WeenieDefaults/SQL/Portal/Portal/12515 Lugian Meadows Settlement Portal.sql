@@ -12,19 +12,13 @@ VALUES (12515,   1,      65536) /* ItemType - Portal */
      , (12515, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12515,   1, True ) /* Stuck */
-     , (12515,  12, True ) /* ReportCollisions */
-     , (12515,  13, True ) /* Ethereal */
-     , (12515,  14, True ) /* GravityStatus */
-     , (12515,  15, True ) /* LightsStatus */
-     , (12515,  19, True ) /* Attackable */;
+VALUES (12515,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12515,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12515,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12515,   1, 'Lugian Meadows Settlement Portal') /* Name */
-     , (12515,  38, 'Lugian Meadows Settlement Portal (74.5S, 65.9E).') /* AppraisalPortalDestination */
      , (12515, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

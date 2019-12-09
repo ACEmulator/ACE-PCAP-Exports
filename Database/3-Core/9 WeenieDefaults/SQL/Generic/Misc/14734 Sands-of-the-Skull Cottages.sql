@@ -11,12 +11,7 @@ VALUES (14734,   1,        128) /* ItemType - Misc */
      , (14734,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14734,   1, True ) /* Stuck */
-     , (14734,  11, True ) /* IgnoreCollisions */
-     , (14734,  12, True ) /* ReportCollisions */
-     , (14734,  13, False) /* Ethereal */
-     , (14734,  14, True ) /* GravityStatus */
-     , (14734,  19, True ) /* Attackable */;
+VALUES (14734,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14734,   1, 'Sands-of-the-Skull Cottages') /* Name */

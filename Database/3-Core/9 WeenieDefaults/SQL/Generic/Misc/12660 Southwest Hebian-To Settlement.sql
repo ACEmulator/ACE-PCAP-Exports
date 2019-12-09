@@ -11,12 +11,7 @@ VALUES (12660,   1,        128) /* ItemType - Misc */
      , (12660,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12660,   1, True ) /* Stuck */
-     , (12660,  11, True ) /* IgnoreCollisions */
-     , (12660,  12, True ) /* ReportCollisions */
-     , (12660,  13, False) /* Ethereal */
-     , (12660,  14, True ) /* GravityStatus */
-     , (12660,  19, True ) /* Attackable */;
+VALUES (12660,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12660,   1, 'Southwest Hebian-To Settlement') /* Name */

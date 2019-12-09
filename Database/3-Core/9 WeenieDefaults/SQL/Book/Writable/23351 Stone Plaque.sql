@@ -8,22 +8,17 @@ VALUES (23351,   1,       8192) /* ItemType - Writable */
      , (23351,   5,       9000) /* EncumbranceVal */
      , (23351,  16,         48) /* ItemUseable - ViewedRemote */
      , (23351,  19,        125) /* Value */
-     , (23351,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (23351,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23351,   1, True ) /* Stuck */
-     , (23351,  11, True ) /* IgnoreCollisions */
-     , (23351,  12, True ) /* ReportCollisions */
-     , (23351,  13, False) /* Ethereal */
-     , (23351,  14, True ) /* GravityStatus */
-     , (23351,  19, True ) /* Attackable */;
+VALUES (23351,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23351,  39, 0.850000023841858) /* DefaultScale */
+VALUES (23351,  39,    0.85) /* DefaultScale */
      , (23351,  54,       5) /* UseRadius */
      , (23351, 8010,       0) /* PCAPRecordedVelocityX */
      , (23351, 8011,       0) /* PCAPRecordedVelocityY */
-     , (23351, 8012, -0.255466133356094) /* PCAPRecordedVelocityZ */;
+     , (23351, 8012,   -0.26) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23351,   1, 'Stone Plaque') /* Name */;

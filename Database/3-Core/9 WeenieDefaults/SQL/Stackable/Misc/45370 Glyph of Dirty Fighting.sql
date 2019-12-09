@@ -12,15 +12,8 @@ VALUES (45370,   1,        128) /* ItemType - Misc */
      , (45370,  15,      30000) /* StackUnitValue */
      , (45370,  16,          1) /* ItemUseable - No */
      , (45370,  19,      30000) /* Value */
-     , (45370,  65,        101) /* Placement - Resting */
-     , (45370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45370,   1, False) /* Stuck */
-     , (45370,  11, True ) /* IgnoreCollisions */
-     , (45370,  13, True ) /* Ethereal */
-     , (45370,  14, True ) /* GravityStatus */
-     , (45370,  19, True ) /* Attackable */;
+     , (45370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45370, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45370,   1, 'Glyph of Dirty Fighting') /* Name */

@@ -22,15 +22,10 @@ VALUES (51384,   1,          1) /* ItemType - MeleeWeapon */
      , (51384, 114,          1) /* Attuned - Attuned */
      , (51384, 292,          2) /* Cleaving */
      , (51384, 353,         11) /* WeaponType - TwoHanded */
-     , (51384, 8030,          0);
+     , (51384, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51384,   1, False) /* Stuck */
-     , (51384,  11, True ) /* IgnoreCollisions */
-     , (51384,  13, True ) /* Ethereal */
-     , (51384,  14, True ) /* GravityStatus */
-     , (51384,  19, True ) /* Attackable */
-     , (51384,  22, True ) /* Inscribable */;
+VALUES (51384,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51384,  21,       0) /* WeaponLength */

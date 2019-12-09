@@ -13,19 +13,14 @@ VALUES (5139,   1,         32) /* ItemType - Food */
      , (5139,  16,          8) /* ItemUseable - Contained */
      , (5139,  19,          0) /* Value */
      , (5139,  33,          1) /* Bonded - Bonded */
-     , (5139,  65,        101) /* Placement - Resting */
      , (5139,  89,          4) /* BoosterEnum - Stamina */
      , (5139,  90,          1) /* BoostValue */
      , (5139,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5139, 114,          1) /* Attuned - Attuned */;
+     , (5139, 114,          1) /* Attuned - Attuned */
+     , (5139, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5139,   1, False) /* Stuck */
-     , (5139,  11, True ) /* IgnoreCollisions */
-     , (5139,  13, True ) /* Ethereal */
-     , (5139,  14, True ) /* GravityStatus */
-     , (5139,  19, True ) /* Attackable */
-     , (5139,  22, True ) /* Inscribable */;
+VALUES (5139,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5139,   1, 'Flask of Well Water') /* Name */

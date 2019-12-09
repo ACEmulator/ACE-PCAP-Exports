@@ -15,17 +15,13 @@ VALUES (10808,   1,         16) /* ItemType - Creature */
      , (10808, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10808,   1, True ) /* Stuck */
-     , (10808,  12, True ) /* ReportCollisions */
-     , (10808,  13, False) /* Ethereal */
-     , (10808,  14, True ) /* GravityStatus */
-     , (10808,  19, True ) /* Attackable */;
+VALUES (10808,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10808,  39, 1.29999995231628) /* DefaultScale */
+VALUES (10808,  39,     1.3) /* DefaultScale */
      , (10808, 8010,       0) /* PCAPRecordedVelocityX */
      , (10808, 8011,       0) /* PCAPRecordedVelocityY */
-     , (10808, 8012, -0.149442672729492) /* PCAPRecordedVelocityZ */;
+     , (10808, 8012,   -0.15) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10808,   1, 'Augmented Tumerok') /* Name */

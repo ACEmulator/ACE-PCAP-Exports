@@ -8,15 +8,11 @@ VALUES (22718,   1,        128) /* ItemType - Misc */
      , (22718,   5,       9000) /* EncumbranceVal */
      , (22718,  16,          1) /* ItemUseable - No */
      , (22718,  19,        125) /* Value */
-     , (22718,  65,        101) /* Placement - Resting */
-     , (22718,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (22718,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (22718, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22718,   1, True ) /* Stuck */
-     , (22718,  11, True ) /* IgnoreCollisions */
-     , (22718,  12, True ) /* ReportCollisions */
-     , (22718,  13, False) /* Ethereal */
-     , (22718,  19, True ) /* Attackable */;
+VALUES (22718,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22718,   1, 'Tusker Emporium Sign') /* Name */

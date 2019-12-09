@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28898,   1,        128) /* ItemType - Misc */
      , (28898,   5,        200) /* EncumbranceVal */
      , (28898,  16,          1) /* ItemUseable - No */
-     , (28898,  65,        101) /* Placement - Resting */
      , (28898,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28898, 151,          9) /* HookType - Floor, Yard */;
+     , (28898, 151,          9) /* HookType - Floor, Yard */
+     , (28898, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28898,   1, False) /* Stuck */
-     , (28898,  11, True ) /* IgnoreCollisions */
-     , (28898,  13, True ) /* Ethereal */
-     , (28898,  14, True ) /* GravityStatus */
-     , (28898,  19, True ) /* Attackable */
-     , (28898,  22, True ) /* Inscribable */;
+VALUES (28898,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28898,   1, 'Scarecrow Torso') /* Name */;

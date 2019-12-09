@@ -12,20 +12,14 @@ VALUES (43067,   1,      65536) /* ItemType - Portal */
      , (43067, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43067,   1, True ) /* Stuck */
-     , (43067,  12, True ) /* ReportCollisions */
-     , (43067,  13, True ) /* Ethereal */
-     , (43067,  14, True ) /* GravityStatus */
-     , (43067,  15, True ) /* LightsStatus */
-     , (43067,  19, True ) /* Attackable */;
+VALUES (43067,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43067,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43067,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43067,   1, 'Portal to Town Network') /* Name */
      , (43067,  16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LongDesc */
-     , (43067,  38, 'Portal to Town Network') /* AppraisalPortalDestination */
      , (43067, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

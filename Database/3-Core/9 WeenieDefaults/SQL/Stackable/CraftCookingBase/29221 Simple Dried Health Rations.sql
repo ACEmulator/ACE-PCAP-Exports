@@ -13,15 +13,8 @@ VALUES (29221,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29221,  16,          1) /* ItemUseable - No */
      , (29221,  18,          4) /* UiEffects - BoostHealth */
      , (29221,  19,       1500) /* Value */
-     , (29221,  65,        101) /* Placement - Resting */
-     , (29221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29221,   1, False) /* Stuck */
-     , (29221,  11, True ) /* IgnoreCollisions */
-     , (29221,  13, True ) /* Ethereal */
-     , (29221,  14, True ) /* GravityStatus */
-     , (29221,  19, True ) /* Attackable */;
+     , (29221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29221, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29221,   1, 'Simple Dried Health Rations') /* Name */

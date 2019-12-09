@@ -15,12 +15,7 @@ VALUES (16917,   1,         16) /* ItemType - Creature */
      , (16917, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16917,   1, True ) /* Stuck */
-     , (16917,  12, True ) /* ReportCollisions */
-     , (16917,  13, False) /* Ethereal */
-     , (16917,  14, True ) /* GravityStatus */
-     , (16917,  19, True ) /* Attackable */
-     , (16917,  42, True ) /* AllowEdgeSlide */;
+VALUES (16917,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16917,   1, 'New Singularity Director') /* Name */

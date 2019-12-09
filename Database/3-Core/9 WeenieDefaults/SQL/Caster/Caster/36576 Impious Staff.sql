@@ -11,18 +11,13 @@ VALUES (36576,   1,      32768) /* ItemType - Caster */
      , (36576,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (36576,  18,          1) /* UiEffects - Magical */
      , (36576,  19,      12000) /* Value */
-     , (36576,  65,          1) /* Placement - RightHandCombat */
      , (36576,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36576,  94,         16) /* TargetType - Creature */
-     , (36576, 151,          2) /* HookType - Wall */;
+     , (36576, 151,          2) /* HookType - Wall */
+     , (36576, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36576,   1, False) /* Stuck */
-     , (36576,  11, True ) /* IgnoreCollisions */
-     , (36576,  13, True ) /* Ethereal */
-     , (36576,  14, True ) /* GravityStatus */
-     , (36576,  19, True ) /* Attackable */
-     , (36576,  22, True ) /* Inscribable */;
+VALUES (36576,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36576,   1, 'Impious Staff') /* Name */;

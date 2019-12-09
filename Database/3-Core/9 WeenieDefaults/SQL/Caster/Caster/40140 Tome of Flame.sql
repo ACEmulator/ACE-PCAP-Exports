@@ -23,19 +23,14 @@ VALUES (40140,   1,      32768) /* ItemType - Caster */
      , (40140, 263,         16) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40140,   1, False) /* Stuck */
-     , (40140,  11, True ) /* IgnoreCollisions */
-     , (40140,  13, True ) /* Ethereal */
-     , (40140,  14, True ) /* GravityStatus */
-     , (40140,  19, True ) /* Attackable */
-     , (40140,  22, True ) /* Inscribable */;
+VALUES (40140,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40140,   5,   -0.05) /* ManaRate */
-     , (40140,  29, 1.20000000298023) /* WeaponDefense */
-     , (40140, 144, 0.269999992847443) /* ManaConversionMod */
-     , (40140, 150,   1.025) /* WeaponMagicDefense */
-     , (40140, 152, 1.17999999821186) /* ElementalDamageMod */
+     , (40140,  29,     1.2) /* WeaponDefense */
+     , (40140, 144,    0.27) /* ManaConversionMod */
+     , (40140, 150,    1.02) /* WeaponMagicDefense */
+     , (40140, 152,    1.18) /* ElementalDamageMod */
      , (40140, 157,       1) /* ResistanceModifier */
      , (40140, 159,       1) /* AbsorbMagicDamage */;
 

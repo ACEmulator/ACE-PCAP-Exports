@@ -8,17 +8,12 @@ VALUES (5844,   1,        128) /* ItemType - Misc */
      , (5844,   5,        100) /* EncumbranceVal */
      , (5844,  16,          1) /* ItemUseable - No */
      , (5844,  19,         10) /* Value */
-     , (5844,  65,        101) /* Placement - Resting */
      , (5844,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5844, 114,          1) /* Attuned - Attuned */;
+     , (5844, 114,          1) /* Attuned - Attuned */
+     , (5844, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5844,   1, False) /* Stuck */
-     , (5844,  11, True ) /* IgnoreCollisions */
-     , (5844,  13, True ) /* Ethereal */
-     , (5844,  14, True ) /* GravityStatus */
-     , (5844,  19, True ) /* Attackable */
-     , (5844,  22, True ) /* Inscribable */;
+VALUES (5844,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5844,   1, 'Gwillim''s Alchemy Bag') /* Name */

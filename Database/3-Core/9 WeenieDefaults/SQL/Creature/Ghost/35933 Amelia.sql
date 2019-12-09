@@ -18,16 +18,12 @@ VALUES (35933,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35933,   1, True ) /* Stuck */
-     , (35933,  11, True ) /* IgnoreCollisions */
-     , (35933,  13, True ) /* Ethereal */
-     , (35933,  14, True ) /* GravityStatus */
-     , (35933,  19, False) /* Attackable */
-     , (35933,  42, True ) /* AllowEdgeSlide */;
+     , (35933,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35933,  39,    0.75) /* DefaultScale */
      , (35933,  54,       3) /* UseRadius */
-     , (35933,  76, 0.400000005960464) /* Translucency */;
+     , (35933,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35933,   1, 'Amelia') /* Name */

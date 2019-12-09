@@ -17,15 +17,10 @@ VALUES (14877,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14877,   1, True ) /* Stuck */
-     , (14877,  12, True ) /* ReportCollisions */
-     , (14877,  13, False) /* Ethereal */
-     , (14877,  14, True ) /* GravityStatus */
-     , (14877,  15, True ) /* LightsStatus */
-     , (14877,  19, True ) /* Attackable */
      , (14877, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14877,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (14877,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14877,   1, 'Tsuric') /* Name */

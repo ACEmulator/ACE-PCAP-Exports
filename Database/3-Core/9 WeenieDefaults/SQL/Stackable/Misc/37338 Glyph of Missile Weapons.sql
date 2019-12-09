@@ -12,15 +12,8 @@ VALUES (37338,   1,        128) /* ItemType - Misc */
      , (37338,  15,      30000) /* StackUnitValue */
      , (37338,  16,          1) /* ItemUseable - No */
      , (37338,  19,      30000) /* Value */
-     , (37338,  65,        101) /* Placement - Resting */
-     , (37338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37338,   1, False) /* Stuck */
-     , (37338,  11, True ) /* IgnoreCollisions */
-     , (37338,  13, True ) /* Ethereal */
-     , (37338,  14, True ) /* GravityStatus */
-     , (37338,  19, True ) /* Attackable */;
+     , (37338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37338, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37338,   1, 'Glyph of Missile Weapons') /* Name */

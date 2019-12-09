@@ -10,26 +10,21 @@ VALUES (8748,   1,      32768) /* ItemType - Caster */
      , (8748,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8748,  18,          1) /* UiEffects - Magical */
      , (8748,  19,          1) /* Value */
-     , (8748,  65,        101) /* Placement - Resting */
      , (8748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8748,  94,         16) /* TargetType - Creature */
      , (8748, 106,        150) /* ItemSpellcraft */
      , (8748, 107,        491) /* ItemCurMana */
      , (8748, 108,        600) /* ItemMaxMana */
-     , (8748, 151,          2) /* HookType - Wall */;
+     , (8748, 151,          2) /* HookType - Wall */
+     , (8748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8748,   1, False) /* Stuck */
-     , (8748,  11, True ) /* IgnoreCollisions */
-     , (8748,  13, True ) /* Ethereal */
-     , (8748,  14, True ) /* GravityStatus */
-     , (8748,  19, True ) /* Attackable */
-     , (8748,  22, True ) /* Inscribable */;
+VALUES (8748,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8748,   5, -0.025000000372529) /* ManaRate */
+VALUES (8748,   5,   -0.03) /* ManaRate */
      , (8748,  29,       1) /* WeaponDefense */
-     , (8748, 144, 1.64025583497794E-314) /* ManaConversionMod */;
+     , (8748, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8748,   1, 'Explorer Wand Of Fire') /* Name */;

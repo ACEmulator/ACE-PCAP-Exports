@@ -12,16 +12,9 @@ VALUES (31687,   1,        128) /* ItemType - Misc */
      , (31687,  15,        100) /* StackUnitValue */
      , (31687,  16,          1) /* ItemUseable - No */
      , (31687,  19,        100) /* Value */
-     , (31687,  65,        101) /* Placement - Resting */
      , (31687,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31687, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31687,   1, False) /* Stuck */
-     , (31687,  11, True ) /* IgnoreCollisions */
-     , (31687,  13, True ) /* Ethereal */
-     , (31687,  14, True ) /* GravityStatus */
-     , (31687,  19, True ) /* Attackable */;
+     , (31687, 151,          9) /* HookType - Floor, Yard */
+     , (31687, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31687,   1, 'Orange Monster Seed') /* Name */

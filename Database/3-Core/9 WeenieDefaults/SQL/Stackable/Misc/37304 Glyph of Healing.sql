@@ -12,15 +12,8 @@ VALUES (37304,   1,        128) /* ItemType - Misc */
      , (37304,  15,      30000) /* StackUnitValue */
      , (37304,  16,          1) /* ItemUseable - No */
      , (37304,  19,      30000) /* Value */
-     , (37304,  65,        101) /* Placement - Resting */
-     , (37304,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37304,   1, False) /* Stuck */
-     , (37304,  11, True ) /* IgnoreCollisions */
-     , (37304,  13, True ) /* Ethereal */
-     , (37304,  14, True ) /* GravityStatus */
-     , (37304,  19, True ) /* Attackable */;
+     , (37304,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37304, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37304,   1, 'Glyph of Healing') /* Name */

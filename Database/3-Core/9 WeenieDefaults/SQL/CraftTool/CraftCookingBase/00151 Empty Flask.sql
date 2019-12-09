@@ -12,17 +12,10 @@ VALUES (151,   1,    4194304) /* ItemType - CraftCookingBase */
      , (151,  15,          1) /* StackUnitValue */
      , (151,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (151,  19,          1) /* Value */
-     , (151,  65,        101) /* Placement - Resting */
      , (151,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (151,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (151, 151,          1) /* HookType - Floor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (151,   1, False) /* Stuck */
-     , (151,  11, True ) /* IgnoreCollisions */
-     , (151,  13, True ) /* Ethereal */
-     , (151,  14, True ) /* GravityStatus */
-     , (151,  19, True ) /* Attackable */;
+     , (151, 151,          1) /* HookType - Floor */
+     , (151, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (151,   1, 'Empty Flask') /* Name */;

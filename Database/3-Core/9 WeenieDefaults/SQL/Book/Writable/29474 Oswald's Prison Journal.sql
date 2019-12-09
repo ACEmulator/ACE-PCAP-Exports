@@ -9,22 +9,15 @@ VALUES (29474,   1,       8192) /* ItemType - Writable */
      , (29474,  16,          8) /* ItemUseable - Contained */
      , (29474,  19,          0) /* Value */
      , (29474,  33,          1) /* Bonded - Bonded */
-     , (29474,  65,        101) /* Placement - Resting */
      , (29474,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29474, 114,          1) /* Attuned - Attuned */
-     , (29474, 174,          4) /* AppraisalPages */
-     , (29474, 175,          4) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29474,   1, False) /* Stuck */
-     , (29474,  11, True ) /* IgnoreCollisions */
-     , (29474,  13, True ) /* Ethereal */
-     , (29474,  14, True ) /* GravityStatus */
-     , (29474,  19, True ) /* Attackable */;
+     , (29474, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (29474, 8042,          4) /* PCAPRecordedAppraisalPages */
+     , (29474, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29474,  39, 1.22000002861023) /* DefaultScale */
-     , (29474,  54, 0.300000011920929) /* UseRadius */;
+VALUES (29474,  39,    1.22) /* DefaultScale */
+     , (29474,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29474,   1, 'Oswald''s Prison Journal') /* Name */

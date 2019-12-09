@@ -9,23 +9,18 @@ VALUES (24141,   1,        128) /* ItemType - Misc */
      , (24141,  16,          1) /* ItemUseable - No */
      , (24141,  19,         10) /* Value */
      , (24141,  33,          1) /* Bonded - Bonded */
-     , (24141,  65,        101) /* Placement - Resting */
      , (24141,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24141, 114,          1) /* Attuned - Attuned */;
+     , (24141, 114,          1) /* Attuned - Attuned */
+     , (24141, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24141,   1, False) /* Stuck */
-     , (24141,  11, True ) /* IgnoreCollisions */
-     , (24141,  13, True ) /* Ethereal */
-     , (24141,  14, True ) /* GravityStatus */
-     , (24141,  19, True ) /* Attackable */
-     , (24141,  22, True ) /* Inscribable */;
+VALUES (24141,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24141,  39,     0.5) /* DefaultScale */
      , (24141, 8010,       0) /* PCAPRecordedVelocityX */
      , (24141, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24141, 8012, -0.1926399320364) /* PCAPRecordedVelocityZ */;
+     , (24141, 8012,   -0.19) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24141,   1, 'Sweet Smelling Bark') /* Name */

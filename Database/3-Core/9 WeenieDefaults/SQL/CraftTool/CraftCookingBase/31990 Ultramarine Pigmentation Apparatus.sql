@@ -12,16 +12,9 @@ VALUES (31990,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31990,  15,      10000) /* StackUnitValue */
      , (31990,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31990,  19,      10000) /* Value */
-     , (31990,  65,        101) /* Placement - Resting */
      , (31990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31990,  94,          2) /* TargetType - Armor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31990,   1, False) /* Stuck */
-     , (31990,  11, True ) /* IgnoreCollisions */
-     , (31990,  13, True ) /* Ethereal */
-     , (31990,  14, True ) /* GravityStatus */
-     , (31990,  19, True ) /* Attackable */;
+     , (31990,  94,          2) /* TargetType - Armor */
+     , (31990, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31990,   1, 'Ultramarine Pigmentation Apparatus') /* Name */

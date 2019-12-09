@@ -11,20 +11,15 @@ VALUES (45552,   1,          1) /* ItemType - MeleeWeapon */
      , (45552,  16,          1) /* ItemUseable - No */
      , (45552,  19,        200) /* Value */
      , (45552,  51,          1) /* CombatUse - Melee */
-     , (45552,  65,          1) /* Placement - RightHandCombat */
      , (45552,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45552, 151,          2) /* HookType - Wall */;
+     , (45552, 151,          2) /* HookType - Wall */
+     , (45552, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45552,   1, False) /* Stuck */
-     , (45552,  11, True ) /* IgnoreCollisions */
-     , (45552,  13, True ) /* Ethereal */
-     , (45552,  14, True ) /* GravityStatus */
-     , (45552,  19, True ) /* Attackable */
-     , (45552,  22, True ) /* Inscribable */;
+VALUES (45552,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45552,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (45552,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45552,   1, 'Academy Broad Sword') /* Name */;

@@ -11,11 +11,7 @@ VALUES (4666,   1,        128) /* ItemType - Misc */
      , (4666,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4666,   1, True ) /* Stuck */
-     , (4666,  11, True ) /* IgnoreCollisions */
-     , (4666,  12, True ) /* ReportCollisions */
-     , (4666,  13, False) /* Ethereal */
-     , (4666,  19, True ) /* Attackable */;
+VALUES (4666,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4666,   1, 'Desert''s Respite') /* Name */

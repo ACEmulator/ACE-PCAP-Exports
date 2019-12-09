@@ -12,17 +12,12 @@ VALUES (42307,   1,        256) /* ItemType - MissileWeapon */
      , (42307,  19,       6000) /* Value */
      , (42307,  50,          2) /* AmmoType - Bolt */
      , (42307,  51,          2) /* CombatUse - Missle */
-     , (42307,  65,        101) /* Placement - Resting */
      , (42307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42307, 151,          2) /* HookType - Wall */;
+     , (42307, 151,          2) /* HookType - Wall */
+     , (42307, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42307,   1, False) /* Stuck */
-     , (42307,  11, True ) /* IgnoreCollisions */
-     , (42307,  13, True ) /* Ethereal */
-     , (42307,  14, True ) /* GravityStatus */
-     , (42307,  19, True ) /* Attackable */
-     , (42307,  22, True ) /* Inscribable */;
+VALUES (42307,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42307,   1, 'Gear Crossbow') /* Name */;

@@ -12,15 +12,8 @@ VALUES (37311,   1,        128) /* ItemType - Misc */
      , (37311,  15,      30000) /* StackUnitValue */
      , (37311,  16,          1) /* ItemUseable - No */
      , (37311,  19,      30000) /* Value */
-     , (37311,  65,        101) /* Placement - Resting */
-     , (37311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37311,   1, False) /* Stuck */
-     , (37311,  11, True ) /* IgnoreCollisions */
-     , (37311,  13, True ) /* Ethereal */
-     , (37311,  14, True ) /* GravityStatus */
-     , (37311,  19, True ) /* Attackable */;
+     , (37311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37311, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37311,   1, 'Glyph of Jump') /* Name */

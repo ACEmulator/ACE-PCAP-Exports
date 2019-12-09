@@ -17,11 +17,7 @@ VALUES (43006,   1,         16) /* ItemType - Creature */
      , (43006, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43006,   1, True ) /* Stuck */
-     , (43006,  12, True ) /* ReportCollisions */
-     , (43006,  13, False) /* Ethereal */
-     , (43006,  14, True ) /* GravityStatus */
-     , (43006,  19, True ) /* Attackable */;
+VALUES (43006,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43006,   1, 'New Aluvian War Mage Champion') /* Name */

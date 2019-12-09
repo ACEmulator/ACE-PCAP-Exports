@@ -13,18 +13,13 @@ VALUES (10864,   1,        128) /* ItemType - Misc */
      , (10864,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (10864,  19,          0) /* Value */
      , (10864,  33,          1) /* Bonded - Bonded */
-     , (10864,  65,        101) /* Placement - Resting */
      , (10864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10864,  94,        128) /* TargetType - Misc */
-     , (10864, 114,          1) /* Attuned - Attuned */;
+     , (10864, 114,          1) /* Attuned - Attuned */
+     , (10864, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10864,   1, False) /* Stuck */
-     , (10864,  11, True ) /* IgnoreCollisions */
-     , (10864,  13, True ) /* Ethereal */
-     , (10864,  14, True ) /* GravityStatus */
-     , (10864,  19, True ) /* Attackable */
-     , (10864,  22, True ) /* Inscribable */;
+VALUES (10864,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10864,   1, 'Olthoi Ichor') /* Name */

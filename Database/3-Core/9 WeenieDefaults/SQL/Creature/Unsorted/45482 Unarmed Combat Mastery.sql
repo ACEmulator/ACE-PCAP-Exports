@@ -40,19 +40,13 @@ VALUES (45482,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45482,   1, True ) /* Stuck */
-     , (45482,  11, True ) /* IgnoreCollisions */
-     , (45482,  12, True ) /* ReportCollisions */
-     , (45482,  13, False) /* Ethereal */
-     , (45482,  14, True ) /* GravityStatus */
-     , (45482,  19, False) /* Attackable */
-     , (45482,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45482,  42, True ) /* AllowEdgeSlide */;
+     , (45482,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45482,  54,       3) /* UseRadius */
      , (45482, 8010,       0) /* PCAPRecordedVelocityX */
      , (45482, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45482, 8012, -46.7520484924316) /* PCAPRecordedVelocityZ */;
+     , (45482, 8012,  -46.75) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45482,   1, 'Unarmed Combat Mastery') /* Name */

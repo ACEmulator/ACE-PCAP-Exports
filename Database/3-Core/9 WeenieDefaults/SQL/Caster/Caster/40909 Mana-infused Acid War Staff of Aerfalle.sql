@@ -13,7 +13,6 @@ VALUES (40909,   1,      32768) /* ItemType - Caster */
      , (40909,  19,      15000) /* Value */
      , (40909,  33,          1) /* Bonded - Bonded */
      , (40909,  45,         32) /* DamageType - Acid */
-     , (40909,  65,          1) /* Placement - RightHandCombat */
      , (40909,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (40909,  94,         16) /* TargetType - Creature */
      , (40909, 106,        450) /* ItemSpellcraft */
@@ -26,21 +25,16 @@ VALUES (40909,   1,      32768) /* ItemType - Caster */
      , (40909, 160,        150) /* WieldDifficulty */
      , (40909, 270,          1) /* WieldRequirements2 - Skill */
      , (40909, 271,         34) /* WieldSkillType2 - WarMagic */
-     , (40909, 272,        355) /* WieldDifficulty2 */;
+     , (40909, 272,        355) /* WieldDifficulty2 */
+     , (40909, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40909,   1, False) /* Stuck */
-     , (40909,  11, True ) /* IgnoreCollisions */
-     , (40909,  13, True ) /* Ethereal */
-     , (40909,  14, True ) /* GravityStatus */
-     , (40909,  15, True ) /* LightsStatus */
-     , (40909,  19, True ) /* Attackable */
-     , (40909,  22, True ) /* Inscribable */
+VALUES (40909,  22, True ) /* Inscribable */
      , (40909,  69, False) /* IsSellable */
      , (40909,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40909,   5,  -0.083) /* ManaRate */
+VALUES (40909,   5,   -0.08) /* ManaRate */
      , (40909,  29,    1.12) /* WeaponDefense */
      , (40909, 144,    0.15) /* ManaConversionMod */
      , (40909, 152,    1.12) /* ElementalDamageMod */;

@@ -16,14 +16,10 @@ VALUES (11899,   1,         16) /* ItemType - Creature */
      , (11899, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11899,   1, True ) /* Stuck */
-     , (11899,  12, True ) /* ReportCollisions */
-     , (11899,  13, False) /* Ethereal */
-     , (11899,  14, True ) /* GravityStatus */
-     , (11899,  19, True ) /* Attackable */;
+VALUES (11899,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11899,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (11899,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11899,   1, 'Tumerok Major') /* Name */

@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51889,   1,        128) /* ItemType - Misc */
      , (51889,   5,         50) /* EncumbranceVal */
      , (51889,  16,          1) /* ItemUseable - No */
-     , (51889,  65,        101) /* Placement - Resting */
-     , (51889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (51889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (51889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51889,   1, False) /* Stuck */
-     , (51889,  11, True ) /* IgnoreCollisions */
-     , (51889,  13, True ) /* Ethereal */
-     , (51889,  14, True ) /* GravityStatus */
-     , (51889,  19, True ) /* Attackable */
-     , (51889,  22, True ) /* Inscribable */;
+VALUES (51889,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51889,  76, 0.300000011920929) /* Translucency */;
+VALUES (51889,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51889,   1, 'Wisp of Corrupted Shard of Torments') /* Name */;

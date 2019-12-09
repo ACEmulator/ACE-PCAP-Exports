@@ -12,17 +12,12 @@ VALUES (11016,   1,        128) /* ItemType - Misc */
      , (11016,  15,        100) /* StackUnitValue */
      , (11016,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11016,  19,        100) /* Value */
-     , (11016,  65,        101) /* Placement - Resting */
      , (11016,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11016,  94,        128) /* TargetType - Misc */;
+     , (11016,  94,        128) /* TargetType - Misc */
+     , (11016, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11016,   1, False) /* Stuck */
-     , (11016,  11, True ) /* IgnoreCollisions */
-     , (11016,  13, True ) /* Ethereal */
-     , (11016,  14, True ) /* GravityStatus */
-     , (11016,  19, True ) /* Attackable */
-     , (11016,  22, True ) /* Inscribable */;
+VALUES (11016,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11016,   1, 'Sheet of Curved Metal') /* Name */;

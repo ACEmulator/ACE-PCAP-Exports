@@ -8,21 +8,16 @@ VALUES (22873,   1,        128) /* ItemType - Misc */
      , (22873,   5,         50) /* EncumbranceVal */
      , (22873,  16,          1) /* ItemUseable - No */
      , (22873,  19,       5000) /* Value */
-     , (22873,  65,        101) /* Placement - Resting */
      , (22873,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22873, 151,          6) /* HookType - Wall, Ceiling */;
+     , (22873, 151,          6) /* HookType - Wall, Ceiling */
+     , (22873, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22873,   1, False) /* Stuck */
-     , (22873,  11, True ) /* IgnoreCollisions */
-     , (22873,  13, True ) /* Ethereal */
-     , (22873,  14, True ) /* GravityStatus */
-     , (22873,  19, True ) /* Attackable */
-     , (22873,  22, True ) /* Inscribable */;
+VALUES (22873,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22873,  39, 0.300000011920929) /* DefaultScale */
-     , (22873,  76, 0.400000005960464) /* Translucency */;
+VALUES (22873,  39,     0.3) /* DefaultScale */
+     , (22873,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22873,   1, 'Holiday Lights') /* Name */

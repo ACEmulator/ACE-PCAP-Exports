@@ -16,11 +16,7 @@ VALUES (7178,   1,         16) /* ItemType - Creature */
      , (7178, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7178,   1, True ) /* Stuck */
-     , (7178,  12, True ) /* ReportCollisions */
-     , (7178,  13, False) /* Ethereal */
-     , (7178,  14, True ) /* GravityStatus */
-     , (7178,  19, True ) /* Attackable */;
+VALUES (7178,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7178,   1, 'Cursed Bones') /* Name */

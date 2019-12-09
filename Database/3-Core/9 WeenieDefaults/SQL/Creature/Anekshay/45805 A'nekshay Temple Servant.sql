@@ -16,14 +16,10 @@ VALUES (45805,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45805,   1, True ) /* Stuck */
-     , (45805,  12, True ) /* ReportCollisions */
-     , (45805,  13, False) /* Ethereal */
-     , (45805,  14, True ) /* GravityStatus */
-     , (45805,  19, True ) /* Attackable */
      , (45805, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45805,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (45805,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45805,   1, 'A''nekshay Temple Servant') /* Name */

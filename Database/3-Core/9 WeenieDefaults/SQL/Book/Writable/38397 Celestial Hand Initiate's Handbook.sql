@@ -9,23 +9,18 @@ VALUES (38397,   1,       8192) /* ItemType - Writable */
      , (38397,  16,          8) /* ItemUseable - Contained */
      , (38397,  19,          0) /* Value */
      , (38397,  33,          0) /* Bonded - Normal */
-     , (38397,  65,        101) /* Placement - Resting */
      , (38397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38397, 114,          0) /* Attuned - Normal */
-     , (38397, 174,         10) /* AppraisalPages */
-     , (38397, 175,         10) /* AppraisalMaxPages */;
+     , (38397, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (38397, 8042,         10) /* PCAPRecordedAppraisalPages */
+     , (38397, 8043,         10) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38397,   1, False) /* Stuck */
-     , (38397,  11, True ) /* IgnoreCollisions */
-     , (38397,  13, True ) /* Ethereal */
-     , (38397,  14, True ) /* GravityStatus */
-     , (38397,  19, True ) /* Attackable */
-     , (38397,  69, True ) /* IsSellable */
+VALUES (38397,  69, True ) /* IsSellable */
      , (38397,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38397,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (38397,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38397,   1, 'Celestial Hand Initiate''s Handbook') /* Name */

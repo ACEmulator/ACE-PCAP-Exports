@@ -9,20 +9,15 @@ VALUES (32500,   1,        128) /* ItemType - Misc */
      , (32500,  16,          1) /* ItemUseable - No */
      , (32500,  19,          0) /* Value */
      , (32500,  33,          1) /* Bonded - Bonded */
-     , (32500,  65,        101) /* Placement - Resting */
      , (32500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32500, 114,          1) /* Attuned - Attuned */;
+     , (32500, 114,          1) /* Attuned - Attuned */
+     , (32500, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32500,   1, False) /* Stuck */
-     , (32500,  11, True ) /* IgnoreCollisions */
-     , (32500,  13, True ) /* Ethereal */
-     , (32500,  14, True ) /* GravityStatus */
-     , (32500,  19, True ) /* Attackable */
-     , (32500,  22, True ) /* Inscribable */;
+VALUES (32500,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32500,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (32500,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32500,   1, 'Farelaith''s Untranslated Journal') /* Name */

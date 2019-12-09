@@ -15,11 +15,7 @@ VALUES (25866,   1,         16) /* ItemType - Creature */
      , (25866, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25866,   1, True ) /* Stuck */
-     , (25866,  12, True ) /* ReportCollisions */
-     , (25866,  13, False) /* Ethereal */
-     , (25866,  14, True ) /* GravityStatus */
-     , (25866,  19, True ) /* Attackable */;
+VALUES (25866,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25866,   1, 'Damned Marionette') /* Name */

@@ -16,14 +16,10 @@ VALUES (4259,   1,         16) /* ItemType - Creature */
      , (4259, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4259,   1, True ) /* Stuck */
-     , (4259,  12, True ) /* ReportCollisions */
-     , (4259,  13, False) /* Ethereal */
-     , (4259,  14, True ) /* GravityStatus */
-     , (4259,  19, True ) /* Attackable */;
+VALUES (4259,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4259,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (4259,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4259,   1, 'Slithayr Tendril') /* Name */

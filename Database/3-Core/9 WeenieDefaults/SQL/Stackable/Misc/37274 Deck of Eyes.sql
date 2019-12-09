@@ -12,15 +12,8 @@ VALUES (37274,   1,        128) /* ItemType - Misc */
      , (37274,  15,          0) /* StackUnitValue */
      , (37274,  16,          1) /* ItemUseable - No */
      , (37274,  19,          0) /* Value */
-     , (37274,  65,        101) /* Placement - Resting */
-     , (37274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37274,   1, False) /* Stuck */
-     , (37274,  11, True ) /* IgnoreCollisions */
-     , (37274,  13, True ) /* Ethereal */
-     , (37274,  14, True ) /* GravityStatus */
-     , (37274,  19, True ) /* Attackable */;
+     , (37274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37274, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37274,   1, 'Deck of Eyes') /* Name */

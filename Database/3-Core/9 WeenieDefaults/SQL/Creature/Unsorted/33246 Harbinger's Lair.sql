@@ -39,17 +39,10 @@ VALUES (33246,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33246,   1, True ) /* Stuck */
-     , (33246,  11, True ) /* IgnoreCollisions */
-     , (33246,  12, True ) /* ReportCollisions */
-     , (33246,  13, True ) /* Ethereal */
-     , (33246,  14, True ) /* GravityStatus */
-     , (33246,  15, True ) /* LightsStatus */
-     , (33246,  19, False) /* Attackable */
-     , (33246,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (33246,  42, True ) /* AllowEdgeSlide */;
+     , (33246,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33246,  54, 0.100000001490116) /* UseRadius */;
+VALUES (33246,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33246,   1, 'Harbinger''s Lair') /* Name */

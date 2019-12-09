@@ -12,19 +12,13 @@ VALUES (5519,   1,      65536) /* ItemType - Portal */
      , (5519, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5519,   1, True ) /* Stuck */
-     , (5519,  12, True ) /* ReportCollisions */
-     , (5519,  13, True ) /* Ethereal */
-     , (5519,  14, True ) /* GravityStatus */
-     , (5519,  15, True ) /* LightsStatus */
-     , (5519,  19, True ) /* Attackable */;
+VALUES (5519,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5519,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5519,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5519,   1, 'Smugglers Fort') /* Name */
-     , (5519,  38, 'Smugglers Fort (29.6S, 91.3E).') /* AppraisalPortalDestination */
      , (5519, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

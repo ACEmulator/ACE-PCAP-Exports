@@ -38,16 +38,10 @@ VALUES (49522,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49522,   1, True ) /* Stuck */
-     , (49522,  11, True ) /* IgnoreCollisions */
-     , (49522,  12, True ) /* ReportCollisions */
-     , (49522,  13, False) /* Ethereal */
-     , (49522,  14, True ) /* GravityStatus */
-     , (49522,  19, False) /* Attackable */
-     , (49522,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (49522,  42, True ) /* AllowEdgeSlide */;
+     , (49522,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49522,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (49522,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49522,   1, 'Dormant Samurai') /* Name */

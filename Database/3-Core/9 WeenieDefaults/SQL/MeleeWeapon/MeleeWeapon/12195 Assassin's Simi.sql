@@ -11,16 +11,11 @@ VALUES (12195,   1,          1) /* ItemType - MeleeWeapon */
      , (12195,  16,          1) /* ItemUseable - No */
      , (12195,  19,        160) /* Value */
      , (12195,  51,          1) /* CombatUse - Melee */
-     , (12195,  65,          1) /* Placement - RightHandCombat */
-     , (12195,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12195,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12195, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12195,   1, False) /* Stuck */
-     , (12195,  11, True ) /* IgnoreCollisions */
-     , (12195,  13, True ) /* Ethereal */
-     , (12195,  14, True ) /* GravityStatus */
-     , (12195,  19, True ) /* Attackable */
-     , (12195,  22, True ) /* Inscribable */;
+VALUES (12195,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12195,   1, 'Assassin''s Simi') /* Name */;

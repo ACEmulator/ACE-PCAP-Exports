@@ -9,17 +9,12 @@ VALUES (32729,   1,        128) /* ItemType - Misc */
      , (32729,  16,          1) /* ItemUseable - No */
      , (32729,  19,          0) /* Value */
      , (32729,  33,          1) /* Bonded - Bonded */
-     , (32729,  65,        101) /* Placement - Resting */
      , (32729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32729, 114,          1) /* Attuned - Attuned */;
+     , (32729, 114,          1) /* Attuned - Attuned */
+     , (32729, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32729,   1, False) /* Stuck */
-     , (32729,  11, True ) /* IgnoreCollisions */
-     , (32729,  13, True ) /* Ethereal */
-     , (32729,  14, True ) /* GravityStatus */
-     , (32729,  19, True ) /* Attackable */
-     , (32729,  22, True ) /* Inscribable */;
+VALUES (32729,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32729,   1, 'Decanter of Essence of Enchantment') /* Name */

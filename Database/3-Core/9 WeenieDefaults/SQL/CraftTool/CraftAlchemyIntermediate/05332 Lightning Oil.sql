@@ -11,16 +11,9 @@ VALUES (5332,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5332,  15,         20) /* StackUnitValue */
      , (5332,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5332,  19,         20) /* Value */
-     , (5332,  65,        101) /* Placement - Resting */
      , (5332,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5332,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5332,   1, False) /* Stuck */
-     , (5332,  11, True ) /* IgnoreCollisions */
-     , (5332,  13, True ) /* Ethereal */
-     , (5332,  14, True ) /* GravityStatus */
-     , (5332,  19, True ) /* Attackable */;
+     , (5332,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (5332, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5332,   1, 'Lightning Oil') /* Name */

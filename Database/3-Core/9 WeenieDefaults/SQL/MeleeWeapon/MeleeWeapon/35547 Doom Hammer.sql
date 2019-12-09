@@ -13,15 +13,10 @@ VALUES (35547,   1,          1) /* ItemType - MeleeWeapon */
      , (35547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35547,   1, False) /* Stuck */
-     , (35547,  11, True ) /* IgnoreCollisions */
-     , (35547,  13, True ) /* Ethereal */
-     , (35547,  14, True ) /* GravityStatus */
-     , (35547,  19, True ) /* Attackable */
-     , (35547,  22, True ) /* Inscribable */;
+VALUES (35547,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35547,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (35547,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35547,   1, 'Doom Hammer') /* Name */;

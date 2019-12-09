@@ -13,16 +13,9 @@ VALUES (31354,   1,        128) /* ItemType - Misc */
      , (31354,  16,          1) /* ItemUseable - No */
      , (31354,  19,      10000) /* Value */
      , (31354,  33,          1) /* Bonded - Bonded */
-     , (31354,  65,        101) /* Placement - Resting */
      , (31354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31354, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31354,   1, False) /* Stuck */
-     , (31354,  11, True ) /* IgnoreCollisions */
-     , (31354,  13, True ) /* Ethereal */
-     , (31354,  14, True ) /* GravityStatus */
-     , (31354,  19, True ) /* Attackable */;
+     , (31354, 114,          1) /* Attuned - Attuned */
+     , (31354, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31354,   1, 'Olthoi Ripper Spine') /* Name */

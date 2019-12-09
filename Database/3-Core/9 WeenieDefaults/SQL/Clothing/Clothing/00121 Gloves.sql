@@ -11,7 +11,6 @@ VALUES (121,   1,          4) /* ItemType - Clothing */
      , (121,  16,          1) /* ItemUseable - No */
      , (121,  19,         78) /* Value */
      , (121,  28,        298) /* ArmorLevel */
-     , (121,  65,        101) /* Placement - Resting */
      , (121,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (121, 105,          7) /* ItemWorkmanship */
      , (121, 106,        285) /* ItemSpellcraft */
@@ -23,26 +22,22 @@ VALUES (121,   1,          4) /* ItemType - Clothing */
      , (121, 131,         52) /* MaterialType - Leather */
      , (121, 172,          5) /* AppraisalLongDescDecoration */
      , (121, 177,          2) /* GemCount */
-     , (121, 178,         20) /* GemType */;
+     , (121, 178,         20) /* GemType */
+     , (121, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (121,   1, False) /* Stuck */
-     , (121,  11, True ) /* IgnoreCollisions */
-     , (121,  13, True ) /* Ethereal */
-     , (121,  14, True ) /* GravityStatus */
-     , (121,  19, True ) /* Attackable */
-     , (121,  22, True ) /* Inscribable */
+VALUES (121,  22, True ) /* Inscribable */
      , (121, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (121,   5, -0.0555555555555556) /* ManaRate */
-     , (121,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (121,  14, 0.800000011920929) /* ArmorModVsPierce */
+VALUES (121,   5,   -0.06) /* ManaRate */
+     , (121,  13,     1.2) /* ArmorModVsSlash */
+     , (121,  14,     0.8) /* ArmorModVsPierce */
      , (121,  15,       1) /* ArmorModVsBludgeon */
      , (121,  16,     0.5) /* ArmorModVsCold */
      , (121,  17,     0.5) /* ArmorModVsFire */
-     , (121,  18, 0.756210148334503) /* ArmorModVsAcid */
-     , (121,  19, 1.50255060195923) /* ArmorModVsElectric */
+     , (121,  18,    0.76) /* ArmorModVsAcid */
+     , (121,  19,     1.5) /* ArmorModVsElectric */
      , (121, 165,       1) /* ArmorModVsNether */
      , (121, 8004,       2) /* PCAPRecordedWorkmanship */;
 

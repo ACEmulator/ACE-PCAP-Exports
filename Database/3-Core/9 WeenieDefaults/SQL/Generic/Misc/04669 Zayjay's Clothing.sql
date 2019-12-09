@@ -11,11 +11,7 @@ VALUES (4669,   1,        128) /* ItemType - Misc */
      , (4669,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4669,   1, True ) /* Stuck */
-     , (4669,  11, True ) /* IgnoreCollisions */
-     , (4669,  12, True ) /* ReportCollisions */
-     , (4669,  13, False) /* Ethereal */
-     , (4669,  19, True ) /* Attackable */;
+VALUES (4669,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4669,   1, 'Zayjay''s Clothing') /* Name */

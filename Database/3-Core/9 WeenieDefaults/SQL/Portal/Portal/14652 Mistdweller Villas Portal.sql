@@ -12,19 +12,13 @@ VALUES (14652,   1,      65536) /* ItemType - Portal */
      , (14652, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14652,   1, True ) /* Stuck */
-     , (14652,  12, True ) /* ReportCollisions */
-     , (14652,  13, True ) /* Ethereal */
-     , (14652,  14, True ) /* GravityStatus */
-     , (14652,  15, True ) /* LightsStatus */
-     , (14652,  19, True ) /* Attackable */;
+VALUES (14652,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14652,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14652,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14652,   1, 'Mistdweller Villas Portal') /* Name */
-     , (14652,  38, 'Mistdweller Villas Portal (30.6N, 14.6E).') /* AppraisalPortalDestination */
      , (14652, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

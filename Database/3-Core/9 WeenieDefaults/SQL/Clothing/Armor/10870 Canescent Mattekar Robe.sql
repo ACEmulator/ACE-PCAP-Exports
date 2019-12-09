@@ -12,18 +12,13 @@ VALUES (10870,   1,          2) /* ItemType - Armor */
      , (10870,  19,          0) /* Value */
      , (10870,  28,        120) /* ArmorLevel */
      , (10870,  33,          1) /* Bonded - Bonded */
-     , (10870,  65,        101) /* Placement - Resting */
      , (10870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10870, 114,          0) /* Attuned - Normal */
-     , (10870, 151,          2) /* HookType - Wall */;
+     , (10870, 151,          2) /* HookType - Wall */
+     , (10870, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10870,   1, False) /* Stuck */
-     , (10870,  11, True ) /* IgnoreCollisions */
-     , (10870,  13, True ) /* Ethereal */
-     , (10870,  14, True ) /* GravityStatus */
-     , (10870,  19, True ) /* Attackable */
-     , (10870,  22, True ) /* Inscribable */
+VALUES (10870,  22, True ) /* Inscribable */
      , (10870,  85, True ) /* AppraisalHasAllowedWielder */
      , (10870,  99, False) /* Ivoryable */;
 

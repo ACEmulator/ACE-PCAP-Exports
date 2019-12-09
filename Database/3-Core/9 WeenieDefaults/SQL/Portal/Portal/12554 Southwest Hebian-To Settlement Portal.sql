@@ -12,19 +12,13 @@ VALUES (12554,   1,      65536) /* ItemType - Portal */
      , (12554, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12554,   1, True ) /* Stuck */
-     , (12554,  12, True ) /* ReportCollisions */
-     , (12554,  13, True ) /* Ethereal */
-     , (12554,  14, True ) /* GravityStatus */
-     , (12554,  15, True ) /* LightsStatus */
-     , (12554,  19, True ) /* Attackable */;
+VALUES (12554,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12554,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12554,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12554,   1, 'Southwest Hebian-To Settlement Portal') /* Name */
-     , (12554,  38, 'Southwest Hebian-To Settlement Portal (43.1S, 87.2E).') /* AppraisalPortalDestination */
      , (12554, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

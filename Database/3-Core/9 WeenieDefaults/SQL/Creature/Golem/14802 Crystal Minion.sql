@@ -15,14 +15,10 @@ VALUES (14802,   1,         16) /* ItemType - Creature */
      , (14802, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14802,   1, True ) /* Stuck */
-     , (14802,  12, True ) /* ReportCollisions */
-     , (14802,  13, False) /* Ethereal */
-     , (14802,  14, True ) /* GravityStatus */
-     , (14802,  19, True ) /* Attackable */;
+VALUES (14802,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14802,  76, 0.699999988079071) /* Translucency */;
+VALUES (14802,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14802,   1, 'Crystal Minion') /* Name */

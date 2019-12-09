@@ -24,19 +24,14 @@ VALUES (27653,   1,          2) /* ItemType - Armor */
      , (27653, 160,        240) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27653,   1, False) /* Stuck */
-     , (27653,  11, True ) /* IgnoreCollisions */
-     , (27653,  13, True ) /* Ethereal */
-     , (27653,  14, True ) /* GravityStatus */
-     , (27653,  19, True ) /* Attackable */
-     , (27653,  22, True ) /* Inscribable */
+VALUES (27653,  22, True ) /* Inscribable */
      , (27653,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27653,  13,       1) /* ArmorModVsSlash */
      , (27653,  14,       1) /* ArmorModVsPierce */
      , (27653,  15,       1) /* ArmorModVsBludgeon */
-     , (27653,  16, 0.850000023841858) /* ArmorModVsCold */
+     , (27653,  16,    0.85) /* ArmorModVsCold */
      , (27653,  17,       1) /* ArmorModVsFire */
      , (27653,  18,       1) /* ArmorModVsAcid */
      , (27653,  19,       1) /* ArmorModVsElectric */

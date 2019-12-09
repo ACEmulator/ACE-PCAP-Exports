@@ -8,21 +8,16 @@ VALUES (4113,   1,        128) /* ItemType - Misc */
      , (4113,   5,       9000) /* EncumbranceVal */
      , (4113,  16,          1) /* ItemUseable - No */
      , (4113,  19,        130) /* Value */
-     , (4113,  65,        101) /* Placement - Resting */
-     , (4113,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (4113,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (4113, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4113,   1, True ) /* Stuck */
-     , (4113,  11, True ) /* IgnoreCollisions */
-     , (4113,  12, True ) /* ReportCollisions */
-     , (4113,  13, False) /* Ethereal */
-     , (4113,  14, True ) /* GravityStatus */
-     , (4113,  19, True ) /* Attackable */;
+VALUES (4113,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4113, 8010,       0) /* PCAPRecordedVelocityX */
      , (4113, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4113, 8012, -0.376749277114868) /* PCAPRecordedVelocityZ */;
+     , (4113, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4113,   1, 'Warning Sign') /* Name */

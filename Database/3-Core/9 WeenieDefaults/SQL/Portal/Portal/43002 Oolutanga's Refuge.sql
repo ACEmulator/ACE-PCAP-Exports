@@ -13,21 +13,15 @@ VALUES (43002,   1,      65536) /* ItemType - Portal */
      , (43002, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43002,   1, True ) /* Stuck */
-     , (43002,  12, True ) /* ReportCollisions */
-     , (43002,  13, True ) /* Ethereal */
-     , (43002,  14, True ) /* GravityStatus */
-     , (43002,  15, True ) /* LightsStatus */
-     , (43002,  19, True ) /* Attackable */;
+VALUES (43002,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43002,  39, 0.800000011920929) /* DefaultScale */
-     , (43002,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43002,  39,     0.8) /* DefaultScale */
+     , (43002,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43002,   1, 'Oolutanga''s Refuge') /* Name */
      , (43002,  16, 'This portal goes to Oolutanga''s Refuge, a place where Tuskers rule the land. This is a good town for charaters over level 10.') /* LongDesc */
-     , (43002,  38, 'Oolutanga''s Refuge (2.3N, 95.5E).') /* AppraisalPortalDestination */
      , (43002, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

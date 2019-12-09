@@ -12,19 +12,13 @@ VALUES (21465,   1,      65536) /* ItemType - Portal */
      , (21465, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21465,   1, True ) /* Stuck */
-     , (21465,  12, True ) /* ReportCollisions */
-     , (21465,  13, True ) /* Ethereal */
-     , (21465,  14, True ) /* GravityStatus */
-     , (21465,  15, True ) /* LightsStatus */
-     , (21465,  19, True ) /* Attackable */;
+VALUES (21465,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21465,  54, -0.100000001490116) /* UseRadius */;
+VALUES (21465,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21465,   1, 'Ispar Yard Portal') /* Name */
-     , (21465,  38, 'Ispar Yard Portal') /* AppraisalPortalDestination */
      , (21465, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

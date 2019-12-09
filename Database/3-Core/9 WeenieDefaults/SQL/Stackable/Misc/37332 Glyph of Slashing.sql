@@ -12,15 +12,8 @@ VALUES (37332,   1,        128) /* ItemType - Misc */
      , (37332,  15,      30000) /* StackUnitValue */
      , (37332,  16,          1) /* ItemUseable - No */
      , (37332,  19,      30000) /* Value */
-     , (37332,  65,        101) /* Placement - Resting */
-     , (37332,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37332,   1, False) /* Stuck */
-     , (37332,  11, True ) /* IgnoreCollisions */
-     , (37332,  13, True ) /* Ethereal */
-     , (37332,  14, True ) /* GravityStatus */
-     , (37332,  19, True ) /* Attackable */;
+     , (37332,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37332, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37332,   1, 'Glyph of Slashing') /* Name */

@@ -15,11 +15,7 @@ VALUES (38176,   1,         16) /* ItemType - Creature */
      , (38176, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38176,   1, True ) /* Stuck */
-     , (38176,  12, True ) /* ReportCollisions */
-     , (38176,  13, False) /* Ethereal */
-     , (38176,  14, True ) /* GravityStatus */
-     , (38176,  19, True ) /* Attackable */;
+VALUES (38176,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38176,   1, 'Blighted Hoary Armoredillo') /* Name */

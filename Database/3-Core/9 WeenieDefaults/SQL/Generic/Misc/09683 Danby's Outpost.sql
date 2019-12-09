@@ -8,16 +8,11 @@ VALUES (9683,   1,        128) /* ItemType - Misc */
      , (9683,   5,       9000) /* EncumbranceVal */
      , (9683,  16,          1) /* ItemUseable - No */
      , (9683,  19,        125) /* Value */
-     , (9683,  65,        101) /* Placement - Resting */
-     , (9683,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (9683,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (9683, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9683,   1, True ) /* Stuck */
-     , (9683,  11, True ) /* IgnoreCollisions */
-     , (9683,  12, True ) /* ReportCollisions */
-     , (9683,  13, False) /* Ethereal */
-     , (9683,  14, True ) /* GravityStatus */
-     , (9683,  19, True ) /* Attackable */;
+VALUES (9683,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9683,   1, 'Danby''s Outpost') /* Name */

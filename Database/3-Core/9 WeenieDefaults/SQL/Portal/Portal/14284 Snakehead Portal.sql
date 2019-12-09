@@ -12,19 +12,13 @@ VALUES (14284,   1,      65536) /* ItemType - Portal */
      , (14284, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14284,   1, True ) /* Stuck */
-     , (14284,  12, True ) /* ReportCollisions */
-     , (14284,  13, True ) /* Ethereal */
-     , (14284,  14, True ) /* GravityStatus */
-     , (14284,  15, True ) /* LightsStatus */
-     , (14284,  19, True ) /* Attackable */;
+VALUES (14284,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14284,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14284,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14284,   1, 'Snakehead Portal') /* Name */
-     , (14284,  38, 'Snakehead Portal (15.1S, 55.6E).') /* AppraisalPortalDestination */
      , (14284, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

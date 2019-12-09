@@ -15,11 +15,7 @@ VALUES (237,   1,         16) /* ItemType - Creature */
      , (237, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (237,   1, True ) /* Stuck */
-     , (237,  12, True ) /* ReportCollisions */
-     , (237,  13, False) /* Ethereal */
-     , (237,  14, True ) /* GravityStatus */
-     , (237,  19, True ) /* Attackable */;
+VALUES (237,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (237,   1, 'Virindi Master') /* Name */

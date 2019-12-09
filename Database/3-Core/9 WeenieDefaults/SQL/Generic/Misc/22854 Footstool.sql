@@ -8,16 +8,11 @@ VALUES (22854,   1,        128) /* ItemType - Misc */
      , (22854,   5,         50) /* EncumbranceVal */
      , (22854,  16,          1) /* ItemUseable - No */
      , (22854,  19,       5000) /* Value */
-     , (22854,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (22854,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22854, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22854,   1, False) /* Stuck */
-     , (22854,  11, True ) /* IgnoreCollisions */
-     , (22854,  13, True ) /* Ethereal */
-     , (22854,  14, True ) /* GravityStatus */
-     , (22854,  19, True ) /* Attackable */
-     , (22854,  22, True ) /* Inscribable */;
+VALUES (22854,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22854,   1, 'Footstool') /* Name */

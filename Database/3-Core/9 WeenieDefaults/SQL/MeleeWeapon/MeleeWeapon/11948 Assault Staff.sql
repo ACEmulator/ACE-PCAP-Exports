@@ -16,7 +16,6 @@ VALUES (11948,   1,          1) /* ItemType - MeleeWeapon */
      , (11948,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (11948,  49,         25) /* WeaponTime */
      , (11948,  51,          1) /* CombatUse - Melee */
-     , (11948,  65,        101) /* Placement - Resting */
      , (11948,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (11948, 106,        400) /* ItemSpellcraft */
      , (11948, 107,        172) /* ItemCurMana */
@@ -26,25 +25,20 @@ VALUES (11948,   1,          1) /* ItemType - MeleeWeapon */
      , (11948, 151,          2) /* HookType - Wall */
      , (11948, 176,         46) /* AppraisalItemSkill */
      , (11948, 353,          7) /* WeaponType - Staff */
-     , (11948, 8030,          0);
+     , (11948, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (11948, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11948,   1, False) /* Stuck */
-     , (11948,  11, True ) /* IgnoreCollisions */
-     , (11948,  13, True ) /* Ethereal */
-     , (11948,  14, True ) /* GravityStatus */
-     , (11948,  15, True ) /* LightsStatus */
-     , (11948,  19, True ) /* Attackable */
-     , (11948,  22, True ) /* Inscribable */;
+VALUES (11948,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11948,   5, -0.025000000372529) /* ManaRate */
+VALUES (11948,   5,   -0.03) /* ManaRate */
      , (11948,  21,       0) /* WeaponLength */
-     , (11948,  22, 0.939999997615814) /* DamageVariance */
+     , (11948,  22,    0.94) /* DamageVariance */
      , (11948,  26,       0) /* MaximumVelocity */
-     , (11948,  29, 1.05999994277954) /* WeaponDefense */
-     , (11948,  39, 0.800000011920929) /* DefaultScale */
-     , (11948,  62, 1.05999994277954) /* WeaponOffense */
+     , (11948,  29,    1.06) /* WeaponDefense */
+     , (11948,  39,     0.8) /* DefaultScale */
+     , (11948,  62,    1.06) /* WeaponOffense */
      , (11948,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

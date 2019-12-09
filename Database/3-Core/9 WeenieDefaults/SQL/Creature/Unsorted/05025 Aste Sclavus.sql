@@ -13,14 +13,10 @@ VALUES (5025,   1,         16) /* ItemType - Creature */
      , (5025, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5025,   1, True ) /* Stuck */
-     , (5025,  12, True ) /* ReportCollisions */
-     , (5025,  13, False) /* Ethereal */
-     , (5025,  14, True ) /* GravityStatus */
-     , (5025,  19, True ) /* Attackable */;
+VALUES (5025,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5025,  39, 1.01999998092651) /* DefaultScale */;
+VALUES (5025,  39,    1.02) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5025,   1, 'Aste Sclavus') /* Name */

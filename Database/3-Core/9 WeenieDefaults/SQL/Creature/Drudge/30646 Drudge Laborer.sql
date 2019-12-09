@@ -16,14 +16,10 @@ VALUES (30646,   1,         16) /* ItemType - Creature */
      , (30646, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30646,   1, True ) /* Stuck */
-     , (30646,  12, True ) /* ReportCollisions */
-     , (30646,  13, False) /* Ethereal */
-     , (30646,  14, True ) /* GravityStatus */
-     , (30646,  19, True ) /* Attackable */;
+VALUES (30646,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30646,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30646,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30646,   1, 'Drudge Laborer') /* Name */

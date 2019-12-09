@@ -15,14 +15,10 @@ VALUES (28054,   1,         16) /* ItemType - Creature */
      , (28054, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28054,   1, True ) /* Stuck */
-     , (28054,  12, True ) /* ReportCollisions */
-     , (28054,  13, False) /* Ethereal */
-     , (28054,  14, True ) /* GravityStatus */
-     , (28054,  19, True ) /* Attackable */;
+VALUES (28054,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28054,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (28054,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28054,   1, 'Aerfalle''s Apprentice') /* Name */

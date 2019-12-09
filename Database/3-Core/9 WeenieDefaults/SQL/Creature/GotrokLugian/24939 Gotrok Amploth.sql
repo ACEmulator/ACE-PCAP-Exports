@@ -16,11 +16,7 @@ VALUES (24939,   1,         16) /* ItemType - Creature */
      , (24939, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24939,   1, True ) /* Stuck */
-     , (24939,  12, True ) /* ReportCollisions */
-     , (24939,  13, False) /* Ethereal */
-     , (24939,  14, True ) /* GravityStatus */
-     , (24939,  19, True ) /* Attackable */;
+VALUES (24939,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24939,   1, 'Gotrok Amploth') /* Name */

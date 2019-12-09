@@ -12,14 +12,10 @@ VALUES (39376,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39376,   1, True ) /* Stuck */
-     , (39376,  11, True ) /* IgnoreCollisions */
-     , (39376,  13, True ) /* Ethereal */
-     , (39376,  15, True ) /* LightsStatus */
-     , (39376,  19, True ) /* Attackable */
      , (39376,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39376,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (39376,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39376,   1, 'T''thuun') /* Name */

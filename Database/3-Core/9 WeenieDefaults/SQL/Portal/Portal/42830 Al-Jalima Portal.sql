@@ -12,20 +12,14 @@ VALUES (42830,   1,      65536) /* ItemType - Portal */
      , (42830, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42830,   1, True ) /* Stuck */
-     , (42830,  12, True ) /* ReportCollisions */
-     , (42830,  13, True ) /* Ethereal */
-     , (42830,  14, True ) /* GravityStatus */
-     , (42830,  15, True ) /* LightsStatus */
-     , (42830,  19, True ) /* Attackable */;
+VALUES (42830,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42830,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42830,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42830,   1, 'Al-Jalima Portal') /* Name */
      , (42830,  16, 'This portal goes to Al-Jalima, the Gharu''ndim settlement located between the prominent cities of Zaikhal and Samsur. This is a good town for characters over level 20.') /* LongDesc */
-     , (42830,  38, 'Al-Jalima Portal (7.2N, 5.0E).') /* AppraisalPortalDestination */
      , (42830, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

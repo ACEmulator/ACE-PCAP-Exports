@@ -9,20 +9,15 @@ VALUES (48772,   1,      16384) /* ItemType - Key */
      , (48772,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (48772,  19,          0) /* Value */
      , (48772,  33,          1) /* Bonded - Bonded */
-     , (48772,  65,        101) /* Placement - Resting */
      , (48772,  91,          1) /* MaxStructure */
      , (48772,  92,          1) /* Structure */
      , (48772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48772,  94,        640) /* TargetType - LockableMagicTarget */
-     , (48772, 114,          1) /* Attuned - Attuned */;
+     , (48772, 114,          1) /* Attuned - Attuned */
+     , (48772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48772,   1, False) /* Stuck */
-     , (48772,  11, True ) /* IgnoreCollisions */
-     , (48772,  13, True ) /* Ethereal */
-     , (48772,  14, True ) /* GravityStatus */
-     , (48772,  19, True ) /* Attackable */
-     , (48772,  22, True ) /* Inscribable */;
+VALUES (48772,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48772,   1, 'Phainor''s Chamber Key') /* Name */

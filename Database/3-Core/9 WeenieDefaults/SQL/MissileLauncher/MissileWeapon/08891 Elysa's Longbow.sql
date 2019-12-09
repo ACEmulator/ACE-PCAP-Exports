@@ -12,16 +12,11 @@ VALUES (8891,   1,        256) /* ItemType - MissileWeapon */
      , (8891,  19,        350) /* Value */
      , (8891,  50,          1) /* AmmoType - Arrow */
      , (8891,  51,          2) /* CombatUse - Missle */
-     , (8891,  65,          3) /* Placement - LeftHand */
-     , (8891,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (8891,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8891, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8891,   1, False) /* Stuck */
-     , (8891,  11, True ) /* IgnoreCollisions */
-     , (8891,  13, True ) /* Ethereal */
-     , (8891,  14, True ) /* GravityStatus */
-     , (8891,  19, True ) /* Attackable */
-     , (8891,  22, True ) /* Inscribable */;
+VALUES (8891,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8891,   1, 'Elysa''s Longbow') /* Name */;

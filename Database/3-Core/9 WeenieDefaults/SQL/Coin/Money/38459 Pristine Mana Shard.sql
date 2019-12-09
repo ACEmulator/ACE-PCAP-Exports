@@ -14,17 +14,12 @@ VALUES (38459,   1,         64) /* ItemType - Money */
      , (38459,  18,         64) /* UiEffects - Lightning */
      , (38459,  19,         10) /* Value */
      , (38459,  33,          0) /* Bonded - Normal */
-     , (38459,  65,        101) /* Placement - Resting */
      , (38459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38459, 114,          0) /* Attuned - Normal */;
+     , (38459, 114,          0) /* Attuned - Normal */
+     , (38459, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38459,   1, False) /* Stuck */
-     , (38459,  11, True ) /* IgnoreCollisions */
-     , (38459,  13, True ) /* Ethereal */
-     , (38459,  14, True ) /* GravityStatus */
-     , (38459,  19, True ) /* Attackable */
-     , (38459,  69, False) /* IsSellable */
+VALUES (38459,  69, False) /* IsSellable */
      , (38459,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

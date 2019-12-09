@@ -8,16 +8,11 @@ VALUES (24582,   1,        128) /* ItemType - Misc */
      , (24582,   5,       9000) /* EncumbranceVal */
      , (24582,  16,          1) /* ItemUseable - No */
      , (24582,  19,        125) /* Value */
-     , (24582,  65,        101) /* Placement - Resting */
-     , (24582,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (24582,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (24582, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24582,   1, True ) /* Stuck */
-     , (24582,  11, True ) /* IgnoreCollisions */
-     , (24582,  12, True ) /* ReportCollisions */
-     , (24582,  13, False) /* Ethereal */
-     , (24582,  14, True ) /* GravityStatus */
-     , (24582,  19, True ) /* Attackable */;
+VALUES (24582,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24582,   1, 'Rkos and Ry''zir''s Metalworks') /* Name */

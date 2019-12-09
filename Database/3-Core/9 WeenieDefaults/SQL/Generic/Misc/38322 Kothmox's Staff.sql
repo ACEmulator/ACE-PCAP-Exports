@@ -10,24 +10,18 @@ VALUES (38322,   1,        128) /* ItemType - Misc */
      , (38322,  18,          1) /* UiEffects - Magical */
      , (38322,  19,          0) /* Value */
      , (38322,  33,          1) /* Bonded - Bonded */
-     , (38322,  65,        101) /* Placement - Resting */
      , (38322,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (38322,  98, 1485759462) /* CreationTimestamp */
      , (38322, 114,          1) /* Attuned - Attuned */
      , (38322, 267,       3600) /* Lifespan */
-     , (38322, 268,       3590) /* RemainingLifespan */;
+     , (38322, 268,       3590) /* RemainingLifespan */
+     , (38322, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38322,   1, False) /* Stuck */
-     , (38322,  11, True ) /* IgnoreCollisions */
-     , (38322,  13, True ) /* Ethereal */
-     , (38322,  14, True ) /* GravityStatus */
-     , (38322,  15, True ) /* LightsStatus */
-     , (38322,  19, True ) /* Attackable */
-     , (38322,  22, True ) /* Inscribable */;
+VALUES (38322,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38322,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (38322,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38322,   1, 'Kothmox''s Staff') /* Name */

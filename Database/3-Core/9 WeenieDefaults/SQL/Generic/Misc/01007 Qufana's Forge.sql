@@ -11,11 +11,7 @@ VALUES (1007,   1,        128) /* ItemType - Misc */
      , (1007,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1007,   1, True ) /* Stuck */
-     , (1007,  11, True ) /* IgnoreCollisions */
-     , (1007,  12, True ) /* ReportCollisions */
-     , (1007,  13, False) /* Ethereal */
-     , (1007,  19, True ) /* Attackable */;
+VALUES (1007,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1007,   1, 'Qufana''s Forge') /* Name */

@@ -15,14 +15,10 @@ VALUES (4243,   1,         16) /* ItemType - Creature */
      , (4243, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4243,   1, True ) /* Stuck */
-     , (4243,  12, True ) /* ReportCollisions */
-     , (4243,  13, False) /* Ethereal */
-     , (4243,  14, True ) /* GravityStatus */
-     , (4243,  19, True ) /* Attackable */;
+VALUES (4243,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4243,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (4243,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4243,   1, 'Horned Chittick') /* Name */

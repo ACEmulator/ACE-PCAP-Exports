@@ -12,22 +12,17 @@ VALUES (6057,   1,       2048) /* ItemType - Gem */
      , (6057,  15,          0) /* StackUnitValue */
      , (6057,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6057,  19,          0) /* Value */
-     , (6057,  65,        101) /* Placement - Resting */
      , (6057,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6057,  94,       2048) /* TargetType - Gem */
-     , (6057, 151,          2) /* HookType - Wall */;
+     , (6057, 151,          2) /* HookType - Wall */
+     , (6057, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6057,   1, False) /* Stuck */
-     , (6057,  11, True ) /* IgnoreCollisions */
-     , (6057,  13, True ) /* Ethereal */
-     , (6057,  14, True ) /* GravityStatus */
-     , (6057,  19, True ) /* Attackable */
-     , (6057,  22, True ) /* Inscribable */
+VALUES (6057,  22, True ) /* Inscribable */
      , (6057,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6057,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (6057,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6057,   1, 'Tiny Shard') /* Name */

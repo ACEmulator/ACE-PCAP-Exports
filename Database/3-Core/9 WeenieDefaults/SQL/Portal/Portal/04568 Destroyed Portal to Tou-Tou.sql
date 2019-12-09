@@ -11,20 +11,14 @@ VALUES (4568,   1,      65536) /* ItemType - Portal */
      , (4568, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4568,   1, True ) /* Stuck */
-     , (4568,  11, True ) /* IgnoreCollisions */
-     , (4568,  13, True ) /* Ethereal */
-     , (4568,  14, True ) /* GravityStatus */
-     , (4568,  15, True ) /* LightsStatus */
-     , (4568,  19, True ) /* Attackable */;
+VALUES (4568,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4568,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4568,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4568,   1, 'Destroyed Portal to Tou-Tou') /* Name */
      , (4568,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (4568,  38, 'Destroyed Portal to Tou-Tou (30.4S, 94.7E).') /* AppraisalPortalDestination */
      , (4568, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

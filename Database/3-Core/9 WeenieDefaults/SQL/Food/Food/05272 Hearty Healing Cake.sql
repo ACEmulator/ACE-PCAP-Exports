@@ -13,15 +13,8 @@ VALUES (5272,   1,         32) /* ItemType - Food */
      , (5272,  16,          8) /* ItemUseable - Contained */
      , (5272,  18,          4) /* UiEffects - BoostHealth */
      , (5272,  19,        132) /* Value */
-     , (5272,  65,        101) /* Placement - Resting */
-     , (5272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5272,   1, False) /* Stuck */
-     , (5272,  11, True ) /* IgnoreCollisions */
-     , (5272,  13, True ) /* Ethereal */
-     , (5272,  14, True ) /* GravityStatus */
-     , (5272,  19, True ) /* Attackable */;
+     , (5272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5272, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5272,   1, 'Hearty Healing Cake') /* Name */

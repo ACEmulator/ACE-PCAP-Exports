@@ -12,17 +12,12 @@ VALUES (31991,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31991,  15,      10000) /* StackUnitValue */
      , (31991,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31991,  19,      10000) /* Value */
-     , (31991,  65,        101) /* Placement - Resting */
      , (31991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31991,  94,          2) /* TargetType - Armor */;
+     , (31991,  94,          2) /* TargetType - Armor */
+     , (31991, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31991,   1, False) /* Stuck */
-     , (31991,  11, True ) /* IgnoreCollisions */
-     , (31991,  13, True ) /* Ethereal */
-     , (31991,  14, True ) /* GravityStatus */
-     , (31991,  19, True ) /* Attackable */
-     , (31991,  69, False) /* IsSellable */;
+VALUES (31991,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31991,   1, 'Heliotropic Pigmentation Apparatus') /* Name */

@@ -11,12 +11,7 @@ VALUES (32204,   1,        128) /* ItemType - Misc */
      , (32204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32204,   1, False) /* Stuck */
-     , (32204,  11, True ) /* IgnoreCollisions */
-     , (32204,  13, True ) /* Ethereal */
-     , (32204,  14, True ) /* GravityStatus */
-     , (32204,  19, True ) /* Attackable */
-     , (32204,  22, True ) /* Inscribable */;
+VALUES (32204,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32204,   1, 'Seeds of Anger') /* Name */

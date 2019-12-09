@@ -15,17 +15,10 @@ VALUES (35486,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35486,   1, True ) /* Stuck */
-     , (35486,  11, True ) /* IgnoreCollisions */
-     , (35486,  12, True ) /* ReportCollisions */
-     , (35486,  13, False) /* Ethereal */
-     , (35486,  14, True ) /* GravityStatus */
-     , (35486,  15, True ) /* LightsStatus */
-     , (35486,  19, False) /* Attackable */
-     , (35486,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35486,  42, True ) /* AllowEdgeSlide */;
+     , (35486,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35486,  54, 0.100000001490116) /* UseRadius */;
+VALUES (35486,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35486,   1, 'Harraag''s Hideout') /* Name */

@@ -15,11 +15,7 @@ VALUES (34798,   1,         16) /* ItemType - Creature */
      , (34798, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34798,   1, True ) /* Stuck */
-     , (34798,  12, True ) /* ReportCollisions */
-     , (34798,  13, False) /* Ethereal */
-     , (34798,  14, True ) /* GravityStatus */
-     , (34798,  19, True ) /* Attackable */;
+VALUES (34798,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34798,   1, 'Guruk Spore Leech') /* Name */

@@ -12,15 +12,8 @@ VALUES (747,   1,       4096) /* ItemType - SpellComponents */
      , (747,  15,          5) /* StackUnitValue */
      , (747,  16,          1) /* ItemUseable - No */
      , (747,  19,          5) /* Value */
-     , (747,  65,        101) /* Placement - Resting */
-     , (747,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (747,   1, False) /* Stuck */
-     , (747,  11, True ) /* IgnoreCollisions */
-     , (747,  13, True ) /* Ethereal */
-     , (747,  14, True ) /* GravityStatus */
-     , (747,  19, True ) /* Attackable */;
+     , (747,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (747, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (747,   1, 'Hemlock Talisman') /* Name */;

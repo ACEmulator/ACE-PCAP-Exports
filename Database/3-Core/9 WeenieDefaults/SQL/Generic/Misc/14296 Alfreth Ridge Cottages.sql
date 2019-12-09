@@ -11,12 +11,7 @@ VALUES (14296,   1,        128) /* ItemType - Misc */
      , (14296,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14296,   1, True ) /* Stuck */
-     , (14296,  11, True ) /* IgnoreCollisions */
-     , (14296,  12, True ) /* ReportCollisions */
-     , (14296,  13, False) /* Ethereal */
-     , (14296,  14, True ) /* GravityStatus */
-     , (14296,  19, True ) /* Attackable */;
+VALUES (14296,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14296,   1, 'Alfreth Ridge Cottages') /* Name */

@@ -14,15 +14,10 @@ VALUES (34406,   1,       2048) /* ItemType - Gem */
      , (34406, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34406,   1, False) /* Stuck */
-     , (34406,  11, True ) /* IgnoreCollisions */
-     , (34406,  13, True ) /* Ethereal */
-     , (34406,  14, True ) /* GravityStatus */
-     , (34406,  19, True ) /* Attackable */
-     , (34406,  22, True ) /* Inscribable */;
+VALUES (34406,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34406,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (34406,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34406,   1, 'Pack Scold') /* Name */

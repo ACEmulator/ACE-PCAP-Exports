@@ -11,17 +11,10 @@ VALUES (36736,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (36736,  15,        500) /* StackUnitValue */
      , (36736,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36736,  19,        500) /* Value */
-     , (36736,  65,        101) /* Placement - Resting */
      , (36736,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36736,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (36736, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36736,   1, False) /* Stuck */
-     , (36736,  11, True ) /* IgnoreCollisions */
-     , (36736,  13, True ) /* Ethereal */
-     , (36736,  14, True ) /* GravityStatus */
-     , (36736,  19, True ) /* Attackable */;
+     , (36736, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (36736, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36736,   1, 'Concentrated Bludgeoning Infusion') /* Name */

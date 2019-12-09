@@ -16,11 +16,7 @@ VALUES (7179,   1,         16) /* ItemType - Creature */
      , (7179, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7179,   1, True ) /* Stuck */
-     , (7179,  12, True ) /* ReportCollisions */
-     , (7179,  13, False) /* Ethereal */
-     , (7179,  14, True ) /* GravityStatus */
-     , (7179,  19, True ) /* Attackable */;
+VALUES (7179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7179,   1, 'Relic Bones') /* Name */

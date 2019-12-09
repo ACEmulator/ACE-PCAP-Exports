@@ -9,17 +9,12 @@ VALUES (35871,   1,        128) /* ItemType - Misc */
      , (35871,  16,          1) /* ItemUseable - No */
      , (35871,  19,          0) /* Value */
      , (35871,  33,          1) /* Bonded - Bonded */
-     , (35871,  65,        101) /* Placement - Resting */
      , (35871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35871, 114,          1) /* Attuned - Attuned */;
+     , (35871, 114,          1) /* Attuned - Attuned */
+     , (35871, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35871,   1, False) /* Stuck */
-     , (35871,  11, True ) /* IgnoreCollisions */
-     , (35871,  13, True ) /* Ethereal */
-     , (35871,  14, True ) /* GravityStatus */
-     , (35871,  19, True ) /* Attackable */
-     , (35871,  22, True ) /* Inscribable */;
+VALUES (35871,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35871,   1, 'The Master Token') /* Name */

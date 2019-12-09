@@ -13,19 +13,13 @@ VALUES (10855,   1,      65536) /* ItemType - Portal */
      , (10855, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10855,   1, True ) /* Stuck */
-     , (10855,  12, True ) /* ReportCollisions */
-     , (10855,  13, True ) /* Ethereal */
-     , (10855,  14, True ) /* GravityStatus */
-     , (10855,  15, True ) /* LightsStatus */
-     , (10855,  19, True ) /* Attackable */;
+VALUES (10855,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10855,  54, -0.100000001490116) /* UseRadius */;
+VALUES (10855,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10855,   1, 'Ancient Empyrean Grotto') /* Name */
-     , (10855,  38, 'Ancient Empyrean Grotto') /* AppraisalPortalDestination */
      , (10855, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

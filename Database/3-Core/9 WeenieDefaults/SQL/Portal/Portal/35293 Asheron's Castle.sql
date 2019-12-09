@@ -6,23 +6,18 @@ VALUES (35293, 'ace35293-asheronscastle', 7, '2019-02-10 00:00:00') /* Portal */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35293,   1,      65536) /* ItemType - Portal */
      , (35293,  16,         32) /* ItemUseable - Remote */
-     , (35293,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (35293,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35293, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (35293, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35293,   1, True ) /* Stuck */
-     , (35293,  11, True ) /* IgnoreCollisions */
-     , (35293,  13, True ) /* Ethereal */
-     , (35293,  14, True ) /* GravityStatus */
-     , (35293,  19, True ) /* Attackable */;
+VALUES (35293,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35293,  54, 0.800000011920929) /* UseRadius */;
+VALUES (35293,  54,     0.8) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35293,   1, 'Asheron''s Castle') /* Name */
-     , (35293,  38, 'Asheron''s Castle (21.3N, 69.2E).') /* AppraisalPortalDestination */;
+VALUES (35293,   1, 'Asheron''s Castle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35293,   1,   33558268) /* Setup */

@@ -16,11 +16,7 @@ VALUES (24313,   1,         16) /* ItemType - Creature */
      , (24313, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24313,   1, True ) /* Stuck */
-     , (24313,  12, True ) /* ReportCollisions */
-     , (24313,  13, False) /* Ethereal */
-     , (24313,  14, True ) /* GravityStatus */
-     , (24313,  19, True ) /* Attackable */;
+VALUES (24313,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24313,   1, 'Armored Skeleton') /* Name */

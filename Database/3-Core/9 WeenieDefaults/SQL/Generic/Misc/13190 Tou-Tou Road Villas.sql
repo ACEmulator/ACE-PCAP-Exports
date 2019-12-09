@@ -11,12 +11,7 @@ VALUES (13190,   1,        128) /* ItemType - Misc */
      , (13190,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13190,   1, True ) /* Stuck */
-     , (13190,  11, True ) /* IgnoreCollisions */
-     , (13190,  12, True ) /* ReportCollisions */
-     , (13190,  13, False) /* Ethereal */
-     , (13190,  14, True ) /* GravityStatus */
-     , (13190,  19, True ) /* Attackable */;
+VALUES (13190,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13190,   1, 'Tou-Tou Road Villas') /* Name */;

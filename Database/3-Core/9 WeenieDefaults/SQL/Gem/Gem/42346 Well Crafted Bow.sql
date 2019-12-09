@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42346,   1,       2048) /* ItemType - Gem */
      , (42346,   5,        100) /* EncumbranceVal */
      , (42346,  16,          1) /* ItemUseable - No */
-     , (42346,  65,        101) /* Placement - Resting */
      , (42346,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42346,  94,         16) /* TargetType - Creature */;
+     , (42346,  94,         16) /* TargetType - Creature */
+     , (42346, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42346,   1, False) /* Stuck */
-     , (42346,  11, True ) /* IgnoreCollisions */
-     , (42346,  13, True ) /* Ethereal */
-     , (42346,  14, True ) /* GravityStatus */
-     , (42346,  19, True ) /* Attackable */
-     , (42346,  22, True ) /* Inscribable */;
+VALUES (42346,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42346,   1, 'Well Crafted Bow') /* Name */;

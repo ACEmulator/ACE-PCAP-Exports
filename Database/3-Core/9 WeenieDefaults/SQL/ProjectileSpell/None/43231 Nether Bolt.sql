@@ -9,22 +9,15 @@ VALUES (43231,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43231,   1, True ) /* Stuck */
-     , (43231,  12, True ) /* ReportCollisions */
-     , (43231,  13, False) /* Ethereal */
-     , (43231,  14, True ) /* GravityStatus */
-     , (43231,  15, True ) /* LightsStatus */
-     , (43231,  16, True ) /* ScriptedCollision */
-     , (43231,  17, True ) /* Inelastic */
-     , (43231,  19, True ) /* Attackable */
      , (43231,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43231,  77,       1) /* PhysicsScriptIntensity */
      , (43231,  78,       1) /* Friction */
      , (43231,  79,       0) /* Elasticity */
-     , (43231, 8010, -2.01268172264099) /* PCAPRecordedVelocityX */
-     , (43231, 8011, -34.1768798828125) /* PCAPRecordedVelocityY */
-     , (43231, 8012, 20.4149894714355) /* PCAPRecordedVelocityZ */;
+     , (43231, 8010,   -2.01) /* PCAPRecordedVelocityX */
+     , (43231, 8011,  -34.18) /* PCAPRecordedVelocityY */
+     , (43231, 8012,   20.41) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43231,   1, 'Nether Bolt') /* Name */;

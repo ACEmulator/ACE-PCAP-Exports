@@ -13,13 +13,7 @@ VALUES (40877,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40877,   1, True ) /* Stuck */
-     , (40877,  11, True ) /* IgnoreCollisions */
-     , (40877,  12, True ) /* ReportCollisions */
-     , (40877,  13, True ) /* Ethereal */
-     , (40877,  14, True ) /* GravityStatus */
-     , (40877,  19, False) /* Attackable */
-     , (40877,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (40877,  42, True ) /* AllowEdgeSlide */;
+     , (40877,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40877,   1, 'Essence Lock') /* Name */;

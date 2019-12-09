@@ -12,18 +12,13 @@ VALUES (10713,   1,       2048) /* ItemType - Gem */
      , (10713,  15,          0) /* StackUnitValue */
      , (10713,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (10713,  19,          0) /* Value */
-     , (10713,  65,        101) /* Placement - Resting */
      , (10713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10713,  94,       2048) /* TargetType - Gem */
-     , (10713, 151,          2) /* HookType - Wall */;
+     , (10713, 151,          2) /* HookType - Wall */
+     , (10713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10713,   1, False) /* Stuck */
-     , (10713,  11, True ) /* IgnoreCollisions */
-     , (10713,  13, True ) /* Ethereal */
-     , (10713,  14, True ) /* GravityStatus */
-     , (10713,  19, True ) /* Attackable */
-     , (10713,  22, True ) /* Inscribable */;
+VALUES (10713,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10713,   1, 'Southern Quiddity Fragment') /* Name */

@@ -8,17 +8,12 @@ VALUES (36910,   1,        128) /* ItemType - Misc */
      , (36910,   5,       1500) /* EncumbranceVal */
      , (36910,  16,          1) /* ItemUseable - No */
      , (36910,  19,       6000) /* Value */
-     , (36910,  65,        101) /* Placement - Resting */
      , (36910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36910, 151,          1) /* HookType - Floor */;
+     , (36910, 151,          1) /* HookType - Floor */
+     , (36910, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36910,   1, False) /* Stuck */
-     , (36910,  11, True ) /* IgnoreCollisions */
-     , (36910,  13, True ) /* Ethereal */
-     , (36910,  14, True ) /* GravityStatus */
-     , (36910,  19, True ) /* Attackable */
-     , (36910,  22, True ) /* Inscribable */;
+VALUES (36910,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36910,   1, 'Jubilee Rug') /* Name */

@@ -12,17 +12,12 @@ VALUES (36517,   1,        128) /* ItemType - Misc */
      , (36517,  15,          1) /* StackUnitValue */
      , (36517,  16,          8) /* ItemUseable - Contained */
      , (36517,  19,          1) /* Value */
-     , (36517,  65,        101) /* Placement - Resting */
      , (36517,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36517,  94,         16) /* TargetType - Creature */;
+     , (36517,  94,         16) /* TargetType - Creature */
+     , (36517, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36517,   1, False) /* Stuck */
-     , (36517,  11, True ) /* IgnoreCollisions */
-     , (36517,  13, True ) /* Ethereal */
-     , (36517,  14, True ) /* GravityStatus */
-     , (36517,  19, True ) /* Attackable */
-     , (36517,  22, True ) /* Inscribable */;
+VALUES (36517,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36517,   1, 'Wrapped Dark Sliver') /* Name */;

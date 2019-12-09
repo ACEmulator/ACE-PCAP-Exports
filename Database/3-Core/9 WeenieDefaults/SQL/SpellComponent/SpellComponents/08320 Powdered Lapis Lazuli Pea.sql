@@ -12,18 +12,11 @@ VALUES (8320,   1,       4096) /* ItemType - SpellComponents */
      , (8320,  15,        625) /* StackUnitValue */
      , (8320,  16,          1) /* ItemUseable - No */
      , (8320,  19,        625) /* Value */
-     , (8320,  65,        101) /* Placement - Resting */
-     , (8320,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8320,   1, False) /* Stuck */
-     , (8320,  11, True ) /* IgnoreCollisions */
-     , (8320,  13, True ) /* Ethereal */
-     , (8320,  14, True ) /* GravityStatus */
-     , (8320,  19, True ) /* Attackable */;
+     , (8320,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8320, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8320,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8320,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8320,   1, 'Powdered Lapis Lazuli Pea') /* Name */;

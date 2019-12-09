@@ -16,15 +16,10 @@ VALUES (7487,   1,         16) /* ItemType - Creature */
      , (7487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7487,   1, True ) /* Stuck */
-     , (7487,  12, True ) /* ReportCollisions */
-     , (7487,  13, False) /* Ethereal */
-     , (7487,  14, True ) /* GravityStatus */
-     , (7487,  15, True ) /* LightsStatus */
-     , (7487,  19, True ) /* Attackable */;
+VALUES (7487,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7487,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (7487,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7487,   1, 'Inferno') /* Name */

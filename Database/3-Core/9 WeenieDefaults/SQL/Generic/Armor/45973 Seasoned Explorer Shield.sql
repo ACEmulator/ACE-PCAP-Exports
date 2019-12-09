@@ -15,12 +15,7 @@ VALUES (45973,   1,          2) /* ItemType - Armor */
      , (45973, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45973,   1, False) /* Stuck */
-     , (45973,  11, True ) /* IgnoreCollisions */
-     , (45973,  13, True ) /* Ethereal */
-     , (45973,  14, True ) /* GravityStatus */
-     , (45973,  19, True ) /* Attackable */
-     , (45973,  22, True ) /* Inscribable */;
+VALUES (45973,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45973,   1, 'Seasoned Explorer Shield') /* Name */;

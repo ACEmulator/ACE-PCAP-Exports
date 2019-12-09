@@ -29,12 +29,7 @@ VALUES (1,   1,         16) /* ItemType - Creature */
      , (1, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1,   1, True ) /* Stuck */
-     , (1,  11, True ) /* IgnoreCollisions */
-     , (1,  13, False) /* Ethereal */
-     , (1,  14, True ) /* GravityStatus */
-     , (1,  19, True ) /* Attackable */
-     , (1,  42, True ) /* AllowEdgeSlide */;
+VALUES (1,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1,   1, 'Ripley') /* Name */

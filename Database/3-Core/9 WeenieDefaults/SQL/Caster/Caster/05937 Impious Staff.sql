@@ -12,7 +12,6 @@ VALUES (5937,   1,      32768) /* ItemType - Caster */
      , (5937,  18,          1) /* UiEffects - Magical */
      , (5937,  19,      12000) /* Value */
      , (5937,  33,          1) /* Bonded - Bonded */
-     , (5937,  65,          1) /* Placement - RightHandCombat */
      , (5937,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5937,  94,         16) /* TargetType - Creature */
      , (5937, 106,        250) /* ItemSpellcraft */
@@ -25,15 +24,11 @@ VALUES (5937,   1,      32768) /* ItemType - Caster */
      , (5937, 117,        150) /* ItemManaCost */
      , (5937, 151,          2) /* HookType - Wall */
      , (5937, 176,         34) /* AppraisalItemSkill */
-     , (5937, 188,          2) /* HeritageGroup - Gharundim */;
+     , (5937, 188,          2) /* HeritageGroup - Gharundim */
+     , (5937, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5937,   1, False) /* Stuck */
-     , (5937,  11, True ) /* IgnoreCollisions */
-     , (5937,  13, True ) /* Ethereal */
-     , (5937,  14, True ) /* GravityStatus */
-     , (5937,  19, True ) /* Attackable */
-     , (5937,  22, True ) /* Inscribable */
+VALUES (5937,  22, True ) /* Inscribable */
      , (5937,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -13,22 +13,17 @@ VALUES (11358,   1,        128) /* ItemType - Misc */
      , (11358,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11358,  19,          0) /* Value */
      , (11358,  33,          1) /* Bonded - Bonded */
-     , (11358,  65,        101) /* Placement - Resting */
      , (11358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11358,  94,        128) /* TargetType - Misc */
-     , (11358, 114,          1) /* Attuned - Attuned */;
+     , (11358, 114,          1) /* Attuned - Attuned */
+     , (11358, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11358,   1, False) /* Stuck */
-     , (11358,  11, True ) /* IgnoreCollisions */
-     , (11358,  13, True ) /* Ethereal */
-     , (11358,  14, True ) /* GravityStatus */
-     , (11358,  19, True ) /* Attackable */
-     , (11358,  22, True ) /* Inscribable */
+VALUES (11358,  22, True ) /* Inscribable */
      , (11358,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11358,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (11358,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11358,   1, 'Embroidered Bag') /* Name */

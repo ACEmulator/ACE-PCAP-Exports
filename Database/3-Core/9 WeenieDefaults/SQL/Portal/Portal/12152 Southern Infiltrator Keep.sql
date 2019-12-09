@@ -13,19 +13,13 @@ VALUES (12152,   1,      65536) /* ItemType - Portal */
      , (12152, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12152,   1, True ) /* Stuck */
-     , (12152,  12, True ) /* ReportCollisions */
-     , (12152,  13, True ) /* Ethereal */
-     , (12152,  14, True ) /* GravityStatus */
-     , (12152,  15, True ) /* LightsStatus */
-     , (12152,  19, True ) /* Attackable */;
+VALUES (12152,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12152,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12152,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12152,   1, 'Southern Infiltrator Keep') /* Name */
-     , (12152,  38, 'Southern Infiltrator Keep') /* AppraisalPortalDestination */
      , (12152, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

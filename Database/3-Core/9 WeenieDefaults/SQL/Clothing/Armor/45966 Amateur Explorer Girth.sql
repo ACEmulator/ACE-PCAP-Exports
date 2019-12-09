@@ -10,16 +10,11 @@ VALUES (45966,   1,          2) /* ItemType - Armor */
      , (45966,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (45966,  16,          1) /* ItemUseable - No */
      , (45966,  19,        100) /* Value */
-     , (45966,  65,        101) /* Placement - Resting */
-     , (45966,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45966,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45966, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45966,   1, False) /* Stuck */
-     , (45966,  11, True ) /* IgnoreCollisions */
-     , (45966,  13, True ) /* Ethereal */
-     , (45966,  14, True ) /* GravityStatus */
-     , (45966,  19, True ) /* Attackable */
-     , (45966,  22, True ) /* Inscribable */;
+VALUES (45966,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45966,   1, 'Amateur Explorer Girth') /* Name */;

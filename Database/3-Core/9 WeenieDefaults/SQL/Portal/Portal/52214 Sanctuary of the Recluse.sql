@@ -13,19 +13,13 @@ VALUES (52214,   1,      65536) /* ItemType - Portal */
      , (52214, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52214,   1, True ) /* Stuck */
-     , (52214,  12, True ) /* ReportCollisions */
-     , (52214,  13, True ) /* Ethereal */
-     , (52214,  14, True ) /* GravityStatus */
-     , (52214,  15, True ) /* LightsStatus */
-     , (52214,  19, True ) /* Attackable */;
+VALUES (52214,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52214,  54, -0.100000001490116) /* UseRadius */;
+VALUES (52214,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52214,   1, 'Sanctuary of the Recluse') /* Name */
-     , (52214,  38, 'Sanctuary of the Recluse') /* AppraisalPortalDestination */
      , (52214, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

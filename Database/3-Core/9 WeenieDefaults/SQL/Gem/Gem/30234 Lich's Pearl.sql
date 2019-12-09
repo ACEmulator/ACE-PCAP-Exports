@@ -16,22 +16,17 @@ VALUES (30234,   1,       2048) /* ItemType - Gem */
      , (30234,  19,          0) /* Value */
      , (30234,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30234,  33,         -1) /* Bonded - Slippery */
-     , (30234,  65,        101) /* Placement - Resting */
      , (30234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30234,  94,         16) /* TargetType - Creature */
      , (30234, 106,        325) /* ItemSpellcraft */
      , (30234, 107,      10000) /* ItemCurMana */
      , (30234, 108,      10000) /* ItemMaxMana */
      , (30234, 109,          0) /* ItemDifficulty */
-     , (30234, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30234, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30234,   1, False) /* Stuck */
-     , (30234,  11, True ) /* IgnoreCollisions */
-     , (30234,  13, True ) /* Ethereal */
-     , (30234,  14, True ) /* GravityStatus */
-     , (30234,  19, True ) /* Attackable */
-     , (30234, 108, True ) /* RareUsesTimer */;
+VALUES (30234, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30234,   1, 'Lich''s Pearl') /* Name */

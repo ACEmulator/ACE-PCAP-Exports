@@ -13,21 +13,15 @@ VALUES (42156,   1,      65536) /* ItemType - Portal */
      , (42156, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42156,   1, True ) /* Stuck */
-     , (42156,  12, True ) /* ReportCollisions */
-     , (42156,  13, True ) /* Ethereal */
-     , (42156,  14, True ) /* GravityStatus */
-     , (42156,  15, True ) /* LightsStatus */
-     , (42156,  19, True ) /* Attackable */;
+VALUES (42156,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42156,  39, 0.800000011920929) /* DefaultScale */
-     , (42156,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42156,  39,     0.8) /* DefaultScale */
+     , (42156,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42156,   1, 'Dryreach') /* Name */
      , (42156,  16, 'A portal leading a cottage near Dryreach where Yu Vuo-Ki and her missing sister Dansha-Ki may be found.') /* LongDesc */
-     , (42156,  38, 'Dryreach (8.5S, 73.3E).') /* AppraisalPortalDestination */
      , (42156, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

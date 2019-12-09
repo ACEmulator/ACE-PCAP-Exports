@@ -11,28 +11,23 @@ VALUES (81,   1,          2) /* ItemType - Armor */
      , (81,  16,          1) /* ItemUseable - No */
      , (81,  19,        521) /* Value */
      , (81,  28,         42) /* ArmorLevel */
-     , (81,  65,        101) /* Placement - Resting */
      , (81,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (81, 105,          1) /* ItemWorkmanship */
-     , (81, 131,         52) /* MaterialType - Leather */;
+     , (81, 131,         52) /* MaterialType - Leather */
+     , (81, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (81,   1, False) /* Stuck */
-     , (81,  11, True ) /* IgnoreCollisions */
-     , (81,  13, True ) /* Ethereal */
-     , (81,  14, True ) /* GravityStatus */
-     , (81,  19, True ) /* Attackable */
-     , (81,  22, True ) /* Inscribable */
+VALUES (81,  22, True ) /* Inscribable */
      , (81, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (81,  13,       1) /* ArmorModVsSlash */
-     , (81,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (81,  14,     0.8) /* ArmorModVsPierce */
      , (81,  15,       1) /* ArmorModVsBludgeon */
      , (81,  16,     0.5) /* ArmorModVsCold */
      , (81,  17,     0.5) /* ArmorModVsFire */
-     , (81,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (81,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (81,  18,     0.3) /* ArmorModVsAcid */
+     , (81,  19,     0.6) /* ArmorModVsElectric */
      , (81, 165,       1) /* ArmorModVsNether */
      , (81, 8004,       1) /* PCAPRecordedWorkmanship */;
 

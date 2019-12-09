@@ -13,21 +13,15 @@ VALUES (42164,   1,      65536) /* ItemType - Portal */
      , (42164, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42164,   1, True ) /* Stuck */
-     , (42164,  12, True ) /* ReportCollisions */
-     , (42164,  13, True ) /* Ethereal */
-     , (42164,  14, True ) /* GravityStatus */
-     , (42164,  15, True ) /* LightsStatus */
-     , (42164,  19, True ) /* Attackable */;
+VALUES (42164,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42164,  39, 0.800000011920929) /* DefaultScale */
-     , (42164,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42164,  39,     0.8) /* DefaultScale */
+     , (42164,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42164,   1, 'Skeleton Fort') /* Name */
      , (42164,  16, 'A portal leading to a fort where Jacob''s Axe may be found.') /* LongDesc */
-     , (42164,  38, 'Skeleton Fort (32.3N, 66.3E).') /* AppraisalPortalDestination */
      , (42164, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

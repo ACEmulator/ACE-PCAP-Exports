@@ -12,15 +12,8 @@ VALUES (37317,   1,        128) /* ItemType - Misc */
      , (37317,  15,      30000) /* StackUnitValue */
      , (37317,  16,          1) /* ItemUseable - No */
      , (37317,  19,      30000) /* Value */
-     , (37317,  65,        101) /* Placement - Resting */
-     , (37317,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37317,   1, False) /* Stuck */
-     , (37317,  11, True ) /* IgnoreCollisions */
-     , (37317,  13, True ) /* Ethereal */
-     , (37317,  14, True ) /* GravityStatus */
-     , (37317,  19, True ) /* Attackable */;
+     , (37317,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37317, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37317,   1, 'Glyph of Magic Defense') /* Name */

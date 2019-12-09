@@ -11,15 +11,10 @@ VALUES (15275,   1,      65536) /* ItemType - Portal */
      , (15275, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15275,   1, True ) /* Stuck */
-     , (15275,  12, True ) /* ReportCollisions */
-     , (15275,  13, True ) /* Ethereal */
-     , (15275,  14, True ) /* GravityStatus */
-     , (15275,  15, True ) /* LightsStatus */
-     , (15275,  19, True ) /* Attackable */;
+VALUES (15275,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15275,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15275,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15275,   1, 'Nuhmudira''s Dungeon') /* Name */

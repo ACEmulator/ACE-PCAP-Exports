@@ -12,17 +12,12 @@ VALUES (34307,   1,    4194304) /* ItemType - CraftCookingBase */
      , (34307,  15,          0) /* StackUnitValue */
      , (34307,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (34307,  19,          0) /* Value */
-     , (34307,  65,        101) /* Placement - Resting */
      , (34307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34307,  94,        128) /* TargetType - Misc */;
+     , (34307,  94,        128) /* TargetType - Misc */
+     , (34307, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34307,   1, False) /* Stuck */
-     , (34307,  11, True ) /* IgnoreCollisions */
-     , (34307,  13, True ) /* Ethereal */
-     , (34307,  14, True ) /* GravityStatus */
-     , (34307,  19, True ) /* Attackable */
-     , (34307,  22, True ) /* Inscribable */;
+VALUES (34307,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34307,   1, 'Sacrificial Knife') /* Name */

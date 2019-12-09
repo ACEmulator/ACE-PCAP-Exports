@@ -10,20 +10,15 @@ VALUES (11355,   1,          8) /* ItemType - Jewelry */
      , (11355,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (11355,  16,          1) /* ItemUseable - No */
      , (11355,  19,        150) /* Value */
-     , (11355,  65,        101) /* Placement - Resting */
      , (11355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11355, 151,          2) /* HookType - Wall */;
+     , (11355, 151,          2) /* HookType - Wall */
+     , (11355, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11355,   1, False) /* Stuck */
-     , (11355,  11, True ) /* IgnoreCollisions */
-     , (11355,  13, True ) /* Ethereal */
-     , (11355,  14, True ) /* GravityStatus */
-     , (11355,  19, True ) /* Attackable */
-     , (11355,  22, True ) /* Inscribable */;
+VALUES (11355,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11355,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (11355,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11355,   1, 'Aun Pendant') /* Name */;

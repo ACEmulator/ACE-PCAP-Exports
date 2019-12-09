@@ -11,18 +11,13 @@ VALUES (37051,   1,      65536) /* ItemType - Portal */
      , (37051, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37051,   1, True ) /* Stuck */
-     , (37051,  12, True ) /* ReportCollisions */
-     , (37051,  13, True ) /* Ethereal */
-     , (37051,  15, True ) /* LightsStatus */
-     , (37051,  19, True ) /* Attackable */;
+VALUES (37051,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37051,  54, -0.100000001490116) /* UseRadius */;
+VALUES (37051,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37051,   1, 'South Gate') /* Name */
-     , (37051,  38, 'South Gate') /* AppraisalPortalDestination */;
+VALUES (37051,   1, 'South Gate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37051,   1,   33560505) /* Setup */

@@ -11,12 +11,7 @@ VALUES (12634,   1,        128) /* ItemType - Misc */
      , (12634,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12634,   1, True ) /* Stuck */
-     , (12634,  11, True ) /* IgnoreCollisions */
-     , (12634,  12, True ) /* ReportCollisions */
-     , (12634,  13, False) /* Ethereal */
-     , (12634,  14, True ) /* GravityStatus */
-     , (12634,  19, True ) /* Attackable */;
+VALUES (12634,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12634,   1, 'New Suntik') /* Name */

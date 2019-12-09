@@ -15,14 +15,10 @@ VALUES (28673,   1,         16) /* ItemType - Creature */
      , (28673, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28673,   1, True ) /* Stuck */
-     , (28673,  12, True ) /* ReportCollisions */
-     , (28673,  13, False) /* Ethereal */
-     , (28673,  14, True ) /* GravityStatus */
-     , (28673,  19, True ) /* Attackable */;
+VALUES (28673,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28673,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (28673,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28673,   1, 'Deathcap Thrungus') /* Name */

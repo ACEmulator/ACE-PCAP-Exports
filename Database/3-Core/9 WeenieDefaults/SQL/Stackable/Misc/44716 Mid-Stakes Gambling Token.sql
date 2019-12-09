@@ -13,19 +13,14 @@ VALUES (44716,   1,        128) /* ItemType - Misc */
      , (44716,  16,          1) /* ItemUseable - No */
      , (44716,  19,       5000) /* Value */
      , (44716,  33,          1) /* Bonded - Bonded */
-     , (44716,  65,        101) /* Placement - Resting */
-     , (44716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44716, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44716,   1, False) /* Stuck */
-     , (44716,  11, True ) /* IgnoreCollisions */
-     , (44716,  13, True ) /* Ethereal */
-     , (44716,  14, True ) /* GravityStatus */
-     , (44716,  19, True ) /* Attackable */
-     , (44716,  69, False) /* IsSellable */;
+VALUES (44716,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44716,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (44716,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44716,   1, 'Mid-Stakes Gambling Token') /* Name */

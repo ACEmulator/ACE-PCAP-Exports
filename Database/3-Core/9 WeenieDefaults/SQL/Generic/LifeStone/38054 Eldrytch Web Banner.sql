@@ -10,11 +10,7 @@ VALUES (38054,   1,  268435456) /* ItemType - LifeStone */
      , (38054, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38054,   1, True ) /* Stuck */
-     , (38054,  11, True ) /* IgnoreCollisions */
-     , (38054,  13, False) /* Ethereal */
-     , (38054,  14, True ) /* GravityStatus */
-     , (38054,  19, True ) /* Attackable */;
+VALUES (38054,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38054,   1, 'Eldrytch Web Banner') /* Name */;

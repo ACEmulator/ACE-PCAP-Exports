@@ -17,15 +17,10 @@ VALUES (42516,   1,        128) /* ItemType - Misc */
      , (42516, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42516,   1, False) /* Stuck */
-     , (42516,  11, True ) /* IgnoreCollisions */
-     , (42516,  13, True ) /* Ethereal */
-     , (42516,  14, True ) /* GravityStatus */
-     , (42516,  19, True ) /* Attackable */
-     , (42516,  69, False) /* IsSellable */;
+VALUES (42516,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42516,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (42516,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42516,   1, 'Coalesced Mana') /* Name */

@@ -30,28 +30,23 @@ VALUES (45461,   1,          1) /* ItemType - MeleeWeapon */
      , (45461, 319,         50) /* ItemMaxLevel */
      , (45461, 320,          1) /* ItemXpStyle - Fixed */
      , (45461, 353,          2) /* WeaponType - Sword */
-     , (45461, 8030,          0);
+     , (45461, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (45461,   4, 64984887493) /* ItemTotalXp */
      , (45461,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45461,   1, False) /* Stuck */
-     , (45461,  11, True ) /* IgnoreCollisions */
-     , (45461,  13, True ) /* Ethereal */
-     , (45461,  14, True ) /* GravityStatus */
-     , (45461,  19, True ) /* Attackable */
-     , (45461,  22, True ) /* Inscribable */;
+VALUES (45461,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45461,   5, -0.0333333015441895) /* ManaRate */
+VALUES (45461,   5,   -0.03) /* ManaRate */
      , (45461,  21,       0) /* WeaponLength */
-     , (45461,  22, 0.400000005960464) /* DamageVariance */
+     , (45461,  22,     0.4) /* DamageVariance */
      , (45461,  26,       0) /* MaximumVelocity */
-     , (45461,  29, 1.17999994754791) /* WeaponDefense */
-     , (45461,  39, 1.10000002384186) /* DefaultScale */
-     , (45461,  62, 1.17999994754791) /* WeaponOffense */
+     , (45461,  29,    1.18) /* WeaponDefense */
+     , (45461,  39,     1.1) /* DefaultScale */
+     , (45461,  62,    1.18) /* WeaponOffense */
      , (45461,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -12,12 +12,7 @@ VALUES (51593,   1,        128) /* ItemType - Misc */
      , (51593, 151,         16) /* HookType - Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51593,   1, False) /* Stuck */
-     , (51593,  11, True ) /* IgnoreCollisions */
-     , (51593,  13, True ) /* Ethereal */
-     , (51593,  14, True ) /* GravityStatus */
-     , (51593,  19, True ) /* Attackable */
-     , (51593,  22, True ) /* Inscribable */;
+VALUES (51593,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51593,   1, 'Lightning Cloud') /* Name */

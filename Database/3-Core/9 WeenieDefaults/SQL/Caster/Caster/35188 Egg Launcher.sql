@@ -21,18 +21,12 @@ VALUES (35188,   1,      32768) /* ItemType - Caster */
      , (35188, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35188,   1, False) /* Stuck */
-     , (35188,  11, True ) /* IgnoreCollisions */
-     , (35188,  13, True ) /* Ethereal */
-     , (35188,  14, True ) /* GravityStatus */
-     , (35188,  15, True ) /* LightsStatus */
-     , (35188,  19, True ) /* Attackable */
-     , (35188,  22, True ) /* Inscribable */;
+VALUES (35188,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35188,  29,       1) /* WeaponDefense */
-     , (35188,  39, 0.699999988079071) /* DefaultScale */
-     , (35188, 144, 1.26134721441255E-314) /* ManaConversionMod */;
+     , (35188,  39,     0.7) /* DefaultScale */
+     , (35188, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35188,   1, 'Egg Launcher') /* Name */

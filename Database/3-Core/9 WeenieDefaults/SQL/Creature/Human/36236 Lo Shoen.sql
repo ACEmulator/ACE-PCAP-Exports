@@ -20,12 +20,7 @@ VALUES (36236,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36236,   1, True ) /* Stuck */
-     , (36236,  11, True ) /* IgnoreCollisions */
-     , (36236,  12, True ) /* ReportCollisions */
-     , (36236,  13, False) /* Ethereal */
-     , (36236,  14, True ) /* GravityStatus */
-     , (36236,  19, False) /* Attackable */
-     , (36236,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (36236,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36236,   1, 'Lo Shoen') /* Name */

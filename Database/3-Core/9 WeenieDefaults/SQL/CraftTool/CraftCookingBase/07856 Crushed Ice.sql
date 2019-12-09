@@ -12,19 +12,12 @@ VALUES (7856,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7856,  15,         30) /* StackUnitValue */
      , (7856,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7856,  19,         30) /* Value */
-     , (7856,  65,        101) /* Placement - Resting */
      , (7856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7856,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7856,   1, False) /* Stuck */
-     , (7856,  11, True ) /* IgnoreCollisions */
-     , (7856,  13, True ) /* Ethereal */
-     , (7856,  14, True ) /* GravityStatus */
-     , (7856,  19, True ) /* Attackable */;
+     , (7856,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (7856, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7856,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (7856,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7856,   1, 'Crushed Ice') /* Name */

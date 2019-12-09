@@ -17,7 +17,6 @@ VALUES (11913,   1,          1) /* ItemType - MeleeWeapon */
      , (11913,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (11913,  49,          0) /* WeaponTime */
      , (11913,  51,          1) /* CombatUse - Melee */
-     , (11913,  65,          1) /* Placement - RightHandCombat */
      , (11913,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (11913, 106,        400) /* ItemSpellcraft */
      , (11913, 107,       1000) /* ItemCurMana */
@@ -26,24 +25,19 @@ VALUES (11913,   1,          1) /* ItemType - MeleeWeapon */
      , (11913, 115,        200) /* ItemSkillLevelLimit */
      , (11913, 176,         46) /* AppraisalItemSkill */
      , (11913, 353,          5) /* WeaponType - Spear */
-     , (11913, 8030,          0);
+     , (11913, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (11913, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11913,   1, False) /* Stuck */
-     , (11913,  11, True ) /* IgnoreCollisions */
-     , (11913,  13, True ) /* Ethereal */
-     , (11913,  14, True ) /* GravityStatus */
-     , (11913,  15, True ) /* LightsStatus */
-     , (11913,  19, True ) /* Attackable */
-     , (11913,  22, True ) /* Inscribable */;
+VALUES (11913,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11913,   5,  -0.025) /* ManaRate */
+VALUES (11913,   5,   -0.02) /* ManaRate */
      , (11913,  21,       0) /* WeaponLength */
      , (11913,  22,     0.5) /* DamageVariance */
      , (11913,  26,       0) /* MaximumVelocity */
-     , (11913,  29, 1.16000000149012) /* WeaponDefense */
-     , (11913,  62, 1.18999999523163) /* WeaponOffense */
+     , (11913,  29,    1.16) /* WeaponDefense */
+     , (11913,  62,    1.19) /* WeaponOffense */
      , (11913,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

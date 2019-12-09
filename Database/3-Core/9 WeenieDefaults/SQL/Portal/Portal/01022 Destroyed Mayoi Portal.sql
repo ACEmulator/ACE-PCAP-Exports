@@ -11,20 +11,14 @@ VALUES (1022,   1,      65536) /* ItemType - Portal */
      , (1022, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1022,   1, True ) /* Stuck */
-     , (1022,  11, True ) /* IgnoreCollisions */
-     , (1022,  13, True ) /* Ethereal */
-     , (1022,  14, True ) /* GravityStatus */
-     , (1022,  15, True ) /* LightsStatus */
-     , (1022,  19, True ) /* Attackable */;
+VALUES (1022,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1022,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1022,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1022,   1, 'Destroyed Mayoi Portal') /* Name */
      , (1022,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (1022,  38, 'Destroyed Mayoi Portal (61.9S, 82.5E).') /* AppraisalPortalDestination */
      , (1022, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -10,17 +10,12 @@ VALUES (38615,   1,        128) /* ItemType - Misc */
      , (38615,  18,          4) /* UiEffects - BoostHealth */
      , (38615,  19,          0) /* Value */
      , (38615,  33,          1) /* Bonded - Bonded */
-     , (38615,  65,        101) /* Placement - Resting */
      , (38615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38615, 114,          1) /* Attuned - Attuned */;
+     , (38615, 114,          1) /* Attuned - Attuned */
+     , (38615, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38615,   1, False) /* Stuck */
-     , (38615,  11, True ) /* IgnoreCollisions */
-     , (38615,  13, True ) /* Ethereal */
-     , (38615,  14, True ) /* GravityStatus */
-     , (38615,  19, True ) /* Attackable */
-     , (38615,  22, True ) /* Inscribable */;
+VALUES (38615,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38615,   1, 'Crystal of Perception') /* Name */

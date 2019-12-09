@@ -13,20 +13,15 @@ VALUES (44980,   1,       2048) /* ItemType - Gem */
      , (44980,  15,          5) /* StackUnitValue */
      , (44980,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44980,  19,          5) /* Value */
-     , (44980,  65,        101) /* Placement - Resting */
      , (44980,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44980,  94,          6) /* TargetType - Vestements */;
+     , (44980,  94,          6) /* TargetType - Vestements */
+     , (44980, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44980,   1, False) /* Stuck */
-     , (44980,  11, True ) /* IgnoreCollisions */
-     , (44980,  13, True ) /* Ethereal */
-     , (44980,  14, True ) /* GravityStatus */
-     , (44980,  19, True ) /* Attackable */
-     , (44980,  22, True ) /* Inscribable */;
+VALUES (44980,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44980,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44980,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44980,   1, 'Society Breastplate Restorer') /* Name */;

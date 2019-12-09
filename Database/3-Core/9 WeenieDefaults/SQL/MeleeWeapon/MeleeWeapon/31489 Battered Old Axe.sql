@@ -11,17 +11,12 @@ VALUES (31489,   1,          1) /* ItemType - MeleeWeapon */
      , (31489,  18,          1) /* UiEffects - Magical */
      , (31489,  19,       1500) /* Value */
      , (31489,  51,          1) /* CombatUse - Melee */
-     , (31489,  65,        101) /* Placement - Resting */
      , (31489,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31489, 151,          2) /* HookType - Wall */;
+     , (31489, 151,          2) /* HookType - Wall */
+     , (31489, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31489,   1, False) /* Stuck */
-     , (31489,  11, True ) /* IgnoreCollisions */
-     , (31489,  13, True ) /* Ethereal */
-     , (31489,  14, True ) /* GravityStatus */
-     , (31489,  19, True ) /* Attackable */
-     , (31489,  22, True ) /* Inscribable */;
+VALUES (31489,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31489,   1, 'Battered Old Axe') /* Name */;

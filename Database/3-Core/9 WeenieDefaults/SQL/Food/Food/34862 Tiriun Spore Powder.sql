@@ -12,15 +12,8 @@ VALUES (34862,   1,         32) /* ItemType - Food */
      , (34862,  15,         50) /* StackUnitValue */
      , (34862,  16,          8) /* ItemUseable - Contained */
      , (34862,  19,         50) /* Value */
-     , (34862,  65,        101) /* Placement - Resting */
-     , (34862,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34862,   1, False) /* Stuck */
-     , (34862,  11, True ) /* IgnoreCollisions */
-     , (34862,  13, True ) /* Ethereal */
-     , (34862,  14, True ) /* GravityStatus */
-     , (34862,  19, True ) /* Attackable */;
+     , (34862,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34862, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34862,   1, 'Tiriun Spore Powder') /* Name */

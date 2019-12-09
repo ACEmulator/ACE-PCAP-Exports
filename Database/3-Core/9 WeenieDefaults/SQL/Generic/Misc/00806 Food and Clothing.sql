@@ -8,16 +8,11 @@ VALUES (806,   1,        128) /* ItemType - Misc */
      , (806,   5,       9000) /* EncumbranceVal */
      , (806,  16,          1) /* ItemUseable - No */
      , (806,  19,        125) /* Value */
-     , (806,  65,        101) /* Placement - Resting */
-     , (806,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (806,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (806, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (806,   1, True ) /* Stuck */
-     , (806,  11, True ) /* IgnoreCollisions */
-     , (806,  12, True ) /* ReportCollisions */
-     , (806,  13, False) /* Ethereal */
-     , (806,  14, True ) /* GravityStatus */
-     , (806,  19, True ) /* Attackable */;
+VALUES (806,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (806,   1, 'Food and Clothing') /* Name */

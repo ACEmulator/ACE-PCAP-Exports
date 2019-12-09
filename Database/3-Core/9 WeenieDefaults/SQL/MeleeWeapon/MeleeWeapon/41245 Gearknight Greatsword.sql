@@ -14,12 +14,7 @@ VALUES (41245,   1,          1) /* ItemType - MeleeWeapon */
      , (41245,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41245,   1, False) /* Stuck */
-     , (41245,  11, True ) /* IgnoreCollisions */
-     , (41245,  13, True ) /* Ethereal */
-     , (41245,  14, True ) /* GravityStatus */
-     , (41245,  19, True ) /* Attackable */
-     , (41245,  22, True ) /* Inscribable */;
+VALUES (41245,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41245,   1, 'Gearknight Greatsword') /* Name */;

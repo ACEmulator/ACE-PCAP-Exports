@@ -12,19 +12,13 @@ VALUES (10795,   1,      65536) /* ItemType - Portal */
      , (10795, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10795,   1, True ) /* Stuck */
-     , (10795,  12, True ) /* ReportCollisions */
-     , (10795,  13, True ) /* Ethereal */
-     , (10795,  14, True ) /* GravityStatus */
-     , (10795,  15, True ) /* LightsStatus */
-     , (10795,  19, True ) /* Attackable */;
+VALUES (10795,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10795,  54, -0.100000001490116) /* UseRadius */;
+VALUES (10795,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10795,   1, 'Obsidian Rim Portal') /* Name */
-     , (10795,  38, 'Obsidian Rim Portal (48.0S, 65.0W).') /* AppraisalPortalDestination */
      , (10795, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

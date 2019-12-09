@@ -16,17 +16,13 @@ VALUES (24478,   1,         16) /* ItemType - Creature */
      , (24478, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24478,   1, True ) /* Stuck */
-     , (24478,  12, True ) /* ReportCollisions */
-     , (24478,  13, False) /* Ethereal */
-     , (24478,  14, True ) /* GravityStatus */
-     , (24478,  19, True ) /* Attackable */;
+VALUES (24478,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24478,  39,    0.25) /* DefaultScale */
      , (24478, 8010,       0) /* PCAPRecordedVelocityX */
      , (24478, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24478, 8012, -0.608048975467682) /* PCAPRecordedVelocityZ */;
+     , (24478, 8012,   -0.61) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24478,   1, 'Small Coral Golem') /* Name */

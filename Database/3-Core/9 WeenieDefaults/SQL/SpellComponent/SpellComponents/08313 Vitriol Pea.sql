@@ -13,18 +13,11 @@ VALUES (8313,   1,       4096) /* ItemType - SpellComponents */
      , (8313,  16,          1) /* ItemUseable - No */
      , (8313,  19,        625) /* Value */
      , (8313,  33,          1) /* Bonded - Bonded */
-     , (8313,  65,        101) /* Placement - Resting */
-     , (8313,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8313,   1, False) /* Stuck */
-     , (8313,  11, True ) /* IgnoreCollisions */
-     , (8313,  13, True ) /* Ethereal */
-     , (8313,  14, True ) /* GravityStatus */
-     , (8313,  19, True ) /* Attackable */;
+     , (8313,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8313, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8313,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8313,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8313,   1, 'Vitriol Pea') /* Name */

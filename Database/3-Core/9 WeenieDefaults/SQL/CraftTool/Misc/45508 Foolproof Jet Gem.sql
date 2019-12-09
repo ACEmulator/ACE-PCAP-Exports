@@ -12,17 +12,12 @@ VALUES (45508,   1,        128) /* ItemType - Misc */
      , (45508,  15,          1) /* StackUnitValue */
      , (45508,  16,          8) /* ItemUseable - Contained */
      , (45508,  19,          1) /* Value */
-     , (45508,  65,        101) /* Placement - Resting */
      , (45508,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45508,  94,         16) /* TargetType - Creature */;
+     , (45508,  94,         16) /* TargetType - Creature */
+     , (45508, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45508,   1, False) /* Stuck */
-     , (45508,  11, True ) /* IgnoreCollisions */
-     , (45508,  13, True ) /* Ethereal */
-     , (45508,  14, True ) /* GravityStatus */
-     , (45508,  19, True ) /* Attackable */
-     , (45508,  22, True ) /* Inscribable */;
+VALUES (45508,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45508,   1, 'Foolproof Jet Gem') /* Name */;

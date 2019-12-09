@@ -11,12 +11,7 @@ VALUES (12586,   1,        128) /* ItemType - Misc */
      , (12586,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12586,   1, True ) /* Stuck */
-     , (12586,  11, True ) /* IgnoreCollisions */
-     , (12586,  12, True ) /* ReportCollisions */
-     , (12586,  13, False) /* Ethereal */
-     , (12586,  14, True ) /* GravityStatus */
-     , (12586,  19, True ) /* Attackable */;
+VALUES (12586,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12586,   1, 'Broadacre Cottages') /* Name */;

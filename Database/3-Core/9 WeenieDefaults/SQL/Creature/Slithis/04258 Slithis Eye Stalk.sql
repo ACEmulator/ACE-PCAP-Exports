@@ -16,14 +16,10 @@ VALUES (4258,   1,         16) /* ItemType - Creature */
      , (4258, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4258,   1, True ) /* Stuck */
-     , (4258,  12, True ) /* ReportCollisions */
-     , (4258,  13, False) /* Ethereal */
-     , (4258,  14, True ) /* GravityStatus */
-     , (4258,  19, True ) /* Attackable */;
+VALUES (4258,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4258,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (4258,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4258,   1, 'Slithis Eye Stalk') /* Name */

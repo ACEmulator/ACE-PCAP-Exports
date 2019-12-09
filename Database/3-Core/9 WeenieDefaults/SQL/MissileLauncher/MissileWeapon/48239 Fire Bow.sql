@@ -18,27 +18,22 @@ VALUES (48239,   1,        256) /* ItemType - MissileWeapon */
      , (48239,  49,         45) /* WeaponTime */
      , (48239,  50,          1) /* AmmoType - Arrow */
      , (48239,  51,          2) /* CombatUse - Missle */
-     , (48239,  65,          3) /* Placement - LeftHand */
      , (48239,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48239, 151,          2) /* HookType - Wall */
      , (48239, 204,          0) /* ElementalDamageBonus */
      , (48239, 353,          8) /* WeaponType - Bow */
-     , (48239, 8030,          0);
+     , (48239, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (48239, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48239,   1, False) /* Stuck */
-     , (48239,  11, True ) /* IgnoreCollisions */
-     , (48239,  13, True ) /* Ethereal */
-     , (48239,  14, True ) /* GravityStatus */
-     , (48239,  19, True ) /* Attackable */
-     , (48239,  22, True ) /* Inscribable */;
+VALUES (48239,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48239,  21,       0) /* WeaponLength */
      , (48239,  22,       0) /* DamageVariance */
      , (48239,  26,    27.3) /* MaximumVelocity */
      , (48239,  29,       1) /* WeaponDefense */
-     , (48239,  39, 1.10000002384186) /* DefaultScale */
+     , (48239,  39,     1.1) /* DefaultScale */
      , (48239,  62,       1) /* WeaponOffense */
      , (48239,  63,       1) /* DamageMod */;
 

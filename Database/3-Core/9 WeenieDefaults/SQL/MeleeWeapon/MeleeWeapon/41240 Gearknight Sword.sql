@@ -15,12 +15,7 @@ VALUES (41240,   1,          1) /* ItemType - MeleeWeapon */
      , (41240, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41240,   1, False) /* Stuck */
-     , (41240,  11, True ) /* IgnoreCollisions */
-     , (41240,  13, True ) /* Ethereal */
-     , (41240,  14, True ) /* GravityStatus */
-     , (41240,  19, True ) /* Attackable */
-     , (41240,  22, True ) /* Inscribable */;
+VALUES (41240,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41240,   1, 'Gearknight Sword') /* Name */;

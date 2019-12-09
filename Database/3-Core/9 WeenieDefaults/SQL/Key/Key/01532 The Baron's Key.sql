@@ -8,19 +8,14 @@ VALUES (1532,   1,      16384) /* ItemType - Key */
      , (1532,   5,         50) /* EncumbranceVal */
      , (1532,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (1532,  19,         80) /* Value */
-     , (1532,  65,        101) /* Placement - Resting */
      , (1532,  91,         10) /* MaxStructure */
      , (1532,  92,         10) /* Structure */
      , (1532,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1532,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (1532,  94,        640) /* TargetType - LockableMagicTarget */
+     , (1532, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1532,   1, False) /* Stuck */
-     , (1532,  11, True ) /* IgnoreCollisions */
-     , (1532,  13, True ) /* Ethereal */
-     , (1532,  14, True ) /* GravityStatus */
-     , (1532,  19, True ) /* Attackable */
-     , (1532,  22, True ) /* Inscribable */;
+VALUES (1532,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1532,   1, 'The Baron''s Key') /* Name */

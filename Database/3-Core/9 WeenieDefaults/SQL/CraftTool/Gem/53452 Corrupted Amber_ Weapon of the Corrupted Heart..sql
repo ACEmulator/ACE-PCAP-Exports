@@ -14,17 +14,12 @@ VALUES (53452,   1,       2048) /* ItemType - Gem */
      , (53452,  18,         32) /* UiEffects - Fire */
      , (53452,  19,         25) /* Value */
      , (53452,  33,          1) /* Bonded - Bonded */
-     , (53452,  65,        101) /* Placement - Resting */
      , (53452,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53452,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (53452,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (53452, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53452,   1, False) /* Stuck */
-     , (53452,  11, True ) /* IgnoreCollisions */
-     , (53452,  13, True ) /* Ethereal */
-     , (53452,  14, True ) /* GravityStatus */
-     , (53452,  19, True ) /* Attackable */
-     , (53452,  69, False) /* IsSellable */;
+VALUES (53452,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53452,   1, 'Corrupted Amber: Weapon of the Corrupted Heart.') /* Name */

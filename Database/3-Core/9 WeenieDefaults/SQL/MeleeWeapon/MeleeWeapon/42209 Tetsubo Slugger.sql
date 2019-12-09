@@ -24,23 +24,18 @@ VALUES (42209,   1,          1) /* ItemType - MeleeWeapon */
      , (42209, 151,          2) /* HookType - Wall */
      , (42209, 292,          2) /* Cleaving */
      , (42209, 353,         11) /* WeaponType - TwoHanded */
-     , (42209, 8030,          0);
+     , (42209, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42209,   1, False) /* Stuck */
-     , (42209,  11, True ) /* IgnoreCollisions */
-     , (42209,  13, True ) /* Ethereal */
-     , (42209,  14, True ) /* GravityStatus */
-     , (42209,  19, True ) /* Attackable */
-     , (42209,  22, True ) /* Inscribable */;
+VALUES (42209,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42209,   5,  -0.025) /* ManaRate */
+VALUES (42209,   5,   -0.02) /* ManaRate */
      , (42209,  21,       0) /* WeaponLength */
      , (42209,  22,     0.5) /* DamageVariance */
      , (42209,  26,       0) /* MaximumVelocity */
      , (42209,  29,       1) /* WeaponDefense */
-     , (42209,  39, 0.649999976158142) /* DefaultScale */
+     , (42209,  39,    0.65) /* DefaultScale */
      , (42209,  62,       1) /* WeaponOffense */
      , (42209,  63,       1) /* DamageMod */
      , (42209, 136,       1) /* CriticalMultiplier */;

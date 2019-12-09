@@ -12,13 +12,7 @@ VALUES (13200,   1,       1024) /* ItemType - Useless */
      , (13200, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13200,   1, False) /* Stuck */
-     , (13200,  11, True ) /* IgnoreCollisions */
-     , (13200,  13, True ) /* Ethereal */
-     , (13200,  14, True ) /* GravityStatus */
-     , (13200,  15, True ) /* LightsStatus */
-     , (13200,  19, True ) /* Attackable */
-     , (13200,  22, True ) /* Inscribable */;
+VALUES (13200,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13200,   1, 'Aluvian Festival Light') /* Name */

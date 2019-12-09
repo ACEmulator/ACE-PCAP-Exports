@@ -39,17 +39,10 @@ VALUES (43788,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43788,   1, True ) /* Stuck */
-     , (43788,  11, True ) /* IgnoreCollisions */
-     , (43788,  12, True ) /* ReportCollisions */
-     , (43788,  13, True ) /* Ethereal */
-     , (43788,  14, True ) /* GravityStatus */
-     , (43788,  15, True ) /* LightsStatus */
-     , (43788,  19, False) /* Attackable */
-     , (43788,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43788,  42, True ) /* AllowEdgeSlide */;
+     , (43788,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43788,  54, 0.100000001490116) /* UseRadius */;
+VALUES (43788,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43788,   1, 'Dark Cavern') /* Name */

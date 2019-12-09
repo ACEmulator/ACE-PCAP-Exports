@@ -20,12 +20,7 @@ VALUES (29109,   1,         32) /* ItemType - Food */
      , (29109, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29109,   1, False) /* Stuck */
-     , (29109,  11, True ) /* IgnoreCollisions */
-     , (29109,  13, True ) /* Ethereal */
-     , (29109,  14, True ) /* GravityStatus */
-     , (29109,  19, True ) /* Attackable */
-     , (29109,  69, False) /* IsSellable */;
+VALUES (29109,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29109,   1, 'Tusker Spit Ale') /* Name */

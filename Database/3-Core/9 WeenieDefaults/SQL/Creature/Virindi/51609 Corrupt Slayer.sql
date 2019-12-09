@@ -15,12 +15,7 @@ VALUES (51609,   1,         16) /* ItemType - Creature */
      , (51609, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51609,   1, True ) /* Stuck */
-     , (51609,  12, True ) /* ReportCollisions */
-     , (51609,  13, False) /* Ethereal */
-     , (51609,  14, True ) /* GravityStatus */
-     , (51609,  19, True ) /* Attackable */
-     , (51609,  42, True ) /* AllowEdgeSlide */;
+VALUES (51609,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51609,   1, 'Corrupt Slayer') /* Name */

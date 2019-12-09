@@ -13,22 +13,17 @@ VALUES (11136,   1,         32) /* ItemType - Food */
      , (11136,  16,          8) /* ItemUseable - Contained */
      , (11136,  18,          1) /* UiEffects - Magical */
      , (11136,  19,       2500) /* Value */
-     , (11136,  65,        101) /* Placement - Resting */
      , (11136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11136,  94,         16) /* TargetType - Creature */
      , (11136, 106,        250) /* ItemSpellcraft */
      , (11136, 107,         50) /* ItemCurMana */
      , (11136, 108,         50) /* ItemMaxMana */
      , (11136, 109,          0) /* ItemDifficulty */
-     , (11136, 110,          0) /* ItemAllegianceRankLimit */;
+     , (11136, 110,          0) /* ItemAllegianceRankLimit */
+     , (11136, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11136,   1, False) /* Stuck */
-     , (11136,  11, True ) /* IgnoreCollisions */
-     , (11136,  13, True ) /* Ethereal */
-     , (11136,  14, True ) /* GravityStatus */
-     , (11136,  19, True ) /* Attackable */
-     , (11136,  69, False) /* IsSellable */;
+VALUES (11136,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11136,   1, 'Fried Olthoi Egg') /* Name */

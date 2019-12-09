@@ -14,20 +14,15 @@ VALUES (51658,   1,        128) /* ItemType - Misc */
      , (51658,  18,          8) /* UiEffects - BoostMana */
      , (51658,  19,          0) /* Value */
      , (51658,  33,          1) /* Bonded - Bonded */
-     , (51658,  65,        101) /* Placement - Resting */
      , (51658,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51658,  98, 1484702371) /* CreationTimestamp */
      , (51658, 114,          1) /* Attuned - Attuned */
      , (51658, 267,      86400) /* Lifespan */
-     , (51658, 268,      83198) /* RemainingLifespan */;
+     , (51658, 268,      83198) /* RemainingLifespan */
+     , (51658, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51658,   1, False) /* Stuck */
-     , (51658,  11, True ) /* IgnoreCollisions */
-     , (51658,  13, True ) /* Ethereal */
-     , (51658,  14, True ) /* GravityStatus */
-     , (51658,  19, True ) /* Attackable */
-     , (51658,  69, False) /* IsSellable */;
+VALUES (51658,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51658,  39,    0.75) /* DefaultScale */;

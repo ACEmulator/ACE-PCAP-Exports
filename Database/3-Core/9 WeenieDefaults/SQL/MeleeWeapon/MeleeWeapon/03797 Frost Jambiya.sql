@@ -11,18 +11,13 @@ VALUES (3797,   1,          1) /* ItemType - MeleeWeapon */
      , (3797,  18,        129) /* UiEffects - Magical, Frost */
      , (3797,  19,      13647) /* Value */
      , (3797,  51,          1) /* CombatUse - Melee */
-     , (3797,  65,        101) /* Placement - Resting */
      , (3797,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3797, 131,         60) /* MaterialType - Gold */
-     , (3797, 151,          2) /* HookType - Wall */;
+     , (3797, 151,          2) /* HookType - Wall */
+     , (3797, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3797,   1, False) /* Stuck */
-     , (3797,  11, True ) /* IgnoreCollisions */
-     , (3797,  13, True ) /* Ethereal */
-     , (3797,  14, True ) /* GravityStatus */
-     , (3797,  19, True ) /* Attackable */
-     , (3797,  22, True ) /* Inscribable */;
+VALUES (3797,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3797, 8004,       7) /* PCAPRecordedWorkmanship */;

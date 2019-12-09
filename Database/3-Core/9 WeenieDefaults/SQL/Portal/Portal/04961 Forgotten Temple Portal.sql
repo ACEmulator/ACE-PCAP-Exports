@@ -12,19 +12,13 @@ VALUES (4961,   1,      65536) /* ItemType - Portal */
      , (4961, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4961,   1, True ) /* Stuck */
-     , (4961,  12, True ) /* ReportCollisions */
-     , (4961,  13, True ) /* Ethereal */
-     , (4961,  14, True ) /* GravityStatus */
-     , (4961,  15, True ) /* LightsStatus */
-     , (4961,  19, True ) /* Attackable */;
+VALUES (4961,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4961,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4961,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4961,   1, 'Forgotten Temple Portal') /* Name */
-     , (4961,  38, 'Forgotten Temple Portal') /* AppraisalPortalDestination */
      , (4961, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

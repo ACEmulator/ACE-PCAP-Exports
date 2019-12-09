@@ -15,17 +15,13 @@ VALUES (24324,   1,         16) /* ItemType - Creature */
      , (24324, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24324,   1, True ) /* Stuck */
-     , (24324,  12, True ) /* ReportCollisions */
-     , (24324,  13, False) /* Ethereal */
-     , (24324,  14, True ) /* GravityStatus */
-     , (24324,  19, True ) /* Attackable */;
+VALUES (24324,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24324,  39, 1.10000002384186) /* DefaultScale */
+VALUES (24324,  39,     1.1) /* DefaultScale */
      , (24324, 8010,       0) /* PCAPRecordedVelocityX */
      , (24324, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24324, 8012, -4.02362442016602) /* PCAPRecordedVelocityZ */;
+     , (24324, 8012,   -4.02) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24324,   1, 'Undead Sailor') /* Name */

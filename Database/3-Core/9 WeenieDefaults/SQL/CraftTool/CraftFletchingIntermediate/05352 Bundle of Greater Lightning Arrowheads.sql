@@ -12,17 +12,12 @@ VALUES (5352,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (5352,  15,        250) /* StackUnitValue */
      , (5352,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5352,  19,        250) /* Value */
-     , (5352,  65,        101) /* Placement - Resting */
      , (5352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5352,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (5352,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (5352, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5352,   1, False) /* Stuck */
-     , (5352,  11, True ) /* IgnoreCollisions */
-     , (5352,  13, True ) /* Ethereal */
-     , (5352,  14, True ) /* GravityStatus */
-     , (5352,  19, True ) /* Attackable */
-     , (5352,  69, False) /* IsSellable */;
+VALUES (5352,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5352,   1, 'Bundle of Greater Lightning Arrowheads') /* Name */

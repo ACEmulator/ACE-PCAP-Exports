@@ -12,19 +12,13 @@ VALUES (13119,   1,      65536) /* ItemType - Portal */
      , (13119, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13119,   1, True ) /* Stuck */
-     , (13119,  12, True ) /* ReportCollisions */
-     , (13119,  13, True ) /* Ethereal */
-     , (13119,  14, True ) /* GravityStatus */
-     , (13119,  15, True ) /* LightsStatus */
-     , (13119,  19, True ) /* Attackable */;
+VALUES (13119,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13119,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13119,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13119,   1, 'Qalabar Oasis Settlement Portal') /* Name */
-     , (13119,  38, 'Qalabar Oasis Settlement Portal (66.4S, 21.8E).') /* AppraisalPortalDestination */
      , (13119, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

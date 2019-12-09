@@ -8,19 +8,14 @@ VALUES (2200,   1,      16384) /* ItemType - Key */
      , (2200,   5,         50) /* EncumbranceVal */
      , (2200,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (2200,  19,          0) /* Value */
-     , (2200,  65,        101) /* Placement - Resting */
      , (2200,  91,          5) /* MaxStructure */
      , (2200,  92,          5) /* Structure */
      , (2200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2200,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (2200,  94,        640) /* TargetType - LockableMagicTarget */
+     , (2200, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2200,   1, False) /* Stuck */
-     , (2200,  11, True ) /* IgnoreCollisions */
-     , (2200,  13, True ) /* Ethereal */
-     , (2200,  14, True ) /* GravityStatus */
-     , (2200,  19, True ) /* Attackable */
-     , (2200,  22, True ) /* Inscribable */;
+VALUES (2200,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2200,   1, 'Copy of Witshire''s Key') /* Name */

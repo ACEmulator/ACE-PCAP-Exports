@@ -16,15 +16,10 @@ VALUES (8967,   1,         16) /* ItemType - Creature */
      , (8967, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8967,   1, True ) /* Stuck */
-     , (8967,  12, True ) /* ReportCollisions */
-     , (8967,  13, False) /* Ethereal */
-     , (8967,  14, True ) /* GravityStatus */
-     , (8967,  19, True ) /* Attackable */
-     , (8967,  42, True ) /* AllowEdgeSlide */;
+VALUES (8967,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8967,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (8967,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8967,   1, 'Decaying Warrior') /* Name */

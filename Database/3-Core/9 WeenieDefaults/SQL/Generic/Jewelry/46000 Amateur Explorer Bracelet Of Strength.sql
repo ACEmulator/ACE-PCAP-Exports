@@ -10,19 +10,14 @@ VALUES (46000,   1,          8) /* ItemType - Jewelry */
      , (46000,  16,          1) /* ItemUseable - No */
      , (46000,  18,          1) /* UiEffects - Magical */
      , (46000,  19,        100) /* Value */
-     , (46000,  65,        101) /* Placement - Resting */
-     , (46000,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (46000,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46000, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46000,   1, False) /* Stuck */
-     , (46000,  11, True ) /* IgnoreCollisions */
-     , (46000,  13, True ) /* Ethereal */
-     , (46000,  14, True ) /* GravityStatus */
-     , (46000,  19, True ) /* Attackable */
-     , (46000,  22, True ) /* Inscribable */;
+VALUES (46000,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46000,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (46000,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46000,   1, 'Amateur Explorer Bracelet Of Strength') /* Name */;

@@ -11,17 +11,12 @@ VALUES (33822,   1,          2) /* ItemType - Armor */
      , (33822,  16,          1) /* ItemUseable - No */
      , (33822,  18,          1) /* UiEffects - Magical */
      , (33822,  19,       6000) /* Value */
-     , (33822,  65,        101) /* Placement - Resting */
      , (33822,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33822, 151,          2) /* HookType - Wall */;
+     , (33822, 151,          2) /* HookType - Wall */
+     , (33822, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33822,   1, False) /* Stuck */
-     , (33822,  11, True ) /* IgnoreCollisions */
-     , (33822,  13, True ) /* Ethereal */
-     , (33822,  14, True ) /* GravityStatus */
-     , (33822,  19, True ) /* Attackable */
-     , (33822,  22, True ) /* Inscribable */;
+VALUES (33822,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33822,   1, 'Breastplate of Grace') /* Name */;

@@ -16,14 +16,10 @@ VALUES (23487,   1,         16) /* ItemType - Creature */
      , (23487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23487,   1, True ) /* Stuck */
-     , (23487,  12, True ) /* ReportCollisions */
-     , (23487,  13, False) /* Ethereal */
-     , (23487,  14, True ) /* GravityStatus */
-     , (23487,  19, True ) /* Attackable */;
+VALUES (23487,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23487,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (23487,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23487,   1, 'Sata Sclavus Lord') /* Name */

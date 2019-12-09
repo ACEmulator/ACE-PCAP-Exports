@@ -11,15 +11,8 @@ VALUES (38856,   1,          1) /* ItemType - MeleeWeapon */
      , (38856,  16,          1) /* ItemUseable - No */
      , (38856,  18,          1) /* UiEffects - Magical */
      , (38856,  51,          1) /* CombatUse - Melee */
-     , (38856,  65,          1) /* Placement - RightHandCombat */
-     , (38856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38856,   1, False) /* Stuck */
-     , (38856,  11, True ) /* IgnoreCollisions */
-     , (38856,  13, True ) /* Ethereal */
-     , (38856,  14, True ) /* GravityStatus */
-     , (38856,  19, True ) /* Attackable */;
+     , (38856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38856, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38856,   1, 'Radiant Blood Blade') /* Name */;

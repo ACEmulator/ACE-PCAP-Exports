@@ -38,19 +38,13 @@ VALUES (24158,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24158,   1, True ) /* Stuck */
-     , (24158,  11, True ) /* IgnoreCollisions */
-     , (24158,  12, True ) /* ReportCollisions */
-     , (24158,  13, False) /* Ethereal */
-     , (24158,  14, True ) /* GravityStatus */
-     , (24158,  19, False) /* Attackable */
-     , (24158,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (24158,  42, True ) /* AllowEdgeSlide */;
+     , (24158,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24158,  54,       3) /* UseRadius */
      , (24158, 8010,       0) /* PCAPRecordedVelocityX */
      , (24158, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24158, 8012, -0.163192987442017) /* PCAPRecordedVelocityZ */;
+     , (24158, 8012,   -0.16) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24158,   1, 'Chunk of Wood') /* Name */

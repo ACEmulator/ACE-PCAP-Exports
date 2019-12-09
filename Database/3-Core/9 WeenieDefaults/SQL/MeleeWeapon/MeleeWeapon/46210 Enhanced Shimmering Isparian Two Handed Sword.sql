@@ -18,7 +18,6 @@ VALUES (46210,   1,          1) /* ItemType - MeleeWeapon */
      , (46210,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46210,  49,         50) /* WeaponTime */
      , (46210,  51,          5) /* CombatUse - TwoHanded */
-     , (46210,  65,          1) /* Placement - RightHandCombat */
      , (46210,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46210, 106,        350) /* ItemSpellcraft */
      , (46210, 107,        400) /* ItemCurMana */
@@ -31,25 +30,21 @@ VALUES (46210,   1,          1) /* ItemType - MeleeWeapon */
      , (46210, 160,        400) /* WieldDifficulty */
      , (46210, 166,         62) /* SlayerCreatureType - Elemental */
      , (46210, 292,          2) /* Cleaving */
-     , (46210, 8030,          0);
+     , (46210, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46210, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46210,   1, False) /* Stuck */
-     , (46210,  11, True ) /* IgnoreCollisions */
-     , (46210,  13, True ) /* Ethereal */
-     , (46210,  14, True ) /* GravityStatus */
-     , (46210,  19, True ) /* Attackable */
-     , (46210,  22, True ) /* Inscribable */
+VALUES (46210,  22, True ) /* Inscribable */
      , (46210,  69, False) /* IsSellable */
      , (46210,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46210,   5,  -0.025) /* ManaRate */
+VALUES (46210,   5,   -0.02) /* ManaRate */
      , (46210,  21,       0) /* WeaponLength */
      , (46210,  22,    0.29) /* DamageVariance */
      , (46210,  26,       0) /* MaximumVelocity */
      , (46210,  29,    1.14) /* WeaponDefense */
-     , (46210,  39, 1.14999997615814) /* DefaultScale */
+     , (46210,  39,    1.15) /* DefaultScale */
      , (46210,  62,    1.14) /* WeaponOffense */
      , (46210,  63,       1) /* DamageMod */
      , (46210, 155,       1) /* IgnoreArmor */;

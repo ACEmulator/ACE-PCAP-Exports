@@ -37,11 +37,7 @@ VALUES (32525,   1,         16) /* ItemType - Creature */
      , (32525, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32525,   1, True ) /* Stuck */
-     , (32525,  12, True ) /* ReportCollisions */
-     , (32525,  13, True ) /* Ethereal */
-     , (32525,  14, True ) /* GravityStatus */
-     , (32525,  19, True ) /* Attackable */;
+VALUES (32525,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32525,   1, 'Portal Pillar') /* Name */

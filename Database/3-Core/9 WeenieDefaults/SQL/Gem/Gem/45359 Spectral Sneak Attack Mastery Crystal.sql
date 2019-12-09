@@ -13,17 +13,10 @@ VALUES (45359,   1,       2048) /* ItemType - Gem */
      , (45359,  16,          8) /* ItemUseable - Contained */
      , (45359,  18,          1) /* UiEffects - Magical */
      , (45359,  19,          5) /* Value */
-     , (45359,  65,        101) /* Placement - Resting */
      , (45359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45359,  94,         16) /* TargetType - Creature */
-     , (45359, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45359,   1, False) /* Stuck */
-     , (45359,  11, True ) /* IgnoreCollisions */
-     , (45359,  13, True ) /* Ethereal */
-     , (45359,  14, True ) /* GravityStatus */
-     , (45359,  19, True ) /* Attackable */;
+     , (45359, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (45359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45359,   1, 'Spectral Sneak Attack Mastery Crystal') /* Name */

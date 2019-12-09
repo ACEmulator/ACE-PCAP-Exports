@@ -42,23 +42,18 @@ VALUES (35870,   1,         16) /* ItemType - Creature */
      , (35870, 388,          0) /* GearOverpower */
      , (35870, 389,          0) /* GearOverpowerResist */
      , (35870, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (35870, 8030,          0);
+     , (35870, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35870,   1, True ) /* Stuck */
-     , (35870,  11, True ) /* IgnoreCollisions */
-     , (35870,  12, True ) /* ReportCollisions */
-     , (35870,  13, False) /* Ethereal */
-     , (35870,  14, True ) /* GravityStatus */
-     , (35870,  19, False) /* Attackable */
-     , (35870,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (35870,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35870,  21,       0) /* WeaponLength */
      , (35870,  22,       0) /* DamageVariance */
      , (35870,  26,       0) /* MaximumVelocity */
-     , (35870,  39, 1.29999995231628) /* DefaultScale */
-     , (35870,  54, 0.100000001490116) /* UseRadius */
+     , (35870,  39,     1.3) /* DefaultScale */
+     , (35870,  54,     0.1) /* UseRadius */
      , (35870,  62,       1) /* WeaponOffense */
      , (35870,  63,       1) /* DamageMod */;
 

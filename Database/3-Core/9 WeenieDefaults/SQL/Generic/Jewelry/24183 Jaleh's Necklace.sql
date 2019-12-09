@@ -11,7 +11,6 @@ VALUES (24183,   1,          8) /* ItemType - Jewelry */
      , (24183,  18,          1) /* UiEffects - Magical */
      , (24183,  19,      10000) /* Value */
      , (24183,  33,          1) /* Bonded - Bonded */
-     , (24183,  65,        101) /* Placement - Resting */
      , (24183,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24183, 106,        300) /* ItemSpellcraft */
      , (24183, 107,          2) /* ItemCurMana */
@@ -21,21 +20,17 @@ VALUES (24183,   1,          8) /* ItemType - Jewelry */
      , (24183, 151,          2) /* HookType - Wall */
      , (24183, 158,          7) /* WieldRequirements - Level */
      , (24183, 159,          1) /* WieldSkillType - Axe */
-     , (24183, 160,         50) /* WieldDifficulty */;
+     , (24183, 160,         50) /* WieldDifficulty */
+     , (24183, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24183,   1, False) /* Stuck */
-     , (24183,  11, True ) /* IgnoreCollisions */
-     , (24183,  13, True ) /* Ethereal */
-     , (24183,  14, True ) /* GravityStatus */
-     , (24183,  19, True ) /* Attackable */
-     , (24183,  22, True ) /* Inscribable */
+VALUES (24183,  22, True ) /* Inscribable */
      , (24183,  69, False) /* IsSellable */
      , (24183,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24183,   5,  -0.025) /* ManaRate */
-     , (24183,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (24183,   5,   -0.02) /* ManaRate */
+     , (24183,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24183,   1, 'Jaleh''s Necklace') /* Name */

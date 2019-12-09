@@ -11,20 +11,14 @@ VALUES (6086,   1,      65536) /* ItemType - Portal */
      , (6086, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6086,   1, True ) /* Stuck */
-     , (6086,  11, True ) /* IgnoreCollisions */
-     , (6086,  13, True ) /* Ethereal */
-     , (6086,  14, True ) /* GravityStatus */
-     , (6086,  15, True ) /* LightsStatus */
-     , (6086,  19, True ) /* Attackable */;
+VALUES (6086,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6086,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6086,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6086,   1, 'Destroyed Portal to Neydisa Castle') /* Name */
      , (6086,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (6086,  38, 'Destroyed Portal to Neydisa Castle (69.5N, 17.9E).') /* AppraisalPortalDestination */
      , (6086, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

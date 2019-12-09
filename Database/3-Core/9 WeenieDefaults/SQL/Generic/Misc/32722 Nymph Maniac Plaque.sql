@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32722,   1,        128) /* ItemType - Misc */
      , (32722,   5,          5) /* EncumbranceVal */
      , (32722,  16,          1) /* ItemUseable - No */
-     , (32722,  65,        101) /* Placement - Resting */
      , (32722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32722, 151,          2) /* HookType - Wall */;
+     , (32722, 151,          2) /* HookType - Wall */
+     , (32722, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32722,   1, False) /* Stuck */
-     , (32722,  11, True ) /* IgnoreCollisions */
-     , (32722,  13, True ) /* Ethereal */
-     , (32722,  14, True ) /* GravityStatus */
-     , (32722,  19, True ) /* Attackable */
-     , (32722,  22, True ) /* Inscribable */;
+VALUES (32722,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32722,   1, 'Nymph Maniac Plaque') /* Name */;

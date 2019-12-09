@@ -12,20 +12,15 @@ VALUES (41870,   1,        128) /* ItemType - Misc */
      , (41870,  15,         12) /* StackUnitValue */
      , (41870,  16,          8) /* ItemUseable - Contained */
      , (41870,  19,         12) /* Value */
-     , (41870,  65,        101) /* Placement - Resting */
      , (41870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41870,  94,         16) /* TargetType - Creature */;
+     , (41870,  94,         16) /* TargetType - Creature */
+     , (41870, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41870,   1, False) /* Stuck */
-     , (41870,  11, True ) /* IgnoreCollisions */
-     , (41870,  13, True ) /* Ethereal */
-     , (41870,  14, True ) /* GravityStatus */
-     , (41870,  19, True ) /* Attackable */
-     , (41870,  22, True ) /* Inscribable */;
+VALUES (41870,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41870,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (41870,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41870,   1, 'Sealed Bag of Salvaged Pyreal') /* Name */;

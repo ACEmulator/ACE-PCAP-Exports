@@ -11,20 +11,15 @@ VALUES (27868,   1,          1) /* ItemType - MeleeWeapon */
      , (27868,  16,          1) /* ItemUseable - No */
      , (27868,  19,        750) /* Value */
      , (27868,  51,          1) /* CombatUse - Melee */
-     , (27868,  65,          1) /* Placement - RightHandCombat */
      , (27868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27868, 151,          2) /* HookType - Wall */;
+     , (27868, 151,          2) /* HookType - Wall */
+     , (27868, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27868,   1, False) /* Stuck */
-     , (27868,  11, True ) /* IgnoreCollisions */
-     , (27868,  13, True ) /* Ethereal */
-     , (27868,  14, True ) /* GravityStatus */
-     , (27868,  19, True ) /* Attackable */
-     , (27868,  22, True ) /* Inscribable */;
+VALUES (27868,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27868,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (27868,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27868,   1, 'Stone Axe') /* Name */;

@@ -13,17 +13,10 @@ VALUES (33984,   1,        128) /* ItemType - Misc */
      , (33984,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (33984,  19,          0) /* Value */
      , (33984,  33,          1) /* Bonded - Bonded */
-     , (33984,  65,        101) /* Placement - Resting */
      , (33984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33984,  94,        384) /* TargetType - Misc, MissileWeapon */
-     , (33984, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33984,   1, False) /* Stuck */
-     , (33984,  11, True ) /* IgnoreCollisions */
-     , (33984,  13, True ) /* Ethereal */
-     , (33984,  14, True ) /* GravityStatus */
-     , (33984,  19, True ) /* Attackable */;
+     , (33984, 114,          1) /* Attuned - Attuned */
+     , (33984, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33984,   1, 'Fine Bone Handle') /* Name */

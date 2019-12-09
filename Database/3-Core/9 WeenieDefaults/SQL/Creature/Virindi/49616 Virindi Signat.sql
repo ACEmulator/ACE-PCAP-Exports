@@ -16,12 +16,7 @@ VALUES (49616,   1,         16) /* ItemType - Creature */
      , (49616, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49616,   1, True ) /* Stuck */
-     , (49616,  12, True ) /* ReportCollisions */
-     , (49616,  13, False) /* Ethereal */
-     , (49616,  14, True ) /* GravityStatus */
-     , (49616,  19, True ) /* Attackable */
-     , (49616,  42, True ) /* AllowEdgeSlide */;
+VALUES (49616,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49616,   1, 'Virindi Signat') /* Name */

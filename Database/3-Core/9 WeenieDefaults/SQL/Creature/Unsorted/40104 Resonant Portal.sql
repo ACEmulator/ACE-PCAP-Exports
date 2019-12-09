@@ -39,17 +39,10 @@ VALUES (40104,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40104,   1, True ) /* Stuck */
-     , (40104,  11, True ) /* IgnoreCollisions */
-     , (40104,  12, True ) /* ReportCollisions */
-     , (40104,  13, True ) /* Ethereal */
-     , (40104,  14, True ) /* GravityStatus */
-     , (40104,  15, True ) /* LightsStatus */
-     , (40104,  19, False) /* Attackable */
-     , (40104,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (40104,  42, True ) /* AllowEdgeSlide */;
+     , (40104,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40104,  54, 0.100000001490116) /* UseRadius */;
+VALUES (40104,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40104,   1, 'Resonant Portal') /* Name */

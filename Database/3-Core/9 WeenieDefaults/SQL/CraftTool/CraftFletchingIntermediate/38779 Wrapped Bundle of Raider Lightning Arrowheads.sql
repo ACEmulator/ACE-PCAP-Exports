@@ -13,17 +13,12 @@ VALUES (38779,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (38779,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (38779,  19,     100000) /* Value */
      , (38779,  33,          1) /* Bonded - Bonded */
-     , (38779,  65,        101) /* Placement - Resting */
      , (38779,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38779,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (38779,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (38779, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38779,   1, False) /* Stuck */
-     , (38779,  11, True ) /* IgnoreCollisions */
-     , (38779,  13, True ) /* Ethereal */
-     , (38779,  14, True ) /* GravityStatus */
-     , (38779,  19, True ) /* Attackable */
-     , (38779,  69, False) /* IsSellable */;
+VALUES (38779,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38779,   1, 'Wrapped Bundle of Raider Lightning Arrowheads') /* Name */

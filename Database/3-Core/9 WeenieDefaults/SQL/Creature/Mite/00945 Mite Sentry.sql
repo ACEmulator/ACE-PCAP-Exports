@@ -15,11 +15,7 @@ VALUES (945,   1,         16) /* ItemType - Creature */
      , (945, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (945,   1, True ) /* Stuck */
-     , (945,  12, True ) /* ReportCollisions */
-     , (945,  13, False) /* Ethereal */
-     , (945,  14, True ) /* GravityStatus */
-     , (945,  19, True ) /* Attackable */;
+VALUES (945,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (945,   1, 'Mite Sentry') /* Name */

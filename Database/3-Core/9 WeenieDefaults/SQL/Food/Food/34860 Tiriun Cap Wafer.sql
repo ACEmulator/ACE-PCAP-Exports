@@ -12,17 +12,10 @@ VALUES (34860,   1,         32) /* ItemType - Food */
      , (34860,  15,         50) /* StackUnitValue */
      , (34860,  16,          8) /* ItemUseable - Contained */
      , (34860,  19,         50) /* Value */
-     , (34860,  65,        101) /* Placement - Resting */
      , (34860,  89,          2) /* BoosterEnum - Health */
      , (34860,  90,         90) /* BoostValue */
-     , (34860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34860,   1, False) /* Stuck */
-     , (34860,  11, True ) /* IgnoreCollisions */
-     , (34860,  13, True ) /* Ethereal */
-     , (34860,  14, True ) /* GravityStatus */
-     , (34860,  19, True ) /* Attackable */;
+     , (34860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34860, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34860,   1, 'Tiriun Cap Wafer') /* Name */

@@ -11,15 +11,8 @@ VALUES (44726,   1,        128) /* ItemType - Misc */
      , (44726,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44726, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44726,   1, False) /* Stuck */
-     , (44726,  11, True ) /* IgnoreCollisions */
-     , (44726,  12, True ) /* ReportCollisions */
-     , (44726,  13, True ) /* Ethereal */
-     , (44726,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44726,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44726,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44726,   1, 'Carenzi') /* Name */;

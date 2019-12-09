@@ -12,20 +12,15 @@ VALUES (41868,   1,        128) /* ItemType - Misc */
      , (41868,  15,         18) /* StackUnitValue */
      , (41868,  16,          8) /* ItemUseable - Contained */
      , (41868,  19,         18) /* Value */
-     , (41868,  65,        101) /* Placement - Resting */
      , (41868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41868,  94,         16) /* TargetType - Creature */;
+     , (41868,  94,         16) /* TargetType - Creature */
+     , (41868, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41868,   1, False) /* Stuck */
-     , (41868,  11, True ) /* IgnoreCollisions */
-     , (41868,  13, True ) /* Ethereal */
-     , (41868,  14, True ) /* GravityStatus */
-     , (41868,  19, True ) /* Attackable */
-     , (41868,  22, True ) /* Inscribable */;
+VALUES (41868,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41868,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (41868,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41868,   1, 'Sealed Bag of Salvaged Gromnie Hide') /* Name */;

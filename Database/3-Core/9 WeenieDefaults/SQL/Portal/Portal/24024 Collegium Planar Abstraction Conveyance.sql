@@ -7,20 +7,15 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24024,   1,      65536) /* ItemType - Portal */
      , (24024,  16,          1) /* ItemUseable - No */
      , (24024,  86,        130) /* MinLevel */
-     , (24024,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (24024,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (24024, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24024, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24024,   1, True ) /* Stuck */
-     , (24024,  12, True ) /* ReportCollisions */
-     , (24024,  13, True ) /* Ethereal */
-     , (24024,  15, True ) /* LightsStatus */
-     , (24024,  19, True ) /* Attackable */;
+VALUES (24024,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24024,   1, 'Collegium Planar Abstraction Conveyance') /* Name */
-     , (24024,  38, 'Collegium Planar Abstraction Conveyance') /* AppraisalPortalDestination */;
+VALUES (24024,   1, 'Collegium Planar Abstraction Conveyance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24024,   1,   33558268) /* Setup */

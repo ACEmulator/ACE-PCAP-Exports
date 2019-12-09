@@ -12,19 +12,13 @@ VALUES (14670,   1,      65536) /* ItemType - Portal */
      , (14670, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14670,   1, True ) /* Stuck */
-     , (14670,  12, True ) /* ReportCollisions */
-     , (14670,  13, True ) /* Ethereal */
-     , (14670,  14, True ) /* GravityStatus */
-     , (14670,  15, True ) /* LightsStatus */
-     , (14670,  19, True ) /* Attackable */;
+VALUES (14670,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14670,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14670,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14670,   1, 'Stone Face Oasis Villas Portal') /* Name */
-     , (14670,  38, 'Stone Face Oasis Villas Portal (1.6N, 21.7E).') /* AppraisalPortalDestination */
      , (14670, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

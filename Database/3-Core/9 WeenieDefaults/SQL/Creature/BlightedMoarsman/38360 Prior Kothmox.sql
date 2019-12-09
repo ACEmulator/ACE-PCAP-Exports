@@ -15,12 +15,7 @@ VALUES (38360,   1,         16) /* ItemType - Creature */
      , (38360, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38360,   1, True ) /* Stuck */
-     , (38360,  12, True ) /* ReportCollisions */
-     , (38360,  13, False) /* Ethereal */
-     , (38360,  14, True ) /* GravityStatus */
-     , (38360,  19, True ) /* Attackable */
-     , (38360,  42, True ) /* AllowEdgeSlide */;
+VALUES (38360,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38360,   1, 'Prior Kothmox') /* Name */

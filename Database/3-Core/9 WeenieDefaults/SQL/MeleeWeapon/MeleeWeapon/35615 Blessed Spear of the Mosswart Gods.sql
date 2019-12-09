@@ -11,17 +11,12 @@ VALUES (35615,   1,          1) /* ItemType - MeleeWeapon */
      , (35615,  18,         32) /* UiEffects - Fire */
      , (35615,  19,       1500) /* Value */
      , (35615,  51,          1) /* CombatUse - Melee */
-     , (35615,  65,        101) /* Placement - Resting */
      , (35615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35615, 151,          2) /* HookType - Wall */;
+     , (35615, 151,          2) /* HookType - Wall */
+     , (35615, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35615,   1, False) /* Stuck */
-     , (35615,  11, True ) /* IgnoreCollisions */
-     , (35615,  13, True ) /* Ethereal */
-     , (35615,  14, True ) /* GravityStatus */
-     , (35615,  19, True ) /* Attackable */
-     , (35615,  22, True ) /* Inscribable */;
+VALUES (35615,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35615,   1, 'Blessed Spear of the Mosswart Gods') /* Name */;

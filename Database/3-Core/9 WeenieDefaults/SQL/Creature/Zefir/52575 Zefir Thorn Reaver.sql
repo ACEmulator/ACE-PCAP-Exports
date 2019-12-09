@@ -16,12 +16,7 @@ VALUES (52575,   1,         16) /* ItemType - Creature */
      , (52575, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52575,   1, True ) /* Stuck */
-     , (52575,  12, True ) /* ReportCollisions */
-     , (52575,  13, False) /* Ethereal */
-     , (52575,  14, True ) /* GravityStatus */
-     , (52575,  19, True ) /* Attackable */
-     , (52575,  42, True ) /* AllowEdgeSlide */;
+VALUES (52575,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52575,   1, 'Zefir Thorn Reaver') /* Name */

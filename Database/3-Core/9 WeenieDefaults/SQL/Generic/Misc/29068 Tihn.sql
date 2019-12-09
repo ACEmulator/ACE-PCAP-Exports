@@ -9,17 +9,12 @@ VALUES (29068,   1,        128) /* ItemType - Misc */
      , (29068,  16,          1) /* ItemUseable - No */
      , (29068,  19,          0) /* Value */
      , (29068,  33,          1) /* Bonded - Bonded */
-     , (29068,  65,        101) /* Placement - Resting */
      , (29068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29068, 114,          1) /* Attuned - Attuned */;
+     , (29068, 114,          1) /* Attuned - Attuned */
+     , (29068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29068,   1, False) /* Stuck */
-     , (29068,  11, True ) /* IgnoreCollisions */
-     , (29068,  13, True ) /* Ethereal */
-     , (29068,  14, True ) /* GravityStatus */
-     , (29068,  19, True ) /* Attackable */
-     , (29068,  22, True ) /* Inscribable */;
+VALUES (29068,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29068,   1, 'Tihn') /* Name */

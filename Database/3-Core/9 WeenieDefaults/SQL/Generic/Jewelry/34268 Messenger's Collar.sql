@@ -22,17 +22,12 @@ VALUES (34268,   1,          8) /* ItemType - Jewelry */
      , (34268, 160,         90) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34268,   1, False) /* Stuck */
-     , (34268,  11, True ) /* IgnoreCollisions */
-     , (34268,  13, True ) /* Ethereal */
-     , (34268,  14, True ) /* GravityStatus */
-     , (34268,  19, True ) /* Attackable */
-     , (34268,  22, True ) /* Inscribable */
+VALUES (34268,  22, True ) /* Inscribable */
      , (34268,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34268,   5, -0.0333) /* ManaRate */
-     , (34268,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (34268,   5,   -0.03) /* ManaRate */
+     , (34268,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34268,   1, 'Messenger''s Collar') /* Name */

@@ -7,20 +7,13 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34299,   1,       8192) /* ItemType - Writable */
      , (34299,   5,        200) /* EncumbranceVal */
      , (34299,  16,          8) /* ItemUseable - Contained */
-     , (34299,  65,        101) /* Placement - Resting */
      , (34299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34299, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34299,   1, False) /* Stuck */
-     , (34299,  11, True ) /* IgnoreCollisions */
-     , (34299,  13, True ) /* Ethereal */
-     , (34299,  14, True ) /* GravityStatus */
-     , (34299,  19, True ) /* Attackable */;
+     , (34299, 151,          2) /* HookType - Wall */
+     , (34299, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34299,  39, 1.22000002861023) /* DefaultScale */
-     , (34299,  54, 0.300000011920929) /* UseRadius */;
+VALUES (34299,  39,    1.22) /* DefaultScale */
+     , (34299,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34299,   1, 'The Rise and Fall of the Tanada') /* Name */;

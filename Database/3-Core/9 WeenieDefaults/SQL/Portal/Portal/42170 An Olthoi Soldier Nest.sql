@@ -13,21 +13,15 @@ VALUES (42170,   1,      65536) /* ItemType - Portal */
      , (42170, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42170,   1, True ) /* Stuck */
-     , (42170,  12, True ) /* ReportCollisions */
-     , (42170,  13, True ) /* Ethereal */
-     , (42170,  14, True ) /* GravityStatus */
-     , (42170,  15, True ) /* LightsStatus */
-     , (42170,  19, True ) /* Attackable */;
+VALUES (42170,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42170,  39, 0.800000011920929) /* DefaultScale */
-     , (42170,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42170,  39,     0.8) /* DefaultScale */
+     , (42170,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42170,   1, 'An Olthoi Soldier Nest') /* Name */
      , (42170,  16, 'A portal leading to the Marae Lassel Plateau near An Olthoi Soldier Nest where the Soldier Pincer may be found.') /* LongDesc */
-     , (42170,  38, 'An Olthoi Soldier Nest (45.0N, 76.3W).') /* AppraisalPortalDestination */
      , (42170, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

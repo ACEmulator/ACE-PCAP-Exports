@@ -15,14 +15,10 @@ VALUES (7331,   1,         16) /* ItemType - Creature */
      , (7331, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7331,   1, True ) /* Stuck */
-     , (7331,  12, True ) /* ReportCollisions */
-     , (7331,  13, False) /* Ethereal */
-     , (7331,  14, True ) /* GravityStatus */
-     , (7331,  19, True ) /* Attackable */;
+VALUES (7331,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7331,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (7331,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7331,   1, 'Banderling Enforcer') /* Name */

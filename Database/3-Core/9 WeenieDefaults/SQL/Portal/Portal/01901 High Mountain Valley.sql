@@ -12,19 +12,13 @@ VALUES (1901,   1,      65536) /* ItemType - Portal */
      , (1901, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1901,   1, True ) /* Stuck */
-     , (1901,  12, True ) /* ReportCollisions */
-     , (1901,  13, True ) /* Ethereal */
-     , (1901,  14, True ) /* GravityStatus */
-     , (1901,  15, True ) /* LightsStatus */
-     , (1901,  19, True ) /* Attackable */;
+VALUES (1901,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1901,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1901,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1901,   1, 'High Mountain Valley') /* Name */
-     , (1901,  38, 'High Mountain Valley (65.2S, 60.3E).') /* AppraisalPortalDestination */
      , (1901, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

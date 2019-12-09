@@ -9,20 +9,15 @@ VALUES (34346,   1,        128) /* ItemType - Misc */
      , (34346,  16,          1) /* ItemUseable - No */
      , (34346,  19,          0) /* Value */
      , (34346,  33,          1) /* Bonded - Bonded */
-     , (34346,  65,        101) /* Placement - Resting */
      , (34346,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34346, 114,          1) /* Attuned - Attuned */;
+     , (34346, 114,          1) /* Attuned - Attuned */
+     , (34346, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34346,   1, False) /* Stuck */
-     , (34346,  11, True ) /* IgnoreCollisions */
-     , (34346,  13, True ) /* Ethereal */
-     , (34346,  14, True ) /* GravityStatus */
-     , (34346,  19, True ) /* Attackable */
-     , (34346,  22, True ) /* Inscribable */;
+VALUES (34346,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34346,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (34346,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34346,   1, 'Ancient Shard of Metal') /* Name */

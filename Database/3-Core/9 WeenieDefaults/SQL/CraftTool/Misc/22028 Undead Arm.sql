@@ -11,18 +11,13 @@ VALUES (22028,   1,        128) /* ItemType - Misc */
      , (22028,  13,        250) /* StackUnitEncumbrance */
      , (22028,  15,          0) /* StackUnitValue */
      , (22028,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (22028,  65,        101) /* Placement - Resting */
      , (22028,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22028,  94,        128) /* TargetType - Misc */
-     , (22028, 151,          2) /* HookType - Wall */;
+     , (22028, 151,          2) /* HookType - Wall */
+     , (22028, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22028,   1, False) /* Stuck */
-     , (22028,  11, True ) /* IgnoreCollisions */
-     , (22028,  13, True ) /* Ethereal */
-     , (22028,  14, True ) /* GravityStatus */
-     , (22028,  19, True ) /* Attackable */
-     , (22028,  22, True ) /* Inscribable */;
+VALUES (22028,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22028,   1, 'Undead Arm') /* Name */;

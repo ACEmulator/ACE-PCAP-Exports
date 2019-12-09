@@ -18,7 +18,6 @@ VALUES (35550,   1,          1) /* ItemType - MeleeWeapon */
      , (35550,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (35550,  49,         10) /* WeaponTime */
      , (35550,  51,          1) /* CombatUse - Melee */
-     , (35550,  65,          1) /* Placement - RightHandCombat */
      , (35550,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (35550,  98, 1485043308) /* CreationTimestamp */
      , (35550, 114,          0) /* Attuned - Normal */
@@ -26,16 +25,11 @@ VALUES (35550,   1,          1) /* ItemType - MeleeWeapon */
      , (35550, 267,      10800) /* Lifespan */
      , (35550, 268,      10071) /* RemainingLifespan */
      , (35550, 353,          7) /* WeaponType - Staff */
-     , (35550, 8030,          0);
+     , (35550, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (35550, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35550,   1, False) /* Stuck */
-     , (35550,  11, True ) /* IgnoreCollisions */
-     , (35550,  13, True ) /* Ethereal */
-     , (35550,  14, True ) /* GravityStatus */
-     , (35550,  15, True ) /* LightsStatus */
-     , (35550,  19, True ) /* Attackable */
-     , (35550,  22, True ) /* Inscribable */
+VALUES (35550,  22, True ) /* Inscribable */
      , (35550,  69, False) /* IsSellable */
      , (35550,  99, False) /* Ivoryable */;
 
@@ -44,10 +38,10 @@ VALUES (35550,  21,       0) /* WeaponLength */
      , (35550,  22,     0.5) /* DamageVariance */
      , (35550,  26,       0) /* MaximumVelocity */
      , (35550,  29,     1.4) /* WeaponDefense */
-     , (35550,  39, 0.670000016689301) /* DefaultScale */
+     , (35550,  39,    0.67) /* DefaultScale */
      , (35550,  62,     1.4) /* WeaponOffense */
      , (35550,  63,       1) /* DamageMod */
-     , (35550,  76, 0.699999988079071) /* Translucency */
+     , (35550,  76,     0.7) /* Translucency */
      , (35550, 136,       1) /* CriticalMultiplier */
      , (35550, 147,       1) /* CriticalFrequency */
      , (35550, 157,       1) /* ResistanceModifier */;

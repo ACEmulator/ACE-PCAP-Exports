@@ -12,20 +12,14 @@ VALUES (29340,   1,      65536) /* ItemType - Portal */
      , (29340, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29340,   1, True ) /* Stuck */
-     , (29340,  12, True ) /* ReportCollisions */
-     , (29340,  13, True ) /* Ethereal */
-     , (29340,  14, True ) /* GravityStatus */
-     , (29340,  15, True ) /* LightsStatus */
-     , (29340,  19, True ) /* Attackable */;
+VALUES (29340,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29340,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29340,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29340,   1, 'Exit to Yaraq') /* Name */
      , (29340,  16, 'You must complete the Sentry''s quest before you may use this portal.') /* LongDesc */
-     , (29340,  38, 'Exit to Yaraq (21.5S, 1.8W).') /* AppraisalPortalDestination */
      , (29340, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

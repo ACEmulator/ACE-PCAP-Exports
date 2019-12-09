@@ -8,20 +8,13 @@ VALUES (21093,   1,       8192) /* ItemType - Writable */
      , (21093,   5,        160) /* EncumbranceVal */
      , (21093,  16,          8) /* ItemUseable - Contained */
      , (21093,  19,         90) /* Value */
-     , (21093,  65,        101) /* Placement - Resting */
      , (21093,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21093, 174,         14) /* AppraisalPages */
-     , (21093, 175,         14) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21093,   1, False) /* Stuck */
-     , (21093,  11, True ) /* IgnoreCollisions */
-     , (21093,  13, True ) /* Ethereal */
-     , (21093,  14, True ) /* GravityStatus */
-     , (21093,  19, True ) /* Attackable */;
+     , (21093, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (21093, 8042,         14) /* PCAPRecordedAppraisalPages */
+     , (21093, 8043,         14) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21093,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (21093,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21093,   1, 'Tinkering') /* Name */;

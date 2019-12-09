@@ -13,15 +13,10 @@ VALUES (34085,   1,        128) /* ItemType - Misc */
      , (34085, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34085,   1, False) /* Stuck */
-     , (34085,  11, True ) /* IgnoreCollisions */
-     , (34085,  13, True ) /* Ethereal */
-     , (34085,  14, True ) /* GravityStatus */
-     , (34085,  19, True ) /* Attackable */
-     , (34085,  22, True ) /* Inscribable */;
+VALUES (34085,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34085,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (34085,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34085,   1, 'Zombie Butler') /* Name */

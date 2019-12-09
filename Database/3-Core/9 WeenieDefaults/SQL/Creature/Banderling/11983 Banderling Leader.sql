@@ -16,17 +16,13 @@ VALUES (11983,   1,         16) /* ItemType - Creature */
      , (11983, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11983,   1, True ) /* Stuck */
-     , (11983,  12, True ) /* ReportCollisions */
-     , (11983,  13, False) /* Ethereal */
-     , (11983,  14, True ) /* GravityStatus */
-     , (11983,  19, True ) /* Attackable */;
+VALUES (11983,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11983,  39, 1.79999995231628) /* DefaultScale */
-     , (11983, 8010, -0.217557743191719) /* PCAPRecordedVelocityX */
-     , (11983, 8011, -0.435115486383438) /* PCAPRecordedVelocityY */
-     , (11983, 8012, -0.181298121809959) /* PCAPRecordedVelocityZ */;
+VALUES (11983,  39,     1.8) /* DefaultScale */
+     , (11983, 8010,   -0.22) /* PCAPRecordedVelocityX */
+     , (11983, 8011,   -0.44) /* PCAPRecordedVelocityY */
+     , (11983, 8012,   -0.18) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11983,   1, 'Banderling Leader') /* Name */

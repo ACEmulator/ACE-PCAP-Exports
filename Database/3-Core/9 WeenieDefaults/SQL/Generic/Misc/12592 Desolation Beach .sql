@@ -11,12 +11,7 @@ VALUES (12592,   1,        128) /* ItemType - Misc */
      , (12592,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12592,   1, True ) /* Stuck */
-     , (12592,  11, True ) /* IgnoreCollisions */
-     , (12592,  12, True ) /* ReportCollisions */
-     , (12592,  13, False) /* Ethereal */
-     , (12592,  14, True ) /* GravityStatus */
-     , (12592,  19, True ) /* Attackable */;
+VALUES (12592,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12592,   1, 'Desolation Beach ') /* Name */

@@ -9,19 +9,14 @@ VALUES (10960,   1,          8) /* ItemType - Jewelry */
      , (10960,   9,      32768) /* ValidLocations - NeckWear */
      , (10960,  16,          1) /* ItemUseable - No */
      , (10960,  19,         15) /* Value */
-     , (10960,  65,        101) /* Placement - Resting */
-     , (10960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (10960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (10960, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10960,   1, False) /* Stuck */
-     , (10960,  11, True ) /* IgnoreCollisions */
-     , (10960,  13, True ) /* Ethereal */
-     , (10960,  14, True ) /* GravityStatus */
-     , (10960,  19, True ) /* Attackable */
-     , (10960,  22, True ) /* Inscribable */;
+VALUES (10960,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10960,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (10960,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10960,   1, 'Clay Figurine') /* Name */

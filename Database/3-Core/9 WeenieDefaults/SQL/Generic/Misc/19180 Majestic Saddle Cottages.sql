@@ -11,12 +11,7 @@ VALUES (19180,   1,        128) /* ItemType - Misc */
      , (19180,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19180,   1, True ) /* Stuck */
-     , (19180,  11, True ) /* IgnoreCollisions */
-     , (19180,  12, True ) /* ReportCollisions */
-     , (19180,  13, False) /* Ethereal */
-     , (19180,  14, True ) /* GravityStatus */
-     , (19180,  19, True ) /* Attackable */;
+VALUES (19180,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19180,   1, 'Majestic Saddle Cottages') /* Name */

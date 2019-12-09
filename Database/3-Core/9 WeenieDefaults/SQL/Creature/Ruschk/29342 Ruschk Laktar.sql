@@ -16,14 +16,10 @@ VALUES (29342,   1,         16) /* ItemType - Creature */
      , (29342, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29342,   1, True ) /* Stuck */
-     , (29342,  12, True ) /* ReportCollisions */
-     , (29342,  13, False) /* Ethereal */
-     , (29342,  14, True ) /* GravityStatus */
-     , (29342,  19, True ) /* Attackable */;
+VALUES (29342,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29342,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (29342,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29342,   1, 'Ruschk Laktar') /* Name */

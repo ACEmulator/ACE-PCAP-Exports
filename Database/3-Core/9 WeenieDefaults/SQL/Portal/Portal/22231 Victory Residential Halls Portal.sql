@@ -12,19 +12,13 @@ VALUES (22231,   1,      65536) /* ItemType - Portal */
      , (22231, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22231,   1, True ) /* Stuck */
-     , (22231,  12, True ) /* ReportCollisions */
-     , (22231,  13, True ) /* Ethereal */
-     , (22231,  14, True ) /* GravityStatus */
-     , (22231,  15, True ) /* LightsStatus */
-     , (22231,  19, True ) /* Attackable */;
+VALUES (22231,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22231,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22231,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22231,   1, 'Victory Residential Halls Portal') /* Name */
-     , (22231,  38, 'Victory Residential Halls Portal') /* AppraisalPortalDestination */
      , (22231, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

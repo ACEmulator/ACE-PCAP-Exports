@@ -8,16 +8,11 @@ VALUES (2270,   1,        128) /* ItemType - Misc */
      , (2270,   5,       9000) /* EncumbranceVal */
      , (2270,  16,          1) /* ItemUseable - No */
      , (2270,  19,        125) /* Value */
-     , (2270,  65,        101) /* Placement - Resting */
-     , (2270,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2270,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2270, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2270,   1, True ) /* Stuck */
-     , (2270,  11, True ) /* IgnoreCollisions */
-     , (2270,  12, True ) /* ReportCollisions */
-     , (2270,  13, False) /* Ethereal */
-     , (2270,  14, True ) /* GravityStatus */
-     , (2270,  19, True ) /* Attackable */;
+VALUES (2270,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2270,   1, 'Physician') /* Name */

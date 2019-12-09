@@ -13,21 +13,16 @@ VALUES (15761,   1,        128) /* ItemType - Misc */
      , (15761,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15761,  19,          0) /* Value */
      , (15761,  33,          1) /* Bonded - Bonded */
-     , (15761,  65,        101) /* Placement - Resting */
      , (15761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15761,  94,          2) /* TargetType - Armor */
-     , (15761, 114,          1) /* Attuned - Attuned */;
+     , (15761, 114,          1) /* Attuned - Attuned */
+     , (15761, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15761,   1, False) /* Stuck */
-     , (15761,  11, True ) /* IgnoreCollisions */
-     , (15761,  13, True ) /* Ethereal */
-     , (15761,  14, True ) /* GravityStatus */
-     , (15761,  19, True ) /* Attackable */
-     , (15761,  22, True ) /* Inscribable */;
+VALUES (15761,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15761,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (15761,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15761,   1, 'Ruined Amulet of Light Weapons') /* Name */

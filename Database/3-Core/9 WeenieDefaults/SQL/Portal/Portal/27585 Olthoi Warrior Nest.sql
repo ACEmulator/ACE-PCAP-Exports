@@ -13,19 +13,13 @@ VALUES (27585,   1,      65536) /* ItemType - Portal */
      , (27585, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27585,   1, True ) /* Stuck */
-     , (27585,  12, True ) /* ReportCollisions */
-     , (27585,  13, True ) /* Ethereal */
-     , (27585,  14, True ) /* GravityStatus */
-     , (27585,  15, True ) /* LightsStatus */
-     , (27585,  19, True ) /* Attackable */;
+VALUES (27585,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27585,  54, -0.100000001490116) /* UseRadius */;
+VALUES (27585,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27585,   1, 'Olthoi Warrior Nest') /* Name */
-     , (27585,  38, 'Olthoi Warrior Nest') /* AppraisalPortalDestination */
      , (27585, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

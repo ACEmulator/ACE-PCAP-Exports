@@ -13,11 +13,6 @@ VALUES (11638,   1,       8192) /* ItemType - Writable */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11638,   1, True ) /* Stuck */
-     , (11638,  11, True ) /* IgnoreCollisions */
-     , (11638,  12, True ) /* ReportCollisions */
-     , (11638,  13, False) /* Ethereal */
-     , (11638,  14, True ) /* GravityStatus */
-     , (11638,  19, True ) /* Attackable */
      , (11638,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

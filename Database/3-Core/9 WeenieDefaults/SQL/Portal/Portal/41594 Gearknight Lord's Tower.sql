@@ -11,15 +11,10 @@ VALUES (41594,   1,      65536) /* ItemType - Portal */
      , (41594, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41594,   1, True ) /* Stuck */
-     , (41594,  12, True ) /* ReportCollisions */
-     , (41594,  13, True ) /* Ethereal */
-     , (41594,  14, True ) /* GravityStatus */
-     , (41594,  15, True ) /* LightsStatus */
-     , (41594,  19, True ) /* Attackable */;
+VALUES (41594,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41594,  54, -0.100000001490116) /* UseRadius */;
+VALUES (41594,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41594,   1, 'Gearknight Lord''s Tower') /* Name */

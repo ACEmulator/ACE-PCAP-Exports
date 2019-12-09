@@ -38,18 +38,12 @@ VALUES (33674,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33674,   1, True ) /* Stuck */
-     , (33674,  11, True ) /* IgnoreCollisions */
-     , (33674,  12, True ) /* ReportCollisions */
-     , (33674,  13, False) /* Ethereal */
-     , (33674,  14, True ) /* GravityStatus */
-     , (33674,  19, False) /* Attackable */
-     , (33674,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (33674,  42, True ) /* AllowEdgeSlide */;
+     , (33674,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33674,  39,     1.5) /* DefaultScale */
      , (33674,  54,       3) /* UseRadius */
-     , (33674,  76, 0.899999976158142) /* Translucency */;
+     , (33674,  76,     0.9) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33674,   1, 'The Deep') /* Name */

@@ -11,15 +11,10 @@ VALUES (19374,   1,      65536) /* ItemType - Portal */
      , (19374, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19374,   1, True ) /* Stuck */
-     , (19374,  12, True ) /* ReportCollisions */
-     , (19374,  13, True ) /* Ethereal */
-     , (19374,  14, True ) /* GravityStatus */
-     , (19374,  15, True ) /* LightsStatus */
-     , (19374,  19, True ) /* Attackable */;
+VALUES (19374,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19374,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19374,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19374,   1, 'Vesper Gate Portal') /* Name */

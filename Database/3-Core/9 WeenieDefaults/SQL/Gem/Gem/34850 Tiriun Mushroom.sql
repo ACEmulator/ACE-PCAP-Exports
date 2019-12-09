@@ -12,18 +12,11 @@ VALUES (34850,   1,       2048) /* ItemType - Gem */
      , (34850,  15,        100) /* StackUnitValue */
      , (34850,  16,          1) /* ItemUseable - No */
      , (34850,  19,        100) /* Value */
-     , (34850,  65,        101) /* Placement - Resting */
-     , (34850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34850,   1, False) /* Stuck */
-     , (34850,  11, True ) /* IgnoreCollisions */
-     , (34850,  13, True ) /* Ethereal */
-     , (34850,  14, True ) /* GravityStatus */
-     , (34850,  19, True ) /* Attackable */;
+     , (34850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34850, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34850,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (34850,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34850,   1, 'Tiriun Mushroom') /* Name */

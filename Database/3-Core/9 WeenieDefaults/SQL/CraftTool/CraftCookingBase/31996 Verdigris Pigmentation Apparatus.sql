@@ -12,17 +12,12 @@ VALUES (31996,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31996,  15,      10000) /* StackUnitValue */
      , (31996,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31996,  19,      10000) /* Value */
-     , (31996,  65,        101) /* Placement - Resting */
      , (31996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31996,  94,          2) /* TargetType - Armor */;
+     , (31996,  94,          2) /* TargetType - Armor */
+     , (31996, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31996,   1, False) /* Stuck */
-     , (31996,  11, True ) /* IgnoreCollisions */
-     , (31996,  13, True ) /* Ethereal */
-     , (31996,  14, True ) /* GravityStatus */
-     , (31996,  19, True ) /* Attackable */
-     , (31996,  69, False) /* IsSellable */;
+VALUES (31996,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31996,   1, 'Verdigris Pigmentation Apparatus') /* Name */

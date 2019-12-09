@@ -15,15 +15,10 @@ VALUES (32949,   1,         16) /* ItemType - Creature */
      , (32949, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32949,   1, True ) /* Stuck */
-     , (32949,  12, True ) /* ReportCollisions */
-     , (32949,  13, False) /* Ethereal */
-     , (32949,  14, True ) /* GravityStatus */
-     , (32949,  15, True ) /* LightsStatus */
-     , (32949,  19, True ) /* Attackable */;
+VALUES (32949,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32949,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (32949,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32949,   1, 'Child of Frost') /* Name */

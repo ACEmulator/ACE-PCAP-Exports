@@ -12,16 +12,9 @@ VALUES (31686,   1,        128) /* ItemType - Misc */
      , (31686,  15,        100) /* StackUnitValue */
      , (31686,  16,          1) /* ItemUseable - No */
      , (31686,  19,        100) /* Value */
-     , (31686,  65,        101) /* Placement - Resting */
      , (31686,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31686, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31686,   1, False) /* Stuck */
-     , (31686,  11, True ) /* IgnoreCollisions */
-     , (31686,  13, True ) /* Ethereal */
-     , (31686,  14, True ) /* GravityStatus */
-     , (31686,  19, True ) /* Attackable */;
+     , (31686, 151,          9) /* HookType - Floor, Yard */
+     , (31686, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31686,   1, 'Yellow Monster Seed') /* Name */

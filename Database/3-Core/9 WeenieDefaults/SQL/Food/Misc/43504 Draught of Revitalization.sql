@@ -11,16 +11,9 @@ VALUES (43504,   1,        128) /* ItemType - Misc */
      , (43504,  13,          5) /* StackUnitEncumbrance */
      , (43504,  15,          0) /* StackUnitValue */
      , (43504,  16,          8) /* ItemUseable - Contained */
-     , (43504,  65,        101) /* Placement - Resting */
      , (43504,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43504, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43504,   1, False) /* Stuck */
-     , (43504,  11, True ) /* IgnoreCollisions */
-     , (43504,  13, True ) /* Ethereal */
-     , (43504,  14, True ) /* GravityStatus */
-     , (43504,  19, True ) /* Attackable */;
+     , (43504, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (43504, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43504,   1, 'Draught of Revitalization') /* Name */

@@ -11,11 +11,7 @@ VALUES (43013,   1,        128) /* ItemType - Misc */
      , (43013,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43013,   1, True ) /* Stuck */
-     , (43013,  11, True ) /* IgnoreCollisions */
-     , (43013,  12, True ) /* ReportCollisions */
-     , (43013,  13, True ) /* Ethereal */
-     , (43013,  19, True ) /* Attackable */;
+VALUES (43013,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43013,   1, 'Aluvian') /* Name */

@@ -7,15 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45021,   1,        128) /* ItemType - Misc */
      , (45021,   5,         50) /* EncumbranceVal */
      , (45021,  16,          1) /* ItemUseable - No */
-     , (45021,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (45021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45021,   1, False) /* Stuck */
-     , (45021,  11, True ) /* IgnoreCollisions */
-     , (45021,  13, True ) /* Ethereal */
-     , (45021,  14, True ) /* GravityStatus */
-     , (45021,  19, True ) /* Attackable */
-     , (45021,  22, True ) /* Inscribable */;
+VALUES (45021,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45021,   1, 'Wardley''s Shirt') /* Name */;

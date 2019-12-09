@@ -14,12 +14,7 @@ VALUES (28771,   1,      16384) /* ItemType - Key */
      , (28771, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28771,   1, False) /* Stuck */
-     , (28771,  11, True ) /* IgnoreCollisions */
-     , (28771,  13, True ) /* Ethereal */
-     , (28771,  14, True ) /* GravityStatus */
-     , (28771,  19, True ) /* Attackable */
-     , (28771,  22, True ) /* Inscribable */;
+VALUES (28771,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28771,   1, 'Ruschk Iceberg Key') /* Name */;

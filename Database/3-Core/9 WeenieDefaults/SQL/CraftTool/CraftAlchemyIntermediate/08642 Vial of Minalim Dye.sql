@@ -12,18 +12,13 @@ VALUES (8642,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (8642,  15,         10) /* StackUnitValue */
      , (8642,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8642,  19,         10) /* Value */
-     , (8642,  65,        101) /* Placement - Resting */
      , (8642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8642,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (8642, 151,          9) /* HookType - Floor, Yard */;
+     , (8642, 151,          9) /* HookType - Floor, Yard */
+     , (8642, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8642,   1, False) /* Stuck */
-     , (8642,  11, True ) /* IgnoreCollisions */
-     , (8642,  13, True ) /* Ethereal */
-     , (8642,  14, True ) /* GravityStatus */
-     , (8642,  19, True ) /* Attackable */
-     , (8642,  69, False) /* IsSellable */;
+VALUES (8642,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8642,   1, 'Vial of Minalim Dye') /* Name */

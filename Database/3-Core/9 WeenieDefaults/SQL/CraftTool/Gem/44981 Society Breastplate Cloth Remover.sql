@@ -13,20 +13,15 @@ VALUES (44981,   1,       2048) /* ItemType - Gem */
      , (44981,  15,          5) /* StackUnitValue */
      , (44981,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44981,  19,          5) /* Value */
-     , (44981,  65,        101) /* Placement - Resting */
      , (44981,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44981,  94,          6) /* TargetType - Vestements */;
+     , (44981,  94,          6) /* TargetType - Vestements */
+     , (44981, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44981,   1, False) /* Stuck */
-     , (44981,  11, True ) /* IgnoreCollisions */
-     , (44981,  13, True ) /* Ethereal */
-     , (44981,  14, True ) /* GravityStatus */
-     , (44981,  19, True ) /* Attackable */
-     , (44981,  22, True ) /* Inscribable */;
+VALUES (44981,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44981,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44981,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44981,   1, 'Society Breastplate Cloth Remover') /* Name */;

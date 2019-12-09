@@ -12,17 +12,12 @@ VALUES (23527,   1,          1) /* ItemType - MeleeWeapon */
      , (23527,  18,          1) /* UiEffects - Magical */
      , (23527,  19,       3000) /* Value */
      , (23527,  51,          1) /* CombatUse - Melee */
-     , (23527,  65,          1) /* Placement - RightHandCombat */
      , (23527,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23527, 151,          2) /* HookType - Wall */;
+     , (23527, 151,          2) /* HookType - Wall */
+     , (23527, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23527,   1, False) /* Stuck */
-     , (23527,  11, True ) /* IgnoreCollisions */
-     , (23527,  13, True ) /* Ethereal */
-     , (23527,  14, True ) /* GravityStatus */
-     , (23527,  19, True ) /* Attackable */
-     , (23527,  22, True ) /* Inscribable */;
+VALUES (23527,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23527,   1, 'Mi Krau-Li''s Improved Jitte') /* Name */;

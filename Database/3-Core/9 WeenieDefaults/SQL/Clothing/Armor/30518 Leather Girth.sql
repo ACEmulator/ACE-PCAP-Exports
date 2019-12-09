@@ -10,17 +10,12 @@ VALUES (30518,   1,          2) /* ItemType - Armor */
      , (30518,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (30518,  16,          1) /* ItemUseable - No */
      , (30518,  19,      50000) /* Value */
-     , (30518,  65,        101) /* Placement - Resting */
      , (30518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30518, 151,          2) /* HookType - Wall */;
+     , (30518, 151,          2) /* HookType - Wall */
+     , (30518, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30518,   1, False) /* Stuck */
-     , (30518,  11, True ) /* IgnoreCollisions */
-     , (30518,  13, True ) /* Ethereal */
-     , (30518,  14, True ) /* GravityStatus */
-     , (30518,  19, True ) /* Attackable */
-     , (30518,  22, True ) /* Inscribable */;
+VALUES (30518,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30518,   1, 'Leather Girth') /* Name */;

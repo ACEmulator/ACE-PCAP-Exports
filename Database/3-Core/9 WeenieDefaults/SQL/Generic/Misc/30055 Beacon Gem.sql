@@ -9,18 +9,12 @@ VALUES (30055,   1,        128) /* ItemType - Misc */
      , (30055,  16,          1) /* ItemUseable - No */
      , (30055,  19,          0) /* Value */
      , (30055,  33,          1) /* Bonded - Bonded */
-     , (30055,  65,        101) /* Placement - Resting */
      , (30055,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (30055, 114,          1) /* Attuned - Attuned */;
+     , (30055, 114,          1) /* Attuned - Attuned */
+     , (30055, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30055,   1, False) /* Stuck */
-     , (30055,  11, True ) /* IgnoreCollisions */
-     , (30055,  13, True ) /* Ethereal */
-     , (30055,  14, True ) /* GravityStatus */
-     , (30055,  15, True ) /* LightsStatus */
-     , (30055,  19, True ) /* Attackable */
-     , (30055,  22, True ) /* Inscribable */;
+VALUES (30055,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30055,   1, 'Beacon Gem') /* Name */

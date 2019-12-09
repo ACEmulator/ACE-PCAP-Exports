@@ -11,12 +11,7 @@ VALUES (13158,   1,        128) /* ItemType - Misc */
      , (13158,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13158,   1, True ) /* Stuck */
-     , (13158,  11, True ) /* IgnoreCollisions */
-     , (13158,  12, True ) /* ReportCollisions */
-     , (13158,  13, False) /* Ethereal */
-     , (13158,  14, True ) /* GravityStatus */
-     , (13158,  19, True ) /* Attackable */;
+VALUES (13158,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13158,   1, 'Font Alpa') /* Name */;

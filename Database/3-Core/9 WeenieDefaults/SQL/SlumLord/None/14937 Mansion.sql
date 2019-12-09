@@ -17,14 +17,10 @@ VALUES (14937,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14937,   1, True ) /* Stuck */
-     , (14937,  11, True ) /* IgnoreCollisions */
-     , (14937,  13, True ) /* Ethereal */
-     , (14937,  14, True ) /* GravityStatus */
-     , (14937,  19, True ) /* Attackable */
      , (14937,  76, True ) /* HouseRequiresMonarch */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14937,  39, 1.20000004768372) /* DefaultScale */
+VALUES (14937,  39,     1.2) /* DefaultScale */
      , (14937,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

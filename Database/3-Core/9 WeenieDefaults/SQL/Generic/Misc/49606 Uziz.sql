@@ -8,16 +8,11 @@ VALUES (49606,   1,        128) /* ItemType - Misc */
      , (49606,   5,       9000) /* EncumbranceVal */
      , (49606,  16,          1) /* ItemUseable - No */
      , (49606,  19,        125) /* Value */
-     , (49606,  65,        101) /* Placement - Resting */
-     , (49606,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (49606,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (49606, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49606,   1, True ) /* Stuck */
-     , (49606,  11, True ) /* IgnoreCollisions */
-     , (49606,  12, True ) /* ReportCollisions */
-     , (49606,  13, False) /* Ethereal */
-     , (49606,  14, True ) /* GravityStatus */
-     , (49606,  19, True ) /* Attackable */;
+VALUES (49606,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49606,   1, 'Uziz') /* Name */

@@ -11,7 +11,6 @@ VALUES (19632,   1,          8) /* ItemType - Jewelry */
      , (19632,  18,         32) /* UiEffects - Fire */
      , (19632,  19,       5000) /* Value */
      , (19632,  33,          1) /* Bonded - Bonded */
-     , (19632,  65,        101) /* Placement - Resting */
      , (19632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19632, 106,        225) /* ItemSpellcraft */
      , (19632, 107,          0) /* ItemCurMana */
@@ -21,22 +20,18 @@ VALUES (19632,   1,          8) /* ItemType - Jewelry */
      , (19632, 151,          2) /* HookType - Wall */
      , (19632, 158,          7) /* WieldRequirements - Level */
      , (19632, 159,          1) /* WieldSkillType - Axe */
-     , (19632, 160,         45) /* WieldDifficulty */;
+     , (19632, 160,         45) /* WieldDifficulty */
+     , (19632, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19632,   1, False) /* Stuck */
-     , (19632,  11, True ) /* IgnoreCollisions */
-     , (19632,  13, True ) /* Ethereal */
-     , (19632,  14, True ) /* GravityStatus */
-     , (19632,  19, True ) /* Attackable */
-     , (19632,  22, True ) /* Inscribable */
+VALUES (19632,  22, True ) /* Inscribable */
      , (19632,  69, False) /* IsSellable */
      , (19632,  94, True ) /* AppraisalHasAllowedActivator */
      , (19632,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19632,   5,  -0.033) /* ManaRate */
-     , (19632,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19632,   5,   -0.03) /* ManaRate */
+     , (19632,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19632,   1, 'Nuhmudira''s Bestowment of Quickness and Fire Defense') /* Name */

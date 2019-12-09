@@ -11,12 +11,7 @@ VALUES (19398,   1,        128) /* ItemType - Misc */
      , (19398,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19398,   1, True ) /* Stuck */
-     , (19398,  11, True ) /* IgnoreCollisions */
-     , (19398,  12, True ) /* ReportCollisions */
-     , (19398,  13, False) /* Ethereal */
-     , (19398,  14, True ) /* GravityStatus */
-     , (19398,  19, True ) /* Attackable */;
+VALUES (19398,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19398,   1, 'White Lotus Gate') /* Name */

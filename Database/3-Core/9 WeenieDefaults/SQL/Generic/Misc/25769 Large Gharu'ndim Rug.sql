@@ -8,17 +8,12 @@ VALUES (25769,   1,        128) /* ItemType - Misc */
      , (25769,   5,      15000) /* EncumbranceVal */
      , (25769,  16,          1) /* ItemUseable - No */
      , (25769,  19,       6000) /* Value */
-     , (25769,  65,        101) /* Placement - Resting */
      , (25769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25769, 151,          1) /* HookType - Floor */;
+     , (25769, 151,          1) /* HookType - Floor */
+     , (25769, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25769,   1, False) /* Stuck */
-     , (25769,  11, True ) /* IgnoreCollisions */
-     , (25769,  13, True ) /* Ethereal */
-     , (25769,  14, True ) /* GravityStatus */
-     , (25769,  19, True ) /* Attackable */
-     , (25769,  22, True ) /* Inscribable */;
+VALUES (25769,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25769,   1, 'Large Gharu''ndim Rug') /* Name */

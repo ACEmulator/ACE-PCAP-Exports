@@ -8,17 +8,12 @@ VALUES (39030,   1,        128) /* ItemType - Misc */
      , (39030,   5,        400) /* EncumbranceVal */
      , (39030,  16,          1) /* ItemUseable - No */
      , (39030,  19,          0) /* Value */
-     , (39030,  65,        101) /* Placement - Resting */
      , (39030,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (39030, 151,          9) /* HookType - Floor, Yard */;
+     , (39030, 151,          9) /* HookType - Floor, Yard */
+     , (39030, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39030,   1, False) /* Stuck */
-     , (39030,  11, True ) /* IgnoreCollisions */
-     , (39030,  13, True ) /* Ethereal */
-     , (39030,  14, True ) /* GravityStatus */
-     , (39030,  19, True ) /* Attackable */
-     , (39030,  22, True ) /* Inscribable */;
+VALUES (39030,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39030,   1, 'Armored Sclavus Head') /* Name */

@@ -9,17 +9,12 @@ VALUES (34451,   1,        128) /* ItemType - Misc */
      , (34451,  16,          1) /* ItemUseable - No */
      , (34451,  19,          0) /* Value */
      , (34451,  33,          1) /* Bonded - Bonded */
-     , (34451,  65,        101) /* Placement - Resting */
      , (34451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34451, 114,          1) /* Attuned - Attuned */;
+     , (34451, 114,          1) /* Attuned - Attuned */
+     , (34451, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34451,   1, False) /* Stuck */
-     , (34451,  11, True ) /* IgnoreCollisions */
-     , (34451,  13, True ) /* Ethereal */
-     , (34451,  14, True ) /* GravityStatus */
-     , (34451,  19, True ) /* Attackable */
-     , (34451,  22, True ) /* Inscribable */;
+VALUES (34451,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34451,   1, 'Demon Swarm Matron Token') /* Name */

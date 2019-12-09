@@ -18,7 +18,6 @@ VALUES (15450,   1,          1) /* ItemType - MeleeWeapon */
      , (15450,  48,         45) /* WeaponSkill - LightWeapons */
      , (15450,  49,         30) /* WeaponTime */
      , (15450,  51,          1) /* CombatUse - Melee */
-     , (15450,  65,          1) /* Placement - RightHandCombat */
      , (15450,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (15450, 114,          1) /* Attuned - Attuned */
      , (15450, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (15450,   1,          1) /* ItemType - MeleeWeapon */
      , (15450, 159,         45) /* WieldSkillType - LightWeapons */
      , (15450, 160,        250) /* WieldDifficulty */
      , (15450, 353,          2) /* WeaponType - Sword */
-     , (15450, 8030,          0);
+     , (15450, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (15450, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15450,   1, False) /* Stuck */
-     , (15450,  11, True ) /* IgnoreCollisions */
-     , (15450,  13, True ) /* Ethereal */
-     , (15450,  14, True ) /* GravityStatus */
-     , (15450,  15, True ) /* LightsStatus */
-     , (15450,  19, True ) /* Attackable */
-     , (15450,  22, True ) /* Inscribable */
+VALUES (15450,  22, True ) /* Inscribable */
      , (15450,  69, False) /* IsSellable */
      , (15450,  99, True ) /* Ivoryable */;
 
@@ -46,7 +40,7 @@ VALUES (15450,  21,       0) /* WeaponLength */
      , (15450,  29,       1) /* WeaponDefense */
      , (15450,  62,     1.1) /* WeaponOffense */
      , (15450,  63,       1) /* DamageMod */
-     , (15450,  76, 0.699999988079071) /* Translucency */;
+     , (15450,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15450,   1, 'Deadly Hollow Sword') /* Name */

@@ -6,15 +6,11 @@ VALUES (24012, 'trapportal-knorrdrommaila', 7, '2019-02-10 00:00:00') /* Portal 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24012,   1,      65536) /* ItemType - Portal */
      , (24012,  16,          1) /* ItemUseable - No */
-     , (24012,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (24012,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (24012, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24012,   1, True ) /* Stuck */
-     , (24012,  12, True ) /* ReportCollisions */
-     , (24012,  13, True ) /* Ethereal */
-     , (24012,  15, True ) /* LightsStatus */
-     , (24012,  19, True ) /* Attackable */;
+VALUES (24012,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24012,   1, 'Maila Dormitory Conveyance') /* Name */;

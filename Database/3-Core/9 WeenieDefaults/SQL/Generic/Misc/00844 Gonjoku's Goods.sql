@@ -8,15 +8,10 @@ VALUES (844,   1,        128) /* ItemType - Misc */
      , (844,   5,       9000) /* EncumbranceVal */
      , (844,  16,          1) /* ItemUseable - No */
      , (844,  19,        125) /* Value */
-     , (844,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (844,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (844,   1, True ) /* Stuck */
-     , (844,  11, True ) /* IgnoreCollisions */
-     , (844,  12, True ) /* ReportCollisions */
-     , (844,  13, False) /* Ethereal */
-     , (844,  14, True ) /* GravityStatus */
-     , (844,  19, True ) /* Attackable */;
+VALUES (844,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (844,   1, 'Gonjoku''s Goods') /* Name */

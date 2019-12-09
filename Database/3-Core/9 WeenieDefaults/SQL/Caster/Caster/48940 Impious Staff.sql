@@ -12,7 +12,6 @@ VALUES (48940,   1,      32768) /* ItemType - Caster */
      , (48940,  18,          1) /* UiEffects - Magical */
      , (48940,  19,      20000) /* Value */
      , (48940,  33,          1) /* Bonded - Bonded */
-     , (48940,  65,          1) /* Placement - RightHandCombat */
      , (48940,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (48940,  94,         16) /* TargetType - Creature */
      , (48940, 106,        450) /* ItemSpellcraft */
@@ -23,24 +22,19 @@ VALUES (48940,   1,      32768) /* ItemType - Caster */
      , (48940, 151,          2) /* HookType - Wall */
      , (48940, 158,          2) /* WieldRequirements - RawSkill */
      , (48940, 159,         31) /* WieldSkillType - CreatureEnchantment */
-     , (48940, 160,        340) /* WieldDifficulty */;
+     , (48940, 160,        340) /* WieldDifficulty */
+     , (48940, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48940,   1, False) /* Stuck */
-     , (48940,  11, True ) /* IgnoreCollisions */
-     , (48940,  13, True ) /* Ethereal */
-     , (48940,  14, True ) /* GravityStatus */
-     , (48940,  15, True ) /* LightsStatus */
-     , (48940,  19, True ) /* Attackable */
-     , (48940,  22, True ) /* Inscribable */
+VALUES (48940,  22, True ) /* Inscribable */
      , (48940,  85, True ) /* AppraisalHasAllowedWielder */
      , (48940,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48940,   5, -0.025000000372529) /* ManaRate */
-     , (48940,  29, 1.20000004768372) /* WeaponDefense */
-     , (48940,  39, 0.600000023841858) /* DefaultScale */
-     , (48940, 144, 0.200000002980232) /* ManaConversionMod */;
+VALUES (48940,   5,   -0.03) /* ManaRate */
+     , (48940,  29,     1.2) /* WeaponDefense */
+     , (48940,  39,     0.6) /* DefaultScale */
+     , (48940, 144,     0.2) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48940,   1, 'Impious Staff') /* Name */

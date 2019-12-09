@@ -11,18 +11,13 @@ VALUES (38485,   1,          2) /* ItemType - Armor */
      , (38485,  16,          1) /* ItemUseable - No */
      , (38485,  18,          1) /* UiEffects - Magical */
      , (38485,  19,      30422) /* Value */
-     , (38485,  65,        101) /* Placement - Resting */
      , (38485,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38485, 131,         63) /* MaterialType - Silver */
-     , (38485, 151,          2) /* HookType - Wall */;
+     , (38485, 151,          2) /* HookType - Wall */
+     , (38485, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38485,   1, False) /* Stuck */
-     , (38485,  11, True ) /* IgnoreCollisions */
-     , (38485,  13, True ) /* Ethereal */
-     , (38485,  14, True ) /* GravityStatus */
-     , (38485,  19, True ) /* Attackable */
-     , (38485,  22, True ) /* Inscribable */;
+VALUES (38485,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38485, 8004,       6) /* PCAPRecordedWorkmanship */;

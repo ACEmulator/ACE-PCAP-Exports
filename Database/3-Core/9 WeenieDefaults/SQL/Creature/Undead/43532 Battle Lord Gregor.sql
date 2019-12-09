@@ -16,14 +16,10 @@ VALUES (43532,   1,         16) /* ItemType - Creature */
      , (43532, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43532,   1, True ) /* Stuck */
-     , (43532,  12, True ) /* ReportCollisions */
-     , (43532,  13, False) /* Ethereal */
-     , (43532,  14, True ) /* GravityStatus */
-     , (43532,  19, True ) /* Attackable */;
+VALUES (43532,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43532,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (43532,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43532,   1, 'Battle Lord Gregor') /* Name */

@@ -18,15 +18,10 @@ VALUES (38937,   1,          1) /* ItemType - MeleeWeapon */
      , (38937,  51,          1) /* CombatUse - Melee */
      , (38937,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38937, 353,          4) /* WeaponType - Mace */
-     , (38937, 8030,          0);
+     , (38937, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38937,   1, False) /* Stuck */
-     , (38937,  11, True ) /* IgnoreCollisions */
-     , (38937,  13, True ) /* Ethereal */
-     , (38937,  14, True ) /* GravityStatus */
-     , (38937,  19, True ) /* Attackable */
-     , (38937,  22, True ) /* Inscribable */;
+VALUES (38937,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38937,  21,       0) /* WeaponLength */

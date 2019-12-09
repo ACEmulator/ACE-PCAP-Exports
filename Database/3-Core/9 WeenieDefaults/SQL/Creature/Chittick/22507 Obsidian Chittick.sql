@@ -16,14 +16,10 @@ VALUES (22507,   1,         16) /* ItemType - Creature */
      , (22507, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22507,   1, True ) /* Stuck */
-     , (22507,  12, True ) /* ReportCollisions */
-     , (22507,  13, False) /* Ethereal */
-     , (22507,  14, True ) /* GravityStatus */
-     , (22507,  19, True ) /* Attackable */;
+VALUES (22507,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22507,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (22507,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22507,   1, 'Obsidian Chittick') /* Name */

@@ -11,20 +11,14 @@ VALUES (1032,   1,      65536) /* ItemType - Portal */
      , (1032, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1032,   1, True ) /* Stuck */
-     , (1032,  11, True ) /* IgnoreCollisions */
-     , (1032,  13, True ) /* Ethereal */
-     , (1032,  14, True ) /* GravityStatus */
-     , (1032,  15, True ) /* LightsStatus */
-     , (1032,  19, True ) /* Attackable */;
+VALUES (1032,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1032,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1032,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1032,   1, 'Destroyed Portal to Zaikhal') /* Name */
      , (1032,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (1032,  38, 'Destroyed Portal to Zaikhal (13.5N, 0.7E).') /* AppraisalPortalDestination */
      , (1032, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

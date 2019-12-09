@@ -8,16 +8,11 @@ VALUES (36070,   1,        128) /* ItemType - Misc */
      , (36070,   5,          1) /* EncumbranceVal */
      , (36070,  16,          1) /* ItemUseable - No */
      , (36070,  18,         64) /* UiEffects - Lightning */
-     , (36070,  65,        101) /* Placement - Resting */
-     , (36070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36070, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36070,   1, False) /* Stuck */
-     , (36070,  11, True ) /* IgnoreCollisions */
-     , (36070,  13, True ) /* Ethereal */
-     , (36070,  14, True ) /* GravityStatus */
-     , (36070,  19, True ) /* Attackable */
-     , (36070,  22, True ) /* Inscribable */;
+VALUES (36070,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36070,   1, 'Essence of Order') /* Name */;

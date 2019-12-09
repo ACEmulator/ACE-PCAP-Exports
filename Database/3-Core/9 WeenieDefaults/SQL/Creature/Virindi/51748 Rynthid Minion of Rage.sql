@@ -15,11 +15,7 @@ VALUES (51748,   1,         16) /* ItemType - Creature */
      , (51748, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51748,   1, True ) /* Stuck */
-     , (51748,  12, True ) /* ReportCollisions */
-     , (51748,  13, False) /* Ethereal */
-     , (51748,  14, True ) /* GravityStatus */
-     , (51748,  19, True ) /* Attackable */;
+VALUES (51748,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51748,   1, 'Rynthid Minion of Rage') /* Name */

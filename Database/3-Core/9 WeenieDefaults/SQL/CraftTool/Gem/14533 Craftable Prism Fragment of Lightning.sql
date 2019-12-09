@@ -17,12 +17,7 @@ VALUES (14533,   1,       2048) /* ItemType - Gem */
      , (14533, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14533,   1, False) /* Stuck */
-     , (14533,  11, True ) /* IgnoreCollisions */
-     , (14533,  13, True ) /* Ethereal */
-     , (14533,  14, True ) /* GravityStatus */
-     , (14533,  19, True ) /* Attackable */
-     , (14533,  22, True ) /* Inscribable */;
+VALUES (14533,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14533,   1, 'Craftable Prism Fragment of Lightning') /* Name */

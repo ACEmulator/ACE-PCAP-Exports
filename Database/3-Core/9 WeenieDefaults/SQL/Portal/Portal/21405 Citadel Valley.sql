@@ -11,15 +11,10 @@ VALUES (21405,   1,      65536) /* ItemType - Portal */
      , (21405, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21405,   1, True ) /* Stuck */
-     , (21405,  12, True ) /* ReportCollisions */
-     , (21405,  13, True ) /* Ethereal */
-     , (21405,  14, True ) /* GravityStatus */
-     , (21405,  15, True ) /* LightsStatus */
-     , (21405,  19, True ) /* Attackable */;
+VALUES (21405,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21405,  54, -0.100000001490116) /* UseRadius */;
+VALUES (21405,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21405,   1, 'Citadel Valley') /* Name */

@@ -13,14 +13,10 @@ VALUES (45012,   1,         16) /* ItemType - Creature */
      , (45012, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45012,   1, True ) /* Stuck */
-     , (45012,  12, True ) /* ReportCollisions */
-     , (45012,  13, False) /* Ethereal */
-     , (45012,  14, True ) /* GravityStatus */
-     , (45012,  19, True ) /* Attackable */;
+VALUES (45012,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45012,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (45012,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45012,   1, 'Frozen Wight Sorcerer') /* Name */

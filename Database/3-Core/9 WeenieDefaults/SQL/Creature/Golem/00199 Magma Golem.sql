@@ -16,13 +16,7 @@ VALUES (199,   1,         16) /* ItemType - Creature */
      , (199, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (199,   1, True ) /* Stuck */
-     , (199,  12, True ) /* ReportCollisions */
-     , (199,  13, False) /* Ethereal */
-     , (199,  14, True ) /* GravityStatus */
-     , (199,  15, True ) /* LightsStatus */
-     , (199,  19, True ) /* Attackable */
-     , (199,  42, True ) /* AllowEdgeSlide */;
+VALUES (199,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (199,   1, 'Magma Golem') /* Name */

@@ -11,12 +11,7 @@ VALUES (19385,   1,        128) /* ItemType - Misc */
      , (19385,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19385,   1, True ) /* Stuck */
-     , (19385,  11, True ) /* IgnoreCollisions */
-     , (19385,  12, True ) /* ReportCollisions */
-     , (19385,  13, False) /* Ethereal */
-     , (19385,  14, True ) /* GravityStatus */
-     , (19385,  19, True ) /* Attackable */;
+VALUES (19385,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19385,   1, 'Hasina Gardens') /* Name */;

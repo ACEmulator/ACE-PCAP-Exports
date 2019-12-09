@@ -11,20 +11,14 @@ VALUES (1030,   1,      65536) /* ItemType - Portal */
      , (1030, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1030,   1, True ) /* Stuck */
-     , (1030,  11, True ) /* IgnoreCollisions */
-     , (1030,  13, True ) /* Ethereal */
-     , (1030,  14, True ) /* GravityStatus */
-     , (1030,  15, True ) /* LightsStatus */
-     , (1030,  19, True ) /* Attackable */;
+VALUES (1030,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1030,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1030,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1030,   1, 'Destroyed Portal to Yaraq') /* Name */
      , (1030,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (1030,  38, 'Destroyed Portal to Yaraq (21.5S, 1.8W).') /* AppraisalPortalDestination */
      , (1030, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,14 +15,10 @@ VALUES (27415,   1,         16) /* ItemType - Creature */
      , (27415, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27415,   1, True ) /* Stuck */
-     , (27415,  12, True ) /* ReportCollisions */
-     , (27415,  13, False) /* Ethereal */
-     , (27415,  14, True ) /* GravityStatus */
-     , (27415,  19, True ) /* Attackable */;
+VALUES (27415,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27415,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (27415,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27415,   1, 'Baktak the Human Slayer') /* Name */

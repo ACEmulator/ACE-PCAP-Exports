@@ -18,16 +18,11 @@ VALUES (52248,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52248,   1, True ) /* Stuck */
-     , (52248,  11, True ) /* IgnoreCollisions */
-     , (52248,  12, True ) /* ReportCollisions */
-     , (52248,  13, False) /* Ethereal */
-     , (52248,  14, True ) /* GravityStatus */
-     , (52248,  19, False) /* Attackable */
-     , (52248,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (52248,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52248,  54,       2) /* UseRadius */
-     , (52248,  76, 0.699999988079071) /* Translucency */;
+     , (52248,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52248,   1, 'Lingering Spirit of the Recluse') /* Name */

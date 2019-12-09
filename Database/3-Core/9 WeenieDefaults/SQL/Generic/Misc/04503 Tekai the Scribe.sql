@@ -8,15 +8,10 @@ VALUES (4503,   1,        128) /* ItemType - Misc */
      , (4503,   5,       9000) /* EncumbranceVal */
      , (4503,  16,          1) /* ItemUseable - No */
      , (4503,  19,        125) /* Value */
-     , (4503,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4503,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4503,   1, True ) /* Stuck */
-     , (4503,  11, True ) /* IgnoreCollisions */
-     , (4503,  12, True ) /* ReportCollisions */
-     , (4503,  13, False) /* Ethereal */
-     , (4503,  14, True ) /* GravityStatus */
-     , (4503,  19, True ) /* Attackable */;
+VALUES (4503,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4503,   1, 'Tekai the Scribe') /* Name */

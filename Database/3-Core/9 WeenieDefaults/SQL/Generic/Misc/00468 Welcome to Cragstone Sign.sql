@@ -8,16 +8,11 @@ VALUES (468,   1,        128) /* ItemType - Misc */
      , (468,   5,       9000) /* EncumbranceVal */
      , (468,  16,          1) /* ItemUseable - No */
      , (468,  19,        125) /* Value */
-     , (468,  65,        101) /* Placement - Resting */
-     , (468,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (468,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (468, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (468,   1, True ) /* Stuck */
-     , (468,  11, True ) /* IgnoreCollisions */
-     , (468,  12, True ) /* ReportCollisions */
-     , (468,  13, False) /* Ethereal */
-     , (468,  14, True ) /* GravityStatus */
-     , (468,  19, True ) /* Attackable */;
+VALUES (468,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (468,   1, 'Welcome to Cragstone Sign') /* Name */

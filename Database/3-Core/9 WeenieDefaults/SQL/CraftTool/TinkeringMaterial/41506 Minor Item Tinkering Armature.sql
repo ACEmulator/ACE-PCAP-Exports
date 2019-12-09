@@ -12,19 +12,14 @@ VALUES (41506,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (41506,  15,         10) /* StackUnitValue */
      , (41506,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41506,  19,         10) /* Value */
-     , (41506,  65,        101) /* Placement - Resting */
      , (41506,  92,        100) /* Structure */
      , (41506,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41506,  94,          8) /* TargetType - Jewelry */
-     , (41506, 151,          9) /* HookType - Floor, Yard */;
+     , (41506, 151,          9) /* HookType - Floor, Yard */
+     , (41506, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41506,   1, False) /* Stuck */
-     , (41506,  11, True ) /* IgnoreCollisions */
-     , (41506,  13, True ) /* Ethereal */
-     , (41506,  14, True ) /* GravityStatus */
-     , (41506,  19, True ) /* Attackable */
-     , (41506,  22, True ) /* Inscribable */;
+VALUES (41506,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41506,   1, 'Minor Item Tinkering Armature') /* Name */;

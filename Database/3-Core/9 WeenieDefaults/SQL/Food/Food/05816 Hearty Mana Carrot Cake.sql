@@ -13,15 +13,8 @@ VALUES (5816,   1,         32) /* ItemType - Food */
      , (5816,  16,          8) /* ItemUseable - Contained */
      , (5816,  18,          8) /* UiEffects - BoostMana */
      , (5816,  19,        140) /* Value */
-     , (5816,  65,        101) /* Placement - Resting */
-     , (5816,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5816,   1, False) /* Stuck */
-     , (5816,  11, True ) /* IgnoreCollisions */
-     , (5816,  13, True ) /* Ethereal */
-     , (5816,  14, True ) /* GravityStatus */
-     , (5816,  19, True ) /* Attackable */;
+     , (5816,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5816, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5816,   1, 'Hearty Mana Carrot Cake') /* Name */

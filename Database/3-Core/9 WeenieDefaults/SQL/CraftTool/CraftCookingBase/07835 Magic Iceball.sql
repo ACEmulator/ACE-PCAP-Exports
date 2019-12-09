@@ -12,19 +12,12 @@ VALUES (7835,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7835,  15,         25) /* StackUnitValue */
      , (7835,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7835,  19,         25) /* Value */
-     , (7835,  65,        101) /* Placement - Resting */
      , (7835,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7835,  94,    4194592) /* TargetType - Food, MissileWeapon, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7835,   1, False) /* Stuck */
-     , (7835,  11, True ) /* IgnoreCollisions */
-     , (7835,  13, True ) /* Ethereal */
-     , (7835,  14, True ) /* GravityStatus */
-     , (7835,  19, True ) /* Attackable */;
+     , (7835,  94,    4194592) /* TargetType - Food, MissileWeapon, CraftCookingBase */
+     , (7835, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7835,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (7835,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7835,   1, 'Magic Iceball') /* Name */

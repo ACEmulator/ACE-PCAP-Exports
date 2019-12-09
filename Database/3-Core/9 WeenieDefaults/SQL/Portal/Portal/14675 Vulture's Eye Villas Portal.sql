@@ -11,15 +11,10 @@ VALUES (14675,   1,      65536) /* ItemType - Portal */
      , (14675, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14675,   1, True ) /* Stuck */
-     , (14675,  12, True ) /* ReportCollisions */
-     , (14675,  13, True ) /* Ethereal */
-     , (14675,  14, True ) /* GravityStatus */
-     , (14675,  15, True ) /* LightsStatus */
-     , (14675,  19, True ) /* Attackable */;
+VALUES (14675,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14675,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14675,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14675,   1, 'Vulture''s Eye Villas Portal') /* Name */

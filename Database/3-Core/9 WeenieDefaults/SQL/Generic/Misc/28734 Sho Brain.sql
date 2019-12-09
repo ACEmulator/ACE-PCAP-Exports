@@ -9,17 +9,12 @@ VALUES (28734,   1,        128) /* ItemType - Misc */
      , (28734,  16,          1) /* ItemUseable - No */
      , (28734,  19,          0) /* Value */
      , (28734,  33,          1) /* Bonded - Bonded */
-     , (28734,  65,        101) /* Placement - Resting */
      , (28734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28734, 114,          0) /* Attuned - Normal */;
+     , (28734, 114,          0) /* Attuned - Normal */
+     , (28734, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28734,   1, False) /* Stuck */
-     , (28734,  11, True ) /* IgnoreCollisions */
-     , (28734,  13, True ) /* Ethereal */
-     , (28734,  14, True ) /* GravityStatus */
-     , (28734,  19, True ) /* Attackable */
-     , (28734,  22, True ) /* Inscribable */;
+VALUES (28734,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28734,   1, 'Sho Brain') /* Name */

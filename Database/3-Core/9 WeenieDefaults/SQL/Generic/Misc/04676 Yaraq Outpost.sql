@@ -8,16 +8,11 @@ VALUES (4676,   1,        128) /* ItemType - Misc */
      , (4676,   5,       9000) /* EncumbranceVal */
      , (4676,  16,          1) /* ItemUseable - No */
      , (4676,  19,        125) /* Value */
-     , (4676,  65,        101) /* Placement - Resting */
-     , (4676,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (4676,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (4676, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4676,   1, True ) /* Stuck */
-     , (4676,  11, True ) /* IgnoreCollisions */
-     , (4676,  12, True ) /* ReportCollisions */
-     , (4676,  13, False) /* Ethereal */
-     , (4676,  14, True ) /* GravityStatus */
-     , (4676,  19, True ) /* Attackable */;
+VALUES (4676,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4676,   1, 'Yaraq Outpost') /* Name */

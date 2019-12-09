@@ -12,17 +12,10 @@ VALUES (41425,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41425,  15,       1000) /* StackUnitValue */
      , (41425,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41425,  19,       1000) /* Value */
-     , (41425,  65,        101) /* Placement - Resting */
      , (41425,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41425,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41425, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41425,   1, False) /* Stuck */
-     , (41425,  11, True ) /* IgnoreCollisions */
-     , (41425,  13, True ) /* Ethereal */
-     , (41425,  14, True ) /* GravityStatus */
-     , (41425,  19, True ) /* Attackable */;
+     , (41425, 151,          9) /* HookType - Floor, Yard */
+     , (41425, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41425,   1, 'Refining Polish (Stamina)') /* Name */

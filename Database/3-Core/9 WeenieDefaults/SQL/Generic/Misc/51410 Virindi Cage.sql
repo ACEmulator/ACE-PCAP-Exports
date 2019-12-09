@@ -8,14 +8,10 @@ VALUES (51410,   1,        128) /* ItemType - Misc */
      , (51410,   5,          0) /* EncumbranceVal */
      , (51410,  16,          1) /* ItemUseable - No */
      , (51410,  19,          0) /* Value */
-     , (51410,  93,      66572) /* PhysicsState - Ethereal, ReportCollisions, Gravity, HasPhysicsBSP */;
+     , (51410,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51410,   1, True ) /* Stuck */
-     , (51410,  12, True ) /* ReportCollisions */
-     , (51410,  13, True ) /* Ethereal */
-     , (51410,  14, True ) /* GravityStatus */
-     , (51410,  19, True ) /* Attackable */
      , (51410,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

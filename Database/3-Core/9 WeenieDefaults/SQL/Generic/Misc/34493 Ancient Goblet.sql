@@ -7,15 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34493,   1,        128) /* ItemType - Misc */
      , (34493,   5,        500) /* EncumbranceVal */
      , (34493,  16,          1) /* ItemUseable - No */
-     , (34493,  65,        101) /* Placement - Resting */
-     , (34493,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34493,   1, False) /* Stuck */
-     , (34493,  11, True ) /* IgnoreCollisions */
-     , (34493,  13, True ) /* Ethereal */
-     , (34493,  14, True ) /* GravityStatus */
-     , (34493,  19, True ) /* Attackable */;
+     , (34493,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34493, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34493,   1, 'Ancient Goblet') /* Name */;

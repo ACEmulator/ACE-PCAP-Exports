@@ -13,12 +13,7 @@ VALUES (47837,   1,        128) /* ItemType - Misc */
      , (47837, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47837,   1, False) /* Stuck */
-     , (47837,  11, True ) /* IgnoreCollisions */
-     , (47837,  13, True ) /* Ethereal */
-     , (47837,  14, True ) /* GravityStatus */
-     , (47837,  19, True ) /* Attackable */
-     , (47837,  22, True ) /* Inscribable */;
+VALUES (47837,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47837,   1, 'Enchanted Seedling') /* Name */

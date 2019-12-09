@@ -13,17 +13,12 @@ VALUES (29184,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29184,  16,          1) /* ItemUseable - No */
      , (29184,  19,         75) /* Value */
      , (29184,  33,          0) /* Bonded - Normal */
-     , (29184,  65,        101) /* Placement - Resting */
      , (29184,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29184, 114,          0) /* Attuned - Normal */;
+     , (29184, 114,          0) /* Attuned - Normal */
+     , (29184, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29184,   1, False) /* Stuck */
-     , (29184,  11, True ) /* IgnoreCollisions */
-     , (29184,  13, True ) /* Ethereal */
-     , (29184,  14, True ) /* GravityStatus */
-     , (29184,  19, True ) /* Attackable */
-     , (29184,  69, False) /* IsSellable */;
+VALUES (29184,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29184,   1, 'Glorious Amber Brew') /* Name */

@@ -13,17 +13,12 @@ VALUES (36631,   1,       2048) /* ItemType - Gem */
      , (36631,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36631,  18,          1) /* UiEffects - Magical */
      , (36631,  19,          5) /* Value */
-     , (36631,  65,        101) /* Placement - Resting */
      , (36631,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36631,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (36631,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (36631, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36631,   1, False) /* Stuck */
-     , (36631,  11, True ) /* IgnoreCollisions */
-     , (36631,  13, True ) /* Ethereal */
-     , (36631,  14, True ) /* GravityStatus */
-     , (36631,  19, True ) /* Attackable */
-     , (36631,  22, True ) /* Inscribable */;
+VALUES (36631,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36631,   1, 'Magic Defense Weapon Augmentation') /* Name */;

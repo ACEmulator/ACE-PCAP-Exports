@@ -13,20 +13,15 @@ VALUES (44598,   1,       2048) /* ItemType - Gem */
      , (44598,  15,         50) /* StackUnitValue */
      , (44598,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44598,  19,         50) /* Value */
-     , (44598,  65,        101) /* Placement - Resting */
      , (44598,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44598,  94,          2) /* TargetType - Armor */;
+     , (44598,  94,          2) /* TargetType - Armor */
+     , (44598, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44598,   1, False) /* Stuck */
-     , (44598,  11, True ) /* IgnoreCollisions */
-     , (44598,  13, True ) /* Ethereal */
-     , (44598,  14, True ) /* GravityStatus */
-     , (44598,  19, True ) /* Attackable */
-     , (44598,  22, True ) /* Inscribable */;
+VALUES (44598,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44598,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44598,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44598,   1, 'Radiant Blood Large Kite Shield Cover') /* Name */;

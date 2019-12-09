@@ -11,17 +11,10 @@ VALUES (9351,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9351,  15,        500) /* StackUnitValue */
      , (9351,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9351,  19,        500) /* Value */
-     , (9351,  65,        101) /* Placement - Resting */
      , (9351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9351,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (9351, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9351,   1, False) /* Stuck */
-     , (9351,  11, True ) /* IgnoreCollisions */
-     , (9351,  13, True ) /* Ethereal */
-     , (9351,  14, True ) /* GravityStatus */
-     , (9351,  19, True ) /* Attackable */;
+     , (9351, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9351, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9351,   1, 'Concentrated Lightning Infusion') /* Name */

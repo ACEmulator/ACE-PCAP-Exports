@@ -11,7 +11,6 @@ VALUES (27116,   1,      32768) /* ItemType - Caster */
      , (27116,  16,     655364) /* ItemUseable - 655364 */
      , (27116,  18,          1) /* UiEffects - Magical */
      , (27116,  19,        700) /* Value */
-     , (27116,  65,          1) /* Placement - RightHandCombat */
      , (27116,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (27116,  94,         16) /* TargetType - Creature */
      , (27116, 106,        150) /* ItemSpellcraft */
@@ -22,21 +21,16 @@ VALUES (27116,   1,      32768) /* ItemType - Caster */
      , (27116, 151,          2) /* HookType - Wall */
      , (27116, 158,          7) /* WieldRequirements - Level */
      , (27116, 159,          1) /* WieldSkillType - Axe */
-     , (27116, 160,         35) /* WieldDifficulty */;
+     , (27116, 160,         35) /* WieldDifficulty */
+     , (27116, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27116,   1, False) /* Stuck */
-     , (27116,  11, True ) /* IgnoreCollisions */
-     , (27116,  13, True ) /* Ethereal */
-     , (27116,  14, True ) /* GravityStatus */
-     , (27116,  15, True ) /* LightsStatus */
-     , (27116,  19, True ) /* Attackable */
-     , (27116,  22, True ) /* Inscribable */;
+VALUES (27116,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27116,  29, 1.17000000178814) /* WeaponDefense */
-     , (27116, 144, 2.20059720147351E-314) /* ManaConversionMod */
-     , (27116, 152, 1.07000000029802) /* ElementalDamageMod */;
+VALUES (27116,  29,    1.17) /* WeaponDefense */
+     , (27116, 144,       0) /* ManaConversionMod */
+     , (27116, 152,    1.07) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27116,   1, 'Elysa''s Wondrous Orb') /* Name */

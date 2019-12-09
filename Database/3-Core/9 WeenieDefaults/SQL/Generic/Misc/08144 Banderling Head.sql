@@ -8,17 +8,12 @@ VALUES (8144,   1,        128) /* ItemType - Misc */
      , (8144,   5,        400) /* EncumbranceVal */
      , (8144,  16,          1) /* ItemUseable - No */
      , (8144,  19,          0) /* Value */
-     , (8144,  65,        101) /* Placement - Resting */
      , (8144,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8144, 151,          9) /* HookType - Floor, Yard */;
+     , (8144, 151,          9) /* HookType - Floor, Yard */
+     , (8144, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8144,   1, False) /* Stuck */
-     , (8144,  11, True ) /* IgnoreCollisions */
-     , (8144,  13, True ) /* Ethereal */
-     , (8144,  14, True ) /* GravityStatus */
-     , (8144,  19, True ) /* Attackable */
-     , (8144,  22, True ) /* Inscribable */;
+VALUES (8144,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8144,   1, 'Banderling Head') /* Name */

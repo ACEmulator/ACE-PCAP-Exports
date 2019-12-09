@@ -18,27 +18,22 @@ VALUES (43397,   1,          1) /* ItemType - MeleeWeapon */
      , (43397,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (43397,  49,         40) /* WeaponTime */
      , (43397,  51,          5) /* CombatUse - TwoHanded */
-     , (43397,  65,          1) /* Placement - RightHandCombat */
      , (43397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43397, 114,          1) /* Attuned - Attuned */
      , (43397, 292,          2) /* Cleaving */
      , (43397, 353,         11) /* WeaponType - TwoHanded */
-     , (43397, 8030,          0);
+     , (43397, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (43397, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43397,   1, False) /* Stuck */
-     , (43397,  11, True ) /* IgnoreCollisions */
-     , (43397,  13, True ) /* Ethereal */
-     , (43397,  14, True ) /* GravityStatus */
-     , (43397,  19, True ) /* Attackable */
-     , (43397,  22, True ) /* Inscribable */;
+VALUES (43397,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43397,  21,       0) /* WeaponLength */
      , (43397,  22,     0.5) /* DamageVariance */
      , (43397,  26,       0) /* MaximumVelocity */
      , (43397,  29,       1) /* WeaponDefense */
-     , (43397,  39, 1.29999995231628) /* DefaultScale */
+     , (43397,  39,     1.3) /* DefaultScale */
      , (43397,  62,       1) /* WeaponOffense */
      , (43397,  63,       1) /* DamageMod */;
 

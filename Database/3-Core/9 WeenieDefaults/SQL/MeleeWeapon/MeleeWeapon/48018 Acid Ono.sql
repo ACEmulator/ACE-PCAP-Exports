@@ -12,17 +12,12 @@ VALUES (48018,   1,          1) /* ItemType - MeleeWeapon */
      , (48018,  18,        256) /* UiEffects - Acid */
      , (48018,  19,        350) /* Value */
      , (48018,  51,          1) /* CombatUse - Melee */
-     , (48018,  65,          1) /* Placement - RightHandCombat */
      , (48018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48018, 151,          2) /* HookType - Wall */;
+     , (48018, 151,          2) /* HookType - Wall */
+     , (48018, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48018,   1, False) /* Stuck */
-     , (48018,  11, True ) /* IgnoreCollisions */
-     , (48018,  13, True ) /* Ethereal */
-     , (48018,  14, True ) /* GravityStatus */
-     , (48018,  19, True ) /* Attackable */
-     , (48018,  22, True ) /* Inscribable */;
+VALUES (48018,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48018,   1, 'Acid Ono') /* Name */;

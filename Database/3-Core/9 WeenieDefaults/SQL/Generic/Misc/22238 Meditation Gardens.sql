@@ -11,12 +11,7 @@ VALUES (22238,   1,        128) /* ItemType - Misc */
      , (22238,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22238,   1, True ) /* Stuck */
-     , (22238,  11, True ) /* IgnoreCollisions */
-     , (22238,  12, True ) /* ReportCollisions */
-     , (22238,  13, False) /* Ethereal */
-     , (22238,  14, True ) /* GravityStatus */
-     , (22238,  19, True ) /* Attackable */;
+VALUES (22238,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22238,   1, 'Meditation Gardens') /* Name */

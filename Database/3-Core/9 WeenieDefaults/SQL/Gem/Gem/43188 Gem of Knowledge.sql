@@ -12,15 +12,8 @@ VALUES (43188,   1,       2048) /* ItemType - Gem */
      , (43188,  15,          5) /* StackUnitValue */
      , (43188,  16,          1) /* ItemUseable - No */
      , (43188,  19,          5) /* Value */
-     , (43188,  65,        101) /* Placement - Resting */
-     , (43188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43188,   1, False) /* Stuck */
-     , (43188,  11, True ) /* IgnoreCollisions */
-     , (43188,  13, True ) /* Ethereal */
-     , (43188,  14, True ) /* GravityStatus */
-     , (43188,  19, True ) /* Attackable */;
+     , (43188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43188, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43188,   1, 'Gem of Knowledge') /* Name */

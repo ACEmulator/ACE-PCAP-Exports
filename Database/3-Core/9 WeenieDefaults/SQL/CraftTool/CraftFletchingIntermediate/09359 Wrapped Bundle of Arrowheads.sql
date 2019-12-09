@@ -13,17 +13,12 @@ VALUES (9359,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9359,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9359,  19,        250) /* Value */
      , (9359,  33,          1) /* Bonded - Bonded */
-     , (9359,  65,        101) /* Placement - Resting */
      , (9359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9359,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (9359,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (9359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9359,   1, False) /* Stuck */
-     , (9359,  11, True ) /* IgnoreCollisions */
-     , (9359,  13, True ) /* Ethereal */
-     , (9359,  14, True ) /* GravityStatus */
-     , (9359,  19, True ) /* Attackable */
-     , (9359,  69, False) /* IsSellable */;
+VALUES (9359,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9359,   1, 'Wrapped Bundle of Arrowheads') /* Name */

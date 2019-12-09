@@ -13,21 +13,16 @@ VALUES (9594,   1,        128) /* ItemType - Misc */
      , (9594,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9594,  19,          0) /* Value */
      , (9594,  33,         -2) /* Bonded - Destroy */
-     , (9594,  65,        101) /* Placement - Resting */
      , (9594,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9594,  94,        128) /* TargetType - Misc */
-     , (9594, 151,          2) /* HookType - Wall */;
+     , (9594, 151,          2) /* HookType - Wall */
+     , (9594, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9594,   1, False) /* Stuck */
-     , (9594,  11, True ) /* IgnoreCollisions */
-     , (9594,  13, True ) /* Ethereal */
-     , (9594,  14, True ) /* GravityStatus */
-     , (9594,  19, True ) /* Attackable */
-     , (9594,  22, True ) /* Inscribable */;
+VALUES (9594,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9594,  39, 1.66999995708466) /* DefaultScale */;
+VALUES (9594,  39,    1.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9594,   1, 'Skill Puzzle Base Piece') /* Name */

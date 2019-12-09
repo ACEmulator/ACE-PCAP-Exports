@@ -12,16 +12,10 @@ VALUES (42528,   1,        128) /* ItemType - Misc */
      , (42528,  95,          8) /* RadarBlipColor - Yellow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42528,   1, False) /* Stuck */
-     , (42528,  11, True ) /* IgnoreCollisions */
-     , (42528,  12, True ) /* ReportCollisions */
-     , (42528,  13, True ) /* Ethereal */
-     , (42528,  14, True ) /* GravityStatus */
-     , (42528,  19, True ) /* Attackable */
-     , (42528,  22, True ) /* Inscribable */;
+VALUES (42528,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42528,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (42528,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42528,   1, 'Rock') /* Name */

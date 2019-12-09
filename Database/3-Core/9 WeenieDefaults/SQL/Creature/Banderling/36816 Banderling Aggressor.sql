@@ -16,17 +16,13 @@ VALUES (36816,   1,         16) /* ItemType - Creature */
      , (36816, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36816,   1, True ) /* Stuck */
-     , (36816,  12, True ) /* ReportCollisions */
-     , (36816,  13, False) /* Ethereal */
-     , (36816,  14, True ) /* GravityStatus */
-     , (36816,  19, True ) /* Attackable */;
+VALUES (36816,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36816,  39, 1.29999995231628) /* DefaultScale */
-     , (36816, 8010, -27.9722213745117) /* PCAPRecordedVelocityX */
-     , (36816, 8011, -6.75596761703491) /* PCAPRecordedVelocityY */
-     , (36816, 8012, -35.3390083312988) /* PCAPRecordedVelocityZ */;
+VALUES (36816,  39,     1.3) /* DefaultScale */
+     , (36816, 8010,  -27.97) /* PCAPRecordedVelocityX */
+     , (36816, 8011,   -6.76) /* PCAPRecordedVelocityY */
+     , (36816, 8012,  -35.34) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36816,   1, 'Banderling Aggressor') /* Name */

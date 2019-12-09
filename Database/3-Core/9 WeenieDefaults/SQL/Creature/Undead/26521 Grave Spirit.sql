@@ -16,15 +16,11 @@ VALUES (26521,   1,         16) /* ItemType - Creature */
      , (26521, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26521,   1, True ) /* Stuck */
-     , (26521,  12, True ) /* ReportCollisions */
-     , (26521,  13, False) /* Ethereal */
-     , (26521,  14, True ) /* GravityStatus */
-     , (26521,  19, True ) /* Attackable */;
+VALUES (26521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26521,  39, 1.10000002384186) /* DefaultScale */
-     , (26521,  76, 0.600000023841858) /* Translucency */;
+VALUES (26521,  39,     1.1) /* DefaultScale */
+     , (26521,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26521,   1, 'Grave Spirit') /* Name */

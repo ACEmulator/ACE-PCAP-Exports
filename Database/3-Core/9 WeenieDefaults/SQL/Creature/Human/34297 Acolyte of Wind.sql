@@ -18,11 +18,7 @@ VALUES (34297,   1,         16) /* ItemType - Creature */
      , (34297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34297,   1, True ) /* Stuck */
-     , (34297,  12, True ) /* ReportCollisions */
-     , (34297,  13, False) /* Ethereal */
-     , (34297,  14, True ) /* GravityStatus */
-     , (34297,  19, True ) /* Attackable */;
+VALUES (34297,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34297,   1, 'Acolyte of Wind') /* Name */

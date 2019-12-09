@@ -18,7 +18,6 @@ VALUES (41881,   1,        256) /* ItemType - MissileWeapon */
      , (41881,  49,        100) /* WeaponTime */
      , (41881,  50,          2) /* AmmoType - Bolt */
      , (41881,  51,          2) /* CombatUse - Missle */
-     , (41881,  65,          3) /* Placement - LeftHand */
      , (41881,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41881, 106,        200) /* ItemSpellcraft */
      , (41881, 107,        982) /* ItemCurMana */
@@ -31,26 +30,22 @@ VALUES (41881,   1,        256) /* ItemType - MissileWeapon */
      , (41881, 160,        360) /* WieldDifficulty */
      , (41881, 166,         19) /* SlayerCreatureType - Virindi */
      , (41881, 353,          9) /* WeaponType - Crossbow */
-     , (41881, 8030,          0);
+     , (41881, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41881, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41881,   1, False) /* Stuck */
-     , (41881,  11, True ) /* IgnoreCollisions */
-     , (41881,  13, True ) /* Ethereal */
-     , (41881,  14, True ) /* GravityStatus */
-     , (41881,  19, True ) /* Attackable */
-     , (41881,  22, True ) /* Inscribable */
+VALUES (41881,  22, True ) /* Inscribable */
      , (41881,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41881,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41881,   5,   -0.03) /* ManaRate */
      , (41881,  21,       0) /* WeaponLength */
      , (41881,  22,       0) /* DamageVariance */
      , (41881,  26,    27.3) /* MaximumVelocity */
-     , (41881,  29, 1.14999997615814) /* WeaponDefense */
+     , (41881,  29,    1.15) /* WeaponDefense */
      , (41881,  39,    1.25) /* DefaultScale */
      , (41881,  62,       1) /* WeaponOffense */
-     , (41881,  63, 2.54999995231628) /* DamageMod */
+     , (41881,  63,    2.55) /* DamageMod */
      , (41881, 136,       1) /* CriticalMultiplier */
      , (41881, 147,       1) /* CriticalFrequency */
      , (41881, 155,       1) /* IgnoreArmor */;

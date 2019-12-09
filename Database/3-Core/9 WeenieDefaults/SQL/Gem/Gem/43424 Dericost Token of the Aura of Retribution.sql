@@ -9,17 +9,12 @@ VALUES (43424,   1,       2048) /* ItemType - Gem */
      , (43424,  16,          1) /* ItemUseable - No */
      , (43424,  19,          0) /* Value */
      , (43424,  33,          1) /* Bonded - Bonded */
-     , (43424,  65,        101) /* Placement - Resting */
      , (43424,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43424, 114,          1) /* Attuned - Attuned */;
+     , (43424, 114,          1) /* Attuned - Attuned */
+     , (43424, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43424,   1, False) /* Stuck */
-     , (43424,  11, True ) /* IgnoreCollisions */
-     , (43424,  13, True ) /* Ethereal */
-     , (43424,  14, True ) /* GravityStatus */
-     , (43424,  19, True ) /* Attackable */
-     , (43424,  22, True ) /* Inscribable */;
+VALUES (43424,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43424,   1, 'Dericost Token of the Aura of Retribution') /* Name */

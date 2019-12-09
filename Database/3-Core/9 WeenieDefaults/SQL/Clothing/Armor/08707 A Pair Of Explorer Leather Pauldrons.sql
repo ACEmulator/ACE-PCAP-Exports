@@ -12,31 +12,26 @@ VALUES (8707,   1,          2) /* ItemType - Armor */
      , (8707,  18,          1) /* UiEffects - Magical */
      , (8707,  19,          1) /* Value */
      , (8707,  28,        100) /* ArmorLevel */
-     , (8707,  65,        101) /* Placement - Resting */
      , (8707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8707, 106,        150) /* ItemSpellcraft */
      , (8707, 107,        400) /* ItemCurMana */
      , (8707, 108,        400) /* ItemMaxMana */
-     , (8707, 109,         15) /* ItemDifficulty */;
+     , (8707, 109,         15) /* ItemDifficulty */
+     , (8707, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8707,   1, False) /* Stuck */
-     , (8707,  11, True ) /* IgnoreCollisions */
-     , (8707,  13, True ) /* Ethereal */
-     , (8707,  14, True ) /* GravityStatus */
-     , (8707,  19, True ) /* Attackable */
-     , (8707,  22, True ) /* Inscribable */;
+VALUES (8707,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8707,   5,  -0.025) /* ManaRate */
+VALUES (8707,   5,   -0.02) /* ManaRate */
      , (8707,  13,       1) /* ArmorModVsSlash */
      , (8707,  14,       1) /* ArmorModVsPierce */
      , (8707,  15,       1) /* ArmorModVsBludgeon */
-     , (8707,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (8707,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (8707,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (8707,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (8707,  39, 1.10000002384186) /* DefaultScale */
+     , (8707,  16,     0.6) /* ArmorModVsCold */
+     , (8707,  17,     0.6) /* ArmorModVsFire */
+     , (8707,  18,     0.6) /* ArmorModVsAcid */
+     , (8707,  19,     0.6) /* ArmorModVsElectric */
+     , (8707,  39,     1.1) /* DefaultScale */
      , (8707, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

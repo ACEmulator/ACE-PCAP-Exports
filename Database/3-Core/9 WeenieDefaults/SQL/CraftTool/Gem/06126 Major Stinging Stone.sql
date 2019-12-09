@@ -13,18 +13,13 @@ VALUES (6126,   1,       2048) /* ItemType - Gem */
      , (6126,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6126,  19,       5000) /* Value */
      , (6126,  33,          1) /* Bonded - Bonded */
-     , (6126,  65,        101) /* Placement - Resting */
      , (6126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6126,  94,      33027) /* TargetType - Armor, WeaponOrCaster */
-     , (6126, 114,          1) /* Attuned - Attuned */;
+     , (6126, 114,          1) /* Attuned - Attuned */
+     , (6126, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6126,   1, False) /* Stuck */
-     , (6126,  11, True ) /* IgnoreCollisions */
-     , (6126,  13, True ) /* Ethereal */
-     , (6126,  14, True ) /* GravityStatus */
-     , (6126,  19, True ) /* Attackable */
-     , (6126,  22, True ) /* Inscribable */;
+VALUES (6126,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6126,   1, 'Major Stinging Stone') /* Name */

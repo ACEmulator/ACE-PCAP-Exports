@@ -12,20 +12,14 @@ VALUES (8667,   1,       2048) /* ItemType - Gem */
      , (8667,  15,          0) /* StackUnitValue */
      , (8667,  16,          1) /* ItemUseable - No */
      , (8667,  19,          0) /* Value */
-     , (8667,  65,        101) /* Placement - Resting */
-     , (8667,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (8667,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (8667, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8667,   1, False) /* Stuck */
-     , (8667,  11, True ) /* IgnoreCollisions */
-     , (8667,  13, True ) /* Ethereal */
-     , (8667,  14, True ) /* GravityStatus */
-     , (8667,  15, True ) /* LightsStatus */
-     , (8667,  19, True ) /* Attackable */
-     , (8667,  22, True ) /* Inscribable */;
+VALUES (8667,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8667,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (8667,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8667,   1, 'Glowing Wisp Heart') /* Name */

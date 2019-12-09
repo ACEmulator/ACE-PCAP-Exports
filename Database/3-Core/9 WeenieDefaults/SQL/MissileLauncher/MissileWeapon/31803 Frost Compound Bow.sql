@@ -34,26 +34,21 @@ VALUES (31803,   1,        256) /* ItemType - MissileWeapon */
      , (31803, 176,         47) /* AppraisalItemSkill */
      , (31803, 204,         12) /* ElementalDamageBonus */
      , (31803, 353,          8) /* WeaponType - Bow */
-     , (31803, 8030,          0);
+     , (31803, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31803,   1, False) /* Stuck */
-     , (31803,  11, True ) /* IgnoreCollisions */
-     , (31803,  13, True ) /* Ethereal */
-     , (31803,  14, True ) /* GravityStatus */
-     , (31803,  19, True ) /* Attackable */
-     , (31803,  22, True ) /* Inscribable */;
+VALUES (31803,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31803,   5, -0.0555555555555556) /* ManaRate */
+VALUES (31803,   5,   -0.06) /* ManaRate */
      , (31803,  21,       0) /* WeaponLength */
      , (31803,  22,       0) /* DamageVariance */
      , (31803,  26,    27.3) /* MaximumVelocity */
      , (31803,  29,    1.11) /* WeaponDefense */
-     , (31803,  39, 1.10000002384186) /* DefaultScale */
+     , (31803,  39,     1.1) /* DefaultScale */
      , (31803,  62,       1) /* WeaponOffense */
      , (31803,  63,     2.4) /* DamageMod */
-     , (31803, 150,   1.015) /* WeaponMagicDefense */
+     , (31803, 150,    1.01) /* WeaponMagicDefense */
      , (31803, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

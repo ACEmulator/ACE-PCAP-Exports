@@ -10,17 +10,12 @@ VALUES (458,   1,          2) /* ItemType - Armor */
      , (458,   9,          1) /* ValidLocations - HeadWear */
      , (458,  16,          1) /* ItemUseable - No */
      , (458,  19,       1100) /* Value */
-     , (458,  65,        101) /* Placement - Resting */
      , (458,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (458, 151,          2) /* HookType - Wall */;
+     , (458, 151,          2) /* HookType - Wall */
+     , (458, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (458,   1, False) /* Stuck */
-     , (458,  11, True ) /* IgnoreCollisions */
-     , (458,  13, True ) /* Ethereal */
-     , (458,  14, True ) /* GravityStatus */
-     , (458,  19, True ) /* Attackable */
-     , (458,  22, True ) /* Inscribable */;
+VALUES (458,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (458,   1, 'Leather Cowl') /* Name */;

@@ -15,13 +15,10 @@ VALUES (52466,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52466,   1, True ) /* Stuck */
-     , (52466,  12, True ) /* ReportCollisions */
-     , (52466,  13, True ) /* Ethereal */
-     , (52466,  19, True ) /* Attackable */
      , (52466,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52466,  76, 0.800000011920929) /* Translucency */;
+VALUES (52466,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52466,   1, 'Acidic Mist') /* Name */;

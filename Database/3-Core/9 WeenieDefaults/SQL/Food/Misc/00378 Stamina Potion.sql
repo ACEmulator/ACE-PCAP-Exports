@@ -12,19 +12,14 @@ VALUES (378,   1,        128) /* ItemType - Misc */
      , (378,  15,         75) /* StackUnitValue */
      , (378,  16,          8) /* ItemUseable - Contained */
      , (378,  19,         75) /* Value */
-     , (378,  65,        101) /* Placement - Resting */
      , (378,  89,          4) /* BoosterEnum - Stamina */
      , (378,  90,         25) /* BoostValue */
      , (378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (378, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (378, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (378, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (378,   1, False) /* Stuck */
-     , (378,  11, True ) /* IgnoreCollisions */
-     , (378,  13, True ) /* Ethereal */
-     , (378,  14, True ) /* GravityStatus */
-     , (378,  19, True ) /* Attackable */
-     , (378,  69, False) /* IsSellable */;
+VALUES (378,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (378,   1, 'Stamina Potion') /* Name */

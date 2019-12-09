@@ -12,16 +12,11 @@ VALUES (23858,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (23858,  15,        250) /* StackUnitValue */
      , (23858,  19,        250) /* Value */
      , (23858,  33,          1) /* Bonded - Bonded */
-     , (23858,  65,        101) /* Placement - Resting */
-     , (23858,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23858,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23858, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23858,   1, False) /* Stuck */
-     , (23858,  11, True ) /* IgnoreCollisions */
-     , (23858,  13, True ) /* Ethereal */
-     , (23858,  14, True ) /* GravityStatus */
-     , (23858,  19, True ) /* Attackable */
-     , (23858,  69, False) /* IsSellable */;
+VALUES (23858,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23858,   1, 'Bundle of Wrapped Spiketails') /* Name */

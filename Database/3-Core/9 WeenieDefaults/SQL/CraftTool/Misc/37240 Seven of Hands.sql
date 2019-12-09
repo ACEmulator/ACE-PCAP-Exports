@@ -12,16 +12,9 @@ VALUES (37240,   1,        128) /* ItemType - Misc */
      , (37240,  15,          0) /* StackUnitValue */
      , (37240,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37240,  19,          0) /* Value */
-     , (37240,  65,        101) /* Placement - Resting */
      , (37240,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37240,  94,        128) /* TargetType - Misc */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37240,   1, False) /* Stuck */
-     , (37240,  11, True ) /* IgnoreCollisions */
-     , (37240,  13, True ) /* Ethereal */
-     , (37240,  14, True ) /* GravityStatus */
-     , (37240,  19, True ) /* Attackable */;
+     , (37240,  94,        128) /* TargetType - Misc */
+     , (37240, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37240,   1, 'Seven of Hands') /* Name */

@@ -12,17 +12,10 @@ VALUES (43477,   1,       2048) /* ItemType - Gem */
      , (43477,  15,          0) /* StackUnitValue */
      , (43477,  16,          8) /* ItemUseable - Contained */
      , (43477,  18,          1) /* UiEffects - Magical */
-     , (43477,  65,        101) /* Placement - Resting */
      , (43477,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43477,  94,         16) /* TargetType - Creature */
-     , (43477, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43477,   1, False) /* Stuck */
-     , (43477,  11, True ) /* IgnoreCollisions */
-     , (43477,  13, True ) /* Ethereal */
-     , (43477,  14, True ) /* GravityStatus */
-     , (43477,  19, True ) /* Attackable */;
+     , (43477, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (43477, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43477,   1, 'Luminous Pearl of Spirit Drinking') /* Name */

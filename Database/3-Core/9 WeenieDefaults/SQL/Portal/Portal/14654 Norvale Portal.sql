@@ -12,19 +12,13 @@ VALUES (14654,   1,      65536) /* ItemType - Portal */
      , (14654, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14654,   1, True ) /* Stuck */
-     , (14654,  12, True ) /* ReportCollisions */
-     , (14654,  13, True ) /* Ethereal */
-     , (14654,  14, True ) /* GravityStatus */
-     , (14654,  15, True ) /* LightsStatus */
-     , (14654,  19, True ) /* Attackable */;
+VALUES (14654,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14654,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14654,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14654,   1, 'Norvale Portal') /* Name */
-     , (14654,  38, 'Norvale Portal (72.0N, 52.1E).') /* AppraisalPortalDestination */
      , (14654, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

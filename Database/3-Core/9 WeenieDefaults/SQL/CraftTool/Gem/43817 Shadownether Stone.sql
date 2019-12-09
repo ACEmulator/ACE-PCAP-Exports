@@ -14,18 +14,13 @@ VALUES (43817,   1,       2048) /* ItemType - Gem */
      , (43817,  18,          1) /* UiEffects - Magical */
      , (43817,  19,       5000) /* Value */
      , (43817,  33,          1) /* Bonded - Bonded */
-     , (43817,  65,        101) /* Placement - Resting */
      , (43817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43817,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (43817, 114,          1) /* Attuned - Attuned */;
+     , (43817, 114,          1) /* Attuned - Attuned */
+     , (43817, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43817,   1, False) /* Stuck */
-     , (43817,  11, True ) /* IgnoreCollisions */
-     , (43817,  13, True ) /* Ethereal */
-     , (43817,  14, True ) /* GravityStatus */
-     , (43817,  19, True ) /* Attackable */
-     , (43817,  22, True ) /* Inscribable */;
+VALUES (43817,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43817,   1, 'Shadownether Stone') /* Name */

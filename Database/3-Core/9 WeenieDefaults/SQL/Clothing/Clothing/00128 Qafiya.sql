@@ -12,7 +12,6 @@ VALUES (128,   1,          4) /* ItemType - Clothing */
      , (128,  18,          1) /* UiEffects - Magical */
      , (128,  19,      12204) /* Value */
      , (128,  28,        280) /* ArmorLevel */
-     , (128,  65,        101) /* Placement - Resting */
      , (128,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (128, 105,          5) /* ItemWorkmanship */
      , (128, 106,        253) /* ItemSpellcraft */
@@ -25,26 +24,22 @@ VALUES (128,   1,          4) /* ItemType - Clothing */
      , (128, 151,          2) /* HookType - Wall */
      , (128, 172,          5) /* AppraisalLongDescDecoration */
      , (128, 177,          1) /* GemCount */
-     , (128, 178,         35) /* GemType */;
+     , (128, 178,         35) /* GemType */
+     , (128, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (128,   1, False) /* Stuck */
-     , (128,  11, True ) /* IgnoreCollisions */
-     , (128,  13, True ) /* Ethereal */
-     , (128,  14, True ) /* GravityStatus */
-     , (128,  19, True ) /* Attackable */
-     , (128,  22, True ) /* Inscribable */
+VALUES (128,  22, True ) /* Inscribable */
      , (128, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (128,   5, -0.0555555555555556) /* ManaRate */
-     , (128,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (128,  14, 0.800000011920929) /* ArmorModVsPierce */
+VALUES (128,   5,   -0.06) /* ManaRate */
+     , (128,  13,     1.2) /* ArmorModVsSlash */
+     , (128,  14,     0.8) /* ArmorModVsPierce */
      , (128,  15,       1) /* ArmorModVsBludgeon */
      , (128,  16,     0.5) /* ArmorModVsCold */
      , (128,  17,     0.5) /* ArmorModVsFire */
-     , (128,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (128,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (128,  18,     0.3) /* ArmorModVsAcid */
+     , (128,  19,     0.8) /* ArmorModVsElectric */
      , (128, 165,       1) /* ArmorModVsNether */
      , (128, 8004,       5) /* PCAPRecordedWorkmanship */;
 

@@ -8,20 +8,15 @@ VALUES (878,   1,        128) /* ItemType - Misc */
      , (878,   5,       9000) /* EncumbranceVal */
      , (878,  16,          1) /* ItemUseable - No */
      , (878,  19,        125) /* Value */
-     , (878,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (878,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (878,   1, True ) /* Stuck */
-     , (878,  11, True ) /* IgnoreCollisions */
-     , (878,  12, True ) /* ReportCollisions */
-     , (878,  13, False) /* Ethereal */
-     , (878,  14, True ) /* GravityStatus */
-     , (878,  19, True ) /* Attackable */;
+VALUES (878,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (878, 8010,       0) /* PCAPRecordedVelocityX */
      , (878, 8011,       0) /* PCAPRecordedVelocityY */
-     , (878, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (878, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (878,   1, 'Weaver Chueh') /* Name */

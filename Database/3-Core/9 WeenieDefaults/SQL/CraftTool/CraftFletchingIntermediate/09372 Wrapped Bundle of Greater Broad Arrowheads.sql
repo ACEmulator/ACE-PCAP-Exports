@@ -11,16 +11,9 @@ VALUES (9372,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9372,  15,       1500) /* StackUnitValue */
      , (9372,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9372,  19,       1500) /* Value */
-     , (9372,  65,        101) /* Placement - Resting */
      , (9372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9372,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9372,   1, False) /* Stuck */
-     , (9372,  11, True ) /* IgnoreCollisions */
-     , (9372,  13, True ) /* Ethereal */
-     , (9372,  14, True ) /* GravityStatus */
-     , (9372,  19, True ) /* Attackable */;
+     , (9372,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (9372, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9372,   1, 'Wrapped Bundle of Greater Broad Arrowheads') /* Name */

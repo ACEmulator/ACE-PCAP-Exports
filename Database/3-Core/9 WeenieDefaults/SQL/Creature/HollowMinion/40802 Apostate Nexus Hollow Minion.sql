@@ -15,11 +15,7 @@ VALUES (40802,   1,         16) /* ItemType - Creature */
      , (40802, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40802,   1, True ) /* Stuck */
-     , (40802,  12, True ) /* ReportCollisions */
-     , (40802,  13, False) /* Ethereal */
-     , (40802,  14, True ) /* GravityStatus */
-     , (40802,  19, True ) /* Attackable */;
+VALUES (40802,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40802,   1, 'Apostate Nexus Hollow Minion') /* Name */

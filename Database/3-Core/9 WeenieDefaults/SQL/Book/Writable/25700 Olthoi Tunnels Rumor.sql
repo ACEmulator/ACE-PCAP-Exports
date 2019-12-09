@@ -10,15 +10,8 @@ VALUES (25700,   1,       8192) /* ItemType - Writable */
      , (25700,  19,          3) /* Value */
      , (25700,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25700,   1, False) /* Stuck */
-     , (25700,  11, True ) /* IgnoreCollisions */
-     , (25700,  13, True ) /* Ethereal */
-     , (25700,  14, True ) /* GravityStatus */
-     , (25700,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25700,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (25700,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25700,   1, 'Olthoi Tunnels Rumor') /* Name */;

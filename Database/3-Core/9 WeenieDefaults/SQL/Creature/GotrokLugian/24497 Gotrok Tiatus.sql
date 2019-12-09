@@ -16,11 +16,7 @@ VALUES (24497,   1,         16) /* ItemType - Creature */
      , (24497, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24497,   1, True ) /* Stuck */
-     , (24497,  12, True ) /* ReportCollisions */
-     , (24497,  13, False) /* Ethereal */
-     , (24497,  14, True ) /* GravityStatus */
-     , (24497,  19, True ) /* Attackable */;
+VALUES (24497,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24497,   1, 'Gotrok Tiatus') /* Name */

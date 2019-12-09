@@ -12,20 +12,15 @@ VALUES (35538,   1,        128) /* ItemType - Misc */
      , (35538,  15,          1) /* StackUnitValue */
      , (35538,  16,          8) /* ItemUseable - Contained */
      , (35538,  19,          1) /* Value */
-     , (35538,  65,        101) /* Placement - Resting */
      , (35538,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35538,  94,         16) /* TargetType - Creature */;
+     , (35538,  94,         16) /* TargetType - Creature */
+     , (35538, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35538,   1, False) /* Stuck */
-     , (35538,  11, True ) /* IgnoreCollisions */
-     , (35538,  13, True ) /* Ethereal */
-     , (35538,  14, True ) /* GravityStatus */
-     , (35538,  19, True ) /* Attackable */
-     , (35538,  22, True ) /* Inscribable */;
+VALUES (35538,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35538,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35538,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35538,   1, '"Assassin''s Dagger" Summoning Gem') /* Name */;

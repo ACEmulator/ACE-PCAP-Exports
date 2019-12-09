@@ -16,11 +16,7 @@ VALUES (1619,   1,         16) /* ItemType - Creature */
      , (1619, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1619,   1, True ) /* Stuck */
-     , (1619,  12, True ) /* ReportCollisions */
-     , (1619,  13, False) /* Ethereal */
-     , (1619,  14, True ) /* GravityStatus */
-     , (1619,  19, True ) /* Attackable */;
+VALUES (1619,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1619,   1, 'Mosswart Shaman') /* Name */

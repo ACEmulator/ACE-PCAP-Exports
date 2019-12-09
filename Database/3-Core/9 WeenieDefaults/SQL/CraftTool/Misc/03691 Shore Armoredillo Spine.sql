@@ -12,20 +12,15 @@ VALUES (3691,   1,        128) /* ItemType - Misc */
      , (3691,  15,         60) /* StackUnitValue */
      , (3691,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (3691,  19,         60) /* Value */
-     , (3691,  65,        101) /* Placement - Resting */
      , (3691,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3691,  94,          1) /* TargetType - MeleeWeapon */;
+     , (3691,  94,          1) /* TargetType - MeleeWeapon */
+     , (3691, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3691,   1, False) /* Stuck */
-     , (3691,  11, True ) /* IgnoreCollisions */
-     , (3691,  13, True ) /* Ethereal */
-     , (3691,  14, True ) /* GravityStatus */
-     , (3691,  19, True ) /* Attackable */
-     , (3691,  22, True ) /* Inscribable */;
+VALUES (3691,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3691,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (3691,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3691,   1, 'Shore Armoredillo Spine') /* Name */

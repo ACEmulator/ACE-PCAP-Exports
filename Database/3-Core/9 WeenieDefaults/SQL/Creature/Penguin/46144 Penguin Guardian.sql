@@ -15,14 +15,10 @@ VALUES (46144,   1,         16) /* ItemType - Creature */
      , (46144, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46144,   1, True ) /* Stuck */
-     , (46144,  12, True ) /* ReportCollisions */
-     , (46144,  13, False) /* Ethereal */
-     , (46144,  14, True ) /* GravityStatus */
-     , (46144,  19, True ) /* Attackable */;
+VALUES (46144,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46144,  39, 2.20000004768372) /* DefaultScale */;
+VALUES (46144,  39,     2.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46144,   1, 'Penguin Guardian') /* Name */

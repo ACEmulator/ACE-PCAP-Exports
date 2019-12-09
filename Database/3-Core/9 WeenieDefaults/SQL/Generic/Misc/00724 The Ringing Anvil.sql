@@ -8,16 +8,11 @@ VALUES (724,   1,        128) /* ItemType - Misc */
      , (724,   5,       9000) /* EncumbranceVal */
      , (724,  16,          1) /* ItemUseable - No */
      , (724,  19,        125) /* Value */
-     , (724,  65,        101) /* Placement - Resting */
-     , (724,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (724,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (724, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (724,   1, True ) /* Stuck */
-     , (724,  11, True ) /* IgnoreCollisions */
-     , (724,  12, True ) /* ReportCollisions */
-     , (724,  13, False) /* Ethereal */
-     , (724,  14, True ) /* GravityStatus */
-     , (724,  19, True ) /* Attackable */;
+VALUES (724,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (724,   1, 'The Ringing Anvil') /* Name */

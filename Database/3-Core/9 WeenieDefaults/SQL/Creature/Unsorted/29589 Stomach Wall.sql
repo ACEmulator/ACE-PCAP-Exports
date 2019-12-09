@@ -8,7 +8,7 @@ VALUES (29589,   1,         16) /* ItemType - Creature */
      , (29589,   6,        255) /* ItemsCapacity */
      , (29589,   7,        255) /* ContainersCapacity */
      , (29589,  16,          1) /* ItemUseable - No */
-     , (29589,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
+     , (29589,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29589, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29589, 307,          0) /* DamageRating */
      , (29589, 308,          0) /* DamageResistRating */
@@ -37,11 +37,7 @@ VALUES (29589,   1,         16) /* ItemType - Creature */
      , (29589, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29589,   1, True ) /* Stuck */
-     , (29589,  12, True ) /* ReportCollisions */
-     , (29589,  13, False) /* Ethereal */
-     , (29589,  14, True ) /* GravityStatus */
-     , (29589,  19, True ) /* Attackable */;
+VALUES (29589,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29589,   1, 'Stomach Wall') /* Name */

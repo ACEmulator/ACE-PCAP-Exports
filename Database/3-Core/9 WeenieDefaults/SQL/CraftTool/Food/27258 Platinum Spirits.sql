@@ -13,20 +13,13 @@ VALUES (27258,   1,         32) /* ItemType - Food */
      , (27258,  16,          8) /* ItemUseable - Contained */
      , (27258,  18,          1) /* UiEffects - Magical */
      , (27258,  19,     100000) /* Value */
-     , (27258,  65,        101) /* Placement - Resting */
      , (27258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27258,  94,         16) /* TargetType - Creature */
      , (27258, 106,        150) /* ItemSpellcraft */
      , (27258, 107,         50) /* ItemCurMana */
      , (27258, 108,         50) /* ItemMaxMana */
-     , (27258, 109,        200) /* ItemDifficulty */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27258,   1, False) /* Stuck */
-     , (27258,  11, True ) /* IgnoreCollisions */
-     , (27258,  13, True ) /* Ethereal */
-     , (27258,  14, True ) /* GravityStatus */
-     , (27258,  19, True ) /* Attackable */;
+     , (27258, 109,        200) /* ItemDifficulty */
+     , (27258, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27258,   1, 'Platinum Spirits') /* Name */

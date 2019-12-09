@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28723,   1,        128) /* ItemType - Misc */
      , (28723,   5,         10) /* EncumbranceVal */
      , (28723,  16,          1) /* ItemUseable - No */
-     , (28723,  65,        101) /* Placement - Resting */
-     , (28723,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28723,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28723, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28723,   1, False) /* Stuck */
-     , (28723,  11, True ) /* IgnoreCollisions */
-     , (28723,  13, True ) /* Ethereal */
-     , (28723,  14, True ) /* GravityStatus */
-     , (28723,  19, True ) /* Attackable */
-     , (28723,  22, True ) /* Inscribable */;
+VALUES (28723,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28723,   1, 'Ravenous Killer Token') /* Name */;

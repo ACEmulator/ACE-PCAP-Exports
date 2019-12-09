@@ -12,19 +12,13 @@ VALUES (12480,   1,      65536) /* ItemType - Portal */
      , (12480, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12480,   1, True ) /* Stuck */
-     , (12480,  12, True ) /* ReportCollisions */
-     , (12480,  13, True ) /* Ethereal */
-     , (12480,  14, True ) /* GravityStatus */
-     , (12480,  15, True ) /* LightsStatus */
-     , (12480,  19, True ) /* Attackable */;
+VALUES (12480,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12480,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12480,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12480,   1, 'Broadacre Cottages Portal') /* Name */
-     , (12480,  38, 'Broadacre Cottages Portal (12.1S, 63.5E).') /* AppraisalPortalDestination */
      , (12480, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

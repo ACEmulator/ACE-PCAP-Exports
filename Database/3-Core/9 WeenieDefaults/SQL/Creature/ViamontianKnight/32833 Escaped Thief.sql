@@ -17,11 +17,7 @@ VALUES (32833,   1,         16) /* ItemType - Creature */
      , (32833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32833,   1, True ) /* Stuck */
-     , (32833,  12, True ) /* ReportCollisions */
-     , (32833,  13, False) /* Ethereal */
-     , (32833,  14, True ) /* GravityStatus */
-     , (32833,  19, True ) /* Attackable */;
+VALUES (32833,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32833,   1, 'Escaped Thief') /* Name */

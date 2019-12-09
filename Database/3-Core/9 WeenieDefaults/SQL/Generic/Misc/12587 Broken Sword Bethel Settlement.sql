@@ -11,12 +11,7 @@ VALUES (12587,   1,        128) /* ItemType - Misc */
      , (12587,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12587,   1, True ) /* Stuck */
-     , (12587,  11, True ) /* IgnoreCollisions */
-     , (12587,  12, True ) /* ReportCollisions */
-     , (12587,  13, False) /* Ethereal */
-     , (12587,  14, True ) /* GravityStatus */
-     , (12587,  19, True ) /* Attackable */;
+VALUES (12587,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12587,   1, 'Broken Sword Bethel Settlement') /* Name */

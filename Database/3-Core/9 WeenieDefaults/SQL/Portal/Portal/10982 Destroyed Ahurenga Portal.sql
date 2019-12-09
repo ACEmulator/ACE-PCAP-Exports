@@ -11,20 +11,14 @@ VALUES (10982,   1,      65536) /* ItemType - Portal */
      , (10982, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10982,   1, True ) /* Stuck */
-     , (10982,  11, True ) /* IgnoreCollisions */
-     , (10982,  13, True ) /* Ethereal */
-     , (10982,  14, True ) /* GravityStatus */
-     , (10982,  15, True ) /* LightsStatus */
-     , (10982,  19, True ) /* Attackable */;
+VALUES (10982,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10982,  54, -0.100000001490116) /* UseRadius */;
+VALUES (10982,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10982,   1, 'Destroyed Ahurenga Portal') /* Name */
      , (10982,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (10982,  38, 'Destroyed Ahurenga Portal (46.1N, 89.8W).') /* AppraisalPortalDestination */
      , (10982, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

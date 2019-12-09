@@ -16,22 +16,17 @@ VALUES (30237,   1,       2048) /* ItemType - Gem */
      , (30237,  19,          0) /* Value */
      , (30237,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30237,  33,         -1) /* Bonded - Slippery */
-     , (30237,  65,        101) /* Placement - Resting */
      , (30237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30237,  94,         16) /* TargetType - Creature */
      , (30237, 106,        325) /* ItemSpellcraft */
      , (30237, 107,      10000) /* ItemCurMana */
      , (30237, 108,      10000) /* ItemMaxMana */
      , (30237, 109,          0) /* ItemDifficulty */
-     , (30237, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30237, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30237, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30237,   1, False) /* Stuck */
-     , (30237,  11, True ) /* IgnoreCollisions */
-     , (30237,  13, True ) /* Ethereal */
-     , (30237,  14, True ) /* GravityStatus */
-     , (30237,  19, True ) /* Attackable */
-     , (30237, 108, True ) /* RareUsesTimer */;
+VALUES (30237, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30237,   1, 'Pearl of Spirit Drinking') /* Name */

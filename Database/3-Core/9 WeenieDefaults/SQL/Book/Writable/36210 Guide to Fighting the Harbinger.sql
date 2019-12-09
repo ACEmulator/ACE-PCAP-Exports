@@ -8,20 +8,13 @@ VALUES (36210,   1,       8192) /* ItemType - Writable */
      , (36210,   5,        100) /* EncumbranceVal */
      , (36210,  16,          8) /* ItemUseable - Contained */
      , (36210,  19,        200) /* Value */
-     , (36210,  65,        101) /* Placement - Resting */
      , (36210,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36210, 174,          4) /* AppraisalPages */
-     , (36210, 175,          4) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36210,   1, False) /* Stuck */
-     , (36210,  11, True ) /* IgnoreCollisions */
-     , (36210,  13, True ) /* Ethereal */
-     , (36210,  14, True ) /* GravityStatus */
-     , (36210,  19, True ) /* Attackable */;
+     , (36210, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (36210, 8042,          4) /* PCAPRecordedAppraisalPages */
+     , (36210, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36210,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (36210,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36210,   1, 'Guide to Fighting the Harbinger') /* Name */;

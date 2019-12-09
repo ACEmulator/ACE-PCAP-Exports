@@ -18,7 +18,6 @@ VALUES (41717,   1,          1) /* ItemType - MeleeWeapon */
      , (41717,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41717,  49,          1) /* WeaponTime */
      , (41717,  51,          5) /* CombatUse - TwoHanded */
-     , (41717,  65,        101) /* Placement - Resting */
      , (41717,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41717, 114,          1) /* Attuned - Attuned */
      , (41717, 151,          2) /* HookType - Wall */
@@ -27,24 +26,20 @@ VALUES (41717,   1,          1) /* ItemType - MeleeWeapon */
      , (41717, 160,        400) /* WieldDifficulty */
      , (41717, 166,         22) /* SlayerCreatureType - Shadow */
      , (41717, 353,         11) /* WeaponType - TwoHanded */
-     , (41717, 8030,          0);
+     , (41717, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41717, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41717,   1, False) /* Stuck */
-     , (41717,  11, True ) /* IgnoreCollisions */
-     , (41717,  13, True ) /* Ethereal */
-     , (41717,  14, True ) /* GravityStatus */
-     , (41717,  19, True ) /* Attackable */
-     , (41717,  22, True ) /* Inscribable */
+VALUES (41717,  22, True ) /* Inscribable */
      , (41717,  69, False) /* IsSellable */
      , (41717,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41717,  21,       0) /* WeaponLength */
-     , (41717,  22, 0.600000023841858) /* DamageVariance */
+     , (41717,  22,     0.6) /* DamageVariance */
      , (41717,  26,       0) /* MaximumVelocity */
-     , (41717,  29, 1.28999996185303) /* WeaponDefense */
-     , (41717,  62, 1.28999996185303) /* WeaponOffense */
+     , (41717,  29,    1.29) /* WeaponDefense */
+     , (41717,  62,    1.29) /* WeaponOffense */
      , (41717,  63,       1) /* DamageMod */
      , (41717, 136,       1) /* CriticalMultiplier */
      , (41717, 147,       1) /* CriticalFrequency */;

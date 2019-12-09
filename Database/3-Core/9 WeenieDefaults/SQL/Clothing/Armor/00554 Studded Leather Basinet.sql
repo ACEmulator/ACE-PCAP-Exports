@@ -12,7 +12,6 @@ VALUES (554,   1,          2) /* ItemType - Armor */
      , (554,  18,          1) /* UiEffects - Magical */
      , (554,  19,       9001) /* Value */
      , (554,  28,        252) /* ArmorLevel */
-     , (554,  65,        101) /* Placement - Resting */
      , (554,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (554, 105,          5) /* ItemWorkmanship */
      , (554, 106,        231) /* ItemSpellcraft */
@@ -24,26 +23,22 @@ VALUES (554,   1,          2) /* ItemType - Armor */
      , (554, 131,         54) /* MaterialType - GromnieHide */
      , (554, 151,          2) /* HookType - Wall */
      , (554, 172,          1) /* AppraisalLongDescDecoration */
-     , (554, 176,          7) /* AppraisalItemSkill */;
+     , (554, 176,          7) /* AppraisalItemSkill */
+     , (554, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (554,   1, False) /* Stuck */
-     , (554,  11, True ) /* IgnoreCollisions */
-     , (554,  13, True ) /* Ethereal */
-     , (554,  14, True ) /* GravityStatus */
-     , (554,  19, True ) /* Attackable */
-     , (554,  22, True ) /* Inscribable */
+VALUES (554,  22, True ) /* Inscribable */
      , (554, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (554,   5, -0.0555555555555556) /* ManaRate */
-     , (554,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (554,  14, 1.10000002384186) /* ArmorModVsPierce */
+VALUES (554,   5,   -0.06) /* ManaRate */
+     , (554,  13,     1.2) /* ArmorModVsSlash */
+     , (554,  14,     1.1) /* ArmorModVsPierce */
      , (554,  15,       1) /* ArmorModVsBludgeon */
-     , (554,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (554,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (554,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (554,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (554,  16,     0.4) /* ArmorModVsCold */
+     , (554,  17,     0.7) /* ArmorModVsFire */
+     , (554,  18,     0.3) /* ArmorModVsAcid */
+     , (554,  19,     0.4) /* ArmorModVsElectric */
      , (554, 165,       1) /* ArmorModVsNether */
      , (554, 8004,       5) /* PCAPRecordedWorkmanship */;
 

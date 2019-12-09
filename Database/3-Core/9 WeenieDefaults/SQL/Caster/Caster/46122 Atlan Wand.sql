@@ -11,23 +11,18 @@ VALUES (46122,   1,      32768) /* ItemType - Caster */
      , (46122,  18,          1) /* UiEffects - Magical */
      , (46122,  19,       4000) /* Value */
      , (46122,  33,          1) /* Bonded - Bonded */
-     , (46122,  65,        101) /* Placement - Resting */
      , (46122,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46122,  94,         16) /* TargetType - Creature */
-     , (46122, 151,          2) /* HookType - Wall */;
+     , (46122, 151,          2) /* HookType - Wall */
+     , (46122, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46122,   1, False) /* Stuck */
-     , (46122,  11, True ) /* IgnoreCollisions */
-     , (46122,  13, True ) /* Ethereal */
-     , (46122,  14, True ) /* GravityStatus */
-     , (46122,  19, True ) /* Attackable */
-     , (46122,  22, True ) /* Inscribable */
+VALUES (46122,  22, True ) /* Inscribable */
      , (46122,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46122,  29, 1.25000000178814) /* WeaponDefense */
-     , (46122, 144, 1.94973309116686E-314) /* ManaConversionMod */;
+VALUES (46122,  29,    1.25) /* WeaponDefense */
+     , (46122, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46122,   1, 'Atlan Wand') /* Name */

@@ -11,16 +11,11 @@ VALUES (6069,   1,          4) /* ItemType - Clothing */
      , (6069,  16,          1) /* ItemUseable - No */
      , (6069,  18,          1) /* UiEffects - Magical */
      , (6069,  19,       1120) /* Value */
-     , (6069,  65,        101) /* Placement - Resting */
-     , (6069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (6069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6069, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6069,   1, False) /* Stuck */
-     , (6069,  11, True ) /* IgnoreCollisions */
-     , (6069,  13, True ) /* Ethereal */
-     , (6069,  14, True ) /* GravityStatus */
-     , (6069,  19, True ) /* Attackable */
-     , (6069,  22, True ) /* Inscribable */;
+VALUES (6069,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6069,   1, 'Dho Life Apprentice Robe') /* Name */;

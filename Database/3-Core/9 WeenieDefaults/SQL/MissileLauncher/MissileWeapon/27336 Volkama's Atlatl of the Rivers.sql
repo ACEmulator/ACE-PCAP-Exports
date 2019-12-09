@@ -13,17 +13,12 @@ VALUES (27336,   1,        256) /* ItemType - MissileWeapon */
      , (27336,  19,      20000) /* Value */
      , (27336,  50,          4) /* AmmoType - Atlatl */
      , (27336,  51,          2) /* CombatUse - Missle */
-     , (27336,  65,          1) /* Placement - RightHandCombat */
      , (27336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27336, 151,          2) /* HookType - Wall */;
+     , (27336, 151,          2) /* HookType - Wall */
+     , (27336, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27336,   1, False) /* Stuck */
-     , (27336,  11, True ) /* IgnoreCollisions */
-     , (27336,  13, True ) /* Ethereal */
-     , (27336,  14, True ) /* GravityStatus */
-     , (27336,  19, True ) /* Attackable */
-     , (27336,  22, True ) /* Inscribable */;
+VALUES (27336,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27336,   1, 'Volkama''s Atlatl of the Rivers') /* Name */;

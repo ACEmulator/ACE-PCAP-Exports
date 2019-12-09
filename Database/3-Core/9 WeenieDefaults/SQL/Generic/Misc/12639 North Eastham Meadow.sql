@@ -11,12 +11,7 @@ VALUES (12639,   1,        128) /* ItemType - Misc */
      , (12639,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12639,   1, True ) /* Stuck */
-     , (12639,  11, True ) /* IgnoreCollisions */
-     , (12639,  12, True ) /* ReportCollisions */
-     , (12639,  13, False) /* Ethereal */
-     , (12639,  14, True ) /* GravityStatus */
-     , (12639,  19, True ) /* Attackable */;
+VALUES (12639,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12639,   1, 'North Eastham Meadow') /* Name */;

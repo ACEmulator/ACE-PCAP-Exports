@@ -11,21 +11,15 @@ VALUES (9603,   1,          1) /* ItemType - MeleeWeapon */
      , (9603,  18,          1) /* UiEffects - Magical */
      , (9603,  19,       2000) /* Value */
      , (9603,  51,          1) /* CombatUse - Melee */
-     , (9603,  65,        101) /* Placement - Resting */
      , (9603,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (9603, 151,          2) /* HookType - Wall */;
+     , (9603, 151,          2) /* HookType - Wall */
+     , (9603, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9603,   1, False) /* Stuck */
-     , (9603,  11, True ) /* IgnoreCollisions */
-     , (9603,  13, True ) /* Ethereal */
-     , (9603,  14, True ) /* GravityStatus */
-     , (9603,  15, True ) /* LightsStatus */
-     , (9603,  19, True ) /* Attackable */
-     , (9603,  22, True ) /* Inscribable */;
+VALUES (9603,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9603,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9603,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9603,   1, 'Stave of the Quiddity') /* Name */;

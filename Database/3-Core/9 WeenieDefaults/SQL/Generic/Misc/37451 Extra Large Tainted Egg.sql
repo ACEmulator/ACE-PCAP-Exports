@@ -10,16 +10,9 @@ VALUES (37451,   1,        128) /* ItemType - Misc */
      , (37451,  18,          1) /* UiEffects - Magical */
      , (37451,  19,          0) /* Value */
      , (37451,  33,          1) /* Bonded - Bonded */
-     , (37451,  65,        101) /* Placement - Resting */
      , (37451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37451, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37451,   1, False) /* Stuck */
-     , (37451,  11, True ) /* IgnoreCollisions */
-     , (37451,  13, True ) /* Ethereal */
-     , (37451,  14, True ) /* GravityStatus */
-     , (37451,  19, True ) /* Attackable */;
+     , (37451, 114,          1) /* Attuned - Attuned */
+     , (37451, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37451,   1, 'Extra Large Tainted Egg') /* Name */

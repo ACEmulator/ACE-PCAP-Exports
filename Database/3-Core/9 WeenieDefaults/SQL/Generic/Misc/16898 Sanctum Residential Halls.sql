@@ -11,12 +11,7 @@ VALUES (16898,   1,        128) /* ItemType - Misc */
      , (16898,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16898,   1, True ) /* Stuck */
-     , (16898,  11, True ) /* IgnoreCollisions */
-     , (16898,  12, True ) /* ReportCollisions */
-     , (16898,  13, False) /* Ethereal */
-     , (16898,  14, True ) /* GravityStatus */
-     , (16898,  19, True ) /* Attackable */;
+VALUES (16898,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16898,   1, 'Sanctum Residential Halls') /* Name */

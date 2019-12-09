@@ -8,20 +8,13 @@ VALUES (8084,   1,       8192) /* ItemType - Writable */
      , (8084,   5,        160) /* EncumbranceVal */
      , (8084,  16,          8) /* ItemUseable - Contained */
      , (8084,  19,         90) /* Value */
-     , (8084,  65,        101) /* Placement - Resting */
      , (8084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8084, 174,          3) /* AppraisalPages */
-     , (8084, 175,          3) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8084,   1, False) /* Stuck */
-     , (8084,  11, True ) /* IgnoreCollisions */
-     , (8084,  13, True ) /* Ethereal */
-     , (8084,  14, True ) /* GravityStatus */
-     , (8084,  19, True ) /* Attackable */;
+     , (8084, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8084, 8042,          3) /* PCAPRecordedAppraisalPages */
+     , (8084, 8043,          3) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8084,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8084,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8084,   1, 'Shadow Dispatch') /* Name */

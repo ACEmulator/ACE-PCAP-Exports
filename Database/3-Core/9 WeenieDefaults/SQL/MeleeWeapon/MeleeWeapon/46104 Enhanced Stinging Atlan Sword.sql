@@ -18,7 +18,6 @@ VALUES (46104,   1,          1) /* ItemType - MeleeWeapon */
      , (46104,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46104,  49,         35) /* WeaponTime */
      , (46104,  51,          1) /* CombatUse - Melee */
-     , (46104,  65,          1) /* Placement - RightHandCombat */
      , (46104,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46104, 106,        350) /* ItemSpellcraft */
      , (46104, 107,        749) /* ItemCurMana */
@@ -30,25 +29,21 @@ VALUES (46104,   1,          1) /* ItemType - MeleeWeapon */
      , (46104, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (46104, 160,        400) /* WieldDifficulty */
      , (46104, 263,         32) /* ResistanceModifierType */
-     , (46104, 8030,          0);
+     , (46104, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46104, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46104,   1, False) /* Stuck */
-     , (46104,  11, True ) /* IgnoreCollisions */
-     , (46104,  13, True ) /* Ethereal */
-     , (46104,  14, True ) /* GravityStatus */
-     , (46104,  19, True ) /* Attackable */
-     , (46104,  22, True ) /* Inscribable */
+VALUES (46104,  22, True ) /* Inscribable */
      , (46104,  69, False) /* IsSellable */
      , (46104,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46104,   5, -0.0329999998211861) /* ManaRate */
+VALUES (46104,   5,   -0.03) /* ManaRate */
      , (46104,  21,       0) /* WeaponLength */
-     , (46104,  22, 0.430000007152557) /* DamageVariance */
+     , (46104,  22,    0.43) /* DamageVariance */
      , (46104,  26,       0) /* MaximumVelocity */
-     , (46104,  29, 1.13999998569489) /* WeaponDefense */
-     , (46104,  62, 1.13999998569489) /* WeaponOffense */
+     , (46104,  29,    1.14) /* WeaponDefense */
+     , (46104,  62,    1.14) /* WeaponOffense */
      , (46104,  63,       1) /* DamageMod */
      , (46104, 157,       1) /* ResistanceModifier */;
 

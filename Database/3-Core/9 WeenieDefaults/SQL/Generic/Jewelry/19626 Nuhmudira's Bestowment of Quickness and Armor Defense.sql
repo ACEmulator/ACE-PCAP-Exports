@@ -11,20 +11,15 @@ VALUES (19626,   1,          8) /* ItemType - Jewelry */
      , (19626,  16,          1) /* ItemUseable - No */
      , (19626,  18,          1) /* UiEffects - Magical */
      , (19626,  19,       5000) /* Value */
-     , (19626,  65,        101) /* Placement - Resting */
      , (19626,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19626, 151,          2) /* HookType - Wall */;
+     , (19626, 151,          2) /* HookType - Wall */
+     , (19626, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19626,   1, False) /* Stuck */
-     , (19626,  11, True ) /* IgnoreCollisions */
-     , (19626,  13, True ) /* Ethereal */
-     , (19626,  14, True ) /* GravityStatus */
-     , (19626,  19, True ) /* Attackable */
-     , (19626,  22, True ) /* Inscribable */;
+VALUES (19626,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19626,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19626,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19626,   1, 'Nuhmudira''s Bestowment of Quickness and Armor Defense') /* Name */;

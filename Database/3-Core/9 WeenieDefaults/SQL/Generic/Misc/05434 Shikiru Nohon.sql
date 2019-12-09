@@ -8,20 +8,15 @@ VALUES (5434,   1,        128) /* ItemType - Misc */
      , (5434,   5,       9000) /* EncumbranceVal */
      , (5434,  16,          1) /* ItemUseable - No */
      , (5434,  19,        125) /* Value */
-     , (5434,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (5434,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5434,   1, True ) /* Stuck */
-     , (5434,  11, True ) /* IgnoreCollisions */
-     , (5434,  12, True ) /* ReportCollisions */
-     , (5434,  13, False) /* Ethereal */
-     , (5434,  14, True ) /* GravityStatus */
-     , (5434,  19, True ) /* Attackable */;
+VALUES (5434,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5434, 8010,       0) /* PCAPRecordedVelocityX */
      , (5434, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5434, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (5434, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5434,   1, 'Shikiru Nohon') /* Name */

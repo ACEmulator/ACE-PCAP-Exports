@@ -11,17 +11,12 @@ VALUES (45541,   1,          1) /* ItemType - MeleeWeapon */
      , (45541,  16,          1) /* ItemUseable - No */
      , (45541,  19,         25) /* Value */
      , (45541,  51,          1) /* CombatUse - Melee */
-     , (45541,  65,          1) /* Placement - RightHandCombat */
      , (45541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45541, 151,          2) /* HookType - Wall */;
+     , (45541, 151,          2) /* HookType - Wall */
+     , (45541, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45541,   1, False) /* Stuck */
-     , (45541,  11, True ) /* IgnoreCollisions */
-     , (45541,  13, True ) /* Ethereal */
-     , (45541,  14, True ) /* GravityStatus */
-     , (45541,  19, True ) /* Attackable */
-     , (45541,  22, True ) /* Inscribable */;
+VALUES (45541,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45541,   1, 'Training Dabus') /* Name */;

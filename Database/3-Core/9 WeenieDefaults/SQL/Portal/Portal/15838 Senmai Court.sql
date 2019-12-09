@@ -12,19 +12,13 @@ VALUES (15838,   1,      65536) /* ItemType - Portal */
      , (15838, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15838,   1, True ) /* Stuck */
-     , (15838,  12, True ) /* ReportCollisions */
-     , (15838,  13, True ) /* Ethereal */
-     , (15838,  14, True ) /* GravityStatus */
-     , (15838,  15, True ) /* LightsStatus */
-     , (15838,  19, True ) /* Attackable */;
+VALUES (15838,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15838,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15838,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15838,   1, 'Senmai Court') /* Name */
-     , (15838,  38, 'Senmai Court') /* AppraisalPortalDestination */
      , (15838, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

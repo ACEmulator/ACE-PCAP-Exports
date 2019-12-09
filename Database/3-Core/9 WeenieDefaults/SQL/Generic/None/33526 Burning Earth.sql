@@ -9,21 +9,15 @@ VALUES (33526,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33526,   1, True ) /* Stuck */
-     , (33526,  12, True ) /* ReportCollisions */
-     , (33526,  13, False) /* Ethereal */
-     , (33526,  15, True ) /* LightsStatus */
-     , (33526,  16, True ) /* ScriptedCollision */
-     , (33526,  17, True ) /* Inelastic */
-     , (33526,  19, True ) /* Attackable */
      , (33526,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33526,  77,       1) /* PhysicsScriptIntensity */
      , (33526,  78,       1) /* Friction */
      , (33526,  79,       0) /* Elasticity */
-     , (33526, 8010, -0.0763576030731201) /* PCAPRecordedVelocityX */
-     , (33526, 8011, 0.453726530075073) /* PCAPRecordedVelocityY */
-     , (33526, 8012, -0.385099679231644) /* PCAPRecordedVelocityZ */;
+     , (33526, 8010,   -0.08) /* PCAPRecordedVelocityX */
+     , (33526, 8011,    0.45) /* PCAPRecordedVelocityY */
+     , (33526, 8012,   -0.39) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33526,   1, 'Burning Earth') /* Name */;

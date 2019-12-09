@@ -16,7 +16,6 @@ VALUES (23912,   1,          1) /* ItemType - MeleeWeapon */
      , (23912,  48,         45) /* WeaponSkill - LightWeapons */
      , (23912,  49,         25) /* WeaponTime */
      , (23912,  51,          1) /* CombatUse - Melee */
-     , (23912,  65,        101) /* Placement - Resting */
      , (23912,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23912, 106,        400) /* ItemSpellcraft */
      , (23912, 107,        597) /* ItemCurMana */
@@ -28,25 +27,20 @@ VALUES (23912,   1,          1) /* ItemType - MeleeWeapon */
      , (23912, 160,        250) /* WieldDifficulty */
      , (23912, 166,          6) /* SlayerCreatureType - Tumerok */
      , (23912, 353,          6) /* WeaponType - Dagger */
-     , (23912, 8030,          0);
+     , (23912, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (23912, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23912,   1, False) /* Stuck */
-     , (23912,  11, True ) /* IgnoreCollisions */
-     , (23912,  13, True ) /* Ethereal */
-     , (23912,  14, True ) /* GravityStatus */
-     , (23912,  15, True ) /* LightsStatus */
-     , (23912,  19, True ) /* Attackable */
-     , (23912,  22, True ) /* Inscribable */;
+VALUES (23912,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23912,   5, -0.025000000372529) /* ManaRate */
+VALUES (23912,   5,   -0.03) /* ManaRate */
      , (23912,  21,       0) /* WeaponLength */
-     , (23912,  22, 0.699999988079071) /* DamageVariance */
+     , (23912,  22,     0.7) /* DamageVariance */
      , (23912,  26,       0) /* MaximumVelocity */
-     , (23912,  29, 1.05999994277954) /* WeaponDefense */
-     , (23912,  39, 1.20000004768372) /* DefaultScale */
-     , (23912,  62, 1.05999994277954) /* WeaponOffense */
+     , (23912,  29,    1.06) /* WeaponDefense */
+     , (23912,  39,     1.2) /* DefaultScale */
+     , (23912,  62,    1.06) /* WeaponOffense */
      , (23912,  63,       1) /* DamageMod */
      , (23912,  77,       1) /* PhysicsScriptIntensity */;
 

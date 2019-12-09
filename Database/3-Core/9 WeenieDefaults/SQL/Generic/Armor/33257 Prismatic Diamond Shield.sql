@@ -26,18 +26,13 @@ VALUES (33257,   1,          2) /* ItemType - Armor */
      , (33257, 176,         48) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33257,   1, False) /* Stuck */
-     , (33257,  11, True ) /* IgnoreCollisions */
-     , (33257,  13, True ) /* Ethereal */
-     , (33257,  14, True ) /* GravityStatus */
-     , (33257,  19, True ) /* Attackable */
-     , (33257,  22, True ) /* Inscribable */;
+VALUES (33257,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33257,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33257,   5,   -0.05) /* ManaRate */
      , (33257,  13,       1) /* ArmorModVsSlash */
      , (33257,  14,       1) /* ArmorModVsPierce */
-     , (33257,  15, 1.20000004768372) /* ArmorModVsBludgeon */
+     , (33257,  15,     1.2) /* ArmorModVsBludgeon */
      , (33257,  16,       2) /* ArmorModVsCold */
      , (33257,  17,       2) /* ArmorModVsFire */
      , (33257,  18,       2) /* ArmorModVsAcid */

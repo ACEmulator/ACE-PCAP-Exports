@@ -16,14 +16,10 @@ VALUES (33309,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33309,   1, True ) /* Stuck */
-     , (33309,  12, True ) /* ReportCollisions */
-     , (33309,  13, True ) /* Ethereal */
-     , (33309,  14, True ) /* GravityStatus */
-     , (33309,  19, False) /* Attackable */
-     , (33309,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (33309,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33309,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33309,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33309,   1, 'Shadow Storm') /* Name */

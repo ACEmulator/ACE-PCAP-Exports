@@ -11,12 +11,7 @@ VALUES (13155,   1,        128) /* ItemType - Misc */
      , (13155,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13155,   1, True ) /* Stuck */
-     , (13155,  11, True ) /* IgnoreCollisions */
-     , (13155,  12, True ) /* ReportCollisions */
-     , (13155,  13, False) /* Ethereal */
-     , (13155,  14, True ) /* GravityStatus */
-     , (13155,  19, True ) /* Attackable */;
+VALUES (13155,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13155,   1, 'East Rithwic Estates') /* Name */;

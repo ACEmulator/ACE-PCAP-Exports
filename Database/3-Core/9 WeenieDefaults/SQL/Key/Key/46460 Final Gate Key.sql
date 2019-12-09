@@ -9,19 +9,14 @@ VALUES (46460,   1,      16384) /* ItemType - Key */
      , (46460,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (46460,  18,         64) /* UiEffects - Lightning */
      , (46460,  19,      10000) /* Value */
-     , (46460,  65,        101) /* Placement - Resting */
      , (46460,  91,          1) /* MaxStructure */
      , (46460,  92,          1) /* Structure */
      , (46460,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46460,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (46460,  94,        640) /* TargetType - LockableMagicTarget */
+     , (46460, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46460,   1, False) /* Stuck */
-     , (46460,  11, True ) /* IgnoreCollisions */
-     , (46460,  13, True ) /* Ethereal */
-     , (46460,  14, True ) /* GravityStatus */
-     , (46460,  19, True ) /* Attackable */
-     , (46460,  22, True ) /* Inscribable */;
+VALUES (46460,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46460,   1, 'Final Gate Key') /* Name */;

@@ -12,17 +12,12 @@ VALUES (51510,   1,       2048) /* ItemType - Gem */
      , (51510,  15,        653) /* StackUnitValue */
      , (51510,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51510,  19,        653) /* Value */
-     , (51510,  65,        101) /* Placement - Resting */
      , (51510,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51510,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (51510,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (51510, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51510,   1, False) /* Stuck */
-     , (51510,  11, True ) /* IgnoreCollisions */
-     , (51510,  13, True ) /* Ethereal */
-     , (51510,  14, True ) /* GravityStatus */
-     , (51510,  19, True ) /* Attackable */
-     , (51510,  22, True ) /* Inscribable */;
+VALUES (51510,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51510,   1, 'Reinforced Falcon Banner with Symbol') /* Name */;

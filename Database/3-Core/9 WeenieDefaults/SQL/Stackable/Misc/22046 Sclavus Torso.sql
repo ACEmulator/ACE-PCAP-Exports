@@ -15,15 +15,10 @@ VALUES (22046,   1,        128) /* ItemType - Misc */
      , (22046, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22046,   1, False) /* Stuck */
-     , (22046,  11, True ) /* IgnoreCollisions */
-     , (22046,  13, True ) /* Ethereal */
-     , (22046,  14, True ) /* GravityStatus */
-     , (22046,  19, True ) /* Attackable */
-     , (22046,  22, True ) /* Inscribable */;
+VALUES (22046,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22046,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22046,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22046,   1, 'Sclavus Torso') /* Name */;

@@ -12,17 +12,12 @@ VALUES (24238,   1,        256) /* ItemType - MissileWeapon */
      , (24238,  19,       6000) /* Value */
      , (24238,  50,          4) /* AmmoType - Atlatl */
      , (24238,  51,          2) /* CombatUse - Missle */
-     , (24238,  65,          1) /* Placement - RightHandCombat */
      , (24238,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24238, 151,          2) /* HookType - Wall */;
+     , (24238, 151,          2) /* HookType - Wall */
+     , (24238, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24238,   1, False) /* Stuck */
-     , (24238,  11, True ) /* IgnoreCollisions */
-     , (24238,  13, True ) /* Ethereal */
-     , (24238,  14, True ) /* GravityStatus */
-     , (24238,  19, True ) /* Attackable */
-     , (24238,  22, True ) /* Inscribable */;
+VALUES (24238,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24238,   1, 'Olthoi Atlatl') /* Name */;

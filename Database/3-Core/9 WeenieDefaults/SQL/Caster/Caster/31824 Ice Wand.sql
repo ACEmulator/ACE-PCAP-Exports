@@ -24,16 +24,11 @@ VALUES (31824,   1,      32768) /* ItemType - Caster */
      , (31824, 178,         29) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31824,   1, False) /* Stuck */
-     , (31824,  11, True ) /* IgnoreCollisions */
-     , (31824,  13, True ) /* Ethereal */
-     , (31824,  14, True ) /* GravityStatus */
-     , (31824,  19, True ) /* Attackable */
-     , (31824,  22, True ) /* Inscribable */;
+VALUES (31824,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31824,  29,    1.06) /* WeaponDefense */
-     , (31824,  39, 0.800000011920929) /* DefaultScale */
+     , (31824,  39,     0.8) /* DefaultScale */
      , (31824, 144,    0.07) /* ManaConversionMod */
      , (31824, 152,    1.01) /* ElementalDamageMod */
      , (31824, 8004,       5) /* PCAPRecordedWorkmanship */;

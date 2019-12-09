@@ -12,17 +12,12 @@ VALUES (47655,   1,          1) /* ItemType - MeleeWeapon */
      , (47655,  18,         64) /* UiEffects - Lightning */
      , (47655,  19,        460) /* Value */
      , (47655,  51,          1) /* CombatUse - Melee */
-     , (47655,  65,          1) /* Placement - RightHandCombat */
      , (47655,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47655, 151,          2) /* HookType - Wall */;
+     , (47655, 151,          2) /* HookType - Wall */
+     , (47655, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47655,   1, False) /* Stuck */
-     , (47655,  11, True ) /* IgnoreCollisions */
-     , (47655,  13, True ) /* Ethereal */
-     , (47655,  14, True ) /* GravityStatus */
-     , (47655,  19, True ) /* Attackable */
-     , (47655,  22, True ) /* Inscribable */;
+VALUES (47655,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47655,   1, 'Lightning Tachi') /* Name */;

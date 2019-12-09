@@ -10,15 +10,8 @@ VALUES (35725,   1,       8192) /* ItemType - Writable */
      , (35725,  19,         50) /* Value */
      , (35725,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35725,   1, False) /* Stuck */
-     , (35725,  11, True ) /* IgnoreCollisions */
-     , (35725,  13, True ) /* Ethereal */
-     , (35725,  14, True ) /* GravityStatus */
-     , (35725,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35725,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (35725,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35725,   1, 'A Treatise on the Combat Uses of Alchemical Phials') /* Name */;

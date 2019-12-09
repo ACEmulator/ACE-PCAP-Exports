@@ -8,18 +8,12 @@ VALUES (22844,   1,        128) /* ItemType - Misc */
      , (22844,   5,        200) /* EncumbranceVal */
      , (22844,  16,          1) /* ItemUseable - No */
      , (22844,  19,       5000) /* Value */
-     , (22844,  65,        101) /* Placement - Resting */
-     , (22844,  93,      66588) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (22844, 151,          9) /* HookType - Floor, Yard */;
+     , (22844,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
+     , (22844, 151,          9) /* HookType - Floor, Yard */
+     , (22844, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22844,   1, False) /* Stuck */
-     , (22844,  11, True ) /* IgnoreCollisions */
-     , (22844,  12, True ) /* ReportCollisions */
-     , (22844,  13, True ) /* Ethereal */
-     , (22844,  14, True ) /* GravityStatus */
-     , (22844,  19, True ) /* Attackable */
-     , (22844,  22, True ) /* Inscribable */;
+VALUES (22844,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22844,   1, 'Log Stool') /* Name */

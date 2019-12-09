@@ -9,20 +9,15 @@ VALUES (39012,   1,      16384) /* ItemType - Key */
      , (39012,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (39012,  19,          0) /* Value */
      , (39012,  33,          1) /* Bonded - Bonded */
-     , (39012,  65,        101) /* Placement - Resting */
      , (39012,  91,          1) /* MaxStructure */
      , (39012,  92,          1) /* Structure */
      , (39012,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39012,  94,        640) /* TargetType - LockableMagicTarget */
-     , (39012, 114,          1) /* Attuned - Attuned */;
+     , (39012, 114,          1) /* Attuned - Attuned */
+     , (39012, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39012,   1, False) /* Stuck */
-     , (39012,  11, True ) /* IgnoreCollisions */
-     , (39012,  13, True ) /* Ethereal */
-     , (39012,  14, True ) /* GravityStatus */
-     , (39012,  19, True ) /* Attackable */
-     , (39012,  22, True ) /* Inscribable */;
+VALUES (39012,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39012,   1, 'Grimy Sea Invasion Key') /* Name */

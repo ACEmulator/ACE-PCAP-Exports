@@ -12,19 +12,13 @@ VALUES (15160,   1,      65536) /* ItemType - Portal */
      , (15160, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15160,   1, True ) /* Stuck */
-     , (15160,  12, True ) /* ReportCollisions */
-     , (15160,  13, True ) /* Ethereal */
-     , (15160,  14, True ) /* GravityStatus */
-     , (15160,  15, True ) /* LightsStatus */
-     , (15160,  19, True ) /* Attackable */;
+VALUES (15160,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15160,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15160,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15160,   1, 'Howling Wolf Villas Portal') /* Name */
-     , (15160,  38, 'Howling Wolf Villas Portal (28.6N, 17.7E).') /* AppraisalPortalDestination */
      , (15160, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

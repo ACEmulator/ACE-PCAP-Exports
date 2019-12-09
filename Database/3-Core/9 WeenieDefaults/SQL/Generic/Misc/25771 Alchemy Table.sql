@@ -8,17 +8,12 @@ VALUES (25771,   1,        128) /* ItemType - Misc */
      , (25771,   5,        300) /* EncumbranceVal */
      , (25771,  16,          1) /* ItemUseable - No */
      , (25771,  19,       6000) /* Value */
-     , (25771,  65,        101) /* Placement - Resting */
-     , (25771,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (25771, 151,          1) /* HookType - Floor */;
+     , (25771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (25771, 151,          1) /* HookType - Floor */
+     , (25771, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25771,   1, False) /* Stuck */
-     , (25771,  11, True ) /* IgnoreCollisions */
-     , (25771,  13, True ) /* Ethereal */
-     , (25771,  14, True ) /* GravityStatus */
-     , (25771,  19, True ) /* Attackable */
-     , (25771,  22, True ) /* Inscribable */;
+VALUES (25771,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25771,   1, 'Alchemy Table') /* Name */

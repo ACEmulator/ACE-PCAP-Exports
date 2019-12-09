@@ -8,19 +8,14 @@ VALUES (40582,   1,        128) /* ItemType - Misc */
      , (40582,   5,         75) /* EncumbranceVal */
      , (40582,  16,          1) /* ItemUseable - No */
      , (40582,  19,         75) /* Value */
-     , (40582,  65,        101) /* Placement - Resting */
-     , (40582,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (40582,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (40582, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40582,   1, False) /* Stuck */
-     , (40582,  11, True ) /* IgnoreCollisions */
-     , (40582,  13, True ) /* Ethereal */
-     , (40582,  14, True ) /* GravityStatus */
-     , (40582,  19, True ) /* Attackable */
-     , (40582,  22, True ) /* Inscribable */;
+VALUES (40582,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40582,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (40582,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40582,   1, 'Skipping Stone') /* Name */;

@@ -15,15 +15,10 @@ VALUES (33223,   1,         16) /* ItemType - Creature */
      , (33223, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33223,   1, True ) /* Stuck */
-     , (33223,  12, True ) /* ReportCollisions */
-     , (33223,  13, False) /* Ethereal */
-     , (33223,  14, True ) /* GravityStatus */
-     , (33223,  15, True ) /* LightsStatus */
-     , (33223,  19, True ) /* Attackable */;
+VALUES (33223,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33223,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (33223,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33223,   1, 'Child of Strife') /* Name */

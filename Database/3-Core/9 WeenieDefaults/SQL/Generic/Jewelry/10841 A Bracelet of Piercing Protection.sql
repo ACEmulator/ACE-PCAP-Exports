@@ -12,27 +12,22 @@ VALUES (10841,   1,          8) /* ItemType - Jewelry */
      , (10841,  18,          1) /* UiEffects - Magical */
      , (10841,  19,          0) /* Value */
      , (10841,  33,          1) /* Bonded - Bonded */
-     , (10841,  65,        101) /* Placement - Resting */
      , (10841,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10841, 106,        150) /* ItemSpellcraft */
      , (10841, 107,        600) /* ItemCurMana */
      , (10841, 108,        600) /* ItemMaxMana */
      , (10841, 109,        125) /* ItemDifficulty */
      , (10841, 114,          1) /* Attuned - Attuned */
-     , (10841, 151,          2) /* HookType - Wall */;
+     , (10841, 151,          2) /* HookType - Wall */
+     , (10841, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10841,   1, False) /* Stuck */
-     , (10841,  11, True ) /* IgnoreCollisions */
-     , (10841,  13, True ) /* Ethereal */
-     , (10841,  14, True ) /* GravityStatus */
-     , (10841,  19, True ) /* Attackable */
-     , (10841,  22, True ) /* Inscribable */
+VALUES (10841,  22, True ) /* Inscribable */
      , (10841,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10841,   5,   -0.04) /* ManaRate */
-     , (10841,  39, 0.670000016689301) /* DefaultScale */;
+     , (10841,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10841,   1, 'A Bracelet of Piercing Protection') /* Name */

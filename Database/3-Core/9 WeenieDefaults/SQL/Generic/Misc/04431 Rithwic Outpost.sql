@@ -8,16 +8,11 @@ VALUES (4431,   1,        128) /* ItemType - Misc */
      , (4431,   5,       9000) /* EncumbranceVal */
      , (4431,  16,          1) /* ItemUseable - No */
      , (4431,  19,        125) /* Value */
-     , (4431,  65,        101) /* Placement - Resting */
-     , (4431,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (4431,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (4431, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4431,   1, True ) /* Stuck */
-     , (4431,  11, True ) /* IgnoreCollisions */
-     , (4431,  12, True ) /* ReportCollisions */
-     , (4431,  13, False) /* Ethereal */
-     , (4431,  14, True ) /* GravityStatus */
-     , (4431,  19, True ) /* Attackable */;
+VALUES (4431,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4431,   1, 'Rithwic Outpost') /* Name */

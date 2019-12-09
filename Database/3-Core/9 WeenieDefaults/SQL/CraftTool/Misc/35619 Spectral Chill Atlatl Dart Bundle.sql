@@ -12,19 +12,12 @@ VALUES (35619,   1,        128) /* ItemType - Misc */
      , (35619,  15,          1) /* StackUnitValue */
      , (35619,  16,          8) /* ItemUseable - Contained */
      , (35619,  19,          1) /* Value */
-     , (35619,  65,        101) /* Placement - Resting */
      , (35619,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35619,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35619,   1, False) /* Stuck */
-     , (35619,  11, True ) /* IgnoreCollisions */
-     , (35619,  13, True ) /* Ethereal */
-     , (35619,  14, True ) /* GravityStatus */
-     , (35619,  19, True ) /* Attackable */;
+     , (35619,  94,         16) /* TargetType - Creature */
+     , (35619, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35619,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35619,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35619,   1, 'Spectral Chill Atlatl Dart Bundle') /* Name */;

@@ -11,11 +11,7 @@ VALUES (1804,   1,        128) /* ItemType - Misc */
      , (1804,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1804,   1, True ) /* Stuck */
-     , (1804,  11, True ) /* IgnoreCollisions */
-     , (1804,  12, True ) /* ReportCollisions */
-     , (1804,  13, False) /* Ethereal */
-     , (1804,  19, True ) /* Attackable */;
+VALUES (1804,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1804,   1, 'Bows and Arrows') /* Name */

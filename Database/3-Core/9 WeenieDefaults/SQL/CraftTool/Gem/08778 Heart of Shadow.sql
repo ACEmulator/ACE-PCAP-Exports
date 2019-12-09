@@ -12,18 +12,13 @@ VALUES (8778,   1,       2048) /* ItemType - Gem */
      , (8778,  15,          0) /* StackUnitValue */
      , (8778,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8778,  19,          0) /* Value */
-     , (8778,  65,        101) /* Placement - Resting */
      , (8778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8778,  94,       2048) /* TargetType - Gem */
-     , (8778, 151,          2) /* HookType - Wall */;
+     , (8778, 151,          2) /* HookType - Wall */
+     , (8778, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8778,   1, False) /* Stuck */
-     , (8778,  11, True ) /* IgnoreCollisions */
-     , (8778,  13, True ) /* Ethereal */
-     , (8778,  14, True ) /* GravityStatus */
-     , (8778,  19, True ) /* Attackable */
-     , (8778,  22, True ) /* Inscribable */;
+VALUES (8778,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8778,   1, 'Heart of Shadow') /* Name */

@@ -16,14 +16,10 @@ VALUES (12004,   1,         16) /* ItemType - Creature */
      , (12004, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12004,   1, True ) /* Stuck */
-     , (12004,  12, True ) /* ReportCollisions */
-     , (12004,  13, False) /* Ethereal */
-     , (12004,  14, True ) /* GravityStatus */
-     , (12004,  19, True ) /* Attackable */;
+VALUES (12004,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12004,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (12004,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12004,   1, 'Outcast Lord') /* Name */

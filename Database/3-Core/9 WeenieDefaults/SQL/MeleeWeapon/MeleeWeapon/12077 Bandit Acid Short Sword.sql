@@ -12,19 +12,14 @@ VALUES (12077,   1,          1) /* ItemType - MeleeWeapon */
      , (12077,  18,        256) /* UiEffects - Acid */
      , (12077,  19,        400) /* Value */
      , (12077,  51,          1) /* CombatUse - Melee */
-     , (12077,  65,          1) /* Placement - RightHandCombat */
-     , (12077,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12077,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12077, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12077,   1, False) /* Stuck */
-     , (12077,  11, True ) /* IgnoreCollisions */
-     , (12077,  13, True ) /* Ethereal */
-     , (12077,  14, True ) /* GravityStatus */
-     , (12077,  19, True ) /* Attackable */
-     , (12077,  22, True ) /* Inscribable */;
+VALUES (12077,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12077,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (12077,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12077,   1, 'Bandit Acid Short Sword') /* Name */;

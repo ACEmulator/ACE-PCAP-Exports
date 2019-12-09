@@ -15,12 +15,7 @@ VALUES (24290,   1,         16) /* ItemType - Creature */
      , (24290, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24290,   1, True ) /* Stuck */
-     , (24290,  12, True ) /* ReportCollisions */
-     , (24290,  13, False) /* Ethereal */
-     , (24290,  14, True ) /* GravityStatus */
-     , (24290,  19, True ) /* Attackable */
-     , (24290,  42, True ) /* AllowEdgeSlide */;
+VALUES (24290,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24290,   1, 'Insidious Monouga') /* Name */

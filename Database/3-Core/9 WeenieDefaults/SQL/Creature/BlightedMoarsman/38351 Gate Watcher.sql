@@ -15,15 +15,10 @@ VALUES (38351,   1,         16) /* ItemType - Creature */
      , (38351, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38351,   1, True ) /* Stuck */
-     , (38351,  12, True ) /* ReportCollisions */
-     , (38351,  13, False) /* Ethereal */
-     , (38351,  14, True ) /* GravityStatus */
-     , (38351,  19, True ) /* Attackable */
-     , (38351,  42, True ) /* AllowEdgeSlide */;
+VALUES (38351,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38351,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (38351,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38351,   1, 'Gate Watcher') /* Name */

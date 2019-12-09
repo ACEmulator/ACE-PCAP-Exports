@@ -9,17 +9,12 @@ VALUES (49481,   1,       2048) /* ItemType - Gem */
      , (49481,  16,          8) /* ItemUseable - Contained */
      , (49481,  19,          0) /* Value */
      , (49481,  33,          1) /* Bonded - Bonded */
-     , (49481,  65,        101) /* Placement - Resting */
      , (49481,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (49481, 114,          1) /* Attuned - Attuned */;
+     , (49481, 114,          1) /* Attuned - Attuned */
+     , (49481, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49481,   1, False) /* Stuck */
-     , (49481,  11, True ) /* IgnoreCollisions */
-     , (49481,  13, True ) /* Ethereal */
-     , (49481,  14, True ) /* GravityStatus */
-     , (49481,  19, True ) /* Attackable */
-     , (49481,  22, True ) /* Inscribable */;
+VALUES (49481,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49481,   1, 'Summoning Gem of Forgetfulness') /* Name */

@@ -8,15 +8,10 @@ VALUES (4520,   1,        128) /* ItemType - Misc */
      , (4520,   5,       9000) /* EncumbranceVal */
      , (4520,  16,          1) /* ItemUseable - No */
      , (4520,  19,        125) /* Value */
-     , (4520,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4520,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4520,   1, True ) /* Stuck */
-     , (4520,  11, True ) /* IgnoreCollisions */
-     , (4520,  12, True ) /* ReportCollisions */
-     , (4520,  13, False) /* Ethereal */
-     , (4520,  14, True ) /* GravityStatus */
-     , (4520,  19, True ) /* Attackable */;
+VALUES (4520,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4520,   1, 'Tailor Yajyi') /* Name */

@@ -13,7 +13,6 @@ VALUES (23936,   1,          2) /* ItemType - Armor */
      , (23936,  19,       4400) /* Value */
      , (23936,  28,        225) /* ArmorLevel */
      , (23936,  36,       9999) /* ResistMagic */
-     , (23936,  65,        101) /* Placement - Resting */
      , (23936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23936, 106,        300) /* ItemSpellcraft */
      , (23936, 107,       3785) /* ItemCurMana */
@@ -21,15 +20,11 @@ VALUES (23936,   1,          2) /* ItemType - Armor */
      , (23936, 109,         50) /* ItemDifficulty */
      , (23936, 158,          2) /* WieldRequirements - RawSkill */
      , (23936, 159,         34) /* WieldSkillType - WarMagic */
-     , (23936, 160,        315) /* WieldDifficulty */;
+     , (23936, 160,        315) /* WieldDifficulty */
+     , (23936, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23936,   1, False) /* Stuck */
-     , (23936,  11, True ) /* IgnoreCollisions */
-     , (23936,  13, True ) /* Ethereal */
-     , (23936,  14, True ) /* GravityStatus */
-     , (23936,  19, True ) /* Attackable */
-     , (23936,  22, True ) /* Inscribable */
+VALUES (23936,  22, True ) /* Inscribable */
      , (23936,  69, False) /* IsSellable */
      , (23936,  94, True ) /* AppraisalHasAllowedActivator */;
 

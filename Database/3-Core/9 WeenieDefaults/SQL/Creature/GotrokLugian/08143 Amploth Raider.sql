@@ -16,11 +16,7 @@ VALUES (8143,   1,         16) /* ItemType - Creature */
      , (8143, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8143,   1, True ) /* Stuck */
-     , (8143,  12, True ) /* ReportCollisions */
-     , (8143,  13, False) /* Ethereal */
-     , (8143,  14, True ) /* GravityStatus */
-     , (8143,  19, True ) /* Attackable */;
+VALUES (8143,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8143,   1, 'Amploth Raider') /* Name */

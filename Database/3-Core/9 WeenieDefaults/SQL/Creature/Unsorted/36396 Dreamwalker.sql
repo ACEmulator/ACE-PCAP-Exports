@@ -13,14 +13,10 @@ VALUES (36396,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36396,   1, True ) /* Stuck */
-     , (36396,  11, True ) /* IgnoreCollisions */
-     , (36396,  13, True ) /* Ethereal */
-     , (36396,  14, True ) /* GravityStatus */
-     , (36396,  19, False) /* Attackable */
-     , (36396,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (36396,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36396,  76, 0.899999976158142) /* Translucency */;
+VALUES (36396,  76,     0.9) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36396,   1, 'Dreamwalker') /* Name */

@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11240,   1,        128) /* ItemType - Misc */
      , (11240,   5,        600) /* EncumbranceVal */
      , (11240,  16,          1) /* ItemUseable - No */
-     , (11240,  65,        101) /* Placement - Resting */
-     , (11240,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11240,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11240, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11240,   1, False) /* Stuck */
-     , (11240,  11, True ) /* IgnoreCollisions */
-     , (11240,  13, True ) /* Ethereal */
-     , (11240,  14, True ) /* GravityStatus */
-     , (11240,  19, True ) /* Attackable */
-     , (11240,  22, True ) /* Inscribable */;
+VALUES (11240,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11240,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (11240,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11240,   1, 'Kalindan of Palenqual') /* Name */;

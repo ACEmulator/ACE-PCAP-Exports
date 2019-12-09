@@ -8,17 +8,12 @@ VALUES (24842,   1,        128) /* ItemType - Misc */
      , (24842,   5,         10) /* EncumbranceVal */
      , (24842,  16,          1) /* ItemUseable - No */
      , (24842,  19,         15) /* Value */
-     , (24842,  65,        101) /* Placement - Resting */
      , (24842,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24842, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (24842, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (24842, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24842,   1, False) /* Stuck */
-     , (24842,  11, True ) /* IgnoreCollisions */
-     , (24842,  13, True ) /* Ethereal */
-     , (24842,  14, True ) /* GravityStatus */
-     , (24842,  19, True ) /* Attackable */
-     , (24842,  22, True ) /* Inscribable */;
+VALUES (24842,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24842,   1, 'Telumiat Hollow Minion Essence') /* Name */;

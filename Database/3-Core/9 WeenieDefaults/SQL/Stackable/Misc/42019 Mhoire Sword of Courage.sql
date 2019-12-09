@@ -13,20 +13,15 @@ VALUES (42019,   1,        128) /* ItemType - Misc */
      , (42019,  16,          1) /* ItemUseable - No */
      , (42019,  19,          0) /* Value */
      , (42019,  33,          1) /* Bonded - Bonded */
-     , (42019,  65,        101) /* Placement - Resting */
      , (42019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42019,  98, 1483951618) /* CreationTimestamp */
      , (42019, 114,          1) /* Attuned - Attuned */
      , (42019, 267,        300) /* Lifespan */
-     , (42019, 268,        300) /* RemainingLifespan */;
+     , (42019, 268,        300) /* RemainingLifespan */
+     , (42019, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42019,   1, False) /* Stuck */
-     , (42019,  11, True ) /* IgnoreCollisions */
-     , (42019,  13, True ) /* Ethereal */
-     , (42019,  14, True ) /* GravityStatus */
-     , (42019,  19, True ) /* Attackable */
-     , (42019,  69, False) /* IsSellable */;
+VALUES (42019,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42019,   1, 'Mhoire Sword of Courage') /* Name */

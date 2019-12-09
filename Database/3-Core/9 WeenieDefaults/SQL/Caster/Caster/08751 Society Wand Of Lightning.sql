@@ -10,18 +10,13 @@ VALUES (8751,   1,      32768) /* ItemType - Caster */
      , (8751,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (8751,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8751,  19,          1) /* Value */
-     , (8751,  65,          1) /* Placement - RightHandCombat */
      , (8751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8751,  94,         16) /* TargetType - Creature */
-     , (8751, 151,          2) /* HookType - Wall */;
+     , (8751, 151,          2) /* HookType - Wall */
+     , (8751, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8751,   1, False) /* Stuck */
-     , (8751,  11, True ) /* IgnoreCollisions */
-     , (8751,  13, True ) /* Ethereal */
-     , (8751,  14, True ) /* GravityStatus */
-     , (8751,  19, True ) /* Attackable */
-     , (8751,  22, True ) /* Inscribable */;
+VALUES (8751,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8751,   1, 'Society Wand Of Lightning') /* Name */;

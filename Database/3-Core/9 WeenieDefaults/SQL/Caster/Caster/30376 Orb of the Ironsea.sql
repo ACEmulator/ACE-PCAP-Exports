@@ -33,19 +33,14 @@ VALUES (30376,   4, 100000000000) /* ItemTotalXp */
      , (30376,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30376,   1, False) /* Stuck */
-     , (30376,  11, True ) /* IgnoreCollisions */
-     , (30376,  13, True ) /* Ethereal */
-     , (30376,  14, True ) /* GravityStatus */
-     , (30376,  19, True ) /* Attackable */
-     , (30376,  22, True ) /* Inscribable */;
+VALUES (30376,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30376,   5, -0.0333333015441895) /* ManaRate */
-     , (30376,  29, 1.37999995052814) /* WeaponDefense */
-     , (30376, 144, 0.324000004291534) /* ManaConversionMod */
+VALUES (30376,   5,   -0.03) /* ManaRate */
+     , (30376,  29,    1.38) /* WeaponDefense */
+     , (30376, 144,    0.32) /* ManaConversionMod */
      , (30376, 147,       1) /* CriticalFrequency */
-     , (30376, 152, 1.34999997913837) /* ElementalDamageMod */;
+     , (30376, 152,    1.35) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30376,   1, 'Orb of the Ironsea') /* Name */;

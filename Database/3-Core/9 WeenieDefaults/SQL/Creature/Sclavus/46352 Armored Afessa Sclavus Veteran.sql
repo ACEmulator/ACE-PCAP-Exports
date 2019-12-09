@@ -15,14 +15,10 @@ VALUES (46352,   1,         16) /* ItemType - Creature */
      , (46352, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46352,   1, True ) /* Stuck */
-     , (46352,  12, True ) /* ReportCollisions */
-     , (46352,  13, False) /* Ethereal */
-     , (46352,  14, True ) /* GravityStatus */
-     , (46352,  19, True ) /* Attackable */;
+VALUES (46352,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46352,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (46352,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46352,   1, 'Armored Afessa Sclavus Veteran') /* Name */

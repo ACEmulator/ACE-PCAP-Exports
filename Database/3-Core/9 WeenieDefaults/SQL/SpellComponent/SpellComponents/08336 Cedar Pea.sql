@@ -12,18 +12,11 @@ VALUES (8336,   1,       4096) /* ItemType - SpellComponents */
      , (8336,  15,        250) /* StackUnitValue */
      , (8336,  16,          1) /* ItemUseable - No */
      , (8336,  19,        250) /* Value */
-     , (8336,  65,        101) /* Placement - Resting */
-     , (8336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8336,   1, False) /* Stuck */
-     , (8336,  11, True ) /* IgnoreCollisions */
-     , (8336,  13, True ) /* Ethereal */
-     , (8336,  14, True ) /* GravityStatus */
-     , (8336,  19, True ) /* Attackable */;
+     , (8336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8336, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8336,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8336,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8336,   1, 'Cedar Pea') /* Name */;

@@ -12,18 +12,11 @@ VALUES (8318,   1,       4096) /* ItemType - SpellComponents */
      , (8318,  15,        625) /* StackUnitValue */
      , (8318,  16,          1) /* ItemUseable - No */
      , (8318,  19,        625) /* Value */
-     , (8318,  65,        101) /* Placement - Resting */
-     , (8318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8318,   1, False) /* Stuck */
-     , (8318,  11, True ) /* IgnoreCollisions */
-     , (8318,  13, True ) /* Ethereal */
-     , (8318,  14, True ) /* GravityStatus */
-     , (8318,  19, True ) /* Attackable */;
+     , (8318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8318, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8318,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8318,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8318,   1, 'Powdered Carnelian Pea') /* Name */;

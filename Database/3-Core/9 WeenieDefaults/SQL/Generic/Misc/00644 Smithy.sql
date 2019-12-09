@@ -8,20 +8,15 @@ VALUES (644,   1,        128) /* ItemType - Misc */
      , (644,   5,       9000) /* EncumbranceVal */
      , (644,  16,          1) /* ItemUseable - No */
      , (644,  19,        125) /* Value */
-     , (644,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (644,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (644,   1, True ) /* Stuck */
-     , (644,  11, True ) /* IgnoreCollisions */
-     , (644,  12, True ) /* ReportCollisions */
-     , (644,  13, False) /* Ethereal */
-     , (644,  14, True ) /* GravityStatus */
-     , (644,  19, True ) /* Attackable */;
+VALUES (644,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (644, 8010,       0) /* PCAPRecordedVelocityX */
      , (644, 8011,       0) /* PCAPRecordedVelocityY */
-     , (644, 8012, -0.121671594679356) /* PCAPRecordedVelocityZ */;
+     , (644, 8012,   -0.12) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (644,   1, 'Smithy') /* Name */

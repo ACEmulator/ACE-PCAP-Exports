@@ -11,11 +11,7 @@ VALUES (1807,   1,        128) /* ItemType - Misc */
      , (1807,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1807,   1, True ) /* Stuck */
-     , (1807,  11, True ) /* IgnoreCollisions */
-     , (1807,  12, True ) /* ReportCollisions */
-     , (1807,  13, False) /* Ethereal */
-     , (1807,  19, True ) /* Attackable */;
+VALUES (1807,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1807,   1, 'Nashima''s Nostrums') /* Name */

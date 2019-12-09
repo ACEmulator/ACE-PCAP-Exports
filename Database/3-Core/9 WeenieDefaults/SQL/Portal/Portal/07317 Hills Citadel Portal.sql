@@ -12,19 +12,13 @@ VALUES (7317,   1,      65536) /* ItemType - Portal */
      , (7317, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7317,   1, True ) /* Stuck */
-     , (7317,  12, True ) /* ReportCollisions */
-     , (7317,  13, True ) /* Ethereal */
-     , (7317,  14, True ) /* GravityStatus */
-     , (7317,  15, True ) /* LightsStatus */
-     , (7317,  19, True ) /* Attackable */;
+VALUES (7317,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7317,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7317,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7317,   1, 'Hills Citadel Portal') /* Name */
-     , (7317,  38, 'Hills Citadel Portal') /* AppraisalPortalDestination */
      , (7317, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

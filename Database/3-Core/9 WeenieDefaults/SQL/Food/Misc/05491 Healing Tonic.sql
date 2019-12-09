@@ -12,16 +12,9 @@ VALUES (5491,   1,        128) /* ItemType - Misc */
      , (5491,  15,          1) /* StackUnitValue */
      , (5491,  16,          8) /* ItemUseable - Contained */
      , (5491,  19,          1) /* Value */
-     , (5491,  65,        101) /* Placement - Resting */
      , (5491,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5491, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5491,   1, False) /* Stuck */
-     , (5491,  11, True ) /* IgnoreCollisions */
-     , (5491,  13, True ) /* Ethereal */
-     , (5491,  14, True ) /* GravityStatus */
-     , (5491,  19, True ) /* Attackable */;
+     , (5491, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (5491, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5491,   1, 'Healing Tonic') /* Name */;

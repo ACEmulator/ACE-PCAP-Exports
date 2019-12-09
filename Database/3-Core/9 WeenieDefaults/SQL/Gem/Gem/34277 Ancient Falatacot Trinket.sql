@@ -12,18 +12,11 @@ VALUES (34277,   1,       2048) /* ItemType - Gem */
      , (34277,  15,      10000) /* StackUnitValue */
      , (34277,  16,          1) /* ItemUseable - No */
      , (34277,  19,      10000) /* Value */
-     , (34277,  65,        101) /* Placement - Resting */
-     , (34277,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34277,   1, False) /* Stuck */
-     , (34277,  11, True ) /* IgnoreCollisions */
-     , (34277,  13, True ) /* Ethereal */
-     , (34277,  14, True ) /* GravityStatus */
-     , (34277,  19, True ) /* Attackable */;
+     , (34277,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34277, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34277,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (34277,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34277,   1, 'Ancient Falatacot Trinket') /* Name */

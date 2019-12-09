@@ -11,12 +11,7 @@ VALUES (15265,   1,        128) /* ItemType - Misc */
      , (15265,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15265,   1, True ) /* Stuck */
-     , (15265,  11, True ) /* IgnoreCollisions */
-     , (15265,  12, True ) /* ReportCollisions */
-     , (15265,  13, False) /* Ethereal */
-     , (15265,  14, True ) /* GravityStatus */
-     , (15265,  19, True ) /* Attackable */;
+VALUES (15265,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15265,   1, 'Village Quan') /* Name */;

@@ -8,19 +8,12 @@ VALUES (5696,   1,       8192) /* ItemType - Writable */
      , (5696,   5,        280) /* EncumbranceVal */
      , (5696,  16,          8) /* ItemUseable - Contained */
      , (5696,  19,        120) /* Value */
-     , (5696,  65,        101) /* Placement - Resting */
-     , (5696,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5696,   1, False) /* Stuck */
-     , (5696,  11, True ) /* IgnoreCollisions */
-     , (5696,  13, True ) /* Ethereal */
-     , (5696,  14, True ) /* GravityStatus */
-     , (5696,  19, True ) /* Attackable */;
+     , (5696,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5696, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5696,  39, 1.22000002861023) /* DefaultScale */
-     , (5696,  54, 0.300000011920929) /* UseRadius */;
+VALUES (5696,  39,    1.22) /* DefaultScale */
+     , (5696,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5696,   1, 'Lashanda''s Hand') /* Name */;

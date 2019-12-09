@@ -15,15 +15,10 @@ VALUES (19538,   1,         16) /* ItemType - Creature */
      , (19538, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19538,   1, True ) /* Stuck */
-     , (19538,  12, True ) /* ReportCollisions */
-     , (19538,  13, False) /* Ethereal */
-     , (19538,  14, True ) /* GravityStatus */
-     , (19538,  15, True ) /* LightsStatus */
-     , (19538,  19, True ) /* Attackable */;
+VALUES (19538,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19538,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (19538,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19538,   1, 'Blizzard') /* Name */

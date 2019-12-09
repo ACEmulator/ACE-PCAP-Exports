@@ -12,18 +12,11 @@ VALUES (772,   1,       4096) /* ItemType - SpellComponents */
      , (772,  15,         10) /* StackUnitValue */
      , (772,  16,          1) /* ItemUseable - No */
      , (772,  19,         10) /* Value */
-     , (772,  65,        101) /* Placement - Resting */
-     , (772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (772,   1, False) /* Stuck */
-     , (772,  11, True ) /* IgnoreCollisions */
-     , (772,  13, True ) /* Ethereal */
-     , (772,  14, True ) /* GravityStatus */
-     , (772,  19, True ) /* Attackable */;
+     , (772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (772,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (772,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (772,   1, 'Hawthorn') /* Name */

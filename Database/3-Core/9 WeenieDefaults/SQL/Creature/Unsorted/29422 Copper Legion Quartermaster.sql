@@ -13,14 +13,10 @@ VALUES (29422,   1,         16) /* ItemType - Creature */
      , (29422, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29422,   1, True ) /* Stuck */
-     , (29422,  12, True ) /* ReportCollisions */
-     , (29422,  13, False) /* Ethereal */
-     , (29422,  14, True ) /* GravityStatus */
-     , (29422,  19, True ) /* Attackable */;
+VALUES (29422,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29422,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (29422,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29422,   1, 'Copper Legion Quartermaster') /* Name */

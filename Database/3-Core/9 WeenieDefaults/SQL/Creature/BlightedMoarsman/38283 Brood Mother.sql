@@ -15,14 +15,10 @@ VALUES (38283,   1,         16) /* ItemType - Creature */
      , (38283, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38283,   1, True ) /* Stuck */
-     , (38283,  12, True ) /* ReportCollisions */
-     , (38283,  13, False) /* Ethereal */
-     , (38283,  14, True ) /* GravityStatus */
-     , (38283,  19, True ) /* Attackable */;
+VALUES (38283,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38283,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (38283,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38283,   1, 'Brood Mother') /* Name */

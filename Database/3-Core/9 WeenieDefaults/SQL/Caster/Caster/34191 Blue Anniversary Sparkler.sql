@@ -10,23 +10,18 @@ VALUES (34191,   1,      32768) /* ItemType - Caster */
      , (34191,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (34191,  16,          1) /* ItemUseable - No */
      , (34191,  19,         10) /* Value */
-     , (34191,  65,          1) /* Placement - RightHandCombat */
      , (34191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34191,  94,         16) /* TargetType - Creature */
-     , (34191, 151,          2) /* HookType - Wall */;
+     , (34191, 151,          2) /* HookType - Wall */
+     , (34191, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34191,   1, False) /* Stuck */
-     , (34191,  11, True ) /* IgnoreCollisions */
-     , (34191,  13, True ) /* Ethereal */
-     , (34191,  14, True ) /* GravityStatus */
-     , (34191,  19, True ) /* Attackable */
-     , (34191,  22, True ) /* Inscribable */;
+VALUES (34191,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34191,  29,       1) /* WeaponDefense */
      , (34191,  39,     1.5) /* DefaultScale */
-     , (34191, 144, 1.44770203845066E-314) /* ManaConversionMod */;
+     , (34191, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34191,   1, 'Blue Anniversary Sparkler') /* Name */

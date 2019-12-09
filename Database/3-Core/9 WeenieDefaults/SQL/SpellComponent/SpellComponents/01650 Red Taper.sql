@@ -12,15 +12,8 @@ VALUES (1650,   1,       4096) /* ItemType - SpellComponents */
      , (1650,  15,         25) /* StackUnitValue */
      , (1650,  16,          1) /* ItemUseable - No */
      , (1650,  19,         25) /* Value */
-     , (1650,  65,        101) /* Placement - Resting */
-     , (1650,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1650,   1, False) /* Stuck */
-     , (1650,  11, True ) /* IgnoreCollisions */
-     , (1650,  13, True ) /* Ethereal */
-     , (1650,  14, True ) /* GravityStatus */
-     , (1650,  19, True ) /* Attackable */;
+     , (1650,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (1650, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1650,   1, 'Red Taper') /* Name */;

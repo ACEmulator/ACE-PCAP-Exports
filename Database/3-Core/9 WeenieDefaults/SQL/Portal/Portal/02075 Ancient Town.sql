@@ -12,19 +12,13 @@ VALUES (2075,   1,      65536) /* ItemType - Portal */
      , (2075, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2075,   1, True ) /* Stuck */
-     , (2075,  12, True ) /* ReportCollisions */
-     , (2075,  13, True ) /* Ethereal */
-     , (2075,  14, True ) /* GravityStatus */
-     , (2075,  15, True ) /* LightsStatus */
-     , (2075,  19, True ) /* Attackable */;
+VALUES (2075,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2075,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2075,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2075,   1, 'Ancient Town') /* Name */
-     , (2075,  38, 'Ancient Town (61.8S, 39.9E).') /* AppraisalPortalDestination */
      , (2075, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

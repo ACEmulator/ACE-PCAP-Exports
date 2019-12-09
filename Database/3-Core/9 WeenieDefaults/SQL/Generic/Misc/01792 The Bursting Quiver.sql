@@ -11,11 +11,7 @@ VALUES (1792,   1,        128) /* ItemType - Misc */
      , (1792,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1792,   1, True ) /* Stuck */
-     , (1792,  11, True ) /* IgnoreCollisions */
-     , (1792,  12, True ) /* ReportCollisions */
-     , (1792,  13, False) /* Ethereal */
-     , (1792,  19, True ) /* Attackable */;
+VALUES (1792,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1792,   1, 'The Bursting Quiver') /* Name */

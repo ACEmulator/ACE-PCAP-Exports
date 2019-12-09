@@ -16,12 +16,7 @@ VALUES (32171,   1,        128) /* ItemType - Misc */
      , (32171, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32171,   1, False) /* Stuck */
-     , (32171,  11, True ) /* IgnoreCollisions */
-     , (32171,  13, True ) /* Ethereal */
-     , (32171,  14, True ) /* GravityStatus */
-     , (32171,  19, True ) /* Attackable */
-     , (32171,  22, True ) /* Inscribable */;
+VALUES (32171,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32171,   1, 'Ursuin Legs') /* Name */;

@@ -11,28 +11,23 @@ VALUES (11786,   1,      32768) /* ItemType - Caster */
      , (11786,  18,          1) /* UiEffects - Magical */
      , (11786,  19,          0) /* Value */
      , (11786,  33,          1) /* Bonded - Bonded */
-     , (11786,  65,        101) /* Placement - Resting */
      , (11786,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11786,  94,         16) /* TargetType - Creature */
      , (11786, 106,        200) /* ItemSpellcraft */
      , (11786, 107,        800) /* ItemCurMana */
      , (11786, 108,        800) /* ItemMaxMana */
      , (11786, 109,         90) /* ItemDifficulty */
-     , (11786, 114,          1) /* Attuned - Attuned */;
+     , (11786, 114,          1) /* Attuned - Attuned */
+     , (11786, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11786,   1, False) /* Stuck */
-     , (11786,  11, True ) /* IgnoreCollisions */
-     , (11786,  13, True ) /* Ethereal */
-     , (11786,  14, True ) /* GravityStatus */
-     , (11786,  19, True ) /* Attackable */
-     , (11786,  22, True ) /* Inscribable */
+VALUES (11786,  22, True ) /* Inscribable */
      , (11786,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11786,   5, -0.0329999998211861) /* ManaRate */
+VALUES (11786,   5,   -0.03) /* ManaRate */
      , (11786,  29,       1) /* WeaponDefense */
-     , (11786, 144, 1.61136287304475E-314) /* ManaConversionMod */;
+     , (11786, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11786,   1, 'Reinforced Reedshark Banner with Symbol') /* Name */

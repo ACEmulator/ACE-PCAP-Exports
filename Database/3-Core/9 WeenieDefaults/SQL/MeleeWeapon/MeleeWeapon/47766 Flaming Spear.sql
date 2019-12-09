@@ -12,17 +12,12 @@ VALUES (47766,   1,          1) /* ItemType - MeleeWeapon */
      , (47766,  18,         32) /* UiEffects - Fire */
      , (47766,  19,        170) /* Value */
      , (47766,  51,          1) /* CombatUse - Melee */
-     , (47766,  65,          1) /* Placement - RightHandCombat */
      , (47766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47766, 151,          2) /* HookType - Wall */;
+     , (47766, 151,          2) /* HookType - Wall */
+     , (47766, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47766,   1, False) /* Stuck */
-     , (47766,  11, True ) /* IgnoreCollisions */
-     , (47766,  13, True ) /* Ethereal */
-     , (47766,  14, True ) /* GravityStatus */
-     , (47766,  19, True ) /* Attackable */
-     , (47766,  22, True ) /* Inscribable */;
+VALUES (47766,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47766,   1, 'Flaming Spear') /* Name */;

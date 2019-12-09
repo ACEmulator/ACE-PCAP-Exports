@@ -11,7 +11,6 @@ VALUES (32984,   1,      32768) /* ItemType - Caster */
      , (32984,  18,       1024) /* UiEffects - Slashing */
      , (32984,  19,      10000) /* Value */
      , (32984,  45,          1) /* DamageType - Slash */
-     , (32984,  65,        101) /* Placement - Resting */
      , (32984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32984,  94,         16) /* TargetType - Creature */
      , (32984, 106,        400) /* ItemSpellcraft */
@@ -21,15 +20,11 @@ VALUES (32984,   1,      32768) /* ItemType - Caster */
      , (32984, 151,          2) /* HookType - Wall */
      , (32984, 158,          7) /* WieldRequirements - Level */
      , (32984, 159,          1) /* WieldSkillType - Axe */
-     , (32984, 160,        100) /* WieldDifficulty */;
+     , (32984, 160,        100) /* WieldDifficulty */
+     , (32984, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32984,   1, False) /* Stuck */
-     , (32984,  11, True ) /* IgnoreCollisions */
-     , (32984,  13, True ) /* Ethereal */
-     , (32984,  14, True ) /* GravityStatus */
-     , (32984,  19, True ) /* Attackable */
-     , (32984,  22, True ) /* Inscribable */
+VALUES (32984,  22, True ) /* Inscribable */
      , (32984,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,7 +33,7 @@ VALUES (32984,   5,   -0.05) /* ManaRate */
      , (32984,  39,     1.5) /* DefaultScale */
      , (32984, 144,    0.15) /* ManaConversionMod */
      , (32984, 147,       1) /* CriticalFrequency */
-     , (32984, 150,   1.025) /* WeaponMagicDefense */
+     , (32984, 150,    1.02) /* WeaponMagicDefense */
      , (32984, 152,     1.1) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

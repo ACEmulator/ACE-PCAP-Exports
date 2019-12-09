@@ -16,14 +16,10 @@ VALUES (30638,   1,         16) /* ItemType - Creature */
      , (30638, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30638,   1, True ) /* Stuck */
-     , (30638,  12, True ) /* ReportCollisions */
-     , (30638,  13, False) /* Ethereal */
-     , (30638,  14, True ) /* GravityStatus */
-     , (30638,  19, True ) /* Attackable */;
+VALUES (30638,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30638,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30638,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30638,   1, 'Banderling Spirit Dancer') /* Name */

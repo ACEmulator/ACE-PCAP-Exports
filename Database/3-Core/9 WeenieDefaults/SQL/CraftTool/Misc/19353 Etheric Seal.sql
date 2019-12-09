@@ -16,12 +16,7 @@ VALUES (19353,   1,        128) /* ItemType - Misc */
      , (19353,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19353,   1, False) /* Stuck */
-     , (19353,  11, True ) /* IgnoreCollisions */
-     , (19353,  13, True ) /* Ethereal */
-     , (19353,  14, True ) /* GravityStatus */
-     , (19353,  19, True ) /* Attackable */
-     , (19353,  22, True ) /* Inscribable */;
+VALUES (19353,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19353,   1, 'Etheric Seal') /* Name */

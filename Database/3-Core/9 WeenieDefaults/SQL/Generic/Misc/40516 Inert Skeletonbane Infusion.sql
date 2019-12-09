@@ -8,16 +8,11 @@ VALUES (40516,   1,        128) /* ItemType - Misc */
      , (40516,   5,         15) /* EncumbranceVal */
      , (40516,  16,          1) /* ItemUseable - No */
      , (40516,  19,         15) /* Value */
-     , (40516,  65,        101) /* Placement - Resting */
-     , (40516,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (40516,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (40516, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40516,   1, False) /* Stuck */
-     , (40516,  11, True ) /* IgnoreCollisions */
-     , (40516,  13, True ) /* Ethereal */
-     , (40516,  14, True ) /* GravityStatus */
-     , (40516,  19, True ) /* Attackable */
-     , (40516,  22, True ) /* Inscribable */;
+VALUES (40516,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40516,   1, 'Inert Skeletonbane Infusion') /* Name */;

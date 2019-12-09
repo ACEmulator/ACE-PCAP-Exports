@@ -18,7 +18,6 @@ VALUES (25607,   1,          1) /* ItemType - MeleeWeapon */
      , (25607,  48,         45) /* WeaponSkill - LightWeapons */
      , (25607,  49,         25) /* WeaponTime */
      , (25607,  51,          1) /* CombatUse - Melee */
-     , (25607,  65,        101) /* Placement - Resting */
      , (25607,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25607, 106,        300) /* ItemSpellcraft */
      , (25607, 107,        314) /* ItemCurMana */
@@ -30,24 +29,20 @@ VALUES (25607,   1,          1) /* ItemType - MeleeWeapon */
      , (25607, 159,         45) /* WieldSkillType - LightWeapons */
      , (25607, 160,        325) /* WieldDifficulty */
      , (25607, 166,         31) /* SlayerCreatureType - Human */
-     , (25607, 8030,          0);
+     , (25607, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (25607, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25607,   1, False) /* Stuck */
-     , (25607,  11, True ) /* IgnoreCollisions */
-     , (25607,  13, True ) /* Ethereal */
-     , (25607,  14, True ) /* GravityStatus */
-     , (25607,  19, True ) /* Attackable */
-     , (25607,  22, True ) /* Inscribable */
+VALUES (25607,  22, True ) /* Inscribable */
      , (25607,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25607,   5, -0.025000000372529) /* ManaRate */
+VALUES (25607,   5,   -0.03) /* ManaRate */
      , (25607,  21,       0) /* WeaponLength */
-     , (25607,  22, 0.400000005960464) /* DamageVariance */
+     , (25607,  22,     0.4) /* DamageVariance */
      , (25607,  26,       0) /* MaximumVelocity */
-     , (25607,  29, 1.17999994754791) /* WeaponDefense */
-     , (25607,  62, 1.23000001907349) /* WeaponOffense */
+     , (25607,  29,    1.18) /* WeaponDefense */
+     , (25607,  62,    1.23) /* WeaponOffense */
      , (25607,  63,       1) /* DamageMod */
      , (25607, 155,       1) /* IgnoreArmor */;
 

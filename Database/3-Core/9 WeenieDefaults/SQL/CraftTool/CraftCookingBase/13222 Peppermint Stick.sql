@@ -16,13 +16,6 @@ VALUES (13222,   1,    4194304) /* ItemType - CraftCookingBase */
      , (13222,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */
      , (13222, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13222,   1, False) /* Stuck */
-     , (13222,  11, True ) /* IgnoreCollisions */
-     , (13222,  13, True ) /* Ethereal */
-     , (13222,  14, True ) /* GravityStatus */
-     , (13222,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13222,   1, 'Peppermint Stick') /* Name */
      , (13222,  14, 'This item is used in cooking.') /* Use */

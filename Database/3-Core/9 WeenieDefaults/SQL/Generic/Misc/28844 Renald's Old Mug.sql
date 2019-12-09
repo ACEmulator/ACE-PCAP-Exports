@@ -9,17 +9,12 @@ VALUES (28844,   1,        128) /* ItemType - Misc */
      , (28844,  16,          1) /* ItemUseable - No */
      , (28844,  19,          0) /* Value */
      , (28844,  33,          1) /* Bonded - Bonded */
-     , (28844,  65,        101) /* Placement - Resting */
      , (28844,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28844, 114,          1) /* Attuned - Attuned */;
+     , (28844, 114,          1) /* Attuned - Attuned */
+     , (28844, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28844,   1, False) /* Stuck */
-     , (28844,  11, True ) /* IgnoreCollisions */
-     , (28844,  13, True ) /* Ethereal */
-     , (28844,  14, True ) /* GravityStatus */
-     , (28844,  19, True ) /* Attackable */
-     , (28844,  22, True ) /* Inscribable */;
+VALUES (28844,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28844,   1, 'Renald''s Old Mug') /* Name */

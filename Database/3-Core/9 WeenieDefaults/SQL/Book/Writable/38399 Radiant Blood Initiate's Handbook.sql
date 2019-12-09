@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38399,   1,       8192) /* ItemType - Writable */
      , (38399,   5,        100) /* EncumbranceVal */
      , (38399,  16,          8) /* ItemUseable - Contained */
-     , (38399,  65,        101) /* Placement - Resting */
-     , (38399,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38399,   1, False) /* Stuck */
-     , (38399,  11, True ) /* IgnoreCollisions */
-     , (38399,  13, True ) /* Ethereal */
-     , (38399,  14, True ) /* GravityStatus */
-     , (38399,  19, True ) /* Attackable */;
+     , (38399,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38399, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38399,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (38399,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38399,   1, 'Radiant Blood Initiate''s Handbook') /* Name */;

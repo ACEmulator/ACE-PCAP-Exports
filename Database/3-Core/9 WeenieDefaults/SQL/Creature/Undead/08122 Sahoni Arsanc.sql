@@ -16,15 +16,10 @@ VALUES (8122,   1,         16) /* ItemType - Creature */
      , (8122, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8122,   1, True ) /* Stuck */
-     , (8122,  12, True ) /* ReportCollisions */
-     , (8122,  13, False) /* Ethereal */
-     , (8122,  14, True ) /* GravityStatus */
-     , (8122,  19, True ) /* Attackable */
-     , (8122,  42, True ) /* AllowEdgeSlide */;
+VALUES (8122,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8122,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (8122,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8122,   1, 'Sahoni Arsanc') /* Name */

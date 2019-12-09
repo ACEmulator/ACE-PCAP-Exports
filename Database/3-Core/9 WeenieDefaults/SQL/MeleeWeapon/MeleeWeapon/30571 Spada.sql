@@ -34,24 +34,19 @@ VALUES (30571,   1,          1) /* ItemType - MeleeWeapon */
      , (30571, 179,          8) /* ImbuedEffect - SlashRending */
      , (30571, 188,          4) /* HeritageGroup - Viamontian */
      , (30571, 353,          2) /* WeaponType - Sword */
-     , (30571, 8030,          0);
+     , (30571, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30571,   1, False) /* Stuck */
-     , (30571,  11, True ) /* IgnoreCollisions */
-     , (30571,  13, True ) /* Ethereal */
-     , (30571,  14, True ) /* GravityStatus */
-     , (30571,  19, True ) /* Attackable */
-     , (30571,  22, True ) /* Inscribable */;
+VALUES (30571,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30571,   5, -0.0500000007450581) /* ManaRate */
+VALUES (30571,   5,   -0.05) /* ManaRate */
      , (30571,  21,       0) /* WeaponLength */
-     , (30571,  22, 0.587497115135193) /* DamageVariance */
+     , (30571,  22,    0.59) /* DamageVariance */
      , (30571,  26,       0) /* MaximumVelocity */
      , (30571,  29,       1) /* WeaponDefense */
-     , (30571,  39, 1.10000002384186) /* DefaultScale */
-     , (30571,  62, 1.03999996185303) /* WeaponOffense */
+     , (30571,  39,     1.1) /* DefaultScale */
+     , (30571,  62,    1.04) /* WeaponOffense */
      , (30571,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

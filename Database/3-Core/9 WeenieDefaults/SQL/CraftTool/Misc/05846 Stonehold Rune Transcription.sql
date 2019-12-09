@@ -13,18 +13,13 @@ VALUES (5846,   1,        128) /* ItemType - Misc */
      , (5846,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5846,  19,         20) /* Value */
      , (5846,  33,          1) /* Bonded - Bonded */
-     , (5846,  65,        101) /* Placement - Resting */
      , (5846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5846,  94,        128) /* TargetType - Misc */
-     , (5846, 114,          1) /* Attuned - Attuned */;
+     , (5846, 114,          1) /* Attuned - Attuned */
+     , (5846, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5846,   1, False) /* Stuck */
-     , (5846,  11, True ) /* IgnoreCollisions */
-     , (5846,  13, True ) /* Ethereal */
-     , (5846,  14, True ) /* GravityStatus */
-     , (5846,  19, True ) /* Attackable */
-     , (5846,  22, True ) /* Inscribable */;
+VALUES (5846,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5846,   1, 'Stonehold Rune Transcription') /* Name */

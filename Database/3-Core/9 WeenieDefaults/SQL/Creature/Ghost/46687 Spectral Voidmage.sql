@@ -19,12 +19,7 @@ VALUES (46687,   1,         16) /* ItemType - Creature */
      , (46687, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46687,   1, True ) /* Stuck */
-     , (46687,  12, True ) /* ReportCollisions */
-     , (46687,  13, False) /* Ethereal */
-     , (46687,  14, True ) /* GravityStatus */
-     , (46687,  19, True ) /* Attackable */
-     , (46687,  42, True ) /* AllowEdgeSlide */;
+VALUES (46687,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46687,   1, 'Spectral Voidmage') /* Name */

@@ -8,17 +8,12 @@ VALUES (34592,   1,        128) /* ItemType - Misc */
      , (34592,   5,         15) /* EncumbranceVal */
      , (34592,  16,          1) /* ItemUseable - No */
      , (34592,  19,      15000) /* Value */
-     , (34592,  65,        101) /* Placement - Resting */
      , (34592,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34592, 151,          2) /* HookType - Wall */;
+     , (34592, 151,          2) /* HookType - Wall */
+     , (34592, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34592,   1, False) /* Stuck */
-     , (34592,  11, True ) /* IgnoreCollisions */
-     , (34592,  13, True ) /* Ethereal */
-     , (34592,  14, True ) /* GravityStatus */
-     , (34592,  19, True ) /* Attackable */
-     , (34592,  22, True ) /* Inscribable */;
+VALUES (34592,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34592,   1, 'Prince''s Medal of Bravery') /* Name */

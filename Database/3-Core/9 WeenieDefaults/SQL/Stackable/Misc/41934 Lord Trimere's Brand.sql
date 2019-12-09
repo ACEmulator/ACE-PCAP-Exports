@@ -13,17 +13,12 @@ VALUES (41934,   1,        128) /* ItemType - Misc */
      , (41934,  16,          1) /* ItemUseable - No */
      , (41934,  19,          0) /* Value */
      , (41934,  33,          1) /* Bonded - Bonded */
-     , (41934,  65,        101) /* Placement - Resting */
      , (41934,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41934, 114,          1) /* Attuned - Attuned */;
+     , (41934, 114,          1) /* Attuned - Attuned */
+     , (41934, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41934,   1, False) /* Stuck */
-     , (41934,  11, True ) /* IgnoreCollisions */
-     , (41934,  13, True ) /* Ethereal */
-     , (41934,  14, True ) /* GravityStatus */
-     , (41934,  19, True ) /* Attackable */
-     , (41934,  69, False) /* IsSellable */;
+VALUES (41934,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41934,   1, 'Lord Trimere''s Brand') /* Name */

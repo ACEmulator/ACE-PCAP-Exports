@@ -16,12 +16,7 @@ VALUES (51920,   1,         16) /* ItemType - Creature */
      , (51920, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51920,   1, True ) /* Stuck */
-     , (51920,  12, True ) /* ReportCollisions */
-     , (51920,  13, False) /* Ethereal */
-     , (51920,  14, True ) /* GravityStatus */
-     , (51920,  19, True ) /* Attackable */
-     , (51920,  42, True ) /* AllowEdgeSlide */;
+VALUES (51920,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51920,   1, 'Captain Keeson') /* Name */

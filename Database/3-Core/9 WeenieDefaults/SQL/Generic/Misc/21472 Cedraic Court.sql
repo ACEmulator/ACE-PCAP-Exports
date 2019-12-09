@@ -11,12 +11,7 @@ VALUES (21472,   1,        128) /* ItemType - Misc */
      , (21472,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21472,   1, True ) /* Stuck */
-     , (21472,  11, True ) /* IgnoreCollisions */
-     , (21472,  12, True ) /* ReportCollisions */
-     , (21472,  13, False) /* Ethereal */
-     , (21472,  14, True ) /* GravityStatus */
-     , (21472,  19, True ) /* Attackable */;
+VALUES (21472,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21472,   1, 'Cedraic Court') /* Name */

@@ -15,11 +15,7 @@ VALUES (35940,   1,         16) /* ItemType - Creature */
      , (35940, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35940,   1, True ) /* Stuck */
-     , (35940,  12, True ) /* ReportCollisions */
-     , (35940,  13, False) /* Ethereal */
-     , (35940,  14, True ) /* GravityStatus */
-     , (35940,  19, True ) /* Attackable */;
+VALUES (35940,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35940,   1, 'Mudmouth') /* Name */

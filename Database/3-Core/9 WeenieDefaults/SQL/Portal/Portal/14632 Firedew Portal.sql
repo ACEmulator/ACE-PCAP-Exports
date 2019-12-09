@@ -12,19 +12,13 @@ VALUES (14632,   1,      65536) /* ItemType - Portal */
      , (14632, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14632,   1, True ) /* Stuck */
-     , (14632,  12, True ) /* ReportCollisions */
-     , (14632,  13, True ) /* Ethereal */
-     , (14632,  14, True ) /* GravityStatus */
-     , (14632,  15, True ) /* LightsStatus */
-     , (14632,  19, True ) /* Attackable */;
+VALUES (14632,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14632,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14632,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14632,   1, 'Firedew Portal') /* Name */
-     , (14632,  38, 'Firedew Portal (46.5N, 10.6E).') /* AppraisalPortalDestination */
      , (14632, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

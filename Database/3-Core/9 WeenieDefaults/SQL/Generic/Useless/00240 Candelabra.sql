@@ -8,18 +8,12 @@ VALUES (240,   1,       1024) /* ItemType - Useless */
      , (240,   5,         50) /* EncumbranceVal */
      , (240,  16,          1) /* ItemUseable - No */
      , (240,  19,       3226) /* Value */
-     , (240,  65,        101) /* Placement - Resting */
      , (240,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (240, 151,          1) /* HookType - Floor */;
+     , (240, 151,          1) /* HookType - Floor */
+     , (240, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (240,   1, False) /* Stuck */
-     , (240,  11, True ) /* IgnoreCollisions */
-     , (240,  13, True ) /* Ethereal */
-     , (240,  14, True ) /* GravityStatus */
-     , (240,  15, True ) /* LightsStatus */
-     , (240,  19, True ) /* Attackable */
-     , (240,  22, True ) /* Inscribable */;
+VALUES (240,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (240,   1, 'Candelabra') /* Name */;

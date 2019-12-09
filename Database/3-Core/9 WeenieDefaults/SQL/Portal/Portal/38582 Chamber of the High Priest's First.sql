@@ -12,19 +12,13 @@ VALUES (38582,   1,      65536) /* ItemType - Portal */
      , (38582, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38582,   1, True ) /* Stuck */
-     , (38582,  12, True ) /* ReportCollisions */
-     , (38582,  13, True ) /* Ethereal */
-     , (38582,  14, True ) /* GravityStatus */
-     , (38582,  15, True ) /* LightsStatus */
-     , (38582,  19, True ) /* Attackable */;
+VALUES (38582,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38582,  54, -0.100000001490116) /* UseRadius */;
+VALUES (38582,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38582,   1, 'Chamber of the High Priest''s First') /* Name */
-     , (38582,  38, 'Chamber of the High Priest''s First') /* AppraisalPortalDestination */
      , (38582, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

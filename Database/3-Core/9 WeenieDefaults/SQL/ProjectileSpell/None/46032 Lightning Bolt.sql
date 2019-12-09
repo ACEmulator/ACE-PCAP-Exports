@@ -9,19 +9,14 @@ VALUES (46032,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46032,   1, True ) /* Stuck */
-     , (46032,  12, True ) /* ReportCollisions */
-     , (46032,  13, False) /* Ethereal */
-     , (46032,  15, True ) /* LightsStatus */
-     , (46032,  17, True ) /* Inelastic */
-     , (46032,  19, True ) /* Attackable */
      , (46032,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46032,  78,       1) /* Friction */
      , (46032,  79,       0) /* Elasticity */
-     , (46032, 8010, -2.09153079986572) /* PCAPRecordedVelocityX */
-     , (46032, 8011, 5.36732149124146) /* PCAPRecordedVelocityY */
-     , (46032, 8012, -0.595851242542267) /* PCAPRecordedVelocityZ */;
+     , (46032, 8010,   -2.09) /* PCAPRecordedVelocityX */
+     , (46032, 8011,    5.37) /* PCAPRecordedVelocityY */
+     , (46032, 8012,    -0.6) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46032,   1, 'Lightning Bolt') /* Name */;

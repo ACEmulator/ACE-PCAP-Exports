@@ -12,20 +12,14 @@ VALUES (42811,   1,      65536) /* ItemType - Portal */
      , (42811, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42811,   1, True ) /* Stuck */
-     , (42811,  12, True ) /* ReportCollisions */
-     , (42811,  13, True ) /* Ethereal */
-     , (42811,  14, True ) /* GravityStatus */
-     , (42811,  15, True ) /* LightsStatus */
-     , (42811,  19, True ) /* Attackable */;
+VALUES (42811,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42811,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42811,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42811,   1, 'Stonehold Portal') /* Name */
      , (42811,  16, 'This portal goes to Stonehold. a remote village found in the westernmost reaches of the Esper mountain range. This is a good town for characters over level 50.') /* LongDesc */
-     , (42811,  38, 'Stonehold Portal (68.7N, 21.8W).') /* AppraisalPortalDestination */
      , (42811, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

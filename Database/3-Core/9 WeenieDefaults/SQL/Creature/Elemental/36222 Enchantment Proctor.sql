@@ -15,15 +15,10 @@ VALUES (36222,   1,         16) /* ItemType - Creature */
      , (36222, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36222,   1, True ) /* Stuck */
-     , (36222,  12, True ) /* ReportCollisions */
-     , (36222,  13, False) /* Ethereal */
-     , (36222,  14, True ) /* GravityStatus */
-     , (36222,  15, True ) /* LightsStatus */
-     , (36222,  19, True ) /* Attackable */;
+VALUES (36222,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36222,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (36222,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36222,   1, 'Enchantment Proctor') /* Name */

@@ -11,12 +11,7 @@ VALUES (12667,   1,        128) /* ItemType - Misc */
      , (12667,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12667,   1, True ) /* Stuck */
-     , (12667,  11, True ) /* IgnoreCollisions */
-     , (12667,  12, True ) /* ReportCollisions */
-     , (12667,  13, False) /* Ethereal */
-     , (12667,  14, True ) /* GravityStatus */
-     , (12667,  19, True ) /* Attackable */;
+VALUES (12667,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12667,   1, 'Tou-Tou Penninsula Cottages') /* Name */

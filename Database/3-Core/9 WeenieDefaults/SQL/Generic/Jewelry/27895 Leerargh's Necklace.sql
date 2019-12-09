@@ -11,24 +11,19 @@ VALUES (27895,   1,          8) /* ItemType - Jewelry */
      , (27895,  16,          1) /* ItemUseable - No */
      , (27895,  18,          1) /* UiEffects - Magical */
      , (27895,  19,        600) /* Value */
-     , (27895,  65,        101) /* Placement - Resting */
      , (27895,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27895, 106,         75) /* ItemSpellcraft */
      , (27895, 107,        400) /* ItemCurMana */
      , (27895, 108,        400) /* ItemMaxMana */
-     , (27895, 109,         60) /* ItemDifficulty */;
+     , (27895, 109,         60) /* ItemDifficulty */
+     , (27895, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27895,   1, False) /* Stuck */
-     , (27895,  11, True ) /* IgnoreCollisions */
-     , (27895,  13, True ) /* Ethereal */
-     , (27895,  14, True ) /* GravityStatus */
-     , (27895,  19, True ) /* Attackable */
-     , (27895,  22, True ) /* Inscribable */;
+VALUES (27895,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27895,   5,  -0.034) /* ManaRate */
-     , (27895,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (27895,   5,   -0.03) /* ManaRate */
+     , (27895,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27895,   1, 'Leerargh''s Necklace') /* Name */

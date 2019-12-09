@@ -13,14 +13,10 @@ VALUES (44108,   1,         16) /* ItemType - Creature */
      , (44108, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44108,   1, True ) /* Stuck */
-     , (44108,  12, True ) /* ReportCollisions */
-     , (44108,  13, False) /* Ethereal */
-     , (44108,  14, True ) /* GravityStatus */
-     , (44108,  19, True ) /* Attackable */;
+VALUES (44108,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44108,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (44108,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44108,   1, 'Mu-miyah Channeller') /* Name */

@@ -16,11 +16,7 @@ VALUES (32701,   1,         16) /* ItemType - Creature */
      , (32701, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32701,   1, True ) /* Stuck */
-     , (32701,  12, True ) /* ReportCollisions */
-     , (32701,  13, False) /* Ethereal */
-     , (32701,  14, True ) /* GravityStatus */
-     , (32701,  19, True ) /* Attackable */;
+VALUES (32701,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32701,   1, 'Captain Iacollia Dimari') /* Name */

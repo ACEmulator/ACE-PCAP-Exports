@@ -13,19 +13,13 @@ VALUES (2065,   1,      65536) /* ItemType - Portal */
      , (2065, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2065,   1, True ) /* Stuck */
-     , (2065,  12, True ) /* ReportCollisions */
-     , (2065,  13, True ) /* Ethereal */
-     , (2065,  14, True ) /* GravityStatus */
-     , (2065,  15, True ) /* LightsStatus */
-     , (2065,  19, True ) /* Attackable */;
+VALUES (2065,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2065,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2065,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2065,   1, 'Town of Dryreach') /* Name */
-     , (2065,  38, 'Town of Dryreach (8.1S, 74.0E).') /* AppraisalPortalDestination */
      , (2065, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

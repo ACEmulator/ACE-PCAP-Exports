@@ -12,19 +12,13 @@ VALUES (12543,   1,      65536) /* ItemType - Portal */
      , (12543, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12543,   1, True ) /* Stuck */
-     , (12543,  12, True ) /* ReportCollisions */
-     , (12543,  13, True ) /* Ethereal */
-     , (12543,  14, True ) /* GravityStatus */
-     , (12543,  15, True ) /* LightsStatus */
-     , (12543,  19, True ) /* Attackable */;
+VALUES (12543,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12543,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12543,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12543,   1, 'Sennon Valley Retreat Portal') /* Name */
-     , (12543,  38, 'Sennon Valley Retreat Portal (52.0N, 64.0E).') /* AppraisalPortalDestination */
      , (12543, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

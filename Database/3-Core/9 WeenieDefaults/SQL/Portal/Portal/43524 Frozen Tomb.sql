@@ -13,20 +13,14 @@ VALUES (43524,   1,      65536) /* ItemType - Portal */
      , (43524, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43524,   1, True ) /* Stuck */
-     , (43524,  12, True ) /* ReportCollisions */
-     , (43524,  13, True ) /* Ethereal */
-     , (43524,  14, True ) /* GravityStatus */
-     , (43524,  15, True ) /* LightsStatus */
-     , (43524,  19, True ) /* Attackable */;
+VALUES (43524,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43524,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43524,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43524,   1, 'Frozen Tomb') /* Name */
      , (43524,  16, 'This portal appears to be warded against intrusion.  Perhaps Nalicana, in Asheron''s Castle, will know more.') /* LongDesc */
-     , (43524,  38, 'Frozen Tomb') /* AppraisalPortalDestination */
      , (43524, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

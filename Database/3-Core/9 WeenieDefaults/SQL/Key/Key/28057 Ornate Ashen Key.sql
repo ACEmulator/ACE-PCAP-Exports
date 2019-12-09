@@ -9,20 +9,15 @@ VALUES (28057,   1,      16384) /* ItemType - Key */
      , (28057,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (28057,  19,          3) /* Value */
      , (28057,  33,          1) /* Bonded - Bonded */
-     , (28057,  65,        101) /* Placement - Resting */
      , (28057,  91,          1) /* MaxStructure */
      , (28057,  92,          1) /* Structure */
      , (28057,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28057,  94,        640) /* TargetType - LockableMagicTarget */
-     , (28057, 114,          1) /* Attuned - Attuned */;
+     , (28057, 114,          1) /* Attuned - Attuned */
+     , (28057, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28057,   1, False) /* Stuck */
-     , (28057,  11, True ) /* IgnoreCollisions */
-     , (28057,  13, True ) /* Ethereal */
-     , (28057,  14, True ) /* GravityStatus */
-     , (28057,  19, True ) /* Attackable */
-     , (28057,  22, True ) /* Inscribable */;
+VALUES (28057,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28057,   1, 'Ornate Ashen Key') /* Name */

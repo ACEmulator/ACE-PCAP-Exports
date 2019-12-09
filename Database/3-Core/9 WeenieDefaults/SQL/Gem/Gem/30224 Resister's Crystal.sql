@@ -16,22 +16,17 @@ VALUES (30224,   1,       2048) /* ItemType - Gem */
      , (30224,  19,          0) /* Value */
      , (30224,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30224,  33,         -1) /* Bonded - Slippery */
-     , (30224,  65,        101) /* Placement - Resting */
      , (30224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30224,  94,         16) /* TargetType - Creature */
      , (30224, 106,        325) /* ItemSpellcraft */
      , (30224, 107,      10000) /* ItemCurMana */
      , (30224, 108,      10000) /* ItemMaxMana */
      , (30224, 109,          0) /* ItemDifficulty */
-     , (30224, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30224, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30224, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30224,   1, False) /* Stuck */
-     , (30224,  11, True ) /* IgnoreCollisions */
-     , (30224,  13, True ) /* Ethereal */
-     , (30224,  14, True ) /* GravityStatus */
-     , (30224,  19, True ) /* Attackable */
-     , (30224, 108, True ) /* RareUsesTimer */;
+VALUES (30224, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30224,   1, 'Resister''s Crystal') /* Name */

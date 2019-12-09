@@ -12,15 +12,8 @@ VALUES (37331,   1,        128) /* ItemType - Misc */
      , (37331,  15,      30000) /* StackUnitValue */
      , (37331,  16,          1) /* ItemUseable - No */
      , (37331,  19,      30000) /* Value */
-     , (37331,  65,        101) /* Placement - Resting */
-     , (37331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37331,   1, False) /* Stuck */
-     , (37331,  11, True ) /* IgnoreCollisions */
-     , (37331,  13, True ) /* Ethereal */
-     , (37331,  14, True ) /* GravityStatus */
-     , (37331,  19, True ) /* Attackable */;
+     , (37331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37331, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37331,   1, 'Glyph of Self') /* Name */

@@ -12,16 +12,9 @@ VALUES (22579,   1,    4194304) /* ItemType - CraftCookingBase */
      , (22579,  15,         50) /* StackUnitValue */
      , (22579,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22579,  19,         50) /* Value */
-     , (22579,  65,        101) /* Placement - Resting */
      , (22579,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22579,  94,   37748768) /* TargetType - Food, CraftCookingBase, CraftFletchingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22579,   1, False) /* Stuck */
-     , (22579,  11, True ) /* IgnoreCollisions */
-     , (22579,  13, True ) /* Ethereal */
-     , (22579,  14, True ) /* GravityStatus */
-     , (22579,  19, True ) /* Attackable */;
+     , (22579,  94,   37748768) /* TargetType - Food, CraftCookingBase, CraftFletchingBase */
+     , (22579, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22579,   1, 'Mushed Nanners') /* Name */

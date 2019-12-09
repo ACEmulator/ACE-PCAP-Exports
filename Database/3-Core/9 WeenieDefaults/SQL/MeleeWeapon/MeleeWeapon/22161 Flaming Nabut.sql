@@ -16,7 +16,6 @@ VALUES (22161,   1,          1) /* ItemType - MeleeWeapon */
      , (22161,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (22161,  49,         39) /* WeaponTime */
      , (22161,  51,          1) /* CombatUse - Melee */
-     , (22161,  65,        101) /* Placement - Resting */
      , (22161,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22161, 105,          7) /* ItemWorkmanship */
      , (22161, 131,         73) /* MaterialType - Ebony */
@@ -28,22 +27,18 @@ VALUES (22161,   1,          1) /* ItemType - MeleeWeapon */
      , (22161, 177,          3) /* GemCount */
      , (22161, 178,         21) /* GemType */
      , (22161, 353,          7) /* WeaponType - Staff */
-     , (22161, 8030,          0);
+     , (22161, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (22161, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22161,   1, False) /* Stuck */
-     , (22161,  11, True ) /* IgnoreCollisions */
-     , (22161,  13, True ) /* Ethereal */
-     , (22161,  14, True ) /* GravityStatus */
-     , (22161,  19, True ) /* Attackable */
-     , (22161,  22, True ) /* Inscribable */;
+VALUES (22161,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22161,  21,       0) /* WeaponLength */
      , (22161,  22,    0.45) /* DamageVariance */
      , (22161,  26,       0) /* MaximumVelocity */
      , (22161,  29,    1.18) /* WeaponDefense */
-     , (22161,  39, 0.800000011920929) /* DefaultScale */
+     , (22161,  39,     0.8) /* DefaultScale */
      , (22161,  62,    1.06) /* WeaponOffense */
      , (22161,  63,       1) /* DamageMod */
      , (22161, 8004,       7) /* PCAPRecordedWorkmanship */;

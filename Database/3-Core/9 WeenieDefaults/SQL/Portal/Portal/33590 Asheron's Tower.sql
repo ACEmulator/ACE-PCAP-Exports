@@ -6,20 +6,15 @@ VALUES (33590, 'ace33590-asheronstower', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33590,   1,      65536) /* ItemType - Portal */
      , (33590,  16,         32) /* ItemUseable - Remote */
-     , (33590,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (33590,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (33590, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (33590, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33590,   1, True ) /* Stuck */
-     , (33590,  12, True ) /* ReportCollisions */
-     , (33590,  13, True ) /* Ethereal */
-     , (33590,  15, True ) /* LightsStatus */
-     , (33590,  19, True ) /* Attackable */;
+VALUES (33590,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33590,   1, 'Asheron''s Tower') /* Name */
-     , (33590,  38, 'Asheron''s Tower') /* AppraisalPortalDestination */;
+VALUES (33590,   1, 'Asheron''s Tower') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33590,   1,   33558268) /* Setup */

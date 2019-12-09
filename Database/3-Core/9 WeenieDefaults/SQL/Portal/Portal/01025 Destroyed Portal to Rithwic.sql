@@ -11,20 +11,14 @@ VALUES (1025,   1,      65536) /* ItemType - Portal */
      , (1025, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1025,   1, True ) /* Stuck */
-     , (1025,  11, True ) /* IgnoreCollisions */
-     , (1025,  13, True ) /* Ethereal */
-     , (1025,  14, True ) /* GravityStatus */
-     , (1025,  15, True ) /* LightsStatus */
-     , (1025,  19, True ) /* Attackable */;
+VALUES (1025,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1025,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1025,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1025,   1, 'Destroyed Portal to Rithwic') /* Name */
      , (1025,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (1025,  38, 'Destroyed Portal to Rithwic (10.8N, 59.3E).') /* AppraisalPortalDestination */
      , (1025, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

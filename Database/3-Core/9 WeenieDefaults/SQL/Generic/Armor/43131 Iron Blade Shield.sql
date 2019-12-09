@@ -13,15 +13,8 @@ VALUES (43131,   1,          2) /* ItemType - Armor */
      , (43131,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43131, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43131,   1, False) /* Stuck */
-     , (43131,  11, True ) /* IgnoreCollisions */
-     , (43131,  13, True ) /* Ethereal */
-     , (43131,  14, True ) /* GravityStatus */
-     , (43131,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43131,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (43131,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43131,   1, 'Iron Blade Shield') /* Name */;

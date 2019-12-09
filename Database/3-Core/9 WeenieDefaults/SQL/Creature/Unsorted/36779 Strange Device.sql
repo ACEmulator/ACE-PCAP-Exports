@@ -37,14 +37,10 @@ VALUES (36779,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36779,   1, True ) /* Stuck */
-     , (36779,  11, True ) /* IgnoreCollisions */
-     , (36779,  13, True ) /* Ethereal */
-     , (36779,  14, True ) /* GravityStatus */
-     , (36779,  19, False) /* Attackable */
-     , (36779,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (36779,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36779,  76, 0.899999976158142) /* Translucency */;
+VALUES (36779,  76,     0.9) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36779,   1, 'Strange Device') /* Name */

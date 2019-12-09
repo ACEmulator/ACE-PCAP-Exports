@@ -8,16 +8,11 @@ VALUES (51851,   1,          8) /* ItemType - Jewelry */
      , (51851,   5,         60) /* EncumbranceVal */
      , (51851,   9,      32768) /* ValidLocations - NeckWear */
      , (51851,  16,          1) /* ItemUseable - No */
-     , (51851,  65,        101) /* Placement - Resting */
-     , (51851,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (51851,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (51851, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51851,   1, False) /* Stuck */
-     , (51851,  11, True ) /* IgnoreCollisions */
-     , (51851,  13, True ) /* Ethereal */
-     , (51851,  14, True ) /* GravityStatus */
-     , (51851,  19, True ) /* Attackable */
-     , (51851,  22, True ) /* Inscribable */;
+VALUES (51851,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51851,   1, 'Spirited Bloodlust Guard') /* Name */;

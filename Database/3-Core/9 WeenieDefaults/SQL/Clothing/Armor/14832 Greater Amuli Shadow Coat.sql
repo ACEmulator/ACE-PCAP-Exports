@@ -10,16 +10,11 @@ VALUES (14832,   1,          2) /* ItemType - Armor */
      , (14832,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (14832,  16,          1) /* ItemUseable - No */
      , (14832,  19,       2610) /* Value */
-     , (14832,  65,        101) /* Placement - Resting */
-     , (14832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (14832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14832, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14832,   1, False) /* Stuck */
-     , (14832,  11, True ) /* IgnoreCollisions */
-     , (14832,  13, True ) /* Ethereal */
-     , (14832,  14, True ) /* GravityStatus */
-     , (14832,  19, True ) /* Attackable */
-     , (14832,  22, True ) /* Inscribable */;
+VALUES (14832,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14832,   1, 'Greater Amuli Shadow Coat') /* Name */;

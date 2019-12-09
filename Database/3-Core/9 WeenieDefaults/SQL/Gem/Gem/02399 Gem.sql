@@ -13,17 +13,12 @@ VALUES (2399,   1,       2048) /* ItemType - Gem */
      , (2399,  16,          8) /* ItemUseable - Contained */
      , (2399,  18,          1) /* UiEffects - Magical */
      , (2399,  19,       1237) /* Value */
-     , (2399,  65,        101) /* Placement - Resting */
      , (2399,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2399, 131,         45) /* MaterialType - WhiteJade */;
+     , (2399, 131,         45) /* MaterialType - WhiteJade */
+     , (2399, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2399,   1, False) /* Stuck */
-     , (2399,  11, True ) /* IgnoreCollisions */
-     , (2399,  13, True ) /* Ethereal */
-     , (2399,  14, True ) /* GravityStatus */
-     , (2399,  19, True ) /* Attackable */
-     , (2399,  22, True ) /* Inscribable */;
+VALUES (2399,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2399, 8004,       7) /* PCAPRecordedWorkmanship */;

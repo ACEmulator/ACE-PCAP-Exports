@@ -9,17 +9,12 @@ VALUES (30486,   1,        128) /* ItemType - Misc */
      , (30486,  16,          1) /* ItemUseable - No */
      , (30486,  19,          0) /* Value */
      , (30486,  33,          1) /* Bonded - Bonded */
-     , (30486,  65,        101) /* Placement - Resting */
      , (30486,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30486, 114,          1) /* Attuned - Attuned */;
+     , (30486, 114,          1) /* Attuned - Attuned */
+     , (30486, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30486,   1, False) /* Stuck */
-     , (30486,  11, True ) /* IgnoreCollisions */
-     , (30486,  13, True ) /* Ethereal */
-     , (30486,  14, True ) /* GravityStatus */
-     , (30486,  19, True ) /* Attackable */
-     , (30486,  22, True ) /* Inscribable */;
+VALUES (30486,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30486,   1, 'Robber Baron Head') /* Name */

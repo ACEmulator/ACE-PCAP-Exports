@@ -8,21 +8,14 @@ VALUES (22763,   1,       8192) /* ItemType - Writable */
      , (22763,   5,         10) /* EncumbranceVal */
      , (22763,  16,          8) /* ItemUseable - Contained */
      , (22763,  19,          0) /* Value */
-     , (22763,  65,        101) /* Placement - Resting */
      , (22763,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22763, 174,          2) /* AppraisalPages */
-     , (22763, 175,          2) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22763,   1, False) /* Stuck */
-     , (22763,  11, True ) /* IgnoreCollisions */
-     , (22763,  13, True ) /* Ethereal */
-     , (22763,  14, True ) /* GravityStatus */
-     , (22763,  19, True ) /* Attackable */;
+     , (22763, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (22763, 8042,          2) /* PCAPRecordedAppraisalPages */
+     , (22763, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22763,  39, 1.22000002861023) /* DefaultScale */
-     , (22763,  54, 0.300000011920929) /* UseRadius */;
+VALUES (22763,  39,    1.22) /* DefaultScale */
+     , (22763,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22763,   1, 'The Temple of Enlightenment') /* Name */

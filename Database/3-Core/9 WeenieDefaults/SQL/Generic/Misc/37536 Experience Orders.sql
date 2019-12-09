@@ -6,15 +6,8 @@ VALUES (37536, 'ace37536-experienceorders', 1, '2019-02-10 00:00:00') /* Generic
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37536,   1,        128) /* ItemType - Misc */
      , (37536,  16,          1) /* ItemUseable - No */
-     , (37536,  65,        101) /* Placement - Resting */
-     , (37536,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37536,   1, False) /* Stuck */
-     , (37536,  11, True ) /* IgnoreCollisions */
-     , (37536,  13, True ) /* Ethereal */
-     , (37536,  14, True ) /* GravityStatus */
-     , (37536,  19, True ) /* Attackable */;
+     , (37536,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37536, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37536,  39,     2.5) /* DefaultScale */;

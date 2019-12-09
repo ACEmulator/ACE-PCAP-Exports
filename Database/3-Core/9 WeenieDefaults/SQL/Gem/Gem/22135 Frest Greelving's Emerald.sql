@@ -13,18 +13,13 @@ VALUES (22135,   1,       2048) /* ItemType - Gem */
      , (22135,  16,          1) /* ItemUseable - No */
      , (22135,  19,       1000) /* Value */
      , (22135,  33,          1) /* Bonded - Bonded */
-     , (22135,  65,        101) /* Placement - Resting */
      , (22135,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22135, 114,          1) /* Attuned - Attuned */
-     , (22135, 131,         21) /* MaterialType - Emerald */;
+     , (22135, 131,         21) /* MaterialType - Emerald */
+     , (22135, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22135,   1, False) /* Stuck */
-     , (22135,  11, True ) /* IgnoreCollisions */
-     , (22135,  13, True ) /* Ethereal */
-     , (22135,  14, True ) /* GravityStatus */
-     , (22135,  19, True ) /* Attackable */
-     , (22135,  22, True ) /* Inscribable */;
+VALUES (22135,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22135,   1, 'Frest Greelving''s Emerald') /* Name */;

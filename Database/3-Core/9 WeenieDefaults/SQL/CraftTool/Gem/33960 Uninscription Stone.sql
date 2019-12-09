@@ -14,17 +14,12 @@ VALUES (33960,   1,       2048) /* ItemType - Gem */
      , (33960,  18,          1) /* UiEffects - Magical */
      , (33960,  19,     250000) /* Value */
      , (33960,  33,          1) /* Bonded - Bonded */
-     , (33960,  65,        101) /* Placement - Resting */
      , (33960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33960,  94,      35215) /* TargetType - Jewelry, Misc, Gem, RedirectableItemEnchantmentTarget */;
+     , (33960,  94,      35215) /* TargetType - Jewelry, Misc, Gem, RedirectableItemEnchantmentTarget */
+     , (33960, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33960,   1, False) /* Stuck */
-     , (33960,  11, True ) /* IgnoreCollisions */
-     , (33960,  13, True ) /* Ethereal */
-     , (33960,  14, True ) /* GravityStatus */
-     , (33960,  19, True ) /* Attackable */
-     , (33960,  69, True ) /* IsSellable */;
+VALUES (33960,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33960,   1, 'Uninscription Stone') /* Name */

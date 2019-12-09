@@ -10,22 +10,17 @@ VALUES (4914,   1,      32768) /* ItemType - Caster */
      , (4914,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (4914,  18,          1) /* UiEffects - Magical */
      , (4914,  19,         10) /* Value */
-     , (4914,  65,        101) /* Placement - Resting */
      , (4914,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4914,  94,         16) /* TargetType - Creature */
-     , (4914, 151,          2) /* HookType - Wall */;
+     , (4914, 151,          2) /* HookType - Wall */
+     , (4914, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4914,   1, False) /* Stuck */
-     , (4914,  11, True ) /* IgnoreCollisions */
-     , (4914,  13, True ) /* Ethereal */
-     , (4914,  14, True ) /* GravityStatus */
-     , (4914,  19, True ) /* Attackable */
-     , (4914,  22, True ) /* Inscribable */;
+VALUES (4914,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4914,  29,       1) /* WeaponDefense */
-     , (4914, 144, 1.08013645316519E-314) /* ManaConversionMod */;
+     , (4914, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4914,   1, 'Aluvian Wand') /* Name */;

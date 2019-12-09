@@ -21,15 +21,11 @@ VALUES (40146,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40146,   1, True ) /* Stuck */
-     , (40146,  11, True ) /* IgnoreCollisions */
-     , (40146,  13, True ) /* Ethereal */
-     , (40146,  14, True ) /* GravityStatus */
-     , (40146,  19, True ) /* Attackable */
      , (40146,  24, True ) /* UiHidden */
      , (40146,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40146,  39, 0.300000011920929) /* DefaultScale */
+VALUES (40146,  39,     0.3) /* DefaultScale */
      , (40146,  76,       1) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

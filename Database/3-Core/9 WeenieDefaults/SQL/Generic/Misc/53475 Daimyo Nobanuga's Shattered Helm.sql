@@ -9,20 +9,15 @@ VALUES (53475,   1,        128) /* ItemType - Misc */
      , (53475,  16,          1) /* ItemUseable - No */
      , (53475,  19,          1) /* Value */
      , (53475,  33,          1) /* Bonded - Bonded */
-     , (53475,  65,        101) /* Placement - Resting */
      , (53475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53475, 114,          1) /* Attuned - Attuned */;
+     , (53475, 114,          1) /* Attuned - Attuned */
+     , (53475, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53475,   1, False) /* Stuck */
-     , (53475,  11, True ) /* IgnoreCollisions */
-     , (53475,  13, True ) /* Ethereal */
-     , (53475,  14, True ) /* GravityStatus */
-     , (53475,  19, True ) /* Attackable */
-     , (53475,  69, False) /* IsSellable */;
+VALUES (53475,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53475,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (53475,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53475,   1, 'Daimyo Nobanuga''s Shattered Helm') /* Name */

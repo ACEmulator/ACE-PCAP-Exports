@@ -13,20 +13,15 @@ VALUES (53415,   1,       2048) /* ItemType - Gem */
      , (53415,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53415,  18,          1) /* UiEffects - Magical */
      , (53415,  19,         30) /* Value */
-     , (53415,  65,        101) /* Placement - Resting */
      , (53415,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53415,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (53415,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (53415, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53415,   1, False) /* Stuck */
-     , (53415,  11, True ) /* IgnoreCollisions */
-     , (53415,  13, True ) /* Ethereal */
-     , (53415,  14, True ) /* GravityStatus */
-     , (53415,  19, True ) /* Attackable */
-     , (53415,  22, True ) /* Inscribable */;
+VALUES (53415,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53415,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (53415,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53415,   1, 'Horizon''s Edge Amplification') /* Name */;

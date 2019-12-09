@@ -11,12 +11,7 @@ VALUES (14712,   1,        128) /* ItemType - Misc */
      , (14712,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14712,   1, True ) /* Stuck */
-     , (14712,  11, True ) /* IgnoreCollisions */
-     , (14712,  12, True ) /* ReportCollisions */
-     , (14712,  13, False) /* Ethereal */
-     , (14712,  14, True ) /* GravityStatus */
-     , (14712,  19, True ) /* Attackable */;
+VALUES (14712,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14712,   1, 'Land Bridge Villas') /* Name */

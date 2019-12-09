@@ -11,17 +11,11 @@ VALUES (36381,   1,        256) /* ItemType - MissileWeapon */
      , (36381,  18,          1) /* UiEffects - Magical */
      , (36381,  50,          1) /* AmmoType - Arrow */
      , (36381,  51,          2) /* CombatUse - Missle */
-     , (36381,  65,        101) /* Placement - Resting */
-     , (36381,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (36381,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (36381, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36381,   1, False) /* Stuck */
-     , (36381,  11, True ) /* IgnoreCollisions */
-     , (36381,  13, True ) /* Ethereal */
-     , (36381,  14, True ) /* GravityStatus */
-     , (36381,  15, True ) /* LightsStatus */
-     , (36381,  19, True ) /* Attackable */
-     , (36381,  22, True ) /* Inscribable */;
+VALUES (36381,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36381,   1, 'Chimeric Bow of the Quiddity') /* Name */;

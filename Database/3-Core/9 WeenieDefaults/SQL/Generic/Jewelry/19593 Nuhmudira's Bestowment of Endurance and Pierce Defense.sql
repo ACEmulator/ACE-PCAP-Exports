@@ -12,7 +12,6 @@ VALUES (19593,   1,          8) /* ItemType - Jewelry */
      , (19593,  18,          1) /* UiEffects - Magical */
      , (19593,  19,       5000) /* Value */
      , (19593,  33,          1) /* Bonded - Bonded */
-     , (19593,  65,        101) /* Placement - Resting */
      , (19593,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19593, 106,        225) /* ItemSpellcraft */
      , (19593, 107,        500) /* ItemCurMana */
@@ -22,22 +21,18 @@ VALUES (19593,   1,          8) /* ItemType - Jewelry */
      , (19593, 151,          2) /* HookType - Wall */
      , (19593, 158,          7) /* WieldRequirements - Level */
      , (19593, 159,          1) /* WieldSkillType - Axe */
-     , (19593, 160,         45) /* WieldDifficulty */;
+     , (19593, 160,         45) /* WieldDifficulty */
+     , (19593, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19593,   1, False) /* Stuck */
-     , (19593,  11, True ) /* IgnoreCollisions */
-     , (19593,  13, True ) /* Ethereal */
-     , (19593,  14, True ) /* GravityStatus */
-     , (19593,  19, True ) /* Attackable */
-     , (19593,  22, True ) /* Inscribable */
+VALUES (19593,  22, True ) /* Inscribable */
      , (19593,  69, False) /* IsSellable */
      , (19593,  94, True ) /* AppraisalHasAllowedActivator */
      , (19593,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19593,   5,  -0.033) /* ManaRate */
-     , (19593,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19593,   5,   -0.03) /* ManaRate */
+     , (19593,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19593,   1, 'Nuhmudira''s Bestowment of Endurance and Pierce Defense') /* Name */

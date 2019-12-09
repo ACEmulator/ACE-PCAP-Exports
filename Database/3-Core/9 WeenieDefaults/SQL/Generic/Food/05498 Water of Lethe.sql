@@ -8,17 +8,12 @@ VALUES (5498,   1,         32) /* ItemType - Food */
      , (5498,   5,         50) /* EncumbranceVal */
      , (5498,  16,          1) /* ItemUseable - No */
      , (5498,  19,          2) /* Value */
-     , (5498,  65,        101) /* Placement - Resting */
      , (5498,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5498, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (5498, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (5498, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5498,   1, False) /* Stuck */
-     , (5498,  11, True ) /* IgnoreCollisions */
-     , (5498,  13, True ) /* Ethereal */
-     , (5498,  14, True ) /* GravityStatus */
-     , (5498,  19, True ) /* Attackable */
-     , (5498,  22, True ) /* Inscribable */;
+VALUES (5498,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5498,   1, 'Water of Lethe') /* Name */

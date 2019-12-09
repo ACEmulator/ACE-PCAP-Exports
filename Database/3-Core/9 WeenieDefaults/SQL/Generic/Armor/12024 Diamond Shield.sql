@@ -12,7 +12,6 @@ VALUES (12024,   1,          2) /* ItemType - Armor */
      , (12024,  19,       8000) /* Value */
      , (12024,  28,        180) /* ArmorLevel */
      , (12024,  51,          4) /* CombatUse - Shield */
-     , (12024,  65,        101) /* Placement - Resting */
      , (12024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12024, 106,        150) /* ItemSpellcraft */
      , (12024, 107,        450) /* ItemCurMana */
@@ -20,25 +19,21 @@ VALUES (12024,   1,          2) /* ItemType - Armor */
      , (12024, 109,        140) /* ItemDifficulty */
      , (12024, 115,        360) /* ItemSkillLevelLimit */
      , (12024, 151,          2) /* HookType - Wall */
-     , (12024, 176,         48) /* AppraisalItemSkill */;
+     , (12024, 176,         48) /* AppraisalItemSkill */
+     , (12024, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12024,   1, False) /* Stuck */
-     , (12024,  11, True ) /* IgnoreCollisions */
-     , (12024,  13, True ) /* Ethereal */
-     , (12024,  14, True ) /* GravityStatus */
-     , (12024,  19, True ) /* Attackable */
-     , (12024,  22, True ) /* Inscribable */;
+VALUES (12024,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12024,   5,   -0.05) /* ManaRate */
      , (12024,  13,       1) /* ArmorModVsSlash */
      , (12024,  14,       1) /* ArmorModVsPierce */
-     , (12024,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (12024,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (12024,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (12024,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (12024,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (12024,  15,     1.2) /* ArmorModVsBludgeon */
+     , (12024,  16,     0.6) /* ArmorModVsCold */
+     , (12024,  17,     0.6) /* ArmorModVsFire */
+     , (12024,  18,     0.6) /* ArmorModVsAcid */
+     , (12024,  19,     0.6) /* ArmorModVsElectric */
      , (12024,  39,     1.5) /* DefaultScale */
      , (12024, 165,       1) /* ArmorModVsNether */;
 

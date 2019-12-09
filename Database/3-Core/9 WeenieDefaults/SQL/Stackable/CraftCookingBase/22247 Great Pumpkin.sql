@@ -12,16 +12,9 @@ VALUES (22247,   1,    4194304) /* ItemType - CraftCookingBase */
      , (22247,  15,         30) /* StackUnitValue */
      , (22247,  16,          1) /* ItemUseable - No */
      , (22247,  19,         30) /* Value */
-     , (22247,  65,        101) /* Placement - Resting */
      , (22247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22247, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22247,   1, False) /* Stuck */
-     , (22247,  11, True ) /* IgnoreCollisions */
-     , (22247,  13, True ) /* Ethereal */
-     , (22247,  14, True ) /* GravityStatus */
-     , (22247,  19, True ) /* Attackable */;
+     , (22247, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (22247, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22247,  39,       3) /* DefaultScale */;

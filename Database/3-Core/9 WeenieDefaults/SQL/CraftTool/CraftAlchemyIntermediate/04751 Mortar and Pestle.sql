@@ -12,17 +12,10 @@ VALUES (4751,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (4751,  15,         10) /* StackUnitValue */
      , (4751,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4751,  19,         10) /* Value */
-     , (4751,  65,        101) /* Placement - Resting */
      , (4751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4751,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
-     , (4751, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4751,   1, False) /* Stuck */
-     , (4751,  11, True ) /* IgnoreCollisions */
-     , (4751,  13, True ) /* Ethereal */
-     , (4751,  14, True ) /* GravityStatus */
-     , (4751,  19, True ) /* Attackable */;
+     , (4751, 151,          9) /* HookType - Floor, Yard */
+     , (4751, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4751,   1, 'Mortar and Pestle') /* Name */

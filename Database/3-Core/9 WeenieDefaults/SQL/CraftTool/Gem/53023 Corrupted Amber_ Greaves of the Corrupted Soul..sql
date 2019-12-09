@@ -13,16 +13,9 @@ VALUES (53023,   1,       2048) /* ItemType - Gem */
      , (53023,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53023,  18,         32) /* UiEffects - Fire */
      , (53023,  19,         25) /* Value */
-     , (53023,  65,        101) /* Placement - Resting */
      , (53023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53023,  94,          6) /* TargetType - Vestements */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53023,   1, False) /* Stuck */
-     , (53023,  11, True ) /* IgnoreCollisions */
-     , (53023,  13, True ) /* Ethereal */
-     , (53023,  14, True ) /* GravityStatus */
-     , (53023,  19, True ) /* Attackable */;
+     , (53023,  94,          6) /* TargetType - Vestements */
+     , (53023, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53023,   1, 'Corrupted Amber: Greaves of the Corrupted Soul.') /* Name */

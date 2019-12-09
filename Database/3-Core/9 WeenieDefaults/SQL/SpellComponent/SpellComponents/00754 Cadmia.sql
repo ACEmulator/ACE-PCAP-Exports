@@ -12,15 +12,8 @@ VALUES (754,   1,       4096) /* ItemType - SpellComponents */
      , (754,  15,          5) /* StackUnitValue */
      , (754,  16,          1) /* ItemUseable - No */
      , (754,  19,          5) /* Value */
-     , (754,  65,        101) /* Placement - Resting */
-     , (754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (754,   1, False) /* Stuck */
-     , (754,  11, True ) /* IgnoreCollisions */
-     , (754,  13, True ) /* Ethereal */
-     , (754,  14, True ) /* GravityStatus */
-     , (754,  19, True ) /* Attackable */;
+     , (754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (754, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (754,   1, 'Cadmia') /* Name */

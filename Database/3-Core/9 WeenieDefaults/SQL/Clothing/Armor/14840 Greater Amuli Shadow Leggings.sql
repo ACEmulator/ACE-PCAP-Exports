@@ -10,16 +10,11 @@ VALUES (14840,   1,          2) /* ItemType - Armor */
      , (14840,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (14840,  16,          1) /* ItemUseable - No */
      , (14840,  19,       3040) /* Value */
-     , (14840,  65,        101) /* Placement - Resting */
-     , (14840,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (14840,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14840, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14840,   1, False) /* Stuck */
-     , (14840,  11, True ) /* IgnoreCollisions */
-     , (14840,  13, True ) /* Ethereal */
-     , (14840,  14, True ) /* GravityStatus */
-     , (14840,  19, True ) /* Attackable */
-     , (14840,  22, True ) /* Inscribable */;
+VALUES (14840,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14840,   1, 'Greater Amuli Shadow Leggings') /* Name */;

@@ -15,7 +15,6 @@ VALUES (26601,   1,          1) /* ItemType - MeleeWeapon */
      , (26601,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (26601,  49,         40) /* WeaponTime */
      , (26601,  51,          1) /* CombatUse - Melee */
-     , (26601,  65,        101) /* Placement - Resting */
      , (26601,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26601, 106,        375) /* ItemSpellcraft */
      , (26601, 107,        851) /* ItemCurMana */
@@ -26,23 +25,19 @@ VALUES (26601,   1,          1) /* ItemType - MeleeWeapon */
      , (26601, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (26601, 160,        370) /* WieldDifficulty */
      , (26601, 353,          2) /* WeaponType - Sword */
-     , (26601, 8030,          0);
+     , (26601, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (26601, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26601,   1, False) /* Stuck */
-     , (26601,  11, True ) /* IgnoreCollisions */
-     , (26601,  13, True ) /* Ethereal */
-     , (26601,  14, True ) /* GravityStatus */
-     , (26601,  19, True ) /* Attackable */
-     , (26601,  22, True ) /* Inscribable */;
+VALUES (26601,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26601,   5, -0.0500000007450581) /* ManaRate */
+VALUES (26601,   5,   -0.05) /* ManaRate */
      , (26601,  21,       0) /* WeaponLength */
-     , (26601,  22, 0.300000011920929) /* DamageVariance */
+     , (26601,  22,     0.3) /* DamageVariance */
      , (26601,  26,       0) /* MaximumVelocity */
-     , (26601,  29, 1.05999994277954) /* WeaponDefense */
-     , (26601,  62, 1.10000002384186) /* WeaponOffense */
+     , (26601,  29,    1.06) /* WeaponDefense */
+     , (26601,  62,     1.1) /* WeaponOffense */
      , (26601,  63,       1) /* DamageMod */
      , (26601, 136,       1) /* CriticalMultiplier */
      , (26601, 147,       1) /* CriticalFrequency */;

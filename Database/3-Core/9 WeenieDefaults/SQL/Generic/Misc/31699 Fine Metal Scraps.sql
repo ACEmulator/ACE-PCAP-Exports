@@ -8,15 +8,8 @@ VALUES (31699,   1,        128) /* ItemType - Misc */
      , (31699,   5,        500) /* EncumbranceVal */
      , (31699,  16,          1) /* ItemUseable - No */
      , (31699,  19,        100) /* Value */
-     , (31699,  65,        101) /* Placement - Resting */
-     , (31699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31699,   1, False) /* Stuck */
-     , (31699,  11, True ) /* IgnoreCollisions */
-     , (31699,  13, True ) /* Ethereal */
-     , (31699,  14, True ) /* GravityStatus */
-     , (31699,  19, True ) /* Attackable */;
+     , (31699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31699, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31699,   1, 'Fine Metal Scraps') /* Name */;

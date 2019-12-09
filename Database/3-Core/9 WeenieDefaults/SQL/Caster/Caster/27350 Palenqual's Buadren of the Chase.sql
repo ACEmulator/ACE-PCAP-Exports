@@ -11,21 +11,16 @@ VALUES (27350,   1,      32768) /* ItemType - Caster */
      , (27350,  16,          1) /* ItemUseable - No */
      , (27350,  18,          1) /* UiEffects - Magical */
      , (27350,  19,      20000) /* Value */
-     , (27350,  65,          1) /* Placement - RightHandCombat */
      , (27350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27350,  94,         16) /* TargetType - Creature */
-     , (27350, 151,          2) /* HookType - Wall */;
+     , (27350, 151,          2) /* HookType - Wall */
+     , (27350, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27350,   1, False) /* Stuck */
-     , (27350,  11, True ) /* IgnoreCollisions */
-     , (27350,  13, True ) /* Ethereal */
-     , (27350,  14, True ) /* GravityStatus */
-     , (27350,  19, True ) /* Attackable */
-     , (27350,  22, True ) /* Inscribable */;
+VALUES (27350,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27350,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (27350,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27350,   1, 'Palenqual''s Buadren of the Chase') /* Name */;

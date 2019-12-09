@@ -16,11 +16,7 @@ VALUES (7372,   1,         16) /* ItemType - Creature */
      , (7372, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7372,   1, True ) /* Stuck */
-     , (7372,  12, True ) /* ReportCollisions */
-     , (7372,  13, False) /* Ethereal */
-     , (7372,  14, True ) /* GravityStatus */
-     , (7372,  19, True ) /* Attackable */;
+VALUES (7372,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7372,   1, 'Relic Watchman') /* Name */

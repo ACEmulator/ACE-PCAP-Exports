@@ -12,15 +12,8 @@ VALUES (750,   1,       4096) /* ItemType - SpellComponents */
      , (750,  15,          5) /* StackUnitValue */
      , (750,  16,          1) /* ItemUseable - No */
      , (750,  19,          5) /* Value */
-     , (750,  65,        101) /* Placement - Resting */
-     , (750,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (750,   1, False) /* Stuck */
-     , (750,  11, True ) /* IgnoreCollisions */
-     , (750,  13, True ) /* Ethereal */
-     , (750,  14, True ) /* GravityStatus */
-     , (750,  19, True ) /* Attackable */;
+     , (750,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (750, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (750,   1, 'Rowan Talisman') /* Name */;

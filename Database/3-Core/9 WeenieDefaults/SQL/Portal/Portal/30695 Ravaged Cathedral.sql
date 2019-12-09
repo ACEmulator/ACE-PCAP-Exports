@@ -13,19 +13,13 @@ VALUES (30695,   1,      65536) /* ItemType - Portal */
      , (30695, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30695,   1, True ) /* Stuck */
-     , (30695,  12, True ) /* ReportCollisions */
-     , (30695,  13, True ) /* Ethereal */
-     , (30695,  14, True ) /* GravityStatus */
-     , (30695,  15, True ) /* LightsStatus */
-     , (30695,  19, True ) /* Attackable */;
+VALUES (30695,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30695,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30695,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30695,   1, 'Ravaged Cathedral') /* Name */
-     , (30695,  38, 'Ravaged Cathedral') /* AppraisalPortalDestination */
      , (30695, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

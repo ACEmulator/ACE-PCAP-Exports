@@ -13,21 +13,14 @@ VALUES (7316,   1,       2048) /* ItemType - Gem */
      , (7316,  16,          8) /* ItemUseable - Contained */
      , (7316,  18,          1) /* UiEffects - Magical */
      , (7316,  19,       1500) /* Value */
-     , (7316,  65,        101) /* Placement - Resting */
      , (7316,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7316,  94,         16) /* TargetType - Creature */
      , (7316, 106,        210) /* ItemSpellcraft */
      , (7316, 107,         50) /* ItemCurMana */
      , (7316, 108,         50) /* ItemMaxMana */
      , (7316, 109,          0) /* ItemDifficulty */
-     , (7316, 110,          0) /* ItemAllegianceRankLimit */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7316,   1, False) /* Stuck */
-     , (7316,  11, True ) /* IgnoreCollisions */
-     , (7316,  13, True ) /* Ethereal */
-     , (7316,  14, True ) /* GravityStatus */
-     , (7316,  19, True ) /* Attackable */;
+     , (7316, 110,          0) /* ItemAllegianceRankLimit */
+     , (7316, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7316,   1, 'Dansha-Ki''s Gem of Portal Recall') /* Name */

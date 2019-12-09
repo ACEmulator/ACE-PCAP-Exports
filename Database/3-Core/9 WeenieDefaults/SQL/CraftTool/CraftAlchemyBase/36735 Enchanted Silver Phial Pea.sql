@@ -11,16 +11,9 @@ VALUES (36735,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (36735,  15,       5000) /* StackUnitValue */
      , (36735,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36735,  19,       5000) /* Value */
-     , (36735,  65,        101) /* Placement - Resting */
      , (36735,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36735,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36735,   1, False) /* Stuck */
-     , (36735,  11, True ) /* IgnoreCollisions */
-     , (36735,  13, True ) /* Ethereal */
-     , (36735,  14, True ) /* GravityStatus */
-     , (36735,  19, True ) /* Attackable */;
+     , (36735,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
+     , (36735, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36735,  39,     0.5) /* DefaultScale */;

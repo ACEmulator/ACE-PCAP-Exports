@@ -11,11 +11,7 @@ VALUES (42638,   1,        128) /* ItemType - Misc */
      , (42638,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42638,   1, True ) /* Stuck */
-     , (42638,  11, True ) /* IgnoreCollisions */
-     , (42638,  13, False) /* Ethereal */
-     , (42638,  14, True ) /* GravityStatus */
-     , (42638,  19, True ) /* Attackable */;
+VALUES (42638,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42638,   1, 'Scarecrow') /* Name */;

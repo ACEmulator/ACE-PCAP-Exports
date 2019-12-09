@@ -15,15 +15,11 @@ VALUES (33531,   1,         16) /* ItemType - Creature */
      , (33531, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33531,   1, True ) /* Stuck */
-     , (33531,  12, True ) /* ReportCollisions */
-     , (33531,  13, False) /* Ethereal */
-     , (33531,  14, True ) /* GravityStatus */
-     , (33531,  19, True ) /* Attackable */;
+VALUES (33531,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33531,  39, 0.800000011920929) /* DefaultScale */
-     , (33531,  76, 0.800000011920929) /* Translucency */;
+VALUES (33531,  39,     0.8) /* DefaultScale */
+     , (33531,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33531,   1, 'Shadow Eddy') /* Name */

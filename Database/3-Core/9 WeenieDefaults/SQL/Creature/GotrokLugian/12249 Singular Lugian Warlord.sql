@@ -15,11 +15,7 @@ VALUES (12249,   1,         16) /* ItemType - Creature */
      , (12249, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12249,   1, True ) /* Stuck */
-     , (12249,  12, True ) /* ReportCollisions */
-     , (12249,  13, False) /* Ethereal */
-     , (12249,  14, True ) /* GravityStatus */
-     , (12249,  19, True ) /* Attackable */;
+VALUES (12249,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12249,   1, 'Singular Lugian Warlord') /* Name */

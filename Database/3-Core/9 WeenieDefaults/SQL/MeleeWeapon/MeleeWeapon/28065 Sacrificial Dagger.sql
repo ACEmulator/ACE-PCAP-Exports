@@ -17,7 +17,6 @@ VALUES (28065,   1,          1) /* ItemType - MeleeWeapon */
      , (28065,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (28065,  49,         15) /* WeaponTime */
      , (28065,  51,          1) /* CombatUse - Melee */
-     , (28065,  65,        101) /* Placement - Resting */
      , (28065,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28065, 114,          1) /* Attuned - Attuned */
      , (28065, 151,          2) /* HookType - Wall */
@@ -25,15 +24,11 @@ VALUES (28065,   1,          1) /* ItemType - MeleeWeapon */
      , (28065, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (28065, 160,        300) /* WieldDifficulty */
      , (28065, 353,          6) /* WeaponType - Dagger */
-     , (28065, 8030,          0);
+     , (28065, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (28065, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28065,   1, False) /* Stuck */
-     , (28065,  11, True ) /* IgnoreCollisions */
-     , (28065,  13, True ) /* Ethereal */
-     , (28065,  14, True ) /* GravityStatus */
-     , (28065,  19, True ) /* Attackable */
-     , (28065,  22, True ) /* Inscribable */
+VALUES (28065,  22, True ) /* Inscribable */
      , (28065,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

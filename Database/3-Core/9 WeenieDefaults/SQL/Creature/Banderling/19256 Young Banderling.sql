@@ -16,14 +16,10 @@ VALUES (19256,   1,         16) /* ItemType - Creature */
      , (19256, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19256,   1, True ) /* Stuck */
-     , (19256,  12, True ) /* ReportCollisions */
-     , (19256,  13, False) /* Ethereal */
-     , (19256,  14, True ) /* GravityStatus */
-     , (19256,  19, True ) /* Attackable */;
+VALUES (19256,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19256,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (19256,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19256,   1, 'Young Banderling') /* Name */

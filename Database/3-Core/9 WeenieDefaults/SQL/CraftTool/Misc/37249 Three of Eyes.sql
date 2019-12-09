@@ -11,16 +11,9 @@ VALUES (37249,   1,        128) /* ItemType - Misc */
      , (37249,  13,          1) /* StackUnitEncumbrance */
      , (37249,  15,          0) /* StackUnitValue */
      , (37249,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (37249,  65,        101) /* Placement - Resting */
      , (37249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37249,  94,        128) /* TargetType - Misc */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37249,   1, False) /* Stuck */
-     , (37249,  11, True ) /* IgnoreCollisions */
-     , (37249,  13, True ) /* Ethereal */
-     , (37249,  14, True ) /* GravityStatus */
-     , (37249,  19, True ) /* Attackable */;
+     , (37249,  94,        128) /* TargetType - Misc */
+     , (37249, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37249,   1, 'Three of Eyes') /* Name */

@@ -9,22 +9,15 @@ VALUES (41074,   1,       8192) /* ItemType - Writable */
      , (41074,  16,          8) /* ItemUseable - Contained */
      , (41074,  19,          0) /* Value */
      , (41074,  33,          0) /* Bonded - Normal */
-     , (41074,  65,        101) /* Placement - Resting */
      , (41074,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41074, 151,          2) /* HookType - Wall */
-     , (41074, 174,          5) /* AppraisalPages */
-     , (41074, 175,          5) /* AppraisalMaxPages */
-     , (41074, 279,          1) /* Unique */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41074,   1, False) /* Stuck */
-     , (41074,  11, True ) /* IgnoreCollisions */
-     , (41074,  13, True ) /* Ethereal */
-     , (41074,  14, True ) /* GravityStatus */
-     , (41074,  19, True ) /* Attackable */;
+     , (41074, 279,          1) /* Unique */
+     , (41074, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (41074, 8042,          5) /* PCAPRecordedAppraisalPages */
+     , (41074, 8043,          5) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41074,  54, 0.300000011920929) /* UseRadius */;
+VALUES (41074,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41074,   1, 'Journal of Ries Woron') /* Name */

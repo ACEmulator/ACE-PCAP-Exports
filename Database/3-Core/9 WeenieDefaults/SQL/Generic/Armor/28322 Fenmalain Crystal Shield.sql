@@ -22,18 +22,13 @@ VALUES (28322,   1,          2) /* ItemType - Armor */
      , (28322, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28322,   1, False) /* Stuck */
-     , (28322,  11, True ) /* IgnoreCollisions */
-     , (28322,  13, True ) /* Ethereal */
-     , (28322,  14, True ) /* GravityStatus */
-     , (28322,  19, True ) /* Attackable */
-     , (28322,  22, True ) /* Inscribable */;
+VALUES (28322,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28322,   5, -0.0500000007450581) /* ManaRate */
+VALUES (28322,   5,   -0.05) /* ManaRate */
      , (28322,  13,       1) /* ArmorModVsSlash */
      , (28322,  14,       1) /* ArmorModVsPierce */
-     , (28322,  15, 1.20000004768372) /* ArmorModVsBludgeon */
+     , (28322,  15,     1.2) /* ArmorModVsBludgeon */
      , (28322,  16,       1) /* ArmorModVsCold */
      , (28322,  17,       1) /* ArmorModVsFire */
      , (28322,  18,       1) /* ArmorModVsAcid */

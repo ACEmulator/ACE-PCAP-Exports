@@ -18,14 +18,11 @@ VALUES (51626,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51626,   1, True ) /* Stuck */
-     , (51626,  12, True ) /* ReportCollisions */
-     , (51626,  13, False) /* Ethereal */
-     , (51626,  14, True ) /* GravityStatus */
      , (51626,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51626,  39, 1.10000002384186) /* DefaultScale */
-     , (51626,  76, 0.800000011920929) /* Translucency */;
+VALUES (51626,  39,     1.1) /* DefaultScale */
+     , (51626,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51626,   1, 'Aspect of Avarice') /* Name */

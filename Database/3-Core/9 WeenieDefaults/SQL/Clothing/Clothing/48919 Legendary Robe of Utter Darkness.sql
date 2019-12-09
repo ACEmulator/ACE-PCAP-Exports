@@ -11,16 +11,11 @@ VALUES (48919,   1,          4) /* ItemType - Clothing */
      , (48919,  16,          1) /* ItemUseable - No */
      , (48919,  18,          1) /* UiEffects - Magical */
      , (48919,  19,     100000) /* Value */
-     , (48919,  65,        101) /* Placement - Resting */
-     , (48919,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (48919,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (48919, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48919,   1, False) /* Stuck */
-     , (48919,  11, True ) /* IgnoreCollisions */
-     , (48919,  13, True ) /* Ethereal */
-     , (48919,  14, True ) /* GravityStatus */
-     , (48919,  19, True ) /* Attackable */
-     , (48919,  22, True ) /* Inscribable */;
+VALUES (48919,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48919,   1, 'Legendary Robe of Utter Darkness') /* Name */;

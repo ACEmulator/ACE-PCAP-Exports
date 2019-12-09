@@ -23,25 +23,20 @@ VALUES (42210,   1,        256) /* ItemType - MissileWeapon */
      , (42210, 109,         15) /* ItemDifficulty */
      , (42210, 151,          2) /* HookType - Wall */
      , (42210, 353,          9) /* WeaponType - Crossbow */
-     , (42210, 8030,          0);
+     , (42210, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42210,   1, False) /* Stuck */
-     , (42210,  11, True ) /* IgnoreCollisions */
-     , (42210,  13, True ) /* Ethereal */
-     , (42210,  14, True ) /* GravityStatus */
-     , (42210,  19, True ) /* Attackable */
-     , (42210,  22, True ) /* Inscribable */;
+VALUES (42210,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42210,   5, -0.025000000372529) /* ManaRate */
+VALUES (42210,   5,   -0.03) /* ManaRate */
      , (42210,  21,       0) /* WeaponLength */
      , (42210,  22,       0) /* DamageVariance */
      , (42210,  26,    27.3) /* MaximumVelocity */
-     , (42210,  29, 1.04999995231628) /* WeaponDefense */
+     , (42210,  29,    1.05) /* WeaponDefense */
      , (42210,  39,    1.25) /* DefaultScale */
      , (42210,  62,       1) /* WeaponOffense */
-     , (42210,  63, 2.29999995231628) /* DamageMod */
+     , (42210,  63,     2.3) /* DamageMod */
      , (42210, 136,       1) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -11,22 +11,16 @@ VALUES (47164,   1,      32768) /* ItemType - Caster */
      , (47164,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (47164,  18,          1) /* UiEffects - Magical */
      , (47164,  19,      20000) /* Value */
-     , (47164,  65,          1) /* Placement - RightHandCombat */
      , (47164,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (47164,  94,         16) /* TargetType - Creature */
-     , (47164, 151,          3) /* HookType - Floor, Wall */;
+     , (47164, 151,          3) /* HookType - Floor, Wall */
+     , (47164, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47164,   1, False) /* Stuck */
-     , (47164,  11, True ) /* IgnoreCollisions */
-     , (47164,  13, True ) /* Ethereal */
-     , (47164,  14, True ) /* GravityStatus */
-     , (47164,  15, True ) /* LightsStatus */
-     , (47164,  19, True ) /* Attackable */
-     , (47164,  22, True ) /* Inscribable */;
+VALUES (47164,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47164,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (47164,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47164,   1, 'Seed of Harvests') /* Name */;

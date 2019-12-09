@@ -12,17 +12,10 @@ VALUES (260,   1,         32) /* ItemType - Food */
      , (260,  15,         12) /* StackUnitValue */
      , (260,  16,          8) /* ItemUseable - Contained */
      , (260,  19,         12) /* Value */
-     , (260,  65,        101) /* Placement - Resting */
      , (260,  89,          4) /* BoosterEnum - Stamina */
      , (260,  90,          6) /* BoostValue */
-     , (260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (260,   1, False) /* Stuck */
-     , (260,  11, True ) /* IgnoreCollisions */
-     , (260,  13, True ) /* Ethereal */
-     , (260,  14, True ) /* GravityStatus */
-     , (260,  19, True ) /* Attackable */;
+     , (260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (260, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (260,   1, 'Cabbage') /* Name */

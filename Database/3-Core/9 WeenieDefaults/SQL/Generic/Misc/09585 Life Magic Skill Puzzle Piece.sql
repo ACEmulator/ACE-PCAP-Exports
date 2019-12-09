@@ -9,21 +9,16 @@ VALUES (9585,   1,        128) /* ItemType - Misc */
      , (9585,  16,          1) /* ItemUseable - No */
      , (9585,  19,      10000) /* Value */
      , (9585,  33,         -2) /* Bonded - Destroy */
-     , (9585,  65,        101) /* Placement - Resting */
      , (9585,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9585, 114,          1) /* Attuned - Attuned */;
+     , (9585, 114,          1) /* Attuned - Attuned */
+     , (9585, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9585,   1, False) /* Stuck */
-     , (9585,  11, True ) /* IgnoreCollisions */
-     , (9585,  13, True ) /* Ethereal */
-     , (9585,  14, True ) /* GravityStatus */
-     , (9585,  19, True ) /* Attackable */
-     , (9585,  22, True ) /* Inscribable */
+VALUES (9585,  22, True ) /* Inscribable */
      , (9585,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9585,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9585,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9585,   1, 'Life Magic Skill Puzzle Piece') /* Name */

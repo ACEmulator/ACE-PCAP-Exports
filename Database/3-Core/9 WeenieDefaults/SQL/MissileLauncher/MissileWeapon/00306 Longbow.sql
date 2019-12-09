@@ -16,7 +16,6 @@ VALUES (306,   1,        256) /* ItemType - MissileWeapon */
      , (306,  49,         41) /* WeaponTime */
      , (306,  50,          1) /* AmmoType - Arrow */
      , (306,  51,          2) /* CombatUse - Missle */
-     , (306,  65,          3) /* Placement - LeftHand */
      , (306,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (306, 105,          6) /* ItemWorkmanship */
      , (306, 106,        181) /* ItemSpellcraft */
@@ -35,25 +34,21 @@ VALUES (306,   1,        256) /* ItemType - MissileWeapon */
      , (306, 177,          1) /* GemCount */
      , (306, 178,         43) /* GemType */
      , (306, 353,          8) /* WeaponType - Bow */
-     , (306, 8030,          0);
+     , (306, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (306, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (306,   1, False) /* Stuck */
-     , (306,  11, True ) /* IgnoreCollisions */
-     , (306,  13, True ) /* Ethereal */
-     , (306,  14, True ) /* GravityStatus */
-     , (306,  19, True ) /* Attackable */
-     , (306,  22, True ) /* Inscribable */;
+VALUES (306,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (306,   5, -0.0416666666666667) /* ManaRate */
+VALUES (306,   5,   -0.04) /* ManaRate */
      , (306,  21,       0) /* WeaponLength */
      , (306,  22,       0) /* DamageVariance */
      , (306,  26,    27.3) /* MaximumVelocity */
      , (306,  29,    1.11) /* WeaponDefense */
      , (306,  62,       1) /* WeaponOffense */
      , (306,  63,    2.33) /* DamageMod */
-     , (306, 149,   1.015) /* WeaponMissileDefense */;
+     , (306, 149,    1.01) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (306,   1, 'Longbow') /* Name */

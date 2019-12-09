@@ -13,19 +13,13 @@ VALUES (47208,   1,      65536) /* ItemType - Portal */
      , (47208, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47208,   1, True ) /* Stuck */
-     , (47208,  12, True ) /* ReportCollisions */
-     , (47208,  13, True ) /* Ethereal */
-     , (47208,  14, True ) /* GravityStatus */
-     , (47208,  15, True ) /* LightsStatus */
-     , (47208,  19, True ) /* Attackable */;
+VALUES (47208,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47208,  54, -0.100000001490116) /* UseRadius */;
+VALUES (47208,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47208,   1, 'Falatacot Depot') /* Name */
-     , (47208,  38, 'Falatacot Depot') /* AppraisalPortalDestination */
      , (47208, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

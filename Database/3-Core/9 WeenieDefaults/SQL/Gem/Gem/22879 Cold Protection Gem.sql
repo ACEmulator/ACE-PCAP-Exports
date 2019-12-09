@@ -13,17 +13,12 @@ VALUES (22879,   1,       2048) /* ItemType - Gem */
      , (22879,  16,          8) /* ItemUseable - Contained */
      , (22879,  18,          1) /* UiEffects - Magical */
      , (22879,  19,        200) /* Value */
-     , (22879,  65,        101) /* Placement - Resting */
      , (22879,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22879,  94,         16) /* TargetType - Creature */;
+     , (22879,  94,         16) /* TargetType - Creature */
+     , (22879, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22879,   1, False) /* Stuck */
-     , (22879,  11, True ) /* IgnoreCollisions */
-     , (22879,  13, True ) /* Ethereal */
-     , (22879,  14, True ) /* GravityStatus */
-     , (22879,  19, True ) /* Attackable */
-     , (22879,  22, True ) /* Inscribable */;
+VALUES (22879,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22879,   1, 'Cold Protection Gem') /* Name */;

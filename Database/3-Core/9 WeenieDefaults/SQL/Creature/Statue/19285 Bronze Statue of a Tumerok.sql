@@ -15,14 +15,10 @@ VALUES (19285,   1,         16) /* ItemType - Creature */
      , (19285, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19285,   1, True ) /* Stuck */
-     , (19285,  12, True ) /* ReportCollisions */
-     , (19285,  13, False) /* Ethereal */
-     , (19285,  14, True ) /* GravityStatus */
-     , (19285,  19, True ) /* Attackable */;
+VALUES (19285,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19285,  39, 2.29999995231628) /* DefaultScale */;
+VALUES (19285,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19285,   1, 'Bronze Statue of a Tumerok') /* Name */

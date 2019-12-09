@@ -16,22 +16,17 @@ VALUES (30204,   1,       2048) /* ItemType - Gem */
      , (30204,  19,          0) /* Value */
      , (30204,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30204,  33,         -1) /* Bonded - Slippery */
-     , (30204,  65,        101) /* Placement - Resting */
      , (30204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30204,  94,         16) /* TargetType - Creature */
      , (30204, 106,        325) /* ItemSpellcraft */
      , (30204, 107,      10000) /* ItemCurMana */
      , (30204, 108,      10000) /* ItemMaxMana */
      , (30204, 109,          0) /* ItemDifficulty */
-     , (30204, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30204, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30204, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30204,   1, False) /* Stuck */
-     , (30204,  11, True ) /* IgnoreCollisions */
-     , (30204,  13, True ) /* Ethereal */
-     , (30204,  14, True ) /* GravityStatus */
-     , (30204,  19, True ) /* Attackable */
-     , (30204, 108, True ) /* RareUsesTimer */;
+VALUES (30204, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30204,   1, 'Pearl of Flame Baning') /* Name */

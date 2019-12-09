@@ -8,21 +8,16 @@ VALUES (11974,   1,       8192) /* ItemType - Writable */
      , (11974,   5,        160) /* EncumbranceVal */
      , (11974,  16,          8) /* ItemUseable - Contained */
      , (11974,  19,         50) /* Value */
-     , (11974,  65,        101) /* Placement - Resting */
      , (11974,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11974, 174,         39) /* AppraisalPages */
-     , (11974, 175,         39) /* AppraisalMaxPages */;
+     , (11974, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (11974, 8042,         39) /* PCAPRecordedAppraisalPages */
+     , (11974, 8043,         39) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11974,   1, False) /* Stuck */
-     , (11974,  11, True ) /* IgnoreCollisions */
-     , (11974,  13, True ) /* Ethereal */
-     , (11974,  14, True ) /* GravityStatus */
-     , (11974,  19, True ) /* Attackable */
-     , (11974,  22, True ) /* Inscribable */;
+VALUES (11974,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11974,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (11974,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11974,   1, 'Aun Shimauri''s Instructions') /* Name */;

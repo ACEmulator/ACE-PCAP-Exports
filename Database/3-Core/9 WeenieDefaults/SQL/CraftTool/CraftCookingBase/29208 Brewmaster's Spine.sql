@@ -16,12 +16,7 @@ VALUES (29208,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29208, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29208,   1, False) /* Stuck */
-     , (29208,  11, True ) /* IgnoreCollisions */
-     , (29208,  13, True ) /* Ethereal */
-     , (29208,  14, True ) /* GravityStatus */
-     , (29208,  19, True ) /* Attackable */
-     , (29208,  22, True ) /* Inscribable */;
+VALUES (29208,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29208,  39,       3) /* DefaultScale */;

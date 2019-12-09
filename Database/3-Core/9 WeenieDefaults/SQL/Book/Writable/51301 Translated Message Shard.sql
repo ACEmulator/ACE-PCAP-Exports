@@ -8,18 +8,11 @@ VALUES (51301,   1,       8192) /* ItemType - Writable */
      , (51301,   5,         25) /* EncumbranceVal */
      , (51301,  16,          8) /* ItemUseable - Contained */
      , (51301,  19,          0) /* Value */
-     , (51301,  65,        101) /* Placement - Resting */
      , (51301,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51301, 114,          1) /* Attuned - Attuned */
-     , (51301, 174,          1) /* AppraisalPages */
-     , (51301, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51301,   1, False) /* Stuck */
-     , (51301,  11, True ) /* IgnoreCollisions */
-     , (51301,  13, True ) /* Ethereal */
-     , (51301,  14, True ) /* GravityStatus */
-     , (51301,  19, True ) /* Attackable */;
+     , (51301, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (51301, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (51301, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51301,  54,       1) /* UseRadius */;

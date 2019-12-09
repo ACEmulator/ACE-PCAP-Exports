@@ -13,21 +13,14 @@ VALUES (28842,   1,        128) /* ItemType - Misc */
      , (28842,  16,          8) /* ItemUseable - Contained */
      , (28842,  19,       1000) /* Value */
      , (28842,  33,          0) /* Bonded - Normal */
-     , (28842,  65,        101) /* Placement - Resting */
      , (28842,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28842, 106,        111) /* ItemSpellcraft */
      , (28842, 107,        100) /* ItemCurMana */
      , (28842, 108,        100) /* ItemMaxMana */
      , (28842, 109,          0) /* ItemDifficulty */
      , (28842, 114,          0) /* Attuned - Normal */
-     , (28842, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28842,   1, False) /* Stuck */
-     , (28842,  11, True ) /* IgnoreCollisions */
-     , (28842,  13, True ) /* Ethereal */
-     , (28842,  14, True ) /* GravityStatus */
-     , (28842,  19, True ) /* Attackable */;
+     , (28842, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (28842, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28842,   1, 'Essence of Cave Penguin') /* Name */

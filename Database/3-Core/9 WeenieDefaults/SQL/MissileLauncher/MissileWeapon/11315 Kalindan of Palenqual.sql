@@ -17,7 +17,6 @@ VALUES (11315,   1,        256) /* ItemType - MissileWeapon */
      , (11315,  49,         90) /* WeaponTime */
      , (11315,  50,          2) /* AmmoType - Bolt */
      , (11315,  51,          2) /* CombatUse - Missle */
-     , (11315,  65,        101) /* Placement - Resting */
      , (11315,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11315, 106,        250) /* ItemSpellcraft */
      , (11315, 107,       1906) /* ItemCurMana */
@@ -28,29 +27,25 @@ VALUES (11315,   1,        256) /* ItemType - MissileWeapon */
      , (11315, 159,         47) /* WieldSkillType - MissileWeapons */
      , (11315, 160,        250) /* WieldDifficulty */
      , (11315, 353,          9) /* WeaponType - Crossbow */
-     , (11315, 8030,          0);
+     , (11315, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (11315, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11315,   1, False) /* Stuck */
-     , (11315,  11, True ) /* IgnoreCollisions */
-     , (11315,  13, True ) /* Ethereal */
-     , (11315,  14, True ) /* GravityStatus */
-     , (11315,  19, True ) /* Attackable */
-     , (11315,  22, True ) /* Inscribable */
+VALUES (11315,  22, True ) /* Inscribable */
      , (11315,  69, False) /* IsSellable */
      , (11315,  85, True ) /* AppraisalHasAllowedWielder */
      , (11315,  94, True ) /* AppraisalHasAllowedActivator */
      , (11315,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11315,   5, -0.0500000007450581) /* ManaRate */
+VALUES (11315,   5,   -0.05) /* ManaRate */
      , (11315,  21,       0) /* WeaponLength */
      , (11315,  22,       0) /* DamageVariance */
      , (11315,  26,    27.3) /* MaximumVelocity */
-     , (11315,  29, 1.10000002384186) /* WeaponDefense */
+     , (11315,  29,     1.1) /* WeaponDefense */
      , (11315,  39,    1.25) /* DefaultScale */
      , (11315,  62,       1) /* WeaponOffense */
-     , (11315,  63, 2.45000004768372) /* DamageMod */;
+     , (11315,  63,    2.45) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11315,   1, 'Kalindan of Palenqual') /* Name */

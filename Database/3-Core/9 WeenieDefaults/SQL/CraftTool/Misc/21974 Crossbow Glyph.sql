@@ -12,20 +12,15 @@ VALUES (21974,   1,        128) /* ItemType - Misc */
      , (21974,  15,       5000) /* StackUnitValue */
      , (21974,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21974,  19,       5000) /* Value */
-     , (21974,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (21974,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21974,  94,        128) /* TargetType - Misc */
      , (21974, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21974,   1, False) /* Stuck */
-     , (21974,  11, True ) /* IgnoreCollisions */
-     , (21974,  13, True ) /* Ethereal */
-     , (21974,  14, True ) /* GravityStatus */
-     , (21974,  19, True ) /* Attackable */
-     , (21974,  22, True ) /* Inscribable */;
+VALUES (21974,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21974,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (21974,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21974,   1, 'Crossbow Glyph') /* Name */

@@ -17,11 +17,7 @@ VALUES (38629,   1,         16) /* ItemType - Creature */
      , (38629, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38629,   1, True ) /* Stuck */
-     , (38629,  12, True ) /* ReportCollisions */
-     , (38629,  13, False) /* Ethereal */
-     , (38629,  14, True ) /* GravityStatus */
-     , (38629,  19, True ) /* Attackable */;
+VALUES (38629,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38629,   1, 'Captain Joroshi') /* Name */

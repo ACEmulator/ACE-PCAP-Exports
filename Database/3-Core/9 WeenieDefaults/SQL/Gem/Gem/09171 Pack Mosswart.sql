@@ -14,15 +14,10 @@ VALUES (9171,   1,       2048) /* ItemType - Gem */
      , (9171, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9171,   1, False) /* Stuck */
-     , (9171,  11, True ) /* IgnoreCollisions */
-     , (9171,  13, True ) /* Ethereal */
-     , (9171,  14, True ) /* GravityStatus */
-     , (9171,  19, True ) /* Attackable */
-     , (9171,  22, True ) /* Inscribable */;
+VALUES (9171,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9171,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (9171,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9171,   1, 'Pack Mosswart') /* Name */

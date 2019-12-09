@@ -21,15 +21,10 @@ VALUES (35921,   1,        128) /* ItemType - Misc */
      , (35921, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35921,   1, False) /* Stuck */
-     , (35921,  11, True ) /* IgnoreCollisions */
-     , (35921,  13, True ) /* Ethereal */
-     , (35921,  14, True ) /* GravityStatus */
-     , (35921,  19, True ) /* Attackable */
-     , (35921,  69, False) /* IsSellable */;
+VALUES (35921,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35921,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (35921,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35921,   1, 'Amelia''s Golem Doll') /* Name */

@@ -11,12 +11,7 @@ VALUES (12596,   1,        128) /* ItemType - Misc */
      , (12596,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12596,   1, True ) /* Stuck */
-     , (12596,  11, True ) /* IgnoreCollisions */
-     , (12596,  12, True ) /* ReportCollisions */
-     , (12596,  13, False) /* Ethereal */
-     , (12596,  14, True ) /* GravityStatus */
-     , (12596,  19, True ) /* Attackable */;
+VALUES (12596,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12596,   1, 'East Lytelthorpe Settlement') /* Name */;

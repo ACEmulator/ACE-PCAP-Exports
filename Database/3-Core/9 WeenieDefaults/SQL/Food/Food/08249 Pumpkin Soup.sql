@@ -12,18 +12,13 @@ VALUES (8249,   1,         32) /* ItemType - Food */
      , (8249,  15,         35) /* StackUnitValue */
      , (8249,  16,          8) /* ItemUseable - Contained */
      , (8249,  19,         35) /* Value */
-     , (8249,  65,        101) /* Placement - Resting */
      , (8249,  89,          4) /* BoosterEnum - Stamina */
      , (8249,  90,         15) /* BoostValue */
-     , (8249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (8249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8249, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8249,   1, False) /* Stuck */
-     , (8249,  11, True ) /* IgnoreCollisions */
-     , (8249,  13, True ) /* Ethereal */
-     , (8249,  14, True ) /* GravityStatus */
-     , (8249,  19, True ) /* Attackable */
-     , (8249,  69, False) /* IsSellable */;
+VALUES (8249,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8249,   1, 'Pumpkin Soup') /* Name */

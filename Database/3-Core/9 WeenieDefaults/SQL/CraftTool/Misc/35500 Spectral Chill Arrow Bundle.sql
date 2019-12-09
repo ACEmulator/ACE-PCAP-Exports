@@ -13,21 +13,16 @@ VALUES (35500,   1,        128) /* ItemType - Misc */
      , (35500,  16,          8) /* ItemUseable - Contained */
      , (35500,  19,          1) /* Value */
      , (35500,  33,          1) /* Bonded - Bonded */
-     , (35500,  65,        101) /* Placement - Resting */
      , (35500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35500,  94,         16) /* TargetType - Creature */
-     , (35500, 114,          1) /* Attuned - Attuned */;
+     , (35500, 114,          1) /* Attuned - Attuned */
+     , (35500, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35500,   1, False) /* Stuck */
-     , (35500,  11, True ) /* IgnoreCollisions */
-     , (35500,  13, True ) /* Ethereal */
-     , (35500,  14, True ) /* GravityStatus */
-     , (35500,  19, True ) /* Attackable */
-     , (35500,  69, False) /* IsSellable */;
+VALUES (35500,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35500,  39, 0.379999995231628) /* DefaultScale */;
+VALUES (35500,  39,    0.38) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35500,   1, 'Spectral Chill Arrow Bundle') /* Name */

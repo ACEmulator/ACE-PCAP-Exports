@@ -15,15 +15,10 @@ VALUES (31829,   1,         16) /* ItemType - Creature */
      , (31829, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31829,   1, True ) /* Stuck */
-     , (31829,  12, True ) /* ReportCollisions */
-     , (31829,  13, False) /* Ethereal */
-     , (31829,  14, True ) /* GravityStatus */
-     , (31829,  19, True ) /* Attackable */
-     , (31829,  42, True ) /* AllowEdgeSlide */;
+VALUES (31829,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31829,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (31829,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31829,   1, 'Galvanic Knight') /* Name */

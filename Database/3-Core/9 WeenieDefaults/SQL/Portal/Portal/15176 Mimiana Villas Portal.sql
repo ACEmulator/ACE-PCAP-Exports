@@ -12,19 +12,13 @@ VALUES (15176,   1,      65536) /* ItemType - Portal */
      , (15176, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15176,   1, True ) /* Stuck */
-     , (15176,  12, True ) /* ReportCollisions */
-     , (15176,  13, True ) /* Ethereal */
-     , (15176,  14, True ) /* GravityStatus */
-     , (15176,  15, True ) /* LightsStatus */
-     , (15176,  19, True ) /* Attackable */;
+VALUES (15176,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15176,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15176,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15176,   1, 'Mimiana Villas Portal') /* Name */
-     , (15176,  38, 'Mimiana Villas Portal (25.0N, 3.9W).') /* AppraisalPortalDestination */
      , (15176, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

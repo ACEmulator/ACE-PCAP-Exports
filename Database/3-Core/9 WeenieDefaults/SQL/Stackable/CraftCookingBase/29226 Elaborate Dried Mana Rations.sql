@@ -13,15 +13,8 @@ VALUES (29226,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29226,  16,          1) /* ItemUseable - No */
      , (29226,  18,          8) /* UiEffects - BoostMana */
      , (29226,  19,       2000) /* Value */
-     , (29226,  65,        101) /* Placement - Resting */
-     , (29226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29226,   1, False) /* Stuck */
-     , (29226,  11, True ) /* IgnoreCollisions */
-     , (29226,  13, True ) /* Ethereal */
-     , (29226,  14, True ) /* GravityStatus */
-     , (29226,  19, True ) /* Attackable */;
+     , (29226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29226, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29226,   1, 'Elaborate Dried Mana Rations') /* Name */

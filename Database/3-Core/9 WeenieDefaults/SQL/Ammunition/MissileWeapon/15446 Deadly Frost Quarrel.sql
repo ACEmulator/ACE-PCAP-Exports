@@ -20,29 +20,23 @@ VALUES (15446,   1,        256) /* ItemType - MissileWeapon */
      , (15446,  49,         -1) /* WeaponTime */
      , (15446,  50,          2) /* AmmoType - Bolt */
      , (15446,  51,          3) /* CombatUse - Ammo */
-     , (15446,  65,        101) /* Placement - Resting */
      , (15446,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (15446, 151,          2) /* HookType - Wall */
      , (15446, 158,          2) /* WieldRequirements - RawSkill */
      , (15446, 159,         47) /* WieldSkillType - MissileWeapons */
      , (15446, 160,        230) /* WieldDifficulty */
-     , (15446, 8030,          0);
+     , (15446, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (15446, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15446,   1, False) /* Stuck */
-     , (15446,  11, True ) /* IgnoreCollisions */
-     , (15446,  13, True ) /* Ethereal */
-     , (15446,  14, True ) /* GravityStatus */
-     , (15446,  17, True ) /* Inelastic */
-     , (15446,  19, True ) /* Attackable */
-     , (15446,  69, False) /* IsSellable */;
+VALUES (15446,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15446,  21,       0) /* WeaponLength */
      , (15446,  22,    0.43) /* DamageVariance */
      , (15446,  26,       0) /* MaximumVelocity */
      , (15446,  29,       1) /* WeaponDefense */
-     , (15446,  39, 1.10000002384186) /* DefaultScale */
+     , (15446,  39,     1.1) /* DefaultScale */
      , (15446,  62,       1) /* WeaponOffense */
      , (15446,  63,       1) /* DamageMod */
      , (15446,  78,       1) /* Friction */

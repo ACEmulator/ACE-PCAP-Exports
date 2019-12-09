@@ -13,13 +13,6 @@ VALUES (38854,   1,          1) /* ItemType - MeleeWeapon */
      , (38854,  51,          1) /* CombatUse - Melee */
      , (38854,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38854,   1, False) /* Stuck */
-     , (38854,  11, True ) /* IgnoreCollisions */
-     , (38854,  13, True ) /* Ethereal */
-     , (38854,  14, True ) /* GravityStatus */
-     , (38854,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38854,   1, 'Celestial Hand Blade') /* Name */;
 

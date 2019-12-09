@@ -15,16 +15,12 @@ VALUES (30893,   1,         16) /* ItemType - Creature */
      , (30893, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30893,   1, True ) /* Stuck */
-     , (30893,  12, True ) /* ReportCollisions */
-     , (30893,  13, False) /* Ethereal */
-     , (30893,  14, True ) /* GravityStatus */
-     , (30893,  19, True ) /* Attackable */;
+VALUES (30893,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30893, 8010, 0.122294388711452) /* PCAPRecordedVelocityX */
-     , (30893, 8011, 0.163059175014496) /* PCAPRecordedVelocityY */
-     , (30893, 8012, -0.0849266573786736) /* PCAPRecordedVelocityZ */;
+VALUES (30893, 8010,    0.12) /* PCAPRecordedVelocityX */
+     , (30893, 8011,    0.16) /* PCAPRecordedVelocityY */
+     , (30893, 8012,   -0.08) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30893,   1, 'Fallen Marionette') /* Name */

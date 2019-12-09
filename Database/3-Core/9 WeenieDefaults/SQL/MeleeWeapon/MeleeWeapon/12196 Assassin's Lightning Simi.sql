@@ -12,16 +12,11 @@ VALUES (12196,   1,          1) /* ItemType - MeleeWeapon */
      , (12196,  18,         64) /* UiEffects - Lightning */
      , (12196,  19,        160) /* Value */
      , (12196,  51,          1) /* CombatUse - Melee */
-     , (12196,  65,          1) /* Placement - RightHandCombat */
-     , (12196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12196, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12196,   1, False) /* Stuck */
-     , (12196,  11, True ) /* IgnoreCollisions */
-     , (12196,  13, True ) /* Ethereal */
-     , (12196,  14, True ) /* GravityStatus */
-     , (12196,  19, True ) /* Attackable */
-     , (12196,  22, True ) /* Inscribable */;
+VALUES (12196,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12196,   1, 'Assassin''s Lightning Simi') /* Name */;

@@ -16,15 +16,10 @@ VALUES (7373,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7373,   1, True ) /* Stuck */
-     , (7373,  12, True ) /* ReportCollisions */
-     , (7373,  13, False) /* Ethereal */
-     , (7373,  14, True ) /* GravityStatus */
-     , (7373,  15, True ) /* LightsStatus */
-     , (7373,  19, True ) /* Attackable */
      , (7373, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7373,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (7373,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7373,   1, 'Tenkarrdun Hellfire') /* Name */

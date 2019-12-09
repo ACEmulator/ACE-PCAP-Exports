@@ -12,17 +12,12 @@ VALUES (47866,   1,          1) /* ItemType - MeleeWeapon */
      , (47866,  18,        256) /* UiEffects - Acid */
      , (47866,  19,       1000) /* Value */
      , (47866,  51,          1) /* CombatUse - Melee */
-     , (47866,  65,          1) /* Placement - RightHandCombat */
      , (47866,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47866, 151,          2) /* HookType - Wall */;
+     , (47866, 151,          2) /* HookType - Wall */
+     , (47866, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47866,   1, False) /* Stuck */
-     , (47866,  11, True ) /* IgnoreCollisions */
-     , (47866,  13, True ) /* Ethereal */
-     , (47866,  14, True ) /* GravityStatus */
-     , (47866,  19, True ) /* Attackable */
-     , (47866,  22, True ) /* Inscribable */;
+VALUES (47866,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47866,  39,    1.25) /* DefaultScale */;

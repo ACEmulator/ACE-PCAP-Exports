@@ -8,16 +8,11 @@ VALUES (4892,   1,        128) /* ItemType - Misc */
      , (4892,   5,       9000) /* EncumbranceVal */
      , (4892,  16,          1) /* ItemUseable - No */
      , (4892,  19,        125) /* Value */
-     , (4892,  65,        101) /* Placement - Resting */
-     , (4892,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (4892,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (4892, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4892,   1, True ) /* Stuck */
-     , (4892,  11, True ) /* IgnoreCollisions */
-     , (4892,  12, True ) /* ReportCollisions */
-     , (4892,  13, False) /* Ethereal */
-     , (4892,  14, True ) /* GravityStatus */
-     , (4892,  19, True ) /* Attackable */;
+VALUES (4892,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4892,   1, 'Note from Aleval') /* Name */

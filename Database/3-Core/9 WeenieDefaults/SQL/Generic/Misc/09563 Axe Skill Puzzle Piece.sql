@@ -9,21 +9,16 @@ VALUES (9563,   1,        128) /* ItemType - Misc */
      , (9563,  16,          1) /* ItemUseable - No */
      , (9563,  19,      10000) /* Value */
      , (9563,  33,         -2) /* Bonded - Destroy */
-     , (9563,  65,        101) /* Placement - Resting */
      , (9563,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9563, 114,          1) /* Attuned - Attuned */;
+     , (9563, 114,          1) /* Attuned - Attuned */
+     , (9563, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9563,   1, False) /* Stuck */
-     , (9563,  11, True ) /* IgnoreCollisions */
-     , (9563,  13, True ) /* Ethereal */
-     , (9563,  14, True ) /* GravityStatus */
-     , (9563,  19, True ) /* Attackable */
-     , (9563,  22, True ) /* Inscribable */
+VALUES (9563,  22, True ) /* Inscribable */
      , (9563,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9563,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9563,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9563,   1, 'Axe Skill Puzzle Piece') /* Name */

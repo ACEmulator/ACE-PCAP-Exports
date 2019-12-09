@@ -20,16 +20,11 @@ VALUES (34968,   1,         32) /* ItemType - Food */
      , (34968, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34968,   1, False) /* Stuck */
-     , (34968,  11, True ) /* IgnoreCollisions */
-     , (34968,  13, True ) /* Ethereal */
-     , (34968,  14, True ) /* GravityStatus */
-     , (34968,  19, True ) /* Attackable */
-     , (34968,  22, True ) /* Inscribable */
+VALUES (34968,  22, True ) /* Inscribable */
      , (34968,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34968,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (34968,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34968,   1, 'Enhanced Mucor') /* Name */

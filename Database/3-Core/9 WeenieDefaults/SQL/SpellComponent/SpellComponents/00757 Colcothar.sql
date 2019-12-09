@@ -12,15 +12,8 @@ VALUES (757,   1,       4096) /* ItemType - SpellComponents */
      , (757,  15,          5) /* StackUnitValue */
      , (757,  16,          1) /* ItemUseable - No */
      , (757,  19,          5) /* Value */
-     , (757,  65,        101) /* Placement - Resting */
-     , (757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (757,   1, False) /* Stuck */
-     , (757,  11, True ) /* IgnoreCollisions */
-     , (757,  13, True ) /* Ethereal */
-     , (757,  14, True ) /* GravityStatus */
-     , (757,  19, True ) /* Attackable */;
+     , (757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (757, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (757,   1, 'Colcothar') /* Name */

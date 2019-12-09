@@ -15,12 +15,7 @@ VALUES (40653,   1,          1) /* ItemType - MeleeWeapon */
      , (40653,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40653,   1, False) /* Stuck */
-     , (40653,  11, True ) /* IgnoreCollisions */
-     , (40653,  13, True ) /* Ethereal */
-     , (40653,  14, True ) /* GravityStatus */
-     , (40653,  19, True ) /* Attackable */
-     , (40653,  22, True ) /* Inscribable */;
+VALUES (40653,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40653,   1, 'Great Pyre Blade') /* Name */;

@@ -11,16 +11,11 @@ VALUES (19514,   1,        128) /* ItemType - Misc */
      , (19514,  13,       1000) /* StackUnitEncumbrance */
      , (19514,  15,          0) /* StackUnitValue */
      , (19514,  16,          1) /* ItemUseable - No */
-     , (19514,  65,        101) /* Placement - Resting */
-     , (19514,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (19514,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19514, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19514,   1, False) /* Stuck */
-     , (19514,  11, True ) /* IgnoreCollisions */
-     , (19514,  13, True ) /* Ethereal */
-     , (19514,  14, True ) /* GravityStatus */
-     , (19514,  19, True ) /* Attackable */
-     , (19514,  22, True ) /* Inscribable */;
+VALUES (19514,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19514,   1, 'Good Diamond Infused Pyreal Ingot') /* Name */;

@@ -38,11 +38,7 @@ VALUES (52618,   1,         16) /* ItemType - Creature */
      , (52618, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52618,   1, True ) /* Stuck */
-     , (52618,  12, True ) /* ReportCollisions */
-     , (52618,  13, False) /* Ethereal */
-     , (52618,  14, True ) /* GravityStatus */
-     , (52618,  19, True ) /* Attackable */;
+VALUES (52618,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52618,   1, 'Brier Wasp Hive') /* Name */

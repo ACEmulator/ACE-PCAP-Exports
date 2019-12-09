@@ -12,19 +12,13 @@ VALUES (12571,   1,      65536) /* ItemType - Portal */
      , (12571, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12571,   1, True ) /* Stuck */
-     , (12571,  12, True ) /* ReportCollisions */
-     , (12571,  13, True ) /* Ethereal */
-     , (12571,  14, True ) /* GravityStatus */
-     , (12571,  15, True ) /* LightsStatus */
-     , (12571,  19, True ) /* Attackable */;
+VALUES (12571,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12571,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12571,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12571,   1, 'Zabool Overlook Settlement Portal') /* Name */
-     , (12571,  38, 'Zabool Overlook Settlement Portal (22.7N, 22.7E).') /* AppraisalPortalDestination */
      , (12571, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

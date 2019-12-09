@@ -13,7 +13,6 @@ VALUES (20152,   1,      32768) /* ItemType - Caster */
      , (20152,  19,       8000) /* Value */
      , (20152,  33,          1) /* Bonded - Bonded */
      , (20152,  36,       9999) /* ResistMagic */
-     , (20152,  65,          1) /* Placement - RightHandCombat */
      , (20152,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20152,  94,         16) /* TargetType - Creature */
      , (20152, 106,        225) /* ItemSpellcraft */
@@ -24,21 +23,17 @@ VALUES (20152,   1,      32768) /* ItemType - Caster */
      , (20152, 158,          7) /* WieldRequirements - Level */
      , (20152, 159,          1) /* WieldSkillType - Axe */
      , (20152, 160,         50) /* WieldDifficulty */
-     , (20152, 176,         16) /* AppraisalItemSkill */;
+     , (20152, 176,         16) /* AppraisalItemSkill */
+     , (20152, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20152,   1, False) /* Stuck */
-     , (20152,  11, True ) /* IgnoreCollisions */
-     , (20152,  13, True ) /* Ethereal */
-     , (20152,  14, True ) /* GravityStatus */
-     , (20152,  19, True ) /* Attackable */
-     , (20152,  22, True ) /* Inscribable */
+VALUES (20152,  22, True ) /* Inscribable */
      , (20152,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20152,   5,    -0.1) /* ManaRate */
      , (20152,  29,       1) /* WeaponDefense */
-     , (20152, 144, 1.06583259758704E-314) /* ManaConversionMod */;
+     , (20152, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20152,   1, 'Perfect Isparian Wand') /* Name */;

@@ -15,11 +15,7 @@ VALUES (36216,   1,         16) /* ItemType - Creature */
      , (36216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36216,   1, True ) /* Stuck */
-     , (36216,  12, True ) /* ReportCollisions */
-     , (36216,  13, False) /* Ethereal */
-     , (36216,  14, True ) /* GravityStatus */
-     , (36216,  19, True ) /* Attackable */;
+VALUES (36216,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36216,   1, 'Artifex of the Elements') /* Name */

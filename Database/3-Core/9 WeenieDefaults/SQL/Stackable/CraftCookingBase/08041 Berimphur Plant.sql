@@ -15,15 +15,8 @@ VALUES (8041,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8041,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8041, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8041,   1, False) /* Stuck */
-     , (8041,  11, True ) /* IgnoreCollisions */
-     , (8041,  13, True ) /* Ethereal */
-     , (8041,  14, True ) /* GravityStatus */
-     , (8041,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8041,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8041,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8041,   1, 'Berimphur Plant') /* Name */

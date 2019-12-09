@@ -9,21 +9,16 @@ VALUES (22923,   1,      16384) /* ItemType - Key */
      , (22923,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (22923,  19,          0) /* Value */
      , (22923,  33,          1) /* Bonded - Bonded */
-     , (22923,  65,        101) /* Placement - Resting */
      , (22923,  91,          1) /* MaxStructure */
      , (22923,  92,          1) /* Structure */
      , (22923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22923,  94,        640) /* TargetType - LockableMagicTarget */
      , (22923, 114,          1) /* Attuned - Attuned */
-     , (22923, 151,          2) /* HookType - Wall */;
+     , (22923, 151,          2) /* HookType - Wall */
+     , (22923, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22923,   1, False) /* Stuck */
-     , (22923,  11, True ) /* IgnoreCollisions */
-     , (22923,  13, True ) /* Ethereal */
-     , (22923,  14, True ) /* GravityStatus */
-     , (22923,  19, True ) /* Attackable */
-     , (22923,  22, True ) /* Inscribable */;
+VALUES (22923,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22923,   1, 'Asylum Chest Key') /* Name */

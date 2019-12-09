@@ -14,19 +14,13 @@ VALUES (21408,   1,      65536) /* ItemType - Portal */
      , (21408, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21408,   1, True ) /* Stuck */
-     , (21408,  12, True ) /* ReportCollisions */
-     , (21408,  13, True ) /* Ethereal */
-     , (21408,  14, True ) /* GravityStatus */
-     , (21408,  15, True ) /* LightsStatus */
-     , (21408,  19, True ) /* Attackable */;
+VALUES (21408,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21408,  54, -0.100000001490116) /* UseRadius */;
+VALUES (21408,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21408,   1, 'Entropic Decay') /* Name */
-     , (21408,  38, 'Entropic Decay') /* AppraisalPortalDestination */
      , (21408, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -14,25 +14,20 @@ VALUES (49921,   1,          2) /* ItemType - Armor */
      , (49921,  28,        600) /* ArmorLevel */
      , (49921,  33,          1) /* Bonded - Bonded */
      , (49921,  36,       9999) /* ResistMagic */
-     , (49921,  65,        101) /* Placement - Resting */
      , (49921,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49921, 158,          7) /* WieldRequirements - Level */
      , (49921, 159,          1) /* WieldSkillType - Axe */
      , (49921, 160,        115) /* WieldDifficulty */
-     , (49921, 265,        130) /* EquipmentSetId - ShimmeringShadowsSet */;
+     , (49921, 265,        130) /* EquipmentSetId - ShimmeringShadowsSet */
+     , (49921, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49921,   1, False) /* Stuck */
-     , (49921,  11, True ) /* IgnoreCollisions */
-     , (49921,  13, True ) /* Ethereal */
-     , (49921,  14, True ) /* GravityStatus */
-     , (49921,  19, True ) /* Attackable */
-     , (49921,  22, True ) /* Inscribable */;
+VALUES (49921,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49921,  13, 1.39999997615814) /* ArmorModVsSlash */
-     , (49921,  14, 1.39999997615814) /* ArmorModVsPierce */
-     , (49921,  15, 1.39999997615814) /* ArmorModVsBludgeon */
+VALUES (49921,  13,     1.4) /* ArmorModVsSlash */
+     , (49921,  14,     1.4) /* ArmorModVsPierce */
+     , (49921,  15,     1.4) /* ArmorModVsBludgeon */
      , (49921,  16,       2) /* ArmorModVsCold */
      , (49921,  17,       2) /* ArmorModVsFire */
      , (49921,  18,       2) /* ArmorModVsAcid */

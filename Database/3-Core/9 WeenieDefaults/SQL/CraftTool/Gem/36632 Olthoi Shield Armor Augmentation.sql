@@ -13,20 +13,15 @@ VALUES (36632,   1,       2048) /* ItemType - Gem */
      , (36632,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36632,  18,          1) /* UiEffects - Magical */
      , (36632,  19,         12) /* Value */
-     , (36632,  65,        101) /* Placement - Resting */
      , (36632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36632,  94,          2) /* TargetType - Armor */;
+     , (36632,  94,          2) /* TargetType - Armor */
+     , (36632, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36632,   1, False) /* Stuck */
-     , (36632,  11, True ) /* IgnoreCollisions */
-     , (36632,  13, True ) /* Ethereal */
-     , (36632,  14, True ) /* GravityStatus */
-     , (36632,  19, True ) /* Attackable */
-     , (36632,  22, True ) /* Inscribable */;
+VALUES (36632,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36632,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36632,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36632,   1, 'Olthoi Shield Armor Augmentation') /* Name */;

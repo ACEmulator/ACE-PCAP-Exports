@@ -12,15 +12,10 @@ VALUES (38717,   1,        128) /* ItemType - Misc */
      , (38717, 151,         24) /* HookType - Yard, Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38717,   1, False) /* Stuck */
-     , (38717,  11, True ) /* IgnoreCollisions */
-     , (38717,  13, True ) /* Ethereal */
-     , (38717,  14, True ) /* GravityStatus */
-     , (38717,  19, True ) /* Attackable */
-     , (38717,  22, True ) /* Inscribable */;
+VALUES (38717,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38717,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (38717,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38717,   1, 'Celestial Hand Banner') /* Name */;

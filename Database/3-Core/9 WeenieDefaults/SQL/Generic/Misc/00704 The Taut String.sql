@@ -8,21 +8,16 @@ VALUES (704,   1,        128) /* ItemType - Misc */
      , (704,   5,       9000) /* EncumbranceVal */
      , (704,  16,          1) /* ItemUseable - No */
      , (704,  19,        125) /* Value */
-     , (704,  65,        101) /* Placement - Resting */
-     , (704,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (704,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (704, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (704,   1, True ) /* Stuck */
-     , (704,  11, True ) /* IgnoreCollisions */
-     , (704,  12, True ) /* ReportCollisions */
-     , (704,  13, False) /* Ethereal */
-     , (704,  14, True ) /* GravityStatus */
-     , (704,  19, True ) /* Attackable */;
+VALUES (704,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (704, 8010,       0) /* PCAPRecordedVelocityX */
      , (704, 8011,       0) /* PCAPRecordedVelocityY */
-     , (704, 8012, -0.85032844543457) /* PCAPRecordedVelocityZ */;
+     , (704, 8012,   -0.85) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (704,   1, 'The Taut String') /* Name */

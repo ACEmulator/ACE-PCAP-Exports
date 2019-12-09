@@ -12,15 +12,8 @@ VALUES (22820,   1,         32) /* ItemType - Food */
      , (22820,  15,         60) /* StackUnitValue */
      , (22820,  16,          8) /* ItemUseable - Contained */
      , (22820,  19,         60) /* Value */
-     , (22820,  65,        101) /* Placement - Resting */
-     , (22820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22820,   1, False) /* Stuck */
-     , (22820,  11, True ) /* IgnoreCollisions */
-     , (22820,  13, True ) /* Ethereal */
-     , (22820,  14, True ) /* GravityStatus */
-     , (22820,  19, True ) /* Attackable */;
+     , (22820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22820, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22820,   1, 'Hot Chocolate with Marshmallows') /* Name */

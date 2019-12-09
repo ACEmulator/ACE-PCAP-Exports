@@ -11,11 +11,7 @@ VALUES (42912,   1,        128) /* ItemType - Misc */
      , (42912,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42912,   1, True ) /* Stuck */
-     , (42912,  11, True ) /* IgnoreCollisions */
-     , (42912,  12, True ) /* ReportCollisions */
-     , (42912,  13, True ) /* Ethereal */
-     , (42912,  19, True ) /* Attackable */;
+VALUES (42912,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42912,   1, 'Snowman') /* Name */

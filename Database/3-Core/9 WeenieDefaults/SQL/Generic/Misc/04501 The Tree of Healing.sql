@@ -8,15 +8,10 @@ VALUES (4501,   1,        128) /* ItemType - Misc */
      , (4501,   5,       9000) /* EncumbranceVal */
      , (4501,  16,          1) /* ItemUseable - No */
      , (4501,  19,        125) /* Value */
-     , (4501,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4501,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4501,   1, True ) /* Stuck */
-     , (4501,  11, True ) /* IgnoreCollisions */
-     , (4501,  12, True ) /* ReportCollisions */
-     , (4501,  13, False) /* Ethereal */
-     , (4501,  14, True ) /* GravityStatus */
-     , (4501,  19, True ) /* Attackable */;
+VALUES (4501,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4501,   1, 'The Tree of Healing') /* Name */

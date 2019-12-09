@@ -13,21 +13,14 @@ VALUES (28833,   1,        128) /* ItemType - Misc */
      , (28833,  16,          8) /* ItemUseable - Contained */
      , (28833,  19,          0) /* Value */
      , (28833,  33,          0) /* Bonded - Normal */
-     , (28833,  65,        101) /* Placement - Resting */
      , (28833,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28833, 106,        111) /* ItemSpellcraft */
      , (28833, 107,        100) /* ItemCurMana */
      , (28833, 108,        100) /* ItemMaxMana */
      , (28833, 109,          0) /* ItemDifficulty */
      , (28833, 114,          0) /* Attuned - Normal */
-     , (28833, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28833,   1, False) /* Stuck */
-     , (28833,  11, True ) /* IgnoreCollisions */
-     , (28833,  13, True ) /* Ethereal */
-     , (28833,  14, True ) /* GravityStatus */
-     , (28833,  19, True ) /* Attackable */;
+     , (28833, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (28833, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28833,   1, 'Gonjoku''s Mana Infusion') /* Name */

@@ -13,11 +13,7 @@ VALUES (51631,   1,         16) /* ItemType - Creature */
      , (51631, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51631,   1, True ) /* Stuck */
-     , (51631,  12, True ) /* ReportCollisions */
-     , (51631,  13, False) /* Ethereal */
-     , (51631,  14, True ) /* GravityStatus */
-     , (51631,  19, True ) /* Attackable */;
+VALUES (51631,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51631,   1, 'Corrupt Minion') /* Name */

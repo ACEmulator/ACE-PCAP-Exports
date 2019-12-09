@@ -11,12 +11,7 @@ VALUES (16899,   1,        128) /* ItemType - Misc */
      , (16899,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16899,   1, True ) /* Stuck */
-     , (16899,  11, True ) /* IgnoreCollisions */
-     , (16899,  12, True ) /* ReportCollisions */
-     , (16899,  13, False) /* Ethereal */
-     , (16899,  14, True ) /* GravityStatus */
-     , (16899,  19, True ) /* Attackable */;
+VALUES (16899,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16899,   1, 'Senmai Court') /* Name */

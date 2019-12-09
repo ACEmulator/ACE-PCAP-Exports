@@ -17,7 +17,6 @@ VALUES (36387,   1,          1) /* ItemType - MeleeWeapon */
      , (36387,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (36387,  49,         35) /* WeaponTime */
      , (36387,  51,          1) /* CombatUse - Melee */
-     , (36387,  65,        101) /* Placement - Resting */
      , (36387,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36387,  98, 1485830497) /* CreationTimestamp */
      , (36387, 106,        475) /* ItemSpellcraft */
@@ -31,16 +30,11 @@ VALUES (36387,   1,          1) /* ItemType - MeleeWeapon */
      , (36387, 267,      10800) /* Lifespan */
      , (36387, 268,      10557) /* RemainingLifespan */
      , (36387, 353,          2) /* WeaponType - Sword */
-     , (36387, 8030,          0);
+     , (36387, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (36387, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36387,   1, False) /* Stuck */
-     , (36387,  11, True ) /* IgnoreCollisions */
-     , (36387,  13, True ) /* Ethereal */
-     , (36387,  14, True ) /* GravityStatus */
-     , (36387,  15, True ) /* LightsStatus */
-     , (36387,  19, True ) /* Attackable */
-     , (36387,  22, True ) /* Inscribable */
+VALUES (36387,  22, True ) /* Inscribable */
      , (36387,  69, False) /* IsSellable */
      , (36387,  99, False) /* Ivoryable */;
 
@@ -50,7 +44,7 @@ VALUES (36387,   5,   -0.05) /* ManaRate */
      , (36387,  22,    0.15) /* DamageVariance */
      , (36387,  26,       0) /* MaximumVelocity */
      , (36387,  29,    1.15) /* WeaponDefense */
-     , (36387,  39, 1.10000002384186) /* DefaultScale */
+     , (36387,  39,     1.1) /* DefaultScale */
      , (36387,  62,     1.2) /* WeaponOffense */
      , (36387,  63,       1) /* DamageMod */
      , (36387, 147,       1) /* CriticalFrequency */

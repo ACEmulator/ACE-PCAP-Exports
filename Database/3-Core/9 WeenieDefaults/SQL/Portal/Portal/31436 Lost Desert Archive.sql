@@ -13,20 +13,14 @@ VALUES (31436,   1,      65536) /* ItemType - Portal */
      , (31436, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31436,   1, True ) /* Stuck */
-     , (31436,  12, True ) /* ReportCollisions */
-     , (31436,  13, True ) /* Ethereal */
-     , (31436,  14, True ) /* GravityStatus */
-     , (31436,  15, True ) /* LightsStatus */
-     , (31436,  19, True ) /* Attackable */;
+VALUES (31436,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31436,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31436,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31436,   1, 'Lost Desert Archive') /* Name */
      , (31436,  16, 'This dungeon is quest restricted.  Royal scholars in Cragstone or Sanamar might be interested in the secrets it holds.') /* LongDesc */
-     , (31436,  38, 'Lost Desert Archive') /* AppraisalPortalDestination */
      , (31436, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

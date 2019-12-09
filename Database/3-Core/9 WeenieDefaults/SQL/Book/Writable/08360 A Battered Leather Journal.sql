@@ -8,20 +8,13 @@ VALUES (8360,   1,       8192) /* ItemType - Writable */
      , (8360,   5,         10) /* EncumbranceVal */
      , (8360,  16,          8) /* ItemUseable - Contained */
      , (8360,  19,         10) /* Value */
-     , (8360,  65,        101) /* Placement - Resting */
      , (8360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8360, 174,          9) /* AppraisalPages */
-     , (8360, 175,          9) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8360,   1, False) /* Stuck */
-     , (8360,  11, True ) /* IgnoreCollisions */
-     , (8360,  13, True ) /* Ethereal */
-     , (8360,  14, True ) /* GravityStatus */
-     , (8360,  19, True ) /* Attackable */;
+     , (8360, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8360, 8042,          9) /* PCAPRecordedAppraisalPages */
+     , (8360, 8043,          9) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8360,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8360,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8360,   1, 'A Battered Leather Journal') /* Name */

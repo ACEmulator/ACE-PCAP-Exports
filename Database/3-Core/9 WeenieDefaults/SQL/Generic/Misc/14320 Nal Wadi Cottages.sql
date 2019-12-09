@@ -11,12 +11,7 @@ VALUES (14320,   1,        128) /* ItemType - Misc */
      , (14320,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14320,   1, True ) /* Stuck */
-     , (14320,  11, True ) /* IgnoreCollisions */
-     , (14320,  12, True ) /* ReportCollisions */
-     , (14320,  13, False) /* Ethereal */
-     , (14320,  14, True ) /* GravityStatus */
-     , (14320,  19, True ) /* Attackable */;
+VALUES (14320,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14320,   1, 'Nal Wadi Cottages') /* Name */;

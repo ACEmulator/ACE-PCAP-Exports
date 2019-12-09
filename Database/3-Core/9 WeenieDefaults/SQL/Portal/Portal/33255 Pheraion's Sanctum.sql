@@ -14,19 +14,13 @@ VALUES (33255,   1,      65536) /* ItemType - Portal */
      , (33255, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33255,   1, True ) /* Stuck */
-     , (33255,  12, True ) /* ReportCollisions */
-     , (33255,  13, True ) /* Ethereal */
-     , (33255,  14, True ) /* GravityStatus */
-     , (33255,  15, True ) /* LightsStatus */
-     , (33255,  19, True ) /* Attackable */;
+VALUES (33255,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33255,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33255,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33255,   1, 'Pheraion''s Sanctum') /* Name */
-     , (33255,  38, 'Pheraion''s Sanctum') /* AppraisalPortalDestination */
      , (33255, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

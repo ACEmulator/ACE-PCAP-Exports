@@ -12,19 +12,13 @@ VALUES (1122,   1,      65536) /* ItemType - Portal */
      , (1122, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1122,   1, True ) /* Stuck */
-     , (1122,  12, True ) /* ReportCollisions */
-     , (1122,  13, True ) /* Ethereal */
-     , (1122,  14, True ) /* GravityStatus */
-     , (1122,  15, True ) /* LightsStatus */
-     , (1122,  19, True ) /* Attackable */;
+VALUES (1122,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1122,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1122,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1122,   1, 'Trothyr''s Rest') /* Name */
-     , (1122,  38, 'Trothyr''s Rest') /* AppraisalPortalDestination */
      , (1122, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

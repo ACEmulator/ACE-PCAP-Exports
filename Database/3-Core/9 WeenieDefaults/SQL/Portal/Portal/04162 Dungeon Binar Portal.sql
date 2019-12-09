@@ -12,19 +12,13 @@ VALUES (4162,   1,      65536) /* ItemType - Portal */
      , (4162, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4162,   1, True ) /* Stuck */
-     , (4162,  12, True ) /* ReportCollisions */
-     , (4162,  13, True ) /* Ethereal */
-     , (4162,  14, True ) /* GravityStatus */
-     , (4162,  15, True ) /* LightsStatus */
-     , (4162,  19, True ) /* Attackable */;
+VALUES (4162,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4162,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4162,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4162,   1, 'Dungeon Binar Portal') /* Name */
-     , (4162,  38, 'Dungeon Binar Portal') /* AppraisalPortalDestination */
      , (4162, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

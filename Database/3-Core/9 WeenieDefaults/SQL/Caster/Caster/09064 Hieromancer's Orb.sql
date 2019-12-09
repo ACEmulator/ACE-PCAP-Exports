@@ -11,7 +11,6 @@ VALUES (9064,   1,      32768) /* ItemType - Caster */
      , (9064,  16,          1) /* ItemUseable - No */
      , (9064,  18,          1) /* UiEffects - Magical */
      , (9064,  19,       1000) /* Value */
-     , (9064,  65,          1) /* Placement - RightHandCombat */
      , (9064,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9064,  94,         16) /* TargetType - Creature */
      , (9064, 106,        225) /* ItemSpellcraft */
@@ -19,15 +18,11 @@ VALUES (9064,   1,      32768) /* ItemType - Caster */
      , (9064, 108,       1500) /* ItemMaxMana */
      , (9064, 115,        200) /* ItemSkillLevelLimit */
      , (9064, 151,          2) /* HookType - Wall */
-     , (9064, 176,         34) /* AppraisalItemSkill */;
+     , (9064, 176,         34) /* AppraisalItemSkill */
+     , (9064, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9064,   1, False) /* Stuck */
-     , (9064,  11, True ) /* IgnoreCollisions */
-     , (9064,  13, True ) /* Ethereal */
-     , (9064,  14, True ) /* GravityStatus */
-     , (9064,  19, True ) /* Attackable */
-     , (9064,  22, True ) /* Inscribable */;
+VALUES (9064,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9064,   5,   -0.05) /* ManaRate */

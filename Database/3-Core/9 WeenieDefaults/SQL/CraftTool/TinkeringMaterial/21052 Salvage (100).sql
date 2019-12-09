@@ -13,7 +13,6 @@ VALUES (21052,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21052,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21052,  19,      75000) /* Value */
      , (21052,  33,          1) /* Bonded - Bonded */
-     , (21052,  65,        101) /* Placement - Resting */
      , (21052,  91,        100) /* MaxStructure */
      , (21052,  92,        100) /* Structure */
      , (21052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -21,18 +20,14 @@ VALUES (21052,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21052, 105,          3) /* ItemWorkmanship */
      , (21052, 131,         54) /* MaterialType - GromnieHide */
      , (21052, 151,          9) /* HookType - Floor, Yard */
-     , (21052, 170,          1) /* NumItemsInMaterial */;
+     , (21052, 170,          1) /* NumItemsInMaterial */
+     , (21052, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21052,   1, False) /* Stuck */
-     , (21052,  11, True ) /* IgnoreCollisions */
-     , (21052,  13, True ) /* Ethereal */
-     , (21052,  14, True ) /* GravityStatus */
-     , (21052,  19, True ) /* Attackable */
-     , (21052,  22, True ) /* Inscribable */;
+VALUES (21052,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21052, 8004, 6.59999990463257) /* PCAPRecordedWorkmanship */;
+VALUES (21052, 8004,     6.6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21052,   1, 'Salvage (100)') /* Name */

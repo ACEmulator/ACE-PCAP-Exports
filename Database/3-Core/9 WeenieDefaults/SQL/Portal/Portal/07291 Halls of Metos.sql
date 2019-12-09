@@ -13,19 +13,13 @@ VALUES (7291,   1,      65536) /* ItemType - Portal */
      , (7291, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7291,   1, True ) /* Stuck */
-     , (7291,  12, True ) /* ReportCollisions */
-     , (7291,  13, True ) /* Ethereal */
-     , (7291,  14, True ) /* GravityStatus */
-     , (7291,  15, True ) /* LightsStatus */
-     , (7291,  19, True ) /* Attackable */;
+VALUES (7291,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7291,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7291,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7291,   1, 'Halls of Metos') /* Name */
-     , (7291,  38, 'Halls of Metos') /* AppraisalPortalDestination */
      , (7291, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

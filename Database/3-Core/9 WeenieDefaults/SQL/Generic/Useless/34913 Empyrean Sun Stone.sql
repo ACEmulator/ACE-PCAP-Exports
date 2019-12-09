@@ -9,16 +9,11 @@ VALUES (34913,   1,       1024) /* ItemType - Useless */
      , (34913,  16,          1) /* ItemUseable - No */
      , (34913,  19,          0) /* Value */
      , (34913,  33,          1) /* Bonded - Bonded */
-     , (34913,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34913,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34913, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34913,   1, False) /* Stuck */
-     , (34913,  11, True ) /* IgnoreCollisions */
-     , (34913,  13, True ) /* Ethereal */
-     , (34913,  14, True ) /* GravityStatus */
-     , (34913,  19, True ) /* Attackable */
-     , (34913,  22, True ) /* Inscribable */;
+VALUES (34913,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34913,   1, 'Empyrean Sun Stone') /* Name */

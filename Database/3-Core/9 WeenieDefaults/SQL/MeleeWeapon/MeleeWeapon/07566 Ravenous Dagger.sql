@@ -11,20 +11,14 @@ VALUES (7566,   1,          1) /* ItemType - MeleeWeapon */
      , (7566,  18,          1) /* UiEffects - Magical */
      , (7566,  19,       3000) /* Value */
      , (7566,  51,          1) /* CombatUse - Melee */
-     , (7566,  65,        101) /* Placement - Resting */
-     , (7566,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (7566,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (7566, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7566,   1, False) /* Stuck */
-     , (7566,  11, True ) /* IgnoreCollisions */
-     , (7566,  13, True ) /* Ethereal */
-     , (7566,  14, True ) /* GravityStatus */
-     , (7566,  15, True ) /* LightsStatus */
-     , (7566,  19, True ) /* Attackable */
-     , (7566,  22, True ) /* Inscribable */;
+VALUES (7566,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7566,  76, 0.699999988079071) /* Translucency */;
+VALUES (7566,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7566,   1, 'Ravenous Dagger') /* Name */;

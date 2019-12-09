@@ -12,7 +12,6 @@ VALUES (36688,   1,      32768) /* ItemType - Caster */
      , (36688,  18,          1) /* UiEffects - Magical */
      , (36688,  19,       2000) /* Value */
      , (36688,  45,          4) /* DamageType - Bludgeon */
-     , (36688,  65,          1) /* Placement - RightHandCombat */
      , (36688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36688,  94,         16) /* TargetType - Creature */
      , (36688, 106,        230) /* ItemSpellcraft */
@@ -26,19 +25,15 @@ VALUES (36688,   1,      32768) /* ItemType - Caster */
      , (36688, 160,        120) /* WieldDifficulty */
      , (36688, 176,         16) /* AppraisalItemSkill */
      , (36688, 263,          4) /* ResistanceModifierType */
-     , (36688, 265,         10) /* EquipmentSetId - ArmMindHeart */;
+     , (36688, 265,         10) /* EquipmentSetId - ArmMindHeart */
+     , (36688, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36688,   1, False) /* Stuck */
-     , (36688,  11, True ) /* IgnoreCollisions */
-     , (36688,  13, True ) /* Ethereal */
-     , (36688,  14, True ) /* GravityStatus */
-     , (36688,  19, True ) /* Attackable */
-     , (36688,  22, True ) /* Inscribable */
+VALUES (36688,  22, True ) /* Inscribable */
      , (36688,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36688,   5,  -0.033) /* ManaRate */
+VALUES (36688,   5,   -0.03) /* ManaRate */
      , (36688,  29,    1.15) /* WeaponDefense */
      , (36688, 136,       1) /* CriticalMultiplier */
      , (36688, 144,    0.12) /* ManaConversionMod */

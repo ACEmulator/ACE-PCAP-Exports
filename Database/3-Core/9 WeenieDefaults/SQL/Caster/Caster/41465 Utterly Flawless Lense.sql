@@ -11,7 +11,6 @@ VALUES (41465,   1,      32768) /* ItemType - Caster */
      , (41465,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (41465,  18,       1024) /* UiEffects - Slashing */
      , (41465,  19,        500) /* Value */
-     , (41465,  65,          1) /* Placement - RightHandCombat */
      , (41465,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41465,  94,         16) /* TargetType - Creature */
      , (41465, 106,        460) /* ItemSpellcraft */
@@ -20,22 +19,18 @@ VALUES (41465,   1,      32768) /* ItemType - Caster */
      , (41465, 151,          2) /* HookType - Wall */
      , (41465, 158,          2) /* WieldRequirements - RawSkill */
      , (41465, 159,         27) /* WieldSkillType - AssessCreature */
-     , (41465, 160,        200) /* WieldDifficulty */;
+     , (41465, 160,        200) /* WieldDifficulty */
+     , (41465, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41465,   1, False) /* Stuck */
-     , (41465,  11, True ) /* IgnoreCollisions */
-     , (41465,  13, True ) /* Ethereal */
-     , (41465,  14, True ) /* GravityStatus */
-     , (41465,  19, True ) /* Attackable */
-     , (41465,  22, True ) /* Inscribable */
+VALUES (41465,  22, True ) /* Inscribable */
      , (41465,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41465,   5,   -0.05) /* ManaRate */
-     , (41465,  29, 1.37000000178814) /* WeaponDefense */
+     , (41465,  29,    1.37) /* WeaponDefense */
      , (41465,  39,     1.5) /* DefaultScale */
-     , (41465, 144, 1.80380941681351E-314) /* ManaConversionMod */;
+     , (41465, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41465,   1, 'Utterly Flawless Lense') /* Name */

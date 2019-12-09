@@ -9,17 +9,12 @@ VALUES (45380,   1,       2048) /* ItemType - Gem */
      , (45380,  16,          8) /* ItemUseable - Contained */
      , (45380,  19,          0) /* Value */
      , (45380,  33,          1) /* Bonded - Bonded */
-     , (45380,  65,        101) /* Placement - Resting */
      , (45380,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45380, 114,          1) /* Attuned - Attuned */;
+     , (45380, 114,          1) /* Attuned - Attuned */
+     , (45380, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45380,   1, False) /* Stuck */
-     , (45380,  11, True ) /* IgnoreCollisions */
-     , (45380,  13, True ) /* Ethereal */
-     , (45380,  14, True ) /* GravityStatus */
-     , (45380,  19, True ) /* Attackable */
-     , (45380,  22, True ) /* Inscribable */;
+VALUES (45380,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45380,   1, 'Dirty Fighting Gem of Enlightenment') /* Name */

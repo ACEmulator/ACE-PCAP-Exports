@@ -8,17 +8,12 @@ VALUES (3687,   1,        128) /* ItemType - Misc */
      , (3687,   5,        150) /* EncumbranceVal */
      , (3687,  16,          1) /* ItemUseable - No */
      , (3687,  19,         10) /* Value */
-     , (3687,  65,        101) /* Placement - Resting */
      , (3687,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3687, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (3687, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (3687, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3687,   1, False) /* Stuck */
-     , (3687,  11, True ) /* IgnoreCollisions */
-     , (3687,  13, True ) /* Ethereal */
-     , (3687,  14, True ) /* GravityStatus */
-     , (3687,  19, True ) /* Attackable */
-     , (3687,  22, True ) /* Inscribable */;
+VALUES (3687,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3687,   1, 'Skeleton''s Skull') /* Name */;

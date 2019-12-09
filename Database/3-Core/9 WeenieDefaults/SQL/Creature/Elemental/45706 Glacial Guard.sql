@@ -15,15 +15,10 @@ VALUES (45706,   1,         16) /* ItemType - Creature */
      , (45706, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45706,   1, True ) /* Stuck */
-     , (45706,  12, True ) /* ReportCollisions */
-     , (45706,  13, False) /* Ethereal */
-     , (45706,  14, True ) /* GravityStatus */
-     , (45706,  19, True ) /* Attackable */
-     , (45706,  42, True ) /* AllowEdgeSlide */;
+VALUES (45706,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45706,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (45706,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45706,   1, 'Glacial Guard') /* Name */

@@ -8,21 +8,16 @@ VALUES (705,   1,        128) /* ItemType - Misc */
      , (705,   5,       9000) /* EncumbranceVal */
      , (705,  16,          1) /* ItemUseable - No */
      , (705,  19,        125) /* Value */
-     , (705,  65,        101) /* Placement - Resting */
-     , (705,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (705,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (705, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (705,   1, True ) /* Stuck */
-     , (705,  11, True ) /* IgnoreCollisions */
-     , (705,  12, True ) /* ReportCollisions */
-     , (705,  13, False) /* Ethereal */
-     , (705,  14, True ) /* GravityStatus */
-     , (705,  19, True ) /* Attackable */;
+VALUES (705,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (705, 8010,       0) /* PCAPRecordedVelocityX */
      , (705, 8011,       0) /* PCAPRecordedVelocityY */
-     , (705, 8012, -0.866610944271088) /* PCAPRecordedVelocityZ */;
+     , (705, 8012,   -0.87) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (705,   1, 'Fispur''s Foodstuffs') /* Name */

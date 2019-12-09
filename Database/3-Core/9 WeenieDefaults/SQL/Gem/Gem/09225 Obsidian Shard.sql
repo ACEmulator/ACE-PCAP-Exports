@@ -15,15 +15,10 @@ VALUES (9225,   1,       2048) /* ItemType - Gem */
      , (9225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9225,   1, False) /* Stuck */
-     , (9225,  11, True ) /* IgnoreCollisions */
-     , (9225,  13, True ) /* Ethereal */
-     , (9225,  14, True ) /* GravityStatus */
-     , (9225,  19, True ) /* Attackable */
-     , (9225,  22, True ) /* Inscribable */;
+VALUES (9225,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9225,  39, 0.200000002980232) /* DefaultScale */
+VALUES (9225,  39,     0.2) /* DefaultScale */
      , (9225,  76,    0.25) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

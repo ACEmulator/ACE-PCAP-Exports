@@ -42,17 +42,11 @@ VALUES (32397,   1,         16) /* ItemType - Creature */
      , (32397, 388,          0) /* GearOverpower */
      , (32397, 389,          0) /* GearOverpowerResist */
      , (32397, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (32397, 8030,          0);
+     , (32397, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32397,   1, True ) /* Stuck */
-     , (32397,  11, True ) /* IgnoreCollisions */
-     , (32397,  12, True ) /* ReportCollisions */
-     , (32397,  13, False) /* Ethereal */
-     , (32397,  14, True ) /* GravityStatus */
-     , (32397,  19, False) /* Attackable */
-     , (32397,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32397,  42, True ) /* AllowEdgeSlide */;
+     , (32397,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32397,  21,       0) /* WeaponLength */

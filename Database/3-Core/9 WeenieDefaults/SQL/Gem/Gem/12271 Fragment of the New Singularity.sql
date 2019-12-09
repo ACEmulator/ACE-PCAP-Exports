@@ -11,20 +11,15 @@ VALUES (12271,   1,       2048) /* ItemType - Gem */
      , (12271,  13,       2000) /* StackUnitEncumbrance */
      , (12271,  15,          0) /* StackUnitValue */
      , (12271,  16,          1) /* ItemUseable - No */
-     , (12271,  65,        101) /* Placement - Resting */
      , (12271,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12271, 151,          9) /* HookType - Floor, Yard */;
+     , (12271, 151,          9) /* HookType - Floor, Yard */
+     , (12271, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12271,   1, False) /* Stuck */
-     , (12271,  11, True ) /* IgnoreCollisions */
-     , (12271,  13, True ) /* Ethereal */
-     , (12271,  14, True ) /* GravityStatus */
-     , (12271,  19, True ) /* Attackable */
-     , (12271,  22, True ) /* Inscribable */;
+VALUES (12271,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12271,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (12271,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12271,   1, 'Fragment of the New Singularity') /* Name */;

@@ -12,15 +12,8 @@ VALUES (752,   1,       4096) /* ItemType - SpellComponents */
      , (752,  15,          5) /* StackUnitValue */
      , (752,  16,          1) /* ItemUseable - No */
      , (752,  19,          5) /* Value */
-     , (752,  65,        101) /* Placement - Resting */
-     , (752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (752,   1, False) /* Stuck */
-     , (752,  11, True ) /* IgnoreCollisions */
-     , (752,  13, True ) /* Ethereal */
-     , (752,  14, True ) /* GravityStatus */
-     , (752,  19, True ) /* Attackable */;
+     , (752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (752, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (752,   1, 'Yew Talisman') /* Name */;

@@ -13,15 +13,8 @@ VALUES (7850,   1,         32) /* ItemType - Food */
      , (7850,  16,          8) /* ItemUseable - Contained */
      , (7850,  18,          8) /* UiEffects - BoostMana */
      , (7850,  19,        240) /* Value */
-     , (7850,  65,        101) /* Placement - Resting */
-     , (7850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7850,   1, False) /* Stuck */
-     , (7850,  11, True ) /* IgnoreCollisions */
-     , (7850,  13, True ) /* Ethereal */
-     , (7850,  14, True ) /* GravityStatus */
-     , (7850,  19, True ) /* Attackable */;
+     , (7850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7850, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7850,   1, 'Hearty Mana Green Tea Ice Cream') /* Name */

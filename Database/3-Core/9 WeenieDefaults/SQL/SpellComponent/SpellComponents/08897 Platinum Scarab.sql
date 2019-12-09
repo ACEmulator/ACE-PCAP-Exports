@@ -13,16 +13,9 @@ VALUES (8897,   1,       4096) /* ItemType - SpellComponents */
      , (8897,  16,          1) /* ItemUseable - No */
      , (8897,  19,      10000) /* Value */
      , (8897,  33,          1) /* Bonded - Bonded */
-     , (8897,  65,        101) /* Placement - Resting */
      , (8897,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8897, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8897,   1, False) /* Stuck */
-     , (8897,  11, True ) /* IgnoreCollisions */
-     , (8897,  13, True ) /* Ethereal */
-     , (8897,  14, True ) /* GravityStatus */
-     , (8897,  19, True ) /* Attackable */;
+     , (8897, 151,          2) /* HookType - Wall */
+     , (8897, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8897,   1, 'Platinum Scarab') /* Name */;

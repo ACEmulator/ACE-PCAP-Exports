@@ -9,17 +9,12 @@ VALUES (31904,   1,        128) /* ItemType - Misc */
      , (31904,  16,          1) /* ItemUseable - No */
      , (31904,  19,          0) /* Value */
      , (31904,  33,          0) /* Bonded - Normal */
-     , (31904,  65,        101) /* Placement - Resting */
      , (31904,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31904, 114,          0) /* Attuned - Normal */;
+     , (31904, 114,          0) /* Attuned - Normal */
+     , (31904, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31904,   1, False) /* Stuck */
-     , (31904,  11, True ) /* IgnoreCollisions */
-     , (31904,  13, True ) /* Ethereal */
-     , (31904,  14, True ) /* GravityStatus */
-     , (31904,  19, True ) /* Attackable */
-     , (31904,  22, True ) /* Inscribable */;
+VALUES (31904,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31904,   1, 'Gold Shallows Shredder Fin') /* Name */

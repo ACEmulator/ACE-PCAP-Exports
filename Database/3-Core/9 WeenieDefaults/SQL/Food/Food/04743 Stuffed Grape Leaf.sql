@@ -12,18 +12,13 @@ VALUES (4743,   1,         32) /* ItemType - Food */
      , (4743,  15,         18) /* StackUnitValue */
      , (4743,  16,          8) /* ItemUseable - Contained */
      , (4743,  19,         18) /* Value */
-     , (4743,  65,        101) /* Placement - Resting */
      , (4743,  89,          4) /* BoosterEnum - Stamina */
      , (4743,  90,          9) /* BoostValue */
-     , (4743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (4743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4743, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4743,   1, False) /* Stuck */
-     , (4743,  11, True ) /* IgnoreCollisions */
-     , (4743,  13, True ) /* Ethereal */
-     , (4743,  14, True ) /* GravityStatus */
-     , (4743,  19, True ) /* Attackable */
-     , (4743,  69, False) /* IsSellable */;
+VALUES (4743,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4743,   1, 'Stuffed Grape Leaf') /* Name */

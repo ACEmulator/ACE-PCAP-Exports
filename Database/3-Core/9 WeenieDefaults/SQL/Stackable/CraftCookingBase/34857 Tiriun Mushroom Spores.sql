@@ -12,18 +12,11 @@ VALUES (34857,   1,    4194304) /* ItemType - CraftCookingBase */
      , (34857,  15,         50) /* StackUnitValue */
      , (34857,  16,          1) /* ItemUseable - No */
      , (34857,  19,         50) /* Value */
-     , (34857,  65,        101) /* Placement - Resting */
-     , (34857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34857,   1, False) /* Stuck */
-     , (34857,  11, True ) /* IgnoreCollisions */
-     , (34857,  13, True ) /* Ethereal */
-     , (34857,  14, True ) /* GravityStatus */
-     , (34857,  19, True ) /* Attackable */;
+     , (34857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34857, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34857,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (34857,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34857,   1, 'Tiriun Mushroom Spores') /* Name */

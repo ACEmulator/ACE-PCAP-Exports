@@ -12,17 +12,10 @@ VALUES (547,   1,         32) /* ItemType - Food */
      , (547,  15,          6) /* StackUnitValue */
      , (547,  16,          8) /* ItemUseable - Contained */
      , (547,  19,          6) /* Value */
-     , (547,  65,        101) /* Placement - Resting */
      , (547,  89,          4) /* BoosterEnum - Stamina */
      , (547,  90,          4) /* BoostValue */
-     , (547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (547,   1, False) /* Stuck */
-     , (547,  11, True ) /* IgnoreCollisions */
-     , (547,  13, True ) /* Ethereal */
-     , (547,  14, True ) /* GravityStatus */
-     , (547,  19, True ) /* Attackable */;
+     , (547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (547, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (547,   1, 'Brimstone-cap Mushroom') /* Name */

@@ -8,18 +8,11 @@ VALUES (26659,   1,       8192) /* ItemType - Writable */
      , (26659,   5,         25) /* EncumbranceVal */
      , (26659,  16,          8) /* ItemUseable - Contained */
      , (26659,  19,         90) /* Value */
-     , (26659,  65,        101) /* Placement - Resting */
-     , (26659,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26659,   1, False) /* Stuck */
-     , (26659,  11, True ) /* IgnoreCollisions */
-     , (26659,  13, True ) /* Ethereal */
-     , (26659,  14, True ) /* GravityStatus */
-     , (26659,  19, True ) /* Attackable */;
+     , (26659,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26659, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26659,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (26659,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26659,   1, 'Ibrexi Jikti''s Journal') /* Name */;

@@ -11,12 +11,7 @@ VALUES (12677,   1,        128) /* ItemType - Misc */
      , (12677,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12677,   1, True ) /* Stuck */
-     , (12677,  11, True ) /* IgnoreCollisions */
-     , (12677,  12, True ) /* ReportCollisions */
-     , (12677,  13, False) /* Ethereal */
-     , (12677,  14, True ) /* GravityStatus */
-     , (12677,  19, True ) /* Attackable */;
+VALUES (12677,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12677,   1, 'Zabool Overlook Settlement') /* Name */

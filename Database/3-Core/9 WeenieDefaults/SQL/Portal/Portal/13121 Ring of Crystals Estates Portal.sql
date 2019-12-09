@@ -12,19 +12,13 @@ VALUES (13121,   1,      65536) /* ItemType - Portal */
      , (13121, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13121,   1, True ) /* Stuck */
-     , (13121,  12, True ) /* ReportCollisions */
-     , (13121,  13, True ) /* Ethereal */
-     , (13121,  14, True ) /* GravityStatus */
-     , (13121,  15, True ) /* LightsStatus */
-     , (13121,  19, True ) /* Attackable */;
+VALUES (13121,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13121,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13121,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13121,   1, 'Ring of Crystals Estates Portal') /* Name */
-     , (13121,  38, 'Ring of Crystals Estates Portal (47.9S, 51.1E).') /* AppraisalPortalDestination */
      , (13121, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

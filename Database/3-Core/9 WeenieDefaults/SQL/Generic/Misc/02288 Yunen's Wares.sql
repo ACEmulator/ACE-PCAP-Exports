@@ -8,15 +8,10 @@ VALUES (2288,   1,        128) /* ItemType - Misc */
      , (2288,   5,       9000) /* EncumbranceVal */
      , (2288,  16,          1) /* ItemUseable - No */
      , (2288,  19,        125) /* Value */
-     , (2288,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (2288,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2288,   1, True ) /* Stuck */
-     , (2288,  11, True ) /* IgnoreCollisions */
-     , (2288,  12, True ) /* ReportCollisions */
-     , (2288,  13, False) /* Ethereal */
-     , (2288,  14, True ) /* GravityStatus */
-     , (2288,  19, True ) /* Attackable */;
+VALUES (2288,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2288,   1, 'Yunen''s Wares') /* Name */

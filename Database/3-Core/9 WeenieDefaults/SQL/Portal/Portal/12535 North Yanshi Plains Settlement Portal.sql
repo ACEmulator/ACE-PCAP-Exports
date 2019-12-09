@@ -12,19 +12,13 @@ VALUES (12535,   1,      65536) /* ItemType - Portal */
      , (12535, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12535,   1, True ) /* Stuck */
-     , (12535,  12, True ) /* ReportCollisions */
-     , (12535,  13, True ) /* Ethereal */
-     , (12535,  14, True ) /* GravityStatus */
-     , (12535,  15, True ) /* LightsStatus */
-     , (12535,  19, True ) /* Attackable */;
+VALUES (12535,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12535,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12535,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12535,   1, 'North Yanshi Plains Settlement Portal') /* Name */
-     , (12535,  38, 'North Yanshi Plains Settlement Portal (4.4S, 48.0E).') /* AppraisalPortalDestination */
      , (12535, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

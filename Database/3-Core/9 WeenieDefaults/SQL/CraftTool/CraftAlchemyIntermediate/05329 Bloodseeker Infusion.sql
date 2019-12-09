@@ -11,16 +11,9 @@ VALUES (5329,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5329,  15,         10) /* StackUnitValue */
      , (5329,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5329,  19,         10) /* Value */
-     , (5329,  65,        101) /* Placement - Resting */
      , (5329,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5329,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5329,   1, False) /* Stuck */
-     , (5329,  11, True ) /* IgnoreCollisions */
-     , (5329,  13, True ) /* Ethereal */
-     , (5329,  14, True ) /* GravityStatus */
-     , (5329,  19, True ) /* Attackable */;
+     , (5329,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
+     , (5329, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5329,   1, 'Bloodseeker Infusion') /* Name */

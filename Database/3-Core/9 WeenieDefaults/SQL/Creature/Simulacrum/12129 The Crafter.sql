@@ -17,11 +17,7 @@ VALUES (12129,   1,         16) /* ItemType - Creature */
      , (12129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12129,   1, True ) /* Stuck */
-     , (12129,  12, True ) /* ReportCollisions */
-     , (12129,  13, False) /* Ethereal */
-     , (12129,  14, True ) /* GravityStatus */
-     , (12129,  19, True ) /* Attackable */;
+VALUES (12129,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12129,   1, 'The Crafter') /* Name */

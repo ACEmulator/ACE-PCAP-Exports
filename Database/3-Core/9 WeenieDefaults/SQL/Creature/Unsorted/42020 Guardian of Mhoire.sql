@@ -27,16 +27,11 @@ VALUES (42020,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42020,   1, True ) /* Stuck */
-     , (42020,  11, True ) /* IgnoreCollisions */
-     , (42020,  12, True ) /* ReportCollisions */
-     , (42020,  13, False) /* Ethereal */
-     , (42020,  14, True ) /* GravityStatus */
-     , (42020,  19, False) /* Attackable */
-     , (42020,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (42020,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42020,   5,       2) /* ManaRate */
-     , (42020,  39, 1.20000004768372) /* DefaultScale */;
+     , (42020,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42020,   1, 'Guardian of Mhoire') /* Name */

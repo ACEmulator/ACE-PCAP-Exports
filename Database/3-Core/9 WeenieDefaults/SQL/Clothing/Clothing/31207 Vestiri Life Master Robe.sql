@@ -10,16 +10,11 @@ VALUES (31207,   1,          4) /* ItemType - Clothing */
      , (31207,   9,      32512) /* ValidLocations - Armor */
      , (31207,  16,          1) /* ItemUseable - No */
      , (31207,  19,       8000) /* Value */
-     , (31207,  65,        101) /* Placement - Resting */
-     , (31207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31207, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31207,   1, False) /* Stuck */
-     , (31207,  11, True ) /* IgnoreCollisions */
-     , (31207,  13, True ) /* Ethereal */
-     , (31207,  14, True ) /* GravityStatus */
-     , (31207,  19, True ) /* Attackable */
-     , (31207,  22, True ) /* Inscribable */;
+VALUES (31207,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31207,   1, 'Vestiri Life Master Robe') /* Name */;

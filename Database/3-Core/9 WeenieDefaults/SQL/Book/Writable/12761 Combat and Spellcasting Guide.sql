@@ -8,21 +8,14 @@ VALUES (12761,   1,       8192) /* ItemType - Writable */
      , (12761,   5,          5) /* EncumbranceVal */
      , (12761,  16,          8) /* ItemUseable - Contained */
      , (12761,  19,          0) /* Value */
-     , (12761,  65,        101) /* Placement - Resting */
      , (12761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12761, 174,          5) /* AppraisalPages */
-     , (12761, 175,          5) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12761,   1, False) /* Stuck */
-     , (12761,  11, True ) /* IgnoreCollisions */
-     , (12761,  13, True ) /* Ethereal */
-     , (12761,  14, True ) /* GravityStatus */
-     , (12761,  19, True ) /* Attackable */;
+     , (12761, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (12761, 8042,          5) /* PCAPRecordedAppraisalPages */
+     , (12761, 8043,          5) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12761,  39, 1.22000002861023) /* DefaultScale */
-     , (12761,  54, 0.300000011920929) /* UseRadius */;
+VALUES (12761,  39,    1.22) /* DefaultScale */
+     , (12761,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12761,   1, 'Combat and Spellcasting Guide') /* Name */

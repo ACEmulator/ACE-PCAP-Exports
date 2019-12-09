@@ -13,12 +13,7 @@ VALUES (38933,   1,          1) /* ItemType - MeleeWeapon */
      , (38933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38933,   1, False) /* Stuck */
-     , (38933,  11, True ) /* IgnoreCollisions */
-     , (38933,  13, True ) /* Ethereal */
-     , (38933,  14, True ) /* GravityStatus */
-     , (38933,  19, True ) /* Attackable */
-     , (38933,  22, True ) /* Inscribable */;
+VALUES (38933,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38933,  39,     1.5) /* DefaultScale */;

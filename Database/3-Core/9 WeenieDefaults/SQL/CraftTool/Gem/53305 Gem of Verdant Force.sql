@@ -14,17 +14,12 @@ VALUES (53305,   1,       2048) /* ItemType - Gem */
      , (53305,  18,        256) /* UiEffects - Acid */
      , (53305,  19,         25) /* Value */
      , (53305,  33,          1) /* Bonded - Bonded */
-     , (53305,  65,        101) /* Placement - Resting */
      , (53305,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53305,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (53305,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (53305, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53305,   1, False) /* Stuck */
-     , (53305,  11, True ) /* IgnoreCollisions */
-     , (53305,  13, True ) /* Ethereal */
-     , (53305,  14, True ) /* GravityStatus */
-     , (53305,  19, True ) /* Attackable */
-     , (53305,  69, False) /* IsSellable */;
+VALUES (53305,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53305,   1, 'Gem of Verdant Force') /* Name */

@@ -8,19 +8,14 @@ VALUES (3671,   1,        128) /* ItemType - Misc */
      , (3671,   5,        300) /* EncumbranceVal */
      , (3671,  16,          1) /* ItemUseable - No */
      , (3671,  19,         20) /* Value */
-     , (3671,  65,        101) /* Placement - Resting */
-     , (3671,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (3671,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3671, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3671,   1, False) /* Stuck */
-     , (3671,  11, True ) /* IgnoreCollisions */
-     , (3671,  13, True ) /* Ethereal */
-     , (3671,  14, True ) /* GravityStatus */
-     , (3671,  19, True ) /* Attackable */
-     , (3671,  22, True ) /* Inscribable */;
+VALUES (3671,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3671,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (3671,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3671,   1, 'Granite Heart') /* Name */;

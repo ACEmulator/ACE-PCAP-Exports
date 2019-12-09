@@ -15,14 +15,10 @@ VALUES (24030,   1,         16) /* ItemType - Creature */
      , (24030, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24030,   1, True ) /* Stuck */
-     , (24030,  12, True ) /* ReportCollisions */
-     , (24030,  13, False) /* Ethereal */
-     , (24030,  14, True ) /* GravityStatus */
-     , (24030,  19, True ) /* Attackable */;
+VALUES (24030,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24030,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (24030,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24030,   1, 'Royal Mite Matron') /* Name */

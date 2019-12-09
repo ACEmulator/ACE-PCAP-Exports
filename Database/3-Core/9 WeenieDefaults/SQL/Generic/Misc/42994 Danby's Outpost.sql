@@ -11,11 +11,7 @@ VALUES (42994,   1,        128) /* ItemType - Misc */
      , (42994,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42994,   1, True ) /* Stuck */
-     , (42994,  11, True ) /* IgnoreCollisions */
-     , (42994,  12, True ) /* ReportCollisions */
-     , (42994,  13, True ) /* Ethereal */
-     , (42994,  19, True ) /* Attackable */;
+VALUES (42994,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42994,   1, 'Danby''s Outpost') /* Name */

@@ -11,17 +11,12 @@ VALUES (22946,   1,        128) /* ItemType - Misc */
      , (22946,  13,         10) /* StackUnitEncumbrance */
      , (22946,  15,          0) /* StackUnitValue */
      , (22946,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (22946,  65,        101) /* Placement - Resting */
      , (22946,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22946,  94,        128) /* TargetType - Misc */;
+     , (22946,  94,        128) /* TargetType - Misc */
+     , (22946, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22946,   1, False) /* Stuck */
-     , (22946,  11, True ) /* IgnoreCollisions */
-     , (22946,  13, True ) /* Ethereal */
-     , (22946,  14, True ) /* GravityStatus */
-     , (22946,  19, True ) /* Attackable */
-     , (22946,  22, True ) /* Inscribable */;
+VALUES (22946,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22946,   1, 'Gem of Raising Quickness') /* Name */;

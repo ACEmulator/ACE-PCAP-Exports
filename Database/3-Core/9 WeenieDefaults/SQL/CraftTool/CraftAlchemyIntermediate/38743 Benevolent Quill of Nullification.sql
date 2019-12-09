@@ -13,16 +13,9 @@ VALUES (38743,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38743,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (38743,  18,          1) /* UiEffects - Magical */
      , (38743,  19,      50000) /* Value */
-     , (38743,  65,        101) /* Placement - Resting */
      , (38743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38743,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38743,   1, False) /* Stuck */
-     , (38743,  11, True ) /* IgnoreCollisions */
-     , (38743,  13, True ) /* Ethereal */
-     , (38743,  14, True ) /* GravityStatus */
-     , (38743,  19, True ) /* Attackable */;
+     , (38743,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
+     , (38743, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38743,   1, 'Benevolent Quill of Nullification') /* Name */

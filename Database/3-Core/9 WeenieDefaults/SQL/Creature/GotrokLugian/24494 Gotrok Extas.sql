@@ -16,11 +16,7 @@ VALUES (24494,   1,         16) /* ItemType - Creature */
      , (24494, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24494,   1, True ) /* Stuck */
-     , (24494,  12, True ) /* ReportCollisions */
-     , (24494,  13, False) /* Ethereal */
-     , (24494,  14, True ) /* GravityStatus */
-     , (24494,  19, True ) /* Attackable */;
+VALUES (24494,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24494,   1, 'Gotrok Extas') /* Name */

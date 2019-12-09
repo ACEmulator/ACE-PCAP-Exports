@@ -8,16 +8,11 @@ VALUES (641,   1,        128) /* ItemType - Misc */
      , (641,   5,       9000) /* EncumbranceVal */
      , (641,  16,          1) /* ItemUseable - No */
      , (641,  19,        125) /* Value */
-     , (641,  65,        101) /* Placement - Resting */
-     , (641,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (641,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (641, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (641,   1, True ) /* Stuck */
-     , (641,  11, True ) /* IgnoreCollisions */
-     , (641,  12, True ) /* ReportCollisions */
-     , (641,  13, False) /* Ethereal */
-     , (641,  14, True ) /* GravityStatus */
-     , (641,  19, True ) /* Attackable */;
+VALUES (641,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (641,   1, 'Provisioner') /* Name */

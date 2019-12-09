@@ -8,17 +8,10 @@ VALUES (8504,   1,       8192) /* ItemType - Writable */
      , (8504,   5,         25) /* EncumbranceVal */
      , (8504,  16,          8) /* ItemUseable - Contained */
      , (8504,  19,         90) /* Value */
-     , (8504,  65,        101) /* Placement - Resting */
      , (8504,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8504, 174,          2) /* AppraisalPages */
-     , (8504, 175,          2) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8504,   1, False) /* Stuck */
-     , (8504,  11, True ) /* IgnoreCollisions */
-     , (8504,  13, True ) /* Ethereal */
-     , (8504,  14, True ) /* GravityStatus */
-     , (8504,  19, True ) /* Attackable */;
+     , (8504, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8504, 8042,          2) /* PCAPRecordedAppraisalPages */
+     , (8504, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8504,   1, 'Brief Letter') /* Name */

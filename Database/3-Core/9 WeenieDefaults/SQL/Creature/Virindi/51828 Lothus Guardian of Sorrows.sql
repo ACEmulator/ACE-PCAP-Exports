@@ -15,12 +15,7 @@ VALUES (51828,   1,         16) /* ItemType - Creature */
      , (51828, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51828,   1, True ) /* Stuck */
-     , (51828,  12, True ) /* ReportCollisions */
-     , (51828,  13, False) /* Ethereal */
-     , (51828,  14, True ) /* GravityStatus */
-     , (51828,  19, True ) /* Attackable */
-     , (51828,  42, True ) /* AllowEdgeSlide */;
+VALUES (51828,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51828,   1, 'Lothus Guardian of Sorrows') /* Name */

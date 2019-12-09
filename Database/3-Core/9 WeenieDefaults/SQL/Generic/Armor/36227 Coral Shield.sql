@@ -10,17 +10,12 @@ VALUES (36227,   1,          2) /* ItemType - Armor */
      , (36227,  16,          1) /* ItemUseable - No */
      , (36227,  19,       7213) /* Value */
      , (36227,  51,          4) /* CombatUse - Shield */
-     , (36227,  65,        101) /* Placement - Resting */
      , (36227,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36227, 151,          2) /* HookType - Wall */;
+     , (36227, 151,          2) /* HookType - Wall */
+     , (36227, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36227,   1, False) /* Stuck */
-     , (36227,  11, True ) /* IgnoreCollisions */
-     , (36227,  13, True ) /* Ethereal */
-     , (36227,  14, True ) /* GravityStatus */
-     , (36227,  19, True ) /* Attackable */
-     , (36227,  22, True ) /* Inscribable */;
+VALUES (36227,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36227,   1, 'Coral Shield') /* Name */;

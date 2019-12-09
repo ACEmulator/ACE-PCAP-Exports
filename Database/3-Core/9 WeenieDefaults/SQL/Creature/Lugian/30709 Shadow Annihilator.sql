@@ -16,11 +16,7 @@ VALUES (30709,   1,         16) /* ItemType - Creature */
      , (30709, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30709,   1, True ) /* Stuck */
-     , (30709,  12, True ) /* ReportCollisions */
-     , (30709,  13, False) /* Ethereal */
-     , (30709,  14, True ) /* GravityStatus */
-     , (30709,  19, True ) /* Attackable */;
+VALUES (30709,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30709,   1, 'Shadow Annihilator') /* Name */

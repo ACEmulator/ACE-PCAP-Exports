@@ -17,15 +17,10 @@ VALUES (33175,   1,         16) /* ItemType - Creature */
      , (33175, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33175,   1, True ) /* Stuck */
-     , (33175,  12, True ) /* ReportCollisions */
-     , (33175,  13, False) /* Ethereal */
-     , (33175,  14, True ) /* GravityStatus */
-     , (33175,  19, True ) /* Attackable */
-     , (33175,  42, True ) /* AllowEdgeSlide */;
+VALUES (33175,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33175,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (33175,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33175,   1, 'Umbral Soldier') /* Name */

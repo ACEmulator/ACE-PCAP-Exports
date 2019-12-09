@@ -12,19 +12,13 @@ VALUES (12466,   1,      65536) /* ItemType - Portal */
      , (12466, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12466,   1, True ) /* Stuck */
-     , (12466,  12, True ) /* ReportCollisions */
-     , (12466,  13, True ) /* Ethereal */
-     , (12466,  14, True ) /* GravityStatus */
-     , (12466,  15, True ) /* LightsStatus */
-     , (12466,  19, True ) /* Attackable */;
+VALUES (12466,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12466,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12466,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12466,   1, 'Adams'' Beach Portal') /* Name */
-     , (12466,  38, 'Adams'' Beach Portal (57.5N, 52.8W).') /* AppraisalPortalDestination */
      , (12466, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

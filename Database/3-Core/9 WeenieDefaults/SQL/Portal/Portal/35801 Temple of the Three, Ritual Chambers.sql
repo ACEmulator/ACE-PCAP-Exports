@@ -12,20 +12,14 @@ VALUES (35801,   1,      65536) /* ItemType - Portal */
      , (35801, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35801,   1, True ) /* Stuck */
-     , (35801,  12, True ) /* ReportCollisions */
-     , (35801,  13, True ) /* Ethereal */
-     , (35801,  14, True ) /* GravityStatus */
-     , (35801,  15, True ) /* LightsStatus */
-     , (35801,  19, True ) /* Attackable */;
+VALUES (35801,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35801,  54, -0.100000001490116) /* UseRadius */;
+VALUES (35801,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35801,   1, 'Temple of the Three, Ritual Chambers') /* Name */
      , (35801,  16, 'A bypass portal, created by Asheron for those who are helping defend him from the Ritual of the Three Matriarchs.  This portal seems to be warded against those who are not attuned to its destination.') /* LongDesc */
-     , (35801,  38, 'Temple of the Three, Ritual Chambers') /* AppraisalPortalDestination */
      , (35801, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

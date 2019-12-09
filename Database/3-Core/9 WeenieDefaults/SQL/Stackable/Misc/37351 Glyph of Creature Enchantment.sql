@@ -12,15 +12,8 @@ VALUES (37351,   1,        128) /* ItemType - Misc */
      , (37351,  15,      30000) /* StackUnitValue */
      , (37351,  16,          1) /* ItemUseable - No */
      , (37351,  19,      30000) /* Value */
-     , (37351,  65,        101) /* Placement - Resting */
-     , (37351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37351,   1, False) /* Stuck */
-     , (37351,  11, True ) /* IgnoreCollisions */
-     , (37351,  13, True ) /* Ethereal */
-     , (37351,  14, True ) /* GravityStatus */
-     , (37351,  19, True ) /* Attackable */;
+     , (37351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37351, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37351,   1, 'Glyph of Creature Enchantment') /* Name */

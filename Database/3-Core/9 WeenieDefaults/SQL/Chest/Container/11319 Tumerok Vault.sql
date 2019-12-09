@@ -9,19 +9,14 @@ VALUES (11319,   1,        512) /* ItemType - Container */
      , (11319,   6,        120) /* ItemsCapacity */
      , (11319,   7,         10) /* ContainersCapacity */
      , (11319,  16,         48) /* ItemUseable - ViewedRemote */
-     , (11319,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (11319,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (11319, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11319,   1, True ) /* Stuck */
-     , (11319,  11, True ) /* IgnoreCollisions */
-     , (11319,  12, True ) /* ReportCollisions */
-     , (11319,  13, False) /* Ethereal */
-     , (11319,  14, True ) /* GravityStatus */
-     , (11319,  19, True ) /* Attackable */;
+VALUES (11319,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11319,  39, 1.60000002384186) /* DefaultScale */
+VALUES (11319,  39,     1.6) /* DefaultScale */
      , (11319,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

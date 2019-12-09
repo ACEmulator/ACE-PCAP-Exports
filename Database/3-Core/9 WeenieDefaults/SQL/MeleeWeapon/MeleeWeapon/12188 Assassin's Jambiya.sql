@@ -11,16 +11,11 @@ VALUES (12188,   1,          1) /* ItemType - MeleeWeapon */
      , (12188,  16,          1) /* ItemUseable - No */
      , (12188,  19,         30) /* Value */
      , (12188,  51,          1) /* CombatUse - Melee */
-     , (12188,  65,          1) /* Placement - RightHandCombat */
-     , (12188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12188, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12188,   1, False) /* Stuck */
-     , (12188,  11, True ) /* IgnoreCollisions */
-     , (12188,  13, True ) /* Ethereal */
-     , (12188,  14, True ) /* GravityStatus */
-     , (12188,  19, True ) /* Attackable */
-     , (12188,  22, True ) /* Inscribable */;
+VALUES (12188,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12188,   1, 'Assassin''s Jambiya') /* Name */;

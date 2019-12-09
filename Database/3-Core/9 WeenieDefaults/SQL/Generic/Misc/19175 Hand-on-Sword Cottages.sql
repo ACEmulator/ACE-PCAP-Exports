@@ -11,12 +11,7 @@ VALUES (19175,   1,        128) /* ItemType - Misc */
      , (19175,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19175,   1, True ) /* Stuck */
-     , (19175,  11, True ) /* IgnoreCollisions */
-     , (19175,  12, True ) /* ReportCollisions */
-     , (19175,  13, False) /* Ethereal */
-     , (19175,  14, True ) /* GravityStatus */
-     , (19175,  19, True ) /* Attackable */;
+VALUES (19175,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19175,   1, 'Hand-on-Sword Cottages') /* Name */;

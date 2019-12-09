@@ -13,19 +13,14 @@ VALUES (30108,   1,        128) /* ItemType - Misc */
      , (30108,  16,          8) /* ItemUseable - Contained */
      , (30108,  17,         69) /* RareId */
      , (30108,  19,          0) /* Value */
-     , (30108,  65,        101) /* Placement - Resting */
      , (30108,  89,          6) /* BoosterEnum - Mana */
      , (30108,  90,        500) /* BoostValue */
      , (30108,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30108, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30108, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30108, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30108,   1, False) /* Stuck */
-     , (30108,  11, True ) /* IgnoreCollisions */
-     , (30108,  13, True ) /* Ethereal */
-     , (30108,  14, True ) /* GravityStatus */
-     , (30108,  19, True ) /* Attackable */
-     , (30108,  22, True ) /* Inscribable */;
+VALUES (30108,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30108,   1, 'Miraculous Elixir') /* Name */

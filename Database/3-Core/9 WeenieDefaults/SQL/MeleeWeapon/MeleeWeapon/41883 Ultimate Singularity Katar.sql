@@ -18,7 +18,6 @@ VALUES (41883,   1,          1) /* ItemType - MeleeWeapon */
      , (41883,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (41883,  49,         20) /* WeaponTime */
      , (41883,  51,          1) /* CombatUse - Melee */
-     , (41883,  65,          1) /* Placement - RightHandCombat */
      , (41883,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41883, 106,        200) /* ItemSpellcraft */
      , (41883, 107,        507) /* ItemCurMana */
@@ -31,24 +30,20 @@ VALUES (41883,   1,          1) /* ItemType - MeleeWeapon */
      , (41883, 160,        400) /* WieldDifficulty */
      , (41883, 166,         19) /* SlayerCreatureType - Virindi */
      , (41883, 353,          1) /* WeaponType - Unarmed */
-     , (41883, 8030,          0);
+     , (41883, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41883, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41883,   1, False) /* Stuck */
-     , (41883,  11, True ) /* IgnoreCollisions */
-     , (41883,  13, True ) /* Ethereal */
-     , (41883,  14, True ) /* GravityStatus */
-     , (41883,  19, True ) /* Attackable */
-     , (41883,  22, True ) /* Inscribable */
+VALUES (41883,  22, True ) /* Inscribable */
      , (41883,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41883,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41883,   5,   -0.03) /* ManaRate */
      , (41883,  21,       0) /* WeaponLength */
-     , (41883,  22, 0.550000011920929) /* DamageVariance */
+     , (41883,  22,    0.55) /* DamageVariance */
      , (41883,  26,       0) /* MaximumVelocity */
-     , (41883,  29, 1.14999997615814) /* WeaponDefense */
-     , (41883,  62, 1.14999997615814) /* WeaponOffense */
+     , (41883,  29,    1.15) /* WeaponDefense */
+     , (41883,  62,    1.15) /* WeaponOffense */
      , (41883,  63,       1) /* DamageMod */
      , (41883, 136,       1) /* CriticalMultiplier */
      , (41883, 147,       1) /* CriticalFrequency */

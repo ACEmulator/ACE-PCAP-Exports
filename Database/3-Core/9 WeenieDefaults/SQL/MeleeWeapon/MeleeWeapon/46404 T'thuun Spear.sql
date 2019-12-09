@@ -14,15 +14,10 @@ VALUES (46404,   1,          1) /* ItemType - MeleeWeapon */
      , (46404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46404,   1, False) /* Stuck */
-     , (46404,  11, True ) /* IgnoreCollisions */
-     , (46404,  13, True ) /* Ethereal */
-     , (46404,  14, True ) /* GravityStatus */
-     , (46404,  19, True ) /* Attackable */
-     , (46404,  22, True ) /* Inscribable */;
+VALUES (46404,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46404,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (46404,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46404,   1, 'T''thuun Spear') /* Name */;

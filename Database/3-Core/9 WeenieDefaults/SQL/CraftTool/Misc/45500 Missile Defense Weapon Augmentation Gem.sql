@@ -12,17 +12,12 @@ VALUES (45500,   1,        128) /* ItemType - Misc */
      , (45500,  15,          1) /* StackUnitValue */
      , (45500,  16,          8) /* ItemUseable - Contained */
      , (45500,  19,          1) /* Value */
-     , (45500,  65,        101) /* Placement - Resting */
      , (45500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45500,  94,         16) /* TargetType - Creature */;
+     , (45500,  94,         16) /* TargetType - Creature */
+     , (45500, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45500,   1, False) /* Stuck */
-     , (45500,  11, True ) /* IgnoreCollisions */
-     , (45500,  13, True ) /* Ethereal */
-     , (45500,  14, True ) /* GravityStatus */
-     , (45500,  19, True ) /* Attackable */
-     , (45500,  22, True ) /* Inscribable */;
+VALUES (45500,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45500,   1, 'Missile Defense Weapon Augmentation Gem') /* Name */;

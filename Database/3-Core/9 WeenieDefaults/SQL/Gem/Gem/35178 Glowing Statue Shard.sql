@@ -14,22 +14,17 @@ VALUES (35178,   1,       2048) /* ItemType - Gem */
      , (35178,  18,          1) /* UiEffects - Magical */
      , (35178,  19,          0) /* Value */
      , (35178,  33,          1) /* Bonded - Bonded */
-     , (35178,  65,        101) /* Placement - Resting */
      , (35178,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35178,  94,       2048) /* TargetType - Gem */
-     , (35178, 114,          1) /* Attuned - Attuned */;
+     , (35178, 114,          1) /* Attuned - Attuned */
+     , (35178, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35178,   1, False) /* Stuck */
-     , (35178,  11, True ) /* IgnoreCollisions */
-     , (35178,  13, True ) /* Ethereal */
-     , (35178,  14, True ) /* GravityStatus */
-     , (35178,  19, True ) /* Attackable */
-     , (35178,  22, True ) /* Inscribable */
+VALUES (35178,  22, True ) /* Inscribable */
      , (35178,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35178,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (35178,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35178,   1, 'Glowing Statue Shard') /* Name */

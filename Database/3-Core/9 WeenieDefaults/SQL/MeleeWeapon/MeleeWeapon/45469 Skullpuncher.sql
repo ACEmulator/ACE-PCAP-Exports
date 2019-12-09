@@ -10,17 +10,12 @@ VALUES (45469,   1,          1) /* ItemType - MeleeWeapon */
      , (45469,  16,          1) /* ItemUseable - No */
      , (45469,  19,      50000) /* Value */
      , (45469,  51,          1) /* CombatUse - Melee */
-     , (45469,  65,        101) /* Placement - Resting */
      , (45469,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45469, 151,          2) /* HookType - Wall */;
+     , (45469, 151,          2) /* HookType - Wall */
+     , (45469, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45469,   1, False) /* Stuck */
-     , (45469,  11, True ) /* IgnoreCollisions */
-     , (45469,  13, True ) /* Ethereal */
-     , (45469,  14, True ) /* GravityStatus */
-     , (45469,  19, True ) /* Attackable */
-     , (45469,  22, True ) /* Inscribable */;
+VALUES (45469,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45469,   1, 'Skullpuncher') /* Name */;

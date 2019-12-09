@@ -11,12 +11,7 @@ VALUES (12661,   1,        128) /* ItemType - Misc */
      , (12661,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12661,   1, True ) /* Stuck */
-     , (12661,  11, True ) /* IgnoreCollisions */
-     , (12661,  12, True ) /* ReportCollisions */
-     , (12661,  13, False) /* Ethereal */
-     , (12661,  14, True ) /* GravityStatus */
-     , (12661,  19, True ) /* Attackable */;
+VALUES (12661,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12661,   1, 'South Yaraq Cottages') /* Name */;

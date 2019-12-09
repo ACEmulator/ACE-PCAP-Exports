@@ -12,17 +12,10 @@ VALUES (41394,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41394,  15,        100) /* StackUnitValue */
      , (41394,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41394,  19,        100) /* Value */
-     , (41394,  65,        101) /* Placement - Resting */
      , (41394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41394,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41394, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41394,   1, False) /* Stuck */
-     , (41394,  11, True ) /* IgnoreCollisions */
-     , (41394,  13, True ) /* Ethereal */
-     , (41394,  14, True ) /* GravityStatus */
-     , (41394,  19, True ) /* Attackable */;
+     , (41394, 151,          9) /* HookType - Floor, Yard */
+     , (41394, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41394,   1, 'Framed Lense') /* Name */;

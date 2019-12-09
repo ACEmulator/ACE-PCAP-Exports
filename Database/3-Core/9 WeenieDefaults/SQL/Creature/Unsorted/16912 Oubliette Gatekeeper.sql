@@ -15,15 +15,10 @@ VALUES (16912,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (16912,   1, True ) /* Stuck */
-     , (16912,  11, True ) /* IgnoreCollisions */
-     , (16912,  12, True ) /* ReportCollisions */
-     , (16912,  13, False) /* Ethereal */
-     , (16912,  14, True ) /* GravityStatus */
-     , (16912,  19, False) /* Attackable */
-     , (16912,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (16912,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (16912,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (16912,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16912,   1, 'Oubliette Gatekeeper') /* Name */

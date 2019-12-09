@@ -11,20 +11,14 @@ VALUES (4567,   1,      65536) /* ItemType - Portal */
      , (4567, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4567,   1, True ) /* Stuck */
-     , (4567,  11, True ) /* IgnoreCollisions */
-     , (4567,  13, True ) /* Ethereal */
-     , (4567,  14, True ) /* GravityStatus */
-     , (4567,  15, True ) /* LightsStatus */
-     , (4567,  19, True ) /* Attackable */;
+VALUES (4567,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4567,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4567,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4567,   1, 'Destroyed Lin Portal') /* Name */
      , (4567,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (4567,  38, 'Destroyed Lin Portal (53.9S, 74.3E).') /* AppraisalPortalDestination */
      , (4567, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

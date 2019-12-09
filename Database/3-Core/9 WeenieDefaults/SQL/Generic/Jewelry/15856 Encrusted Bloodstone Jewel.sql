@@ -13,27 +13,22 @@ VALUES (15856,   1,          8) /* ItemType - Jewelry */
      , (15856,  19,       2000) /* Value */
      , (15856,  33,          1) /* Bonded - Bonded */
      , (15856,  36,       9999) /* ResistMagic */
-     , (15856,  65,        101) /* Placement - Resting */
      , (15856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15856, 106,        300) /* ItemSpellcraft */
      , (15856, 107,        230) /* ItemCurMana */
      , (15856, 108,        230) /* ItemMaxMana */
      , (15856, 109,        170) /* ItemDifficulty */
      , (15856, 114,          1) /* Attuned - Attuned */
-     , (15856, 151,          2) /* HookType - Wall */;
+     , (15856, 151,          2) /* HookType - Wall */
+     , (15856, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15856,   1, False) /* Stuck */
-     , (15856,  11, True ) /* IgnoreCollisions */
-     , (15856,  13, True ) /* Ethereal */
-     , (15856,  14, True ) /* GravityStatus */
-     , (15856,  19, True ) /* Attackable */
-     , (15856,  22, True ) /* Inscribable */
+VALUES (15856,  22, True ) /* Inscribable */
      , (15856,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15856,   5, -0.033333) /* ManaRate */
-     , (15856,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (15856,   5,   -0.03) /* ManaRate */
+     , (15856,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15856,   1, 'Encrusted Bloodstone Jewel') /* Name */

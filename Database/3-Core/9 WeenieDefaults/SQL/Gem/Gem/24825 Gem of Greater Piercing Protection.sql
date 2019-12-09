@@ -12,16 +12,9 @@ VALUES (24825,   1,       2048) /* ItemType - Gem */
      , (24825,  15,          0) /* StackUnitValue */
      , (24825,  16,          8) /* ItemUseable - Contained */
      , (24825,  18,          1) /* UiEffects - Magical */
-     , (24825,  65,        101) /* Placement - Resting */
      , (24825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24825,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24825,   1, False) /* Stuck */
-     , (24825,  11, True ) /* IgnoreCollisions */
-     , (24825,  13, True ) /* Ethereal */
-     , (24825,  14, True ) /* GravityStatus */
-     , (24825,  19, True ) /* Attackable */;
+     , (24825,  94,         16) /* TargetType - Creature */
+     , (24825, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24825,   1, 'Gem of Greater Piercing Protection') /* Name */

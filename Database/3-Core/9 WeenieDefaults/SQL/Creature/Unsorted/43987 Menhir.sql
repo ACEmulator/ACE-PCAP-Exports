@@ -8,21 +8,15 @@ VALUES (43987,   1,         16) /* ItemType - Creature */
      , (43987,   6,        255) /* ItemsCapacity */
      , (43987,   7,        255) /* ContainersCapacity */
      , (43987,  16,         32) /* ItemUseable - Remote */
-     , (43987,  93,    6358040) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (43987,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43987, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43987,   1, True ) /* Stuck */
-     , (43987,  11, True ) /* IgnoreCollisions */
-     , (43987,  12, True ) /* ReportCollisions */
-     , (43987,  13, False) /* Ethereal */
-     , (43987,  14, True ) /* GravityStatus */
-     , (43987,  19, False) /* Attackable */
-     , (43987,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43987,  42, True ) /* AllowEdgeSlide */;
+     , (43987,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43987,  54, 0.100000001490116) /* UseRadius */;
+VALUES (43987,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43987,   1, 'Menhir') /* Name */

@@ -13,18 +13,13 @@ VALUES (31377,   1,       2048) /* ItemType - Gem */
      , (31377,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31377,  19,          0) /* Value */
      , (31377,  33,          1) /* Bonded - Bonded */
-     , (31377,  65,        101) /* Placement - Resting */
      , (31377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31377,  94,       2048) /* TargetType - Gem */
-     , (31377, 114,          1) /* Attuned - Attuned */;
+     , (31377, 114,          1) /* Attuned - Attuned */
+     , (31377, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31377,   1, False) /* Stuck */
-     , (31377,  11, True ) /* IgnoreCollisions */
-     , (31377,  13, True ) /* Ethereal */
-     , (31377,  14, True ) /* GravityStatus */
-     , (31377,  19, True ) /* Attackable */
-     , (31377,  22, True ) /* Inscribable */;
+VALUES (31377,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31377,   1, 'Twilight Fragment') /* Name */

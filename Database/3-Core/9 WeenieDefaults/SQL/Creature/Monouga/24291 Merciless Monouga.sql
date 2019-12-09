@@ -16,15 +16,10 @@ VALUES (24291,   1,         16) /* ItemType - Creature */
      , (24291, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24291,   1, True ) /* Stuck */
-     , (24291,  12, True ) /* ReportCollisions */
-     , (24291,  13, False) /* Ethereal */
-     , (24291,  14, True ) /* GravityStatus */
-     , (24291,  19, True ) /* Attackable */
-     , (24291,  42, True ) /* AllowEdgeSlide */;
+VALUES (24291,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24291,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (24291,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24291,   1, 'Merciless Monouga') /* Name */

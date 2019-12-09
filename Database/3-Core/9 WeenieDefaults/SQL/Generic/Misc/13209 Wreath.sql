@@ -8,17 +8,12 @@ VALUES (13209,   1,        128) /* ItemType - Misc */
      , (13209,   5,         50) /* EncumbranceVal */
      , (13209,  16,          1) /* ItemUseable - No */
      , (13209,  19,        500) /* Value */
-     , (13209,  65,        101) /* Placement - Resting */
      , (13209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13209, 151,          2) /* HookType - Wall */;
+     , (13209, 151,          2) /* HookType - Wall */
+     , (13209, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13209,   1, False) /* Stuck */
-     , (13209,  11, True ) /* IgnoreCollisions */
-     , (13209,  13, True ) /* Ethereal */
-     , (13209,  14, True ) /* GravityStatus */
-     , (13209,  19, True ) /* Attackable */
-     , (13209,  22, True ) /* Inscribable */;
+VALUES (13209,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13209,   1, 'Wreath') /* Name */

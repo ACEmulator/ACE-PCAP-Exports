@@ -12,15 +12,8 @@ VALUES (14765,   1,         32) /* ItemType - Food */
      , (14765,  15,         40) /* StackUnitValue */
      , (14765,  16,          8) /* ItemUseable - Contained */
      , (14765,  19,         40) /* Value */
-     , (14765,  65,        101) /* Placement - Resting */
-     , (14765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14765,   1, False) /* Stuck */
-     , (14765,  11, True ) /* IgnoreCollisions */
-     , (14765,  13, True ) /* Ethereal */
-     , (14765,  14, True ) /* GravityStatus */
-     , (14765,  19, True ) /* Attackable */;
+     , (14765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14765, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14765,   1, 'Eggnog') /* Name */

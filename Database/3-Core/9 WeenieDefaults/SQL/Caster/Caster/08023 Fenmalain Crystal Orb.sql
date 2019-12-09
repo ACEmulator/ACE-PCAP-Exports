@@ -11,7 +11,6 @@ VALUES (8023,   1,      32768) /* ItemType - Caster */
      , (8023,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (8023,  18,          1) /* UiEffects - Magical */
      , (8023,  19,       1000) /* Value */
-     , (8023,  65,          1) /* Placement - RightHandCombat */
      , (8023,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8023,  94,         16) /* TargetType - Creature */
      , (8023, 106,        250) /* ItemSpellcraft */
@@ -21,23 +20,18 @@ VALUES (8023,   1,      32768) /* ItemType - Caster */
      , (8023, 114,          1) /* Attuned - Attuned */
      , (8023, 115,        150) /* ItemSkillLevelLimit */
      , (8023, 151,          2) /* HookType - Wall */
-     , (8023, 176,         32) /* AppraisalItemSkill */;
+     , (8023, 176,         32) /* AppraisalItemSkill */
+     , (8023, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8023,   1, False) /* Stuck */
-     , (8023,  11, True ) /* IgnoreCollisions */
-     , (8023,  13, True ) /* Ethereal */
-     , (8023,  14, True ) /* GravityStatus */
-     , (8023,  15, True ) /* LightsStatus */
-     , (8023,  19, True ) /* Attackable */
-     , (8023,  22, True ) /* Inscribable */
+VALUES (8023,  22, True ) /* Inscribable */
      , (8023,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8023,   5,   -0.05) /* ManaRate */
      , (8023,  29,       1) /* WeaponDefense */
      , (8023,  76,     0.5) /* Translucency */
-     , (8023, 144, 1.44120338056268E-314) /* ManaConversionMod */;
+     , (8023, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8023,   1, 'Fenmalain Crystal Orb') /* Name */

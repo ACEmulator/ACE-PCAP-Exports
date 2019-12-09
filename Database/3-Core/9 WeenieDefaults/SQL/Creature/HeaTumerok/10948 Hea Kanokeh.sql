@@ -16,17 +16,13 @@ VALUES (10948,   1,         16) /* ItemType - Creature */
      , (10948, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10948,   1, True ) /* Stuck */
-     , (10948,  12, True ) /* ReportCollisions */
-     , (10948,  13, False) /* Ethereal */
-     , (10948,  14, True ) /* GravityStatus */
-     , (10948,  19, True ) /* Attackable */;
+VALUES (10948,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10948,  39, 1.29999995231628) /* DefaultScale */
-     , (10948, 8010, 0.105962797999382) /* PCAPRecordedVelocityX */
-     , (10948, 8011, -0.423851191997528) /* PCAPRecordedVelocityY */
-     , (10948, 8012, -0.150113970041275) /* PCAPRecordedVelocityZ */;
+VALUES (10948,  39,     1.3) /* DefaultScale */
+     , (10948, 8010,    0.11) /* PCAPRecordedVelocityX */
+     , (10948, 8011,   -0.42) /* PCAPRecordedVelocityY */
+     , (10948, 8012,   -0.15) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10948,   1, 'Hea Kanokeh') /* Name */

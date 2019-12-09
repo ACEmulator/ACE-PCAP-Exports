@@ -13,20 +13,14 @@ VALUES (34319,   1,      65536) /* ItemType - Portal */
      , (34319, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34319,   1, True ) /* Stuck */
-     , (34319,  12, True ) /* ReportCollisions */
-     , (34319,  13, True ) /* Ethereal */
-     , (34319,  14, True ) /* GravityStatus */
-     , (34319,  15, True ) /* LightsStatus */
-     , (34319,  19, True ) /* Attackable */;
+VALUES (34319,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34319,  54, -0.100000001490116) /* UseRadius */;
+VALUES (34319,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34319,   1, 'Soul Hunter''s Chambers') /* Name */
      , (34319,  16, 'This portal offers a direct gateway into the chambers of the Falatacot Soul Hunter, but it seems that you must gain the approval of the nearby altar to enter...') /* LongDesc */
-     , (34319,  38, 'Soul Hunter''s Chambers') /* AppraisalPortalDestination */
      , (34319, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,16 +12,9 @@ VALUES (31987,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31987,  15,      10000) /* StackUnitValue */
      , (31987,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31987,  19,      10000) /* Value */
-     , (31987,  65,        101) /* Placement - Resting */
      , (31987,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31987,  94,          2) /* TargetType - Armor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31987,   1, False) /* Stuck */
-     , (31987,  11, True ) /* IgnoreCollisions */
-     , (31987,  13, True ) /* Ethereal */
-     , (31987,  14, True ) /* GravityStatus */
-     , (31987,  19, True ) /* Attackable */;
+     , (31987,  94,          2) /* TargetType - Armor */
+     , (31987, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31987,   1, 'Incarnadine Pigmentation Apparatus') /* Name */

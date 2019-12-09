@@ -13,20 +13,15 @@ VALUES (52757,   1,       2048) /* ItemType - Gem */
      , (52757,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (52757,  18,          1) /* UiEffects - Magical */
      , (52757,  19,         30) /* Value */
-     , (52757,  65,        101) /* Placement - Resting */
      , (52757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52757,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (52757,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (52757, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52757,   1, False) /* Stuck */
-     , (52757,  11, True ) /* IgnoreCollisions */
-     , (52757,  13, True ) /* Ethereal */
-     , (52757,  14, True ) /* GravityStatus */
-     , (52757,  19, True ) /* Attackable */
-     , (52757,  22, True ) /* Inscribable */;
+VALUES (52757,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52757,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (52757,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52757,   1, 'Gauntlet Brutality Amplification') /* Name */;

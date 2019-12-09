@@ -19,15 +19,10 @@ VALUES (44288,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44288,   1, True ) /* Stuck */
-     , (44288,  11, True ) /* IgnoreCollisions */
-     , (44288,  12, True ) /* ReportCollisions */
-     , (44288,  13, False) /* Ethereal */
-     , (44288,  14, True ) /* GravityStatus */
-     , (44288,  19, False) /* Attackable */
-     , (44288,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (44288,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44288,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (44288,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44288,   1, 'Bemeth the Gatherer') /* Name */

@@ -13,20 +13,14 @@ VALUES (34318,   1,      65536) /* ItemType - Portal */
      , (34318, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34318,   1, True ) /* Stuck */
-     , (34318,  12, True ) /* ReportCollisions */
-     , (34318,  13, True ) /* Ethereal */
-     , (34318,  14, True ) /* GravityStatus */
-     , (34318,  15, True ) /* LightsStatus */
-     , (34318,  19, True ) /* Attackable */;
+VALUES (34318,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34318,  54, -0.100000001490116) /* UseRadius */;
+VALUES (34318,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34318,   1, 'Soul Hunter''s Lair') /* Name */
      , (34318,  16, 'This dungeon is quest-restricted.  See Hasin Lin in Sawato for more information.') /* LongDesc */
-     , (34318,  38, 'Soul Hunter''s Lair') /* AppraisalPortalDestination */
      , (34318, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,19 +12,13 @@ VALUES (14664,   1,      65536) /* ItemType - Portal */
      , (14664, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14664,   1, True ) /* Stuck */
-     , (14664,  12, True ) /* ReportCollisions */
-     , (14664,  13, True ) /* Ethereal */
-     , (14664,  14, True ) /* GravityStatus */
-     , (14664,  15, True ) /* LightsStatus */
-     , (14664,  19, True ) /* Attackable */;
+VALUES (14664,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14664,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14664,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14664,   1, 'Sands-of-the-Skull Cottages Portal') /* Name */
-     , (14664,  38, 'Sands-of-the-Skull Cottages Portal (39.9S, 23.2E).') /* AppraisalPortalDestination */
      , (14664, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

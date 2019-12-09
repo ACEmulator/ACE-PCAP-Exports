@@ -13,21 +13,16 @@ VALUES (8909,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (8909,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8909,  19,          0) /* Value */
      , (8909,  33,          1) /* Bonded - Bonded */
-     , (8909,  65,        101) /* Placement - Resting */
      , (8909,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8909,  94,          1) /* TargetType - MeleeWeapon */
-     , (8909, 114,          1) /* Attuned - Attuned */;
+     , (8909, 114,          1) /* Attuned - Attuned */
+     , (8909, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8909,   1, False) /* Stuck */
-     , (8909,  11, True ) /* IgnoreCollisions */
-     , (8909,  13, True ) /* Ethereal */
-     , (8909,  14, True ) /* GravityStatus */
-     , (8909,  19, True ) /* Attackable */
-     , (8909,  22, True ) /* Inscribable */;
+VALUES (8909,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8909,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (8909,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8909,   1, 'Blood of the Hopeslayer') /* Name */

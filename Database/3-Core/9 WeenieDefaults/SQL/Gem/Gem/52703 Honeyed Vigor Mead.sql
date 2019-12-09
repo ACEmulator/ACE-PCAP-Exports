@@ -13,22 +13,17 @@ VALUES (52703,   1,       2048) /* ItemType - Gem */
      , (52703,  16,          8) /* ItemUseable - Contained */
      , (52703,  18,          1) /* UiEffects - Magical */
      , (52703,  19,         50) /* Value */
-     , (52703,  65,        101) /* Placement - Resting */
      , (52703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52703,  94,         16) /* TargetType - Creature */
      , (52703, 106,        500) /* ItemSpellcraft */
      , (52703, 107,      10000) /* ItemCurMana */
      , (52703, 108,      10000) /* ItemMaxMana */
      , (52703, 109,          0) /* ItemDifficulty */
-     , (52703, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (52703, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (52703, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52703,   1, False) /* Stuck */
-     , (52703,  11, True ) /* IgnoreCollisions */
-     , (52703,  13, True ) /* Ethereal */
-     , (52703,  14, True ) /* GravityStatus */
-     , (52703,  19, True ) /* Attackable */
-     , (52703,  69, False) /* IsSellable */;
+VALUES (52703,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52703,   1, 'Honeyed Vigor Mead') /* Name */

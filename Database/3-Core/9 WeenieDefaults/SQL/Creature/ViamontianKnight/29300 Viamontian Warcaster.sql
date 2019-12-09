@@ -18,11 +18,7 @@ VALUES (29300,   1,         16) /* ItemType - Creature */
      , (29300, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29300,   1, True ) /* Stuck */
-     , (29300,  12, True ) /* ReportCollisions */
-     , (29300,  13, False) /* Ethereal */
-     , (29300,  14, True ) /* GravityStatus */
-     , (29300,  19, True ) /* Attackable */;
+VALUES (29300,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29300,   1, 'Viamontian Warcaster') /* Name */

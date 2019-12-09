@@ -15,11 +15,7 @@ VALUES (943,   1,         16) /* ItemType - Creature */
      , (943, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (943,   1, True ) /* Stuck */
-     , (943,  12, True ) /* ReportCollisions */
-     , (943,  13, False) /* Ethereal */
-     , (943,  14, True ) /* GravityStatus */
-     , (943,  19, True ) /* Attackable */;
+VALUES (943,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (943,   1, 'Mite Scion') /* Name */

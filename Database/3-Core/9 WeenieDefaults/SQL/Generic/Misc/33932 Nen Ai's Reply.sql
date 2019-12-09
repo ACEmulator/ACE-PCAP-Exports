@@ -9,21 +9,16 @@ VALUES (33932,   1,        128) /* ItemType - Misc */
      , (33932,  16,          1) /* ItemUseable - No */
      , (33932,  19,          0) /* Value */
      , (33932,  33,          1) /* Bonded - Bonded */
-     , (33932,  65,        101) /* Placement - Resting */
      , (33932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33932, 114,          1) /* Attuned - Attuned */;
+     , (33932, 114,          1) /* Attuned - Attuned */
+     , (33932, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33932,   1, False) /* Stuck */
-     , (33932,  11, True ) /* IgnoreCollisions */
-     , (33932,  13, True ) /* Ethereal */
-     , (33932,  14, True ) /* GravityStatus */
-     , (33932,  19, True ) /* Attackable */
-     , (33932,  22, True ) /* Inscribable */
+VALUES (33932,  22, True ) /* Inscribable */
      , (33932,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33932,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33932,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33932,   1, 'Nen Ai''s Reply') /* Name */

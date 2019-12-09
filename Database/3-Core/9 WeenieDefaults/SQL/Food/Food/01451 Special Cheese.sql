@@ -13,17 +13,10 @@ VALUES (1451,   1,         32) /* ItemType - Food */
      , (1451,  16,          8) /* ItemUseable - Contained */
      , (1451,  18,          4) /* UiEffects - BoostHealth */
      , (1451,  19,         28) /* Value */
-     , (1451,  65,        101) /* Placement - Resting */
      , (1451,  89,          2) /* BoosterEnum - Health */
      , (1451,  90,         10) /* BoostValue */
-     , (1451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1451,   1, False) /* Stuck */
-     , (1451,  11, True ) /* IgnoreCollisions */
-     , (1451,  13, True ) /* Ethereal */
-     , (1451,  14, True ) /* GravityStatus */
-     , (1451,  19, True ) /* Attackable */;
+     , (1451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (1451, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1451,   1, 'Special Cheese') /* Name */

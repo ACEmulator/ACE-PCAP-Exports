@@ -11,17 +11,12 @@ VALUES (34993,   1,          1) /* ItemType - MeleeWeapon */
      , (34993,  18,          1) /* UiEffects - Magical */
      , (34993,  19,       2500) /* Value */
      , (34993,  51,          1) /* CombatUse - Melee */
-     , (34993,  65,        101) /* Placement - Resting */
      , (34993,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34993, 151,          2) /* HookType - Wall */;
+     , (34993, 151,          2) /* HookType - Wall */
+     , (34993, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34993,   1, False) /* Stuck */
-     , (34993,  11, True ) /* IgnoreCollisions */
-     , (34993,  13, True ) /* Ethereal */
-     , (34993,  14, True ) /* GravityStatus */
-     , (34993,  19, True ) /* Attackable */
-     , (34993,  22, True ) /* Inscribable */;
+VALUES (34993,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34993,   1, 'Channeling Bone Sword') /* Name */;

@@ -15,11 +15,7 @@ VALUES (43411,   1,         16) /* ItemType - Creature */
      , (43411, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43411,   1, True ) /* Stuck */
-     , (43411,  12, True ) /* ReportCollisions */
-     , (43411,  13, False) /* Ethereal */
-     , (43411,  14, True ) /* GravityStatus */
-     , (43411,  19, True ) /* Attackable */;
+VALUES (43411,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43411,   1, 'Haze Golem') /* Name */

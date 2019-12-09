@@ -15,14 +15,10 @@ VALUES (28821,   1,         16) /* ItemType - Creature */
      , (28821, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28821,   1, True ) /* Stuck */
-     , (28821,  12, True ) /* ReportCollisions */
-     , (28821,  13, False) /* Ethereal */
-     , (28821,  14, True ) /* GravityStatus */
-     , (28821,  19, True ) /* Attackable */;
+VALUES (28821,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28821,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (28821,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28821,   1, 'Fiun Assistant') /* Name */

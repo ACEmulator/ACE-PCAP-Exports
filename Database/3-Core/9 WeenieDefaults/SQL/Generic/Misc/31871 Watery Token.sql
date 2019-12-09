@@ -9,16 +9,9 @@ VALUES (31871,   1,        128) /* ItemType - Misc */
      , (31871,  16,          1) /* ItemUseable - No */
      , (31871,  19,          0) /* Value */
      , (31871,  33,          1) /* Bonded - Bonded */
-     , (31871,  65,        101) /* Placement - Resting */
      , (31871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31871, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31871,   1, False) /* Stuck */
-     , (31871,  11, True ) /* IgnoreCollisions */
-     , (31871,  13, True ) /* Ethereal */
-     , (31871,  14, True ) /* GravityStatus */
-     , (31871,  19, True ) /* Attackable */;
+     , (31871, 114,          1) /* Attuned - Attuned */
+     , (31871, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31871,   1, 'Watery Token') /* Name */

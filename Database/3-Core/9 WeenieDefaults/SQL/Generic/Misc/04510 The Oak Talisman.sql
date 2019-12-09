@@ -8,15 +8,10 @@ VALUES (4510,   1,        128) /* ItemType - Misc */
      , (4510,   5,       9000) /* EncumbranceVal */
      , (4510,  16,          1) /* ItemUseable - No */
      , (4510,  19,        125) /* Value */
-     , (4510,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4510,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4510,   1, True ) /* Stuck */
-     , (4510,  11, True ) /* IgnoreCollisions */
-     , (4510,  12, True ) /* ReportCollisions */
-     , (4510,  13, False) /* Ethereal */
-     , (4510,  14, True ) /* GravityStatus */
-     , (4510,  19, True ) /* Attackable */;
+VALUES (4510,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4510,   1, 'The Oak Talisman') /* Name */

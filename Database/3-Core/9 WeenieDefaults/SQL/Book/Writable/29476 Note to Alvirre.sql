@@ -8,21 +8,14 @@ VALUES (29476,   1,       8192) /* ItemType - Writable */
      , (29476,   5,          5) /* EncumbranceVal */
      , (29476,  16,          8) /* ItemUseable - Contained */
      , (29476,  19,          0) /* Value */
-     , (29476,  65,        101) /* Placement - Resting */
      , (29476,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29476, 174,          2) /* AppraisalPages */
-     , (29476, 175,          2) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29476,   1, False) /* Stuck */
-     , (29476,  11, True ) /* IgnoreCollisions */
-     , (29476,  13, True ) /* Ethereal */
-     , (29476,  14, True ) /* GravityStatus */
-     , (29476,  19, True ) /* Attackable */;
+     , (29476, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (29476, 8042,          2) /* PCAPRecordedAppraisalPages */
+     , (29476, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29476,  39, 1.22000002861023) /* DefaultScale */
-     , (29476,  54, 0.300000011920929) /* UseRadius */;
+VALUES (29476,  39,    1.22) /* DefaultScale */
+     , (29476,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29476,   1, 'Note to Alvirre') /* Name */

@@ -14,7 +14,6 @@ VALUES (43478,   1,       2048) /* ItemType - Gem */
      , (43478,  18,          1) /* UiEffects - Magical */
      , (43478,  19,          0) /* Value */
      , (43478,  33,          1) /* Bonded - Bonded */
-     , (43478,  65,        101) /* Placement - Resting */
      , (43478,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43478,  94,         16) /* TargetType - Creature */
      , (43478, 106,        325) /* ItemSpellcraft */
@@ -22,15 +21,11 @@ VALUES (43478,   1,       2048) /* ItemType - Gem */
      , (43478, 108,      10000) /* ItemMaxMana */
      , (43478, 109,          0) /* ItemDifficulty */
      , (43478, 114,          1) /* Attuned - Attuned */
-     , (43478, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (43478, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (43478, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43478,   1, False) /* Stuck */
-     , (43478,  11, True ) /* IgnoreCollisions */
-     , (43478,  13, True ) /* Ethereal */
-     , (43478,  14, True ) /* GravityStatus */
-     , (43478,  19, True ) /* Attackable */
-     , (43478,  69, False) /* IsSellable */;
+VALUES (43478,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43478,   1, 'Luminous Crystal of Vitality') /* Name */

@@ -9,20 +9,15 @@ VALUES (30999,   1,      16384) /* ItemType - Key */
      , (30999,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (30999,  19,          0) /* Value */
      , (30999,  33,          1) /* Bonded - Bonded */
-     , (30999,  65,        101) /* Placement - Resting */
      , (30999,  91,         20) /* MaxStructure */
      , (30999,  92,         20) /* Structure */
      , (30999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30999,  94,        640) /* TargetType - LockableMagicTarget */
-     , (30999, 114,          1) /* Attuned - Attuned */;
+     , (30999, 114,          1) /* Attuned - Attuned */
+     , (30999, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30999,   1, False) /* Stuck */
-     , (30999,  11, True ) /* IgnoreCollisions */
-     , (30999,  13, True ) /* Ethereal */
-     , (30999,  14, True ) /* GravityStatus */
-     , (30999,  19, True ) /* Attackable */
-     , (30999,  22, True ) /* Inscribable */;
+VALUES (30999,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30999,   1, 'Academy Library Key') /* Name */

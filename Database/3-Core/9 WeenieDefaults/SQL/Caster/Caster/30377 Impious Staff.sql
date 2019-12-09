@@ -13,7 +13,6 @@ VALUES (30377,   1,      32768) /* ItemType - Caster */
      , (30377,  19,      50000) /* Value */
      , (30377,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30377,  45,         16) /* DamageType - Fire */
-     , (30377,  65,          1) /* Placement - RightHandCombat */
      , (30377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30377,  94,         16) /* TargetType - Creature */
      , (30377, 106,        500) /* ItemSpellcraft */
@@ -26,27 +25,23 @@ VALUES (30377,   1,      32768) /* ItemType - Caster */
      , (30377, 319,         50) /* ItemMaxLevel */
      , (30377, 320,          1) /* ItemXpStyle - Fixed */
      , (30377, 383,          1) /* GearPKDamageRating */
-     , (30377, 384,          1) /* GearPKDamageResistRating */;
+     , (30377, 384,          1) /* GearPKDamageResistRating */
+     , (30377, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30377,   4, 100000000000) /* ItemTotalXp */
      , (30377,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30377,   1, False) /* Stuck */
-     , (30377,  11, True ) /* IgnoreCollisions */
-     , (30377,  13, True ) /* Ethereal */
-     , (30377,  14, True ) /* GravityStatus */
-     , (30377,  19, True ) /* Attackable */
-     , (30377,  22, True ) /* Inscribable */
+VALUES (30377,  22, True ) /* Inscribable */
      , (30377,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30377,   5, -0.0500000007450581) /* ManaRate */
-     , (30377,  29, 1.37999995052814) /* WeaponDefense */
+VALUES (30377,   5,   -0.05) /* ManaRate */
+     , (30377,  29,    1.38) /* WeaponDefense */
      , (30377, 136,       1) /* CriticalMultiplier */
-     , (30377, 144, 0.324000004291534) /* ManaConversionMod */
-     , (30377, 152, 1.34999997913837) /* ElementalDamageMod */;
+     , (30377, 144,    0.32) /* ManaConversionMod */
+     , (30377, 152,    1.35) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30377,   1, 'Impious Staff') /* Name */

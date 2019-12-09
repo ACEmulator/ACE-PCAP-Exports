@@ -8,16 +8,11 @@ VALUES (15785,   1,       8192) /* ItemType - Writable */
      , (15785,   5,         25) /* EncumbranceVal */
      , (15785,  16,          1) /* ItemUseable - No */
      , (15785,  19,          0) /* Value */
-     , (15785,  65,        101) /* Placement - Resting */
-     , (15785,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (15785,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (15785, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15785,   1, False) /* Stuck */
-     , (15785,  11, True ) /* IgnoreCollisions */
-     , (15785,  13, True ) /* Ethereal */
-     , (15785,  14, True ) /* GravityStatus */
-     , (15785,  19, True ) /* Attackable */
-     , (15785,  22, True ) /* Inscribable */;
+VALUES (15785,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15785,   1, 'A Hastily Scrawled Note') /* Name */

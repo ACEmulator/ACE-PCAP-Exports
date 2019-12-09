@@ -8,20 +8,13 @@ VALUES (22091,   1,       8192) /* ItemType - Writable */
      , (22091,   5,         20) /* EncumbranceVal */
      , (22091,  16,          8) /* ItemUseable - Contained */
      , (22091,  19,         25) /* Value */
-     , (22091,  65,        101) /* Placement - Resting */
      , (22091,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22091, 174,         16) /* AppraisalPages */
-     , (22091, 175,         16) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22091,   1, False) /* Stuck */
-     , (22091,  11, True ) /* IgnoreCollisions */
-     , (22091,  13, True ) /* Ethereal */
-     , (22091,  14, True ) /* GravityStatus */
-     , (22091,  19, True ) /* Attackable */;
+     , (22091, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (22091, 8042,         16) /* PCAPRecordedAppraisalPages */
+     , (22091, 8043,         16) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22091,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (22091,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22091,   1, 'Journal of Frest Greelving') /* Name */;

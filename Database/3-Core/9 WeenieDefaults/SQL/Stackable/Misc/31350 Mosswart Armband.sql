@@ -13,16 +13,9 @@ VALUES (31350,   1,        128) /* ItemType - Misc */
      , (31350,  16,          1) /* ItemUseable - No */
      , (31350,  19,      10000) /* Value */
      , (31350,  33,          1) /* Bonded - Bonded */
-     , (31350,  65,        101) /* Placement - Resting */
      , (31350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31350, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31350,   1, False) /* Stuck */
-     , (31350,  11, True ) /* IgnoreCollisions */
-     , (31350,  13, True ) /* Ethereal */
-     , (31350,  14, True ) /* GravityStatus */
-     , (31350,  19, True ) /* Attackable */;
+     , (31350, 114,          1) /* Attuned - Attuned */
+     , (31350, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31350,   1, 'Mosswart Armband') /* Name */

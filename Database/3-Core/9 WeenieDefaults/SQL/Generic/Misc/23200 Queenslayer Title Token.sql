@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23200,   1,        128) /* ItemType - Misc */
      , (23200,   5,        100) /* EncumbranceVal */
      , (23200,  16,          1) /* ItemUseable - No */
-     , (23200,  65,        101) /* Placement - Resting */
-     , (23200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23200, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23200,   1, False) /* Stuck */
-     , (23200,  11, True ) /* IgnoreCollisions */
-     , (23200,  13, True ) /* Ethereal */
-     , (23200,  14, True ) /* GravityStatus */
-     , (23200,  19, True ) /* Attackable */
-     , (23200,  22, True ) /* Inscribable */;
+VALUES (23200,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23200,   1, 'Queenslayer Title Token') /* Name */;

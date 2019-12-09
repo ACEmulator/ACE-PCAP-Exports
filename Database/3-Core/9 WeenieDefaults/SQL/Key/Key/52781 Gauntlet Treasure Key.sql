@@ -8,19 +8,14 @@ VALUES (52781,   1,      16384) /* ItemType - Key */
      , (52781,   5,         30) /* EncumbranceVal */
      , (52781,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (52781,  18,         64) /* UiEffects - Lightning */
-     , (52781,  65,        101) /* Placement - Resting */
      , (52781,  91,          3) /* MaxStructure */
      , (52781,  92,          3) /* Structure */
      , (52781,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52781,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (52781,  94,        640) /* TargetType - LockableMagicTarget */
+     , (52781, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52781,   1, False) /* Stuck */
-     , (52781,  11, True ) /* IgnoreCollisions */
-     , (52781,  13, True ) /* Ethereal */
-     , (52781,  14, True ) /* GravityStatus */
-     , (52781,  19, True ) /* Attackable */
-     , (52781,  22, True ) /* Inscribable */;
+VALUES (52781,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52781,   1, 'Gauntlet Treasure Key') /* Name */;

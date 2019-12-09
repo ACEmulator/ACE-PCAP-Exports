@@ -11,16 +11,11 @@ VALUES (44979,   1,          4) /* ItemType - Clothing */
      , (44979,  10,         14) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear */
      , (44979,  16,          1) /* ItemUseable - No */
      , (44979,  19,       2449) /* Value */
-     , (44979,  65,        101) /* Placement - Resting */
-     , (44979,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44979,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44979, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44979,   1, False) /* Stuck */
-     , (44979,  11, True ) /* IgnoreCollisions */
-     , (44979,  13, True ) /* Ethereal */
-     , (44979,  14, True ) /* GravityStatus */
-     , (44979,  19, True ) /* Attackable */
-     , (44979,  22, True ) /* Inscribable */;
+VALUES (44979,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44979,   1, 'Night Club Shirt') /* Name */;

@@ -12,19 +12,14 @@ VALUES (27750,   1,        128) /* ItemType - Misc */
      , (27750,  15,          0) /* StackUnitValue */
      , (27750,  16,          8) /* ItemUseable - Contained */
      , (27750,  19,          0) /* Value */
-     , (27750,  65,        101) /* Placement - Resting */
      , (27750,  89,          2) /* BoosterEnum - Health */
      , (27750,  90,         10) /* BoostValue */
      , (27750,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27750, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (27750, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (27750, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27750,   1, False) /* Stuck */
-     , (27750,  11, True ) /* IgnoreCollisions */
-     , (27750,  13, True ) /* Ethereal */
-     , (27750,  14, True ) /* GravityStatus */
-     , (27750,  19, True ) /* Attackable */
-     , (27750,  69, False) /* IsSellable */;
+VALUES (27750,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27750,   1, 'Expired Health Draught') /* Name */

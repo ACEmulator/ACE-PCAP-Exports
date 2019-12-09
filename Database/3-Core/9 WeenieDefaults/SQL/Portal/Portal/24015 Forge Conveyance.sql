@@ -6,15 +6,11 @@ VALUES (24015, 'trapportal-knorrforge', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24015,   1,      65536) /* ItemType - Portal */
      , (24015,  16,          1) /* ItemUseable - No */
-     , (24015,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (24015,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (24015, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24015,   1, True ) /* Stuck */
-     , (24015,  12, True ) /* ReportCollisions */
-     , (24015,  13, True ) /* Ethereal */
-     , (24015,  15, True ) /* LightsStatus */
-     , (24015,  19, True ) /* Attackable */;
+VALUES (24015,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24015,   1, 'Forge Conveyance') /* Name */;

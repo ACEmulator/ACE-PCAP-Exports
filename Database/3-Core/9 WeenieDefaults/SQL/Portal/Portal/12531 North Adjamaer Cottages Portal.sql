@@ -12,19 +12,13 @@ VALUES (12531,   1,      65536) /* ItemType - Portal */
      , (12531, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12531,   1, True ) /* Stuck */
-     , (12531,  12, True ) /* ReportCollisions */
-     , (12531,  13, True ) /* Ethereal */
-     , (12531,  14, True ) /* GravityStatus */
-     , (12531,  15, True ) /* LightsStatus */
-     , (12531,  19, True ) /* Attackable */;
+VALUES (12531,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12531,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12531,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12531,   1, 'North Adjamaer Cottages Portal') /* Name */
-     , (12531,  38, 'North Adjamaer Cottages Portal (76.0S, 53.6E).') /* AppraisalPortalDestination */
      , (12531, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -9,20 +9,15 @@ VALUES (3678,   1,        128) /* ItemType - Misc */
      , (3678,  16,          1) /* ItemUseable - No */
      , (3678,  19,        200) /* Value */
      , (3678,  33,          1) /* Bonded - Bonded */
-     , (3678,  65,        101) /* Placement - Resting */
      , (3678,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3678, 114,          1) /* Attuned - Attuned */;
+     , (3678, 114,          1) /* Attuned - Attuned */
+     , (3678, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3678,   1, False) /* Stuck */
-     , (3678,  11, True ) /* IgnoreCollisions */
-     , (3678,  13, True ) /* Ethereal */
-     , (3678,  14, True ) /* GravityStatus */
-     , (3678,  19, True ) /* Attackable */
-     , (3678,  22, True ) /* Inscribable */;
+VALUES (3678,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3678,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (3678,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3678,   1, 'Olthoi Carapace') /* Name */;

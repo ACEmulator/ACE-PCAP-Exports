@@ -9,22 +9,15 @@ VALUES (34460,   1,       8192) /* ItemType - Writable */
      , (34460,  16,          8) /* ItemUseable - Contained */
      , (34460,  19,          0) /* Value */
      , (34460,  33,          1) /* Bonded - Bonded */
-     , (34460,  65,        101) /* Placement - Resting */
      , (34460,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34460, 114,          1) /* Attuned - Attuned */
-     , (34460, 174,          6) /* AppraisalPages */
-     , (34460, 175,          6) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34460,   1, False) /* Stuck */
-     , (34460,  11, True ) /* IgnoreCollisions */
-     , (34460,  13, True ) /* Ethereal */
-     , (34460,  14, True ) /* GravityStatus */
-     , (34460,  19, True ) /* Attackable */;
+     , (34460, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (34460, 8042,          6) /* PCAPRecordedAppraisalPages */
+     , (34460, 8043,          6) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34460,  39, 1.22000002861023) /* DefaultScale */
-     , (34460,  54, 0.300000011920929) /* UseRadius */;
+VALUES (34460,  39,    1.22) /* DefaultScale */
+     , (34460,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34460,   1, 'Asheron''s Departure Journal') /* Name */

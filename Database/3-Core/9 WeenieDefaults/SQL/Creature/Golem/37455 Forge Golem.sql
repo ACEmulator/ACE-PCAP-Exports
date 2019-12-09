@@ -15,14 +15,10 @@ VALUES (37455,   1,         16) /* ItemType - Creature */
      , (37455, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37455,   1, True ) /* Stuck */
-     , (37455,  12, True ) /* ReportCollisions */
-     , (37455,  13, False) /* Ethereal */
-     , (37455,  14, True ) /* GravityStatus */
-     , (37455,  19, True ) /* Attackable */;
+VALUES (37455,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37455,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (37455,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37455,   1, 'Forge Golem') /* Name */

@@ -16,14 +16,10 @@ VALUES (51355,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51355,   1, True ) /* Stuck */
-     , (51355,  12, True ) /* ReportCollisions */
-     , (51355,  13, False) /* Ethereal */
-     , (51355,  14, True ) /* GravityStatus */
-     , (51355,  19, True ) /* Attackable */
      , (51355, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51355,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (51355,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51355,   1, 'Bloodstone Shard') /* Name */

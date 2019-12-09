@@ -11,17 +11,12 @@ VALUES (45545,   1,          1) /* ItemType - MeleeWeapon */
      , (45545,  16,          1) /* ItemUseable - No */
      , (45545,  19,         25) /* Value */
      , (45545,  51,          1) /* CombatUse - Melee */
-     , (45545,  65,          1) /* Placement - RightHandCombat */
      , (45545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45545, 151,          2) /* HookType - Wall */;
+     , (45545, 151,          2) /* HookType - Wall */
+     , (45545, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45545,   1, False) /* Stuck */
-     , (45545,  11, True ) /* IgnoreCollisions */
-     , (45545,  13, True ) /* Ethereal */
-     , (45545,  14, True ) /* GravityStatus */
-     , (45545,  19, True ) /* Attackable */
-     , (45545,  22, True ) /* Inscribable */;
+VALUES (45545,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45545,   1, 'Training Budiaq') /* Name */;

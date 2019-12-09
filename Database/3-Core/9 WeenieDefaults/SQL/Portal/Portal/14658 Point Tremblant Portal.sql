@@ -12,19 +12,13 @@ VALUES (14658,   1,      65536) /* ItemType - Portal */
      , (14658, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14658,   1, True ) /* Stuck */
-     , (14658,  12, True ) /* ReportCollisions */
-     , (14658,  13, True ) /* Ethereal */
-     , (14658,  14, True ) /* GravityStatus */
-     , (14658,  15, True ) /* LightsStatus */
-     , (14658,  19, True ) /* Attackable */;
+VALUES (14658,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14658,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14658,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14658,   1, 'Point Tremblant Portal') /* Name */
-     , (14658,  38, 'Point Tremblant Portal (96.3N, 7.1E).') /* AppraisalPortalDestination */
      , (14658, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,15 +12,8 @@ VALUES (41746,   1,        128) /* ItemType - Misc */
      , (41746,  15,      30000) /* StackUnitValue */
      , (41746,  16,          1) /* ItemUseable - No */
      , (41746,  19,      30000) /* Value */
-     , (41746,  65,        101) /* Placement - Resting */
-     , (41746,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41746,   1, False) /* Stuck */
-     , (41746,  11, True ) /* IgnoreCollisions */
-     , (41746,  13, True ) /* Ethereal */
-     , (41746,  14, True ) /* GravityStatus */
-     , (41746,  19, True ) /* Attackable */;
+     , (41746,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41746, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41746,   1, 'Glyph of Item Tinkering') /* Name */

@@ -12,20 +12,15 @@ VALUES (28997,   1,          1) /* ItemType - MeleeWeapon */
      , (28997,  18,         16) /* UiEffects - BoostStamina */
      , (28997,  19,       6000) /* Value */
      , (28997,  51,          1) /* CombatUse - Melee */
-     , (28997,  65,          1) /* Placement - RightHandCombat */
      , (28997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28997, 151,          2) /* HookType - Wall */;
+     , (28997, 151,          2) /* HookType - Wall */
+     , (28997, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28997,   1, False) /* Stuck */
-     , (28997,  11, True ) /* IgnoreCollisions */
-     , (28997,  13, True ) /* Ethereal */
-     , (28997,  14, True ) /* GravityStatus */
-     , (28997,  19, True ) /* Attackable */
-     , (28997,  22, True ) /* Inscribable */;
+VALUES (28997,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28997,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (28997,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28997,   1, 'Burun Slaying Rapier') /* Name */;

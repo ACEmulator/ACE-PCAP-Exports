@@ -16,11 +16,7 @@ VALUES (5,   1,         16) /* ItemType - Creature */
      , (5, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5,   1, True ) /* Stuck */
-     , (5,  12, True ) /* ReportCollisions */
-     , (5,  13, False) /* Ethereal */
-     , (5,  14, True ) /* GravityStatus */
-     , (5,  19, True ) /* Attackable */;
+VALUES (5,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5,   1, 'Laigus Lugian') /* Name */

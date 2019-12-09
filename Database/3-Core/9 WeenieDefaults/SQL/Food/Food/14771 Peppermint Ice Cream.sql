@@ -12,18 +12,13 @@ VALUES (14771,   1,         32) /* ItemType - Food */
      , (14771,  15,        150) /* StackUnitValue */
      , (14771,  16,          8) /* ItemUseable - Contained */
      , (14771,  19,        150) /* Value */
-     , (14771,  65,        101) /* Placement - Resting */
      , (14771,  89,          4) /* BoosterEnum - Stamina */
      , (14771,  90,         30) /* BoostValue */
-     , (14771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (14771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14771, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14771,   1, False) /* Stuck */
-     , (14771,  11, True ) /* IgnoreCollisions */
-     , (14771,  13, True ) /* Ethereal */
-     , (14771,  14, True ) /* GravityStatus */
-     , (14771,  19, True ) /* Attackable */
-     , (14771,  69, False) /* IsSellable */;
+VALUES (14771,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14771,   1, 'Peppermint Ice Cream') /* Name */

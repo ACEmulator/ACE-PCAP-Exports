@@ -15,11 +15,7 @@ VALUES (31906,   1,         16) /* ItemType - Creature */
      , (31906, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31906,   1, True ) /* Stuck */
-     , (31906,  12, True ) /* ReportCollisions */
-     , (31906,  13, False) /* Ethereal */
-     , (31906,  14, True ) /* GravityStatus */
-     , (31906,  19, True ) /* Attackable */;
+VALUES (31906,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31906,   1, 'Remoran Sea Raptor') /* Name */

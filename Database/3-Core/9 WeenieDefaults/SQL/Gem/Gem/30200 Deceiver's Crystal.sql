@@ -16,22 +16,17 @@ VALUES (30200,   1,       2048) /* ItemType - Gem */
      , (30200,  19,          0) /* Value */
      , (30200,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30200,  33,         -1) /* Bonded - Slippery */
-     , (30200,  65,        101) /* Placement - Resting */
      , (30200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30200,  94,         16) /* TargetType - Creature */
      , (30200, 106,        325) /* ItemSpellcraft */
      , (30200, 107,      10000) /* ItemCurMana */
      , (30200, 108,      10000) /* ItemMaxMana */
      , (30200, 109,          0) /* ItemDifficulty */
-     , (30200, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30200, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30200, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30200,   1, False) /* Stuck */
-     , (30200,  11, True ) /* IgnoreCollisions */
-     , (30200,  13, True ) /* Ethereal */
-     , (30200,  14, True ) /* GravityStatus */
-     , (30200,  19, True ) /* Attackable */
-     , (30200, 108, True ) /* RareUsesTimer */;
+VALUES (30200, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30200,   1, 'Deceiver''s Crystal') /* Name */

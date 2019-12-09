@@ -13,19 +13,13 @@ VALUES (47155,   1,      65536) /* ItemType - Portal */
      , (47155, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47155,   1, True ) /* Stuck */
-     , (47155,  12, True ) /* ReportCollisions */
-     , (47155,  13, True ) /* Ethereal */
-     , (47155,  14, True ) /* GravityStatus */
-     , (47155,  15, True ) /* LightsStatus */
-     , (47155,  19, True ) /* Attackable */;
+VALUES (47155,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47155,  54, -0.100000001490116) /* UseRadius */;
+VALUES (47155,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47155,   1, 'Foundry of Izexi') /* Name */
-     , (47155,  38, 'Foundry of Izexi') /* AppraisalPortalDestination */
      , (47155, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -9,20 +9,15 @@ VALUES (33189,   1,      16384) /* ItemType - Key */
      , (33189,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (33189,  19,          0) /* Value */
      , (33189,  33,          1) /* Bonded - Bonded */
-     , (33189,  65,        101) /* Placement - Resting */
      , (33189,  91,          1) /* MaxStructure */
      , (33189,  92,          1) /* Structure */
      , (33189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33189,  94,        640) /* TargetType - LockableMagicTarget */
-     , (33189, 114,          1) /* Attuned - Attuned */;
+     , (33189, 114,          1) /* Attuned - Attuned */
+     , (33189, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33189,   1, False) /* Stuck */
-     , (33189,  11, True ) /* IgnoreCollisions */
-     , (33189,  13, True ) /* Ethereal */
-     , (33189,  14, True ) /* GravityStatus */
-     , (33189,  19, True ) /* Attackable */
-     , (33189,  22, True ) /* Inscribable */;
+VALUES (33189,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33189,   1, 'Diviner Pheraion''s Key') /* Name */

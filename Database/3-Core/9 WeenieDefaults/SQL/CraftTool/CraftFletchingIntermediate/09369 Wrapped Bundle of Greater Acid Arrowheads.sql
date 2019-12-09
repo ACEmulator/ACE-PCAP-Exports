@@ -11,16 +11,9 @@ VALUES (9369,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9369,  15,       2500) /* StackUnitValue */
      , (9369,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9369,  19,       2500) /* Value */
-     , (9369,  65,        101) /* Placement - Resting */
      , (9369,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9369,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9369,   1, False) /* Stuck */
-     , (9369,  11, True ) /* IgnoreCollisions */
-     , (9369,  13, True ) /* Ethereal */
-     , (9369,  14, True ) /* GravityStatus */
-     , (9369,  19, True ) /* Attackable */;
+     , (9369,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (9369, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9369,   1, 'Wrapped Bundle of Greater Acid Arrowheads') /* Name */

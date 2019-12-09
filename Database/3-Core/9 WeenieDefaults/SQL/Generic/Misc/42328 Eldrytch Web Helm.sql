@@ -9,15 +9,11 @@ VALUES (42328,   1,        128) /* ItemType - Misc */
      , (42328,   9,          1) /* ValidLocations - HeadWear */
      , (42328,  16,          1) /* ItemUseable - No */
      , (42328,  19,        819) /* Value */
-     , (42328,  65,        101) /* Placement - Resting */
-     , (42328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (42328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (42328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42328,   1, True ) /* Stuck */
-     , (42328,  11, True ) /* IgnoreCollisions */
-     , (42328,  13, True ) /* Ethereal */
-     , (42328,  14, True ) /* GravityStatus */
-     , (42328,  19, True ) /* Attackable */
      , (42328,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

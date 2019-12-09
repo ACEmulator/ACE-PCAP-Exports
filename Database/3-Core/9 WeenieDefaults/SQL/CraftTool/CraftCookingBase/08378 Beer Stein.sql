@@ -12,18 +12,13 @@ VALUES (8378,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8378,  15,         10) /* StackUnitValue */
      , (8378,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8378,  19,         10) /* Value */
-     , (8378,  65,        101) /* Placement - Resting */
      , (8378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8378,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (8378, 151,          1) /* HookType - Floor */;
+     , (8378, 151,          1) /* HookType - Floor */
+     , (8378, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8378,   1, False) /* Stuck */
-     , (8378,  11, True ) /* IgnoreCollisions */
-     , (8378,  13, True ) /* Ethereal */
-     , (8378,  14, True ) /* GravityStatus */
-     , (8378,  19, True ) /* Attackable */
-     , (8378,  22, True ) /* Inscribable */;
+VALUES (8378,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8378,   1, 'Beer Stein') /* Name */

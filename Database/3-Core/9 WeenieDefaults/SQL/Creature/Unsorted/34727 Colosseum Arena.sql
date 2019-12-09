@@ -8,7 +8,7 @@ VALUES (34727,   1,         16) /* ItemType - Creature */
      , (34727,   6,        255) /* ItemsCapacity */
      , (34727,   7,        255) /* ContainersCapacity */
      , (34727,  16,         32) /* ItemUseable - Remote */
-     , (34727,  93,    6360088) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (34727,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34727,  95,          4) /* RadarBlipColor - Purple */
      , (34727, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (34727, 307,          0) /* DamageRating */
@@ -39,17 +39,10 @@ VALUES (34727,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34727,   1, True ) /* Stuck */
-     , (34727,  11, True ) /* IgnoreCollisions */
-     , (34727,  12, True ) /* ReportCollisions */
-     , (34727,  13, False) /* Ethereal */
-     , (34727,  14, True ) /* GravityStatus */
-     , (34727,  15, True ) /* LightsStatus */
-     , (34727,  19, False) /* Attackable */
-     , (34727,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (34727,  42, True ) /* AllowEdgeSlide */;
+     , (34727,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34727,  54, 0.100000001490116) /* UseRadius */;
+VALUES (34727,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34727,   1, 'Colosseum Arena') /* Name */

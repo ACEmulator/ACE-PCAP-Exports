@@ -8,18 +8,12 @@ VALUES (25765,   1,       1024) /* ItemType - Useless */
      , (25765,   5,         50) /* EncumbranceVal */
      , (25765,  16,          1) /* ItemUseable - No */
      , (25765,  19,       5000) /* Value */
-     , (25765,  65,        101) /* Placement - Resting */
      , (25765,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (25765, 151,          2) /* HookType - Wall */;
+     , (25765, 151,          2) /* HookType - Wall */
+     , (25765, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25765,   1, False) /* Stuck */
-     , (25765,  11, True ) /* IgnoreCollisions */
-     , (25765,  13, True ) /* Ethereal */
-     , (25765,  14, True ) /* GravityStatus */
-     , (25765,  15, True ) /* LightsStatus */
-     , (25765,  19, True ) /* Attackable */
-     , (25765,  22, True ) /* Inscribable */;
+VALUES (25765,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25765,   1, 'Sho Lamp') /* Name */;

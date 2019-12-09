@@ -15,13 +15,7 @@ VALUES (25754,   1,         16) /* ItemType - Creature */
      , (25754, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25754,   1, True ) /* Stuck */
-     , (25754,  12, True ) /* ReportCollisions */
-     , (25754,  13, False) /* Ethereal */
-     , (25754,  14, True ) /* GravityStatus */
-     , (25754,  15, True ) /* LightsStatus */
-     , (25754,  19, True ) /* Attackable */
-     , (25754,  42, True ) /* AllowEdgeSlide */;
+VALUES (25754,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25754,   1, 'Scold Chunk') /* Name */

@@ -13,20 +13,13 @@ VALUES (27261,   1,         32) /* ItemType - Food */
      , (27261,  16,          8) /* ItemUseable - Contained */
      , (27261,  18,          1) /* UiEffects - Magical */
      , (27261,  19,       1000) /* Value */
-     , (27261,  65,        101) /* Placement - Resting */
      , (27261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27261,  94,         16) /* TargetType - Creature */
      , (27261, 106,        150) /* ItemSpellcraft */
      , (27261, 107,         50) /* ItemCurMana */
      , (27261, 108,         50) /* ItemMaxMana */
-     , (27261, 109,          0) /* ItemDifficulty */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27261,   1, False) /* Stuck */
-     , (27261,  11, True ) /* IgnoreCollisions */
-     , (27261,  13, True ) /* Ethereal */
-     , (27261,  14, True ) /* GravityStatus */
-     , (27261,  19, True ) /* Attackable */;
+     , (27261, 109,          0) /* ItemDifficulty */
+     , (27261, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27261,   1, 'Refreshing Water') /* Name */

@@ -12,20 +12,15 @@ VALUES (36364,   1,        128) /* ItemType - Misc */
      , (36364,  15,          3) /* StackUnitValue */
      , (36364,  16,          8) /* ItemUseable - Contained */
      , (36364,  19,          3) /* Value */
-     , (36364,  65,        101) /* Placement - Resting */
      , (36364,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36364,  94,         16) /* TargetType - Creature */;
+     , (36364,  94,         16) /* TargetType - Creature */
+     , (36364, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36364,   1, False) /* Stuck */
-     , (36364,  11, True ) /* IgnoreCollisions */
-     , (36364,  13, True ) /* Ethereal */
-     , (36364,  14, True ) /* GravityStatus */
-     , (36364,  19, True ) /* Attackable */
-     , (36364,  22, True ) /* Inscribable */;
+VALUES (36364,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36364,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36364,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36364,   1, 'Chimeric Atlatl of the Quiddity Summoning Gem') /* Name */;

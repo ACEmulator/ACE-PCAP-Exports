@@ -9,21 +9,16 @@ VALUES (33933,   1,        128) /* ItemType - Misc */
      , (33933,  16,          1) /* ItemUseable - No */
      , (33933,  19,          0) /* Value */
      , (33933,  33,          1) /* Bonded - Bonded */
-     , (33933,  65,        101) /* Placement - Resting */
      , (33933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33933, 114,          1) /* Attuned - Attuned */;
+     , (33933, 114,          1) /* Attuned - Attuned */
+     , (33933, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33933,   1, False) /* Stuck */
-     , (33933,  11, True ) /* IgnoreCollisions */
-     , (33933,  13, True ) /* Ethereal */
-     , (33933,  14, True ) /* GravityStatus */
-     , (33933,  19, True ) /* Attackable */
-     , (33933,  22, True ) /* Inscribable */
+VALUES (33933,  22, True ) /* Inscribable */
      , (33933,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33933,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33933,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33933,   1, 'Renald the Eldest''s Reply') /* Name */

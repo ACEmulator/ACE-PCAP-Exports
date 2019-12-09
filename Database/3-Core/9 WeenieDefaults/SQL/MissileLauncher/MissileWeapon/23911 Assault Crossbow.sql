@@ -16,7 +16,6 @@ VALUES (23911,   1,        256) /* ItemType - MissileWeapon */
      , (23911,  49,         60) /* WeaponTime */
      , (23911,  50,          2) /* AmmoType - Bolt */
      , (23911,  51,          2) /* CombatUse - Missle */
-     , (23911,  65,        101) /* Placement - Resting */
      , (23911,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23911, 106,        400) /* ItemSpellcraft */
      , (23911, 107,        600) /* ItemCurMana */
@@ -28,24 +27,19 @@ VALUES (23911,   1,        256) /* ItemType - MissileWeapon */
      , (23911, 160,        250) /* WieldDifficulty */
      , (23911, 166,          6) /* SlayerCreatureType - Tumerok */
      , (23911, 353,          9) /* WeaponType - Crossbow */
-     , (23911, 8030,          0);
+     , (23911, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (23911, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23911,   1, False) /* Stuck */
-     , (23911,  11, True ) /* IgnoreCollisions */
-     , (23911,  13, True ) /* Ethereal */
-     , (23911,  14, True ) /* GravityStatus */
-     , (23911,  15, True ) /* LightsStatus */
-     , (23911,  19, True ) /* Attackable */
-     , (23911,  22, True ) /* Inscribable */;
+VALUES (23911,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23911,   5,  -0.025) /* ManaRate */
+VALUES (23911,   5,   -0.02) /* ManaRate */
      , (23911,  21,       0) /* WeaponLength */
      , (23911,  22,       0) /* DamageVariance */
      , (23911,  26,    27.3) /* MaximumVelocity */
      , (23911,  29,    1.06) /* WeaponDefense */
-     , (23911,  39, 1.20000004768372) /* DefaultScale */
+     , (23911,  39,     1.2) /* DefaultScale */
      , (23911,  62,       1) /* WeaponOffense */
      , (23911,  63,     2.4) /* DamageMod */
      , (23911,  77,       1) /* PhysicsScriptIntensity */;

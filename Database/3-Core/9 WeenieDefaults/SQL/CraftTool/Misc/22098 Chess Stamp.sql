@@ -12,21 +12,16 @@ VALUES (22098,   1,        128) /* ItemType - Misc */
      , (22098,  15,        100) /* StackUnitValue */
      , (22098,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22098,  19,        100) /* Value */
-     , (22098,  65,        101) /* Placement - Resting */
      , (22098,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22098,  94,          6) /* TargetType - Vestements */
-     , (22098, 151,          2) /* HookType - Wall */;
+     , (22098, 151,          2) /* HookType - Wall */
+     , (22098, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22098,   1, False) /* Stuck */
-     , (22098,  11, True ) /* IgnoreCollisions */
-     , (22098,  13, True ) /* Ethereal */
-     , (22098,  14, True ) /* GravityStatus */
-     , (22098,  19, True ) /* Attackable */
-     , (22098,  22, True ) /* Inscribable */;
+VALUES (22098,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22098,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22098,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22098,   1, 'Chess Stamp') /* Name */;

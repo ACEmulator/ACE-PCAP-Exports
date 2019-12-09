@@ -13,15 +13,10 @@ VALUES (52445,   1,        128) /* ItemType - Misc */
      , (52445, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52445,   1, False) /* Stuck */
-     , (52445,  11, True ) /* IgnoreCollisions */
-     , (52445,  13, True ) /* Ethereal */
-     , (52445,  14, True ) /* GravityStatus */
-     , (52445,  19, True ) /* Attackable */
-     , (52445,  22, True ) /* Inscribable */;
+VALUES (52445,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52445,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (52445,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52445,   1, 'Pack Pilferer') /* Name */

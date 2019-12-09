@@ -11,16 +11,9 @@ VALUES (5324,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5324,  15,         10) /* StackUnitValue */
      , (5324,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5324,  19,         10) /* Value */
-     , (5324,  65,        101) /* Placement - Resting */
      , (5324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5324,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5324,   1, False) /* Stuck */
-     , (5324,  11, True ) /* IgnoreCollisions */
-     , (5324,  13, True ) /* Ethereal */
-     , (5324,  14, True ) /* GravityStatus */
-     , (5324,  19, True ) /* Attackable */;
+     , (5324,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
+     , (5324, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5324,   1, 'Lightning Infusion') /* Name */

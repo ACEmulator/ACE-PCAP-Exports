@@ -12,15 +12,8 @@ VALUES (38760,   1,        128) /* ItemType - Misc */
      , (38760,  15,      30000) /* StackUnitValue */
      , (38760,  16,          1) /* ItemUseable - No */
      , (38760,  19,      30000) /* Value */
-     , (38760,  65,        101) /* Placement - Resting */
-     , (38760,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38760,   1, False) /* Stuck */
-     , (38760,  11, True ) /* IgnoreCollisions */
-     , (38760,  13, True ) /* Ethereal */
-     , (38760,  14, True ) /* GravityStatus */
-     , (38760,  19, True ) /* Attackable */;
+     , (38760,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38760, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38760,   1, 'Glyph of Magic Item Tinkering') /* Name */

@@ -18,18 +18,12 @@ VALUES (43405,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43405,   1, True ) /* Stuck */
-     , (43405,  11, True ) /* IgnoreCollisions */
-     , (43405,  12, True ) /* ReportCollisions */
-     , (43405,  13, False) /* Ethereal */
-     , (43405,  14, True ) /* GravityStatus */
-     , (43405,  19, False) /* Attackable */
-     , (43405,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43405,  42, True ) /* AllowEdgeSlide */;
+     , (43405,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43405,  39, 1.29999995231628) /* DefaultScale */
+VALUES (43405,  39,     1.3) /* DefaultScale */
      , (43405,  54,       3) /* UseRadius */
-     , (43405,  76, 0.400000005960464) /* Translucency */;
+     , (43405,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43405,   1, 'Shade of Lady Adja') /* Name */

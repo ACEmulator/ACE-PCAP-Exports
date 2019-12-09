@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41230,   1,      16384) /* ItemType - Key */
      , (41230,   5,         50) /* EncumbranceVal */
      , (41230,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (41230,  65,        101) /* Placement - Resting */
      , (41230,  91,          1) /* MaxStructure */
      , (41230,  92,          1) /* Structure */
      , (41230,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41230,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (41230,  94,        640) /* TargetType - LockableMagicTarget */
+     , (41230, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41230,   1, False) /* Stuck */
-     , (41230,  11, True ) /* IgnoreCollisions */
-     , (41230,  13, True ) /* Ethereal */
-     , (41230,  14, True ) /* GravityStatus */
-     , (41230,  19, True ) /* Attackable */
-     , (41230,  22, True ) /* Inscribable */;
+VALUES (41230,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41230,   1, 'Arrival Chamber Key') /* Name */;

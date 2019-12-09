@@ -13,19 +13,13 @@ VALUES (48823,   1,      65536) /* ItemType - Portal */
      , (48823, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48823,   1, True ) /* Stuck */
-     , (48823,  12, True ) /* ReportCollisions */
-     , (48823,  13, True ) /* Ethereal */
-     , (48823,  14, True ) /* GravityStatus */
-     , (48823,  15, True ) /* LightsStatus */
-     , (48823,  19, True ) /* Attackable */;
+VALUES (48823,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48823,  54, -0.100000001490116) /* UseRadius */;
+VALUES (48823,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48823,   1, 'Desert Dwelling') /* Name */
-     , (48823,  38, 'Desert Dwelling') /* AppraisalPortalDestination */
      , (48823, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

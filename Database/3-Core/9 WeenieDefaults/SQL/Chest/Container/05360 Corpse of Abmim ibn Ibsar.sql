@@ -15,17 +15,13 @@ VALUES (5360,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5360,   1, True ) /* Stuck */
      , (5360,   2, False) /* Open */
-     , (5360,  11, True ) /* IgnoreCollisions */
-     , (5360,  12, True ) /* ReportCollisions */
-     , (5360,  13, False) /* Ethereal */
-     , (5360,  14, True ) /* GravityStatus */
-     , (5360,  19, True ) /* Attackable */;
+     , (5360,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5360,  54,       1) /* UseRadius */
      , (5360, 8010,       0) /* PCAPRecordedVelocityX */
      , (5360, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5360, 8012, -0.272345036268234) /* PCAPRecordedVelocityZ */;
+     , (5360, 8012,   -0.27) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5360,   1, 'Corpse of Abmim ibn Ibsar') /* Name */

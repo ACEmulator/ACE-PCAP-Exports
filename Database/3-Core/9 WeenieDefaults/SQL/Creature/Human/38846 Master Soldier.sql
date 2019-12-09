@@ -17,11 +17,7 @@ VALUES (38846,   1,         16) /* ItemType - Creature */
      , (38846, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38846,   1, True ) /* Stuck */
-     , (38846,  12, True ) /* ReportCollisions */
-     , (38846,  13, False) /* Ethereal */
-     , (38846,  14, True ) /* GravityStatus */
-     , (38846,  19, True ) /* Attackable */;
+VALUES (38846,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38846,   1, 'Master Soldier') /* Name */

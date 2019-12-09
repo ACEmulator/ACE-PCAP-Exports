@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27782,   1,       8192) /* ItemType - Writable */
      , (27782,   5,        100) /* EncumbranceVal */
      , (27782,  16,          8) /* ItemUseable - Contained */
-     , (27782,  65,        101) /* Placement - Resting */
-     , (27782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27782,   1, False) /* Stuck */
-     , (27782,  11, True ) /* IgnoreCollisions */
-     , (27782,  13, True ) /* Ethereal */
-     , (27782,  14, True ) /* GravityStatus */
-     , (27782,  19, True ) /* Attackable */;
+     , (27782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27782, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27782,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (27782,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27782,   1, 'Origin of the Moar') /* Name */;

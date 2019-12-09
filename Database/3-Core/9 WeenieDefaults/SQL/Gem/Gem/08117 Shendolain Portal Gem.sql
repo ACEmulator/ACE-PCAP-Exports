@@ -14,7 +14,6 @@ VALUES (8117,   1,       2048) /* ItemType - Gem */
      , (8117,  18,          1) /* UiEffects - Magical */
      , (8117,  19,       1500) /* Value */
      , (8117,  33,          1) /* Bonded - Bonded */
-     , (8117,  65,        101) /* Placement - Resting */
      , (8117,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8117,  94,         16) /* TargetType - Creature */
      , (8117, 106,        210) /* ItemSpellcraft */
@@ -22,16 +21,11 @@ VALUES (8117,   1,       2048) /* ItemType - Gem */
      , (8117, 108,         50) /* ItemMaxMana */
      , (8117, 109,          0) /* ItemDifficulty */
      , (8117, 110,          0) /* ItemAllegianceRankLimit */
-     , (8117, 114,          1) /* Attuned - Attuned */;
+     , (8117, 114,          1) /* Attuned - Attuned */
+     , (8117, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8117,   1, False) /* Stuck */
-     , (8117,  11, True ) /* IgnoreCollisions */
-     , (8117,  13, True ) /* Ethereal */
-     , (8117,  14, True ) /* GravityStatus */
-     , (8117,  15, True ) /* LightsStatus */
-     , (8117,  19, True ) /* Attackable */
-     , (8117,  22, True ) /* Inscribable */
+VALUES (8117,  22, True ) /* Inscribable */
      , (8117,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

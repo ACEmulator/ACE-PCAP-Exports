@@ -12,18 +12,13 @@ VALUES (24683,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (24683,  15,         20) /* StackUnitValue */
      , (24683,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24683,  19,         20) /* Value */
-     , (24683,  65,        101) /* Placement - Resting */
      , (24683,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24683,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (24683, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (24683, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (24683, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24683,   1, False) /* Stuck */
-     , (24683,  11, True ) /* IgnoreCollisions */
-     , (24683,  13, True ) /* Ethereal */
-     , (24683,  14, True ) /* GravityStatus */
-     , (24683,  19, True ) /* Attackable */
-     , (24683,  69, False) /* IsSellable */;
+VALUES (24683,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24683,   1, 'Aqua Vitae') /* Name */

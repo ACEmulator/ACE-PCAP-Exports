@@ -9,21 +9,16 @@ VALUES (9311,   1,        128) /* ItemType - Misc */
      , (9311,  16,          1) /* ItemUseable - No */
      , (9311,  19,          0) /* Value */
      , (9311,  33,          1) /* Bonded - Bonded */
-     , (9311,  65,        101) /* Placement - Resting */
      , (9311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9311, 114,          1) /* Attuned - Attuned */;
+     , (9311, 114,          1) /* Attuned - Attuned */
+     , (9311, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9311,   1, False) /* Stuck */
-     , (9311,  11, True ) /* IgnoreCollisions */
-     , (9311,  13, True ) /* Ethereal */
-     , (9311,  14, True ) /* GravityStatus */
-     , (9311,  19, True ) /* Attackable */
-     , (9311,  22, True ) /* Inscribable */
+VALUES (9311,  22, True ) /* Inscribable */
      , (9311,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9311,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (9311,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9311,   1, 'An Unlocked Large Mnemosyne') /* Name */

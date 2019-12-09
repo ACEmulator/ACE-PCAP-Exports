@@ -8,16 +8,11 @@ VALUES (807,   1,        128) /* ItemType - Misc */
      , (807,   5,       9000) /* EncumbranceVal */
      , (807,  16,          1) /* ItemUseable - No */
      , (807,  19,        125) /* Value */
-     , (807,  65,        101) /* Placement - Resting */
-     , (807,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (807,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (807, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (807,   1, True ) /* Stuck */
-     , (807,  11, True ) /* IgnoreCollisions */
-     , (807,  12, True ) /* ReportCollisions */
-     , (807,  13, False) /* Ethereal */
-     , (807,  14, True ) /* GravityStatus */
-     , (807,  19, True ) /* Attackable */;
+VALUES (807,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (807,   1, 'Tonsho''s Remedies') /* Name */

@@ -12,18 +12,11 @@ VALUES (2461,   1,        128) /* ItemType - Misc */
      , (2461,  15,       1000) /* StackUnitValue */
      , (2461,  16,          8) /* ItemUseable - Contained */
      , (2461,  19,       1000) /* Value */
-     , (2461,  65,        101) /* Placement - Resting */
      , (2461,  89,          6) /* BoosterEnum - Mana */
      , (2461,  90,         65) /* BoostValue */
      , (2461,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2461, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2461,   1, False) /* Stuck */
-     , (2461,  11, True ) /* IgnoreCollisions */
-     , (2461,  13, True ) /* Ethereal */
-     , (2461,  14, True ) /* GravityStatus */
-     , (2461,  19, True ) /* Attackable */;
+     , (2461, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (2461, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2461,   1, 'Mana Elixir') /* Name */

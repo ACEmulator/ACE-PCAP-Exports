@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (463,   1,        128) /* ItemType - Misc */
      , (463,   5,       9000) /* EncumbranceVal */
      , (463,  19,        125) /* Value */
-     , (463,  65,        101) /* Placement - Resting */
-     , (463,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (463,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (463, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (463,   1, True ) /* Stuck */
-     , (463,  11, True ) /* IgnoreCollisions */
-     , (463,  12, True ) /* ReportCollisions */
-     , (463,  13, False) /* Ethereal */
-     , (463,  14, True ) /* GravityStatus */
-     , (463,  19, True ) /* Attackable */;
+VALUES (463,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (463,   1, 'Arwic') /* Name */

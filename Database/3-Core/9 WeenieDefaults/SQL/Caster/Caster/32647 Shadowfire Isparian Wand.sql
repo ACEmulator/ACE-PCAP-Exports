@@ -14,7 +14,6 @@ VALUES (32647,   1,      32768) /* ItemType - Caster */
      , (32647,  33,          1) /* Bonded - Bonded */
      , (32647,  36,       9999) /* ResistMagic */
      , (32647,  45,         16) /* DamageType - Fire */
-     , (32647,  65,          1) /* Placement - RightHandCombat */
      , (32647,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32647,  94,         16) /* TargetType - Creature */
      , (32647, 114,          1) /* Attuned - Attuned */
@@ -22,22 +21,18 @@ VALUES (32647,   1,      32768) /* ItemType - Caster */
      , (32647, 158,          2) /* WieldRequirements - RawSkill */
      , (32647, 159,         34) /* WieldSkillType - WarMagic */
      , (32647, 160,        335) /* WieldDifficulty */
-     , (32647, 166,         22) /* SlayerCreatureType - Shadow */;
+     , (32647, 166,         22) /* SlayerCreatureType - Shadow */
+     , (32647, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32647,   1, False) /* Stuck */
-     , (32647,  11, True ) /* IgnoreCollisions */
-     , (32647,  13, True ) /* Ethereal */
-     , (32647,  14, True ) /* GravityStatus */
-     , (32647,  19, True ) /* Attackable */
-     , (32647,  22, True ) /* Inscribable */
+VALUES (32647,  22, True ) /* Inscribable */
      , (32647,  69, False) /* IsSellable */
      , (32647,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32647,  29, 1.28999996185303) /* WeaponDefense */
-     , (32647, 144, 0.203999996185303) /* ManaConversionMod */
-     , (32647, 152, 1.16999995708466) /* ElementalDamageMod */;
+VALUES (32647,  29,    1.29) /* WeaponDefense */
+     , (32647, 144,     0.2) /* ManaConversionMod */
+     , (32647, 152,    1.17) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32647,   1, 'Shadowfire Isparian Wand') /* Name */

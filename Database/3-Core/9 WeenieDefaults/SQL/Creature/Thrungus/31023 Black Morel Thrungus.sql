@@ -15,14 +15,10 @@ VALUES (31023,   1,         16) /* ItemType - Creature */
      , (31023, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31023,   1, True ) /* Stuck */
-     , (31023,  12, True ) /* ReportCollisions */
-     , (31023,  13, False) /* Ethereal */
-     , (31023,  14, True ) /* GravityStatus */
-     , (31023,  19, True ) /* Attackable */;
+VALUES (31023,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31023,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (31023,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31023,   1, 'Black Morel Thrungus') /* Name */

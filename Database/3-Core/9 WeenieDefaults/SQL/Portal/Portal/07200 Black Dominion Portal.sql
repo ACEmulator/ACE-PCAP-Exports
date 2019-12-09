@@ -13,19 +13,13 @@ VALUES (7200,   1,      65536) /* ItemType - Portal */
      , (7200, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7200,   1, True ) /* Stuck */
-     , (7200,  12, True ) /* ReportCollisions */
-     , (7200,  13, True ) /* Ethereal */
-     , (7200,  14, True ) /* GravityStatus */
-     , (7200,  15, True ) /* LightsStatus */
-     , (7200,  19, True ) /* Attackable */;
+VALUES (7200,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7200,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7200,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7200,   1, 'Black Dominion Portal') /* Name */
-     , (7200,  38, 'Black Dominion Portal') /* AppraisalPortalDestination */
      , (7200, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

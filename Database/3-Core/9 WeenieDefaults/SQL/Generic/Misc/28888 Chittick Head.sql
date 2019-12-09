@@ -8,17 +8,12 @@ VALUES (28888,   1,        128) /* ItemType - Misc */
      , (28888,   5,        200) /* EncumbranceVal */
      , (28888,  16,          1) /* ItemUseable - No */
      , (28888,  19,          0) /* Value */
-     , (28888,  65,        101) /* Placement - Resting */
      , (28888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28888, 151,          2) /* HookType - Wall */;
+     , (28888, 151,          2) /* HookType - Wall */
+     , (28888, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28888,   1, False) /* Stuck */
-     , (28888,  11, True ) /* IgnoreCollisions */
-     , (28888,  13, True ) /* Ethereal */
-     , (28888,  14, True ) /* GravityStatus */
-     , (28888,  19, True ) /* Attackable */
-     , (28888,  22, True ) /* Inscribable */;
+VALUES (28888,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28888,   1, 'Chittick Head') /* Name */

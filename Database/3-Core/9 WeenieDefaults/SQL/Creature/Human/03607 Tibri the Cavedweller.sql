@@ -20,13 +20,7 @@ VALUES (3607,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3607,   1, True ) /* Stuck */
-     , (3607,  11, True ) /* IgnoreCollisions */
-     , (3607,  12, True ) /* ReportCollisions */
-     , (3607,  13, False) /* Ethereal */
-     , (3607,  14, True ) /* GravityStatus */
-     , (3607,  19, False) /* Attackable */
-     , (3607,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (3607,  42, True ) /* AllowEdgeSlide */;
+     , (3607,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3607,   1, 'Tibri the Cavedweller') /* Name */

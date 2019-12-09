@@ -18,11 +18,7 @@ VALUES (41231,   1,         16) /* ItemType - Creature */
      , (41231, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41231,   1, True ) /* Stuck */
-     , (41231,  12, True ) /* ReportCollisions */
-     , (41231,  13, False) /* Ethereal */
-     , (41231,  14, True ) /* GravityStatus */
-     , (41231,  19, True ) /* Attackable */;
+VALUES (41231,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41231,   1, 'Reaver Simulacrum') /* Name */

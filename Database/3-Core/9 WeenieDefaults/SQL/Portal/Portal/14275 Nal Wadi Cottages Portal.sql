@@ -12,19 +12,13 @@ VALUES (14275,   1,      65536) /* ItemType - Portal */
      , (14275, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14275,   1, True ) /* Stuck */
-     , (14275,  12, True ) /* ReportCollisions */
-     , (14275,  13, True ) /* Ethereal */
-     , (14275,  14, True ) /* GravityStatus */
-     , (14275,  15, True ) /* LightsStatus */
-     , (14275,  19, True ) /* Attackable */;
+VALUES (14275,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14275,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14275,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14275,   1, 'Nal Wadi Cottages Portal') /* Name */
-     , (14275,  38, 'Nal Wadi Cottages Portal (4.6N, 20.7E).') /* AppraisalPortalDestination */
      , (14275, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

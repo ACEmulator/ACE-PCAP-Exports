@@ -18,12 +18,7 @@ VALUES (30297,   1,         16) /* ItemType - Creature */
      , (30297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30297,   1, True ) /* Stuck */
-     , (30297,  12, True ) /* ReportCollisions */
-     , (30297,  13, False) /* Ethereal */
-     , (30297,  14, True ) /* GravityStatus */
-     , (30297,  19, True ) /* Attackable */
-     , (30297,  42, True ) /* AllowEdgeSlide */;
+VALUES (30297,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30297,   1, 'Royal Thaumaturge') /* Name */

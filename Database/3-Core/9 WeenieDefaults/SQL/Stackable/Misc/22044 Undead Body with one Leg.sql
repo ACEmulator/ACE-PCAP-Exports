@@ -15,15 +15,10 @@ VALUES (22044,   1,        128) /* ItemType - Misc */
      , (22044, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22044,   1, False) /* Stuck */
-     , (22044,  11, True ) /* IgnoreCollisions */
-     , (22044,  13, True ) /* Ethereal */
-     , (22044,  14, True ) /* GravityStatus */
-     , (22044,  19, True ) /* Attackable */
-     , (22044,  22, True ) /* Inscribable */;
+VALUES (22044,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22044,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22044,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22044,   1, 'Undead Body with one Leg') /* Name */;

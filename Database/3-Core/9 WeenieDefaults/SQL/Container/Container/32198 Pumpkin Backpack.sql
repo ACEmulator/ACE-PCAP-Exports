@@ -9,20 +9,16 @@ VALUES (32198,   1,        512) /* ItemType - Container */
      , (32198,   6,         24) /* ItemsCapacity */
      , (32198,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (32198,  19,        250) /* Value */
-     , (32198,  65,        101) /* Placement - Resting */
-     , (32198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (32198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32198, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32198,   1, False) /* Stuck */
-     , (32198,   2, True ) /* Open */
-     , (32198,  11, True ) /* IgnoreCollisions */
-     , (32198,  13, True ) /* Ethereal */
-     , (32198,  14, True ) /* GravityStatus */
-     , (32198,  19, True ) /* Attackable */
-     , (32198,  22, True ) /* Inscribable */;
+VALUES (32198,   2, False) /* Open */
+     , (32198,  22, True ) /* Inscribable */
+     , (32198,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32198,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (32198,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32198,   1, 'Pumpkin Backpack') /* Name */

@@ -12,20 +12,14 @@ VALUES (42833,   1,      65536) /* ItemType - Portal */
      , (42833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42833,   1, True ) /* Stuck */
-     , (42833,  12, True ) /* ReportCollisions */
-     , (42833,  13, True ) /* Ethereal */
-     , (42833,  14, True ) /* GravityStatus */
-     , (42833,  15, True ) /* LightsStatus */
-     , (42833,  19, True ) /* Attackable */;
+VALUES (42833,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42833,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42833,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42833,   1, 'Qalaba''r Portal') /* Name */
      , (42833,  16, 'This portal leads to Qalaba''r, the Gharu''ndim village on the edge of the Linvak Mountain Range. This is a good town for characters over level 30.') /* LongDesc */
-     , (42833,  38, 'Qalaba''r Portal (74.6S, 19.6E).') /* AppraisalPortalDestination */
      , (42833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

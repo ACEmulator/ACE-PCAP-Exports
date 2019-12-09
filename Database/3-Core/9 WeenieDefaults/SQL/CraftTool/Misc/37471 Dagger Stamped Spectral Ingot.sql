@@ -12,17 +12,12 @@ VALUES (37471,   1,        128) /* ItemType - Misc */
      , (37471,  15,          1) /* StackUnitValue */
      , (37471,  16,          8) /* ItemUseable - Contained */
      , (37471,  19,          1) /* Value */
-     , (37471,  65,        101) /* Placement - Resting */
      , (37471,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37471,  94,         16) /* TargetType - Creature */;
+     , (37471,  94,         16) /* TargetType - Creature */
+     , (37471, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37471,   1, False) /* Stuck */
-     , (37471,  11, True ) /* IgnoreCollisions */
-     , (37471,  13, True ) /* Ethereal */
-     , (37471,  14, True ) /* GravityStatus */
-     , (37471,  19, True ) /* Attackable */
-     , (37471,  22, True ) /* Inscribable */;
+VALUES (37471,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37471,   1, 'Dagger Stamped Spectral Ingot') /* Name */;

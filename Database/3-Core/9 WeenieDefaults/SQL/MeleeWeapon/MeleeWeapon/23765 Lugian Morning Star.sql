@@ -18,19 +18,14 @@ VALUES (23765,   1,          1) /* ItemType - MeleeWeapon */
      , (23765,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (23765,  49,        140) /* WeaponTime */
      , (23765,  51,          1) /* CombatUse - Melee */
-     , (23765,  65,          1) /* Placement - RightHandCombat */
      , (23765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23765, 151,          2) /* HookType - Wall */
      , (23765, 353,          4) /* WeaponType - Mace */
-     , (23765, 8030,          0);
+     , (23765, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (23765, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23765,   1, False) /* Stuck */
-     , (23765,  11, True ) /* IgnoreCollisions */
-     , (23765,  13, True ) /* Ethereal */
-     , (23765,  14, True ) /* GravityStatus */
-     , (23765,  19, True ) /* Attackable */
-     , (23765,  22, True ) /* Inscribable */;
+VALUES (23765,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23765,  21,       0) /* WeaponLength */
@@ -40,7 +35,7 @@ VALUES (23765,  21,       0) /* WeaponLength */
      , (23765,  39,       2) /* DefaultScale */
      , (23765,  62,       1) /* WeaponOffense */
      , (23765,  63,       1) /* DamageMod */
-     , (23765,  76, 0.699999988079071) /* Translucency */;
+     , (23765,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23765,   1, 'Lugian Morning Star') /* Name */;

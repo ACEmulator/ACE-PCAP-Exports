@@ -13,20 +13,14 @@ VALUES (33780,   1,      65536) /* ItemType - Portal */
      , (33780, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33780,   1, True ) /* Stuck */
-     , (33780,  12, True ) /* ReportCollisions */
-     , (33780,  13, True ) /* Ethereal */
-     , (33780,  14, True ) /* GravityStatus */
-     , (33780,  15, True ) /* LightsStatus */
-     , (33780,  19, True ) /* Attackable */;
+VALUES (33780,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33780,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33780,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33780,   1, 'Black Spear Temple') /* Name */
      , (33780,  16, 'A Ruschk temple, where those who wish to follow the Black Spear prove their worth.') /* LongDesc */
-     , (33780,  38, 'Black Spear Temple') /* AppraisalPortalDestination */
      , (33780, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

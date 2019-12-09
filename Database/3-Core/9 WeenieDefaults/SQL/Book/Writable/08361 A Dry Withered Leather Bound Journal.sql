@@ -8,18 +8,11 @@ VALUES (8361,   1,       8192) /* ItemType - Writable */
      , (8361,   5,         10) /* EncumbranceVal */
      , (8361,  16,          8) /* ItemUseable - Contained */
      , (8361,  19,         10) /* Value */
-     , (8361,  65,        101) /* Placement - Resting */
-     , (8361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8361,   1, False) /* Stuck */
-     , (8361,  11, True ) /* IgnoreCollisions */
-     , (8361,  13, True ) /* Ethereal */
-     , (8361,  14, True ) /* GravityStatus */
-     , (8361,  19, True ) /* Attackable */;
+     , (8361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8361, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8361,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8361,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8361,   1, 'A Dry Withered Leather Bound Journal') /* Name */;

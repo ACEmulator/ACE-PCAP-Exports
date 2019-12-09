@@ -15,12 +15,7 @@ VALUES (30371,   1,          2) /* ItemType - Armor */
      , (30371, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30371,   1, False) /* Stuck */
-     , (30371,  11, True ) /* IgnoreCollisions */
-     , (30371,  13, True ) /* Ethereal */
-     , (30371,  14, True ) /* GravityStatus */
-     , (30371,  19, True ) /* Attackable */
-     , (30371,  22, True ) /* Inscribable */
+VALUES (30371,  22, True ) /* Inscribable */
      , (30371,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -10,7 +10,6 @@ VALUES (36174,   1,          2) /* ItemType - Armor */
      , (36174,   9,          1) /* ValidLocations - HeadWear */
      , (36174,  19,      12000) /* Value */
      , (36174,  28,        420) /* ArmorLevel */
-     , (36174,  65,        101) /* Placement - Resting */
      , (36174,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36174, 106,        450) /* ItemSpellcraft */
      , (36174, 107,       8000) /* ItemCurMana */
@@ -21,15 +20,11 @@ VALUES (36174,   1,          2) /* ItemType - Armor */
      , (36174, 158,          7) /* WieldRequirements - Level */
      , (36174, 159,          1) /* WieldSkillType - Axe */
      , (36174, 160,        180) /* WieldDifficulty */
-     , (36174, 176,          6) /* AppraisalItemSkill */;
+     , (36174, 176,          6) /* AppraisalItemSkill */
+     , (36174, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36174,   1, False) /* Stuck */
-     , (36174,  11, True ) /* IgnoreCollisions */
-     , (36174,  13, True ) /* Ethereal */
-     , (36174,  14, True ) /* GravityStatus */
-     , (36174,  19, True ) /* Attackable */
-     , (36174,  22, True ) /* Inscribable */
+VALUES (36174,  22, True ) /* Inscribable */
      , (36174,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -41,7 +36,7 @@ VALUES (36174,   5,   -0.05) /* ManaRate */
      , (36174,  17,     1.5) /* ArmorModVsFire */
      , (36174,  18,     1.5) /* ArmorModVsAcid */
      , (36174,  19,     1.5) /* ArmorModVsElectric */
-     , (36174,  39, 1.39999997615814) /* DefaultScale */
+     , (36174,  39,     1.4) /* DefaultScale */
      , (36174, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

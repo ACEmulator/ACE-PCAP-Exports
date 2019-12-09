@@ -18,14 +18,10 @@ VALUES (31338,   1,         16) /* ItemType - Creature */
      , (31338, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31338,   1, True ) /* Stuck */
-     , (31338,  12, True ) /* ReportCollisions */
-     , (31338,  13, False) /* Ethereal */
-     , (31338,  14, True ) /* GravityStatus */
-     , (31338,  19, True ) /* Attackable */;
+VALUES (31338,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31338,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (31338,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31338,   1, 'Gronk the Hammer') /* Name */

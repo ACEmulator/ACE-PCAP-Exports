@@ -12,20 +12,13 @@ VALUES (29126,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29126,  15,          5) /* StackUnitValue */
      , (29126,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29126,  19,          5) /* Value */
-     , (29126,  65,        101) /* Placement - Resting */
      , (29126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29126,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (29126, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29126,   1, False) /* Stuck */
-     , (29126,  11, True ) /* IgnoreCollisions */
-     , (29126,  13, True ) /* Ethereal */
-     , (29126,  14, True ) /* GravityStatus */
-     , (29126,  19, True ) /* Attackable */;
+     , (29126, 151,          2) /* HookType - Wall */
+     , (29126, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29126,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (29126,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29126,   1, 'Spoiled Barley') /* Name */

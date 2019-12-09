@@ -7,15 +7,13 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11700,   1,        128) /* ItemType - Misc */
      , (11700,  16,         32) /* ItemUseable - Remote */
      , (11700,  19,          0) /* Value */
-     , (11700,  93,      65544) /* PhysicsState - ReportCollisions, HasPhysicsBSP */
+     , (11700,  93,          8) /* PhysicsState - ReportCollisions */
      , (11700, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11700,   1, True ) /* Stuck */
      , (11700,   2, False) /* Open */
-     , (11700,  12, True ) /* ReportCollisions */
-     , (11700,  13, False) /* Ethereal */
-     , (11700,  19, True ) /* Attackable */;
+     , (11700,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11700,  54,       2) /* UseRadius */;

@@ -11,16 +11,11 @@ VALUES (6068,   1,          4) /* ItemType - Clothing */
      , (6068,  16,          1) /* ItemUseable - No */
      , (6068,  18,          1) /* UiEffects - Magical */
      , (6068,  19,       1120) /* Value */
-     , (6068,  65,        101) /* Placement - Resting */
-     , (6068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (6068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6068,   1, False) /* Stuck */
-     , (6068,  11, True ) /* IgnoreCollisions */
-     , (6068,  13, True ) /* Ethereal */
-     , (6068,  14, True ) /* GravityStatus */
-     , (6068,  19, True ) /* Attackable */
-     , (6068,  22, True ) /* Inscribable */;
+VALUES (6068,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6068,   1, 'Faran Life Apprentice Robe') /* Name */;

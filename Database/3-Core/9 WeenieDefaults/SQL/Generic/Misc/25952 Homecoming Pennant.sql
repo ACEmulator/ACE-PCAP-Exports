@@ -13,12 +13,7 @@ VALUES (25952,   1,        128) /* ItemType - Misc */
      , (25952, 151,         24) /* HookType - Yard, Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25952,   1, False) /* Stuck */
-     , (25952,  11, True ) /* IgnoreCollisions */
-     , (25952,  13, True ) /* Ethereal */
-     , (25952,  14, True ) /* GravityStatus */
-     , (25952,  19, True ) /* Attackable */
-     , (25952,  22, True ) /* Inscribable */;
+VALUES (25952,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25952,   1, 'Homecoming Pennant') /* Name */

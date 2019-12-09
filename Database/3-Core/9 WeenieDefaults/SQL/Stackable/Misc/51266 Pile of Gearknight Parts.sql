@@ -17,12 +17,7 @@ VALUES (51266,   1,        128) /* ItemType - Misc */
      , (51266, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51266,   1, False) /* Stuck */
-     , (51266,  11, True ) /* IgnoreCollisions */
-     , (51266,  13, True ) /* Ethereal */
-     , (51266,  14, True ) /* GravityStatus */
-     , (51266,  19, True ) /* Attackable */
-     , (51266,  69, False) /* IsSellable */;
+VALUES (51266,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51266,   1, 'Pile of Gearknight Parts') /* Name */

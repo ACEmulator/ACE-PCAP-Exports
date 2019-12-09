@@ -16,11 +16,7 @@ VALUES (8141,   1,         16) /* ItemType - Creature */
      , (8141, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8141,   1, True ) /* Stuck */
-     , (8141,  12, True ) /* ReportCollisions */
-     , (8141,  13, False) /* Ethereal */
-     , (8141,  14, True ) /* GravityStatus */
-     , (8141,  19, True ) /* Attackable */;
+VALUES (8141,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8141,   1, 'Lithos Raider') /* Name */

@@ -12,19 +12,13 @@ VALUES (8885,   1,      65536) /* ItemType - Portal */
      , (8885, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8885,   1, True ) /* Stuck */
-     , (8885,  12, True ) /* ReportCollisions */
-     , (8885,  13, True ) /* Ethereal */
-     , (8885,  14, True ) /* GravityStatus */
-     , (8885,  15, True ) /* LightsStatus */
-     , (8885,  19, True ) /* Attackable */;
+VALUES (8885,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8885,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8885,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8885,   1, 'Upper Shade Stronghold') /* Name */
-     , (8885,  38, 'Upper Shade Stronghold') /* AppraisalPortalDestination */
      , (8885, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,11 +15,7 @@ VALUES (27978,   1,         16) /* ItemType - Creature */
      , (27978, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27978,   1, True ) /* Stuck */
-     , (27978,  12, True ) /* ReportCollisions */
-     , (27978,  13, False) /* Ethereal */
-     , (27978,  14, True ) /* GravityStatus */
-     , (27978,  19, True ) /* Attackable */;
+VALUES (27978,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27978,   1, 'Guruk Basher') /* Name */

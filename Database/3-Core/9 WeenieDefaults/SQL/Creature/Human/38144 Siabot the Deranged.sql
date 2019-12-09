@@ -18,12 +18,7 @@ VALUES (38144,   1,         16) /* ItemType - Creature */
      , (38144, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38144,   1, True ) /* Stuck */
-     , (38144,  12, True ) /* ReportCollisions */
-     , (38144,  13, False) /* Ethereal */
-     , (38144,  14, True ) /* GravityStatus */
-     , (38144,  19, True ) /* Attackable */
-     , (38144,  42, True ) /* AllowEdgeSlide */;
+VALUES (38144,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38144,   1, 'Siabot the Deranged') /* Name */

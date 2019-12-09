@@ -15,11 +15,7 @@ VALUES (223,   1,         16) /* ItemType - Creature */
      , (223, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (223,   1, True ) /* Stuck */
-     , (223,  12, True ) /* ReportCollisions */
-     , (223,  13, False) /* Ethereal */
-     , (223,  14, True ) /* GravityStatus */
-     , (223,  19, True ) /* Attackable */;
+VALUES (223,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (223,   1, 'Reedshark Pup') /* Name */

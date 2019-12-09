@@ -8,21 +8,14 @@ VALUES (11683,   1,       8192) /* ItemType - Writable */
      , (11683,   5,        100) /* EncumbranceVal */
      , (11683,  16,          8) /* ItemUseable - Contained */
      , (11683,  19,         10) /* Value */
-     , (11683,  65,        101) /* Placement - Resting */
      , (11683,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11683, 174,          8) /* AppraisalPages */
-     , (11683, 175,          8) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11683,   1, False) /* Stuck */
-     , (11683,  11, True ) /* IgnoreCollisions */
-     , (11683,  13, True ) /* Ethereal */
-     , (11683,  14, True ) /* GravityStatus */
-     , (11683,  19, True ) /* Attackable */;
+     , (11683, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (11683, 8042,          8) /* PCAPRecordedAppraisalPages */
+     , (11683, 8043,          8) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11683,  39, 1.22000002861023) /* DefaultScale */
-     , (11683,  54, 0.300000011920929) /* UseRadius */;
+VALUES (11683,  39,    1.22) /* DefaultScale */
+     , (11683,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11683,   1, 'A Portal-Jumper''s Guide to Dereth') /* Name */

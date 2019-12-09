@@ -39,17 +39,10 @@ VALUES (44650,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44650,   1, True ) /* Stuck */
-     , (44650,  11, True ) /* IgnoreCollisions */
-     , (44650,  12, True ) /* ReportCollisions */
-     , (44650,  13, True ) /* Ethereal */
-     , (44650,  14, True ) /* GravityStatus */
-     , (44650,  15, True ) /* LightsStatus */
-     , (44650,  19, False) /* Attackable */
-     , (44650,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (44650,  42, True ) /* AllowEdgeSlide */;
+     , (44650,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44650,  54, 0.100000001490116) /* UseRadius */;
+VALUES (44650,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44650,   1, 'Shadow Vortex') /* Name */

@@ -15,14 +15,10 @@ VALUES (28669,   1,         16) /* ItemType - Creature */
      , (28669, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28669,   1, True ) /* Stuck */
-     , (28669,  12, True ) /* ReportCollisions */
-     , (28669,  13, False) /* Ethereal */
-     , (28669,  14, True ) /* GravityStatus */
-     , (28669,  19, True ) /* Attackable */;
+VALUES (28669,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28669,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (28669,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28669,   1, 'Barbaric Ruschk') /* Name */

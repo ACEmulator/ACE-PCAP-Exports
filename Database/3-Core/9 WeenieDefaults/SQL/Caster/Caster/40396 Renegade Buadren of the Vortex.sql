@@ -12,7 +12,6 @@ VALUES (40396,   1,      32768) /* ItemType - Caster */
      , (40396,  19,      20000) /* Value */
      , (40396,  33,          1) /* Bonded - Bonded */
      , (40396,  45,          2) /* DamageType - Pierce */
-     , (40396,  65,        101) /* Placement - Resting */
      , (40396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40396,  94,         16) /* TargetType - Creature */
      , (40396, 106,        250) /* ItemSpellcraft */
@@ -24,26 +23,22 @@ VALUES (40396,   1,      32768) /* ItemType - Caster */
      , (40396, 158,          2) /* WieldRequirements - RawSkill */
      , (40396, 159,         16) /* WieldSkillType - ManaConversion */
      , (40396, 160,        270) /* WieldDifficulty */
-     , (40396, 263,          2) /* ResistanceModifierType */;
+     , (40396, 263,          2) /* ResistanceModifierType */
+     , (40396, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40396,   1, False) /* Stuck */
-     , (40396,  11, True ) /* IgnoreCollisions */
-     , (40396,  13, True ) /* Ethereal */
-     , (40396,  14, True ) /* GravityStatus */
-     , (40396,  19, True ) /* Attackable */
-     , (40396,  22, True ) /* Inscribable */
+VALUES (40396,  22, True ) /* Inscribable */
      , (40396,  69, False) /* IsSellable */
      , (40396,  85, True ) /* AppraisalHasAllowedWielder */
      , (40396,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40396,   5, -0.033333) /* ManaRate */
+VALUES (40396,   5,   -0.03) /* ManaRate */
      , (40396,  29,    1.12) /* WeaponDefense */
-     , (40396,  39, 1.10000002384186) /* DefaultScale */
+     , (40396,  39,     1.1) /* DefaultScale */
      , (40396, 136,       1) /* CriticalMultiplier */
      , (40396, 144,    0.15) /* ManaConversionMod */
-     , (40396, 150,   1.025) /* WeaponMagicDefense */
+     , (40396, 150,    1.02) /* WeaponMagicDefense */
      , (40396, 152,     1.1) /* ElementalDamageMod */
      , (40396, 157,       1) /* ResistanceModifier */;
 

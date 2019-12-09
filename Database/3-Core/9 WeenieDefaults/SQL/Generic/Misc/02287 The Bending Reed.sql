@@ -8,15 +8,10 @@ VALUES (2287,   1,        128) /* ItemType - Misc */
      , (2287,   5,       9000) /* EncumbranceVal */
      , (2287,  16,          1) /* ItemUseable - No */
      , (2287,  19,        125) /* Value */
-     , (2287,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (2287,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2287,   1, True ) /* Stuck */
-     , (2287,  11, True ) /* IgnoreCollisions */
-     , (2287,  12, True ) /* ReportCollisions */
-     , (2287,  13, False) /* Ethereal */
-     , (2287,  14, True ) /* GravityStatus */
-     , (2287,  19, True ) /* Attackable */;
+VALUES (2287,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2287,   1, 'The Bending Reed') /* Name */

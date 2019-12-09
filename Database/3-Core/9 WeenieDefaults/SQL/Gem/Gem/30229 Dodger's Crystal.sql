@@ -16,22 +16,17 @@ VALUES (30229,   1,       2048) /* ItemType - Gem */
      , (30229,  19,          0) /* Value */
      , (30229,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30229,  33,         -1) /* Bonded - Slippery */
-     , (30229,  65,        101) /* Placement - Resting */
      , (30229,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30229,  94,         16) /* TargetType - Creature */
      , (30229, 106,        325) /* ItemSpellcraft */
      , (30229, 107,      10000) /* ItemCurMana */
      , (30229, 108,      10000) /* ItemMaxMana */
      , (30229, 109,          0) /* ItemDifficulty */
-     , (30229, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30229, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30229, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30229,   1, False) /* Stuck */
-     , (30229,  11, True ) /* IgnoreCollisions */
-     , (30229,  13, True ) /* Ethereal */
-     , (30229,  14, True ) /* GravityStatus */
-     , (30229,  19, True ) /* Attackable */
-     , (30229, 108, True ) /* RareUsesTimer */;
+VALUES (30229, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30229,   1, 'Dodger''s Crystal') /* Name */

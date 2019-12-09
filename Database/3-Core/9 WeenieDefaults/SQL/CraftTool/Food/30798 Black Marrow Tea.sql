@@ -12,22 +12,17 @@ VALUES (30798,   1,         32) /* ItemType - Food */
      , (30798,  15,        100) /* StackUnitValue */
      , (30798,  16,          8) /* ItemUseable - Contained */
      , (30798,  19,        100) /* Value */
-     , (30798,  65,        101) /* Placement - Resting */
      , (30798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30798,  94,         16) /* TargetType - Creature */
      , (30798, 106,        600) /* ItemSpellcraft */
      , (30798, 107,         50) /* ItemCurMana */
      , (30798, 108,         50) /* ItemMaxMana */
      , (30798, 109,          0) /* ItemDifficulty */
-     , (30798, 110,          0) /* ItemAllegianceRankLimit */;
+     , (30798, 110,          0) /* ItemAllegianceRankLimit */
+     , (30798, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30798,   1, False) /* Stuck */
-     , (30798,  11, True ) /* IgnoreCollisions */
-     , (30798,  13, True ) /* Ethereal */
-     , (30798,  14, True ) /* GravityStatus */
-     , (30798,  19, True ) /* Attackable */
-     , (30798,  22, True ) /* Inscribable */;
+VALUES (30798,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30798,   1, 'Black Marrow Tea') /* Name */

@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33925,   1,        128) /* ItemType - Misc */
      , (33925,   5,         50) /* EncumbranceVal */
      , (33925,  16,          8) /* ItemUseable - Contained */
-     , (33925,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (33925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33925,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33925,   1, False) /* Stuck */
-     , (33925,  11, True ) /* IgnoreCollisions */
-     , (33925,  13, True ) /* Ethereal */
-     , (33925,  14, True ) /* GravityStatus */
-     , (33925,  19, True ) /* Attackable */
-     , (33925,  22, True ) /* Inscribable */;
+VALUES (33925,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33925,   1, 'Ursuin Cub Kennel') /* Name */;

@@ -15,11 +15,7 @@ VALUES (12300,   1,         16) /* ItemType - Creature */
      , (12300, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12300,   1, True ) /* Stuck */
-     , (12300,  12, True ) /* ReportCollisions */
-     , (12300,  13, False) /* Ethereal */
-     , (12300,  14, True ) /* GravityStatus */
-     , (12300,  19, True ) /* Attackable */;
+VALUES (12300,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12300,   1, 'Singular Virindi Servant') /* Name */

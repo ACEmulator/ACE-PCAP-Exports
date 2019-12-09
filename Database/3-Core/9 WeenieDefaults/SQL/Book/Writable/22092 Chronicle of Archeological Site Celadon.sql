@@ -8,21 +8,16 @@ VALUES (22092,   1,       8192) /* ItemType - Writable */
      , (22092,   5,        160) /* EncumbranceVal */
      , (22092,  16,          8) /* ItemUseable - Contained */
      , (22092,  19,         25) /* Value */
-     , (22092,  65,        101) /* Placement - Resting */
      , (22092,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22092, 174,         29) /* AppraisalPages */
-     , (22092, 175,         36) /* AppraisalMaxPages */;
+     , (22092, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (22092, 8042,         29) /* PCAPRecordedAppraisalPages */
+     , (22092, 8043,         36) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22092,   1, False) /* Stuck */
-     , (22092,  11, True ) /* IgnoreCollisions */
-     , (22092,  13, True ) /* Ethereal */
-     , (22092,  14, True ) /* GravityStatus */
-     , (22092,  19, True ) /* Attackable */
-     , (22092,  22, True ) /* Inscribable */;
+VALUES (22092,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22092,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (22092,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22092,   1, 'Chronicle of Archeological Site Celadon') /* Name */;

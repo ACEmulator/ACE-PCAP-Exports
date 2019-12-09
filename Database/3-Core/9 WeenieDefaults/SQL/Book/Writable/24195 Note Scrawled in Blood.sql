@@ -8,18 +8,11 @@ VALUES (24195,   1,       8192) /* ItemType - Writable */
      , (24195,   5,        160) /* EncumbranceVal */
      , (24195,  16,          8) /* ItemUseable - Contained */
      , (24195,  19,         90) /* Value */
-     , (24195,  65,        101) /* Placement - Resting */
-     , (24195,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24195,   1, False) /* Stuck */
-     , (24195,  11, True ) /* IgnoreCollisions */
-     , (24195,  13, True ) /* Ethereal */
-     , (24195,  14, True ) /* GravityStatus */
-     , (24195,  19, True ) /* Attackable */;
+     , (24195,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24195, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24195,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (24195,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24195,   1, 'Note Scrawled in Blood') /* Name */;

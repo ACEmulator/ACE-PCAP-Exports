@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38967,   1,        128) /* ItemType - Misc */
      , (38967,   5,          5) /* EncumbranceVal */
      , (38967,  16,          1) /* ItemUseable - No */
-     , (38967,  65,        101) /* Placement - Resting */
-     , (38967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38967, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38967,   1, False) /* Stuck */
-     , (38967,  11, True ) /* IgnoreCollisions */
-     , (38967,  13, True ) /* Ethereal */
-     , (38967,  14, True ) /* GravityStatus */
-     , (38967,  19, True ) /* Attackable */
-     , (38967,  22, True ) /* Inscribable */;
+VALUES (38967,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38967,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (38967,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38967,   1, 'Monster Fight Ticket Stub') /* Name */;

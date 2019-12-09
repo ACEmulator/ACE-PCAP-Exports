@@ -11,12 +11,7 @@ VALUES (14705,   1,        128) /* ItemType - Misc */
      , (14705,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14705,   1, True ) /* Stuck */
-     , (14705,  11, True ) /* IgnoreCollisions */
-     , (14705,  12, True ) /* ReportCollisions */
-     , (14705,  13, False) /* Ethereal */
-     , (14705,  14, True ) /* GravityStatus */
-     , (14705,  19, True ) /* Attackable */;
+VALUES (14705,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14705,   1, 'Hidden Valley') /* Name */;

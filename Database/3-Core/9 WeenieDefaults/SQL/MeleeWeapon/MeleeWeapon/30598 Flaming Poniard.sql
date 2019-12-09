@@ -30,25 +30,20 @@ VALUES (30598,   1,          1) /* ItemType - MeleeWeapon */
      , (30598, 172,          1) /* AppraisalLongDescDecoration */
      , (30598, 176,         46) /* AppraisalItemSkill */
      , (30598, 353,          6) /* WeaponType - Dagger */
-     , (30598, 8030,          0);
+     , (30598, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30598,   1, False) /* Stuck */
-     , (30598,  11, True ) /* IgnoreCollisions */
-     , (30598,  13, True ) /* Ethereal */
-     , (30598,  14, True ) /* GravityStatus */
-     , (30598,  19, True ) /* Attackable */
-     , (30598,  22, True ) /* Inscribable */;
+VALUES (30598,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30598,   5, -0.0166666666666667) /* ManaRate */
+VALUES (30598,   5,   -0.02) /* ManaRate */
      , (30598,  21,       0) /* WeaponLength */
      , (30598,  22,    0.47) /* DamageVariance */
      , (30598,  26,       0) /* MaximumVelocity */
      , (30598,  29,    1.03) /* WeaponDefense */
      , (30598,  62,    1.03) /* WeaponOffense */
      , (30598,  63,       1) /* DamageMod */
-     , (30598, 150,   1.015) /* WeaponMagicDefense */
+     , (30598, 150,    1.01) /* WeaponMagicDefense */
      , (30598, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

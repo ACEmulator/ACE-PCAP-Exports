@@ -8,16 +8,11 @@ VALUES (729,   1,        128) /* ItemType - Misc */
      , (729,   5,       9000) /* EncumbranceVal */
      , (729,  16,          1) /* ItemUseable - No */
      , (729,  19,        125) /* Value */
-     , (729,  65,        101) /* Placement - Resting */
-     , (729,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (729,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (729, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (729,   1, True ) /* Stuck */
-     , (729,  11, True ) /* IgnoreCollisions */
-     , (729,  12, True ) /* ReportCollisions */
-     , (729,  13, False) /* Ethereal */
-     , (729,  14, True ) /* GravityStatus */
-     , (729,  19, True ) /* Attackable */;
+VALUES (729,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (729,   1, 'The House of Trell') /* Name */

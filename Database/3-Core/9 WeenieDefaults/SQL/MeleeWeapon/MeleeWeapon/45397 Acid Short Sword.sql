@@ -16,7 +16,6 @@ VALUES (45397,   1,          1) /* ItemType - MeleeWeapon */
      , (45397,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45397,  49,         27) /* WeaponTime */
      , (45397,  51,          1) /* CombatUse - Melee */
-     , (45397,  65,        101) /* Placement - Resting */
      , (45397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45397, 105,          8) /* ItemWorkmanship */
      , (45397, 106,        370) /* ItemSpellcraft */
@@ -37,25 +36,21 @@ VALUES (45397,   1,          1) /* ItemType - MeleeWeapon */
      , (45397, 178,         38) /* GemType */
      , (45397, 179,         64) /* ImbuedEffect - AcidRending */
      , (45397, 353,          2) /* WeaponType - Sword */
-     , (45397, 8030,          0);
+     , (45397, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (45397, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45397,   1, False) /* Stuck */
-     , (45397,  11, True ) /* IgnoreCollisions */
-     , (45397,  13, True ) /* Ethereal */
-     , (45397,  14, True ) /* GravityStatus */
-     , (45397,  19, True ) /* Attackable */
-     , (45397,  22, True ) /* Inscribable */
+VALUES (45397,  22, True ) /* Inscribable */
      , (45397,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45397,   5, -0.0666666701436043) /* ManaRate */
+VALUES (45397,   5,   -0.07) /* ManaRate */
      , (45397,  21,       0) /* WeaponLength */
-     , (45397,  22, 0.146800637245178) /* DamageVariance */
+     , (45397,  22,    0.15) /* DamageVariance */
      , (45397,  26,       0) /* MaximumVelocity */
-     , (45397,  29, 1.16999995708466) /* WeaponDefense */
-     , (45397,  39, 1.10000002384186) /* DefaultScale */
-     , (45397,  62, 1.14999997615814) /* WeaponOffense */
+     , (45397,  29,    1.17) /* WeaponDefense */
+     , (45397,  39,     1.1) /* DefaultScale */
+     , (45397,  62,    1.15) /* WeaponOffense */
      , (45397,  63,       1) /* DamageMod */
      , (45397, 8004,       9) /* PCAPRecordedWorkmanship */;
 

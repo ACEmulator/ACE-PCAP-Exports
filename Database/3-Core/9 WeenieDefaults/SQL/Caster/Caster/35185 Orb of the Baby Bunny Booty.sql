@@ -24,17 +24,12 @@ VALUES (35185,   1,      32768) /* ItemType - Caster */
      , (35185, 176,         31) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35185,   1, False) /* Stuck */
-     , (35185,  11, True ) /* IgnoreCollisions */
-     , (35185,  13, True ) /* Ethereal */
-     , (35185,  14, True ) /* GravityStatus */
-     , (35185,  19, True ) /* Attackable */
-     , (35185,  22, True ) /* Inscribable */
+VALUES (35185,  22, True ) /* Inscribable */
      , (35185,  85, True ) /* AppraisalHasAllowedWielder */
      , (35185,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35185,   5, -0.0199999995529652) /* ManaRate */
+VALUES (35185,   5,   -0.02) /* ManaRate */
      , (35185,  29,       1) /* WeaponDefense */
      , (35185,  39,     0.5) /* DefaultScale */
      , (35185, 144,    0.25) /* ManaConversionMod */;

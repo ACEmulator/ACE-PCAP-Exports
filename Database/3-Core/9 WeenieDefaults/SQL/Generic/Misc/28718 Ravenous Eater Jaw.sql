@@ -9,17 +9,12 @@ VALUES (28718,   1,        128) /* ItemType - Misc */
      , (28718,  16,          1) /* ItemUseable - No */
      , (28718,  19,          0) /* Value */
      , (28718,  33,          1) /* Bonded - Bonded */
-     , (28718,  65,        101) /* Placement - Resting */
      , (28718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28718, 114,          1) /* Attuned - Attuned */;
+     , (28718, 114,          1) /* Attuned - Attuned */
+     , (28718, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28718,   1, False) /* Stuck */
-     , (28718,  11, True ) /* IgnoreCollisions */
-     , (28718,  13, True ) /* Ethereal */
-     , (28718,  14, True ) /* GravityStatus */
-     , (28718,  19, True ) /* Attackable */
-     , (28718,  22, True ) /* Inscribable */;
+VALUES (28718,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28718,   1, 'Ravenous Eater Jaw') /* Name */

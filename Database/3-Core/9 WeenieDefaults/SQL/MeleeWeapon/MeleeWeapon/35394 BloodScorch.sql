@@ -15,13 +15,7 @@ VALUES (35394,   1,          1) /* ItemType - MeleeWeapon */
      , (35394,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35394,   1, False) /* Stuck */
-     , (35394,  11, True ) /* IgnoreCollisions */
-     , (35394,  13, True ) /* Ethereal */
-     , (35394,  14, True ) /* GravityStatus */
-     , (35394,  15, True ) /* LightsStatus */
-     , (35394,  19, True ) /* Attackable */
-     , (35394,  22, True ) /* Inscribable */;
+VALUES (35394,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35394,   1, 'BloodScorch') /* Name */;

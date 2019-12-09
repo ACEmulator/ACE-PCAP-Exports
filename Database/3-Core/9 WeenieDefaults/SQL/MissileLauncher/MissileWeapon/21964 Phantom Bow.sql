@@ -17,7 +17,6 @@ VALUES (21964,   1,        256) /* ItemType - MissileWeapon */
      , (21964,  49,         30) /* WeaponTime */
      , (21964,  50,         64) /* AmmoType - ArrowChorizite */
      , (21964,  51,          2) /* CombatUse - Missle */
-     , (21964,  65,        101) /* Placement - Resting */
      , (21964,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21964, 114,          0) /* Attuned - Normal */
      , (21964, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (21964,   1,        256) /* ItemType - MissileWeapon */
      , (21964, 160,        250) /* WieldDifficulty */
      , (21964, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */
      , (21964, 353,          8) /* WeaponType - Bow */
-     , (21964, 8030,          0);
+     , (21964, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21964, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21964,   1, False) /* Stuck */
-     , (21964,  11, True ) /* IgnoreCollisions */
-     , (21964,  13, True ) /* Ethereal */
-     , (21964,  14, True ) /* GravityStatus */
-     , (21964,  15, True ) /* LightsStatus */
-     , (21964,  19, True ) /* Attackable */
-     , (21964,  22, True ) /* Inscribable */
+VALUES (21964,  22, True ) /* Inscribable */
      , (21964,  85, True ) /* AppraisalHasAllowedWielder */
      , (21964,  99, False) /* Ivoryable */;
 
@@ -46,7 +40,7 @@ VALUES (21964,  21,       0) /* WeaponLength */
      , (21964,  29,     1.1) /* WeaponDefense */
      , (21964,  62,       1) /* WeaponOffense */
      , (21964,  63,     0.5) /* DamageMod */
-     , (21964,  76, 0.699999988079071) /* Translucency */
+     , (21964,  76,     0.7) /* Translucency */
      , (21964,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

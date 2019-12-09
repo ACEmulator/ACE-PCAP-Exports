@@ -8,19 +8,14 @@ VALUES (35002,   1,      16384) /* ItemType - Key */
      , (35002,   5,         20) /* EncumbranceVal */
      , (35002,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (35002,  19,          0) /* Value */
-     , (35002,  65,        101) /* Placement - Resting */
      , (35002,  91,          1) /* MaxStructure */
      , (35002,  92,          1) /* Structure */
      , (35002,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35002,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (35002,  94,        640) /* TargetType - LockableMagicTarget */
+     , (35002, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35002,   1, False) /* Stuck */
-     , (35002,  11, True ) /* IgnoreCollisions */
-     , (35002,  13, True ) /* Ethereal */
-     , (35002,  14, True ) /* GravityStatus */
-     , (35002,  19, True ) /* Attackable */
-     , (35002,  22, True ) /* Inscribable */;
+VALUES (35002,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35002,   1, 'Lower Catacomb Prison Key') /* Name */

@@ -18,11 +18,7 @@ VALUES (49023,   1,         16) /* ItemType - Creature */
      , (49023, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49023,   1, True ) /* Stuck */
-     , (49023,  12, True ) /* ReportCollisions */
-     , (49023,  13, True ) /* Ethereal */
-     , (49023,  14, True ) /* GravityStatus */
-     , (49023,  19, True ) /* Attackable */;
+VALUES (49023,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49023,   1, 'Zombie') /* Name */

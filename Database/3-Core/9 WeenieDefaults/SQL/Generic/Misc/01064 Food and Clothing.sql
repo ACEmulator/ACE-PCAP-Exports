@@ -11,11 +11,7 @@ VALUES (1064,   1,        128) /* ItemType - Misc */
      , (1064,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1064,   1, True ) /* Stuck */
-     , (1064,  11, True ) /* IgnoreCollisions */
-     , (1064,  12, True ) /* ReportCollisions */
-     , (1064,  13, False) /* Ethereal */
-     , (1064,  19, True ) /* Attackable */;
+VALUES (1064,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1064,   1, 'Food and Clothing') /* Name */

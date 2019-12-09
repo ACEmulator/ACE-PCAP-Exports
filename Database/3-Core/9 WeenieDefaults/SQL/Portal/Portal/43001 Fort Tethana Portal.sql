@@ -12,20 +12,14 @@ VALUES (43001,   1,      65536) /* ItemType - Portal */
      , (43001, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43001,   1, True ) /* Stuck */
-     , (43001,  12, True ) /* ReportCollisions */
-     , (43001,  13, True ) /* Ethereal */
-     , (43001,  14, True ) /* GravityStatus */
-     , (43001,  15, True ) /* LightsStatus */
-     , (43001,  19, True ) /* Attackable */;
+VALUES (43001,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43001,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43001,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43001,   1, 'Fort Tethana Portal') /* Name */
      , (43001,  16, 'Located in the northern part of the Direlands, Fort Tethana teeters on the brink of outright warfare with the neighboring Renegade encampment. Adventurers may find they need to assist the troops stationed here to keep this important fort under control of the Realm. This town is good for characters over level 50.') /* LongDesc */
-     , (43001,  38, 'Fort Tethana Portal (1.7N, 71.2W).') /* AppraisalPortalDestination */
      , (43001, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,16 +12,11 @@ VALUES (9377,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9377,  15,        250) /* StackUnitValue */
      , (9377,  19,        250) /* Value */
      , (9377,  33,          1) /* Bonded - Bonded */
-     , (9377,  65,        101) /* Placement - Resting */
-     , (9377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (9377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9377, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9377,   1, False) /* Stuck */
-     , (9377,  11, True ) /* IgnoreCollisions */
-     , (9377,  13, True ) /* Ethereal */
-     , (9377,  14, True ) /* GravityStatus */
-     , (9377,  19, True ) /* Attackable */
-     , (9377,  69, False) /* IsSellable */;
+VALUES (9377,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9377,   1, 'Wrapped Bundle of Arrowshafts') /* Name */

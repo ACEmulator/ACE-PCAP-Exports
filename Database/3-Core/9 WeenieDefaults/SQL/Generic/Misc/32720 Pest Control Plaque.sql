@@ -7,17 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32720,   1,        128) /* ItemType - Misc */
      , (32720,   5,          5) /* EncumbranceVal */
      , (32720,  16,          1) /* ItemUseable - No */
-     , (32720,  65,        101) /* Placement - Resting */
      , (32720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32720, 151,          2) /* HookType - Wall */;
+     , (32720, 151,          2) /* HookType - Wall */
+     , (32720, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32720,   1, False) /* Stuck */
-     , (32720,  11, True ) /* IgnoreCollisions */
-     , (32720,  13, True ) /* Ethereal */
-     , (32720,  14, True ) /* GravityStatus */
-     , (32720,  19, True ) /* Attackable */
-     , (32720,  22, True ) /* Inscribable */;
+VALUES (32720,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32720,   1, 'Pest Control Plaque') /* Name */;

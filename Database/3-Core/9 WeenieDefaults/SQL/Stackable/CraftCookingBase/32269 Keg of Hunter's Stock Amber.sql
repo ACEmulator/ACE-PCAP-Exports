@@ -13,18 +13,13 @@ VALUES (32269,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32269,  16,          1) /* ItemUseable - No */
      , (32269,  19,        100) /* Value */
      , (32269,  33,          0) /* Bonded - Normal */
-     , (32269,  65,        101) /* Placement - Resting */
      , (32269,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32269, 114,          0) /* Attuned - Normal */
-     , (32269, 151,          1) /* HookType - Floor */;
+     , (32269, 151,          1) /* HookType - Floor */
+     , (32269, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32269,   1, False) /* Stuck */
-     , (32269,  11, True ) /* IgnoreCollisions */
-     , (32269,  13, True ) /* Ethereal */
-     , (32269,  14, True ) /* GravityStatus */
-     , (32269,  19, True ) /* Attackable */
-     , (32269,  69, False) /* IsSellable */;
+VALUES (32269,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32269,   1, 'Keg of Hunter''s Stock Amber') /* Name */

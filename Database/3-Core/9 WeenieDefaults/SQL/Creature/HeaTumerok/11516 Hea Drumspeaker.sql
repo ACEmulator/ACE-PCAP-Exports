@@ -15,14 +15,10 @@ VALUES (11516,   1,         16) /* ItemType - Creature */
      , (11516, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11516,   1, True ) /* Stuck */
-     , (11516,  12, True ) /* ReportCollisions */
-     , (11516,  13, False) /* Ethereal */
-     , (11516,  14, True ) /* GravityStatus */
-     , (11516,  19, True ) /* Attackable */;
+VALUES (11516,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11516,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (11516,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11516,   1, 'Hea Drumspeaker') /* Name */

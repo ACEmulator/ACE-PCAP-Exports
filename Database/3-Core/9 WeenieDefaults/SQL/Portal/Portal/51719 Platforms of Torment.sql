@@ -13,19 +13,13 @@ VALUES (51719,   1,      65536) /* ItemType - Portal */
      , (51719, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51719,   1, True ) /* Stuck */
-     , (51719,  12, True ) /* ReportCollisions */
-     , (51719,  13, True ) /* Ethereal */
-     , (51719,  14, True ) /* GravityStatus */
-     , (51719,  15, True ) /* LightsStatus */
-     , (51719,  19, True ) /* Attackable */;
+VALUES (51719,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51719,  54, -0.100000001490116) /* UseRadius */;
+VALUES (51719,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51719,   1, 'Platforms of Torment') /* Name */
-     , (51719,  38, 'Platforms of Torment (62.3S, 65.4W).') /* AppraisalPortalDestination */
      , (51719, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -8,16 +8,11 @@ VALUES (45255,   1,       8192) /* ItemType - Writable */
      , (45255,   5,         30) /* EncumbranceVal */
      , (45255,  16,          8) /* ItemUseable - Contained */
      , (45255,  19,        100) /* Value */
-     , (45255,  65,        101) /* Placement - Resting */
-     , (45255,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45255,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45255, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45255,   1, False) /* Stuck */
-     , (45255,  11, True ) /* IgnoreCollisions */
-     , (45255,  13, True ) /* Ethereal */
-     , (45255,  14, True ) /* GravityStatus */
-     , (45255,  19, True ) /* Attackable */
-     , (45255,  22, True ) /* Inscribable */;
+VALUES (45255,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45255,  39,     1.5) /* DefaultScale */;
@@ -32,7 +27,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45255,   1,   33554826) /* Setup */
      , (45255,   8,  100692255) /* Icon */
      , (45255,  22,  872415275) /* PhysicsEffectTable */
-     , (45255,  28,       5782) /* Spell - DirtyFightingMasteryself4 */
+     , (45255,  28,       5782) /* Spell - DirtyFightingMasterySelf4 */
      , (45255, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45255, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45255, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

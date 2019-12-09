@@ -40,19 +40,13 @@ VALUES (45480,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45480,   1, True ) /* Stuck */
-     , (45480,  11, True ) /* IgnoreCollisions */
-     , (45480,  12, True ) /* ReportCollisions */
-     , (45480,  13, False) /* Ethereal */
-     , (45480,  14, True ) /* GravityStatus */
-     , (45480,  19, False) /* Attackable */
-     , (45480,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45480,  42, True ) /* AllowEdgeSlide */;
+     , (45480,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45480,  54,       3) /* UseRadius */
      , (45480, 8010,       0) /* PCAPRecordedVelocityX */
      , (45480, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45480, 8012, -48.9578857421875) /* PCAPRecordedVelocityZ */;
+     , (45480, 8012,  -48.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45480,   1, 'Thrown Weapons Mastery') /* Name */

@@ -11,17 +11,12 @@ VALUES (48100,   1,          1) /* ItemType - MeleeWeapon */
      , (48100,  16,          1) /* ItemUseable - No */
      , (48100,  19,        200) /* Value */
      , (48100,  51,          1) /* CombatUse - Melee */
-     , (48100,  65,          1) /* Placement - RightHandCombat */
      , (48100,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48100, 151,          2) /* HookType - Wall */;
+     , (48100, 151,          2) /* HookType - Wall */
+     , (48100, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48100,   1, False) /* Stuck */
-     , (48100,  11, True ) /* IgnoreCollisions */
-     , (48100,  13, True ) /* Ethereal */
-     , (48100,  14, True ) /* GravityStatus */
-     , (48100,  19, True ) /* Attackable */
-     , (48100,  22, True ) /* Inscribable */;
+VALUES (48100,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48100,   1, 'Khopesh') /* Name */;

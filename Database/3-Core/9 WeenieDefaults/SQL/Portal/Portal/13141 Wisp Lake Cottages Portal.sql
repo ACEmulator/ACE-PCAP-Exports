@@ -12,19 +12,13 @@ VALUES (13141,   1,      65536) /* ItemType - Portal */
      , (13141, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13141,   1, True ) /* Stuck */
-     , (13141,  12, True ) /* ReportCollisions */
-     , (13141,  13, True ) /* Ethereal */
-     , (13141,  14, True ) /* GravityStatus */
-     , (13141,  15, True ) /* LightsStatus */
-     , (13141,  19, True ) /* Attackable */;
+VALUES (13141,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13141,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13141,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13141,   1, 'Wisp Lake Cottages Portal') /* Name */
-     , (13141,  38, 'Wisp Lake Cottages Portal (84.0N, 1.6W).') /* AppraisalPortalDestination */
      , (13141, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

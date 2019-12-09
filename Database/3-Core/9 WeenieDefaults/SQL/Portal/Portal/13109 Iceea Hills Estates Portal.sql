@@ -12,19 +12,13 @@ VALUES (13109,   1,      65536) /* ItemType - Portal */
      , (13109, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13109,   1, True ) /* Stuck */
-     , (13109,  12, True ) /* ReportCollisions */
-     , (13109,  13, True ) /* Ethereal */
-     , (13109,  14, True ) /* GravityStatus */
-     , (13109,  15, True ) /* LightsStatus */
-     , (13109,  19, True ) /* Attackable */;
+VALUES (13109,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13109,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13109,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13109,   1, 'Iceea Hills Estates Portal') /* Name */
-     , (13109,  38, 'Iceea Hills Estates Portal (25.8N, 30.0E).') /* AppraisalPortalDestination */
      , (13109, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

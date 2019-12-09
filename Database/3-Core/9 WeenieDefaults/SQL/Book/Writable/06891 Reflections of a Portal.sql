@@ -8,18 +8,11 @@ VALUES (6891,   1,       8192) /* ItemType - Writable */
      , (6891,   5,        160) /* EncumbranceVal */
      , (6891,  16,          8) /* ItemUseable - Contained */
      , (6891,  19,         13) /* Value */
-     , (6891,  65,        101) /* Placement - Resting */
-     , (6891,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6891,   1, False) /* Stuck */
-     , (6891,  11, True ) /* IgnoreCollisions */
-     , (6891,  13, True ) /* Ethereal */
-     , (6891,  14, True ) /* GravityStatus */
-     , (6891,  19, True ) /* Attackable */;
+     , (6891,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6891, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6891,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (6891,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6891,   1, 'Reflections of a Portal') /* Name */;

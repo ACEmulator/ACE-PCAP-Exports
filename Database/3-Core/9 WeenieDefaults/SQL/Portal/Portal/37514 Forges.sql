@@ -6,19 +6,14 @@ VALUES (37514, 'ace37514-forges', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37514,   1,      65536) /* ItemType - Portal */
      , (37514,  16,         32) /* ItemUseable - Remote */
-     , (37514,  93,      68624) /* PhysicsState - IgnoreCollisions, Gravity, LightingOn, HasPhysicsBSP */
+     , (37514,  93,       3088) /* PhysicsState - IgnoreCollisions, Gravity, LightingOn */
      , (37514, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37514,   1, True ) /* Stuck */
-     , (37514,  11, True ) /* IgnoreCollisions */
-     , (37514,  13, False) /* Ethereal */
-     , (37514,  14, True ) /* GravityStatus */
-     , (37514,  15, True ) /* LightsStatus */
-     , (37514,  19, True ) /* Attackable */;
+VALUES (37514,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37514,  39, 1.20000004768372) /* DefaultScale */
+VALUES (37514,  39,     1.2) /* DefaultScale */
      , (37514,  54,     0.5) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

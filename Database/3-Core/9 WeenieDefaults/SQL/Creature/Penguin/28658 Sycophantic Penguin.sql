@@ -15,14 +15,10 @@ VALUES (28658,   1,         16) /* ItemType - Creature */
      , (28658, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28658,   1, True ) /* Stuck */
-     , (28658,  12, True ) /* ReportCollisions */
-     , (28658,  13, False) /* Ethereal */
-     , (28658,  14, True ) /* GravityStatus */
-     , (28658,  19, True ) /* Attackable */;
+VALUES (28658,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28658,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (28658,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28658,   1, 'Sycophantic Penguin') /* Name */

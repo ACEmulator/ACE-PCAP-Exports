@@ -42,17 +42,10 @@ VALUES (43789,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43789,   1, True ) /* Stuck */
-     , (43789,  11, True ) /* IgnoreCollisions */
-     , (43789,  12, True ) /* ReportCollisions */
-     , (43789,  13, True ) /* Ethereal */
-     , (43789,  14, True ) /* GravityStatus */
-     , (43789,  15, True ) /* LightsStatus */
-     , (43789,  19, False) /* Attackable */
-     , (43789,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43789,  42, True ) /* AllowEdgeSlide */;
+     , (43789,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43789,  54, 0.100000001490116) /* UseRadius */;
+VALUES (43789,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43789,   1, 'Deewain''s Chamber') /* Name */

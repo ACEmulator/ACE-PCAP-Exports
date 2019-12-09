@@ -15,17 +15,13 @@ VALUES (7994,   1,         16) /* ItemType - Creature */
      , (7994, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7994,   1, True ) /* Stuck */
-     , (7994,  12, True ) /* ReportCollisions */
-     , (7994,  13, False) /* Ethereal */
-     , (7994,  14, True ) /* GravityStatus */
-     , (7994,  19, True ) /* Attackable */;
+VALUES (7994,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7994,  39, 1.29999995231628) /* DefaultScale */
+VALUES (7994,  39,     1.3) /* DefaultScale */
      , (7994, 8010,       0) /* PCAPRecordedVelocityX */
      , (7994, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7994, 8012, -0.162941232323647) /* PCAPRecordedVelocityZ */;
+     , (7994, 8012,   -0.16) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7994,   1, 'Dire Ursuin') /* Name */

@@ -8,15 +8,10 @@ VALUES (4422,   1,        128) /* ItemType - Misc */
      , (4422,   5,       9000) /* EncumbranceVal */
      , (4422,  16,          1) /* ItemUseable - No */
      , (4422,  19,        125) /* Value */
-     , (4422,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4422,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4422,   1, True ) /* Stuck */
-     , (4422,  11, True ) /* IgnoreCollisions */
-     , (4422,  12, True ) /* ReportCollisions */
-     , (4422,  13, False) /* Ethereal */
-     , (4422,  14, True ) /* GravityStatus */
-     , (4422,  19, True ) /* Attackable */;
+VALUES (4422,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4422,   1, 'The Roasted Shreth') /* Name */

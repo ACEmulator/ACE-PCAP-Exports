@@ -17,12 +17,7 @@ VALUES (38146,   1,         16) /* ItemType - Creature */
      , (38146, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38146,   1, True ) /* Stuck */
-     , (38146,  12, True ) /* ReportCollisions */
-     , (38146,  13, False) /* Ethereal */
-     , (38146,  14, True ) /* GravityStatus */
-     , (38146,  19, True ) /* Attackable */
-     , (38146,  42, True ) /* AllowEdgeSlide */;
+VALUES (38146,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38146,   1, 'Ves the Mad') /* Name */

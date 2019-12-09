@@ -10,15 +10,8 @@ VALUES (23857,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (23857,  13,          0) /* StackUnitEncumbrance */
      , (23857,  15,         25) /* StackUnitValue */
      , (23857,  19,         25) /* Value */
-     , (23857,  65,        101) /* Placement - Resting */
-     , (23857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23857,   1, False) /* Stuck */
-     , (23857,  11, True ) /* IgnoreCollisions */
-     , (23857,  13, True ) /* Ethereal */
-     , (23857,  14, True ) /* GravityStatus */
-     , (23857,  19, True ) /* Attackable */;
+     , (23857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23857, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23857,   1, 'Bundle of Spiketails') /* Name */

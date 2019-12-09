@@ -11,12 +11,7 @@ VALUES (15208,   1,        128) /* ItemType - Misc */
      , (15208,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15208,   1, True ) /* Stuck */
-     , (15208,  11, True ) /* IgnoreCollisions */
-     , (15208,  12, True ) /* ReportCollisions */
-     , (15208,  13, False) /* Ethereal */
-     , (15208,  14, True ) /* GravityStatus */
-     , (15208,  19, True ) /* Attackable */;
+VALUES (15208,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15208,   1, 'Asbel Domain') /* Name */

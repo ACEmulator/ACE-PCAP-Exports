@@ -12,7 +12,6 @@ VALUES (37223,   1,      32768) /* ItemType - Caster */
      , (37223,  18,       1025) /* UiEffects - Magical, Slashing */
      , (37223,  19,      14668) /* Value */
      , (37223,  45,          1) /* DamageType - Slash */
-     , (37223,  65,          1) /* Placement - RightHandCombat */
      , (37223,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37223,  94,         16) /* TargetType - Creature */
      , (37223, 105,          7) /* ItemWorkmanship */
@@ -38,28 +37,24 @@ VALUES (37223,   1,      32768) /* ItemType - Caster */
      , (37223, 319,         35) /* ItemMaxLevel */
      , (37223, 320,          1) /* ItemXpStyle - Fixed */
      , (37223, 383,          1) /* GearPKDamageRating */
-     , (37223, 384,          1) /* GearPKDamageResistRating */;
+     , (37223, 384,          1) /* GearPKDamageResistRating */
+     , (37223, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (37223,   4, 70000000000) /* ItemTotalXp */
      , (37223,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37223,   1, False) /* Stuck */
-     , (37223,  11, True ) /* IgnoreCollisions */
-     , (37223,  13, True ) /* Ethereal */
-     , (37223,  14, True ) /* GravityStatus */
-     , (37223,  19, True ) /* Attackable */
-     , (37223,  22, True ) /* Inscribable */
+VALUES (37223,  22, True ) /* Inscribable */
      , (37223,  85, True ) /* AppraisalHasAllowedWielder */
      , (37223,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37223,   5, -0.0666666701436043) /* ManaRate */
-     , (37223,  29, 1.40000005066395) /* WeaponDefense */
-     , (37223,  39, 0.600000023841858) /* DefaultScale */
-     , (37223, 144, 0.179999997913837) /* ManaConversionMod */
-     , (37223, 152, 1.43000002205372) /* ElementalDamageMod */
+VALUES (37223,   5,   -0.07) /* ManaRate */
+     , (37223,  29,     1.4) /* WeaponDefense */
+     , (37223,  39,     0.6) /* DefaultScale */
+     , (37223, 144,    0.18) /* ManaConversionMod */
+     , (37223, 152,    1.43) /* ElementalDamageMod */
      , (37223, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

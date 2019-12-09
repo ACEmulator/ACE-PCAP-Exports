@@ -12,12 +12,7 @@ VALUES (19204,   1,       8192) /* ItemType - Writable */
      , (19204, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19204,   1, True ) /* Stuck */
-     , (19204,  11, True ) /* IgnoreCollisions */
-     , (19204,  12, True ) /* ReportCollisions */
-     , (19204,  13, False) /* Ethereal */
-     , (19204,  14, True ) /* GravityStatus */
-     , (19204,  19, True ) /* Attackable */;
+VALUES (19204,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19204,  39,       4) /* DefaultScale */;

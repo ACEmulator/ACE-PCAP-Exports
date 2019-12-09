@@ -12,16 +12,11 @@ VALUES (24843,   1,        128) /* ItemType - Misc */
      , (24843,  15,        200) /* StackUnitValue */
      , (24843,  16,          1) /* ItemUseable - No */
      , (24843,  19,        200) /* Value */
-     , (24843,  65,        101) /* Placement - Resting */
-     , (24843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (24843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24843, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24843,   1, False) /* Stuck */
-     , (24843,  11, True ) /* IgnoreCollisions */
-     , (24843,  13, True ) /* Ethereal */
-     , (24843,  14, True ) /* GravityStatus */
-     , (24843,  19, True ) /* Attackable */
-     , (24843,  22, True ) /* Inscribable */;
+VALUES (24843,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24843,   1, 'Bloodthirsty Monouga Idol') /* Name */;

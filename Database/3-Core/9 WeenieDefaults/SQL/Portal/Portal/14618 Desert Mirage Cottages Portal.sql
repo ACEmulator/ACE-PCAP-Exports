@@ -12,19 +12,13 @@ VALUES (14618,   1,      65536) /* ItemType - Portal */
      , (14618, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14618,   1, True ) /* Stuck */
-     , (14618,  12, True ) /* ReportCollisions */
-     , (14618,  13, True ) /* Ethereal */
-     , (14618,  14, True ) /* GravityStatus */
-     , (14618,  15, True ) /* LightsStatus */
-     , (14618,  19, True ) /* Attackable */;
+VALUES (14618,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14618,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14618,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14618,   1, 'Desert Mirage Cottages Portal') /* Name */
-     , (14618,  38, 'Desert Mirage Cottages Portal (15.2S, 13.7E).') /* AppraisalPortalDestination */
      , (14618, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

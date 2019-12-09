@@ -9,20 +9,15 @@ VALUES (40929,   1,      16384) /* ItemType - Key */
      , (40929,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (40929,  19,          3) /* Value */
      , (40929,  33,          1) /* Bonded - Bonded */
-     , (40929,  65,        101) /* Placement - Resting */
      , (40929,  91,          1) /* MaxStructure */
      , (40929,  92,          1) /* Structure */
      , (40929,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40929,  94,        640) /* TargetType - LockableMagicTarget */
-     , (40929, 114,          1) /* Attuned - Attuned */;
+     , (40929, 114,          1) /* Attuned - Attuned */
+     , (40929, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40929,   1, False) /* Stuck */
-     , (40929,  11, True ) /* IgnoreCollisions */
-     , (40929,  13, True ) /* Ethereal */
-     , (40929,  14, True ) /* GravityStatus */
-     , (40929,  19, True ) /* Attackable */
-     , (40929,  22, True ) /* Inscribable */;
+VALUES (40929,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40929,   1, 'Embossed Ashen Key') /* Name */

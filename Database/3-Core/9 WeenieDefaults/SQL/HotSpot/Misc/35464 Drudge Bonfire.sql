@@ -15,13 +15,10 @@ VALUES (35464,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35464,   1, True ) /* Stuck */
-     , (35464,  12, True ) /* ReportCollisions */
-     , (35464,  13, True ) /* Ethereal */
-     , (35464,  19, True ) /* Attackable */
      , (35464,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35464,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (35464,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35464,   1, 'Drudge Bonfire') /* Name */;

@@ -15,11 +15,7 @@ VALUES (46662,   1,         16) /* ItemType - Creature */
      , (46662, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46662,   1, True ) /* Stuck */
-     , (46662,  12, True ) /* ReportCollisions */
-     , (46662,  13, False) /* Ethereal */
-     , (46662,  14, True ) /* GravityStatus */
-     , (46662,  19, True ) /* Attackable */;
+VALUES (46662,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46662,   1, 'Bushi Gatekeeper') /* Name */

@@ -11,16 +11,9 @@ VALUES (15416,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (15416,  15,        450) /* StackUnitValue */
      , (15416,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15416,  19,        450) /* Value */
-     , (15416,  65,        101) /* Placement - Resting */
      , (15416,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15416,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15416,   1, False) /* Stuck */
-     , (15416,  11, True ) /* IgnoreCollisions */
-     , (15416,  13, True ) /* Ethereal */
-     , (15416,  14, True ) /* GravityStatus */
-     , (15416,  19, True ) /* Attackable */;
+     , (15416,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (15416, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15416,   1, 'Bundle of Deadly Lightning Arrowheads') /* Name */

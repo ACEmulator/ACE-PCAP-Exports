@@ -8,16 +8,11 @@ VALUES (921,   1,        128) /* ItemType - Misc */
      , (921,   5,       9000) /* EncumbranceVal */
      , (921,  16,          1) /* ItemUseable - No */
      , (921,  19,        125) /* Value */
-     , (921,  65,        101) /* Placement - Resting */
-     , (921,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (921,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (921, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (921,   1, True ) /* Stuck */
-     , (921,  11, True ) /* IgnoreCollisions */
-     , (921,  12, True ) /* ReportCollisions */
-     , (921,  13, False) /* Ethereal */
-     , (921,  14, True ) /* GravityStatus */
-     , (921,  19, True ) /* Attackable */;
+VALUES (921,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (921,   1, 'Holtburg') /* Name */

@@ -9,17 +9,12 @@ VALUES (33505,   1,       2048) /* ItemType - Gem */
      , (33505,  16,          1) /* ItemUseable - No */
      , (33505,  19,          0) /* Value */
      , (33505,  33,          1) /* Bonded - Bonded */
-     , (33505,  65,        101) /* Placement - Resting */
      , (33505,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33505, 114,          1) /* Attuned - Attuned */;
+     , (33505, 114,          1) /* Attuned - Attuned */
+     , (33505, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33505,   1, False) /* Stuck */
-     , (33505,  11, True ) /* IgnoreCollisions */
-     , (33505,  13, True ) /* Ethereal */
-     , (33505,  14, True ) /* GravityStatus */
-     , (33505,  19, True ) /* Attackable */
-     , (33505,  22, True ) /* Inscribable */;
+VALUES (33505,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33505,   1, 'Silveran Mace Token') /* Name */

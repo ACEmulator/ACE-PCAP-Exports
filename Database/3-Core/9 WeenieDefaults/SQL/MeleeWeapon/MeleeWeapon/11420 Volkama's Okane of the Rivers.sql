@@ -12,20 +12,15 @@ VALUES (11420,   1,          1) /* ItemType - MeleeWeapon */
      , (11420,  18,          1) /* UiEffects - Magical */
      , (11420,  19,      20000) /* Value */
      , (11420,  51,          1) /* CombatUse - Melee */
-     , (11420,  65,          1) /* Placement - RightHandCombat */
      , (11420,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11420, 151,          2) /* HookType - Wall */;
+     , (11420, 151,          2) /* HookType - Wall */
+     , (11420, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11420,   1, False) /* Stuck */
-     , (11420,  11, True ) /* IgnoreCollisions */
-     , (11420,  13, True ) /* Ethereal */
-     , (11420,  14, True ) /* GravityStatus */
-     , (11420,  19, True ) /* Attackable */
-     , (11420,  22, True ) /* Inscribable */;
+VALUES (11420,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11420,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (11420,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11420,   1, 'Volkama''s Okane of the Rivers') /* Name */;

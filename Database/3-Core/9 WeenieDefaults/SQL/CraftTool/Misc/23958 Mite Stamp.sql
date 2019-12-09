@@ -12,18 +12,13 @@ VALUES (23958,   1,        128) /* ItemType - Misc */
      , (23958,  15,        100) /* StackUnitValue */
      , (23958,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (23958,  19,        100) /* Value */
-     , (23958,  65,        101) /* Placement - Resting */
      , (23958,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23958,  94,          6) /* TargetType - Vestements */
-     , (23958, 151,          2) /* HookType - Wall */;
+     , (23958, 151,          2) /* HookType - Wall */
+     , (23958, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23958,   1, False) /* Stuck */
-     , (23958,  11, True ) /* IgnoreCollisions */
-     , (23958,  13, True ) /* Ethereal */
-     , (23958,  14, True ) /* GravityStatus */
-     , (23958,  19, True ) /* Attackable */
-     , (23958,  22, True ) /* Inscribable */;
+VALUES (23958,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23958,   1, 'Mite Stamp') /* Name */;

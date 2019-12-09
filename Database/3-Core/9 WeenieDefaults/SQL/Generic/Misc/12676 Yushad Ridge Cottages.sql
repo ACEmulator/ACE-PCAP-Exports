@@ -11,12 +11,7 @@ VALUES (12676,   1,        128) /* ItemType - Misc */
      , (12676,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12676,   1, True ) /* Stuck */
-     , (12676,  11, True ) /* IgnoreCollisions */
-     , (12676,  12, True ) /* ReportCollisions */
-     , (12676,  13, False) /* Ethereal */
-     , (12676,  14, True ) /* GravityStatus */
-     , (12676,  19, True ) /* Attackable */;
+VALUES (12676,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12676,   1, 'Yushad Ridge Cottages') /* Name */

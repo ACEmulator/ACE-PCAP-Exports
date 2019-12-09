@@ -17,12 +17,7 @@ VALUES (11327,   1,        128) /* ItemType - Misc */
      , (11327, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11327,   1, False) /* Stuck */
-     , (11327,  11, True ) /* IgnoreCollisions */
-     , (11327,  13, True ) /* Ethereal */
-     , (11327,  14, True ) /* GravityStatus */
-     , (11327,  19, True ) /* Attackable */
-     , (11327,  22, True ) /* Inscribable */;
+VALUES (11327,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11327,   1, 'Wooden Tumerok Figurine') /* Name */;

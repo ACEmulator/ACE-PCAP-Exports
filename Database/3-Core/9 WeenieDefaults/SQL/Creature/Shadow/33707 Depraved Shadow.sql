@@ -17,15 +17,10 @@ VALUES (33707,   1,         16) /* ItemType - Creature */
      , (33707, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33707,   1, True ) /* Stuck */
-     , (33707,  12, True ) /* ReportCollisions */
-     , (33707,  13, False) /* Ethereal */
-     , (33707,  14, True ) /* GravityStatus */
-     , (33707,  19, True ) /* Attackable */
-     , (33707,  42, True ) /* AllowEdgeSlide */;
+VALUES (33707,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33707,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (33707,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33707,   1, 'Depraved Shadow') /* Name */

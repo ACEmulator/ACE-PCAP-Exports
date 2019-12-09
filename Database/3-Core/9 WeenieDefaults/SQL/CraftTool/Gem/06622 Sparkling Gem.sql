@@ -12,22 +12,17 @@ VALUES (6622,   1,       2048) /* ItemType - Gem */
      , (6622,  15,          0) /* StackUnitValue */
      , (6622,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6622,  19,          0) /* Value */
-     , (6622,  65,        101) /* Placement - Resting */
      , (6622,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6622,  94,       2048) /* TargetType - Gem */
-     , (6622, 151,          2) /* HookType - Wall */;
+     , (6622, 151,          2) /* HookType - Wall */
+     , (6622, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6622,   1, False) /* Stuck */
-     , (6622,  11, True ) /* IgnoreCollisions */
-     , (6622,  13, True ) /* Ethereal */
-     , (6622,  14, True ) /* GravityStatus */
-     , (6622,  19, True ) /* Attackable */
-     , (6622,  22, True ) /* Inscribable */
+VALUES (6622,  22, True ) /* Inscribable */
      , (6622,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6622,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (6622,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6622,   1, 'Sparkling Gem') /* Name */

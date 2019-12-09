@@ -16,7 +16,6 @@ VALUES (27594,   1,        256) /* ItemType - MissileWeapon */
      , (27594,  49,         40) /* WeaponTime */
      , (27594,  50,          1) /* AmmoType - Arrow */
      , (27594,  51,          2) /* CombatUse - Missle */
-     , (27594,  65,        101) /* Placement - Resting */
      , (27594,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27594, 106,        225) /* ItemSpellcraft */
      , (27594, 107,       3558) /* ItemCurMana */
@@ -27,25 +26,21 @@ VALUES (27594,   1,        256) /* ItemType - MissileWeapon */
      , (27594, 159,         47) /* WieldSkillType - MissileWeapons */
      , (27594, 160,        250) /* WieldDifficulty */
      , (27594, 353,          8) /* WeaponType - Bow */
-     , (27594, 8030,          0);
+     , (27594, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (27594, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27594,   1, False) /* Stuck */
-     , (27594,  11, True ) /* IgnoreCollisions */
-     , (27594,  13, True ) /* Ethereal */
-     , (27594,  14, True ) /* GravityStatus */
-     , (27594,  19, True ) /* Attackable */
-     , (27594,  22, True ) /* Inscribable */
+VALUES (27594,  22, True ) /* Inscribable */
      , (27594,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27594,   5, -0.0500000007450581) /* ManaRate */
+VALUES (27594,   5,   -0.05) /* ManaRate */
      , (27594,  21,       0) /* WeaponLength */
      , (27594,  22,       0) /* DamageVariance */
      , (27594,  26,    27.3) /* MaximumVelocity */
-     , (27594,  29, 0.920000016689301) /* WeaponDefense */
-     , (27594,  39, 1.10000002384186) /* DefaultScale */
-     , (27594,  62, 1.03999996185303) /* WeaponOffense */
+     , (27594,  29,    0.92) /* WeaponDefense */
+     , (27594,  39,     1.1) /* DefaultScale */
+     , (27594,  62,    1.04) /* WeaponOffense */
      , (27594,  63,       2) /* DamageMod */
      , (27594, 147,       1) /* CriticalFrequency */;
 

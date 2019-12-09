@@ -16,7 +16,6 @@ VALUES (353,   1,          1) /* ItemType - MeleeWeapon */
      , (353,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (353,  49,         32) /* WeaponTime */
      , (353,  51,          1) /* CombatUse - Melee */
-     , (353,  65,          1) /* Placement - RightHandCombat */
      , (353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (353, 105,          8) /* ItemWorkmanship */
      , (353, 131,         24) /* MaterialType - GreenJade */
@@ -26,15 +25,11 @@ VALUES (353,   1,          1) /* ItemType - MeleeWeapon */
      , (353, 160,        325) /* WieldDifficulty */
      , (353, 172,          1) /* AppraisalLongDescDecoration */
      , (353, 353,          2) /* WeaponType - Sword */
-     , (353, 8030,          0);
+     , (353, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (353, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (353,   1, False) /* Stuck */
-     , (353,  11, True ) /* IgnoreCollisions */
-     , (353,  13, True ) /* Ethereal */
-     , (353,  14, True ) /* GravityStatus */
-     , (353,  19, True ) /* Attackable */
-     , (353,  22, True ) /* Inscribable */;
+VALUES (353,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (353,  21,       0) /* WeaponLength */

@@ -13,7 +13,6 @@ VALUES (35593,   1,      32768) /* ItemType - Caster */
      , (35593,  19,       7930) /* Value */
      , (35593,  33,          1) /* Bonded - Bonded */
      , (35593,  45,          1) /* DamageType - Slash */
-     , (35593,  65,          1) /* Placement - RightHandCombat */
      , (35593,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (35593,  94,         16) /* TargetType - Creature */
      , (35593, 106,        325) /* ItemSpellcraft */
@@ -24,24 +23,19 @@ VALUES (35593,   1,      32768) /* ItemType - Caster */
      , (35593, 151,          6) /* HookType - Wall, Ceiling */
      , (35593, 158,          1) /* WieldRequirements - Skill */
      , (35593, 159,         31) /* WieldSkillType - CreatureEnchantment */
-     , (35593, 160,        355) /* WieldDifficulty */;
+     , (35593, 160,        355) /* WieldDifficulty */
+     , (35593, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35593,   1, False) /* Stuck */
-     , (35593,  11, True ) /* IgnoreCollisions */
-     , (35593,  13, True ) /* Ethereal */
-     , (35593,  14, True ) /* GravityStatus */
-     , (35593,  15, True ) /* LightsStatus */
-     , (35593,  19, True ) /* Attackable */
-     , (35593,  22, True ) /* Inscribable */;
+VALUES (35593,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35593,   5, -0.0333329997956753) /* ManaRate */
-     , (35593,  29, 1.14999997615814) /* WeaponDefense */
-     , (35593,  39, 1.29999995231628) /* DefaultScale */
-     , (35593,  76, 0.600000023841858) /* Translucency */
-     , (35593, 144, 0.300000011920929) /* ManaConversionMod */
-     , (35593, 152, 1.20000004768372) /* ElementalDamageMod */;
+VALUES (35593,   5,   -0.03) /* ManaRate */
+     , (35593,  29,    1.15) /* WeaponDefense */
+     , (35593,  39,     1.3) /* DefaultScale */
+     , (35593,  76,     0.6) /* Translucency */
+     , (35593, 144,     0.3) /* ManaConversionMod */
+     , (35593, 152,     1.2) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35593,   1, 'Drudge Scrying Orb') /* Name */

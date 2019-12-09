@@ -11,12 +11,7 @@ VALUES (15246,   1,        128) /* ItemType - Misc */
      , (15246,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15246,   1, True ) /* Stuck */
-     , (15246,  11, True ) /* IgnoreCollisions */
-     , (15246,  12, True ) /* ReportCollisions */
-     , (15246,  13, False) /* Ethereal */
-     , (15246,  14, True ) /* GravityStatus */
-     , (15246,  19, True ) /* Attackable */;
+VALUES (15246,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15246,   1, 'Osric Cottages') /* Name */;

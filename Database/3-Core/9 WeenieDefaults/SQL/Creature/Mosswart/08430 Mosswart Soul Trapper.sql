@@ -15,14 +15,10 @@ VALUES (8430,   1,         16) /* ItemType - Creature */
      , (8430, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8430,   1, True ) /* Stuck */
-     , (8430,  12, True ) /* ReportCollisions */
-     , (8430,  13, False) /* Ethereal */
-     , (8430,  14, True ) /* GravityStatus */
-     , (8430,  19, True ) /* Attackable */;
+VALUES (8430,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8430,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8430,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8430,   1, 'Mosswart Soul Trapper') /* Name */

@@ -15,11 +15,7 @@ VALUES (31025,   1,         16) /* ItemType - Creature */
      , (31025, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31025,   1, True ) /* Stuck */
-     , (31025,  12, True ) /* ReportCollisions */
-     , (31025,  13, False) /* Ethereal */
-     , (31025,  14, True ) /* GravityStatus */
-     , (31025,  19, True ) /* Attackable */;
+VALUES (31025,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31025,   1, 'Fire Morel Thrungus') /* Name */

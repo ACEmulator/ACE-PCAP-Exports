@@ -16,14 +16,10 @@ VALUES (7102,   1,         16) /* ItemType - Creature */
      , (7102, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7102,   1, True ) /* Stuck */
-     , (7102,  12, True ) /* ReportCollisions */
-     , (7102,  13, False) /* Ethereal */
-     , (7102,  14, True ) /* GravityStatus */
-     , (7102,  19, True ) /* Attackable */;
+VALUES (7102,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7102,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (7102,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7102,   1, 'Mosswart Mire-Witch') /* Name */

@@ -38,11 +38,7 @@ VALUES (41798,   1,         16) /* ItemType - Creature */
      , (41798, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41798,   1, True ) /* Stuck */
-     , (41798,  12, True ) /* ReportCollisions */
-     , (41798,  13, False) /* Ethereal */
-     , (41798,  14, True ) /* GravityStatus */
-     , (41798,  19, True ) /* Attackable */;
+VALUES (41798,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41798,   1, 'Killer Phyntos Hive') /* Name */

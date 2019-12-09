@@ -14,15 +14,8 @@ VALUES (47158,   1,        128) /* ItemType - Misc */
      , (47158,  19,        100) /* Value */
      , (47158,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47158,   1, False) /* Stuck */
-     , (47158,  11, True ) /* IgnoreCollisions */
-     , (47158,  13, True ) /* Ethereal */
-     , (47158,  14, True ) /* GravityStatus */
-     , (47158,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47158,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (47158,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47158,   1, 'A''nekshay Luminance Certificate') /* Name */;

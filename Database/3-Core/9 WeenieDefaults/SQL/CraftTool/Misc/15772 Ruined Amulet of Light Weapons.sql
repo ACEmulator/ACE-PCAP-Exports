@@ -11,20 +11,15 @@ VALUES (15772,   1,        128) /* ItemType - Misc */
      , (15772,  13,         10) /* StackUnitEncumbrance */
      , (15772,  15,          0) /* StackUnitValue */
      , (15772,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (15772,  65,        101) /* Placement - Resting */
      , (15772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15772,  94,          2) /* TargetType - Armor */;
+     , (15772,  94,          2) /* TargetType - Armor */
+     , (15772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15772,   1, False) /* Stuck */
-     , (15772,  11, True ) /* IgnoreCollisions */
-     , (15772,  13, True ) /* Ethereal */
-     , (15772,  14, True ) /* GravityStatus */
-     , (15772,  19, True ) /* Attackable */
-     , (15772,  22, True ) /* Inscribable */;
+VALUES (15772,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15772,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (15772,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15772,   1, 'Ruined Amulet of Light Weapons') /* Name */;

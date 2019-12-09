@@ -12,17 +12,12 @@ VALUES (25958,   1,       2048) /* ItemType - Gem */
      , (25958,  15,          0) /* StackUnitValue */
      , (25958,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (25958,  18,          1) /* UiEffects - Magical */
-     , (25958,  65,        101) /* Placement - Resting */
      , (25958,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25958,  94,          2) /* TargetType - Armor */;
+     , (25958,  94,          2) /* TargetType - Armor */
+     , (25958, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25958,   1, False) /* Stuck */
-     , (25958,  11, True ) /* IgnoreCollisions */
-     , (25958,  13, True ) /* Ethereal */
-     , (25958,  14, True ) /* GravityStatus */
-     , (25958,  19, True ) /* Attackable */
-     , (25958,  22, True ) /* Inscribable */;
+VALUES (25958,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25958,  39,    0.75) /* DefaultScale */;

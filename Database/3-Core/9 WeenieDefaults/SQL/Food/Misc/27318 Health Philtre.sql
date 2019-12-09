@@ -12,18 +12,11 @@ VALUES (27318,   1,        128) /* ItemType - Misc */
      , (27318,  15,       5000) /* StackUnitValue */
      , (27318,  16,          8) /* ItemUseable - Contained */
      , (27318,  19,       5000) /* Value */
-     , (27318,  65,        101) /* Placement - Resting */
      , (27318,  89,          2) /* BoosterEnum - Health */
      , (27318,  90,        100) /* BoostValue */
      , (27318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27318, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27318,   1, False) /* Stuck */
-     , (27318,  11, True ) /* IgnoreCollisions */
-     , (27318,  13, True ) /* Ethereal */
-     , (27318,  14, True ) /* GravityStatus */
-     , (27318,  19, True ) /* Attackable */;
+     , (27318, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (27318, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27318,   1, 'Health Philtre') /* Name */

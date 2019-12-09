@@ -12,15 +12,8 @@ VALUES (4738,   1,         32) /* ItemType - Food */
      , (4738,  15,         18) /* StackUnitValue */
      , (4738,  16,          8) /* ItemUseable - Contained */
      , (4738,  19,         18) /* Value */
-     , (4738,  65,        101) /* Placement - Resting */
-     , (4738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4738,   1, False) /* Stuck */
-     , (4738,  11, True ) /* IgnoreCollisions */
-     , (4738,  13, True ) /* Ethereal */
-     , (4738,  14, True ) /* GravityStatus */
-     , (4738,  19, True ) /* Attackable */;
+     , (4738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4738, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4738,   1, 'Mushroom Rice') /* Name */

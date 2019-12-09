@@ -16,11 +16,7 @@ VALUES (27460,   1,         16) /* ItemType - Creature */
      , (27460, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27460,   1, True ) /* Stuck */
-     , (27460,  12, True ) /* ReportCollisions */
-     , (27460,  13, False) /* Ethereal */
-     , (27460,  14, True ) /* GravityStatus */
-     , (27460,  19, True ) /* Attackable */;
+VALUES (27460,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27460,   1, 'Gotrok Fortress Guard') /* Name */

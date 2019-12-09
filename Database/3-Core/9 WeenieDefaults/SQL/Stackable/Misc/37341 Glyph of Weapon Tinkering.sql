@@ -12,15 +12,8 @@ VALUES (37341,   1,        128) /* ItemType - Misc */
      , (37341,  15,      30000) /* StackUnitValue */
      , (37341,  16,          1) /* ItemUseable - No */
      , (37341,  19,      30000) /* Value */
-     , (37341,  65,        101) /* Placement - Resting */
-     , (37341,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37341,   1, False) /* Stuck */
-     , (37341,  11, True ) /* IgnoreCollisions */
-     , (37341,  13, True ) /* Ethereal */
-     , (37341,  14, True ) /* GravityStatus */
-     , (37341,  19, True ) /* Attackable */;
+     , (37341,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37341, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37341,   1, 'Glyph of Weapon Tinkering') /* Name */

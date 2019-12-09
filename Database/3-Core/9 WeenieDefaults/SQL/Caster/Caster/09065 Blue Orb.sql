@@ -10,22 +10,17 @@ VALUES (9065,   1,      32768) /* ItemType - Caster */
      , (9065,  16,          1) /* ItemUseable - No */
      , (9065,  18,          1) /* UiEffects - Magical */
      , (9065,  19,         50) /* Value */
-     , (9065,  65,        101) /* Placement - Resting */
      , (9065,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9065,  94,         16) /* TargetType - Creature */
-     , (9065, 151,          2) /* HookType - Wall */;
+     , (9065, 151,          2) /* HookType - Wall */
+     , (9065, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9065,   1, False) /* Stuck */
-     , (9065,  11, True ) /* IgnoreCollisions */
-     , (9065,  13, True ) /* Ethereal */
-     , (9065,  14, True ) /* GravityStatus */
-     , (9065,  19, True ) /* Attackable */
-     , (9065,  22, True ) /* Inscribable */;
+VALUES (9065,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9065,  29,       1) /* WeaponDefense */
-     , (9065, 144, 1.81897183595585E-314) /* ManaConversionMod */;
+     , (9065, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9065,   1, 'Blue Orb') /* Name */

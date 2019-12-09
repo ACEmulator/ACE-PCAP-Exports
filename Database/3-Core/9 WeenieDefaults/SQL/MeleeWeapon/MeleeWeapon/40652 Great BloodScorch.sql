@@ -31,26 +31,20 @@ VALUES (40652,   1,          1) /* ItemType - MeleeWeapon */
      , (40652, 263,         16) /* ResistanceModifierType */
      , (40652, 292,          2) /* Cleaving */
      , (40652, 353,         11) /* WeaponType - TwoHanded */
-     , (40652, 8030,          0);
+     , (40652, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40652,   1, False) /* Stuck */
-     , (40652,  11, True ) /* IgnoreCollisions */
-     , (40652,  13, True ) /* Ethereal */
-     , (40652,  14, True ) /* GravityStatus */
-     , (40652,  15, True ) /* LightsStatus */
-     , (40652,  19, True ) /* Attackable */
-     , (40652,  22, True ) /* Inscribable */
+VALUES (40652,  22, True ) /* Inscribable */
      , (40652,  69, False) /* IsSellable */
      , (40652,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40652,   5,  -0.033) /* ManaRate */
+VALUES (40652,   5,   -0.03) /* ManaRate */
      , (40652,  21,       0) /* WeaponLength */
      , (40652,  22,    0.55) /* DamageVariance */
      , (40652,  26,       0) /* MaximumVelocity */
-     , (40652,  29, 1.27000000178814) /* WeaponDefense */
-     , (40652,  62, 1.37000000178814) /* WeaponOffense */
+     , (40652,  29,    1.27) /* WeaponDefense */
+     , (40652,  62,    1.37) /* WeaponOffense */
      , (40652,  63,       1) /* DamageMod */
      , (40652, 147,       1) /* CriticalFrequency */
      , (40652, 157,       1) /* ResistanceModifier */;

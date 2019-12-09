@@ -16,14 +16,10 @@ VALUES (40267,   1,         16) /* ItemType - Creature */
      , (40267, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40267,   1, True ) /* Stuck */
-     , (40267,  12, True ) /* ReportCollisions */
-     , (40267,  13, False) /* Ethereal */
-     , (40267,  14, True ) /* GravityStatus */
-     , (40267,  19, True ) /* Attackable */;
+VALUES (40267,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40267,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (40267,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40267,   1, 'Ancient Magma Golem') /* Name */

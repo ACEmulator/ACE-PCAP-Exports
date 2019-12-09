@@ -17,7 +17,6 @@ VALUES (37580,   1,          1) /* ItemType - MeleeWeapon */
      , (37580,  48,         45) /* WeaponSkill - LightWeapons */
      , (37580,  49,         20) /* WeaponTime */
      , (37580,  51,          1) /* CombatUse - Melee */
-     , (37580,  65,        101) /* Placement - Resting */
      , (37580,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (37580, 106,        475) /* ItemSpellcraft */
      , (37580, 107,       2376) /* ItemCurMana */
@@ -28,29 +27,24 @@ VALUES (37580,   1,          1) /* ItemType - MeleeWeapon */
      , (37580, 160,        400) /* WieldDifficulty */
      , (37580, 166,         77) /* SlayerCreatureType - Ghost */
      , (37580, 353,          6) /* WeaponType - Dagger */
-     , (37580, 8030,          0);
+     , (37580, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (37580, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37580,   1, False) /* Stuck */
-     , (37580,  11, True ) /* IgnoreCollisions */
-     , (37580,  13, True ) /* Ethereal */
-     , (37580,  14, True ) /* GravityStatus */
-     , (37580,  15, True ) /* LightsStatus */
-     , (37580,  19, True ) /* Attackable */
-     , (37580,  22, True ) /* Inscribable */
+VALUES (37580,  22, True ) /* Inscribable */
      , (37580,  69, False) /* IsSellable */
      , (37580,  85, True ) /* AppraisalHasAllowedWielder */
      , (37580,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37580,   5, -0.0500000007450581) /* ManaRate */
+VALUES (37580,   5,   -0.05) /* ManaRate */
      , (37580,  21,       0) /* WeaponLength */
-     , (37580,  22, 0.300000011920929) /* DamageVariance */
+     , (37580,  22,     0.3) /* DamageVariance */
      , (37580,  26,       0) /* MaximumVelocity */
-     , (37580,  29, 1.14999997615814) /* WeaponDefense */
-     , (37580,  62, 1.20000004768372) /* WeaponOffense */
+     , (37580,  29,    1.15) /* WeaponDefense */
+     , (37580,  62,     1.2) /* WeaponOffense */
      , (37580,  63,       1) /* DamageMod */
-     , (37580,  76, 0.699999988079071) /* Translucency */
+     , (37580,  76,     0.7) /* Translucency */
      , (37580, 136,       1) /* CriticalMultiplier */
      , (37580, 155,       1) /* IgnoreArmor */;
 

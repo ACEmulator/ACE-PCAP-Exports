@@ -13,20 +13,15 @@ VALUES (6965,   1,        256) /* ItemType - MissileWeapon */
      , (6965,  19,        400) /* Value */
      , (6965,  50,          1) /* AmmoType - Arrow */
      , (6965,  51,          2) /* CombatUse - Missle */
-     , (6965,  65,          3) /* Placement - LeftHand */
      , (6965,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6965, 151,          2) /* HookType - Wall */;
+     , (6965, 151,          2) /* HookType - Wall */
+     , (6965, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6965,   1, False) /* Stuck */
-     , (6965,  11, True ) /* IgnoreCollisions */
-     , (6965,  13, True ) /* Ethereal */
-     , (6965,  14, True ) /* GravityStatus */
-     , (6965,  19, True ) /* Attackable */
-     , (6965,  22, True ) /* Inscribable */;
+VALUES (6965,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6965,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (6965,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6965,   1, 'Composite Bow with Handle') /* Name */;

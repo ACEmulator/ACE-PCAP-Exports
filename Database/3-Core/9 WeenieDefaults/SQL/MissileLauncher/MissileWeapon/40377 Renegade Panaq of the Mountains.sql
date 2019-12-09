@@ -12,17 +12,12 @@ VALUES (40377,   1,        256) /* ItemType - MissileWeapon */
      , (40377,  19,      20000) /* Value */
      , (40377,  50,          1) /* AmmoType - Arrow */
      , (40377,  51,          2) /* CombatUse - Missle */
-     , (40377,  65,        101) /* Placement - Resting */
      , (40377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40377, 151,          2) /* HookType - Wall */;
+     , (40377, 151,          2) /* HookType - Wall */
+     , (40377, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40377,   1, False) /* Stuck */
-     , (40377,  11, True ) /* IgnoreCollisions */
-     , (40377,  13, True ) /* Ethereal */
-     , (40377,  14, True ) /* GravityStatus */
-     , (40377,  19, True ) /* Attackable */
-     , (40377,  22, True ) /* Inscribable */;
+VALUES (40377,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40377,   1, 'Renegade Panaq of the Mountains') /* Name */;

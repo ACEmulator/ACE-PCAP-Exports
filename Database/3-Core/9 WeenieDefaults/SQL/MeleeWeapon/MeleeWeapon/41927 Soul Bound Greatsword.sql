@@ -17,7 +17,6 @@ VALUES (41927,   1,          1) /* ItemType - MeleeWeapon */
      , (41927,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41927,  49,         35) /* WeaponTime */
      , (41927,  51,          5) /* CombatUse - TwoHanded */
-     , (41927,  65,        101) /* Placement - Resting */
      , (41927,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41927, 106,        475) /* ItemSpellcraft */
      , (41927, 107,       2156) /* ItemCurMana */
@@ -30,16 +29,11 @@ VALUES (41927,   1,          1) /* ItemType - MeleeWeapon */
      , (41927, 166,         77) /* SlayerCreatureType - Ghost */
      , (41927, 292,          2) /* Cleaving */
      , (41927, 353,         11) /* WeaponType - TwoHanded */
-     , (41927, 8030,          0);
+     , (41927, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41927, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41927,   1, False) /* Stuck */
-     , (41927,  11, True ) /* IgnoreCollisions */
-     , (41927,  13, True ) /* Ethereal */
-     , (41927,  14, True ) /* GravityStatus */
-     , (41927,  15, True ) /* LightsStatus */
-     , (41927,  19, True ) /* Attackable */
-     , (41927,  22, True ) /* Inscribable */
+VALUES (41927,  22, True ) /* Inscribable */
      , (41927,  69, False) /* IsSellable */
      , (41927,  85, True ) /* AppraisalHasAllowedWielder */
      , (41927,  99, False) /* Ivoryable */;
@@ -52,7 +46,7 @@ VALUES (41927,   5,   -0.05) /* ManaRate */
      , (41927,  29,    1.15) /* WeaponDefense */
      , (41927,  62,     1.2) /* WeaponOffense */
      , (41927,  63,       1) /* DamageMod */
-     , (41927,  76, 0.699999988079071) /* Translucency */
+     , (41927,  76,     0.7) /* Translucency */
      , (41927, 136,       1) /* CriticalMultiplier */
      , (41927, 155,       1) /* IgnoreArmor */;
 

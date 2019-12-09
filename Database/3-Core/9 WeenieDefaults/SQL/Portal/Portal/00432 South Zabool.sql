@@ -12,19 +12,13 @@ VALUES (432,   1,      65536) /* ItemType - Portal */
      , (432, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (432,   1, True ) /* Stuck */
-     , (432,  12, True ) /* ReportCollisions */
-     , (432,  13, True ) /* Ethereal */
-     , (432,  14, True ) /* GravityStatus */
-     , (432,  15, True ) /* LightsStatus */
-     , (432,  19, True ) /* Attackable */;
+VALUES (432,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (432,  54, -0.100000001490116) /* UseRadius */;
+VALUES (432,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (432,   1, 'South Zabool') /* Name */
-     , (432,  38, 'South Zabool (20.8N, 18.5E).') /* AppraisalPortalDestination */
      , (432, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

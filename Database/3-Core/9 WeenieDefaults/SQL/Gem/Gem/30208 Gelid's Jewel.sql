@@ -16,22 +16,17 @@ VALUES (30208,   1,       2048) /* ItemType - Gem */
      , (30208,  19,          0) /* Value */
      , (30208,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30208,  33,         -1) /* Bonded - Slippery */
-     , (30208,  65,        101) /* Placement - Resting */
      , (30208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30208,  94,         16) /* TargetType - Creature */
      , (30208, 106,        325) /* ItemSpellcraft */
      , (30208, 107,      10000) /* ItemCurMana */
      , (30208, 108,      10000) /* ItemMaxMana */
      , (30208, 109,          0) /* ItemDifficulty */
-     , (30208, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30208, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30208, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30208,   1, False) /* Stuck */
-     , (30208,  11, True ) /* IgnoreCollisions */
-     , (30208,  13, True ) /* Ethereal */
-     , (30208,  14, True ) /* GravityStatus */
-     , (30208,  19, True ) /* Attackable */
-     , (30208, 108, True ) /* RareUsesTimer */;
+VALUES (30208, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30208,   1, 'Gelid''s Jewel') /* Name */

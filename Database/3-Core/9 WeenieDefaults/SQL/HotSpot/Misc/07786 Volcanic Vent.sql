@@ -8,22 +8,17 @@ VALUES (7786,   1,        128) /* ItemType - Misc */
      , (7786,   5,         10) /* EncumbranceVal */
      , (7786,  16,          1) /* ItemUseable - No */
      , (7786,  19,          5) /* Value */
-     , (7786,  93,      68616) /* PhysicsState - ReportCollisions, Gravity, LightingOn, HasPhysicsBSP */;
+     , (7786,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7786,   1, True ) /* Stuck */
-     , (7786,  12, True ) /* ReportCollisions */
-     , (7786,  13, False) /* Ethereal */
-     , (7786,  14, True ) /* GravityStatus */
-     , (7786,  15, True ) /* LightsStatus */
-     , (7786,  19, True ) /* Attackable */
      , (7786,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7786,  39, 0.899999976158142) /* DefaultScale */
+VALUES (7786,  39,     0.9) /* DefaultScale */
      , (7786, 8010,       0) /* PCAPRecordedVelocityX */
      , (7786, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7786, 8012, -0.335675925016403) /* PCAPRecordedVelocityZ */;
+     , (7786, 8012,   -0.34) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7786,   1, 'Volcanic Vent') /* Name */;

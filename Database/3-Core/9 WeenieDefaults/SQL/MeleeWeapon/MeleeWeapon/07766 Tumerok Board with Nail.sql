@@ -10,20 +10,15 @@ VALUES (7766,   1,          1) /* ItemType - MeleeWeapon */
      , (7766,  16,          1) /* ItemUseable - No */
      , (7766,  19,        300) /* Value */
      , (7766,  51,          1) /* CombatUse - Melee */
-     , (7766,  65,          1) /* Placement - RightHandCombat */
      , (7766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7766, 151,          2) /* HookType - Wall */;
+     , (7766, 151,          2) /* HookType - Wall */
+     , (7766, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7766,   1, False) /* Stuck */
-     , (7766,  11, True ) /* IgnoreCollisions */
-     , (7766,  13, True ) /* Ethereal */
-     , (7766,  14, True ) /* GravityStatus */
-     , (7766,  19, True ) /* Attackable */
-     , (7766,  22, True ) /* Inscribable */;
+VALUES (7766,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7766,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (7766,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7766,   1, 'Tumerok Board with Nail') /* Name */;

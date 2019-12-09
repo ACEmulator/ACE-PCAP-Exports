@@ -18,11 +18,7 @@ VALUES (33831,   1,         16) /* ItemType - Creature */
      , (33831, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33831,   1, True ) /* Stuck */
-     , (33831,  12, True ) /* ReportCollisions */
-     , (33831,  13, False) /* Ethereal */
-     , (33831,  14, True ) /* GravityStatus */
-     , (33831,  19, True ) /* Attackable */;
+VALUES (33831,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33831,   1, 'Sawato Bandit') /* Name */

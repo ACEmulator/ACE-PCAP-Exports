@@ -16,12 +16,7 @@ VALUES (51684,   1,         16) /* ItemType - Creature */
      , (51684, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51684,   1, True ) /* Stuck */
-     , (51684,  12, True ) /* ReportCollisions */
-     , (51684,  13, False) /* Ethereal */
-     , (51684,  14, True ) /* GravityStatus */
-     , (51684,  19, True ) /* Attackable */
-     , (51684,  42, True ) /* AllowEdgeSlide */;
+VALUES (51684,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51684,   1, 'Corrupt Lugian') /* Name */

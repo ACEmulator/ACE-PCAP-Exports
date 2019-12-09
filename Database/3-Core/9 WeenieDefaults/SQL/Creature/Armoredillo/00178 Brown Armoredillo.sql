@@ -15,14 +15,10 @@ VALUES (178,   1,         16) /* ItemType - Creature */
      , (178, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (178,   1, True ) /* Stuck */
-     , (178,  12, True ) /* ReportCollisions */
-     , (178,  13, False) /* Ethereal */
-     , (178,  14, True ) /* GravityStatus */
-     , (178,  19, True ) /* Attackable */;
+VALUES (178,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (178,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (178,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (178,   1, 'Brown Armoredillo') /* Name */

@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43400,   1,       2048) /* ItemType - Gem */
      , (43400,   5,         10) /* EncumbranceVal */
      , (43400,  16,          8) /* ItemUseable - Contained */
-     , (43400,  65,        101) /* Placement - Resting */
-     , (43400,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43400,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43400, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43400,   1, False) /* Stuck */
-     , (43400,  11, True ) /* IgnoreCollisions */
-     , (43400,  13, True ) /* Ethereal */
-     , (43400,  14, True ) /* GravityStatus */
-     , (43400,  19, True ) /* Attackable */
-     , (43400,  22, True ) /* Inscribable */;
+VALUES (43400,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43400,   1, 'Void Magic Gem of Enlightenment') /* Name */;

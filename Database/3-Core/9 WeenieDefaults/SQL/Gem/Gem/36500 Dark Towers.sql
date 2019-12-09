@@ -12,7 +12,6 @@ VALUES (36500,   1,       2048) /* ItemType - Gem */
      , (36500,  15,          8) /* StackUnitValue */
      , (36500,  16,          8) /* ItemUseable - Contained */
      , (36500,  19,          8) /* Value */
-     , (36500,  65,        101) /* Placement - Resting */
      , (36500,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36500,  94,         16) /* TargetType - Creature */
      , (36500, 106,        210) /* ItemSpellcraft */
@@ -21,16 +20,11 @@ VALUES (36500,   1,       2048) /* ItemType - Gem */
      , (36500, 109,          0) /* ItemDifficulty */
      , (36500, 110,          0) /* ItemAllegianceRankLimit */
      , (36500, 151,          2) /* HookType - Wall */
-     , (36500, 280,       1000) /* SharedCooldown */;
+     , (36500, 280,       1000) /* SharedCooldown */
+     , (36500, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36500,   1, False) /* Stuck */
-     , (36500,  11, True ) /* IgnoreCollisions */
-     , (36500,  13, True ) /* Ethereal */
-     , (36500,  14, True ) /* GravityStatus */
-     , (36500,  15, True ) /* LightsStatus */
-     , (36500,  19, True ) /* Attackable */
-     , (36500,  22, True ) /* Inscribable */;
+VALUES (36500,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36500, 167,      15) /* CooldownDuration */;

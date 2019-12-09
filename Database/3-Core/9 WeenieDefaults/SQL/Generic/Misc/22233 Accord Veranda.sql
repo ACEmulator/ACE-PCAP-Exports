@@ -11,12 +11,7 @@ VALUES (22233,   1,        128) /* ItemType - Misc */
      , (22233,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22233,   1, True ) /* Stuck */
-     , (22233,  11, True ) /* IgnoreCollisions */
-     , (22233,  12, True ) /* ReportCollisions */
-     , (22233,  13, False) /* Ethereal */
-     , (22233,  14, True ) /* GravityStatus */
-     , (22233,  19, True ) /* Attackable */;
+VALUES (22233,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22233,   1, 'Accord Veranda') /* Name */

@@ -12,19 +12,13 @@ VALUES (2329,   1,      65536) /* ItemType - Portal */
      , (2329, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2329,   1, True ) /* Stuck */
-     , (2329,  12, True ) /* ReportCollisions */
-     , (2329,  13, True ) /* Ethereal */
-     , (2329,  14, True ) /* GravityStatus */
-     , (2329,  15, True ) /* LightsStatus */
-     , (2329,  19, True ) /* Attackable */;
+VALUES (2329,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2329,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2329,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2329,   1, 'Small Black Hill') /* Name */
-     , (2329,  38, 'Small Black Hill (62.1S, 50.4W).') /* AppraisalPortalDestination */
      , (2329, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,14 +15,10 @@ VALUES (218,   1,         16) /* ItemType - Creature */
      , (218, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (218,   1, True ) /* Stuck */
-     , (218,  12, True ) /* ReportCollisions */
-     , (218,  13, False) /* Ethereal */
-     , (218,  14, True ) /* GravityStatus */
-     , (218,  19, True ) /* Attackable */;
+VALUES (218,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (218,  39, 2.09999990463257) /* DefaultScale */;
+VALUES (218,  39,     2.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (218,   1, 'Black Rat') /* Name */

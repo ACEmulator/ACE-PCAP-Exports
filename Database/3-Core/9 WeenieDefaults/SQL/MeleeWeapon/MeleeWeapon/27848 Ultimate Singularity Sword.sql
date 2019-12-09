@@ -11,20 +11,15 @@ VALUES (27848,   1,          1) /* ItemType - MeleeWeapon */
      , (27848,  16,          1) /* ItemUseable - No */
      , (27848,  18,          1) /* UiEffects - Magical */
      , (27848,  51,          1) /* CombatUse - Melee */
-     , (27848,  65,          1) /* Placement - RightHandCombat */
      , (27848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27848, 151,          2) /* HookType - Wall */;
+     , (27848, 151,          2) /* HookType - Wall */
+     , (27848, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27848,   1, False) /* Stuck */
-     , (27848,  11, True ) /* IgnoreCollisions */
-     , (27848,  13, True ) /* Ethereal */
-     , (27848,  14, True ) /* GravityStatus */
-     , (27848,  19, True ) /* Attackable */
-     , (27848,  22, True ) /* Inscribable */;
+VALUES (27848,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27848,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (27848,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27848,   1, 'Ultimate Singularity Sword') /* Name */;

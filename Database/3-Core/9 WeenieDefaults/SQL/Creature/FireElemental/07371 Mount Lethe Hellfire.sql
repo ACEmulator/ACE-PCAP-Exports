@@ -17,15 +17,10 @@ VALUES (7371,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7371,   1, True ) /* Stuck */
-     , (7371,  12, True ) /* ReportCollisions */
-     , (7371,  13, False) /* Ethereal */
-     , (7371,  14, True ) /* GravityStatus */
-     , (7371,  15, True ) /* LightsStatus */
-     , (7371,  19, True ) /* Attackable */
      , (7371, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7371,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (7371,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7371,   1, 'Mount Lethe Hellfire') /* Name */

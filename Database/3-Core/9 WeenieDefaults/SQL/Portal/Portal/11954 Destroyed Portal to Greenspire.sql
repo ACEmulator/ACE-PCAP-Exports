@@ -11,20 +11,14 @@ VALUES (11954,   1,      65536) /* ItemType - Portal */
      , (11954, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11954,   1, True ) /* Stuck */
-     , (11954,  11, True ) /* IgnoreCollisions */
-     , (11954,  13, True ) /* Ethereal */
-     , (11954,  14, True ) /* GravityStatus */
-     , (11954,  15, True ) /* LightsStatus */
-     , (11954,  19, True ) /* Attackable */;
+VALUES (11954,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11954,  54, -0.100000001490116) /* UseRadius */;
+VALUES (11954,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11954,   1, 'Destroyed Portal to Greenspire') /* Name */
      , (11954,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (11954,  38, 'Destroyed Portal to Greenspire (43.2N, 66.8W).') /* AppraisalPortalDestination */
      , (11954, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

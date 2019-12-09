@@ -9,13 +9,6 @@ VALUES (20973,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20973,   1, True ) /* Stuck */
-     , (20973,  12, True ) /* ReportCollisions */
-     , (20973,  13, False) /* Ethereal */
-     , (20973,  14, True ) /* GravityStatus */
-     , (20973,  15, True ) /* LightsStatus */
-     , (20973,  16, True ) /* ScriptedCollision */
-     , (20973,  17, True ) /* Inelastic */
-     , (20973,  19, True ) /* Attackable */
      , (20973,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -23,9 +16,9 @@ VALUES (20973,  39,     0.5) /* DefaultScale */
      , (20973,  77,       1) /* PhysicsScriptIntensity */
      , (20973,  78,       1) /* Friction */
      , (20973,  79,       0) /* Elasticity */
-     , (20973, 8010, -27.1839752197266) /* PCAPRecordedVelocityX */
-     , (20973, 8011, 27.1537399291992) /* PCAPRecordedVelocityY */
-     , (20973, 8012, 0.0440497398376465) /* PCAPRecordedVelocityZ */;
+     , (20973, 8010,  -27.18) /* PCAPRecordedVelocityX */
+     , (20973, 8011,   27.15) /* PCAPRecordedVelocityY */
+     , (20973, 8012,    0.04) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20973,   1, 'Acid Stream') /* Name */;

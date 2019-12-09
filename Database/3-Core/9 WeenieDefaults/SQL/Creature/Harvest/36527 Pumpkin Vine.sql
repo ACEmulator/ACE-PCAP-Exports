@@ -15,11 +15,7 @@ VALUES (36527,   1,         16) /* ItemType - Creature */
      , (36527, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36527,   1, True ) /* Stuck */
-     , (36527,  12, True ) /* ReportCollisions */
-     , (36527,  13, False) /* Ethereal */
-     , (36527,  14, True ) /* GravityStatus */
-     , (36527,  19, True ) /* Attackable */;
+VALUES (36527,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36527,   1, 'Pumpkin Vine') /* Name */

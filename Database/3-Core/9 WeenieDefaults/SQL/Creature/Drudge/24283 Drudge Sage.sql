@@ -16,14 +16,10 @@ VALUES (24283,   1,         16) /* ItemType - Creature */
      , (24283, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24283,   1, True ) /* Stuck */
-     , (24283,  12, True ) /* ReportCollisions */
-     , (24283,  13, False) /* Ethereal */
-     , (24283,  14, True ) /* GravityStatus */
-     , (24283,  19, True ) /* Attackable */;
+VALUES (24283,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24283,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (24283,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24283,   1, 'Drudge Sage') /* Name */

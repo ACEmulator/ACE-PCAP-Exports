@@ -12,19 +12,13 @@ VALUES (14635,   1,      65536) /* ItemType - Portal */
      , (14635, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14635,   1, True ) /* Stuck */
-     , (14635,  12, True ) /* ReportCollisions */
-     , (14635,  13, True ) /* Ethereal */
-     , (14635,  14, True ) /* GravityStatus */
-     , (14635,  15, True ) /* LightsStatus */
-     , (14635,  19, True ) /* Attackable */;
+VALUES (14635,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14635,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14635,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14635,   1, 'Hidden Valley Portal') /* Name */
-     , (14635,  38, 'Hidden Valley Portal (59.3N, 19.1W).') /* AppraisalPortalDestination */
      , (14635, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

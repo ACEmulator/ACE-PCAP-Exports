@@ -33,18 +33,13 @@ VALUES (40819,   1,          1) /* ItemType - MeleeWeapon */
      , (40819, 172,          1) /* AppraisalLongDescDecoration */
      , (40819, 176,         41) /* AppraisalItemSkill */
      , (40819, 353,         11) /* WeaponType - TwoHanded */
-     , (40819, 8030,          0);
+     , (40819, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40819,   1, False) /* Stuck */
-     , (40819,  11, True ) /* IgnoreCollisions */
-     , (40819,  13, True ) /* Ethereal */
-     , (40819,  14, True ) /* GravityStatus */
-     , (40819,  19, True ) /* Attackable */
-     , (40819,  22, True ) /* Inscribable */;
+VALUES (40819,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40819,   5, -0.0416666666666667) /* ManaRate */
+VALUES (40819,   5,   -0.04) /* ManaRate */
      , (40819,  21,       0) /* WeaponLength */
      , (40819,  22,    0.45) /* DamageVariance */
      , (40819,  26,       0) /* MaximumVelocity */

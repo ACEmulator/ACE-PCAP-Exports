@@ -11,17 +11,13 @@ VALUES (33185,   1,      65536) /* ItemType - Portal */
      , (33185, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33185,   1, True ) /* Stuck */
-     , (33185,  11, True ) /* IgnoreCollisions */
-     , (33185,  13, True ) /* Ethereal */
-     , (33185,  19, True ) /* Attackable */;
+VALUES (33185,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33185,  54, 0.100000001490116) /* UseRadius */;
+VALUES (33185,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33185,   1, 'Spire''s Head') /* Name */
-     , (33185,  38, 'Spire''s Head') /* AppraisalPortalDestination */;
+VALUES (33185,   1, 'Spire''s Head') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33185,   1,   33559971) /* Setup */

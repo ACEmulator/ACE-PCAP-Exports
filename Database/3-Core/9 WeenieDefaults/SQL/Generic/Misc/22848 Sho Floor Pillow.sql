@@ -8,17 +8,12 @@ VALUES (22848,   1,        128) /* ItemType - Misc */
      , (22848,   5,        500) /* EncumbranceVal */
      , (22848,  16,          1) /* ItemUseable - No */
      , (22848,  19,       5000) /* Value */
-     , (22848,  65,        101) /* Placement - Resting */
      , (22848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22848, 151,          1) /* HookType - Floor */;
+     , (22848, 151,          1) /* HookType - Floor */
+     , (22848, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22848,   1, False) /* Stuck */
-     , (22848,  11, True ) /* IgnoreCollisions */
-     , (22848,  13, True ) /* Ethereal */
-     , (22848,  14, True ) /* GravityStatus */
-     , (22848,  19, True ) /* Attackable */
-     , (22848,  22, True ) /* Inscribable */;
+VALUES (22848,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22848,   1, 'Sho Floor Pillow') /* Name */

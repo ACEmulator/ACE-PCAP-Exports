@@ -18,16 +18,11 @@ VALUES (40790,   1,        128) /* ItemType - Misc */
      , (40790, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40790,   1, False) /* Stuck */
-     , (40790,  11, True ) /* IgnoreCollisions */
-     , (40790,  13, True ) /* Ethereal */
-     , (40790,  14, True ) /* GravityStatus */
-     , (40790,  19, True ) /* Attackable */
-     , (40790,  22, True ) /* Inscribable */
+VALUES (40790,  22, True ) /* Inscribable */
      , (40790,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40790,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (40790,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40790,   1, 'Elemental Progenitor Crystal') /* Name */

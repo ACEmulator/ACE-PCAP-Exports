@@ -15,14 +15,10 @@ VALUES (24496,   1,         16) /* ItemType - Creature */
      , (24496, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24496,   1, True ) /* Stuck */
-     , (24496,  12, True ) /* ReportCollisions */
-     , (24496,  13, False) /* Ethereal */
-     , (24496,  14, True ) /* GravityStatus */
-     , (24496,  19, True ) /* Attackable */;
+VALUES (24496,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24496,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (24496,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24496,   1, 'General Garsh') /* Name */

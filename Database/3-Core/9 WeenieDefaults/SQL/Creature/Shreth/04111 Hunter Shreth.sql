@@ -15,11 +15,7 @@ VALUES (4111,   1,         16) /* ItemType - Creature */
      , (4111, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4111,   1, True ) /* Stuck */
-     , (4111,  12, True ) /* ReportCollisions */
-     , (4111,  13, False) /* Ethereal */
-     , (4111,  14, True ) /* GravityStatus */
-     , (4111,  19, True ) /* Attackable */;
+VALUES (4111,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4111,   1, 'Hunter Shreth') /* Name */

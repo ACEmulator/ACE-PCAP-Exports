@@ -9,17 +9,12 @@ VALUES (24925,   1,        128) /* ItemType - Misc */
      , (24925,  16,          1) /* ItemUseable - No */
      , (24925,  19,          0) /* Value */
      , (24925,  33,          1) /* Bonded - Bonded */
-     , (24925,  65,        101) /* Placement - Resting */
      , (24925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24925, 114,          1) /* Attuned - Attuned */;
+     , (24925, 114,          1) /* Attuned - Attuned */
+     , (24925, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24925,   1, False) /* Stuck */
-     , (24925,  11, True ) /* IgnoreCollisions */
-     , (24925,  13, True ) /* Ethereal */
-     , (24925,  14, True ) /* GravityStatus */
-     , (24925,  19, True ) /* Attackable */
-     , (24925,  22, True ) /* Inscribable */;
+VALUES (24925,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24925,   1, 'Brood Queen Elder Carapace') /* Name */

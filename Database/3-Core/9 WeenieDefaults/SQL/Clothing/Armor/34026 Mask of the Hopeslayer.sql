@@ -10,17 +10,12 @@ VALUES (34026,   1,          2) /* ItemType - Armor */
      , (34026,   9,          1) /* ValidLocations - HeadWear */
      , (34026,  16,          1) /* ItemUseable - No */
      , (34026,  19,      10000) /* Value */
-     , (34026,  65,        101) /* Placement - Resting */
      , (34026,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34026, 151,          2) /* HookType - Wall */;
+     , (34026, 151,          2) /* HookType - Wall */
+     , (34026, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34026,   1, False) /* Stuck */
-     , (34026,  11, True ) /* IgnoreCollisions */
-     , (34026,  13, True ) /* Ethereal */
-     , (34026,  14, True ) /* GravityStatus */
-     , (34026,  19, True ) /* Attackable */
-     , (34026,  22, True ) /* Inscribable */;
+VALUES (34026,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34026,   1, 'Mask of the Hopeslayer') /* Name */;

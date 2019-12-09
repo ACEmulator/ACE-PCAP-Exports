@@ -12,12 +12,7 @@ VALUES (52582,   1,        128) /* ItemType - Misc */
      , (52582, 151,         16) /* HookType - Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52582,   1, False) /* Stuck */
-     , (52582,  11, True ) /* IgnoreCollisions */
-     , (52582,  13, True ) /* Ethereal */
-     , (52582,  14, True ) /* GravityStatus */
-     , (52582,  19, True ) /* Attackable */
-     , (52582,  22, True ) /* Inscribable */;
+VALUES (52582,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52582,   1, 'Holiday Chimney') /* Name */

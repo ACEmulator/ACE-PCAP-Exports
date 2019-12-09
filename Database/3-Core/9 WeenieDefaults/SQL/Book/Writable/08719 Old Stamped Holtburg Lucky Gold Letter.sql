@@ -8,18 +8,11 @@ VALUES (8719,   1,       8192) /* ItemType - Writable */
      , (8719,   5,         10) /* EncumbranceVal */
      , (8719,  16,          8) /* ItemUseable - Contained */
      , (8719,  19,          1) /* Value */
-     , (8719,  65,        101) /* Placement - Resting */
-     , (8719,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8719,   1, False) /* Stuck */
-     , (8719,  11, True ) /* IgnoreCollisions */
-     , (8719,  13, True ) /* Ethereal */
-     , (8719,  14, True ) /* GravityStatus */
-     , (8719,  19, True ) /* Attackable */;
+     , (8719,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8719, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8719,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8719,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8719,   1, 'Old Stamped Holtburg Lucky Gold Letter') /* Name */;

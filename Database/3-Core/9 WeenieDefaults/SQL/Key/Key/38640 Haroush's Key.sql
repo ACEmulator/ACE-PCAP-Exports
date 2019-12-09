@@ -9,20 +9,15 @@ VALUES (38640,   1,      16384) /* ItemType - Key */
      , (38640,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (38640,  19,          0) /* Value */
      , (38640,  33,          1) /* Bonded - Bonded */
-     , (38640,  65,        101) /* Placement - Resting */
      , (38640,  91,          1) /* MaxStructure */
      , (38640,  92,          1) /* Structure */
      , (38640,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38640,  94,        640) /* TargetType - LockableMagicTarget */
-     , (38640, 114,          1) /* Attuned - Attuned */;
+     , (38640, 114,          1) /* Attuned - Attuned */
+     , (38640, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38640,   1, False) /* Stuck */
-     , (38640,  11, True ) /* IgnoreCollisions */
-     , (38640,  13, True ) /* Ethereal */
-     , (38640,  14, True ) /* GravityStatus */
-     , (38640,  19, True ) /* Attackable */
-     , (38640,  22, True ) /* Inscribable */;
+VALUES (38640,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38640,   1, 'Haroush''s Key') /* Name */

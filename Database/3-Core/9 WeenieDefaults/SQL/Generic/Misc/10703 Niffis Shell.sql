@@ -8,19 +8,14 @@ VALUES (10703,   1,        128) /* ItemType - Misc */
      , (10703,   5,        500) /* EncumbranceVal */
      , (10703,  16,          1) /* ItemUseable - No */
      , (10703,  19,          0) /* Value */
-     , (10703,  65,        101) /* Placement - Resting */
-     , (10703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (10703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (10703, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10703,   1, False) /* Stuck */
-     , (10703,  11, True ) /* IgnoreCollisions */
-     , (10703,  13, True ) /* Ethereal */
-     , (10703,  14, True ) /* GravityStatus */
-     , (10703,  19, True ) /* Attackable */
-     , (10703,  22, True ) /* Inscribable */;
+VALUES (10703,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10703,  39, 0.699999988079071) /* DefaultScale */;
+VALUES (10703,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10703,   1, 'Niffis Shell') /* Name */

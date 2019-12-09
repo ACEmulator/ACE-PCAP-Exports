@@ -9,20 +9,15 @@ VALUES (32802,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32802,  16,          1) /* ItemUseable - No */
      , (32802,  18,         64) /* UiEffects - Lightning */
      , (32802,  19,          0) /* Value */
-     , (32802,  65,        101) /* Placement - Resting */
      , (32802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32802, 151,          2) /* HookType - Wall */;
+     , (32802, 151,          2) /* HookType - Wall */
+     , (32802, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32802,   1, False) /* Stuck */
-     , (32802,  11, True ) /* IgnoreCollisions */
-     , (32802,  13, True ) /* Ethereal */
-     , (32802,  14, True ) /* GravityStatus */
-     , (32802,  19, True ) /* Attackable */
-     , (32802,  22, True ) /* Inscribable */;
+VALUES (32802,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32802,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (32802,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32802,   1, 'Black Ball') /* Name */

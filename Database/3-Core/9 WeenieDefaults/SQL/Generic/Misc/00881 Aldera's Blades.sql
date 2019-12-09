@@ -8,20 +8,15 @@ VALUES (881,   1,        128) /* ItemType - Misc */
      , (881,   5,       9000) /* EncumbranceVal */
      , (881,  16,          1) /* ItemUseable - No */
      , (881,  19,        125) /* Value */
-     , (881,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (881,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (881,   1, True ) /* Stuck */
-     , (881,  11, True ) /* IgnoreCollisions */
-     , (881,  12, True ) /* ReportCollisions */
-     , (881,  13, False) /* Ethereal */
-     , (881,  14, True ) /* GravityStatus */
-     , (881,  19, True ) /* Attackable */;
+VALUES (881,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (881, 8010,       0) /* PCAPRecordedVelocityX */
      , (881, 8011,       0) /* PCAPRecordedVelocityY */
-     , (881, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (881, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (881,   1, 'Aldera''s Blades') /* Name */

@@ -9,17 +9,12 @@ VALUES (30858,   1,        128) /* ItemType - Misc */
      , (30858,  16,          1) /* ItemUseable - No */
      , (30858,  19,          0) /* Value */
      , (30858,  33,          1) /* Bonded - Bonded */
-     , (30858,  65,        101) /* Placement - Resting */
      , (30858,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30858, 114,          1) /* Attuned - Attuned */;
+     , (30858, 114,          1) /* Attuned - Attuned */
+     , (30858, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30858,   1, False) /* Stuck */
-     , (30858,  11, True ) /* IgnoreCollisions */
-     , (30858,  13, True ) /* Ethereal */
-     , (30858,  14, True ) /* GravityStatus */
-     , (30858,  19, True ) /* Attackable */
-     , (30858,  22, True ) /* Inscribable */;
+VALUES (30858,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30858,   1, 'Sezzherei Slayer Token') /* Name */

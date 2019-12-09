@@ -9,17 +9,12 @@ VALUES (34457,   1,        128) /* ItemType - Misc */
      , (34457,  16,          1) /* ItemUseable - No */
      , (34457,  19,          0) /* Value */
      , (34457,  33,          1) /* Bonded - Bonded */
-     , (34457,  65,        101) /* Placement - Resting */
      , (34457,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34457, 114,          1) /* Attuned - Attuned */;
+     , (34457, 114,          1) /* Attuned - Attuned */
+     , (34457, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34457,   1, False) /* Stuck */
-     , (34457,  11, True ) /* IgnoreCollisions */
-     , (34457,  13, True ) /* Ethereal */
-     , (34457,  14, True ) /* GravityStatus */
-     , (34457,  19, True ) /* Attackable */
-     , (34457,  22, True ) /* Inscribable */;
+VALUES (34457,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34457,   1, 'Thunder Chicken Token') /* Name */

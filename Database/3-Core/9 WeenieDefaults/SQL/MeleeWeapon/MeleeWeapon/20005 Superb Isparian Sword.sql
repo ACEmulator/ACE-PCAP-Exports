@@ -18,7 +18,6 @@ VALUES (20005,   1,          1) /* ItemType - MeleeWeapon */
      , (20005,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (20005,  49,         35) /* WeaponTime */
      , (20005,  51,          1) /* CombatUse - Melee */
-     , (20005,  65,        101) /* Placement - Resting */
      , (20005,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20005, 106,        100) /* ItemSpellcraft */
      , (20005, 107,        600) /* ItemCurMana */
@@ -28,24 +27,20 @@ VALUES (20005,   1,          1) /* ItemType - MeleeWeapon */
      , (20005, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (20005, 160,        270) /* WieldDifficulty */
      , (20005, 353,          2) /* WeaponType - Sword */
-     , (20005, 8030,          0);
+     , (20005, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (20005, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20005,   1, False) /* Stuck */
-     , (20005,  11, True ) /* IgnoreCollisions */
-     , (20005,  13, True ) /* Ethereal */
-     , (20005,  14, True ) /* GravityStatus */
-     , (20005,  19, True ) /* Attackable */
-     , (20005,  22, True ) /* Inscribable */
+VALUES (20005,  22, True ) /* Inscribable */
      , (20005,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20005,   5, -0.0500000007450581) /* ManaRate */
+VALUES (20005,   5,   -0.05) /* ManaRate */
      , (20005,  21,       0) /* WeaponLength */
      , (20005,  22,     0.5) /* DamageVariance */
      , (20005,  26,       0) /* MaximumVelocity */
-     , (20005,  29, 1.08000004291534) /* WeaponDefense */
-     , (20005,  62, 1.21000003814697) /* WeaponOffense */
+     , (20005,  29,    1.08) /* WeaponDefense */
+     , (20005,  62,    1.21) /* WeaponOffense */
      , (20005,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -13,19 +13,13 @@ VALUES (1127,   1,      65536) /* ItemType - Portal */
      , (1127, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1127,   1, True ) /* Stuck */
-     , (1127,  12, True ) /* ReportCollisions */
-     , (1127,  13, True ) /* Ethereal */
-     , (1127,  14, True ) /* GravityStatus */
-     , (1127,  15, True ) /* LightsStatus */
-     , (1127,  19, True ) /* Attackable */;
+VALUES (1127,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1127,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1127,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1127,   1, 'ReedShark Lair Portal') /* Name */
-     , (1127,  38, 'ReedShark Lair Portal') /* AppraisalPortalDestination */
      , (1127, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

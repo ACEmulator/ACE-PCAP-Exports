@@ -12,7 +12,6 @@ VALUES (19672,   1,          8) /* ItemType - Jewelry */
      , (19672,  18,        256) /* UiEffects - Acid */
      , (19672,  19,       5000) /* Value */
      , (19672,  33,          1) /* Bonded - Bonded */
-     , (19672,  65,        101) /* Placement - Resting */
      , (19672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19672, 106,        225) /* ItemSpellcraft */
      , (19672, 107,        268) /* ItemCurMana */
@@ -22,22 +21,18 @@ VALUES (19672,   1,          8) /* ItemType - Jewelry */
      , (19672, 151,          2) /* HookType - Wall */
      , (19672, 158,          7) /* WieldRequirements - Level */
      , (19672, 159,          1) /* WieldSkillType - Axe */
-     , (19672, 160,         15) /* WieldDifficulty */;
+     , (19672, 160,         15) /* WieldDifficulty */
+     , (19672, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19672,   1, False) /* Stuck */
-     , (19672,  11, True ) /* IgnoreCollisions */
-     , (19672,  13, True ) /* Ethereal */
-     , (19672,  14, True ) /* GravityStatus */
-     , (19672,  19, True ) /* Attackable */
-     , (19672,  22, True ) /* Inscribable */
+VALUES (19672,  22, True ) /* Inscribable */
      , (19672,  69, False) /* IsSellable */
      , (19672,  94, True ) /* AppraisalHasAllowedActivator */
      , (19672,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19672,   5,  -0.033) /* ManaRate */
-     , (19672,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19672,   5,   -0.03) /* ManaRate */
+     , (19672,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19672,   1, 'Nuhmudira''s Benefaction of Strength and Acid Defense') /* Name */

@@ -12,16 +12,9 @@ VALUES (4766,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4766,  15,          2) /* StackUnitValue */
      , (4766,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4766,  19,          2) /* Value */
-     , (4766,  65,        101) /* Placement - Resting */
      , (4766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4766,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4766,   1, False) /* Stuck */
-     , (4766,  11, True ) /* IgnoreCollisions */
-     , (4766,  13, True ) /* Ethereal */
-     , (4766,  14, True ) /* GravityStatus */
-     , (4766,  19, True ) /* Attackable */;
+     , (4766,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (4766, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4766,   1, 'Rennet') /* Name */

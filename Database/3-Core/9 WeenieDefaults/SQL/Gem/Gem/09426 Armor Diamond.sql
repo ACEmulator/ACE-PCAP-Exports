@@ -13,22 +13,17 @@ VALUES (9426,   1,       2048) /* ItemType - Gem */
      , (9426,  16,          8) /* ItemUseable - Contained */
      , (9426,  18,          1) /* UiEffects - Magical */
      , (9426,  19,        200) /* Value */
-     , (9426,  65,        101) /* Placement - Resting */
      , (9426,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9426,  94,         16) /* TargetType - Creature */
      , (9426, 106,        210) /* ItemSpellcraft */
      , (9426, 107,        100) /* ItemCurMana */
      , (9426, 108,        200) /* ItemMaxMana */
      , (9426, 109,          0) /* ItemDifficulty */
-     , (9426, 110,          0) /* ItemAllegianceRankLimit */;
+     , (9426, 110,          0) /* ItemAllegianceRankLimit */
+     , (9426, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9426,   1, False) /* Stuck */
-     , (9426,  11, True ) /* IgnoreCollisions */
-     , (9426,  13, True ) /* Ethereal */
-     , (9426,  14, True ) /* GravityStatus */
-     , (9426,  19, True ) /* Attackable */
-     , (9426,  22, True ) /* Inscribable */;
+VALUES (9426,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9426,   1, 'Armor Diamond') /* Name */

@@ -18,14 +18,10 @@ VALUES (44046,   1,         16) /* ItemType - Creature */
      , (44046, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44046,   1, True ) /* Stuck */
-     , (44046,  12, True ) /* ReportCollisions */
-     , (44046,  13, False) /* Ethereal */
-     , (44046,  14, True ) /* GravityStatus */
-     , (44046,  19, True ) /* Attackable */;
+VALUES (44046,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44046,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (44046,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44046,   1, 'Mu-miyah Vizier') /* Name */

@@ -9,20 +9,15 @@ VALUES (24182,   1,      16384) /* ItemType - Key */
      , (24182,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (24182,  19,        100) /* Value */
      , (24182,  33,          1) /* Bonded - Bonded */
-     , (24182,  65,        101) /* Placement - Resting */
      , (24182,  91,          1) /* MaxStructure */
      , (24182,  92,          1) /* Structure */
      , (24182,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24182,  94,        640) /* TargetType - LockableMagicTarget */
-     , (24182, 114,          1) /* Attuned - Attuned */;
+     , (24182, 114,          1) /* Attuned - Attuned */
+     , (24182, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24182,   1, False) /* Stuck */
-     , (24182,  11, True ) /* IgnoreCollisions */
-     , (24182,  13, True ) /* Ethereal */
-     , (24182,  14, True ) /* GravityStatus */
-     , (24182,  19, True ) /* Attackable */
-     , (24182,  22, True ) /* Inscribable */;
+VALUES (24182,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24182,   1, 'Key to Jaleh''s Chest') /* Name */

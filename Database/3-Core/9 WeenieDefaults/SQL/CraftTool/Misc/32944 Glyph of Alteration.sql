@@ -12,19 +12,14 @@ VALUES (32944,   1,        128) /* ItemType - Misc */
      , (32944,  15,       5000) /* StackUnitValue */
      , (32944,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32944,  19,       5000) /* Value */
-     , (32944,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (32944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32944,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32944,   1, False) /* Stuck */
-     , (32944,  11, True ) /* IgnoreCollisions */
-     , (32944,  13, True ) /* Ethereal */
-     , (32944,  14, True ) /* GravityStatus */
-     , (32944,  19, True ) /* Attackable */
-     , (32944,  22, True ) /* Inscribable */;
+VALUES (32944,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32944,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (32944,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32944,   1, 'Glyph of Alteration') /* Name */

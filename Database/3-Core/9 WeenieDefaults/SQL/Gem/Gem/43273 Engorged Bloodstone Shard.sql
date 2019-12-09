@@ -10,12 +10,7 @@ VALUES (43273,   1,       2048) /* ItemType - Gem */
      , (43273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43273,   1, False) /* Stuck */
-     , (43273,  11, True ) /* IgnoreCollisions */
-     , (43273,  13, True ) /* Ethereal */
-     , (43273,  14, True ) /* GravityStatus */
-     , (43273,  19, True ) /* Attackable */
-     , (43273,  22, True ) /* Inscribable */;
+VALUES (43273,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43273,   1, 'Engorged Bloodstone Shard') /* Name */;

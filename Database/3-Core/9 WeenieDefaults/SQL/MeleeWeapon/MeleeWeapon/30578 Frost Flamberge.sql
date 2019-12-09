@@ -37,25 +37,20 @@ VALUES (30578,   1,          1) /* ItemType - MeleeWeapon */
      , (30578, 178,         13) /* GemType */
      , (30578, 179,        128) /* ImbuedEffect - ColdRending */
      , (30578, 353,          2) /* WeaponType - Sword */
-     , (30578, 8030,          0);
+     , (30578, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30578,   1, False) /* Stuck */
-     , (30578,  11, True ) /* IgnoreCollisions */
-     , (30578,  13, True ) /* Ethereal */
-     , (30578,  14, True ) /* GravityStatus */
-     , (30578,  19, True ) /* Attackable */
-     , (30578,  22, True ) /* Inscribable */
+VALUES (30578,  22, True ) /* Inscribable */
      , (30578,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30578,   5, -0.0555555559694767) /* ManaRate */
+VALUES (30578,   5,   -0.06) /* ManaRate */
      , (30578,  21,       0) /* WeaponLength */
-     , (30578,  22, 0.217087998986244) /* DamageVariance */
+     , (30578,  22,    0.22) /* DamageVariance */
      , (30578,  26,       0) /* MaximumVelocity */
-     , (30578,  29, 1.16999995708466) /* WeaponDefense */
-     , (30578,  39, 1.10000002384186) /* DefaultScale */
-     , (30578,  62, 1.20000004768372) /* WeaponOffense */
+     , (30578,  29,    1.17) /* WeaponDefense */
+     , (30578,  39,     1.1) /* DefaultScale */
+     , (30578,  62,     1.2) /* WeaponOffense */
      , (30578,  63,       1) /* DamageMod */
      , (30578, 8004,       5) /* PCAPRecordedWorkmanship */;
 

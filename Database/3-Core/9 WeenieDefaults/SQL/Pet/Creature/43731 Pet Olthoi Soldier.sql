@@ -18,14 +18,10 @@ VALUES (43731,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43731,   1, True ) /* Stuck */
-     , (43731,  11, True ) /* IgnoreCollisions */
-     , (43731,  13, True ) /* Ethereal */
-     , (43731,  14, True ) /* GravityStatus */
-     , (43731,  19, False) /* Attackable */
-     , (43731,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (43731,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43731,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (43731,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43731,   1, 'Pet Olthoi Soldier') /* Name */

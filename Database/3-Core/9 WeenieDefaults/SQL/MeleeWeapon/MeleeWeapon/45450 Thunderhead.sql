@@ -16,12 +16,7 @@ VALUES (45450,   1,          1) /* ItemType - MeleeWeapon */
      , (45450, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45450,   1, False) /* Stuck */
-     , (45450,  11, True ) /* IgnoreCollisions */
-     , (45450,  13, True ) /* Ethereal */
-     , (45450,  14, True ) /* GravityStatus */
-     , (45450,  19, True ) /* Attackable */
-     , (45450,  22, True ) /* Inscribable */
+VALUES (45450,  22, True ) /* Inscribable */
      , (45450,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

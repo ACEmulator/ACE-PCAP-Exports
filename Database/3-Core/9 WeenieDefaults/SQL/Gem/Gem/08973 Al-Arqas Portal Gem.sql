@@ -13,7 +13,6 @@ VALUES (8973,   1,       2048) /* ItemType - Gem */
      , (8973,  16,          8) /* ItemUseable - Contained */
      , (8973,  18,          1) /* UiEffects - Magical */
      , (8973,  19,        500) /* Value */
-     , (8973,  65,        101) /* Placement - Resting */
      , (8973,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8973,  94,         16) /* TargetType - Creature */
      , (8973, 106,        210) /* ItemSpellcraft */
@@ -22,15 +21,8 @@ VALUES (8973,   1,       2048) /* ItemType - Gem */
      , (8973, 109,          0) /* ItemDifficulty */
      , (8973, 110,          0) /* ItemAllegianceRankLimit */
      , (8973, 151,          2) /* HookType - Wall */
-     , (8973, 280,       1000) /* SharedCooldown */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8973,   1, False) /* Stuck */
-     , (8973,  11, True ) /* IgnoreCollisions */
-     , (8973,  13, True ) /* Ethereal */
-     , (8973,  14, True ) /* GravityStatus */
-     , (8973,  15, True ) /* LightsStatus */
-     , (8973,  19, True ) /* Attackable */;
+     , (8973, 280,       1000) /* SharedCooldown */
+     , (8973, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8973, 167,      15) /* CooldownDuration */;

@@ -8,19 +8,14 @@ VALUES (28208,   1,        128) /* ItemType - Misc */
      , (28208,   5,        105) /* EncumbranceVal */
      , (28208,  16,          1) /* ItemUseable - No */
      , (28208,  19,         80) /* Value */
-     , (28208,  65,        101) /* Placement - Resting */
-     , (28208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28208, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28208,   1, False) /* Stuck */
-     , (28208,  11, True ) /* IgnoreCollisions */
-     , (28208,  13, True ) /* Ethereal */
-     , (28208,  14, True ) /* GravityStatus */
-     , (28208,  19, True ) /* Attackable */
-     , (28208,  22, True ) /* Inscribable */;
+VALUES (28208,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28208,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (28208,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28208,   1, 'Ebon Gromnie Tooth') /* Name */;

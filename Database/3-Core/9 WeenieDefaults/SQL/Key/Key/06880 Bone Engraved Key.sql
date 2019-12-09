@@ -8,19 +8,14 @@ VALUES (6880,   1,      16384) /* ItemType - Key */
      , (6880,   5,         50) /* EncumbranceVal */
      , (6880,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (6880,  19,         10) /* Value */
-     , (6880,  65,        101) /* Placement - Resting */
      , (6880,  91,          1) /* MaxStructure */
      , (6880,  92,          1) /* Structure */
      , (6880,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6880,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (6880,  94,        640) /* TargetType - LockableMagicTarget */
+     , (6880, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6880,   1, False) /* Stuck */
-     , (6880,  11, True ) /* IgnoreCollisions */
-     , (6880,  13, True ) /* Ethereal */
-     , (6880,  14, True ) /* GravityStatus */
-     , (6880,  19, True ) /* Attackable */
-     , (6880,  22, True ) /* Inscribable */;
+VALUES (6880,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6880,   1, 'Bone Engraved Key') /* Name */;

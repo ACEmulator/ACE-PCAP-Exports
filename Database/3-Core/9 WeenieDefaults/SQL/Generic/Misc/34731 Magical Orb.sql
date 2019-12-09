@@ -9,14 +9,11 @@ VALUES (34731,   1,        128) /* ItemType - Misc */
      , (34731,  16,          1) /* ItemUseable - No */
      , (34731,  18,         64) /* UiEffects - Lightning */
      , (34731,  19,          0) /* Value */
-     , (34731,  65,        101) /* Placement - Resting */
-     , (34731,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */;
+     , (34731,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
+     , (34731, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34731,   1, True ) /* Stuck */
-     , (34731,  11, True ) /* IgnoreCollisions */
-     , (34731,  13, True ) /* Ethereal */
-     , (34731,  19, True ) /* Attackable */;
+VALUES (34731,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34731,  39,    0.75) /* DefaultScale */;

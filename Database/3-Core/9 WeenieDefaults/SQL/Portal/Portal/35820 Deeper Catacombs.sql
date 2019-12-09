@@ -13,20 +13,14 @@ VALUES (35820,   1,      65536) /* ItemType - Portal */
      , (35820, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35820,   1, True ) /* Stuck */
-     , (35820,  12, True ) /* ReportCollisions */
-     , (35820,  13, True ) /* Ethereal */
-     , (35820,  14, True ) /* GravityStatus */
-     , (35820,  15, True ) /* LightsStatus */
-     , (35820,  19, True ) /* Attackable */;
+VALUES (35820,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35820,  54, -0.100000001490116) /* UseRadius */;
+VALUES (35820,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35820,   1, 'Deeper Catacombs') /* Name */
      , (35820,  16, 'This portal leads into the catacombs created by the Paradox-touched Olthoi Queen.') /* LongDesc */
-     , (35820,  38, 'Deeper Catacombs') /* AppraisalPortalDestination */
      , (35820, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

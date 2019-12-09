@@ -16,22 +16,17 @@ VALUES (30184,   1,       2048) /* ItemType - Gem */
      , (30184,  19,          0) /* Value */
      , (30184,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30184,  33,         -1) /* Bonded - Slippery */
-     , (30184,  65,        101) /* Placement - Resting */
      , (30184,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30184,  94,         16) /* TargetType - Creature */
      , (30184, 106,        325) /* ItemSpellcraft */
      , (30184, 107,      10000) /* ItemCurMana */
      , (30184, 108,      10000) /* ItemMaxMana */
      , (30184, 109,          0) /* ItemDifficulty */
-     , (30184, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30184, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30184, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30184,   1, False) /* Stuck */
-     , (30184,  11, True ) /* IgnoreCollisions */
-     , (30184,  13, True ) /* Ethereal */
-     , (30184,  14, True ) /* GravityStatus */
-     , (30184,  19, True ) /* Attackable */
-     , (30184, 108, True ) /* RareUsesTimer */;
+VALUES (30184, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30184,   1, 'Scholar''s Crystal') /* Name */

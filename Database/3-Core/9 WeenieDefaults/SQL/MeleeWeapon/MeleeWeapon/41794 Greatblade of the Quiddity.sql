@@ -12,21 +12,15 @@ VALUES (41794,   1,          1) /* ItemType - MeleeWeapon */
      , (41794,  18,          1) /* UiEffects - Magical */
      , (41794,  19,       2000) /* Value */
      , (41794,  51,          5) /* CombatUse - TwoHanded */
-     , (41794,  65,          1) /* Placement - RightHandCombat */
      , (41794,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (41794, 151,          2) /* HookType - Wall */;
+     , (41794, 151,          2) /* HookType - Wall */
+     , (41794, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41794,   1, False) /* Stuck */
-     , (41794,  11, True ) /* IgnoreCollisions */
-     , (41794,  13, True ) /* Ethereal */
-     , (41794,  14, True ) /* GravityStatus */
-     , (41794,  15, True ) /* LightsStatus */
-     , (41794,  19, True ) /* Attackable */
-     , (41794,  22, True ) /* Inscribable */;
+VALUES (41794,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41794,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (41794,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41794,   1, 'Greatblade of the Quiddity') /* Name */;

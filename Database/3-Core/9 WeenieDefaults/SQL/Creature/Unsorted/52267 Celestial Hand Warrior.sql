@@ -14,13 +14,7 @@ VALUES (52267,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52267,   1, True ) /* Stuck */
-     , (52267,  11, True ) /* IgnoreCollisions */
-     , (52267,  12, True ) /* ReportCollisions */
-     , (52267,  13, False) /* Ethereal */
-     , (52267,  14, True ) /* GravityStatus */
-     , (52267,  19, False) /* Attackable */
-     , (52267,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (52267,  42, True ) /* AllowEdgeSlide */;
+     , (52267,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52267,   1, 'Celestial Hand Warrior') /* Name */

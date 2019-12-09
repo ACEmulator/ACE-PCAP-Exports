@@ -17,12 +17,7 @@ VALUES (51341,   1,       2048) /* ItemType - Gem */
      , (51341, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51341,   1, False) /* Stuck */
-     , (51341,  11, True ) /* IgnoreCollisions */
-     , (51341,  13, True ) /* Ethereal */
-     , (51341,  14, True ) /* GravityStatus */
-     , (51341,  19, True ) /* Attackable */
-     , (51341,  22, True ) /* Inscribable */
+VALUES (51341,  22, True ) /* Inscribable */
      , (51341,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

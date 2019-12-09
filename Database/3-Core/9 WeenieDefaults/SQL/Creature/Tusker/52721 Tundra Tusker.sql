@@ -16,14 +16,10 @@ VALUES (52721,   1,         16) /* ItemType - Creature */
      , (52721, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52721,   1, True ) /* Stuck */
-     , (52721,  12, True ) /* ReportCollisions */
-     , (52721,  13, False) /* Ethereal */
-     , (52721,  14, True ) /* GravityStatus */
-     , (52721,  19, True ) /* Attackable */;
+VALUES (52721,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52721,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (52721,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52721,   1, 'Tundra Tusker') /* Name */

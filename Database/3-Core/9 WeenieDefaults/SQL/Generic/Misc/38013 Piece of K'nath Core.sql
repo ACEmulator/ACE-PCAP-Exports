@@ -7,21 +7,15 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38013,   1,        128) /* ItemType - Misc */
      , (38013,   5,        100) /* EncumbranceVal */
      , (38013,  16,          1) /* ItemUseable - No */
-     , (38013,  65,        101) /* Placement - Resting */
-     , (38013,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (38013,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (38013, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38013,   1, False) /* Stuck */
-     , (38013,  11, True ) /* IgnoreCollisions */
-     , (38013,  13, True ) /* Ethereal */
-     , (38013,  14, True ) /* GravityStatus */
-     , (38013,  15, True ) /* LightsStatus */
-     , (38013,  19, True ) /* Attackable */
-     , (38013,  22, True ) /* Inscribable */;
+VALUES (38013,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38013,  39, 0.200000002980232) /* DefaultScale */
-     , (38013,  76, 0.600000023841858) /* Translucency */;
+VALUES (38013,  39,     0.2) /* DefaultScale */
+     , (38013,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38013,   1, 'Piece of K''nath Core') /* Name */;

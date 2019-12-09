@@ -6,18 +6,11 @@ VALUES (37522, 'ace37522-foolproofblackopalorders', 1, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37522,   1,        128) /* ItemType - Misc */
      , (37522,  16,          1) /* ItemUseable - No */
-     , (37522,  65,        101) /* Placement - Resting */
-     , (37522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37522,   1, False) /* Stuck */
-     , (37522,  11, True ) /* IgnoreCollisions */
-     , (37522,  13, True ) /* Ethereal */
-     , (37522,  14, True ) /* GravityStatus */
-     , (37522,  19, True ) /* Attackable */;
+     , (37522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37522, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37522,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (37522,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37522,   1, 'Foolproof Black Opal Orders') /* Name */;

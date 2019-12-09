@@ -11,20 +11,14 @@ VALUES (4043,   1,      65536) /* ItemType - Portal */
      , (4043, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4043,   1, True ) /* Stuck */
-     , (4043,  11, True ) /* IgnoreCollisions */
-     , (4043,  13, True ) /* Ethereal */
-     , (4043,  14, True ) /* GravityStatus */
-     , (4043,  15, True ) /* LightsStatus */
-     , (4043,  19, True ) /* Attackable */;
+VALUES (4043,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4043,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4043,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4043,   1, 'Destroyed Sawato Portal') /* Name */
      , (4043,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (4043,  38, 'Destroyed Sawato Portal (29.1S, 58.9E).') /* AppraisalPortalDestination */
      , (4043, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

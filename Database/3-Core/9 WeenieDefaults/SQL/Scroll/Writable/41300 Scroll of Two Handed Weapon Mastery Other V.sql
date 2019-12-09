@@ -8,16 +8,11 @@ VALUES (41300,   1,       8192) /* ItemType - Writable */
      , (41300,   5,         30) /* EncumbranceVal */
      , (41300,  16,          8) /* ItemUseable - Contained */
      , (41300,  19,        200) /* Value */
-     , (41300,  65,        101) /* Placement - Resting */
-     , (41300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (41300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41300, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41300,   1, False) /* Stuck */
-     , (41300,  11, True ) /* IgnoreCollisions */
-     , (41300,  13, True ) /* Ethereal */
-     , (41300,  14, True ) /* GravityStatus */
-     , (41300,  19, True ) /* Attackable */
-     , (41300,  22, True ) /* Inscribable */;
+VALUES (41300,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41300,  39,     1.5) /* DefaultScale */;
@@ -32,7 +27,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41300,   1,   33554826) /* Setup */
      , (41300,   8,  100690644) /* Icon */
      , (41300,  22,  872415275) /* PhysicsEffectTable */
-     , (41300,  28,       5095) /* Spell - TwoHandedmastery5 */
+     , (41300,  28,       5095) /* Spell - TwoHandedMasteryOther5 */
      , (41300, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (41300, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41300, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;

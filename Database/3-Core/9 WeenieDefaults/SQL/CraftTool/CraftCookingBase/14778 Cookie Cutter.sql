@@ -12,18 +12,13 @@ VALUES (14778,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14778,  15,         25) /* StackUnitValue */
      , (14778,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14778,  19,         25) /* Value */
-     , (14778,  65,        101) /* Placement - Resting */
      , (14778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14778,  94,    4194592) /* TargetType - Food, MissileWeapon, CraftCookingBase */
-     , (14778, 151,          2) /* HookType - Wall */;
+     , (14778, 151,          2) /* HookType - Wall */
+     , (14778, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14778,   1, False) /* Stuck */
-     , (14778,  11, True ) /* IgnoreCollisions */
-     , (14778,  13, True ) /* Ethereal */
-     , (14778,  14, True ) /* GravityStatus */
-     , (14778,  19, True ) /* Attackable */
-     , (14778,  22, True ) /* Inscribable */;
+VALUES (14778,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14778,   1, 'Cookie Cutter') /* Name */;

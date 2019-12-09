@@ -12,18 +12,11 @@ VALUES (775,   1,       4096) /* ItemType - SpellComponents */
      , (775,  15,         10) /* StackUnitValue */
      , (775,  16,          1) /* ItemUseable - No */
      , (775,  19,         10) /* Value */
-     , (775,  65,        101) /* Placement - Resting */
-     , (775,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (775,   1, False) /* Stuck */
-     , (775,  11, True ) /* IgnoreCollisions */
-     , (775,  13, True ) /* Ethereal */
-     , (775,  14, True ) /* GravityStatus */
-     , (775,  19, True ) /* Attackable */;
+     , (775,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (775, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (775,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (775,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (775,   1, 'Mandrake') /* Name */

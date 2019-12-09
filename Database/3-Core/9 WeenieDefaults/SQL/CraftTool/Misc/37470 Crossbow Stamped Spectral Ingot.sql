@@ -12,17 +12,12 @@ VALUES (37470,   1,        128) /* ItemType - Misc */
      , (37470,  15,          1) /* StackUnitValue */
      , (37470,  16,          8) /* ItemUseable - Contained */
      , (37470,  19,          1) /* Value */
-     , (37470,  65,        101) /* Placement - Resting */
      , (37470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37470,  94,         16) /* TargetType - Creature */;
+     , (37470,  94,         16) /* TargetType - Creature */
+     , (37470, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37470,   1, False) /* Stuck */
-     , (37470,  11, True ) /* IgnoreCollisions */
-     , (37470,  13, True ) /* Ethereal */
-     , (37470,  14, True ) /* GravityStatus */
-     , (37470,  19, True ) /* Attackable */
-     , (37470,  22, True ) /* Inscribable */;
+VALUES (37470,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37470,   1, 'Crossbow Stamped Spectral Ingot') /* Name */;

@@ -12,17 +12,12 @@ VALUES (46042,   1,          1) /* ItemType - MeleeWeapon */
      , (46042,  18,          1) /* UiEffects - Magical */
      , (46042,  19,       5000) /* Value */
      , (46042,  51,          1) /* CombatUse - Melee */
-     , (46042,  65,          1) /* Placement - RightHandCombat */
      , (46042,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46042, 151,          2) /* HookType - Wall */;
+     , (46042, 151,          2) /* HookType - Wall */
+     , (46042, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46042,   1, False) /* Stuck */
-     , (46042,  11, True ) /* IgnoreCollisions */
-     , (46042,  13, True ) /* Ethereal */
-     , (46042,  14, True ) /* GravityStatus */
-     , (46042,  19, True ) /* Attackable */
-     , (46042,  22, True ) /* Inscribable */;
+VALUES (46042,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46042,   1, 'Major Smoldering Atlan Axe') /* Name */;

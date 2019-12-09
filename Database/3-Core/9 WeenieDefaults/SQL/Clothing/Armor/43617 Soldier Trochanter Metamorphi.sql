@@ -10,16 +10,11 @@ VALUES (43617,   1,          2) /* ItemType - Armor */
      , (43617,   9,       2048) /* ValidLocations - UpperArmArmor */
      , (43617,  16,          1) /* ItemUseable - No */
      , (43617,  19,        500) /* Value */
-     , (43617,  65,        101) /* Placement - Resting */
-     , (43617,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43617,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43617, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43617,   1, False) /* Stuck */
-     , (43617,  11, True ) /* IgnoreCollisions */
-     , (43617,  13, True ) /* Ethereal */
-     , (43617,  14, True ) /* GravityStatus */
-     , (43617,  19, True ) /* Attackable */
-     , (43617,  22, True ) /* Inscribable */;
+VALUES (43617,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43617,   1, 'Soldier Trochanter Metamorphi') /* Name */;

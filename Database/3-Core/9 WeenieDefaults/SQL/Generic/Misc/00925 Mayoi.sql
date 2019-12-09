@@ -8,16 +8,11 @@ VALUES (925,   1,        128) /* ItemType - Misc */
      , (925,   5,       9000) /* EncumbranceVal */
      , (925,  16,          1) /* ItemUseable - No */
      , (925,  19,        125) /* Value */
-     , (925,  65,        101) /* Placement - Resting */
-     , (925,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (925,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (925, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (925,   1, True ) /* Stuck */
-     , (925,  11, True ) /* IgnoreCollisions */
-     , (925,  12, True ) /* ReportCollisions */
-     , (925,  13, False) /* Ethereal */
-     , (925,  14, True ) /* GravityStatus */
-     , (925,  19, True ) /* Attackable */;
+VALUES (925,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (925,   1, 'Mayoi') /* Name */

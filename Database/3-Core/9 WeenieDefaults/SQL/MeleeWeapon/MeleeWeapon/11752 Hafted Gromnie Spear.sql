@@ -11,16 +11,11 @@ VALUES (11752,   1,          1) /* ItemType - MeleeWeapon */
      , (11752,  16,          1) /* ItemUseable - No */
      , (11752,  18,          1) /* UiEffects - Magical */
      , (11752,  51,          1) /* CombatUse - Melee */
-     , (11752,  65,          1) /* Placement - RightHandCombat */
-     , (11752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11752, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11752,   1, False) /* Stuck */
-     , (11752,  11, True ) /* IgnoreCollisions */
-     , (11752,  13, True ) /* Ethereal */
-     , (11752,  14, True ) /* GravityStatus */
-     , (11752,  19, True ) /* Attackable */
-     , (11752,  22, True ) /* Inscribable */;
+VALUES (11752,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11752,   1, 'Hafted Gromnie Spear') /* Name */;

@@ -12,18 +12,13 @@ VALUES (51509,   1,       2048) /* ItemType - Gem */
      , (51509,  15,        653) /* StackUnitValue */
      , (51509,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51509,  19,        653) /* Value */
-     , (51509,  65,        101) /* Placement - Resting */
      , (51509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51509,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (51509, 151,          2) /* HookType - Wall */;
+     , (51509, 151,          2) /* HookType - Wall */
+     , (51509, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51509,   1, False) /* Stuck */
-     , (51509,  11, True ) /* IgnoreCollisions */
-     , (51509,  13, True ) /* Ethereal */
-     , (51509,  14, True ) /* GravityStatus */
-     , (51509,  19, True ) /* Attackable */
-     , (51509,  22, True ) /* Inscribable */;
+VALUES (51509,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51509,   1, 'Weeping Bow') /* Name */;

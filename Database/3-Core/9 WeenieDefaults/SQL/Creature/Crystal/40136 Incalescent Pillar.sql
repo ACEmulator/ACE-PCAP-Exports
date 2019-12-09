@@ -15,15 +15,10 @@ VALUES (40136,   1,         16) /* ItemType - Creature */
      , (40136, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40136,   1, True ) /* Stuck */
-     , (40136,  12, True ) /* ReportCollisions */
-     , (40136,  13, True ) /* Ethereal */
-     , (40136,  14, True ) /* GravityStatus */
-     , (40136,  15, True ) /* LightsStatus */
-     , (40136,  19, True ) /* Attackable */;
+VALUES (40136,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40136,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (40136,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40136,   1, 'Incalescent Pillar') /* Name */

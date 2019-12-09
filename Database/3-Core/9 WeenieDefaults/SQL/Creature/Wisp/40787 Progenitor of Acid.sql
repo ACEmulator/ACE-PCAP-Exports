@@ -15,12 +15,7 @@ VALUES (40787,   1,         16) /* ItemType - Creature */
      , (40787, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40787,   1, True ) /* Stuck */
-     , (40787,  12, True ) /* ReportCollisions */
-     , (40787,  13, False) /* Ethereal */
-     , (40787,  14, True ) /* GravityStatus */
-     , (40787,  19, True ) /* Attackable */
-     , (40787,  42, True ) /* AllowEdgeSlide */;
+VALUES (40787,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40787,   1, 'Progenitor of Acid') /* Name */

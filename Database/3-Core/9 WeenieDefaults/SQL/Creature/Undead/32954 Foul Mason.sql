@@ -16,14 +16,10 @@ VALUES (32954,   1,         16) /* ItemType - Creature */
      , (32954, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32954,   1, True ) /* Stuck */
-     , (32954,  12, True ) /* ReportCollisions */
-     , (32954,  13, False) /* Ethereal */
-     , (32954,  14, True ) /* GravityStatus */
-     , (32954,  19, True ) /* Attackable */;
+VALUES (32954,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32954,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (32954,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32954,   1, 'Foul Mason') /* Name */

@@ -11,17 +11,12 @@ VALUES (31499,   1,          1) /* ItemType - MeleeWeapon */
      , (31499,  18,          1) /* UiEffects - Magical */
      , (31499,  19,       1500) /* Value */
      , (31499,  51,          1) /* CombatUse - Melee */
-     , (31499,  65,        101) /* Placement - Resting */
      , (31499,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31499, 151,          2) /* HookType - Wall */;
+     , (31499, 151,          2) /* HookType - Wall */
+     , (31499, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31499,   1, False) /* Stuck */
-     , (31499,  11, True ) /* IgnoreCollisions */
-     , (31499,  13, True ) /* Ethereal */
-     , (31499,  14, True ) /* GravityStatus */
-     , (31499,  19, True ) /* Attackable */
-     , (31499,  22, True ) /* Inscribable */;
+VALUES (31499,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31499,   1, 'Battered Old Mace') /* Name */;

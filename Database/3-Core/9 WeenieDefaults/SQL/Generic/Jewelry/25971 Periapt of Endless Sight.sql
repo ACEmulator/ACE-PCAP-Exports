@@ -11,7 +11,6 @@ VALUES (25971,   1,          8) /* ItemType - Jewelry */
      , (25971,  18,          1) /* UiEffects - Magical */
      , (25971,  19,       6000) /* Value */
      , (25971,  36,       9999) /* ResistMagic */
-     , (25971,  65,        101) /* Placement - Resting */
      , (25971,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25971, 106,        200) /* ItemSpellcraft */
      , (25971, 107,        800) /* ItemCurMana */
@@ -19,18 +18,14 @@ VALUES (25971,   1,          8) /* ItemType - Jewelry */
      , (25971, 109,         75) /* ItemDifficulty */
      , (25971, 158,          7) /* WieldRequirements - Level */
      , (25971, 159,          1) /* WieldSkillType - Axe */
-     , (25971, 160,         30) /* WieldDifficulty */;
+     , (25971, 160,         30) /* WieldDifficulty */
+     , (25971, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25971,   1, False) /* Stuck */
-     , (25971,  11, True ) /* IgnoreCollisions */
-     , (25971,  13, True ) /* Ethereal */
-     , (25971,  14, True ) /* GravityStatus */
-     , (25971,  19, True ) /* Attackable */
-     , (25971,  22, True ) /* Inscribable */;
+VALUES (25971,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25971,   5, -0.033333) /* ManaRate */;
+VALUES (25971,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25971,   1, 'Periapt of Endless Sight') /* Name */

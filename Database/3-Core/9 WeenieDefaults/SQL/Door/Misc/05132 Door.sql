@@ -6,17 +6,15 @@ VALUES (5132, 'doorbanewell', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5132,   1,        128) /* ItemType - Misc */
      , (5132,  16,         32) /* ItemUseable - Remote */
-     , (5132,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (5132,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (5132, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5132,   1, True ) /* Stuck */
      , (5132,   2, False) /* Open */
      , (5132,   3, True ) /* Locked */
-     , (5132,  11, True ) /* IgnoreCollisions */
-     , (5132,  12, True ) /* ReportCollisions */
-     , (5132,  13, False) /* Ethereal */
-     , (5132,  19, True ) /* Attackable */;
+     , (5132,  34, False) /* DefaultOpen */
+     , (5132,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5132,  54,       2) /* UseRadius */;

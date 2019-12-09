@@ -11,20 +11,14 @@ VALUES (7569,   1,          1) /* ItemType - MeleeWeapon */
      , (7569,  16,          1) /* ItemUseable - No */
      , (7569,  19,       4000) /* Value */
      , (7569,  51,          1) /* CombatUse - Melee */
-     , (7569,  65,          1) /* Placement - RightHandCombat */
-     , (7569,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (7569,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (7569, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7569,   1, False) /* Stuck */
-     , (7569,  11, True ) /* IgnoreCollisions */
-     , (7569,  13, True ) /* Ethereal */
-     , (7569,  14, True ) /* GravityStatus */
-     , (7569,  15, True ) /* LightsStatus */
-     , (7569,  19, True ) /* Attackable */
-     , (7569,  22, True ) /* Inscribable */;
+VALUES (7569,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7569,  76, 0.699999988079071) /* Translucency */;
+VALUES (7569,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7569,   1, 'Hollow Mace') /* Name */;

@@ -12,18 +12,11 @@ VALUES (2470,   1,        128) /* ItemType - Misc */
      , (2470,  15,        150) /* StackUnitValue */
      , (2470,  16,          8) /* ItemUseable - Contained */
      , (2470,  19,        150) /* Value */
-     , (2470,  65,        101) /* Placement - Resting */
      , (2470,  89,          4) /* BoosterEnum - Stamina */
      , (2470,  90,         65) /* BoostValue */
      , (2470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2470, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2470,   1, False) /* Stuck */
-     , (2470,  11, True ) /* IgnoreCollisions */
-     , (2470,  13, True ) /* Ethereal */
-     , (2470,  14, True ) /* GravityStatus */
-     , (2470,  19, True ) /* Attackable */;
+     , (2470, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (2470, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2470,   1, 'Stamina Elixir') /* Name */

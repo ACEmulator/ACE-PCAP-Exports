@@ -13,18 +13,13 @@ VALUES (46348,   1,        128) /* ItemType - Misc */
      , (46348,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (46348,  19,         20) /* Value */
      , (46348,  33,          1) /* Bonded - Bonded */
-     , (46348,  65,        101) /* Placement - Resting */
      , (46348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46348,  94,        128) /* TargetType - Misc */
-     , (46348, 114,          1) /* Attuned - Attuned */;
+     , (46348, 114,          1) /* Attuned - Attuned */
+     , (46348, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46348,   1, False) /* Stuck */
-     , (46348,  11, True ) /* IgnoreCollisions */
-     , (46348,  13, True ) /* Ethereal */
-     , (46348,  14, True ) /* GravityStatus */
-     , (46348,  19, True ) /* Attackable */
-     , (46348,  22, True ) /* Inscribable */;
+VALUES (46348,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46348,   1, 'Torn Strip of Parchment') /* Name */

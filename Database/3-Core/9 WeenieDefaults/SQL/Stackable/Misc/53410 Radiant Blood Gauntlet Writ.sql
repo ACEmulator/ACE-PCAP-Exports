@@ -14,15 +14,8 @@ VALUES (53410,   1,        128) /* ItemType - Misc */
      , (53410,  19,         10) /* Value */
      , (53410,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53410,   1, False) /* Stuck */
-     , (53410,  11, True ) /* IgnoreCollisions */
-     , (53410,  13, True ) /* Ethereal */
-     , (53410,  14, True ) /* GravityStatus */
-     , (53410,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53410,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (53410,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53410,   1, 'Radiant Blood Gauntlet Writ') /* Name */;

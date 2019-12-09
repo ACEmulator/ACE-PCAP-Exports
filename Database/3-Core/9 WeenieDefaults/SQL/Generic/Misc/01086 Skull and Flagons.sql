@@ -8,16 +8,11 @@ VALUES (1086,   1,        128) /* ItemType - Misc */
      , (1086,   5,       9000) /* EncumbranceVal */
      , (1086,  16,          1) /* ItemUseable - No */
      , (1086,  19,        125) /* Value */
-     , (1086,  65,        101) /* Placement - Resting */
-     , (1086,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (1086,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (1086, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1086,   1, True ) /* Stuck */
-     , (1086,  11, True ) /* IgnoreCollisions */
-     , (1086,  12, True ) /* ReportCollisions */
-     , (1086,  13, False) /* Ethereal */
-     , (1086,  14, True ) /* GravityStatus */
-     , (1086,  19, True ) /* Attackable */;
+VALUES (1086,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1086,   1, 'Skull and Flagons') /* Name */

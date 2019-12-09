@@ -13,18 +13,13 @@ VALUES (29152,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29152,  16,          1) /* ItemUseable - No */
      , (29152,  19,        100) /* Value */
      , (29152,  33,          0) /* Bonded - Normal */
-     , (29152,  65,        101) /* Placement - Resting */
      , (29152,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29152, 114,          0) /* Attuned - Normal */
-     , (29152, 151,          1) /* HookType - Floor */;
+     , (29152, 151,          1) /* HookType - Floor */
+     , (29152, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29152,   1, False) /* Stuck */
-     , (29152,  11, True ) /* IgnoreCollisions */
-     , (29152,  13, True ) /* Ethereal */
-     , (29152,  14, True ) /* GravityStatus */
-     , (29152,  19, True ) /* Attackable */
-     , (29152,  69, False) /* IsSellable */;
+VALUES (29152,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29152,   1, 'Keg of Aromatic Stout') /* Name */

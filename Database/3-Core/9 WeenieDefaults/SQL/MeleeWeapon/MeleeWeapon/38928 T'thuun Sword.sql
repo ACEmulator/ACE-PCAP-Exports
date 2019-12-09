@@ -11,19 +11,14 @@ VALUES (38928,   1,          1) /* ItemType - MeleeWeapon */
      , (38928,  16,          1) /* ItemUseable - No */
      , (38928,  19,       1150) /* Value */
      , (38928,  51,          1) /* CombatUse - Melee */
-     , (38928,  65,          1) /* Placement - RightHandCombat */
-     , (38928,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38928,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38928, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38928,   1, False) /* Stuck */
-     , (38928,  11, True ) /* IgnoreCollisions */
-     , (38928,  13, True ) /* Ethereal */
-     , (38928,  14, True ) /* GravityStatus */
-     , (38928,  19, True ) /* Attackable */
-     , (38928,  22, True ) /* Inscribable */;
+VALUES (38928,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38928,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (38928,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38928,   1, 'T''thuun Sword') /* Name */;

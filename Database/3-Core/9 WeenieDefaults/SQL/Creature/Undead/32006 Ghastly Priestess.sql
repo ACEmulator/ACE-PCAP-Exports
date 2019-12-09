@@ -16,12 +16,7 @@ VALUES (32006,   1,         16) /* ItemType - Creature */
      , (32006, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32006,   1, True ) /* Stuck */
-     , (32006,  12, True ) /* ReportCollisions */
-     , (32006,  13, False) /* Ethereal */
-     , (32006,  14, True ) /* GravityStatus */
-     , (32006,  19, True ) /* Attackable */
-     , (32006,  42, True ) /* AllowEdgeSlide */;
+VALUES (32006,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32006,   1, 'Ghastly Priestess') /* Name */

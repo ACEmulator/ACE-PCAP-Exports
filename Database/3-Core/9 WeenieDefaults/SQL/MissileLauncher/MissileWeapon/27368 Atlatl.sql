@@ -11,20 +11,15 @@ VALUES (27368,   1,        256) /* ItemType - MissileWeapon */
      , (27368,  19,      10000) /* Value */
      , (27368,  50,          4) /* AmmoType - Atlatl */
      , (27368,  51,          2) /* CombatUse - Missle */
-     , (27368,  65,          3) /* Placement - LeftHand */
      , (27368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27368, 151,          2) /* HookType - Wall */;
+     , (27368, 151,          2) /* HookType - Wall */
+     , (27368, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27368,   1, False) /* Stuck */
-     , (27368,  11, True ) /* IgnoreCollisions */
-     , (27368,  13, True ) /* Ethereal */
-     , (27368,  14, True ) /* GravityStatus */
-     , (27368,  19, True ) /* Attackable */
-     , (27368,  22, True ) /* Inscribable */;
+VALUES (27368,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27368,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (27368,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27368,   1, 'Atlatl') /* Name */;

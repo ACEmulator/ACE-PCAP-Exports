@@ -7,15 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34474,   1,        128) /* ItemType - Misc */
      , (34474,   5,        300) /* EncumbranceVal */
      , (34474,  16,          1) /* ItemUseable - No */
-     , (34474,  65,        101) /* Placement - Resting */
-     , (34474,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34474,   1, False) /* Stuck */
-     , (34474,  11, True ) /* IgnoreCollisions */
-     , (34474,  13, True ) /* Ethereal */
-     , (34474,  14, True ) /* GravityStatus */
-     , (34474,  19, True ) /* Attackable */;
+     , (34474,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34474, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34474,   1, 'Ancient Necklace') /* Name */;

@@ -12,20 +12,15 @@ VALUES (35544,   1,        128) /* ItemType - Misc */
      , (35544,  15,          1) /* StackUnitValue */
      , (35544,  16,          8) /* ItemUseable - Contained */
      , (35544,  19,          1) /* Value */
-     , (35544,  65,        101) /* Placement - Resting */
      , (35544,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35544,  94,         16) /* TargetType - Creature */;
+     , (35544,  94,         16) /* TargetType - Creature */
+     , (35544, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35544,   1, False) /* Stuck */
-     , (35544,  11, True ) /* IgnoreCollisions */
-     , (35544,  13, True ) /* Ethereal */
-     , (35544,  14, True ) /* GravityStatus */
-     , (35544,  19, True ) /* Attackable */
-     , (35544,  22, True ) /* Inscribable */;
+VALUES (35544,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35544,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35544,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35544,   1, '"Throwing Daggers of Ice" Summoning Gem') /* Name */;

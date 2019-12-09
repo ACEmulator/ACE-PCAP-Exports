@@ -12,18 +12,13 @@ VALUES (12227,   1,         32) /* ItemType - Food */
      , (12227,  15,         20) /* StackUnitValue */
      , (12227,  16,          8) /* ItemUseable - Contained */
      , (12227,  19,         20) /* Value */
-     , (12227,  65,        101) /* Placement - Resting */
      , (12227,  89,          4) /* BoosterEnum - Stamina */
      , (12227,  90,         15) /* BoostValue */
-     , (12227,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12227,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12227, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12227,   1, False) /* Stuck */
-     , (12227,  11, True ) /* IgnoreCollisions */
-     , (12227,  13, True ) /* Ethereal */
-     , (12227,  14, True ) /* GravityStatus */
-     , (12227,  19, True ) /* Attackable */
-     , (12227,  69, False) /* IsSellable */;
+VALUES (12227,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12227,   1, 'Candied Apple') /* Name */

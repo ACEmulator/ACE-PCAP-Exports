@@ -18,18 +18,12 @@ VALUES (35401,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35401,   1, True ) /* Stuck */
-     , (35401,  11, True ) /* IgnoreCollisions */
-     , (35401,  12, True ) /* ReportCollisions */
-     , (35401,  13, False) /* Ethereal */
-     , (35401,  14, True ) /* GravityStatus */
-     , (35401,  19, False) /* Attackable */
-     , (35401,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35401,  42, True ) /* AllowEdgeSlide */;
+     , (35401,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35401,  39, 1.29999995231628) /* DefaultScale */
+VALUES (35401,  39,     1.3) /* DefaultScale */
      , (35401,  54,       3) /* UseRadius */
-     , (35401,  76, 0.400000005960464) /* Translucency */;
+     , (35401,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35401,   1, 'Lord Cynreft Mhoire') /* Name */

@@ -13,17 +13,12 @@ VALUES (2412,   1,       2048) /* ItemType - Gem */
      , (2412,  16,          8) /* ItemUseable - Contained */
      , (2412,  18,          1) /* UiEffects - Magical */
      , (2412,  19,       1715) /* Value */
-     , (2412,  65,        101) /* Placement - Resting */
      , (2412,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2412, 131,         39) /* MaterialType - Sapphire */;
+     , (2412, 131,         39) /* MaterialType - Sapphire */
+     , (2412, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2412,   1, False) /* Stuck */
-     , (2412,  11, True ) /* IgnoreCollisions */
-     , (2412,  13, True ) /* Ethereal */
-     , (2412,  14, True ) /* GravityStatus */
-     , (2412,  19, True ) /* Attackable */
-     , (2412,  22, True ) /* Inscribable */;
+VALUES (2412,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2412, 8004,       3) /* PCAPRecordedWorkmanship */;

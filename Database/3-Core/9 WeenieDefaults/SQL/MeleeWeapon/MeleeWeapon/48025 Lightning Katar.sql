@@ -12,17 +12,12 @@ VALUES (48025,   1,          1) /* ItemType - MeleeWeapon */
      , (48025,  18,         64) /* UiEffects - Lightning */
      , (48025,  19,        155) /* Value */
      , (48025,  51,          1) /* CombatUse - Melee */
-     , (48025,  65,          1) /* Placement - RightHandCombat */
      , (48025,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48025, 151,          2) /* HookType - Wall */;
+     , (48025, 151,          2) /* HookType - Wall */
+     , (48025, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48025,   1, False) /* Stuck */
-     , (48025,  11, True ) /* IgnoreCollisions */
-     , (48025,  13, True ) /* Ethereal */
-     , (48025,  14, True ) /* GravityStatus */
-     , (48025,  19, True ) /* Attackable */
-     , (48025,  22, True ) /* Inscribable */;
+VALUES (48025,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48025,   1, 'Lightning Katar') /* Name */;

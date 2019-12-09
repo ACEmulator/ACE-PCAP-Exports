@@ -8,16 +8,11 @@ VALUES (36051,   1,        128) /* ItemType - Misc */
      , (36051,   5,          1) /* EncumbranceVal */
      , (36051,  16,          1) /* ItemUseable - No */
      , (36051,  18,         64) /* UiEffects - Lightning */
-     , (36051,  65,        101) /* Placement - Resting */
-     , (36051,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36051,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36051, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36051,   1, False) /* Stuck */
-     , (36051,  11, True ) /* IgnoreCollisions */
-     , (36051,  13, True ) /* Ethereal */
-     , (36051,  14, True ) /* GravityStatus */
-     , (36051,  19, True ) /* Attackable */
-     , (36051,  22, True ) /* Inscribable */;
+VALUES (36051,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36051,   1, 'Reflection of Jaleh al-Thani') /* Name */;

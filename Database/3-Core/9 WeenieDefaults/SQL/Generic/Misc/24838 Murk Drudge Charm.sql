@@ -8,19 +8,14 @@ VALUES (24838,   1,        128) /* ItemType - Misc */
      , (24838,   5,         40) /* EncumbranceVal */
      , (24838,  16,          1) /* ItemUseable - No */
      , (24838,  19,          5) /* Value */
-     , (24838,  65,        101) /* Placement - Resting */
-     , (24838,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (24838,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24838, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24838,   1, False) /* Stuck */
-     , (24838,  11, True ) /* IgnoreCollisions */
-     , (24838,  13, True ) /* Ethereal */
-     , (24838,  14, True ) /* GravityStatus */
-     , (24838,  19, True ) /* Attackable */
-     , (24838,  22, True ) /* Inscribable */;
+VALUES (24838,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24838,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (24838,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24838,   1, 'Murk Drudge Charm') /* Name */;

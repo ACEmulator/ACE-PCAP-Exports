@@ -11,12 +11,7 @@ VALUES (13147,   1,        128) /* ItemType - Misc */
      , (13147,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13147,   1, True ) /* Stuck */
-     , (13147,  11, True ) /* IgnoreCollisions */
-     , (13147,  12, True ) /* ReportCollisions */
-     , (13147,  13, False) /* Ethereal */
-     , (13147,  14, True ) /* GravityStatus */
-     , (13147,  19, True ) /* Attackable */;
+VALUES (13147,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13147,   1, 'Brigand Sands Cottages') /* Name */

@@ -8,15 +8,10 @@ VALUES (850,   1,        128) /* ItemType - Misc */
      , (850,   5,       9000) /* EncumbranceVal */
      , (850,  16,          1) /* ItemUseable - No */
      , (850,  19,        125) /* Value */
-     , (850,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (850,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (850,   1, True ) /* Stuck */
-     , (850,  11, True ) /* IgnoreCollisions */
-     , (850,  12, True ) /* ReportCollisions */
-     , (850,  13, False) /* Ethereal */
-     , (850,  14, True ) /* GravityStatus */
-     , (850,  19, True ) /* Attackable */;
+VALUES (850,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (850,   1, 'Three Swords Hall') /* Name */

@@ -8,17 +8,12 @@ VALUES (15828,   1,        128) /* ItemType - Misc */
      , (15828,   5,         70) /* EncumbranceVal */
      , (15828,  16,          1) /* ItemUseable - No */
      , (15828,  19,      10000) /* Value */
-     , (15828,  65,        101) /* Placement - Resting */
      , (15828,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15828, 151,          1) /* HookType - Floor */;
+     , (15828, 151,          1) /* HookType - Floor */
+     , (15828, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15828,   1, False) /* Stuck */
-     , (15828,  11, True ) /* IgnoreCollisions */
-     , (15828,  13, True ) /* Ethereal */
-     , (15828,  14, True ) /* GravityStatus */
-     , (15828,  19, True ) /* Attackable */
-     , (15828,  22, True ) /* Inscribable */;
+VALUES (15828,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15828,   1, 'Pedestal with a Floral Arrangement') /* Name */;

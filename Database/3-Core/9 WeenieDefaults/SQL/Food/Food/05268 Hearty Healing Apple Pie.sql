@@ -13,18 +13,13 @@ VALUES (5268,   1,         32) /* ItemType - Food */
      , (5268,  16,          8) /* ItemUseable - Contained */
      , (5268,  18,          4) /* UiEffects - BoostHealth */
      , (5268,  19,        132) /* Value */
-     , (5268,  65,        101) /* Placement - Resting */
      , (5268,  89,          2) /* BoosterEnum - Health */
      , (5268,  90,         35) /* BoostValue */
-     , (5268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (5268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5268, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5268,   1, False) /* Stuck */
-     , (5268,  11, True ) /* IgnoreCollisions */
-     , (5268,  13, True ) /* Ethereal */
-     , (5268,  14, True ) /* GravityStatus */
-     , (5268,  19, True ) /* Attackable */
-     , (5268,  69, False) /* IsSellable */;
+VALUES (5268,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5268,   1, 'Hearty Healing Apple Pie') /* Name */

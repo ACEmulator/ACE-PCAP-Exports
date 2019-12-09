@@ -9,21 +9,16 @@ VALUES (36675,   1,        128) /* ItemType - Misc */
      , (36675,  16,          1) /* ItemUseable - No */
      , (36675,  19,        100) /* Value */
      , (36675,  33,          1) /* Bonded - Bonded */
-     , (36675,  65,        101) /* Placement - Resting */
      , (36675,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36675, 114,          1) /* Attuned - Attuned */;
+     , (36675, 114,          1) /* Attuned - Attuned */
+     , (36675, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36675,   1, False) /* Stuck */
-     , (36675,  11, True ) /* IgnoreCollisions */
-     , (36675,  13, True ) /* Ethereal */
-     , (36675,  14, True ) /* GravityStatus */
-     , (36675,  19, True ) /* Attackable */
-     , (36675,  22, True ) /* Inscribable */
+VALUES (36675,  22, True ) /* Inscribable */
      , (36675,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36675,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (36675,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36675,   1, 'Chorizite Pea') /* Name */

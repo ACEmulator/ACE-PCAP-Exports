@@ -11,21 +11,15 @@ VALUES (37583,   1,          1) /* ItemType - MeleeWeapon */
      , (37583,  16,          1) /* ItemUseable - No */
      , (37583,  18,          1) /* UiEffects - Magical */
      , (37583,  51,          1) /* CombatUse - Melee */
-     , (37583,  65,          1) /* Placement - RightHandCombat */
      , (37583,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (37583, 151,          2) /* HookType - Wall */;
+     , (37583, 151,          2) /* HookType - Wall */
+     , (37583, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37583,   1, False) /* Stuck */
-     , (37583,  11, True ) /* IgnoreCollisions */
-     , (37583,  13, True ) /* Ethereal */
-     , (37583,  14, True ) /* GravityStatus */
-     , (37583,  15, True ) /* LightsStatus */
-     , (37583,  19, True ) /* Attackable */
-     , (37583,  22, True ) /* Inscribable */;
+VALUES (37583,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37583,  76, 0.699999988079071) /* Translucency */;
+VALUES (37583,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37583,   1, 'Soul Bound Staff') /* Name */;

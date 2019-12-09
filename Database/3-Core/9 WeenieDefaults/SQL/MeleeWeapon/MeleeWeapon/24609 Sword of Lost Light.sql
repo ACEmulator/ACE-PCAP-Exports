@@ -12,21 +12,16 @@ VALUES (24609,   1,          1) /* ItemType - MeleeWeapon */
      , (24609,  18,          1) /* UiEffects - Magical */
      , (24609,  19,      12800) /* Value */
      , (24609,  51,          1) /* CombatUse - Melee */
-     , (24609,  65,          1) /* Placement - RightHandCombat */
      , (24609,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24609, 151,          2) /* HookType - Wall */;
+     , (24609, 151,          2) /* HookType - Wall */
+     , (24609, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24609,   1, False) /* Stuck */
-     , (24609,  11, True ) /* IgnoreCollisions */
-     , (24609,  13, True ) /* Ethereal */
-     , (24609,  14, True ) /* GravityStatus */
-     , (24609,  19, True ) /* Attackable */
-     , (24609,  22, True ) /* Inscribable */
+VALUES (24609,  22, True ) /* Inscribable */
      , (24609,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24609,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (24609,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24609,   1, 'Sword of Lost Light') /* Name */;

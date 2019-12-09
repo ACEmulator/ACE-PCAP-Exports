@@ -11,12 +11,7 @@ VALUES (19392,   1,        128) /* ItemType - Misc */
      , (19392,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19392,   1, True ) /* Stuck */
-     , (19392,  11, True ) /* IgnoreCollisions */
-     , (19392,  12, True ) /* ReportCollisions */
-     , (19392,  13, False) /* Ethereal */
-     , (19392,  14, True ) /* GravityStatus */
-     , (19392,  19, True ) /* Attackable */;
+VALUES (19392,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19392,   1, 'Sorac Gate') /* Name */

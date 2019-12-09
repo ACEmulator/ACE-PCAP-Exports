@@ -18,14 +18,10 @@ VALUES (52724,   1,         16) /* ItemType - Creature */
      , (52724, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52724,   1, True ) /* Stuck */
-     , (52724,  12, True ) /* ReportCollisions */
-     , (52724,  13, False) /* Ethereal */
-     , (52724,  14, True ) /* GravityStatus */
-     , (52724,  19, True ) /* Attackable */;
+VALUES (52724,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52724,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (52724,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52724,   1, 'Tusker Heaver') /* Name */

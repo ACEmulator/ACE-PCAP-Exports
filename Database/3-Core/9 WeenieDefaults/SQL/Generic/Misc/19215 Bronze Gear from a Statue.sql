@@ -8,20 +8,15 @@ VALUES (19215,   1,        128) /* ItemType - Misc */
      , (19215,   5,         40) /* EncumbranceVal */
      , (19215,  16,          1) /* ItemUseable - No */
      , (19215,  19,          0) /* Value */
-     , (19215,  65,        101) /* Placement - Resting */
      , (19215,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19215, 114,          1) /* Attuned - Attuned */;
+     , (19215, 114,          1) /* Attuned - Attuned */
+     , (19215, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19215,   1, False) /* Stuck */
-     , (19215,  11, True ) /* IgnoreCollisions */
-     , (19215,  13, True ) /* Ethereal */
-     , (19215,  14, True ) /* GravityStatus */
-     , (19215,  19, True ) /* Attackable */
-     , (19215,  22, True ) /* Inscribable */;
+VALUES (19215,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19215,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (19215,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19215,   1, 'Bronze Gear from a Statue') /* Name */

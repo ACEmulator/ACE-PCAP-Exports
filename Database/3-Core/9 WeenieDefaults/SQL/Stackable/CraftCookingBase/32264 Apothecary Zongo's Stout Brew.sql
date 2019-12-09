@@ -12,15 +12,8 @@ VALUES (32264,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32264,  15,         75) /* StackUnitValue */
      , (32264,  16,          1) /* ItemUseable - No */
      , (32264,  19,         75) /* Value */
-     , (32264,  65,        101) /* Placement - Resting */
-     , (32264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32264,   1, False) /* Stuck */
-     , (32264,  11, True ) /* IgnoreCollisions */
-     , (32264,  13, True ) /* Ethereal */
-     , (32264,  14, True ) /* GravityStatus */
-     , (32264,  19, True ) /* Attackable */;
+     , (32264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32264, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32264,   1, 'Apothecary Zongo''s Stout Brew') /* Name */

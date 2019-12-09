@@ -10,27 +10,22 @@ VALUES (32260,   1,      32768) /* ItemType - Caster */
      , (32260,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (32260,  18,          1) /* UiEffects - Magical */
      , (32260,  19,       1500) /* Value */
-     , (32260,  65,        101) /* Placement - Resting */
      , (32260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32260,  94,         16) /* TargetType - Creature */
      , (32260, 106,        150) /* ItemSpellcraft */
      , (32260, 107,        997) /* ItemCurMana */
      , (32260, 108,       1000) /* ItemMaxMana */
      , (32260, 109,          0) /* ItemDifficulty */
-     , (32260, 151,          2) /* HookType - Wall */;
+     , (32260, 151,          2) /* HookType - Wall */
+     , (32260, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32260,   1, False) /* Stuck */
-     , (32260,  11, True ) /* IgnoreCollisions */
-     , (32260,  13, True ) /* Ethereal */
-     , (32260,  14, True ) /* GravityStatus */
-     , (32260,  19, True ) /* Attackable */
-     , (32260,  22, True ) /* Inscribable */;
+VALUES (32260,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32260,   5, -0.0333333) /* ManaRate */
+VALUES (32260,   5,   -0.03) /* ManaRate */
      , (32260,  29,       1) /* WeaponDefense */
-     , (32260, 144, 1.81782551571381E-314) /* ManaConversionMod */;
+     , (32260, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32260,   1, 'Plain Mukkir Orb') /* Name */

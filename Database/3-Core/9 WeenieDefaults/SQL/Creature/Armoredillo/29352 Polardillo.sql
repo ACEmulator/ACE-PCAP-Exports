@@ -15,11 +15,7 @@ VALUES (29352,   1,         16) /* ItemType - Creature */
      , (29352, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29352,   1, True ) /* Stuck */
-     , (29352,  12, True ) /* ReportCollisions */
-     , (29352,  13, False) /* Ethereal */
-     , (29352,  14, True ) /* GravityStatus */
-     , (29352,  19, True ) /* Attackable */;
+VALUES (29352,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29352,   1, 'Polardillo') /* Name */

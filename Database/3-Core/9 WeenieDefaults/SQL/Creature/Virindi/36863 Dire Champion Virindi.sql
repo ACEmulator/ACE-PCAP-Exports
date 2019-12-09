@@ -15,14 +15,10 @@ VALUES (36863,   1,         16) /* ItemType - Creature */
      , (36863, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36863,   1, True ) /* Stuck */
-     , (36863,  12, True ) /* ReportCollisions */
-     , (36863,  13, False) /* Ethereal */
-     , (36863,  14, True ) /* GravityStatus */
-     , (36863,  19, True ) /* Attackable */;
+VALUES (36863,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36863,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (36863,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36863,   1, 'Dire Champion Virindi') /* Name */

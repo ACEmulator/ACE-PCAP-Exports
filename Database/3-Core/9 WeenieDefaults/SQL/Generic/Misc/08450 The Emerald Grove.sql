@@ -8,20 +8,15 @@ VALUES (8450,   1,        128) /* ItemType - Misc */
      , (8450,   5,       9000) /* EncumbranceVal */
      , (8450,  16,          1) /* ItemUseable - No */
      , (8450,  19,        125) /* Value */
-     , (8450,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (8450,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8450,   1, True ) /* Stuck */
-     , (8450,  11, True ) /* IgnoreCollisions */
-     , (8450,  12, True ) /* ReportCollisions */
-     , (8450,  13, False) /* Ethereal */
-     , (8450,  14, True ) /* GravityStatus */
-     , (8450,  19, True ) /* Attackable */;
+VALUES (8450,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8450, 8010,       0) /* PCAPRecordedVelocityX */
      , (8450, 8011,       0) /* PCAPRecordedVelocityY */
-     , (8450, 8012, -0.375265032052994) /* PCAPRecordedVelocityZ */;
+     , (8450, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8450,   1, 'The Emerald Grove') /* Name */

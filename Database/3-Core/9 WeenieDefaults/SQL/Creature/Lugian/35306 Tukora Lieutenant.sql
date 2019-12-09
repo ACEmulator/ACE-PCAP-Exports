@@ -16,11 +16,7 @@ VALUES (35306,   1,         16) /* ItemType - Creature */
      , (35306, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35306,   1, True ) /* Stuck */
-     , (35306,  12, True ) /* ReportCollisions */
-     , (35306,  13, False) /* Ethereal */
-     , (35306,  14, True ) /* GravityStatus */
-     , (35306,  19, True ) /* Attackable */;
+VALUES (35306,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35306,   1, 'Tukora Lieutenant') /* Name */

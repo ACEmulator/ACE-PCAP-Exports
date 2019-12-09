@@ -15,14 +15,10 @@ VALUES (31910,   1,         16) /* ItemType - Creature */
      , (31910, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31910,   1, True ) /* Stuck */
-     , (31910,  12, True ) /* ReportCollisions */
-     , (31910,  13, False) /* Ethereal */
-     , (31910,  14, True ) /* GravityStatus */
-     , (31910,  19, True ) /* Attackable */;
+VALUES (31910,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31910,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (31910,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31910,   1, 'Shallows Shredder') /* Name */

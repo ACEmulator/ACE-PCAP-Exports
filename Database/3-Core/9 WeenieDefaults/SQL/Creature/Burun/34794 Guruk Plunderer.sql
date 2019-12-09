@@ -15,14 +15,10 @@ VALUES (34794,   1,         16) /* ItemType - Creature */
      , (34794, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34794,   1, True ) /* Stuck */
-     , (34794,  12, True ) /* ReportCollisions */
-     , (34794,  13, False) /* Ethereal */
-     , (34794,  14, True ) /* GravityStatus */
-     , (34794,  19, True ) /* Attackable */;
+VALUES (34794,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34794,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (34794,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34794,   1, 'Guruk Plunderer') /* Name */

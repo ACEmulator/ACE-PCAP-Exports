@@ -8,16 +8,11 @@ VALUES (41297,   1,       8192) /* ItemType - Writable */
      , (41297,   5,         30) /* EncumbranceVal */
      , (41297,  16,          8) /* ItemUseable - Contained */
      , (41297,  19,          5) /* Value */
-     , (41297,  65,        101) /* Placement - Resting */
-     , (41297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (41297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41297, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41297,   1, False) /* Stuck */
-     , (41297,  11, True ) /* IgnoreCollisions */
-     , (41297,  13, True ) /* Ethereal */
-     , (41297,  14, True ) /* GravityStatus */
-     , (41297,  19, True ) /* Attackable */
-     , (41297,  22, True ) /* Inscribable */;
+VALUES (41297,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41297,  39,     1.5) /* DefaultScale */;
@@ -32,7 +27,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41297,   1,   33554826) /* Setup */
      , (41297,   8,  100690644) /* Icon */
      , (41297,  22,  872415275) /* PhysicsEffectTable */
-     , (41297,  28,       5092) /* Spell - TwoHandedmastery2 */
+     , (41297,  28,       5092) /* Spell - TwoHandedMasteryOther2 */
      , (41297, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (41297, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41297, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

@@ -12,16 +12,9 @@ VALUES (4768,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4768,  15,          2) /* StackUnitValue */
      , (4768,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4768,  19,          2) /* Value */
-     , (4768,  65,        101) /* Placement - Resting */
      , (4768,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4768,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4768,   1, False) /* Stuck */
-     , (4768,  11, True ) /* IgnoreCollisions */
-     , (4768,  13, True ) /* Ethereal */
-     , (4768,  14, True ) /* GravityStatus */
-     , (4768,  19, True ) /* Attackable */;
+     , (4768,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (4768, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4768,   1, 'Uncooked Rice') /* Name */

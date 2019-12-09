@@ -13,20 +13,15 @@ VALUES (41810,   1,        128) /* ItemType - Misc */
      , (41810,  16,          1) /* ItemUseable - No */
      , (41810,  19,          0) /* Value */
      , (41810,  33,          1) /* Bonded - Bonded */
-     , (41810,  65,        101) /* Placement - Resting */
      , (41810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41810, 114,          1) /* Attuned - Attuned */;
+     , (41810, 114,          1) /* Attuned - Attuned */
+     , (41810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41810,   1, False) /* Stuck */
-     , (41810,  11, True ) /* IgnoreCollisions */
-     , (41810,  13, True ) /* Ethereal */
-     , (41810,  14, True ) /* GravityStatus */
-     , (41810,  19, True ) /* Attackable */
-     , (41810,  69, False) /* IsSellable */;
+VALUES (41810,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41810,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (41810,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41810,   1, 'Damaged Eldrytch Web Commendation Ribbon') /* Name */

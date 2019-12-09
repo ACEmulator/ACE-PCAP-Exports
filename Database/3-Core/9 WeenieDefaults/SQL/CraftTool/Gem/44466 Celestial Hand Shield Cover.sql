@@ -13,20 +13,15 @@ VALUES (44466,   1,       2048) /* ItemType - Gem */
      , (44466,  15,         50) /* StackUnitValue */
      , (44466,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44466,  19,         50) /* Value */
-     , (44466,  65,        101) /* Placement - Resting */
      , (44466,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44466,  94,          2) /* TargetType - Armor */;
+     , (44466,  94,          2) /* TargetType - Armor */
+     , (44466, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44466,   1, False) /* Stuck */
-     , (44466,  11, True ) /* IgnoreCollisions */
-     , (44466,  13, True ) /* Ethereal */
-     , (44466,  14, True ) /* GravityStatus */
-     , (44466,  19, True ) /* Attackable */
-     , (44466,  22, True ) /* Inscribable */;
+VALUES (44466,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44466,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44466,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44466,   1, 'Celestial Hand Shield Cover') /* Name */;

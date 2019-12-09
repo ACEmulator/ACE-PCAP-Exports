@@ -9,17 +9,12 @@ VALUES (32024,   1,       2048) /* ItemType - Gem */
      , (32024,  16,          1) /* ItemUseable - No */
      , (32024,  19,          0) /* Value */
      , (32024,  33,          1) /* Bonded - Bonded */
-     , (32024,  65,        101) /* Placement - Resting */
      , (32024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32024, 114,          1) /* Attuned - Attuned */;
+     , (32024, 114,          1) /* Attuned - Attuned */
+     , (32024, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32024,   1, False) /* Stuck */
-     , (32024,  11, True ) /* IgnoreCollisions */
-     , (32024,  13, True ) /* Ethereal */
-     , (32024,  14, True ) /* GravityStatus */
-     , (32024,  19, True ) /* Attackable */
-     , (32024,  22, True ) /* Inscribable */;
+VALUES (32024,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32024,   1, 'Offering to Xik Minru') /* Name */

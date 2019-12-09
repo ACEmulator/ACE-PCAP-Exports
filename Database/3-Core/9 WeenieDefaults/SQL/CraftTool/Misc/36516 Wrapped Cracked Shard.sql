@@ -12,17 +12,12 @@ VALUES (36516,   1,        128) /* ItemType - Misc */
      , (36516,  15,          4) /* StackUnitValue */
      , (36516,  16,          8) /* ItemUseable - Contained */
      , (36516,  19,          4) /* Value */
-     , (36516,  65,        101) /* Placement - Resting */
      , (36516,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36516,  94,         16) /* TargetType - Creature */;
+     , (36516,  94,         16) /* TargetType - Creature */
+     , (36516, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36516,   1, False) /* Stuck */
-     , (36516,  11, True ) /* IgnoreCollisions */
-     , (36516,  13, True ) /* Ethereal */
-     , (36516,  14, True ) /* GravityStatus */
-     , (36516,  19, True ) /* Attackable */
-     , (36516,  22, True ) /* Inscribable */;
+VALUES (36516,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36516,   1, 'Wrapped Cracked Shard') /* Name */;

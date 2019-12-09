@@ -15,11 +15,7 @@ VALUES (38297,   1,         16) /* ItemType - Creature */
      , (38297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38297,   1, True ) /* Stuck */
-     , (38297,  12, True ) /* ReportCollisions */
-     , (38297,  13, False) /* Ethereal */
-     , (38297,  14, True ) /* GravityStatus */
-     , (38297,  19, True ) /* Attackable */;
+VALUES (38297,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38297,   1, 'Coral Tower') /* Name */

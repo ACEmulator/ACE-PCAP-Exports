@@ -21,12 +21,7 @@ VALUES (34967,   1,         32) /* ItemType - Food */
      , (34967, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34967,   1, False) /* Stuck */
-     , (34967,  11, True ) /* IgnoreCollisions */
-     , (34967,  13, True ) /* Ethereal */
-     , (34967,  14, True ) /* GravityStatus */
-     , (34967,  19, True ) /* Attackable */
-     , (34967,  22, True ) /* Inscribable */
+VALUES (34967,  22, True ) /* Inscribable */
      , (34967,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -15,16 +15,12 @@ VALUES (12027,   1,         16) /* ItemType - Creature */
      , (12027, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12027,   1, True ) /* Stuck */
-     , (12027,  12, True ) /* ReportCollisions */
-     , (12027,  13, False) /* Ethereal */
-     , (12027,  14, True ) /* GravityStatus */
-     , (12027,  19, True ) /* Attackable */;
+VALUES (12027,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12027, 8010,       0) /* PCAPRecordedVelocityX */
-     , (12027, 8011, 5.40728282928467) /* PCAPRecordedVelocityY */
-     , (12027, 8012, -3.60485553741455) /* PCAPRecordedVelocityZ */;
+     , (12027, 8011,    5.41) /* PCAPRecordedVelocityY */
+     , (12027, 8012,    -3.6) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12027,   1, 'Lord of Decay') /* Name */

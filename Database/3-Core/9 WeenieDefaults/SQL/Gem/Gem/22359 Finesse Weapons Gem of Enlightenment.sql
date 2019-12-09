@@ -9,17 +9,12 @@ VALUES (22359,   1,       2048) /* ItemType - Gem */
      , (22359,  16,          8) /* ItemUseable - Contained */
      , (22359,  19,          0) /* Value */
      , (22359,  33,          1) /* Bonded - Bonded */
-     , (22359,  65,        101) /* Placement - Resting */
      , (22359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22359, 114,          1) /* Attuned - Attuned */;
+     , (22359, 114,          1) /* Attuned - Attuned */
+     , (22359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22359,   1, False) /* Stuck */
-     , (22359,  11, True ) /* IgnoreCollisions */
-     , (22359,  13, True ) /* Ethereal */
-     , (22359,  14, True ) /* GravityStatus */
-     , (22359,  19, True ) /* Attackable */
-     , (22359,  22, True ) /* Inscribable */;
+VALUES (22359,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22359,   1, 'Finesse Weapons Gem of Enlightenment') /* Name */

@@ -8,17 +8,12 @@ VALUES (36359,   1,        128) /* ItemType - Misc */
      , (36359,   5,        350) /* EncumbranceVal */
      , (36359,  16,          1) /* ItemUseable - No */
      , (36359,  19,          0) /* Value */
-     , (36359,  65,        101) /* Placement - Resting */
      , (36359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36359, 151,          9) /* HookType - Floor, Yard */;
+     , (36359, 151,          9) /* HookType - Floor, Yard */
+     , (36359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36359,   1, False) /* Stuck */
-     , (36359,  11, True ) /* IgnoreCollisions */
-     , (36359,  13, True ) /* Ethereal */
-     , (36359,  14, True ) /* GravityStatus */
-     , (36359,  19, True ) /* Attackable */
-     , (36359,  22, True ) /* Inscribable */;
+VALUES (36359,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36359,   1, 'Cow Head') /* Name */

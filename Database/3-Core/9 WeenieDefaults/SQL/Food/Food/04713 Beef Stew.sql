@@ -12,15 +12,8 @@ VALUES (4713,   1,         32) /* ItemType - Food */
      , (4713,  15,          6) /* StackUnitValue */
      , (4713,  16,          8) /* ItemUseable - Contained */
      , (4713,  19,          6) /* Value */
-     , (4713,  65,        101) /* Placement - Resting */
-     , (4713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4713,   1, False) /* Stuck */
-     , (4713,  11, True ) /* IgnoreCollisions */
-     , (4713,  13, True ) /* Ethereal */
-     , (4713,  14, True ) /* GravityStatus */
-     , (4713,  19, True ) /* Attackable */;
+     , (4713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4713,   1, 'Beef Stew') /* Name */

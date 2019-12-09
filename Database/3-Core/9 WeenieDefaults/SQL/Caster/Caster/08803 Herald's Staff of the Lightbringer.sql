@@ -12,20 +12,14 @@ VALUES (8803,   1,      32768) /* ItemType - Caster */
      , (8803,  18,          1) /* UiEffects - Magical */
      , (8803,  19,          0) /* Value */
      , (8803,  33,          1) /* Bonded - Bonded */
-     , (8803,  65,          1) /* Placement - RightHandCombat */
      , (8803,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8803,  94,         16) /* TargetType - Creature */
      , (8803, 114,          1) /* Attuned - Attuned */
-     , (8803, 151,          2) /* HookType - Wall */;
+     , (8803, 151,          2) /* HookType - Wall */
+     , (8803, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8803,   1, False) /* Stuck */
-     , (8803,  11, True ) /* IgnoreCollisions */
-     , (8803,  13, True ) /* Ethereal */
-     , (8803,  14, True ) /* GravityStatus */
-     , (8803,  15, True ) /* LightsStatus */
-     , (8803,  19, True ) /* Attackable */
-     , (8803,  22, True ) /* Inscribable */
+VALUES (8803,  22, True ) /* Inscribable */
      , (8803,  69, False) /* IsSellable */
      , (8803,  99, True ) /* Ivoryable */;
 

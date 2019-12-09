@@ -14,18 +14,13 @@ VALUES (34042,   1,       2048) /* ItemType - Gem */
      , (34042,  18,          4) /* UiEffects - BoostHealth */
      , (34042,  19,        500) /* Value */
      , (34042,  33,          1) /* Bonded - Bonded */
-     , (34042,  65,        101) /* Placement - Resting */
      , (34042,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34042,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (34042, 114,          1) /* Attuned - Attuned */;
+     , (34042, 114,          1) /* Attuned - Attuned */
+     , (34042, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34042,   1, False) /* Stuck */
-     , (34042,  11, True ) /* IgnoreCollisions */
-     , (34042,  13, True ) /* Ethereal */
-     , (34042,  14, True ) /* GravityStatus */
-     , (34042,  19, True ) /* Attackable */
-     , (34042,  69, False) /* IsSellable */;
+VALUES (34042,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34042,   1, 'Black Skull of Xikma') /* Name */

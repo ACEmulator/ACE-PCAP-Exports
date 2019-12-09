@@ -9,23 +9,18 @@ VALUES (43534,   1,       8192) /* ItemType - Writable */
      , (43534,  16,          8) /* ItemUseable - Contained */
      , (43534,  19,         50) /* Value */
      , (43534,  33,          0) /* Bonded - Normal */
-     , (43534,  65,        101) /* Placement - Resting */
      , (43534,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43534, 114,          0) /* Attuned - Normal */
-     , (43534, 174,         30) /* AppraisalPages */
-     , (43534, 175,         30) /* AppraisalMaxPages */;
+     , (43534, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (43534, 8042,         30) /* PCAPRecordedAppraisalPages */
+     , (43534, 8043,         30) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43534,   1, False) /* Stuck */
-     , (43534,  11, True ) /* IgnoreCollisions */
-     , (43534,  13, True ) /* Ethereal */
-     , (43534,  14, True ) /* GravityStatus */
-     , (43534,  19, True ) /* Attackable */
-     , (43534,  69, True ) /* IsSellable */
+VALUES (43534,  69, True ) /* IsSellable */
      , (43534,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43534,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (43534,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43534,   1, 'Luminance, and the Paths of the Empyrean') /* Name */

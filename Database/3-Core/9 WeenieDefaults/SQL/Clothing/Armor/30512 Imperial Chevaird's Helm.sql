@@ -10,17 +10,12 @@ VALUES (30512,   1,          2) /* ItemType - Armor */
      , (30512,   9,          1) /* ValidLocations - HeadWear */
      , (30512,  16,          1) /* ItemUseable - No */
      , (30512,  19,      50000) /* Value */
-     , (30512,  65,        101) /* Placement - Resting */
      , (30512,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30512, 151,          2) /* HookType - Wall */;
+     , (30512, 151,          2) /* HookType - Wall */
+     , (30512, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30512,   1, False) /* Stuck */
-     , (30512,  11, True ) /* IgnoreCollisions */
-     , (30512,  13, True ) /* Ethereal */
-     , (30512,  14, True ) /* GravityStatus */
-     , (30512,  19, True ) /* Attackable */
-     , (30512,  22, True ) /* Inscribable */;
+VALUES (30512,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30512,   1, 'Imperial Chevaird''s Helm') /* Name */;

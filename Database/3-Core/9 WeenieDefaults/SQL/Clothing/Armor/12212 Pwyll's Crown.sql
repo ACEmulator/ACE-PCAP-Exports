@@ -12,31 +12,26 @@ VALUES (12212,   1,          2) /* ItemType - Armor */
      , (12212,  18,          1) /* UiEffects - Magical */
      , (12212,  19,       4000) /* Value */
      , (12212,  28,        250) /* ArmorLevel */
-     , (12212,  65,        101) /* Placement - Resting */
      , (12212,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12212, 106,        250) /* ItemSpellcraft */
      , (12212, 107,        400) /* ItemCurMana */
      , (12212, 108,        400) /* ItemMaxMana */
      , (12212, 109,        100) /* ItemDifficulty */
      , (12212, 151,          2) /* HookType - Wall */
-     , (12212, 188,          1) /* HeritageGroup - Aluvian */;
+     , (12212, 188,          1) /* HeritageGroup - Aluvian */
+     , (12212, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12212,   1, False) /* Stuck */
-     , (12212,  11, True ) /* IgnoreCollisions */
-     , (12212,  13, True ) /* Ethereal */
-     , (12212,  14, True ) /* GravityStatus */
-     , (12212,  19, True ) /* Attackable */
-     , (12212,  22, True ) /* Inscribable */;
+VALUES (12212,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12212,   5, -0.0333000011742115) /* ManaRate */
-     , (12212,  13, 1.39999997615814) /* ArmorModVsSlash */
-     , (12212,  14, 1.20000004768372) /* ArmorModVsPierce */
-     , (12212,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (12212,  16, 1.20000004768372) /* ArmorModVsCold */
-     , (12212,  17, 1.20000004768372) /* ArmorModVsFire */
-     , (12212,  18, 1.39999997615814) /* ArmorModVsAcid */
+VALUES (12212,   5,   -0.03) /* ManaRate */
+     , (12212,  13,     1.4) /* ArmorModVsSlash */
+     , (12212,  14,     1.2) /* ArmorModVsPierce */
+     , (12212,  15,     1.4) /* ArmorModVsBludgeon */
+     , (12212,  16,     1.2) /* ArmorModVsCold */
+     , (12212,  17,     1.2) /* ArmorModVsFire */
+     , (12212,  18,     1.4) /* ArmorModVsAcid */
      , (12212,  19,       1) /* ArmorModVsElectric */
      , (12212, 165,       1) /* ArmorModVsNether */;
 

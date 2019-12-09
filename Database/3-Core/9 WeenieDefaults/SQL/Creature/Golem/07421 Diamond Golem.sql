@@ -16,15 +16,10 @@ VALUES (7421,   1,         16) /* ItemType - Creature */
      , (7421, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7421,   1, True ) /* Stuck */
-     , (7421,  12, True ) /* ReportCollisions */
-     , (7421,  13, False) /* Ethereal */
-     , (7421,  14, True ) /* GravityStatus */
-     , (7421,  19, True ) /* Attackable */
-     , (7421,  42, True ) /* AllowEdgeSlide */;
+VALUES (7421,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7421,  76, 0.300000011920929) /* Translucency */;
+VALUES (7421,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7421,   1, 'Diamond Golem') /* Name */

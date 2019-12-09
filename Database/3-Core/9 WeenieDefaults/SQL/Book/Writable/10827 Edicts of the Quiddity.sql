@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10827,   1,       8192) /* ItemType - Writable */
      , (10827,   5,          5) /* EncumbranceVal */
      , (10827,  16,          8) /* ItemUseable - Contained */
-     , (10827,  65,        101) /* Placement - Resting */
-     , (10827,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10827,   1, False) /* Stuck */
-     , (10827,  11, True ) /* IgnoreCollisions */
-     , (10827,  13, True ) /* Ethereal */
-     , (10827,  14, True ) /* GravityStatus */
-     , (10827,  19, True ) /* Attackable */;
+     , (10827,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (10827, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10827,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (10827,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10827,   1, 'Edicts of the Quiddity') /* Name */;

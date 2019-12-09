@@ -12,21 +12,15 @@ VALUES (35739,   1,      65536) /* ItemType - Portal */
      , (35739, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35739,   1, True ) /* Stuck */
-     , (35739,  11, True ) /* IgnoreCollisions */
-     , (35739,  13, True ) /* Ethereal */
-     , (35739,  14, True ) /* GravityStatus */
-     , (35739,  15, True ) /* LightsStatus */
-     , (35739,  19, True ) /* Attackable */;
+VALUES (35739,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35739,  54, -0.100000001490116) /* UseRadius */;
+VALUES (35739,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35739,   1, 'Deeper Catacombs') /* Name */
      , (35739,  14, 'Destroy the Paradox-touched Olthoi Ward Guardian to weaken the wards around this portal for a time.') /* Use */
      , (35739,  16, 'This portal seems warded by a strange mix of energies.  You have no idea how to access it directly.') /* LongDesc */
-     , (35739,  38, 'Deeper Catacombs') /* AppraisalPortalDestination */
      , (35739, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -11,12 +11,7 @@ VALUES (14683,   1,        128) /* ItemType - Misc */
      , (14683,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14683,   1, True ) /* Stuck */
-     , (14683,  11, True ) /* IgnoreCollisions */
-     , (14683,  12, True ) /* ReportCollisions */
-     , (14683,  13, False) /* Ethereal */
-     , (14683,  14, True ) /* GravityStatus */
-     , (14683,  19, True ) /* Attackable */;
+VALUES (14683,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14683,   1, 'Bleached Skull Wastes Settlement') /* Name */;

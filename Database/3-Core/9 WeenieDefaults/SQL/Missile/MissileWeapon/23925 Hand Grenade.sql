@@ -19,25 +19,21 @@ VALUES (23925,   1,        256) /* ItemType - MissileWeapon */
      , (23925,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23925,  49,          3) /* WeaponTime */
      , (23925,  51,          2) /* CombatUse - Missle */
-     , (23925,  65,        101) /* Placement - Resting */
      , (23925,  93,     131092) /* PhysicsState - Ethereal, IgnoreCollisions, Inelastic */
      , (23925, 158,          8) /* WieldRequirements - Training */
      , (23925, 159,         35) /* WieldSkillType - Leadership */
      , (23925, 160,          2) /* WieldDifficulty */
      , (23925, 166,         25) /* SlayerCreatureType - Rabbit */
      , (23925, 353,         10) /* WeaponType - Thrown */
-     , (23925, 8030,          0);
+     , (23925, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (23925, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23925,   1, True ) /* Stuck */
-     , (23925,  11, True ) /* IgnoreCollisions */
-     , (23925,  13, True ) /* Ethereal */
-     , (23925,  17, True ) /* Inelastic */
-     , (23925,  19, True ) /* Attackable */;
+VALUES (23925,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23925,  21,       0) /* WeaponLength */
-     , (23925,  22,   0.001) /* DamageVariance */
+     , (23925,  22,       0) /* DamageVariance */
      , (23925,  26,       0) /* MaximumVelocity */
      , (23925,  29,       1) /* WeaponDefense */
      , (23925,  39,     1.5) /* DefaultScale */

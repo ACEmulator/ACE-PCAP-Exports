@@ -13,19 +13,13 @@ VALUES (2086,   1,      65536) /* ItemType - Portal */
      , (2086, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2086,   1, True ) /* Stuck */
-     , (2086,  12, True ) /* ReportCollisions */
-     , (2086,  13, True ) /* Ethereal */
-     , (2086,  14, True ) /* GravityStatus */
-     , (2086,  15, True ) /* LightsStatus */
-     , (2086,  19, True ) /* Attackable */;
+VALUES (2086,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2086,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2086,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2086,   1, 'Lair of Death') /* Name */
-     , (2086,  38, 'Lair of Death') /* AppraisalPortalDestination */
      , (2086, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

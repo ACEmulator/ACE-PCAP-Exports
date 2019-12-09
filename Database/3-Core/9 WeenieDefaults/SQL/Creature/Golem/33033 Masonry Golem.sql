@@ -15,14 +15,10 @@ VALUES (33033,   1,         16) /* ItemType - Creature */
      , (33033, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33033,   1, True ) /* Stuck */
-     , (33033,  12, True ) /* ReportCollisions */
-     , (33033,  13, False) /* Ethereal */
-     , (33033,  14, True ) /* GravityStatus */
-     , (33033,  19, True ) /* Attackable */;
+VALUES (33033,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33033,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (33033,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33033,   1, 'Masonry Golem') /* Name */

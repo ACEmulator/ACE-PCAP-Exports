@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23069,   1,        128) /* ItemType - Misc */
      , (23069,   5,         10) /* EncumbranceVal */
      , (23069,  16,          8) /* ItemUseable - Contained */
-     , (23069,  65,        101) /* Placement - Resting */
-     , (23069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23069, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23069,   1, False) /* Stuck */
-     , (23069,  11, True ) /* IgnoreCollisions */
-     , (23069,  13, True ) /* Ethereal */
-     , (23069,  14, True ) /* GravityStatus */
-     , (23069,  19, True ) /* Attackable */
-     , (23069,  22, True ) /* Inscribable */;
+VALUES (23069,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23069,   1, 'Self To Strength Gem') /* Name */;

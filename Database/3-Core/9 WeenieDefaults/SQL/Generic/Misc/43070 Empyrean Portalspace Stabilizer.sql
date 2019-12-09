@@ -8,17 +8,12 @@ VALUES (43070,   1,        128) /* ItemType - Misc */
      , (43070,   5,         50) /* EncumbranceVal */
      , (43070,  16,          1) /* ItemUseable - No */
      , (43070,  19,     100000) /* Value */
-     , (43070,  65,        101) /* Placement - Resting */
      , (43070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43070, 151,          9) /* HookType - Floor, Yard */;
+     , (43070, 151,          9) /* HookType - Floor, Yard */
+     , (43070, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43070,   1, False) /* Stuck */
-     , (43070,  11, True ) /* IgnoreCollisions */
-     , (43070,  13, True ) /* Ethereal */
-     , (43070,  14, True ) /* GravityStatus */
-     , (43070,  19, True ) /* Attackable */
-     , (43070,  22, True ) /* Inscribable */;
+VALUES (43070,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43070,   1, 'Empyrean Portalspace Stabilizer') /* Name */

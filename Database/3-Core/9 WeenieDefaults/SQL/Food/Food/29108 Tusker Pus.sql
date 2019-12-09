@@ -18,12 +18,7 @@ VALUES (29108,   1,         32) /* ItemType - Food */
      , (29108,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29108,   1, False) /* Stuck */
-     , (29108,  11, True ) /* IgnoreCollisions */
-     , (29108,  13, True ) /* Ethereal */
-     , (29108,  14, True ) /* GravityStatus */
-     , (29108,  19, True ) /* Attackable */
-     , (29108,  69, False) /* IsSellable */;
+VALUES (29108,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29108,   1, 'Tusker Pus') /* Name */

@@ -12,19 +12,13 @@ VALUES (19138,   1,      65536) /* ItemType - Portal */
      , (19138, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19138,   1, True ) /* Stuck */
-     , (19138,  12, True ) /* ReportCollisions */
-     , (19138,  13, True ) /* Ethereal */
-     , (19138,  14, True ) /* GravityStatus */
-     , (19138,  15, True ) /* LightsStatus */
-     , (19138,  19, True ) /* Attackable */;
+VALUES (19138,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19138,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19138,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19138,   1, 'Amarand Villas Portal') /* Name */
-     , (19138,  38, 'Amarand Villas Portal (38.7N, 9.6W).') /* AppraisalPortalDestination */
      , (19138, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

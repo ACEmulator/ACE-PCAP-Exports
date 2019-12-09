@@ -18,7 +18,6 @@ VALUES (30348,   1,        256) /* ItemType - MissileWeapon */
      , (30348,  49,          0) /* WeaponTime */
      , (30348,  50,          4) /* AmmoType - Atlatl */
      , (30348,  51,          2) /* CombatUse - Missle */
-     , (30348,  65,          1) /* Placement - RightHandCombat */
      , (30348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30348, 106,        350) /* ItemSpellcraft */
      , (30348, 107,       1612) /* ItemCurMana */
@@ -31,28 +30,24 @@ VALUES (30348,   1,        256) /* ItemType - MissileWeapon */
      , (30348, 319,         50) /* ItemMaxLevel */
      , (30348, 320,          1) /* ItemXpStyle - Fixed */
      , (30348, 353,         10) /* WeaponType - Thrown */
-     , (30348, 8030,          0);
+     , (30348, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (30348, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30348,   4, 74974277022) /* ItemTotalXp */
      , (30348,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30348,   1, False) /* Stuck */
-     , (30348,  11, True ) /* IgnoreCollisions */
-     , (30348,  13, True ) /* Ethereal */
-     , (30348,  14, True ) /* GravityStatus */
-     , (30348,  19, True ) /* Attackable */
-     , (30348,  22, True ) /* Inscribable */;
+VALUES (30348,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30348,   5, -0.0333333015441895) /* ManaRate */
+VALUES (30348,   5,   -0.03) /* ManaRate */
      , (30348,  21,       0) /* WeaponLength */
      , (30348,  22,       0) /* DamageVariance */
      , (30348,  26,    24.9) /* MaximumVelocity */
-     , (30348,  29, 1.37999995052814) /* WeaponDefense */
+     , (30348,  29,    1.38) /* WeaponDefense */
      , (30348,  62,       1) /* WeaponOffense */
-     , (30348,  63, 2.90000009536743) /* DamageMod */
+     , (30348,  63,     2.9) /* DamageMod */
      , (30348, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

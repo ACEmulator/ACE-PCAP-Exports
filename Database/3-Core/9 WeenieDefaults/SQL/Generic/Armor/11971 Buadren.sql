@@ -12,19 +12,14 @@ VALUES (11971,   1,          2) /* ItemType - Armor */
      , (11971,  19,        120) /* Value */
      , (11971,  33,         -2) /* Bonded - Destroy */
      , (11971,  51,          4) /* CombatUse - Shield */
-     , (11971,  65,          6) /* Placement - Shield */
-     , (11971,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11971,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11971, 8041,          6) /* PCAPRecordedPlacement - Shield */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11971,   1, False) /* Stuck */
-     , (11971,  11, True ) /* IgnoreCollisions */
-     , (11971,  13, True ) /* Ethereal */
-     , (11971,  14, True ) /* GravityStatus */
-     , (11971,  19, True ) /* Attackable */
-     , (11971,  22, True ) /* Inscribable */;
+VALUES (11971,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11971,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (11971,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11971,   1, 'Buadren') /* Name */;

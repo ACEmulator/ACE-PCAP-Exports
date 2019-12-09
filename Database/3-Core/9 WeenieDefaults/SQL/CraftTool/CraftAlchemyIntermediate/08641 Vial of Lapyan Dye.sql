@@ -12,18 +12,13 @@ VALUES (8641,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (8641,  15,         10) /* StackUnitValue */
      , (8641,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8641,  19,         10) /* Value */
-     , (8641,  65,        101) /* Placement - Resting */
      , (8641,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8641,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (8641, 151,          9) /* HookType - Floor, Yard */;
+     , (8641, 151,          9) /* HookType - Floor, Yard */
+     , (8641, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8641,   1, False) /* Stuck */
-     , (8641,  11, True ) /* IgnoreCollisions */
-     , (8641,  13, True ) /* Ethereal */
-     , (8641,  14, True ) /* GravityStatus */
-     , (8641,  19, True ) /* Attackable */
-     , (8641,  69, False) /* IsSellable */;
+VALUES (8641,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8641,   1, 'Vial of Lapyan Dye') /* Name */

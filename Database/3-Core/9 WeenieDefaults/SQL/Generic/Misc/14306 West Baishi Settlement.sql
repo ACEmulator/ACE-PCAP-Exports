@@ -11,12 +11,7 @@ VALUES (14306,   1,        128) /* ItemType - Misc */
      , (14306,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14306,   1, True ) /* Stuck */
-     , (14306,  11, True ) /* IgnoreCollisions */
-     , (14306,  12, True ) /* ReportCollisions */
-     , (14306,  13, False) /* Ethereal */
-     , (14306,  14, True ) /* GravityStatus */
-     , (14306,  19, True ) /* Attackable */;
+VALUES (14306,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14306,   1, 'West Baishi Settlement') /* Name */;

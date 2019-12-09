@@ -16,7 +16,6 @@ VALUES (3899,   1,          1) /* ItemType - MeleeWeapon */
      , (3899,  48,         45) /* WeaponSkill - LightWeapons */
      , (3899,  49,         28) /* WeaponTime */
      , (3899,  51,          1) /* CombatUse - Melee */
-     , (3899,  65,        101) /* Placement - Resting */
      , (3899,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3899, 105,          4) /* ItemWorkmanship */
      , (3899, 106,         49) /* ItemSpellcraft */
@@ -31,24 +30,20 @@ VALUES (3899,   1,          1) /* ItemType - MeleeWeapon */
      , (3899, 176,         45) /* AppraisalItemSkill */
      , (3899, 188,          3) /* HeritageGroup - Sho */
      , (3899, 353,          4) /* WeaponType - Mace */
-     , (3899, 8030,          0);
+     , (3899, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (3899, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3899,   1, False) /* Stuck */
-     , (3899,  11, True ) /* IgnoreCollisions */
-     , (3899,  13, True ) /* Ethereal */
-     , (3899,  14, True ) /* GravityStatus */
-     , (3899,  19, True ) /* Attackable */
-     , (3899,  22, True ) /* Inscribable */;
+VALUES (3899,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3899,   5, -0.0166666675359011) /* ManaRate */
+VALUES (3899,   5,   -0.02) /* ManaRate */
      , (3899,  21,       0) /* WeaponLength */
-     , (3899,  22, 0.400000005960464) /* DamageVariance */
+     , (3899,  22,     0.4) /* DamageVariance */
      , (3899,  26,       0) /* MaximumVelocity */
-     , (3899,  29, 1.01999998092651) /* WeaponDefense */
-     , (3899,  39, 0.899999976158142) /* DefaultScale */
-     , (3899,  62, 1.02999997138977) /* WeaponOffense */
+     , (3899,  29,    1.02) /* WeaponDefense */
+     , (3899,  39,     0.9) /* DefaultScale */
+     , (3899,  62,    1.03) /* WeaponOffense */
      , (3899,  63,       1) /* DamageMod */
      , (3899, 8004,       4) /* PCAPRecordedWorkmanship */;
 

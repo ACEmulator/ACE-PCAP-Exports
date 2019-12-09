@@ -12,15 +12,8 @@ VALUES (37349,   1,        128) /* ItemType - Misc */
      , (37349,  15,      30000) /* StackUnitValue */
      , (37349,  16,          1) /* ItemUseable - No */
      , (37349,  19,      30000) /* Value */
-     , (37349,  65,        101) /* Placement - Resting */
-     , (37349,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37349,   1, False) /* Stuck */
-     , (37349,  11, True ) /* IgnoreCollisions */
-     , (37349,  13, True ) /* Ethereal */
-     , (37349,  14, True ) /* GravityStatus */
-     , (37349,  19, True ) /* Attackable */;
+     , (37349,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37349, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37349,   1, 'Glyph of Cooking') /* Name */

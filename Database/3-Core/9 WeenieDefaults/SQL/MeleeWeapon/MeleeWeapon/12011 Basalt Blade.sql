@@ -15,7 +15,6 @@ VALUES (12011,   1,          1) /* ItemType - MeleeWeapon */
      , (12011,  48,         45) /* WeaponSkill - LightWeapons */
      , (12011,  49,         20) /* WeaponTime */
      , (12011,  51,          1) /* CombatUse - Melee */
-     , (12011,  65,        101) /* Placement - Resting */
      , (12011,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12011, 106,        200) /* ItemSpellcraft */
      , (12011, 107,        300) /* ItemCurMana */
@@ -23,18 +22,14 @@ VALUES (12011,   1,          1) /* ItemType - MeleeWeapon */
      , (12011, 109,        110) /* ItemDifficulty */
      , (12011, 151,          2) /* HookType - Wall */
      , (12011, 353,          1) /* WeaponType - Unarmed */
-     , (12011, 8030,          0);
+     , (12011, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (12011, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12011,   1, False) /* Stuck */
-     , (12011,  11, True ) /* IgnoreCollisions */
-     , (12011,  13, True ) /* Ethereal */
-     , (12011,  14, True ) /* GravityStatus */
-     , (12011,  19, True ) /* Attackable */
-     , (12011,  22, True ) /* Inscribable */;
+VALUES (12011,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12011,   5,  -0.017) /* ManaRate */
+VALUES (12011,   5,   -0.02) /* ManaRate */
      , (12011,  21,       0) /* WeaponLength */
      , (12011,  22,    0.75) /* DamageVariance */
      , (12011,  26,       0) /* MaximumVelocity */

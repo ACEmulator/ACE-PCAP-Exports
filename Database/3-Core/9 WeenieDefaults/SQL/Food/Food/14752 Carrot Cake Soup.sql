@@ -12,15 +12,8 @@ VALUES (14752,   1,         32) /* ItemType - Food */
      , (14752,  15,         25) /* StackUnitValue */
      , (14752,  16,          8) /* ItemUseable - Contained */
      , (14752,  19,         25) /* Value */
-     , (14752,  65,        101) /* Placement - Resting */
-     , (14752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14752,   1, False) /* Stuck */
-     , (14752,  11, True ) /* IgnoreCollisions */
-     , (14752,  13, True ) /* Ethereal */
-     , (14752,  14, True ) /* GravityStatus */
-     , (14752,  19, True ) /* Attackable */;
+     , (14752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14752, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14752,   1, 'Carrot Cake Soup') /* Name */

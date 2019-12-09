@@ -18,7 +18,6 @@ VALUES (30308,   1,        256) /* ItemType - MissileWeapon */
      , (30308,  49,         20) /* WeaponTime */
      , (30308,  50,          2) /* AmmoType - Bolt */
      , (30308,  51,          2) /* CombatUse - Missle */
-     , (30308,  65,          3) /* Placement - LeftHand */
      , (30308,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30308, 106,        350) /* ItemSpellcraft */
      , (30308, 107,        677) /* ItemCurMana */
@@ -32,29 +31,25 @@ VALUES (30308,   1,        256) /* ItemType - MissileWeapon */
      , (30308, 319,         50) /* ItemMaxLevel */
      , (30308, 320,          1) /* ItemXpStyle - Fixed */
      , (30308, 353,          9) /* WeaponType - Crossbow */
-     , (30308, 8030,          0);
+     , (30308, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (30308, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30308,   4, 10380098150) /* ItemTotalXp */
      , (30308,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30308,   1, False) /* Stuck */
-     , (30308,  11, True ) /* IgnoreCollisions */
-     , (30308,  13, True ) /* Ethereal */
-     , (30308,  14, True ) /* GravityStatus */
-     , (30308,  19, True ) /* Attackable */
-     , (30308,  22, True ) /* Inscribable */
+VALUES (30308,  22, True ) /* Inscribable */
      , (30308,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30308,   5, -0.0333333015441895) /* ManaRate */
+VALUES (30308,   5,   -0.03) /* ManaRate */
      , (30308,  21,       0) /* WeaponLength */
      , (30308,  22,       0) /* DamageVariance */
      , (30308,  26,    27.3) /* MaximumVelocity */
-     , (30308,  29, 1.37999995052814) /* WeaponDefense */
-     , (30308,  62, 1.20000000298023) /* WeaponOffense */
-     , (30308,  63, 2.95000004768372) /* DamageMod */
+     , (30308,  29,    1.38) /* WeaponDefense */
+     , (30308,  62,     1.2) /* WeaponOffense */
+     , (30308,  63,    2.95) /* DamageMod */
      , (30308, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

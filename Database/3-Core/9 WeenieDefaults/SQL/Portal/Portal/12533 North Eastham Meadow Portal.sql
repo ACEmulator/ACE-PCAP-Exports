@@ -12,19 +12,13 @@ VALUES (12533,   1,      65536) /* ItemType - Portal */
      , (12533, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12533,   1, True ) /* Stuck */
-     , (12533,  12, True ) /* ReportCollisions */
-     , (12533,  13, True ) /* Ethereal */
-     , (12533,  14, True ) /* GravityStatus */
-     , (12533,  15, True ) /* LightsStatus */
-     , (12533,  19, True ) /* Attackable */;
+VALUES (12533,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12533,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12533,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12533,   1, 'North Eastham Meadow Portal') /* Name */
-     , (12533,  38, 'North Eastham Meadow Portal (22.9N, 60.3E).') /* AppraisalPortalDestination */
      , (12533, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

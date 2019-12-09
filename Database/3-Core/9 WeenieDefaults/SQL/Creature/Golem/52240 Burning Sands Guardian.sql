@@ -15,11 +15,7 @@ VALUES (52240,   1,         16) /* ItemType - Creature */
      , (52240, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52240,   1, True ) /* Stuck */
-     , (52240,  12, True ) /* ReportCollisions */
-     , (52240,  13, False) /* Ethereal */
-     , (52240,  14, True ) /* GravityStatus */
-     , (52240,  19, True ) /* Attackable */;
+VALUES (52240,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52240,   1, 'Burning Sands Guardian') /* Name */

@@ -15,11 +15,7 @@ VALUES (36553,   1,         16) /* ItemType - Creature */
      , (36553, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36553,   1, True ) /* Stuck */
-     , (36553,  12, True ) /* ReportCollisions */
-     , (36553,  13, False) /* Ethereal */
-     , (36553,  14, True ) /* GravityStatus */
-     , (36553,  19, True ) /* Attackable */;
+VALUES (36553,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36553,   1, 'Shadow-touched Virindi Paradox') /* Name */

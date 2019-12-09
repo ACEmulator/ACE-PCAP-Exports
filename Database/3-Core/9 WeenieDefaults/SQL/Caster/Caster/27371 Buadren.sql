@@ -11,23 +11,18 @@ VALUES (27371,   1,      32768) /* ItemType - Caster */
      , (27371,  16,          1) /* ItemUseable - No */
      , (27371,  19,      10000) /* Value */
      , (27371,  33,          1) /* Bonded - Bonded */
-     , (27371,  65,          1) /* Placement - RightHandCombat */
      , (27371,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27371,  94,         16) /* TargetType - Creature */
      , (27371, 114,          1) /* Attuned - Attuned */
-     , (27371, 151,          2) /* HookType - Wall */;
+     , (27371, 151,          2) /* HookType - Wall */
+     , (27371, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27371,   1, False) /* Stuck */
-     , (27371,  11, True ) /* IgnoreCollisions */
-     , (27371,  13, True ) /* Ethereal */
-     , (27371,  14, True ) /* GravityStatus */
-     , (27371,  19, True ) /* Attackable */
-     , (27371,  22, True ) /* Inscribable */;
+VALUES (27371,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27371,  29,       1) /* WeaponDefense */
-     , (27371,  39, 1.10000002384186) /* DefaultScale */
+     , (27371,  39,     1.1) /* DefaultScale */
      , (27371, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

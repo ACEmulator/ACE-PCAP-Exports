@@ -8,15 +8,10 @@ VALUES (846,   1,        128) /* ItemType - Misc */
      , (846,   5,       9000) /* EncumbranceVal */
      , (846,  16,          1) /* ItemUseable - No */
      , (846,  19,        125) /* Value */
-     , (846,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (846,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (846,   1, True ) /* Stuck */
-     , (846,  11, True ) /* IgnoreCollisions */
-     , (846,  12, True ) /* ReportCollisions */
-     , (846,  13, False) /* Ethereal */
-     , (846,  14, True ) /* GravityStatus */
-     , (846,  19, True ) /* Attackable */;
+VALUES (846,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (846,   1, 'Bowyer Zhofon') /* Name */

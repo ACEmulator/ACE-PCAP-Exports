@@ -12,20 +12,14 @@ VALUES (42813,   1,      65536) /* ItemType - Portal */
      , (42813, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42813,   1, True ) /* Stuck */
-     , (42813,  12, True ) /* ReportCollisions */
-     , (42813,  13, True ) /* Ethereal */
-     , (42813,  14, True ) /* GravityStatus */
-     , (42813,  15, True ) /* LightsStatus */
-     , (42813,  19, True ) /* Attackable */;
+VALUES (42813,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42813,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42813,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42813,   1, 'Portal to Dryreach') /* Name */
      , (42813,  16, 'This fortified town fell under siege in the earlier days of Aluvian settlement to Tumeroks ushered in from the Hea Village of Ahurenga by the Virindi. The townpeople are often in need of donations from traveling adventurers lest they starve. This town is good for characters over level 20.') /* LongDesc */
-     , (42813,  38, 'Portal to Dryreach (8.1S, 73.0E).') /* AppraisalPortalDestination */
      , (42813, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

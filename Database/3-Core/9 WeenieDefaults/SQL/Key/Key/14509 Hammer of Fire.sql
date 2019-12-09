@@ -8,19 +8,14 @@ VALUES (14509,   1,      16384) /* ItemType - Key */
      , (14509,   5,        575) /* EncumbranceVal */
      , (14509,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (14509,  19,        100) /* Value */
-     , (14509,  65,        101) /* Placement - Resting */
      , (14509,  91,          1) /* MaxStructure */
      , (14509,  92,          1) /* Structure */
      , (14509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14509,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (14509,  94,        640) /* TargetType - LockableMagicTarget */
+     , (14509, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14509,   1, False) /* Stuck */
-     , (14509,  11, True ) /* IgnoreCollisions */
-     , (14509,  13, True ) /* Ethereal */
-     , (14509,  14, True ) /* GravityStatus */
-     , (14509,  19, True ) /* Attackable */
-     , (14509,  22, True ) /* Inscribable */;
+VALUES (14509,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14509,   1, 'Hammer of Fire') /* Name */;

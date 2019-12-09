@@ -13,17 +13,12 @@ VALUES (52969,   1,        128) /* ItemType - Misc */
      , (52969,  16,          1) /* ItemUseable - No */
      , (52969,  19,          1) /* Value */
      , (52969,  33,         -1) /* Bonded - Slippery */
-     , (52969,  65,        101) /* Placement - Resting */
      , (52969,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52969, 114,          1) /* Attuned - Attuned */;
+     , (52969, 114,          1) /* Attuned - Attuned */
+     , (52969, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52969,   1, False) /* Stuck */
-     , (52969,  11, True ) /* IgnoreCollisions */
-     , (52969,  13, True ) /* Ethereal */
-     , (52969,  14, True ) /* GravityStatus */
-     , (52969,  19, True ) /* Attackable */
-     , (52969,  69, False) /* IsSellable */;
+VALUES (52969,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52969,   1, 'Corrupted Amber Shard') /* Name */

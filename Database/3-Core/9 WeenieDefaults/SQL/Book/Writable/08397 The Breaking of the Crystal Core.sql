@@ -10,16 +10,9 @@ VALUES (8397,   1,       8192) /* ItemType - Writable */
      , (8397,  19,        120) /* Value */
      , (8397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8397,   1, False) /* Stuck */
-     , (8397,  11, True ) /* IgnoreCollisions */
-     , (8397,  13, True ) /* Ethereal */
-     , (8397,  14, True ) /* GravityStatus */
-     , (8397,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8397,  39, 0.400000005960464) /* DefaultScale */
-     , (8397,  54, 0.300000011920929) /* UseRadius */;
+VALUES (8397,  39,     0.4) /* DefaultScale */
+     , (8397,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8397,   1, 'The Breaking of the Crystal Core') /* Name */;

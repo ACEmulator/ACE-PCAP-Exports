@@ -14,15 +14,10 @@ VALUES (32216,   1,       2048) /* ItemType - Gem */
      , (32216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32216,   1, False) /* Stuck */
-     , (32216,  11, True ) /* IgnoreCollisions */
-     , (32216,  13, True ) /* Ethereal */
-     , (32216,  14, True ) /* GravityStatus */
-     , (32216,  19, True ) /* Attackable */
-     , (32216,  22, True ) /* Inscribable */;
+VALUES (32216,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32216,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (32216,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32216,   1, 'Pack Gold Remoran') /* Name */

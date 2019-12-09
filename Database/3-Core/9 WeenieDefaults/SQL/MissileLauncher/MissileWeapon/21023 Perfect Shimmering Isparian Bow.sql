@@ -19,7 +19,6 @@ VALUES (21023,   1,        256) /* ItemType - MissileWeapon */
      , (21023,  49,         40) /* WeaponTime */
      , (21023,  50,          1) /* AmmoType - Arrow */
      , (21023,  51,          2) /* CombatUse - Missle */
-     , (21023,  65,          3) /* Placement - LeftHand */
      , (21023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21023, 106,        300) /* ItemSpellcraft */
      , (21023, 107,        454) /* ItemCurMana */
@@ -30,25 +29,21 @@ VALUES (21023,   1,        256) /* ItemType - MissileWeapon */
      , (21023, 160,        270) /* WieldDifficulty */
      , (21023, 166,         62) /* SlayerCreatureType - Elemental */
      , (21023, 353,          8) /* WeaponType - Bow */
-     , (21023, 8030,          0);
+     , (21023, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21023, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21023,   1, False) /* Stuck */
-     , (21023,  11, True ) /* IgnoreCollisions */
-     , (21023,  13, True ) /* Ethereal */
-     , (21023,  14, True ) /* GravityStatus */
-     , (21023,  19, True ) /* Attackable */
-     , (21023,  22, True ) /* Inscribable */
+VALUES (21023,  22, True ) /* Inscribable */
      , (21023,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21023,   5, -0.100000001490116) /* ManaRate */
+VALUES (21023,   5,    -0.1) /* ManaRate */
      , (21023,  21,       0) /* WeaponLength */
      , (21023,  22,       0) /* DamageVariance */
      , (21023,  26,    27.3) /* MaximumVelocity */
      , (21023,  29,    1.25) /* WeaponDefense */
      , (21023,  62,       1) /* WeaponOffense */
-     , (21023,  63, 2.29999995231628) /* DamageMod */;
+     , (21023,  63,     2.3) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21023,   1, 'Perfect Shimmering Isparian Bow') /* Name */;

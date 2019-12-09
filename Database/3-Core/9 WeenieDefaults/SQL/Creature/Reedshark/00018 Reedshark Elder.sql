@@ -15,14 +15,10 @@ VALUES (18,   1,         16) /* ItemType - Creature */
      , (18, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (18,   1, True ) /* Stuck */
-     , (18,  12, True ) /* ReportCollisions */
-     , (18,  13, False) /* Ethereal */
-     , (18,  14, True ) /* GravityStatus */
-     , (18,  19, True ) /* Attackable */;
+VALUES (18,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (18,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (18,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (18,   1, 'Reedshark Elder') /* Name */

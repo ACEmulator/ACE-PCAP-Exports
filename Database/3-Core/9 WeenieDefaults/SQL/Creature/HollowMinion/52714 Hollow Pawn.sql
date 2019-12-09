@@ -16,12 +16,7 @@ VALUES (52714,   1,         16) /* ItemType - Creature */
      , (52714, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52714,   1, True ) /* Stuck */
-     , (52714,  12, True ) /* ReportCollisions */
-     , (52714,  13, False) /* Ethereal */
-     , (52714,  14, True ) /* GravityStatus */
-     , (52714,  19, True ) /* Attackable */
-     , (52714,  42, True ) /* AllowEdgeSlide */;
+VALUES (52714,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52714,   1, 'Hollow Pawn') /* Name */

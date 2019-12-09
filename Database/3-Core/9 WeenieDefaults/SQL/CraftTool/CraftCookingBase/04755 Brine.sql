@@ -12,16 +12,9 @@ VALUES (4755,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4755,  15,          2) /* StackUnitValue */
      , (4755,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4755,  19,          2) /* Value */
-     , (4755,  65,        101) /* Placement - Resting */
      , (4755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4755,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4755,   1, False) /* Stuck */
-     , (4755,  11, True ) /* IgnoreCollisions */
-     , (4755,  13, True ) /* Ethereal */
-     , (4755,  14, True ) /* GravityStatus */
-     , (4755,  19, True ) /* Attackable */;
+     , (4755,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (4755, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4755,   1, 'Brine') /* Name */

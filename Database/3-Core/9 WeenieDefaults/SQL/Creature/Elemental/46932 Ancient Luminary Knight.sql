@@ -17,14 +17,10 @@ VALUES (46932,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46932,   1, True ) /* Stuck */
-     , (46932,  12, True ) /* ReportCollisions */
-     , (46932,  13, False) /* Ethereal */
-     , (46932,  14, True ) /* GravityStatus */
-     , (46932,  19, True ) /* Attackable */
      , (46932, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46932,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (46932,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46932,   1, 'Ancient Luminary Knight') /* Name */

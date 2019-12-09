@@ -10,16 +10,11 @@ VALUES (49782,   1,          2) /* ItemType - Armor */
      , (49782,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (49782,  16,          1) /* ItemUseable - No */
      , (49782,  19,       1000) /* Value */
-     , (49782,  65,        101) /* Placement - Resting */
-     , (49782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (49782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (49782, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49782,   1, False) /* Stuck */
-     , (49782,  11, True ) /* IgnoreCollisions */
-     , (49782,  13, True ) /* Ethereal */
-     , (49782,  14, True ) /* GravityStatus */
-     , (49782,  19, True ) /* Attackable */
-     , (49782,  22, True ) /* Inscribable */;
+VALUES (49782,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49782,   1, 'Shadow Bracers') /* Name */;

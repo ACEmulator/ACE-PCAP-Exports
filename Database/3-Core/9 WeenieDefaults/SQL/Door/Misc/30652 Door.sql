@@ -6,15 +6,11 @@ VALUES (30652, 'blackdrudgedoor', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30652,   1,        128) /* ItemType - Misc */
      , (30652,  16,         32) /* ItemUseable - Remote */
-     , (30652,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (30652,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (30652, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30652,   1, True ) /* Stuck */
-     , (30652,  11, True ) /* IgnoreCollisions */
-     , (30652,  12, True ) /* ReportCollisions */
-     , (30652,  13, False) /* Ethereal */
-     , (30652,  19, True ) /* Attackable */;
+VALUES (30652,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30652,  54,       2) /* UseRadius */;

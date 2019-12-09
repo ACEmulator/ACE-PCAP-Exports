@@ -11,18 +11,13 @@ VALUES (46216,   1,      32768) /* ItemType - Caster */
      , (46216,  16,          1) /* ItemUseable - No */
      , (46216,  18,          1) /* UiEffects - Magical */
      , (46216,  19,       8000) /* Value */
-     , (46216,  65,          1) /* Placement - RightHandCombat */
      , (46216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46216,  94,         16) /* TargetType - Creature */
-     , (46216, 151,          2) /* HookType - Wall */;
+     , (46216, 151,          2) /* HookType - Wall */
+     , (46216, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46216,   1, False) /* Stuck */
-     , (46216,  11, True ) /* IgnoreCollisions */
-     , (46216,  13, True ) /* Ethereal */
-     , (46216,  14, True ) /* GravityStatus */
-     , (46216,  19, True ) /* Attackable */
-     , (46216,  22, True ) /* Inscribable */;
+VALUES (46216,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46216,   1, 'Blackfire Shimmering Isparian Wand') /* Name */;

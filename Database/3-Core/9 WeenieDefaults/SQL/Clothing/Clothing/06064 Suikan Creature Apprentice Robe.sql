@@ -11,16 +11,11 @@ VALUES (6064,   1,          4) /* ItemType - Clothing */
      , (6064,  16,          1) /* ItemUseable - No */
      , (6064,  18,          1) /* UiEffects - Magical */
      , (6064,  19,       1120) /* Value */
-     , (6064,  65,        101) /* Placement - Resting */
-     , (6064,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (6064,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6064, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6064,   1, False) /* Stuck */
-     , (6064,  11, True ) /* IgnoreCollisions */
-     , (6064,  13, True ) /* Ethereal */
-     , (6064,  14, True ) /* GravityStatus */
-     , (6064,  19, True ) /* Attackable */
-     , (6064,  22, True ) /* Inscribable */;
+VALUES (6064,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6064,   1, 'Suikan Creature Apprentice Robe') /* Name */;

@@ -26,23 +26,18 @@ VALUES (33210,   1,          1) /* ItemType - MeleeWeapon */
      , (33210, 159,          1) /* WieldSkillType - Axe */
      , (33210, 160,        120) /* WieldDifficulty */
      , (33210, 353,          5) /* WeaponType - Spear */
-     , (33210, 8030,          0);
+     , (33210, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33210,   1, False) /* Stuck */
-     , (33210,  11, True ) /* IgnoreCollisions */
-     , (33210,  13, True ) /* Ethereal */
-     , (33210,  14, True ) /* GravityStatus */
-     , (33210,  19, True ) /* Attackable */
-     , (33210,  22, True ) /* Inscribable */;
+VALUES (33210,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33210,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33210,   5,   -0.05) /* ManaRate */
      , (33210,  21,       0) /* WeaponLength */
      , (33210,  22,     0.5) /* DamageVariance */
      , (33210,  26,       0) /* MaximumVelocity */
-     , (33210,  29, 1.14999997615814) /* WeaponDefense */
-     , (33210,  62, 1.10000002384186) /* WeaponOffense */
+     , (33210,  29,    1.15) /* WeaponDefense */
+     , (33210,  62,     1.1) /* WeaponOffense */
      , (33210,  63,       1) /* DamageMod */
      , (33210, 136,       1) /* CriticalMultiplier */
      , (33210, 147,       1) /* CriticalFrequency */;

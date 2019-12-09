@@ -13,19 +13,13 @@ VALUES (12148,   1,      65536) /* ItemType - Portal */
      , (12148, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12148,   1, True ) /* Stuck */
-     , (12148,  12, True ) /* ReportCollisions */
-     , (12148,  13, True ) /* Ethereal */
-     , (12148,  14, True ) /* GravityStatus */
-     , (12148,  15, True ) /* LightsStatus */
-     , (12148,  19, True ) /* Attackable */;
+VALUES (12148,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12148,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12148,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12148,   1, 'The Asteliary') /* Name */
-     , (12148,  38, 'The Asteliary') /* AppraisalPortalDestination */
      , (12148, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

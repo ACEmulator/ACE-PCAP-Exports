@@ -19,36 +19,30 @@ VALUES (36522,   1,        256) /* ItemType - MissileWeapon */
      , (36522,  49,         -1) /* WeaponTime */
      , (36522,  50,          2) /* AmmoType - Bolt */
      , (36522,  51,          3) /* CombatUse - Ammo */
-     , (36522,  65,         52) /* Placement - MissileFlight */
      , (36522,  93,     132936) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, Gravity, Inelastic */
      , (36522, 151,          2) /* HookType - Wall */
      , (36522, 158,          2) /* WieldRequirements - RawSkill */
      , (36522, 159,         47) /* WieldSkillType - MissileWeapons */
      , (36522, 160,        270) /* WieldDifficulty */
-     , (36522, 8030,          0);
+     , (36522, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (36522, 8041,         52) /* PCAPRecordedPlacement - MissileFlight */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36522,   1, False) /* Stuck */
-     , (36522,  12, True ) /* ReportCollisions */
-     , (36522,  13, False) /* Ethereal */
-     , (36522,  14, True ) /* GravityStatus */
-     , (36522,  17, True ) /* Inelastic */
-     , (36522,  19, True ) /* Attackable */
-     , (36522,  69, False) /* IsSellable */;
+VALUES (36522,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36522,  21,       0) /* WeaponLength */
      , (36522,  22,     0.4) /* DamageVariance */
      , (36522,  26,       0) /* MaximumVelocity */
      , (36522,  29,       1) /* WeaponDefense */
-     , (36522,  39, 1.10000002384186) /* DefaultScale */
+     , (36522,  39,     1.1) /* DefaultScale */
      , (36522,  62,       1) /* WeaponOffense */
      , (36522,  63,       1) /* DamageMod */
      , (36522,  78,       1) /* Friction */
      , (36522,  79,       0) /* Elasticity */
-     , (36522, 8010, -31.7409992218018) /* PCAPRecordedVelocityX */
-     , (36522, 8011, 37.1336631774902) /* PCAPRecordedVelocityY */
-     , (36522, 8012, -10.6583337783813) /* PCAPRecordedVelocityZ */;
+     , (36522, 8010,  -31.74) /* PCAPRecordedVelocityX */
+     , (36522, 8011,   37.13) /* PCAPRecordedVelocityY */
+     , (36522, 8012,  -10.66) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36522,   1, 'Greater Deadly Blunt Quarrel') /* Name */;

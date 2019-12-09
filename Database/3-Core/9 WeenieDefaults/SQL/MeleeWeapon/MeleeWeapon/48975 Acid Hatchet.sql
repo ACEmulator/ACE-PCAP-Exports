@@ -15,12 +15,7 @@ VALUES (48975,   1,          1) /* ItemType - MeleeWeapon */
      , (48975,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48975,   1, False) /* Stuck */
-     , (48975,  11, True ) /* IgnoreCollisions */
-     , (48975,  13, True ) /* Ethereal */
-     , (48975,  14, True ) /* GravityStatus */
-     , (48975,  19, True ) /* Attackable */
-     , (48975,  22, True ) /* Inscribable */;
+VALUES (48975,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48975,   1, 'Acid Hatchet') /* Name */;

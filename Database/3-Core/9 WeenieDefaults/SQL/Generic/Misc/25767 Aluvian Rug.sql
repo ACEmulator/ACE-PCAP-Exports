@@ -8,17 +8,12 @@ VALUES (25767,   1,        128) /* ItemType - Misc */
      , (25767,   5,       1000) /* EncumbranceVal */
      , (25767,  16,          1) /* ItemUseable - No */
      , (25767,  19,       5000) /* Value */
-     , (25767,  65,        101) /* Placement - Resting */
      , (25767,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25767, 151,          1) /* HookType - Floor */;
+     , (25767, 151,          1) /* HookType - Floor */
+     , (25767, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25767,   1, False) /* Stuck */
-     , (25767,  11, True ) /* IgnoreCollisions */
-     , (25767,  13, True ) /* Ethereal */
-     , (25767,  14, True ) /* GravityStatus */
-     , (25767,  19, True ) /* Attackable */
-     , (25767,  22, True ) /* Inscribable */;
+VALUES (25767,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25767,   1, 'Aluvian Rug') /* Name */

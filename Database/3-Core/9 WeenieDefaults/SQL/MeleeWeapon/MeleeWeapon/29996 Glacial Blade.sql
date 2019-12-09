@@ -14,12 +14,7 @@ VALUES (29996,   1,          1) /* ItemType - MeleeWeapon */
      , (29996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29996,   1, False) /* Stuck */
-     , (29996,  11, True ) /* IgnoreCollisions */
-     , (29996,  13, True ) /* Ethereal */
-     , (29996,  14, True ) /* GravityStatus */
-     , (29996,  19, True ) /* Attackable */
-     , (29996,  22, True ) /* Inscribable */;
+VALUES (29996,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29996,   1, 'Glacial Blade') /* Name */;

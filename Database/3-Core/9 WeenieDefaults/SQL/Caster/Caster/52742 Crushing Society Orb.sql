@@ -10,21 +10,16 @@ VALUES (52742,   1,      32768) /* ItemType - Caster */
      , (52742,  16,     655364) /* ItemUseable - 655364 */
      , (52742,  18,        512) /* UiEffects - Bludgeoning */
      , (52742,  19,         15) /* Value */
-     , (52742,  65,        101) /* Placement - Resting */
      , (52742,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52742,  94,         16) /* TargetType - Creature */
-     , (52742, 151,          2) /* HookType - Wall */;
+     , (52742, 151,          2) /* HookType - Wall */
+     , (52742, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52742,   1, False) /* Stuck */
-     , (52742,  11, True ) /* IgnoreCollisions */
-     , (52742,  13, True ) /* Ethereal */
-     , (52742,  14, True ) /* GravityStatus */
-     , (52742,  19, True ) /* Attackable */
-     , (52742,  22, True ) /* Inscribable */;
+VALUES (52742,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52742,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (52742,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52742,   1, 'Crushing Society Orb') /* Name */;

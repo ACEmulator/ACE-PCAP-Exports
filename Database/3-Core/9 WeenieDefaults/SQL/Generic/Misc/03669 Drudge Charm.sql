@@ -8,19 +8,14 @@ VALUES (3669,   1,        128) /* ItemType - Misc */
      , (3669,   5,         40) /* EncumbranceVal */
      , (3669,  16,          1) /* ItemUseable - No */
      , (3669,  19,          5) /* Value */
-     , (3669,  65,        101) /* Placement - Resting */
-     , (3669,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (3669,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3669, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3669,   1, False) /* Stuck */
-     , (3669,  11, True ) /* IgnoreCollisions */
-     , (3669,  13, True ) /* Ethereal */
-     , (3669,  14, True ) /* GravityStatus */
-     , (3669,  19, True ) /* Attackable */
-     , (3669,  22, True ) /* Inscribable */;
+VALUES (3669,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3669,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (3669,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3669,   1, 'Drudge Charm') /* Name */;

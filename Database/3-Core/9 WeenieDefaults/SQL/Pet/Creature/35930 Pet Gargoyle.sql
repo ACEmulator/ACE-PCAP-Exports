@@ -18,15 +18,11 @@ VALUES (35930,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35930,   1, True ) /* Stuck */
-     , (35930,  11, True ) /* IgnoreCollisions */
-     , (35930,  13, True ) /* Ethereal */
-     , (35930,  14, True ) /* GravityStatus */
-     , (35930,  19, False) /* Attackable */
-     , (35930,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (35930,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35930,  39,     0.5) /* DefaultScale */
-     , (35930,  76, 0.600000023841858) /* Translucency */;
+     , (35930,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35930,   1, 'Pet Gargoyle') /* Name */

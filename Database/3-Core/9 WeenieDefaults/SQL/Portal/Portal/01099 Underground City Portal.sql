@@ -12,19 +12,13 @@ VALUES (1099,   1,      65536) /* ItemType - Portal */
      , (1099, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1099,   1, True ) /* Stuck */
-     , (1099,  12, True ) /* ReportCollisions */
-     , (1099,  13, True ) /* Ethereal */
-     , (1099,  14, True ) /* GravityStatus */
-     , (1099,  15, True ) /* LightsStatus */
-     , (1099,  19, True ) /* Attackable */;
+VALUES (1099,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1099,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1099,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1099,   1, 'Underground City Portal') /* Name */
-     , (1099,  38, 'Underground City Portal') /* AppraisalPortalDestination */
      , (1099, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

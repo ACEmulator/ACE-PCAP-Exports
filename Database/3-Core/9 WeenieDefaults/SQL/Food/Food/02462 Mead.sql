@@ -12,15 +12,8 @@ VALUES (2462,   1,         32) /* ItemType - Food */
      , (2462,  15,         30) /* StackUnitValue */
      , (2462,  16,          8) /* ItemUseable - Contained */
      , (2462,  19,         30) /* Value */
-     , (2462,  65,        101) /* Placement - Resting */
-     , (2462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2462,   1, False) /* Stuck */
-     , (2462,  11, True ) /* IgnoreCollisions */
-     , (2462,  13, True ) /* Ethereal */
-     , (2462,  14, True ) /* GravityStatus */
-     , (2462,  19, True ) /* Attackable */;
+     , (2462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (2462, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2462,   1, 'Mead') /* Name */

@@ -8,19 +8,14 @@ VALUES (12707,   1,      16384) /* ItemType - Key */
      , (12707,   5,         15) /* EncumbranceVal */
      , (12707,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (12707,  19,          0) /* Value */
-     , (12707,  65,        101) /* Placement - Resting */
      , (12707,  91,          5) /* MaxStructure */
      , (12707,  92,          5) /* Structure */
      , (12707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12707,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (12707,  94,        640) /* TargetType - LockableMagicTarget */
+     , (12707, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12707,   1, False) /* Stuck */
-     , (12707,  11, True ) /* IgnoreCollisions */
-     , (12707,  13, True ) /* Ethereal */
-     , (12707,  14, True ) /* GravityStatus */
-     , (12707,  19, True ) /* Attackable */
-     , (12707,  22, True ) /* Inscribable */;
+VALUES (12707,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12707,   1, 'Quartermaster''s Workshop Key') /* Name */

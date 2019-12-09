@@ -12,20 +12,15 @@ VALUES (46062,   1,        256) /* ItemType - MissileWeapon */
      , (46062,  19,        100) /* Value */
      , (46062,  50,          1) /* AmmoType - Arrow */
      , (46062,  51,          2) /* CombatUse - Missle */
-     , (46062,  65,        101) /* Placement - Resting */
      , (46062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46062, 151,          2) /* HookType - Wall */;
+     , (46062, 151,          2) /* HookType - Wall */
+     , (46062, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46062,   1, False) /* Stuck */
-     , (46062,  11, True ) /* IgnoreCollisions */
-     , (46062,  13, True ) /* Ethereal */
-     , (46062,  14, True ) /* GravityStatus */
-     , (46062,  19, True ) /* Attackable */
-     , (46062,  22, True ) /* Inscribable */;
+VALUES (46062,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46062,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (46062,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46062,   1, 'Major Sparking Atlan Bow') /* Name */;

@@ -15,14 +15,10 @@ VALUES (4108,   1,         16) /* ItemType - Creature */
      , (4108, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4108,   1, True ) /* Stuck */
-     , (4108,  12, True ) /* ReportCollisions */
-     , (4108,  13, False) /* Ethereal */
-     , (4108,  14, True ) /* GravityStatus */
-     , (4108,  19, True ) /* Attackable */;
+VALUES (4108,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4108,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (4108,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4108,   1, 'Gnawer Shreth') /* Name */

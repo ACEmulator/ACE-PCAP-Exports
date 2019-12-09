@@ -16,15 +16,10 @@ VALUES (31281,   1,         16) /* ItemType - Creature */
      , (31281, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31281,   1, True ) /* Stuck */
-     , (31281,  12, True ) /* ReportCollisions */
-     , (31281,  13, False) /* Ethereal */
-     , (31281,  14, True ) /* GravityStatus */
-     , (31281,  19, True ) /* Attackable */
-     , (31281,  42, True ) /* AllowEdgeSlide */;
+VALUES (31281,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31281,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (31281,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31281,   1, 'Void Lord') /* Name */

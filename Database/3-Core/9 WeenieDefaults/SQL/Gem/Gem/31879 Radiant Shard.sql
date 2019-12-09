@@ -14,18 +14,10 @@ VALUES (31879,   1,       2048) /* ItemType - Gem */
      , (31879,  18,          1) /* UiEffects - Magical */
      , (31879,  19,          0) /* Value */
      , (31879,  33,          1) /* Bonded - Bonded */
-     , (31879,  65,        101) /* Placement - Resting */
      , (31879,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (31879,  94,         16) /* TargetType - Creature */
-     , (31879, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31879,   1, False) /* Stuck */
-     , (31879,  11, True ) /* IgnoreCollisions */
-     , (31879,  13, True ) /* Ethereal */
-     , (31879,  14, True ) /* GravityStatus */
-     , (31879,  15, True ) /* LightsStatus */
-     , (31879,  19, True ) /* Attackable */;
+     , (31879, 114,          1) /* Attuned - Attuned */
+     , (31879, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31879,   1, 'Radiant Shard') /* Name */

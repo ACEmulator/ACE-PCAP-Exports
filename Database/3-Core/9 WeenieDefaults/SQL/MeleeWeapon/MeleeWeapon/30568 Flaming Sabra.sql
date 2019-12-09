@@ -16,7 +16,6 @@ VALUES (30568,   1,          1) /* ItemType - MeleeWeapon */
      , (30568,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (30568,  49,         29) /* WeaponTime */
      , (30568,  51,          1) /* CombatUse - Melee */
-     , (30568,  65,        101) /* Placement - Resting */
      , (30568,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30568, 105,          6) /* ItemWorkmanship */
      , (30568, 106,        264) /* ItemSpellcraft */
@@ -35,15 +34,11 @@ VALUES (30568,   1,          1) /* ItemType - MeleeWeapon */
      , (30568, 177,          3) /* GemCount */
      , (30568, 178,         24) /* GemType */
      , (30568, 353,          2) /* WeaponType - Sword */
-     , (30568, 8030,          0);
+     , (30568, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (30568, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30568,   1, False) /* Stuck */
-     , (30568,  11, True ) /* IgnoreCollisions */
-     , (30568,  13, True ) /* Ethereal */
-     , (30568,  14, True ) /* GravityStatus */
-     , (30568,  19, True ) /* Attackable */
-     , (30568,  22, True ) /* Inscribable */;
+VALUES (30568,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30568,   5,   -0.05) /* ManaRate */
@@ -51,10 +46,10 @@ VALUES (30568,   5,   -0.05) /* ManaRate */
      , (30568,  22,     0.6) /* DamageVariance */
      , (30568,  26,       0) /* MaximumVelocity */
      , (30568,  29,    1.05) /* WeaponDefense */
-     , (30568,  39, 1.10000002384186) /* DefaultScale */
+     , (30568,  39,     1.1) /* DefaultScale */
      , (30568,  62,    1.09) /* WeaponOffense */
      , (30568,  63,       1) /* DamageMod */
-     , (30568, 149,   1.005) /* WeaponMissileDefense */
+     , (30568, 149,       1) /* WeaponMissileDefense */
      , (30568, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

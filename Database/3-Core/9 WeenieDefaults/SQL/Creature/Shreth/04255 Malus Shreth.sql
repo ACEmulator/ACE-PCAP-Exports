@@ -15,14 +15,10 @@ VALUES (4255,   1,         16) /* ItemType - Creature */
      , (4255, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4255,   1, True ) /* Stuck */
-     , (4255,  12, True ) /* ReportCollisions */
-     , (4255,  13, False) /* Ethereal */
-     , (4255,  14, True ) /* GravityStatus */
-     , (4255,  19, True ) /* Attackable */;
+VALUES (4255,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4255,  39, 1.45000004768372) /* DefaultScale */;
+VALUES (4255,  39,    1.45) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4255,   1, 'Malus Shreth') /* Name */

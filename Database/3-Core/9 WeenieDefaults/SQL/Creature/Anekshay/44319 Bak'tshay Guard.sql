@@ -16,11 +16,7 @@ VALUES (44319,   1,         16) /* ItemType - Creature */
      , (44319, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44319,   1, True ) /* Stuck */
-     , (44319,  12, True ) /* ReportCollisions */
-     , (44319,  13, False) /* Ethereal */
-     , (44319,  14, True ) /* GravityStatus */
-     , (44319,  19, True ) /* Attackable */;
+VALUES (44319,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44319,   1, 'Bak''tshay Guard') /* Name */

@@ -18,7 +18,6 @@ VALUES (6954,   1,        256) /* ItemType - MissileWeapon */
      , (6954,  49,         35) /* WeaponTime */
      , (6954,  50,          1) /* AmmoType - Arrow */
      , (6954,  51,          2) /* CombatUse - Missle */
-     , (6954,  65,          3) /* Placement - LeftHand */
      , (6954,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6954, 106,        200) /* ItemSpellcraft */
      , (6954, 107,        195) /* ItemCurMana */
@@ -27,28 +26,24 @@ VALUES (6954,   1,        256) /* ItemType - MissileWeapon */
      , (6954, 114,          0) /* Attuned - Normal */
      , (6954, 151,          2) /* HookType - Wall */
      , (6954, 353,          8) /* WeaponType - Bow */
-     , (6954, 8030,          0);
+     , (6954, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (6954, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6954,   1, False) /* Stuck */
-     , (6954,  11, True ) /* IgnoreCollisions */
-     , (6954,  13, True ) /* Ethereal */
-     , (6954,  14, True ) /* GravityStatus */
-     , (6954,  19, True ) /* Attackable */
-     , (6954,  22, True ) /* Inscribable */
+VALUES (6954,  22, True ) /* Inscribable */
      , (6954,  69, False) /* IsSellable */
      , (6954,  85, True ) /* AppraisalHasAllowedWielder */
      , (6954,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6954,   5, -0.0500000007450581) /* ManaRate */
+VALUES (6954,   5,   -0.05) /* ManaRate */
      , (6954,  21,       0) /* WeaponLength */
      , (6954,  22,       0) /* DamageVariance */
      , (6954,  26,    27.3) /* MaximumVelocity */
-     , (6954,  29, 1.01999998092651) /* WeaponDefense */
-     , (6954,  39, 1.10000002384186) /* DefaultScale */
-     , (6954,  62, 1.05999994277954) /* WeaponOffense */
-     , (6954,  63, 2.09999990463257) /* DamageMod */;
+     , (6954,  29,    1.02) /* WeaponDefense */
+     , (6954,  39,     1.1) /* DefaultScale */
+     , (6954,  62,    1.06) /* WeaponOffense */
+     , (6954,  63,     2.1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6954,   1, 'Composite Bow with Handle') /* Name */

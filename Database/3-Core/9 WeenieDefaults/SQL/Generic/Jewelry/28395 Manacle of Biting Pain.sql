@@ -10,7 +10,6 @@ VALUES (28395,   1,          8) /* ItemType - Jewelry */
      , (28395,  16,          1) /* ItemUseable - No */
      , (28395,  18,          1) /* UiEffects - Magical */
      , (28395,  19,       7500) /* Value */
-     , (28395,  65,        101) /* Placement - Resting */
      , (28395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28395, 106,        275) /* ItemSpellcraft */
      , (28395, 107,        794) /* ItemCurMana */
@@ -18,19 +17,15 @@ VALUES (28395,   1,          8) /* ItemType - Jewelry */
      , (28395, 109,        200) /* ItemDifficulty */
      , (28395, 158,          7) /* WieldRequirements - Level */
      , (28395, 159,          1) /* WieldSkillType - Axe */
-     , (28395, 160,        100) /* WieldDifficulty */;
+     , (28395, 160,        100) /* WieldDifficulty */
+     , (28395, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28395,   1, False) /* Stuck */
-     , (28395,  11, True ) /* IgnoreCollisions */
-     , (28395,  13, True ) /* Ethereal */
-     , (28395,  14, True ) /* GravityStatus */
-     , (28395,  19, True ) /* Attackable */
-     , (28395,  22, True ) /* Inscribable */
+VALUES (28395,  22, True ) /* Inscribable */
      , (28395,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28395,   5, -0.033333) /* ManaRate */;
+VALUES (28395,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28395,   1, 'Manacle of Biting Pain') /* Name */

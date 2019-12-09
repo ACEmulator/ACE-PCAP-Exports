@@ -11,18 +11,13 @@ VALUES (11460,   1,        128) /* ItemType - Misc */
      , (11460,  13,        300) /* StackUnitEncumbrance */
      , (11460,  15,          0) /* StackUnitValue */
      , (11460,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (11460,  65,        101) /* Placement - Resting */
      , (11460,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11460,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (11460, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (11460, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (11460, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11460,   1, False) /* Stuck */
-     , (11460,  11, True ) /* IgnoreCollisions */
-     , (11460,  13, True ) /* Ethereal */
-     , (11460,  14, True ) /* GravityStatus */
-     , (11460,  19, True ) /* Attackable */
-     , (11460,  22, True ) /* Inscribable */;
+VALUES (11460,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11460,   1, 'Palenqual''s Totem of the Heights') /* Name */;

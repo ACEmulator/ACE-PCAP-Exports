@@ -15,15 +15,10 @@ VALUES (20885,   1,         16) /* ItemType - Creature */
      , (20885, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20885,   1, True ) /* Stuck */
-     , (20885,  12, True ) /* ReportCollisions */
-     , (20885,  13, False) /* Ethereal */
-     , (20885,  14, True ) /* GravityStatus */
-     , (20885,  15, True ) /* LightsStatus */
-     , (20885,  19, True ) /* Attackable */;
+VALUES (20885,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20885,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (20885,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20885,   1, 'Tempest') /* Name */

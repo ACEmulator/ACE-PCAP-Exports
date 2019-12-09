@@ -10,17 +10,12 @@ VALUES (27761,   1,          2) /* ItemType - Armor */
      , (27761,   9,          1) /* ValidLocations - HeadWear */
      , (27761,  18,          1) /* UiEffects - Magical */
      , (27761,  19,       4000) /* Value */
-     , (27761,  65,        101) /* Placement - Resting */
      , (27761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27761, 151,          2) /* HookType - Wall */;
+     , (27761, 151,          2) /* HookType - Wall */
+     , (27761, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27761,   1, False) /* Stuck */
-     , (27761,  11, True ) /* IgnoreCollisions */
-     , (27761,  13, True ) /* Ethereal */
-     , (27761,  14, True ) /* GravityStatus */
-     , (27761,  19, True ) /* Attackable */
-     , (27761,  22, True ) /* Inscribable */;
+VALUES (27761,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27761,   1, 'Adjanite Crown') /* Name */;

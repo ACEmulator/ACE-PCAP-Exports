@@ -11,12 +11,7 @@ VALUES (12655,   1,        128) /* ItemType - Misc */
      , (12655,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12655,   1, True ) /* Stuck */
-     , (12655,  11, True ) /* IgnoreCollisions */
-     , (12655,  12, True ) /* ReportCollisions */
-     , (12655,  13, False) /* Ethereal */
-     , (12655,  14, True ) /* GravityStatus */
-     , (12655,  19, True ) /* Attackable */;
+VALUES (12655,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12655,   1, 'Southeast Arwic Settlement') /* Name */

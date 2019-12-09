@@ -13,17 +13,10 @@ VALUES (1445,   1,         32) /* ItemType - Food */
      , (1445,  16,          8) /* ItemUseable - Contained */
      , (1445,  18,         16) /* UiEffects - BoostStamina */
      , (1445,  19,         15) /* Value */
-     , (1445,  65,        101) /* Placement - Resting */
      , (1445,  89,          4) /* BoosterEnum - Stamina */
      , (1445,  90,         18) /* BoostValue */
-     , (1445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1445,   1, False) /* Stuck */
-     , (1445,  11, True ) /* IgnoreCollisions */
-     , (1445,  13, True ) /* Ethereal */
-     , (1445,  14, True ) /* GravityStatus */
-     , (1445,  19, True ) /* Attackable */;
+     , (1445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (1445, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1445,   1, 'Fresh Fish') /* Name */

@@ -16,11 +16,8 @@ VALUES (11698,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11698,   1, True ) /* Stuck */
      , (11698,   2, False) /* Open */
-     , (11698,  11, True ) /* IgnoreCollisions */
-     , (11698,  13, True ) /* Ethereal */
-     , (11698,  19, True ) /* Attackable */
      , (11698,  24, True ) /* UiHidden */
-     , (11698,  71, True ) /* NoDraw */;
+     , (11698,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11698,  39,     0.5) /* DefaultScale */

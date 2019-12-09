@@ -13,22 +13,17 @@ VALUES (48954,   1,        128) /* ItemType - Misc */
      , (48954,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (48954,  19,        500) /* Value */
      , (48954,  33,          0) /* Bonded - Normal */
-     , (48954,  65,        101) /* Placement - Resting */
      , (48954,  91,         50) /* MaxStructure */
      , (48954,  92,         50) /* Structure */
      , (48954,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48954,  94,      16384) /* TargetType - Key */
      , (48954, 114,          0) /* Attuned - Normal */
      , (48954, 151,          2) /* HookType - Wall */
-     , (48954, 193,         24) /* NumKeys */;
+     , (48954, 193,         24) /* NumKeys */
+     , (48954, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48954,   1, False) /* Stuck */
-     , (48954,  11, True ) /* IgnoreCollisions */
-     , (48954,  13, True ) /* Ethereal */
-     , (48954,  14, True ) /* GravityStatus */
-     , (48954,  19, True ) /* Attackable */
-     , (48954,  22, True ) /* Inscribable */
+VALUES (48954,  22, True ) /* Inscribable */
      , (48954,  69, False) /* IsSellable */
      , (48954,  99, False) /* Ivoryable */;
 

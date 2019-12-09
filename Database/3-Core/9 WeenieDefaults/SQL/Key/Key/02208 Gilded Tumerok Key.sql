@@ -8,19 +8,14 @@ VALUES (2208,   1,      16384) /* ItemType - Key */
      , (2208,   5,         50) /* EncumbranceVal */
      , (2208,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (2208,  19,         33) /* Value */
-     , (2208,  65,        101) /* Placement - Resting */
      , (2208,  91,          3) /* MaxStructure */
      , (2208,  92,          3) /* Structure */
      , (2208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2208,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (2208,  94,        640) /* TargetType - LockableMagicTarget */
+     , (2208, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2208,   1, False) /* Stuck */
-     , (2208,  11, True ) /* IgnoreCollisions */
-     , (2208,  13, True ) /* Ethereal */
-     , (2208,  14, True ) /* GravityStatus */
-     , (2208,  19, True ) /* Attackable */
-     , (2208,  22, True ) /* Inscribable */;
+VALUES (2208,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2208,   1, 'Gilded Tumerok Key') /* Name */;

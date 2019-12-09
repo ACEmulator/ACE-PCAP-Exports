@@ -11,17 +11,12 @@ VALUES (31448,   1,        128) /* ItemType - Misc */
      , (31448,  13,         50) /* StackUnitEncumbrance */
      , (31448,  15,          0) /* StackUnitValue */
      , (31448,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (31448,  65,        101) /* Placement - Resting */
      , (31448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31448,  94,        128) /* TargetType - Misc */;
+     , (31448,  94,        128) /* TargetType - Misc */
+     , (31448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31448,   1, False) /* Stuck */
-     , (31448,  11, True ) /* IgnoreCollisions */
-     , (31448,  13, True ) /* Ethereal */
-     , (31448,  14, True ) /* GravityStatus */
-     , (31448,  19, True ) /* Attackable */
-     , (31448,  22, True ) /* Inscribable */;
+VALUES (31448,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31448,   1, 'First Half of a Battered Mace') /* Name */;

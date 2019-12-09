@@ -13,17 +13,12 @@ VALUES (43905,   1,        128) /* ItemType - Misc */
      , (43905,  16,          8) /* ItemUseable - Contained */
      , (43905,  19,          4) /* Value */
      , (43905,  33,          1) /* Bonded - Bonded */
-     , (43905,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (43905,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43905,  94,         16) /* TargetType - Creature */
      , (43905, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43905,   1, False) /* Stuck */
-     , (43905,  11, True ) /* IgnoreCollisions */
-     , (43905,  13, True ) /* Ethereal */
-     , (43905,  14, True ) /* GravityStatus */
-     , (43905,  19, True ) /* Attackable */
-     , (43905,  69, False) /* IsSellable */;
+VALUES (43905,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43905,  39,     0.5) /* DefaultScale */;

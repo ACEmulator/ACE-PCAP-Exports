@@ -16,15 +16,11 @@ VALUES (28247,   1,         16) /* ItemType - Creature */
      , (28247, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28247,   1, True ) /* Stuck */
-     , (28247,  12, True ) /* ReportCollisions */
-     , (28247,  13, False) /* Ethereal */
-     , (28247,  14, True ) /* GravityStatus */
-     , (28247,  19, True ) /* Attackable */;
+VALUES (28247,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28247,  39, 1.10000002384186) /* DefaultScale */
-     , (28247,  76, 0.300000011920929) /* Translucency */;
+VALUES (28247,  39,     1.1) /* DefaultScale */
+     , (28247,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28247,   1, 'Sapphire Golem') /* Name */

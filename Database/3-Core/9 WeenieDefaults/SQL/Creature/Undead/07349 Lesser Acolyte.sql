@@ -15,15 +15,10 @@ VALUES (7349,   1,         16) /* ItemType - Creature */
      , (7349, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7349,   1, True ) /* Stuck */
-     , (7349,  12, True ) /* ReportCollisions */
-     , (7349,  13, False) /* Ethereal */
-     , (7349,  14, True ) /* GravityStatus */
-     , (7349,  19, True ) /* Attackable */
-     , (7349,  42, True ) /* AllowEdgeSlide */;
+VALUES (7349,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7349,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (7349,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7349,   1, 'Lesser Acolyte') /* Name */

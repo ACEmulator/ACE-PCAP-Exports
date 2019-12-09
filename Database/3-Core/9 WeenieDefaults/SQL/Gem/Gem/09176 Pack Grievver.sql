@@ -14,15 +14,10 @@ VALUES (9176,   1,       2048) /* ItemType - Gem */
      , (9176, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9176,   1, False) /* Stuck */
-     , (9176,  11, True ) /* IgnoreCollisions */
-     , (9176,  13, True ) /* Ethereal */
-     , (9176,  14, True ) /* GravityStatus */
-     , (9176,  19, True ) /* Attackable */
-     , (9176,  22, True ) /* Inscribable */;
+VALUES (9176,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9176,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (9176,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9176,   1, 'Pack Grievver') /* Name */

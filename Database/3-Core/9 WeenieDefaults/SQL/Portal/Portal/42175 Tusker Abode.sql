@@ -13,21 +13,15 @@ VALUES (42175,   1,      65536) /* ItemType - Portal */
      , (42175, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42175,   1, True ) /* Stuck */
-     , (42175,  12, True ) /* ReportCollisions */
-     , (42175,  13, True ) /* Ethereal */
-     , (42175,  14, True ) /* GravityStatus */
-     , (42175,  15, True ) /* LightsStatus */
-     , (42175,  19, True ) /* Attackable */;
+VALUES (42175,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42175,  39, 0.800000011920929) /* DefaultScale */
-     , (42175,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42175,  39,     0.8) /* DefaultScale */
+     , (42175,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42175,   1, 'Tusker Abode') /* Name */
      , (42175,  16, 'A portal leading to Aphus Lassel near the Tusker Abode where the Tusker Redeemer Tusk may be found.') /* LongDesc */
-     , (42175,  38, 'Tusker Abode (3.2S, 95.0E).') /* AppraisalPortalDestination */
      , (42175, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

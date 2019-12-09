@@ -5,26 +5,21 @@ VALUES (35960, 'ace35960-darknanner', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35960,   1,          0) /* ItemType - None */
-     , (35960,  65,         52) /* Placement - MissileFlight */
-     , (35960,  93,     133704) /* PhysicsState - ReportCollisions, Missile, PathClipped, LightingOn, Inelastic */;
+     , (35960,  93,     133704) /* PhysicsState - ReportCollisions, Missile, PathClipped, LightingOn, Inelastic */
+     , (35960, 8041,         52) /* PCAPRecordedPlacement - MissileFlight */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35960,   1, True ) /* Stuck */
-     , (35960,  12, True ) /* ReportCollisions */
-     , (35960,  13, False) /* Ethereal */
-     , (35960,  15, True ) /* LightsStatus */
-     , (35960,  17, True ) /* Inelastic */
-     , (35960,  19, True ) /* Attackable */
      , (35960,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35960,  39,       2) /* DefaultScale */
      , (35960,  78,       1) /* Friction */
      , (35960,  79,       0) /* Elasticity */
-     , (35960, 8010, 1.44691836833954) /* PCAPRecordedVelocityX */
-     , (35960, 8011, 6.18168640136719) /* PCAPRecordedVelocityY */
-     , (35960, 8012, 0.207395300269127) /* PCAPRecordedVelocityZ */
-     , (35960, 8016, 3.76991128921509) /* PCAPRecordeOmegaX */
+     , (35960, 8010,    1.45) /* PCAPRecordedVelocityX */
+     , (35960, 8011,    6.18) /* PCAPRecordedVelocityY */
+     , (35960, 8012,    0.21) /* PCAPRecordedVelocityZ */
+     , (35960, 8016,    3.77) /* PCAPRecordeOmegaX */
      , (35960, 8017,       0) /* PCAPRecordeOmegaY */
      , (35960, 8018,       0) /* PCAPRecordeOmegaZ */;
 

@@ -8,18 +8,11 @@ VALUES (19479,   1,       8192) /* ItemType - Writable */
      , (19479,   5,        160) /* EncumbranceVal */
      , (19479,  16,          8) /* ItemUseable - Contained */
      , (19479,  19,         90) /* Value */
-     , (19479,  65,        101) /* Placement - Resting */
-     , (19479,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19479,   1, False) /* Stuck */
-     , (19479,  11, True ) /* IgnoreCollisions */
-     , (19479,  13, True ) /* Ethereal */
-     , (19479,  14, True ) /* GravityStatus */
-     , (19479,  19, True ) /* Attackable */;
+     , (19479,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19479, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19479,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (19479,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19479,   1, 'The Boon') /* Name */;

@@ -18,20 +18,14 @@ VALUES (7575,   1,          1) /* ItemType - MeleeWeapon */
      , (7575,  48,         45) /* WeaponSkill - LightWeapons */
      , (7575,  49,         30) /* WeaponTime */
      , (7575,  51,          1) /* CombatUse - Melee */
-     , (7575,  65,          1) /* Placement - RightHandCombat */
      , (7575,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7575, 114,          1) /* Attuned - Attuned */
      , (7575, 353,          2) /* WeaponType - Sword */
-     , (7575, 8030,          0);
+     , (7575, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7575, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7575,   1, False) /* Stuck */
-     , (7575,  11, True ) /* IgnoreCollisions */
-     , (7575,  13, True ) /* Ethereal */
-     , (7575,  14, True ) /* GravityStatus */
-     , (7575,  15, True ) /* LightsStatus */
-     , (7575,  19, True ) /* Attackable */
-     , (7575,  22, True ) /* Inscribable */;
+VALUES (7575,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7575,  21,       0) /* WeaponLength */
@@ -40,7 +34,7 @@ VALUES (7575,  21,       0) /* WeaponLength */
      , (7575,  29,       1) /* WeaponDefense */
      , (7575,  62,    1.05) /* WeaponOffense */
      , (7575,  63,       1) /* DamageMod */
-     , (7575,  76, 0.699999988079071) /* Translucency */;
+     , (7575,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7575,   1, 'Hollow Sword') /* Name */

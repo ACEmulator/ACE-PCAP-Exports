@@ -12,16 +12,10 @@ VALUES (42539,   1,        128) /* ItemType - Misc */
      , (42539,  95,          8) /* RadarBlipColor - Yellow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42539,   1, False) /* Stuck */
-     , (42539,  11, True ) /* IgnoreCollisions */
-     , (42539,  12, True ) /* ReportCollisions */
-     , (42539,  13, True ) /* Ethereal */
-     , (42539,  14, True ) /* GravityStatus */
-     , (42539,  19, True ) /* Attackable */
-     , (42539,  22, True ) /* Inscribable */;
+VALUES (42539,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42539,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (42539,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42539,   1, 'Tree') /* Name */

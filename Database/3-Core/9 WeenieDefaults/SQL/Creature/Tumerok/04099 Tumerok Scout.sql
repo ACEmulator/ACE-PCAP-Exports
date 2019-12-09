@@ -16,11 +16,7 @@ VALUES (4099,   1,         16) /* ItemType - Creature */
      , (4099, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4099,   1, True ) /* Stuck */
-     , (4099,  12, True ) /* ReportCollisions */
-     , (4099,  13, False) /* Ethereal */
-     , (4099,  14, True ) /* GravityStatus */
-     , (4099,  19, True ) /* Attackable */;
+VALUES (4099,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4099,   1, 'Tumerok Scout') /* Name */

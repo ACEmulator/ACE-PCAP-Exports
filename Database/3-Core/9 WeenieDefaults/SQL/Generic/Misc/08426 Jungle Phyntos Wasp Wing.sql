@@ -8,20 +8,15 @@ VALUES (8426,   1,        128) /* ItemType - Misc */
      , (8426,   5,         25) /* EncumbranceVal */
      , (8426,  16,          1) /* ItemUseable - No */
      , (8426,  19,          5) /* Value */
-     , (8426,  65,        101) /* Placement - Resting */
      , (8426,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8426, 151,          2) /* HookType - Wall */;
+     , (8426, 151,          2) /* HookType - Wall */
+     , (8426, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8426,   1, False) /* Stuck */
-     , (8426,  11, True ) /* IgnoreCollisions */
-     , (8426,  13, True ) /* Ethereal */
-     , (8426,  14, True ) /* GravityStatus */
-     , (8426,  19, True ) /* Attackable */
-     , (8426,  22, True ) /* Inscribable */;
+VALUES (8426,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8426,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (8426,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8426,   1, 'Jungle Phyntos Wasp Wing') /* Name */;

@@ -18,11 +18,7 @@ VALUES (35315,   1,         16) /* ItemType - Creature */
      , (35315, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35315,   1, True ) /* Stuck */
-     , (35315,  12, True ) /* ReportCollisions */
-     , (35315,  13, False) /* Ethereal */
-     , (35315,  14, True ) /* GravityStatus */
-     , (35315,  19, True ) /* Attackable */;
+VALUES (35315,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35315,   1, 'Acolyte of Decay') /* Name */

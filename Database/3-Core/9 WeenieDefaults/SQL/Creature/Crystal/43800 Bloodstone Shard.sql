@@ -15,11 +15,7 @@ VALUES (43800,   1,         16) /* ItemType - Creature */
      , (43800, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43800,   1, True ) /* Stuck */
-     , (43800,  12, True ) /* ReportCollisions */
-     , (43800,  13, False) /* Ethereal */
-     , (43800,  14, True ) /* GravityStatus */
-     , (43800,  19, True ) /* Attackable */;
+VALUES (43800,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43800,   1, 'Bloodstone Shard') /* Name */

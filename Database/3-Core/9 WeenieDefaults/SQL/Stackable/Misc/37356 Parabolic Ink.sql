@@ -12,15 +12,8 @@ VALUES (37356,   1,        128) /* ItemType - Misc */
      , (37356,  15,      30000) /* StackUnitValue */
      , (37356,  16,          1) /* ItemUseable - No */
      , (37356,  19,      30000) /* Value */
-     , (37356,  65,        101) /* Placement - Resting */
-     , (37356,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37356,   1, False) /* Stuck */
-     , (37356,  11, True ) /* IgnoreCollisions */
-     , (37356,  13, True ) /* Ethereal */
-     , (37356,  14, True ) /* GravityStatus */
-     , (37356,  19, True ) /* Attackable */;
+     , (37356,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37356, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37356,   1, 'Parabolic Ink') /* Name */;

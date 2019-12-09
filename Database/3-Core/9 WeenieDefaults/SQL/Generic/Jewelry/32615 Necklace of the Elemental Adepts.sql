@@ -13,7 +13,6 @@ VALUES (32615,   1,          8) /* ItemType - Jewelry */
      , (32615,  19,      10000) /* Value */
      , (32615,  33,          0) /* Bonded - Normal */
      , (32615,  36,       9999) /* ResistMagic */
-     , (32615,  65,        101) /* Placement - Resting */
      , (32615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32615, 106,        350) /* ItemSpellcraft */
      , (32615, 107,       5781) /* ItemCurMana */
@@ -23,21 +22,17 @@ VALUES (32615,   1,          8) /* ItemType - Jewelry */
      , (32615, 151,          2) /* HookType - Wall */
      , (32615, 158,          7) /* WieldRequirements - Level */
      , (32615, 159,          1) /* WieldSkillType - Axe */
-     , (32615, 160,        100) /* WieldDifficulty */;
+     , (32615, 160,        100) /* WieldDifficulty */
+     , (32615, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32615,   1, False) /* Stuck */
-     , (32615,  11, True ) /* IgnoreCollisions */
-     , (32615,  13, True ) /* Ethereal */
-     , (32615,  14, True ) /* GravityStatus */
-     , (32615,  19, True ) /* Attackable */
-     , (32615,  22, True ) /* Inscribable */
+VALUES (32615,  22, True ) /* Inscribable */
      , (32615,  69, True ) /* IsSellable */
      , (32615,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32615,   5,  -0.049) /* ManaRate */
-     , (32615,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (32615,   5,   -0.05) /* ManaRate */
+     , (32615,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32615,   1, 'Necklace of the Elemental Adepts') /* Name */

@@ -16,11 +16,7 @@ VALUES (6775,   1,         16) /* ItemType - Creature */
      , (6775, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6775,   1, True ) /* Stuck */
-     , (6775,  12, True ) /* ReportCollisions */
-     , (6775,  13, False) /* Ethereal */
-     , (6775,  14, True ) /* GravityStatus */
-     , (6775,  19, True ) /* Attackable */;
+VALUES (6775,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6775,   1, 'Skeleton Lord') /* Name */

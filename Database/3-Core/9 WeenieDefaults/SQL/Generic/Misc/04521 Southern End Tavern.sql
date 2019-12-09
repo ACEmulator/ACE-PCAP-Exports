@@ -8,15 +8,10 @@ VALUES (4521,   1,        128) /* ItemType - Misc */
      , (4521,   5,       9000) /* EncumbranceVal */
      , (4521,  16,          1) /* ItemUseable - No */
      , (4521,  19,        125) /* Value */
-     , (4521,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4521,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4521,   1, True ) /* Stuck */
-     , (4521,  11, True ) /* IgnoreCollisions */
-     , (4521,  12, True ) /* ReportCollisions */
-     , (4521,  13, False) /* Ethereal */
-     , (4521,  14, True ) /* GravityStatus */
-     , (4521,  19, True ) /* Attackable */;
+VALUES (4521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4521,   1, 'Southern End Tavern') /* Name */

@@ -18,15 +18,10 @@ VALUES (22048,   1,        128) /* ItemType - Misc */
      , (22048, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22048,   1, False) /* Stuck */
-     , (22048,  11, True ) /* IgnoreCollisions */
-     , (22048,  13, True ) /* Ethereal */
-     , (22048,  14, True ) /* GravityStatus */
-     , (22048,  19, True ) /* Attackable */
-     , (22048,  22, True ) /* Inscribable */;
+VALUES (22048,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22048,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22048,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22048,   1, 'Undead Torso') /* Name */;

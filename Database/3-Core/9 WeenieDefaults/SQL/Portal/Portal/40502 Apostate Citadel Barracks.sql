@@ -13,20 +13,14 @@ VALUES (40502,   1,      65536) /* ItemType - Portal */
      , (40502, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40502,   1, True ) /* Stuck */
-     , (40502,  12, True ) /* ReportCollisions */
-     , (40502,  13, True ) /* Ethereal */
-     , (40502,  14, True ) /* GravityStatus */
-     , (40502,  15, True ) /* LightsStatus */
-     , (40502,  19, True ) /* Attackable */;
+VALUES (40502,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40502,  54, -0.100000001490116) /* UseRadius */;
+VALUES (40502,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40502,   1, 'Apostate Citadel Barracks') /* Name */
      , (40502,  16, 'This portal leads to the barracks of the Apostate Citadel.') /* LongDesc */
-     , (40502,  38, 'Apostate Citadel Barracks') /* AppraisalPortalDestination */
      , (40502, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

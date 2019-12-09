@@ -11,22 +11,16 @@ VALUES (25895,   1,      32768) /* ItemType - Caster */
      , (25895,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (25895,  18,          1) /* UiEffects - Magical */
      , (25895,  19,       8500) /* Value */
-     , (25895,  65,          1) /* Placement - RightHandCombat */
      , (25895,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (25895,  94,         16) /* TargetType - Creature */
-     , (25895, 151,          2) /* HookType - Wall */;
+     , (25895, 151,          2) /* HookType - Wall */
+     , (25895, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25895,   1, False) /* Stuck */
-     , (25895,  11, True ) /* IgnoreCollisions */
-     , (25895,  13, True ) /* Ethereal */
-     , (25895,  14, True ) /* GravityStatus */
-     , (25895,  15, True ) /* LightsStatus */
-     , (25895,  19, True ) /* Attackable */
-     , (25895,  22, True ) /* Inscribable */;
+VALUES (25895,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25895,  76, 0.200000002980232) /* Translucency */;
+VALUES (25895,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25895,   1, 'Puppeteer''s Skull') /* Name */;

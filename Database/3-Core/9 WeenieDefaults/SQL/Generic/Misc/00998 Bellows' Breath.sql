@@ -11,11 +11,7 @@ VALUES (998,   1,        128) /* ItemType - Misc */
      , (998,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (998,   1, True ) /* Stuck */
-     , (998,  11, True ) /* IgnoreCollisions */
-     , (998,  12, True ) /* ReportCollisions */
-     , (998,  13, False) /* Ethereal */
-     , (998,  19, True ) /* Attackable */;
+VALUES (998,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (998,   1, 'Bellows'' Breath') /* Name */

@@ -14,12 +14,7 @@ VALUES (37058,   1,        128) /* ItemType - Misc */
      , (37058, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37058,   1, False) /* Stuck */
-     , (37058,  11, True ) /* IgnoreCollisions */
-     , (37058,  13, True ) /* Ethereal */
-     , (37058,  14, True ) /* GravityStatus */
-     , (37058,  19, True ) /* Attackable */
-     , (37058,  69, False) /* IsSellable */;
+VALUES (37058,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37058,   1, 'Aerbax Mask Shard') /* Name */

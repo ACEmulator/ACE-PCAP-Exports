@@ -13,20 +13,15 @@ VALUES (44589,   1,       2048) /* ItemType - Gem */
      , (44589,  15,         50) /* StackUnitValue */
      , (44589,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44589,  19,         50) /* Value */
-     , (44589,  65,        101) /* Placement - Resting */
      , (44589,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44589,  94,          2) /* TargetType - Armor */;
+     , (44589,  94,          2) /* TargetType - Armor */
+     , (44589, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44589,   1, False) /* Stuck */
-     , (44589,  11, True ) /* IgnoreCollisions */
-     , (44589,  13, True ) /* Ethereal */
-     , (44589,  14, True ) /* GravityStatus */
-     , (44589,  19, True ) /* Attackable */
-     , (44589,  22, True ) /* Inscribable */;
+VALUES (44589,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44589,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (44589,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44589,   1, 'Eldrytch Web Buckler Cover') /* Name */;

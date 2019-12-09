@@ -10,21 +10,16 @@ VALUES (45957,   1,      32768) /* ItemType - Caster */
      , (45957,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (45957,  16,          1) /* ItemUseable - No */
      , (45957,  19,        100) /* Value */
-     , (45957,  65,          1) /* Placement - RightHandCombat */
      , (45957,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45957,  94,         16) /* TargetType - Creature */
-     , (45957, 151,          2) /* HookType - Wall */;
+     , (45957, 151,          2) /* HookType - Wall */
+     , (45957, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45957,   1, False) /* Stuck */
-     , (45957,  11, True ) /* IgnoreCollisions */
-     , (45957,  13, True ) /* Ethereal */
-     , (45957,  14, True ) /* GravityStatus */
-     , (45957,  19, True ) /* Attackable */
-     , (45957,  22, True ) /* Inscribable */;
+VALUES (45957,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45957,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (45957,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45957,   1, 'Amateur Explorer Nether Staff') /* Name */;

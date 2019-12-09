@@ -9,18 +9,11 @@ VALUES (27787,   1,       8192) /* ItemType - Writable */
      , (27787,  16,          8) /* ItemUseable - Contained */
      , (27787,  19,         15) /* Value */
      , (27787,  33,          1) /* Bonded - Bonded */
-     , (27787,  65,        101) /* Placement - Resting */
      , (27787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27787, 114,          1) /* Attuned - Attuned */
-     , (27787, 174,          1) /* AppraisalPages */
-     , (27787, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27787,   1, False) /* Stuck */
-     , (27787,  11, True ) /* IgnoreCollisions */
-     , (27787,  13, True ) /* Ethereal */
-     , (27787,  14, True ) /* GravityStatus */
-     , (27787,  19, True ) /* Attackable */;
+     , (27787, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (27787, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (27787, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27787,   1, 'Decaying Tome') /* Name */

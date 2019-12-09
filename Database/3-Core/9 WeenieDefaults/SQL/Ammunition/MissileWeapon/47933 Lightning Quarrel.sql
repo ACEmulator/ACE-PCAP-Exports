@@ -22,19 +22,13 @@ VALUES (47933,   1,        256) /* ItemType - MissileWeapon */
      , (47933,  49,         -1) /* WeaponTime */
      , (47933,  50,          2) /* AmmoType - Bolt */
      , (47933,  51,          3) /* CombatUse - Ammo */
-     , (47933,  65,          1) /* Placement - RightHandCombat */
      , (47933,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47933, 151,          2) /* HookType - Wall */
-     , (47933, 8030,          0);
+     , (47933, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (47933, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47933,   1, False) /* Stuck */
-     , (47933,  11, True ) /* IgnoreCollisions */
-     , (47933,  13, True ) /* Ethereal */
-     , (47933,  14, True ) /* GravityStatus */
-     , (47933,  17, True ) /* Inelastic */
-     , (47933,  19, True ) /* Attackable */
-     , (47933,  69, False) /* IsSellable */;
+VALUES (47933,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47933,  21,       0) /* WeaponLength */

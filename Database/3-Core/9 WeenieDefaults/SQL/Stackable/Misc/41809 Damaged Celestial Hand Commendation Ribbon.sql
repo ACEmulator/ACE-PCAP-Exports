@@ -13,20 +13,15 @@ VALUES (41809,   1,        128) /* ItemType - Misc */
      , (41809,  16,          1) /* ItemUseable - No */
      , (41809,  19,          0) /* Value */
      , (41809,  33,          1) /* Bonded - Bonded */
-     , (41809,  65,        101) /* Placement - Resting */
      , (41809,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41809, 114,          1) /* Attuned - Attuned */;
+     , (41809, 114,          1) /* Attuned - Attuned */
+     , (41809, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41809,   1, False) /* Stuck */
-     , (41809,  11, True ) /* IgnoreCollisions */
-     , (41809,  13, True ) /* Ethereal */
-     , (41809,  14, True ) /* GravityStatus */
-     , (41809,  19, True ) /* Attackable */
-     , (41809,  69, False) /* IsSellable */;
+VALUES (41809,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41809,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (41809,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41809,   1, 'Damaged Celestial Hand Commendation Ribbon') /* Name */

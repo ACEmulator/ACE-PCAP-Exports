@@ -12,18 +12,11 @@ VALUES (34276,   1,       2048) /* ItemType - Gem */
      , (34276,  15,      10000) /* StackUnitValue */
      , (34276,  16,          1) /* ItemUseable - No */
      , (34276,  19,      10000) /* Value */
-     , (34276,  65,        101) /* Placement - Resting */
-     , (34276,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34276,   1, False) /* Stuck */
-     , (34276,  11, True ) /* IgnoreCollisions */
-     , (34276,  13, True ) /* Ethereal */
-     , (34276,  14, True ) /* GravityStatus */
-     , (34276,  19, True ) /* Attackable */;
+     , (34276,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34276, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34276,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (34276,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34276,   1, 'Ancient Empyrean Trinket') /* Name */

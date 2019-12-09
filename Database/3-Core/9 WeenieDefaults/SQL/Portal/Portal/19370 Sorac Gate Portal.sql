@@ -12,19 +12,13 @@ VALUES (19370,   1,      65536) /* ItemType - Portal */
      , (19370, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19370,   1, True ) /* Stuck */
-     , (19370,  12, True ) /* ReportCollisions */
-     , (19370,  13, True ) /* Ethereal */
-     , (19370,  14, True ) /* GravityStatus */
-     , (19370,  15, True ) /* LightsStatus */
-     , (19370,  19, True ) /* Attackable */;
+VALUES (19370,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19370,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19370,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19370,   1, 'Sorac Gate Portal') /* Name */
-     , (19370,  38, 'Sorac Gate Portal') /* AppraisalPortalDestination */
      , (19370, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

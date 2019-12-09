@@ -12,19 +12,14 @@ VALUES (20625,   1,      65536) /* ItemType - Portal */
      , (20625, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20625,   1, True ) /* Stuck */
-     , (20625,  12, True ) /* ReportCollisions */
-     , (20625,  13, True ) /* Ethereal */
-     , (20625,  15, True ) /* LightsStatus */
-     , (20625,  19, True ) /* Attackable */;
+VALUES (20625,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20625,  54, -0.100000001490116) /* UseRadius */;
+VALUES (20625,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20625,   1, 'Precarious Sojourn Portal') /* Name */
      , (20625,  15, 'You must visit Slithe Tradittor before using this portal!') /* ShortDesc */
-     , (20625,  38, 'Precarious Sojourn Portal (38.1S, 60.3W).') /* AppraisalPortalDestination */
      , (20625, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

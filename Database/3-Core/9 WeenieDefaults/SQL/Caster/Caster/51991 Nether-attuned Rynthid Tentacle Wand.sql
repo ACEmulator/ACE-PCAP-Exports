@@ -13,7 +13,6 @@ VALUES (51991,   1,      32768) /* ItemType - Caster */
      , (51991,  19,      10000) /* Value */
      , (51991,  33,          1) /* Bonded - Bonded */
      , (51991,  45,       1024) /* DamageType - Nether */
-     , (51991,  65,          1) /* Placement - RightHandCombat */
      , (51991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51991,  94,         16) /* TargetType - Creature */
      , (51991, 106,        475) /* ItemSpellcraft */
@@ -24,24 +23,20 @@ VALUES (51991,   1,      32768) /* ItemType - Caster */
      , (51991, 158,          2) /* WieldRequirements - RawSkill */
      , (51991, 159,         43) /* WieldSkillType - VoidMagic */
      , (51991, 160,        375) /* WieldDifficulty */
-     , (51991, 166,         19) /* SlayerCreatureType - Virindi */;
+     , (51991, 166,         19) /* SlayerCreatureType - Virindi */
+     , (51991, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51991,   1, False) /* Stuck */
-     , (51991,  11, True ) /* IgnoreCollisions */
-     , (51991,  13, True ) /* Ethereal */
-     , (51991,  14, True ) /* GravityStatus */
-     , (51991,  19, True ) /* Attackable */
-     , (51991,  22, True ) /* Inscribable */
+VALUES (51991,  22, True ) /* Inscribable */
      , (51991,  69, False) /* IsSellable */
      , (51991,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51991,   5,  -0.033) /* ManaRate */
-     , (51991,  29, 1.40000000298023) /* WeaponDefense */
-     , (51991, 144, 0.340000009536743) /* ManaConversionMod */
+VALUES (51991,   5,   -0.03) /* ManaRate */
+     , (51991,  29,     1.4) /* WeaponDefense */
+     , (51991, 144,    0.34) /* ManaConversionMod */
      , (51991, 147,       1) /* CriticalFrequency */
-     , (51991, 152, 1.23999999821186) /* ElementalDamageMod */;
+     , (51991, 152,    1.24) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51991,   1, 'Nether-attuned Rynthid Tentacle Wand') /* Name */

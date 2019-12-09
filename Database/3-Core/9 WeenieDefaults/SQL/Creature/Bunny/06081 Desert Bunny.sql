@@ -15,14 +15,10 @@ VALUES (6081,   1,         16) /* ItemType - Creature */
      , (6081, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6081,   1, True ) /* Stuck */
-     , (6081,  12, True ) /* ReportCollisions */
-     , (6081,  13, False) /* Ethereal */
-     , (6081,  14, True ) /* GravityStatus */
-     , (6081,  19, True ) /* Attackable */;
+VALUES (6081,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6081,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (6081,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6081,   1, 'Desert Bunny') /* Name */

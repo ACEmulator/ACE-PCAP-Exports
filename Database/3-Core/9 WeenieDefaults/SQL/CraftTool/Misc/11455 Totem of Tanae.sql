@@ -13,19 +13,14 @@ VALUES (11455,   1,        128) /* ItemType - Misc */
      , (11455,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11455,  19,          0) /* Value */
      , (11455,  33,          0) /* Bonded - Normal */
-     , (11455,  65,        101) /* Placement - Resting */
      , (11455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11455,  94,        128) /* TargetType - Misc */
      , (11455, 114,          0) /* Attuned - Normal */
-     , (11455, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (11455, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (11455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11455,   1, False) /* Stuck */
-     , (11455,  11, True ) /* IgnoreCollisions */
-     , (11455,  13, True ) /* Ethereal */
-     , (11455,  14, True ) /* GravityStatus */
-     , (11455,  19, True ) /* Attackable */
-     , (11455,  22, True ) /* Inscribable */;
+VALUES (11455,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11455,   1, 'Totem of Tanae') /* Name */

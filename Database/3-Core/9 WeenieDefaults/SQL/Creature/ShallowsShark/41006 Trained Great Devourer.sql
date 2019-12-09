@@ -15,14 +15,10 @@ VALUES (41006,   1,         16) /* ItemType - Creature */
      , (41006, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41006,   1, True ) /* Stuck */
-     , (41006,  12, True ) /* ReportCollisions */
-     , (41006,  13, False) /* Ethereal */
-     , (41006,  14, True ) /* GravityStatus */
-     , (41006,  19, True ) /* Attackable */;
+VALUES (41006,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41006,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (41006,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41006,   1, 'Trained Great Devourer') /* Name */

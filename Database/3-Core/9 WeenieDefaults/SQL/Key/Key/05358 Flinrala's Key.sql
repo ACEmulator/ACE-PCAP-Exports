@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5358,   1,      16384) /* ItemType - Key */
      , (5358,   5,         50) /* EncumbranceVal */
      , (5358,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (5358,  65,        101) /* Placement - Resting */
      , (5358,  91,          3) /* MaxStructure */
      , (5358,  92,          3) /* Structure */
      , (5358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5358,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (5358,  94,        640) /* TargetType - LockableMagicTarget */
+     , (5358, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5358,   1, False) /* Stuck */
-     , (5358,  11, True ) /* IgnoreCollisions */
-     , (5358,  13, True ) /* Ethereal */
-     , (5358,  14, True ) /* GravityStatus */
-     , (5358,  19, True ) /* Attackable */
-     , (5358,  22, True ) /* Inscribable */;
+VALUES (5358,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5358,   1, 'Flinrala''s Key') /* Name */;

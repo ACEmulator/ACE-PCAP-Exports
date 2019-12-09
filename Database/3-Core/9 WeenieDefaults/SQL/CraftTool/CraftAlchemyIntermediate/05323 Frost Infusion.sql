@@ -11,16 +11,9 @@ VALUES (5323,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5323,  15,         10) /* StackUnitValue */
      , (5323,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5323,  19,         10) /* Value */
-     , (5323,  65,        101) /* Placement - Resting */
      , (5323,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5323,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5323,   1, False) /* Stuck */
-     , (5323,  11, True ) /* IgnoreCollisions */
-     , (5323,  13, True ) /* Ethereal */
-     , (5323,  14, True ) /* GravityStatus */
-     , (5323,  19, True ) /* Attackable */;
+     , (5323,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
+     , (5323, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5323,   1, 'Frost Infusion') /* Name */

@@ -15,14 +15,10 @@ VALUES (40493,   1,         16) /* ItemType - Creature */
      , (40493, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40493,   1, True ) /* Stuck */
-     , (40493,  12, True ) /* ReportCollisions */
-     , (40493,  13, False) /* Ethereal */
-     , (40493,  14, True ) /* GravityStatus */
-     , (40493,  19, True ) /* Attackable */;
+VALUES (40493,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40493,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (40493,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40493,   1, 'Gotrok Mining Foreman') /* Name */

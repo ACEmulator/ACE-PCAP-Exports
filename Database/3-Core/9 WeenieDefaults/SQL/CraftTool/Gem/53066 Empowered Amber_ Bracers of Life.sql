@@ -14,17 +14,12 @@ VALUES (53066,   1,       2048) /* ItemType - Gem */
      , (53066,  18,        256) /* UiEffects - Acid */
      , (53066,  19,         25) /* Value */
      , (53066,  33,          1) /* Bonded - Bonded */
-     , (53066,  65,        101) /* Placement - Resting */
      , (53066,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53066,  94,          6) /* TargetType - Vestements */;
+     , (53066,  94,          6) /* TargetType - Vestements */
+     , (53066, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53066,   1, False) /* Stuck */
-     , (53066,  11, True ) /* IgnoreCollisions */
-     , (53066,  13, True ) /* Ethereal */
-     , (53066,  14, True ) /* GravityStatus */
-     , (53066,  19, True ) /* Attackable */
-     , (53066,  69, False) /* IsSellable */;
+VALUES (53066,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53066,   1, 'Empowered Amber: Bracers of Life') /* Name */

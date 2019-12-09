@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7595,   1,        128) /* ItemType - Misc */
      , (7595,   5,       1000) /* EncumbranceVal */
      , (7595,  16,          1) /* ItemUseable - No */
-     , (7595,  65,        101) /* Placement - Resting */
-     , (7595,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7595,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7595, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7595,   1, False) /* Stuck */
-     , (7595,  11, True ) /* IgnoreCollisions */
-     , (7595,  13, True ) /* Ethereal */
-     , (7595,  14, True ) /* GravityStatus */
-     , (7595,  19, True ) /* Attackable */
-     , (7595,  22, True ) /* Inscribable */;
+VALUES (7595,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7595,   1, 'Refined Low-Grade Chorizite') /* Name */;

@@ -11,12 +11,7 @@ VALUES (15705,   1,        128) /* ItemType - Misc */
      , (15705,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15705,   1, True ) /* Stuck */
-     , (15705,  11, True ) /* IgnoreCollisions */
-     , (15705,  12, True ) /* ReportCollisions */
-     , (15705,  13, False) /* Ethereal */
-     , (15705,  14, True ) /* GravityStatus */
-     , (15705,  19, True ) /* Attackable */;
+VALUES (15705,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15705,   1, 'Patron''s Honor Cottages') /* Name */

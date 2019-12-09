@@ -12,19 +12,13 @@ VALUES (13133,   1,      65536) /* ItemType - Portal */
      , (13133, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13133,   1, True ) /* Stuck */
-     , (13133,  12, True ) /* ReportCollisions */
-     , (13133,  13, True ) /* Ethereal */
-     , (13133,  14, True ) /* GravityStatus */
-     , (13133,  15, True ) /* LightsStatus */
-     , (13133,  19, True ) /* Attackable */;
+VALUES (13133,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13133,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13133,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13133,   1, 'South Shoushi Villas Portal') /* Name */
-     , (13133,  38, 'South Shoushi Villas Portal (40.6S, 69.3E).') /* AppraisalPortalDestination */
      , (13133, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -18,11 +18,7 @@ VALUES (25968,   1,         16) /* ItemType - Creature */
      , (25968, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25968,   1, True ) /* Stuck */
-     , (25968,  12, True ) /* ReportCollisions */
-     , (25968,  13, False) /* Ethereal */
-     , (25968,  14, True ) /* GravityStatus */
-     , (25968,  19, True ) /* Attackable */;
+VALUES (25968,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25968,   1, 'Rheth Al''Thok') /* Name */

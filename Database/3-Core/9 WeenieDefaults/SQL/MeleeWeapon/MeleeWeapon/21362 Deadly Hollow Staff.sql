@@ -18,7 +18,6 @@ VALUES (21362,   1,          1) /* ItemType - MeleeWeapon */
      , (21362,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (21362,  49,         20) /* WeaponTime */
      , (21362,  51,          1) /* CombatUse - Melee */
-     , (21362,  65,          1) /* Placement - RightHandCombat */
      , (21362,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21362, 114,          1) /* Attuned - Attuned */
      , (21362, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (21362,   1,          1) /* ItemType - MeleeWeapon */
      , (21362, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (21362, 160,        250) /* WieldDifficulty */
      , (21362, 353,          7) /* WeaponType - Staff */
-     , (21362, 8030,          0);
+     , (21362, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21362, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21362,   1, False) /* Stuck */
-     , (21362,  11, True ) /* IgnoreCollisions */
-     , (21362,  13, True ) /* Ethereal */
-     , (21362,  14, True ) /* GravityStatus */
-     , (21362,  15, True ) /* LightsStatus */
-     , (21362,  19, True ) /* Attackable */
-     , (21362,  22, True ) /* Inscribable */
+VALUES (21362,  22, True ) /* Inscribable */
      , (21362,  69, False) /* IsSellable */
      , (21362,  99, True ) /* Ivoryable */;
 
@@ -44,7 +38,7 @@ VALUES (21362,  21,       0) /* WeaponLength */
      , (21362,  22,     0.3) /* DamageVariance */
      , (21362,  26,       0) /* MaximumVelocity */
      , (21362,  29,       1) /* WeaponDefense */
-     , (21362,  39, 0.670000016689301) /* DefaultScale */
+     , (21362,  39,    0.67) /* DefaultScale */
      , (21362,  62,     1.1) /* WeaponOffense */
      , (21362,  63,       1) /* DamageMod */;
 

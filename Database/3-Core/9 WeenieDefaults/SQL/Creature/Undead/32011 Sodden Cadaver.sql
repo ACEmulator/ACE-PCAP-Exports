@@ -15,12 +15,7 @@ VALUES (32011,   1,         16) /* ItemType - Creature */
      , (32011, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32011,   1, True ) /* Stuck */
-     , (32011,  12, True ) /* ReportCollisions */
-     , (32011,  13, False) /* Ethereal */
-     , (32011,  14, True ) /* GravityStatus */
-     , (32011,  19, True ) /* Attackable */
-     , (32011,  42, True ) /* AllowEdgeSlide */;
+VALUES (32011,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32011,   1, 'Sodden Cadaver') /* Name */

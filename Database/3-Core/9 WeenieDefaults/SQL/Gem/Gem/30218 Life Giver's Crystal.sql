@@ -16,22 +16,17 @@ VALUES (30218,   1,       2048) /* ItemType - Gem */
      , (30218,  19,          0) /* Value */
      , (30218,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30218,  33,         -1) /* Bonded - Slippery */
-     , (30218,  65,        101) /* Placement - Resting */
      , (30218,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30218,  94,         16) /* TargetType - Creature */
      , (30218, 106,        325) /* ItemSpellcraft */
      , (30218, 107,      10000) /* ItemCurMana */
      , (30218, 108,      10000) /* ItemMaxMana */
      , (30218, 109,          0) /* ItemDifficulty */
-     , (30218, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30218, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30218, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30218,   1, False) /* Stuck */
-     , (30218,  11, True ) /* IgnoreCollisions */
-     , (30218,  13, True ) /* Ethereal */
-     , (30218,  14, True ) /* GravityStatus */
-     , (30218,  19, True ) /* Attackable */
-     , (30218, 108, True ) /* RareUsesTimer */;
+VALUES (30218, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30218,   1, 'Life Giver''s Crystal') /* Name */

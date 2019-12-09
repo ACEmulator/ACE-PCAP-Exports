@@ -12,18 +12,13 @@ VALUES (11861,   1,       2048) /* ItemType - Gem */
      , (11861,  15,          0) /* StackUnitValue */
      , (11861,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11861,  19,          0) /* Value */
-     , (11861,  65,        101) /* Placement - Resting */
      , (11861,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11861,  94,        128) /* TargetType - Misc */
-     , (11861, 151,          2) /* HookType - Wall */;
+     , (11861, 151,          2) /* HookType - Wall */
+     , (11861, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11861,   1, False) /* Stuck */
-     , (11861,  11, True ) /* IgnoreCollisions */
-     , (11861,  13, True ) /* Ethereal */
-     , (11861,  14, True ) /* GravityStatus */
-     , (11861,  19, True ) /* Attackable */
-     , (11861,  22, True ) /* Inscribable */;
+VALUES (11861,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11861,   1, 'Reedshark Spear-Head') /* Name */

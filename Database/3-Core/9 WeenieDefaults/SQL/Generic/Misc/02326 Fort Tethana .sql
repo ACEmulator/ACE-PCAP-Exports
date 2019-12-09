@@ -8,16 +8,11 @@ VALUES (2326,   1,        128) /* ItemType - Misc */
      , (2326,   5,       9000) /* EncumbranceVal */
      , (2326,  16,          1) /* ItemUseable - No */
      , (2326,  19,        125) /* Value */
-     , (2326,  65,        101) /* Placement - Resting */
-     , (2326,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2326,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2326, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2326,   1, True ) /* Stuck */
-     , (2326,  11, True ) /* IgnoreCollisions */
-     , (2326,  12, True ) /* ReportCollisions */
-     , (2326,  13, False) /* Ethereal */
-     , (2326,  14, True ) /* GravityStatus */
-     , (2326,  19, True ) /* Attackable */;
+VALUES (2326,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2326,   1, 'Fort Tethana ') /* Name */

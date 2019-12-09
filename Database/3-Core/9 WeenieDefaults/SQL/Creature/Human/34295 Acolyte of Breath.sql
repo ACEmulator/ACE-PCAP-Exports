@@ -18,11 +18,7 @@ VALUES (34295,   1,         16) /* ItemType - Creature */
      , (34295, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34295,   1, True ) /* Stuck */
-     , (34295,  12, True ) /* ReportCollisions */
-     , (34295,  13, False) /* Ethereal */
-     , (34295,  14, True ) /* GravityStatus */
-     , (34295,  19, True ) /* Attackable */;
+VALUES (34295,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34295,   1, 'Acolyte of Breath') /* Name */

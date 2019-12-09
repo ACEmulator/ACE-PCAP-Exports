@@ -15,14 +15,10 @@ VALUES (28678,   1,         16) /* ItemType - Creature */
      , (28678, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28678,   1, True ) /* Stuck */
-     , (28678,  12, True ) /* ReportCollisions */
-     , (28678,  13, False) /* Ethereal */
-     , (28678,  14, True ) /* GravityStatus */
-     , (28678,  19, True ) /* Attackable */;
+VALUES (28678,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28678,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (28678,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28678,   1, 'Beefsteak Thrungus') /* Name */

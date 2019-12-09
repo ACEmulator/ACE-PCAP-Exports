@@ -12,19 +12,13 @@ VALUES (15161,   1,      65536) /* ItemType - Portal */
      , (15161, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15161,   1, True ) /* Stuck */
-     , (15161,  12, True ) /* ReportCollisions */
-     , (15161,  13, True ) /* Ethereal */
-     , (15161,  14, True ) /* GravityStatus */
-     , (15161,  15, True ) /* LightsStatus */
-     , (15161,  19, True ) /* Attackable */;
+VALUES (15161,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15161,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15161,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15161,   1, 'Ice''s Edge Cottages Portal') /* Name */
-     , (15161,  38, 'Ice''s Edge Cottages Portal (64.0N, 16.7W).') /* AppraisalPortalDestination */
      , (15161, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -11,16 +11,11 @@ VALUES (11755,   1,          1) /* ItemType - MeleeWeapon */
      , (11755,  16,          1) /* ItemUseable - No */
      , (11755,  18,          1) /* UiEffects - Magical */
      , (11755,  51,          1) /* CombatUse - Melee */
-     , (11755,  65,          1) /* Placement - RightHandCombat */
-     , (11755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11755, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11755,   1, False) /* Stuck */
-     , (11755,  11, True ) /* IgnoreCollisions */
-     , (11755,  13, True ) /* Ethereal */
-     , (11755,  14, True ) /* GravityStatus */
-     , (11755,  19, True ) /* Attackable */
-     , (11755,  22, True ) /* Inscribable */;
+VALUES (11755,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11755,   1, 'Hafted Serpent Spear') /* Name */;

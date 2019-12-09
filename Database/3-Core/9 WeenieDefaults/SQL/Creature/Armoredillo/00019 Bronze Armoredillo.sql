@@ -15,11 +15,7 @@ VALUES (19,   1,         16) /* ItemType - Creature */
      , (19, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19,   1, True ) /* Stuck */
-     , (19,  12, True ) /* ReportCollisions */
-     , (19,  13, False) /* Ethereal */
-     , (19,  14, True ) /* GravityStatus */
-     , (19,  19, True ) /* Attackable */;
+VALUES (19,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19,   1, 'Bronze Armoredillo') /* Name */

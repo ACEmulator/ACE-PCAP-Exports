@@ -12,19 +12,13 @@ VALUES (13140,   1,      65536) /* ItemType - Portal */
      , (13140, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13140,   1, True ) /* Stuck */
-     , (13140,  12, True ) /* ReportCollisions */
-     , (13140,  13, True ) /* Ethereal */
-     , (13140,  14, True ) /* GravityStatus */
-     , (13140,  15, True ) /* LightsStatus */
-     , (13140,  19, True ) /* Attackable */;
+VALUES (13140,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13140,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13140,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13140,   1, 'West Rithwic Estates Portal') /* Name */
-     , (13140,  38, 'West Rithwic Estates Portal (11.9N, 48.1E).') /* AppraisalPortalDestination */
      , (13140, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,12 +13,7 @@ VALUES (11932,   1,        128) /* ItemType - Misc */
      , (11932, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11932,   1, False) /* Stuck */
-     , (11932,  11, True ) /* IgnoreCollisions */
-     , (11932,  13, True ) /* Ethereal */
-     , (11932,  14, True ) /* GravityStatus */
-     , (11932,  19, True ) /* Attackable */
-     , (11932,  22, True ) /* Inscribable */;
+VALUES (11932,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11932,   1, 'Ornate Fountain') /* Name */

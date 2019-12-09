@@ -13,11 +13,7 @@ VALUES (45901,   1,         16) /* ItemType - Creature */
      , (45901, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45901,   1, True ) /* Stuck */
-     , (45901,  12, True ) /* ReportCollisions */
-     , (45901,  13, False) /* Ethereal */
-     , (45901,  14, True ) /* GravityStatus */
-     , (45901,  19, True ) /* Attackable */;
+VALUES (45901,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45901,   1, 'Virindi Jailor') /* Name */

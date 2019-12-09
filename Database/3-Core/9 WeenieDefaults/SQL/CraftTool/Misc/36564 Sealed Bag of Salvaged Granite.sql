@@ -12,20 +12,15 @@ VALUES (36564,   1,        128) /* ItemType - Misc */
      , (36564,  15,         10) /* StackUnitValue */
      , (36564,  16,          8) /* ItemUseable - Contained */
      , (36564,  19,         10) /* Value */
-     , (36564,  65,        101) /* Placement - Resting */
      , (36564,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36564,  94,         16) /* TargetType - Creature */;
+     , (36564,  94,         16) /* TargetType - Creature */
+     , (36564, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36564,   1, False) /* Stuck */
-     , (36564,  11, True ) /* IgnoreCollisions */
-     , (36564,  13, True ) /* Ethereal */
-     , (36564,  14, True ) /* GravityStatus */
-     , (36564,  19, True ) /* Attackable */
-     , (36564,  22, True ) /* Inscribable */;
+VALUES (36564,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36564,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36564,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36564,   1, 'Sealed Bag of Salvaged Granite') /* Name */;

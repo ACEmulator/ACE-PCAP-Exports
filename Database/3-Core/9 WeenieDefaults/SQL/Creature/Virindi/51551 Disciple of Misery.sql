@@ -16,12 +16,7 @@ VALUES (51551,   1,         16) /* ItemType - Creature */
      , (51551, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51551,   1, True ) /* Stuck */
-     , (51551,  12, True ) /* ReportCollisions */
-     , (51551,  13, False) /* Ethereal */
-     , (51551,  14, True ) /* GravityStatus */
-     , (51551,  19, True ) /* Attackable */
-     , (51551,  42, True ) /* AllowEdgeSlide */;
+VALUES (51551,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51551,   1, 'Disciple of Misery') /* Name */

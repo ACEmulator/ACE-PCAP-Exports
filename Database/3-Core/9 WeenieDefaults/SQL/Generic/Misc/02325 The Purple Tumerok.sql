@@ -8,16 +8,11 @@ VALUES (2325,   1,        128) /* ItemType - Misc */
      , (2325,   5,       9000) /* EncumbranceVal */
      , (2325,  16,          1) /* ItemUseable - No */
      , (2325,  19,        125) /* Value */
-     , (2325,  65,        101) /* Placement - Resting */
-     , (2325,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2325,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2325, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2325,   1, True ) /* Stuck */
-     , (2325,  11, True ) /* IgnoreCollisions */
-     , (2325,  12, True ) /* ReportCollisions */
-     , (2325,  13, False) /* Ethereal */
-     , (2325,  14, True ) /* GravityStatus */
-     , (2325,  19, True ) /* Attackable */;
+VALUES (2325,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2325,   1, 'The Purple Tumerok') /* Name */

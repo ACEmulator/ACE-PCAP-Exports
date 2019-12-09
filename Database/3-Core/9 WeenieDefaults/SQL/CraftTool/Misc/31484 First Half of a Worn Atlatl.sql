@@ -12,17 +12,12 @@ VALUES (31484,   1,        128) /* ItemType - Misc */
      , (31484,  15,          0) /* StackUnitValue */
      , (31484,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31484,  19,          0) /* Value */
-     , (31484,  65,        101) /* Placement - Resting */
      , (31484,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31484,  94,        128) /* TargetType - Misc */;
+     , (31484,  94,        128) /* TargetType - Misc */
+     , (31484, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31484,   1, False) /* Stuck */
-     , (31484,  11, True ) /* IgnoreCollisions */
-     , (31484,  13, True ) /* Ethereal */
-     , (31484,  14, True ) /* GravityStatus */
-     , (31484,  19, True ) /* Attackable */
-     , (31484,  22, True ) /* Inscribable */;
+VALUES (31484,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31484,   1, 'First Half of a Worn Atlatl') /* Name */

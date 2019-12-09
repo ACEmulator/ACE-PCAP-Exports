@@ -11,12 +11,7 @@ VALUES (35745,   1,        128) /* ItemType - Misc */
      , (35745,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35745,   1, True ) /* Stuck */
-     , (35745,  11, True ) /* IgnoreCollisions */
-     , (35745,  12, True ) /* ReportCollisions */
-     , (35745,  13, True ) /* Ethereal */
-     , (35745,  14, True ) /* GravityStatus */
-     , (35745,  19, True ) /* Attackable */;
+VALUES (35745,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35745,   1, 'Corpse') /* Name */;

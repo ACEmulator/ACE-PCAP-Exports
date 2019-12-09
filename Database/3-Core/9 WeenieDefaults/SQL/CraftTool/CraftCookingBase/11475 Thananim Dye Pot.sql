@@ -12,18 +12,13 @@ VALUES (11475,   1,    4194304) /* ItemType - CraftCookingBase */
      , (11475,  15,        100) /* StackUnitValue */
      , (11475,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11475,  19,        100) /* Value */
-     , (11475,  65,        101) /* Placement - Resting */
      , (11475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11475,  94,        134) /* TargetType - Vestements, Misc */
-     , (11475, 151,          9) /* HookType - Floor, Yard */;
+     , (11475, 151,          9) /* HookType - Floor, Yard */
+     , (11475, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11475,   1, False) /* Stuck */
-     , (11475,  11, True ) /* IgnoreCollisions */
-     , (11475,  13, True ) /* Ethereal */
-     , (11475,  14, True ) /* GravityStatus */
-     , (11475,  19, True ) /* Attackable */
-     , (11475,  69, False) /* IsSellable */;
+VALUES (11475,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11475,   1, 'Thananim Dye Pot') /* Name */

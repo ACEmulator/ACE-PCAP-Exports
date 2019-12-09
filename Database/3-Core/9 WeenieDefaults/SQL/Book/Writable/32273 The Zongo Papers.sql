@@ -8,22 +8,15 @@ VALUES (32273,   1,       8192) /* ItemType - Writable */
      , (32273,   5,        200) /* EncumbranceVal */
      , (32273,  16,          8) /* ItemUseable - Contained */
      , (32273,  19,        500) /* Value */
-     , (32273,  65,        101) /* Placement - Resting */
      , (32273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32273, 151,          2) /* HookType - Wall */
-     , (32273, 174,          4) /* AppraisalPages */
-     , (32273, 175,          4) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32273,   1, False) /* Stuck */
-     , (32273,  11, True ) /* IgnoreCollisions */
-     , (32273,  13, True ) /* Ethereal */
-     , (32273,  14, True ) /* GravityStatus */
-     , (32273,  19, True ) /* Attackable */;
+     , (32273, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (32273, 8042,          4) /* PCAPRecordedAppraisalPages */
+     , (32273, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32273,  39, 1.22000002861023) /* DefaultScale */
-     , (32273,  54, 0.300000011920929) /* UseRadius */;
+VALUES (32273,  39,    1.22) /* DefaultScale */
+     , (32273,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32273,   1, 'The Zongo Papers') /* Name */

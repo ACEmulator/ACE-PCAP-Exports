@@ -15,15 +15,11 @@ VALUES (32951,   1,         16) /* ItemType - Creature */
      , (32951, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32951,   1, True ) /* Stuck */
-     , (32951,  12, True ) /* ReportCollisions */
-     , (32951,  13, False) /* Ethereal */
-     , (32951,  14, True ) /* GravityStatus */
-     , (32951,  19, True ) /* Attackable */;
+VALUES (32951,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32951,  39,       3) /* DefaultScale */
-     , (32951,  76, 0.699999988079071) /* Translucency */;
+     , (32951,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32951,   1, 'Reflection of the Harbinger') /* Name */

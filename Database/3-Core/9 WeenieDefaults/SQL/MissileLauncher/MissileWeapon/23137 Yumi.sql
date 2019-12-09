@@ -12,19 +12,14 @@ VALUES (23137,   1,        256) /* ItemType - MissileWeapon */
      , (23137,  19,        400) /* Value */
      , (23137,  50,          1) /* AmmoType - Arrow */
      , (23137,  51,          2) /* CombatUse - Missle */
-     , (23137,  65,          3) /* Placement - LeftHand */
-     , (23137,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23137,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23137, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23137,   1, False) /* Stuck */
-     , (23137,  11, True ) /* IgnoreCollisions */
-     , (23137,  13, True ) /* Ethereal */
-     , (23137,  14, True ) /* GravityStatus */
-     , (23137,  19, True ) /* Attackable */
-     , (23137,  22, True ) /* Inscribable */;
+VALUES (23137,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23137,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (23137,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23137,   1, 'Yumi') /* Name */;

@@ -8,15 +8,10 @@ VALUES (852,   1,        128) /* ItemType - Misc */
      , (852,   5,       9000) /* EncumbranceVal */
      , (852,  16,          1) /* ItemUseable - No */
      , (852,  19,        125) /* Value */
-     , (852,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (852,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (852,   1, True ) /* Stuck */
-     , (852,  11, True ) /* IgnoreCollisions */
-     , (852,  12, True ) /* ReportCollisions */
-     , (852,  13, False) /* Ethereal */
-     , (852,  14, True ) /* GravityStatus */
-     , (852,  19, True ) /* Attackable */;
+VALUES (852,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (852,   1, 'Spire of Serenity') /* Name */

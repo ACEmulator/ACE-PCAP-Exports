@@ -12,18 +12,13 @@ VALUES (7975,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7975,  15,         10) /* StackUnitValue */
      , (7975,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7975,  19,         10) /* Value */
-     , (7975,  65,        101) /* Placement - Resting */
      , (7975,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7975,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (7975, 151,          9) /* HookType - Floor, Yard */;
+     , (7975, 151,          9) /* HookType - Floor, Yard */
+     , (7975, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7975,   1, False) /* Stuck */
-     , (7975,  11, True ) /* IgnoreCollisions */
-     , (7975,  13, True ) /* Ethereal */
-     , (7975,  14, True ) /* GravityStatus */
-     , (7975,  19, True ) /* Attackable */
-     , (7975,  69, False) /* IsSellable */;
+VALUES (7975,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7975,   1, 'Vial of Berimphur Dye') /* Name */

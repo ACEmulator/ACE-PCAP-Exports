@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29379,   1,      16384) /* ItemType - Key */
      , (29379,   5,         20) /* EncumbranceVal */
      , (29379,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (29379,  65,        101) /* Placement - Resting */
      , (29379,  91,          1) /* MaxStructure */
      , (29379,  92,          1) /* Structure */
      , (29379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29379,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (29379,  94,        640) /* TargetType - LockableMagicTarget */
+     , (29379, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29379,   1, False) /* Stuck */
-     , (29379,  11, True ) /* IgnoreCollisions */
-     , (29379,  13, True ) /* Ethereal */
-     , (29379,  14, True ) /* GravityStatus */
-     , (29379,  19, True ) /* Attackable */
-     , (29379,  22, True ) /* Inscribable */;
+VALUES (29379,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29379,   1, 'Silver Legion Door Key') /* Name */;

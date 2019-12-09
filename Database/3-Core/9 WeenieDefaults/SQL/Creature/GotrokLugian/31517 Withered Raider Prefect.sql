@@ -15,14 +15,10 @@ VALUES (31517,   1,         16) /* ItemType - Creature */
      , (31517, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31517,   1, True ) /* Stuck */
-     , (31517,  12, True ) /* ReportCollisions */
-     , (31517,  13, False) /* Ethereal */
-     , (31517,  14, True ) /* GravityStatus */
-     , (31517,  19, True ) /* Attackable */;
+VALUES (31517,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31517,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (31517,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31517,   1, 'Withered Raider Prefect') /* Name */

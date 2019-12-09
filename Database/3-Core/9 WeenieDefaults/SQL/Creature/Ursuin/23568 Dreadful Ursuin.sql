@@ -15,14 +15,10 @@ VALUES (23568,   1,         16) /* ItemType - Creature */
      , (23568, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23568,   1, True ) /* Stuck */
-     , (23568,  12, True ) /* ReportCollisions */
-     , (23568,  13, False) /* Ethereal */
-     , (23568,  14, True ) /* GravityStatus */
-     , (23568,  19, True ) /* Attackable */;
+VALUES (23568,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23568,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (23568,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23568,   1, 'Dreadful Ursuin') /* Name */

@@ -13,15 +13,10 @@ VALUES (35552,   1,          1) /* ItemType - MeleeWeapon */
      , (35552,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35552,   1, False) /* Stuck */
-     , (35552,  11, True ) /* IgnoreCollisions */
-     , (35552,  13, True ) /* Ethereal */
-     , (35552,  14, True ) /* GravityStatus */
-     , (35552,  19, True ) /* Attackable */
-     , (35552,  22, True ) /* Inscribable */;
+VALUES (35552,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35552,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (35552,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35552,   1, 'Commoner''s Blade') /* Name */;

@@ -18,7 +18,6 @@ VALUES (46967,   1,        256) /* ItemType - MissileWeapon */
      , (46967,  49,         45) /* WeaponTime */
      , (46967,  50,          4) /* AmmoType - Atlatl */
      , (46967,  51,          2) /* CombatUse - Missle */
-     , (46967,  65,        101) /* Placement - Resting */
      , (46967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46967, 106,        450) /* ItemSpellcraft */
      , (46967, 107,       1000) /* ItemCurMana */
@@ -30,15 +29,11 @@ VALUES (46967,   1,        256) /* ItemType - MissileWeapon */
      , (46967, 159,         47) /* WieldSkillType - MissileWeapons */
      , (46967, 160,        350) /* WieldDifficulty */
      , (46967, 353,         10) /* WeaponType - Thrown */
-     , (46967, 8030,          0);
+     , (46967, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46967, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46967,   1, False) /* Stuck */
-     , (46967,  11, True ) /* IgnoreCollisions */
-     , (46967,  13, True ) /* Ethereal */
-     , (46967,  14, True ) /* GravityStatus */
-     , (46967,  19, True ) /* Attackable */
-     , (46967,  22, True ) /* Inscribable */
+VALUES (46967,  22, True ) /* Inscribable */
      , (46967,  69, False) /* IsSellable */
      , (46967,  99, True ) /* Ivoryable */;
 

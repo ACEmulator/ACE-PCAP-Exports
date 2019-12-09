@@ -15,11 +15,7 @@ VALUES (31022,   1,         16) /* ItemType - Creature */
      , (31022, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31022,   1, True ) /* Stuck */
-     , (31022,  12, True ) /* ReportCollisions */
-     , (31022,  13, False) /* Ethereal */
-     , (31022,  14, True ) /* GravityStatus */
-     , (31022,  19, True ) /* Attackable */;
+VALUES (31022,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31022,   1, 'Jelly Thrungus') /* Name */

@@ -13,19 +13,14 @@ VALUES (29209,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29209,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29209,  19,          0) /* Value */
      , (29209,  33,          1) /* Bonded - Bonded */
-     , (29209,  65,        101) /* Placement - Resting */
      , (29209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29209,  94,        128) /* TargetType - Misc */
      , (29209, 114,          1) /* Attuned - Attuned */
-     , (29209, 151,          2) /* HookType - Wall */;
+     , (29209, 151,          2) /* HookType - Wall */
+     , (29209, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29209,   1, False) /* Stuck */
-     , (29209,  11, True ) /* IgnoreCollisions */
-     , (29209,  13, True ) /* Ethereal */
-     , (29209,  14, True ) /* GravityStatus */
-     , (29209,  19, True ) /* Attackable */
-     , (29209,  22, True ) /* Inscribable */;
+VALUES (29209,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29209,   1, 'Incomplete Brewmaster''s Bible') /* Name */

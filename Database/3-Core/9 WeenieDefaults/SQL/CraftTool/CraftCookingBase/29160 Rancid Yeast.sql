@@ -12,20 +12,13 @@ VALUES (29160,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29160,  15,          5) /* StackUnitValue */
      , (29160,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29160,  19,          5) /* Value */
-     , (29160,  65,        101) /* Placement - Resting */
      , (29160,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29160,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (29160, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29160,   1, False) /* Stuck */
-     , (29160,  11, True ) /* IgnoreCollisions */
-     , (29160,  13, True ) /* Ethereal */
-     , (29160,  14, True ) /* GravityStatus */
-     , (29160,  19, True ) /* Attackable */;
+     , (29160, 151,          2) /* HookType - Wall */
+     , (29160, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29160,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (29160,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29160,   1, 'Rancid Yeast') /* Name */;

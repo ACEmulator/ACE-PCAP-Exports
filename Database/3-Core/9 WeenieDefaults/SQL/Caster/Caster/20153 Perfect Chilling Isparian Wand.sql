@@ -11,18 +11,13 @@ VALUES (20153,   1,      32768) /* ItemType - Caster */
      , (20153,  16,          1) /* ItemUseable - No */
      , (20153,  18,          1) /* UiEffects - Magical */
      , (20153,  19,       8000) /* Value */
-     , (20153,  65,          1) /* Placement - RightHandCombat */
      , (20153,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20153,  94,         16) /* TargetType - Creature */
-     , (20153, 151,          2) /* HookType - Wall */;
+     , (20153, 151,          2) /* HookType - Wall */
+     , (20153, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20153,   1, False) /* Stuck */
-     , (20153,  11, True ) /* IgnoreCollisions */
-     , (20153,  13, True ) /* Ethereal */
-     , (20153,  14, True ) /* GravityStatus */
-     , (20153,  19, True ) /* Attackable */
-     , (20153,  22, True ) /* Inscribable */;
+VALUES (20153,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20153,   1, 'Perfect Chilling Isparian Wand') /* Name */;

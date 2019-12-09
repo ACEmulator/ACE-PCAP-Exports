@@ -12,20 +12,14 @@ VALUES (30381,   1,      65536) /* ItemType - Portal */
      , (30381, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30381,   1, True ) /* Stuck */
-     , (30381,  12, True ) /* ReportCollisions */
-     , (30381,  13, True ) /* Ethereal */
-     , (30381,  14, True ) /* GravityStatus */
-     , (30381,  15, True ) /* LightsStatus */
-     , (30381,  19, True ) /* Attackable */;
+VALUES (30381,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30381,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30381,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30381,   1, 'Fiun Outpost') /* Name */
      , (30381,  16, 'This portal is tied to the Fiun Outpost. This outpost is a good place for characters above level 60.') /* LongDesc */
-     , (30381,  38, 'Fiun Outpost (95.9N, 56.8W).') /* AppraisalPortalDestination */
      , (30381, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

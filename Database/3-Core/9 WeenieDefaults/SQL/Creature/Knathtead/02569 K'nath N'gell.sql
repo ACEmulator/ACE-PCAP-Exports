@@ -15,17 +15,13 @@ VALUES (2569,   1,         16) /* ItemType - Creature */
      , (2569, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2569,   1, True ) /* Stuck */
-     , (2569,  12, True ) /* ReportCollisions */
-     , (2569,  13, False) /* Ethereal */
-     , (2569,  14, True ) /* GravityStatus */
-     , (2569,  19, True ) /* Attackable */;
+VALUES (2569,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2569,  76,     0.5) /* Translucency */
      , (2569, 8010,       0) /* PCAPRecordedVelocityX */
      , (2569, 8011,       0) /* PCAPRecordedVelocityY */
-     , (2569, 8012, -0.0106018781661987) /* PCAPRecordedVelocityZ */;
+     , (2569, 8012,   -0.01) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2569,   1, 'K''nath N''gell') /* Name */

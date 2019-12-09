@@ -13,19 +13,14 @@ VALUES (34513,   1,      65536) /* ItemType - Portal */
      , (34513, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34513,   1, True ) /* Stuck */
-     , (34513,  11, True ) /* IgnoreCollisions */
-     , (34513,  13, False) /* Ethereal */
-     , (34513,  14, True ) /* GravityStatus */
-     , (34513,  19, True ) /* Attackable */;
+VALUES (34513,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34513,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (34513,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34513,   1, 'Demon Swarm Matron') /* Name */
      , (34513,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (34513,  38, 'Demon Swarm Matron') /* AppraisalPortalDestination */
      , (34513, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -11,12 +11,7 @@ VALUES (22240,   1,        128) /* ItemType - Misc */
      , (22240,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22240,   1, True ) /* Stuck */
-     , (22240,  11, True ) /* IgnoreCollisions */
-     , (22240,  12, True ) /* ReportCollisions */
-     , (22240,  13, False) /* Ethereal */
-     , (22240,  14, True ) /* GravityStatus */
-     , (22240,  19, True ) /* Attackable */;
+VALUES (22240,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22240,   1, 'Spirit Gate') /* Name */

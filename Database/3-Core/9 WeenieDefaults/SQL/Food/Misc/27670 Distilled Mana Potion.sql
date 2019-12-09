@@ -12,18 +12,11 @@ VALUES (27670,   1,        128) /* ItemType - Misc */
      , (27670,  15,        500) /* StackUnitValue */
      , (27670,  16,          8) /* ItemUseable - Contained */
      , (27670,  19,        500) /* Value */
-     , (27670,  65,        101) /* Placement - Resting */
      , (27670,  89,          6) /* BoosterEnum - Mana */
      , (27670,  90,        120) /* BoostValue */
      , (27670,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27670, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27670,   1, False) /* Stuck */
-     , (27670,  11, True ) /* IgnoreCollisions */
-     , (27670,  13, True ) /* Ethereal */
-     , (27670,  14, True ) /* GravityStatus */
-     , (27670,  19, True ) /* Attackable */;
+     , (27670, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (27670, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27670,   1, 'Distilled Mana Potion') /* Name */

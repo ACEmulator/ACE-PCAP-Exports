@@ -9,16 +9,11 @@ VALUES (45020,   1,        128) /* ItemType - Misc */
      , (45020,  16,          1) /* ItemUseable - No */
      , (45020,  19,          0) /* Value */
      , (45020,  33,          1) /* Bonded - Bonded */
-     , (45020,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (45020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45020, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45020,   1, False) /* Stuck */
-     , (45020,  11, True ) /* IgnoreCollisions */
-     , (45020,  13, True ) /* Ethereal */
-     , (45020,  14, True ) /* GravityStatus */
-     , (45020,  19, True ) /* Attackable */
-     , (45020,  22, True ) /* Inscribable */;
+VALUES (45020,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45020,   1, 'Wardley''s Boots') /* Name */

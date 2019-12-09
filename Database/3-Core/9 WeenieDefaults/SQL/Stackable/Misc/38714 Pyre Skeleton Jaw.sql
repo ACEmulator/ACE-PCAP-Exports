@@ -13,17 +13,10 @@ VALUES (38714,   1,        128) /* ItemType - Misc */
      , (38714,  16,          1) /* ItemUseable - No */
      , (38714,  19,          0) /* Value */
      , (38714,  33,          1) /* Bonded - Bonded */
-     , (38714,  65,        101) /* Placement - Resting */
      , (38714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38714, 114,          1) /* Attuned - Attuned */
-     , (38714, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38714,   1, False) /* Stuck */
-     , (38714,  11, True ) /* IgnoreCollisions */
-     , (38714,  13, True ) /* Ethereal */
-     , (38714,  14, True ) /* GravityStatus */
-     , (38714,  19, True ) /* Attackable */;
+     , (38714, 151,          2) /* HookType - Wall */
+     , (38714, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38714,   1, 'Pyre Skeleton Jaw') /* Name */

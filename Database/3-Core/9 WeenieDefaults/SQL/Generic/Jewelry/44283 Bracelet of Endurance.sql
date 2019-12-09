@@ -9,19 +9,14 @@ VALUES (44283,   1,          8) /* ItemType - Jewelry */
      , (44283,   9,     196608) /* ValidLocations - WristWear */
      , (44283,  16,          1) /* ItemUseable - No */
      , (44283,  19,         20) /* Value */
-     , (44283,  65,        101) /* Placement - Resting */
-     , (44283,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44283,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44283, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44283,   1, False) /* Stuck */
-     , (44283,  11, True ) /* IgnoreCollisions */
-     , (44283,  13, True ) /* Ethereal */
-     , (44283,  14, True ) /* GravityStatus */
-     , (44283,  19, True ) /* Attackable */
-     , (44283,  22, True ) /* Inscribable */;
+VALUES (44283,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44283,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (44283,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44283,   1, 'Bracelet of Endurance') /* Name */;

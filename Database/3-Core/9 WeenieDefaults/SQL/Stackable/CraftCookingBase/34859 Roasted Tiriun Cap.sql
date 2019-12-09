@@ -12,18 +12,11 @@ VALUES (34859,   1,    4194304) /* ItemType - CraftCookingBase */
      , (34859,  15,         50) /* StackUnitValue */
      , (34859,  16,          1) /* ItemUseable - No */
      , (34859,  19,         50) /* Value */
-     , (34859,  65,        101) /* Placement - Resting */
-     , (34859,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34859,   1, False) /* Stuck */
-     , (34859,  11, True ) /* IgnoreCollisions */
-     , (34859,  13, True ) /* Ethereal */
-     , (34859,  14, True ) /* GravityStatus */
-     , (34859,  19, True ) /* Attackable */;
+     , (34859,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34859, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34859,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (34859,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34859,   1, 'Roasted Tiriun Cap') /* Name */

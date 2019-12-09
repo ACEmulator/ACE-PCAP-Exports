@@ -16,22 +16,17 @@ VALUES (30214,   1,       2048) /* ItemType - Gem */
      , (30214,  19,          0) /* Value */
      , (30214,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30214,  33,         -1) /* Bonded - Slippery */
-     , (30214,  65,        101) /* Placement - Resting */
      , (30214,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30214,  94,         16) /* TargetType - Creature */
      , (30214, 106,        325) /* ItemSpellcraft */
      , (30214, 107,      10000) /* ItemCurMana */
      , (30214, 108,      10000) /* ItemMaxMana */
      , (30214, 109,          0) /* ItemDifficulty */
-     , (30214, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30214, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30214, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30214,   1, False) /* Stuck */
-     , (30214,  11, True ) /* IgnoreCollisions */
-     , (30214,  13, True ) /* Ethereal */
-     , (30214,  14, True ) /* GravityStatus */
-     , (30214,  19, True ) /* Attackable */
-     , (30214, 108, True ) /* RareUsesTimer */;
+VALUES (30214, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30214,   1, 'Artificer''s Crystal') /* Name */

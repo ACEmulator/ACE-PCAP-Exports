@@ -15,14 +15,10 @@ VALUES (22611,   1,         16) /* ItemType - Creature */
      , (22611, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22611,   1, True ) /* Stuck */
-     , (22611,  12, True ) /* ReportCollisions */
-     , (22611,  13, False) /* Ethereal */
-     , (22611,  14, True ) /* GravityStatus */
-     , (22611,  19, True ) /* Attackable */;
+VALUES (22611,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22611,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (22611,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22611,   1, 'Armored Tusker') /* Name */

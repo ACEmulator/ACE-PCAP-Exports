@@ -18,12 +18,7 @@ VALUES (38147,   1,         16) /* ItemType - Creature */
      , (38147, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38147,   1, True ) /* Stuck */
-     , (38147,  12, True ) /* ReportCollisions */
-     , (38147,  13, False) /* Ethereal */
-     , (38147,  14, True ) /* GravityStatus */
-     , (38147,  19, True ) /* Attackable */
-     , (38147,  42, True ) /* AllowEdgeSlide */;
+VALUES (38147,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38147,   1, 'Inkitan the Crazed') /* Name */

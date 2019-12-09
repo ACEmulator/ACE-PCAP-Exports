@@ -14,16 +14,10 @@ VALUES (19429,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19429,   1, True ) /* Stuck */
-     , (19429,  11, True ) /* IgnoreCollisions */
-     , (19429,  12, True ) /* ReportCollisions */
-     , (19429,  13, True ) /* Ethereal */
-     , (19429,  14, True ) /* GravityStatus */
-     , (19429,  19, False) /* Attackable */
-     , (19429,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (19429,  42, True ) /* AllowEdgeSlide */;
+     , (19429,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19429,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (19429,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19429,   1, 'Scuttling Grievver') /* Name */

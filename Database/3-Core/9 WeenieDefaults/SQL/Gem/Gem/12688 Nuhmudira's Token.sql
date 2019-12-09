@@ -13,17 +13,12 @@ VALUES (12688,   1,       2048) /* ItemType - Gem */
      , (12688,  16,          1) /* ItemUseable - No */
      , (12688,  19,          0) /* Value */
      , (12688,  33,          1) /* Bonded - Bonded */
-     , (12688,  65,        101) /* Placement - Resting */
      , (12688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12688, 114,          1) /* Attuned - Attuned */;
+     , (12688, 114,          1) /* Attuned - Attuned */
+     , (12688, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12688,   1, False) /* Stuck */
-     , (12688,  11, True ) /* IgnoreCollisions */
-     , (12688,  13, True ) /* Ethereal */
-     , (12688,  14, True ) /* GravityStatus */
-     , (12688,  19, True ) /* Attackable */
-     , (12688,  22, True ) /* Inscribable */;
+VALUES (12688,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12688,   1, 'Nuhmudira''s Token') /* Name */

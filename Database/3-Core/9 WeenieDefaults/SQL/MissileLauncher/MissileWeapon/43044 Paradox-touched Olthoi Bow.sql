@@ -18,7 +18,6 @@ VALUES (43044,   1,        256) /* ItemType - MissileWeapon */
      , (43044,  49,         45) /* WeaponTime */
      , (43044,  50,          1) /* AmmoType - Arrow */
      , (43044,  51,          2) /* CombatUse - Missle */
-     , (43044,  65,          3) /* Placement - LeftHand */
      , (43044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43044, 106,        450) /* ItemSpellcraft */
      , (43044, 107,       9203) /* ItemCurMana */
@@ -32,27 +31,23 @@ VALUES (43044,   1,        256) /* ItemType - MissileWeapon */
      , (43044, 204,         12) /* ElementalDamageBonus */
      , (43044, 263,          2) /* ResistanceModifierType */
      , (43044, 353,          8) /* WeaponType - Bow */
-     , (43044, 8030,          0);
+     , (43044, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (43044, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43044,   1, False) /* Stuck */
-     , (43044,  11, True ) /* IgnoreCollisions */
-     , (43044,  13, True ) /* Ethereal */
-     , (43044,  14, True ) /* GravityStatus */
-     , (43044,  19, True ) /* Attackable */
-     , (43044,  22, True ) /* Inscribable */
+VALUES (43044,  22, True ) /* Inscribable */
      , (43044,  69, False) /* IsSellable */
      , (43044,  85, True ) /* AppraisalHasAllowedWielder */
      , (43044,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43044,   5, -0.0333000011742115) /* ManaRate */
+VALUES (43044,   5,   -0.03) /* ManaRate */
      , (43044,  21,       0) /* WeaponLength */
      , (43044,  22,       0) /* DamageVariance */
      , (43044,  26,    27.3) /* MaximumVelocity */
-     , (43044,  29, 1.14999997615814) /* WeaponDefense */
+     , (43044,  29,    1.15) /* WeaponDefense */
      , (43044,  62,       1) /* WeaponOffense */
-     , (43044,  63, 2.34999990463257) /* DamageMod */
+     , (43044,  63,    2.35) /* DamageMod */
      , (43044, 147,       1) /* CriticalFrequency */
      , (43044, 157,       1) /* ResistanceModifier */;
 

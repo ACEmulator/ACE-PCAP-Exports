@@ -13,12 +13,7 @@ VALUES (32666,   1,      16384) /* ItemType - Key */
      , (32666,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32666,   1, False) /* Stuck */
-     , (32666,  11, True ) /* IgnoreCollisions */
-     , (32666,  13, True ) /* Ethereal */
-     , (32666,  14, True ) /* GravityStatus */
-     , (32666,  19, True ) /* Attackable */
-     , (32666,  22, True ) /* Inscribable */;
+VALUES (32666,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32666,   1, 'Inner Chamber Key') /* Name */;

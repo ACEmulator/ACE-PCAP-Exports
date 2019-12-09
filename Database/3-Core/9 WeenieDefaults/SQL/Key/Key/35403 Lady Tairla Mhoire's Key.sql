@@ -9,20 +9,15 @@ VALUES (35403,   1,      16384) /* ItemType - Key */
      , (35403,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (35403,  19,          0) /* Value */
      , (35403,  33,          1) /* Bonded - Bonded */
-     , (35403,  65,        101) /* Placement - Resting */
      , (35403,  91,          1) /* MaxStructure */
      , (35403,  92,          1) /* Structure */
      , (35403,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35403,  94,        640) /* TargetType - LockableMagicTarget */
-     , (35403, 114,          1) /* Attuned - Attuned */;
+     , (35403, 114,          1) /* Attuned - Attuned */
+     , (35403, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35403,   1, False) /* Stuck */
-     , (35403,  11, True ) /* IgnoreCollisions */
-     , (35403,  13, True ) /* Ethereal */
-     , (35403,  14, True ) /* GravityStatus */
-     , (35403,  19, True ) /* Attackable */
-     , (35403,  22, True ) /* Inscribable */;
+VALUES (35403,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35403,   1, 'Lady Tairla Mhoire''s Key') /* Name */

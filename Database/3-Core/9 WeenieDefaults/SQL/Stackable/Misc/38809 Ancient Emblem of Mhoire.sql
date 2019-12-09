@@ -12,18 +12,11 @@ VALUES (38809,   1,        128) /* ItemType - Misc */
      , (38809,  15,         10) /* StackUnitValue */
      , (38809,  16,          1) /* ItemUseable - No */
      , (38809,  19,         10) /* Value */
-     , (38809,  65,        101) /* Placement - Resting */
-     , (38809,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38809,   1, False) /* Stuck */
-     , (38809,  11, True ) /* IgnoreCollisions */
-     , (38809,  13, True ) /* Ethereal */
-     , (38809,  14, True ) /* GravityStatus */
-     , (38809,  19, True ) /* Attackable */;
+     , (38809,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38809, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38809,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (38809,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38809,   1, 'Ancient Emblem of Mhoire') /* Name */;

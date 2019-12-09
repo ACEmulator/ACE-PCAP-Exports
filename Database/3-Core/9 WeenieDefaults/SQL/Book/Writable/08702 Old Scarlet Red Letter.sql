@@ -9,22 +9,15 @@ VALUES (8702,   1,       8192) /* ItemType - Writable */
      , (8702,  16,          8) /* ItemUseable - Contained */
      , (8702,  19,          1) /* Value */
      , (8702,  33,          0) /* Bonded - Normal */
-     , (8702,  65,        101) /* Placement - Resting */
      , (8702,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8702, 114,          0) /* Attuned - Normal */
      , (8702, 151,          2) /* HookType - Wall */
-     , (8702, 174,          1) /* AppraisalPages */
-     , (8702, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8702,   1, False) /* Stuck */
-     , (8702,  11, True ) /* IgnoreCollisions */
-     , (8702,  13, True ) /* Ethereal */
-     , (8702,  14, True ) /* GravityStatus */
-     , (8702,  19, True ) /* Attackable */;
+     , (8702, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8702, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (8702, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8702,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8702,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8702,   1, 'Old Scarlet Red Letter') /* Name */

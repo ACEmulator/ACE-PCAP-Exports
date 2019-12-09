@@ -11,17 +11,12 @@ VALUES (25545,   1,          1) /* ItemType - MeleeWeapon */
      , (25545,  18,          1) /* UiEffects - Magical */
      , (25545,  19,       2000) /* Value */
      , (25545,  51,          1) /* CombatUse - Melee */
-     , (25545,  65,        101) /* Placement - Resting */
      , (25545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25545, 151,          2) /* HookType - Wall */;
+     , (25545, 151,          2) /* HookType - Wall */
+     , (25545, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25545,   1, False) /* Stuck */
-     , (25545,  11, True ) /* IgnoreCollisions */
-     , (25545,  13, True ) /* Ethereal */
-     , (25545,  14, True ) /* GravityStatus */
-     , (25545,  19, True ) /* Attackable */
-     , (25545,  22, True ) /* Inscribable */;
+VALUES (25545,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25545,   1, 'Dastardly Dirk') /* Name */;

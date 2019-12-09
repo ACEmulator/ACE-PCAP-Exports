@@ -12,19 +12,14 @@ VALUES (27755,   1,        128) /* ItemType - Misc */
      , (27755,  15,          0) /* StackUnitValue */
      , (27755,  16,          8) /* ItemUseable - Contained */
      , (27755,  19,          0) /* Value */
-     , (27755,  65,        101) /* Placement - Resting */
      , (27755,  89,          6) /* BoosterEnum - Mana */
      , (27755,  90,         50) /* BoostValue */
      , (27755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27755, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (27755, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (27755, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27755,   1, False) /* Stuck */
-     , (27755,  11, True ) /* IgnoreCollisions */
-     , (27755,  13, True ) /* Ethereal */
-     , (27755,  14, True ) /* GravityStatus */
-     , (27755,  19, True ) /* Attackable */
-     , (27755,  69, False) /* IsSellable */;
+VALUES (27755,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27755,   1, 'Expired Mana Tincture') /* Name */

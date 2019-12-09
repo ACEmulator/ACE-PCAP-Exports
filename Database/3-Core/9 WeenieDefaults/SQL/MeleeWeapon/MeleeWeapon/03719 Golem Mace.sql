@@ -11,17 +11,12 @@ VALUES (3719,   1,          1) /* ItemType - MeleeWeapon */
      , (3719,  18,         64) /* UiEffects - Lightning */
      , (3719,  19,       1500) /* Value */
      , (3719,  51,          1) /* CombatUse - Melee */
-     , (3719,  65,        101) /* Placement - Resting */
      , (3719,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3719, 151,          2) /* HookType - Wall */;
+     , (3719, 151,          2) /* HookType - Wall */
+     , (3719, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3719,   1, False) /* Stuck */
-     , (3719,  11, True ) /* IgnoreCollisions */
-     , (3719,  13, True ) /* Ethereal */
-     , (3719,  14, True ) /* GravityStatus */
-     , (3719,  19, True ) /* Attackable */
-     , (3719,  22, True ) /* Inscribable */;
+VALUES (3719,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3719,   1, 'Golem Mace') /* Name */;

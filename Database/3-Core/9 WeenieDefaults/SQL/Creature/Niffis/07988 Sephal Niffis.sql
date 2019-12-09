@@ -15,14 +15,10 @@ VALUES (7988,   1,         16) /* ItemType - Creature */
      , (7988, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7988,   1, True ) /* Stuck */
-     , (7988,  12, True ) /* ReportCollisions */
-     , (7988,  13, False) /* Ethereal */
-     , (7988,  14, True ) /* GravityStatus */
-     , (7988,  19, True ) /* Attackable */;
+VALUES (7988,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7988,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (7988,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7988,   1, 'Sephal Niffis') /* Name */

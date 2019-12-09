@@ -13,22 +13,17 @@ VALUES (32207,   1,         32) /* ItemType - Food */
      , (32207,  16,          8) /* ItemUseable - Contained */
      , (32207,  18,          1) /* UiEffects - Magical */
      , (32207,  19,         10) /* Value */
-     , (32207,  65,        101) /* Placement - Resting */
      , (32207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32207,  94,         16) /* TargetType - Creature */
      , (32207, 106,        300) /* ItemSpellcraft */
      , (32207, 107,         50) /* ItemCurMana */
      , (32207, 108,         50) /* ItemMaxMana */
      , (32207, 109,          0) /* ItemDifficulty */
-     , (32207, 110,          0) /* ItemAllegianceRankLimit */;
+     , (32207, 110,          0) /* ItemAllegianceRankLimit */
+     , (32207, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32207,   1, False) /* Stuck */
-     , (32207,  11, True ) /* IgnoreCollisions */
-     , (32207,  13, True ) /* Ethereal */
-     , (32207,  14, True ) /* GravityStatus */
-     , (32207,  19, True ) /* Attackable */
-     , (32207,  69, False) /* IsSellable */;
+VALUES (32207,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32207,  39,     0.5) /* DefaultScale */;

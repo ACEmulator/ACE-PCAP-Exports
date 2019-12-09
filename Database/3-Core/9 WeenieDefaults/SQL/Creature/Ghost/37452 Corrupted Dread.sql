@@ -16,15 +16,11 @@ VALUES (37452,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37452,   1, True ) /* Stuck */
-     , (37452,  12, True ) /* ReportCollisions */
-     , (37452,  13, False) /* Ethereal */
-     , (37452,  14, True ) /* GravityStatus */
-     , (37452,  19, True ) /* Attackable */
      , (37452, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37452,  39, 0.800000011920929) /* DefaultScale */
-     , (37452,  76, 0.699999988079071) /* Translucency */;
+VALUES (37452,  39,     0.8) /* DefaultScale */
+     , (37452,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37452,   1, 'Corrupted Dread') /* Name */

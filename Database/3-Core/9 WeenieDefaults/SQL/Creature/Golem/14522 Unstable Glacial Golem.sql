@@ -15,12 +15,7 @@ VALUES (14522,   1,         16) /* ItemType - Creature */
      , (14522, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14522,   1, True ) /* Stuck */
-     , (14522,  12, True ) /* ReportCollisions */
-     , (14522,  13, False) /* Ethereal */
-     , (14522,  14, True ) /* GravityStatus */
-     , (14522,  15, True ) /* LightsStatus */
-     , (14522,  19, True ) /* Attackable */;
+VALUES (14522,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14522,   1, 'Unstable Glacial Golem') /* Name */

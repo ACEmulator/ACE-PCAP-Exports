@@ -12,19 +12,13 @@ VALUES (14273,   1,      65536) /* ItemType - Portal */
      , (14273, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14273,   1, True ) /* Stuck */
-     , (14273,  12, True ) /* ReportCollisions */
-     , (14273,  13, True ) /* Ethereal */
-     , (14273,  14, True ) /* GravityStatus */
-     , (14273,  15, True ) /* LightsStatus */
-     , (14273,  19, True ) /* Attackable */;
+VALUES (14273,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14273,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14273,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14273,   1, 'Mire Hill Portal') /* Name */
-     , (14273,  38, 'Mire Hill Portal (21.6S, 60.9E).') /* AppraisalPortalDestination */
      , (14273, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

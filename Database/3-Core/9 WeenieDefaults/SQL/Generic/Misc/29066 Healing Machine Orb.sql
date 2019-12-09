@@ -9,17 +9,12 @@ VALUES (29066,   1,        128) /* ItemType - Misc */
      , (29066,  16,          1) /* ItemUseable - No */
      , (29066,  19,          0) /* Value */
      , (29066,  33,          1) /* Bonded - Bonded */
-     , (29066,  65,        101) /* Placement - Resting */
      , (29066,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29066, 114,          1) /* Attuned - Attuned */;
+     , (29066, 114,          1) /* Attuned - Attuned */
+     , (29066, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29066,   1, False) /* Stuck */
-     , (29066,  11, True ) /* IgnoreCollisions */
-     , (29066,  13, True ) /* Ethereal */
-     , (29066,  14, True ) /* GravityStatus */
-     , (29066,  19, True ) /* Attackable */
-     , (29066,  22, True ) /* Inscribable */;
+VALUES (29066,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29066,   1, 'Healing Machine Orb') /* Name */

@@ -20,12 +20,7 @@ VALUES (2225,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2225,   1, True ) /* Stuck */
-     , (2225,  11, True ) /* IgnoreCollisions */
-     , (2225,  12, True ) /* ReportCollisions */
-     , (2225,  13, False) /* Ethereal */
-     , (2225,  14, True ) /* GravityStatus */
-     , (2225,  19, False) /* Attackable */
-     , (2225,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (2225,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2225,   1, 'Binthura the Beggar') /* Name */

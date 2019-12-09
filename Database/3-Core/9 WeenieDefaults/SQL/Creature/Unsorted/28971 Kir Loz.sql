@@ -15,18 +15,12 @@ VALUES (28971,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28971,   1, True ) /* Stuck */
-     , (28971,  11, True ) /* IgnoreCollisions */
-     , (28971,  12, True ) /* ReportCollisions */
-     , (28971,  13, False) /* Ethereal */
-     , (28971,  14, True ) /* GravityStatus */
-     , (28971,  19, False) /* Attackable */
-     , (28971,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (28971,  42, True ) /* AllowEdgeSlide */;
+     , (28971,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28971,  39, 1.29999995231628) /* DefaultScale */
+VALUES (28971,  39,     1.3) /* DefaultScale */
      , (28971,  54,       3) /* UseRadius */
-     , (28971,  76, 0.800000011920929) /* Translucency */;
+     , (28971,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28971,   1, 'Kir Loz') /* Name */

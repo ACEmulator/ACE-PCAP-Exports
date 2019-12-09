@@ -15,11 +15,7 @@ VALUES (22053,   1,         16) /* ItemType - Creature */
      , (22053, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22053,   1, True ) /* Stuck */
-     , (22053,  12, True ) /* ReportCollisions */
-     , (22053,  13, False) /* Ethereal */
-     , (22053,  14, True ) /* GravityStatus */
-     , (22053,  19, True ) /* Attackable */;
+VALUES (22053,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22053,  39,     1.5) /* DefaultScale */;

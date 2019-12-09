@@ -8,20 +8,15 @@ VALUES (38718,   1,        128) /* ItemType - Misc */
      , (38718,   5,         50) /* EncumbranceVal */
      , (38718,  16,          1) /* ItemUseable - No */
      , (38718,  19,          5) /* Value */
-     , (38718,  65,        101) /* Placement - Resting */
      , (38718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38718, 151,         24) /* HookType - Yard, Roof */;
+     , (38718, 151,         24) /* HookType - Yard, Roof */
+     , (38718, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38718,   1, False) /* Stuck */
-     , (38718,  11, True ) /* IgnoreCollisions */
-     , (38718,  13, True ) /* Ethereal */
-     , (38718,  14, True ) /* GravityStatus */
-     , (38718,  19, True ) /* Attackable */
-     , (38718,  22, True ) /* Inscribable */;
+VALUES (38718,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38718,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (38718,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38718,   1, 'Eldrytch Web Banner') /* Name */;

@@ -8,17 +8,12 @@ VALUES (30261,   1,       2048) /* ItemType - Gem */
      , (30261,   5,      12500) /* EncumbranceVal */
      , (30261,  16,          1) /* ItemUseable - No */
      , (30261,  19,     100000) /* Value */
-     , (30261,  65,        101) /* Placement - Resting */
-     , (30261,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (30261, 151,          9) /* HookType - Floor, Yard */;
+     , (30261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30261, 151,          9) /* HookType - Floor, Yard */
+     , (30261, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30261,   1, False) /* Stuck */
-     , (30261,  11, True ) /* IgnoreCollisions */
-     , (30261,  13, True ) /* Ethereal */
-     , (30261,  14, True ) /* GravityStatus */
-     , (30261,  19, True ) /* Attackable */
-     , (30261,  22, True ) /* Inscribable */;
+VALUES (30261,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30261,   1, 'Dangerous Portal Device') /* Name */

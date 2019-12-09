@@ -12,17 +12,10 @@ VALUES (8043,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8043,  15,        100) /* StackUnitValue */
      , (8043,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8043,  19,        100) /* Value */
-     , (8043,  65,        101) /* Placement - Resting */
      , (8043,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8043,  94,        134) /* TargetType - Vestements, Misc */
-     , (8043, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8043,   1, False) /* Stuck */
-     , (8043,  11, True ) /* IgnoreCollisions */
-     , (8043,  13, True ) /* Ethereal */
-     , (8043,  14, True ) /* GravityStatus */
-     , (8043,  19, True ) /* Attackable */;
+     , (8043, 151,          9) /* HookType - Floor, Yard */
+     , (8043, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8043,   1, 'Verdalim Dye Pot') /* Name */

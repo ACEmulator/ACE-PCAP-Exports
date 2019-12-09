@@ -10,24 +10,19 @@ VALUES (21392,   1,          8) /* ItemType - Jewelry */
      , (21392,  16,          1) /* ItemUseable - No */
      , (21392,  18,          1) /* UiEffects - Magical */
      , (21392,  19,       4000) /* Value */
-     , (21392,  65,        101) /* Placement - Resting */
      , (21392,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21392, 106,        225) /* ItemSpellcraft */
      , (21392, 107,        342) /* ItemCurMana */
      , (21392, 108,        500) /* ItemMaxMana */
-     , (21392, 109,        125) /* ItemDifficulty */;
+     , (21392, 109,        125) /* ItemDifficulty */
+     , (21392, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21392,   1, False) /* Stuck */
-     , (21392,  11, True ) /* IgnoreCollisions */
-     , (21392,  13, True ) /* Ethereal */
-     , (21392,  14, True ) /* GravityStatus */
-     , (21392,  19, True ) /* Attackable */
-     , (21392,  22, True ) /* Inscribable */
+VALUES (21392,  22, True ) /* Inscribable */
      , (21392,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21392,   5, -0.0333) /* ManaRate */;
+VALUES (21392,   5,   -0.03) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21392,   1, 'Bracelet of Knowledge') /* Name */

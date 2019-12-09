@@ -12,18 +12,13 @@ VALUES (7976,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7976,  15,         10) /* StackUnitValue */
      , (7976,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7976,  19,         10) /* Value */
-     , (7976,  65,        101) /* Placement - Resting */
      , (7976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7976,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (7976, 151,          9) /* HookType - Floor, Yard */;
+     , (7976, 151,          9) /* HookType - Floor, Yard */
+     , (7976, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7976,   1, False) /* Stuck */
-     , (7976,  11, True ) /* IgnoreCollisions */
-     , (7976,  13, True ) /* Ethereal */
-     , (7976,  14, True ) /* GravityStatus */
-     , (7976,  19, True ) /* Attackable */
-     , (7976,  69, False) /* IsSellable */;
+VALUES (7976,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7976,   1, 'Vial of Verdalim Dye') /* Name */

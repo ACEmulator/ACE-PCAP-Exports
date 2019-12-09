@@ -13,7 +13,6 @@ VALUES (34291,   1,       2048) /* ItemType - Gem */
      , (34291,  16,          8) /* ItemUseable - Contained */
      , (34291,  18,          1) /* UiEffects - Magical */
      , (34291,  19,          0) /* Value */
-     , (34291,  65,        101) /* Placement - Resting */
      , (34291,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34291,  94,         16) /* TargetType - Creature */
      , (34291, 106,        300) /* ItemSpellcraft */
@@ -21,14 +20,8 @@ VALUES (34291,   1,       2048) /* ItemType - Gem */
      , (34291, 108,        250) /* ItemMaxMana */
      , (34291, 109,          0) /* ItemDifficulty */
      , (34291, 110,          0) /* ItemAllegianceRankLimit */
-     , (34291, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34291,   1, False) /* Stuck */
-     , (34291,  11, True ) /* IgnoreCollisions */
-     , (34291,  13, True ) /* Ethereal */
-     , (34291,  14, True ) /* GravityStatus */
-     , (34291,  19, True ) /* Attackable */;
+     , (34291, 151,          2) /* HookType - Wall */
+     , (34291, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34291,   1, 'Gem of Balance') /* Name */

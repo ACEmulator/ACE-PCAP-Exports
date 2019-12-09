@@ -14,15 +14,8 @@ VALUES (39740,   1,        128) /* ItemType - Misc */
      , (39740,  19,          5) /* Value */
      , (39740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39740,   1, False) /* Stuck */
-     , (39740,  11, True ) /* IgnoreCollisions */
-     , (39740,  13, True ) /* Ethereal */
-     , (39740,  14, True ) /* GravityStatus */
-     , (39740,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39740,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (39740,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39740,   1, 'Trap Tower Token') /* Name */;

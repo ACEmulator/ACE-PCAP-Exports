@@ -11,12 +11,7 @@ VALUES (15243,   1,        128) /* ItemType - Misc */
      , (15243,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15243,   1, True ) /* Stuck */
-     , (15243,  11, True ) /* IgnoreCollisions */
-     , (15243,  12, True ) /* ReportCollisions */
-     , (15243,  13, False) /* Ethereal */
-     , (15243,  14, True ) /* GravityStatus */
-     , (15243,  19, True ) /* Attackable */;
+VALUES (15243,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15243,   1, 'New Cannthalo') /* Name */;

@@ -12,19 +12,14 @@ VALUES (38964,   1,        128) /* ItemType - Misc */
      , (38964,  15,          0) /* StackUnitValue */
      , (38964,  16,          1) /* ItemUseable - No */
      , (38964,  19,          0) /* Value */
-     , (38964,  65,        101) /* Placement - Resting */
-     , (38964,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38964,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38964, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38964,   1, False) /* Stuck */
-     , (38964,  11, True ) /* IgnoreCollisions */
-     , (38964,  13, True ) /* Ethereal */
-     , (38964,  14, True ) /* GravityStatus */
-     , (38964,  19, True ) /* Attackable */
-     , (38964,  69, False) /* IsSellable */;
+VALUES (38964,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38964,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (38964,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38964,   1, 'Carenzi Race Ticket') /* Name */

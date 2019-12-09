@@ -9,17 +9,12 @@ VALUES (14425,   1,        128) /* ItemType - Misc */
      , (14425,  16,          1) /* ItemUseable - No */
      , (14425,  19,          0) /* Value */
      , (14425,  33,          1) /* Bonded - Bonded */
-     , (14425,  65,        101) /* Placement - Resting */
      , (14425,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14425, 114,          1) /* Attuned - Attuned */;
+     , (14425, 114,          1) /* Attuned - Attuned */
+     , (14425, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14425,   1, False) /* Stuck */
-     , (14425,  11, True ) /* IgnoreCollisions */
-     , (14425,  13, True ) /* Ethereal */
-     , (14425,  14, True ) /* GravityStatus */
-     , (14425,  19, True ) /* Attackable */
-     , (14425,  22, True ) /* Inscribable */;
+VALUES (14425,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14425,   1, 'Folded Guard''s Uniform') /* Name */

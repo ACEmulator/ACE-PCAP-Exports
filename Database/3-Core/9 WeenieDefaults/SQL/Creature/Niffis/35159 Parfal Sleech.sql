@@ -15,14 +15,10 @@ VALUES (35159,   1,         16) /* ItemType - Creature */
      , (35159, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35159,   1, True ) /* Stuck */
-     , (35159,  12, True ) /* ReportCollisions */
-     , (35159,  13, False) /* Ethereal */
-     , (35159,  14, True ) /* GravityStatus */
-     , (35159,  19, True ) /* Attackable */;
+VALUES (35159,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35159,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35159,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35159,   1, 'Parfal Sleech') /* Name */

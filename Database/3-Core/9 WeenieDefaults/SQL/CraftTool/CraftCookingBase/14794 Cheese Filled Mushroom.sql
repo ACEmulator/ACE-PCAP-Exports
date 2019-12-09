@@ -12,16 +12,9 @@ VALUES (14794,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14794,  15,          6) /* StackUnitValue */
      , (14794,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14794,  19,          6) /* Value */
-     , (14794,  65,        101) /* Placement - Resting */
      , (14794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14794,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14794,   1, False) /* Stuck */
-     , (14794,  11, True ) /* IgnoreCollisions */
-     , (14794,  13, True ) /* Ethereal */
-     , (14794,  14, True ) /* GravityStatus */
-     , (14794,  19, True ) /* Attackable */;
+     , (14794,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (14794, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14794,   1, 'Cheese Filled Mushroom') /* Name */

@@ -8,20 +8,15 @@ VALUES (43819,   1,        128) /* ItemType - Misc */
      , (43819,   5,          5) /* EncumbranceVal */
      , (43819,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (43819,  19,          1) /* Value */
-     , (43819,  65,        101) /* Placement - Resting */
      , (43819,  91,        100) /* MaxStructure */
      , (43819,  92,        100) /* Structure */
      , (43819,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43819,  94,         16) /* TargetType - Creature */
-     , (43819, 151,          2) /* HookType - Wall */;
+     , (43819, 151,          2) /* HookType - Wall */
+     , (43819, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43819,   1, False) /* Stuck */
-     , (43819,  11, True ) /* IgnoreCollisions */
-     , (43819,  13, True ) /* Ethereal */
-     , (43819,  14, True ) /* GravityStatus */
-     , (43819,  19, True ) /* Attackable */
-     , (43819,  22, True ) /* Inscribable */;
+VALUES (43819,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43819,   1, 'Olthoi Coarse Healing Tissue') /* Name */;

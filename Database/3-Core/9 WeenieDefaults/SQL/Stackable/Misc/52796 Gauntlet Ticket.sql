@@ -12,19 +12,14 @@ VALUES (52796,   1,        128) /* ItemType - Misc */
      , (52796,  15,         10) /* StackUnitValue */
      , (52796,  16,          1) /* ItemUseable - No */
      , (52796,  19,         10) /* Value */
-     , (52796,  65,        101) /* Placement - Resting */
-     , (52796,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (52796,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (52796, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52796,   1, False) /* Stuck */
-     , (52796,  11, True ) /* IgnoreCollisions */
-     , (52796,  13, True ) /* Ethereal */
-     , (52796,  14, True ) /* GravityStatus */
-     , (52796,  19, True ) /* Attackable */
-     , (52796,  69, False) /* IsSellable */;
+VALUES (52796,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52796,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (52796,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52796,   1, 'Gauntlet Ticket') /* Name */

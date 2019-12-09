@@ -15,14 +15,10 @@ VALUES (37179,   1,         16) /* ItemType - Creature */
      , (37179, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37179,   1, True ) /* Stuck */
-     , (37179,  12, True ) /* ReportCollisions */
-     , (37179,  13, False) /* Ethereal */
-     , (37179,  14, True ) /* GravityStatus */
-     , (37179,  19, True ) /* Attackable */;
+VALUES (37179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37179,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (37179,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37179,   1, 'Imperial Guard') /* Name */

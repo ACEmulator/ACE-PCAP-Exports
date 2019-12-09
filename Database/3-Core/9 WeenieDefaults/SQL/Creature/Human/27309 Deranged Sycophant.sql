@@ -17,11 +17,7 @@ VALUES (27309,   1,         16) /* ItemType - Creature */
      , (27309, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27309,   1, True ) /* Stuck */
-     , (27309,  12, True ) /* ReportCollisions */
-     , (27309,  13, False) /* Ethereal */
-     , (27309,  14, True ) /* GravityStatus */
-     , (27309,  19, True ) /* Attackable */;
+VALUES (27309,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27309,   1, 'Deranged Sycophant') /* Name */

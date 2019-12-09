@@ -12,7 +12,6 @@ VALUES (33463,   1,      32768) /* ItemType - Caster */
      , (33463,  18,          1) /* UiEffects - Magical */
      , (33463,  19,       5000) /* Value */
      , (33463,  33,          1) /* Bonded - Bonded */
-     , (33463,  65,          1) /* Placement - RightHandCombat */
      , (33463,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (33463,  94,         16) /* TargetType - Creature */
      , (33463, 106,        400) /* ItemSpellcraft */
@@ -24,21 +23,16 @@ VALUES (33463,   1,      32768) /* ItemType - Caster */
      , (33463, 151,          2) /* HookType - Wall */
      , (33463, 158,          7) /* WieldRequirements - Level */
      , (33463, 159,          1) /* WieldSkillType - Axe */
-     , (33463, 160,        140) /* WieldDifficulty */;
+     , (33463, 160,        140) /* WieldDifficulty */
+     , (33463, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33463,   1, False) /* Stuck */
-     , (33463,  11, True ) /* IgnoreCollisions */
-     , (33463,  13, True ) /* Ethereal */
-     , (33463,  14, True ) /* GravityStatus */
-     , (33463,  15, True ) /* LightsStatus */
-     , (33463,  19, True ) /* Attackable */
-     , (33463,  22, True ) /* Inscribable */;
+VALUES (33463,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33463,  29,       1) /* WeaponDefense */
-     , (33463,  39, 0.600000023841858) /* DefaultScale */
-     , (33463, 144, 1.06130094942101E-314) /* ManaConversionMod */;
+     , (33463,  39,     0.6) /* DefaultScale */
+     , (33463, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33463,   1, 'Rossu Morta Chapterhouse Recall Orb') /* Name */

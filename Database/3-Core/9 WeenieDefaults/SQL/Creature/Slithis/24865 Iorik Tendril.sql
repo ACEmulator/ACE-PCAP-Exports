@@ -16,14 +16,10 @@ VALUES (24865,   1,         16) /* ItemType - Creature */
      , (24865, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24865,   1, True ) /* Stuck */
-     , (24865,  12, True ) /* ReportCollisions */
-     , (24865,  13, False) /* Ethereal */
-     , (24865,  14, True ) /* GravityStatus */
-     , (24865,  19, True ) /* Attackable */;
+VALUES (24865,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24865,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (24865,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24865,   1, 'Iorik Tendril') /* Name */

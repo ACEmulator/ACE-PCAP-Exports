@@ -13,20 +13,14 @@ VALUES (43531,   1,      65536) /* ItemType - Portal */
      , (43531, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43531,   1, True ) /* Stuck */
-     , (43531,  12, True ) /* ReportCollisions */
-     , (43531,  13, True ) /* Ethereal */
-     , (43531,  14, True ) /* GravityStatus */
-     , (43531,  15, True ) /* LightsStatus */
-     , (43531,  19, True ) /* Attackable */;
+VALUES (43531,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43531,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43531,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43531,   1, 'Mountain Cavern Portal') /* Name */
      , (43531,  16, 'A portal, created by Liam of Gelid, so that those strong enough to treat with him could reach him more easily.') /* LongDesc */
-     , (43531,  38, 'Mountain Cavern Portal') /* AppraisalPortalDestination */
      , (43531, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

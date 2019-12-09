@@ -12,15 +12,8 @@ VALUES (37303,   1,        128) /* ItemType - Misc */
      , (37303,  15,      30000) /* StackUnitValue */
      , (37303,  16,          1) /* ItemUseable - No */
      , (37303,  19,      30000) /* Value */
-     , (37303,  65,        101) /* Placement - Resting */
-     , (37303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37303,   1, False) /* Stuck */
-     , (37303,  11, True ) /* IgnoreCollisions */
-     , (37303,  13, True ) /* Ethereal */
-     , (37303,  14, True ) /* GravityStatus */
-     , (37303,  19, True ) /* Attackable */;
+     , (37303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37303, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37303,   1, 'Glyph of Focus') /* Name */

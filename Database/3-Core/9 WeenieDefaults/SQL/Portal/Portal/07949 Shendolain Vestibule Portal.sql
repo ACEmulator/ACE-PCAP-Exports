@@ -13,19 +13,13 @@ VALUES (7949,   1,      65536) /* ItemType - Portal */
      , (7949, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7949,   1, True ) /* Stuck */
-     , (7949,  12, True ) /* ReportCollisions */
-     , (7949,  13, True ) /* Ethereal */
-     , (7949,  14, True ) /* GravityStatus */
-     , (7949,  15, True ) /* LightsStatus */
-     , (7949,  19, True ) /* Attackable */;
+VALUES (7949,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7949,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7949,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7949,   1, 'Shendolain Vestibule Portal') /* Name */
-     , (7949,  38, 'Shendolain Vestibule Portal') /* AppraisalPortalDestination */
      , (7949, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,18 +12,13 @@ VALUES (20857,   1,        128) /* ItemType - Misc */
      , (20857,  15,        100) /* StackUnitValue */
      , (20857,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20857,  19,        100) /* Value */
-     , (20857,  65,        101) /* Placement - Resting */
      , (20857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20857,  94,          6) /* TargetType - Vestements */
-     , (20857, 151,          2) /* HookType - Wall */;
+     , (20857, 151,          2) /* HookType - Wall */
+     , (20857, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20857,   1, False) /* Stuck */
-     , (20857,  11, True ) /* IgnoreCollisions */
-     , (20857,  13, True ) /* Ethereal */
-     , (20857,  14, True ) /* GravityStatus */
-     , (20857,  19, True ) /* Attackable */
-     , (20857,  22, True ) /* Inscribable */;
+VALUES (20857,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20857,   1, 'Cooking Stamp') /* Name */;

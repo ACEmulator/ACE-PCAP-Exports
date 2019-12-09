@@ -15,15 +15,10 @@ VALUES (35378,   1,         16) /* ItemType - Creature */
      , (35378, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35378,   1, True ) /* Stuck */
-     , (35378,  12, True ) /* ReportCollisions */
-     , (35378,  13, False) /* Ethereal */
-     , (35378,  14, True ) /* GravityStatus */
-     , (35378,  15, True ) /* LightsStatus */
-     , (35378,  19, True ) /* Attackable */;
+VALUES (35378,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35378,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (35378,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35378,   1, 'Lord Cynreft Mhoire') /* Name */

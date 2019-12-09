@@ -16,22 +16,17 @@ VALUES (30225,   1,       2048) /* ItemType - Gem */
      , (30225,  19,          0) /* Value */
      , (30225,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30225,  33,         -1) /* Bonded - Slippery */
-     , (30225,  65,        101) /* Placement - Resting */
      , (30225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30225,  94,         16) /* TargetType - Creature */
      , (30225, 106,        325) /* ItemSpellcraft */
      , (30225, 107,      10000) /* ItemCurMana */
      , (30225, 108,      10000) /* ItemMaxMana */
      , (30225, 109,          0) /* ItemDifficulty */
-     , (30225, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30225, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30225, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30225,   1, False) /* Stuck */
-     , (30225,  11, True ) /* IgnoreCollisions */
-     , (30225,  13, True ) /* Ethereal */
-     , (30225,  14, True ) /* GravityStatus */
-     , (30225,  19, True ) /* Attackable */
-     , (30225, 108, True ) /* RareUsesTimer */;
+VALUES (30225, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30225,   1, 'Imbuer''s Crystal') /* Name */

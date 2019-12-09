@@ -16,11 +16,7 @@ VALUES (5683,   1,         16) /* ItemType - Creature */
      , (5683, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5683,   1, True ) /* Stuck */
-     , (5683,  12, True ) /* ReportCollisions */
-     , (5683,  13, False) /* Ethereal */
-     , (5683,  14, True ) /* GravityStatus */
-     , (5683,  19, True ) /* Attackable */;
+VALUES (5683,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5683,   1, 'Seared Skeleton') /* Name */

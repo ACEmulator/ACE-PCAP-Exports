@@ -10,7 +10,6 @@ VALUES (51787,   1,          8) /* ItemType - Jewelry */
      , (51787,  16,          1) /* ItemUseable - No */
      , (51787,  19,          0) /* Value */
      , (51787,  33,          1) /* Bonded - Bonded */
-     , (51787,  65,        101) /* Placement - Resting */
      , (51787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51787, 106,        300) /* ItemSpellcraft */
      , (51787, 107,       1000) /* ItemCurMana */
@@ -20,15 +19,11 @@ VALUES (51787,   1,          8) /* ItemType - Jewelry */
      , (51787, 158,          7) /* WieldRequirements - Level */
      , (51787, 159,          1) /* WieldSkillType - Axe */
      , (51787, 160,        180) /* WieldDifficulty */
-     , (51787, 379,          1) /* GearMaxHealth */;
+     , (51787, 379,          1) /* GearMaxHealth */
+     , (51787, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51787,   1, False) /* Stuck */
-     , (51787,  11, True ) /* IgnoreCollisions */
-     , (51787,  13, True ) /* Ethereal */
-     , (51787,  14, True ) /* GravityStatus */
-     , (51787,  19, True ) /* Attackable */
-     , (51787,  22, True ) /* Inscribable */
+VALUES (51787,  22, True ) /* Inscribable */
      , (51787,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

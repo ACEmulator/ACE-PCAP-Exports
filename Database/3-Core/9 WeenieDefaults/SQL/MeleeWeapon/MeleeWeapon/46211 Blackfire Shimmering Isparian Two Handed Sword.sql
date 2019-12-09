@@ -17,7 +17,6 @@ VALUES (46211,   1,          1) /* ItemType - MeleeWeapon */
      , (46211,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46211,  49,         50) /* WeaponTime */
      , (46211,  51,          5) /* CombatUse - TwoHanded */
-     , (46211,  65,        101) /* Placement - Resting */
      , (46211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46211, 106,        325) /* ItemSpellcraft */
      , (46211, 107,        400) /* ItemCurMana */
@@ -30,25 +29,21 @@ VALUES (46211,   1,          1) /* ItemType - MeleeWeapon */
      , (46211, 160,        370) /* WieldDifficulty */
      , (46211, 166,         62) /* SlayerCreatureType - Elemental */
      , (46211, 292,          2) /* Cleaving */
-     , (46211, 8030,          0);
+     , (46211, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46211, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46211,   1, False) /* Stuck */
-     , (46211,  11, True ) /* IgnoreCollisions */
-     , (46211,  13, True ) /* Ethereal */
-     , (46211,  14, True ) /* GravityStatus */
-     , (46211,  19, True ) /* Attackable */
-     , (46211,  22, True ) /* Inscribable */
+VALUES (46211,  22, True ) /* Inscribable */
      , (46211,  69, False) /* IsSellable */
      , (46211,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46211,   5,  -0.025) /* ManaRate */
+VALUES (46211,   5,   -0.02) /* ManaRate */
      , (46211,  21,       0) /* WeaponLength */
      , (46211,  22,    0.29) /* DamageVariance */
      , (46211,  26,       0) /* MaximumVelocity */
      , (46211,  29,    1.12) /* WeaponDefense */
-     , (46211,  39, 1.14999997615814) /* DefaultScale */
+     , (46211,  39,    1.15) /* DefaultScale */
      , (46211,  62,    1.12) /* WeaponOffense */
      , (46211,  63,       1) /* DamageMod */
      , (46211, 155,       1) /* IgnoreArmor */;

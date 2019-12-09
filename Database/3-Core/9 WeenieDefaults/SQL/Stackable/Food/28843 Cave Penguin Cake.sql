@@ -12,20 +12,15 @@ VALUES (28843,   1,         32) /* ItemType - Food */
      , (28843,  15,       1000) /* StackUnitValue */
      , (28843,  16,          8) /* ItemUseable - Contained */
      , (28843,  19,       1000) /* Value */
-     , (28843,  65,        101) /* Placement - Resting */
      , (28843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28843, 106,        121) /* ItemSpellcraft */
      , (28843, 107,        100) /* ItemCurMana */
      , (28843, 108,        100) /* ItemMaxMana */
-     , (28843, 109,          0) /* ItemDifficulty */;
+     , (28843, 109,          0) /* ItemDifficulty */
+     , (28843, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28843,   1, False) /* Stuck */
-     , (28843,  11, True ) /* IgnoreCollisions */
-     , (28843,  13, True ) /* Ethereal */
-     , (28843,  14, True ) /* GravityStatus */
-     , (28843,  19, True ) /* Attackable */
-     , (28843,  69, True ) /* IsSellable */;
+VALUES (28843,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28843,   1, 'Cave Penguin Cake') /* Name */

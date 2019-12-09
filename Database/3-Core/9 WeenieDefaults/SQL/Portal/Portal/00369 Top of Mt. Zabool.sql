@@ -12,19 +12,13 @@ VALUES (369,   1,      65536) /* ItemType - Portal */
      , (369, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (369,   1, True ) /* Stuck */
-     , (369,  12, True ) /* ReportCollisions */
-     , (369,  13, True ) /* Ethereal */
-     , (369,  14, True ) /* GravityStatus */
-     , (369,  15, True ) /* LightsStatus */
-     , (369,  19, True ) /* Attackable */;
+VALUES (369,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (369,  54, -0.100000001490116) /* UseRadius */;
+VALUES (369,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (369,   1, 'Top of Mt. Zabool') /* Name */
-     , (369,  38, 'Top of Mt. Zabool (21.1N, 18.6E).') /* AppraisalPortalDestination */
      , (369, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

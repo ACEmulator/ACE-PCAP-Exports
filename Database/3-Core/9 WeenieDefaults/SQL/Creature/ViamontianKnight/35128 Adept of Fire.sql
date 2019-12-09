@@ -18,11 +18,7 @@ VALUES (35128,   1,         16) /* ItemType - Creature */
      , (35128, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35128,   1, True ) /* Stuck */
-     , (35128,  12, True ) /* ReportCollisions */
-     , (35128,  13, False) /* Ethereal */
-     , (35128,  14, True ) /* GravityStatus */
-     , (35128,  19, True ) /* Attackable */;
+VALUES (35128,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35128,   1, 'Adept of Fire') /* Name */

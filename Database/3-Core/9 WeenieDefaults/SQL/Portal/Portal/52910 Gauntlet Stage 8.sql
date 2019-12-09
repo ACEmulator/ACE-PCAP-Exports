@@ -6,7 +6,7 @@ VALUES (52910, 'ace52910-gauntletstage8', 7, '2019-02-10 00:00:00') /* Portal */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52910,   1,      65536) /* ItemType - Portal */
      , (52910,  16,         32) /* ItemUseable - Remote */
-     , (52910,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (52910,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (52910,  98, 1485829363) /* CreationTimestamp */
      , (52910, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (52910, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -14,18 +14,13 @@ VALUES (52910,   1,      65536) /* ItemType - Portal */
      , (52910, 268,         59) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52910,   1, True ) /* Stuck */
-     , (52910,  11, True ) /* IgnoreCollisions */
-     , (52910,  13, False) /* Ethereal */
-     , (52910,  14, True ) /* GravityStatus */
-     , (52910,  19, True ) /* Attackable */;
+VALUES (52910,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52910,  54, 0.300000011920929) /* UseRadius */;
+VALUES (52910,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52910,   1, 'Gauntlet Stage 8') /* Name */
-     , (52910,  38, 'Gauntlet Stage 8') /* AppraisalPortalDestination */;
+VALUES (52910,   1, 'Gauntlet Stage 8') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52910,   1,   33559873) /* Setup */

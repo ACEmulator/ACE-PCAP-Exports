@@ -13,19 +13,14 @@ VALUES (34516,   1,      65536) /* ItemType - Portal */
      , (34516, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34516,   1, True ) /* Stuck */
-     , (34516,  11, True ) /* IgnoreCollisions */
-     , (34516,  13, False) /* Ethereal */
-     , (34516,  14, True ) /* GravityStatus */
-     , (34516,  19, True ) /* Attackable */;
+VALUES (34516,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34516,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (34516,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34516,   1, 'Statue') /* Name */
      , (34516,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (34516,  38, 'Statue') /* AppraisalPortalDestination */
      , (34516, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

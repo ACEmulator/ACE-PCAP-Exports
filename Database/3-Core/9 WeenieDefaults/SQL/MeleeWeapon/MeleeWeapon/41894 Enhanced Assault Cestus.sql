@@ -16,7 +16,6 @@ VALUES (41894,   1,          1) /* ItemType - MeleeWeapon */
      , (41894,  48,         45) /* WeaponSkill - LightWeapons */
      , (41894,  49,         25) /* WeaponTime */
      , (41894,  51,          1) /* CombatUse - Melee */
-     , (41894,  65,        101) /* Placement - Resting */
      , (41894,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41894, 106,        400) /* ItemSpellcraft */
      , (41894, 107,        213) /* ItemCurMana */
@@ -29,25 +28,20 @@ VALUES (41894,   1,          1) /* ItemType - MeleeWeapon */
      , (41894, 166,          6) /* SlayerCreatureType - Tumerok */
      , (41894, 263,          4) /* ResistanceModifierType */
      , (41894, 353,          1) /* WeaponType - Unarmed */
-     , (41894, 8030,          0);
+     , (41894, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41894, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41894,   1, False) /* Stuck */
-     , (41894,  11, True ) /* IgnoreCollisions */
-     , (41894,  13, True ) /* Ethereal */
-     , (41894,  14, True ) /* GravityStatus */
-     , (41894,  15, True ) /* LightsStatus */
-     , (41894,  19, True ) /* Attackable */
-     , (41894,  22, True ) /* Inscribable */;
+VALUES (41894,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41894,   5, -0.025000000372529) /* ManaRate */
+VALUES (41894,   5,   -0.03) /* ManaRate */
      , (41894,  21,       0) /* WeaponLength */
      , (41894,  22,    0.75) /* DamageVariance */
      , (41894,  26,       0) /* MaximumVelocity */
-     , (41894,  29, 1.14999997615814) /* WeaponDefense */
-     , (41894,  39, 0.800000011920929) /* DefaultScale */
-     , (41894,  62, 1.14999997615814) /* WeaponOffense */
+     , (41894,  29,    1.15) /* WeaponDefense */
+     , (41894,  39,     0.8) /* DefaultScale */
+     , (41894,  62,    1.15) /* WeaponOffense */
      , (41894,  63,       1) /* DamageMod */
      , (41894,  77,       1) /* PhysicsScriptIntensity */
      , (41894, 157,       1) /* ResistanceModifier */;

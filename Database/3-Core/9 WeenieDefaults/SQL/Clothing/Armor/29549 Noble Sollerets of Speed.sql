@@ -10,17 +10,12 @@ VALUES (29549,   1,          2) /* ItemType - Armor */
      , (29549,   9,        256) /* ValidLocations - FootWear */
      , (29549,  16,          1) /* ItemUseable - No */
      , (29549,  19,       8000) /* Value */
-     , (29549,  65,        101) /* Placement - Resting */
      , (29549,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29549, 151,          2) /* HookType - Wall */;
+     , (29549, 151,          2) /* HookType - Wall */
+     , (29549, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29549,   1, False) /* Stuck */
-     , (29549,  11, True ) /* IgnoreCollisions */
-     , (29549,  13, True ) /* Ethereal */
-     , (29549,  14, True ) /* GravityStatus */
-     , (29549,  19, True ) /* Attackable */
-     , (29549,  22, True ) /* Inscribable */;
+VALUES (29549,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29549,   1, 'Noble Sollerets of Speed') /* Name */;

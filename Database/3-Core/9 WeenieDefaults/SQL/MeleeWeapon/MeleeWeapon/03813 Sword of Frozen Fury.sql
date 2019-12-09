@@ -16,7 +16,6 @@ VALUES (3813,   1,          1) /* ItemType - MeleeWeapon */
      , (3813,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (3813,  49,         32) /* WeaponTime */
      , (3813,  51,          1) /* CombatUse - Melee */
-     , (3813,  65,        101) /* Placement - Resting */
      , (3813,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3813, 105,          6) /* ItemWorkmanship */
      , (3813, 131,         39) /* MaterialType - Sapphire */
@@ -31,24 +30,20 @@ VALUES (3813,   1,          1) /* ItemType - MeleeWeapon */
      , (3813, 178,         39) /* GemType */
      , (3813, 179,        128) /* ImbuedEffect - ColdRending */
      , (3813, 353,          2) /* WeaponType - Sword */
-     , (3813, 8030,          0);
+     , (3813, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (3813, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3813,   1, False) /* Stuck */
-     , (3813,  11, True ) /* IgnoreCollisions */
-     , (3813,  13, True ) /* Ethereal */
-     , (3813,  14, True ) /* GravityStatus */
-     , (3813,  19, True ) /* Attackable */
-     , (3813,  22, True ) /* Inscribable */
+VALUES (3813,  22, True ) /* Inscribable */
      , (3813,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3813,  21,       0) /* WeaponLength */
-     , (3813,  22, 0.469997674226761) /* DamageVariance */
+     , (3813,  22,    0.47) /* DamageVariance */
      , (3813,  26,       0) /* MaximumVelocity */
-     , (3813,  29, 1.17999994754791) /* WeaponDefense */
-     , (3813,  39, 1.10000002384186) /* DefaultScale */
-     , (3813,  62, 1.17999994754791) /* WeaponOffense */
+     , (3813,  29,    1.18) /* WeaponDefense */
+     , (3813,  39,     1.1) /* DefaultScale */
+     , (3813,  62,    1.18) /* WeaponOffense */
      , (3813,  63,       1) /* DamageMod */
      , (3813, 8004,       6) /* PCAPRecordedWorkmanship */;
 

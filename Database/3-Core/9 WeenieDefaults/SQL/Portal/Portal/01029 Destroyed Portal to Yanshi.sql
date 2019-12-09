@@ -11,20 +11,14 @@ VALUES (1029,   1,      65536) /* ItemType - Portal */
      , (1029, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1029,   1, True ) /* Stuck */
-     , (1029,  11, True ) /* IgnoreCollisions */
-     , (1029,  13, True ) /* Ethereal */
-     , (1029,  14, True ) /* GravityStatus */
-     , (1029,  15, True ) /* LightsStatus */
-     , (1029,  19, True ) /* Attackable */;
+VALUES (1029,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1029,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1029,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1029,   1, 'Destroyed Portal to Yanshi') /* Name */
      , (1029,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (1029,  38, 'Destroyed Portal to Yanshi (12.6S, 42.4E).') /* AppraisalPortalDestination */
      , (1029, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

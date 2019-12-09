@@ -12,7 +12,6 @@ VALUES (37224,   1,      32768) /* ItemType - Caster */
      , (37224,  18,        256) /* UiEffects - Acid */
      , (37224,  19,        200) /* Value */
      , (37224,  45,         32) /* DamageType - Acid */
-     , (37224,  65,          1) /* Placement - RightHandCombat */
      , (37224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37224,  94,         16) /* TargetType - Creature */
      , (37224, 105,          8) /* ItemWorkmanship */
@@ -31,22 +30,18 @@ VALUES (37224,   1,      32768) /* ItemType - Caster */
      , (37224, 172,          5) /* AppraisalLongDescDecoration */
      , (37224, 177,          4) /* GemCount */
      , (37224, 178,         20) /* GemType */
-     , (37224, 179,         64) /* ImbuedEffect - AcidRending */;
+     , (37224, 179,         64) /* ImbuedEffect - AcidRending */
+     , (37224, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37224,   1, False) /* Stuck */
-     , (37224,  11, True ) /* IgnoreCollisions */
-     , (37224,  13, True ) /* Ethereal */
-     , (37224,  14, True ) /* GravityStatus */
-     , (37224,  19, True ) /* Attackable */
-     , (37224,  22, True ) /* Inscribable */;
+VALUES (37224,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37224,   5, -0.0555555555555556) /* ManaRate */
-     , (37224,  29, 1.37000000178814) /* WeaponDefense */
-     , (37224,  39, 0.600000023841858) /* DefaultScale */
-     , (37224, 144, 0.102000002861023) /* ManaConversionMod */
-     , (37224, 152, 1.20000000029802) /* ElementalDamageMod */;
+VALUES (37224,   5,   -0.06) /* ManaRate */
+     , (37224,  29,    1.37) /* WeaponDefense */
+     , (37224,  39,     0.6) /* DefaultScale */
+     , (37224, 144,     0.1) /* ManaConversionMod */
+     , (37224, 152,     1.2) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37224,   1, 'Acid Staff') /* Name */

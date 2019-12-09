@@ -11,19 +11,14 @@ VALUES (46605,   1,          1) /* ItemType - MeleeWeapon */
      , (46605,  16,          1) /* ItemUseable - No */
      , (46605,  19,        170) /* Value */
      , (46605,  51,          5) /* CombatUse - TwoHanded */
-     , (46605,  65,          1) /* Placement - RightHandCombat */
-     , (46605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (46605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46605, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46605,   1, False) /* Stuck */
-     , (46605,  11, True ) /* IgnoreCollisions */
-     , (46605,  13, True ) /* Ethereal */
-     , (46605,  14, True ) /* GravityStatus */
-     , (46605,  19, True ) /* Attackable */
-     , (46605,  22, True ) /* Inscribable */;
+VALUES (46605,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46605,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (46605,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46605,   1, 'Magari Yari') /* Name */;

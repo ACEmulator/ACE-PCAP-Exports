@@ -9,20 +9,15 @@ VALUES (53476,   1,        128) /* ItemType - Misc */
      , (53476,  16,          1) /* ItemUseable - No */
      , (53476,  19,          1) /* Value */
      , (53476,  33,          1) /* Bonded - Bonded */
-     , (53476,  65,        101) /* Placement - Resting */
      , (53476,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53476, 114,          1) /* Attuned - Attuned */;
+     , (53476, 114,          1) /* Attuned - Attuned */
+     , (53476, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53476,   1, False) /* Stuck */
-     , (53476,  11, True ) /* IgnoreCollisions */
-     , (53476,  13, True ) /* Ethereal */
-     , (53476,  14, True ) /* GravityStatus */
-     , (53476,  19, True ) /* Attackable */
-     , (53476,  69, False) /* IsSellable */;
+VALUES (53476,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53476,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (53476,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53476,   1, 'Daimyo Idah''s Tattered Mask') /* Name */

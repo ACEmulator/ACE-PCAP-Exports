@@ -13,12 +13,7 @@ VALUES (25329,   1,        128) /* ItemType - Misc */
      , (25329, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25329,   1, False) /* Stuck */
-     , (25329,  11, True ) /* IgnoreCollisions */
-     , (25329,  13, True ) /* Ethereal */
-     , (25329,  14, True ) /* GravityStatus */
-     , (25329,  19, True ) /* Attackable */
-     , (25329,  22, True ) /* Inscribable */;
+VALUES (25329,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25329,   1, 'Alloy Fan') /* Name */

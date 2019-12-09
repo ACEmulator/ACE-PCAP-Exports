@@ -11,12 +11,7 @@ VALUES (14697,   1,        128) /* ItemType - Misc */
      , (14697,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14697,   1, True ) /* Stuck */
-     , (14697,  11, True ) /* IgnoreCollisions */
-     , (14697,  12, True ) /* ReportCollisions */
-     , (14697,  13, False) /* Ethereal */
-     , (14697,  14, True ) /* GravityStatus */
-     , (14697,  19, True ) /* Attackable */;
+VALUES (14697,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14697,   1, 'Empyrean Shore Villas') /* Name */

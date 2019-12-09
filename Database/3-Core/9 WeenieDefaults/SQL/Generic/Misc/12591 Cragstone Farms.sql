@@ -11,12 +11,7 @@ VALUES (12591,   1,        128) /* ItemType - Misc */
      , (12591,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12591,   1, True ) /* Stuck */
-     , (12591,  11, True ) /* IgnoreCollisions */
-     , (12591,  12, True ) /* ReportCollisions */
-     , (12591,  13, False) /* Ethereal */
-     , (12591,  14, True ) /* GravityStatus */
-     , (12591,  19, True ) /* Attackable */;
+VALUES (12591,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12591,   1, 'Cragstone Farms') /* Name */;

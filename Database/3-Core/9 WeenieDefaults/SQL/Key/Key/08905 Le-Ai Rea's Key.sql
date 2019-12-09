@@ -9,19 +9,14 @@ VALUES (8905,   1,      16384) /* ItemType - Key */
      , (8905,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8905,  18,         16) /* UiEffects - BoostStamina */
      , (8905,  19,        100) /* Value */
-     , (8905,  65,        101) /* Placement - Resting */
      , (8905,  91,          1) /* MaxStructure */
      , (8905,  92,          1) /* Structure */
      , (8905,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8905,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (8905,  94,        640) /* TargetType - LockableMagicTarget */
+     , (8905, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8905,   1, False) /* Stuck */
-     , (8905,  11, True ) /* IgnoreCollisions */
-     , (8905,  13, True ) /* Ethereal */
-     , (8905,  14, True ) /* GravityStatus */
-     , (8905,  19, True ) /* Attackable */
-     , (8905,  22, True ) /* Inscribable */;
+VALUES (8905,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8905,   1, 'Le-Ai Rea''s Key') /* Name */

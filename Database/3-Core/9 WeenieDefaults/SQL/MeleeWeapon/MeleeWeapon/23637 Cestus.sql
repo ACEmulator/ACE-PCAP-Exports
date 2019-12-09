@@ -11,19 +11,14 @@ VALUES (23637,   1,          1) /* ItemType - MeleeWeapon */
      , (23637,  16,          1) /* ItemUseable - No */
      , (23637,  19,         50) /* Value */
      , (23637,  51,          1) /* CombatUse - Melee */
-     , (23637,  65,          1) /* Placement - RightHandCombat */
-     , (23637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23637, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23637,   1, False) /* Stuck */
-     , (23637,  11, True ) /* IgnoreCollisions */
-     , (23637,  13, True ) /* Ethereal */
-     , (23637,  14, True ) /* GravityStatus */
-     , (23637,  19, True ) /* Attackable */
-     , (23637,  22, True ) /* Inscribable */;
+VALUES (23637,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23637,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (23637,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23637,   1, 'Cestus') /* Name */;

@@ -8,20 +8,13 @@ VALUES (8208,   1,       8192) /* ItemType - Writable */
      , (8208,   5,        200) /* EncumbranceVal */
      , (8208,  16,          8) /* ItemUseable - Contained */
      , (8208,  19,         50) /* Value */
-     , (8208,  65,        101) /* Placement - Resting */
      , (8208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8208, 174,          1) /* AppraisalPages */
-     , (8208, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8208,   1, False) /* Stuck */
-     , (8208,  11, True ) /* IgnoreCollisions */
-     , (8208,  13, True ) /* Ethereal */
-     , (8208,  14, True ) /* GravityStatus */
-     , (8208,  19, True ) /* Attackable */;
+     , (8208, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8208, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (8208, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8208,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8208,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8208,   1, 'Forgotten Text') /* Name */

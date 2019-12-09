@@ -9,20 +9,15 @@ VALUES (20910,   1,      16384) /* ItemType - Key */
      , (20910,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (20910,  19,          0) /* Value */
      , (20910,  33,          1) /* Bonded - Bonded */
-     , (20910,  65,        101) /* Placement - Resting */
      , (20910,  91,          1) /* MaxStructure */
      , (20910,  92,          1) /* Structure */
      , (20910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20910,  94,        640) /* TargetType - LockableMagicTarget */
-     , (20910, 114,          1) /* Attuned - Attuned */;
+     , (20910, 114,          1) /* Attuned - Attuned */
+     , (20910, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20910,   1, False) /* Stuck */
-     , (20910,  11, True ) /* IgnoreCollisions */
-     , (20910,  13, True ) /* Ethereal */
-     , (20910,  14, True ) /* GravityStatus */
-     , (20910,  19, True ) /* Attackable */
-     , (20910,  22, True ) /* Inscribable */;
+VALUES (20910,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20910,   1, 'Gaerlan''s Key') /* Name */

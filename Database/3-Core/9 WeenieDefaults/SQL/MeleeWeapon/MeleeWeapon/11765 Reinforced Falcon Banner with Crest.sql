@@ -10,16 +10,11 @@ VALUES (11765,   1,          1) /* ItemType - MeleeWeapon */
      , (11765,  16,          1) /* ItemUseable - No */
      , (11765,  18,          1) /* UiEffects - Magical */
      , (11765,  51,          1) /* CombatUse - Melee */
-     , (11765,  65,        101) /* Placement - Resting */
-     , (11765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11765, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11765,   1, False) /* Stuck */
-     , (11765,  11, True ) /* IgnoreCollisions */
-     , (11765,  13, True ) /* Ethereal */
-     , (11765,  14, True ) /* GravityStatus */
-     , (11765,  19, True ) /* Attackable */
-     , (11765,  22, True ) /* Inscribable */;
+VALUES (11765,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11765,   1, 'Reinforced Falcon Banner with Crest') /* Name */;

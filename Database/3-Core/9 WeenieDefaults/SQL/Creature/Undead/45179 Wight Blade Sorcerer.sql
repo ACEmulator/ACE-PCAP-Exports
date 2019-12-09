@@ -16,14 +16,10 @@ VALUES (45179,   1,         16) /* ItemType - Creature */
      , (45179, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45179,   1, True ) /* Stuck */
-     , (45179,  12, True ) /* ReportCollisions */
-     , (45179,  13, False) /* Ethereal */
-     , (45179,  14, True ) /* GravityStatus */
-     , (45179,  19, True ) /* Attackable */;
+VALUES (45179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45179,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (45179,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45179,   1, 'Wight Blade Sorcerer') /* Name */

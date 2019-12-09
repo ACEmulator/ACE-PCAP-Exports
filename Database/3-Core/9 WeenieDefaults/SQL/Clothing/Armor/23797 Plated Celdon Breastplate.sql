@@ -12,16 +12,11 @@ VALUES (23797,   1,          2) /* ItemType - Armor */
      , (23797,  16,          1) /* ItemUseable - No */
      , (23797,  18,          1) /* UiEffects - Magical */
      , (23797,  19,       2680) /* Value */
-     , (23797,  65,        101) /* Placement - Resting */
-     , (23797,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23797,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23797, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23797,   1, False) /* Stuck */
-     , (23797,  11, True ) /* IgnoreCollisions */
-     , (23797,  13, True ) /* Ethereal */
-     , (23797,  14, True ) /* GravityStatus */
-     , (23797,  19, True ) /* Attackable */
-     , (23797,  22, True ) /* Inscribable */;
+VALUES (23797,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23797,   1, 'Plated Celdon Breastplate') /* Name */;

@@ -9,22 +9,17 @@ VALUES (35910,   1,        128) /* ItemType - Misc */
      , (35910,  16,          1) /* ItemUseable - No */
      , (35910,  19,          0) /* Value */
      , (35910,  33,          1) /* Bonded - Bonded */
-     , (35910,  65,        101) /* Placement - Resting */
      , (35910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35910, 114,          1) /* Attuned - Attuned */;
+     , (35910, 114,          1) /* Attuned - Attuned */
+     , (35910, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35910,   1, False) /* Stuck */
-     , (35910,  11, True ) /* IgnoreCollisions */
-     , (35910,  13, True ) /* Ethereal */
-     , (35910,  14, True ) /* GravityStatus */
-     , (35910,  19, True ) /* Attackable */
-     , (35910,  22, True ) /* Inscribable */
+VALUES (35910,  22, True ) /* Inscribable */
      , (35910,  69, False) /* IsSellable */
      , (35910,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35910,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (35910,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35910,   1, 'Carapace Shard') /* Name */

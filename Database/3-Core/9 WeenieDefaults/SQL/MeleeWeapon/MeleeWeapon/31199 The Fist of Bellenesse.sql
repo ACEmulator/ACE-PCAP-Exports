@@ -15,15 +15,10 @@ VALUES (31199,   1,          1) /* ItemType - MeleeWeapon */
      , (31199, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31199,   1, False) /* Stuck */
-     , (31199,  11, True ) /* IgnoreCollisions */
-     , (31199,  13, True ) /* Ethereal */
-     , (31199,  14, True ) /* GravityStatus */
-     , (31199,  19, True ) /* Attackable */
-     , (31199,  22, True ) /* Inscribable */;
+VALUES (31199,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31199,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (31199,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31199,   1, 'The Fist of Bellenesse') /* Name */;

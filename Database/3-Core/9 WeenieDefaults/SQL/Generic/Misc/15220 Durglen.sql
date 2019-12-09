@@ -11,12 +11,7 @@ VALUES (15220,   1,        128) /* ItemType - Misc */
      , (15220,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15220,   1, True ) /* Stuck */
-     , (15220,  11, True ) /* IgnoreCollisions */
-     , (15220,  12, True ) /* ReportCollisions */
-     , (15220,  13, False) /* Ethereal */
-     , (15220,  14, True ) /* GravityStatus */
-     , (15220,  19, True ) /* Attackable */;
+VALUES (15220,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15220,   1, 'Durglen') /* Name */;

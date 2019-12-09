@@ -39,17 +39,11 @@ VALUES (53412,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53412,   1, True ) /* Stuck */
-     , (53412,  11, True ) /* IgnoreCollisions */
-     , (53412,  12, True ) /* ReportCollisions */
-     , (53412,  13, False) /* Ethereal */
-     , (53412,  14, True ) /* GravityStatus */
-     , (53412,  19, False) /* Attackable */
-     , (53412,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53412,  42, True ) /* AllowEdgeSlide */;
+     , (53412,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53412,  54,       2) /* UseRadius */
-     , (53412,  76, 0.990000009536743) /* Translucency */;
+     , (53412,  76,    0.99) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53412,   1, 'Font of Enlightenment and Rebirth') /* Name */

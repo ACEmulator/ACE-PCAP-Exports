@@ -11,15 +11,10 @@ VALUES (29440,   1,      65536) /* ItemType - Portal */
      , (29440, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29440,   1, True ) /* Stuck */
-     , (29440,  12, True ) /* ReportCollisions */
-     , (29440,  13, True ) /* Ethereal */
-     , (29440,  14, True ) /* GravityStatus */
-     , (29440,  15, True ) /* LightsStatus */
-     , (29440,  19, True ) /* Attackable */;
+VALUES (29440,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29440,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29440,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29440,   1, 'Exit Silver Legion Keep') /* Name */

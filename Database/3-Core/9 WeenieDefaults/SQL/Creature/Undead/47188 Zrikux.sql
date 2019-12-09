@@ -15,14 +15,10 @@ VALUES (47188,   1,         16) /* ItemType - Creature */
      , (47188, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47188,   1, True ) /* Stuck */
-     , (47188,  12, True ) /* ReportCollisions */
-     , (47188,  13, False) /* Ethereal */
-     , (47188,  14, True ) /* GravityStatus */
-     , (47188,  19, True ) /* Attackable */;
+VALUES (47188,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47188,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (47188,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47188,   1, 'Zrikux') /* Name */

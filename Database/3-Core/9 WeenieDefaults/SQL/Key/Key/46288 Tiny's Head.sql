@@ -8,17 +8,12 @@ VALUES (46288,   1,      16384) /* ItemType - Key */
      , (46288,   5,        200) /* EncumbranceVal */
      , (46288,  19,          0) /* Value */
      , (46288,  33,          1) /* Bonded - Bonded */
-     , (46288,  65,        101) /* Placement - Resting */
      , (46288,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46288, 114,          1) /* Attuned - Attuned */;
+     , (46288, 114,          1) /* Attuned - Attuned */
+     , (46288, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46288,   1, False) /* Stuck */
-     , (46288,  11, True ) /* IgnoreCollisions */
-     , (46288,  13, True ) /* Ethereal */
-     , (46288,  14, True ) /* GravityStatus */
-     , (46288,  19, True ) /* Attackable */
-     , (46288,  22, True ) /* Inscribable */;
+VALUES (46288,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46288,   1, 'Tiny''s Head') /* Name */

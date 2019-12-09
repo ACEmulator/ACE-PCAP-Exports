@@ -18,7 +18,6 @@ VALUES (22974,   1,          1) /* ItemType - MeleeWeapon */
      , (22974,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (22974,  49,          0) /* WeaponTime */
      , (22974,  51,          1) /* CombatUse - Melee */
-     , (22974,  65,          1) /* Placement - RightHandCombat */
      , (22974,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22974, 106,        170) /* ItemSpellcraft */
      , (22974, 107,        267) /* ItemCurMana */
@@ -31,26 +30,22 @@ VALUES (22974,   1,          1) /* ItemType - MeleeWeapon */
      , (22974, 160,        325) /* WieldDifficulty */
      , (22974, 263,         64) /* ResistanceModifierType */
      , (22974, 353,          3) /* WeaponType - Axe */
-     , (22974, 8030,          0);
+     , (22974, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (22974, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22974,   1, False) /* Stuck */
-     , (22974,  11, True ) /* IgnoreCollisions */
-     , (22974,  13, True ) /* Ethereal */
-     , (22974,  14, True ) /* GravityStatus */
-     , (22974,  19, True ) /* Attackable */
-     , (22974,  22, True ) /* Inscribable */
+VALUES (22974,  22, True ) /* Inscribable */
      , (22974,  69, False) /* IsSellable */
      , (22974,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22974,   5, -0.0500000007450581) /* ManaRate */
+VALUES (22974,   5,   -0.05) /* ManaRate */
      , (22974,  21,       0) /* WeaponLength */
      , (22974,  22,     0.5) /* DamageVariance */
      , (22974,  26,       0) /* MaximumVelocity */
-     , (22974,  29, 1.29000000655651) /* WeaponDefense */
+     , (22974,  29,    1.29) /* WeaponDefense */
      , (22974,  39,    1.25) /* DefaultScale */
-     , (22974,  62, 1.36999996006489) /* WeaponOffense */
+     , (22974,  62,    1.37) /* WeaponOffense */
      , (22974,  63,       1) /* DamageMod */
      , (22974, 136,       1) /* CriticalMultiplier */
      , (22974, 147,       1) /* CriticalFrequency */

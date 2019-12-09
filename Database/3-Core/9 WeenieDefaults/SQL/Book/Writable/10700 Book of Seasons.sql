@@ -8,18 +8,11 @@ VALUES (10700,   1,       8192) /* ItemType - Writable */
      , (10700,   5,        160) /* EncumbranceVal */
      , (10700,  16,          8) /* ItemUseable - Contained */
      , (10700,  19,         50) /* Value */
-     , (10700,  65,        101) /* Placement - Resting */
-     , (10700,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10700,   1, False) /* Stuck */
-     , (10700,  11, True ) /* IgnoreCollisions */
-     , (10700,  13, True ) /* Ethereal */
-     , (10700,  14, True ) /* GravityStatus */
-     , (10700,  19, True ) /* Attackable */;
+     , (10700,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (10700, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10700,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (10700,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10700,   1, 'Book of Seasons') /* Name */;

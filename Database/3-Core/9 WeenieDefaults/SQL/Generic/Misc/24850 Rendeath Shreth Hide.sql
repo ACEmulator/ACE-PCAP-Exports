@@ -8,16 +8,11 @@ VALUES (24850,   1,        128) /* ItemType - Misc */
      , (24850,   5,        500) /* EncumbranceVal */
      , (24850,  16,          1) /* ItemUseable - No */
      , (24850,  19,          0) /* Value */
-     , (24850,  65,        101) /* Placement - Resting */
-     , (24850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (24850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24850, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24850,   1, False) /* Stuck */
-     , (24850,  11, True ) /* IgnoreCollisions */
-     , (24850,  13, True ) /* Ethereal */
-     , (24850,  14, True ) /* GravityStatus */
-     , (24850,  19, True ) /* Attackable */
-     , (24850,  22, True ) /* Inscribable */;
+VALUES (24850,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24850,   1, 'Rendeath Shreth Hide') /* Name */;

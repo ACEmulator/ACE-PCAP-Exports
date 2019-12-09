@@ -13,14 +13,10 @@ VALUES (34313,   1,         16) /* ItemType - Creature */
      , (34313, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34313,   1, True ) /* Stuck */
-     , (34313,  12, True ) /* ReportCollisions */
-     , (34313,  13, False) /* Ethereal */
-     , (34313,  14, True ) /* GravityStatus */
-     , (34313,  19, True ) /* Attackable */;
+VALUES (34313,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34313,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (34313,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34313,   1, 'Aste Soul Harrier') /* Name */

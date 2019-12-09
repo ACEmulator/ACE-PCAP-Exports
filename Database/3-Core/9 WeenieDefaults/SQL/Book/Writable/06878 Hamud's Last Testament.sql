@@ -9,21 +9,14 @@ VALUES (6878,   1,       8192) /* ItemType - Writable */
      , (6878,  16,          8) /* ItemUseable - Contained */
      , (6878,  19,          5) /* Value */
      , (6878,  33,          1) /* Bonded - Bonded */
-     , (6878,  65,        101) /* Placement - Resting */
      , (6878,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6878, 114,          1) /* Attuned - Attuned */
-     , (6878, 174,          2) /* AppraisalPages */
-     , (6878, 175,          2) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6878,   1, False) /* Stuck */
-     , (6878,  11, True ) /* IgnoreCollisions */
-     , (6878,  13, True ) /* Ethereal */
-     , (6878,  14, True ) /* GravityStatus */
-     , (6878,  19, True ) /* Attackable */;
+     , (6878, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (6878, 8042,          2) /* PCAPRecordedAppraisalPages */
+     , (6878, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6878,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (6878,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6878,   1, 'Hamud''s Last Testament') /* Name */

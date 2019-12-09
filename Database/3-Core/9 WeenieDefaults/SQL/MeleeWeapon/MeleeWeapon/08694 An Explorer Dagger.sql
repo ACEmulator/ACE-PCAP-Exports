@@ -11,17 +11,12 @@ VALUES (8694,   1,          1) /* ItemType - MeleeWeapon */
      , (8694,  18,          1) /* UiEffects - Magical */
      , (8694,  19,          1) /* Value */
      , (8694,  51,          1) /* CombatUse - Melee */
-     , (8694,  65,        101) /* Placement - Resting */
      , (8694,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8694, 151,          2) /* HookType - Wall */;
+     , (8694, 151,          2) /* HookType - Wall */
+     , (8694, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8694,   1, False) /* Stuck */
-     , (8694,  11, True ) /* IgnoreCollisions */
-     , (8694,  13, True ) /* Ethereal */
-     , (8694,  14, True ) /* GravityStatus */
-     , (8694,  19, True ) /* Attackable */
-     , (8694,  22, True ) /* Inscribable */;
+VALUES (8694,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8694,   1, 'An Explorer Dagger') /* Name */;

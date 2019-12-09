@@ -12,17 +12,12 @@ VALUES (48541,   1,          1) /* ItemType - MeleeWeapon */
      , (48541,  18,         32) /* UiEffects - Fire */
      , (48541,  19,        155) /* Value */
      , (48541,  51,          1) /* CombatUse - Melee */
-     , (48541,  65,          1) /* Placement - RightHandCombat */
      , (48541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48541, 151,          2) /* HookType - Wall */;
+     , (48541, 151,          2) /* HookType - Wall */
+     , (48541, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48541,   1, False) /* Stuck */
-     , (48541,  11, True ) /* IgnoreCollisions */
-     , (48541,  13, True ) /* Ethereal */
-     , (48541,  14, True ) /* GravityStatus */
-     , (48541,  19, True ) /* Attackable */
-     , (48541,  22, True ) /* Inscribable */;
+VALUES (48541,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48541,   1, 'Flaming Nekode') /* Name */;

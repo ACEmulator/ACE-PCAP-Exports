@@ -15,12 +15,7 @@ VALUES (49615,   1,         16) /* ItemType - Creature */
      , (49615, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49615,   1, True ) /* Stuck */
-     , (49615,  12, True ) /* ReportCollisions */
-     , (49615,  13, False) /* Ethereal */
-     , (49615,  14, True ) /* GravityStatus */
-     , (49615,  19, True ) /* Attackable */
-     , (49615,  42, True ) /* AllowEdgeSlide */;
+VALUES (49615,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49615,   1, 'Virindi Fulguris') /* Name */

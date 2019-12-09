@@ -9,22 +9,15 @@ VALUES (20978,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20978,   1, True ) /* Stuck */
-     , (20978,  12, True ) /* ReportCollisions */
-     , (20978,  13, False) /* Ethereal */
-     , (20978,  14, True ) /* GravityStatus */
-     , (20978,  15, True ) /* LightsStatus */
-     , (20978,  16, True ) /* ScriptedCollision */
-     , (20978,  17, True ) /* Inelastic */
-     , (20978,  19, True ) /* Attackable */
      , (20978,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20978,  77,       1) /* PhysicsScriptIntensity */
      , (20978,  78,       1) /* Friction */
      , (20978,  79,       0) /* Elasticity */
-     , (20978, 8010, 14.7157354354858) /* PCAPRecordedVelocityX */
-     , (20978, 8011, 11.8070316314697) /* PCAPRecordedVelocityY */
-     , (20978, 8012, -14.4562721252441) /* PCAPRecordedVelocityZ */;
+     , (20978, 8010,   14.72) /* PCAPRecordedVelocityX */
+     , (20978, 8011,   11.81) /* PCAPRecordedVelocityY */
+     , (20978, 8012,  -14.46) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20978,   1, 'Shockwave') /* Name */;

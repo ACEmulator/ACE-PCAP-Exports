@@ -16,22 +16,17 @@ VALUES (30187,   1,       2048) /* ItemType - Gem */
      , (30187,  19,          0) /* Value */
      , (30187,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30187,  33,         -1) /* Bonded - Slippery */
-     , (30187,  65,        101) /* Placement - Resting */
      , (30187,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30187,  94,         16) /* TargetType - Creature */
      , (30187, 106,        325) /* ItemSpellcraft */
      , (30187, 107,      10000) /* ItemCurMana */
      , (30187, 108,      10000) /* ItemMaxMana */
      , (30187, 109,          0) /* ItemDifficulty */
-     , (30187, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30187, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30187, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30187,   1, False) /* Stuck */
-     , (30187,  11, True ) /* IgnoreCollisions */
-     , (30187,  13, True ) /* Ethereal */
-     , (30187,  14, True ) /* GravityStatus */
-     , (30187,  19, True ) /* Attackable */
-     , (30187, 108, True ) /* RareUsesTimer */;
+VALUES (30187, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30187,   1, 'Hunter''s Crystal') /* Name */

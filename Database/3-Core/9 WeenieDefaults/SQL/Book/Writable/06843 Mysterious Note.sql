@@ -8,17 +8,10 @@ VALUES (6843,   1,       8192) /* ItemType - Writable */
      , (6843,   5,         25) /* EncumbranceVal */
      , (6843,  16,          8) /* ItemUseable - Contained */
      , (6843,  19,          1) /* Value */
-     , (6843,  65,        101) /* Placement - Resting */
      , (6843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6843, 174,          1) /* AppraisalPages */
-     , (6843, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6843,   1, False) /* Stuck */
-     , (6843,  11, True ) /* IgnoreCollisions */
-     , (6843,  13, True ) /* Ethereal */
-     , (6843,  14, True ) /* GravityStatus */
-     , (6843,  19, True ) /* Attackable */;
+     , (6843, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (6843, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (6843, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6843,   1, 'Mysterious Note') /* Name */

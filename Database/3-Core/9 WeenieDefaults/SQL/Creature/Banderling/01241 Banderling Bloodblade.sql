@@ -15,14 +15,10 @@ VALUES (1241,   1,         16) /* ItemType - Creature */
      , (1241, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1241,   1, True ) /* Stuck */
-     , (1241,  12, True ) /* ReportCollisions */
-     , (1241,  13, False) /* Ethereal */
-     , (1241,  14, True ) /* GravityStatus */
-     , (1241,  19, True ) /* Attackable */;
+VALUES (1241,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1241,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (1241,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1241,   1, 'Banderling Bloodblade') /* Name */

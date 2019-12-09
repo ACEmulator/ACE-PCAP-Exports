@@ -38,19 +38,13 @@ VALUES (40107,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40107,   1, True ) /* Stuck */
-     , (40107,  11, True ) /* IgnoreCollisions */
-     , (40107,  12, True ) /* ReportCollisions */
-     , (40107,  13, True ) /* Ethereal */
-     , (40107,  14, True ) /* GravityStatus */
-     , (40107,  19, False) /* Attackable */
-     , (40107,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (40107,  42, True ) /* AllowEdgeSlide */;
+     , (40107,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40107,  54,       3) /* UseRadius */
      , (40107, 8010,       0) /* PCAPRecordedVelocityX */
      , (40107, 8011,       0) /* PCAPRecordedVelocityY */
-     , (40107, 8012, -0.302210181951523) /* PCAPRecordedVelocityZ */;
+     , (40107, 8012,    -0.3) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40107,   1, 'Crystal') /* Name */

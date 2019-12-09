@@ -12,18 +12,13 @@ VALUES (4741,   1,         32) /* ItemType - Food */
      , (4741,  15,         30) /* StackUnitValue */
      , (4741,  16,          8) /* ItemUseable - Contained */
      , (4741,  19,         30) /* Value */
-     , (4741,  65,        101) /* Placement - Resting */
      , (4741,  89,          4) /* BoosterEnum - Stamina */
      , (4741,  90,         15) /* BoostValue */
-     , (4741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (4741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4741, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4741,   1, False) /* Stuck */
-     , (4741,  11, True ) /* IgnoreCollisions */
-     , (4741,  13, True ) /* Ethereal */
-     , (4741,  14, True ) /* GravityStatus */
-     , (4741,  19, True ) /* Attackable */
-     , (4741,  69, False) /* IsSellable */;
+VALUES (4741,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4741,   1, 'Pizza') /* Name */

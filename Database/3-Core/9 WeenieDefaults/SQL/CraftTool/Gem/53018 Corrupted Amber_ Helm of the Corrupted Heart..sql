@@ -13,16 +13,9 @@ VALUES (53018,   1,       2048) /* ItemType - Gem */
      , (53018,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53018,  18,         32) /* UiEffects - Fire */
      , (53018,  19,         25) /* Value */
-     , (53018,  65,        101) /* Placement - Resting */
      , (53018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53018,  94,          6) /* TargetType - Vestements */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53018,   1, False) /* Stuck */
-     , (53018,  11, True ) /* IgnoreCollisions */
-     , (53018,  13, True ) /* Ethereal */
-     , (53018,  14, True ) /* GravityStatus */
-     , (53018,  19, True ) /* Attackable */;
+     , (53018,  94,          6) /* TargetType - Vestements */
+     , (53018, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53018,   1, 'Corrupted Amber: Helm of the Corrupted Heart.') /* Name */

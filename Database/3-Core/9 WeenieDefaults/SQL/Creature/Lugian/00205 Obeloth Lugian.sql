@@ -16,11 +16,7 @@ VALUES (205,   1,         16) /* ItemType - Creature */
      , (205, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (205,   1, True ) /* Stuck */
-     , (205,  12, True ) /* ReportCollisions */
-     , (205,  13, False) /* Ethereal */
-     , (205,  14, True ) /* GravityStatus */
-     , (205,  19, True ) /* Attackable */;
+VALUES (205,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (205,   1, 'Obeloth Lugian') /* Name */

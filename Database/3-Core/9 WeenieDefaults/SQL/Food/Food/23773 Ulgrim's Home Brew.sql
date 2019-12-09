@@ -12,18 +12,14 @@ VALUES (23773,   1,         32) /* ItemType - Food */
      , (23773,  15,        300) /* StackUnitValue */
      , (23773,  16,          8) /* ItemUseable - Contained */
      , (23773,  19,        300) /* Value */
-     , (23773,  65,        101) /* Placement - Resting */
      , (23773,  89,          4) /* BoosterEnum - Stamina */
      , (23773,  90,         60) /* BoostValue */
      , (23773,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
-     , (23773, 151,          1) /* HookType - Floor */;
+     , (23773, 151,          1) /* HookType - Floor */
+     , (23773, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23773,   1, False) /* Stuck */
-     , (23773,  11, True ) /* IgnoreCollisions */
-     , (23773,  13, True ) /* Ethereal */
-     , (23773,  19, True ) /* Attackable */
-     , (23773,  22, True ) /* Inscribable */;
+VALUES (23773,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23773,   1, 'Ulgrim''s Home Brew') /* Name */

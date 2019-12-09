@@ -11,12 +11,7 @@ VALUES (15234,   1,        128) /* ItemType - Misc */
      , (15234,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15234,   1, True ) /* Stuck */
-     , (15234,  11, True ) /* IgnoreCollisions */
-     , (15234,  12, True ) /* ReportCollisions */
-     , (15234,  13, False) /* Ethereal */
-     , (15234,  14, True ) /* GravityStatus */
-     , (15234,  19, True ) /* Attackable */;
+VALUES (15234,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15234,   1, 'Last-Stop-Before-Dires Villas') /* Name */;

@@ -8,17 +8,12 @@ VALUES (31756,   1,        128) /* ItemType - Misc */
      , (31756,   5,        100) /* EncumbranceVal */
      , (31756,  16,         32) /* ItemUseable - Remote */
      , (31756,  19,        100) /* Value */
-     , (31756,  65,        101) /* Placement - Resting */
      , (31756,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31756, 151,          9) /* HookType - Floor, Yard */;
+     , (31756, 151,          9) /* HookType - Floor, Yard */
+     , (31756, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31756,   1, False) /* Stuck */
-     , (31756,  11, True ) /* IgnoreCollisions */
-     , (31756,  13, True ) /* Ethereal */
-     , (31756,  14, True ) /* GravityStatus */
-     , (31756,  19, True ) /* Attackable */
-     , (31756,  22, True ) /* Inscribable */;
+VALUES (31756,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31756,   1, 'Fertilized Fly Trap') /* Name */

@@ -15,12 +15,7 @@ VALUES (48993,   1,          1) /* ItemType - MeleeWeapon */
      , (48993,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48993,   1, False) /* Stuck */
-     , (48993,  11, True ) /* IgnoreCollisions */
-     , (48993,  13, True ) /* Ethereal */
-     , (48993,  14, True ) /* GravityStatus */
-     , (48993,  19, True ) /* Attackable */
-     , (48993,  22, True ) /* Inscribable */;
+VALUES (48993,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48993,   1, 'Frost Hatchet') /* Name */;

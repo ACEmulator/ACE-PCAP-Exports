@@ -14,17 +14,9 @@ VALUES (22248,   1,        256) /* ItemType - MissileWeapon */
      , (22248,  16,          1) /* ItemUseable - No */
      , (22248,  19,         40) /* Value */
      , (22248,  51,          2) /* CombatUse - Missle */
-     , (22248,  65,        101) /* Placement - Resting */
      , (22248,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (22248, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22248,   1, False) /* Stuck */
-     , (22248,  11, True ) /* IgnoreCollisions */
-     , (22248,  13, True ) /* Ethereal */
-     , (22248,  14, True ) /* GravityStatus */
-     , (22248,  17, True ) /* Inelastic */
-     , (22248,  19, True ) /* Attackable */;
+     , (22248, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (22248, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22248,  39,       3) /* DefaultScale */

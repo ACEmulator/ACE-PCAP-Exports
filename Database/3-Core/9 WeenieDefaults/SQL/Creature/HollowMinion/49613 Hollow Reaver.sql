@@ -15,12 +15,7 @@ VALUES (49613,   1,         16) /* ItemType - Creature */
      , (49613, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49613,   1, True ) /* Stuck */
-     , (49613,  12, True ) /* ReportCollisions */
-     , (49613,  13, False) /* Ethereal */
-     , (49613,  14, True ) /* GravityStatus */
-     , (49613,  19, True ) /* Attackable */
-     , (49613,  42, True ) /* AllowEdgeSlide */;
+VALUES (49613,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49613,   1, 'Hollow Reaver') /* Name */

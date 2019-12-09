@@ -10,20 +10,15 @@ VALUES (15896,   1,          1) /* ItemType - MeleeWeapon */
      , (15896,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (15896,  16,          1) /* ItemUseable - No */
      , (15896,  51,          1) /* CombatUse - Melee */
-     , (15896,  65,          1) /* Placement - RightHandCombat */
      , (15896,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15896, 151,          2) /* HookType - Wall */;
+     , (15896, 151,          2) /* HookType - Wall */
+     , (15896, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15896,   1, False) /* Stuck */
-     , (15896,  11, True ) /* IgnoreCollisions */
-     , (15896,  13, True ) /* Ethereal */
-     , (15896,  14, True ) /* GravityStatus */
-     , (15896,  19, True ) /* Attackable */
-     , (15896,  22, True ) /* Inscribable */;
+VALUES (15896,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15896,  39, 1.79999995231628) /* DefaultScale */;
+VALUES (15896,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15896,   1, 'Ben Ten''s Tachi') /* Name */;

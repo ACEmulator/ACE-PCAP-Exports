@@ -13,19 +13,13 @@ VALUES (45726,   1,      65536) /* ItemType - Portal */
      , (45726, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45726,   1, True ) /* Stuck */
-     , (45726,  12, True ) /* ReportCollisions */
-     , (45726,  13, True ) /* Ethereal */
-     , (45726,  14, True ) /* GravityStatus */
-     , (45726,  15, True ) /* LightsStatus */
-     , (45726,  19, True ) /* Attackable */;
+VALUES (45726,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45726,  54, -0.100000001490116) /* UseRadius */;
+VALUES (45726,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45726,   1, 'Shadowy Refuge') /* Name */
-     , (45726,  38, 'Shadowy Refuge') /* AppraisalPortalDestination */
      , (45726, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

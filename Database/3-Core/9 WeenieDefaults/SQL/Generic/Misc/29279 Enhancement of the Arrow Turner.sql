@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29279,   1,        128) /* ItemType - Misc */
      , (29279,   5,         50) /* EncumbranceVal */
      , (29279,  16,          8) /* ItemUseable - Contained */
-     , (29279,  65,        101) /* Placement - Resting */
-     , (29279,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29279,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29279, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29279,   1, False) /* Stuck */
-     , (29279,  11, True ) /* IgnoreCollisions */
-     , (29279,  13, True ) /* Ethereal */
-     , (29279,  14, True ) /* GravityStatus */
-     , (29279,  19, True ) /* Attackable */
-     , (29279,  22, True ) /* Inscribable */;
+VALUES (29279,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29279,   1, 'Enhancement of the Arrow Turner') /* Name */;

@@ -9,12 +9,6 @@ VALUES (29030,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29030,   1, True ) /* Stuck */
-     , (29030,  12, True ) /* ReportCollisions */
-     , (29030,  13, False) /* Ethereal */
-     , (29030,  15, True ) /* LightsStatus */
-     , (29030,  16, True ) /* ScriptedCollision */
-     , (29030,  17, True ) /* Inelastic */
-     , (29030,  19, True ) /* Attackable */
      , (29030,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -22,9 +16,9 @@ VALUES (29030,  39,     0.5) /* DefaultScale */
      , (29030,  77,       1) /* PhysicsScriptIntensity */
      , (29030,  78,       1) /* Friction */
      , (29030,  79,       0) /* Elasticity */
-     , (29030, 8010, -0.0639620944857597) /* PCAPRecordedVelocityX */
-     , (29030, 8011, -1.05611085891724) /* PCAPRecordedVelocityY */
-     , (29030, 8012, -0.183895632624626) /* PCAPRecordedVelocityZ */;
+     , (29030, 8010,   -0.06) /* PCAPRecordedVelocityX */
+     , (29030, 8011,   -1.06) /* PCAPRecordedVelocityY */
+     , (29030, 8012,   -0.18) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29030,   1, 'Mana Cloud') /* Name */;

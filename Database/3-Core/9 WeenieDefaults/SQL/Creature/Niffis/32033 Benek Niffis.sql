@@ -15,14 +15,10 @@ VALUES (32033,   1,         16) /* ItemType - Creature */
      , (32033, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32033,   1, True ) /* Stuck */
-     , (32033,  12, True ) /* ReportCollisions */
-     , (32033,  13, False) /* Ethereal */
-     , (32033,  14, True ) /* GravityStatus */
-     , (32033,  19, True ) /* Attackable */;
+VALUES (32033,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32033,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (32033,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32033,   1, 'Benek Niffis') /* Name */

@@ -31,19 +31,14 @@ VALUES (34341,   1,          1) /* ItemType - MeleeWeapon */
      , (34341, 160,        350) /* WieldDifficulty */
      , (34341, 176,          6) /* AppraisalItemSkill */
      , (34341, 353,          2) /* WeaponType - Sword */
-     , (34341, 8030,          0);
+     , (34341, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34341,   1, False) /* Stuck */
-     , (34341,  11, True ) /* IgnoreCollisions */
-     , (34341,  13, True ) /* Ethereal */
-     , (34341,  14, True ) /* GravityStatus */
-     , (34341,  19, True ) /* Attackable */
-     , (34341,  22, True ) /* Inscribable */
+VALUES (34341,  22, True ) /* Inscribable */
      , (34341,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34341,   5, -0.0333) /* ManaRate */
+VALUES (34341,   5,   -0.03) /* ManaRate */
      , (34341,  21,       0) /* WeaponLength */
      , (34341,  22,     0.5) /* DamageVariance */
      , (34341,  26,       0) /* MaximumVelocity */

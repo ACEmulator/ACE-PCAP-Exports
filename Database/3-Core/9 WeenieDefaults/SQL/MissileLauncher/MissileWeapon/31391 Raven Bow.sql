@@ -19,22 +19,17 @@ VALUES (31391,   1,        256) /* ItemType - MissileWeapon */
      , (31391,  51,          2) /* CombatUse - Missle */
      , (31391,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31391, 353,          8) /* WeaponType - Bow */
-     , (31391, 8030,          0);
+     , (31391, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31391,   1, False) /* Stuck */
-     , (31391,  11, True ) /* IgnoreCollisions */
-     , (31391,  13, True ) /* Ethereal */
-     , (31391,  14, True ) /* GravityStatus */
-     , (31391,  19, True ) /* Attackable */
-     , (31391,  22, True ) /* Inscribable */;
+VALUES (31391,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31391,  21,       0) /* WeaponLength */
      , (31391,  22,    0.25) /* DamageVariance */
      , (31391,  26,       0) /* MaximumVelocity */
      , (31391,  29,       1) /* WeaponDefense */
-     , (31391,  39, 1.10000002384186) /* DefaultScale */
+     , (31391,  39,     1.1) /* DefaultScale */
      , (31391,  62,       1) /* WeaponOffense */
      , (31391,  63,       1) /* DamageMod */
      , (31391, 159,       1) /* AbsorbMagicDamage */;

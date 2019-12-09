@@ -9,20 +9,15 @@ VALUES (7810,   1,      16384) /* ItemType - Key */
      , (7810,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (7810,  19,         20) /* Value */
      , (7810,  33,          1) /* Bonded - Bonded */
-     , (7810,  65,        101) /* Placement - Resting */
      , (7810,  91,          4) /* MaxStructure */
      , (7810,  92,          4) /* Structure */
      , (7810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7810,  94,        640) /* TargetType - LockableMagicTarget */
-     , (7810, 114,          1) /* Attuned - Attuned */;
+     , (7810, 114,          1) /* Attuned - Attuned */
+     , (7810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7810,   1, False) /* Stuck */
-     , (7810,  11, True ) /* IgnoreCollisions */
-     , (7810,  13, True ) /* Ethereal */
-     , (7810,  14, True ) /* GravityStatus */
-     , (7810,  19, True ) /* Attackable */
-     , (7810,  22, True ) /* Inscribable */;
+VALUES (7810,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7810,   1, 'Yucky Key') /* Name */

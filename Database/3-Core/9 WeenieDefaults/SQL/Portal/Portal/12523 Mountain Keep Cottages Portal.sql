@@ -12,19 +12,13 @@ VALUES (12523,   1,      65536) /* ItemType - Portal */
      , (12523, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12523,   1, True ) /* Stuck */
-     , (12523,  12, True ) /* ReportCollisions */
-     , (12523,  13, True ) /* Ethereal */
-     , (12523,  14, True ) /* GravityStatus */
-     , (12523,  15, True ) /* LightsStatus */
-     , (12523,  19, True ) /* Attackable */;
+VALUES (12523,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12523,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12523,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12523,   1, 'Mountain Keep Cottages Portal') /* Name */
-     , (12523,  38, 'Mountain Keep Cottages Portal (50.3N, 35.3E).') /* AppraisalPortalDestination */
      , (12523, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

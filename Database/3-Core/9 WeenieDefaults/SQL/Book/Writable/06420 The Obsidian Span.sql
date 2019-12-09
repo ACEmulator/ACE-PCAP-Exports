@@ -10,15 +10,8 @@ VALUES (6420,   1,       8192) /* ItemType - Writable */
      , (6420,  19,          3) /* Value */
      , (6420,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6420,   1, False) /* Stuck */
-     , (6420,  11, True ) /* IgnoreCollisions */
-     , (6420,  13, True ) /* Ethereal */
-     , (6420,  14, True ) /* GravityStatus */
-     , (6420,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6420,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (6420,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6420,   1, 'The Obsidian Span') /* Name */;

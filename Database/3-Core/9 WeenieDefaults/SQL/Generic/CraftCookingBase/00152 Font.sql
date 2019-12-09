@@ -8,16 +8,11 @@ VALUES (152,   1,    4194304) /* ItemType - CraftCookingBase */
      , (152,   5,       6000) /* EncumbranceVal */
      , (152,  16,         48) /* ItemUseable - ViewedRemote */
      , (152,  19,        200) /* Value */
-     , (152,  65,        101) /* Placement - Resting */
-     , (152,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (152,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (152, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (152,   1, True ) /* Stuck */
-     , (152,  11, True ) /* IgnoreCollisions */
-     , (152,  12, True ) /* ReportCollisions */
-     , (152,  13, False) /* Ethereal */
-     , (152,  14, True ) /* GravityStatus */
-     , (152,  19, True ) /* Attackable */;
+VALUES (152,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (152,  54,       2) /* UseRadius */;

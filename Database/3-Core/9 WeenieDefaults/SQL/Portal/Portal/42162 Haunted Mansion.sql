@@ -13,21 +13,15 @@ VALUES (42162,   1,      65536) /* ItemType - Portal */
      , (42162, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42162,   1, True ) /* Stuck */
-     , (42162,  12, True ) /* ReportCollisions */
-     , (42162,  13, True ) /* Ethereal */
-     , (42162,  14, True ) /* GravityStatus */
-     , (42162,  15, True ) /* LightsStatus */
-     , (42162,  19, True ) /* Attackable */;
+VALUES (42162,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42162,  39, 0.800000011920929) /* DefaultScale */
-     , (42162,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42162,  39,     0.8) /* DefaultScale */
+     , (42162,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42162,   1, 'Haunted Mansion') /* Name */
      , (42162,  16, 'A portal leading to Frest Greelving''s now haunted mansion where Silver Atlatl, Tetsubo Slugger and Ornate Neckode may be found.') /* LongDesc */
-     , (42162,  38, 'Haunted Mansion (6.0N, 43.7E).') /* AppraisalPortalDestination */
      , (42162, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,20 +12,14 @@ VALUES (29339,   1,      65536) /* ItemType - Portal */
      , (29339, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29339,   1, True ) /* Stuck */
-     , (29339,  12, True ) /* ReportCollisions */
-     , (29339,  13, True ) /* Ethereal */
-     , (29339,  14, True ) /* GravityStatus */
-     , (29339,  15, True ) /* LightsStatus */
-     , (29339,  19, True ) /* Attackable */;
+VALUES (29339,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29339,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29339,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29339,   1, 'Exit to Sanamar') /* Name */
      , (29339,  16, 'You must complete the Sentry''s quest before you may use this portal.') /* LongDesc */
-     , (29339,  38, 'Exit to Sanamar (72.4N, 61.1W).') /* AppraisalPortalDestination */
      , (29339, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

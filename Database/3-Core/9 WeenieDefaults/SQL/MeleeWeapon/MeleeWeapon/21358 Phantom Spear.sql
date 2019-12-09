@@ -11,21 +11,15 @@ VALUES (21358,   1,          1) /* ItemType - MeleeWeapon */
      , (21358,  16,          1) /* ItemUseable - No */
      , (21358,  19,       5000) /* Value */
      , (21358,  51,          1) /* CombatUse - Melee */
-     , (21358,  65,          1) /* Placement - RightHandCombat */
      , (21358,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (21358, 151,          2) /* HookType - Wall */;
+     , (21358, 151,          2) /* HookType - Wall */
+     , (21358, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21358,   1, False) /* Stuck */
-     , (21358,  11, True ) /* IgnoreCollisions */
-     , (21358,  13, True ) /* Ethereal */
-     , (21358,  14, True ) /* GravityStatus */
-     , (21358,  15, True ) /* LightsStatus */
-     , (21358,  19, True ) /* Attackable */
-     , (21358,  22, True ) /* Inscribable */;
+VALUES (21358,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21358,  76, 0.699999988079071) /* Translucency */;
+VALUES (21358,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21358,   1, 'Phantom Spear') /* Name */;

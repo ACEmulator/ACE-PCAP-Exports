@@ -9,17 +9,12 @@ VALUES (28761,   1,        128) /* ItemType - Misc */
      , (28761,  16,          1) /* ItemUseable - No */
      , (28761,  19,          0) /* Value */
      , (28761,  33,          1) /* Bonded - Bonded */
-     , (28761,  65,        101) /* Placement - Resting */
      , (28761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28761, 114,          1) /* Attuned - Attuned */;
+     , (28761, 114,          1) /* Attuned - Attuned */
+     , (28761, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28761,   1, False) /* Stuck */
-     , (28761,  11, True ) /* IgnoreCollisions */
-     , (28761,  13, True ) /* Ethereal */
-     , (28761,  14, True ) /* GravityStatus */
-     , (28761,  19, True ) /* Attackable */
-     , (28761,  22, True ) /* Inscribable */;
+VALUES (28761,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28761,   1, 'Friend of Sanamar Token') /* Name */

@@ -10,16 +10,11 @@ VALUES (45962,   1,          2) /* ItemType - Armor */
      , (45962,   9,        512) /* ValidLocations - ChestArmor */
      , (45962,  16,          1) /* ItemUseable - No */
      , (45962,  19,        100) /* Value */
-     , (45962,  65,        101) /* Placement - Resting */
-     , (45962,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45962,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45962, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45962,   1, False) /* Stuck */
-     , (45962,  11, True ) /* IgnoreCollisions */
-     , (45962,  13, True ) /* Ethereal */
-     , (45962,  14, True ) /* GravityStatus */
-     , (45962,  19, True ) /* Attackable */
-     , (45962,  22, True ) /* Inscribable */;
+VALUES (45962,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45962,   1, 'Amateur Explorer Breastplate') /* Name */;

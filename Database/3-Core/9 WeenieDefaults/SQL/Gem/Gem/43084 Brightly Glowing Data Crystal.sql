@@ -8,16 +8,11 @@ VALUES (43084,   1,       2048) /* ItemType - Gem */
      , (43084,   5,         25) /* EncumbranceVal */
      , (43084,  16,          1) /* ItemUseable - No */
      , (43084,  18,         64) /* UiEffects - Lightning */
-     , (43084,  65,        101) /* Placement - Resting */
-     , (43084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43084, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43084,   1, False) /* Stuck */
-     , (43084,  11, True ) /* IgnoreCollisions */
-     , (43084,  13, True ) /* Ethereal */
-     , (43084,  14, True ) /* GravityStatus */
-     , (43084,  19, True ) /* Attackable */
-     , (43084,  22, True ) /* Inscribable */;
+VALUES (43084,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43084,   1, 'Brightly Glowing Data Crystal') /* Name */;

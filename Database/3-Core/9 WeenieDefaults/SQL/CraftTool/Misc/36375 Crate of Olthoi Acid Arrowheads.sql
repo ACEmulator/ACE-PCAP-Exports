@@ -12,19 +12,12 @@ VALUES (36375,   1,        128) /* ItemType - Misc */
      , (36375,  15,          1) /* StackUnitValue */
      , (36375,  16,          8) /* ItemUseable - Contained */
      , (36375,  19,          1) /* Value */
-     , (36375,  65,        101) /* Placement - Resting */
      , (36375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36375,  94,         16) /* TargetType - Creature */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36375,   1, False) /* Stuck */
-     , (36375,  11, True ) /* IgnoreCollisions */
-     , (36375,  13, True ) /* Ethereal */
-     , (36375,  14, True ) /* GravityStatus */
-     , (36375,  19, True ) /* Attackable */;
+     , (36375,  94,         16) /* TargetType - Creature */
+     , (36375, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36375,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36375,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36375,   1, 'Crate of Olthoi Acid Arrowheads') /* Name */

@@ -8,18 +8,12 @@ VALUES (241,   1,       1024) /* ItemType - Useless */
      , (241,   5,        100) /* EncumbranceVal */
      , (241,  16,          1) /* ItemUseable - No */
      , (241,  19,       3226) /* Value */
-     , (241,  65,        101) /* Placement - Resting */
      , (241,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (241, 151,          4) /* HookType - Ceiling */;
+     , (241, 151,          4) /* HookType - Ceiling */
+     , (241, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (241,   1, False) /* Stuck */
-     , (241,  11, True ) /* IgnoreCollisions */
-     , (241,  13, True ) /* Ethereal */
-     , (241,  14, True ) /* GravityStatus */
-     , (241,  15, True ) /* LightsStatus */
-     , (241,  19, True ) /* Attackable */
-     , (241,  22, True ) /* Inscribable */;
+VALUES (241,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (241,   1, 'Chandelier') /* Name */;

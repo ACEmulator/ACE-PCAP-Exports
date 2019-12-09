@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29276,   1,        128) /* ItemType - Misc */
      , (29276,   5,         50) /* EncumbranceVal */
      , (29276,  16,          8) /* ItemUseable - Contained */
-     , (29276,  65,        101) /* Placement - Resting */
-     , (29276,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29276,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29276, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29276,   1, False) /* Stuck */
-     , (29276,  11, True ) /* IgnoreCollisions */
-     , (29276,  13, True ) /* Ethereal */
-     , (29276,  14, True ) /* GravityStatus */
-     , (29276,  19, True ) /* Attackable */
-     , (29276,  22, True ) /* Inscribable */;
+VALUES (29276,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29276,   1, 'Storm''s Enhancement') /* Name */;

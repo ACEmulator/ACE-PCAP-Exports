@@ -13,17 +13,12 @@ VALUES (38890,   1,        128) /* ItemType - Misc */
      , (38890,  16,          1) /* ItemUseable - No */
      , (38890,  19,     200000) /* Value */
      , (38890,  33,          1) /* Bonded - Bonded */
-     , (38890,  65,        101) /* Placement - Resting */
      , (38890,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38890, 114,          1) /* Attuned - Attuned */;
+     , (38890, 114,          1) /* Attuned - Attuned */
+     , (38890, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38890,   1, False) /* Stuck */
-     , (38890,  11, True ) /* IgnoreCollisions */
-     , (38890,  13, True ) /* Ethereal */
-     , (38890,  14, True ) /* GravityStatus */
-     , (38890,  19, True ) /* Attackable */
-     , (38890,  69, False) /* IsSellable */;
+VALUES (38890,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38890,   1, 'Blighted Bow Coin') /* Name */

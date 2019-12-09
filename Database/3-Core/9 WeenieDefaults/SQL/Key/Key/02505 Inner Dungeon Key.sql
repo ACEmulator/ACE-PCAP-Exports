@@ -8,19 +8,14 @@ VALUES (2505,   1,      16384) /* ItemType - Key */
      , (2505,   5,         50) /* EncumbranceVal */
      , (2505,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (2505,  19,        200) /* Value */
-     , (2505,  65,        101) /* Placement - Resting */
      , (2505,  91,          3) /* MaxStructure */
      , (2505,  92,          3) /* Structure */
      , (2505,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2505,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (2505,  94,        640) /* TargetType - LockableMagicTarget */
+     , (2505, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2505,   1, False) /* Stuck */
-     , (2505,  11, True ) /* IgnoreCollisions */
-     , (2505,  13, True ) /* Ethereal */
-     , (2505,  14, True ) /* GravityStatus */
-     , (2505,  19, True ) /* Attackable */
-     , (2505,  22, True ) /* Inscribable */;
+VALUES (2505,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2505,   1, 'Inner Dungeon Key') /* Name */

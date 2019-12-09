@@ -12,21 +12,16 @@ VALUES (42707,   1,       2048) /* ItemType - Gem */
      , (42707,  15,          2) /* StackUnitValue */
      , (42707,  16,          8) /* ItemUseable - Contained */
      , (42707,  19,          2) /* Value */
-     , (42707,  65,        101) /* Placement - Resting */
      , (42707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42707,  94,         16) /* TargetType - Creature */
      , (42707, 106,        325) /* ItemSpellcraft */
      , (42707, 107,        100) /* ItemCurMana */
      , (42707, 108,        100) /* ItemMaxMana */
-     , (42707, 109,          0) /* ItemDifficulty */;
+     , (42707, 109,          0) /* ItemDifficulty */
+     , (42707, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42707,   1, False) /* Stuck */
-     , (42707,  11, True ) /* IgnoreCollisions */
-     , (42707,  13, True ) /* Ethereal */
-     , (42707,  14, True ) /* GravityStatus */
-     , (42707,  19, True ) /* Attackable */
-     , (42707,  69, False) /* IsSellable */;
+VALUES (42707,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42707,   1, 'Slice of Royal Wedding Cake') /* Name */

@@ -11,15 +11,10 @@ VALUES (29959,   1,      65536) /* ItemType - Portal */
      , (29959, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29959,   1, True ) /* Stuck */
-     , (29959,  12, True ) /* ReportCollisions */
-     , (29959,  13, True ) /* Ethereal */
-     , (29959,  14, True ) /* GravityStatus */
-     , (29959,  15, True ) /* LightsStatus */
-     , (29959,  19, True ) /* Attackable */;
+VALUES (29959,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29959,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29959,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29959,   1, 'Xi Ru''s Crypt') /* Name */

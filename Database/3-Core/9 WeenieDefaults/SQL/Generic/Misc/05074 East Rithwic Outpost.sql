@@ -8,15 +8,11 @@ VALUES (5074,   1,        128) /* ItemType - Misc */
      , (5074,   5,       9000) /* EncumbranceVal */
      , (5074,  16,          1) /* ItemUseable - No */
      , (5074,  19,        125) /* Value */
-     , (5074,  65,        101) /* Placement - Resting */
-     , (5074,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5074,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5074, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5074,   1, True ) /* Stuck */
-     , (5074,  11, True ) /* IgnoreCollisions */
-     , (5074,  12, True ) /* ReportCollisions */
-     , (5074,  13, False) /* Ethereal */
-     , (5074,  19, True ) /* Attackable */;
+VALUES (5074,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5074,   1, 'East Rithwic Outpost') /* Name */

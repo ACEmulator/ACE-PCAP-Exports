@@ -32,28 +32,22 @@ VALUES (35557,   1,        256) /* ItemType - MissileWeapon */
      , (35557, 353,         10) /* WeaponType - Thrown */
      , (35557, 381,          0) /* PKDamageRating */
      , (35557, 386,          0) /* Overpower */
-     , (35557, 8030,          0);
+     , (35557, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35557,   1, False) /* Stuck */
-     , (35557,  11, True ) /* IgnoreCollisions */
-     , (35557,  13, True ) /* Ethereal */
-     , (35557,  14, True ) /* GravityStatus */
-     , (35557,  17, True ) /* Inelastic */
-     , (35557,  19, True ) /* Attackable */
-     , (35557,  69, False) /* IsSellable */
+VALUES (35557,  69, False) /* IsSellable */
      , (35557,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35557,   5,  -0.033) /* ManaRate */
+VALUES (35557,   5,   -0.03) /* ManaRate */
      , (35557,  21,       0) /* WeaponLength */
-     , (35557,  22, 0.33333) /* DamageVariance */
-     , (35557,  26, 23.2000007629395) /* MaximumVelocity */
+     , (35557,  22,    0.33) /* DamageVariance */
+     , (35557,  26,    23.2) /* MaximumVelocity */
      , (35557,  29,    1.15) /* WeaponDefense */
      , (35557,  39,    0.75) /* DefaultScale */
      , (35557,  62,    1.17) /* WeaponOffense */
      , (35557,  63,       1) /* DamageMod */
-     , (35557,  76, 0.200000002980232) /* Translucency */
+     , (35557,  76,     0.2) /* Translucency */
      , (35557,  78,       1) /* Friction */
      , (35557,  79,       0) /* Elasticity */
      , (35557, 149,       0) /* WeaponMissileDefense */

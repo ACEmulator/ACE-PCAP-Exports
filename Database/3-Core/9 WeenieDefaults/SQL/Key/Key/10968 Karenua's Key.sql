@@ -9,20 +9,15 @@ VALUES (10968,   1,      16384) /* ItemType - Key */
      , (10968,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (10968,  19,          5) /* Value */
      , (10968,  33,          1) /* Bonded - Bonded */
-     , (10968,  65,        101) /* Placement - Resting */
      , (10968,  91,          1) /* MaxStructure */
      , (10968,  92,          1) /* Structure */
      , (10968,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10968,  94,        640) /* TargetType - LockableMagicTarget */
-     , (10968, 114,          1) /* Attuned - Attuned */;
+     , (10968, 114,          1) /* Attuned - Attuned */
+     , (10968, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10968,   1, False) /* Stuck */
-     , (10968,  11, True ) /* IgnoreCollisions */
-     , (10968,  13, True ) /* Ethereal */
-     , (10968,  14, True ) /* GravityStatus */
-     , (10968,  19, True ) /* Attackable */
-     , (10968,  22, True ) /* Inscribable */;
+VALUES (10968,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10968,   1, 'Karenua''s Key') /* Name */

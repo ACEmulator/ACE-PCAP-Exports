@@ -13,15 +13,10 @@ VALUES (33987,   1,        128) /* ItemType - Misc */
      , (33987, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33987,   1, False) /* Stuck */
-     , (33987,  11, True ) /* IgnoreCollisions */
-     , (33987,  13, True ) /* Ethereal */
-     , (33987,  14, True ) /* GravityStatus */
-     , (33987,  19, True ) /* Attackable */
-     , (33987,  22, True ) /* Inscribable */;
+VALUES (33987,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33987,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33987,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33987,   1, 'Ancient Bone') /* Name */

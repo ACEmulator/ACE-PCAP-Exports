@@ -8,16 +8,11 @@ VALUES (805,   1,        128) /* ItemType - Misc */
      , (805,   5,       9000) /* EncumbranceVal */
      , (805,  16,          1) /* ItemUseable - No */
      , (805,  19,        125) /* Value */
-     , (805,  65,        101) /* Placement - Resting */
-     , (805,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (805,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (805, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (805,   1, True ) /* Stuck */
-     , (805,  11, True ) /* IgnoreCollisions */
-     , (805,  12, True ) /* ReportCollisions */
-     , (805,  13, False) /* Ethereal */
-     , (805,  14, True ) /* GravityStatus */
-     , (805,  19, True ) /* Attackable */;
+VALUES (805,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (805,   1, 'Zhen''s Tower') /* Name */

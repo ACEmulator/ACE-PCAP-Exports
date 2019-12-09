@@ -13,22 +13,17 @@ VALUES (5670,   1,         32) /* ItemType - Food */
      , (5670,  16,          8) /* ItemUseable - Contained */
      , (5670,  18,          1) /* UiEffects - Magical */
      , (5670,  19,        125) /* Value */
-     , (5670,  65,        101) /* Placement - Resting */
      , (5670,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5670,  94,         16) /* TargetType - Creature */
      , (5670, 106,         50) /* ItemSpellcraft */
      , (5670, 107,         50) /* ItemCurMana */
      , (5670, 108,         50) /* ItemMaxMana */
      , (5670, 109,          0) /* ItemDifficulty */
-     , (5670, 110,          0) /* ItemAllegianceRankLimit */;
+     , (5670, 110,          0) /* ItemAllegianceRankLimit */
+     , (5670, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5670,   1, False) /* Stuck */
-     , (5670,  11, True ) /* IgnoreCollisions */
-     , (5670,  13, True ) /* Ethereal */
-     , (5670,  14, True ) /* GravityStatus */
-     , (5670,  19, True ) /* Attackable */
-     , (5670,  22, True ) /* Inscribable */;
+VALUES (5670,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5670,   1, 'Tempting Apple') /* Name */

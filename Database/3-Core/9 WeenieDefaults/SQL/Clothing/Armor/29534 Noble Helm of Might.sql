@@ -10,17 +10,12 @@ VALUES (29534,   1,          2) /* ItemType - Armor */
      , (29534,   9,          1) /* ValidLocations - HeadWear */
      , (29534,  16,          1) /* ItemUseable - No */
      , (29534,  19,       8000) /* Value */
-     , (29534,  65,        101) /* Placement - Resting */
      , (29534,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29534, 151,          2) /* HookType - Wall */;
+     , (29534, 151,          2) /* HookType - Wall */
+     , (29534, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29534,   1, False) /* Stuck */
-     , (29534,  11, True ) /* IgnoreCollisions */
-     , (29534,  13, True ) /* Ethereal */
-     , (29534,  14, True ) /* GravityStatus */
-     , (29534,  19, True ) /* Attackable */
-     , (29534,  22, True ) /* Inscribable */;
+VALUES (29534,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29534,   1, 'Noble Helm of Might') /* Name */;

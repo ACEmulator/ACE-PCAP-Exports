@@ -19,11 +19,7 @@ VALUES (46513,   1,         16) /* ItemType - Creature */
      , (46513, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46513,   1, True ) /* Stuck */
-     , (46513,  12, True ) /* ReportCollisions */
-     , (46513,  13, False) /* Ethereal */
-     , (46513,  14, True ) /* GravityStatus */
-     , (46513,  19, True ) /* Attackable */;
+VALUES (46513,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46513,   1, 'Spectral Bushi') /* Name */

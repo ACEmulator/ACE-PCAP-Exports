@@ -11,15 +11,8 @@ VALUES (45769,   1,         64) /* ItemType - Money */
      , (45769,  15,          0) /* StackUnitValue */
      , (45769,  16,          1) /* ItemUseable - No */
      , (45769,  18,        256) /* UiEffects - Acid */
-     , (45769,  65,        101) /* Placement - Resting */
-     , (45769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45769,   1, False) /* Stuck */
-     , (45769,  11, True ) /* IgnoreCollisions */
-     , (45769,  13, True ) /* Ethereal */
-     , (45769,  14, True ) /* GravityStatus */
-     , (45769,  19, True ) /* Attackable */;
+     , (45769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45769, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45769,  39,     0.5) /* DefaultScale */;

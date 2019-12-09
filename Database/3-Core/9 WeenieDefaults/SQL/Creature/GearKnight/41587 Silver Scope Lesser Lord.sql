@@ -15,15 +15,10 @@ VALUES (41587,   1,         16) /* ItemType - Creature */
      , (41587, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41587,   1, True ) /* Stuck */
-     , (41587,  12, True ) /* ReportCollisions */
-     , (41587,  13, False) /* Ethereal */
-     , (41587,  14, True ) /* GravityStatus */
-     , (41587,  19, True ) /* Attackable */
-     , (41587,  42, True ) /* AllowEdgeSlide */;
+VALUES (41587,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41587,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (41587,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41587,   1, 'Silver Scope Lesser Lord') /* Name */

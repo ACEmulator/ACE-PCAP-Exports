@@ -8,19 +8,14 @@ VALUES (1277,   1,      16384) /* ItemType - Key */
      , (1277,   5,         50) /* EncumbranceVal */
      , (1277,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (1277,  19,        200) /* Value */
-     , (1277,  65,        101) /* Placement - Resting */
      , (1277,  91,          3) /* MaxStructure */
      , (1277,  92,          3) /* Structure */
      , (1277,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1277,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (1277,  94,        640) /* TargetType - LockableMagicTarget */
+     , (1277, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1277,   1, False) /* Stuck */
-     , (1277,  11, True ) /* IgnoreCollisions */
-     , (1277,  13, True ) /* Ethereal */
-     , (1277,  14, True ) /* GravityStatus */
-     , (1277,  19, True ) /* Attackable */
-     , (1277,  22, True ) /* Inscribable */;
+VALUES (1277,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1277,   1, 'Silver Key') /* Name */

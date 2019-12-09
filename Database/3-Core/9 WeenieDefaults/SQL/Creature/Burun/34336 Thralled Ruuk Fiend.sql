@@ -16,14 +16,10 @@ VALUES (34336,   1,         16) /* ItemType - Creature */
      , (34336, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34336,   1, True ) /* Stuck */
-     , (34336,  12, True ) /* ReportCollisions */
-     , (34336,  13, False) /* Ethereal */
-     , (34336,  14, True ) /* GravityStatus */
-     , (34336,  19, True ) /* Attackable */;
+VALUES (34336,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34336,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (34336,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34336,   1, 'Thralled Ruuk Fiend') /* Name */

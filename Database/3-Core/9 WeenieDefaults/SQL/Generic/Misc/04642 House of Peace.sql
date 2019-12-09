@@ -11,11 +11,7 @@ VALUES (4642,   1,        128) /* ItemType - Misc */
      , (4642,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4642,   1, True ) /* Stuck */
-     , (4642,  11, True ) /* IgnoreCollisions */
-     , (4642,  12, True ) /* ReportCollisions */
-     , (4642,  13, False) /* Ethereal */
-     , (4642,  19, True ) /* Attackable */;
+VALUES (4642,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4642,   1, 'House of Peace') /* Name */

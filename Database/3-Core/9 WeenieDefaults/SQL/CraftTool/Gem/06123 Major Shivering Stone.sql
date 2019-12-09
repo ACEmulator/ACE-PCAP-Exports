@@ -13,18 +13,13 @@ VALUES (6123,   1,       2048) /* ItemType - Gem */
      , (6123,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6123,  19,       5000) /* Value */
      , (6123,  33,          1) /* Bonded - Bonded */
-     , (6123,  65,        101) /* Placement - Resting */
      , (6123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6123,  94,      33027) /* TargetType - Armor, WeaponOrCaster */
-     , (6123, 114,          1) /* Attuned - Attuned */;
+     , (6123, 114,          1) /* Attuned - Attuned */
+     , (6123, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6123,   1, False) /* Stuck */
-     , (6123,  11, True ) /* IgnoreCollisions */
-     , (6123,  13, True ) /* Ethereal */
-     , (6123,  14, True ) /* GravityStatus */
-     , (6123,  19, True ) /* Attackable */
-     , (6123,  22, True ) /* Inscribable */;
+VALUES (6123,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6123,   1, 'Major Shivering Stone') /* Name */

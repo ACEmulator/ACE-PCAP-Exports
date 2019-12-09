@@ -18,7 +18,6 @@ VALUES (46110,   1,          1) /* ItemType - MeleeWeapon */
      , (46110,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46110,  49,         50) /* WeaponTime */
      , (46110,  51,          5) /* CombatUse - TwoHanded */
-     , (46110,  65,          1) /* Placement - RightHandCombat */
      , (46110,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46110, 106,        300) /* ItemSpellcraft */
      , (46110, 107,         96) /* ItemCurMana */
@@ -31,26 +30,22 @@ VALUES (46110,   1,          1) /* ItemType - MeleeWeapon */
      , (46110, 160,        350) /* WieldDifficulty */
      , (46110, 263,         16) /* ResistanceModifierType */
      , (46110, 292,          2) /* Cleaving */
-     , (46110, 8030,          0);
+     , (46110, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (46110, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46110,   1, False) /* Stuck */
-     , (46110,  11, True ) /* IgnoreCollisions */
-     , (46110,  13, True ) /* Ethereal */
-     , (46110,  14, True ) /* GravityStatus */
-     , (46110,  19, True ) /* Attackable */
-     , (46110,  22, True ) /* Inscribable */
+VALUES (46110,  22, True ) /* Inscribable */
      , (46110,  69, False) /* IsSellable */
      , (46110,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46110,   5, -0.025000000372529) /* ManaRate */
+VALUES (46110,   5,   -0.03) /* ManaRate */
      , (46110,  21,       0) /* WeaponLength */
-     , (46110,  22, 0.28999999165535) /* DamageVariance */
+     , (46110,  22,    0.29) /* DamageVariance */
      , (46110,  26,       0) /* MaximumVelocity */
-     , (46110,  29, 1.13999998569489) /* WeaponDefense */
+     , (46110,  29,    1.14) /* WeaponDefense */
      , (46110,  39,    1.25) /* DefaultScale */
-     , (46110,  62, 1.13999998569489) /* WeaponOffense */
+     , (46110,  62,    1.14) /* WeaponOffense */
      , (46110,  63,       1) /* DamageMod */
      , (46110, 157,       1) /* ResistanceModifier */;
 

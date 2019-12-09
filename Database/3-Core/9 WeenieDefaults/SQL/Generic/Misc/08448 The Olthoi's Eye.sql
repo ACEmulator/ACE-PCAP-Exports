@@ -8,15 +8,10 @@ VALUES (8448,   1,        128) /* ItemType - Misc */
      , (8448,   5,       9000) /* EncumbranceVal */
      , (8448,  16,          1) /* ItemUseable - No */
      , (8448,  19,        125) /* Value */
-     , (8448,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (8448,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8448,   1, True ) /* Stuck */
-     , (8448,  11, True ) /* IgnoreCollisions */
-     , (8448,  12, True ) /* ReportCollisions */
-     , (8448,  13, False) /* Ethereal */
-     , (8448,  14, True ) /* GravityStatus */
-     , (8448,  19, True ) /* Attackable */;
+VALUES (8448,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8448,   1, 'The Olthoi''s Eye') /* Name */

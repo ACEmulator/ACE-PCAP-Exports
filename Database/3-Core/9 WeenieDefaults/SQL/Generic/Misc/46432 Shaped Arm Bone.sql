@@ -16,12 +16,7 @@ VALUES (46432,   1,        128) /* ItemType - Misc */
      , (46432, 268,       7180) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46432,   1, False) /* Stuck */
-     , (46432,  11, True ) /* IgnoreCollisions */
-     , (46432,  13, True ) /* Ethereal */
-     , (46432,  14, True ) /* GravityStatus */
-     , (46432,  19, True ) /* Attackable */
-     , (46432,  22, True ) /* Inscribable */;
+VALUES (46432,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46432,   1, 'Shaped Arm Bone') /* Name */

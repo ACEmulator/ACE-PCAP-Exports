@@ -6,23 +6,18 @@ VALUES (34520, 'ace34520-arena5', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34520,   1,      65536) /* ItemType - Portal */
      , (34520,  16,         32) /* ItemUseable - Remote */
-     , (34520,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34520,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (34520, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (34520, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34520,   1, True ) /* Stuck */
-     , (34520,  11, True ) /* IgnoreCollisions */
-     , (34520,  13, False) /* Ethereal */
-     , (34520,  14, True ) /* GravityStatus */
-     , (34520,  19, True ) /* Attackable */;
+VALUES (34520,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34520,  54, 0.300000011920929) /* UseRadius */;
+VALUES (34520,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34520,   1, 'Arena 5') /* Name */
-     , (34520,  38, 'Arena 5') /* AppraisalPortalDestination */;
+VALUES (34520,   1, 'Arena 5') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34520,   1,   33560143) /* Setup */

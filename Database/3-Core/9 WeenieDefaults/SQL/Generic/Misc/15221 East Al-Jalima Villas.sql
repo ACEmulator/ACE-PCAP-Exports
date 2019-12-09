@@ -11,12 +11,7 @@ VALUES (15221,   1,        128) /* ItemType - Misc */
      , (15221,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15221,   1, True ) /* Stuck */
-     , (15221,  11, True ) /* IgnoreCollisions */
-     , (15221,  12, True ) /* ReportCollisions */
-     , (15221,  13, False) /* Ethereal */
-     , (15221,  14, True ) /* GravityStatus */
-     , (15221,  19, True ) /* Attackable */;
+VALUES (15221,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15221,   1, 'East Al-Jalima Villas') /* Name */

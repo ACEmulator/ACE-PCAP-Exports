@@ -15,14 +15,10 @@ VALUES (30904,   1,         16) /* ItemType - Creature */
      , (30904, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30904,   1, True ) /* Stuck */
-     , (30904,  12, True ) /* ReportCollisions */
-     , (30904,  13, False) /* Ethereal */
-     , (30904,  14, True ) /* GravityStatus */
-     , (30904,  19, True ) /* Attackable */;
+VALUES (30904,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30904,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (30904,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30904,   1, 'Banished Phyntos Wasp') /* Name */

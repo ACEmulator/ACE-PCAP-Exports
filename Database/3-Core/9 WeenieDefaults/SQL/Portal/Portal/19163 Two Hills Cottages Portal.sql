@@ -12,19 +12,13 @@ VALUES (19163,   1,      65536) /* ItemType - Portal */
      , (19163, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19163,   1, True ) /* Stuck */
-     , (19163,  12, True ) /* ReportCollisions */
-     , (19163,  13, True ) /* Ethereal */
-     , (19163,  14, True ) /* GravityStatus */
-     , (19163,  15, True ) /* LightsStatus */
-     , (19163,  19, True ) /* Attackable */;
+VALUES (19163,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19163,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19163,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19163,   1, 'Two Hills Cottages Portal') /* Name */
-     , (19163,  38, 'Two Hills Cottages Portal (39.2N, 32.6W).') /* AppraisalPortalDestination */
      , (19163, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

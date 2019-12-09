@@ -13,16 +13,9 @@ VALUES (39121,   1,        128) /* ItemType - Misc */
      , (39121,  16,          1) /* ItemUseable - No */
      , (39121,  19,         50) /* Value */
      , (39121,  33,          1) /* Bonded - Bonded */
-     , (39121,  65,        101) /* Placement - Resting */
      , (39121,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (39121, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39121,   1, False) /* Stuck */
-     , (39121,  11, True ) /* IgnoreCollisions */
-     , (39121,  13, True ) /* Ethereal */
-     , (39121,  14, True ) /* GravityStatus */
-     , (39121,  19, True ) /* Attackable */;
+     , (39121, 114,          1) /* Attuned - Attuned */
+     , (39121, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39121,   1, 'Invoking Stone') /* Name */

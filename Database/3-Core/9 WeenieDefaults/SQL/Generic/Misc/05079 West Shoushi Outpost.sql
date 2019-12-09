@@ -8,15 +8,11 @@ VALUES (5079,   1,        128) /* ItemType - Misc */
      , (5079,   5,       9000) /* EncumbranceVal */
      , (5079,  16,          1) /* ItemUseable - No */
      , (5079,  19,        125) /* Value */
-     , (5079,  65,        101) /* Placement - Resting */
-     , (5079,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5079,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5079, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5079,   1, True ) /* Stuck */
-     , (5079,  11, True ) /* IgnoreCollisions */
-     , (5079,  12, True ) /* ReportCollisions */
-     , (5079,  13, False) /* Ethereal */
-     , (5079,  19, True ) /* Attackable */;
+VALUES (5079,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5079,   1, 'West Shoushi Outpost') /* Name */

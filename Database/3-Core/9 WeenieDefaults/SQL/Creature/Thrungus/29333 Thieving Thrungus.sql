@@ -15,14 +15,10 @@ VALUES (29333,   1,         16) /* ItemType - Creature */
      , (29333, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29333,   1, True ) /* Stuck */
-     , (29333,  12, True ) /* ReportCollisions */
-     , (29333,  13, False) /* Ethereal */
-     , (29333,  14, True ) /* GravityStatus */
-     , (29333,  19, True ) /* Attackable */;
+VALUES (29333,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29333,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (29333,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29333,   1, 'Thieving Thrungus') /* Name */

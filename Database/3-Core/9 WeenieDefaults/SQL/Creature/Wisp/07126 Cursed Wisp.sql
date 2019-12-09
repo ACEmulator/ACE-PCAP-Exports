@@ -16,14 +16,10 @@ VALUES (7126,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7126,   1, True ) /* Stuck */
-     , (7126,  12, True ) /* ReportCollisions */
-     , (7126,  13, False) /* Ethereal */
-     , (7126,  14, True ) /* GravityStatus */
-     , (7126,  19, True ) /* Attackable */
      , (7126, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7126,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (7126,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7126,   1, 'Cursed Wisp') /* Name */

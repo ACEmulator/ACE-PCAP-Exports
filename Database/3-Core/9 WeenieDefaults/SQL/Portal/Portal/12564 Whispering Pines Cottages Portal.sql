@@ -12,19 +12,13 @@ VALUES (12564,   1,      65536) /* ItemType - Portal */
      , (12564, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12564,   1, True ) /* Stuck */
-     , (12564,  12, True ) /* ReportCollisions */
-     , (12564,  13, True ) /* Ethereal */
-     , (12564,  14, True ) /* GravityStatus */
-     , (12564,  15, True ) /* LightsStatus */
-     , (12564,  19, True ) /* Attackable */;
+VALUES (12564,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12564,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12564,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12564,   1, 'Whispering Pines Cottages Portal') /* Name */
-     , (12564,  38, 'Whispering Pines Cottages Portal (34.1N, 13.5E).') /* AppraisalPortalDestination */
      , (12564, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -18,11 +18,7 @@ VALUES (34564,   1,         16) /* ItemType - Creature */
      , (34564, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34564,   1, True ) /* Stuck */
-     , (34564,  12, True ) /* ReportCollisions */
-     , (34564,  13, False) /* Ethereal */
-     , (34564,  14, True ) /* GravityStatus */
-     , (34564,  19, True ) /* Attackable */;
+VALUES (34564,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34564,   1, 'Master of Storms') /* Name */

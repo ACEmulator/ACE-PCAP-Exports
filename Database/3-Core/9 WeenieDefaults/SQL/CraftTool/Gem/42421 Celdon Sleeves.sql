@@ -13,17 +13,12 @@ VALUES (42421,   1,       2048) /* ItemType - Gem */
      , (42421,  15,        653) /* StackUnitValue */
      , (42421,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (42421,  19,        653) /* Value */
-     , (42421,  65,        101) /* Placement - Resting */
      , (42421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42421,  94,          6) /* TargetType - Vestements */;
+     , (42421,  94,          6) /* TargetType - Vestements */
+     , (42421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42421,   1, False) /* Stuck */
-     , (42421,  11, True ) /* IgnoreCollisions */
-     , (42421,  13, True ) /* Ethereal */
-     , (42421,  14, True ) /* GravityStatus */
-     , (42421,  19, True ) /* Attackable */
-     , (42421,  22, True ) /* Inscribable */;
+VALUES (42421,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42421,   1, 'Celdon Sleeves') /* Name */;

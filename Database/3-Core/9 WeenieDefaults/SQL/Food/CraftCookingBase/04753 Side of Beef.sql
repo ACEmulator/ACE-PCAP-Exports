@@ -12,17 +12,10 @@ VALUES (4753,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4753,  15,         15) /* StackUnitValue */
      , (4753,  16,          8) /* ItemUseable - Contained */
      , (4753,  19,         15) /* Value */
-     , (4753,  65,        101) /* Placement - Resting */
      , (4753,  89,          4) /* BoosterEnum - Stamina */
      , (4753,  90,          1) /* BoostValue */
-     , (4753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4753,   1, False) /* Stuck */
-     , (4753,  11, True ) /* IgnoreCollisions */
-     , (4753,  13, True ) /* Ethereal */
-     , (4753,  14, True ) /* GravityStatus */
-     , (4753,  19, True ) /* Attackable */;
+     , (4753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4753, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4753,   1, 'Side of Beef') /* Name */

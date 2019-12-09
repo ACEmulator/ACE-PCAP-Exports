@@ -12,17 +12,12 @@ VALUES (47630,   1,          1) /* ItemType - MeleeWeapon */
      , (47630,  18,        256) /* UiEffects - Acid */
      , (47630,  19,        460) /* Value */
      , (47630,  51,          1) /* CombatUse - Melee */
-     , (47630,  65,          1) /* Placement - RightHandCombat */
      , (47630,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47630, 151,          2) /* HookType - Wall */;
+     , (47630, 151,          2) /* HookType - Wall */
+     , (47630, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47630,   1, False) /* Stuck */
-     , (47630,  11, True ) /* IgnoreCollisions */
-     , (47630,  13, True ) /* Ethereal */
-     , (47630,  14, True ) /* GravityStatus */
-     , (47630,  19, True ) /* Attackable */
-     , (47630,  22, True ) /* Inscribable */;
+VALUES (47630,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47630,   1, 'Acid Tachi') /* Name */;

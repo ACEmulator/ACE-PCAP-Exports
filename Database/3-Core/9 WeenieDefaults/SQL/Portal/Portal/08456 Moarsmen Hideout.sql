@@ -12,19 +12,13 @@ VALUES (8456,   1,      65536) /* ItemType - Portal */
      , (8456, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8456,   1, True ) /* Stuck */
-     , (8456,  12, True ) /* ReportCollisions */
-     , (8456,  13, True ) /* Ethereal */
-     , (8456,  14, True ) /* GravityStatus */
-     , (8456,  15, True ) /* LightsStatus */
-     , (8456,  19, True ) /* Attackable */;
+VALUES (8456,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8456,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8456,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8456,   1, 'Moarsmen Hideout') /* Name */
-     , (8456,  38, 'Moarsmen Hideout') /* AppraisalPortalDestination */
      , (8456, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

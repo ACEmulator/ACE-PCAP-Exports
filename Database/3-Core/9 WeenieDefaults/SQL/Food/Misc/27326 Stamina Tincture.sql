@@ -12,18 +12,11 @@ VALUES (27326,   1,        128) /* ItemType - Misc */
      , (27326,  15,        100) /* StackUnitValue */
      , (27326,  16,          8) /* ItemUseable - Contained */
      , (27326,  19,        100) /* Value */
-     , (27326,  65,        101) /* Placement - Resting */
      , (27326,  89,          4) /* BoosterEnum - Stamina */
      , (27326,  90,         60) /* BoostValue */
      , (27326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27326, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27326,   1, False) /* Stuck */
-     , (27326,  11, True ) /* IgnoreCollisions */
-     , (27326,  13, True ) /* Ethereal */
-     , (27326,  14, True ) /* GravityStatus */
-     , (27326,  19, True ) /* Attackable */;
+     , (27326, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (27326, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27326,   1, 'Stamina Tincture') /* Name */

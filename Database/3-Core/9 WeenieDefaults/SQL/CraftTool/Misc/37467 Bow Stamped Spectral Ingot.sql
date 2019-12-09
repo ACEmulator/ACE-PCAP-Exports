@@ -13,18 +13,13 @@ VALUES (37467,   1,        128) /* ItemType - Misc */
      , (37467,  16,          8) /* ItemUseable - Contained */
      , (37467,  19,          1) /* Value */
      , (37467,  33,         -1) /* Bonded - Slippery */
-     , (37467,  65,        101) /* Placement - Resting */
      , (37467,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37467,  94,         16) /* TargetType - Creature */
-     , (37467, 114,          0) /* Attuned - Normal */;
+     , (37467, 114,          0) /* Attuned - Normal */
+     , (37467, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37467,   1, False) /* Stuck */
-     , (37467,  11, True ) /* IgnoreCollisions */
-     , (37467,  13, True ) /* Ethereal */
-     , (37467,  14, True ) /* GravityStatus */
-     , (37467,  19, True ) /* Attackable */
-     , (37467,  22, True ) /* Inscribable */;
+VALUES (37467,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37467,   1, 'Bow Stamped Spectral Ingot') /* Name */

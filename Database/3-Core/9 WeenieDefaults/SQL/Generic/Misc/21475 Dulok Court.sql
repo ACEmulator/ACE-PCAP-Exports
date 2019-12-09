@@ -11,12 +11,7 @@ VALUES (21475,   1,        128) /* ItemType - Misc */
      , (21475,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21475,   1, True ) /* Stuck */
-     , (21475,  11, True ) /* IgnoreCollisions */
-     , (21475,  12, True ) /* ReportCollisions */
-     , (21475,  13, False) /* Ethereal */
-     , (21475,  14, True ) /* GravityStatus */
-     , (21475,  19, True ) /* Attackable */;
+VALUES (21475,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21475,   1, 'Dulok Court') /* Name */

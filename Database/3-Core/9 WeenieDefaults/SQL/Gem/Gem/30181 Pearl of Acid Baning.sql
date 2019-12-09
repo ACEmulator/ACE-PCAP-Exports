@@ -16,22 +16,17 @@ VALUES (30181,   1,       2048) /* ItemType - Gem */
      , (30181,  19,          0) /* Value */
      , (30181,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30181,  33,         -1) /* Bonded - Slippery */
-     , (30181,  65,        101) /* Placement - Resting */
      , (30181,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30181,  94,         16) /* TargetType - Creature */
      , (30181, 106,        325) /* ItemSpellcraft */
      , (30181, 107,      10000) /* ItemCurMana */
      , (30181, 108,      10000) /* ItemMaxMana */
      , (30181, 109,          0) /* ItemDifficulty */
-     , (30181, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30181, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30181, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30181,   1, False) /* Stuck */
-     , (30181,  11, True ) /* IgnoreCollisions */
-     , (30181,  13, True ) /* Ethereal */
-     , (30181,  14, True ) /* GravityStatus */
-     , (30181,  19, True ) /* Attackable */
-     , (30181, 108, True ) /* RareUsesTimer */;
+VALUES (30181, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30181,   1, 'Pearl of Acid Baning') /* Name */

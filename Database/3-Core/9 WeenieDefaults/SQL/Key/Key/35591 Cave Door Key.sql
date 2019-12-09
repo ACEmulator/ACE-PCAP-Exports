@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35591,   1,      16384) /* ItemType - Key */
      , (35591,   5,         50) /* EncumbranceVal */
      , (35591,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (35591,  65,        101) /* Placement - Resting */
      , (35591,  91,          1) /* MaxStructure */
      , (35591,  92,          1) /* Structure */
      , (35591,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35591,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (35591,  94,        640) /* TargetType - LockableMagicTarget */
+     , (35591, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35591,   1, False) /* Stuck */
-     , (35591,  11, True ) /* IgnoreCollisions */
-     , (35591,  13, True ) /* Ethereal */
-     , (35591,  14, True ) /* GravityStatus */
-     , (35591,  19, True ) /* Attackable */
-     , (35591,  22, True ) /* Inscribable */;
+VALUES (35591,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35591,   1, 'Cave Door Key') /* Name */;

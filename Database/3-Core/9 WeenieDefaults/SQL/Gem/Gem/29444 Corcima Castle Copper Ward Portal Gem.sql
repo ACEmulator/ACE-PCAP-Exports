@@ -12,19 +12,11 @@ VALUES (29444,   1,       2048) /* ItemType - Gem */
      , (29444,  15,          0) /* StackUnitValue */
      , (29444,  16,          8) /* ItemUseable - Contained */
      , (29444,  18,          1) /* UiEffects - Magical */
-     , (29444,  65,        101) /* Placement - Resting */
      , (29444,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (29444,  94,         16) /* TargetType - Creature */
      , (29444, 151,          2) /* HookType - Wall */
-     , (29444, 280,       1000) /* SharedCooldown */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29444,   1, False) /* Stuck */
-     , (29444,  11, True ) /* IgnoreCollisions */
-     , (29444,  13, True ) /* Ethereal */
-     , (29444,  14, True ) /* GravityStatus */
-     , (29444,  15, True ) /* LightsStatus */
-     , (29444,  19, True ) /* Attackable */;
+     , (29444, 280,       1000) /* SharedCooldown */
+     , (29444, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29444,  76,     0.5) /* Translucency */

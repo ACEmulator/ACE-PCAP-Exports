@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4589,   1,    1048576) /* ItemType - Service */
      , (4589,  16,          1) /* ItemUseable - No */
      , (4589,  19,         17) /* Value */
-     , (4589,  65,        101) /* Placement - Resting */
-     , (4589,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4589,   1, False) /* Stuck */
-     , (4589,  11, True ) /* IgnoreCollisions */
-     , (4589,  13, True ) /* Ethereal */
-     , (4589,  14, True ) /* GravityStatus */
-     , (4589,  19, True ) /* Attackable */;
+     , (4589,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4589, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4589,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (4589,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4589,   1, 'Revitalize Other I') /* Name */;

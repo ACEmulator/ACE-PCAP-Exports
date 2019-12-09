@@ -11,16 +11,11 @@ VALUES (15296,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (15296,  13,          0) /* StackUnitEncumbrance */
      , (15296,  15,         25) /* StackUnitValue */
      , (15296,  19,         25) /* Value */
-     , (15296,  65,        101) /* Placement - Resting */
-     , (15296,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (15296,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (15296, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15296,   1, False) /* Stuck */
-     , (15296,  11, True ) /* IgnoreCollisions */
-     , (15296,  13, True ) /* Ethereal */
-     , (15296,  14, True ) /* GravityStatus */
-     , (15296,  19, True ) /* Attackable */
-     , (15296,  69, False) /* IsSellable */;
+VALUES (15296,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15296,   1, 'Bundle of Atlatl Dart Shafts') /* Name */

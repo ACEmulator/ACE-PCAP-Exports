@@ -8,19 +8,14 @@ VALUES (37621,   1,      16384) /* ItemType - Key */
      , (37621,   5,          5) /* EncumbranceVal */
      , (37621,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (37621,  19,          0) /* Value */
-     , (37621,  65,        101) /* Placement - Resting */
      , (37621,  91,         25) /* MaxStructure */
      , (37621,  92,         25) /* Structure */
      , (37621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37621,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (37621,  94,        640) /* TargetType - LockableMagicTarget */
+     , (37621, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37621,   1, False) /* Stuck */
-     , (37621,  11, True ) /* IgnoreCollisions */
-     , (37621,  13, True ) /* Ethereal */
-     , (37621,  14, True ) /* GravityStatus */
-     , (37621,  19, True ) /* Attackable */
-     , (37621,  22, True ) /* Inscribable */;
+VALUES (37621,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37621,   1, 'Grand Casino Golden Keyring') /* Name */

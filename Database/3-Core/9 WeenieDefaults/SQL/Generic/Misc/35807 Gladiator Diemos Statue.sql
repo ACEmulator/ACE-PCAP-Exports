@@ -14,12 +14,7 @@ VALUES (35807,   1,        128) /* ItemType - Misc */
      , (35807, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35807,   1, False) /* Stuck */
-     , (35807,  11, True ) /* IgnoreCollisions */
-     , (35807,  13, True ) /* Ethereal */
-     , (35807,  14, True ) /* GravityStatus */
-     , (35807,  19, True ) /* Attackable */
-     , (35807,  22, True ) /* Inscribable */;
+VALUES (35807,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35807,   1, 'Gladiator Diemos Statue') /* Name */

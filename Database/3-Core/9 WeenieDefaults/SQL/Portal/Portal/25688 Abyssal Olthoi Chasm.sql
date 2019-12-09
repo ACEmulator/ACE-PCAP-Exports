@@ -13,19 +13,13 @@ VALUES (25688,   1,      65536) /* ItemType - Portal */
      , (25688, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25688,   1, True ) /* Stuck */
-     , (25688,  12, True ) /* ReportCollisions */
-     , (25688,  13, True ) /* Ethereal */
-     , (25688,  14, True ) /* GravityStatus */
-     , (25688,  15, True ) /* LightsStatus */
-     , (25688,  19, True ) /* Attackable */;
+VALUES (25688,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25688,  54, -0.100000001490116) /* UseRadius */;
+VALUES (25688,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25688,   1, 'Abyssal Olthoi Chasm') /* Name */
-     , (25688,  38, 'Abyssal Olthoi Chasm') /* AppraisalPortalDestination */
      , (25688, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

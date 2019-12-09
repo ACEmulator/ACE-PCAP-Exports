@@ -15,11 +15,7 @@ VALUES (38179,   1,         16) /* ItemType - Creature */
      , (38179, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38179,   1, True ) /* Stuck */
-     , (38179,  12, True ) /* ReportCollisions */
-     , (38179,  13, False) /* Ethereal */
-     , (38179,  14, True ) /* GravityStatus */
-     , (38179,  19, True ) /* Attackable */;
+VALUES (38179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38179,   1, 'Blighted Sotiris Hollow Minion') /* Name */

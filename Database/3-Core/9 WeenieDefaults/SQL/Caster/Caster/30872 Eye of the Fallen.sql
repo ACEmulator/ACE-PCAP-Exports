@@ -22,19 +22,14 @@ VALUES (30872,   1,      32768) /* ItemType - Caster */
      , (30872, 160,        330) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30872,   1, False) /* Stuck */
-     , (30872,  11, True ) /* IgnoreCollisions */
-     , (30872,  13, True ) /* Ethereal */
-     , (30872,  14, True ) /* GravityStatus */
-     , (30872,  19, True ) /* Attackable */
-     , (30872,  22, True ) /* Inscribable */;
+VALUES (30872,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30872,   5,  -0.025) /* ManaRate */
+VALUES (30872,   5,   -0.02) /* ManaRate */
      , (30872,  29,    1.08) /* WeaponDefense */
-     , (30872,  39, 0.600000023841858) /* DefaultScale */
+     , (30872,  39,     0.6) /* DefaultScale */
      , (30872, 136,       1) /* CriticalMultiplier */
-     , (30872, 144, 1.08060957042764E-314) /* ManaConversionMod */
+     , (30872, 144,       0) /* ManaConversionMod */
      , (30872, 152,    1.08) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

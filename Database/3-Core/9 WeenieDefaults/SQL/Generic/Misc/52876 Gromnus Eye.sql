@@ -10,21 +10,16 @@ VALUES (52876,   1,        128) /* ItemType - Misc */
      , (52876,  18,        128) /* UiEffects - Frost */
      , (52876,  19,          0) /* Value */
      , (52876,  33,          1) /* Bonded - Bonded */
-     , (52876,  65,        101) /* Placement - Resting */
      , (52876,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52876, 114,          1) /* Attuned - Attuned */;
+     , (52876, 114,          1) /* Attuned - Attuned */
+     , (52876, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52876,   1, False) /* Stuck */
-     , (52876,  11, True ) /* IgnoreCollisions */
-     , (52876,  13, True ) /* Ethereal */
-     , (52876,  14, True ) /* GravityStatus */
-     , (52876,  19, True ) /* Attackable */
-     , (52876,  22, True ) /* Inscribable */
+VALUES (52876,  22, True ) /* Inscribable */
      , (52876,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52876,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (52876,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52876,   1, 'Gromnus Eye') /* Name */

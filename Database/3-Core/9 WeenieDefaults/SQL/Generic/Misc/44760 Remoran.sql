@@ -11,15 +11,8 @@ VALUES (44760,   1,        128) /* ItemType - Misc */
      , (44760,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */
      , (44760, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44760,   1, False) /* Stuck */
-     , (44760,  11, True ) /* IgnoreCollisions */
-     , (44760,  12, True ) /* ReportCollisions */
-     , (44760,  13, True ) /* Ethereal */
-     , (44760,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44760,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (44760,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44760,   1, 'Remoran') /* Name */

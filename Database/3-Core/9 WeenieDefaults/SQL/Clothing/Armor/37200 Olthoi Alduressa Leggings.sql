@@ -27,23 +27,18 @@ VALUES (37200,   1,          2) /* ItemType - Armor */
      , (37200, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37200,   1, False) /* Stuck */
-     , (37200,  11, True ) /* IgnoreCollisions */
-     , (37200,  13, True ) /* Ethereal */
-     , (37200,  14, True ) /* GravityStatus */
-     , (37200,  19, True ) /* Attackable */
-     , (37200,  22, True ) /* Inscribable */
+VALUES (37200,  22, True ) /* Inscribable */
      , (37200, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37200,   5, -0.0666666666666667) /* ManaRate */
-     , (37200,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (37200,  14, 0.800000011920929) /* ArmorModVsPierce */
+VALUES (37200,   5,   -0.07) /* ManaRate */
+     , (37200,  13,     1.2) /* ArmorModVsSlash */
+     , (37200,  14,     0.8) /* ArmorModVsPierce */
      , (37200,  15,       1) /* ArmorModVsBludgeon */
      , (37200,  16,     0.5) /* ArmorModVsCold */
      , (37200,  17,     0.5) /* ArmorModVsFire */
-     , (37200,  18, 0.832041561603546) /* ArmorModVsAcid */
-     , (37200,  19, 1.65125346183777) /* ArmorModVsElectric */
+     , (37200,  18,    0.83) /* ArmorModVsAcid */
+     , (37200,  19,    1.65) /* ArmorModVsElectric */
      , (37200, 165,       1) /* ArmorModVsNether */
      , (37200, 8004,       7) /* PCAPRecordedWorkmanship */;
 

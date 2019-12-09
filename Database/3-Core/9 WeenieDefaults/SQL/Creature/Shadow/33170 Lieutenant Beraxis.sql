@@ -17,14 +17,10 @@ VALUES (33170,   1,         16) /* ItemType - Creature */
      , (33170, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33170,   1, True ) /* Stuck */
-     , (33170,  12, True ) /* ReportCollisions */
-     , (33170,  13, False) /* Ethereal */
-     , (33170,  14, True ) /* GravityStatus */
-     , (33170,  19, True ) /* Attackable */;
+VALUES (33170,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33170,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (33170,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33170,   1, 'Lieutenant Beraxis') /* Name */

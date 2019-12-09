@@ -14,15 +14,10 @@ VALUES (9169,   1,       2048) /* ItemType - Gem */
      , (9169, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9169,   1, False) /* Stuck */
-     , (9169,  11, True ) /* IgnoreCollisions */
-     , (9169,  13, True ) /* Ethereal */
-     , (9169,  14, True ) /* GravityStatus */
-     , (9169,  19, True ) /* Attackable */
-     , (9169,  22, True ) /* Inscribable */;
+VALUES (9169,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9169,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (9169,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9169,   1, 'Plush Tusker') /* Name */

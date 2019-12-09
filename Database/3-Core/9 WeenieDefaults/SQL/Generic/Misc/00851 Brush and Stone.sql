@@ -8,15 +8,10 @@ VALUES (851,   1,        128) /* ItemType - Misc */
      , (851,   5,       9000) /* EncumbranceVal */
      , (851,  16,          1) /* ItemUseable - No */
      , (851,  19,        125) /* Value */
-     , (851,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (851,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (851,   1, True ) /* Stuck */
-     , (851,  11, True ) /* IgnoreCollisions */
-     , (851,  12, True ) /* ReportCollisions */
-     , (851,  13, False) /* Ethereal */
-     , (851,  14, True ) /* GravityStatus */
-     , (851,  19, True ) /* Attackable */;
+VALUES (851,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (851,   1, 'Brush and Stone') /* Name */

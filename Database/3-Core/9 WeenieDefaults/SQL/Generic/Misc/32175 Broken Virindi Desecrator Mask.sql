@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32175,   1,        128) /* ItemType - Misc */
      , (32175,   5,        300) /* EncumbranceVal */
      , (32175,  16,          1) /* ItemUseable - No */
-     , (32175,  65,        101) /* Placement - Resting */
-     , (32175,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (32175,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32175, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32175,   1, False) /* Stuck */
-     , (32175,  11, True ) /* IgnoreCollisions */
-     , (32175,  13, True ) /* Ethereal */
-     , (32175,  14, True ) /* GravityStatus */
-     , (32175,  19, True ) /* Attackable */
-     , (32175,  22, True ) /* Inscribable */;
+VALUES (32175,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32175,   1, 'Broken Virindi Desecrator Mask') /* Name */;

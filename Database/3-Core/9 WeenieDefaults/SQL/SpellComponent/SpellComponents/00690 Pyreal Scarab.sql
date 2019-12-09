@@ -12,16 +12,9 @@ VALUES (690,   1,       4096) /* ItemType - SpellComponents */
      , (690,  15,       1000) /* StackUnitValue */
      , (690,  16,          1) /* ItemUseable - No */
      , (690,  19,       1000) /* Value */
-     , (690,  65,        101) /* Placement - Resting */
      , (690,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (690, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (690,   1, False) /* Stuck */
-     , (690,  11, True ) /* IgnoreCollisions */
-     , (690,  13, True ) /* Ethereal */
-     , (690,  14, True ) /* GravityStatus */
-     , (690,  19, True ) /* Attackable */;
+     , (690, 151,          2) /* HookType - Wall */
+     , (690, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (690,   1, 'Pyreal Scarab') /* Name */;

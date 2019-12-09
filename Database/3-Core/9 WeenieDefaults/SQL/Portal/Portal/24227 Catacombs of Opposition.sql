@@ -12,19 +12,13 @@ VALUES (24227,   1,      65536) /* ItemType - Portal */
      , (24227, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24227,   1, True ) /* Stuck */
-     , (24227,  12, True ) /* ReportCollisions */
-     , (24227,  13, True ) /* Ethereal */
-     , (24227,  14, True ) /* GravityStatus */
-     , (24227,  15, True ) /* LightsStatus */
-     , (24227,  19, True ) /* Attackable */;
+VALUES (24227,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24227,  54, -0.100000001490116) /* UseRadius */;
+VALUES (24227,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24227,   1, 'Catacombs of Opposition') /* Name */
-     , (24227,  38, 'Catacombs of Opposition') /* AppraisalPortalDestination */
      , (24227, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -9,17 +9,12 @@ VALUES (38160,   1,        128) /* ItemType - Misc */
      , (38160,  16,          1) /* ItemUseable - No */
      , (38160,  19,          0) /* Value */
      , (38160,  33,          1) /* Bonded - Bonded */
-     , (38160,  65,        101) /* Placement - Resting */
      , (38160,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38160, 114,          1) /* Attuned - Attuned */;
+     , (38160, 114,          1) /* Attuned - Attuned */
+     , (38160, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38160,   1, False) /* Stuck */
-     , (38160,  11, True ) /* IgnoreCollisions */
-     , (38160,  13, True ) /* Ethereal */
-     , (38160,  14, True ) /* GravityStatus */
-     , (38160,  19, True ) /* Attackable */
-     , (38160,  22, True ) /* Inscribable */;
+VALUES (38160,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38160,   1, 'Tattered Rank Moarsman Ritual') /* Name */

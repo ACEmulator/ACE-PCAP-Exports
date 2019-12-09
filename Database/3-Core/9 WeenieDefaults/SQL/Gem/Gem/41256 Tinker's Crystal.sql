@@ -15,22 +15,17 @@ VALUES (41256,   1,       2048) /* ItemType - Gem */
      , (41256,  18,          1) /* UiEffects - Magical */
      , (41256,  19,          0) /* Value */
      , (41256,  33,         -1) /* Bonded - Slippery */
-     , (41256,  65,        101) /* Placement - Resting */
      , (41256,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41256,  94,         16) /* TargetType - Creature */
      , (41256, 106,        325) /* ItemSpellcraft */
      , (41256, 107,      10000) /* ItemCurMana */
      , (41256, 108,      10000) /* ItemMaxMana */
      , (41256, 109,          0) /* ItemDifficulty */
-     , (41256, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (41256, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (41256, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41256,   1, False) /* Stuck */
-     , (41256,  11, True ) /* IgnoreCollisions */
-     , (41256,  13, True ) /* Ethereal */
-     , (41256,  14, True ) /* GravityStatus */
-     , (41256,  19, True ) /* Attackable */
-     , (41256, 108, True ) /* RareUsesTimer */;
+VALUES (41256, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41256,   1, 'Tinker''s Crystal') /* Name */

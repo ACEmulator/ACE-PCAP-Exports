@@ -10,17 +10,12 @@ VALUES (11259,   1,          1) /* ItemType - MeleeWeapon */
      , (11259,  16,          1) /* ItemUseable - No */
      , (11259,  18,          1) /* UiEffects - Magical */
      , (11259,  51,          1) /* CombatUse - Melee */
-     , (11259,  65,        101) /* Placement - Resting */
      , (11259,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11259, 151,          2) /* HookType - Wall */;
+     , (11259, 151,          2) /* HookType - Wall */
+     , (11259, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11259,   1, False) /* Stuck */
-     , (11259,  11, True ) /* IgnoreCollisions */
-     , (11259,  13, True ) /* Ethereal */
-     , (11259,  14, True ) /* GravityStatus */
-     , (11259,  19, True ) /* Attackable */
-     , (11259,  22, True ) /* Inscribable */;
+VALUES (11259,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11259,   1, 'Hoeroa of Palenqual') /* Name */;

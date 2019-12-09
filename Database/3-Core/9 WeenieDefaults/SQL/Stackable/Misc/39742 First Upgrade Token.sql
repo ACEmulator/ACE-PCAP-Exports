@@ -14,15 +14,8 @@ VALUES (39742,   1,        128) /* ItemType - Misc */
      , (39742,  19,          2) /* Value */
      , (39742,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39742,   1, False) /* Stuck */
-     , (39742,  11, True ) /* IgnoreCollisions */
-     , (39742,  13, True ) /* Ethereal */
-     , (39742,  14, True ) /* GravityStatus */
-     , (39742,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39742,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (39742,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39742,   1, 'First Upgrade Token') /* Name */;

@@ -12,18 +12,13 @@ VALUES (11865,   1,       2048) /* ItemType - Gem */
      , (11865,  15,          0) /* StackUnitValue */
      , (11865,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11865,  19,          0) /* Value */
-     , (11865,  65,        101) /* Placement - Resting */
      , (11865,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11865,  94,        128) /* TargetType - Misc */
-     , (11865, 151,          2) /* HookType - Wall */;
+     , (11865, 151,          2) /* HookType - Wall */
+     , (11865, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11865,   1, False) /* Stuck */
-     , (11865,  11, True ) /* IgnoreCollisions */
-     , (11865,  13, True ) /* Ethereal */
-     , (11865,  14, True ) /* GravityStatus */
-     , (11865,  19, True ) /* Attackable */
-     , (11865,  22, True ) /* Inscribable */;
+VALUES (11865,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11865,   1, 'Shreth Spear-Head') /* Name */

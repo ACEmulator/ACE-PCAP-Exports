@@ -8,22 +8,17 @@ VALUES (53386,   1,         16) /* ItemType - Creature */
      , (53386,   6,        255) /* ItemsCapacity */
      , (53386,   7,        255) /* ContainersCapacity */
      , (53386,  16,         32) /* ItemUseable - Remote */
-     , (53386,  93,    2163736) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP, ReportCollisionsAsEnvironment */
+     , (53386,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (53386,  95,          4) /* RadarBlipColor - Purple */
      , (53386, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (53386, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53386,   1, True ) /* Stuck */
-     , (53386,  11, True ) /* IgnoreCollisions */
-     , (53386,  12, True ) /* ReportCollisions */
-     , (53386,  13, False) /* Ethereal */
-     , (53386,  14, True ) /* GravityStatus */
-     , (53386,  19, False) /* Attackable */
-     , (53386,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (53386,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53386,  54, 0.300000011920929) /* UseRadius */;
+VALUES (53386,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53386,   1, 'Gauntlet Stage 5') /* Name */

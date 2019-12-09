@@ -18,15 +18,10 @@ VALUES (6356,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6356,   1, True ) /* Stuck */
-     , (6356,  11, True ) /* IgnoreCollisions */
-     , (6356,  12, True ) /* ReportCollisions */
-     , (6356,  13, False) /* Ethereal */
-     , (6356,  14, True ) /* GravityStatus */
-     , (6356,  19, False) /* Attackable */
-     , (6356,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (6356,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6356,  39, 0.949999988079071) /* DefaultScale */;
+VALUES (6356,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6356,   1, 'Silencia''s Magma Golem') /* Name */

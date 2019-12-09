@@ -6,14 +6,11 @@ VALUES (34775, 'ace34775-lockeddoor', 1, '2019-02-10 00:00:00') /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34775,   1,        128) /* ItemType - Misc */
      , (34775,  16,         48) /* ItemUseable - ViewedRemote */
-     , (34775,  93,      65556) /* PhysicsState - Ethereal, IgnoreCollisions, HasPhysicsBSP */
+     , (34775,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (34775, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34775,   1, True ) /* Stuck */
-     , (34775,  11, True ) /* IgnoreCollisions */
-     , (34775,  13, True ) /* Ethereal */
-     , (34775,  19, True ) /* Attackable */;
+VALUES (34775,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34775,  54,       2) /* UseRadius */;

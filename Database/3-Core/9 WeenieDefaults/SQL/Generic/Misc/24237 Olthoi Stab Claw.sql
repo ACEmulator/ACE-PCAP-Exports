@@ -9,17 +9,12 @@ VALUES (24237,   1,        128) /* ItemType - Misc */
      , (24237,  16,          1) /* ItemUseable - No */
      , (24237,  19,         20) /* Value */
      , (24237,  33,          1) /* Bonded - Bonded */
-     , (24237,  65,        101) /* Placement - Resting */
      , (24237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24237, 114,          1) /* Attuned - Attuned */;
+     , (24237, 114,          1) /* Attuned - Attuned */
+     , (24237, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24237,   1, False) /* Stuck */
-     , (24237,  11, True ) /* IgnoreCollisions */
-     , (24237,  13, True ) /* Ethereal */
-     , (24237,  14, True ) /* GravityStatus */
-     , (24237,  19, True ) /* Attackable */
-     , (24237,  22, True ) /* Inscribable */;
+VALUES (24237,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24237,   1, 'Olthoi Stab Claw') /* Name */

@@ -15,17 +15,13 @@ VALUES (27718,   1,         16) /* ItemType - Creature */
      , (27718, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27718,   1, True ) /* Stuck */
-     , (27718,  12, True ) /* ReportCollisions */
-     , (27718,  13, False) /* Ethereal */
-     , (27718,  14, True ) /* GravityStatus */
-     , (27718,  19, True ) /* Attackable */;
+VALUES (27718,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27718,  39, 1.29999995231628) /* DefaultScale */
+VALUES (27718,  39,     1.3) /* DefaultScale */
      , (27718, 8010,       0) /* PCAPRecordedVelocityX */
      , (27718, 8011,       0) /* PCAPRecordedVelocityY */
-     , (27718, 8012, -0.0181791540235281) /* PCAPRecordedVelocityZ */;
+     , (27718, 8012,   -0.02) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27718,   1, 'Woodland Ursuin') /* Name */

@@ -11,12 +11,7 @@ VALUES (14726,   1,        128) /* ItemType - Misc */
      , (14726,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14726,   1, True ) /* Stuck */
-     , (14726,  11, True ) /* IgnoreCollisions */
-     , (14726,  12, True ) /* ReportCollisions */
-     , (14726,  13, False) /* Ethereal */
-     , (14726,  14, True ) /* GravityStatus */
-     , (14726,  19, True ) /* Attackable */;
+VALUES (14726,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14726,   1, 'Pine Deep') /* Name */;

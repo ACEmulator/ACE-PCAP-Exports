@@ -10,16 +10,11 @@ VALUES (50,   1,          2) /* ItemType - Armor */
      , (50,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
      , (50,  16,          1) /* ItemUseable - No */
      , (50,  19,       2000) /* Value */
-     , (50,  65,        101) /* Placement - Resting */
-     , (50,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (50,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (50, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (50,   1, False) /* Stuck */
-     , (50,  11, True ) /* IgnoreCollisions */
-     , (50,  13, True ) /* Ethereal */
-     , (50,  14, True ) /* GravityStatus */
-     , (50,  19, True ) /* Attackable */
-     , (50,  22, True ) /* Inscribable */;
+VALUES (50,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (50,   1, 'Leather Cuirass') /* Name */;

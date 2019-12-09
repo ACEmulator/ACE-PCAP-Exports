@@ -11,11 +11,7 @@ VALUES (6894,   1,        128) /* ItemType - Misc */
      , (6894,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6894,   1, True ) /* Stuck */
-     , (6894,  11, True ) /* IgnoreCollisions */
-     , (6894,  12, True ) /* ReportCollisions */
-     , (6894,  13, False) /* Ethereal */
-     , (6894,  19, True ) /* Attackable */;
+VALUES (6894,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6894,   1, 'Tailor') /* Name */

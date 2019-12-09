@@ -14,15 +14,8 @@ VALUES (14795,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14795,  19,         10) /* Value */
      , (14795,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14795,   1, False) /* Stuck */
-     , (14795,  11, True ) /* IgnoreCollisions */
-     , (14795,  13, True ) /* Ethereal */
-     , (14795,  14, True ) /* GravityStatus */
-     , (14795,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14795,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (14795,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14795,   1, 'Nutmeg') /* Name */

@@ -11,12 +11,7 @@ VALUES (12627,   1,        128) /* ItemType - Misc */
      , (12627,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12627,   1, True ) /* Stuck */
-     , (12627,  11, True ) /* IgnoreCollisions */
-     , (12627,  12, True ) /* ReportCollisions */
-     , (12627,  13, False) /* Ethereal */
-     , (12627,  14, True ) /* GravityStatus */
-     , (12627,  19, True ) /* Attackable */;
+VALUES (12627,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12627,   1, 'Monument Sands Settlement') /* Name */

@@ -18,7 +18,6 @@ VALUES (32642,   1,        256) /* ItemType - MissileWeapon */
      , (32642,  49,         20) /* WeaponTime */
      , (32642,  50,          2) /* AmmoType - Bolt */
      , (32642,  51,          2) /* CombatUse - Missle */
-     , (32642,  65,        101) /* Placement - Resting */
      , (32642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32642, 114,          1) /* Attuned - Attuned */
      , (32642, 151,          2) /* HookType - Wall */
@@ -28,15 +27,11 @@ VALUES (32642,   1,        256) /* ItemType - MissileWeapon */
      , (32642, 166,         22) /* SlayerCreatureType - Shadow */
      , (32642, 204,         12) /* ElementalDamageBonus */
      , (32642, 353,          9) /* WeaponType - Crossbow */
-     , (32642, 8030,          0);
+     , (32642, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (32642, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32642,   1, False) /* Stuck */
-     , (32642,  11, True ) /* IgnoreCollisions */
-     , (32642,  13, True ) /* Ethereal */
-     , (32642,  14, True ) /* GravityStatus */
-     , (32642,  19, True ) /* Attackable */
-     , (32642,  22, True ) /* Inscribable */
+VALUES (32642,  22, True ) /* Inscribable */
      , (32642,  69, False) /* IsSellable */
      , (32642,  99, True ) /* Ivoryable */;
 
@@ -44,10 +39,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32642,  21,       0) /* WeaponLength */
      , (32642,  22,       0) /* DamageVariance */
      , (32642,  26,    27.3) /* MaximumVelocity */
-     , (32642,  29, 1.28999996185303) /* WeaponDefense */
+     , (32642,  29,    1.29) /* WeaponDefense */
      , (32642,  39,    1.25) /* DefaultScale */
      , (32642,  62,       1) /* WeaponOffense */
-     , (32642,  63, 2.54999995231628) /* DamageMod */
+     , (32642,  63,    2.55) /* DamageMod */
      , (32642, 136,       1) /* CriticalMultiplier */
      , (32642, 147,       1) /* CriticalFrequency */;
 

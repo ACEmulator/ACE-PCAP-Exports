@@ -8,15 +8,10 @@ VALUES (24587,   1,        128) /* ItemType - Misc */
      , (24587,   5,       9000) /* EncumbranceVal */
      , (24587,  16,          1) /* ItemUseable - No */
      , (24587,  19,        125) /* Value */
-     , (24587,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (24587,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24587,   1, True ) /* Stuck */
-     , (24587,  11, True ) /* IgnoreCollisions */
-     , (24587,  12, True ) /* ReportCollisions */
-     , (24587,  13, False) /* Ethereal */
-     , (24587,  14, True ) /* GravityStatus */
-     , (24587,  19, True ) /* Attackable */;
+VALUES (24587,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24587,   1, 'Candeth Keep') /* Name */

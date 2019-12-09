@@ -11,11 +11,7 @@ VALUES (42891,   1,        128) /* ItemType - Misc */
      , (42891,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42891,   1, True ) /* Stuck */
-     , (42891,  11, True ) /* IgnoreCollisions */
-     , (42891,  12, True ) /* ReportCollisions */
-     , (42891,  13, True ) /* Ethereal */
-     , (42891,  19, True ) /* Attackable */;
+VALUES (42891,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42891,   1, 'Armoredillo') /* Name */

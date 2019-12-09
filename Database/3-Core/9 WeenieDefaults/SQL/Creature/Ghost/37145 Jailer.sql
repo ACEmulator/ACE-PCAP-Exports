@@ -18,16 +18,11 @@ VALUES (37145,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37145,   1, True ) /* Stuck */
-     , (37145,  11, True ) /* IgnoreCollisions */
-     , (37145,  12, True ) /* ReportCollisions */
-     , (37145,  13, False) /* Ethereal */
-     , (37145,  14, True ) /* GravityStatus */
-     , (37145,  19, False) /* Attackable */
-     , (37145,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (37145,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37145,  39, 1.20000004768372) /* DefaultScale */
-     , (37145,  76, 0.800000011920929) /* Translucency */;
+VALUES (37145,  39,     1.2) /* DefaultScale */
+     , (37145,  76,     0.8) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37145,   1, 'Jailer') /* Name */

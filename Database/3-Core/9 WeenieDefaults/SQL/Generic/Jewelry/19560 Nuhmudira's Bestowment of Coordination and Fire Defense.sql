@@ -10,20 +10,15 @@ VALUES (19560,   1,          8) /* ItemType - Jewelry */
      , (19560,  16,          1) /* ItemUseable - No */
      , (19560,  18,         32) /* UiEffects - Fire */
      , (19560,  19,       5000) /* Value */
-     , (19560,  65,        101) /* Placement - Resting */
      , (19560,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19560, 151,          2) /* HookType - Wall */;
+     , (19560, 151,          2) /* HookType - Wall */
+     , (19560, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19560,   1, False) /* Stuck */
-     , (19560,  11, True ) /* IgnoreCollisions */
-     , (19560,  13, True ) /* Ethereal */
-     , (19560,  14, True ) /* GravityStatus */
-     , (19560,  19, True ) /* Attackable */
-     , (19560,  22, True ) /* Inscribable */;
+VALUES (19560,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19560,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (19560,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19560,   1, 'Nuhmudira''s Bestowment of Coordination and Fire Defense') /* Name */;

@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11771,   1,        128) /* ItemType - Misc */
      , (11771,   5,        100) /* EncumbranceVal */
      , (11771,  16,          1) /* ItemUseable - No */
-     , (11771,  65,        101) /* Placement - Resting */
-     , (11771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11771, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11771,   1, False) /* Stuck */
-     , (11771,  11, True ) /* IgnoreCollisions */
-     , (11771,  13, True ) /* Ethereal */
-     , (11771,  14, True ) /* GravityStatus */
-     , (11771,  19, True ) /* Attackable */
-     , (11771,  22, True ) /* Inscribable */;
+VALUES (11771,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11771,   1, 'Reinforced Falcon Banner') /* Name */;

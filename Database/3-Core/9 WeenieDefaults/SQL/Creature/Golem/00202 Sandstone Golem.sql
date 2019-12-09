@@ -15,11 +15,7 @@ VALUES (202,   1,         16) /* ItemType - Creature */
      , (202, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (202,   1, True ) /* Stuck */
-     , (202,  12, True ) /* ReportCollisions */
-     , (202,  13, False) /* Ethereal */
-     , (202,  14, True ) /* GravityStatus */
-     , (202,  19, True ) /* Attackable */;
+VALUES (202,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (202,   1, 'Sandstone Golem') /* Name */

@@ -18,11 +18,7 @@ VALUES (25963,   1,         16) /* ItemType - Creature */
      , (25963, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25963,   1, True ) /* Stuck */
-     , (25963,  12, True ) /* ReportCollisions */
-     , (25963,  13, False) /* Ethereal */
-     , (25963,  14, True ) /* GravityStatus */
-     , (25963,  19, True ) /* Attackable */;
+VALUES (25963,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25963,   1, 'Demented Zharalim') /* Name */

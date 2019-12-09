@@ -39,17 +39,11 @@ VALUES (36202,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36202,   1, True ) /* Stuck */
-     , (36202,  11, True ) /* IgnoreCollisions */
-     , (36202,  12, True ) /* ReportCollisions */
-     , (36202,  13, True ) /* Ethereal */
-     , (36202,  14, True ) /* GravityStatus */
-     , (36202,  19, False) /* Attackable */
-     , (36202,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (36202,  42, True ) /* AllowEdgeSlide */;
+     , (36202,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36202,  54,       2) /* UseRadius */
-     , (36202,  76, 0.300000011920929) /* Translucency */;
+     , (36202,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36202,   1, 'Hollow') /* Name */

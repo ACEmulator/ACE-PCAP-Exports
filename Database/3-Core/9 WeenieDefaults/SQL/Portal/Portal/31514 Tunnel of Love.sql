@@ -13,20 +13,14 @@ VALUES (31514,   1,      65536) /* ItemType - Portal */
      , (31514, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31514,   1, True ) /* Stuck */
-     , (31514,  12, True ) /* ReportCollisions */
-     , (31514,  13, True ) /* Ethereal */
-     , (31514,  14, True ) /* GravityStatus */
-     , (31514,  15, True ) /* LightsStatus */
-     , (31514,  19, True ) /* Attackable */;
+VALUES (31514,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31514,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31514,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31514,   1, 'Tunnel of Love') /* Name */
      , (31514,  16, 'You must appease the Golem Xireri before you may use this portal.') /* LongDesc */
-     , (31514,  38, 'Tunnel of Love') /* AppraisalPortalDestination */
      , (31514, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

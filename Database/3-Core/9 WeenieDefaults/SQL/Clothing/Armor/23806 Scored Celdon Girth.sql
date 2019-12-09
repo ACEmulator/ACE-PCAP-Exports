@@ -14,33 +14,28 @@ VALUES (23806,   1,          2) /* ItemType - Armor */
      , (23806,  19,       1610) /* Value */
      , (23806,  28,        480) /* ArmorLevel */
      , (23806,  33,          1) /* Bonded - Bonded */
-     , (23806,  65,        101) /* Placement - Resting */
      , (23806,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23806, 107,          0) /* ItemCurMana */
      , (23806, 108,       1000) /* ItemMaxMana */
      , (23806, 109,          0) /* ItemDifficulty */
      , (23806, 158,          7) /* WieldRequirements - Level */
      , (23806, 159,          1) /* WieldSkillType - Axe */
-     , (23806, 160,         50) /* WieldDifficulty */;
+     , (23806, 160,         50) /* WieldDifficulty */
+     , (23806, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23806,   1, False) /* Stuck */
-     , (23806,  11, True ) /* IgnoreCollisions */
-     , (23806,  13, True ) /* Ethereal */
-     , (23806,  14, True ) /* GravityStatus */
-     , (23806,  19, True ) /* Attackable */
-     , (23806,  22, True ) /* Inscribable */
+VALUES (23806,  22, True ) /* Inscribable */
      , (23806,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23806,   5, -0.025000000372529) /* ManaRate */
+VALUES (23806,   5,   -0.03) /* ManaRate */
      , (23806,  13,       3) /* ArmorModVsSlash */
-     , (23806,  14, 2.70000004768372) /* ArmorModVsPierce */
-     , (23806,  15, 2.70000004768372) /* ArmorModVsBludgeon */
+     , (23806,  14,     2.7) /* ArmorModVsPierce */
+     , (23806,  15,     2.7) /* ArmorModVsBludgeon */
      , (23806,  16,     2.5) /* ArmorModVsCold */
      , (23806,  17,     2.5) /* ArmorModVsFire */
      , (23806,  18,     2.5) /* ArmorModVsAcid */
-     , (23806,  19, 2.20000004768372) /* ArmorModVsElectric */
+     , (23806,  19,     2.2) /* ArmorModVsElectric */
      , (23806, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

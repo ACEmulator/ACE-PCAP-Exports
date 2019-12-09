@@ -8,16 +8,11 @@ VALUES (24584,   1,        128) /* ItemType - Misc */
      , (24584,   5,       9000) /* EncumbranceVal */
      , (24584,  16,          1) /* ItemUseable - No */
      , (24584,  19,        125) /* Value */
-     , (24584,  65,        101) /* Placement - Resting */
-     , (24584,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (24584,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (24584, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24584,   1, True ) /* Stuck */
-     , (24584,  11, True ) /* IgnoreCollisions */
-     , (24584,  12, True ) /* ReportCollisions */
-     , (24584,  13, False) /* Ethereal */
-     , (24584,  14, True ) /* GravityStatus */
-     , (24584,  19, True ) /* Attackable */;
+VALUES (24584,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24584,   1, 'Sangi''s Goods') /* Name */

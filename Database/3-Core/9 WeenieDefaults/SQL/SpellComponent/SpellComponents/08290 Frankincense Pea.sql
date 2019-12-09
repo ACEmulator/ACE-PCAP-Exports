@@ -12,18 +12,11 @@ VALUES (8290,   1,       4096) /* ItemType - SpellComponents */
      , (8290,  15,       1250) /* StackUnitValue */
      , (8290,  16,          1) /* ItemUseable - No */
      , (8290,  19,       1250) /* Value */
-     , (8290,  65,        101) /* Placement - Resting */
-     , (8290,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8290,   1, False) /* Stuck */
-     , (8290,  11, True ) /* IgnoreCollisions */
-     , (8290,  13, True ) /* Ethereal */
-     , (8290,  14, True ) /* GravityStatus */
-     , (8290,  19, True ) /* Attackable */;
+     , (8290,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8290, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8290,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8290,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8290,   1, 'Frankincense Pea') /* Name */;

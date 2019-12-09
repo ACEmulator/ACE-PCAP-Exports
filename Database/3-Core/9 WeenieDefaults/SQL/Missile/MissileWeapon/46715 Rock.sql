@@ -16,21 +16,16 @@ VALUES (46715,   1,        256) /* ItemType - MissileWeapon */
      , (46715,  19,          1) /* Value */
      , (46715,  33,          1) /* Bonded - Bonded */
      , (46715,  51,          2) /* CombatUse - Missle */
-     , (46715,  65,          1) /* Placement - RightHandCombat */
      , (46715,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (46715, 114,          1) /* Attuned - Attuned */;
+     , (46715, 114,          1) /* Attuned - Attuned */
+     , (46715, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46715,   1, True ) /* Stuck */
-     , (46715,  11, True ) /* IgnoreCollisions */
-     , (46715,  13, True ) /* Ethereal */
-     , (46715,  14, True ) /* GravityStatus */
-     , (46715,  17, True ) /* Inelastic */
-     , (46715,  19, True ) /* Attackable */
      , (46715,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46715,  76, 0.699999988079071) /* Translucency */
+VALUES (46715,  76,     0.7) /* Translucency */
      , (46715,  78,       1) /* Friction */
      , (46715,  79,       0) /* Elasticity */;
 

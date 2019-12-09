@@ -12,19 +12,13 @@ VALUES (19147,   1,      65536) /* ItemType - Portal */
      , (19147, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19147,   1, True ) /* Stuck */
-     , (19147,  12, True ) /* ReportCollisions */
-     , (19147,  13, True ) /* Ethereal */
-     , (19147,  14, True ) /* GravityStatus */
-     , (19147,  15, True ) /* LightsStatus */
-     , (19147,  19, True ) /* Attackable */;
+VALUES (19147,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19147,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19147,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19147,   1, 'Hand-on-Sword Cottages Portal') /* Name */
-     , (19147,  38, 'Hand-on-Sword Cottages Portal (50.4N, 69.7E).') /* AppraisalPortalDestination */
      , (19147, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

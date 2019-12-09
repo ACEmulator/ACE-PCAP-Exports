@@ -16,16 +16,11 @@ VALUES (41858,   1,          2) /* ItemType - Armor */
      , (41858, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41858,   1, False) /* Stuck */
-     , (41858,  11, True ) /* IgnoreCollisions */
-     , (41858,  13, True ) /* Ethereal */
-     , (41858,  14, True ) /* GravityStatus */
-     , (41858,  19, True ) /* Attackable */
-     , (41858,  69, False) /* IsSellable */
+VALUES (41858,  69, False) /* IsSellable */
      , (41858,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41858,  39, 1.29999995231628) /* DefaultScale */
+VALUES (41858,  39,     1.3) /* DefaultScale */
      , (41858, 159,       1) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

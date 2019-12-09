@@ -12,20 +12,14 @@ VALUES (42827,   1,      65536) /* ItemType - Portal */
      , (42827, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42827,   1, True ) /* Stuck */
-     , (42827,  12, True ) /* ReportCollisions */
-     , (42827,  13, True ) /* Ethereal */
-     , (42827,  14, True ) /* GravityStatus */
-     , (42827,  15, True ) /* LightsStatus */
-     , (42827,  19, True ) /* Attackable */;
+VALUES (42827,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42827,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42827,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42827,   1, 'Ahurenga Portal') /* Name */
      , (42827,  16, 'This portal goes to Ahurenga, the home of the Hea Tumeroks in the marshes of western Marae Lassel. This is a good town for characters over level 40.') /* LongDesc */
-     , (42827,  38, 'Ahurenga Portal (46.1N, 89.8W).') /* AppraisalPortalDestination */
      , (42827, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,20 +12,15 @@ VALUES (10998,   1,        256) /* ItemType - MissileWeapon */
      , (10998,  19,       5000) /* Value */
      , (10998,  50,         12) /* AmmoType */
      , (10998,  51,          2) /* CombatUse - Missle */
-     , (10998,  65,          3) /* Placement - LeftHand */
      , (10998,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (10998, 151,          2) /* HookType - Wall */;
+     , (10998, 151,          2) /* HookType - Wall */
+     , (10998, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10998,   1, False) /* Stuck */
-     , (10998,  11, True ) /* IgnoreCollisions */
-     , (10998,  13, True ) /* Ethereal */
-     , (10998,  14, True ) /* GravityStatus */
-     , (10998,  19, True ) /* Attackable */
-     , (10998,  22, True ) /* Inscribable */;
+VALUES (10998,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10998,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (10998,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10998,   1, 'Exquisite Elari Wood Bow') /* Name */;

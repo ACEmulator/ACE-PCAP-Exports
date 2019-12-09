@@ -12,20 +12,15 @@ VALUES (21051,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21051,  15,         81) /* StackUnitValue */
      , (21051,  16,          1) /* ItemUseable - No */
      , (21051,  19,         81) /* Value */
-     , (21051,  65,        101) /* Placement - Resting */
      , (21051,  91,        100) /* MaxStructure */
      , (21051,  92,        100) /* Structure */
      , (21051,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21051, 131,         24) /* MaterialType - GreenJade */
-     , (21051, 151,          9) /* HookType - Floor, Yard */;
+     , (21051, 151,          9) /* HookType - Floor, Yard */
+     , (21051, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21051,   1, False) /* Stuck */
-     , (21051,  11, True ) /* IgnoreCollisions */
-     , (21051,  13, True ) /* Ethereal */
-     , (21051,  14, True ) /* GravityStatus */
-     , (21051,  19, True ) /* Attackable */
-     , (21051,  22, True ) /* Inscribable */;
+VALUES (21051,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21051, 8004,       7) /* PCAPRecordedWorkmanship */;

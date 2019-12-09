@@ -12,17 +12,10 @@ VALUES (15749,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15749,  15,         10) /* StackUnitValue */
      , (15749,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15749,  19,         10) /* Value */
-     , (15749,  65,        101) /* Placement - Resting */
      , (15749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15749,  94,        136) /* TargetType - Jewelry, Misc */
-     , (15749, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15749,   1, False) /* Stuck */
-     , (15749,  11, True ) /* IgnoreCollisions */
-     , (15749,  13, True ) /* Ethereal */
-     , (15749,  14, True ) /* GravityStatus */
-     , (15749,  19, True ) /* Attackable */;
+     , (15749, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (15749, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15749,   1, 'Elixir of Plasmic Being') /* Name */

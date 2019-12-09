@@ -16,11 +16,7 @@ VALUES (7123,   1,         16) /* ItemType - Creature */
      , (7123, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7123,   1, True ) /* Stuck */
-     , (7123,  12, True ) /* ReportCollisions */
-     , (7123,  13, False) /* Ethereal */
-     , (7123,  14, True ) /* GravityStatus */
-     , (7123,  19, True ) /* Attackable */;
+VALUES (7123,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7123,   1, 'Dark Leech') /* Name */

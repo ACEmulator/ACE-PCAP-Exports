@@ -12,14 +12,10 @@ VALUES (46590,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46590,   1, True ) /* Stuck */
-     , (46590,  12, True ) /* ReportCollisions */
-     , (46590,  13, True ) /* Ethereal */
-     , (46590,  14, True ) /* GravityStatus */
-     , (46590,  19, True ) /* Attackable */
      , (46590,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46590,  54, -0.100000001490116) /* UseRadius */
+VALUES (46590,  54,    -0.1) /* UseRadius */
      , (46590,  76,       1) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

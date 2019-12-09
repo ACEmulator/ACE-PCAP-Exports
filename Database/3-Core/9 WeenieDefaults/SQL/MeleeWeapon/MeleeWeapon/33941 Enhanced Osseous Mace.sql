@@ -17,7 +17,6 @@ VALUES (33941,   1,          1) /* ItemType - MeleeWeapon */
      , (33941,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (33941,  49,          0) /* WeaponTime */
      , (33941,  51,          1) /* CombatUse - Melee */
-     , (33941,  65,          1) /* Placement - RightHandCombat */
      , (33941,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33941, 106,        250) /* ItemSpellcraft */
      , (33941, 107,       1538) /* ItemCurMana */
@@ -28,24 +27,20 @@ VALUES (33941,   1,          1) /* ItemType - MeleeWeapon */
      , (33941, 160,        325) /* WieldDifficulty */
      , (33941, 263,         16) /* ResistanceModifierType */
      , (33941, 353,          4) /* WeaponType - Mace */
-     , (33941, 8030,          0);
+     , (33941, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33941, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33941,   1, False) /* Stuck */
-     , (33941,  11, True ) /* IgnoreCollisions */
-     , (33941,  13, True ) /* Ethereal */
-     , (33941,  14, True ) /* GravityStatus */
-     , (33941,  19, True ) /* Attackable */
-     , (33941,  22, True ) /* Inscribable */;
+VALUES (33941,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33941,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33941,   5,   -0.05) /* ManaRate */
      , (33941,  21,       0) /* WeaponLength */
      , (33941,  22,     0.5) /* DamageVariance */
      , (33941,  26,       0) /* MaximumVelocity */
-     , (33941,  29, 1.30999998748302) /* WeaponDefense */
-     , (33941,  39, 1.20000004768372) /* DefaultScale */
-     , (33941,  62, 1.30999998748302) /* WeaponOffense */
+     , (33941,  29,    1.31) /* WeaponDefense */
+     , (33941,  39,     1.2) /* DefaultScale */
+     , (33941,  62,    1.31) /* WeaponOffense */
      , (33941,  63,       1) /* DamageMod */
      , (33941, 136,       1) /* CriticalMultiplier */
      , (33941, 157,       1) /* ResistanceModifier */;

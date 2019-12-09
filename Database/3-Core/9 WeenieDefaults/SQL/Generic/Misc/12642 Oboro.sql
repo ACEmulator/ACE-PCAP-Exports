@@ -11,12 +11,7 @@ VALUES (12642,   1,        128) /* ItemType - Misc */
      , (12642,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12642,   1, True ) /* Stuck */
-     , (12642,  11, True ) /* IgnoreCollisions */
-     , (12642,  12, True ) /* ReportCollisions */
-     , (12642,  13, False) /* Ethereal */
-     , (12642,  14, True ) /* GravityStatus */
-     , (12642,  19, True ) /* Attackable */;
+VALUES (12642,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12642,   1, 'Oboro') /* Name */

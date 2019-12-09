@@ -13,16 +13,9 @@ VALUES (36518,   1,        128) /* ItemType - Misc */
      , (36518,  16,          1) /* ItemUseable - No */
      , (36518,  19,          0) /* Value */
      , (36518,  33,          1) /* Bonded - Bonded */
-     , (36518,  65,        101) /* Placement - Resting */
      , (36518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36518, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36518,   1, False) /* Stuck */
-     , (36518,  11, True ) /* IgnoreCollisions */
-     , (36518,  13, True ) /* Ethereal */
-     , (36518,  14, True ) /* GravityStatus */
-     , (36518,  19, True ) /* Attackable */;
+     , (36518, 114,          1) /* Attuned - Attuned */
+     , (36518, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36518,   1, 'Colosseum Coin') /* Name */

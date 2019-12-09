@@ -13,15 +13,8 @@ VALUES (7374,   1,     262144) /* ItemType - PromissoryNote */
      , (7374,  16,          1) /* ItemUseable - No */
      , (7374,  19,      15000) /* Value */
      , (7374,  33,          1) /* Bonded - Bonded */
-     , (7374,  65,        101) /* Placement - Resting */
-     , (7374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7374,   1, False) /* Stuck */
-     , (7374,  11, True ) /* IgnoreCollisions */
-     , (7374,  13, True ) /* Ethereal */
-     , (7374,  14, True ) /* GravityStatus */
-     , (7374,  19, True ) /* Attackable */;
+     , (7374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7374, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7374,   1, 'Trade Note (15,000)') /* Name */

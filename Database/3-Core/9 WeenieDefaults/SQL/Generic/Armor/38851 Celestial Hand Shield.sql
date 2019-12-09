@@ -13,15 +13,8 @@ VALUES (38851,   1,          2) /* ItemType - Armor */
      , (38851,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38851, 151,          2) /* HookType - Wall */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38851,   1, False) /* Stuck */
-     , (38851,  11, True ) /* IgnoreCollisions */
-     , (38851,  13, True ) /* Ethereal */
-     , (38851,  14, True ) /* GravityStatus */
-     , (38851,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38851,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (38851,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38851,   1, 'Celestial Hand Shield') /* Name */;

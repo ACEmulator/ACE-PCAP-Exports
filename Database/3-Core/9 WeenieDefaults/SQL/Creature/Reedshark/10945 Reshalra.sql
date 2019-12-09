@@ -15,14 +15,10 @@ VALUES (10945,   1,         16) /* ItemType - Creature */
      , (10945, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10945,   1, True ) /* Stuck */
-     , (10945,  12, True ) /* ReportCollisions */
-     , (10945,  13, False) /* Ethereal */
-     , (10945,  14, True ) /* GravityStatus */
-     , (10945,  19, True ) /* Attackable */;
+VALUES (10945,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10945,  39, 2.40000009536743) /* DefaultScale */;
+VALUES (10945,  39,     2.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10945,   1, 'Reshalra') /* Name */

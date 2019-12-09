@@ -8,19 +8,13 @@ VALUES (36691,   1,         16) /* ItemType - Creature */
      , (36691,   6,        255) /* ItemsCapacity */
      , (36691,   7,        255) /* ContainersCapacity */
      , (36691,  16,         32) /* ItemUseable - Remote */
-     , (36691,  93,    6358040) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (36691,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36691,  95,          3) /* RadarBlipColor - White */
      , (36691, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36691,   1, True ) /* Stuck */
-     , (36691,  11, True ) /* IgnoreCollisions */
-     , (36691,  12, True ) /* ReportCollisions */
-     , (36691,  13, False) /* Ethereal */
-     , (36691,  14, True ) /* GravityStatus */
-     , (36691,  19, False) /* Attackable */
-     , (36691,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (36691,  42, True ) /* AllowEdgeSlide */;
+     , (36691,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36691,  54,       2) /* UseRadius */;

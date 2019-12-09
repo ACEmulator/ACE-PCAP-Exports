@@ -6,19 +6,14 @@ VALUES (37513, 'ace37513-armory', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37513,   1,      65536) /* ItemType - Portal */
      , (37513,  16,         32) /* ItemUseable - Remote */
-     , (37513,  93,      68624) /* PhysicsState - IgnoreCollisions, Gravity, LightingOn, HasPhysicsBSP */
+     , (37513,  93,       3088) /* PhysicsState - IgnoreCollisions, Gravity, LightingOn */
      , (37513, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37513,   1, True ) /* Stuck */
-     , (37513,  11, True ) /* IgnoreCollisions */
-     , (37513,  13, False) /* Ethereal */
-     , (37513,  14, True ) /* GravityStatus */
-     , (37513,  15, True ) /* LightsStatus */
-     , (37513,  19, True ) /* Attackable */;
+VALUES (37513,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37513,  39, 1.20000004768372) /* DefaultScale */
+VALUES (37513,  39,     1.2) /* DefaultScale */
      , (37513,  54,     0.5) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

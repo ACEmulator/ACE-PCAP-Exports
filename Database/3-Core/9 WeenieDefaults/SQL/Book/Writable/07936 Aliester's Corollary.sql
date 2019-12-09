@@ -10,16 +10,9 @@ VALUES (7936,   1,       8192) /* ItemType - Writable */
      , (7936,  19,        120) /* Value */
      , (7936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7936,   1, False) /* Stuck */
-     , (7936,  11, True ) /* IgnoreCollisions */
-     , (7936,  13, True ) /* Ethereal */
-     , (7936,  14, True ) /* GravityStatus */
-     , (7936,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7936,  39, 0.400000005960464) /* DefaultScale */
-     , (7936,  54, 0.300000011920929) /* UseRadius */;
+VALUES (7936,  39,     0.4) /* DefaultScale */
+     , (7936,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7936,   1, 'Aliester''s Corollary') /* Name */;

@@ -16,11 +16,7 @@ VALUES (7401,   1,         16) /* ItemType - Creature */
      , (7401, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7401,   1, True ) /* Stuck */
-     , (7401,  12, True ) /* ReportCollisions */
-     , (7401,  13, False) /* Ethereal */
-     , (7401,  14, True ) /* GravityStatus */
-     , (7401,  19, True ) /* Attackable */;
+VALUES (7401,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7401,   1, 'Smith Ejan') /* Name */

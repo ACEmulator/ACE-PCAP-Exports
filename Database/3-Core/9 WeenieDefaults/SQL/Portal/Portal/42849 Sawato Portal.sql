@@ -12,20 +12,14 @@ VALUES (42849,   1,      65536) /* ItemType - Portal */
      , (42849, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42849,   1, True ) /* Stuck */
-     , (42849,  12, True ) /* ReportCollisions */
-     , (42849,  13, True ) /* Ethereal */
-     , (42849,  14, True ) /* GravityStatus */
-     , (42849,  15, True ) /* LightsStatus */
-     , (42849,  19, True ) /* Attackable */;
+VALUES (42849,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42849,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42849,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42849,   1, 'Sawato Portal') /* Name */
      , (42849,  16, 'This portal goes to Sawato, a village surrounded by the wetlands of the Blackmire Swamp. This is a good town for characters over level 30.') /* LongDesc */
-     , (42849,  38, 'Sawato Portal (29.1S, 58.9E).') /* AppraisalPortalDestination */
      , (42849, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

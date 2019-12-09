@@ -8,15 +8,11 @@ VALUES (5076,   1,        128) /* ItemType - Misc */
      , (5076,   5,       9000) /* EncumbranceVal */
      , (5076,  16,          1) /* ItemUseable - No */
      , (5076,  19,        125) /* Value */
-     , (5076,  65,        101) /* Placement - Resting */
-     , (5076,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5076,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5076, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5076,   1, True ) /* Stuck */
-     , (5076,  11, True ) /* IgnoreCollisions */
-     , (5076,  12, True ) /* ReportCollisions */
-     , (5076,  13, False) /* Ethereal */
-     , (5076,  19, True ) /* Attackable */;
+VALUES (5076,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5076,   1, 'East Samsur Outpost') /* Name */

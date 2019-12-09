@@ -15,12 +15,7 @@ VALUES (51936,   1,         16) /* ItemType - Creature */
      , (51936, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51936,   1, True ) /* Stuck */
-     , (51936,  12, True ) /* ReportCollisions */
-     , (51936,  13, False) /* Ethereal */
-     , (51936,  14, True ) /* GravityStatus */
-     , (51936,  19, True ) /* Attackable */
-     , (51936,  42, True ) /* AllowEdgeSlide */;
+VALUES (51936,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51936,   1, 'Tormented Minion') /* Name */

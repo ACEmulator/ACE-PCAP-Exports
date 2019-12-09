@@ -11,16 +11,9 @@ VALUES (37234,   1,        128) /* ItemType - Misc */
      , (37234,  13,          1) /* StackUnitEncumbrance */
      , (37234,  15,          0) /* StackUnitValue */
      , (37234,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (37234,  65,        101) /* Placement - Resting */
      , (37234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37234,  94,        128) /* TargetType - Misc */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37234,   1, False) /* Stuck */
-     , (37234,  11, True ) /* IgnoreCollisions */
-     , (37234,  13, True ) /* Ethereal */
-     , (37234,  14, True ) /* GravityStatus */
-     , (37234,  19, True ) /* Attackable */;
+     , (37234,  94,        128) /* TargetType - Misc */
+     , (37234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37234,   1, 'Ace of Hands') /* Name */

@@ -12,16 +12,11 @@ VALUES (29917,   1,       8192) /* ItemType - Writable */
      , (29917,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29917, 114,          0) /* Attuned - Normal */
      , (29917, 151,          9) /* HookType - Floor, Yard */
-     , (29917, 174,          4) /* AppraisalPages */
-     , (29917, 175,          4) /* AppraisalMaxPages */;
+     , (29917, 8042,          4) /* PCAPRecordedAppraisalPages */
+     , (29917, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29917,   1, False) /* Stuck */
-     , (29917,  11, True ) /* IgnoreCollisions */
-     , (29917,  13, True ) /* Ethereal */
-     , (29917,  14, True ) /* GravityStatus */
-     , (29917,  19, True ) /* Attackable */
-     , (29917,  22, True ) /* Inscribable */
+VALUES (29917,  22, True ) /* Inscribable */
      , (29917,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

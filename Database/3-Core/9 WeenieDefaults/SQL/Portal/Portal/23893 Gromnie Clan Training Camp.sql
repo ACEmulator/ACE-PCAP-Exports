@@ -12,19 +12,13 @@ VALUES (23893,   1,      65536) /* ItemType - Portal */
      , (23893, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23893,   1, True ) /* Stuck */
-     , (23893,  12, True ) /* ReportCollisions */
-     , (23893,  13, True ) /* Ethereal */
-     , (23893,  14, True ) /* GravityStatus */
-     , (23893,  15, True ) /* LightsStatus */
-     , (23893,  19, True ) /* Attackable */;
+VALUES (23893,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23893,  54, -0.100000001490116) /* UseRadius */;
+VALUES (23893,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23893,   1, 'Gromnie Clan Training Camp') /* Name */
-     , (23893,  38, 'Gromnie Clan Training Camp') /* AppraisalPortalDestination */
      , (23893, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

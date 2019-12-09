@@ -15,11 +15,7 @@ VALUES (9383,   1,         16) /* ItemType - Creature */
      , (9383, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9383,   1, True ) /* Stuck */
-     , (9383,  12, True ) /* ReportCollisions */
-     , (9383,  13, False) /* Ethereal */
-     , (9383,  14, True ) /* GravityStatus */
-     , (9383,  19, True ) /* Attackable */;
+VALUES (9383,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9383,   1, 'Nelamar the Legate') /* Name */

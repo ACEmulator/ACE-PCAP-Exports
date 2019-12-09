@@ -11,16 +11,9 @@ VALUES (5355,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (5355,  15,        300) /* StackUnitValue */
      , (5355,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5355,  19,        300) /* Value */
-     , (5355,  65,        101) /* Placement - Resting */
      , (5355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5355,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5355,   1, False) /* Stuck */
-     , (5355,  11, True ) /* IgnoreCollisions */
-     , (5355,  13, True ) /* Ethereal */
-     , (5355,  14, True ) /* GravityStatus */
-     , (5355,  19, True ) /* Attackable */;
+     , (5355,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (5355, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5355,   1, 'Bundle of Greater Frog Crotch Arrowheads') /* Name */

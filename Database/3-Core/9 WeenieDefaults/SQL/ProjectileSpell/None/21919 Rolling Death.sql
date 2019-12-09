@@ -9,12 +9,6 @@ VALUES (21919,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21919,   1, True ) /* Stuck */
-     , (21919,  12, True ) /* ReportCollisions */
-     , (21919,  13, False) /* Ethereal */
-     , (21919,  15, True ) /* LightsStatus */
-     , (21919,  16, True ) /* ScriptedCollision */
-     , (21919,  17, True ) /* Inelastic */
-     , (21919,  19, True ) /* Attackable */
      , (21919,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -22,9 +16,9 @@ VALUES (21919,  39,    2.25) /* DefaultScale */
      , (21919,  77,       1) /* PhysicsScriptIntensity */
      , (21919,  78,       1) /* Friction */
      , (21919,  79,       0) /* Elasticity */
-     , (21919, 8010, 0.396045506000519) /* PCAPRecordedVelocityX */
-     , (21919, 8011, 1.31629741191864) /* PCAPRecordedVelocityY */
-     , (21919, 8012, -0.604774177074432) /* PCAPRecordedVelocityZ */;
+     , (21919, 8010,     0.4) /* PCAPRecordedVelocityX */
+     , (21919, 8011,    1.32) /* PCAPRecordedVelocityY */
+     , (21919, 8012,    -0.6) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21919,   1, 'Rolling Death') /* Name */;

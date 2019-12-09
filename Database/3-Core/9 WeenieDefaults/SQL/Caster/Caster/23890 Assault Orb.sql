@@ -11,7 +11,6 @@ VALUES (23890,   1,      32768) /* ItemType - Caster */
      , (23890,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (23890,  18,          1) /* UiEffects - Magical */
      , (23890,  19,       5000) /* Value */
-     , (23890,  65,          1) /* Placement - RightHandCombat */
      , (23890,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23890,  94,         16) /* TargetType - Creature */
      , (23890, 106,        400) /* ItemSpellcraft */
@@ -22,23 +21,18 @@ VALUES (23890,   1,      32768) /* ItemType - Caster */
      , (23890, 158,          7) /* WieldRequirements - Level */
      , (23890, 159,          1) /* WieldSkillType - Axe */
      , (23890, 160,         30) /* WieldDifficulty */
-     , (23890, 166,          6) /* SlayerCreatureType - Tumerok */;
+     , (23890, 166,          6) /* SlayerCreatureType - Tumerok */
+     , (23890, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23890,   1, False) /* Stuck */
-     , (23890,  11, True ) /* IgnoreCollisions */
-     , (23890,  13, True ) /* Ethereal */
-     , (23890,  14, True ) /* GravityStatus */
-     , (23890,  15, True ) /* LightsStatus */
-     , (23890,  19, True ) /* Attackable */
-     , (23890,  22, True ) /* Inscribable */;
+VALUES (23890,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23890,   5, -0.025000000372529) /* ManaRate */
+VALUES (23890,   5,   -0.03) /* ManaRate */
      , (23890,  29,       1) /* WeaponDefense */
-     , (23890,  39, 0.800000011920929) /* DefaultScale */
+     , (23890,  39,     0.8) /* DefaultScale */
      , (23890,  77,       1) /* PhysicsScriptIntensity */
-     , (23890, 144, 1.47282915051041E-314) /* ManaConversionMod */;
+     , (23890, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23890,   1, 'Assault Orb') /* Name */

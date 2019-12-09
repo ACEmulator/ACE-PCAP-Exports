@@ -16,22 +16,17 @@ VALUES (30185,   1,       2048) /* ItemType - Gem */
      , (30185,  19,          0) /* Value */
      , (30185,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30185,  33,         -1) /* Bonded - Slippery */
-     , (30185,  65,        101) /* Placement - Resting */
      , (30185,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30185,  94,         16) /* TargetType - Creature */
      , (30185, 106,        325) /* ItemSpellcraft */
      , (30185, 107,      10000) /* ItemCurMana */
      , (30185, 108,      10000) /* ItemMaxMana */
      , (30185, 109,          0) /* ItemDifficulty */
-     , (30185, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30185, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30185, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30185,   1, False) /* Stuck */
-     , (30185,  11, True ) /* IgnoreCollisions */
-     , (30185,  13, True ) /* Ethereal */
-     , (30185,  14, True ) /* GravityStatus */
-     , (30185,  19, True ) /* Attackable */
-     , (30185, 108, True ) /* RareUsesTimer */;
+VALUES (30185, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30185,   1, 'Executor''s Jewel') /* Name */

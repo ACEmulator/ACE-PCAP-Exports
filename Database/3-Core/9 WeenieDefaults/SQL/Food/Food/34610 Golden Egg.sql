@@ -12,19 +12,14 @@ VALUES (34610,   1,         32) /* ItemType - Food */
      , (34610,  15,    1000000) /* StackUnitValue */
      , (34610,  16,          8) /* ItemUseable - Contained */
      , (34610,  19,    1000000) /* Value */
-     , (34610,  65,        101) /* Placement - Resting */
      , (34610,  89,          2) /* BoosterEnum - Health */
      , (34610,  90,       1000) /* BoostValue */
      , (34610,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34610, 151,         15) /* HookType - Floor, Wall, Ceiling, Yard */;
+     , (34610, 151,         15) /* HookType - Floor, Wall, Ceiling, Yard */
+     , (34610, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34610,   1, False) /* Stuck */
-     , (34610,  11, True ) /* IgnoreCollisions */
-     , (34610,  13, True ) /* Ethereal */
-     , (34610,  14, True ) /* GravityStatus */
-     , (34610,  19, True ) /* Attackable */
-     , (34610,  22, True ) /* Inscribable */;
+VALUES (34610,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34610,  39,       4) /* DefaultScale */;

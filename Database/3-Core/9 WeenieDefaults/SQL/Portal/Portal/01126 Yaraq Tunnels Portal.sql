@@ -12,19 +12,13 @@ VALUES (1126,   1,      65536) /* ItemType - Portal */
      , (1126, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1126,   1, True ) /* Stuck */
-     , (1126,  12, True ) /* ReportCollisions */
-     , (1126,  13, True ) /* Ethereal */
-     , (1126,  14, True ) /* GravityStatus */
-     , (1126,  15, True ) /* LightsStatus */
-     , (1126,  19, True ) /* Attackable */;
+VALUES (1126,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1126,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1126,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1126,   1, 'Yaraq Tunnels Portal') /* Name */
-     , (1126,  38, 'Yaraq Tunnels Portal') /* AppraisalPortalDestination */
      , (1126, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,12 +15,7 @@ VALUES (7491,   1,         16) /* ItemType - Creature */
      , (7491, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7491,   1, True ) /* Stuck */
-     , (7491,  12, True ) /* ReportCollisions */
-     , (7491,  13, False) /* Ethereal */
-     , (7491,  14, True ) /* GravityStatus */
-     , (7491,  19, True ) /* Attackable */
-     , (7491,  42, True ) /* AllowEdgeSlide */;
+VALUES (7491,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7491,   1, 'Skeleton Warrior') /* Name */

@@ -15,11 +15,7 @@ VALUES (14428,   1,         16) /* ItemType - Creature */
      , (14428, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14428,   1, True ) /* Stuck */
-     , (14428,  12, True ) /* ReportCollisions */
-     , (14428,  13, False) /* Ethereal */
-     , (14428,  14, True ) /* GravityStatus */
-     , (14428,  19, True ) /* Attackable */;
+VALUES (14428,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14428,   1, 'Dranith Menacet') /* Name */

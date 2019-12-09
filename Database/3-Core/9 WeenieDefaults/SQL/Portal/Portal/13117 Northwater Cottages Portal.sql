@@ -12,19 +12,13 @@ VALUES (13117,   1,      65536) /* ItemType - Portal */
      , (13117, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13117,   1, True ) /* Stuck */
-     , (13117,  12, True ) /* ReportCollisions */
-     , (13117,  13, True ) /* Ethereal */
-     , (13117,  14, True ) /* GravityStatus */
-     , (13117,  15, True ) /* LightsStatus */
-     , (13117,  19, True ) /* Attackable */;
+VALUES (13117,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13117,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13117,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13117,   1, 'Northwater Cottages Portal') /* Name */
-     , (13117,  38, 'Northwater Cottages Portal (93.9N, 5.9W).') /* AppraisalPortalDestination */
      , (13117, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

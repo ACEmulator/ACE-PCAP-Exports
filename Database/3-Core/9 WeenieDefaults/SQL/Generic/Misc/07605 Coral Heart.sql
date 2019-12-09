@@ -8,19 +8,14 @@ VALUES (7605,   1,        128) /* ItemType - Misc */
      , (7605,   5,        225) /* EncumbranceVal */
      , (7605,  16,          1) /* ItemUseable - No */
      , (7605,  19,         50) /* Value */
-     , (7605,  65,        101) /* Placement - Resting */
-     , (7605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7605, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7605,   1, False) /* Stuck */
-     , (7605,  11, True ) /* IgnoreCollisions */
-     , (7605,  13, True ) /* Ethereal */
-     , (7605,  14, True ) /* GravityStatus */
-     , (7605,  19, True ) /* Attackable */
-     , (7605,  22, True ) /* Inscribable */;
+VALUES (7605,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7605,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (7605,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7605,   1, 'Coral Heart') /* Name */;

@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35753,   1,        128) /* ItemType - Misc */
      , (35753,   5,        500) /* EncumbranceVal */
      , (35753,  16,          1) /* ItemUseable - No */
-     , (35753,  65,        101) /* Placement - Resting */
-     , (35753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (35753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (35753, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35753,   1, False) /* Stuck */
-     , (35753,  11, True ) /* IgnoreCollisions */
-     , (35753,  13, True ) /* Ethereal */
-     , (35753,  14, True ) /* GravityStatus */
-     , (35753,  19, True ) /* Attackable */
-     , (35753,  22, True ) /* Inscribable */;
+VALUES (35753,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35753,   1, 'Large Monouga Rib') /* Name */;

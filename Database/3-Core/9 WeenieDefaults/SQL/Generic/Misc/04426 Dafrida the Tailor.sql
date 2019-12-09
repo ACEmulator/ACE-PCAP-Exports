@@ -8,16 +8,11 @@ VALUES (4426,   1,        128) /* ItemType - Misc */
      , (4426,   5,       9000) /* EncumbranceVal */
      , (4426,  16,          1) /* ItemUseable - No */
      , (4426,  19,        125) /* Value */
-     , (4426,  65,        101) /* Placement - Resting */
-     , (4426,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (4426,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (4426, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4426,   1, True ) /* Stuck */
-     , (4426,  11, True ) /* IgnoreCollisions */
-     , (4426,  12, True ) /* ReportCollisions */
-     , (4426,  13, False) /* Ethereal */
-     , (4426,  14, True ) /* GravityStatus */
-     , (4426,  19, True ) /* Attackable */;
+VALUES (4426,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4426,   1, 'Dafrida the Tailor') /* Name */

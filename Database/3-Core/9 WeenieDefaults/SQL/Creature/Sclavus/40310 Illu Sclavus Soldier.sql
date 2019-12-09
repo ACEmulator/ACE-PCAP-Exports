@@ -15,14 +15,10 @@ VALUES (40310,   1,         16) /* ItemType - Creature */
      , (40310, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40310,   1, True ) /* Stuck */
-     , (40310,  12, True ) /* ReportCollisions */
-     , (40310,  13, False) /* Ethereal */
-     , (40310,  14, True ) /* GravityStatus */
-     , (40310,  19, True ) /* Attackable */;
+VALUES (40310,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40310,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (40310,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40310,   1, 'Illu Sclavus Soldier') /* Name */

@@ -12,15 +12,8 @@ VALUES (4720,   1,         32) /* ItemType - Food */
      , (4720,  15,         16) /* StackUnitValue */
      , (4720,  16,          8) /* ItemUseable - Contained */
      , (4720,  19,         16) /* Value */
-     , (4720,  65,        101) /* Placement - Resting */
-     , (4720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4720,   1, False) /* Stuck */
-     , (4720,  11, True ) /* IgnoreCollisions */
-     , (4720,  13, True ) /* Ethereal */
-     , (4720,  14, True ) /* GravityStatus */
-     , (4720,  19, True ) /* Attackable */;
+     , (4720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4720, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4720,   1, 'Coleslaw') /* Name */

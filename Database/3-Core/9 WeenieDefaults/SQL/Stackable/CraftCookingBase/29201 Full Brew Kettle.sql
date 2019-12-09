@@ -13,17 +13,10 @@ VALUES (29201,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29201,  16,          1) /* ItemUseable - No */
      , (29201,  19,          0) /* Value */
      , (29201,  33,          1) /* Bonded - Bonded */
-     , (29201,  65,        101) /* Placement - Resting */
      , (29201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29201, 114,          0) /* Attuned - Normal */
-     , (29201, 151,          1) /* HookType - Floor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29201,   1, False) /* Stuck */
-     , (29201,  11, True ) /* IgnoreCollisions */
-     , (29201,  13, True ) /* Ethereal */
-     , (29201,  14, True ) /* GravityStatus */
-     , (29201,  19, True ) /* Attackable */;
+     , (29201, 151,          1) /* HookType - Floor */
+     , (29201, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29201,   1, 'Full Brew Kettle') /* Name */

@@ -8,16 +8,11 @@ VALUES (1110,   1,        128) /* ItemType - Misc */
      , (1110,   5,       9000) /* EncumbranceVal */
      , (1110,  16,          1) /* ItemUseable - No */
      , (1110,  19,        125) /* Value */
-     , (1110,  65,        101) /* Placement - Resting */
-     , (1110,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (1110,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (1110, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1110,   1, True ) /* Stuck */
-     , (1110,  11, True ) /* IgnoreCollisions */
-     , (1110,  12, True ) /* ReportCollisions */
-     , (1110,  13, False) /* Ethereal */
-     , (1110,  14, True ) /* GravityStatus */
-     , (1110,  19, True ) /* Attackable */;
+VALUES (1110,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1110,   1, 'Yaraq') /* Name */

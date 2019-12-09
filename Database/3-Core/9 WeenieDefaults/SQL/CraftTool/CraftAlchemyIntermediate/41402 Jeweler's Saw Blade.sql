@@ -12,17 +12,10 @@ VALUES (41402,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41402,  15,         10) /* StackUnitValue */
      , (41402,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41402,  19,         10) /* Value */
-     , (41402,  65,        101) /* Placement - Resting */
      , (41402,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41402,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41402, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41402,   1, False) /* Stuck */
-     , (41402,  11, True ) /* IgnoreCollisions */
-     , (41402,  13, True ) /* Ethereal */
-     , (41402,  14, True ) /* GravityStatus */
-     , (41402,  19, True ) /* Attackable */;
+     , (41402, 151,          9) /* HookType - Floor, Yard */
+     , (41402, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41402,   1, 'Jeweler''s Saw Blade') /* Name */;

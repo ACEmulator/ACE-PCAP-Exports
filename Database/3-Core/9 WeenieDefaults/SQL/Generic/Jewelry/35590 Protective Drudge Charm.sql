@@ -10,7 +10,6 @@ VALUES (35590,   1,          8) /* ItemType - Jewelry */
      , (35590,  16,          1) /* ItemUseable - No */
      , (35590,  18,          1) /* UiEffects - Magical */
      , (35590,  19,       8000) /* Value */
-     , (35590,  65,        101) /* Placement - Resting */
      , (35590,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35590, 106,        325) /* ItemSpellcraft */
      , (35590, 107,       1000) /* ItemCurMana */
@@ -18,19 +17,15 @@ VALUES (35590,   1,          8) /* ItemType - Jewelry */
      , (35590, 109,        200) /* ItemDifficulty */
      , (35590, 158,          7) /* WieldRequirements - Level */
      , (35590, 159,          1) /* WieldSkillType - Axe */
-     , (35590, 160,         80) /* WieldDifficulty */;
+     , (35590, 160,         80) /* WieldDifficulty */
+     , (35590, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35590,   1, False) /* Stuck */
-     , (35590,  11, True ) /* IgnoreCollisions */
-     , (35590,  13, True ) /* Ethereal */
-     , (35590,  14, True ) /* GravityStatus */
-     , (35590,  19, True ) /* Attackable */
-     , (35590,  22, True ) /* Inscribable */;
+VALUES (35590,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35590,   5,  -0.033) /* ManaRate */
-     , (35590,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (35590,   5,   -0.03) /* ManaRate */
+     , (35590,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35590,   1, 'Protective Drudge Charm') /* Name */

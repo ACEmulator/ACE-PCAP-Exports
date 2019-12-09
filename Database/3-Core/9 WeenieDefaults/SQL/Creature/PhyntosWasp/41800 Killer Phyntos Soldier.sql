@@ -15,14 +15,10 @@ VALUES (41800,   1,         16) /* ItemType - Creature */
      , (41800, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41800,   1, True ) /* Stuck */
-     , (41800,  12, True ) /* ReportCollisions */
-     , (41800,  13, False) /* Ethereal */
-     , (41800,  14, True ) /* GravityStatus */
-     , (41800,  19, True ) /* Attackable */;
+VALUES (41800,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41800,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (41800,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41800,   1, 'Killer Phyntos Soldier') /* Name */

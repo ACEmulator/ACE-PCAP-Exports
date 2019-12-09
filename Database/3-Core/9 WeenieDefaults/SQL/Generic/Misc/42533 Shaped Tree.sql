@@ -13,13 +13,7 @@ VALUES (42533,   1,        128) /* ItemType - Misc */
      , (42533, 151,          8) /* HookType - Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42533,   1, False) /* Stuck */
-     , (42533,  11, True ) /* IgnoreCollisions */
-     , (42533,  12, True ) /* ReportCollisions */
-     , (42533,  13, True ) /* Ethereal */
-     , (42533,  14, True ) /* GravityStatus */
-     , (42533,  19, True ) /* Attackable */
-     , (42533,  22, True ) /* Inscribable */;
+VALUES (42533,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42533,   1, 'Shaped Tree') /* Name */

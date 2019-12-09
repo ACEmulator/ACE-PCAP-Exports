@@ -29,18 +29,13 @@ VALUES (30378,   4, 100000000000) /* ItemTotalXp */
      , (30378,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30378,   1, False) /* Stuck */
-     , (30378,  11, True ) /* IgnoreCollisions */
-     , (30378,  13, True ) /* Ethereal */
-     , (30378,  14, True ) /* GravityStatus */
-     , (30378,  19, True ) /* Attackable */
-     , (30378,  22, True ) /* Inscribable */;
+VALUES (30378,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30378,   5, -0.0333333015441895) /* ManaRate */
-     , (30378,  29, 1.20000004768372) /* WeaponDefense */
+VALUES (30378,   5,   -0.03) /* ManaRate */
+     , (30378,  29,     1.2) /* WeaponDefense */
      , (30378, 136,       1) /* CriticalMultiplier */
-     , (30378, 144, 0.200000002980232) /* ManaConversionMod */;
+     , (30378, 144,     0.2) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30378,   1, 'Deru Limb') /* Name */

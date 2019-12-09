@@ -8,16 +8,11 @@ VALUES (33678,   1,        128) /* ItemType - Misc */
      , (33678,   5,         50) /* EncumbranceVal */
      , (33678,  16,          1) /* ItemUseable - No */
      , (33678,  18,        128) /* UiEffects - Frost */
-     , (33678,  65,        101) /* Placement - Resting */
-     , (33678,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (33678,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33678, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33678,   1, False) /* Stuck */
-     , (33678,  11, True ) /* IgnoreCollisions */
-     , (33678,  13, True ) /* Ethereal */
-     , (33678,  14, True ) /* GravityStatus */
-     , (33678,  19, True ) /* Attackable */
-     , (33678,  22, True ) /* Inscribable */;
+VALUES (33678,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33678,   1, 'Dark Remoran Fin') /* Name */;

@@ -16,11 +16,7 @@ VALUES (15266,   1,         16) /* ItemType - Creature */
      , (15266, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15266,   1, True ) /* Stuck */
-     , (15266,  12, True ) /* ReportCollisions */
-     , (15266,  13, False) /* Ethereal */
-     , (15266,  14, True ) /* GravityStatus */
-     , (15266,  19, True ) /* Attackable */;
+VALUES (15266,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15266,   1, 'Acidic Coral Golem') /* Name */

@@ -12,20 +12,14 @@ VALUES (42838,   1,      65536) /* ItemType - Portal */
      , (42838, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42838,   1, True ) /* Stuck */
-     , (42838,  12, True ) /* ReportCollisions */
-     , (42838,  13, True ) /* Ethereal */
-     , (42838,  14, True ) /* GravityStatus */
-     , (42838,  15, True ) /* LightsStatus */
-     , (42838,  19, True ) /* Attackable */;
+VALUES (42838,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42838,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42838,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42838,   1, 'Portal to Linvak Tukal') /* Name */
      , (42838,  16, 'This portal goes to Linvak Tukal, the fortress bastion of our Lugian allies in the Linvak Range. This is a good town for characters over level 40.') /* LongDesc */
-     , (42838,  38, 'Portal to Linvak Tukal (77.8S, 28.0E).') /* AppraisalPortalDestination */
      , (42838, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

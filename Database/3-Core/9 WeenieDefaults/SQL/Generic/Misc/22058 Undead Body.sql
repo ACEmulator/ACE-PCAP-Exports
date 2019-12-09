@@ -13,16 +13,11 @@ VALUES (22058,   1,        128) /* ItemType - Misc */
      , (22058, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22058,   1, False) /* Stuck */
-     , (22058,  11, True ) /* IgnoreCollisions */
-     , (22058,  13, True ) /* Ethereal */
-     , (22058,  14, True ) /* GravityStatus */
-     , (22058,  19, True ) /* Attackable */
-     , (22058,  22, True ) /* Inscribable */
+VALUES (22058,  22, True ) /* Inscribable */
      , (22058,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22058,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (22058,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22058,   1, 'Undead Body') /* Name */;

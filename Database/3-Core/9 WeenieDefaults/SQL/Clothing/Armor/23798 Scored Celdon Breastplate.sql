@@ -11,16 +11,11 @@ VALUES (23798,   1,          2) /* ItemType - Armor */
      , (23798,  16,          1) /* ItemUseable - No */
      , (23798,  18,        256) /* UiEffects - Acid */
      , (23798,  19,       2680) /* Value */
-     , (23798,  65,        101) /* Placement - Resting */
-     , (23798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23798, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23798,   1, False) /* Stuck */
-     , (23798,  11, True ) /* IgnoreCollisions */
-     , (23798,  13, True ) /* Ethereal */
-     , (23798,  14, True ) /* GravityStatus */
-     , (23798,  19, True ) /* Attackable */
-     , (23798,  22, True ) /* Inscribable */;
+VALUES (23798,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23798,   1, 'Scored Celdon Breastplate') /* Name */;

@@ -10,7 +10,6 @@ VALUES (34991,   1,      32768) /* ItemType - Caster */
      , (34991,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (34991,  18,          1) /* UiEffects - Magical */
      , (34991,  19,       2500) /* Value */
-     , (34991,  65,        101) /* Placement - Resting */
      , (34991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34991,  94,         16) /* TargetType - Creature */
      , (34991, 106,        450) /* ItemSpellcraft */
@@ -20,22 +19,18 @@ VALUES (34991,   1,      32768) /* ItemType - Caster */
      , (34991, 151,          2) /* HookType - Wall */
      , (34991, 158,          2) /* WieldRequirements - RawSkill */
      , (34991, 159,         34) /* WieldSkillType - WarMagic */
-     , (34991, 160,        355) /* WieldDifficulty */;
+     , (34991, 160,        355) /* WieldDifficulty */
+     , (34991, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34991,   1, False) /* Stuck */
-     , (34991,  11, True ) /* IgnoreCollisions */
-     , (34991,  13, True ) /* Ethereal */
-     , (34991,  14, True ) /* GravityStatus */
-     , (34991,  19, True ) /* Attackable */
-     , (34991,  22, True ) /* Inscribable */;
+VALUES (34991,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34991,   5, -0.0500000007450581) /* ManaRate */
-     , (34991,  29, 1.16999995708466) /* WeaponDefense */
+VALUES (34991,   5,   -0.05) /* ManaRate */
+     , (34991,  29,    1.17) /* WeaponDefense */
      , (34991,  39,    0.25) /* DefaultScale */
      , (34991, 136,       1) /* CriticalMultiplier */
-     , (34991, 144, 0.200000002980232) /* ManaConversionMod */;
+     , (34991, 144,     0.2) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34991,   1, 'Opal Repugnant Staff') /* Name */

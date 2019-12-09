@@ -18,7 +18,6 @@ VALUES (15447,   1,          1) /* ItemType - MeleeWeapon */
      , (15447,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (15447,  49,         30) /* WeaponTime */
      , (15447,  51,          1) /* CombatUse - Melee */
-     , (15447,  65,          1) /* Placement - RightHandCombat */
      , (15447,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (15447, 114,          1) /* Attuned - Attuned */
      , (15447, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (15447,   1,          1) /* ItemType - MeleeWeapon */
      , (15447, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (15447, 160,        250) /* WieldDifficulty */
      , (15447, 353,          3) /* WeaponType - Axe */
-     , (15447, 8030,          0);
+     , (15447, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (15447, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15447,   1, False) /* Stuck */
-     , (15447,  11, True ) /* IgnoreCollisions */
-     , (15447,  13, True ) /* Ethereal */
-     , (15447,  14, True ) /* GravityStatus */
-     , (15447,  15, True ) /* LightsStatus */
-     , (15447,  19, True ) /* Attackable */
-     , (15447,  22, True ) /* Inscribable */
+VALUES (15447,  22, True ) /* Inscribable */
      , (15447,  69, False) /* IsSellable */
      , (15447,  99, True ) /* Ivoryable */;
 
@@ -46,7 +40,7 @@ VALUES (15447,  21,       0) /* WeaponLength */
      , (15447,  29,       1) /* WeaponDefense */
      , (15447,  62,     1.1) /* WeaponOffense */
      , (15447,  63,       1) /* DamageMod */
-     , (15447,  76, 0.699999988079071) /* Translucency */
+     , (15447,  76,     0.7) /* Translucency */
      , (15447,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

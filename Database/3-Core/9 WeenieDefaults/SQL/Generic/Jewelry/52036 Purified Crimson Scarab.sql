@@ -11,7 +11,6 @@ VALUES (52036,   1,          8) /* ItemType - Jewelry */
      , (52036,  18,          1) /* UiEffects - Magical */
      , (52036,  19,          0) /* Value */
      , (52036,  33,          1) /* Bonded - Bonded */
-     , (52036,  65,        101) /* Placement - Resting */
      , (52036,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52036, 106,        375) /* ItemSpellcraft */
      , (52036, 107,        978) /* ItemCurMana */
@@ -20,15 +19,11 @@ VALUES (52036,   1,          8) /* ItemType - Jewelry */
      , (52036, 114,          1) /* Attuned - Attuned */
      , (52036, 158,          7) /* WieldRequirements - Level */
      , (52036, 159,          1) /* WieldSkillType - Axe */
-     , (52036, 160,        180) /* WieldDifficulty */;
+     , (52036, 160,        180) /* WieldDifficulty */
+     , (52036, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52036,   1, False) /* Stuck */
-     , (52036,  11, True ) /* IgnoreCollisions */
-     , (52036,  13, True ) /* Ethereal */
-     , (52036,  14, True ) /* GravityStatus */
-     , (52036,  19, True ) /* Attackable */
-     , (52036,  22, True ) /* Inscribable */
+VALUES (52036,  22, True ) /* Inscribable */
      , (52036,  69, False) /* IsSellable */
      , (52036,  99, True ) /* Ivoryable */;
 

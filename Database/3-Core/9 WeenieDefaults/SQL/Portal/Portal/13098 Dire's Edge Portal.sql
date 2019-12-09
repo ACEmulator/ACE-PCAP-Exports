@@ -12,19 +12,13 @@ VALUES (13098,   1,      65536) /* ItemType - Portal */
      , (13098, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13098,   1, True ) /* Stuck */
-     , (13098,  12, True ) /* ReportCollisions */
-     , (13098,  13, True ) /* Ethereal */
-     , (13098,  14, True ) /* GravityStatus */
-     , (13098,  15, True ) /* LightsStatus */
-     , (13098,  19, True ) /* Attackable */;
+VALUES (13098,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13098,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13098,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13098,   1, 'Dire''s Edge Portal') /* Name */
-     , (13098,  38, 'Dire''s Edge Portal (23.1N, 54.2W).') /* AppraisalPortalDestination */
      , (13098, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

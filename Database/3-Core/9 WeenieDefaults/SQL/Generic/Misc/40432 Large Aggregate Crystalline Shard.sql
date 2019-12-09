@@ -13,16 +13,11 @@ VALUES (40432,   1,        128) /* ItemType - Misc */
      , (40432, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40432,   1, False) /* Stuck */
-     , (40432,  11, True ) /* IgnoreCollisions */
-     , (40432,  13, True ) /* Ethereal */
-     , (40432,  14, True ) /* GravityStatus */
-     , (40432,  19, True ) /* Attackable */
-     , (40432,  22, True ) /* Inscribable */
+VALUES (40432,  22, True ) /* Inscribable */
      , (40432,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40432,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (40432,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40432,   1, 'Large Aggregate Crystalline Shard') /* Name */

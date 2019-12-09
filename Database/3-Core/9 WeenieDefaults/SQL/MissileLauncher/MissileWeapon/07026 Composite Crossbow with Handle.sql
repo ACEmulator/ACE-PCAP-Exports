@@ -17,7 +17,6 @@ VALUES (7026,   1,        256) /* ItemType - MissileWeapon */
      , (7026,  49,         90) /* WeaponTime */
      , (7026,  50,          2) /* AmmoType - Bolt */
      , (7026,  51,          2) /* CombatUse - Missle */
-     , (7026,  65,        101) /* Placement - Resting */
      , (7026,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7026, 106,        200) /* ItemSpellcraft */
      , (7026, 107,          0) /* ItemCurMana */
@@ -26,28 +25,24 @@ VALUES (7026,   1,        256) /* ItemType - MissileWeapon */
      , (7026, 114,          0) /* Attuned - Normal */
      , (7026, 151,          2) /* HookType - Wall */
      , (7026, 353,          9) /* WeaponType - Crossbow */
-     , (7026, 8030,          0);
+     , (7026, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7026, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7026,   1, False) /* Stuck */
-     , (7026,  11, True ) /* IgnoreCollisions */
-     , (7026,  13, True ) /* Ethereal */
-     , (7026,  14, True ) /* GravityStatus */
-     , (7026,  19, True ) /* Attackable */
-     , (7026,  22, True ) /* Inscribable */
+VALUES (7026,  22, True ) /* Inscribable */
      , (7026,  69, False) /* IsSellable */
      , (7026,  85, True ) /* AppraisalHasAllowedWielder */
      , (7026,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7026,   5, -0.0500000007450581) /* ManaRate */
+VALUES (7026,   5,   -0.05) /* ManaRate */
      , (7026,  21,       0) /* WeaponLength */
      , (7026,  22,       0) /* DamageVariance */
      , (7026,  26,    27.3) /* MaximumVelocity */
-     , (7026,  29, 1.01999998092651) /* WeaponDefense */
+     , (7026,  29,    1.02) /* WeaponDefense */
      , (7026,  39,    1.25) /* DefaultScale */
-     , (7026,  62, 1.05999994277954) /* WeaponOffense */
-     , (7026,  63, 2.40000009536743) /* DamageMod */;
+     , (7026,  62,    1.06) /* WeaponOffense */
+     , (7026,  63,     2.4) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7026,   1, 'Composite Crossbow with Handle') /* Name */

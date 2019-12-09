@@ -12,15 +12,8 @@ VALUES (49455,   1,        128) /* ItemType - Misc */
      , (49455,  15,      30000) /* StackUnitValue */
      , (49455,  16,          1) /* ItemUseable - No */
      , (49455,  19,      30000) /* Value */
-     , (49455,  65,        101) /* Placement - Resting */
-     , (49455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49455,   1, False) /* Stuck */
-     , (49455,  11, True ) /* IgnoreCollisions */
-     , (49455,  13, True ) /* Ethereal */
-     , (49455,  14, True ) /* GravityStatus */
-     , (49455,  19, True ) /* Attackable */;
+     , (49455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (49455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49455,   1, 'Glyph of Summoning') /* Name */

@@ -12,15 +12,8 @@ VALUES (45374,   1,        128) /* ItemType - Misc */
      , (45374,  15,      30000) /* StackUnitValue */
      , (45374,  16,          1) /* ItemUseable - No */
      , (45374,  19,      30000) /* Value */
-     , (45374,  65,        101) /* Placement - Resting */
-     , (45374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45374,   1, False) /* Stuck */
-     , (45374,  11, True ) /* IgnoreCollisions */
-     , (45374,  13, True ) /* Ethereal */
-     , (45374,  14, True ) /* GravityStatus */
-     , (45374,  19, True ) /* Attackable */;
+     , (45374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45374, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45374,   1, 'Glyph of Sneak Attack') /* Name */

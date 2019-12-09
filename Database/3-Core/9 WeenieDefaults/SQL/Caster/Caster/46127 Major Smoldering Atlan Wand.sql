@@ -12,7 +12,6 @@ VALUES (46127,   1,      32768) /* ItemType - Caster */
      , (46127,  19,       4000) /* Value */
      , (46127,  33,          1) /* Bonded - Bonded */
      , (46127,  45,         16) /* DamageType - Fire */
-     , (46127,  65,        101) /* Placement - Resting */
      , (46127,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46127,  94,         16) /* TargetType - Creature */
      , (46127, 106,        300) /* ItemSpellcraft */
@@ -24,23 +23,19 @@ VALUES (46127,   1,      32768) /* ItemType - Caster */
      , (46127, 158,          2) /* WieldRequirements - RawSkill */
      , (46127, 159,         34) /* WieldSkillType - WarMagic */
      , (46127, 160,        310) /* WieldDifficulty */
-     , (46127, 263,         16) /* ResistanceModifierType */;
+     , (46127, 263,         16) /* ResistanceModifierType */
+     , (46127, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46127,   1, False) /* Stuck */
-     , (46127,  11, True ) /* IgnoreCollisions */
-     , (46127,  13, True ) /* Ethereal */
-     , (46127,  14, True ) /* GravityStatus */
-     , (46127,  19, True ) /* Attackable */
-     , (46127,  22, True ) /* Inscribable */
+VALUES (46127,  22, True ) /* Inscribable */
      , (46127,  69, False) /* IsSellable */
      , (46127,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46127,   5,  -0.025) /* ManaRate */
-     , (46127,  29, 1.27000000178814) /* WeaponDefense */
-     , (46127, 144, 0.0719999980926514) /* ManaConversionMod */
-     , (46127, 152, 1.21000000029802) /* ElementalDamageMod */
+VALUES (46127,   5,   -0.02) /* ManaRate */
+     , (46127,  29,    1.27) /* WeaponDefense */
+     , (46127, 144,    0.07) /* ManaConversionMod */
+     , (46127, 152,    1.21) /* ElementalDamageMod */
      , (46127, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

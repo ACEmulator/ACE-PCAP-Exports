@@ -17,19 +17,14 @@ VALUES (31250,   1,          1) /* ItemType - MeleeWeapon */
      , (31250,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (31250,  49,         -1) /* WeaponTime */
      , (31250,  51,          1) /* CombatUse - Melee */
-     , (31250,  65,          1) /* Placement - RightHandCombat */
      , (31250,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31250, 151,          2) /* HookType - Wall */
      , (31250, 353,          3) /* WeaponType - Axe */
-     , (31250, 8030,          0);
+     , (31250, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (31250, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31250,   1, False) /* Stuck */
-     , (31250,  11, True ) /* IgnoreCollisions */
-     , (31250,  13, True ) /* Ethereal */
-     , (31250,  14, True ) /* GravityStatus */
-     , (31250,  19, True ) /* Attackable */
-     , (31250,  22, True ) /* Inscribable */;
+VALUES (31250,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31250,  21,       0) /* WeaponLength */
@@ -39,7 +34,7 @@ VALUES (31250,  21,       0) /* WeaponLength */
      , (31250,  39,       2) /* DefaultScale */
      , (31250,  62,       1) /* WeaponOffense */
      , (31250,  63,       1) /* DamageMod */
-     , (31250,  76, 0.699999988079071) /* Translucency */;
+     , (31250,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31250,   1, 'Lugian Axe') /* Name */;

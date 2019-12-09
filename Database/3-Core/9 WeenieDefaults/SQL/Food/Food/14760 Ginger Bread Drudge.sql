@@ -12,19 +12,14 @@ VALUES (14760,   1,         32) /* ItemType - Food */
      , (14760,  15,         14) /* StackUnitValue */
      , (14760,  16,          8) /* ItemUseable - Contained */
      , (14760,  19,         14) /* Value */
-     , (14760,  65,        101) /* Placement - Resting */
      , (14760,  89,          4) /* BoosterEnum - Stamina */
      , (14760,  90,         50) /* BoostValue */
      , (14760,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14760, 151,          2) /* HookType - Wall */;
+     , (14760, 151,          2) /* HookType - Wall */
+     , (14760, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14760,   1, False) /* Stuck */
-     , (14760,  11, True ) /* IgnoreCollisions */
-     , (14760,  13, True ) /* Ethereal */
-     , (14760,  14, True ) /* GravityStatus */
-     , (14760,  19, True ) /* Attackable */
-     , (14760,  69, False) /* IsSellable */;
+VALUES (14760,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14760,   1, 'Ginger Bread Drudge') /* Name */

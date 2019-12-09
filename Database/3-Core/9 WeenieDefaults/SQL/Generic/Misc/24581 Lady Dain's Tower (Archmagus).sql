@@ -11,11 +11,7 @@ VALUES (24581,   1,        128) /* ItemType - Misc */
      , (24581,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24581,   1, True ) /* Stuck */
-     , (24581,  11, True ) /* IgnoreCollisions */
-     , (24581,  12, True ) /* ReportCollisions */
-     , (24581,  13, False) /* Ethereal */
-     , (24581,  19, True ) /* Attackable */;
+VALUES (24581,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24581,   1, 'Lady Dain''s Tower (Archmagus)') /* Name */

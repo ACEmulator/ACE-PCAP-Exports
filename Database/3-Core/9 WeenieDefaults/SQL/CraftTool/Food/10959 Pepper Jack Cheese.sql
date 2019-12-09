@@ -13,22 +13,17 @@ VALUES (10959,   1,         32) /* ItemType - Food */
      , (10959,  16,          8) /* ItemUseable - Contained */
      , (10959,  18,          1) /* UiEffects - Magical */
      , (10959,  19,        800) /* Value */
-     , (10959,  65,        101) /* Placement - Resting */
      , (10959,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10959,  94,         16) /* TargetType - Creature */
      , (10959, 106,         50) /* ItemSpellcraft */
      , (10959, 107,         50) /* ItemCurMana */
      , (10959, 108,         50) /* ItemMaxMana */
      , (10959, 109,          0) /* ItemDifficulty */
-     , (10959, 110,          0) /* ItemAllegianceRankLimit */;
+     , (10959, 110,          0) /* ItemAllegianceRankLimit */
+     , (10959, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10959,   1, False) /* Stuck */
-     , (10959,  11, True ) /* IgnoreCollisions */
-     , (10959,  13, True ) /* Ethereal */
-     , (10959,  14, True ) /* GravityStatus */
-     , (10959,  19, True ) /* Attackable */
-     , (10959,  22, True ) /* Inscribable */;
+VALUES (10959,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10959,   1, 'Pepper Jack Cheese') /* Name */

@@ -18,12 +18,7 @@ VALUES (34386,   1,        128) /* ItemType - Misc */
      , (34386, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34386,   1, False) /* Stuck */
-     , (34386,  11, True ) /* IgnoreCollisions */
-     , (34386,  13, True ) /* Ethereal */
-     , (34386,  14, True ) /* GravityStatus */
-     , (34386,  19, True ) /* Attackable */
-     , (34386,  22, True ) /* Inscribable */;
+VALUES (34386,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34386,   1, 'Hot Coal') /* Name */;

@@ -11,12 +11,7 @@ VALUES (19390,   1,        128) /* ItemType - Misc */
      , (19390,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19390,   1, True ) /* Stuck */
-     , (19390,  11, True ) /* IgnoreCollisions */
-     , (19390,  12, True ) /* ReportCollisions */
-     , (19390,  13, False) /* Ethereal */
-     , (19390,  14, True ) /* GravityStatus */
-     , (19390,  19, True ) /* Attackable */;
+VALUES (19390,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19390,   1, 'Mellas Court') /* Name */;

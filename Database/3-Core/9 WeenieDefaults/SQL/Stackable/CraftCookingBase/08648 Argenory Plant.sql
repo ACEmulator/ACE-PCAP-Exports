@@ -15,15 +15,8 @@ VALUES (8648,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8648,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8648, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8648,   1, False) /* Stuck */
-     , (8648,  11, True ) /* IgnoreCollisions */
-     , (8648,  13, True ) /* Ethereal */
-     , (8648,  14, True ) /* GravityStatus */
-     , (8648,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8648,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8648,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8648,   1, 'Argenory Plant') /* Name */

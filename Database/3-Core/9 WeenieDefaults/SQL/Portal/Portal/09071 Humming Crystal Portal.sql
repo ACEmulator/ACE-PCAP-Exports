@@ -12,19 +12,13 @@ VALUES (9071,   1,      65536) /* ItemType - Portal */
      , (9071, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9071,   1, True ) /* Stuck */
-     , (9071,  12, True ) /* ReportCollisions */
-     , (9071,  13, True ) /* Ethereal */
-     , (9071,  14, True ) /* GravityStatus */
-     , (9071,  15, True ) /* LightsStatus */
-     , (9071,  19, True ) /* Attackable */;
+VALUES (9071,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9071,  54, -0.100000001490116) /* UseRadius */;
+VALUES (9071,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9071,   1, 'Humming Crystal Portal') /* Name */
-     , (9071,  38, 'Humming Crystal Portal (2.8S, 82.8W).') /* AppraisalPortalDestination */
      , (9071, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

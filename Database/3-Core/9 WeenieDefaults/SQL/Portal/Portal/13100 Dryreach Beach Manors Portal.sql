@@ -12,19 +12,13 @@ VALUES (13100,   1,      65536) /* ItemType - Portal */
      , (13100, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13100,   1, True ) /* Stuck */
-     , (13100,  12, True ) /* ReportCollisions */
-     , (13100,  13, True ) /* Ethereal */
-     , (13100,  14, True ) /* GravityStatus */
-     , (13100,  15, True ) /* LightsStatus */
-     , (13100,  19, True ) /* Attackable */;
+VALUES (13100,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13100,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13100,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13100,   1, 'Dryreach Beach Manors Portal') /* Name */
-     , (13100,  38, 'Dryreach Beach Manors Portal (3.9S, 76.3E).') /* AppraisalPortalDestination */
      , (13100, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

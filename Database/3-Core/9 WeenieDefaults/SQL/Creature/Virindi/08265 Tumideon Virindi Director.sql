@@ -15,11 +15,7 @@ VALUES (8265,   1,         16) /* ItemType - Creature */
      , (8265, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8265,   1, True ) /* Stuck */
-     , (8265,  12, True ) /* ReportCollisions */
-     , (8265,  13, False) /* Ethereal */
-     , (8265,  14, True ) /* GravityStatus */
-     , (8265,  19, True ) /* Attackable */;
+VALUES (8265,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8265,   1, 'Tumideon Virindi Director') /* Name */

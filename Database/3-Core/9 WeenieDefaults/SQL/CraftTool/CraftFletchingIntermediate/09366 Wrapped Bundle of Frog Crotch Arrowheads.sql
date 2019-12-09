@@ -13,17 +13,12 @@ VALUES (9366,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9366,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9366,  19,       1500) /* Value */
      , (9366,  33,          1) /* Bonded - Bonded */
-     , (9366,  65,        101) /* Placement - Resting */
      , (9366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9366,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (9366,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (9366, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9366,   1, False) /* Stuck */
-     , (9366,  11, True ) /* IgnoreCollisions */
-     , (9366,  13, True ) /* Ethereal */
-     , (9366,  14, True ) /* GravityStatus */
-     , (9366,  19, True ) /* Attackable */
-     , (9366,  69, False) /* IsSellable */;
+VALUES (9366,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9366,   1, 'Wrapped Bundle of Frog Crotch Arrowheads') /* Name */

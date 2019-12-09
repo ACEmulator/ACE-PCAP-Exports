@@ -12,19 +12,13 @@ VALUES (6397,   1,      65536) /* ItemType - Portal */
      , (6397, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6397,   1, True ) /* Stuck */
-     , (6397,  12, True ) /* ReportCollisions */
-     , (6397,  13, True ) /* Ethereal */
-     , (6397,  14, True ) /* GravityStatus */
-     , (6397,  15, True ) /* LightsStatus */
-     , (6397,  19, True ) /* Attackable */;
+VALUES (6397,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6397,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6397,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6397,   1, 'Serac Vault Portal') /* Name */
-     , (6397,  38, 'Serac Vault Portal') /* AppraisalPortalDestination */
      , (6397, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

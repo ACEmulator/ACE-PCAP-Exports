@@ -16,11 +16,7 @@ VALUES (34330,   1,         16) /* ItemType - Creature */
      , (34330, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34330,   1, True ) /* Stuck */
-     , (34330,  12, True ) /* ReportCollisions */
-     , (34330,  13, False) /* Ethereal */
-     , (34330,  14, True ) /* GravityStatus */
-     , (34330,  19, True ) /* Attackable */;
+VALUES (34330,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34330,   1, 'Thralled Guruk Crusher') /* Name */

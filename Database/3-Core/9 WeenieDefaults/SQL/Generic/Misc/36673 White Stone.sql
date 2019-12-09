@@ -9,21 +9,16 @@ VALUES (36673,   1,        128) /* ItemType - Misc */
      , (36673,  16,          1) /* ItemUseable - No */
      , (36673,  19,          0) /* Value */
      , (36673,  33,          1) /* Bonded - Bonded */
-     , (36673,  65,        101) /* Placement - Resting */
      , (36673,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36673, 114,          1) /* Attuned - Attuned */;
+     , (36673, 114,          1) /* Attuned - Attuned */
+     , (36673, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36673,   1, False) /* Stuck */
-     , (36673,  11, True ) /* IgnoreCollisions */
-     , (36673,  13, True ) /* Ethereal */
-     , (36673,  14, True ) /* GravityStatus */
-     , (36673,  19, True ) /* Attackable */
-     , (36673,  22, True ) /* Inscribable */
+VALUES (36673,  22, True ) /* Inscribable */
      , (36673,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36673,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (36673,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36673,   1, 'White Stone') /* Name */;

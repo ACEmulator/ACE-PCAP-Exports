@@ -15,19 +15,13 @@ VALUES (41603,   1,      65536) /* ItemType - Portal */
      , (41603, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41603,   1, True ) /* Stuck */
-     , (41603,  12, True ) /* ReportCollisions */
-     , (41603,  13, True ) /* Ethereal */
-     , (41603,  14, True ) /* GravityStatus */
-     , (41603,  15, True ) /* LightsStatus */
-     , (41603,  19, True ) /* Attackable */;
+VALUES (41603,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41603,  54, -0.100000001490116) /* UseRadius */;
+VALUES (41603,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41603,   1, 'Gearknight Lord''s Tower') /* Name */
-     , (41603,  38, 'Gearknight Lord''s Tower (36.8S, 6.9E).') /* AppraisalPortalDestination */
      , (41603, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

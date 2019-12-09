@@ -9,20 +9,15 @@ VALUES (33608,   1,      16384) /* ItemType - Key */
      , (33608,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (33608,  19,          0) /* Value */
      , (33608,  33,          1) /* Bonded - Bonded */
-     , (33608,  65,        101) /* Placement - Resting */
      , (33608,  91,          1) /* MaxStructure */
      , (33608,  92,          1) /* Structure */
      , (33608,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33608,  94,        640) /* TargetType - LockableMagicTarget */
-     , (33608, 114,          1) /* Attuned - Attuned */;
+     , (33608, 114,          1) /* Attuned - Attuned */
+     , (33608, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33608,   1, False) /* Stuck */
-     , (33608,  11, True ) /* IgnoreCollisions */
-     , (33608,  13, True ) /* Ethereal */
-     , (33608,  14, True ) /* GravityStatus */
-     , (33608,  19, True ) /* Attackable */
-     , (33608,  22, True ) /* Inscribable */;
+VALUES (33608,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33608,   1, 'Pathwarden Supply Key') /* Name */

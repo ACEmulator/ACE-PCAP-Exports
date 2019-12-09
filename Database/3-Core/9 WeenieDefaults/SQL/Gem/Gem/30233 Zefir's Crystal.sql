@@ -16,22 +16,17 @@ VALUES (30233,   1,       2048) /* ItemType - Gem */
      , (30233,  19,          0) /* Value */
      , (30233,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30233,  33,         -1) /* Bonded - Slippery */
-     , (30233,  65,        101) /* Placement - Resting */
      , (30233,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30233,  94,         16) /* TargetType - Creature */
      , (30233, 106,        325) /* ItemSpellcraft */
      , (30233, 107,      10000) /* ItemCurMana */
      , (30233, 108,      10000) /* ItemMaxMana */
      , (30233, 109,          0) /* ItemDifficulty */
-     , (30233, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30233, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30233, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30233,   1, False) /* Stuck */
-     , (30233,  11, True ) /* IgnoreCollisions */
-     , (30233,  13, True ) /* Ethereal */
-     , (30233,  14, True ) /* GravityStatus */
-     , (30233,  19, True ) /* Attackable */
-     , (30233, 108, True ) /* RareUsesTimer */;
+VALUES (30233, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30233,   1, 'Zefir''s Crystal') /* Name */

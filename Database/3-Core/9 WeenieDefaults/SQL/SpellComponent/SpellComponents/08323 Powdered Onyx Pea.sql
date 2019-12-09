@@ -12,18 +12,11 @@ VALUES (8323,   1,       4096) /* ItemType - SpellComponents */
      , (8323,  15,        625) /* StackUnitValue */
      , (8323,  16,          1) /* ItemUseable - No */
      , (8323,  19,        625) /* Value */
-     , (8323,  65,        101) /* Placement - Resting */
-     , (8323,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8323,   1, False) /* Stuck */
-     , (8323,  11, True ) /* IgnoreCollisions */
-     , (8323,  13, True ) /* Ethereal */
-     , (8323,  14, True ) /* GravityStatus */
-     , (8323,  19, True ) /* Attackable */;
+     , (8323,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8323, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8323,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8323,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8323,   1, 'Powdered Onyx Pea') /* Name */;

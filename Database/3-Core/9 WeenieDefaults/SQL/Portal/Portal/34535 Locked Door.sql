@@ -6,24 +6,19 @@ VALUES (34535, 'ace34535-lockeddoor', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34535,   1,      65536) /* ItemType - Portal */
      , (34535,  16,         32) /* ItemUseable - Remote */
-     , (34535,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34535,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (34535,  95,          8) /* RadarBlipColor - Yellow */
      , (34535, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (34535, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34535,   1, True ) /* Stuck */
-     , (34535,  11, True ) /* IgnoreCollisions */
-     , (34535,  13, False) /* Ethereal */
-     , (34535,  14, True ) /* GravityStatus */
-     , (34535,  19, True ) /* Attackable */;
+VALUES (34535,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34535,  54, 0.300000011920929) /* UseRadius */;
+VALUES (34535,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34535,   1, 'Locked Door') /* Name */
-     , (34535,  38, 'Locked Door') /* AppraisalPortalDestination */;
+VALUES (34535,   1, 'Locked Door') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34535,   1,   33560143) /* Setup */

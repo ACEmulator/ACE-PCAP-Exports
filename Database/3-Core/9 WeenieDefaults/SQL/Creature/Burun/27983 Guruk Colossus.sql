@@ -16,11 +16,7 @@ VALUES (27983,   1,         16) /* ItemType - Creature */
      , (27983, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27983,   1, True ) /* Stuck */
-     , (27983,  12, True ) /* ReportCollisions */
-     , (27983,  13, False) /* Ethereal */
-     , (27983,  14, True ) /* GravityStatus */
-     , (27983,  19, True ) /* Attackable */;
+VALUES (27983,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27983,   1, 'Guruk Colossus') /* Name */

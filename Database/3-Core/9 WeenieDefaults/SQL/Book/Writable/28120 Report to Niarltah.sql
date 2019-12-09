@@ -8,19 +8,12 @@ VALUES (28120,   1,       8192) /* ItemType - Writable */
      , (28120,   5,         25) /* EncumbranceVal */
      , (28120,  16,          8) /* ItemUseable - Contained */
      , (28120,  19,         10) /* Value */
-     , (28120,  65,        101) /* Placement - Resting */
-     , (28120,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28120,   1, False) /* Stuck */
-     , (28120,  11, True ) /* IgnoreCollisions */
-     , (28120,  13, True ) /* Ethereal */
-     , (28120,  14, True ) /* GravityStatus */
-     , (28120,  19, True ) /* Attackable */;
+     , (28120,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28120, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28120,  39, 1.22000002861023) /* DefaultScale */
-     , (28120,  54, 0.300000011920929) /* UseRadius */;
+VALUES (28120,  39,    1.22) /* DefaultScale */
+     , (28120,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28120,   1, 'Report to Niarltah') /* Name */;

@@ -15,11 +15,7 @@ VALUES (22748,   1,         16) /* ItemType - Creature */
      , (22748, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22748,   1, True ) /* Stuck */
-     , (22748,  12, True ) /* ReportCollisions */
-     , (22748,  13, False) /* Ethereal */
-     , (22748,  14, True ) /* GravityStatus */
-     , (22748,  19, True ) /* Attackable */;
+VALUES (22748,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22748,   1, 'Reedshark Stripling') /* Name */

@@ -13,18 +13,13 @@ VALUES (22446,   1,        128) /* ItemType - Misc */
      , (22446,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22446,  19,          0) /* Value */
      , (22446,  33,          0) /* Bonded - Normal */
-     , (22446,  65,        101) /* Placement - Resting */
      , (22446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22446,  94,        128) /* TargetType - Misc */
-     , (22446, 114,          0) /* Attuned - Normal */;
+     , (22446, 114,          0) /* Attuned - Normal */
+     , (22446, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22446,   1, False) /* Stuck */
-     , (22446,  11, True ) /* IgnoreCollisions */
-     , (22446,  13, True ) /* Ethereal */
-     , (22446,  14, True ) /* GravityStatus */
-     , (22446,  19, True ) /* Attackable */
-     , (22446,  69, False) /* IsSellable */;
+VALUES (22446,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22446,   1, 'Combined Hyssop and Mandrake') /* Name */

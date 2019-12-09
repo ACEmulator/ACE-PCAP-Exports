@@ -8,17 +8,12 @@ VALUES (248,   1,        128) /* ItemType - Misc */
      , (248,   5,       5000) /* EncumbranceVal */
      , (248,  16,          1) /* ItemUseable - No */
      , (248,  19,      12904) /* Value */
-     , (248,  65,        101) /* Placement - Resting */
      , (248,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (248, 151,          2) /* HookType - Wall */;
+     , (248, 151,          2) /* HookType - Wall */
+     , (248, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (248,   1, False) /* Stuck */
-     , (248,  11, True ) /* IgnoreCollisions */
-     , (248,  13, True ) /* Ethereal */
-     , (248,  14, True ) /* GravityStatus */
-     , (248,  19, True ) /* Attackable */
-     , (248,  22, True ) /* Inscribable */;
+VALUES (248,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (248,   1, 'Olthoi Enslavement') /* Name */

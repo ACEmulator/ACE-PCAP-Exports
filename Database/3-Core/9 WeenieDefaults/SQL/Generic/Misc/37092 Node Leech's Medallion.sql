@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37092,   1,        128) /* ItemType - Misc */
      , (37092,   5,         50) /* EncumbranceVal */
      , (37092,  16,          1) /* ItemUseable - No */
-     , (37092,  65,        101) /* Placement - Resting */
-     , (37092,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37092,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37092, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37092,   1, False) /* Stuck */
-     , (37092,  11, True ) /* IgnoreCollisions */
-     , (37092,  13, True ) /* Ethereal */
-     , (37092,  14, True ) /* GravityStatus */
-     , (37092,  19, True ) /* Attackable */
-     , (37092,  22, True ) /* Inscribable */;
+VALUES (37092,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37092,   1, 'Node Leech''s Medallion') /* Name */;

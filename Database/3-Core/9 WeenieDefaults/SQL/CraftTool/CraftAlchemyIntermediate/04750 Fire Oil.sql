@@ -11,17 +11,10 @@ VALUES (4750,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (4750,  15,         20) /* StackUnitValue */
      , (4750,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4750,  19,         20) /* Value */
-     , (4750,  65,        101) /* Placement - Resting */
      , (4750,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4750,  94,  134217760) /* TargetType - Food, CraftFletchingIntermediate */
-     , (4750, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4750,   1, False) /* Stuck */
-     , (4750,  11, True ) /* IgnoreCollisions */
-     , (4750,  13, True ) /* Ethereal */
-     , (4750,  14, True ) /* GravityStatus */
-     , (4750,  19, True ) /* Attackable */;
+     , (4750, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (4750, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4750,   1, 'Fire Oil') /* Name */

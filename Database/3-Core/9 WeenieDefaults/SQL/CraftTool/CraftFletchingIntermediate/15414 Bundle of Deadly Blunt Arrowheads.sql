@@ -12,17 +12,12 @@ VALUES (15414,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (15414,  15,        250) /* StackUnitValue */
      , (15414,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15414,  19,        250) /* Value */
-     , (15414,  65,        101) /* Placement - Resting */
      , (15414,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15414,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (15414,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (15414, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15414,   1, False) /* Stuck */
-     , (15414,  11, True ) /* IgnoreCollisions */
-     , (15414,  13, True ) /* Ethereal */
-     , (15414,  14, True ) /* GravityStatus */
-     , (15414,  19, True ) /* Attackable */
-     , (15414,  69, False) /* IsSellable */;
+VALUES (15414,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15414,   1, 'Bundle of Deadly Blunt Arrowheads') /* Name */

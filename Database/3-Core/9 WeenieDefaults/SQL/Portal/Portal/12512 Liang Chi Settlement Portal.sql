@@ -12,19 +12,13 @@ VALUES (12512,   1,      65536) /* ItemType - Portal */
      , (12512, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12512,   1, True ) /* Stuck */
-     , (12512,  12, True ) /* ReportCollisions */
-     , (12512,  13, True ) /* Ethereal */
-     , (12512,  14, True ) /* GravityStatus */
-     , (12512,  15, True ) /* LightsStatus */
-     , (12512,  19, True ) /* Attackable */;
+VALUES (12512,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12512,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12512,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12512,   1, 'Liang Chi Settlement Portal') /* Name */
-     , (12512,  38, 'Liang Chi Settlement Portal (9.0S, 41.8E).') /* AppraisalPortalDestination */
      , (12512, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

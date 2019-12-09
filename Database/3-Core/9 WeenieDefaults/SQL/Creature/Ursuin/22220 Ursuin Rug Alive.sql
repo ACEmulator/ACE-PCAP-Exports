@@ -15,11 +15,7 @@ VALUES (22220,   1,         16) /* ItemType - Creature */
      , (22220, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22220,   1, True ) /* Stuck */
-     , (22220,  12, True ) /* ReportCollisions */
-     , (22220,  13, False) /* Ethereal */
-     , (22220,  14, True ) /* GravityStatus */
-     , (22220,  19, True ) /* Attackable */;
+VALUES (22220,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22220,   1, 'Ursuin Rug Alive') /* Name */

@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4599,   1,    1048576) /* ItemType - Service */
      , (4599,  16,          1) /* ItemUseable - No */
      , (4599,  19,        100) /* Value */
-     , (4599,  65,        101) /* Placement - Resting */
-     , (4599,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4599,   1, False) /* Stuck */
-     , (4599,  11, True ) /* IgnoreCollisions */
-     , (4599,  13, True ) /* Ethereal */
-     , (4599,  14, True ) /* GravityStatus */
-     , (4599,  19, True ) /* Attackable */;
+     , (4599,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4599, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4599,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (4599,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4599,   1, 'Mana Renewal Other I') /* Name */;

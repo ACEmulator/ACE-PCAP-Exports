@@ -40,19 +40,13 @@ VALUES (45477,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45477,   1, True ) /* Stuck */
-     , (45477,  11, True ) /* IgnoreCollisions */
-     , (45477,  12, True ) /* ReportCollisions */
-     , (45477,  13, False) /* Ethereal */
-     , (45477,  14, True ) /* GravityStatus */
-     , (45477,  19, False) /* Attackable */
-     , (45477,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45477,  42, True ) /* AllowEdgeSlide */;
+     , (45477,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45477,  54,       3) /* UseRadius */
      , (45477, 8010,       0) /* PCAPRecordedVelocityX */
      , (45477, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45477, 8012, -48.642162322998) /* PCAPRecordedVelocityZ */;
+     , (45477, 8012,  -48.64) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45477,   1, 'Magic Mastery') /* Name */

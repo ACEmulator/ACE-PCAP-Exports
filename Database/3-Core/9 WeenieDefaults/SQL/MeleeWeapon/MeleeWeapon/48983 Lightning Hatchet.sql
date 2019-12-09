@@ -15,12 +15,7 @@ VALUES (48983,   1,          1) /* ItemType - MeleeWeapon */
      , (48983,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48983,   1, False) /* Stuck */
-     , (48983,  11, True ) /* IgnoreCollisions */
-     , (48983,  13, True ) /* Ethereal */
-     , (48983,  14, True ) /* GravityStatus */
-     , (48983,  19, True ) /* Attackable */
-     , (48983,  22, True ) /* Inscribable */;
+VALUES (48983,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48983,   1, 'Lightning Hatchet') /* Name */;

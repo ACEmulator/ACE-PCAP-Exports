@@ -8,15 +8,10 @@ VALUES (2284,   1,        128) /* ItemType - Misc */
      , (2284,   5,       9000) /* EncumbranceVal */
      , (2284,  16,          1) /* ItemUseable - No */
      , (2284,  19,        125) /* Value */
-     , (2284,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (2284,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2284,   1, True ) /* Stuck */
-     , (2284,  11, True ) /* IgnoreCollisions */
-     , (2284,  12, True ) /* ReportCollisions */
-     , (2284,  13, False) /* Ethereal */
-     , (2284,  14, True ) /* GravityStatus */
-     , (2284,  19, True ) /* Attackable */;
+VALUES (2284,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2284,   1, 'Femsen House') /* Name */

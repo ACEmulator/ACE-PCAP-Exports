@@ -12,19 +12,13 @@ VALUES (437,   1,      65536) /* ItemType - Portal */
      , (437, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (437,   1, True ) /* Stuck */
-     , (437,  12, True ) /* ReportCollisions */
-     , (437,  13, True ) /* Ethereal */
-     , (437,  14, True ) /* GravityStatus */
-     , (437,  15, True ) /* LightsStatus */
-     , (437,  19, True ) /* Attackable */;
+VALUES (437,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (437,  54, -0.100000001490116) /* UseRadius */;
+VALUES (437,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (437,   1, 'North Dalt') /* Name */
-     , (437,  38, 'North Dalt (14.6N, 13.2E).') /* AppraisalPortalDestination */
      , (437, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

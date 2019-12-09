@@ -12,19 +12,13 @@ VALUES (12521,   1,      65536) /* ItemType - Portal */
      , (12521, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12521,   1, True ) /* Stuck */
-     , (12521,  12, True ) /* ReportCollisions */
-     , (12521,  13, True ) /* Ethereal */
-     , (12521,  14, True ) /* GravityStatus */
-     , (12521,  15, True ) /* LightsStatus */
-     , (12521,  19, True ) /* Attackable */;
+VALUES (12521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12521,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12521,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12521,   1, 'Monument Sands Settlement Portal') /* Name */
-     , (12521,  38, 'Monument Sands Settlement Portal (37.9S, 16.0E).') /* AppraisalPortalDestination */
      , (12521, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

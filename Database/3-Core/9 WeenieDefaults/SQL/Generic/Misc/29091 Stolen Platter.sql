@@ -9,17 +9,12 @@ VALUES (29091,   1,        128) /* ItemType - Misc */
      , (29091,  16,          1) /* ItemUseable - No */
      , (29091,  19,          0) /* Value */
      , (29091,  33,          1) /* Bonded - Bonded */
-     , (29091,  65,        101) /* Placement - Resting */
      , (29091,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29091, 114,          0) /* Attuned - Normal */;
+     , (29091, 114,          0) /* Attuned - Normal */
+     , (29091, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29091,   1, False) /* Stuck */
-     , (29091,  11, True ) /* IgnoreCollisions */
-     , (29091,  13, True ) /* Ethereal */
-     , (29091,  14, True ) /* GravityStatus */
-     , (29091,  19, True ) /* Attackable */
-     , (29091,  22, True ) /* Inscribable */;
+VALUES (29091,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29091,   1, 'Stolen Platter') /* Name */

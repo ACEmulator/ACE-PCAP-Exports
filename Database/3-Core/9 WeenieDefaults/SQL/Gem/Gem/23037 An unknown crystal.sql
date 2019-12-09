@@ -9,17 +9,12 @@ VALUES (23037,   1,       2048) /* ItemType - Gem */
      , (23037,  16,          1) /* ItemUseable - No */
      , (23037,  19,         75) /* Value */
      , (23037,  33,          1) /* Bonded - Bonded */
-     , (23037,  65,        101) /* Placement - Resting */
      , (23037,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23037, 114,          1) /* Attuned - Attuned */;
+     , (23037, 114,          1) /* Attuned - Attuned */
+     , (23037, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23037,   1, False) /* Stuck */
-     , (23037,  11, True ) /* IgnoreCollisions */
-     , (23037,  13, True ) /* Ethereal */
-     , (23037,  14, True ) /* GravityStatus */
-     , (23037,  19, True ) /* Attackable */
-     , (23037,  22, True ) /* Inscribable */;
+VALUES (23037,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23037,   1, 'An unknown crystal') /* Name */

@@ -19,11 +19,7 @@ VALUES (46694,   1,         16) /* ItemType - Creature */
      , (46694, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46694,   1, True ) /* Stuck */
-     , (46694,  12, True ) /* ReportCollisions */
-     , (46694,  13, False) /* Ethereal */
-     , (46694,  14, True ) /* GravityStatus */
-     , (46694,  19, True ) /* Attackable */;
+VALUES (46694,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46694,   1, 'Tumerok Savage') /* Name */

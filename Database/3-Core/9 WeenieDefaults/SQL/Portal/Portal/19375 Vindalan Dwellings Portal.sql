@@ -12,19 +12,13 @@ VALUES (19375,   1,      65536) /* ItemType - Portal */
      , (19375, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19375,   1, True ) /* Stuck */
-     , (19375,  12, True ) /* ReportCollisions */
-     , (19375,  13, True ) /* Ethereal */
-     , (19375,  14, True ) /* GravityStatus */
-     , (19375,  15, True ) /* LightsStatus */
-     , (19375,  19, True ) /* Attackable */;
+VALUES (19375,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19375,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19375,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19375,   1, 'Vindalan Dwellings Portal') /* Name */
-     , (19375,  38, 'Vindalan Dwellings Portal') /* AppraisalPortalDestination */
      , (19375, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

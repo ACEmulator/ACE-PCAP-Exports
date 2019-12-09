@@ -16,12 +16,7 @@ VALUES (28772,   1,      16384) /* ItemType - Key */
      , (28772, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28772,   1, False) /* Stuck */
-     , (28772,  11, True ) /* IgnoreCollisions */
-     , (28772,  13, True ) /* Ethereal */
-     , (28772,  14, True ) /* GravityStatus */
-     , (28772,  19, True ) /* Attackable */
-     , (28772,  22, True ) /* Inscribable */;
+VALUES (28772,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28772,   1, 'Torture Chamber Key') /* Name */

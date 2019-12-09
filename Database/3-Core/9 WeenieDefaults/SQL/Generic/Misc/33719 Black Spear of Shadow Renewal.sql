@@ -13,12 +13,7 @@ VALUES (33719,   1,        128) /* ItemType - Misc */
      , (33719, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33719,   1, False) /* Stuck */
-     , (33719,  11, True ) /* IgnoreCollisions */
-     , (33719,  13, True ) /* Ethereal */
-     , (33719,  14, True ) /* GravityStatus */
-     , (33719,  19, True ) /* Attackable */
-     , (33719,  22, True ) /* Inscribable */;
+VALUES (33719,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33719,   1, 'Black Spear of Shadow Renewal') /* Name */;

@@ -15,11 +15,7 @@ VALUES (36836,   1,         16) /* ItemType - Creature */
      , (36836, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36836,   1, True ) /* Stuck */
-     , (36836,  12, True ) /* ReportCollisions */
-     , (36836,  13, False) /* Ethereal */
-     , (36836,  14, True ) /* GravityStatus */
-     , (36836,  19, True ) /* Attackable */;
+VALUES (36836,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36836,   1, 'Raider Juggernaut') /* Name */

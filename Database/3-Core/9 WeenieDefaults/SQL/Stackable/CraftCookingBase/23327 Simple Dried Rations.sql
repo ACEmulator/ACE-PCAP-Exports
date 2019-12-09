@@ -12,15 +12,8 @@ VALUES (23327,   1,    4194304) /* ItemType - CraftCookingBase */
      , (23327,  15,       1500) /* StackUnitValue */
      , (23327,  16,          1) /* ItemUseable - No */
      , (23327,  19,       1500) /* Value */
-     , (23327,  65,        101) /* Placement - Resting */
-     , (23327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23327,   1, False) /* Stuck */
-     , (23327,  11, True ) /* IgnoreCollisions */
-     , (23327,  13, True ) /* Ethereal */
-     , (23327,  14, True ) /* GravityStatus */
-     , (23327,  19, True ) /* Attackable */;
+     , (23327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23327, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23327,   1, 'Simple Dried Rations') /* Name */

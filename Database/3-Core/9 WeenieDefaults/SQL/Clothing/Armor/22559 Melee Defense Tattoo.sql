@@ -10,16 +10,11 @@ VALUES (22559,   1,          2) /* ItemType - Armor */
      , (22559,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (22559,  16,          1) /* ItemUseable - No */
      , (22559,  19,      30000) /* Value */
-     , (22559,  65,        101) /* Placement - Resting */
-     , (22559,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22559,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22559, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22559,   1, False) /* Stuck */
-     , (22559,  11, True ) /* IgnoreCollisions */
-     , (22559,  13, True ) /* Ethereal */
-     , (22559,  14, True ) /* GravityStatus */
-     , (22559,  19, True ) /* Attackable */
-     , (22559,  22, True ) /* Inscribable */;
+VALUES (22559,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22559,   1, 'Melee Defense Tattoo') /* Name */;

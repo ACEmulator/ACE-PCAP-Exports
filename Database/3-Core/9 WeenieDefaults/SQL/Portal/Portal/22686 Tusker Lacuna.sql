@@ -13,19 +13,13 @@ VALUES (22686,   1,      65536) /* ItemType - Portal */
      , (22686, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22686,   1, True ) /* Stuck */
-     , (22686,  12, True ) /* ReportCollisions */
-     , (22686,  13, True ) /* Ethereal */
-     , (22686,  14, True ) /* GravityStatus */
-     , (22686,  15, True ) /* LightsStatus */
-     , (22686,  19, True ) /* Attackable */;
+VALUES (22686,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22686,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22686,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22686,   1, 'Tusker Lacuna') /* Name */
-     , (22686,  38, 'Tusker Lacuna') /* AppraisalPortalDestination */
      , (22686, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

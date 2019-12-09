@@ -17,12 +17,7 @@ VALUES (44303,   1,        128) /* ItemType - Misc */
      , (44303, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44303,   1, False) /* Stuck */
-     , (44303,  11, True ) /* IgnoreCollisions */
-     , (44303,  13, True ) /* Ethereal */
-     , (44303,  14, True ) /* GravityStatus */
-     , (44303,  19, True ) /* Attackable */
-     , (44303,  69, False) /* IsSellable */;
+VALUES (44303,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44303,   1, 'Sacred A''nekshay Crystal') /* Name */

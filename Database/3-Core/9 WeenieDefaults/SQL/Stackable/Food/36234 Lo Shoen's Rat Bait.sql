@@ -13,17 +13,12 @@ VALUES (36234,   1,         32) /* ItemType - Food */
      , (36234,  16,          8) /* ItemUseable - Contained */
      , (36234,  19,          0) /* Value */
      , (36234,  33,          1) /* Bonded - Bonded */
-     , (36234,  65,        101) /* Placement - Resting */
      , (36234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36234, 114,          1) /* Attuned - Attuned */;
+     , (36234, 114,          1) /* Attuned - Attuned */
+     , (36234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36234,   1, False) /* Stuck */
-     , (36234,  11, True ) /* IgnoreCollisions */
-     , (36234,  13, True ) /* Ethereal */
-     , (36234,  14, True ) /* GravityStatus */
-     , (36234,  19, True ) /* Attackable */
-     , (36234,  69, False) /* IsSellable */;
+VALUES (36234,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36234,   1, 'Lo Shoen''s Rat Bait') /* Name */

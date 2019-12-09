@@ -12,18 +12,11 @@ VALUES (777,   1,       4096) /* ItemType - SpellComponents */
      , (777,  15,         10) /* StackUnitValue */
      , (777,  16,          1) /* ItemUseable - No */
      , (777,  19,         10) /* Value */
-     , (777,  65,        101) /* Placement - Resting */
-     , (777,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (777,   1, False) /* Stuck */
-     , (777,  11, True ) /* IgnoreCollisions */
-     , (777,  13, True ) /* Ethereal */
-     , (777,  14, True ) /* GravityStatus */
-     , (777,  19, True ) /* Attackable */;
+     , (777,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (777, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (777,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (777,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (777,   1, 'Myrrh') /* Name */

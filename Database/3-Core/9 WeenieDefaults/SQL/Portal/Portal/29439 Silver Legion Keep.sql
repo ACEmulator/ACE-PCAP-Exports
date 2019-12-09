@@ -14,19 +14,13 @@ VALUES (29439,   1,      65536) /* ItemType - Portal */
      , (29439, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29439,   1, True ) /* Stuck */
-     , (29439,  12, True ) /* ReportCollisions */
-     , (29439,  13, True ) /* Ethereal */
-     , (29439,  14, True ) /* GravityStatus */
-     , (29439,  15, True ) /* LightsStatus */
-     , (29439,  19, True ) /* Attackable */;
+VALUES (29439,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29439,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29439,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29439,   1, 'Silver Legion Keep') /* Name */
-     , (29439,  38, 'Silver Legion Keep') /* AppraisalPortalDestination */
      , (29439, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

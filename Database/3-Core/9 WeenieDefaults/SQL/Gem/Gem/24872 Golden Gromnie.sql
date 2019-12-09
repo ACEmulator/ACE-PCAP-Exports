@@ -14,14 +14,10 @@ VALUES (24872,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24872,   1, True ) /* Stuck */
-     , (24872,  11, True ) /* IgnoreCollisions */
-     , (24872,  13, True ) /* Ethereal */
-     , (24872,  14, True ) /* GravityStatus */
-     , (24872,  19, True ) /* Attackable */
      , (24872,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24872,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (24872,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24872,   1, 'Golden Gromnie') /* Name */

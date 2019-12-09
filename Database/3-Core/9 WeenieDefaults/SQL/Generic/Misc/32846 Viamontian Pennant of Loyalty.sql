@@ -14,13 +14,6 @@ VALUES (32846,   1,        128) /* ItemType - Misc */
      , (32846, 114,          0) /* Attuned - Normal */
      , (32846, 151,         24) /* HookType - Yard, Roof */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32846,   1, False) /* Stuck */
-     , (32846,  11, True ) /* IgnoreCollisions */
-     , (32846,  13, True ) /* Ethereal */
-     , (32846,  14, True ) /* GravityStatus */
-     , (32846,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32846,  54,       3) /* UseRadius */;
 

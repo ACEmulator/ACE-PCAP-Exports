@@ -12,10 +12,6 @@ VALUES (4979,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4979,   1, True ) /* Stuck */
-     , (4979,  12, True ) /* ReportCollisions */
-     , (4979,  13, True ) /* Ethereal */
-     , (4979,  14, True ) /* GravityStatus */
-     , (4979,  19, True ) /* Attackable */
      , (4979,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

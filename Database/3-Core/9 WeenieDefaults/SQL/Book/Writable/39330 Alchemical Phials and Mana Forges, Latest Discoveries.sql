@@ -10,15 +10,8 @@ VALUES (39330,   1,       8192) /* ItemType - Writable */
      , (39330,  19,         50) /* Value */
      , (39330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39330,   1, False) /* Stuck */
-     , (39330,  11, True ) /* IgnoreCollisions */
-     , (39330,  13, True ) /* Ethereal */
-     , (39330,  14, True ) /* GravityStatus */
-     , (39330,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39330,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (39330,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39330,   1, 'Alchemical Phials and Mana Forges, Latest Discoveries') /* Name */;

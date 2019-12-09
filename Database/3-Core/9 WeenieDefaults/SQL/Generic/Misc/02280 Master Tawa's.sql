@@ -8,15 +8,10 @@ VALUES (2280,   1,        128) /* ItemType - Misc */
      , (2280,   5,       9000) /* EncumbranceVal */
      , (2280,  16,          1) /* ItemUseable - No */
      , (2280,  19,        125) /* Value */
-     , (2280,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (2280,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2280,   1, True ) /* Stuck */
-     , (2280,  11, True ) /* IgnoreCollisions */
-     , (2280,  12, True ) /* ReportCollisions */
-     , (2280,  13, False) /* Ethereal */
-     , (2280,  14, True ) /* GravityStatus */
-     , (2280,  19, True ) /* Attackable */;
+VALUES (2280,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2280,   1, 'Master Tawa''s') /* Name */

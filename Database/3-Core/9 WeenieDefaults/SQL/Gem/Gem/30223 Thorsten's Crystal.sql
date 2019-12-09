@@ -15,22 +15,17 @@ VALUES (30223,   1,       2048) /* ItemType - Gem */
      , (30223,  18,          1) /* UiEffects - Magical */
      , (30223,  19,          0) /* Value */
      , (30223,  33,         -1) /* Bonded - Slippery */
-     , (30223,  65,        101) /* Placement - Resting */
      , (30223,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30223,  94,         16) /* TargetType - Creature */
      , (30223, 106,        325) /* ItemSpellcraft */
      , (30223, 107,      10000) /* ItemCurMana */
      , (30223, 108,      10000) /* ItemMaxMana */
      , (30223, 109,          0) /* ItemDifficulty */
-     , (30223, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30223, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30223, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30223,   1, False) /* Stuck */
-     , (30223,  11, True ) /* IgnoreCollisions */
-     , (30223,  13, True ) /* Ethereal */
-     , (30223,  14, True ) /* GravityStatus */
-     , (30223,  19, True ) /* Attackable */
-     , (30223, 108, True ) /* RareUsesTimer */;
+VALUES (30223, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30223,   1, 'Thorsten''s Crystal') /* Name */

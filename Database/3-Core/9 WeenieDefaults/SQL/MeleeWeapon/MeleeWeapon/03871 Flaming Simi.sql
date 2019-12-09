@@ -16,7 +16,6 @@ VALUES (3871,   1,          1) /* ItemType - MeleeWeapon */
      , (3871,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (3871,  49,         28) /* WeaponTime */
      , (3871,  51,          1) /* CombatUse - Melee */
-     , (3871,  65,        101) /* Placement - Resting */
      , (3871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3871, 105,          2) /* ItemWorkmanship */
      , (3871, 106,         46) /* ItemSpellcraft */
@@ -30,24 +29,20 @@ VALUES (3871,   1,          1) /* ItemType - MeleeWeapon */
      , (3871, 172,          3) /* AppraisalLongDescDecoration */
      , (3871, 176,         44) /* AppraisalItemSkill */
      , (3871, 353,          2) /* WeaponType - Sword */
-     , (3871, 8030,          0);
+     , (3871, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (3871, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3871,   1, False) /* Stuck */
-     , (3871,  11, True ) /* IgnoreCollisions */
-     , (3871,  13, True ) /* Ethereal */
-     , (3871,  14, True ) /* GravityStatus */
-     , (3871,  19, True ) /* Attackable */
-     , (3871,  22, True ) /* Inscribable */
+VALUES (3871,  22, True ) /* Inscribable */
      , (3871,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3871,   5, -0.0166666675359011) /* ManaRate */
+VALUES (3871,   5,   -0.02) /* ManaRate */
      , (3871,  21,       0) /* WeaponLength */
-     , (3871,  22, 0.587497115135193) /* DamageVariance */
+     , (3871,  22,    0.59) /* DamageVariance */
      , (3871,  26,       0) /* MaximumVelocity */
-     , (3871,  29, 1.01576805114746) /* WeaponDefense */
-     , (3871,  62, 1.01876533031464) /* WeaponOffense */
+     , (3871,  29,    1.02) /* WeaponDefense */
+     , (3871,  62,    1.02) /* WeaponOffense */
      , (3871,  63,       1) /* DamageMod */
      , (3871, 8004,       2) /* PCAPRecordedWorkmanship */;
 

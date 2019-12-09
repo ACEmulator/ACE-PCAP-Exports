@@ -12,17 +12,12 @@ VALUES (25620,   1,          1) /* ItemType - MeleeWeapon */
      , (25620,  18,          1) /* UiEffects - Magical */
      , (25620,  19,       8000) /* Value */
      , (25620,  51,          1) /* CombatUse - Melee */
-     , (25620,  65,          1) /* Placement - RightHandCombat */
      , (25620,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25620, 151,          2) /* HookType - Wall */;
+     , (25620, 151,          2) /* HookType - Wall */
+     , (25620, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25620,   1, False) /* Stuck */
-     , (25620,  11, True ) /* IgnoreCollisions */
-     , (25620,  13, True ) /* Ethereal */
-     , (25620,  14, True ) /* GravityStatus */
-     , (25620,  19, True ) /* Attackable */
-     , (25620,  22, True ) /* Inscribable */;
+VALUES (25620,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25620,   1, 'Electric Weeping Mace') /* Name */;

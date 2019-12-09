@@ -10,7 +10,6 @@ VALUES (48748,   1,      16384) /* ItemType - Key */
      , (48748,  18,         64) /* UiEffects - Lightning */
      , (48748,  19,      20000) /* Value */
      , (48748,  33,          0) /* Bonded - Normal */
-     , (48748,  65,        101) /* Placement - Resting */
      , (48748,  91,          2) /* MaxStructure */
      , (48748,  92,          2) /* Structure */
      , (48748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -19,15 +18,11 @@ VALUES (48748,   1,      16384) /* ItemType - Key */
      , (48748, 114,          0) /* Attuned - Normal */
      , (48748, 267,      86400) /* Lifespan */
      , (48748, 268,      86230) /* RemainingLifespan */
-     , (48748, 369,        150) /* UseRequiresLevel */;
+     , (48748, 369,        150) /* UseRequiresLevel */
+     , (48748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48748,   1, False) /* Stuck */
-     , (48748,  11, True ) /* IgnoreCollisions */
-     , (48748,  13, True ) /* Ethereal */
-     , (48748,  14, True ) /* GravityStatus */
-     , (48748,  19, True ) /* Attackable */
-     , (48748,  22, True ) /* Inscribable */
+VALUES (48748,  22, True ) /* Inscribable */
      , (48748,  69, False) /* IsSellable */
      , (48748,  99, False) /* Ivoryable */;
 

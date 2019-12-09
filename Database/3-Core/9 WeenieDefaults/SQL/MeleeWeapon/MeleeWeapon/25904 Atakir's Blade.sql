@@ -11,17 +11,12 @@ VALUES (25904,   1,          1) /* ItemType - MeleeWeapon */
      , (25904,  18,          1) /* UiEffects - Magical */
      , (25904,  19,      10500) /* Value */
      , (25904,  51,          1) /* CombatUse - Melee */
-     , (25904,  65,        101) /* Placement - Resting */
      , (25904,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25904, 151,          2) /* HookType - Wall */;
+     , (25904, 151,          2) /* HookType - Wall */
+     , (25904, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25904,   1, False) /* Stuck */
-     , (25904,  11, True ) /* IgnoreCollisions */
-     , (25904,  13, True ) /* Ethereal */
-     , (25904,  14, True ) /* GravityStatus */
-     , (25904,  19, True ) /* Attackable */
-     , (25904,  22, True ) /* Inscribable */;
+VALUES (25904,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25904,   1, 'Atakir''s Blade') /* Name */;

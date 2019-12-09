@@ -12,17 +12,12 @@ VALUES (30305,   1,        256) /* ItemType - MissileWeapon */
      , (30305,  19,      50000) /* Value */
      , (30305,  50,          2) /* AmmoType - Bolt */
      , (30305,  51,          2) /* CombatUse - Missle */
-     , (30305,  65,          3) /* Placement - LeftHand */
      , (30305,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30305, 151,          2) /* HookType - Wall */;
+     , (30305, 151,          2) /* HookType - Wall */
+     , (30305, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30305,   1, False) /* Stuck */
-     , (30305,  11, True ) /* IgnoreCollisions */
-     , (30305,  13, True ) /* Ethereal */
-     , (30305,  14, True ) /* GravityStatus */
-     , (30305,  19, True ) /* Attackable */
-     , (30305,  22, True ) /* Inscribable */;
+VALUES (30305,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30305,   1, 'Bloodmark Crossbow') /* Name */;

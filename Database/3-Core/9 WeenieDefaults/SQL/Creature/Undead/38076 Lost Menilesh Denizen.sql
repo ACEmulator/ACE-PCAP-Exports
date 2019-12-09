@@ -15,14 +15,10 @@ VALUES (38076,   1,         16) /* ItemType - Creature */
      , (38076, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38076,   1, True ) /* Stuck */
-     , (38076,  12, True ) /* ReportCollisions */
-     , (38076,  13, False) /* Ethereal */
-     , (38076,  14, True ) /* GravityStatus */
-     , (38076,  19, True ) /* Attackable */;
+VALUES (38076,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38076,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (38076,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38076,   1, 'Lost Menilesh Denizen') /* Name */

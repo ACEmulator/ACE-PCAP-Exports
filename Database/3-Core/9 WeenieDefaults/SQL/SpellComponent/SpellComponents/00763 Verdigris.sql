@@ -12,15 +12,8 @@ VALUES (763,   1,       4096) /* ItemType - SpellComponents */
      , (763,  15,          5) /* StackUnitValue */
      , (763,  16,          1) /* ItemUseable - No */
      , (763,  19,          5) /* Value */
-     , (763,  65,        101) /* Placement - Resting */
-     , (763,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (763,   1, False) /* Stuck */
-     , (763,  11, True ) /* IgnoreCollisions */
-     , (763,  13, True ) /* Ethereal */
-     , (763,  14, True ) /* GravityStatus */
-     , (763,  19, True ) /* Attackable */;
+     , (763,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (763, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (763,   1, 'Verdigris') /* Name */

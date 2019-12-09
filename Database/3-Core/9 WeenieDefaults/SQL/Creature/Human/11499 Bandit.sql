@@ -17,11 +17,7 @@ VALUES (11499,   1,         16) /* ItemType - Creature */
      , (11499, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11499,   1, True ) /* Stuck */
-     , (11499,  12, True ) /* ReportCollisions */
-     , (11499,  13, False) /* Ethereal */
-     , (11499,  14, True ) /* GravityStatus */
-     , (11499,  19, True ) /* Attackable */;
+VALUES (11499,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11499,   1, 'Bandit') /* Name */

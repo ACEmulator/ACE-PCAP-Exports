@@ -18,11 +18,7 @@ VALUES (11506,   1,         16) /* ItemType - Creature */
      , (11506, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11506,   1, True ) /* Stuck */
-     , (11506,  12, True ) /* ReportCollisions */
-     , (11506,  13, False) /* Ethereal */
-     , (11506,  14, True ) /* GravityStatus */
-     , (11506,  19, True ) /* Attackable */;
+VALUES (11506,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11506,   1, 'Zharalim') /* Name */

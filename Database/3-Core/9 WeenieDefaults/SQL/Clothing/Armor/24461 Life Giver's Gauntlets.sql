@@ -11,7 +11,6 @@ VALUES (24461,   1,          2) /* ItemType - Armor */
      , (24461,  16,          1) /* ItemUseable - No */
      , (24461,  19,       5500) /* Value */
      , (24461,  28,        250) /* ArmorLevel */
-     , (24461,  65,        101) /* Placement - Resting */
      , (24461,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24461, 106,        290) /* ItemSpellcraft */
      , (24461, 107,        610) /* ItemCurMana */
@@ -19,25 +18,21 @@ VALUES (24461,   1,          2) /* ItemType - Armor */
      , (24461, 109,        100) /* ItemDifficulty */
      , (24461, 158,          2) /* WieldRequirements - RawSkill */
      , (24461, 159,         33) /* WieldSkillType - LifeMagic */
-     , (24461, 160,        285) /* WieldDifficulty */;
+     , (24461, 160,        285) /* WieldDifficulty */
+     , (24461, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24461,   1, False) /* Stuck */
-     , (24461,  11, True ) /* IgnoreCollisions */
-     , (24461,  13, True ) /* Ethereal */
-     , (24461,  14, True ) /* GravityStatus */
-     , (24461,  19, True ) /* Attackable */
-     , (24461,  22, True ) /* Inscribable */
+VALUES (24461,  22, True ) /* Inscribable */
      , (24461,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24461,   5, -0.0500000007450581) /* ManaRate */
-     , (24461,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (24461,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (24461,  15, 0.800000011920929) /* ArmorModVsBludgeon */
+VALUES (24461,   5,   -0.05) /* ManaRate */
+     , (24461,  13,     0.8) /* ArmorModVsSlash */
+     , (24461,  14,     0.8) /* ArmorModVsPierce */
+     , (24461,  15,     0.8) /* ArmorModVsBludgeon */
      , (24461,  16,       1) /* ArmorModVsCold */
-     , (24461,  17, 1.20000004768372) /* ArmorModVsFire */
-     , (24461,  18, 1.20000004768372) /* ArmorModVsAcid */
+     , (24461,  17,     1.2) /* ArmorModVsFire */
+     , (24461,  18,     1.2) /* ArmorModVsAcid */
      , (24461,  19,       1) /* ArmorModVsElectric */
      , (24461, 165,       1) /* ArmorModVsNether */;
 

@@ -15,13 +15,7 @@ VALUES (36763,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36763,   1, True ) /* Stuck */
-     , (36763,  11, True ) /* IgnoreCollisions */
-     , (36763,  12, True ) /* ReportCollisions */
-     , (36763,  13, True ) /* Ethereal */
-     , (36763,  14, True ) /* GravityStatus */
-     , (36763,  15, True ) /* LightsStatus */
-     , (36763,  19, False) /* Attackable */
-     , (36763,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (36763,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36763,   1, 'Virindi Portal') /* Name */

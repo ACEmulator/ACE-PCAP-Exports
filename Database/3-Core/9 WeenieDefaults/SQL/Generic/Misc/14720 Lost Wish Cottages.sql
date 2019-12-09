@@ -11,12 +11,7 @@ VALUES (14720,   1,        128) /* ItemType - Misc */
      , (14720,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14720,   1, True ) /* Stuck */
-     , (14720,  11, True ) /* IgnoreCollisions */
-     , (14720,  12, True ) /* ReportCollisions */
-     , (14720,  13, False) /* Ethereal */
-     , (14720,  14, True ) /* GravityStatus */
-     , (14720,  19, True ) /* Attackable */;
+VALUES (14720,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14720,   1, 'Lost Wish Cottages') /* Name */;

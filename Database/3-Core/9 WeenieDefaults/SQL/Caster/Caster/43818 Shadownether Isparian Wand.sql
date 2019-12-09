@@ -13,7 +13,6 @@ VALUES (43818,   1,      32768) /* ItemType - Caster */
      , (43818,  33,          1) /* Bonded - Bonded */
      , (43818,  36,       9999) /* ResistMagic */
      , (43818,  45,       1024) /* DamageType - Nether */
-     , (43818,  65,        101) /* Placement - Resting */
      , (43818,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43818,  94,         16) /* TargetType - Creature */
      , (43818, 114,          0) /* Attuned - Normal */
@@ -21,24 +20,20 @@ VALUES (43818,   1,      32768) /* ItemType - Caster */
      , (43818, 158,          2) /* WieldRequirements - RawSkill */
      , (43818, 159,         43) /* WieldSkillType - VoidMagic */
      , (43818, 160,        335) /* WieldDifficulty */
-     , (43818, 166,         22) /* SlayerCreatureType - Shadow */;
+     , (43818, 166,         22) /* SlayerCreatureType - Shadow */
+     , (43818, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43818,   1, False) /* Stuck */
-     , (43818,  11, True ) /* IgnoreCollisions */
-     , (43818,  13, True ) /* Ethereal */
-     , (43818,  14, True ) /* GravityStatus */
-     , (43818,  19, True ) /* Attackable */
-     , (43818,  22, True ) /* Inscribable */
+VALUES (43818,  22, True ) /* Inscribable */
      , (43818,  69, False) /* IsSellable */
      , (43818,  85, True ) /* AppraisalHasAllowedWielder */
      , (43818,  91, True ) /* Retained */
      , (43818,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43818,  29, 1.28999996185303) /* WeaponDefense */
-     , (43818, 144, 0.203999996185303) /* ManaConversionMod */
-     , (43818, 152, 1.08000004291534) /* ElementalDamageMod */;
+VALUES (43818,  29,    1.29) /* WeaponDefense */
+     , (43818, 144,     0.2) /* ManaConversionMod */
+     , (43818, 152,    1.08) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43818,   1, 'Shadownether Isparian Wand') /* Name */

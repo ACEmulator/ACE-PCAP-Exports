@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19249,   1,        128) /* ItemType - Misc */
      , (19249,   5,         40) /* EncumbranceVal */
      , (19249,  16,          1) /* ItemUseable - No */
-     , (19249,  65,        101) /* Placement - Resting */
-     , (19249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (19249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19249, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19249,   1, False) /* Stuck */
-     , (19249,  11, True ) /* IgnoreCollisions */
-     , (19249,  13, True ) /* Ethereal */
-     , (19249,  14, True ) /* GravityStatus */
-     , (19249,  19, True ) /* Attackable */
-     , (19249,  22, True ) /* Inscribable */;
+VALUES (19249,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19249,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (19249,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19249,   1, 'Bronze Nuts and Bolts from a Statue') /* Name */;

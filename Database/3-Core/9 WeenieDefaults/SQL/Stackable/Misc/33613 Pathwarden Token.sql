@@ -13,19 +13,12 @@ VALUES (33613,   1,        128) /* ItemType - Misc */
      , (33613,  16,          1) /* ItemUseable - No */
      , (33613,  19,          0) /* Value */
      , (33613,  33,          1) /* Bonded - Bonded */
-     , (33613,  65,        101) /* Placement - Resting */
      , (33613,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33613, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33613,   1, False) /* Stuck */
-     , (33613,  11, True ) /* IgnoreCollisions */
-     , (33613,  13, True ) /* Ethereal */
-     , (33613,  14, True ) /* GravityStatus */
-     , (33613,  19, True ) /* Attackable */;
+     , (33613, 114,          1) /* Attuned - Attuned */
+     , (33613, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33613,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (33613,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33613,   1, 'Pathwarden Token') /* Name */

@@ -13,20 +13,14 @@ VALUES (35935,   1,      65536) /* ItemType - Portal */
      , (35935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35935,   1, True ) /* Stuck */
-     , (35935,  12, True ) /* ReportCollisions */
-     , (35935,  13, True ) /* Ethereal */
-     , (35935,  14, True ) /* GravityStatus */
-     , (35935,  15, True ) /* LightsStatus */
-     , (35935,  19, True ) /* Attackable */;
+VALUES (35935,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35935,  54, -0.100000001490116) /* UseRadius */;
+VALUES (35935,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35935,   1, 'Paradox-Touched Olthoi Queen''s Lair') /* Name */
      , (35935,  16, 'This portal seems to be warded against those who are not attuned to it.') /* LongDesc */
-     , (35935,  38, 'Paradox-Touched Olthoi Queen''s Lair') /* AppraisalPortalDestination */
      , (35935, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

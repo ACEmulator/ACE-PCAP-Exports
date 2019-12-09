@@ -9,20 +9,15 @@ VALUES (34351,   1,        128) /* ItemType - Misc */
      , (34351,  16,          1) /* ItemUseable - No */
      , (34351,  19,         10) /* Value */
      , (34351,  33,          1) /* Bonded - Bonded */
-     , (34351,  65,        101) /* Placement - Resting */
      , (34351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34351, 114,          1) /* Attuned - Attuned */;
+     , (34351, 114,          1) /* Attuned - Attuned */
+     , (34351, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34351,   1, False) /* Stuck */
-     , (34351,  11, True ) /* IgnoreCollisions */
-     , (34351,  13, True ) /* Ethereal */
-     , (34351,  14, True ) /* GravityStatus */
-     , (34351,  19, True ) /* Attackable */
-     , (34351,  22, True ) /* Inscribable */;
+VALUES (34351,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34351,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (34351,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34351,   1, 'Pyreal Mote') /* Name */

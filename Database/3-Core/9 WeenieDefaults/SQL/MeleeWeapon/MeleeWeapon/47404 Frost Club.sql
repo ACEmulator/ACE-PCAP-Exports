@@ -12,17 +12,12 @@ VALUES (47404,   1,          1) /* ItemType - MeleeWeapon */
      , (47404,  18,        128) /* UiEffects - Frost */
      , (47404,  19,        350) /* Value */
      , (47404,  51,          1) /* CombatUse - Melee */
-     , (47404,  65,          1) /* Placement - RightHandCombat */
      , (47404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47404, 151,          2) /* HookType - Wall */;
+     , (47404, 151,          2) /* HookType - Wall */
+     , (47404, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47404,   1, False) /* Stuck */
-     , (47404,  11, True ) /* IgnoreCollisions */
-     , (47404,  13, True ) /* Ethereal */
-     , (47404,  14, True ) /* GravityStatus */
-     , (47404,  19, True ) /* Attackable */
-     , (47404,  22, True ) /* Inscribable */;
+VALUES (47404,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47404,   1, 'Frost Club') /* Name */;

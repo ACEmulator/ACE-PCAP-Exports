@@ -12,18 +12,11 @@ VALUES (8307,   1,       4096) /* ItemType - SpellComponents */
      , (8307,  15,        625) /* StackUnitValue */
      , (8307,  16,          1) /* ItemUseable - No */
      , (8307,  19,        625) /* Value */
-     , (8307,  65,        101) /* Placement - Resting */
-     , (8307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8307,   1, False) /* Stuck */
-     , (8307,  11, True ) /* IgnoreCollisions */
-     , (8307,  13, True ) /* Ethereal */
-     , (8307,  14, True ) /* GravityStatus */
-     , (8307,  19, True ) /* Attackable */;
+     , (8307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8307, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8307,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8307,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8307,   1, 'Gypsum Pea') /* Name */;

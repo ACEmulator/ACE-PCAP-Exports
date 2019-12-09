@@ -15,15 +15,10 @@ VALUES (41585,   1,         16) /* ItemType - Creature */
      , (41585, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41585,   1, True ) /* Stuck */
-     , (41585,  12, True ) /* ReportCollisions */
-     , (41585,  13, False) /* Ethereal */
-     , (41585,  14, True ) /* GravityStatus */
-     , (41585,  19, True ) /* Attackable */
-     , (41585,  42, True ) /* AllowEdgeSlide */;
+VALUES (41585,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41585,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (41585,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41585,   1, 'Gold Gear Lesser Lord') /* Name */

@@ -11,17 +11,11 @@ VALUES (11906,   1,          1) /* ItemType - MeleeWeapon */
      , (11906,  16,          1) /* ItemUseable - No */
      , (11906,  19,       2000) /* Value */
      , (11906,  51,          1) /* CombatUse - Melee */
-     , (11906,  65,          1) /* Placement - RightHandCombat */
-     , (11906,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (11906,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (11906, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11906,   1, False) /* Stuck */
-     , (11906,  11, True ) /* IgnoreCollisions */
-     , (11906,  13, True ) /* Ethereal */
-     , (11906,  14, True ) /* GravityStatus */
-     , (11906,  15, True ) /* LightsStatus */
-     , (11906,  19, True ) /* Attackable */
-     , (11906,  22, True ) /* Inscribable */;
+VALUES (11906,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11906,   1, 'Mace of the Quiddity') /* Name */;

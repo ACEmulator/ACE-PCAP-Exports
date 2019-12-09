@@ -9,17 +9,12 @@ VALUES (46416,   1,        128) /* ItemType - Misc */
      , (46416,  16,          1) /* ItemUseable - No */
      , (46416,  19,          4) /* Value */
      , (46416,  33,          1) /* Bonded - Bonded */
-     , (46416,  65,        101) /* Placement - Resting */
      , (46416,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46416, 114,          1) /* Attuned - Attuned */;
+     , (46416, 114,          1) /* Attuned - Attuned */
+     , (46416, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46416,   1, False) /* Stuck */
-     , (46416,  11, True ) /* IgnoreCollisions */
-     , (46416,  13, True ) /* Ethereal */
-     , (46416,  14, True ) /* GravityStatus */
-     , (46416,  19, True ) /* Attackable */
-     , (46416,  69, False) /* IsSellable */;
+VALUES (46416,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46416,   1, 'Combat Spells Certificate') /* Name */

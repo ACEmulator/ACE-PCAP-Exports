@@ -13,21 +13,15 @@ VALUES (42158,   1,      65536) /* ItemType - Portal */
      , (42158, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42158,   1, True ) /* Stuck */
-     , (42158,  12, True ) /* ReportCollisions */
-     , (42158,  13, True ) /* Ethereal */
-     , (42158,  14, True ) /* GravityStatus */
-     , (42158,  15, True ) /* LightsStatus */
-     , (42158,  19, True ) /* Attackable */;
+VALUES (42158,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42158,  39, 0.800000011920929) /* DefaultScale */
-     , (42158,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42158,  39,     0.8) /* DefaultScale */
+     , (42158,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42158,   1, 'Folthid Estate') /* Name */
      , (42158,  16, 'A portal leading to the Folthid Estate where the Dull Dagger and Dagger of Tikola may be found.') /* LongDesc */
-     , (42158,  38, 'Folthid Estate (8.8S, 53.6E).') /* AppraisalPortalDestination */
      , (42158, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

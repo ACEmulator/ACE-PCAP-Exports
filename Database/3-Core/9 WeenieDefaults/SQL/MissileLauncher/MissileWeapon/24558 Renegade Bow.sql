@@ -17,7 +17,6 @@ VALUES (24558,   1,        256) /* ItemType - MissileWeapon */
      , (24558,  49,         45) /* WeaponTime */
      , (24558,  50,          1) /* AmmoType - Arrow */
      , (24558,  51,          2) /* CombatUse - Missle */
-     , (24558,  65,          3) /* Placement - LeftHand */
      , (24558,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (24558, 106,        400) /* ItemSpellcraft */
      , (24558, 107,        777) /* ItemCurMana */
@@ -27,26 +26,21 @@ VALUES (24558,   1,        256) /* ItemType - MissileWeapon */
      , (24558, 159,         47) /* WieldSkillType - MissileWeapons */
      , (24558, 160,        290) /* WieldDifficulty */
      , (24558, 353,          8) /* WeaponType - Bow */
-     , (24558, 8030,          0);
+     , (24558, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (24558, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24558,   1, False) /* Stuck */
-     , (24558,  11, True ) /* IgnoreCollisions */
-     , (24558,  13, True ) /* Ethereal */
-     , (24558,  14, True ) /* GravityStatus */
-     , (24558,  15, True ) /* LightsStatus */
-     , (24558,  19, True ) /* Attackable */
-     , (24558,  22, True ) /* Inscribable */;
+VALUES (24558,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24558,   5, -0.0500000007450581) /* ManaRate */
+VALUES (24558,   5,   -0.05) /* ManaRate */
      , (24558,  21,       0) /* WeaponLength */
      , (24558,  22,       0) /* DamageVariance */
      , (24558,  26,    26.3) /* MaximumVelocity */
-     , (24558,  29, 1.08000004291534) /* WeaponDefense */
-     , (24558,  39, 1.20000004768372) /* DefaultScale */
+     , (24558,  29,    1.08) /* WeaponDefense */
+     , (24558,  39,     1.2) /* DefaultScale */
      , (24558,  62,       1) /* WeaponOffense */
-     , (24558,  63, 2.54999995231628) /* DamageMod */
+     , (24558,  63,    2.55) /* DamageMod */
      , (24558,  77,       1) /* PhysicsScriptIntensity */
      , (24558, 136,       1) /* CriticalMultiplier */;
 

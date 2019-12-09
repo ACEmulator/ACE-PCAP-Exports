@@ -12,19 +12,13 @@ VALUES (12495,   1,      65536) /* ItemType - Portal */
      , (12495, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12495,   1, True ) /* Stuck */
-     , (12495,  12, True ) /* ReportCollisions */
-     , (12495,  13, True ) /* Ethereal */
-     , (12495,  14, True ) /* GravityStatus */
-     , (12495,  15, True ) /* LightsStatus */
-     , (12495,  19, True ) /* Attackable */;
+VALUES (12495,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12495,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12495,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12495,   1, 'Evensong Settlement Portal') /* Name */
-     , (12495,  38, 'Evensong Settlement Portal (41.6N, 40.7E).') /* AppraisalPortalDestination */
      , (12495, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,21 +13,16 @@ VALUES (41454,   1,       2048) /* ItemType - Gem */
      , (41454,  16,          8) /* ItemUseable - Contained */
      , (41454,  18,          1) /* UiEffects - Magical */
      , (41454,  19,          0) /* Value */
-     , (41454,  65,        101) /* Placement - Resting */
      , (41454,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41454,  94,         16) /* TargetType - Creature */
      , (41454, 115,         75) /* ItemSkillLevelLimit */
      , (41454, 151,         11) /* HookType - Floor, Wall, Yard */
      , (41454, 176,         20) /* AppraisalItemSkill */
-     , (41454, 280,          9) /* SharedCooldown */;
+     , (41454, 280,          9) /* SharedCooldown */
+     , (41454, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41454,   1, False) /* Stuck */
-     , (41454,  11, True ) /* IgnoreCollisions */
-     , (41454,  13, True ) /* Ethereal */
-     , (41454,  14, True ) /* GravityStatus */
-     , (41454,  19, True ) /* Attackable */
-     , (41454,  22, True ) /* Inscribable */
+VALUES (41454,  22, True ) /* Inscribable */
      , (41454,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

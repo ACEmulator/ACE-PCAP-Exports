@@ -11,12 +11,7 @@ VALUES (15210,   1,        128) /* ItemType - Misc */
      , (15210,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15210,   1, True ) /* Stuck */
-     , (15210,  11, True ) /* IgnoreCollisions */
-     , (15210,  12, True ) /* ReportCollisions */
-     , (15210,  13, False) /* Ethereal */
-     , (15210,  14, True ) /* GravityStatus */
-     , (15210,  19, True ) /* Attackable */;
+VALUES (15210,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15210,   1, 'Azaroth Cottages') /* Name */

@@ -18,11 +18,7 @@ VALUES (29302,   1,         16) /* ItemType - Creature */
      , (29302, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29302,   1, True ) /* Stuck */
-     , (29302,  12, True ) /* ReportCollisions */
-     , (29302,  13, False) /* Ethereal */
-     , (29302,  14, True ) /* GravityStatus */
-     , (29302,  19, True ) /* Attackable */;
+VALUES (29302,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29302,   1, 'Viamontian Counselor') /* Name */

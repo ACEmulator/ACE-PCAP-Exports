@@ -12,15 +12,8 @@ VALUES (7837,   1,         32) /* ItemType - Food */
      , (7837,  15,        130) /* StackUnitValue */
      , (7837,  16,          8) /* ItemUseable - Contained */
      , (7837,  19,        130) /* Value */
-     , (7837,  65,        101) /* Placement - Resting */
-     , (7837,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7837,   1, False) /* Stuck */
-     , (7837,  11, True ) /* IgnoreCollisions */
-     , (7837,  13, True ) /* Ethereal */
-     , (7837,  14, True ) /* GravityStatus */
-     , (7837,  19, True ) /* Attackable */;
+     , (7837,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7837, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7837,   1, 'Ice Cream') /* Name */

@@ -12,19 +12,14 @@ VALUES (379,   1,        128) /* ItemType - Misc */
      , (379,  15,        170) /* StackUnitValue */
      , (379,  16,          8) /* ItemUseable - Contained */
      , (379,  19,        170) /* Value */
-     , (379,  65,        101) /* Placement - Resting */
      , (379,  89,          6) /* BoosterEnum - Mana */
      , (379,  90,         25) /* BoostValue */
      , (379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (379, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (379, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (379, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (379,   1, False) /* Stuck */
-     , (379,  11, True ) /* IgnoreCollisions */
-     , (379,  13, True ) /* Ethereal */
-     , (379,  14, True ) /* GravityStatus */
-     , (379,  19, True ) /* Attackable */
-     , (379,  69, False) /* IsSellable */;
+VALUES (379,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (379,   1, 'Mana Potion') /* Name */

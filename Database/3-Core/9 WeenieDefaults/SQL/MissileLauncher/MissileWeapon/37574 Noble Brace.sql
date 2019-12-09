@@ -12,18 +12,12 @@ VALUES (37574,   1,        256) /* ItemType - MissileWeapon */
      , (37574,  18,          1) /* UiEffects - Magical */
      , (37574,  50,          4) /* AmmoType - Atlatl */
      , (37574,  51,          2) /* CombatUse - Missle */
-     , (37574,  65,          1) /* Placement - RightHandCombat */
      , (37574,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (37574, 151,          2) /* HookType - Wall */;
+     , (37574, 151,          2) /* HookType - Wall */
+     , (37574, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37574,   1, False) /* Stuck */
-     , (37574,  11, True ) /* IgnoreCollisions */
-     , (37574,  13, True ) /* Ethereal */
-     , (37574,  14, True ) /* GravityStatus */
-     , (37574,  15, True ) /* LightsStatus */
-     , (37574,  19, True ) /* Attackable */
-     , (37574,  22, True ) /* Inscribable */;
+VALUES (37574,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37574,   1, 'Noble Brace') /* Name */;

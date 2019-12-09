@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41226,   1,        128) /* ItemType - Misc */
      , (41226,   5,          4) /* EncumbranceVal */
      , (41226,  16,          1) /* ItemUseable - No */
-     , (41226,  65,        101) /* Placement - Resting */
-     , (41226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (41226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41226, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41226,   1, False) /* Stuck */
-     , (41226,  11, True ) /* IgnoreCollisions */
-     , (41226,  13, True ) /* Ethereal */
-     , (41226,  14, True ) /* GravityStatus */
-     , (41226,  19, True ) /* Attackable */
-     , (41226,  22, True ) /* Inscribable */;
+VALUES (41226,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41226,   1, 'Aetherium Core Fragment') /* Name */;

@@ -13,18 +13,13 @@ VALUES (44366,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44366,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44366,  19,      15000) /* Value */
      , (44366,  33,          1) /* Bonded - Bonded */
-     , (44366,  65,        101) /* Placement - Resting */
      , (44366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44366,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (44366, 114,          1) /* Attuned - Attuned */;
+     , (44366, 114,          1) /* Attuned - Attuned */
+     , (44366, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44366,   1, False) /* Stuck */
-     , (44366,  11, True ) /* IgnoreCollisions */
-     , (44366,  13, True ) /* Ethereal */
-     , (44366,  14, True ) /* GravityStatus */
-     , (44366,  19, True ) /* Attackable */
-     , (44366,  69, False) /* IsSellable */;
+VALUES (44366,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44366,   1, 'Wrapped Bundle of Greater Deadly Armor Piercing Arrowheads') /* Name */

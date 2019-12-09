@@ -13,7 +13,6 @@ VALUES (21375,   1,          4) /* ItemType - Clothing */
      , (21375,  19,       4000) /* Value */
      , (21375,  28,         80) /* ArmorLevel */
      , (21375,  36,       9999) /* ResistMagic */
-     , (21375,  65,        101) /* Placement - Resting */
      , (21375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21375, 106,        400) /* ItemSpellcraft */
      , (21375, 107,       1997) /* ItemCurMana */
@@ -22,15 +21,11 @@ VALUES (21375,   1,          4) /* ItemType - Clothing */
      , (21375, 151,          2) /* HookType - Wall */
      , (21375, 158,          7) /* WieldRequirements - Level */
      , (21375, 159,          1) /* WieldSkillType - Axe */
-     , (21375, 160,         30) /* WieldDifficulty */;
+     , (21375, 160,         30) /* WieldDifficulty */
+     , (21375, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21375,   1, False) /* Stuck */
-     , (21375,  11, True ) /* IgnoreCollisions */
-     , (21375,  13, True ) /* Ethereal */
-     , (21375,  14, True ) /* GravityStatus */
-     , (21375,  19, True ) /* Attackable */
-     , (21375,  22, True ) /* Inscribable */
+VALUES (21375,  22, True ) /* Inscribable */
      , (21375,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

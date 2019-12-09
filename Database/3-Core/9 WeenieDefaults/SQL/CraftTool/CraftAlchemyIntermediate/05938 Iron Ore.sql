@@ -12,18 +12,13 @@ VALUES (5938,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5938,  15,          5) /* StackUnitValue */
      , (5938,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5938,  19,          5) /* Value */
-     , (5938,  65,        101) /* Placement - Resting */
      , (5938,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5938,  94,    3013615) /* TargetType - Item */
-     , (5938, 151,          9) /* HookType - Floor, Yard */;
+     , (5938, 151,          9) /* HookType - Floor, Yard */
+     , (5938, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5938,   1, False) /* Stuck */
-     , (5938,  11, True ) /* IgnoreCollisions */
-     , (5938,  13, True ) /* Ethereal */
-     , (5938,  14, True ) /* GravityStatus */
-     , (5938,  19, True ) /* Attackable */
-     , (5938,  22, True ) /* Inscribable */;
+VALUES (5938,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5938,   1, 'Iron Ore') /* Name */

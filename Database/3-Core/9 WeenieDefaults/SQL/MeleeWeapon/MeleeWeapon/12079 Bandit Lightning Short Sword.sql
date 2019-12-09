@@ -12,19 +12,14 @@ VALUES (12079,   1,          1) /* ItemType - MeleeWeapon */
      , (12079,  18,         64) /* UiEffects - Lightning */
      , (12079,  19,        400) /* Value */
      , (12079,  51,          1) /* CombatUse - Melee */
-     , (12079,  65,          1) /* Placement - RightHandCombat */
-     , (12079,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12079,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12079, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12079,   1, False) /* Stuck */
-     , (12079,  11, True ) /* IgnoreCollisions */
-     , (12079,  13, True ) /* Ethereal */
-     , (12079,  14, True ) /* GravityStatus */
-     , (12079,  19, True ) /* Attackable */
-     , (12079,  22, True ) /* Inscribable */;
+VALUES (12079,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12079,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (12079,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12079,   1, 'Bandit Lightning Short Sword') /* Name */;

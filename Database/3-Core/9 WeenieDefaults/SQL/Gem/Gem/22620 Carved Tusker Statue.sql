@@ -14,15 +14,10 @@ VALUES (22620,   1,       2048) /* ItemType - Gem */
      , (22620, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22620,   1, False) /* Stuck */
-     , (22620,  11, True ) /* IgnoreCollisions */
-     , (22620,  13, True ) /* Ethereal */
-     , (22620,  14, True ) /* GravityStatus */
-     , (22620,  19, True ) /* Attackable */
-     , (22620,  22, True ) /* Inscribable */;
+VALUES (22620,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22620,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (22620,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22620,   1, 'Carved Tusker Statue') /* Name */

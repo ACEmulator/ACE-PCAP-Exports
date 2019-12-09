@@ -8,16 +8,11 @@ VALUES (728,   1,        128) /* ItemType - Misc */
      , (728,   5,       9000) /* EncumbranceVal */
      , (728,  16,          1) /* ItemUseable - No */
      , (728,  19,        125) /* Value */
-     , (728,  65,        101) /* Placement - Resting */
-     , (728,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (728,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (728, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (728,   1, True ) /* Stuck */
-     , (728,  11, True ) /* IgnoreCollisions */
-     , (728,  12, True ) /* ReportCollisions */
-     , (728,  13, False) /* Ethereal */
-     , (728,  14, True ) /* GravityStatus */
-     , (728,  19, True ) /* Attackable */;
+VALUES (728,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (728,   1, 'The Overlook') /* Name */

@@ -11,15 +11,10 @@ VALUES (29498,   1,      65536) /* ItemType - Portal */
      , (29498, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29498,   1, True ) /* Stuck */
-     , (29498,  12, True ) /* ReportCollisions */
-     , (29498,  13, True ) /* Ethereal */
-     , (29498,  14, True ) /* GravityStatus */
-     , (29498,  15, True ) /* LightsStatus */
-     , (29498,  19, True ) /* Attackable */;
+VALUES (29498,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29498,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29498,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29498,   1, 'Heart of Madness') /* Name */

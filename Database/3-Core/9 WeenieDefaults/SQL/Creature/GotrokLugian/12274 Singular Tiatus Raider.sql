@@ -16,11 +16,7 @@ VALUES (12274,   1,         16) /* ItemType - Creature */
      , (12274, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12274,   1, True ) /* Stuck */
-     , (12274,  12, True ) /* ReportCollisions */
-     , (12274,  13, False) /* Ethereal */
-     , (12274,  14, True ) /* GravityStatus */
-     , (12274,  19, True ) /* Attackable */;
+VALUES (12274,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12274,   1, 'Singular Tiatus Raider') /* Name */

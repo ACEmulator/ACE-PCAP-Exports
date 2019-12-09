@@ -13,19 +13,13 @@ VALUES (8383,   1,      65536) /* ItemType - Portal */
      , (8383, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8383,   1, True ) /* Stuck */
-     , (8383,  12, True ) /* ReportCollisions */
-     , (8383,  13, True ) /* Ethereal */
-     , (8383,  14, True ) /* GravityStatus */
-     , (8383,  15, True ) /* LightsStatus */
-     , (8383,  19, True ) /* Attackable */;
+VALUES (8383,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8383,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8383,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8383,   1, 'Direlands Desert Northeast Portal') /* Name */
-     , (8383,  38, 'Direlands Desert Northeast Portal (82.1S, 59.0W).') /* AppraisalPortalDestination */
      , (8383, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

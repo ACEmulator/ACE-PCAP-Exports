@@ -8,16 +8,11 @@ VALUES (36062,   1,        128) /* ItemType - Misc */
      , (36062,   5,          1) /* EncumbranceVal */
      , (36062,  16,          1) /* ItemUseable - No */
      , (36062,  18,         64) /* UiEffects - Lightning */
-     , (36062,  65,        101) /* Placement - Resting */
-     , (36062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36062, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36062,   1, False) /* Stuck */
-     , (36062,  11, True ) /* IgnoreCollisions */
-     , (36062,  13, True ) /* Ethereal */
-     , (36062,  14, True ) /* GravityStatus */
-     , (36062,  19, True ) /* Attackable */
-     , (36062,  22, True ) /* Inscribable */;
+VALUES (36062,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36062,   1, 'Reflection of Khekierea') /* Name */;

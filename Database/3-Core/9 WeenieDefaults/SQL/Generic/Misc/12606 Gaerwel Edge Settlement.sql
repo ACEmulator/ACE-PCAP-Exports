@@ -11,12 +11,7 @@ VALUES (12606,   1,        128) /* ItemType - Misc */
      , (12606,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12606,   1, True ) /* Stuck */
-     , (12606,  11, True ) /* IgnoreCollisions */
-     , (12606,  12, True ) /* ReportCollisions */
-     , (12606,  13, False) /* Ethereal */
-     , (12606,  14, True ) /* GravityStatus */
-     , (12606,  19, True ) /* Attackable */;
+VALUES (12606,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12606,   1, 'Gaerwel Edge Settlement') /* Name */;

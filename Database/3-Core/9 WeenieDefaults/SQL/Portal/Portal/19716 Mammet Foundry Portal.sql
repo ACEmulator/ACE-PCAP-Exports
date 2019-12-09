@@ -12,19 +12,13 @@ VALUES (19716,   1,      65536) /* ItemType - Portal */
      , (19716, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19716,   1, True ) /* Stuck */
-     , (19716,  12, True ) /* ReportCollisions */
-     , (19716,  13, True ) /* Ethereal */
-     , (19716,  14, True ) /* GravityStatus */
-     , (19716,  15, True ) /* LightsStatus */
-     , (19716,  19, True ) /* Attackable */;
+VALUES (19716,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19716,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19716,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19716,   1, 'Mammet Foundry Portal') /* Name */
-     , (19716,  38, 'Mammet Foundry Portal') /* AppraisalPortalDestination */
      , (19716, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

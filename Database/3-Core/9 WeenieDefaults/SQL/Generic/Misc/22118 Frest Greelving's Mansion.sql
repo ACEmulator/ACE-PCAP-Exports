@@ -10,15 +10,10 @@ VALUES (22118,   1,        128) /* ItemType - Misc */
      , (22118, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22118,   1, True ) /* Stuck */
-     , (22118,  11, True ) /* IgnoreCollisions */
-     , (22118,  12, True ) /* ReportCollisions */
-     , (22118,  13, False) /* Ethereal */
-     , (22118,  14, True ) /* GravityStatus */
-     , (22118,  19, True ) /* Attackable */;
+VALUES (22118,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22118,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (22118,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22118,   1, 'Frest Greelving''s Mansion') /* Name */

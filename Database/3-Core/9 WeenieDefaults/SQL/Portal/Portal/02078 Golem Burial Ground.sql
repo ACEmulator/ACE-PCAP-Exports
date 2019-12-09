@@ -13,19 +13,13 @@ VALUES (2078,   1,      65536) /* ItemType - Portal */
      , (2078, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2078,   1, True ) /* Stuck */
-     , (2078,  12, True ) /* ReportCollisions */
-     , (2078,  13, True ) /* Ethereal */
-     , (2078,  14, True ) /* GravityStatus */
-     , (2078,  15, True ) /* LightsStatus */
-     , (2078,  19, True ) /* Attackable */;
+VALUES (2078,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2078,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2078,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2078,   1, 'Golem Burial Ground') /* Name */
-     , (2078,  38, 'Golem Burial Ground') /* AppraisalPortalDestination */
      , (2078, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

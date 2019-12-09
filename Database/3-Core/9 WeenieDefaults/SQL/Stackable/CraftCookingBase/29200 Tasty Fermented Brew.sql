@@ -12,15 +12,8 @@ VALUES (29200,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29200,  15,         75) /* StackUnitValue */
      , (29200,  16,          1) /* ItemUseable - No */
      , (29200,  19,         75) /* Value */
-     , (29200,  65,        101) /* Placement - Resting */
-     , (29200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29200,   1, False) /* Stuck */
-     , (29200,  11, True ) /* IgnoreCollisions */
-     , (29200,  13, True ) /* Ethereal */
-     , (29200,  14, True ) /* GravityStatus */
-     , (29200,  19, True ) /* Attackable */;
+     , (29200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29200, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29200,   1, 'Tasty Fermented Brew') /* Name */

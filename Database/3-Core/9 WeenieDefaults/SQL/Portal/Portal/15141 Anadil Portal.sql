@@ -12,19 +12,13 @@ VALUES (15141,   1,      65536) /* ItemType - Portal */
      , (15141, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15141,   1, True ) /* Stuck */
-     , (15141,  12, True ) /* ReportCollisions */
-     , (15141,  13, True ) /* Ethereal */
-     , (15141,  14, True ) /* GravityStatus */
-     , (15141,  15, True ) /* LightsStatus */
-     , (15141,  19, True ) /* Attackable */;
+VALUES (15141,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15141,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15141,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15141,   1, 'Anadil Portal') /* Name */
-     , (15141,  38, 'Anadil Portal (69.5N, 4.0W).') /* AppraisalPortalDestination */
      , (15141, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

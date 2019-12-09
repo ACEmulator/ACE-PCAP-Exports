@@ -13,21 +13,15 @@ VALUES (42157,   1,      65536) /* ItemType - Portal */
      , (42157, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42157,   1, True ) /* Stuck */
-     , (42157,  12, True ) /* ReportCollisions */
-     , (42157,  13, True ) /* Ethereal */
-     , (42157,  14, True ) /* GravityStatus */
-     , (42157,  15, True ) /* LightsStatus */
-     , (42157,  19, True ) /* Attackable */;
+VALUES (42157,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42157,  39, 0.800000011920929) /* DefaultScale */
-     , (42157,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42157,  39,     0.8) /* DefaultScale */
+     , (42157,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42157,   1, 'Fledgemaster''s Camp') /* Name */
      , (42157,  16, 'A portal leading to the Ruschk Fledgemaster''s Camp where a Fledgemaster''s Tusk may be found.') /* LongDesc */
-     , (42157,  38, 'Fledgemaster''s Camp (77.4N, 59.8W).') /* AppraisalPortalDestination */
      , (42157, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

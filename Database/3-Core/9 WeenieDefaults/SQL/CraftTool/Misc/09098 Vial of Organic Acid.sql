@@ -13,18 +13,13 @@ VALUES (9098,   1,        128) /* ItemType - Misc */
      , (9098,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9098,  19,        120) /* Value */
      , (9098,  33,          1) /* Bonded - Bonded */
-     , (9098,  65,        101) /* Placement - Resting */
      , (9098,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9098,  94,        129) /* TargetType - MeleeWeapon, Misc */
-     , (9098, 114,          1) /* Attuned - Attuned */;
+     , (9098, 114,          1) /* Attuned - Attuned */
+     , (9098, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9098,   1, False) /* Stuck */
-     , (9098,  11, True ) /* IgnoreCollisions */
-     , (9098,  13, True ) /* Ethereal */
-     , (9098,  14, True ) /* GravityStatus */
-     , (9098,  19, True ) /* Attackable */
-     , (9098,  22, True ) /* Inscribable */;
+VALUES (9098,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9098,   1, 'Vial of Organic Acid') /* Name */

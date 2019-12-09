@@ -13,19 +13,13 @@ VALUES (49449,   1,      65536) /* ItemType - Portal */
      , (49449, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49449,   1, True ) /* Stuck */
-     , (49449,  12, True ) /* ReportCollisions */
-     , (49449,  13, True ) /* Ethereal */
-     , (49449,  14, True ) /* GravityStatus */
-     , (49449,  15, True ) /* LightsStatus */
-     , (49449,  19, True ) /* Attackable */;
+VALUES (49449,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49449,  54, -0.100000001490116) /* UseRadius */;
+VALUES (49449,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49449,   1, 'Samurai Hausu') /* Name */
-     , (49449,  38, 'Samurai Hausu') /* AppraisalPortalDestination */
      , (49449, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

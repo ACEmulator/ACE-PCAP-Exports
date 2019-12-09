@@ -12,17 +12,12 @@ VALUES (37464,   1,        128) /* ItemType - Misc */
      , (37464,  15,          1) /* StackUnitValue */
      , (37464,  16,          8) /* ItemUseable - Contained */
      , (37464,  19,          1) /* Value */
-     , (37464,  65,        101) /* Placement - Resting */
      , (37464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37464,  94,         16) /* TargetType - Creature */;
+     , (37464,  94,         16) /* TargetType - Creature */
+     , (37464, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37464,   1, False) /* Stuck */
-     , (37464,  11, True ) /* IgnoreCollisions */
-     , (37464,  13, True ) /* Ethereal */
-     , (37464,  14, True ) /* GravityStatus */
-     , (37464,  19, True ) /* Attackable */
-     , (37464,  22, True ) /* Inscribable */;
+VALUES (37464,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37464,   1, 'Atlatl Stamped Spectral Ingot') /* Name */;

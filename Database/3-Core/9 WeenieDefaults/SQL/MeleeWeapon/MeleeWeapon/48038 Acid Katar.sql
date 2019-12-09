@@ -12,17 +12,12 @@ VALUES (48038,   1,          1) /* ItemType - MeleeWeapon */
      , (48038,  18,        256) /* UiEffects - Acid */
      , (48038,  19,        155) /* Value */
      , (48038,  51,          1) /* CombatUse - Melee */
-     , (48038,  65,          1) /* Placement - RightHandCombat */
      , (48038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48038, 151,          2) /* HookType - Wall */;
+     , (48038, 151,          2) /* HookType - Wall */
+     , (48038, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48038,   1, False) /* Stuck */
-     , (48038,  11, True ) /* IgnoreCollisions */
-     , (48038,  13, True ) /* Ethereal */
-     , (48038,  14, True ) /* GravityStatus */
-     , (48038,  19, True ) /* Attackable */
-     , (48038,  22, True ) /* Inscribable */;
+VALUES (48038,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48038,   1, 'Acid Katar') /* Name */;

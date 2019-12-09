@@ -11,17 +11,12 @@ VALUES (33202,   1,          2) /* ItemType - Armor */
      , (33202,  16,          1) /* ItemUseable - No */
      , (33202,  18,          1) /* UiEffects - Magical */
      , (33202,  19,       9000) /* Value */
-     , (33202,  65,        101) /* Placement - Resting */
      , (33202,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33202, 151,          2) /* HookType - Wall */;
+     , (33202, 151,          2) /* HookType - Wall */
+     , (33202, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33202,   1, False) /* Stuck */
-     , (33202,  11, True ) /* IgnoreCollisions */
-     , (33202,  13, True ) /* Ethereal */
-     , (33202,  14, True ) /* GravityStatus */
-     , (33202,  19, True ) /* Attackable */
-     , (33202,  22, True ) /* Inscribable */;
+VALUES (33202,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33202,   1, 'Harbinger Arm Guard') /* Name */;

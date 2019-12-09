@@ -16,7 +16,6 @@ VALUES (45111,   1,          1) /* ItemType - MeleeWeapon */
      , (45111,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (45111,  49,         30) /* WeaponTime */
      , (45111,  51,          1) /* CombatUse - Melee */
-     , (45111,  65,        101) /* Placement - Resting */
      , (45111,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45111, 105,          6) /* ItemWorkmanship */
      , (45111, 106,        240) /* ItemSpellcraft */
@@ -35,15 +34,11 @@ VALUES (45111,   1,          1) /* ItemType - MeleeWeapon */
      , (45111, 177,          4) /* GemCount */
      , (45111, 178,         29) /* GemType */
      , (45111, 353,          2) /* WeaponType - Sword */
-     , (45111, 8030,          0);
+     , (45111, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (45111, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45111,   1, False) /* Stuck */
-     , (45111,  11, True ) /* IgnoreCollisions */
-     , (45111,  13, True ) /* Ethereal */
-     , (45111,  14, True ) /* GravityStatus */
-     , (45111,  19, True ) /* Attackable */
-     , (45111,  22, True ) /* Inscribable */;
+VALUES (45111,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45111,   5,   -0.05) /* ManaRate */
@@ -51,10 +46,10 @@ VALUES (45111,   5,   -0.05) /* ManaRate */
      , (45111,  22,    0.48) /* DamageVariance */
      , (45111,  26,       0) /* MaximumVelocity */
      , (45111,  29,    1.03) /* WeaponDefense */
-     , (45111,  39, 1.20000004768372) /* DefaultScale */
+     , (45111,  39,     1.2) /* DefaultScale */
      , (45111,  62,    1.08) /* WeaponOffense */
      , (45111,  63,       1) /* DamageMod */
-     , (45111, 150,   1.015) /* WeaponMagicDefense */
+     , (45111, 150,    1.01) /* WeaponMagicDefense */
      , (45111, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

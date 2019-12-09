@@ -12,13 +12,7 @@ VALUES (22856,   1,       1024) /* ItemType - Useless */
      , (22856, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22856,   1, False) /* Stuck */
-     , (22856,  11, True ) /* IgnoreCollisions */
-     , (22856,  13, True ) /* Ethereal */
-     , (22856,  14, True ) /* GravityStatus */
-     , (22856,  15, True ) /* LightsStatus */
-     , (22856,  19, True ) /* Attackable */
-     , (22856,  22, True ) /* Inscribable */;
+VALUES (22856,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22856,   1, 'Sho Lantern') /* Name */

@@ -13,22 +13,17 @@ VALUES (22882,   1,       2048) /* ItemType - Gem */
      , (22882,  16,          8) /* ItemUseable - Contained */
      , (22882,  18,          1) /* UiEffects - Magical */
      , (22882,  19,        200) /* Value */
-     , (22882,  65,        101) /* Placement - Resting */
      , (22882,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22882,  94,         16) /* TargetType - Creature */
      , (22882, 106,        210) /* ItemSpellcraft */
      , (22882, 107,        100) /* ItemCurMana */
      , (22882, 108,        200) /* ItemMaxMana */
      , (22882, 109,          0) /* ItemDifficulty */
-     , (22882, 110,          0) /* ItemAllegianceRankLimit */;
+     , (22882, 110,          0) /* ItemAllegianceRankLimit */
+     , (22882, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22882,   1, False) /* Stuck */
-     , (22882,  11, True ) /* IgnoreCollisions */
-     , (22882,  13, True ) /* Ethereal */
-     , (22882,  14, True ) /* GravityStatus */
-     , (22882,  19, True ) /* Attackable */
-     , (22882,  22, True ) /* Inscribable */;
+VALUES (22882,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22882,   1, 'Piercing Protection Gem') /* Name */

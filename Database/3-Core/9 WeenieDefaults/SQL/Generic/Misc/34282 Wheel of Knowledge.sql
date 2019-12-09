@@ -11,13 +11,10 @@ VALUES (34282,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34282,   1, True ) /* Stuck */
-     , (34282,  11, True ) /* IgnoreCollisions */
-     , (34282,  13, False) /* Ethereal */
-     , (34282,  19, True ) /* Attackable */
      , (34282,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34282,  39, 0.400000005960464) /* DefaultScale */
+VALUES (34282,  39,     0.4) /* DefaultScale */
      , (34282,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

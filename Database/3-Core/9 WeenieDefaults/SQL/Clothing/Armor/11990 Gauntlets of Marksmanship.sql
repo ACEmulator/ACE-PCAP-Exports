@@ -10,16 +10,11 @@ VALUES (11990,   1,          2) /* ItemType - Armor */
      , (11990,   9,         32) /* ValidLocations - HandWear */
      , (11990,  16,          1) /* ItemUseable - No */
      , (11990,  19,       6000) /* Value */
-     , (11990,  65,        101) /* Placement - Resting */
-     , (11990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11990, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11990,   1, False) /* Stuck */
-     , (11990,  11, True ) /* IgnoreCollisions */
-     , (11990,  13, True ) /* Ethereal */
-     , (11990,  14, True ) /* GravityStatus */
-     , (11990,  19, True ) /* Attackable */
-     , (11990,  22, True ) /* Inscribable */;
+VALUES (11990,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11990,   1, 'Gauntlets of Marksmanship') /* Name */;

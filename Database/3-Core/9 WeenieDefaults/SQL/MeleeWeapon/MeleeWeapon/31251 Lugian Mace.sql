@@ -11,21 +11,16 @@ VALUES (31251,   1,          1) /* ItemType - MeleeWeapon */
      , (31251,  16,          1) /* ItemUseable - No */
      , (31251,  19,        500) /* Value */
      , (31251,  51,          1) /* CombatUse - Melee */
-     , (31251,  65,          1) /* Placement - RightHandCombat */
      , (31251,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31251, 151,          2) /* HookType - Wall */;
+     , (31251, 151,          2) /* HookType - Wall */
+     , (31251, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31251,   1, False) /* Stuck */
-     , (31251,  11, True ) /* IgnoreCollisions */
-     , (31251,  13, True ) /* Ethereal */
-     , (31251,  14, True ) /* GravityStatus */
-     , (31251,  19, True ) /* Attackable */
-     , (31251,  22, True ) /* Inscribable */;
+VALUES (31251,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31251,  39,       2) /* DefaultScale */
-     , (31251,  76, 0.699999988079071) /* Translucency */;
+     , (31251,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31251,   1, 'Lugian Mace') /* Name */;

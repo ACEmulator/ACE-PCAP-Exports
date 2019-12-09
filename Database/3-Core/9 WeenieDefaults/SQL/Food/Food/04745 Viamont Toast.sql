@@ -12,18 +12,13 @@ VALUES (4745,   1,         32) /* ItemType - Food */
      , (4745,  15,         22) /* StackUnitValue */
      , (4745,  16,          8) /* ItemUseable - Contained */
      , (4745,  19,         22) /* Value */
-     , (4745,  65,        101) /* Placement - Resting */
      , (4745,  89,          4) /* BoosterEnum - Stamina */
      , (4745,  90,          9) /* BoostValue */
-     , (4745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (4745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4745,   1, False) /* Stuck */
-     , (4745,  11, True ) /* IgnoreCollisions */
-     , (4745,  13, True ) /* Ethereal */
-     , (4745,  14, True ) /* GravityStatus */
-     , (4745,  19, True ) /* Attackable */
-     , (4745,  69, False) /* IsSellable */;
+VALUES (4745,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4745,   1, 'Viamont Toast') /* Name */

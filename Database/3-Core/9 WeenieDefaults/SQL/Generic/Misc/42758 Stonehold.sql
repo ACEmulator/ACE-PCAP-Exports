@@ -11,11 +11,7 @@ VALUES (42758,   1,        128) /* ItemType - Misc */
      , (42758,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42758,   1, True ) /* Stuck */
-     , (42758,  11, True ) /* IgnoreCollisions */
-     , (42758,  12, True ) /* ReportCollisions */
-     , (42758,  13, True ) /* Ethereal */
-     , (42758,  19, True ) /* Attackable */;
+VALUES (42758,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42758,   1, 'Stonehold') /* Name */

@@ -13,20 +13,14 @@ VALUES (43257,   1,      65536) /* ItemType - Portal */
      , (43257, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43257,   1, True ) /* Stuck */
-     , (43257,  12, True ) /* ReportCollisions */
-     , (43257,  13, True ) /* Ethereal */
-     , (43257,  14, True ) /* GravityStatus */
-     , (43257,  15, True ) /* LightsStatus */
-     , (43257,  19, True ) /* Attackable */;
+VALUES (43257,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43257,  54, -0.100000001490116) /* UseRadius */;
+VALUES (43257,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43257,   1, 'Mysterious Portal') /* Name */
      , (43257,  16, 'A portal crackling with defensive magics.  Only those properly protected from its fluxuations may enter.') /* LongDesc */
-     , (43257,  38, 'Mysterious Portal') /* AppraisalPortalDestination */
      , (43257, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

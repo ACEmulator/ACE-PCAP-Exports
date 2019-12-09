@@ -11,11 +11,7 @@ VALUES (42782,   1,        128) /* ItemType - Misc */
      , (42782,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42782,   1, True ) /* Stuck */
-     , (42782,  11, True ) /* IgnoreCollisions */
-     , (42782,  12, True ) /* ReportCollisions */
-     , (42782,  13, True ) /* Ethereal */
-     , (42782,  19, True ) /* Attackable */;
+VALUES (42782,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42782,   1, 'Bluespire') /* Name */

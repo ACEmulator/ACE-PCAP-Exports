@@ -6,15 +6,11 @@ VALUES (25670, 'doorsecretcultistpit', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25670,   1,        128) /* ItemType - Misc */
      , (25670,  16,          1) /* ItemUseable - No */
-     , (25670,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (25670,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (25670, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25670,   1, True ) /* Stuck */
-     , (25670,  11, True ) /* IgnoreCollisions */
-     , (25670,  12, True ) /* ReportCollisions */
-     , (25670,  13, False) /* Ethereal */
-     , (25670,  19, True ) /* Attackable */;
+VALUES (25670,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25670,  54,       2) /* UseRadius */;

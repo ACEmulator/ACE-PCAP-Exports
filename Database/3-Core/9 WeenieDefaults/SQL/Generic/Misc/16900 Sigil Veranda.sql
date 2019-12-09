@@ -11,12 +11,7 @@ VALUES (16900,   1,        128) /* ItemType - Misc */
      , (16900,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16900,   1, True ) /* Stuck */
-     , (16900,  11, True ) /* IgnoreCollisions */
-     , (16900,  12, True ) /* ReportCollisions */
-     , (16900,  13, False) /* Ethereal */
-     , (16900,  14, True ) /* GravityStatus */
-     , (16900,  19, True ) /* Attackable */;
+VALUES (16900,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16900,   1, 'Sigil Veranda') /* Name */

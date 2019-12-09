@@ -13,21 +13,16 @@ VALUES (3711,   1,       2048) /* ItemType - Gem */
      , (3711,  16,          8) /* ItemUseable - Contained */
      , (3711,  18,          1) /* UiEffects - Magical */
      , (3711,  19,       1500) /* Value */
-     , (3711,  65,        101) /* Placement - Resting */
      , (3711,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3711, 106,        200) /* ItemSpellcraft */
      , (3711, 107,         50) /* ItemCurMana */
      , (3711, 108,         50) /* ItemMaxMana */
      , (3711, 109,          0) /* ItemDifficulty */
-     , (3711, 110,          0) /* ItemAllegianceRankLimit */;
+     , (3711, 110,          0) /* ItemAllegianceRankLimit */
+     , (3711, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3711,   1, False) /* Stuck */
-     , (3711,  11, True ) /* IgnoreCollisions */
-     , (3711,  13, True ) /* Ethereal */
-     , (3711,  14, True ) /* GravityStatus */
-     , (3711,  19, True ) /* Attackable */
-     , (3711,  22, True ) /* Inscribable */;
+VALUES (3711,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3711,   1, 'Blue Gem') /* Name */

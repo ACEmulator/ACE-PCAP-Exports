@@ -15,11 +15,7 @@ VALUES (8819,   1,         16) /* ItemType - Creature */
      , (8819, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8819,   1, True ) /* Stuck */
-     , (8819,  12, True ) /* ReportCollisions */
-     , (8819,  13, False) /* Ethereal */
-     , (8819,  14, True ) /* GravityStatus */
-     , (8819,  19, True ) /* Attackable */;
+VALUES (8819,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8819,   1, 'Chakron Flux Virindi Master') /* Name */

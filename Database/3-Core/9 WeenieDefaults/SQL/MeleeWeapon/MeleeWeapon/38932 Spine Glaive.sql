@@ -13,12 +13,7 @@ VALUES (38932,   1,          1) /* ItemType - MeleeWeapon */
      , (38932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38932,   1, False) /* Stuck */
-     , (38932,  11, True ) /* IgnoreCollisions */
-     , (38932,  13, True ) /* Ethereal */
-     , (38932,  14, True ) /* GravityStatus */
-     , (38932,  19, True ) /* Attackable */
-     , (38932,  22, True ) /* Inscribable */;
+VALUES (38932,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38932,   1, 'Spine Glaive') /* Name */;

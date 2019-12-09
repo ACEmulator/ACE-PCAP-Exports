@@ -12,15 +12,8 @@ VALUES (743,   1,       4096) /* ItemType - SpellComponents */
      , (743,  15,          5) /* StackUnitValue */
      , (743,  16,          1) /* ItemUseable - No */
      , (743,  19,          5) /* Value */
-     , (743,  65,        101) /* Placement - Resting */
-     , (743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (743,   1, False) /* Stuck */
-     , (743,  11, True ) /* IgnoreCollisions */
-     , (743,  13, True ) /* Ethereal */
-     , (743,  14, True ) /* GravityStatus */
-     , (743,  19, True ) /* Attackable */;
+     , (743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (743, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (743,   1, 'Cedar Talisman') /* Name */;

@@ -13,18 +13,13 @@ VALUES (9346,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9346,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9346,  19,        750) /* Value */
      , (9346,  33,          1) /* Bonded - Bonded */
-     , (9346,  65,        101) /* Placement - Resting */
      , (9346,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9346,  94,  134218784) /* TargetType - Food, Useless, CraftFletchingIntermediate */
-     , (9346, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (9346, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9346, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9346,   1, False) /* Stuck */
-     , (9346,  11, True ) /* IgnoreCollisions */
-     , (9346,  13, True ) /* Ethereal */
-     , (9346,  14, True ) /* GravityStatus */
-     , (9346,  19, True ) /* Attackable */
-     , (9346,  69, False) /* IsSellable */;
+VALUES (9346,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9346,   1, 'Concentrated Fire Oil') /* Name */

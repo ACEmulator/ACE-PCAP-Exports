@@ -8,19 +8,14 @@ VALUES (2203,   1,      16384) /* ItemType - Key */
      , (2203,   5,         50) /* EncumbranceVal */
      , (2203,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (2203,  19,         50) /* Value */
-     , (2203,  65,        101) /* Placement - Resting */
      , (2203,  91,          3) /* MaxStructure */
      , (2203,  92,          3) /* Structure */
      , (2203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2203,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (2203,  94,        640) /* TargetType - LockableMagicTarget */
+     , (2203, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2203,   1, False) /* Stuck */
-     , (2203,  11, True ) /* IgnoreCollisions */
-     , (2203,  13, True ) /* Ethereal */
-     , (2203,  14, True ) /* GravityStatus */
-     , (2203,  19, True ) /* Attackable */
-     , (2203,  22, True ) /* Inscribable */;
+VALUES (2203,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2203,   1, 'Tumerok Gladiator''s Key') /* Name */

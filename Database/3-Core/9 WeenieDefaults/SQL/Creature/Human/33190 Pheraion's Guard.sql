@@ -18,11 +18,7 @@ VALUES (33190,   1,         16) /* ItemType - Creature */
      , (33190, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33190,   1, True ) /* Stuck */
-     , (33190,  12, True ) /* ReportCollisions */
-     , (33190,  13, False) /* Ethereal */
-     , (33190,  14, True ) /* GravityStatus */
-     , (33190,  19, True ) /* Attackable */;
+VALUES (33190,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33190,   1, 'Pheraion''s Guard') /* Name */

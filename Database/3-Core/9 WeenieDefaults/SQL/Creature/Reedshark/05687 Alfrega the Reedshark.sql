@@ -15,14 +15,10 @@ VALUES (5687,   1,         16) /* ItemType - Creature */
      , (5687, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5687,   1, True ) /* Stuck */
-     , (5687,  12, True ) /* ReportCollisions */
-     , (5687,  13, False) /* Ethereal */
-     , (5687,  14, True ) /* GravityStatus */
-     , (5687,  19, True ) /* Attackable */;
+VALUES (5687,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5687,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (5687,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5687,   1, 'Alfrega the Reedshark') /* Name */

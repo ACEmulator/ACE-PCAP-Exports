@@ -8,22 +8,18 @@ VALUES (8419,   1,        128) /* ItemType - Misc */
      , (8419,   5,          5) /* EncumbranceVal */
      , (8419,  16,         48) /* ItemUseable - ViewedRemote */
      , (8419,  19,         10) /* Value */
-     , (8419,  65,        101) /* Placement - Resting */
-     , (8419,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */;
+     , (8419,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8419, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8419,   1, True ) /* Stuck */
-     , (8419,  12, True ) /* ReportCollisions */
-     , (8419,  13, False) /* Ethereal */
-     , (8419,  14, True ) /* GravityStatus */
-     , (8419,  19, True ) /* Attackable */;
+VALUES (8419,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8419,  39, 0.300000011920929) /* DefaultScale */
+VALUES (8419,  39,     0.3) /* DefaultScale */
      , (8419,  54,       1) /* UseRadius */
      , (8419, 8010,       0) /* PCAPRecordedVelocityX */
      , (8419, 8011,       0) /* PCAPRecordedVelocityY */
-     , (8419, 8012, -0.0716254711151123) /* PCAPRecordedVelocityZ */;
+     , (8419, 8012,   -0.07) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8419,   1, 'Button') /* Name */;

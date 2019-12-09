@@ -18,7 +18,6 @@ VALUES (20097,   1,        256) /* ItemType - MissileWeapon */
      , (20097,  49,         40) /* WeaponTime */
      , (20097,  50,          1) /* AmmoType - Arrow */
      , (20097,  51,          2) /* CombatUse - Missle */
-     , (20097,  65,        101) /* Placement - Resting */
      , (20097,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20097, 106,        100) /* ItemSpellcraft */
      , (20097, 107,        598) /* ItemCurMana */
@@ -28,25 +27,21 @@ VALUES (20097,   1,        256) /* ItemType - MissileWeapon */
      , (20097, 159,         47) /* WieldSkillType - MissileWeapons */
      , (20097, 160,        260) /* WieldDifficulty */
      , (20097, 353,          8) /* WeaponType - Bow */
-     , (20097, 8030,          0);
+     , (20097, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (20097, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20097,   1, False) /* Stuck */
-     , (20097,  11, True ) /* IgnoreCollisions */
-     , (20097,  13, True ) /* Ethereal */
-     , (20097,  14, True ) /* GravityStatus */
-     , (20097,  19, True ) /* Attackable */
-     , (20097,  22, True ) /* Inscribable */
+VALUES (20097,  22, True ) /* Inscribable */
      , (20097,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20097,   5, -0.0500000007450581) /* ManaRate */
+VALUES (20097,   5,   -0.05) /* ManaRate */
      , (20097,  21,       0) /* WeaponLength */
      , (20097,  22,       0) /* DamageVariance */
      , (20097,  26,    27.3) /* MaximumVelocity */
-     , (20097,  29, 1.21000003814697) /* WeaponDefense */
+     , (20097,  29,    1.21) /* WeaponDefense */
      , (20097,  62,       1) /* WeaponOffense */
-     , (20097,  63, 2.20000004768372) /* DamageMod */;
+     , (20097,  63,     2.2) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20097,   1, 'Superb Isparian Bow') /* Name */;

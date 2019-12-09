@@ -16,11 +16,7 @@ VALUES (9054,   1,         16) /* ItemType - Creature */
      , (9054, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9054,   1, True ) /* Stuck */
-     , (9054,  12, True ) /* ReportCollisions */
-     , (9054,  13, False) /* Ethereal */
-     , (9054,  14, True ) /* GravityStatus */
-     , (9054,  19, True ) /* Attackable */;
+VALUES (9054,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9054,   1, 'Diaphanous Nephol Golem') /* Name */

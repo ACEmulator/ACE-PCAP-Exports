@@ -12,18 +12,13 @@ VALUES (8652,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8652,  15,        100) /* StackUnitValue */
      , (8652,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8652,  19,        100) /* Value */
-     , (8652,  65,        101) /* Placement - Resting */
      , (8652,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8652,  94,        134) /* TargetType - Vestements, Misc */
-     , (8652, 151,          9) /* HookType - Floor, Yard */;
+     , (8652, 151,          9) /* HookType - Floor, Yard */
+     , (8652, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8652,   1, False) /* Stuck */
-     , (8652,  11, True ) /* IgnoreCollisions */
-     , (8652,  13, True ) /* Ethereal */
-     , (8652,  14, True ) /* GravityStatus */
-     , (8652,  19, True ) /* Attackable */
-     , (8652,  69, False) /* IsSellable */;
+VALUES (8652,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8652,   1, 'Argenory Dye Pot') /* Name */

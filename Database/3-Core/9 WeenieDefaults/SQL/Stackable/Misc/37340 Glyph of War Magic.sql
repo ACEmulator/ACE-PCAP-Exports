@@ -12,15 +12,8 @@ VALUES (37340,   1,        128) /* ItemType - Misc */
      , (37340,  15,      30000) /* StackUnitValue */
      , (37340,  16,          1) /* ItemUseable - No */
      , (37340,  19,      30000) /* Value */
-     , (37340,  65,        101) /* Placement - Resting */
-     , (37340,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37340,   1, False) /* Stuck */
-     , (37340,  11, True ) /* IgnoreCollisions */
-     , (37340,  13, True ) /* Ethereal */
-     , (37340,  14, True ) /* GravityStatus */
-     , (37340,  19, True ) /* Attackable */;
+     , (37340,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37340, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37340,   1, 'Glyph of War Magic') /* Name */

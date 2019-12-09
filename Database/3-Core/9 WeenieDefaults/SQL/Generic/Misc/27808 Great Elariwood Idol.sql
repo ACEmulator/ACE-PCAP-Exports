@@ -9,17 +9,12 @@ VALUES (27808,   1,        128) /* ItemType - Misc */
      , (27808,   9,   16777216) /* ValidLocations - Held */
      , (27808,  16,          1) /* ItemUseable - No */
      , (27808,  19,       5000) /* Value */
-     , (27808,  65,        101) /* Placement - Resting */
      , (27808,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27808, 151,          9) /* HookType - Floor, Yard */;
+     , (27808, 151,          9) /* HookType - Floor, Yard */
+     , (27808, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27808,   1, False) /* Stuck */
-     , (27808,  11, True ) /* IgnoreCollisions */
-     , (27808,  13, True ) /* Ethereal */
-     , (27808,  14, True ) /* GravityStatus */
-     , (27808,  19, True ) /* Attackable */
-     , (27808,  22, True ) /* Inscribable */;
+VALUES (27808,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27808,   1, 'Great Elariwood Idol') /* Name */

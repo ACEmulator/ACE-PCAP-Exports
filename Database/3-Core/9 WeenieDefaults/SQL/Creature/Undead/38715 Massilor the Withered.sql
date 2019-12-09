@@ -16,14 +16,10 @@ VALUES (38715,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38715,   1, True ) /* Stuck */
-     , (38715,  12, True ) /* ReportCollisions */
-     , (38715,  13, False) /* Ethereal */
-     , (38715,  14, True ) /* GravityStatus */
-     , (38715,  19, False) /* Attackable */
-     , (38715,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (38715,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38715,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (38715,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38715,   1, 'Massilor the Withered') /* Name */

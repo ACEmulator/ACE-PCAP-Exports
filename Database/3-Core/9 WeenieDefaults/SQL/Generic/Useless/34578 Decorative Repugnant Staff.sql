@@ -8,20 +8,15 @@ VALUES (34578,   1,       1024) /* ItemType - Useless */
      , (34578,   5,       5000) /* EncumbranceVal */
      , (34578,  16,          1) /* ItemUseable - No */
      , (34578,  19,      25000) /* Value */
-     , (34578,  65,        101) /* Placement - Resting */
      , (34578,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34578, 151,          9) /* HookType - Floor, Yard */;
+     , (34578, 151,          9) /* HookType - Floor, Yard */
+     , (34578, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34578,   1, False) /* Stuck */
-     , (34578,  11, True ) /* IgnoreCollisions */
-     , (34578,  13, True ) /* Ethereal */
-     , (34578,  14, True ) /* GravityStatus */
-     , (34578,  19, True ) /* Attackable */
-     , (34578,  22, True ) /* Inscribable */;
+VALUES (34578,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34578,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (34578,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34578,   1, 'Decorative Repugnant Staff') /* Name */;

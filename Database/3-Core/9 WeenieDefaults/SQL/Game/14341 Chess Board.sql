@@ -8,11 +8,7 @@ VALUES (14341,   1, -2147483648) /* ItemType */
      , (14341,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14341,   1, True ) /* Stuck */
-     , (14341,  11, True ) /* IgnoreCollisions */
-     , (14341,  13, False) /* Ethereal */
-     , (14341,  14, True ) /* GravityStatus */
-     , (14341,  19, True ) /* Attackable */;
+VALUES (14341,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14341,   1, 'Chess Board') /* Name */

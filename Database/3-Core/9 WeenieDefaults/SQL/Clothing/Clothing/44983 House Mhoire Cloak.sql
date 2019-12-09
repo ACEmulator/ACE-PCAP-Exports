@@ -10,16 +10,11 @@ VALUES (44983,   1,          4) /* ItemType - Clothing */
      , (44983,   9,  134217728) /* ValidLocations - Cloak */
      , (44983,  16,          1) /* ItemUseable - No */
      , (44983,  19,         15) /* Value */
-     , (44983,  65,        101) /* Placement - Resting */
-     , (44983,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44983,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44983, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44983,   1, False) /* Stuck */
-     , (44983,  11, True ) /* IgnoreCollisions */
-     , (44983,  13, True ) /* Ethereal */
-     , (44983,  14, True ) /* GravityStatus */
-     , (44983,  19, True ) /* Attackable */
-     , (44983,  22, True ) /* Inscribable */;
+VALUES (44983,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44983,   1, 'House Mhoire Cloak') /* Name */;

@@ -12,19 +12,13 @@ VALUES (12568,   1,      65536) /* ItemType - Portal */
      , (12568, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12568,   1, True ) /* Stuck */
-     , (12568,  12, True ) /* ReportCollisions */
-     , (12568,  13, True ) /* Ethereal */
-     , (12568,  14, True ) /* GravityStatus */
-     , (12568,  15, True ) /* LightsStatus */
-     , (12568,  19, True ) /* Attackable */;
+VALUES (12568,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12568,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12568,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12568,   1, 'Yanshi Namoon North Portal') /* Name */
-     , (12568,  38, 'Yanshi Namoon North Portal (19.0S, 44.4E).') /* AppraisalPortalDestination */
      , (12568, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,18 +13,11 @@ VALUES (9480,   1,        128) /* ItemType - Misc */
      , (9480,  16,          1) /* ItemUseable - No */
      , (9480,  19,      10000) /* Value */
      , (9480,  33,          1) /* Bonded - Bonded */
-     , (9480,  65,        101) /* Placement - Resting */
-     , (9480,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9480,   1, False) /* Stuck */
-     , (9480,  11, True ) /* IgnoreCollisions */
-     , (9480,  13, True ) /* Ethereal */
-     , (9480,  14, True ) /* GravityStatus */
-     , (9480,  19, True ) /* Attackable */;
+     , (9480,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9480, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9480,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9480,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9480,   1, 'Monty''s High-Stakes Gambling Token') /* Name */

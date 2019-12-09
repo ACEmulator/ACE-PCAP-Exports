@@ -15,7 +15,6 @@ VALUES (27593,   1,          1) /* ItemType - MeleeWeapon */
      , (27593,  48,         45) /* WeaponSkill - LightWeapons */
      , (27593,  49,          1) /* WeaponTime */
      , (27593,  51,          1) /* CombatUse - Melee */
-     , (27593,  65,        101) /* Placement - Resting */
      , (27593,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27593, 106,        250) /* ItemSpellcraft */
      , (27593, 107,       1709) /* ItemCurMana */
@@ -26,24 +25,20 @@ VALUES (27593,   1,          1) /* ItemType - MeleeWeapon */
      , (27593, 159,         45) /* WieldSkillType - LightWeapons */
      , (27593, 160,        350) /* WieldDifficulty */
      , (27593, 353,          6) /* WeaponType - Dagger */
-     , (27593, 8030,          0);
+     , (27593, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (27593, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27593,   1, False) /* Stuck */
-     , (27593,  11, True ) /* IgnoreCollisions */
-     , (27593,  13, True ) /* Ethereal */
-     , (27593,  14, True ) /* GravityStatus */
-     , (27593,  19, True ) /* Attackable */
-     , (27593,  22, True ) /* Inscribable */
+VALUES (27593,  22, True ) /* Inscribable */
      , (27593,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27593,   5, -0.00999999977648258) /* ManaRate */
+VALUES (27593,   5,   -0.01) /* ManaRate */
      , (27593,  21,       0) /* WeaponLength */
-     , (27593,  22, 0.400000005960464) /* DamageVariance */
+     , (27593,  22,     0.4) /* DamageVariance */
      , (27593,  26,       0) /* MaximumVelocity */
-     , (27593,  29, 1.13999998569489) /* WeaponDefense */
-     , (27593,  62, 1.13999998569489) /* WeaponOffense */
+     , (27593,  29,    1.14) /* WeaponDefense */
+     , (27593,  62,    1.14) /* WeaponOffense */
      , (27593,  63,       1) /* DamageMod */
      , (27593, 147,       1) /* CriticalFrequency */;
 

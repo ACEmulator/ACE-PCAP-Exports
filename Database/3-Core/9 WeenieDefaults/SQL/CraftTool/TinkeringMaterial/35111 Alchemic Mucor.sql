@@ -11,17 +11,12 @@ VALUES (35111,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (35111,  13,         50) /* StackUnitEncumbrance */
      , (35111,  15,          0) /* StackUnitValue */
      , (35111,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (35111,  65,        101) /* Placement - Resting */
      , (35111,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35111,  94, 1073741824) /* TargetType - TinkeringMaterial */;
+     , (35111,  94, 1073741824) /* TargetType - TinkeringMaterial */
+     , (35111, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35111,   1, False) /* Stuck */
-     , (35111,  11, True ) /* IgnoreCollisions */
-     , (35111,  13, True ) /* Ethereal */
-     , (35111,  14, True ) /* GravityStatus */
-     , (35111,  19, True ) /* Attackable */
-     , (35111,  22, True ) /* Inscribable */;
+VALUES (35111,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35111,   1, 'Alchemic Mucor') /* Name */;

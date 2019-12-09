@@ -15,15 +15,10 @@ VALUES (38293,   1,         16) /* ItemType - Creature */
      , (38293, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38293,   1, True ) /* Stuck */
-     , (38293,  12, True ) /* ReportCollisions */
-     , (38293,  13, False) /* Ethereal */
-     , (38293,  14, True ) /* GravityStatus */
-     , (38293,  19, True ) /* Attackable */
-     , (38293,  42, True ) /* AllowEdgeSlide */;
+VALUES (38293,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38293,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (38293,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38293,   1, 'Spawn Watcher') /* Name */

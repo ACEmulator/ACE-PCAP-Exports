@@ -10,20 +10,15 @@ VALUES (38917,   1,      16384) /* ItemType - Key */
      , (38917,  18,         64) /* UiEffects - Lightning */
      , (38917,  19,      20000) /* Value */
      , (38917,  33,          0) /* Bonded - Normal */
-     , (38917,  65,        101) /* Placement - Resting */
      , (38917,  91,          2) /* MaxStructure */
      , (38917,  92,          2) /* Structure */
      , (38917,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38917,  94,        640) /* TargetType - LockableMagicTarget */
-     , (38917, 114,          0) /* Attuned - Normal */;
+     , (38917, 114,          0) /* Attuned - Normal */
+     , (38917, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38917,   1, False) /* Stuck */
-     , (38917,  11, True ) /* IgnoreCollisions */
-     , (38917,  13, True ) /* Ethereal */
-     , (38917,  14, True ) /* GravityStatus */
-     , (38917,  19, True ) /* Attackable */
-     , (38917,  22, True ) /* Inscribable */
+VALUES (38917,  22, True ) /* Inscribable */
      , (38917,  69, False) /* IsSellable */
      , (38917,  99, False) /* Ivoryable */;
 

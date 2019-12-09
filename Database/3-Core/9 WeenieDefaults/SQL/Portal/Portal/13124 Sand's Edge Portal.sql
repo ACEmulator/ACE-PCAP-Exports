@@ -12,19 +12,13 @@ VALUES (13124,   1,      65536) /* ItemType - Portal */
      , (13124, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13124,   1, True ) /* Stuck */
-     , (13124,  12, True ) /* ReportCollisions */
-     , (13124,  13, True ) /* Ethereal */
-     , (13124,  14, True ) /* GravityStatus */
-     , (13124,  15, True ) /* LightsStatus */
-     , (13124,  19, True ) /* Attackable */;
+VALUES (13124,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13124,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13124,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13124,   1, 'Sand''s Edge Portal') /* Name */
-     , (13124,  38, 'Sand''s Edge Portal (5.7N, 30.8E).') /* AppraisalPortalDestination */
      , (13124, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

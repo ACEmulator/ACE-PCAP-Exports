@@ -14,18 +14,13 @@ VALUES (40090,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (40090,  18,          1) /* UiEffects - Magical */
      , (40090,  19,       1500) /* Value */
      , (40090,  33,          1) /* Bonded - Bonded */
-     , (40090,  65,        101) /* Placement - Resting */
      , (40090,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40090,  94,        129) /* TargetType - MeleeWeapon, Misc */
-     , (40090, 114,          1) /* Attuned - Attuned */;
+     , (40090, 114,          1) /* Attuned - Attuned */
+     , (40090, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40090,   1, False) /* Stuck */
-     , (40090,  11, True ) /* IgnoreCollisions */
-     , (40090,  13, True ) /* Ethereal */
-     , (40090,  14, True ) /* GravityStatus */
-     , (40090,  19, True ) /* Attackable */
-     , (40090,  22, True ) /* Inscribable */;
+VALUES (40090,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40090,   1, 'Radiant Mana Infusion') /* Name */

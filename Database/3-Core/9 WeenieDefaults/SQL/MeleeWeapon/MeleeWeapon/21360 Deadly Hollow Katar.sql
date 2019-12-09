@@ -18,7 +18,6 @@ VALUES (21360,   1,          1) /* ItemType - MeleeWeapon */
      , (21360,  48,         45) /* WeaponSkill - LightWeapons */
      , (21360,  49,         20) /* WeaponTime */
      , (21360,  51,          1) /* CombatUse - Melee */
-     , (21360,  65,          1) /* Placement - RightHandCombat */
      , (21360,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21360, 114,          1) /* Attuned - Attuned */
      , (21360, 151,          2) /* HookType - Wall */
@@ -26,16 +25,11 @@ VALUES (21360,   1,          1) /* ItemType - MeleeWeapon */
      , (21360, 159,         45) /* WieldSkillType - LightWeapons */
      , (21360, 160,        250) /* WieldDifficulty */
      , (21360, 353,          1) /* WeaponType - Unarmed */
-     , (21360, 8030,          0);
+     , (21360, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (21360, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21360,   1, False) /* Stuck */
-     , (21360,  11, True ) /* IgnoreCollisions */
-     , (21360,  13, True ) /* Ethereal */
-     , (21360,  14, True ) /* GravityStatus */
-     , (21360,  15, True ) /* LightsStatus */
-     , (21360,  19, True ) /* Attackable */
-     , (21360,  22, True ) /* Inscribable */
+VALUES (21360,  22, True ) /* Inscribable */
      , (21360,  69, False) /* IsSellable */
      , (21360,  99, True ) /* Ivoryable */;
 
@@ -46,7 +40,7 @@ VALUES (21360,  21,       0) /* WeaponLength */
      , (21360,  29,    1.05) /* WeaponDefense */
      , (21360,  62,     1.1) /* WeaponOffense */
      , (21360,  63,       1) /* DamageMod */
-     , (21360,  76, 0.699999988079071) /* Translucency */;
+     , (21360,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21360,   1, 'Deadly Hollow Katar') /* Name */

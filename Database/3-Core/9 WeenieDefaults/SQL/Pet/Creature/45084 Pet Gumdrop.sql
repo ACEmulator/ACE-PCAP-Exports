@@ -18,14 +18,10 @@ VALUES (45084,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45084,   1, True ) /* Stuck */
-     , (45084,  11, True ) /* IgnoreCollisions */
-     , (45084,  13, True ) /* Ethereal */
-     , (45084,  14, True ) /* GravityStatus */
-     , (45084,  19, False) /* Attackable */
-     , (45084,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (45084,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45084,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (45084,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45084,   1, 'Pet Gumdrop') /* Name */

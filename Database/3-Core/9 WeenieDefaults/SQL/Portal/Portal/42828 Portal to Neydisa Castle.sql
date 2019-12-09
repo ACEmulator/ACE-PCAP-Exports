@@ -12,20 +12,14 @@ VALUES (42828,   1,      65536) /* ItemType - Portal */
      , (42828, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42828,   1, True ) /* Stuck */
-     , (42828,  12, True ) /* ReportCollisions */
-     , (42828,  13, True ) /* Ethereal */
-     , (42828,  14, True ) /* GravityStatus */
-     , (42828,  15, True ) /* LightsStatus */
-     , (42828,  19, True ) /* Attackable */;
+VALUES (42828,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42828,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42828,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42828,   1, 'Portal to Neydisa Castle') /* Name */
      , (42828,  16, 'This portal goes to Neydisa Castle, northeast of Mt. Esper. This is a good town for characters over level 40.') /* LongDesc */
-     , (42828,  38, 'Portal to Neydisa Castle (69.5N, 17.9E).') /* AppraisalPortalDestination */
      , (42828, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

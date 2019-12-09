@@ -12,20 +12,14 @@ VALUES (42823,   1,      65536) /* ItemType - Portal */
      , (42823, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42823,   1, True ) /* Stuck */
-     , (42823,  12, True ) /* ReportCollisions */
-     , (42823,  13, True ) /* Ethereal */
-     , (42823,  14, True ) /* GravityStatus */
-     , (42823,  15, True ) /* LightsStatus */
-     , (42823,  19, True ) /* Attackable */;
+VALUES (42823,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42823,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42823,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42823,   1, 'Portal to Al-Arqas') /* Name */
      , (42823,  16, 'This portal goes to the Gharu''ndim town of Al-Arqas in the depths of the A''mun desert. This is a good town for characters over level 10.') /* LongDesc */
-     , (42823,  38, 'Portal to Al-Arqas (31.3S, 13.2E).') /* AppraisalPortalDestination */
      , (42823, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

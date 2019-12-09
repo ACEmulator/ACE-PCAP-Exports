@@ -39,17 +39,10 @@ VALUES (36692,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36692,   1, True ) /* Stuck */
-     , (36692,  11, True ) /* IgnoreCollisions */
-     , (36692,  12, True ) /* ReportCollisions */
-     , (36692,  13, True ) /* Ethereal */
-     , (36692,  14, True ) /* GravityStatus */
-     , (36692,  15, True ) /* LightsStatus */
-     , (36692,  19, False) /* Attackable */
-     , (36692,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (36692,  42, True ) /* AllowEdgeSlide */;
+     , (36692,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36692,  54, 0.100000001490116) /* UseRadius */;
+VALUES (36692,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36692,   1, 'Trial of the Heart Portal') /* Name */

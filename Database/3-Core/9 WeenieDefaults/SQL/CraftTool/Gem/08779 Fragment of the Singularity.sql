@@ -12,18 +12,13 @@ VALUES (8779,   1,       2048) /* ItemType - Gem */
      , (8779,  15,          0) /* StackUnitValue */
      , (8779,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8779,  19,          0) /* Value */
-     , (8779,  65,        101) /* Placement - Resting */
      , (8779,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8779,  94,       2048) /* TargetType - Gem */
-     , (8779, 151,          9) /* HookType - Floor, Yard */;
+     , (8779, 151,          9) /* HookType - Floor, Yard */
+     , (8779, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8779,   1, False) /* Stuck */
-     , (8779,  11, True ) /* IgnoreCollisions */
-     , (8779,  13, True ) /* Ethereal */
-     , (8779,  14, True ) /* GravityStatus */
-     , (8779,  19, True ) /* Attackable */
-     , (8779,  22, True ) /* Inscribable */;
+VALUES (8779,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8779,   1, 'Fragment of the Singularity') /* Name */

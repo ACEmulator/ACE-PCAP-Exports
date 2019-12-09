@@ -8,15 +8,10 @@ VALUES (4518,   1,        128) /* ItemType - Misc */
      , (4518,   5,       9000) /* EncumbranceVal */
      , (4518,  16,          1) /* ItemUseable - No */
      , (4518,  19,        125) /* Value */
-     , (4518,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4518,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4518,   1, True ) /* Stuck */
-     , (4518,  11, True ) /* IgnoreCollisions */
-     , (4518,  12, True ) /* ReportCollisions */
-     , (4518,  13, False) /* Ethereal */
-     , (4518,  14, True ) /* GravityStatus */
-     , (4518,  19, True ) /* Attackable */;
+VALUES (4518,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4518,   1, 'The Nanto Scribe') /* Name */

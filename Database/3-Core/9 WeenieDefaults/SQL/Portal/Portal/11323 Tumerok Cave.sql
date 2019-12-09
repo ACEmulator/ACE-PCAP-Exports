@@ -12,19 +12,13 @@ VALUES (11323,   1,      65536) /* ItemType - Portal */
      , (11323, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11323,   1, True ) /* Stuck */
-     , (11323,  12, True ) /* ReportCollisions */
-     , (11323,  13, True ) /* Ethereal */
-     , (11323,  14, True ) /* GravityStatus */
-     , (11323,  15, True ) /* LightsStatus */
-     , (11323,  19, True ) /* Attackable */;
+VALUES (11323,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11323,  54, -0.100000001490116) /* UseRadius */;
+VALUES (11323,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11323,   1, 'Tumerok Cave') /* Name */
-     , (11323,  38, 'Tumerok Cave') /* AppraisalPortalDestination */
      , (11323, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,12 +12,7 @@ VALUES (32180,   1,        128) /* ItemType - Misc */
      , (32180, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32180,   1, False) /* Stuck */
-     , (32180,  11, True ) /* IgnoreCollisions */
-     , (32180,  13, True ) /* Ethereal */
-     , (32180,  14, True ) /* GravityStatus */
-     , (32180,  19, True ) /* Attackable */
-     , (32180,  22, True ) /* Inscribable */
+VALUES (32180,  22, True ) /* Inscribable */
      , (32180,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

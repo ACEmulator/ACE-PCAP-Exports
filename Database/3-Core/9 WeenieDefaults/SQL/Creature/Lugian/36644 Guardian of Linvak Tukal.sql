@@ -15,11 +15,7 @@ VALUES (36644,   1,         16) /* ItemType - Creature */
      , (36644, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36644,   1, True ) /* Stuck */
-     , (36644,  12, True ) /* ReportCollisions */
-     , (36644,  13, False) /* Ethereal */
-     , (36644,  14, True ) /* GravityStatus */
-     , (36644,  19, True ) /* Attackable */;
+VALUES (36644,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36644,   1, 'Guardian of Linvak Tukal') /* Name */

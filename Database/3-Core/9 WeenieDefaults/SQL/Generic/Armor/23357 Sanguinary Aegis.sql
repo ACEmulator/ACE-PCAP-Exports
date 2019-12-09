@@ -20,12 +20,7 @@ VALUES (23357,   1,          2) /* ItemType - Armor */
      , (23357, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23357,   1, False) /* Stuck */
-     , (23357,  11, True ) /* IgnoreCollisions */
-     , (23357,  13, True ) /* Ethereal */
-     , (23357,  14, True ) /* GravityStatus */
-     , (23357,  19, True ) /* Attackable */
-     , (23357,  22, True ) /* Inscribable */
+VALUES (23357,  22, True ) /* Inscribable */
      , (23357,  69, False) /* IsSellable */
      , (23357,  85, True ) /* AppraisalHasAllowedWielder */;
 

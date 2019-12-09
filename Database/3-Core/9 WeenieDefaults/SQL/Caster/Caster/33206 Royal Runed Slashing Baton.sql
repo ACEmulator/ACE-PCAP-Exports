@@ -12,7 +12,6 @@ VALUES (33206,   1,      32768) /* ItemType - Caster */
      , (33206,  18,       1024) /* UiEffects - Slashing */
      , (33206,  19,      15000) /* Value */
      , (33206,  45,          1) /* DamageType - Slash */
-     , (33206,  65,          1) /* Placement - RightHandCombat */
      , (33206,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33206,  94,         16) /* TargetType - Creature */
      , (33206, 106,        450) /* ItemSpellcraft */
@@ -22,25 +21,21 @@ VALUES (33206,   1,      32768) /* ItemType - Caster */
      , (33206, 151,          2) /* HookType - Wall */
      , (33206, 158,          7) /* WieldRequirements - Level */
      , (33206, 159,          1) /* WieldSkillType - Axe */
-     , (33206, 160,        120) /* WieldDifficulty */;
+     , (33206, 160,        120) /* WieldDifficulty */
+     , (33206, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33206,   1, False) /* Stuck */
-     , (33206,  11, True ) /* IgnoreCollisions */
-     , (33206,  13, True ) /* Ethereal */
-     , (33206,  14, True ) /* GravityStatus */
-     , (33206,  19, True ) /* Attackable */
-     , (33206,  22, True ) /* Inscribable */
+VALUES (33206,  22, True ) /* Inscribable */
      , (33206,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33206,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33206,   5,   -0.05) /* ManaRate */
      , (33206,  29,       1) /* WeaponDefense */
      , (33206,  39,     1.5) /* DefaultScale */
-     , (33206, 144, 0.200000002980232) /* ManaConversionMod */
+     , (33206, 144,     0.2) /* ManaConversionMod */
      , (33206, 147,       1) /* CriticalFrequency */
-     , (33206, 150,   1.025) /* WeaponMagicDefense */
-     , (33206, 152, 1.20000004768372) /* ElementalDamageMod */;
+     , (33206, 150,    1.02) /* WeaponMagicDefense */
+     , (33206, 152,     1.2) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33206,   1, 'Royal Runed Slashing Baton') /* Name */

@@ -14,15 +14,8 @@ VALUES (43914,   1,        128) /* ItemType - Misc */
      , (43914,  19,          1) /* Value */
      , (43914,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43914,   1, False) /* Stuck */
-     , (43914,  11, True ) /* IgnoreCollisions */
-     , (43914,  13, True ) /* Ethereal */
-     , (43914,  14, True ) /* GravityStatus */
-     , (43914,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43914,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (43914,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43914,   1, 'Electrical Natural Resistance') /* Name */;

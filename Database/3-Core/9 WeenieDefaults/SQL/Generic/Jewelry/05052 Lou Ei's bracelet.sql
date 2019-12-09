@@ -10,20 +10,15 @@ VALUES (5052,   1,          8) /* ItemType - Jewelry */
      , (5052,  16,          1) /* ItemUseable - No */
      , (5052,  19,         20) /* Value */
      , (5052,  33,          1) /* Bonded - Bonded */
-     , (5052,  65,        101) /* Placement - Resting */
      , (5052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5052, 114,          1) /* Attuned - Attuned */;
+     , (5052, 114,          1) /* Attuned - Attuned */
+     , (5052, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5052,   1, False) /* Stuck */
-     , (5052,  11, True ) /* IgnoreCollisions */
-     , (5052,  13, True ) /* Ethereal */
-     , (5052,  14, True ) /* GravityStatus */
-     , (5052,  19, True ) /* Attackable */
-     , (5052,  22, True ) /* Inscribable */;
+VALUES (5052,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5052,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (5052,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5052,   1, 'Lou Ei''s bracelet') /* Name */

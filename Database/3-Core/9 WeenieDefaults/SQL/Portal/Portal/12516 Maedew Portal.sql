@@ -12,19 +12,13 @@ VALUES (12516,   1,      65536) /* ItemType - Portal */
      , (12516, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12516,   1, True ) /* Stuck */
-     , (12516,  12, True ) /* ReportCollisions */
-     , (12516,  13, True ) /* Ethereal */
-     , (12516,  14, True ) /* GravityStatus */
-     , (12516,  15, True ) /* LightsStatus */
-     , (12516,  19, True ) /* Attackable */;
+VALUES (12516,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12516,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12516,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12516,   1, 'Maedew Portal') /* Name */
-     , (12516,  38, 'Maedew Portal (8.9S, 64.5E).') /* AppraisalPortalDestination */
      , (12516, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

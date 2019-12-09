@@ -8,19 +8,14 @@ VALUES (1421,   1,      16384) /* ItemType - Key */
      , (1421,   5,         50) /* EncumbranceVal */
      , (1421,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (1421,  19,         50) /* Value */
-     , (1421,  65,        101) /* Placement - Resting */
      , (1421,  91,          3) /* MaxStructure */
      , (1421,  92,          3) /* Structure */
      , (1421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1421,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (1421,  94,        640) /* TargetType - LockableMagicTarget */
+     , (1421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1421,   1, False) /* Stuck */
-     , (1421,  11, True ) /* IgnoreCollisions */
-     , (1421,  13, True ) /* Ethereal */
-     , (1421,  14, True ) /* GravityStatus */
-     , (1421,  19, True ) /* Attackable */
-     , (1421,  22, True ) /* Inscribable */;
+VALUES (1421,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1421,   1, 'Worn Small Key') /* Name */

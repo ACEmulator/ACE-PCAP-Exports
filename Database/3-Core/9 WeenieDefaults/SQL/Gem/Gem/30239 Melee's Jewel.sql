@@ -16,22 +16,17 @@ VALUES (30239,   1,       2048) /* ItemType - Gem */
      , (30239,  19,          0) /* Value */
      , (30239,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30239,  33,         -1) /* Bonded - Slippery */
-     , (30239,  65,        101) /* Placement - Resting */
      , (30239,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30239,  94,         16) /* TargetType - Creature */
      , (30239, 106,        325) /* ItemSpellcraft */
      , (30239, 107,      10000) /* ItemCurMana */
      , (30239, 108,      10000) /* ItemMaxMana */
      , (30239, 109,          0) /* ItemDifficulty */
-     , (30239, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30239, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30239, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30239,   1, False) /* Stuck */
-     , (30239,  11, True ) /* IgnoreCollisions */
-     , (30239,  13, True ) /* Ethereal */
-     , (30239,  14, True ) /* GravityStatus */
-     , (30239,  19, True ) /* Attackable */
-     , (30239, 108, True ) /* RareUsesTimer */;
+VALUES (30239, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30239,   1, 'Melee''s Jewel') /* Name */

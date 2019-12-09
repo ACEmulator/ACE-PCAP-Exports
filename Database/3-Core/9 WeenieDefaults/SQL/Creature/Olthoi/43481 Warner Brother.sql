@@ -20,15 +20,10 @@ VALUES (43481,   1,         16) /* ItemType - Creature */
      , (43481, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43481,   1, True ) /* Stuck */
-     , (43481,  11, True ) /* IgnoreCollisions */
-     , (43481,  13, False) /* Ethereal */
-     , (43481,  14, True ) /* GravityStatus */
-     , (43481,  19, True ) /* Attackable */
-     , (43481,  42, True ) /* AllowEdgeSlide */;
+VALUES (43481,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43481,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (43481,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43481,   1, 'Warner Brother') /* Name */

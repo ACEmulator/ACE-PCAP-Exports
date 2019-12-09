@@ -12,17 +12,12 @@ VALUES (7040,   1,        128) /* ItemType - Misc */
      , (7040,  15,          0) /* StackUnitValue */
      , (7040,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7040,  19,          0) /* Value */
-     , (7040,  65,        101) /* Placement - Resting */
      , (7040,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7040,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */;
+     , (7040,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */
+     , (7040, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7040,   1, False) /* Stuck */
-     , (7040,  11, True ) /* IgnoreCollisions */
-     , (7040,  13, True ) /* Ethereal */
-     , (7040,  14, True ) /* GravityStatus */
-     , (7040,  19, True ) /* Attackable */
-     , (7040,  22, True ) /* Inscribable */;
+VALUES (7040,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7040,   1, 'Ravener Guts') /* Name */

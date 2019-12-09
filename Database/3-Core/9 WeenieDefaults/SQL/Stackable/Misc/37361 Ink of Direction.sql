@@ -12,15 +12,8 @@ VALUES (37361,   1,        128) /* ItemType - Misc */
      , (37361,  15,      30000) /* StackUnitValue */
      , (37361,  16,          1) /* ItemUseable - No */
      , (37361,  19,      30000) /* Value */
-     , (37361,  65,        101) /* Placement - Resting */
-     , (37361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37361,   1, False) /* Stuck */
-     , (37361,  11, True ) /* IgnoreCollisions */
-     , (37361,  13, True ) /* Ethereal */
-     , (37361,  14, True ) /* GravityStatus */
-     , (37361,  19, True ) /* Attackable */;
+     , (37361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37361, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37361,   1, 'Ink of Direction') /* Name */

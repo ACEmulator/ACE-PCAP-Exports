@@ -11,7 +11,6 @@ VALUES (28994,   1,      32768) /* ItemType - Caster */
      , (28994,  16,          1) /* ItemUseable - No */
      , (28994,  18,         16) /* UiEffects - BoostStamina */
      , (28994,  19,       6000) /* Value */
-     , (28994,  65,          1) /* Placement - RightHandCombat */
      , (28994,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28994,  94,         16) /* TargetType - Creature */
      , (28994, 106,        280) /* ItemSpellcraft */
@@ -22,21 +21,17 @@ VALUES (28994,   1,      32768) /* ItemType - Caster */
      , (28994, 158,          2) /* WieldRequirements - RawSkill */
      , (28994, 159,         16) /* WieldSkillType - ManaConversion */
      , (28994, 160,        240) /* WieldDifficulty */
-     , (28994, 166,         75) /* SlayerCreatureType - Burun */;
+     , (28994, 166,         75) /* SlayerCreatureType - Burun */
+     , (28994, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28994,   1, False) /* Stuck */
-     , (28994,  11, True ) /* IgnoreCollisions */
-     , (28994,  13, True ) /* Ethereal */
-     , (28994,  14, True ) /* GravityStatus */
-     , (28994,  19, True ) /* Attackable */
-     , (28994,  22, True ) /* Inscribable */
+VALUES (28994,  22, True ) /* Inscribable */
      , (28994,  94, True ) /* AppraisalHasAllowedActivator */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28994,   5, -0.0333999991416931) /* ManaRate */
-     , (28994,  29, 1.0900000333786) /* WeaponDefense */
-     , (28994, 144, 0.0599999986588955) /* ManaConversionMod */
+VALUES (28994,   5,   -0.03) /* ManaRate */
+     , (28994,  29,    1.09) /* WeaponDefense */
+     , (28994, 144,    0.06) /* ManaConversionMod */
      , (28994, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

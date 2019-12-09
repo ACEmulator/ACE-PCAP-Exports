@@ -15,14 +15,10 @@ VALUES (51808,   1,         16) /* ItemType - Creature */
      , (51808, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51808,   1, True ) /* Stuck */
-     , (51808,  12, True ) /* ReportCollisions */
-     , (51808,  13, False) /* Ethereal */
-     , (51808,  14, True ) /* GravityStatus */
-     , (51808,  19, True ) /* Attackable */;
+VALUES (51808,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51808,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (51808,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51808,   1, 'Empowered Sorrow Wisp') /* Name */

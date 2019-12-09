@@ -10,12 +10,7 @@ VALUES (245,   1,        128) /* ItemType - Misc */
      , (245, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (245,   1, True ) /* Stuck */
-     , (245,  11, True ) /* IgnoreCollisions */
-     , (245,  12, True ) /* ReportCollisions */
-     , (245,  13, False) /* Ethereal */
-     , (245,  14, True ) /* GravityStatus */
-     , (245,  19, True ) /* Attackable */;
+VALUES (245,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (245,   1, 'The Great Machine') /* Name */

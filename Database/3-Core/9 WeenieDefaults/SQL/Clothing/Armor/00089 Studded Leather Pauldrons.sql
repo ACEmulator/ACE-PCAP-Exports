@@ -12,30 +12,25 @@ VALUES (89,   1,          2) /* ItemType - Armor */
      , (89,  18,          1) /* UiEffects - Magical */
      , (89,  19,      17222) /* Value */
      , (89,  28,        246) /* ArmorLevel */
-     , (89,  65,        101) /* Placement - Resting */
      , (89,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (89, 105,          8) /* ItemWorkmanship */
      , (89, 131,         52) /* MaterialType - Leather */
-     , (89, 172,          1) /* AppraisalLongDescDecoration */;
+     , (89, 172,          1) /* AppraisalLongDescDecoration */
+     , (89, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (89,   1, False) /* Stuck */
-     , (89,  11, True ) /* IgnoreCollisions */
-     , (89,  13, True ) /* Ethereal */
-     , (89,  14, True ) /* GravityStatus */
-     , (89,  19, True ) /* Attackable */
-     , (89,  22, True ) /* Inscribable */
+VALUES (89,  22, True ) /* Inscribable */
      , (89, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (89,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (89,  14, 1.10000002384186) /* ArmorModVsPierce */
+VALUES (89,  13,     1.2) /* ArmorModVsSlash */
+     , (89,  14,     1.1) /* ArmorModVsPierce */
      , (89,  15,       1) /* ArmorModVsBludgeon */
-     , (89,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (89,  17, 1.20214116573334) /* ArmorModVsFire */
-     , (89,  18, 0.744532287120819) /* ArmorModVsAcid */
-     , (89,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (89,  39, 1.10000002384186) /* DefaultScale */
+     , (89,  16,     0.4) /* ArmorModVsCold */
+     , (89,  17,     1.2) /* ArmorModVsFire */
+     , (89,  18,    0.74) /* ArmorModVsAcid */
+     , (89,  19,     0.4) /* ArmorModVsElectric */
+     , (89,  39,     1.1) /* DefaultScale */
      , (89, 165,       1) /* ArmorModVsNether */
      , (89, 8004,       7) /* PCAPRecordedWorkmanship */;
 

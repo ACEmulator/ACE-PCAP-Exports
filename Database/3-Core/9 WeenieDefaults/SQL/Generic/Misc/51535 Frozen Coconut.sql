@@ -7,15 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51535,   1,        128) /* ItemType - Misc */
      , (51535,   5,         30) /* EncumbranceVal */
      , (51535,  16,          1) /* ItemUseable - No */
-     , (51535,  65,        101) /* Placement - Resting */
-     , (51535,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (51535,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (51535, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51535,   1, True ) /* Stuck */
-     , (51535,  11, True ) /* IgnoreCollisions */
-     , (51535,  13, True ) /* Ethereal */
-     , (51535,  14, True ) /* GravityStatus */
-     , (51535,  19, True ) /* Attackable */;
+VALUES (51535,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51535,   1, 'Frozen Coconut') /* Name */;

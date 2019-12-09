@@ -15,14 +15,10 @@ VALUES (11992,   1,         16) /* ItemType - Creature */
      , (11992, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11992,   1, True ) /* Stuck */
-     , (11992,  12, True ) /* ReportCollisions */
-     , (11992,  13, False) /* Ethereal */
-     , (11992,  14, True ) /* GravityStatus */
-     , (11992,  19, True ) /* Attackable */;
+VALUES (11992,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11992,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (11992,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11992,   1, 'Forest Lord') /* Name */

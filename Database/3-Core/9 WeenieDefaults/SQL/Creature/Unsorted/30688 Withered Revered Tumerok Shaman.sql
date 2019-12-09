@@ -13,14 +13,10 @@ VALUES (30688,   1,         16) /* ItemType - Creature */
      , (30688, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30688,   1, True ) /* Stuck */
-     , (30688,  12, True ) /* ReportCollisions */
-     , (30688,  13, False) /* Ethereal */
-     , (30688,  14, True ) /* GravityStatus */
-     , (30688,  19, True ) /* Attackable */;
+VALUES (30688,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30688,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (30688,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30688,   1, 'Withered Revered Tumerok Shaman') /* Name */

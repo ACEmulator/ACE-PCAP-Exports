@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26664,   1,       8192) /* ItemType - Writable */
      , (26664,   5,         25) /* EncumbranceVal */
      , (26664,  16,          8) /* ItemUseable - Contained */
-     , (26664,  65,        101) /* Placement - Resting */
-     , (26664,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26664,   1, False) /* Stuck */
-     , (26664,  11, True ) /* IgnoreCollisions */
-     , (26664,  13, True ) /* Ethereal */
-     , (26664,  14, True ) /* GravityStatus */
-     , (26664,  19, True ) /* Attackable */;
+     , (26664,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26664, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26664,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (26664,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26664,   1, 'Marked Fleshy Journal') /* Name */;

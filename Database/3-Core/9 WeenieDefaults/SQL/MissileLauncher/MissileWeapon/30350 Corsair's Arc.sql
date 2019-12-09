@@ -17,12 +17,7 @@ VALUES (30350,   1,        256) /* ItemType - MissileWeapon */
      , (30350, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30350,   1, False) /* Stuck */
-     , (30350,  11, True ) /* IgnoreCollisions */
-     , (30350,  13, True ) /* Ethereal */
-     , (30350,  14, True ) /* GravityStatus */
-     , (30350,  19, True ) /* Attackable */
-     , (30350,  22, True ) /* Inscribable */;
+VALUES (30350,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30350,   1, 'Corsair''s Arc') /* Name */;

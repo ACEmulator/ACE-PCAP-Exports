@@ -13,18 +13,11 @@ VALUES (8330,   1,       4096) /* ItemType - SpellComponents */
      , (8330,  16,          1) /* ItemUseable - No */
      , (8330,  19,      50000) /* Value */
      , (8330,  33,          1) /* Bonded - Bonded */
-     , (8330,  65,        101) /* Placement - Resting */
-     , (8330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8330,   1, False) /* Stuck */
-     , (8330,  11, True ) /* IgnoreCollisions */
-     , (8330,  13, True ) /* Ethereal */
-     , (8330,  14, True ) /* GravityStatus */
-     , (8330,  19, True ) /* Attackable */;
+     , (8330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8330, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8330,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8330,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8330,   1, 'Pyreal Pea') /* Name */

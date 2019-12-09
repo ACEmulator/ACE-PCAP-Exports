@@ -16,14 +16,10 @@ VALUES (11536,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11536,   1, True ) /* Stuck */
-     , (11536,  12, True ) /* ReportCollisions */
-     , (11536,  13, False) /* Ethereal */
-     , (11536,  14, True ) /* GravityStatus */
-     , (11536,  19, True ) /* Attackable */
      , (11536, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11536,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (11536,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11536,   1, 'Entropy Wisp') /* Name */

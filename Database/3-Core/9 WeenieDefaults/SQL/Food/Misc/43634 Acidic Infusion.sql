@@ -13,19 +13,12 @@ VALUES (43634,   1,        128) /* ItemType - Misc */
      , (43634,  16,          8) /* ItemUseable - Contained */
      , (43634,  19,          1) /* Value */
      , (43634,  33,          1) /* Bonded - Bonded */
-     , (43634,  65,        101) /* Placement - Resting */
      , (43634,  89,          2) /* BoosterEnum - Health */
      , (43634,  90,        100) /* BoostValue */
      , (43634,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43634, 114,          1) /* Attuned - Attuned */
-     , (43634, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43634,   1, False) /* Stuck */
-     , (43634,  11, True ) /* IgnoreCollisions */
-     , (43634,  13, True ) /* Ethereal */
-     , (43634,  14, True ) /* GravityStatus */
-     , (43634,  19, True ) /* Attackable */;
+     , (43634, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (43634, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43634,   1, 'Acidic Infusion') /* Name */

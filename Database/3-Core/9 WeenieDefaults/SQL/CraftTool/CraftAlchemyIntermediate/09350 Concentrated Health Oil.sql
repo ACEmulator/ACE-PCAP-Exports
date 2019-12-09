@@ -11,17 +11,10 @@ VALUES (9350,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9350,  15,        750) /* StackUnitValue */
      , (9350,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9350,  19,        750) /* Value */
-     , (9350,  65,        101) /* Placement - Resting */
      , (9350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9350,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (9350, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9350,   1, False) /* Stuck */
-     , (9350,  11, True ) /* IgnoreCollisions */
-     , (9350,  13, True ) /* Ethereal */
-     , (9350,  14, True ) /* GravityStatus */
-     , (9350,  19, True ) /* Attackable */;
+     , (9350, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9350, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9350,   1, 'Concentrated Health Oil') /* Name */

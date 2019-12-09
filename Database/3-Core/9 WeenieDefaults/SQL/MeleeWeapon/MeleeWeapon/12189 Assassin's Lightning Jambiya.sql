@@ -12,16 +12,11 @@ VALUES (12189,   1,          1) /* ItemType - MeleeWeapon */
      , (12189,  18,         64) /* UiEffects - Lightning */
      , (12189,  19,         75) /* Value */
      , (12189,  51,          1) /* CombatUse - Melee */
-     , (12189,  65,          1) /* Placement - RightHandCombat */
-     , (12189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (12189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12189, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12189,   1, False) /* Stuck */
-     , (12189,  11, True ) /* IgnoreCollisions */
-     , (12189,  13, True ) /* Ethereal */
-     , (12189,  14, True ) /* GravityStatus */
-     , (12189,  19, True ) /* Attackable */
-     , (12189,  22, True ) /* Inscribable */;
+VALUES (12189,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12189,   1, 'Assassin''s Lightning Jambiya') /* Name */;

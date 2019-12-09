@@ -15,11 +15,7 @@ VALUES (23623,   1,         16) /* ItemType - Creature */
      , (23623, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23623,   1, True ) /* Stuck */
-     , (23623,  12, True ) /* ReportCollisions */
-     , (23623,  13, False) /* Ethereal */
-     , (23623,  14, True ) /* GravityStatus */
-     , (23623,  19, True ) /* Attackable */;
+VALUES (23623,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23623,   1, 'Mad Cow') /* Name */

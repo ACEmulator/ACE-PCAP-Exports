@@ -8,20 +8,13 @@ VALUES (8086,   1,       8192) /* ItemType - Writable */
      , (8086,   5,        160) /* EncumbranceVal */
      , (8086,  16,          8) /* ItemUseable - Contained */
      , (8086,  19,         90) /* Value */
-     , (8086,  65,        101) /* Placement - Resting */
      , (8086,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8086, 174,          7) /* AppraisalPages */
-     , (8086, 175,          7) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8086,   1, False) /* Stuck */
-     , (8086,  11, True ) /* IgnoreCollisions */
-     , (8086,  13, True ) /* Ethereal */
-     , (8086,  14, True ) /* GravityStatus */
-     , (8086,  19, True ) /* Attackable */;
+     , (8086, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (8086, 8042,          7) /* PCAPRecordedAppraisalPages */
+     , (8086, 8043,          7) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8086,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (8086,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8086,   1, 'Urgent Dispatch') /* Name */

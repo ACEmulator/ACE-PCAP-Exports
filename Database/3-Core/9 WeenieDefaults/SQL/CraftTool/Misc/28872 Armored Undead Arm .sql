@@ -16,12 +16,7 @@ VALUES (28872,   1,        128) /* ItemType - Misc */
      , (28872, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28872,   1, False) /* Stuck */
-     , (28872,  11, True ) /* IgnoreCollisions */
-     , (28872,  13, True ) /* Ethereal */
-     , (28872,  14, True ) /* GravityStatus */
-     , (28872,  19, True ) /* Attackable */
-     , (28872,  22, True ) /* Inscribable */;
+VALUES (28872,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28872,   1, 'Armored Undead Arm ') /* Name */;

@@ -13,14 +13,10 @@ VALUES (45184,   1,         16) /* ItemType - Creature */
      , (45184, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45184,   1, True ) /* Stuck */
-     , (45184,  12, True ) /* ReportCollisions */
-     , (45184,  13, False) /* Ethereal */
-     , (45184,  14, True ) /* GravityStatus */
-     , (45184,  19, True ) /* Attackable */;
+VALUES (45184,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45184,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (45184,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45184,   1, 'Hatred Wisp') /* Name */

@@ -10,23 +10,18 @@ VALUES (12224,   1,      32768) /* ItemType - Caster */
      , (12224,  16,          1) /* ItemUseable - No */
      , (12224,  18,          1) /* UiEffects - Magical */
      , (12224,  19,         75) /* Value */
-     , (12224,  65,        101) /* Placement - Resting */
      , (12224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12224,  94,         16) /* TargetType - Creature */
-     , (12224, 151,          2) /* HookType - Wall */;
+     , (12224, 151,          2) /* HookType - Wall */
+     , (12224, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12224,   1, False) /* Stuck */
-     , (12224,  11, True ) /* IgnoreCollisions */
-     , (12224,  13, True ) /* Ethereal */
-     , (12224,  14, True ) /* GravityStatus */
-     , (12224,  19, True ) /* Attackable */
-     , (12224,  22, True ) /* Inscribable */;
+VALUES (12224,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12224,  29,       1) /* WeaponDefense */
-     , (12224,  39, 1.20000004768372) /* DefaultScale */
-     , (12224, 144, 1.80737091767736E-314) /* ManaConversionMod */;
+     , (12224,  39,     1.2) /* DefaultScale */
+     , (12224, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12224,   1, 'Tusker Wand') /* Name */

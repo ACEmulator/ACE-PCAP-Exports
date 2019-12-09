@@ -15,12 +15,7 @@ VALUES (30316,   1,          1) /* ItemType - MeleeWeapon */
      , (30316, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30316,   1, False) /* Stuck */
-     , (30316,  11, True ) /* IgnoreCollisions */
-     , (30316,  13, True ) /* Ethereal */
-     , (30316,  14, True ) /* GravityStatus */
-     , (30316,  19, True ) /* Attackable */
-     , (30316,  22, True ) /* Inscribable */;
+VALUES (30316,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30316,   1, 'Black Thistle') /* Name */;

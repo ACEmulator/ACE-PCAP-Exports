@@ -17,11 +17,7 @@ VALUES (37097,   1,         16) /* ItemType - Creature */
      , (37097, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37097,   1, True ) /* Stuck */
-     , (37097,  12, True ) /* ReportCollisions */
-     , (37097,  13, False) /* Ethereal */
-     , (37097,  14, True ) /* GravityStatus */
-     , (37097,  19, True ) /* Attackable */;
+VALUES (37097,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37097,   1, 'Shroud Cabal Node-Leech') /* Name */

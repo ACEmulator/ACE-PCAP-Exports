@@ -12,19 +12,13 @@ VALUES (15835,   1,      65536) /* ItemType - Portal */
      , (15835, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15835,   1, True ) /* Stuck */
-     , (15835,  12, True ) /* ReportCollisions */
-     , (15835,  13, True ) /* Ethereal */
-     , (15835,  14, True ) /* GravityStatus */
-     , (15835,  15, True ) /* LightsStatus */
-     , (15835,  19, True ) /* Attackable */;
+VALUES (15835,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15835,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15835,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15835,   1, 'Marin Court') /* Name */
-     , (15835,  38, 'Marin Court') /* AppraisalPortalDestination */
      , (15835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

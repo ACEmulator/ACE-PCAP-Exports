@@ -21,20 +21,15 @@ VALUES (37477,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37477,   1, True ) /* Stuck */
-     , (37477,  11, True ) /* IgnoreCollisions */
-     , (37477,  12, True ) /* ReportCollisions */
-     , (37477,  13, False) /* Ethereal */
-     , (37477,  14, True ) /* GravityStatus */
      , (37477,  19, False) /* Attackable */
-     , (37477,  39, True ) /* DealMagicalItems */
-     , (37477,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (37477,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37477,  37, 0.899999976158142) /* BuyPrice */
+VALUES (37477,  37,     0.9) /* BuyPrice */
      , (37477,  38,       1) /* SellPrice */
-     , (37477,  39, 1.20000004768372) /* DefaultScale */
+     , (37477,  39,     1.2) /* DefaultScale */
      , (37477,  54,       3) /* UseRadius */
-     , (37477,  76, 0.400000005960464) /* Translucency */;
+     , (37477,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37477,   1, 'Hurnmel the Smith') /* Name */

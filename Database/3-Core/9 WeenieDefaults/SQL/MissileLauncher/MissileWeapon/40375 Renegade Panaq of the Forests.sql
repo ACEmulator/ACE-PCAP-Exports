@@ -17,7 +17,6 @@ VALUES (40375,   1,        256) /* ItemType - MissileWeapon */
      , (40375,  49,         45) /* WeaponTime */
      , (40375,  50,          1) /* AmmoType - Arrow */
      , (40375,  51,          2) /* CombatUse - Missle */
-     , (40375,  65,        101) /* Placement - Resting */
      , (40375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40375, 106,        250) /* ItemSpellcraft */
      , (40375, 107,        818) /* ItemCurMana */
@@ -30,27 +29,23 @@ VALUES (40375,   1,        256) /* ItemType - MissileWeapon */
      , (40375, 160,        360) /* WieldDifficulty */
      , (40375, 263,          2) /* ResistanceModifierType */
      , (40375, 353,          8) /* WeaponType - Bow */
-     , (40375, 8030,          0);
+     , (40375, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (40375, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40375,   1, False) /* Stuck */
-     , (40375,  11, True ) /* IgnoreCollisions */
-     , (40375,  13, True ) /* Ethereal */
-     , (40375,  14, True ) /* GravityStatus */
-     , (40375,  19, True ) /* Attackable */
-     , (40375,  22, True ) /* Inscribable */
+VALUES (40375,  22, True ) /* Inscribable */
      , (40375,  69, False) /* IsSellable */
      , (40375,  85, True ) /* AppraisalHasAllowedWielder */
      , (40375,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40375,   5, -0.0333329997956753) /* ManaRate */
+VALUES (40375,   5,   -0.03) /* ManaRate */
      , (40375,  21,       0) /* WeaponLength */
      , (40375,  22,       0) /* DamageVariance */
      , (40375,  26,    27.3) /* MaximumVelocity */
-     , (40375,  29, 1.14999997615814) /* WeaponDefense */
-     , (40375,  62, 1.20000004768372) /* WeaponOffense */
-     , (40375,  63, 2.40000009536743) /* DamageMod */
+     , (40375,  29,    1.15) /* WeaponDefense */
+     , (40375,  62,     1.2) /* WeaponOffense */
+     , (40375,  63,     2.4) /* DamageMod */
      , (40375, 136,       1) /* CriticalMultiplier */
      , (40375, 157,       1) /* ResistanceModifier */;
 

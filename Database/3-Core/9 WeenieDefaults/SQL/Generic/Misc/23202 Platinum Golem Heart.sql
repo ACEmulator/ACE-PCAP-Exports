@@ -8,19 +8,14 @@ VALUES (23202,   1,        128) /* ItemType - Misc */
      , (23202,   5,        100) /* EncumbranceVal */
      , (23202,  16,          1) /* ItemUseable - No */
      , (23202,  19,        100) /* Value */
-     , (23202,  65,        101) /* Placement - Resting */
-     , (23202,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23202,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23202, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23202,   1, False) /* Stuck */
-     , (23202,  11, True ) /* IgnoreCollisions */
-     , (23202,  13, True ) /* Ethereal */
-     , (23202,  14, True ) /* GravityStatus */
-     , (23202,  19, True ) /* Attackable */
-     , (23202,  22, True ) /* Inscribable */;
+VALUES (23202,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23202,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (23202,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23202,   1, 'Platinum Golem Heart') /* Name */;

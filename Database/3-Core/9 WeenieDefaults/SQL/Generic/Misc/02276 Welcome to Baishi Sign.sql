@@ -8,16 +8,11 @@ VALUES (2276,   1,        128) /* ItemType - Misc */
      , (2276,   5,       9000) /* EncumbranceVal */
      , (2276,  16,          1) /* ItemUseable - No */
      , (2276,  19,        125) /* Value */
-     , (2276,  65,        101) /* Placement - Resting */
-     , (2276,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2276,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2276, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2276,   1, True ) /* Stuck */
-     , (2276,  11, True ) /* IgnoreCollisions */
-     , (2276,  12, True ) /* ReportCollisions */
-     , (2276,  13, False) /* Ethereal */
-     , (2276,  14, True ) /* GravityStatus */
-     , (2276,  19, True ) /* Attackable */;
+VALUES (2276,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2276,   1, 'Welcome to Baishi Sign') /* Name */

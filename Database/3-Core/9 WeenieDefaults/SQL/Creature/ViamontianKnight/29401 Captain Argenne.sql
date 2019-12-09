@@ -15,14 +15,10 @@ VALUES (29401,   1,         16) /* ItemType - Creature */
      , (29401, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29401,   1, True ) /* Stuck */
-     , (29401,  12, True ) /* ReportCollisions */
-     , (29401,  13, False) /* Ethereal */
-     , (29401,  14, True ) /* GravityStatus */
-     , (29401,  19, True ) /* Attackable */;
+VALUES (29401,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29401,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (29401,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29401,   1, 'Captain Argenne') /* Name */

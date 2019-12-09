@@ -15,17 +15,13 @@ VALUES (7979,   1,         16) /* ItemType - Creature */
      , (7979, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7979,   1, True ) /* Stuck */
-     , (7979,  12, True ) /* ReportCollisions */
-     , (7979,  13, False) /* Ethereal */
-     , (7979,  14, True ) /* GravityStatus */
-     , (7979,  19, True ) /* Attackable */;
+VALUES (7979,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7979,  77,       1) /* PhysicsScriptIntensity */
      , (7979, 8010,       0) /* PCAPRecordedVelocityX */
      , (7979, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7979, 8012, -0.228193894028664) /* PCAPRecordedVelocityZ */;
+     , (7979, 8012,   -0.23) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7979,   1, 'Virulent Grievver') /* Name */

@@ -8,19 +8,14 @@ VALUES (11653,   1,        128) /* ItemType - Misc */
      , (11653,   5,         10) /* EncumbranceVal */
      , (11653,  16,          1) /* ItemUseable - No */
      , (11653,  19,      10000) /* Value */
-     , (11653,  65,        101) /* Placement - Resting */
-     , (11653,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (11653,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11653, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11653,   1, False) /* Stuck */
-     , (11653,  11, True ) /* IgnoreCollisions */
-     , (11653,  13, True ) /* Ethereal */
-     , (11653,  14, True ) /* GravityStatus */
-     , (11653,  19, True ) /* Attackable */
-     , (11653,  22, True ) /* Inscribable */;
+VALUES (11653,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11653,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (11653,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11653,   1, 'Advanced Thrown Weapons Skill Puzzle Piece') /* Name */;

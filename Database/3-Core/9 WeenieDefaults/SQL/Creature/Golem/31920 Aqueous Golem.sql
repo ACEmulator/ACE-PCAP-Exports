@@ -15,15 +15,11 @@ VALUES (31920,   1,         16) /* ItemType - Creature */
      , (31920, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31920,   1, True ) /* Stuck */
-     , (31920,  12, True ) /* ReportCollisions */
-     , (31920,  13, False) /* Ethereal */
-     , (31920,  14, True ) /* GravityStatus */
-     , (31920,  19, True ) /* Attackable */;
+VALUES (31920,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31920,  39, 1.10000002384186) /* DefaultScale */
-     , (31920,  76, 0.200000002980232) /* Translucency */;
+VALUES (31920,  39,     1.1) /* DefaultScale */
+     , (31920,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31920,   1, 'Aqueous Golem') /* Name */

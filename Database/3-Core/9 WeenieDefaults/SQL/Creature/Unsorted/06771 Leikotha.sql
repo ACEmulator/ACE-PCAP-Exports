@@ -15,15 +15,10 @@ VALUES (6771,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6771,   1, True ) /* Stuck */
-     , (6771,  11, True ) /* IgnoreCollisions */
-     , (6771,  12, True ) /* ReportCollisions */
-     , (6771,  13, False) /* Ethereal */
-     , (6771,  14, True ) /* GravityStatus */
-     , (6771,  19, False) /* Attackable */
-     , (6771,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (6771,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6771,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (6771,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6771,   1, 'Leikotha') /* Name */

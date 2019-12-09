@@ -11,21 +11,16 @@ VALUES (23763,   1,          1) /* ItemType - MeleeWeapon */
      , (23763,  16,          1) /* ItemUseable - No */
      , (23763,  19,        850) /* Value */
      , (23763,  51,          1) /* CombatUse - Melee */
-     , (23763,  65,          1) /* Placement - RightHandCombat */
      , (23763,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23763, 151,          2) /* HookType - Wall */;
+     , (23763, 151,          2) /* HookType - Wall */
+     , (23763, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23763,   1, False) /* Stuck */
-     , (23763,  11, True ) /* IgnoreCollisions */
-     , (23763,  13, True ) /* Ethereal */
-     , (23763,  14, True ) /* GravityStatus */
-     , (23763,  19, True ) /* Attackable */
-     , (23763,  22, True ) /* Inscribable */;
+VALUES (23763,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23763,  39,       2) /* DefaultScale */
-     , (23763,  76, 0.699999988079071) /* Translucency */;
+     , (23763,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23763,   1, 'Lugian Morning Star') /* Name */;

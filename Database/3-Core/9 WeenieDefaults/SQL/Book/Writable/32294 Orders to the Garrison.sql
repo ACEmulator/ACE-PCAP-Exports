@@ -8,17 +8,10 @@ VALUES (32294,   1,       8192) /* ItemType - Writable */
      , (32294,   5,         10) /* EncumbranceVal */
      , (32294,  16,          8) /* ItemUseable - Contained */
      , (32294,  19,         10) /* Value */
-     , (32294,  65,        101) /* Placement - Resting */
      , (32294,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32294, 174,          1) /* AppraisalPages */
-     , (32294, 175,          1) /* AppraisalMaxPages */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32294,   1, False) /* Stuck */
-     , (32294,  11, True ) /* IgnoreCollisions */
-     , (32294,  13, True ) /* Ethereal */
-     , (32294,  14, True ) /* GravityStatus */
-     , (32294,  19, True ) /* Attackable */;
+     , (32294, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (32294, 8042,          1) /* PCAPRecordedAppraisalPages */
+     , (32294, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32294,   1, 'Orders to the Garrison') /* Name */

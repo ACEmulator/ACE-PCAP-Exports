@@ -15,15 +15,10 @@ VALUES (45547,   1,          1) /* ItemType - MeleeWeapon */
      , (45547, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45547,   1, False) /* Stuck */
-     , (45547,  11, True ) /* IgnoreCollisions */
-     , (45547,  13, True ) /* Ethereal */
-     , (45547,  14, True ) /* GravityStatus */
-     , (45547,  19, True ) /* Attackable */
-     , (45547,  22, True ) /* Inscribable */;
+VALUES (45547,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45547,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (45547,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45547,   1, 'Academy Bastone') /* Name */;

@@ -15,14 +15,10 @@ VALUES (48764,   1,         16) /* ItemType - Creature */
      , (48764, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48764,   1, True ) /* Stuck */
-     , (48764,  12, True ) /* ReportCollisions */
-     , (48764,  13, False) /* Ethereal */
-     , (48764,  14, True ) /* GravityStatus */
-     , (48764,  19, True ) /* Attackable */;
+VALUES (48764,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48764,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (48764,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48764,   1, 'Count Phainor') /* Name */

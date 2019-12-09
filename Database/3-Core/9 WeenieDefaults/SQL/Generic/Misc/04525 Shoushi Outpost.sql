@@ -11,12 +11,7 @@ VALUES (4525,   1,        128) /* ItemType - Misc */
      , (4525,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4525,   1, True ) /* Stuck */
-     , (4525,  11, True ) /* IgnoreCollisions */
-     , (4525,  12, True ) /* ReportCollisions */
-     , (4525,  13, False) /* Ethereal */
-     , (4525,  14, True ) /* GravityStatus */
-     , (4525,  19, True ) /* Attackable */;
+VALUES (4525,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4525,   1, 'Shoushi Outpost') /* Name */

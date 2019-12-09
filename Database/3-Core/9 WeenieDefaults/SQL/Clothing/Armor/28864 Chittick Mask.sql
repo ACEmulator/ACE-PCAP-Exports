@@ -10,17 +10,12 @@ VALUES (28864,   1,          2) /* ItemType - Armor */
      , (28864,   9,          1) /* ValidLocations - HeadWear */
      , (28864,  16,          1) /* ItemUseable - No */
      , (28864,  19,        200) /* Value */
-     , (28864,  65,        101) /* Placement - Resting */
      , (28864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28864, 151,          2) /* HookType - Wall */;
+     , (28864, 151,          2) /* HookType - Wall */
+     , (28864, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28864,   1, False) /* Stuck */
-     , (28864,  11, True ) /* IgnoreCollisions */
-     , (28864,  13, True ) /* Ethereal */
-     , (28864,  14, True ) /* GravityStatus */
-     , (28864,  19, True ) /* Attackable */
-     , (28864,  22, True ) /* Inscribable */;
+VALUES (28864,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28864,   1, 'Chittick Mask') /* Name */;

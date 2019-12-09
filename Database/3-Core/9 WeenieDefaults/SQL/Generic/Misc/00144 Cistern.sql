@@ -8,16 +8,11 @@ VALUES (144,   1,        128) /* ItemType - Misc */
      , (144,   5,        300) /* EncumbranceVal */
      , (144,  16,          1) /* ItemUseable - No */
      , (144,  19,         65) /* Value */
-     , (144,  65,        101) /* Placement - Resting */
-     , (144,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (144,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (144, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (144,   1, True ) /* Stuck */
-     , (144,  11, True ) /* IgnoreCollisions */
-     , (144,  12, True ) /* ReportCollisions */
-     , (144,  13, False) /* Ethereal */
-     , (144,  14, True ) /* GravityStatus */
-     , (144,  19, True ) /* Attackable */;
+VALUES (144,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (144,   1, 'Cistern') /* Name */;

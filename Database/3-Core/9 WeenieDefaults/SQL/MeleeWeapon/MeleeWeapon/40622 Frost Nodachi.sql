@@ -38,23 +38,18 @@ VALUES (40622,   1,          1) /* ItemType - MeleeWeapon */
      , (40622, 179,        128) /* ImbuedEffect - ColdRending */
      , (40622, 292,          2) /* Cleaving */
      , (40622, 353,         11) /* WeaponType - TwoHanded */
-     , (40622, 8030,          0);
+     , (40622, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40622,   1, False) /* Stuck */
-     , (40622,  11, True ) /* IgnoreCollisions */
-     , (40622,  13, True ) /* Ethereal */
-     , (40622,  14, True ) /* GravityStatus */
-     , (40622,  19, True ) /* Attackable */
-     , (40622,  22, True ) /* Inscribable */;
+VALUES (40622,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40622,   5, -0.0666666701436043) /* ManaRate */
+VALUES (40622,   5,   -0.07) /* ManaRate */
      , (40622,  21,       0) /* WeaponLength */
-     , (40622,  22, 0.180224001407623) /* DamageVariance */
+     , (40622,  22,    0.18) /* DamageVariance */
      , (40622,  26,       0) /* MaximumVelocity */
-     , (40622,  29, 1.29000000655651) /* WeaponDefense */
-     , (40622,  62, 1.20000004768372) /* WeaponOffense */
+     , (40622,  29,    1.29) /* WeaponDefense */
+     , (40622,  62,     1.2) /* WeaponOffense */
      , (40622,  63,       1) /* DamageMod */
      , (40622, 8004,       7) /* PCAPRecordedWorkmanship */;
 

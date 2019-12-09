@@ -20,28 +20,22 @@ VALUES (22542,   1,        256) /* ItemType - MissileWeapon */
      , (22542,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22542,  49,         10) /* WeaponTime */
      , (22542,  51,          2) /* CombatUse - Missle */
-     , (22542,  65,         52) /* Placement - MissileFlight */
      , (22542,  93,     132936) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, Gravity, Inelastic */
      , (22542, 307,          5) /* DamageRating */
      , (22542, 313,          0) /* CritRating */
      , (22542, 314,          0) /* CritDamageRating */
      , (22542, 353,         10) /* WeaponType - Thrown */
      , (22542, 386,          0) /* Overpower */
-     , (22542, 8030,          0);
+     , (22542, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (22542, 8041,         52) /* PCAPRecordedPlacement - MissileFlight */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22542,   1, False) /* Stuck */
-     , (22542,  12, True ) /* ReportCollisions */
-     , (22542,  13, False) /* Ethereal */
-     , (22542,  14, True ) /* GravityStatus */
-     , (22542,  17, True ) /* Inelastic */
-     , (22542,  19, True ) /* Attackable */
-     , (22542,  24, True ) /* UiHidden */;
+VALUES (22542,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22542,  21,       0) /* WeaponLength */
      , (22542,  22,     0.5) /* DamageVariance */
-     , (22542,  26, 23.2000007629395) /* MaximumVelocity */
+     , (22542,  26,    23.2) /* MaximumVelocity */
      , (22542,  29,       1) /* WeaponDefense */
      , (22542,  62,       1) /* WeaponOffense */
      , (22542,  63,       1) /* DamageMod */
@@ -49,9 +43,9 @@ VALUES (22542,  21,       0) /* WeaponLength */
      , (22542,  79,       0) /* Elasticity */
      , (22542, 149,       0) /* WeaponMissileDefense */
      , (22542, 150,       0) /* WeaponMagicDefense */
-     , (22542, 8010, 14.5640468597412) /* PCAPRecordedVelocityX */
-     , (22542, 8011, 16.1137714385986) /* PCAPRecordedVelocityY */
-     , (22542, 8012, 4.34750127792358) /* PCAPRecordedVelocityZ */;
+     , (22542, 8010,   14.56) /* PCAPRecordedVelocityX */
+     , (22542, 8011,   16.11) /* PCAPRecordedVelocityY */
+     , (22542, 8012,    4.35) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22542,   1, 'Fire Spines') /* Name */;

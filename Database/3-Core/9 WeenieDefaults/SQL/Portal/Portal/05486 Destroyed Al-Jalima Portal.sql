@@ -11,20 +11,14 @@ VALUES (5486,   1,      65536) /* ItemType - Portal */
      , (5486, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5486,   1, True ) /* Stuck */
-     , (5486,  11, True ) /* IgnoreCollisions */
-     , (5486,  13, True ) /* Ethereal */
-     , (5486,  14, True ) /* GravityStatus */
-     , (5486,  15, True ) /* LightsStatus */
-     , (5486,  19, True ) /* Attackable */;
+VALUES (5486,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5486,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5486,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5486,   1, 'Destroyed Al-Jalima Portal') /* Name */
      , (5486,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (5486,  38, 'Destroyed Al-Jalima Portal (7.2N, 5.0E).') /* AppraisalPortalDestination */
      , (5486, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

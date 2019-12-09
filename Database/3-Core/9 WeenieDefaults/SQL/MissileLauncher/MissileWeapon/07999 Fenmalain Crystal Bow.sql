@@ -12,19 +12,14 @@ VALUES (7999,   1,        256) /* ItemType - MissileWeapon */
      , (7999,  19,       1000) /* Value */
      , (7999,  50,          8) /* AmmoType - ArrowCrystal */
      , (7999,  51,          2) /* CombatUse - Missle */
-     , (7999,  65,        101) /* Placement - Resting */
-     , (7999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7999, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7999,   1, False) /* Stuck */
-     , (7999,  11, True ) /* IgnoreCollisions */
-     , (7999,  13, True ) /* Ethereal */
-     , (7999,  14, True ) /* GravityStatus */
-     , (7999,  19, True ) /* Attackable */
-     , (7999,  22, True ) /* Inscribable */;
+VALUES (7999,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7999,  39, 1.10000002384186) /* DefaultScale */
+VALUES (7999,  39,     1.1) /* DefaultScale */
      , (7999,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

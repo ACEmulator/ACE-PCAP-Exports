@@ -10,16 +10,11 @@ VALUES (43670,   1,          2) /* ItemType - Armor */
      , (43670,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (43670,  16,          1) /* ItemUseable - No */
      , (43670,  19,        250) /* Value */
-     , (43670,  65,        101) /* Placement - Resting */
-     , (43670,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43670,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43670, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43670,   1, False) /* Stuck */
-     , (43670,  11, True ) /* IgnoreCollisions */
-     , (43670,  13, True ) /* Ethereal */
-     , (43670,  14, True ) /* GravityStatus */
-     , (43670,  19, True ) /* Attackable */
-     , (43670,  22, True ) /* Inscribable */;
+VALUES (43670,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43670,   1, 'Spitter Pedipalp Metamorphi') /* Name */;

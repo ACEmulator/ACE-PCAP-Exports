@@ -12,17 +12,12 @@ VALUES (6172,   1,          1) /* ItemType - MeleeWeapon */
      , (6172,  18,          1) /* UiEffects - Magical */
      , (6172,  19,       5000) /* Value */
      , (6172,  51,          1) /* CombatUse - Melee */
-     , (6172,  65,          1) /* Placement - RightHandCombat */
      , (6172,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6172, 151,          2) /* HookType - Wall */;
+     , (6172, 151,          2) /* HookType - Wall */
+     , (6172, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6172,   1, False) /* Stuck */
-     , (6172,  11, True ) /* IgnoreCollisions */
-     , (6172,  13, True ) /* Ethereal */
-     , (6172,  14, True ) /* GravityStatus */
-     , (6172,  19, True ) /* Attackable */
-     , (6172,  22, True ) /* Inscribable */;
+VALUES (6172,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6172,   1, 'Peerless Shivering Atlan Claw') /* Name */;

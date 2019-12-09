@@ -15,14 +15,10 @@ VALUES (39171,   1,         16) /* ItemType - Creature */
      , (39171, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39171,   1, True ) /* Stuck */
-     , (39171,  12, True ) /* ReportCollisions */
-     , (39171,  13, False) /* Ethereal */
-     , (39171,  14, True ) /* GravityStatus */
-     , (39171,  19, True ) /* Attackable */;
+VALUES (39171,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39171,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (39171,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39171,   1, 'Falatacot Raider') /* Name */

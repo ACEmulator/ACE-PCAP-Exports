@@ -11,17 +11,12 @@ VALUES (46236,   1,          1) /* ItemType - MeleeWeapon */
      , (46236,  18,          1) /* UiEffects - Magical */
      , (46236,  19,       8000) /* Value */
      , (46236,  51,          1) /* CombatUse - Melee */
-     , (46236,  65,        101) /* Placement - Resting */
      , (46236,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46236, 151,          2) /* HookType - Wall */;
+     , (46236, 151,          2) /* HookType - Wall */
+     , (46236, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46236,   1, False) /* Stuck */
-     , (46236,  11, True ) /* IgnoreCollisions */
-     , (46236,  13, True ) /* Ethereal */
-     , (46236,  14, True ) /* GravityStatus */
-     , (46236,  19, True ) /* Attackable */
-     , (46236,  22, True ) /* Inscribable */;
+VALUES (46236,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46236,   1, 'Enhanced Flaming Isparian Spear') /* Name */;

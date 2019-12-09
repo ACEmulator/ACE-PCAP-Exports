@@ -11,7 +11,6 @@ VALUES (27580,   1,          8) /* ItemType - Jewelry */
      , (27580,  18,          1) /* UiEffects - Magical */
      , (27580,  19,          0) /* Value */
      , (27580,  33,          1) /* Bonded - Bonded */
-     , (27580,  65,        101) /* Placement - Resting */
      , (27580,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27580, 106,        250) /* ItemSpellcraft */
      , (27580, 107,        600) /* ItemCurMana */
@@ -21,20 +20,16 @@ VALUES (27580,   1,          8) /* ItemType - Jewelry */
      , (27580, 151,          2) /* HookType - Wall */
      , (27580, 158,          7) /* WieldRequirements - Level */
      , (27580, 159,          1) /* WieldSkillType - Axe */
-     , (27580, 160,         50) /* WieldDifficulty */;
+     , (27580, 160,         50) /* WieldDifficulty */
+     , (27580, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27580,   1, False) /* Stuck */
-     , (27580,  11, True ) /* IgnoreCollisions */
-     , (27580,  13, True ) /* Ethereal */
-     , (27580,  14, True ) /* GravityStatus */
-     , (27580,  19, True ) /* Attackable */
-     , (27580,  22, True ) /* Inscribable */
+VALUES (27580,  22, True ) /* Inscribable */
      , (27580,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27580,   5, -0.0333333) /* ManaRate */
-     , (27580,  39, 0.469999998807907) /* DefaultScale */;
+VALUES (27580,   5,   -0.03) /* ManaRate */
+     , (27580,  39,    0.47) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27580,   1, 'Sublime Necklace of Acid and Piercing Protection') /* Name */

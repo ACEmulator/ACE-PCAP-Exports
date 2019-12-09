@@ -11,12 +11,7 @@ VALUES (12669,   1,        128) /* ItemType - Misc */
      , (12669,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12669,   1, True ) /* Stuck */
-     , (12669,  11, True ) /* IgnoreCollisions */
-     , (12669,  12, True ) /* ReportCollisions */
-     , (12669,  13, False) /* Ethereal */
-     , (12669,  14, True ) /* GravityStatus */
-     , (12669,  19, True ) /* Attackable */;
+VALUES (12669,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12669,   1, 'West Uziz Settlement') /* Name */

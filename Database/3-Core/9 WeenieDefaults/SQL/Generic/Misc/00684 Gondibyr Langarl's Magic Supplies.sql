@@ -8,21 +8,16 @@ VALUES (684,   1,        128) /* ItemType - Misc */
      , (684,   5,       9000) /* EncumbranceVal */
      , (684,  16,          1) /* ItemUseable - No */
      , (684,  19,        125) /* Value */
-     , (684,  65,        101) /* Placement - Resting */
-     , (684,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (684,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (684, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (684,   1, True ) /* Stuck */
-     , (684,  11, True ) /* IgnoreCollisions */
-     , (684,  12, True ) /* ReportCollisions */
-     , (684,  13, False) /* Ethereal */
-     , (684,  14, True ) /* GravityStatus */
-     , (684,  19, True ) /* Attackable */;
+VALUES (684,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (684, 8010,       0) /* PCAPRecordedVelocityX */
      , (684, 8011,       0) /* PCAPRecordedVelocityY */
-     , (684, 8012, -1.73116171360016) /* PCAPRecordedVelocityZ */;
+     , (684, 8012,   -1.73) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (684,   1, 'Gondibyr Langarl''s Magic Supplies') /* Name */

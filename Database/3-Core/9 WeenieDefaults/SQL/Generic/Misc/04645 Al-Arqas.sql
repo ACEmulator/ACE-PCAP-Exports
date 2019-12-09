@@ -8,16 +8,11 @@ VALUES (4645,   1,        128) /* ItemType - Misc */
      , (4645,   5,       9000) /* EncumbranceVal */
      , (4645,  16,          1) /* ItemUseable - No */
      , (4645,  19,        125) /* Value */
-     , (4645,  65,        101) /* Placement - Resting */
-     , (4645,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (4645,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (4645, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4645,   1, True ) /* Stuck */
-     , (4645,  11, True ) /* IgnoreCollisions */
-     , (4645,  12, True ) /* ReportCollisions */
-     , (4645,  13, False) /* Ethereal */
-     , (4645,  14, True ) /* GravityStatus */
-     , (4645,  19, True ) /* Attackable */;
+VALUES (4645,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4645,   1, 'Al-Arqas') /* Name */

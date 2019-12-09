@@ -22,22 +22,17 @@ VALUES (48233,   1,        256) /* ItemType - MissileWeapon */
      , (48233, 151,          2) /* HookType - Wall */
      , (48233, 204,          0) /* ElementalDamageBonus */
      , (48233, 353,          8) /* WeaponType - Bow */
-     , (48233, 8030,          0);
+     , (48233, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48233,   1, False) /* Stuck */
-     , (48233,  11, True ) /* IgnoreCollisions */
-     , (48233,  13, True ) /* Ethereal */
-     , (48233,  14, True ) /* GravityStatus */
-     , (48233,  19, True ) /* Attackable */
-     , (48233,  22, True ) /* Inscribable */;
+VALUES (48233,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48233,  21,       0) /* WeaponLength */
      , (48233,  22,       0) /* DamageVariance */
      , (48233,  26,    27.3) /* MaximumVelocity */
      , (48233,  29,       1) /* WeaponDefense */
-     , (48233,  39, 1.10000002384186) /* DefaultScale */
+     , (48233,  39,     1.1) /* DefaultScale */
      , (48233,  62,       1) /* WeaponOffense */
      , (48233,  63,       1) /* DamageMod */;
 

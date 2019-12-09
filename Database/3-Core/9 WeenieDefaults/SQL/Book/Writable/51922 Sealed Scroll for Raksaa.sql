@@ -9,17 +9,12 @@ VALUES (51922,   1,       8192) /* ItemType - Writable */
      , (51922,  16,          1) /* ItemUseable - No */
      , (51922,  19,          0) /* Value */
      , (51922,  33,          1) /* Bonded - Bonded */
-     , (51922,  65,        101) /* Placement - Resting */
      , (51922,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51922, 114,          1) /* Attuned - Attuned */;
+     , (51922, 114,          1) /* Attuned - Attuned */
+     , (51922, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51922,   1, False) /* Stuck */
-     , (51922,  11, True ) /* IgnoreCollisions */
-     , (51922,  13, True ) /* Ethereal */
-     , (51922,  14, True ) /* GravityStatus */
-     , (51922,  19, True ) /* Attackable */
-     , (51922,  22, True ) /* Inscribable */;
+VALUES (51922,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51922,   1, 'Sealed Scroll for Raksaa') /* Name */

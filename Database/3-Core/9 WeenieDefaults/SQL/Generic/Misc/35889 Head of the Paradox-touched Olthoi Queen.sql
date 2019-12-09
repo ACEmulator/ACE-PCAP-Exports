@@ -8,17 +8,12 @@ VALUES (35889,   1,        128) /* ItemType - Misc */
      , (35889,   5,       2100) /* EncumbranceVal */
      , (35889,  16,          1) /* ItemUseable - No */
      , (35889,  19,          0) /* Value */
-     , (35889,  65,        101) /* Placement - Resting */
      , (35889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35889, 151,          2) /* HookType - Wall */;
+     , (35889, 151,          2) /* HookType - Wall */
+     , (35889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35889,   1, False) /* Stuck */
-     , (35889,  11, True ) /* IgnoreCollisions */
-     , (35889,  13, True ) /* Ethereal */
-     , (35889,  14, True ) /* GravityStatus */
-     , (35889,  19, True ) /* Attackable */
-     , (35889,  22, True ) /* Inscribable */;
+VALUES (35889,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35889,   1, 'Head of the Paradox-touched Olthoi Queen') /* Name */

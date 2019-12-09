@@ -8,21 +8,16 @@ VALUES (46283,   1,       8192) /* ItemType - Writable */
      , (46283,   5,        160) /* EncumbranceVal */
      , (46283,  16,          8) /* ItemUseable - Contained */
      , (46283,  19,        100) /* Value */
-     , (46283,  65,        101) /* Placement - Resting */
      , (46283,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46283, 174,          4) /* AppraisalPages */
-     , (46283, 175,          4) /* AppraisalMaxPages */;
+     , (46283, 8041,        101) /* PCAPRecordedPlacement - Resting */
+     , (46283, 8042,          4) /* PCAPRecordedAppraisalPages */
+     , (46283, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46283,   1, False) /* Stuck */
-     , (46283,  11, True ) /* IgnoreCollisions */
-     , (46283,  13, True ) /* Ethereal */
-     , (46283,  14, True ) /* GravityStatus */
-     , (46283,  19, True ) /* Attackable */
-     , (46283,  22, True ) /* Inscribable */;
+VALUES (46283,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46283,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (46283,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46283,   1, 'Pragmatic Guide to Atlan Weapons') /* Name */

@@ -12,19 +12,13 @@ VALUES (19161,   1,      65536) /* ItemType - Portal */
      , (19161, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19161,   1, True ) /* Stuck */
-     , (19161,  12, True ) /* ReportCollisions */
-     , (19161,  13, True ) /* Ethereal */
-     , (19161,  14, True ) /* GravityStatus */
-     , (19161,  15, True ) /* LightsStatus */
-     , (19161,  19, True ) /* Attackable */;
+VALUES (19161,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19161,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19161,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19161,   1, 'Stone Scythe Stronghold Portal') /* Name */
-     , (19161,  38, 'Stone Scythe Stronghold Portal (35.7N, 32.7W).') /* AppraisalPortalDestination */
      , (19161, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

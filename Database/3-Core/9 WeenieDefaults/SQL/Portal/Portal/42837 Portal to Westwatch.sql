@@ -12,20 +12,14 @@ VALUES (42837,   1,      65536) /* ItemType - Portal */
      , (42837, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42837,   1, True ) /* Stuck */
-     , (42837,  12, True ) /* ReportCollisions */
-     , (42837,  13, True ) /* Ethereal */
-     , (42837,  14, True ) /* GravityStatus */
-     , (42837,  15, True ) /* LightsStatus */
-     , (42837,  19, True ) /* Attackable */;
+VALUES (42837,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42837,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42837,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42837,   1, 'Portal to Westwatch') /* Name */
      , (42837,  16, 'This portal is tied to the Viamontian outpost of Westwatch. This outpost is a good place for characters above level 20.') /* LongDesc */
-     , (42837,  38, 'Portal to Westwatch (72.8N, 73.4W).') /* AppraisalPortalDestination */
      , (42837, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

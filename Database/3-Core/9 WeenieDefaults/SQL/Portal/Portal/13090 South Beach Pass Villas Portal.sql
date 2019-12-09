@@ -12,19 +12,13 @@ VALUES (13090,   1,      65536) /* ItemType - Portal */
      , (13090, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13090,   1, True ) /* Stuck */
-     , (13090,  12, True ) /* ReportCollisions */
-     , (13090,  13, True ) /* Ethereal */
-     , (13090,  14, True ) /* GravityStatus */
-     , (13090,  15, True ) /* LightsStatus */
-     , (13090,  19, True ) /* Attackable */;
+VALUES (13090,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13090,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13090,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13090,   1, 'South Beach Pass Villas Portal') /* Name */
-     , (13090,  38, 'South Beach Pass Villas Portal (35.6N, 65.5E).') /* AppraisalPortalDestination */
      , (13090, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

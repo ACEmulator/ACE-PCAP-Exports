@@ -9,17 +9,12 @@ VALUES (22360,   1,       2048) /* ItemType - Gem */
      , (22360,  16,          8) /* ItemUseable - Contained */
      , (22360,  19,          0) /* Value */
      , (22360,  33,          1) /* Bonded - Bonded */
-     , (22360,  65,        101) /* Placement - Resting */
      , (22360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22360, 114,          1) /* Attuned - Attuned */;
+     , (22360, 114,          1) /* Attuned - Attuned */
+     , (22360, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22360,   1, False) /* Stuck */
-     , (22360,  11, True ) /* IgnoreCollisions */
-     , (22360,  13, True ) /* Ethereal */
-     , (22360,  14, True ) /* GravityStatus */
-     , (22360,  19, True ) /* Attackable */
-     , (22360,  22, True ) /* Inscribable */;
+VALUES (22360,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22360,   1, 'Deception Gem of Enlightenment') /* Name */

@@ -12,16 +12,9 @@ VALUES (32268,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32268,  15,        100) /* StackUnitValue */
      , (32268,  16,          1) /* ItemUseable - No */
      , (32268,  19,        100) /* Value */
-     , (32268,  65,        101) /* Placement - Resting */
      , (32268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32268, 151,          1) /* HookType - Floor */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32268,   1, False) /* Stuck */
-     , (32268,  11, True ) /* IgnoreCollisions */
-     , (32268,  13, True ) /* Ethereal */
-     , (32268,  14, True ) /* GravityStatus */
-     , (32268,  19, True ) /* Attackable */;
+     , (32268, 151,          1) /* HookType - Floor */
+     , (32268, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32268,   1, 'Keg of Duke Raoul''s Distillation') /* Name */

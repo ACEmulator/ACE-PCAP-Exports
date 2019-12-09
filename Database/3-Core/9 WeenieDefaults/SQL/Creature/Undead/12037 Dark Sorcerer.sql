@@ -15,14 +15,10 @@ VALUES (12037,   1,         16) /* ItemType - Creature */
      , (12037, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12037,   1, True ) /* Stuck */
-     , (12037,  12, True ) /* ReportCollisions */
-     , (12037,  13, False) /* Ethereal */
-     , (12037,  14, True ) /* GravityStatus */
-     , (12037,  19, True ) /* Attackable */;
+VALUES (12037,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12037,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (12037,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12037,   1, 'Dark Sorcerer') /* Name */

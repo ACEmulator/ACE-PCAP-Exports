@@ -10,7 +10,6 @@ VALUES (32359,   1,      32768) /* ItemType - Caster */
      , (32359,  16,     655364) /* ItemUseable - 655364 */
      , (32359,  18,          1) /* UiEffects - Magical */
      , (32359,  19,       1000) /* Value */
-     , (32359,  65,        101) /* Placement - Resting */
      , (32359,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (32359,  94,         16) /* TargetType - Creature */
      , (32359, 106,        200) /* ItemSpellcraft */
@@ -21,21 +20,16 @@ VALUES (32359,   1,      32768) /* ItemType - Caster */
      , (32359, 151,          2) /* HookType - Wall */
      , (32359, 158,          7) /* WieldRequirements - Level */
      , (32359, 159,          1) /* WieldSkillType - Axe */
-     , (32359, 160,         40) /* WieldDifficulty */;
+     , (32359, 160,         40) /* WieldDifficulty */
+     , (32359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32359,   1, False) /* Stuck */
-     , (32359,  11, True ) /* IgnoreCollisions */
-     , (32359,  13, True ) /* Ethereal */
-     , (32359,  14, True ) /* GravityStatus */
-     , (32359,  15, True ) /* LightsStatus */
-     , (32359,  19, True ) /* Attackable */
-     , (32359,  22, True ) /* Inscribable */;
+VALUES (32359,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32359,  29,       1) /* WeaponDefense */
-     , (32359,  39, 0.600000023841858) /* DefaultScale */
-     , (32359, 144, 1.81885196525479E-314) /* ManaConversionMod */;
+     , (32359,  39,     0.6) /* DefaultScale */
+     , (32359, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32359,   1, 'Glenden Wood Recall Orb') /* Name */

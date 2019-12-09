@@ -16,17 +16,13 @@ VALUES (24482,   1,         16) /* ItemType - Creature */
      , (24482, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24482,   1, True ) /* Stuck */
-     , (24482,  12, True ) /* ReportCollisions */
-     , (24482,  13, False) /* Ethereal */
-     , (24482,  14, True ) /* GravityStatus */
-     , (24482,  19, True ) /* Attackable */;
+VALUES (24482,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24482,  39,    0.25) /* DefaultScale */
      , (24482, 8010,       0) /* PCAPRecordedVelocityX */
      , (24482, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24482, 8012, -0.483158856630325) /* PCAPRecordedVelocityZ */;
+     , (24482, 8012,   -0.48) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24482,   1, 'Small Mud Golem') /* Name */

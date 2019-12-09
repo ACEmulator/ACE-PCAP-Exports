@@ -9,17 +9,12 @@ VALUES (22361,   1,       2048) /* ItemType - Gem */
      , (22361,  16,          8) /* ItemUseable - Contained */
      , (22361,  19,          0) /* Value */
      , (22361,  33,          1) /* Bonded - Bonded */
-     , (22361,  65,        101) /* Placement - Resting */
      , (22361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22361, 114,          1) /* Attuned - Attuned */;
+     , (22361, 114,          1) /* Attuned - Attuned */
+     , (22361, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22361,   1, False) /* Stuck */
-     , (22361,  11, True ) /* IgnoreCollisions */
-     , (22361,  13, True ) /* Ethereal */
-     , (22361,  14, True ) /* GravityStatus */
-     , (22361,  19, True ) /* Attackable */
-     , (22361,  22, True ) /* Inscribable */;
+VALUES (22361,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22361,   1, 'Fletching Gem of Enlightenment') /* Name */

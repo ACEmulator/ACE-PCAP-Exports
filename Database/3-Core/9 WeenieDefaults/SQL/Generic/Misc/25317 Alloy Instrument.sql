@@ -13,12 +13,7 @@ VALUES (25317,   1,        128) /* ItemType - Misc */
      , (25317, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25317,   1, False) /* Stuck */
-     , (25317,  11, True ) /* IgnoreCollisions */
-     , (25317,  13, True ) /* Ethereal */
-     , (25317,  14, True ) /* GravityStatus */
-     , (25317,  19, True ) /* Attackable */
-     , (25317,  22, True ) /* Inscribable */;
+VALUES (25317,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25317,   1, 'Alloy Instrument') /* Name */

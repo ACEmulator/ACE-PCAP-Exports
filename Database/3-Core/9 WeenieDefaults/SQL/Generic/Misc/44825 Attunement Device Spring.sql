@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44825,   1,        128) /* ItemType - Misc */
      , (44825,   5,         10) /* EncumbranceVal */
      , (44825,  16,          1) /* ItemUseable - No */
-     , (44825,  65,        101) /* Placement - Resting */
-     , (44825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44825, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44825,   1, False) /* Stuck */
-     , (44825,  11, True ) /* IgnoreCollisions */
-     , (44825,  13, True ) /* Ethereal */
-     , (44825,  14, True ) /* GravityStatus */
-     , (44825,  19, True ) /* Attackable */
-     , (44825,  22, True ) /* Inscribable */;
+VALUES (44825,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44825,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (44825,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44825,   1, 'Attunement Device Spring') /* Name */;

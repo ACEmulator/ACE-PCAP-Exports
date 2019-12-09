@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29090,   1,        128) /* ItemType - Misc */
      , (29090,   5,         25) /* EncumbranceVal */
      , (29090,  16,          1) /* ItemUseable - No */
-     , (29090,  65,        101) /* Placement - Resting */
-     , (29090,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29090,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29090, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29090,   1, False) /* Stuck */
-     , (29090,  11, True ) /* IgnoreCollisions */
-     , (29090,  13, True ) /* Ethereal */
-     , (29090,  14, True ) /* GravityStatus */
-     , (29090,  19, True ) /* Attackable */
-     , (29090,  22, True ) /* Inscribable */;
+VALUES (29090,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29090,   1, 'Stolen Necklace') /* Name */;

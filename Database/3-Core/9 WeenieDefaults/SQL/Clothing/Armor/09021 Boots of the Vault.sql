@@ -12,31 +12,26 @@ VALUES (9021,   1,          2) /* ItemType - Armor */
      , (9021,  18,          1) /* UiEffects - Magical */
      , (9021,  19,       5520) /* Value */
      , (9021,  28,         50) /* ArmorLevel */
-     , (9021,  65,        101) /* Placement - Resting */
      , (9021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9021, 106,        275) /* ItemSpellcraft */
      , (9021, 107,        190) /* ItemCurMana */
      , (9021, 108,        760) /* ItemMaxMana */
-     , (9021, 109,         10) /* ItemDifficulty */;
+     , (9021, 109,         10) /* ItemDifficulty */
+     , (9021, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9021,   1, False) /* Stuck */
-     , (9021,  11, True ) /* IgnoreCollisions */
-     , (9021,  13, True ) /* Ethereal */
-     , (9021,  14, True ) /* GravityStatus */
-     , (9021,  19, True ) /* Attackable */
-     , (9021,  22, True ) /* Inscribable */
+VALUES (9021,  22, True ) /* Inscribable */
      , (9021,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9021,   5,   -0.04) /* ManaRate */
-     , (9021,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (9021,  14, 1.10000002384186) /* ArmorModVsPierce */
+     , (9021,  13,     1.2) /* ArmorModVsSlash */
+     , (9021,  14,     1.1) /* ArmorModVsPierce */
      , (9021,  15,       1) /* ArmorModVsBludgeon */
-     , (9021,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (9021,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (9021,  18, 0.200000002980232) /* ArmorModVsAcid */
-     , (9021,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (9021,  16,     0.4) /* ArmorModVsCold */
+     , (9021,  17,     0.4) /* ArmorModVsFire */
+     , (9021,  18,     0.2) /* ArmorModVsAcid */
+     , (9021,  19,     0.4) /* ArmorModVsElectric */
      , (9021, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

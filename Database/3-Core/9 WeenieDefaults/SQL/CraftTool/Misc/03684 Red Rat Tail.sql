@@ -12,20 +12,15 @@ VALUES (3684,   1,        128) /* ItemType - Misc */
      , (3684,  15,          2) /* StackUnitValue */
      , (3684,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (3684,  19,          2) /* Value */
-     , (3684,  65,        101) /* Placement - Resting */
      , (3684,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3684,  94,    4194304) /* TargetType - CraftCookingBase */;
+     , (3684,  94,    4194304) /* TargetType - CraftCookingBase */
+     , (3684, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3684,   1, False) /* Stuck */
-     , (3684,  11, True ) /* IgnoreCollisions */
-     , (3684,  13, True ) /* Ethereal */
-     , (3684,  14, True ) /* GravityStatus */
-     , (3684,  19, True ) /* Attackable */
-     , (3684,  22, True ) /* Inscribable */;
+VALUES (3684,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3684,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (3684,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3684,   1, 'Red Rat Tail') /* Name */

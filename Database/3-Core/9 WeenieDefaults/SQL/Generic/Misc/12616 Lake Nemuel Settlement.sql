@@ -11,12 +11,7 @@ VALUES (12616,   1,        128) /* ItemType - Misc */
      , (12616,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12616,   1, True ) /* Stuck */
-     , (12616,  11, True ) /* IgnoreCollisions */
-     , (12616,  12, True ) /* ReportCollisions */
-     , (12616,  13, False) /* Ethereal */
-     , (12616,  14, True ) /* GravityStatus */
-     , (12616,  19, True ) /* Attackable */;
+VALUES (12616,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12616,   1, 'Lake Nemuel Settlement') /* Name */;

@@ -22,12 +22,7 @@ VALUES (11139,   1,         32) /* ItemType - Food */
      , (11139, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11139,   1, False) /* Stuck */
-     , (11139,  11, True ) /* IgnoreCollisions */
-     , (11139,  13, True ) /* Ethereal */
-     , (11139,  14, True ) /* GravityStatus */
-     , (11139,  19, True ) /* Attackable */
-     , (11139,  69, False) /* IsSellable */;
+VALUES (11139,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11139,   1, 'Pickled Olthoi Egg') /* Name */

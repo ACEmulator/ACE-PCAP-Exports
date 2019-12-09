@@ -12,15 +12,8 @@ VALUES (4730,   1,         32) /* ItemType - Food */
      , (4730,  15,          7) /* StackUnitValue */
      , (4730,  16,          8) /* ItemUseable - Contained */
      , (4730,  19,          7) /* Value */
-     , (4730,  65,        101) /* Placement - Resting */
-     , (4730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4730,   1, False) /* Stuck */
-     , (4730,  11, True ) /* IgnoreCollisions */
-     , (4730,  13, True ) /* Ethereal */
-     , (4730,  14, True ) /* GravityStatus */
-     , (4730,  19, True ) /* Attackable */;
+     , (4730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4730, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4730,   1, 'Fried Fish Filet') /* Name */

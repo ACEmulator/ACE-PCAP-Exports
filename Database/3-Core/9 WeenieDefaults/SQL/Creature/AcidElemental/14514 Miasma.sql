@@ -16,15 +16,10 @@ VALUES (14514,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14514,   1, True ) /* Stuck */
-     , (14514,  12, True ) /* ReportCollisions */
-     , (14514,  13, False) /* Ethereal */
-     , (14514,  14, True ) /* GravityStatus */
-     , (14514,  15, True ) /* LightsStatus */
-     , (14514,  19, True ) /* Attackable */
      , (14514, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14514,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (14514,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14514,   1, 'Miasma') /* Name */

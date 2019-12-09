@@ -9,20 +9,15 @@ VALUES (29282,   1,        128) /* ItemType - Misc */
      , (29282,  16,          8) /* ItemUseable - Contained */
      , (29282,  19,          0) /* Value */
      , (29282,  33,          1) /* Bonded - Bonded */
-     , (29282,  65,        101) /* Placement - Resting */
      , (29282,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29282, 114,          1) /* Attuned - Attuned */;
+     , (29282, 114,          1) /* Attuned - Attuned */
+     , (29282, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29282,   3, 4000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29282,   1, False) /* Stuck */
-     , (29282,  11, True ) /* IgnoreCollisions */
-     , (29282,  13, True ) /* Ethereal */
-     , (29282,  14, True ) /* GravityStatus */
-     , (29282,  19, True ) /* Attackable */
-     , (29282,  22, True ) /* Inscribable */;
+VALUES (29282,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29282,   1, 'Shadow of the Seventh Mule') /* Name */

@@ -12,19 +12,13 @@ VALUES (15183,   1,      65536) /* ItemType - Portal */
      , (15183, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15183,   1, True ) /* Stuck */
-     , (15183,  12, True ) /* ReportCollisions */
-     , (15183,  13, True ) /* Ethereal */
-     , (15183,  14, True ) /* GravityStatus */
-     , (15183,  15, True ) /* LightsStatus */
-     , (15183,  19, True ) /* Attackable */;
+VALUES (15183,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15183,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15183,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15183,   1, 'P''rnelle Acres Portal') /* Name */
-     , (15183,  38, 'P''rnelle Acres Portal (69.6N, 60.9E).') /* AppraisalPortalDestination */
      , (15183, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

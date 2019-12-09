@@ -15,16 +15,12 @@ VALUES (14521,   1,         16) /* ItemType - Creature */
      , (14521, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14521,   1, True ) /* Stuck */
-     , (14521,  12, True ) /* ReportCollisions */
-     , (14521,  13, False) /* Ethereal */
-     , (14521,  14, True ) /* GravityStatus */
-     , (14521,  19, True ) /* Attackable */;
+VALUES (14521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14521, 8010, 4.34924364089966) /* PCAPRecordedVelocityX */
+VALUES (14521, 8010,    4.35) /* PCAPRecordedVelocityX */
      , (14521, 8011,       0) /* PCAPRecordedVelocityY */
-     , (14521, 8012, -3.5710244178772) /* PCAPRecordedVelocityZ */;
+     , (14521, 8012,   -3.57) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14521,   1, 'Glacial Golem') /* Name */

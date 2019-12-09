@@ -13,15 +13,10 @@ VALUES (23928,   1,       2048) /* ItemType - Gem */
      , (23928, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23928,   1, False) /* Stuck */
-     , (23928,  11, True ) /* IgnoreCollisions */
-     , (23928,  13, True ) /* Ethereal */
-     , (23928,  14, True ) /* GravityStatus */
-     , (23928,  19, True ) /* Attackable */
-     , (23928,  22, True ) /* Inscribable */;
+VALUES (23928,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23928,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (23928,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23928,   1, 'Golden Gromnie') /* Name */

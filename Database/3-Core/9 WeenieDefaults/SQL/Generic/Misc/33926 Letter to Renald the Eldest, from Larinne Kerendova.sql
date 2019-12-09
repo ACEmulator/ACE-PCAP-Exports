@@ -9,21 +9,16 @@ VALUES (33926,   1,        128) /* ItemType - Misc */
      , (33926,  16,          1) /* ItemUseable - No */
      , (33926,  19,          0) /* Value */
      , (33926,  33,          1) /* Bonded - Bonded */
-     , (33926,  65,        101) /* Placement - Resting */
      , (33926,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33926, 114,          1) /* Attuned - Attuned */;
+     , (33926, 114,          1) /* Attuned - Attuned */
+     , (33926, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33926,   1, False) /* Stuck */
-     , (33926,  11, True ) /* IgnoreCollisions */
-     , (33926,  13, True ) /* Ethereal */
-     , (33926,  14, True ) /* GravityStatus */
-     , (33926,  19, True ) /* Attackable */
-     , (33926,  22, True ) /* Inscribable */
+VALUES (33926,  22, True ) /* Inscribable */
      , (33926,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33926,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (33926,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33926,   1, 'Letter to Renald the Eldest, from Larinne Kerendova') /* Name */

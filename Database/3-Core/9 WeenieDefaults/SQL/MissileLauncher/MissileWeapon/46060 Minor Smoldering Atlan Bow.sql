@@ -13,20 +13,15 @@ VALUES (46060,   1,        256) /* ItemType - MissileWeapon */
      , (46060,  19,        100) /* Value */
      , (46060,  50,          1) /* AmmoType - Arrow */
      , (46060,  51,          2) /* CombatUse - Missle */
-     , (46060,  65,          3) /* Placement - LeftHand */
      , (46060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46060, 151,          2) /* HookType - Wall */;
+     , (46060, 151,          2) /* HookType - Wall */
+     , (46060, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46060,   1, False) /* Stuck */
-     , (46060,  11, True ) /* IgnoreCollisions */
-     , (46060,  13, True ) /* Ethereal */
-     , (46060,  14, True ) /* GravityStatus */
-     , (46060,  19, True ) /* Attackable */
-     , (46060,  22, True ) /* Inscribable */;
+VALUES (46060,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46060,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (46060,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46060,   1, 'Minor Smoldering Atlan Bow') /* Name */;

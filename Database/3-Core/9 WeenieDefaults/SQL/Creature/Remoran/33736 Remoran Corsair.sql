@@ -15,14 +15,10 @@ VALUES (33736,   1,         16) /* ItemType - Creature */
      , (33736, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33736,   1, True ) /* Stuck */
-     , (33736,  12, True ) /* ReportCollisions */
-     , (33736,  13, False) /* Ethereal */
-     , (33736,  14, True ) /* GravityStatus */
-     , (33736,  19, True ) /* Attackable */;
+VALUES (33736,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33736,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (33736,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33736,   1, 'Remoran Corsair') /* Name */

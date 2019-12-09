@@ -11,17 +11,12 @@ VALUES (25678,   1,        128) /* ItemType - Misc */
      , (25678,  13,        500) /* StackUnitEncumbrance */
      , (25678,  15,          0) /* StackUnitValue */
      , (25678,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (25678,  65,        101) /* Placement - Resting */
      , (25678,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25678,  94,         32) /* TargetType - Food */;
+     , (25678,  94,         32) /* TargetType - Food */
+     , (25678, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25678,   1, False) /* Stuck */
-     , (25678,  11, True ) /* IgnoreCollisions */
-     , (25678,  13, True ) /* Ethereal */
-     , (25678,  14, True ) /* GravityStatus */
-     , (25678,  19, True ) /* Attackable */
-     , (25678,  22, True ) /* Inscribable */;
+VALUES (25678,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25678,   1, 'Repugnant Bracelet') /* Name */;

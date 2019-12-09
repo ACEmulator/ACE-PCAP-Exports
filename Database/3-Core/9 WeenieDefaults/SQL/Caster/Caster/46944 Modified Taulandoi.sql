@@ -13,7 +13,6 @@ VALUES (46944,   1,      32768) /* ItemType - Caster */
      , (46944,  19,       4000) /* Value */
      , (46944,  33,          1) /* Bonded - Bonded */
      , (46944,  45,         64) /* DamageType - Electric */
-     , (46944,  65,          1) /* Placement - RightHandCombat */
      , (46944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46944,  94,         16) /* TargetType - Creature */
      , (46944, 106,        400) /* ItemSpellcraft */
@@ -26,24 +25,20 @@ VALUES (46944,   1,      32768) /* ItemType - Caster */
      , (46944, 158,          8) /* WieldRequirements - Training */
      , (46944, 159,         34) /* WieldSkillType - WarMagic */
      , (46944, 160,          2) /* WieldDifficulty */
-     , (46944, 263,         64) /* ResistanceModifierType */;
+     , (46944, 263,         64) /* ResistanceModifierType */
+     , (46944, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46944,   1, False) /* Stuck */
-     , (46944,  11, True ) /* IgnoreCollisions */
-     , (46944,  13, True ) /* Ethereal */
-     , (46944,  14, True ) /* GravityStatus */
-     , (46944,  19, True ) /* Attackable */
-     , (46944,  22, True ) /* Inscribable */
+VALUES (46944,  22, True ) /* Inscribable */
      , (46944,  69, False) /* IsSellable */
      , (46944,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46944,   5,      -1) /* ManaRate */
-     , (46944,  29, 1.35000000298023) /* WeaponDefense */
-     , (46944, 144, 0.179999995231628) /* ManaConversionMod */
+     , (46944,  29,    1.35) /* WeaponDefense */
+     , (46944, 144,    0.18) /* ManaConversionMod */
      , (46944, 147,       1) /* CriticalFrequency */
-     , (46944, 152, 1.17999999821186) /* ElementalDamageMod */
+     , (46944, 152,    1.18) /* ElementalDamageMod */
      , (46944, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

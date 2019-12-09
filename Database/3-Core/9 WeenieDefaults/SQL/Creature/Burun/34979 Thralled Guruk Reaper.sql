@@ -15,11 +15,7 @@ VALUES (34979,   1,         16) /* ItemType - Creature */
      , (34979, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34979,   1, True ) /* Stuck */
-     , (34979,  12, True ) /* ReportCollisions */
-     , (34979,  13, False) /* Ethereal */
-     , (34979,  14, True ) /* GravityStatus */
-     , (34979,  19, True ) /* Attackable */;
+VALUES (34979,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34979,   1, 'Thralled Guruk Reaper') /* Name */

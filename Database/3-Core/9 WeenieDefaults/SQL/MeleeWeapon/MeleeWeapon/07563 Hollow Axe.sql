@@ -18,20 +18,14 @@ VALUES (7563,   1,          1) /* ItemType - MeleeWeapon */
      , (7563,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (7563,  49,         30) /* WeaponTime */
      , (7563,  51,          1) /* CombatUse - Melee */
-     , (7563,  65,          1) /* Placement - RightHandCombat */
      , (7563,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7563, 114,          1) /* Attuned - Attuned */
      , (7563, 353,          3) /* WeaponType - Axe */
-     , (7563, 8030,          0);
+     , (7563, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7563, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7563,   1, False) /* Stuck */
-     , (7563,  11, True ) /* IgnoreCollisions */
-     , (7563,  13, True ) /* Ethereal */
-     , (7563,  14, True ) /* GravityStatus */
-     , (7563,  15, True ) /* LightsStatus */
-     , (7563,  19, True ) /* Attackable */
-     , (7563,  22, True ) /* Inscribable */;
+VALUES (7563,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7563,  21,       0) /* WeaponLength */
@@ -40,7 +34,7 @@ VALUES (7563,  21,       0) /* WeaponLength */
      , (7563,  29,       1) /* WeaponDefense */
      , (7563,  62,    1.05) /* WeaponOffense */
      , (7563,  63,       1) /* DamageMod */
-     , (7563,  76, 0.699999988079071) /* Translucency */
+     , (7563,  76,     0.7) /* Translucency */
      , (7563,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

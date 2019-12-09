@@ -15,11 +15,7 @@ VALUES (944,   1,         16) /* ItemType - Creature */
      , (944, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (944,   1, True ) /* Stuck */
-     , (944,  12, True ) /* ReportCollisions */
-     , (944,  13, False) /* Ethereal */
-     , (944,  14, True ) /* GravityStatus */
-     , (944,  19, True ) /* Attackable */;
+VALUES (944,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (944,   1, 'Mite Digger') /* Name */

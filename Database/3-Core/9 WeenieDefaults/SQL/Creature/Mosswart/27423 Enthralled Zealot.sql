@@ -16,14 +16,10 @@ VALUES (27423,   1,         16) /* ItemType - Creature */
      , (27423, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27423,   1, True ) /* Stuck */
-     , (27423,  12, True ) /* ReportCollisions */
-     , (27423,  13, False) /* Ethereal */
-     , (27423,  14, True ) /* GravityStatus */
-     , (27423,  19, True ) /* Attackable */;
+VALUES (27423,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27423,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (27423,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27423,   1, 'Enthralled Zealot') /* Name */

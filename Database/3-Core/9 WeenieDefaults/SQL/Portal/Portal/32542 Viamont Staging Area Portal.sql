@@ -13,20 +13,14 @@ VALUES (32542,   1,      65536) /* ItemType - Portal */
      , (32542, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32542,   1, True ) /* Stuck */
-     , (32542,  12, True ) /* ReportCollisions */
-     , (32542,  13, True ) /* Ethereal */
-     , (32542,  14, True ) /* GravityStatus */
-     , (32542,  15, True ) /* LightsStatus */
-     , (32542,  19, True ) /* Attackable */;
+VALUES (32542,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32542,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32542,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32542,   1, 'Viamont Staging Area Portal') /* Name */
      , (32542,  16, 'This dungeon is quest restricted.') /* LongDesc */
-     , (32542,  38, 'Viamont Staging Area Portal') /* AppraisalPortalDestination */
      , (32542, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -14,19 +14,13 @@ VALUES (19722,   1,      65536) /* ItemType - Portal */
      , (19722, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19722,   1, True ) /* Stuck */
-     , (19722,  12, True ) /* ReportCollisions */
-     , (19722,  13, True ) /* Ethereal */
-     , (19722,  14, True ) /* GravityStatus */
-     , (19722,  15, True ) /* LightsStatus */
-     , (19722,  19, True ) /* Attackable */;
+VALUES (19722,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19722,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19722,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19722,   1, 'Fathomless Chasm Descent') /* Name */
-     , (19722,  38, 'Fathomless Chasm Descent') /* AppraisalPortalDestination */
      , (19722, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

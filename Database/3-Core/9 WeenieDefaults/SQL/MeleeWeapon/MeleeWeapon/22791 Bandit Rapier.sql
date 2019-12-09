@@ -11,19 +11,14 @@ VALUES (22791,   1,          1) /* ItemType - MeleeWeapon */
      , (22791,  16,          1) /* ItemUseable - No */
      , (22791,  19,        240) /* Value */
      , (22791,  51,          1) /* CombatUse - Melee */
-     , (22791,  65,          1) /* Placement - RightHandCombat */
-     , (22791,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22791,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22791, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22791,   1, False) /* Stuck */
-     , (22791,  11, True ) /* IgnoreCollisions */
-     , (22791,  13, True ) /* Ethereal */
-     , (22791,  14, True ) /* GravityStatus */
-     , (22791,  19, True ) /* Attackable */
-     , (22791,  22, True ) /* Inscribable */;
+VALUES (22791,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22791,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (22791,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22791,   1, 'Bandit Rapier') /* Name */;

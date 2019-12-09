@@ -16,15 +16,10 @@ VALUES (41403,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41403, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41403,   1, False) /* Stuck */
-     , (41403,  11, True ) /* IgnoreCollisions */
-     , (41403,  13, True ) /* Ethereal */
-     , (41403,  14, True ) /* GravityStatus */
-     , (41403,  19, True ) /* Attackable */
-     , (41403,  22, True ) /* Inscribable */;
+VALUES (41403,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41403,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (41403,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41403,   1, 'Jeweler''s Saw Frame') /* Name */;

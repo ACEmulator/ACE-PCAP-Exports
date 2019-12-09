@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30404,   1,        128) /* ItemType - Misc */
      , (30404,   5,         10) /* EncumbranceVal */
      , (30404,  16,          1) /* ItemUseable - No */
-     , (30404,  65,        101) /* Placement - Resting */
-     , (30404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (30404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30404, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30404,   1, False) /* Stuck */
-     , (30404,  11, True ) /* IgnoreCollisions */
-     , (30404,  13, True ) /* Ethereal */
-     , (30404,  14, True ) /* GravityStatus */
-     , (30404,  19, True ) /* Attackable */
-     , (30404,  22, True ) /* Inscribable */;
+VALUES (30404,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30404,   1, 'Champion of Sanamar Token') /* Name */;

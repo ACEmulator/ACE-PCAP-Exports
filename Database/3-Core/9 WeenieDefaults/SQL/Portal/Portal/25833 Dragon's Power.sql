@@ -13,19 +13,13 @@ VALUES (25833,   1,      65536) /* ItemType - Portal */
      , (25833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25833,   1, True ) /* Stuck */
-     , (25833,  12, True ) /* ReportCollisions */
-     , (25833,  13, True ) /* Ethereal */
-     , (25833,  14, True ) /* GravityStatus */
-     , (25833,  15, True ) /* LightsStatus */
-     , (25833,  19, True ) /* Attackable */;
+VALUES (25833,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25833,  54, -0.100000001490116) /* UseRadius */;
+VALUES (25833,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25833,   1, 'Dragon''s Power') /* Name */
-     , (25833,  38, 'Dragon''s Power') /* AppraisalPortalDestination */
      , (25833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

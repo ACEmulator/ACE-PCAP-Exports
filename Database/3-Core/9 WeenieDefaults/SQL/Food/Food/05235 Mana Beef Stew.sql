@@ -13,15 +13,8 @@ VALUES (5235,   1,         32) /* ItemType - Food */
      , (5235,  16,          8) /* ItemUseable - Contained */
      , (5235,  18,          8) /* UiEffects - BoostMana */
      , (5235,  19,         80) /* Value */
-     , (5235,  65,        101) /* Placement - Resting */
-     , (5235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5235,   1, False) /* Stuck */
-     , (5235,  11, True ) /* IgnoreCollisions */
-     , (5235,  13, True ) /* Ethereal */
-     , (5235,  14, True ) /* GravityStatus */
-     , (5235,  19, True ) /* Attackable */;
+     , (5235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5235, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5235,   1, 'Mana Beef Stew') /* Name */

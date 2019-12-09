@@ -13,19 +13,13 @@ VALUES (3634,   1,      65536) /* ItemType - Portal */
      , (3634, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3634,   1, True ) /* Stuck */
-     , (3634,  12, True ) /* ReportCollisions */
-     , (3634,  13, True ) /* Ethereal */
-     , (3634,  14, True ) /* GravityStatus */
-     , (3634,  15, True ) /* LightsStatus */
-     , (3634,  19, True ) /* Attackable */;
+VALUES (3634,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3634,  54, -0.100000001490116) /* UseRadius */;
+VALUES (3634,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3634,   1, 'Mountain Sewer Portal') /* Name */
-     , (3634,  38, 'Mountain Sewer Portal') /* AppraisalPortalDestination */
      , (3634, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

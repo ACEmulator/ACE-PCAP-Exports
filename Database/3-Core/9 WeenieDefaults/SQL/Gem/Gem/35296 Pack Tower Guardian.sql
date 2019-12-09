@@ -14,15 +14,10 @@ VALUES (35296,   1,       2048) /* ItemType - Gem */
      , (35296, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35296,   1, False) /* Stuck */
-     , (35296,  11, True ) /* IgnoreCollisions */
-     , (35296,  13, True ) /* Ethereal */
-     , (35296,  14, True ) /* GravityStatus */
-     , (35296,  19, True ) /* Attackable */
-     , (35296,  22, True ) /* Inscribable */;
+VALUES (35296,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35296,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (35296,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35296,   1, 'Pack Tower Guardian') /* Name */

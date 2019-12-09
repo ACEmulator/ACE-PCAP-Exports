@@ -15,11 +15,7 @@ VALUES (35122,   1,         16) /* ItemType - Creature */
      , (35122, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35122,   1, True ) /* Stuck */
-     , (35122,  12, True ) /* ReportCollisions */
-     , (35122,  13, False) /* Ethereal */
-     , (35122,  14, True ) /* GravityStatus */
-     , (35122,  19, True ) /* Attackable */;
+VALUES (35122,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35122,   1, 'Repugnant Eater') /* Name */

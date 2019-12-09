@@ -16,12 +16,7 @@ VALUES (52589,   1,         16) /* ItemType - Creature */
      , (52589, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52589,   1, True ) /* Stuck */
-     , (52589,  12, True ) /* ReportCollisions */
-     , (52589,  13, False) /* Ethereal */
-     , (52589,  14, True ) /* GravityStatus */
-     , (52589,  19, True ) /* Attackable */
-     , (52589,  42, True ) /* AllowEdgeSlide */;
+VALUES (52589,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52589,   1, 'A''nekshen Thorn Reaver') /* Name */

@@ -13,16 +13,9 @@ VALUES (53453,   1,       2048) /* ItemType - Gem */
      , (53453,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53453,  18,         32) /* UiEffects - Fire */
      , (53453,  19,         25) /* Value */
-     , (53453,  65,        101) /* Placement - Resting */
      , (53453,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53453,  94,      33025) /* TargetType - WeaponOrCaster */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53453,   1, False) /* Stuck */
-     , (53453,  11, True ) /* IgnoreCollisions */
-     , (53453,  13, True ) /* Ethereal */
-     , (53453,  14, True ) /* GravityStatus */
-     , (53453,  19, True ) /* Attackable */;
+     , (53453,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (53453, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53453,   1, 'Corrupted Amber: Weapon of the Corrupted Soul.') /* Name */

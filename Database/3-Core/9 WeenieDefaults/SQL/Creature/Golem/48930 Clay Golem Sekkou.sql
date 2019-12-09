@@ -17,14 +17,10 @@ VALUES (48930,   1,         16) /* ItemType - Creature */
      , (48930, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48930,   1, True ) /* Stuck */
-     , (48930,  12, True ) /* ReportCollisions */
-     , (48930,  13, False) /* Ethereal */
-     , (48930,  14, True ) /* GravityStatus */
-     , (48930,  19, True ) /* Attackable */;
+VALUES (48930,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48930,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (48930,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48930,   1, 'Clay Golem Sekkou') /* Name */

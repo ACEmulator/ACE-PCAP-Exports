@@ -8,17 +8,12 @@ VALUES (48714,   1,        128) /* ItemType - Misc */
      , (48714,   5,          1) /* EncumbranceVal */
      , (48714,  19,          0) /* Value */
      , (48714,  33,          1) /* Bonded - Bonded */
-     , (48714,  65,        101) /* Placement - Resting */
      , (48714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48714, 114,          1) /* Attuned - Attuned */;
+     , (48714, 114,          1) /* Attuned - Attuned */
+     , (48714, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48714,   1, False) /* Stuck */
-     , (48714,  11, True ) /* IgnoreCollisions */
-     , (48714,  13, True ) /* Ethereal */
-     , (48714,  14, True ) /* GravityStatus */
-     , (48714,  19, True ) /* Attackable */
-     , (48714,  22, True ) /* Inscribable */;
+VALUES (48714,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48714,   1, 'Blazing Shard') /* Name */

@@ -18,11 +18,7 @@ VALUES (35129,   1,         16) /* ItemType - Creature */
      , (35129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35129,   1, True ) /* Stuck */
-     , (35129,  12, True ) /* ReportCollisions */
-     , (35129,  13, False) /* Ethereal */
-     , (35129,  14, True ) /* GravityStatus */
-     , (35129,  19, True ) /* Attackable */;
+VALUES (35129,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35129,   1, 'Adept of Frost') /* Name */

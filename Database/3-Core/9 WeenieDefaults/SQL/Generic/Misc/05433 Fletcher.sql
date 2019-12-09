@@ -8,20 +8,15 @@ VALUES (5433,   1,        128) /* ItemType - Misc */
      , (5433,   5,       9000) /* EncumbranceVal */
      , (5433,  16,          1) /* ItemUseable - No */
      , (5433,  19,        125) /* Value */
-     , (5433,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (5433,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5433,   1, True ) /* Stuck */
-     , (5433,  11, True ) /* IgnoreCollisions */
-     , (5433,  12, True ) /* ReportCollisions */
-     , (5433,  13, False) /* Ethereal */
-     , (5433,  14, True ) /* GravityStatus */
-     , (5433,  19, True ) /* Attackable */;
+VALUES (5433,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5433, 8010,       0) /* PCAPRecordedVelocityX */
      , (5433, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5433, 8012, -1.96000003814697) /* PCAPRecordedVelocityZ */;
+     , (5433, 8012,   -1.96) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5433,   1, 'Fletcher') /* Name */

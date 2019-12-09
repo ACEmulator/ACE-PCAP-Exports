@@ -13,16 +13,9 @@ VALUES (31347,   1,        128) /* ItemType - Misc */
      , (31347,  16,          1) /* ItemUseable - No */
      , (31347,  19,      10000) /* Value */
      , (31347,  33,          1) /* Bonded - Bonded */
-     , (31347,  65,        101) /* Placement - Resting */
      , (31347,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31347, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31347,   1, False) /* Stuck */
-     , (31347,  11, True ) /* IgnoreCollisions */
-     , (31347,  13, True ) /* Ethereal */
-     , (31347,  14, True ) /* GravityStatus */
-     , (31347,  19, True ) /* Attackable */;
+     , (31347, 114,          1) /* Attuned - Attuned */
+     , (31347, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31347,   1, 'Lugian Lieutenant''s Insignia') /* Name */

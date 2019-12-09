@@ -12,20 +12,14 @@ VALUES (42819,   1,      65536) /* ItemType - Portal */
      , (42819, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42819,   1, True ) /* Stuck */
-     , (42819,  12, True ) /* ReportCollisions */
-     , (42819,  13, True ) /* Ethereal */
-     , (42819,  14, True ) /* GravityStatus */
-     , (42819,  15, True ) /* LightsStatus */
-     , (42819,  19, True ) /* Attackable */;
+VALUES (42819,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42819,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42819,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42819,   1, 'Portal to Arwic') /* Name */
      , (42819,  16, 'This portal goes to Arwic, a walled Aluvian town that has fully recovered from a devastating attack by a Shadow Spire. This is a good town for characters over level 20.') /* LongDesc */
-     , (42819,  38, 'Portal to Arwic (33.3N, 56.6E).') /* AppraisalPortalDestination */
      , (42819, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

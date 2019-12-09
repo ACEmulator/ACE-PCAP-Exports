@@ -6,23 +6,18 @@ VALUES (34534, 'ace34534-returntothehallofchampions', 7, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34534,   1,      65536) /* ItemType - Portal */
      , (34534,  16,         32) /* ItemUseable - Remote */
-     , (34534,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34534,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (34534, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (34534, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34534,   1, True ) /* Stuck */
-     , (34534,  11, True ) /* IgnoreCollisions */
-     , (34534,  13, False) /* Ethereal */
-     , (34534,  14, True ) /* GravityStatus */
-     , (34534,  19, True ) /* Attackable */;
+VALUES (34534,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34534,  54, 0.300000011920929) /* UseRadius */;
+VALUES (34534,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34534,   1, 'Return to the Hall of Champions') /* Name */
-     , (34534,  38, 'Return to the Hall of Champions') /* AppraisalPortalDestination */;
+VALUES (34534,   1, 'Return to the Hall of Champions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34534,   1,   33560143) /* Setup */

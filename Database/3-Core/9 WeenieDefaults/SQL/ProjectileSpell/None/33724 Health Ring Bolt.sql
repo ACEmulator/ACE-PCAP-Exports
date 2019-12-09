@@ -9,19 +9,14 @@ VALUES (33724,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33724,   1, True ) /* Stuck */
-     , (33724,  12, True ) /* ReportCollisions */
-     , (33724,  13, False) /* Ethereal */
-     , (33724,  15, True ) /* LightsStatus */
-     , (33724,  17, True ) /* Inelastic */
-     , (33724,  19, True ) /* Attackable */
      , (33724,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33724,  78,       1) /* Friction */
      , (33724,  79,       0) /* Elasticity */
-     , (33724, 8010, 1.01208746433258) /* PCAPRecordedVelocityX */
-     , (33724, 8011, 5.89200115203857) /* PCAPRecordedVelocityY */
-     , (33724, 8012, -0.557661414146423) /* PCAPRecordedVelocityZ */;
+     , (33724, 8010,    1.01) /* PCAPRecordedVelocityX */
+     , (33724, 8011,    5.89) /* PCAPRecordedVelocityY */
+     , (33724, 8012,   -0.56) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33724,   1, 'Health Ring Bolt') /* Name */;

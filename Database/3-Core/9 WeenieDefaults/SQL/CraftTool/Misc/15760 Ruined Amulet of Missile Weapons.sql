@@ -13,21 +13,16 @@ VALUES (15760,   1,        128) /* ItemType - Misc */
      , (15760,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15760,  19,          0) /* Value */
      , (15760,  33,          1) /* Bonded - Bonded */
-     , (15760,  65,        101) /* Placement - Resting */
      , (15760,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15760,  94,          2) /* TargetType - Armor */
-     , (15760, 114,          1) /* Attuned - Attuned */;
+     , (15760, 114,          1) /* Attuned - Attuned */
+     , (15760, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15760,   1, False) /* Stuck */
-     , (15760,  11, True ) /* IgnoreCollisions */
-     , (15760,  13, True ) /* Ethereal */
-     , (15760,  14, True ) /* GravityStatus */
-     , (15760,  19, True ) /* Attackable */
-     , (15760,  22, True ) /* Inscribable */;
+VALUES (15760,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15760,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (15760,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15760,   1, 'Ruined Amulet of Missile Weapons') /* Name */

@@ -13,17 +13,12 @@ VALUES (8111,   1,       2048) /* ItemType - Gem */
      , (8111,  16,          1) /* ItemUseable - No */
      , (8111,  19,          0) /* Value */
      , (8111,  33,          1) /* Bonded - Bonded */
-     , (8111,  65,        101) /* Placement - Resting */
      , (8111,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8111, 114,          1) /* Attuned - Attuned */;
+     , (8111, 114,          1) /* Attuned - Attuned */
+     , (8111, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8111,   1, False) /* Stuck */
-     , (8111,  11, True ) /* IgnoreCollisions */
-     , (8111,  13, True ) /* Ethereal */
-     , (8111,  14, True ) /* GravityStatus */
-     , (8111,  19, True ) /* Attackable */
-     , (8111,  22, True ) /* Inscribable */;
+VALUES (8111,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8111,   1, 'Caulnalain Gem') /* Name */

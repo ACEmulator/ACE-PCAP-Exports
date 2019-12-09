@@ -9,17 +9,12 @@ VALUES (34458,   1,        128) /* ItemType - Misc */
      , (34458,  16,          1) /* ItemUseable - No */
      , (34458,  19,          0) /* Value */
      , (34458,  33,          1) /* Bonded - Bonded */
-     , (34458,  65,        101) /* Placement - Resting */
      , (34458,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34458, 114,          1) /* Attuned - Attuned */;
+     , (34458, 114,          1) /* Attuned - Attuned */
+     , (34458, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34458,   1, False) /* Stuck */
-     , (34458,  11, True ) /* IgnoreCollisions */
-     , (34458,  13, True ) /* Ethereal */
-     , (34458,  14, True ) /* GravityStatus */
-     , (34458,  19, True ) /* Attackable */
-     , (34458,  22, True ) /* Inscribable */;
+VALUES (34458,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34458,   1, 'Very Mad Cow Token') /* Name */

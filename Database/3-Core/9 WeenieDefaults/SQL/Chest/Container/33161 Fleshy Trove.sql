@@ -17,16 +17,13 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33161,   1, True ) /* Stuck */
      , (33161,   2, False) /* Open */
      , (33161,   3, True ) /* Locked */
-     , (33161,  11, True ) /* IgnoreCollisions */
-     , (33161,  12, True ) /* ReportCollisions */
-     , (33161,  13, False) /* Ethereal */
-     , (33161,  14, True ) /* GravityStatus */
-     , (33161,  19, True ) /* Attackable */;
+     , (33161,  34, False) /* DefaultOpen */
+     , (33161,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33161,  39, 1.10000002384186) /* DefaultScale */
+VALUES (33161,  39,     1.1) /* DefaultScale */
      , (33161,  54,       2) /* UseRadius */
-     , (33161,  76, 0.600000023841858) /* Translucency */;
+     , (33161,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33161,   1, 'Fleshy Trove') /* Name */

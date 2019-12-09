@@ -11,15 +11,8 @@ VALUES (5089,   1,         32) /* ItemType - Food */
      , (5089,  13,         85) /* StackUnitEncumbrance */
      , (5089,  15,          0) /* StackUnitValue */
      , (5089,  16,          8) /* ItemUseable - Contained */
-     , (5089,  65,        101) /* Placement - Resting */
-     , (5089,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5089,   1, False) /* Stuck */
-     , (5089,  11, True ) /* IgnoreCollisions */
-     , (5089,  13, True ) /* Ethereal */
-     , (5089,  14, True ) /* GravityStatus */
-     , (5089,  19, True ) /* Attackable */;
+     , (5089,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5089, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5089,   1, 'Old Cheese') /* Name */

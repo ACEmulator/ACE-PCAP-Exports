@@ -11,16 +11,11 @@ VALUES (6614,   1,          2) /* ItemType - Armor */
      , (6614,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (6614,  16,          1) /* ItemUseable - No */
      , (6614,  19,       1870) /* Value */
-     , (6614,  65,        101) /* Placement - Resting */
-     , (6614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (6614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6614, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6614,   1, False) /* Stuck */
-     , (6614,  11, True ) /* IgnoreCollisions */
-     , (6614,  13, True ) /* Ethereal */
-     , (6614,  14, True ) /* GravityStatus */
-     , (6614,  19, True ) /* Attackable */
-     , (6614,  22, True ) /* Inscribable */;
+VALUES (6614,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6614,   1, 'Celdon Shadow Sleeves') /* Name */;

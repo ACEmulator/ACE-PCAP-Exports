@@ -12,19 +12,13 @@ VALUES (14639,   1,      65536) /* ItemType - Portal */
      , (14639, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14639,   1, True ) /* Stuck */
-     , (14639,  12, True ) /* ReportCollisions */
-     , (14639,  13, True ) /* Ethereal */
-     , (14639,  14, True ) /* GravityStatus */
-     , (14639,  15, True ) /* LightsStatus */
-     , (14639,  19, True ) /* Attackable */;
+VALUES (14639,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14639,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14639,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14639,   1, 'King Pwyll Square Portal') /* Name */
-     , (14639,  38, 'King Pwyll Square Portal (9.6N, 36.9E).') /* AppraisalPortalDestination */
      , (14639, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

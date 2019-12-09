@@ -16,18 +16,14 @@ VALUES (9686,   1,        512) /* ItemType - Container */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9686,   1, True ) /* Stuck */
-     , (9686,  11, True ) /* IgnoreCollisions */
-     , (9686,  13, True ) /* Ethereal */
-     , (9686,  19, True ) /* Attackable */
-     , (9686,  24, True ) /* UiHidden */
-     , (9686,  71, True ) /* NoDraw */;
+     , (9686,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9686,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (9686,  14, 0.899999976158142) /* ArmorModVsPierce */
-     , (9686,  15, 0.899999976158142) /* ArmorModVsBludgeon */
+VALUES (9686,  13,     1.2) /* ArmorModVsSlash */
+     , (9686,  14,     0.9) /* ArmorModVsPierce */
+     , (9686,  15,     0.9) /* ArmorModVsBludgeon */
      , (9686,  16,       2) /* ArmorModVsCold */
-     , (9686,  17, 0.699999988079071) /* ArmorModVsFire */
+     , (9686,  17,     0.7) /* ArmorModVsFire */
      , (9686,  18,       1) /* ArmorModVsAcid */
      , (9686,  19,       2) /* ArmorModVsElectric */
      , (9686,  39,     0.5) /* DefaultScale */

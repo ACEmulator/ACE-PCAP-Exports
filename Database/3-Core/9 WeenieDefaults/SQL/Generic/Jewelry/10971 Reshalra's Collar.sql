@@ -11,7 +11,6 @@ VALUES (10971,   1,          8) /* ItemType - Jewelry */
      , (10971,  16,          1) /* ItemUseable - No */
      , (10971,  18,          1) /* UiEffects - Magical */
      , (10971,  19,       5800) /* Value */
-     , (10971,  65,        101) /* Placement - Resting */
      , (10971,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10971, 106,        225) /* ItemSpellcraft */
      , (10971, 107,          0) /* ItemCurMana */
@@ -19,19 +18,15 @@ VALUES (10971,   1,          8) /* ItemType - Jewelry */
      , (10971, 109,          0) /* ItemDifficulty */
      , (10971, 110,          1) /* ItemAllegianceRankLimit */
      , (10971, 115,         87) /* ItemSkillLevelLimit */
-     , (10971, 176,         36) /* AppraisalItemSkill */;
+     , (10971, 176,         36) /* AppraisalItemSkill */
+     , (10971, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10971,   1, False) /* Stuck */
-     , (10971,  11, True ) /* IgnoreCollisions */
-     , (10971,  13, True ) /* Ethereal */
-     , (10971,  14, True ) /* GravityStatus */
-     , (10971,  19, True ) /* Attackable */
-     , (10971,  22, True ) /* Inscribable */;
+VALUES (10971,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10971,   5,    -0.1) /* ManaRate */
-     , (10971,  39, 0.800000011920929) /* DefaultScale */;
+     , (10971,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10971,   1, 'Reshalra''s Collar') /* Name */

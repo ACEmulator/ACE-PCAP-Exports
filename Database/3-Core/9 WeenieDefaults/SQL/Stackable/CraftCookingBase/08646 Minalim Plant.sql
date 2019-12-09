@@ -15,15 +15,8 @@ VALUES (8646,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8646,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8646, 151,          9) /* HookType - Floor, Yard */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8646,   1, False) /* Stuck */
-     , (8646,  11, True ) /* IgnoreCollisions */
-     , (8646,  13, True ) /* Ethereal */
-     , (8646,  14, True ) /* GravityStatus */
-     , (8646,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8646,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (8646,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8646,   1, 'Minalim Plant') /* Name */

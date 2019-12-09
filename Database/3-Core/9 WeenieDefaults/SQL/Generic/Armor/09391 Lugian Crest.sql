@@ -17,21 +17,16 @@ VALUES (9391,   1,          2) /* ItemType - Armor */
      , (9391, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9391,   1, False) /* Stuck */
-     , (9391,  11, True ) /* IgnoreCollisions */
-     , (9391,  13, True ) /* Ethereal */
-     , (9391,  14, True ) /* GravityStatus */
-     , (9391,  19, True ) /* Attackable */
-     , (9391,  22, True ) /* Inscribable */;
+VALUES (9391,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9391,  13, 2.59999990463257) /* ArmorModVsSlash */
-     , (9391,  14, 2.59999990463257) /* ArmorModVsPierce */
-     , (9391,  15, 2.59999990463257) /* ArmorModVsBludgeon */
-     , (9391,  16, 2.79999995231628) /* ArmorModVsCold */
-     , (9391,  17, 2.79999995231628) /* ArmorModVsFire */
+VALUES (9391,  13,     2.6) /* ArmorModVsSlash */
+     , (9391,  14,     2.6) /* ArmorModVsPierce */
+     , (9391,  15,     2.6) /* ArmorModVsBludgeon */
+     , (9391,  16,     2.8) /* ArmorModVsCold */
+     , (9391,  17,     2.8) /* ArmorModVsFire */
      , (9391,  18,       3) /* ArmorModVsAcid */
-     , (9391,  19, 3.29999995231628) /* ArmorModVsElectric */
+     , (9391,  19,     3.3) /* ArmorModVsElectric */
      , (9391,  39,    1.25) /* DefaultScale */
      , (9391, 165,       1) /* ArmorModVsNether */;
 

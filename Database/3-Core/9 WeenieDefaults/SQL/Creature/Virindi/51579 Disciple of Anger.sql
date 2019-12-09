@@ -16,12 +16,7 @@ VALUES (51579,   1,         16) /* ItemType - Creature */
      , (51579, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51579,   1, True ) /* Stuck */
-     , (51579,  12, True ) /* ReportCollisions */
-     , (51579,  13, False) /* Ethereal */
-     , (51579,  14, True ) /* GravityStatus */
-     , (51579,  19, True ) /* Attackable */
-     , (51579,  42, True ) /* AllowEdgeSlide */;
+VALUES (51579,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51579,   1, 'Disciple of Anger') /* Name */

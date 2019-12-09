@@ -13,19 +13,14 @@ VALUES (4890,   1,         32) /* ItemType - Food */
      , (4890,  16,          8) /* ItemUseable - Contained */
      , (4890,  19,          0) /* Value */
      , (4890,  33,          1) /* Bonded - Bonded */
-     , (4890,  65,        101) /* Placement - Resting */
      , (4890,  89,          2) /* BoosterEnum - Health */
      , (4890,  90,          8) /* BoostValue */
      , (4890,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4890, 114,          1) /* Attuned - Attuned */;
+     , (4890, 114,          1) /* Attuned - Attuned */
+     , (4890, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4890,   1, False) /* Stuck */
-     , (4890,  11, True ) /* IgnoreCollisions */
-     , (4890,  13, True ) /* Ethereal */
-     , (4890,  14, True ) /* GravityStatus */
-     , (4890,  19, True ) /* Attackable */
-     , (4890,  22, True ) /* Inscribable */;
+VALUES (4890,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4890,   1, 'Distillery Dew') /* Name */

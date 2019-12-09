@@ -12,19 +12,13 @@ VALUES (19152,   1,      65536) /* ItemType - Portal */
      , (19152, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19152,   1, True ) /* Stuck */
-     , (19152,  12, True ) /* ReportCollisions */
-     , (19152,  13, True ) /* Ethereal */
-     , (19152,  14, True ) /* GravityStatus */
-     , (19152,  15, True ) /* LightsStatus */
-     , (19152,  19, True ) /* Attackable */;
+VALUES (19152,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19152,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19152,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19152,   1, 'Majestic Saddle Cottages Portal') /* Name */
-     , (19152,  38, 'Majestic Saddle Cottages Portal (39.5N, 22.5W).') /* AppraisalPortalDestination */
      , (19152, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

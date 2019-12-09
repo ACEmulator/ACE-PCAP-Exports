@@ -16,12 +16,7 @@ VALUES (41249,   1,          1) /* ItemType - MeleeWeapon */
      , (41249, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41249,   1, False) /* Stuck */
-     , (41249,  11, True ) /* IgnoreCollisions */
-     , (41249,  13, True ) /* Ethereal */
-     , (41249,  14, True ) /* GravityStatus */
-     , (41249,  19, True ) /* Attackable */
-     , (41249,  22, True ) /* Inscribable */;
+VALUES (41249,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41249,   1, 'Frost Gearknight Sword') /* Name */;

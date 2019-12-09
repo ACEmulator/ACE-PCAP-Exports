@@ -8,17 +8,12 @@ VALUES (34404,   1,        128) /* ItemType - Misc */
      , (34404,   5,        300) /* EncumbranceVal */
      , (34404,  16,          1) /* ItemUseable - No */
      , (34404,  19,       6000) /* Value */
-     , (34404,  65,        101) /* Placement - Resting */
-     , (34404,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (34404, 151,          1) /* HookType - Floor */;
+     , (34404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34404, 151,          1) /* HookType - Floor */
+     , (34404, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34404,   1, False) /* Stuck */
-     , (34404,  11, True ) /* IgnoreCollisions */
-     , (34404,  13, True ) /* Ethereal */
-     , (34404,  14, True ) /* GravityStatus */
-     , (34404,  19, True ) /* Attackable */
-     , (34404,  22, True ) /* Inscribable */;
+VALUES (34404,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34404,   1, 'Holiday Feast') /* Name */

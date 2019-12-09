@@ -15,11 +15,7 @@ VALUES (27283,   1,         16) /* ItemType - Creature */
      , (27283, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27283,   1, True ) /* Stuck */
-     , (27283,  12, True ) /* ReportCollisions */
-     , (27283,  13, False) /* Ethereal */
-     , (27283,  14, True ) /* GravityStatus */
-     , (27283,  19, True ) /* Attackable */;
+VALUES (27283,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27283,   1, 'Yaja the Shepherd') /* Name */

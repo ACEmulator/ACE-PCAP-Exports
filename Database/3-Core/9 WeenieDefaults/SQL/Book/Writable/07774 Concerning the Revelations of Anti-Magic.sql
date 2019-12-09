@@ -8,19 +8,12 @@ VALUES (7774,   1,       8192) /* ItemType - Writable */
      , (7774,   5,        220) /* EncumbranceVal */
      , (7774,  16,          8) /* ItemUseable - Contained */
      , (7774,  19,        120) /* Value */
-     , (7774,  65,        101) /* Placement - Resting */
-     , (7774,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7774,   1, False) /* Stuck */
-     , (7774,  11, True ) /* IgnoreCollisions */
-     , (7774,  13, True ) /* Ethereal */
-     , (7774,  14, True ) /* GravityStatus */
-     , (7774,  19, True ) /* Attackable */;
+     , (7774,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7774, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7774,  39, 1.22000002861023) /* DefaultScale */
-     , (7774,  54, 0.300000011920929) /* UseRadius */;
+VALUES (7774,  39,    1.22) /* DefaultScale */
+     , (7774,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7774,   1, 'Concerning the Revelations of Anti-Magic') /* Name */;

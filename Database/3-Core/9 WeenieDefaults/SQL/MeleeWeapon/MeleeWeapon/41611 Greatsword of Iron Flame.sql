@@ -15,13 +15,7 @@ VALUES (41611,   1,          1) /* ItemType - MeleeWeapon */
      , (41611,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41611,   1, False) /* Stuck */
-     , (41611,  11, True ) /* IgnoreCollisions */
-     , (41611,  13, True ) /* Ethereal */
-     , (41611,  14, True ) /* GravityStatus */
-     , (41611,  15, True ) /* LightsStatus */
-     , (41611,  19, True ) /* Attackable */
-     , (41611,  22, True ) /* Inscribable */;
+VALUES (41611,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41611,   1, 'Greatsword of Iron Flame') /* Name */;

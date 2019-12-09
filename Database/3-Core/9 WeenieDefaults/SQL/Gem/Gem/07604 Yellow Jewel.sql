@@ -12,16 +12,11 @@ VALUES (7604,   1,       2048) /* ItemType - Gem */
      , (7604,  15,        250) /* StackUnitValue */
      , (7604,  16,          1) /* ItemUseable - No */
      , (7604,  19,        250) /* Value */
-     , (7604,  65,        101) /* Placement - Resting */
-     , (7604,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (7604,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7604, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7604,   1, False) /* Stuck */
-     , (7604,  11, True ) /* IgnoreCollisions */
-     , (7604,  13, True ) /* Ethereal */
-     , (7604,  14, True ) /* GravityStatus */
-     , (7604,  19, True ) /* Attackable */
-     , (7604,  22, True ) /* Inscribable */;
+VALUES (7604,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7604,   1, 'Yellow Jewel') /* Name */;

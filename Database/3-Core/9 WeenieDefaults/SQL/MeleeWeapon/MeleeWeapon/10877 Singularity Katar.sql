@@ -18,7 +18,6 @@ VALUES (10877,   1,          1) /* ItemType - MeleeWeapon */
      , (10877,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (10877,  49,         20) /* WeaponTime */
      , (10877,  51,          1) /* CombatUse - Melee */
-     , (10877,  65,          1) /* Placement - RightHandCombat */
      , (10877,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10877, 106,        150) /* ItemSpellcraft */
      , (10877, 107,        700) /* ItemCurMana */
@@ -29,24 +28,20 @@ VALUES (10877,   1,          1) /* ItemType - MeleeWeapon */
      , (10877, 151,          2) /* HookType - Wall */
      , (10877, 176,         46) /* AppraisalItemSkill */
      , (10877, 353,          1) /* WeaponType - Unarmed */
-     , (10877, 8030,          0);
+     , (10877, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (10877, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10877,   1, False) /* Stuck */
-     , (10877,  11, True ) /* IgnoreCollisions */
-     , (10877,  13, True ) /* Ethereal */
-     , (10877,  14, True ) /* GravityStatus */
-     , (10877,  19, True ) /* Attackable */
-     , (10877,  22, True ) /* Inscribable */
+VALUES (10877,  22, True ) /* Inscribable */
      , (10877,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10877,   5, -0.0329999998211861) /* ManaRate */
+VALUES (10877,   5,   -0.03) /* ManaRate */
      , (10877,  21,       0) /* WeaponLength */
      , (10877,  22,    0.75) /* DamageVariance */
      , (10877,  26,       0) /* MaximumVelocity */
-     , (10877,  29, 1.04999995231628) /* WeaponDefense */
-     , (10877,  62, 1.04999995231628) /* WeaponOffense */
+     , (10877,  29,    1.05) /* WeaponDefense */
+     , (10877,  62,    1.05) /* WeaponOffense */
      , (10877,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

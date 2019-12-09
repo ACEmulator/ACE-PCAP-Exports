@@ -9,17 +9,12 @@ VALUES (24930,   1,        128) /* ItemType - Misc */
      , (24930,  16,          1) /* ItemUseable - No */
      , (24930,  19,          0) /* Value */
      , (24930,  33,          1) /* Bonded - Bonded */
-     , (24930,  65,        101) /* Placement - Resting */
      , (24930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24930, 114,          1) /* Attuned - Attuned */;
+     , (24930, 114,          1) /* Attuned - Attuned */
+     , (24930, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24930,   1, False) /* Stuck */
-     , (24930,  11, True ) /* IgnoreCollisions */
-     , (24930,  13, True ) /* Ethereal */
-     , (24930,  14, True ) /* GravityStatus */
-     , (24930,  19, True ) /* Attackable */
-     , (24930,  22, True ) /* Inscribable */;
+VALUES (24930,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24930,   1, 'Brood Queen Nymph Crest') /* Name */

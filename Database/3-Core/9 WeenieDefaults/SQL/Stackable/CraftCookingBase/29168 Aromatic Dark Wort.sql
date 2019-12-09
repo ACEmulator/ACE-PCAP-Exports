@@ -13,17 +13,12 @@ VALUES (29168,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29168,  16,          1) /* ItemUseable - No */
      , (29168,  19,         70) /* Value */
      , (29168,  33,          0) /* Bonded - Normal */
-     , (29168,  65,        101) /* Placement - Resting */
      , (29168,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29168, 114,          0) /* Attuned - Normal */;
+     , (29168, 114,          0) /* Attuned - Normal */
+     , (29168, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29168,   1, False) /* Stuck */
-     , (29168,  11, True ) /* IgnoreCollisions */
-     , (29168,  13, True ) /* Ethereal */
-     , (29168,  14, True ) /* GravityStatus */
-     , (29168,  19, True ) /* Attackable */
-     , (29168,  69, False) /* IsSellable */;
+VALUES (29168,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29168,   1, 'Aromatic Dark Wort') /* Name */

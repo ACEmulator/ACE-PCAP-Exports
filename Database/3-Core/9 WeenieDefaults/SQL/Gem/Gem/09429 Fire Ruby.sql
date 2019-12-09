@@ -13,17 +13,12 @@ VALUES (9429,   1,       2048) /* ItemType - Gem */
      , (9429,  16,          8) /* ItemUseable - Contained */
      , (9429,  18,          1) /* UiEffects - Magical */
      , (9429,  19,        200) /* Value */
-     , (9429,  65,        101) /* Placement - Resting */
      , (9429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9429,  94,         16) /* TargetType - Creature */;
+     , (9429,  94,         16) /* TargetType - Creature */
+     , (9429, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9429,   1, False) /* Stuck */
-     , (9429,  11, True ) /* IgnoreCollisions */
-     , (9429,  13, True ) /* Ethereal */
-     , (9429,  14, True ) /* GravityStatus */
-     , (9429,  19, True ) /* Attackable */
-     , (9429,  22, True ) /* Inscribable */;
+VALUES (9429,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9429,   1, 'Fire Ruby') /* Name */;

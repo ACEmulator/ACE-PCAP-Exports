@@ -10,16 +10,11 @@ VALUES (49785,   1,          2) /* ItemType - Armor */
      , (49785,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (49785,  16,          1) /* ItemUseable - No */
      , (49785,  19,       1000) /* Value */
-     , (49785,  65,        101) /* Placement - Resting */
-     , (49785,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (49785,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (49785, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49785,   1, False) /* Stuck */
-     , (49785,  11, True ) /* IgnoreCollisions */
-     , (49785,  13, True ) /* Ethereal */
-     , (49785,  14, True ) /* GravityStatus */
-     , (49785,  19, True ) /* Attackable */
-     , (49785,  22, True ) /* Inscribable */;
+VALUES (49785,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49785,   1, 'Shadow Girth') /* Name */;

@@ -11,12 +11,7 @@ VALUES (12649,   1,        128) /* ItemType - Misc */
      , (12649,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12649,   1, True ) /* Stuck */
-     , (12649,  11, True ) /* IgnoreCollisions */
-     , (12649,  12, True ) /* ReportCollisions */
-     , (12649,  13, False) /* Ethereal */
-     , (12649,  14, True ) /* GravityStatus */
-     , (12649,  19, True ) /* Attackable */;
+VALUES (12649,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12649,   1, 'Sennon Valley Retreat') /* Name */;

@@ -14,15 +14,10 @@ VALUES (37515,   1,       2048) /* ItemType - Gem */
      , (37515, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37515,   1, False) /* Stuck */
-     , (37515,  11, True ) /* IgnoreCollisions */
-     , (37515,  13, True ) /* Ethereal */
-     , (37515,  14, True ) /* GravityStatus */
-     , (37515,  19, True ) /* Attackable */
-     , (37515,  22, True ) /* Inscribable */;
+VALUES (37515,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37515,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (37515,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37515,   1, 'Pack Aerbax') /* Name */

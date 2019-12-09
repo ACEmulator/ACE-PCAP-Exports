@@ -11,17 +11,12 @@ VALUES (46192,   1,          1) /* ItemType - MeleeWeapon */
      , (46192,  18,          1) /* UiEffects - Magical */
      , (46192,  19,       8000) /* Value */
      , (46192,  51,          1) /* CombatUse - Melee */
-     , (46192,  65,        101) /* Placement - Resting */
      , (46192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46192, 151,          2) /* HookType - Wall */;
+     , (46192, 151,          2) /* HookType - Wall */
+     , (46192, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46192,   1, False) /* Stuck */
-     , (46192,  11, True ) /* IgnoreCollisions */
-     , (46192,  13, True ) /* Ethereal */
-     , (46192,  14, True ) /* GravityStatus */
-     , (46192,  19, True ) /* Attackable */
-     , (46192,  22, True ) /* Inscribable */;
+VALUES (46192,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46192,   1, 'Shimmering Isparian Spear') /* Name */;

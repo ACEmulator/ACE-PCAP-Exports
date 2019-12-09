@@ -18,7 +18,6 @@ VALUES (40517,   1,          1) /* ItemType - MeleeWeapon */
      , (40517,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (40517,  49,         30) /* WeaponTime */
      , (40517,  51,          1) /* CombatUse - Melee */
-     , (40517,  65,          1) /* Placement - RightHandCombat */
      , (40517,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40517, 106,        460) /* ItemSpellcraft */
      , (40517, 107,       1854) /* ItemCurMana */
@@ -29,26 +28,22 @@ VALUES (40517,   1,          1) /* ItemType - MeleeWeapon */
      , (40517, 160,        370) /* WieldDifficulty */
      , (40517, 166,          1) /* SlayerCreatureType - Olthoi */
      , (40517, 353,          2) /* WeaponType - Sword */
-     , (40517, 8030,          0);
+     , (40517, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (40517, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40517,   1, False) /* Stuck */
-     , (40517,  11, True ) /* IgnoreCollisions */
-     , (40517,  13, True ) /* Ethereal */
-     , (40517,  14, True ) /* GravityStatus */
-     , (40517,  19, True ) /* Attackable */
-     , (40517,  22, True ) /* Inscribable */
+VALUES (40517,  22, True ) /* Inscribable */
      , (40517,  69, False) /* IsSellable */
      , (40517,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40517,   5, -0.0329999998211861) /* ManaRate */
+VALUES (40517,   5,   -0.03) /* ManaRate */
      , (40517,  21,       0) /* WeaponLength */
      , (40517,  22,     0.5) /* DamageVariance */
      , (40517,  26,       0) /* MaximumVelocity */
-     , (40517,  29, 1.17999994754791) /* WeaponDefense */
-     , (40517,  39, 1.29999995231628) /* DefaultScale */
-     , (40517,  62, 1.17999994754791) /* WeaponOffense */
+     , (40517,  29,    1.18) /* WeaponDefense */
+     , (40517,  39,     1.3) /* DefaultScale */
+     , (40517,  62,    1.18) /* WeaponOffense */
      , (40517,  63,       1) /* DamageMod */
      , (40517, 147,       1) /* CriticalFrequency */;
 

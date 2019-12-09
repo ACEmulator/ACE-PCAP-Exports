@@ -13,20 +13,14 @@ VALUES (32518,   1,      65536) /* ItemType - Portal */
      , (32518, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32518,   1, True ) /* Stuck */
-     , (32518,  12, True ) /* ReportCollisions */
-     , (32518,  13, True ) /* Ethereal */
-     , (32518,  14, True ) /* GravityStatus */
-     , (32518,  15, True ) /* LightsStatus */
-     , (32518,  19, True ) /* Attackable */;
+VALUES (32518,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32518,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32518,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32518,   1, 'Yanshi Lower Undermine') /* Name */
      , (32518,  16, 'This portal is quest-restricted.  Speak with Adrana the Royal Guard in Yanshi for details.') /* LongDesc */
-     , (32518,  38, 'Yanshi Lower Undermine') /* AppraisalPortalDestination */
      , (32518, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

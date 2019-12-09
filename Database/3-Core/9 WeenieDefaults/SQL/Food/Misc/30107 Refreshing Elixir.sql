@@ -13,19 +13,14 @@ VALUES (30107,   1,        128) /* ItemType - Misc */
      , (30107,  16,          8) /* ItemUseable - Contained */
      , (30107,  17,         67) /* RareId */
      , (30107,  19,          0) /* Value */
-     , (30107,  65,        101) /* Placement - Resting */
      , (30107,  89,          2) /* BoosterEnum - Health */
      , (30107,  90,        500) /* BoostValue */
      , (30107,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30107, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30107, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30107, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30107,   1, False) /* Stuck */
-     , (30107,  11, True ) /* IgnoreCollisions */
-     , (30107,  13, True ) /* Ethereal */
-     , (30107,  14, True ) /* GravityStatus */
-     , (30107,  19, True ) /* Attackable */
-     , (30107,  22, True ) /* Inscribable */;
+VALUES (30107,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30107,   1, 'Refreshing Elixir') /* Name */

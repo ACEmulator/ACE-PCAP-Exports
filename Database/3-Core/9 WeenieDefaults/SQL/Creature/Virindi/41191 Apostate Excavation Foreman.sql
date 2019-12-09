@@ -15,11 +15,7 @@ VALUES (41191,   1,         16) /* ItemType - Creature */
      , (41191, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41191,   1, True ) /* Stuck */
-     , (41191,  12, True ) /* ReportCollisions */
-     , (41191,  13, False) /* Ethereal */
-     , (41191,  14, True ) /* GravityStatus */
-     , (41191,  19, True ) /* Attackable */;
+VALUES (41191,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41191,   1, 'Apostate Excavation Foreman') /* Name */

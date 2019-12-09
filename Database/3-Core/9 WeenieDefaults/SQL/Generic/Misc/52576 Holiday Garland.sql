@@ -12,12 +12,7 @@ VALUES (52576,   1,        128) /* ItemType - Misc */
      , (52576, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52576,   1, False) /* Stuck */
-     , (52576,  11, True ) /* IgnoreCollisions */
-     , (52576,  13, True ) /* Ethereal */
-     , (52576,  14, True ) /* GravityStatus */
-     , (52576,  19, True ) /* Attackable */
-     , (52576,  22, True ) /* Inscribable */;
+VALUES (52576,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52576,   1, 'Holiday Garland') /* Name */

@@ -13,19 +13,13 @@ VALUES (8833,   1,      65536) /* ItemType - Portal */
      , (8833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8833,   1, True ) /* Stuck */
-     , (8833,  12, True ) /* ReportCollisions */
-     , (8833,  13, True ) /* Ethereal */
-     , (8833,  14, True ) /* GravityStatus */
-     , (8833,  15, True ) /* LightsStatus */
-     , (8833,  19, True ) /* Attackable */;
+VALUES (8833,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8833,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8833,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8833,   1, 'Empyrean Cloister Portal') /* Name */
-     , (8833,  38, 'Empyrean Cloister Portal') /* AppraisalPortalDestination */
      , (8833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

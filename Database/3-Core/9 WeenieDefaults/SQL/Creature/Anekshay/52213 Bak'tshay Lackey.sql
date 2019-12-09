@@ -15,14 +15,10 @@ VALUES (52213,   1,         16) /* ItemType - Creature */
      , (52213, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52213,   1, True ) /* Stuck */
-     , (52213,  12, True ) /* ReportCollisions */
-     , (52213,  13, False) /* Ethereal */
-     , (52213,  14, True ) /* GravityStatus */
-     , (52213,  19, True ) /* Attackable */;
+VALUES (52213,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52213,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (52213,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52213,   1, 'Bak''tshay Lackey') /* Name */

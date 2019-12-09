@@ -11,12 +11,7 @@ VALUES (13160,   1,        128) /* ItemType - Misc */
      , (13160,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13160,   1, True ) /* Stuck */
-     , (13160,  11, True ) /* IgnoreCollisions */
-     , (13160,  12, True ) /* ReportCollisions */
-     , (13160,  13, False) /* Ethereal */
-     , (13160,  14, True ) /* GravityStatus */
-     , (13160,  19, True ) /* Attackable */;
+VALUES (13160,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13160,   1, 'Greenvale Settlement') /* Name */

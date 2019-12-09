@@ -9,20 +9,15 @@ VALUES (38042,   1,       2048) /* ItemType - Gem */
      , (38042,  16,          1) /* ItemUseable - No */
      , (38042,  19,          0) /* Value */
      , (38042,  33,          1) /* Bonded - Bonded */
-     , (38042,  65,        101) /* Placement - Resting */
      , (38042,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38042, 114,          1) /* Attuned - Attuned */;
+     , (38042, 114,          1) /* Attuned - Attuned */
+     , (38042, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38042,   1, False) /* Stuck */
-     , (38042,  11, True ) /* IgnoreCollisions */
-     , (38042,  13, True ) /* Ethereal */
-     , (38042,  14, True ) /* GravityStatus */
-     , (38042,  19, True ) /* Attackable */
-     , (38042,  22, True ) /* Inscribable */;
+VALUES (38042,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38042,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (38042,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38042,   1, 'Falatacot Blood Prophetess Trinket') /* Name */

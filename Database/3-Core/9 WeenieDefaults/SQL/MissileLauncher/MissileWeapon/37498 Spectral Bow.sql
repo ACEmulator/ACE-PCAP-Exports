@@ -12,20 +12,14 @@ VALUES (37498,   1,        256) /* ItemType - MissileWeapon */
      , (37498,  18,          1) /* UiEffects - Magical */
      , (37498,  50,          1) /* AmmoType - Arrow */
      , (37498,  51,          2) /* CombatUse - Missle */
-     , (37498,  65,          3) /* Placement - LeftHand */
-     , (37498,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
+     , (37498,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (37498, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37498,   1, False) /* Stuck */
-     , (37498,  11, True ) /* IgnoreCollisions */
-     , (37498,  13, True ) /* Ethereal */
-     , (37498,  14, True ) /* GravityStatus */
-     , (37498,  15, True ) /* LightsStatus */
-     , (37498,  19, True ) /* Attackable */
-     , (37498,  22, True ) /* Inscribable */;
+VALUES (37498,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37498,  76, 0.699999988079071) /* Translucency */;
+VALUES (37498,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37498,   1, 'Spectral Bow') /* Name */;

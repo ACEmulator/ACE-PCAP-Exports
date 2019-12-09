@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23052,   1,        128) /* ItemType - Misc */
      , (23052,   5,         10) /* EncumbranceVal */
      , (23052,  16,          8) /* ItemUseable - Contained */
-     , (23052,  65,        101) /* Placement - Resting */
-     , (23052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23052, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23052,   1, False) /* Stuck */
-     , (23052,  11, True ) /* IgnoreCollisions */
-     , (23052,  13, True ) /* Ethereal */
-     , (23052,  14, True ) /* GravityStatus */
-     , (23052,  19, True ) /* Attackable */
-     , (23052,  22, True ) /* Inscribable */;
+VALUES (23052,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23052,   1, 'Endurance To Quickness Gem') /* Name */;

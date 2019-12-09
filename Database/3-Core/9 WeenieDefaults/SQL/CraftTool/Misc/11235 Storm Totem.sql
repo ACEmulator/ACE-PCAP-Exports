@@ -11,17 +11,12 @@ VALUES (11235,   1,        128) /* ItemType - Misc */
      , (11235,  13,         10) /* StackUnitEncumbrance */
      , (11235,  15,          0) /* StackUnitValue */
      , (11235,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (11235,  65,        101) /* Placement - Resting */
      , (11235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11235,  94,        128) /* TargetType - Misc */;
+     , (11235,  94,        128) /* TargetType - Misc */
+     , (11235, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11235,   1, False) /* Stuck */
-     , (11235,  11, True ) /* IgnoreCollisions */
-     , (11235,  13, True ) /* Ethereal */
-     , (11235,  14, True ) /* GravityStatus */
-     , (11235,  19, True ) /* Attackable */
-     , (11235,  22, True ) /* Inscribable */;
+VALUES (11235,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11235,   1, 'Storm Totem') /* Name */;

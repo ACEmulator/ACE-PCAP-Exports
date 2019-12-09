@@ -13,22 +13,17 @@ VALUES (22876,   1,       2048) /* ItemType - Gem */
      , (22876,  16,          8) /* ItemUseable - Contained */
      , (22876,  18,          1) /* UiEffects - Magical */
      , (22876,  19,        200) /* Value */
-     , (22876,  65,        101) /* Placement - Resting */
      , (22876,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22876,  94,         16) /* TargetType - Creature */
      , (22876, 106,        210) /* ItemSpellcraft */
      , (22876, 107,        100) /* ItemCurMana */
      , (22876, 108,        200) /* ItemMaxMana */
      , (22876, 109,          0) /* ItemDifficulty */
-     , (22876, 110,          0) /* ItemAllegianceRankLimit */;
+     , (22876, 110,          0) /* ItemAllegianceRankLimit */
+     , (22876, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22876,   1, False) /* Stuck */
-     , (22876,  11, True ) /* IgnoreCollisions */
-     , (22876,  13, True ) /* Ethereal */
-     , (22876,  14, True ) /* GravityStatus */
-     , (22876,  19, True ) /* Attackable */
-     , (22876,  22, True ) /* Inscribable */;
+VALUES (22876,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22876,   1, 'Armor Protection Gem') /* Name */

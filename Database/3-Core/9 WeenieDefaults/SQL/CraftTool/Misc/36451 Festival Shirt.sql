@@ -12,17 +12,12 @@ VALUES (36451,   1,        128) /* ItemType - Misc */
      , (36451,  15,         20) /* StackUnitValue */
      , (36451,  16,          8) /* ItemUseable - Contained */
      , (36451,  19,         20) /* Value */
-     , (36451,  65,        101) /* Placement - Resting */
      , (36451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36451,  94,         16) /* TargetType - Creature */;
+     , (36451,  94,         16) /* TargetType - Creature */
+     , (36451, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36451,   1, False) /* Stuck */
-     , (36451,  11, True ) /* IgnoreCollisions */
-     , (36451,  13, True ) /* Ethereal */
-     , (36451,  14, True ) /* GravityStatus */
-     , (36451,  19, True ) /* Attackable */
-     , (36451,  22, True ) /* Inscribable */;
+VALUES (36451,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36451,   1, 'Festival Shirt') /* Name */;

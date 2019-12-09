@@ -13,19 +13,13 @@ VALUES (428,   1,      65536) /* ItemType - Portal */
      , (428, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (428,   1, True ) /* Stuck */
-     , (428,  12, True ) /* ReportCollisions */
-     , (428,  13, True ) /* Ethereal */
-     , (428,  14, True ) /* GravityStatus */
-     , (428,  15, True ) /* LightsStatus */
-     , (428,  19, True ) /* Attackable */;
+VALUES (428,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (428,  54, -0.100000001490116) /* UseRadius */;
+VALUES (428,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (428,   1, 'Sylsfear Dungeon Portal') /* Name */
-     , (428,  38, 'Sylsfear Dungeon Portal') /* AppraisalPortalDestination */
      , (428, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

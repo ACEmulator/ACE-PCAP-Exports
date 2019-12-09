@@ -11,27 +11,22 @@ VALUES (27577,   1,          8) /* ItemType - Jewelry */
      , (27577,  18,          1) /* UiEffects - Magical */
      , (27577,  19,          0) /* Value */
      , (27577,  33,          1) /* Bonded - Bonded */
-     , (27577,  65,        101) /* Placement - Resting */
      , (27577,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27577, 106,        150) /* ItemSpellcraft */
      , (27577, 107,        600) /* ItemCurMana */
      , (27577, 108,        600) /* ItemMaxMana */
      , (27577, 109,        125) /* ItemDifficulty */
      , (27577, 114,          1) /* Attuned - Attuned */
-     , (27577, 151,          2) /* HookType - Wall */;
+     , (27577, 151,          2) /* HookType - Wall */
+     , (27577, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27577,   1, False) /* Stuck */
-     , (27577,  11, True ) /* IgnoreCollisions */
-     , (27577,  13, True ) /* Ethereal */
-     , (27577,  14, True ) /* GravityStatus */
-     , (27577,  19, True ) /* Attackable */
-     , (27577,  22, True ) /* Inscribable */
+VALUES (27577,  22, True ) /* Inscribable */
      , (27577,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27577,   5,   -0.04) /* ManaRate */
-     , (27577,  39, 0.670000016689301) /* DefaultScale */;
+     , (27577,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27577,   1, 'Glittering Bracelet of Acid Protection') /* Name */

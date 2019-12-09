@@ -16,17 +16,13 @@ VALUES (24486,   1,         16) /* ItemType - Creature */
      , (24486, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24486,   1, True ) /* Stuck */
-     , (24486,  12, True ) /* ReportCollisions */
-     , (24486,  13, False) /* Ethereal */
-     , (24486,  14, True ) /* GravityStatus */
-     , (24486,  19, True ) /* Attackable */;
+VALUES (24486,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24486,  39,    0.25) /* DefaultScale */
      , (24486, 8010,       0) /* PCAPRecordedVelocityX */
      , (24486, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24486, 8012, -0.198092147707939) /* PCAPRecordedVelocityZ */;
+     , (24486, 8012,    -0.2) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24486,   1, 'Small Wood Golem') /* Name */

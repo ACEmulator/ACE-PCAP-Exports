@@ -9,20 +9,15 @@ VALUES (30359,   1,          8) /* ItemType - Jewelry */
      , (30359,   9,      32768) /* ValidLocations - NeckWear */
      , (30359,  16,          1) /* ItemUseable - No */
      , (30359,  19,      50000) /* Value */
-     , (30359,  65,        101) /* Placement - Resting */
      , (30359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30359, 151,          2) /* HookType - Wall */;
+     , (30359, 151,          2) /* HookType - Wall */
+     , (30359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30359,   1, False) /* Stuck */
-     , (30359,  11, True ) /* IgnoreCollisions */
-     , (30359,  13, True ) /* Ethereal */
-     , (30359,  14, True ) /* GravityStatus */
-     , (30359,  19, True ) /* Attackable */
-     , (30359,  22, True ) /* Inscribable */;
+VALUES (30359,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30359,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (30359,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30359,   1, 'Ibriya''s Choice') /* Name */;

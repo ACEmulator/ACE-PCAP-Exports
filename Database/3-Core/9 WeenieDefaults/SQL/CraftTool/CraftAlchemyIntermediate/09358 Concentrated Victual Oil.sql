@@ -11,17 +11,10 @@ VALUES (9358,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9358,  15,        750) /* StackUnitValue */
      , (9358,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9358,  19,        750) /* Value */
-     , (9358,  65,        101) /* Placement - Resting */
      , (9358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9358,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (9358, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9358,   1, False) /* Stuck */
-     , (9358,  11, True ) /* IgnoreCollisions */
-     , (9358,  13, True ) /* Ethereal */
-     , (9358,  14, True ) /* GravityStatus */
-     , (9358,  19, True ) /* Attackable */;
+     , (9358, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (9358, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9358,   1, 'Concentrated Victual Oil') /* Name */

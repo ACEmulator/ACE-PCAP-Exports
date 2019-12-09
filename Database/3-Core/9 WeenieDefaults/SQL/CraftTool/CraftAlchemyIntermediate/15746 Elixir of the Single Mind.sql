@@ -12,17 +12,10 @@ VALUES (15746,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15746,  15,         10) /* StackUnitValue */
      , (15746,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15746,  19,         10) /* Value */
-     , (15746,  65,        101) /* Placement - Resting */
      , (15746,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15746,  94,        136) /* TargetType - Jewelry, Misc */
-     , (15746, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15746,   1, False) /* Stuck */
-     , (15746,  11, True ) /* IgnoreCollisions */
-     , (15746,  13, True ) /* Ethereal */
-     , (15746,  14, True ) /* GravityStatus */
-     , (15746,  19, True ) /* Attackable */;
+     , (15746, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (15746, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15746,   1, 'Elixir of the Single Mind') /* Name */

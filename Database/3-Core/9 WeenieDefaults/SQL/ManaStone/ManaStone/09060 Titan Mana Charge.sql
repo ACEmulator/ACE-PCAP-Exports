@@ -9,19 +9,14 @@ VALUES (9060,   1,     524288) /* ItemType - ManaStone */
      , (9060,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (9060,  18,          1) /* UiEffects - Magical */
      , (9060,  19,       9000) /* Value */
-     , (9060,  65,        101) /* Placement - Resting */
      , (9060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9060,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (9060, 107,       5000) /* ItemCurMana */
-     , (9060, 151,          2) /* HookType - Wall */;
+     , (9060, 151,          2) /* HookType - Wall */
+     , (9060, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9060,   1, False) /* Stuck */
-     , (9060,  11, True ) /* IgnoreCollisions */
-     , (9060,  13, True ) /* Ethereal */
-     , (9060,  14, True ) /* GravityStatus */
-     , (9060,  19, True ) /* Attackable */
-     , (9060,  22, True ) /* Inscribable */;
+VALUES (9060,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9060,  87,       1) /* ItemEfficiency */

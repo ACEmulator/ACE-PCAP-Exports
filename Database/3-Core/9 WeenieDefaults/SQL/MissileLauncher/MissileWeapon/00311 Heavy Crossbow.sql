@@ -16,7 +16,6 @@ VALUES (311,   1,        256) /* ItemType - MissileWeapon */
      , (311,  49,        120) /* WeaponTime */
      , (311,  50,          2) /* AmmoType - Bolt */
      , (311,  51,          2) /* CombatUse - Missle */
-     , (311,  65,          3) /* Placement - LeftHand */
      , (311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (311, 105,          6) /* ItemWorkmanship */
      , (311, 131,         75) /* MaterialType - Oak */
@@ -26,15 +25,11 @@ VALUES (311,   1,        256) /* ItemType - MissileWeapon */
      , (311, 160,        250) /* WieldDifficulty */
      , (311, 172,          1) /* AppraisalLongDescDecoration */
      , (311, 353,          9) /* WeaponType - Crossbow */
-     , (311, 8030,          0);
+     , (311, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (311, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (311,   1, False) /* Stuck */
-     , (311,  11, True ) /* IgnoreCollisions */
-     , (311,  13, True ) /* Ethereal */
-     , (311,  14, True ) /* GravityStatus */
-     , (311,  19, True ) /* Attackable */
-     , (311,  22, True ) /* Inscribable */;
+VALUES (311,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (311,  21,       0) /* WeaponLength */

@@ -13,17 +13,12 @@ VALUES (38234,   1,         64) /* ItemType - Money */
      , (38234,  16,          1) /* ItemUseable - No */
      , (38234,  19,          0) /* Value */
      , (38234,  33,          1) /* Bonded - Bonded */
-     , (38234,  65,        101) /* Placement - Resting */
      , (38234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38234, 114,          1) /* Attuned - Attuned */;
+     , (38234, 114,          1) /* Attuned - Attuned */
+     , (38234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38234,   1, False) /* Stuck */
-     , (38234,  11, True ) /* IgnoreCollisions */
-     , (38234,  13, True ) /* Ethereal */
-     , (38234,  14, True ) /* GravityStatus */
-     , (38234,  19, True ) /* Attackable */
-     , (38234,  69, False) /* IsSellable */;
+VALUES (38234,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38234,   1, 'Celestial Hand Trade Token') /* Name */

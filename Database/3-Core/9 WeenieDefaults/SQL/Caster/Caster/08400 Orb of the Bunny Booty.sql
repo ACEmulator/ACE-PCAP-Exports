@@ -18,17 +18,12 @@ VALUES (8400,   1,      32768) /* ItemType - Caster */
      , (8400, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8400,   1, False) /* Stuck */
-     , (8400,  11, True ) /* IgnoreCollisions */
-     , (8400,  13, True ) /* Ethereal */
-     , (8400,  14, True ) /* GravityStatus */
-     , (8400,  19, True ) /* Attackable */
-     , (8400,  22, True ) /* Inscribable */
+VALUES (8400,  22, True ) /* Inscribable */
      , (8400,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8400,  29,       1) /* WeaponDefense */
-     , (8400,  39, 1.60000002384186) /* DefaultScale */
+     , (8400,  39,     1.6) /* DefaultScale */
      , (8400, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -12,29 +12,24 @@ VALUES (28611,   1,          4) /* ItemType - Clothing */
      , (28611,  18,          1) /* UiEffects - Magical */
      , (28611,  19,      28311) /* Value */
      , (28611,  28,        185) /* ArmorLevel */
-     , (28611,  65,        101) /* Placement - Resting */
      , (28611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28611, 105,          3) /* ItemWorkmanship */
      , (28611, 131,         54) /* MaterialType - GromnieHide */
-     , (28611, 172,          1) /* AppraisalLongDescDecoration */;
+     , (28611, 172,          1) /* AppraisalLongDescDecoration */
+     , (28611, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28611,   1, False) /* Stuck */
-     , (28611,  11, True ) /* IgnoreCollisions */
-     , (28611,  13, True ) /* Ethereal */
-     , (28611,  14, True ) /* GravityStatus */
-     , (28611,  19, True ) /* Attackable */
-     , (28611,  22, True ) /* Inscribable */
+VALUES (28611,  22, True ) /* Inscribable */
      , (28611, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28611,  13,       1) /* ArmorModVsSlash */
-     , (28611,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (28611,  14,     0.8) /* ArmorModVsPierce */
      , (28611,  15,       1) /* ArmorModVsBludgeon */
      , (28611,  16,     0.5) /* ArmorModVsCold */
      , (28611,  17,     0.5) /* ArmorModVsFire */
-     , (28611,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (28611,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (28611,  18,     0.3) /* ArmorModVsAcid */
+     , (28611,  19,     0.6) /* ArmorModVsElectric */
      , (28611, 165,       1) /* ArmorModVsNether */
      , (28611, 8004,       8) /* PCAPRecordedWorkmanship */;
 

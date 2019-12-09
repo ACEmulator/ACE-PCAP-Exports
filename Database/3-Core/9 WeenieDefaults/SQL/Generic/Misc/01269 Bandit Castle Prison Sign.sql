@@ -8,16 +8,11 @@ VALUES (1269,   1,        128) /* ItemType - Misc */
      , (1269,   5,       9000) /* EncumbranceVal */
      , (1269,  16,          1) /* ItemUseable - No */
      , (1269,  19,        125) /* Value */
-     , (1269,  65,        101) /* Placement - Resting */
-     , (1269,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (1269,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (1269, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1269,   1, True ) /* Stuck */
-     , (1269,  11, True ) /* IgnoreCollisions */
-     , (1269,  12, True ) /* ReportCollisions */
-     , (1269,  13, False) /* Ethereal */
-     , (1269,  14, True ) /* GravityStatus */
-     , (1269,  19, True ) /* Attackable */;
+VALUES (1269,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1269,   1, 'Bandit Castle Prison Sign') /* Name */

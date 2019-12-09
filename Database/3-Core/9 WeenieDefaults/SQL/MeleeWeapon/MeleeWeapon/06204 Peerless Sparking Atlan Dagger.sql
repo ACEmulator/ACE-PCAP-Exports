@@ -17,7 +17,6 @@ VALUES (6204,   1,          1) /* ItemType - MeleeWeapon */
      , (6204,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (6204,  49,         15) /* WeaponTime */
      , (6204,  51,          1) /* CombatUse - Melee */
-     , (6204,  65,        101) /* Placement - Resting */
      , (6204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6204, 106,        200) /* ItemSpellcraft */
      , (6204, 107,        485) /* ItemCurMana */
@@ -27,24 +26,20 @@ VALUES (6204,   1,          1) /* ItemType - MeleeWeapon */
      , (6204, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (6204, 160,        250) /* WieldDifficulty */
      , (6204, 353,          6) /* WeaponType - Dagger */
-     , (6204, 8030,          0);
+     , (6204, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (6204, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6204,   1, False) /* Stuck */
-     , (6204,  11, True ) /* IgnoreCollisions */
-     , (6204,  13, True ) /* Ethereal */
-     , (6204,  14, True ) /* GravityStatus */
-     , (6204,  19, True ) /* Attackable */
-     , (6204,  22, True ) /* Inscribable */
+VALUES (6204,  22, True ) /* Inscribable */
      , (6204,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6204,   5, -0.0329999998211861) /* ManaRate */
+VALUES (6204,   5,   -0.03) /* ManaRate */
      , (6204,  21,       0) /* WeaponLength */
-     , (6204,  22, 0.449999988079071) /* DamageVariance */
+     , (6204,  22,    0.45) /* DamageVariance */
      , (6204,  26,       0) /* MaximumVelocity */
-     , (6204,  29, 1.04999995231628) /* WeaponDefense */
-     , (6204,  62, 1.10000002384186) /* WeaponOffense */
+     , (6204,  29,    1.05) /* WeaponDefense */
+     , (6204,  62,     1.1) /* WeaponOffense */
      , (6204,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

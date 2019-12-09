@@ -18,33 +18,27 @@ VALUES (7572,   1,          1) /* ItemType - MeleeWeapon */
      , (7572,  48,         45) /* WeaponSkill - LightWeapons */
      , (7572,  49,         20) /* WeaponTime */
      , (7572,  51,          1) /* CombatUse - Melee */
-     , (7572,  65,        101) /* Placement - Resting */
      , (7572,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7572, 114,          1) /* Attuned - Attuned */
      , (7572, 158,          2) /* WieldRequirements - RawSkill */
      , (7572, 159,         45) /* WieldSkillType - LightWeapons */
      , (7572, 160,        250) /* WieldDifficulty */
      , (7572, 353,          7) /* WeaponType - Staff */
-     , (7572, 8030,          0);
+     , (7572, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (7572, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7572,   1, False) /* Stuck */
-     , (7572,  11, True ) /* IgnoreCollisions */
-     , (7572,  13, True ) /* Ethereal */
-     , (7572,  14, True ) /* GravityStatus */
-     , (7572,  15, True ) /* LightsStatus */
-     , (7572,  19, True ) /* Attackable */
-     , (7572,  22, True ) /* Inscribable */;
+VALUES (7572,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7572,  21,       0) /* WeaponLength */
      , (7572,  22,     0.5) /* DamageVariance */
      , (7572,  26,       0) /* MaximumVelocity */
      , (7572,  29,       1) /* WeaponDefense */
-     , (7572,  39, 0.670000016689301) /* DefaultScale */
+     , (7572,  39,    0.67) /* DefaultScale */
      , (7572,  62,     1.1) /* WeaponOffense */
      , (7572,  63,       1) /* DamageMod */
-     , (7572,  76, 0.699999988079071) /* Translucency */;
+     , (7572,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7572,   1, 'Ravenous Staff') /* Name */

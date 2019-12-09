@@ -12,22 +12,17 @@ VALUES (9540,   1,         32) /* ItemType - Food */
      , (9540,  15,          1) /* StackUnitValue */
      , (9540,  16,          8) /* ItemUseable - Contained */
      , (9540,  19,          1) /* Value */
-     , (9540,  65,        101) /* Placement - Resting */
      , (9540,  89,          4) /* BoosterEnum - Stamina */
      , (9540,  90,          4) /* BoostValue */
      , (9540,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9540, 151,          9) /* HookType - Floor, Yard */;
+     , (9540, 151,          9) /* HookType - Floor, Yard */
+     , (9540, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9540,   1, False) /* Stuck */
-     , (9540,  11, True ) /* IgnoreCollisions */
-     , (9540,  13, True ) /* Ethereal */
-     , (9540,  14, True ) /* GravityStatus */
-     , (9540,  19, True ) /* Attackable */
-     , (9540,  22, True ) /* Inscribable */;
+VALUES (9540,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9540,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (9540,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9540,   1, 'Purple Marshmallow Eep') /* Name */

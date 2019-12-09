@@ -15,11 +15,7 @@ VALUES (29299,   1,         16) /* ItemType - Creature */
      , (29299, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29299,   1, True ) /* Stuck */
-     , (29299,  12, True ) /* ReportCollisions */
-     , (29299,  13, False) /* Ethereal */
-     , (29299,  14, True ) /* GravityStatus */
-     , (29299,  19, True ) /* Attackable */;
+VALUES (29299,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29299,   1, 'Crimini Thrungus') /* Name */

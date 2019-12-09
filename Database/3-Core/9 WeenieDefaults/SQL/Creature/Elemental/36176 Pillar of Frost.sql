@@ -15,12 +15,7 @@ VALUES (36176,   1,         16) /* ItemType - Creature */
      , (36176, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36176,   1, True ) /* Stuck */
-     , (36176,  12, True ) /* ReportCollisions */
-     , (36176,  13, True ) /* Ethereal */
-     , (36176,  14, True ) /* GravityStatus */
-     , (36176,  15, True ) /* LightsStatus */
-     , (36176,  19, True ) /* Attackable */;
+VALUES (36176,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36176,   1, 'Pillar of Frost') /* Name */

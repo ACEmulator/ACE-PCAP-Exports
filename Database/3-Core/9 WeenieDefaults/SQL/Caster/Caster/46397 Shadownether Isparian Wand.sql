@@ -14,7 +14,6 @@ VALUES (46397,   1,      32768) /* ItemType - Caster */
      , (46397,  33,          1) /* Bonded - Bonded */
      , (46397,  36,       9999) /* ResistMagic */
      , (46397,  45,       1024) /* DamageType - Nether */
-     , (46397,  65,          1) /* Placement - RightHandCombat */
      , (46397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46397,  94,         16) /* TargetType - Creature */
      , (46397, 114,          1) /* Attuned - Attuned */
@@ -22,21 +21,17 @@ VALUES (46397,   1,      32768) /* ItemType - Caster */
      , (46397, 158,          2) /* WieldRequirements - RawSkill */
      , (46397, 159,         43) /* WieldSkillType - VoidMagic */
      , (46397, 160,        335) /* WieldDifficulty */
-     , (46397, 166,         22) /* SlayerCreatureType - Shadow */;
+     , (46397, 166,         22) /* SlayerCreatureType - Shadow */
+     , (46397, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46397,   1, False) /* Stuck */
-     , (46397,  11, True ) /* IgnoreCollisions */
-     , (46397,  13, True ) /* Ethereal */
-     , (46397,  14, True ) /* GravityStatus */
-     , (46397,  19, True ) /* Attackable */
-     , (46397,  22, True ) /* Inscribable */
+VALUES (46397,  22, True ) /* Inscribable */
      , (46397,  69, False) /* IsSellable */
      , (46397,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46397,  29,    1.29) /* WeaponDefense */
-     , (46397, 144,   0.204) /* ManaConversionMod */
+     , (46397, 144,     0.2) /* ManaConversionMod */
      , (46397, 152,    1.09) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

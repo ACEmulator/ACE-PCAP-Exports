@@ -15,12 +15,7 @@ VALUES (20632,   1,         16) /* ItemType - Creature */
      , (20632, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20632,   1, True ) /* Stuck */
-     , (20632,  12, True ) /* ReportCollisions */
-     , (20632,  13, False) /* Ethereal */
-     , (20632,  14, True ) /* GravityStatus */
-     , (20632,  19, True ) /* Attackable */
-     , (20632,  42, True ) /* AllowEdgeSlide */;
+VALUES (20632,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20632,   1, 'Champion of the Blood') /* Name */

@@ -13,17 +13,12 @@ VALUES (52756,   1,       2048) /* ItemType - Gem */
      , (52756,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (52756,  18,          1) /* UiEffects - Magical */
      , (52756,  19,         30) /* Value */
-     , (52756,  65,        101) /* Placement - Resting */
      , (52756,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52756,  94,      33025) /* TargetType - WeaponOrCaster */;
+     , (52756,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (52756, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52756,   1, False) /* Stuck */
-     , (52756,  11, True ) /* IgnoreCollisions */
-     , (52756,  13, True ) /* Ethereal */
-     , (52756,  14, True ) /* GravityStatus */
-     , (52756,  19, True ) /* Attackable */
-     , (52756,  22, True ) /* Inscribable */;
+VALUES (52756,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52756,   1, 'Nature''s Wrath Amplification') /* Name */;

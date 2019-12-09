@@ -9,20 +9,15 @@ VALUES (14511,   1,      16384) /* ItemType - Key */
      , (14511,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (14511,  19,        100) /* Value */
      , (14511,  33,          1) /* Bonded - Bonded */
-     , (14511,  65,        101) /* Placement - Resting */
      , (14511,  91,          1) /* MaxStructure */
      , (14511,  92,          1) /* Structure */
      , (14511,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14511,  94,        640) /* TargetType - LockableMagicTarget */
-     , (14511, 114,          1) /* Attuned - Attuned */;
+     , (14511, 114,          1) /* Attuned - Attuned */
+     , (14511, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14511,   1, False) /* Stuck */
-     , (14511,  11, True ) /* IgnoreCollisions */
-     , (14511,  13, True ) /* Ethereal */
-     , (14511,  14, True ) /* GravityStatus */
-     , (14511,  19, True ) /* Attackable */
-     , (14511,  22, True ) /* Inscribable */;
+VALUES (14511,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14511,   1, 'Hammer of Lightning') /* Name */

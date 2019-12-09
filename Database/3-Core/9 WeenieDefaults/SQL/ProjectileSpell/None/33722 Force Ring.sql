@@ -9,19 +9,14 @@ VALUES (33722,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33722,   1, True ) /* Stuck */
-     , (33722,  12, True ) /* ReportCollisions */
-     , (33722,  13, False) /* Ethereal */
-     , (33722,  15, True ) /* LightsStatus */
-     , (33722,  17, True ) /* Inelastic */
-     , (33722,  19, True ) /* Attackable */
      , (33722,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33722,  78,       1) /* Friction */
      , (33722,  79,       0) /* Elasticity */
-     , (33722, 8010, -1.39040768146515) /* PCAPRecordedVelocityX */
-     , (33722, 8011, -9.14842510223389) /* PCAPRecordedVelocityY */
-     , (33722, 8012, -0.503519892692566) /* PCAPRecordedVelocityZ */;
+     , (33722, 8010,   -1.39) /* PCAPRecordedVelocityX */
+     , (33722, 8011,   -9.15) /* PCAPRecordedVelocityY */
+     , (33722, 8012,    -0.5) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33722,   1, 'Force Ring') /* Name */;

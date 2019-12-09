@@ -14,19 +14,13 @@ VALUES (30971,   1,      65536) /* ItemType - Portal */
      , (30971, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30971,   1, True ) /* Stuck */
-     , (30971,  12, True ) /* ReportCollisions */
-     , (30971,  13, True ) /* Ethereal */
-     , (30971,  14, True ) /* GravityStatus */
-     , (30971,  15, True ) /* LightsStatus */
-     , (30971,  19, True ) /* Attackable */;
+VALUES (30971,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30971,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30971,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30971,   1, 'Path of the Blind') /* Name */
-     , (30971,  38, 'Path of the Blind') /* AppraisalPortalDestination */
      , (30971, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

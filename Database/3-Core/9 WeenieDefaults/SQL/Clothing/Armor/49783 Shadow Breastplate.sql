@@ -10,16 +10,11 @@ VALUES (49783,   1,          2) /* ItemType - Armor */
      , (49783,   9,        512) /* ValidLocations - ChestArmor */
      , (49783,  16,          1) /* ItemUseable - No */
      , (49783,  19,       1000) /* Value */
-     , (49783,  65,        101) /* Placement - Resting */
-     , (49783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (49783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (49783, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49783,   1, False) /* Stuck */
-     , (49783,  11, True ) /* IgnoreCollisions */
-     , (49783,  13, True ) /* Ethereal */
-     , (49783,  14, True ) /* GravityStatus */
-     , (49783,  19, True ) /* Attackable */
-     , (49783,  22, True ) /* Inscribable */;
+VALUES (49783,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49783,   1, 'Shadow Breastplate') /* Name */;

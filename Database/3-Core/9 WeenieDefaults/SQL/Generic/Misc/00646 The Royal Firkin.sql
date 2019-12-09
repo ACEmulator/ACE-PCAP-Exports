@@ -8,16 +8,11 @@ VALUES (646,   1,        128) /* ItemType - Misc */
      , (646,   5,       9000) /* EncumbranceVal */
      , (646,  16,          1) /* ItemUseable - No */
      , (646,  19,        125) /* Value */
-     , (646,  65,        101) /* Placement - Resting */
-     , (646,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (646,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (646, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (646,   1, True ) /* Stuck */
-     , (646,  11, True ) /* IgnoreCollisions */
-     , (646,  12, True ) /* ReportCollisions */
-     , (646,  13, False) /* Ethereal */
-     , (646,  14, True ) /* GravityStatus */
-     , (646,  19, True ) /* Attackable */;
+VALUES (646,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (646,   1, 'The Royal Firkin') /* Name */

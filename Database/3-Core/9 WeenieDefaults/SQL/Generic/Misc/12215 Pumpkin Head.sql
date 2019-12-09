@@ -8,17 +8,12 @@ VALUES (12215,   1,        128) /* ItemType - Misc */
      , (12215,   5,        200) /* EncumbranceVal */
      , (12215,  16,          1) /* ItemUseable - No */
      , (12215,  19,          0) /* Value */
-     , (12215,  65,        101) /* Placement - Resting */
      , (12215,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12215, 151,          9) /* HookType - Floor, Yard */;
+     , (12215, 151,          9) /* HookType - Floor, Yard */
+     , (12215, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12215,   1, False) /* Stuck */
-     , (12215,  11, True ) /* IgnoreCollisions */
-     , (12215,  13, True ) /* Ethereal */
-     , (12215,  14, True ) /* GravityStatus */
-     , (12215,  19, True ) /* Attackable */
-     , (12215,  22, True ) /* Inscribable */;
+VALUES (12215,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12215,   1, 'Pumpkin Head') /* Name */

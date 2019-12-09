@@ -16,14 +16,10 @@ VALUES (28822,   1,         16) /* ItemType - Creature */
      , (28822, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28822,   1, True ) /* Stuck */
-     , (28822,  12, True ) /* ReportCollisions */
-     , (28822,  13, False) /* Ethereal */
-     , (28822,  14, True ) /* GravityStatus */
-     , (28822,  19, True ) /* Attackable */;
+VALUES (28822,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28822,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (28822,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28822,   1, 'Fiun Abayar') /* Name */

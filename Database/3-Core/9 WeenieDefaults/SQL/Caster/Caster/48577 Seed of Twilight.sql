@@ -12,7 +12,6 @@ VALUES (48577,   1,      32768) /* ItemType - Caster */
      , (48577,  18,          1) /* UiEffects - Magical */
      , (48577,  19,      20000) /* Value */
      , (48577,  33,          1) /* Bonded - Bonded */
-     , (48577,  65,          1) /* Placement - RightHandCombat */
      , (48577,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (48577,  94,         16) /* TargetType - Creature */
      , (48577, 106,        450) /* ItemSpellcraft */
@@ -23,23 +22,18 @@ VALUES (48577,   1,      32768) /* ItemType - Caster */
      , (48577, 151,          3) /* HookType - Floor, Wall */
      , (48577, 158,          2) /* WieldRequirements - RawSkill */
      , (48577, 159,         31) /* WieldSkillType - CreatureEnchantment */
-     , (48577, 160,        340) /* WieldDifficulty */;
+     , (48577, 160,        340) /* WieldDifficulty */
+     , (48577, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48577,   1, False) /* Stuck */
-     , (48577,  11, True ) /* IgnoreCollisions */
-     , (48577,  13, True ) /* Ethereal */
-     , (48577,  14, True ) /* GravityStatus */
-     , (48577,  15, True ) /* LightsStatus */
-     , (48577,  19, True ) /* Attackable */
-     , (48577,  22, True ) /* Inscribable */
+VALUES (48577,  22, True ) /* Inscribable */
      , (48577,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48577,   5, -0.025000000372529) /* ManaRate */
-     , (48577,  29, 1.20000004768372) /* WeaponDefense */
-     , (48577,  39, 0.600000023841858) /* DefaultScale */
-     , (48577, 144, 0.200000002980232) /* ManaConversionMod */;
+VALUES (48577,   5,   -0.03) /* ManaRate */
+     , (48577,  29,     1.2) /* WeaponDefense */
+     , (48577,  39,     0.6) /* DefaultScale */
+     , (48577, 144,     0.2) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48577,   1, 'Seed of Twilight') /* Name */

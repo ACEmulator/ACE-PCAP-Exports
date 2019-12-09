@@ -12,19 +12,13 @@ VALUES (13131,   1,      65536) /* ItemType - Portal */
      , (13131, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13131,   1, True ) /* Stuck */
-     , (13131,  12, True ) /* ReportCollisions */
-     , (13131,  13, True ) /* Ethereal */
-     , (13131,  14, True ) /* GravityStatus */
-     , (13131,  15, True ) /* LightsStatus */
-     , (13131,  19, True ) /* Attackable */;
+VALUES (13131,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13131,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13131,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13131,   1, 'Auroch Pasture Estates Portal') /* Name */
-     , (13131,  38, 'Auroch Pasture Estates Portal (23.3N, 26.5E).') /* AppraisalPortalDestination */
      , (13131, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

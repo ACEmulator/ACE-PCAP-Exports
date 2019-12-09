@@ -16,14 +16,10 @@ VALUES (22208,   1,         16) /* ItemType - Creature */
      , (22208, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22208,   1, True ) /* Stuck */
-     , (22208,  12, True ) /* ReportCollisions */
-     , (22208,  13, False) /* Ethereal */
-     , (22208,  14, True ) /* GravityStatus */
-     , (22208,  19, True ) /* Attackable */;
+VALUES (22208,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22208,  76, 0.300000011920929) /* Translucency */;
+VALUES (22208,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22208,   1, 'Skeleton Wraith') /* Name */

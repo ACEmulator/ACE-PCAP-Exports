@@ -8,16 +8,11 @@ VALUES (682,   1,        128) /* ItemType - Misc */
      , (682,   5,       9000) /* EncumbranceVal */
      , (682,  16,          1) /* ItemUseable - No */
      , (682,  19,        125) /* Value */
-     , (682,  65,        101) /* Placement - Resting */
-     , (682,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (682,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (682, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (682,   1, True ) /* Stuck */
-     , (682,  11, True ) /* IgnoreCollisions */
-     , (682,  12, True ) /* ReportCollisions */
-     , (682,  13, False) /* Ethereal */
-     , (682,  14, True ) /* GravityStatus */
-     , (682,  19, True ) /* Attackable */;
+VALUES (682,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (682,   1, 'Gems and Jewels') /* Name */

@@ -15,12 +15,7 @@ VALUES (48607,   1,          1) /* ItemType - MeleeWeapon */
      , (48607, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48607,   1, False) /* Stuck */
-     , (48607,  11, True ) /* IgnoreCollisions */
-     , (48607,  13, True ) /* Ethereal */
-     , (48607,  14, True ) /* GravityStatus */
-     , (48607,  19, True ) /* Attackable */
-     , (48607,  22, True ) /* Inscribable */;
+VALUES (48607,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48607,   1, 'Frigid Splinter') /* Name */;

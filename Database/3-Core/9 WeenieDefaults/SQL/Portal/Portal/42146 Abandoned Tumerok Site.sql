@@ -13,21 +13,15 @@ VALUES (42146,   1,      65536) /* ItemType - Portal */
      , (42146, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42146,   1, True ) /* Stuck */
-     , (42146,  12, True ) /* ReportCollisions */
-     , (42146,  13, True ) /* Ethereal */
-     , (42146,  14, True ) /* GravityStatus */
-     , (42146,  15, True ) /* LightsStatus */
-     , (42146,  19, True ) /* Attackable */;
+VALUES (42146,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42146,  39, 0.800000011920929) /* DefaultScale */
-     , (42146,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42146,  39,     0.8) /* DefaultScale */
+     , (42146,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42146,   1, 'Abandoned Tumerok Site') /* Name */
      , (42146,  16, 'A portal leading to near the Abandoned Tumerok Site outside Redspire where the Harvester Pincer may be found.') /* LongDesc */
-     , (42146,  38, 'Abandoned Tumerok Site (41.9N, 82.2W).') /* AppraisalPortalDestination */
      , (42146, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

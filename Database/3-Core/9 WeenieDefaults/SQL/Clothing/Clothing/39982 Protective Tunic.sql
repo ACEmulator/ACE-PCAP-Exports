@@ -12,7 +12,6 @@ VALUES (39982,   1,          4) /* ItemType - Clothing */
      , (39982,  16,          1) /* ItemUseable - No */
      , (39982,  19,         10) /* Value */
      , (39982,  28,        240) /* ArmorLevel */
-     , (39982,  65,        101) /* Placement - Resting */
      , (39982,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39982, 106,        400) /* ItemSpellcraft */
      , (39982, 107,       4726) /* ItemCurMana */
@@ -21,20 +20,16 @@ VALUES (39982,   1,          4) /* ItemType - Clothing */
      , (39982, 158,          7) /* WieldRequirements - Level */
      , (39982, 159,          1) /* WieldSkillType - Axe */
      , (39982, 160,        100) /* WieldDifficulty */
-     , (39982, 265,         33) /* EquipmentSetId - OlthoiClothing */;
+     , (39982, 265,         33) /* EquipmentSetId - OlthoiClothing */
+     , (39982, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39982,   1, False) /* Stuck */
-     , (39982,  11, True ) /* IgnoreCollisions */
-     , (39982,  13, True ) /* Ethereal */
-     , (39982,  14, True ) /* GravityStatus */
-     , (39982,  19, True ) /* Attackable */
-     , (39982,  22, True ) /* Inscribable */
+VALUES (39982,  22, True ) /* Inscribable */
      , (39982,  91, True ) /* Retained */
      , (39982, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39982,   5, -0.0500000007450581) /* ManaRate */
+VALUES (39982,   5,   -0.05) /* ManaRate */
      , (39982,  13,       3) /* ArmorModVsSlash */
      , (39982,  14,       3) /* ArmorModVsPierce */
      , (39982,  15,       3) /* ArmorModVsBludgeon */

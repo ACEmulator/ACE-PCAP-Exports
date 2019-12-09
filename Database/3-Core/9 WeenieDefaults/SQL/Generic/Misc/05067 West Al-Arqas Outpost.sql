@@ -8,15 +8,11 @@ VALUES (5067,   1,        128) /* ItemType - Misc */
      , (5067,   5,       9000) /* EncumbranceVal */
      , (5067,  16,          1) /* ItemUseable - No */
      , (5067,  19,        125) /* Value */
-     , (5067,  65,        101) /* Placement - Resting */
-     , (5067,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (5067,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (5067, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5067,   1, True ) /* Stuck */
-     , (5067,  11, True ) /* IgnoreCollisions */
-     , (5067,  12, True ) /* ReportCollisions */
-     , (5067,  13, False) /* Ethereal */
-     , (5067,  19, True ) /* Attackable */;
+VALUES (5067,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5067,   1, 'West Al-Arqas Outpost') /* Name */

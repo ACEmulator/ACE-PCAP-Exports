@@ -7,16 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45734,   1,        128) /* ItemType - Misc */
      , (45734,   5,         50) /* EncumbranceVal */
      , (45734,  16,          1) /* ItemUseable - No */
-     , (45734,  65,        101) /* Placement - Resting */
-     , (45734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (45734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45734, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45734,   1, False) /* Stuck */
-     , (45734,  11, True ) /* IgnoreCollisions */
-     , (45734,  13, True ) /* Ethereal */
-     , (45734,  14, True ) /* GravityStatus */
-     , (45734,  19, True ) /* Attackable */
-     , (45734,  22, True ) /* Inscribable */;
+VALUES (45734,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45734,   1, 'Geraine''s Tome (3)') /* Name */;

@@ -9,17 +9,12 @@ VALUES (27514,   1,        128) /* ItemType - Misc */
      , (27514,  16,          1) /* ItemUseable - No */
      , (27514,  19,          0) /* Value */
      , (27514,  33,          1) /* Bonded - Bonded */
-     , (27514,  65,        101) /* Placement - Resting */
      , (27514,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27514, 114,          1) /* Attuned - Attuned */;
+     , (27514, 114,          1) /* Attuned - Attuned */
+     , (27514, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27514,   1, False) /* Stuck */
-     , (27514,  11, True ) /* IgnoreCollisions */
-     , (27514,  13, True ) /* Ethereal */
-     , (27514,  14, True ) /* GravityStatus */
-     , (27514,  19, True ) /* Attackable */
-     , (27514,  22, True ) /* Inscribable */;
+VALUES (27514,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27514,   1, 'Painbringer''s Head') /* Name */

@@ -9,17 +9,12 @@ VALUES (7596,   1,        128) /* ItemType - Misc */
      , (7596,  16,          1) /* ItemUseable - No */
      , (7596,  19,          0) /* Value */
      , (7596,  33,          1) /* Bonded - Bonded */
-     , (7596,  65,        101) /* Placement - Resting */
      , (7596,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7596, 114,          1) /* Attuned - Attuned */;
+     , (7596, 114,          1) /* Attuned - Attuned */
+     , (7596, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7596,   1, False) /* Stuck */
-     , (7596,  11, True ) /* IgnoreCollisions */
-     , (7596,  13, True ) /* Ethereal */
-     , (7596,  14, True ) /* GravityStatus */
-     , (7596,  19, True ) /* Attackable */
-     , (7596,  22, True ) /* Inscribable */;
+VALUES (7596,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7596,   1, 'Refined Medium-Grade Chorizite') /* Name */

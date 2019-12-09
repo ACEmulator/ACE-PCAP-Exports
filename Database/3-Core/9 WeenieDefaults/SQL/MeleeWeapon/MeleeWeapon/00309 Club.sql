@@ -16,7 +16,6 @@ VALUES (309,   1,          1) /* ItemType - MeleeWeapon */
      , (309,  48,         45) /* WeaponSkill - LightWeapons */
      , (309,  49,         37) /* WeaponTime */
      , (309,  51,          1) /* CombatUse - Melee */
-     , (309,  65,          1) /* Placement - RightHandCombat */
      , (309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (309, 105,          6) /* ItemWorkmanship */
      , (309, 131,         51) /* MaterialType - Ivory */
@@ -28,15 +27,11 @@ VALUES (309,   1,          1) /* ItemType - MeleeWeapon */
      , (309, 177,          1) /* GemCount */
      , (309, 178,         26) /* GemType */
      , (309, 353,          4) /* WeaponType - Mace */
-     , (309, 8030,          0);
+     , (309, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (309, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (309,   1, False) /* Stuck */
-     , (309,  11, True ) /* IgnoreCollisions */
-     , (309,  13, True ) /* Ethereal */
-     , (309,  14, True ) /* GravityStatus */
-     , (309,  19, True ) /* Attackable */
-     , (309,  22, True ) /* Inscribable */;
+VALUES (309,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (309,  21,       0) /* WeaponLength */
@@ -46,7 +41,7 @@ VALUES (309,  21,       0) /* WeaponLength */
      , (309,  39,    1.25) /* DefaultScale */
      , (309,  62,    1.05) /* WeaponOffense */
      , (309,  63,       1) /* DamageMod */
-     , (309, 149,   1.005) /* WeaponMissileDefense */;
+     , (309, 149,       1) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (309,   1, 'Club') /* Name */

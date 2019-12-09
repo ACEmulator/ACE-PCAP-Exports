@@ -12,19 +12,13 @@ VALUES (7935,   1,      65536) /* ItemType - Portal */
      , (7935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7935,   1, True ) /* Stuck */
-     , (7935,  12, True ) /* ReportCollisions */
-     , (7935,  13, True ) /* Ethereal */
-     , (7935,  14, True ) /* GravityStatus */
-     , (7935,  15, True ) /* LightsStatus */
-     , (7935,  19, True ) /* Attackable */;
+VALUES (7935,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7935,  54, -0.100000001490116) /* UseRadius */;
+VALUES (7935,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7935,   1, 'The Floating City') /* Name */
-     , (7935,  38, 'The Floating City') /* AppraisalPortalDestination */
      , (7935, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

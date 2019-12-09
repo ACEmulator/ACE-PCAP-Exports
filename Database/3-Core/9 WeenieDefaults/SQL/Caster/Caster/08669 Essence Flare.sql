@@ -10,7 +10,6 @@ VALUES (8669,   1,      32768) /* ItemType - Caster */
      , (8669,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (8669,  18,          1) /* UiEffects - Magical */
      , (8669,  19,        600) /* Value */
-     , (8669,  65,        101) /* Placement - Resting */
      , (8669,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8669,  94,         16) /* TargetType - Creature */
      , (8669, 106,        200) /* ItemSpellcraft */
@@ -18,21 +17,16 @@ VALUES (8669,   1,      32768) /* ItemType - Caster */
      , (8669, 108,       1200) /* ItemMaxMana */
      , (8669, 115,        150) /* ItemSkillLevelLimit */
      , (8669, 151,          2) /* HookType - Wall */
-     , (8669, 176,         16) /* AppraisalItemSkill */;
+     , (8669, 176,         16) /* AppraisalItemSkill */
+     , (8669, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8669,   1, False) /* Stuck */
-     , (8669,  11, True ) /* IgnoreCollisions */
-     , (8669,  13, True ) /* Ethereal */
-     , (8669,  14, True ) /* GravityStatus */
-     , (8669,  15, True ) /* LightsStatus */
-     , (8669,  19, True ) /* Attackable */
-     , (8669,  22, True ) /* Inscribable */;
+VALUES (8669,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8669,   5,   -0.05) /* ManaRate */
      , (8669,  29,       1) /* WeaponDefense */
-     , (8669,  39, 1.20000004768372) /* DefaultScale */
+     , (8669,  39,     1.2) /* DefaultScale */
      , (8669,  76,     0.5) /* Translucency */
      , (8669, 144,    0.05) /* ManaConversionMod */;
 

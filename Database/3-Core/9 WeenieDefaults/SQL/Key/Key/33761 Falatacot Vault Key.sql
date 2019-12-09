@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33761,   1,      16384) /* ItemType - Key */
      , (33761,   5,         20) /* EncumbranceVal */
      , (33761,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (33761,  65,        101) /* Placement - Resting */
      , (33761,  91,          1) /* MaxStructure */
      , (33761,  92,          1) /* Structure */
      , (33761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33761,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (33761,  94,        640) /* TargetType - LockableMagicTarget */
+     , (33761, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33761,   1, False) /* Stuck */
-     , (33761,  11, True ) /* IgnoreCollisions */
-     , (33761,  13, True ) /* Ethereal */
-     , (33761,  14, True ) /* GravityStatus */
-     , (33761,  19, True ) /* Attackable */
-     , (33761,  22, True ) /* Inscribable */;
+VALUES (33761,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33761,   1, 'Falatacot Vault Key') /* Name */;

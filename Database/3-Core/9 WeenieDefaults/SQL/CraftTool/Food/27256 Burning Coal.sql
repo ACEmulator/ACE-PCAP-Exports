@@ -20,13 +20,6 @@ VALUES (27256,   1,         32) /* ItemType - Food */
      , (27256, 108,         50) /* ItemMaxMana */
      , (27256, 109,        200) /* ItemDifficulty */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27256,   1, False) /* Stuck */
-     , (27256,  11, True ) /* IgnoreCollisions */
-     , (27256,  13, True ) /* Ethereal */
-     , (27256,  14, True ) /* GravityStatus */
-     , (27256,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27256,   1, 'Burning Coal') /* Name */
      , (27256,  14, 'Use this item to stoke the fire within.') /* Use */

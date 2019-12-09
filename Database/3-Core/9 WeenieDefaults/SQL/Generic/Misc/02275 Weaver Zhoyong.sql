@@ -8,16 +8,11 @@ VALUES (2275,   1,        128) /* ItemType - Misc */
      , (2275,   5,       9000) /* EncumbranceVal */
      , (2275,  16,          1) /* ItemUseable - No */
      , (2275,  19,        125) /* Value */
-     , (2275,  65,        101) /* Placement - Resting */
-     , (2275,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (2275,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (2275, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2275,   1, True ) /* Stuck */
-     , (2275,  11, True ) /* IgnoreCollisions */
-     , (2275,  12, True ) /* ReportCollisions */
-     , (2275,  13, False) /* Ethereal */
-     , (2275,  14, True ) /* GravityStatus */
-     , (2275,  19, True ) /* Attackable */;
+VALUES (2275,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2275,   1, 'Weaver Zhoyong') /* Name */

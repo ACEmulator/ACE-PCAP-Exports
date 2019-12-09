@@ -8,17 +8,12 @@ VALUES (29610,   1,       2048) /* ItemType - Gem */
      , (29610,   5,       3500) /* EncumbranceVal */
      , (29610,  16,          1) /* ItemUseable - No */
      , (29610,  19,      10000) /* Value */
-     , (29610,  65,        101) /* Placement - Resting */
-     , (29610,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (29610, 151,          9) /* HookType - Floor, Yard */;
+     , (29610,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29610, 151,          9) /* HookType - Floor, Yard */
+     , (29610, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29610,   1, False) /* Stuck */
-     , (29610,  11, True ) /* IgnoreCollisions */
-     , (29610,  13, True ) /* Ethereal */
-     , (29610,  14, True ) /* GravityStatus */
-     , (29610,  19, True ) /* Attackable */
-     , (29610,  22, True ) /* Inscribable */;
+VALUES (29610,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29610,   1, 'Lesser Direlands Device') /* Name */

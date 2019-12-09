@@ -40,19 +40,13 @@ VALUES (45481,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45481,   1, True ) /* Stuck */
-     , (45481,  11, True ) /* IgnoreCollisions */
-     , (45481,  12, True ) /* ReportCollisions */
-     , (45481,  13, False) /* Ethereal */
-     , (45481,  14, True ) /* GravityStatus */
-     , (45481,  19, False) /* Attackable */
-     , (45481,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45481,  42, True ) /* AllowEdgeSlide */;
+     , (45481,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45481,  54,       3) /* UseRadius */
      , (45481, 8010,       0) /* PCAPRecordedVelocityX */
      , (45481, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45481, 8012, -47.0420837402344) /* PCAPRecordedVelocityZ */;
+     , (45481, 8012,  -47.04) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45481,   1, 'Two Handed Combat Mastery') /* Name */

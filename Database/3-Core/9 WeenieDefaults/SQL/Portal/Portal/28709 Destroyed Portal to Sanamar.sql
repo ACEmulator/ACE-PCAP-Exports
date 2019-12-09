@@ -11,20 +11,14 @@ VALUES (28709,   1,      65536) /* ItemType - Portal */
      , (28709, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28709,   1, True ) /* Stuck */
-     , (28709,  11, True ) /* IgnoreCollisions */
-     , (28709,  13, True ) /* Ethereal */
-     , (28709,  14, True ) /* GravityStatus */
-     , (28709,  15, True ) /* LightsStatus */
-     , (28709,  19, True ) /* Attackable */;
+VALUES (28709,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28709,  54, -0.100000001490116) /* UseRadius */;
+VALUES (28709,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28709,   1, 'Destroyed Portal to Sanamar') /* Name */
      , (28709,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (28709,  38, 'Destroyed Portal to Sanamar (72.1N, 60.9W).') /* AppraisalPortalDestination */
      , (28709, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

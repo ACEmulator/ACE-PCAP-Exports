@@ -12,19 +12,14 @@ VALUES (2430,   1,       2048) /* ItemType - Gem */
      , (2430,  15,        148) /* StackUnitValue */
      , (2430,  16,          1) /* ItemUseable - No */
      , (2430,  19,        148) /* Value */
-     , (2430,  65,        101) /* Placement - Resting */
      , (2430,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2430, 105,          6) /* ItemWorkmanship */
      , (2430, 131,         25) /* MaterialType - Hematite */
-     , (2430, 172,          1) /* AppraisalLongDescDecoration */;
+     , (2430, 172,          1) /* AppraisalLongDescDecoration */
+     , (2430, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2430,   1, False) /* Stuck */
-     , (2430,  11, True ) /* IgnoreCollisions */
-     , (2430,  13, True ) /* Ethereal */
-     , (2430,  14, True ) /* GravityStatus */
-     , (2430,  19, True ) /* Attackable */
-     , (2430,  22, True ) /* Inscribable */;
+VALUES (2430,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2430, 8004,       6) /* PCAPRecordedWorkmanship */;

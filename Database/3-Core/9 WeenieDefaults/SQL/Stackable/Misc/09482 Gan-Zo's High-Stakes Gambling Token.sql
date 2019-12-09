@@ -13,18 +13,11 @@ VALUES (9482,   1,        128) /* ItemType - Misc */
      , (9482,  16,          1) /* ItemUseable - No */
      , (9482,  19,      10000) /* Value */
      , (9482,  33,          1) /* Bonded - Bonded */
-     , (9482,  65,        101) /* Placement - Resting */
-     , (9482,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9482,   1, False) /* Stuck */
-     , (9482,  11, True ) /* IgnoreCollisions */
-     , (9482,  13, True ) /* Ethereal */
-     , (9482,  14, True ) /* GravityStatus */
-     , (9482,  19, True ) /* Attackable */;
+     , (9482,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9482, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9482,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9482,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9482,   1, 'Gan-Zo''s High-Stakes Gambling Token') /* Name */

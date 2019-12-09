@@ -15,15 +15,11 @@ VALUES (38265,   1,         16) /* ItemType - Creature */
      , (38265, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38265,   1, True ) /* Stuck */
-     , (38265,  12, True ) /* ReportCollisions */
-     , (38265,  13, True ) /* Ethereal */
-     , (38265,  14, True ) /* GravityStatus */
-     , (38265,  19, True ) /* Attackable */;
+VALUES (38265,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38265,  39, 0.800000011920929) /* DefaultScale */
-     , (38265,  76, 0.300000011920929) /* Translucency */;
+VALUES (38265,  39,     0.8) /* DefaultScale */
+     , (38265,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38265,   1, 'Egg') /* Name */

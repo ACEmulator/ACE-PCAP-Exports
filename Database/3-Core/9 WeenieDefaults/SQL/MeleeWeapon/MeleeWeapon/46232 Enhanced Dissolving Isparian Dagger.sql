@@ -12,17 +12,12 @@ VALUES (46232,   1,          1) /* ItemType - MeleeWeapon */
      , (46232,  18,          1) /* UiEffects - Magical */
      , (46232,  19,       8000) /* Value */
      , (46232,  51,          1) /* CombatUse - Melee */
-     , (46232,  65,          1) /* Placement - RightHandCombat */
      , (46232,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46232, 151,          2) /* HookType - Wall */;
+     , (46232, 151,          2) /* HookType - Wall */
+     , (46232, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46232,   1, False) /* Stuck */
-     , (46232,  11, True ) /* IgnoreCollisions */
-     , (46232,  13, True ) /* Ethereal */
-     , (46232,  14, True ) /* GravityStatus */
-     , (46232,  19, True ) /* Attackable */
-     , (46232,  22, True ) /* Inscribable */;
+VALUES (46232,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46232,   1, 'Enhanced Dissolving Isparian Dagger') /* Name */;

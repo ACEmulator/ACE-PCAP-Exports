@@ -13,17 +13,12 @@ VALUES (5394,   1,        128) /* ItemType - Misc */
      , (5394, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5394,   1, True ) /* Stuck */
-     , (5394,  11, True ) /* IgnoreCollisions */
-     , (5394,  12, True ) /* ReportCollisions */
-     , (5394,  13, False) /* Ethereal */
-     , (5394,  14, True ) /* GravityStatus */
-     , (5394,  19, True ) /* Attackable */;
+VALUES (5394,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5394, 8010,       0) /* PCAPRecordedVelocityX */
      , (5394, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5394, 8012, -0.226710796356201) /* PCAPRecordedVelocityZ */;
+     , (5394, 8012,   -0.23) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5394,   1, 'Festival Stone') /* Name */

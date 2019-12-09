@@ -9,17 +9,12 @@ VALUES (38158,   1,        128) /* ItemType - Misc */
      , (38158,  16,          1) /* ItemUseable - No */
      , (38158,  19,          0) /* Value */
      , (38158,  33,          1) /* Bonded - Bonded */
-     , (38158,  65,        101) /* Placement - Resting */
      , (38158,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38158, 114,          1) /* Attuned - Attuned */;
+     , (38158, 114,          1) /* Attuned - Attuned */
+     , (38158, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38158,   1, False) /* Stuck */
-     , (38158,  11, True ) /* IgnoreCollisions */
-     , (38158,  13, True ) /* Ethereal */
-     , (38158,  14, True ) /* GravityStatus */
-     , (38158,  19, True ) /* Attackable */
-     , (38158,  22, True ) /* Inscribable */;
+VALUES (38158,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38158,   1, 'Tattered Grimy Moarsman Ritual') /* Name */

@@ -15,22 +15,17 @@ VALUES (30243,   1,       2048) /* ItemType - Gem */
      , (30243,  18,          1) /* UiEffects - Magical */
      , (30243,  19,          0) /* Value */
      , (30243,  33,         -1) /* Bonded - Slippery */
-     , (30243,  65,        101) /* Placement - Resting */
      , (30243,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30243,  94,         16) /* TargetType - Creature */
      , (30243, 106,        325) /* ItemSpellcraft */
      , (30243, 107,      10000) /* ItemCurMana */
      , (30243, 108,      10000) /* ItemMaxMana */
      , (30243, 109,          0) /* ItemDifficulty */
-     , (30243, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30243, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30243, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30243,   1, False) /* Stuck */
-     , (30243,  11, True ) /* IgnoreCollisions */
-     , (30243,  13, True ) /* Ethereal */
-     , (30243,  14, True ) /* GravityStatus */
-     , (30243,  19, True ) /* Attackable */
-     , (30243, 108, True ) /* RareUsesTimer */;
+VALUES (30243, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30243,   1, 'Elysa''s Crystal') /* Name */

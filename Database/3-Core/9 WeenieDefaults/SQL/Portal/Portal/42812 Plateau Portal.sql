@@ -12,20 +12,14 @@ VALUES (42812,   1,      65536) /* ItemType - Portal */
      , (42812, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42812,   1, True ) /* Stuck */
-     , (42812,  12, True ) /* ReportCollisions */
-     , (42812,  13, True ) /* Ethereal */
-     , (42812,  14, True ) /* GravityStatus */
-     , (42812,  15, True ) /* LightsStatus */
-     , (42812,  19, True ) /* Attackable */;
+VALUES (42812,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42812,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42812,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42812,   1, 'Plateau Portal') /* Name */
      , (42812,  16, 'This portal goes to the Plateau Village, a remote settlement in the forests of Northwestern Osteth. This is a good town for characters over level 40.') /* LongDesc */
-     , (42812,  38, 'Plateau Portal (44.5N, 43.1W).') /* AppraisalPortalDestination */
      , (42812, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,17 +12,10 @@ VALUES (549,   1,         32) /* ItemType - Food */
      , (549,  15,         18) /* StackUnitValue */
      , (549,  16,          8) /* ItemUseable - Contained */
      , (549,  19,         18) /* Value */
-     , (549,  65,        101) /* Placement - Resting */
      , (549,  89,          4) /* BoosterEnum - Stamina */
      , (549,  90,          8) /* BoostValue */
-     , (549,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (549,   1, False) /* Stuck */
-     , (549,  11, True ) /* IgnoreCollisions */
-     , (549,  13, True ) /* Ethereal */
-     , (549,  14, True ) /* GravityStatus */
-     , (549,  19, True ) /* Attackable */;
+     , (549,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (549, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (549,   1, 'Bowl of Stew') /* Name */

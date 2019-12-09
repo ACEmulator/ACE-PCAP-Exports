@@ -10,17 +10,12 @@ VALUES (11785,   1,      32768) /* ItemType - Caster */
      , (11785,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (11785,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (11785,  18,          1) /* UiEffects - Magical */
-     , (11785,  65,          1) /* Placement - RightHandCombat */
      , (11785,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11785,  94,         16) /* TargetType - Creature */;
+     , (11785,  94,         16) /* TargetType - Creature */
+     , (11785, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11785,   1, False) /* Stuck */
-     , (11785,  11, True ) /* IgnoreCollisions */
-     , (11785,  13, True ) /* Ethereal */
-     , (11785,  14, True ) /* GravityStatus */
-     , (11785,  19, True ) /* Attackable */
-     , (11785,  22, True ) /* Inscribable */;
+VALUES (11785,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11785,   1, 'Reinforced Mask Banner with Symbol') /* Name */;

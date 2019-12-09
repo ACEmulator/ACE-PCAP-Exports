@@ -11,12 +11,7 @@ VALUES (15224,   1,        128) /* ItemType - Misc */
      , (15224,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15224,   1, True ) /* Stuck */
-     , (15224,  11, True ) /* IgnoreCollisions */
-     , (15224,  12, True ) /* ReportCollisions */
-     , (15224,  13, False) /* Ethereal */
-     , (15224,  14, True ) /* GravityStatus */
-     , (15224,  19, True ) /* Attackable */;
+VALUES (15224,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15224,   1, 'Glystaene Cottages') /* Name */

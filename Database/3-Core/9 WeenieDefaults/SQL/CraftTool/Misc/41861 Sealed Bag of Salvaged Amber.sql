@@ -12,20 +12,15 @@ VALUES (41861,   1,        128) /* ItemType - Misc */
      , (41861,  15,         12) /* StackUnitValue */
      , (41861,  16,          8) /* ItemUseable - Contained */
      , (41861,  19,         12) /* Value */
-     , (41861,  65,        101) /* Placement - Resting */
      , (41861,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41861,  94,         16) /* TargetType - Creature */;
+     , (41861,  94,         16) /* TargetType - Creature */
+     , (41861, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41861,   1, False) /* Stuck */
-     , (41861,  11, True ) /* IgnoreCollisions */
-     , (41861,  13, True ) /* Ethereal */
-     , (41861,  14, True ) /* GravityStatus */
-     , (41861,  19, True ) /* Attackable */
-     , (41861,  22, True ) /* Inscribable */;
+VALUES (41861,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41861,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (41861,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41861,   1, 'Sealed Bag of Salvaged Amber') /* Name */;

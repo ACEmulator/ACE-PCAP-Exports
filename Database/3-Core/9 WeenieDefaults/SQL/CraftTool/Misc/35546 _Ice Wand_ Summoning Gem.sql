@@ -12,20 +12,15 @@ VALUES (35546,   1,        128) /* ItemType - Misc */
      , (35546,  15,          1) /* StackUnitValue */
      , (35546,  16,          8) /* ItemUseable - Contained */
      , (35546,  19,          1) /* Value */
-     , (35546,  65,        101) /* Placement - Resting */
      , (35546,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35546,  94,         16) /* TargetType - Creature */;
+     , (35546,  94,         16) /* TargetType - Creature */
+     , (35546, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35546,   1, False) /* Stuck */
-     , (35546,  11, True ) /* IgnoreCollisions */
-     , (35546,  13, True ) /* Ethereal */
-     , (35546,  14, True ) /* GravityStatus */
-     , (35546,  19, True ) /* Attackable */
-     , (35546,  22, True ) /* Inscribable */;
+VALUES (35546,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35546,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (35546,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35546,   1, '"Ice Wand" Summoning Gem') /* Name */;

@@ -11,11 +11,7 @@ VALUES (1791,   1,        128) /* ItemType - Misc */
      , (1791,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1791,   1, True ) /* Stuck */
-     , (1791,  11, True ) /* IgnoreCollisions */
-     , (1791,  12, True ) /* ReportCollisions */
-     , (1791,  13, False) /* Ethereal */
-     , (1791,  19, True ) /* Attackable */;
+VALUES (1791,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1791,   1, 'Smith Maqura') /* Name */

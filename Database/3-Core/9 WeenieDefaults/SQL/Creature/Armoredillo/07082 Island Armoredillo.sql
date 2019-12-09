@@ -15,11 +15,7 @@ VALUES (7082,   1,         16) /* ItemType - Creature */
      , (7082, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7082,   1, True ) /* Stuck */
-     , (7082,  12, True ) /* ReportCollisions */
-     , (7082,  13, False) /* Ethereal */
-     , (7082,  14, True ) /* GravityStatus */
-     , (7082,  19, True ) /* Attackable */;
+VALUES (7082,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7082,   1, 'Island Armoredillo') /* Name */

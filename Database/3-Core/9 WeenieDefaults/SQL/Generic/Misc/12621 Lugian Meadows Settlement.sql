@@ -11,12 +11,7 @@ VALUES (12621,   1,        128) /* ItemType - Misc */
      , (12621,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12621,   1, True ) /* Stuck */
-     , (12621,  11, True ) /* IgnoreCollisions */
-     , (12621,  12, True ) /* ReportCollisions */
-     , (12621,  13, False) /* Ethereal */
-     , (12621,  14, True ) /* GravityStatus */
-     , (12621,  19, True ) /* Attackable */;
+VALUES (12621,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12621,   1, 'Lugian Meadows Settlement') /* Name */

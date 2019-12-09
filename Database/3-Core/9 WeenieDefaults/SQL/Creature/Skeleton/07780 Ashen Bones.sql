@@ -16,11 +16,7 @@ VALUES (7780,   1,         16) /* ItemType - Creature */
      , (7780, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7780,   1, True ) /* Stuck */
-     , (7780,  12, True ) /* ReportCollisions */
-     , (7780,  13, False) /* Ethereal */
-     , (7780,  14, True ) /* GravityStatus */
-     , (7780,  19, True ) /* Attackable */;
+VALUES (7780,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7780,   1, 'Ashen Bones') /* Name */

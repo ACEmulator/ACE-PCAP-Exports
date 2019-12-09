@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9118,   1,       8192) /* ItemType - Writable */
      , (9118,   5,         10) /* EncumbranceVal */
      , (9118,  16,          8) /* ItemUseable - Contained */
-     , (9118,  65,        101) /* Placement - Resting */
-     , (9118,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9118,   1, False) /* Stuck */
-     , (9118,  11, True ) /* IgnoreCollisions */
-     , (9118,  13, True ) /* Ethereal */
-     , (9118,  14, True ) /* GravityStatus */
-     , (9118,  19, True ) /* Attackable */;
+     , (9118,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9118, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9118,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (9118,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9118,   1, 'Puppet Show') /* Name */;

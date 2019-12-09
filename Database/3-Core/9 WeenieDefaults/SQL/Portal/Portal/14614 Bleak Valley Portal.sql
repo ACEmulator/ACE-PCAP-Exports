@@ -12,19 +12,13 @@ VALUES (14614,   1,      65536) /* ItemType - Portal */
      , (14614, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14614,   1, True ) /* Stuck */
-     , (14614,  12, True ) /* ReportCollisions */
-     , (14614,  13, True ) /* Ethereal */
-     , (14614,  14, True ) /* GravityStatus */
-     , (14614,  15, True ) /* LightsStatus */
-     , (14614,  19, True ) /* Attackable */;
+VALUES (14614,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14614,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14614,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14614,   1, 'Bleak Valley Portal') /* Name */
-     , (14614,  38, 'Bleak Valley Portal (53.5N, 41.7E).') /* AppraisalPortalDestination */
      , (14614, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

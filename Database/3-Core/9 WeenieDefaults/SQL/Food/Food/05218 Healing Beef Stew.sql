@@ -13,15 +13,8 @@ VALUES (5218,   1,         32) /* ItemType - Food */
      , (5218,  16,          8) /* ItemUseable - Contained */
      , (5218,  18,          4) /* UiEffects - BoostHealth */
      , (5218,  19,         80) /* Value */
-     , (5218,  65,        101) /* Placement - Resting */
-     , (5218,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5218,   1, False) /* Stuck */
-     , (5218,  11, True ) /* IgnoreCollisions */
-     , (5218,  13, True ) /* Ethereal */
-     , (5218,  14, True ) /* GravityStatus */
-     , (5218,  19, True ) /* Attackable */;
+     , (5218,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5218, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5218,   1, 'Healing Beef Stew') /* Name */

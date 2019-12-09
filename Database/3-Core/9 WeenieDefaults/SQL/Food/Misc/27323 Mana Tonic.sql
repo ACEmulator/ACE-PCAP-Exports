@@ -12,18 +12,11 @@ VALUES (27323,   1,        128) /* ItemType - Misc */
      , (27323,  15,       2000) /* StackUnitValue */
      , (27323,  16,          8) /* ItemUseable - Contained */
      , (27323,  19,       2000) /* Value */
-     , (27323,  65,        101) /* Placement - Resting */
      , (27323,  89,          6) /* BoosterEnum - Mana */
      , (27323,  90,         85) /* BoostValue */
      , (27323,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27323, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27323,   1, False) /* Stuck */
-     , (27323,  11, True ) /* IgnoreCollisions */
-     , (27323,  13, True ) /* Ethereal */
-     , (27323,  14, True ) /* GravityStatus */
-     , (27323,  19, True ) /* Attackable */;
+     , (27323, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (27323, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27323,   1, 'Mana Tonic') /* Name */

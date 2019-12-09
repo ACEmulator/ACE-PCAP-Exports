@@ -8,19 +8,14 @@ VALUES (48941,   1,        128) /* ItemType - Misc */
      , (48941,   5,        225) /* EncumbranceVal */
      , (48941,  16,          1) /* ItemUseable - No */
      , (48941,  19,         50) /* Value */
-     , (48941,  65,        101) /* Placement - Resting */
-     , (48941,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (48941,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (48941, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48941,   1, False) /* Stuck */
-     , (48941,  11, True ) /* IgnoreCollisions */
-     , (48941,  13, True ) /* Ethereal */
-     , (48941,  14, True ) /* GravityStatus */
-     , (48941,  19, True ) /* Attackable */
-     , (48941,  22, True ) /* Inscribable */;
+VALUES (48941,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48941,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (48941,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48941,   1, 'Burning Sands Golem Heart') /* Name */;

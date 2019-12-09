@@ -11,16 +11,11 @@ VALUES (23810,   1,          2) /* ItemType - Armor */
      , (23810,  16,          1) /* ItemUseable - No */
      , (23810,  18,         64) /* UiEffects - Lightning */
      , (23810,  19,       2140) /* Value */
-     , (23810,  65,        101) /* Placement - Resting */
-     , (23810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23810,   1, False) /* Stuck */
-     , (23810,  11, True ) /* IgnoreCollisions */
-     , (23810,  13, True ) /* Ethereal */
-     , (23810,  14, True ) /* GravityStatus */
-     , (23810,  19, True ) /* Attackable */
-     , (23810,  22, True ) /* Inscribable */;
+VALUES (23810,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23810,   1, 'Charged Celdon Leggings') /* Name */;

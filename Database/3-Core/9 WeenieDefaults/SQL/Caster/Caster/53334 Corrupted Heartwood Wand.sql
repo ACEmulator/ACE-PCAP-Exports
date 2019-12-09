@@ -12,7 +12,6 @@ VALUES (53334,   1,      32768) /* ItemType - Caster */
      , (53334,  18,          1) /* UiEffects - Magical */
      , (53334,  19,        200) /* Value */
      , (53334,  45,       1024) /* DamageType - Nether */
-     , (53334,  65,          1) /* Placement - RightHandCombat */
      , (53334,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53334,  94,         16) /* TargetType - Creature */
      , (53334, 105,          8) /* ItemWorkmanship */
@@ -27,26 +26,22 @@ VALUES (53334,   1,      32768) /* ItemType - Caster */
      , (53334, 160,        385) /* WieldDifficulty */
      , (53334, 166,        101) /* SlayerCreatureType - Anekshay */
      , (53334, 171,         10) /* NumTimesTinkered */
-     , (53334, 179,          1) /* ImbuedEffect - CriticalStrike */;
+     , (53334, 179,          1) /* ImbuedEffect - CriticalStrike */
+     , (53334, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53334,   1, False) /* Stuck */
-     , (53334,  11, True ) /* IgnoreCollisions */
-     , (53334,  13, True ) /* Ethereal */
-     , (53334,  14, True ) /* GravityStatus */
-     , (53334,  19, True ) /* Attackable */
-     , (53334,  22, True ) /* Inscribable */
+VALUES (53334,  22, True ) /* Inscribable */
      , (53334,  85, True ) /* AppraisalHasAllowedWielder */
      , (53334,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53334,   5, -0.025000000372529) /* ManaRate */
-     , (53334,  29, 1.56000001728535) /* WeaponDefense */
-     , (53334,  39, 1.60000002384186) /* DefaultScale */
-     , (53334, 144, 0.233999985218048) /* ManaConversionMod */
+VALUES (53334,   5,   -0.03) /* ManaRate */
+     , (53334,  29,    1.56) /* WeaponDefense */
+     , (53334,  39,     1.6) /* DefaultScale */
+     , (53334, 144,    0.23) /* ManaConversionMod */
      , (53334, 149,    1.01) /* WeaponMissileDefense */
      , (53334, 150,    1.01) /* WeaponMagicDefense */
-     , (53334, 152, 1.27000005543232) /* ElementalDamageMod */
+     , (53334, 152,    1.27) /* ElementalDamageMod */
      , (53334, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

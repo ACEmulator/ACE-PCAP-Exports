@@ -8,18 +8,11 @@ VALUES (41744,   1,       8192) /* ItemType - Writable */
      , (41744,   5,        100) /* EncumbranceVal */
      , (41744,  16,          8) /* ItemUseable - Contained */
      , (41744,  19,         50) /* Value */
-     , (41744,  65,        101) /* Placement - Resting */
-     , (41744,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41744,   1, False) /* Stuck */
-     , (41744,  11, True ) /* IgnoreCollisions */
-     , (41744,  13, True ) /* Ethereal */
-     , (41744,  14, True ) /* GravityStatus */
-     , (41744,  19, True ) /* Attackable */;
+     , (41744,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41744, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41744,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (41744,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41744,   1, 'A Comprehensive Guide to Gearcrafting') /* Name */;

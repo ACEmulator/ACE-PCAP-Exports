@@ -20,21 +20,16 @@ VALUES (25547,   1,          2) /* ItemType - Armor */
      , (25547, 160,         80) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25547,   1, False) /* Stuck */
-     , (25547,  11, True ) /* IgnoreCollisions */
-     , (25547,  13, True ) /* Ethereal */
-     , (25547,  14, True ) /* GravityStatus */
-     , (25547,  19, True ) /* Attackable */
-     , (25547,  22, True ) /* Inscribable */;
+VALUES (25547,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25547,  13, 1.70000004768372) /* ArmorModVsSlash */
-     , (25547,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (25547,  15, 1.29999995231628) /* ArmorModVsBludgeon */
+VALUES (25547,  13,     1.7) /* ArmorModVsSlash */
+     , (25547,  14,     1.3) /* ArmorModVsPierce */
+     , (25547,  15,     1.3) /* ArmorModVsBludgeon */
      , (25547,  16,     1.5) /* ArmorModVsCold */
      , (25547,  17,     1.5) /* ArmorModVsFire */
      , (25547,  18,       2) /* ArmorModVsAcid */
-     , (25547,  19, 1.60000002384186) /* ArmorModVsElectric */
+     , (25547,  19,     1.6) /* ArmorModVsElectric */
      , (25547, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

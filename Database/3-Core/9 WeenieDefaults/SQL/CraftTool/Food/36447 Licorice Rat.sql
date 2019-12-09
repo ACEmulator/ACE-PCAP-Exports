@@ -24,12 +24,7 @@ VALUES (36447,   1,         32) /* ItemType - Food */
      , (36447, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36447,   1, False) /* Stuck */
-     , (36447,  11, True ) /* IgnoreCollisions */
-     , (36447,  13, True ) /* Ethereal */
-     , (36447,  14, True ) /* GravityStatus */
-     , (36447,  19, True ) /* Attackable */
-     , (36447,  69, False) /* IsSellable */;
+VALUES (36447,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36447,  39,     0.5) /* DefaultScale */;

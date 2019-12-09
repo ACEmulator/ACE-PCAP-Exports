@@ -12,20 +12,15 @@ VALUES (21075,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21075,  15,       2024) /* StackUnitValue */
      , (21075,  16,          1) /* ItemUseable - No */
      , (21075,  19,       2024) /* Value */
-     , (21075,  65,        101) /* Placement - Resting */
      , (21075,  91,        100) /* MaxStructure */
      , (21075,  92,        100) /* Structure */
      , (21075,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21075, 131,         71) /* MaterialType - Serpentine */
-     , (21075, 151,          9) /* HookType - Floor, Yard */;
+     , (21075, 151,          9) /* HookType - Floor, Yard */
+     , (21075, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21075,   1, False) /* Stuck */
-     , (21075,  11, True ) /* IgnoreCollisions */
-     , (21075,  13, True ) /* Ethereal */
-     , (21075,  14, True ) /* GravityStatus */
-     , (21075,  19, True ) /* Attackable */
-     , (21075,  22, True ) /* Inscribable */;
+VALUES (21075,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21075, 8004,       8) /* PCAPRecordedWorkmanship */;

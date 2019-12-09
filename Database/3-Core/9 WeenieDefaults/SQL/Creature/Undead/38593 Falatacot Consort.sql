@@ -15,14 +15,10 @@ VALUES (38593,   1,         16) /* ItemType - Creature */
      , (38593, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38593,   1, True ) /* Stuck */
-     , (38593,  12, True ) /* ReportCollisions */
-     , (38593,  13, False) /* Ethereal */
-     , (38593,  14, True ) /* GravityStatus */
-     , (38593,  19, True ) /* Attackable */;
+VALUES (38593,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38593,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (38593,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38593,   1, 'Falatacot Consort') /* Name */

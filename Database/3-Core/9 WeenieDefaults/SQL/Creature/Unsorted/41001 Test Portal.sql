@@ -39,17 +39,10 @@ VALUES (41001,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41001,   1, True ) /* Stuck */
-     , (41001,  11, True ) /* IgnoreCollisions */
-     , (41001,  12, True ) /* ReportCollisions */
-     , (41001,  13, True ) /* Ethereal */
-     , (41001,  14, True ) /* GravityStatus */
-     , (41001,  15, True ) /* LightsStatus */
-     , (41001,  19, False) /* Attackable */
-     , (41001,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (41001,  42, True ) /* AllowEdgeSlide */;
+     , (41001,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41001,  54, 0.100000001490116) /* UseRadius */;
+VALUES (41001,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41001,   1, 'Test Portal') /* Name */

@@ -12,20 +12,14 @@ VALUES (42836,   1,      65536) /* ItemType - Portal */
      , (42836, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42836,   1, True ) /* Stuck */
-     , (42836,  12, True ) /* ReportCollisions */
-     , (42836,  13, True ) /* Ethereal */
-     , (42836,  14, True ) /* GravityStatus */
-     , (42836,  15, True ) /* LightsStatus */
-     , (42836,  19, True ) /* Attackable */;
+VALUES (42836,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42836,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42836,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42836,   1, 'Portal to Redspire') /* Name */
      , (42836,  16, 'This portal goes to the town of Redspire on the island of Marae Lassel. This is a good town for characters over level 10.') /* LongDesc */
-     , (42836,  38, 'Portal to Redspire (40.6N, 83.0W).') /* AppraisalPortalDestination */
      , (42836, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

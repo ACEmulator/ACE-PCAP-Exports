@@ -14,18 +14,13 @@ VALUES (42038,   1,       2048) /* ItemType - Gem */
      , (42038,  18,          4) /* UiEffects - BoostHealth */
      , (42038,  19,         50) /* Value */
      , (42038,  33,          1) /* Bonded - Bonded */
-     , (42038,  65,        101) /* Placement - Resting */
      , (42038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42038,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (42038, 114,          1) /* Attuned - Attuned */;
+     , (42038, 114,          1) /* Attuned - Attuned */
+     , (42038, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42038,   1, False) /* Stuck */
-     , (42038,  11, True ) /* IgnoreCollisions */
-     , (42038,  13, True ) /* Ethereal */
-     , (42038,  14, True ) /* GravityStatus */
-     , (42038,  19, True ) /* Attackable */
-     , (42038,  69, False) /* IsSellable */;
+VALUES (42038,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42038,   1, 'Spectral Skull') /* Name */

@@ -9,21 +9,16 @@ VALUES (36684,   1,        128) /* ItemType - Misc */
      , (36684,  16,          1) /* ItemUseable - No */
      , (36684,  19,        100) /* Value */
      , (36684,  33,          1) /* Bonded - Bonded */
-     , (36684,  65,        101) /* Placement - Resting */
      , (36684,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36684, 114,          1) /* Attuned - Attuned */;
+     , (36684, 114,          1) /* Attuned - Attuned */
+     , (36684, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36684,   1, False) /* Stuck */
-     , (36684,  11, True ) /* IgnoreCollisions */
-     , (36684,  13, True ) /* Ethereal */
-     , (36684,  14, True ) /* GravityStatus */
-     , (36684,  19, True ) /* Attackable */
-     , (36684,  22, True ) /* Inscribable */
+VALUES (36684,  22, True ) /* Inscribable */
      , (36684,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36684,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (36684,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36684,   1, 'Treasure') /* Name */

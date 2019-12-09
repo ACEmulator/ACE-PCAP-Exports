@@ -13,18 +13,13 @@ VALUES (37468,   1,        128) /* ItemType - Misc */
      , (37468,  16,          8) /* ItemUseable - Contained */
      , (37468,  19,          1) /* Value */
      , (37468,  33,         -1) /* Bonded - Slippery */
-     , (37468,  65,        101) /* Placement - Resting */
      , (37468,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37468,  94,         16) /* TargetType - Creature */
-     , (37468, 114,          0) /* Attuned - Normal */;
+     , (37468, 114,          0) /* Attuned - Normal */
+     , (37468, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37468,   1, False) /* Stuck */
-     , (37468,  11, True ) /* IgnoreCollisions */
-     , (37468,  13, True ) /* Ethereal */
-     , (37468,  14, True ) /* GravityStatus */
-     , (37468,  19, True ) /* Attackable */
-     , (37468,  22, True ) /* Inscribable */;
+VALUES (37468,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37468,   1, 'Casting Staff Stamped Spectral Ingot') /* Name */

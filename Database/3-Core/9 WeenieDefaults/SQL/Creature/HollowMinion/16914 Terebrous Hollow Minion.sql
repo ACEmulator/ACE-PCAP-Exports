@@ -15,12 +15,7 @@ VALUES (16914,   1,         16) /* ItemType - Creature */
      , (16914, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16914,   1, True ) /* Stuck */
-     , (16914,  12, True ) /* ReportCollisions */
-     , (16914,  13, False) /* Ethereal */
-     , (16914,  14, True ) /* GravityStatus */
-     , (16914,  19, True ) /* Attackable */
-     , (16914,  42, True ) /* AllowEdgeSlide */;
+VALUES (16914,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16914,   1, 'Terebrous Hollow Minion') /* Name */

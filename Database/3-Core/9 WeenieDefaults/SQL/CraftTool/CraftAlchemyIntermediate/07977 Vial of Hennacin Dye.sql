@@ -12,18 +12,13 @@ VALUES (7977,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7977,  15,         10) /* StackUnitValue */
      , (7977,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7977,  19,         10) /* Value */
-     , (7977,  65,        101) /* Placement - Resting */
      , (7977,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7977,  94,    4194304) /* TargetType - CraftCookingBase */
-     , (7977, 151,          9) /* HookType - Floor, Yard */;
+     , (7977, 151,          9) /* HookType - Floor, Yard */
+     , (7977, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7977,   1, False) /* Stuck */
-     , (7977,  11, True ) /* IgnoreCollisions */
-     , (7977,  13, True ) /* Ethereal */
-     , (7977,  14, True ) /* GravityStatus */
-     , (7977,  19, True ) /* Attackable */
-     , (7977,  69, False) /* IsSellable */;
+VALUES (7977,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7977,   1, 'Vial of Hennacin Dye') /* Name */

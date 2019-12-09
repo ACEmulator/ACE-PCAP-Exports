@@ -12,15 +12,8 @@ VALUES (37373,   1,        128) /* ItemType - Misc */
      , (37373,  15,      30000) /* StackUnitValue */
      , (37373,  16,          1) /* ItemUseable - No */
      , (37373,  19,      30000) /* Value */
-     , (37373,  65,        101) /* Placement - Resting */
-     , (37373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37373,   1, False) /* Stuck */
-     , (37373,  11, True ) /* IgnoreCollisions */
-     , (37373,  13, True ) /* Ethereal */
-     , (37373,  14, True ) /* GravityStatus */
-     , (37373,  19, True ) /* Attackable */;
+     , (37373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37373, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37373,   1, 'Glyph of Finesse Weapons') /* Name */

@@ -13,17 +13,12 @@ VALUES (38236,   1,         64) /* ItemType - Money */
      , (38236,  16,          1) /* ItemUseable - No */
      , (38236,  19,          0) /* Value */
      , (38236,  33,          1) /* Bonded - Bonded */
-     , (38236,  65,        101) /* Placement - Resting */
      , (38236,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38236, 114,          1) /* Attuned - Attuned */;
+     , (38236, 114,          1) /* Attuned - Attuned */
+     , (38236, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38236,   1, False) /* Stuck */
-     , (38236,  11, True ) /* IgnoreCollisions */
-     , (38236,  13, True ) /* Ethereal */
-     , (38236,  14, True ) /* GravityStatus */
-     , (38236,  19, True ) /* Attackable */
-     , (38236,  69, False) /* IsSellable */;
+VALUES (38236,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38236,   1, 'Radiant Blood Trade Token') /* Name */

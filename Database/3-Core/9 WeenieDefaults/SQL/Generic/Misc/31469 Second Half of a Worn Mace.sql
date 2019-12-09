@@ -8,16 +8,11 @@ VALUES (31469,   1,        128) /* ItemType - Misc */
      , (31469,   5,         50) /* EncumbranceVal */
      , (31469,  16,          1) /* ItemUseable - No */
      , (31469,  19,          0) /* Value */
-     , (31469,  65,        101) /* Placement - Resting */
-     , (31469,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31469,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31469, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31469,   1, False) /* Stuck */
-     , (31469,  11, True ) /* IgnoreCollisions */
-     , (31469,  13, True ) /* Ethereal */
-     , (31469,  14, True ) /* GravityStatus */
-     , (31469,  19, True ) /* Attackable */
-     , (31469,  22, True ) /* Inscribable */;
+VALUES (31469,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31469,   1, 'Second Half of a Worn Mace') /* Name */

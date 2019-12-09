@@ -12,16 +12,11 @@ VALUES (36944,   1,        128) /* ItemType - Misc */
      , (36944,  15,       1000) /* StackUnitValue */
      , (36944,  16,          1) /* ItemUseable - No */
      , (36944,  19,       1000) /* Value */
-     , (36944,  65,        101) /* Placement - Resting */
-     , (36944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36944, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36944,   1, False) /* Stuck */
-     , (36944,  11, True ) /* IgnoreCollisions */
-     , (36944,  13, True ) /* Ethereal */
-     , (36944,  14, True ) /* GravityStatus */
-     , (36944,  19, True ) /* Attackable */
-     , (36944,  22, True ) /* Inscribable */;
+VALUES (36944,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36944,   1, 'Quiddity Ingot') /* Name */

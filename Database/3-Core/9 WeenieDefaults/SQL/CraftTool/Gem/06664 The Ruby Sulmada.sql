@@ -13,18 +13,13 @@ VALUES (6664,   1,       2048) /* ItemType - Gem */
      , (6664,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6664,  19,       3000) /* Value */
      , (6664,  33,          1) /* Bonded - Bonded */
-     , (6664,  65,        101) /* Placement - Resting */
      , (6664,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6664,  94,          1) /* TargetType - MeleeWeapon */
-     , (6664, 114,          1) /* Attuned - Attuned */;
+     , (6664, 114,          1) /* Attuned - Attuned */
+     , (6664, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6664,   1, False) /* Stuck */
-     , (6664,  11, True ) /* IgnoreCollisions */
-     , (6664,  13, True ) /* Ethereal */
-     , (6664,  14, True ) /* GravityStatus */
-     , (6664,  19, True ) /* Attackable */
-     , (6664,  22, True ) /* Inscribable */;
+VALUES (6664,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6664,   1, 'The Ruby Sulmada') /* Name */

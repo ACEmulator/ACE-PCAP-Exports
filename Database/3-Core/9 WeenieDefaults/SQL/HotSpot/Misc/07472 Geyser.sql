@@ -8,13 +8,10 @@ VALUES (7472,   1,        128) /* ItemType - Misc */
      , (7472,   5,          1) /* EncumbranceVal */
      , (7472,  16,          1) /* ItemUseable - No */
      , (7472,  19,          1) /* Value */
-     , (7472,  93,      65548) /* PhysicsState - Ethereal, ReportCollisions, HasPhysicsBSP */;
+     , (7472,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7472,   1, True ) /* Stuck */
-     , (7472,  12, True ) /* ReportCollisions */
-     , (7472,  13, True ) /* Ethereal */
-     , (7472,  19, True ) /* Attackable */
      , (7472,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

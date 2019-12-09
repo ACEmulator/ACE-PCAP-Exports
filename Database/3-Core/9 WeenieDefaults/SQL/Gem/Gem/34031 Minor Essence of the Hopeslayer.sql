@@ -8,16 +8,11 @@ VALUES (34031,   1,       2048) /* ItemType - Gem */
      , (34031,   5,        200) /* EncumbranceVal */
      , (34031,  16,          1) /* ItemUseable - No */
      , (34031,  18,         32) /* UiEffects - Fire */
-     , (34031,  65,        101) /* Placement - Resting */
-     , (34031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34031, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34031,   1, False) /* Stuck */
-     , (34031,  11, True ) /* IgnoreCollisions */
-     , (34031,  13, True ) /* Ethereal */
-     , (34031,  14, True ) /* GravityStatus */
-     , (34031,  19, True ) /* Attackable */
-     , (34031,  22, True ) /* Inscribable */;
+VALUES (34031,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34031,   1, 'Minor Essence of the Hopeslayer') /* Name */;

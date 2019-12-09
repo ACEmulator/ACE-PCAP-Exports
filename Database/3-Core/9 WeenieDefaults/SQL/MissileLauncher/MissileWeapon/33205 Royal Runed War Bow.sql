@@ -26,22 +26,17 @@ VALUES (33205,   1,        256) /* ItemType - MissileWeapon */
      , (33205, 159,          1) /* WieldSkillType - Axe */
      , (33205, 160,        120) /* WieldDifficulty */
      , (33205, 353,          8) /* WeaponType - Bow */
-     , (33205, 8030,          0);
+     , (33205, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33205,   1, False) /* Stuck */
-     , (33205,  11, True ) /* IgnoreCollisions */
-     , (33205,  13, True ) /* Ethereal */
-     , (33205,  14, True ) /* GravityStatus */
-     , (33205,  19, True ) /* Attackable */
-     , (33205,  22, True ) /* Inscribable */;
+VALUES (33205,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33205,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33205,   5,   -0.05) /* ManaRate */
      , (33205,  21,       0) /* WeaponLength */
      , (33205,  22,       0) /* DamageVariance */
      , (33205,  26,    27.3) /* MaximumVelocity */
-     , (33205,  29, 1.14999997615814) /* WeaponDefense */
+     , (33205,  29,    1.15) /* WeaponDefense */
      , (33205,  62,       1) /* WeaponOffense */
      , (33205,  63,     2.5) /* DamageMod */
      , (33205, 136,       1) /* CriticalMultiplier */

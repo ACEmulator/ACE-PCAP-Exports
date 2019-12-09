@@ -15,7 +15,6 @@ VALUES (33207,   1,        256) /* ItemType - MissileWeapon */
      , (33207,  49,         60) /* WeaponTime */
      , (33207,  50,          2) /* AmmoType - Bolt */
      , (33207,  51,          2) /* CombatUse - Missle */
-     , (33207,  65,        101) /* Placement - Resting */
      , (33207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33207, 106,        450) /* ItemSpellcraft */
      , (33207, 107,       5431) /* ItemCurMana */
@@ -26,25 +25,21 @@ VALUES (33207,   1,        256) /* ItemType - MissileWeapon */
      , (33207, 159,          1) /* WieldSkillType - Axe */
      , (33207, 160,        120) /* WieldDifficulty */
      , (33207, 353,          9) /* WeaponType - Crossbow */
-     , (33207, 8030,          0);
+     , (33207, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33207, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33207,   1, False) /* Stuck */
-     , (33207,  11, True ) /* IgnoreCollisions */
-     , (33207,  13, True ) /* Ethereal */
-     , (33207,  14, True ) /* GravityStatus */
-     , (33207,  19, True ) /* Attackable */
-     , (33207,  22, True ) /* Inscribable */;
+VALUES (33207,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33207,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33207,   5,   -0.05) /* ManaRate */
      , (33207,  21,       0) /* WeaponLength */
      , (33207,  22,       0) /* DamageVariance */
      , (33207,  26,    27.3) /* MaximumVelocity */
-     , (33207,  29, 1.14999997615814) /* WeaponDefense */
+     , (33207,  29,    1.15) /* WeaponDefense */
      , (33207,  39,    1.25) /* DefaultScale */
      , (33207,  62,       1) /* WeaponOffense */
-     , (33207,  63, 2.70000004768372) /* DamageMod */
+     , (33207,  63,     2.7) /* DamageMod */
      , (33207, 136,       1) /* CriticalMultiplier */
      , (33207, 147,       1) /* CriticalFrequency */;
 

@@ -8,19 +8,14 @@ VALUES (2244,   1,      16384) /* ItemType - Key */
      , (2244,   5,         50) /* EncumbranceVal */
      , (2244,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (2244,  19,         16) /* Value */
-     , (2244,  65,        101) /* Placement - Resting */
      , (2244,  91,          3) /* MaxStructure */
      , (2244,  92,          3) /* Structure */
      , (2244,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2244,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (2244,  94,        640) /* TargetType - LockableMagicTarget */
+     , (2244, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2244,   1, False) /* Stuck */
-     , (2244,  11, True ) /* IgnoreCollisions */
-     , (2244,  13, True ) /* Ethereal */
-     , (2244,  14, True ) /* GravityStatus */
-     , (2244,  19, True ) /* Attackable */
-     , (2244,  22, True ) /* Inscribable */;
+VALUES (2244,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2244,   1, 'Dryreach Key') /* Name */

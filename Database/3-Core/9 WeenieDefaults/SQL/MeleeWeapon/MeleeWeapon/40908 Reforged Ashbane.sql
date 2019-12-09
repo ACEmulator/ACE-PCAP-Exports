@@ -18,7 +18,6 @@ VALUES (40908,   1,          1) /* ItemType - MeleeWeapon */
      , (40908,  48,         45) /* WeaponSkill - LightWeapons */
      , (40908,  49,         20) /* WeaponTime */
      , (40908,  51,          1) /* CombatUse - Melee */
-     , (40908,  65,        101) /* Placement - Resting */
      , (40908,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40908, 114,          1) /* Attuned - Attuned */
      , (40908, 151,          2) /* HookType - Wall */
@@ -26,15 +25,11 @@ VALUES (40908,   1,          1) /* ItemType - MeleeWeapon */
      , (40908, 159,         45) /* WieldSkillType - LightWeapons */
      , (40908, 160,        400) /* WieldDifficulty */
      , (40908, 353,          2) /* WeaponType - Sword */
-     , (40908, 8030,          0);
+     , (40908, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (40908, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40908,   1, False) /* Stuck */
-     , (40908,  11, True ) /* IgnoreCollisions */
-     , (40908,  13, True ) /* Ethereal */
-     , (40908,  14, True ) /* GravityStatus */
-     , (40908,  19, True ) /* Attackable */
-     , (40908,  22, True ) /* Inscribable */
+VALUES (40908,  22, True ) /* Inscribable */
      , (40908,  69, False) /* IsSellable */
      , (40908,  99, True ) /* Ivoryable */;
 
@@ -43,7 +38,7 @@ VALUES (40908,  21,       0) /* WeaponLength */
      , (40908,  22,    0.45) /* DamageVariance */
      , (40908,  26,       0) /* MaximumVelocity */
      , (40908,  29,       1) /* WeaponDefense */
-     , (40908,  39, 1.20000004768372) /* DefaultScale */
+     , (40908,  39,     1.2) /* DefaultScale */
      , (40908,  62,     1.3) /* WeaponOffense */
      , (40908,  63,       1) /* DamageMod */
      , (40908, 136,       1) /* CriticalMultiplier */

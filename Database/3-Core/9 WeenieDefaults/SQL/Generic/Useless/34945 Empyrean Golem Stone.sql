@@ -9,16 +9,11 @@ VALUES (34945,   1,       1024) /* ItemType - Useless */
      , (34945,  16,          1) /* ItemUseable - No */
      , (34945,  19,          0) /* Value */
      , (34945,  33,          1) /* Bonded - Bonded */
-     , (34945,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34945, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34945,   1, False) /* Stuck */
-     , (34945,  11, True ) /* IgnoreCollisions */
-     , (34945,  13, True ) /* Ethereal */
-     , (34945,  14, True ) /* GravityStatus */
-     , (34945,  19, True ) /* Attackable */
-     , (34945,  22, True ) /* Inscribable */;
+VALUES (34945,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34945,   1, 'Empyrean Golem Stone') /* Name */

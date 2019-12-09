@@ -11,12 +11,7 @@ VALUES (12671,   1,        128) /* ItemType - Misc */
      , (12671,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12671,   1, True ) /* Stuck */
-     , (12671,  11, True ) /* IgnoreCollisions */
-     , (12671,  12, True ) /* ReportCollisions */
-     , (12671,  13, False) /* Ethereal */
-     , (12671,  14, True ) /* GravityStatus */
-     , (12671,  19, True ) /* Attackable */;
+VALUES (12671,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12671,   1, 'Wi Badlands Settlement') /* Name */;

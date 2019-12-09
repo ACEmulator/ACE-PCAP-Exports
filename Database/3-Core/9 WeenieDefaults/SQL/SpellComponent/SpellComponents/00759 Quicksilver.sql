@@ -12,15 +12,8 @@ VALUES (759,   1,       4096) /* ItemType - SpellComponents */
      , (759,  15,          5) /* StackUnitValue */
      , (759,  16,          1) /* ItemUseable - No */
      , (759,  19,          5) /* Value */
-     , (759,  65,        101) /* Placement - Resting */
-     , (759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (759,   1, False) /* Stuck */
-     , (759,  11, True ) /* IgnoreCollisions */
-     , (759,  13, True ) /* Ethereal */
-     , (759,  14, True ) /* GravityStatus */
-     , (759,  19, True ) /* Attackable */;
+     , (759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (759, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (759,   1, 'Quicksilver') /* Name */

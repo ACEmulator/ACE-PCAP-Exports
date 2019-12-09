@@ -16,15 +16,10 @@ VALUES (7094,   1,         16) /* ItemType - Creature */
      , (7094, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7094,   1, True ) /* Stuck */
-     , (7094,  12, True ) /* ReportCollisions */
-     , (7094,  13, False) /* Ethereal */
-     , (7094,  14, True ) /* GravityStatus */
-     , (7094,  15, True ) /* LightsStatus */
-     , (7094,  19, True ) /* Attackable */;
+VALUES (7094,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7094,  39, 1.70000004768372) /* DefaultScale */;
+VALUES (7094,  39,     1.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7094,   1, 'Synnast') /* Name */

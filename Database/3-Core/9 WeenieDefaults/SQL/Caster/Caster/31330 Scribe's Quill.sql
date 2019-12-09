@@ -10,18 +10,13 @@ VALUES (31330,   1,      32768) /* ItemType - Caster */
      , (31330,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (31330,  16,          1) /* ItemUseable - No */
      , (31330,  19,      12357) /* Value */
-     , (31330,  65,          1) /* Placement - RightHandCombat */
      , (31330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31330,  94,         16) /* TargetType - Creature */
-     , (31330, 151,          2) /* HookType - Wall */;
+     , (31330, 151,          2) /* HookType - Wall */
+     , (31330, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31330,   1, False) /* Stuck */
-     , (31330,  11, True ) /* IgnoreCollisions */
-     , (31330,  13, True ) /* Ethereal */
-     , (31330,  14, True ) /* GravityStatus */
-     , (31330,  19, True ) /* Attackable */
-     , (31330,  22, True ) /* Inscribable */;
+VALUES (31330,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31330,   1, 'Scribe''s Quill') /* Name */;

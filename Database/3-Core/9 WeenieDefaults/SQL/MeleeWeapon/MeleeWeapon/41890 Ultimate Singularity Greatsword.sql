@@ -17,7 +17,6 @@ VALUES (41890,   1,          1) /* ItemType - MeleeWeapon */
      , (41890,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41890,  49,         40) /* WeaponTime */
      , (41890,  51,          5) /* CombatUse - TwoHanded */
-     , (41890,  65,        101) /* Placement - Resting */
      , (41890,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41890, 106,        200) /* ItemSpellcraft */
      , (41890, 107,        736) /* ItemCurMana */
@@ -31,25 +30,21 @@ VALUES (41890,   1,          1) /* ItemType - MeleeWeapon */
      , (41890, 166,         19) /* SlayerCreatureType - Virindi */
      , (41890, 292,          2) /* Cleaving */
      , (41890, 353,         11) /* WeaponType - TwoHanded */
-     , (41890, 8030,          0);
+     , (41890, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41890, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41890,   1, False) /* Stuck */
-     , (41890,  11, True ) /* IgnoreCollisions */
-     , (41890,  13, True ) /* Ethereal */
-     , (41890,  14, True ) /* GravityStatus */
-     , (41890,  19, True ) /* Attackable */
-     , (41890,  22, True ) /* Inscribable */
+VALUES (41890,  22, True ) /* Inscribable */
      , (41890,  91, True ) /* Retained */
      , (41890,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41890,   5,  -0.033) /* ManaRate */
+VALUES (41890,   5,   -0.03) /* ManaRate */
      , (41890,  21,       0) /* WeaponLength */
      , (41890,  22,    0.55) /* DamageVariance */
      , (41890,  26,       0) /* MaximumVelocity */
      , (41890,  29,    1.15) /* WeaponDefense */
-     , (41890,  39, 1.29999995231628) /* DefaultScale */
+     , (41890,  39,     1.3) /* DefaultScale */
      , (41890,  62,    1.15) /* WeaponOffense */
      , (41890,  63,       1) /* DamageMod */
      , (41890, 136,       1) /* CriticalMultiplier */

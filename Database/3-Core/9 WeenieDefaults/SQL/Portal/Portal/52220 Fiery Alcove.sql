@@ -13,19 +13,13 @@ VALUES (52220,   1,      65536) /* ItemType - Portal */
      , (52220, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52220,   1, True ) /* Stuck */
-     , (52220,  12, True ) /* ReportCollisions */
-     , (52220,  13, True ) /* Ethereal */
-     , (52220,  14, True ) /* GravityStatus */
-     , (52220,  15, True ) /* LightsStatus */
-     , (52220,  19, True ) /* Attackable */;
+VALUES (52220,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52220,  54, -0.100000001490116) /* UseRadius */;
+VALUES (52220,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52220,   1, 'Fiery Alcove') /* Name */
-     , (52220,  38, 'Fiery Alcove') /* AppraisalPortalDestination */
      , (52220, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

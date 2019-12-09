@@ -13,15 +13,10 @@ VALUES (7412,   1,        128) /* ItemType - Misc */
      , (7412, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7412,   1, False) /* Stuck */
-     , (7412,  11, True ) /* IgnoreCollisions */
-     , (7412,  13, True ) /* Ethereal */
-     , (7412,  14, True ) /* GravityStatus */
-     , (7412,  19, True ) /* Attackable */
-     , (7412,  22, True ) /* Inscribable */;
+VALUES (7412,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7412,  39, 0.200000002980232) /* DefaultScale */;
+VALUES (7412,  39,     0.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7412,   1, 'Sluice Gate Bar') /* Name */

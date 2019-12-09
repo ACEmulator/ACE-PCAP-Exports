@@ -11,20 +11,15 @@ VALUES (45930,   1,          1) /* ItemType - MeleeWeapon */
      , (45930,  16,          1) /* ItemUseable - No */
      , (45930,  19,        100) /* Value */
      , (45930,  51,          1) /* CombatUse - Melee */
-     , (45930,  65,          1) /* Placement - RightHandCombat */
      , (45930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45930, 151,          2) /* HookType - Wall */;
+     , (45930, 151,          2) /* HookType - Wall */
+     , (45930, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45930,   1, False) /* Stuck */
-     , (45930,  11, True ) /* IgnoreCollisions */
-     , (45930,  13, True ) /* Ethereal */
-     , (45930,  14, True ) /* GravityStatus */
-     , (45930,  19, True ) /* Attackable */
-     , (45930,  22, True ) /* Inscribable */;
+VALUES (45930,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45930,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (45930,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45930,   1, 'Seasoned Explorer Trident') /* Name */;

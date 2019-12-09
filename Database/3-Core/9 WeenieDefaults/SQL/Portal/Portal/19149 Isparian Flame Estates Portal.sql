@@ -12,19 +12,13 @@ VALUES (19149,   1,      65536) /* ItemType - Portal */
      , (19149, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19149,   1, True ) /* Stuck */
-     , (19149,  12, True ) /* ReportCollisions */
-     , (19149,  13, True ) /* Ethereal */
-     , (19149,  14, True ) /* GravityStatus */
-     , (19149,  15, True ) /* LightsStatus */
-     , (19149,  19, True ) /* Attackable */;
+VALUES (19149,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19149,  54, -0.100000001490116) /* UseRadius */;
+VALUES (19149,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19149,   1, 'Isparian Flame Estates Portal') /* Name */
-     , (19149,  38, 'Isparian Flame Estates Portal (65.0N, 65.7E).') /* AppraisalPortalDestination */
      , (19149, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

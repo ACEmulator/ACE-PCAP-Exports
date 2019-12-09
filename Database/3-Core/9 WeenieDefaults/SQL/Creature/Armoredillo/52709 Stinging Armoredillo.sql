@@ -16,11 +16,7 @@ VALUES (52709,   1,         16) /* ItemType - Creature */
      , (52709, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52709,   1, True ) /* Stuck */
-     , (52709,  12, True ) /* ReportCollisions */
-     , (52709,  13, False) /* Ethereal */
-     , (52709,  14, True ) /* GravityStatus */
-     , (52709,  19, True ) /* Attackable */;
+VALUES (52709,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52709,   1, 'Stinging Armoredillo') /* Name */

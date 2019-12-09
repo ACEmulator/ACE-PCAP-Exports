@@ -23,16 +23,11 @@ VALUES (39108,   1,         32) /* ItemType - Food */
      , (39108, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39108,   1, False) /* Stuck */
-     , (39108,  11, True ) /* IgnoreCollisions */
-     , (39108,  13, True ) /* Ethereal */
-     , (39108,  14, True ) /* GravityStatus */
-     , (39108,  19, True ) /* Attackable */
-     , (39108,  22, True ) /* Inscribable */
+VALUES (39108,  22, True ) /* Inscribable */
      , (39108,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39108,  39, 0.100000001490116) /* DefaultScale */;
+VALUES (39108,  39,     0.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39108,   1, 'Chocolate Gromnie') /* Name */

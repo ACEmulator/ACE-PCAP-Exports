@@ -10,19 +10,14 @@ VALUES (23321,   1,          1) /* ItemType - MeleeWeapon */
      , (23321,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23321,  16,          1) /* ItemUseable - No */
      , (23321,  51,          1) /* CombatUse - Melee */
-     , (23321,  65,          1) /* Placement - RightHandCombat */
      , (23321,  92,        100) /* Structure */
      , (23321,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23321, 131,         61) /* MaterialType - Iron */
-     , (23321, 151,          2) /* HookType - Wall */;
+     , (23321, 151,          2) /* HookType - Wall */
+     , (23321, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23321,   1, False) /* Stuck */
-     , (23321,  11, True ) /* IgnoreCollisions */
-     , (23321,  13, True ) /* Ethereal */
-     , (23321,  14, True ) /* GravityStatus */
-     , (23321,  19, True ) /* Attackable */
-     , (23321,  22, True ) /* Inscribable */;
+VALUES (23321,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23321, 8004,       3) /* PCAPRecordedWorkmanship */;

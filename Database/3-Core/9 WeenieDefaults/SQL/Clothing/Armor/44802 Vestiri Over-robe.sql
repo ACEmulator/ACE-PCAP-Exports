@@ -11,31 +11,26 @@ VALUES (44802,   1,          2) /* ItemType - Armor */
      , (44802,  16,          1) /* ItemUseable - No */
      , (44802,  19,      27098) /* Value */
      , (44802,  28,        238) /* ArmorLevel */
-     , (44802,  65,        101) /* Placement - Resting */
      , (44802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44802, 105,          7) /* ItemWorkmanship */
      , (44802, 131,         55) /* MaterialType - ReedSharkHide */
      , (44802, 172,          5) /* AppraisalLongDescDecoration */
      , (44802, 177,          2) /* GemCount */
-     , (44802, 178,         26) /* GemType */;
+     , (44802, 178,         26) /* GemType */
+     , (44802, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44802,   1, False) /* Stuck */
-     , (44802,  11, True ) /* IgnoreCollisions */
-     , (44802,  13, True ) /* Ethereal */
-     , (44802,  14, True ) /* GravityStatus */
-     , (44802,  19, True ) /* Attackable */
-     , (44802,  22, True ) /* Inscribable */
+VALUES (44802,  22, True ) /* Inscribable */
      , (44802, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44802,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (44802,  14, 0.800000011920929) /* ArmorModVsPierce */
+VALUES (44802,  13,     1.2) /* ArmorModVsSlash */
+     , (44802,  14,     0.8) /* ArmorModVsPierce */
      , (44802,  15,       1) /* ArmorModVsBludgeon */
      , (44802,  16,     0.5) /* ArmorModVsCold */
-     , (44802,  17, 1.1305980682373) /* ArmorModVsFire */
-     , (44802,  18, 0.73588615655899) /* ArmorModVsAcid */
-     , (44802,  19, 1.17252671718597) /* ArmorModVsElectric */
+     , (44802,  17,    1.13) /* ArmorModVsFire */
+     , (44802,  18,    0.74) /* ArmorModVsAcid */
+     , (44802,  19,    1.17) /* ArmorModVsElectric */
      , (44802, 165,       1) /* ArmorModVsNether */
      , (44802, 8004,       7) /* PCAPRecordedWorkmanship */;
 

@@ -15,14 +15,10 @@ VALUES (8591,   1,         16) /* ItemType - Creature */
      , (8591, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8591,   1, True ) /* Stuck */
-     , (8591,  12, True ) /* ReportCollisions */
-     , (8591,  13, False) /* Ethereal */
-     , (8591,  14, True ) /* GravityStatus */
-     , (8591,  19, True ) /* Attackable */;
+VALUES (8591,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8591,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (8591,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8591,   1, 'Dark Revenant') /* Name */

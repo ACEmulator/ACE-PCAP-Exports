@@ -14,7 +14,6 @@ VALUES (52025,   1,       2048) /* ItemType - Gem */
      , (52025,  18,          1) /* UiEffects - Magical */
      , (52025,  19,      50000) /* Value */
      , (52025,  33,          0) /* Bonded - Normal */
-     , (52025,  65,        101) /* Placement - Resting */
      , (52025,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52025,  94,         16) /* TargetType - Creature */
      , (52025, 106,        325) /* ItemSpellcraft */
@@ -22,15 +21,11 @@ VALUES (52025,   1,       2048) /* ItemType - Gem */
      , (52025, 108,      10000) /* ItemMaxMana */
      , (52025, 109,          0) /* ItemDifficulty */
      , (52025, 114,          1) /* Attuned - Attuned */
-     , (52025, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (52025, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (52025, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52025,   1, False) /* Stuck */
-     , (52025,  11, True ) /* IgnoreCollisions */
-     , (52025,  13, True ) /* Ethereal */
-     , (52025,  14, True ) /* GravityStatus */
-     , (52025,  19, True ) /* Attackable */
-     , (52025,  69, False) /* IsSellable */;
+VALUES (52025,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52025,   1, 'Luminous Crystal of Rare Damage Reduction V') /* Name */

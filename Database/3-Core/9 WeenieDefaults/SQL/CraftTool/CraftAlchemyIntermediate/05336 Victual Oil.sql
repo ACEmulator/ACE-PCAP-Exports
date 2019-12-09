@@ -12,17 +12,12 @@ VALUES (5336,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5336,  15,         20) /* StackUnitValue */
      , (5336,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5336,  19,         20) /* Value */
-     , (5336,  65,        101) /* Placement - Resting */
      , (5336,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5336,  94,    3013615) /* TargetType - Item */;
+     , (5336,  94,    3013615) /* TargetType - Item */
+     , (5336, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5336,   1, False) /* Stuck */
-     , (5336,  11, True ) /* IgnoreCollisions */
-     , (5336,  13, True ) /* Ethereal */
-     , (5336,  14, True ) /* GravityStatus */
-     , (5336,  19, True ) /* Attackable */
-     , (5336,  69, False) /* IsSellable */;
+VALUES (5336,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5336,   1, 'Victual Oil') /* Name */

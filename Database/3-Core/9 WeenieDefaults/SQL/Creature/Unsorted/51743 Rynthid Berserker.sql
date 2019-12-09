@@ -13,15 +13,10 @@ VALUES (51743,   1,         16) /* ItemType - Creature */
      , (51743, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51743,   1, True ) /* Stuck */
-     , (51743,  12, True ) /* ReportCollisions */
-     , (51743,  13, False) /* Ethereal */
-     , (51743,  14, True ) /* GravityStatus */
-     , (51743,  19, True ) /* Attackable */
-     , (51743,  42, True ) /* AllowEdgeSlide */;
+VALUES (51743,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51743,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (51743,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51743,   1, 'Rynthid Berserker') /* Name */

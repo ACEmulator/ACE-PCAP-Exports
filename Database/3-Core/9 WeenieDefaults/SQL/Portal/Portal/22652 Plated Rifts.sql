@@ -13,19 +13,13 @@ VALUES (22652,   1,      65536) /* ItemType - Portal */
      , (22652, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22652,   1, True ) /* Stuck */
-     , (22652,  12, True ) /* ReportCollisions */
-     , (22652,  13, True ) /* Ethereal */
-     , (22652,  14, True ) /* GravityStatus */
-     , (22652,  15, True ) /* LightsStatus */
-     , (22652,  19, True ) /* Attackable */;
+VALUES (22652,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22652,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22652,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22652,   1, 'Plated Rifts') /* Name */
-     , (22652,  38, 'Plated Rifts') /* AppraisalPortalDestination */
      , (22652, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

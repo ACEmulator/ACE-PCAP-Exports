@@ -10,17 +10,12 @@ VALUES (41084,   1,          1) /* ItemType - MeleeWeapon */
      , (41084,  16,          1) /* ItemUseable - No */
      , (41084,  19,      10000) /* Value */
      , (41084,  51,          5) /* CombatUse - TwoHanded */
-     , (41084,  65,        101) /* Placement - Resting */
      , (41084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41084, 151,          2) /* HookType - Wall */;
+     , (41084, 151,          2) /* HookType - Wall */
+     , (41084, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41084,   1, False) /* Stuck */
-     , (41084,  11, True ) /* IgnoreCollisions */
-     , (41084,  13, True ) /* Ethereal */
-     , (41084,  14, True ) /* GravityStatus */
-     , (41084,  19, True ) /* Attackable */
-     , (41084,  22, True ) /* Inscribable */;
+VALUES (41084,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41084,   1, 'Princely Runed Two Handed Corsesca') /* Name */;

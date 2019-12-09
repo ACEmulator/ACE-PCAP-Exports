@@ -9,20 +9,15 @@ VALUES (41473,   1,        128) /* ItemType - Misc */
      , (41473,  16,          8) /* ItemUseable - Contained */
      , (41473,  19,          0) /* Value */
      , (41473,  33,          1) /* Bonded - Bonded */
-     , (41473,  65,        101) /* Placement - Resting */
      , (41473,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41473, 114,          1) /* Attuned - Attuned */;
+     , (41473, 114,          1) /* Attuned - Attuned */
+     , (41473, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41473,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41473,   1, False) /* Stuck */
-     , (41473,  11, True ) /* IgnoreCollisions */
-     , (41473,  13, True ) /* Ethereal */
-     , (41473,  14, True ) /* GravityStatus */
-     , (41473,  19, True ) /* Attackable */
-     , (41473,  22, True ) /* Inscribable */;
+VALUES (41473,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41473,   1, 'Infused Item Magic') /* Name */

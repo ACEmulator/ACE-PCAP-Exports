@@ -15,12 +15,7 @@ VALUES (36600,   1,         16) /* ItemType - Creature */
      , (36600, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36600,   1, True ) /* Stuck */
-     , (36600,  12, True ) /* ReportCollisions */
-     , (36600,  13, False) /* Ethereal */
-     , (36600,  14, True ) /* GravityStatus */
-     , (36600,  19, True ) /* Attackable */
-     , (36600,  42, True ) /* AllowEdgeSlide */;
+VALUES (36600,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36600,   1, 'Demerax the Sculptor') /* Name */

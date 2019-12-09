@@ -9,17 +9,12 @@ VALUES (41740,   1,       2048) /* ItemType - Gem */
      , (41740,  16,          8) /* ItemUseable - Contained */
      , (41740,  19,          0) /* Value */
      , (41740,  33,          1) /* Bonded - Bonded */
-     , (41740,  65,        101) /* Placement - Resting */
      , (41740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41740, 114,          1) /* Attuned - Attuned */;
+     , (41740, 114,          1) /* Attuned - Attuned */
+     , (41740, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41740,   1, False) /* Stuck */
-     , (41740,  11, True ) /* IgnoreCollisions */
-     , (41740,  13, True ) /* Ethereal */
-     , (41740,  14, True ) /* GravityStatus */
-     , (41740,  19, True ) /* Attackable */
-     , (41740,  22, True ) /* Inscribable */;
+VALUES (41740,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41740,   1, 'Two Handed Combat Gem of Enlightenment') /* Name */

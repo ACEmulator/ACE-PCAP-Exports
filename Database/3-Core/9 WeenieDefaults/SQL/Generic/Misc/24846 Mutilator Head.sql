@@ -8,20 +8,15 @@ VALUES (24846,   1,        128) /* ItemType - Misc */
      , (24846,   5,       1050) /* EncumbranceVal */
      , (24846,  16,          1) /* ItemUseable - No */
      , (24846,  19,        200) /* Value */
-     , (24846,  65,        101) /* Placement - Resting */
      , (24846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24846, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (24846, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (24846, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24846,   1, False) /* Stuck */
-     , (24846,  11, True ) /* IgnoreCollisions */
-     , (24846,  13, True ) /* Ethereal */
-     , (24846,  14, True ) /* GravityStatus */
-     , (24846,  19, True ) /* Attackable */
-     , (24846,  22, True ) /* Inscribable */;
+VALUES (24846,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24846,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (24846,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24846,   1, 'Mutilator Head') /* Name */;

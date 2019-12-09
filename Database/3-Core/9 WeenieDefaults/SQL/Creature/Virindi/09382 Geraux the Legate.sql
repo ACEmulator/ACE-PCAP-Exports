@@ -15,11 +15,7 @@ VALUES (9382,   1,         16) /* ItemType - Creature */
      , (9382, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9382,   1, True ) /* Stuck */
-     , (9382,  12, True ) /* ReportCollisions */
-     , (9382,  13, False) /* Ethereal */
-     , (9382,  14, True ) /* GravityStatus */
-     , (9382,  19, True ) /* Attackable */;
+VALUES (9382,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9382,   1, 'Geraux the Legate') /* Name */

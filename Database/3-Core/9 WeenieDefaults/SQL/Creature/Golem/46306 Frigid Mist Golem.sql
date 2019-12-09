@@ -15,11 +15,7 @@ VALUES (46306,   1,         16) /* ItemType - Creature */
      , (46306, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46306,   1, True ) /* Stuck */
-     , (46306,  12, True ) /* ReportCollisions */
-     , (46306,  13, False) /* Ethereal */
-     , (46306,  14, True ) /* GravityStatus */
-     , (46306,  19, True ) /* Attackable */;
+VALUES (46306,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46306,   1, 'Frigid Mist Golem') /* Name */

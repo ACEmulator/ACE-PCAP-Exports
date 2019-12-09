@@ -29,17 +29,12 @@ VALUES (31395,   1,          2) /* ItemType - Armor */
      , (31395, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31395,   1, False) /* Stuck */
-     , (31395,  11, True ) /* IgnoreCollisions */
-     , (31395,  13, True ) /* Ethereal */
-     , (31395,  14, True ) /* GravityStatus */
-     , (31395,  19, True ) /* Attackable */
-     , (31395,  22, True ) /* Inscribable */
+VALUES (31395,  22, True ) /* Inscribable */
      , (31395,  69, False) /* IsSellable */
      , (31395,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31395,   5,  -0.025) /* ManaRate */
+VALUES (31395,   5,   -0.02) /* ManaRate */
      , (31395,  13,       0) /* ArmorModVsSlash */
      , (31395,  14,       0) /* ArmorModVsPierce */
      , (31395,  15,       0) /* ArmorModVsBludgeon */

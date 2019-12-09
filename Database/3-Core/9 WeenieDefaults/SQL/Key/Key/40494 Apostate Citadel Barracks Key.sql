@@ -8,19 +8,14 @@ VALUES (40494,   1,      16384) /* ItemType - Key */
      , (40494,   5,         20) /* EncumbranceVal */
      , (40494,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (40494,  19,          0) /* Value */
-     , (40494,  65,        101) /* Placement - Resting */
      , (40494,  91,          1) /* MaxStructure */
      , (40494,  92,          1) /* Structure */
      , (40494,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40494,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (40494,  94,        640) /* TargetType - LockableMagicTarget */
+     , (40494, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40494,   1, False) /* Stuck */
-     , (40494,  11, True ) /* IgnoreCollisions */
-     , (40494,  13, True ) /* Ethereal */
-     , (40494,  14, True ) /* GravityStatus */
-     , (40494,  19, True ) /* Attackable */
-     , (40494,  22, True ) /* Inscribable */;
+VALUES (40494,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40494,   1, 'Apostate Citadel Barracks Key') /* Name */

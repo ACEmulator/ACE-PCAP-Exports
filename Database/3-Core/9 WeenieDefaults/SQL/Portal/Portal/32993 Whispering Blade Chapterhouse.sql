@@ -12,19 +12,13 @@ VALUES (32993,   1,      65536) /* ItemType - Portal */
      , (32993, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32993,   1, True ) /* Stuck */
-     , (32993,  12, True ) /* ReportCollisions */
-     , (32993,  13, True ) /* Ethereal */
-     , (32993,  14, True ) /* GravityStatus */
-     , (32993,  15, True ) /* LightsStatus */
-     , (32993,  19, True ) /* Attackable */;
+VALUES (32993,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32993,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32993,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32993,   1, 'Whispering Blade Chapterhouse') /* Name */
-     , (32993,  38, 'Whispering Blade Chapterhouse') /* AppraisalPortalDestination */
      , (32993, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

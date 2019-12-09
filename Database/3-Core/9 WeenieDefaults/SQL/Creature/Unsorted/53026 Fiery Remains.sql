@@ -39,19 +39,14 @@ VALUES (53026,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53026,   1, True ) /* Stuck */
-     , (53026,  11, True ) /* IgnoreCollisions */
-     , (53026,  13, True ) /* Ethereal */
-     , (53026,  14, True ) /* GravityStatus */
-     , (53026,  19, False) /* Attackable */
-     , (53026,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53026,  42, True ) /* AllowEdgeSlide */;
+     , (53026,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53026,  39,       3) /* DefaultScale */
      , (53026,  54,       3) /* UseRadius */
      , (53026, 8010,       0) /* PCAPRecordedVelocityX */
      , (53026, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53026, 8012, -0.0508615635335445) /* PCAPRecordedVelocityZ */;
+     , (53026, 8012,   -0.05) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53026,   1, 'Fiery Remains') /* Name */

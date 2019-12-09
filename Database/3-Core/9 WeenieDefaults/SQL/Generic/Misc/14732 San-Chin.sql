@@ -11,12 +11,7 @@ VALUES (14732,   1,        128) /* ItemType - Misc */
      , (14732,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14732,   1, True ) /* Stuck */
-     , (14732,  11, True ) /* IgnoreCollisions */
-     , (14732,  12, True ) /* ReportCollisions */
-     , (14732,  13, False) /* Ethereal */
-     , (14732,  14, True ) /* GravityStatus */
-     , (14732,  19, True ) /* Attackable */;
+VALUES (14732,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14732,   1, 'San-Chin') /* Name */;

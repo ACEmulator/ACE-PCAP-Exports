@@ -15,14 +15,10 @@ VALUES (36526,   1,         16) /* ItemType - Creature */
      , (36526, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36526,   1, True ) /* Stuck */
-     , (36526,  12, True ) /* ReportCollisions */
-     , (36526,  13, False) /* Ethereal */
-     , (36526,  14, True ) /* GravityStatus */
-     , (36526,  19, True ) /* Attackable */;
+VALUES (36526,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36526,  39, 1.89999997615814) /* DefaultScale */;
+VALUES (36526,  39,     1.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36526,   1, 'Pumpkin Kin') /* Name */

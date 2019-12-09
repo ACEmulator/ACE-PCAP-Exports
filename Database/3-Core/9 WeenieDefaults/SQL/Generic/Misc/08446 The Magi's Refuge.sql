@@ -8,15 +8,10 @@ VALUES (8446,   1,        128) /* ItemType - Misc */
      , (8446,   5,       9000) /* EncumbranceVal */
      , (8446,  16,          1) /* ItemUseable - No */
      , (8446,  19,        125) /* Value */
-     , (8446,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (8446,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8446,   1, True ) /* Stuck */
-     , (8446,  11, True ) /* IgnoreCollisions */
-     , (8446,  12, True ) /* ReportCollisions */
-     , (8446,  13, False) /* Ethereal */
-     , (8446,  14, True ) /* GravityStatus */
-     , (8446,  19, True ) /* Attackable */;
+VALUES (8446,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8446,   1, 'The Magi''s Refuge') /* Name */

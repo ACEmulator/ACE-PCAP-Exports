@@ -12,20 +12,13 @@ VALUES (25544,   1,        128) /* ItemType - Misc */
      , (25544,  15,        500) /* StackUnitValue */
      , (25544,  16,          8) /* ItemUseable - Contained */
      , (25544,  19,        500) /* Value */
-     , (25544,  65,        101) /* Placement - Resting */
      , (25544,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25544, 106,        300) /* ItemSpellcraft */
      , (25544, 107,        100) /* ItemCurMana */
      , (25544, 108,        100) /* ItemMaxMana */
      , (25544, 109,          0) /* ItemDifficulty */
-     , (25544, 151,         11) /* HookType - Floor, Wall, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25544,   1, False) /* Stuck */
-     , (25544,  11, True ) /* IgnoreCollisions */
-     , (25544,  13, True ) /* Ethereal */
-     , (25544,  14, True ) /* GravityStatus */
-     , (25544,  19, True ) /* Attackable */;
+     , (25544, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (25544, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25544,   1, 'Potion of Endless Vigor') /* Name */

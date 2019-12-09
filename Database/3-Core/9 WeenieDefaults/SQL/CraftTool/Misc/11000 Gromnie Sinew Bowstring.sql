@@ -11,20 +11,15 @@ VALUES (11000,   1,        128) /* ItemType - Misc */
      , (11000,  13,         10) /* StackUnitEncumbrance */
      , (11000,  15,          0) /* StackUnitValue */
      , (11000,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (11000,  65,        101) /* Placement - Resting */
      , (11000,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11000,  94,        128) /* TargetType - Misc */;
+     , (11000,  94,        128) /* TargetType - Misc */
+     , (11000, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11000,   1, False) /* Stuck */
-     , (11000,  11, True ) /* IgnoreCollisions */
-     , (11000,  13, True ) /* Ethereal */
-     , (11000,  14, True ) /* GravityStatus */
-     , (11000,  19, True ) /* Attackable */
-     , (11000,  22, True ) /* Inscribable */;
+VALUES (11000,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11000,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (11000,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11000,   1, 'Gromnie Sinew Bowstring') /* Name */;

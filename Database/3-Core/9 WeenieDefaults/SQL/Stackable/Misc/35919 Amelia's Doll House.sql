@@ -13,23 +13,18 @@ VALUES (35919,   1,        128) /* ItemType - Misc */
      , (35919,  16,          1) /* ItemUseable - No */
      , (35919,  19,          0) /* Value */
      , (35919,  33,          1) /* Bonded - Bonded */
-     , (35919,  65,        101) /* Placement - Resting */
      , (35919,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35919,  98, 1483945677) /* CreationTimestamp */
      , (35919, 114,          1) /* Attuned - Attuned */
      , (35919, 267,       3600) /* Lifespan */
-     , (35919, 268,       3600) /* RemainingLifespan */;
+     , (35919, 268,       3600) /* RemainingLifespan */
+     , (35919, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35919,   1, False) /* Stuck */
-     , (35919,  11, True ) /* IgnoreCollisions */
-     , (35919,  13, True ) /* Ethereal */
-     , (35919,  14, True ) /* GravityStatus */
-     , (35919,  19, True ) /* Attackable */
-     , (35919,  69, False) /* IsSellable */;
+VALUES (35919,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35919,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (35919,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35919,   1, 'Amelia''s Doll House') /* Name */

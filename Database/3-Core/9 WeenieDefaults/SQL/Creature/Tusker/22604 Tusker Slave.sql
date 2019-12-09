@@ -15,12 +15,7 @@ VALUES (22604,   1,         16) /* ItemType - Creature */
      , (22604, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22604,   1, True ) /* Stuck */
-     , (22604,  12, True ) /* ReportCollisions */
-     , (22604,  13, False) /* Ethereal */
-     , (22604,  14, True ) /* GravityStatus */
-     , (22604,  19, True ) /* Attackable */
-     , (22604,  42, True ) /* AllowEdgeSlide */;
+VALUES (22604,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22604,   1, 'Tusker Slave') /* Name */

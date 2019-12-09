@@ -11,17 +11,12 @@ VALUES (5655,   1,       2048) /* ItemType - Gem */
      , (5655,  13,          5) /* StackUnitEncumbrance */
      , (5655,  15,       1500) /* StackUnitValue */
      , (5655,  19,       1500) /* Value */
-     , (5655,  65,        101) /* Placement - Resting */
      , (5655,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5655, 151,          2) /* HookType - Wall */;
+     , (5655, 151,          2) /* HookType - Wall */
+     , (5655, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5655,   1, False) /* Stuck */
-     , (5655,  11, True ) /* IgnoreCollisions */
-     , (5655,  13, True ) /* Ethereal */
-     , (5655,  14, True ) /* GravityStatus */
-     , (5655,  19, True ) /* Attackable */
-     , (5655,  22, True ) /* Inscribable */;
+VALUES (5655,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5655,   1, 'Black Gem') /* Name */;

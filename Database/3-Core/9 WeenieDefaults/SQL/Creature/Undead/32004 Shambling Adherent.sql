@@ -15,12 +15,7 @@ VALUES (32004,   1,         16) /* ItemType - Creature */
      , (32004, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32004,   1, True ) /* Stuck */
-     , (32004,  12, True ) /* ReportCollisions */
-     , (32004,  13, False) /* Ethereal */
-     , (32004,  14, True ) /* GravityStatus */
-     , (32004,  19, True ) /* Attackable */
-     , (32004,  42, True ) /* AllowEdgeSlide */;
+VALUES (32004,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32004,   1, 'Shambling Adherent') /* Name */

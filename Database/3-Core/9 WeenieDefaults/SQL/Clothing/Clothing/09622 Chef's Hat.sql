@@ -10,17 +10,12 @@ VALUES (9622,   1,          4) /* ItemType - Clothing */
      , (9622,   9,          1) /* ValidLocations - HeadWear */
      , (9622,  16,          1) /* ItemUseable - No */
      , (9622,  19,          5) /* Value */
-     , (9622,  65,        101) /* Placement - Resting */
      , (9622,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9622, 151,          2) /* HookType - Wall */;
+     , (9622, 151,          2) /* HookType - Wall */
+     , (9622, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9622,   1, False) /* Stuck */
-     , (9622,  11, True ) /* IgnoreCollisions */
-     , (9622,  13, True ) /* Ethereal */
-     , (9622,  14, True ) /* GravityStatus */
-     , (9622,  19, True ) /* Attackable */
-     , (9622,  22, True ) /* Inscribable */;
+VALUES (9622,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9622,   1, 'Chef''s Hat') /* Name */;

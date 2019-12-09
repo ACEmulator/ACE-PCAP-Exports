@@ -9,21 +9,16 @@ VALUES (9582,   1,        128) /* ItemType - Misc */
      , (9582,  16,          1) /* ItemUseable - No */
      , (9582,  19,      10000) /* Value */
      , (9582,  33,         -2) /* Bonded - Destroy */
-     , (9582,  65,        101) /* Placement - Resting */
      , (9582,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9582, 114,          1) /* Attuned - Attuned */;
+     , (9582, 114,          1) /* Attuned - Attuned */
+     , (9582, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9582,   1, False) /* Stuck */
-     , (9582,  11, True ) /* IgnoreCollisions */
-     , (9582,  13, True ) /* Ethereal */
-     , (9582,  14, True ) /* GravityStatus */
-     , (9582,  19, True ) /* Attackable */
-     , (9582,  22, True ) /* Inscribable */
+VALUES (9582,  22, True ) /* Inscribable */
      , (9582,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9582,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9582,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9582,   1, 'Creature Enchantment Skill Puzzle Piece') /* Name */

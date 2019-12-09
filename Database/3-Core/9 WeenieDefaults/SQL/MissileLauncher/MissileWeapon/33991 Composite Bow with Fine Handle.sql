@@ -17,7 +17,6 @@ VALUES (33991,   1,        256) /* ItemType - MissileWeapon */
      , (33991,  49,          0) /* WeaponTime */
      , (33991,  50,          1) /* AmmoType - Arrow */
      , (33991,  51,          2) /* CombatUse - Missle */
-     , (33991,  65,          3) /* Placement - LeftHand */
      , (33991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33991, 106,        313) /* ItemSpellcraft */
      , (33991, 107,        715) /* ItemCurMana */
@@ -28,15 +27,11 @@ VALUES (33991,   1,        256) /* ItemType - MissileWeapon */
      , (33991, 159,         47) /* WieldSkillType - MissileWeapons */
      , (33991, 160,        290) /* WieldDifficulty */
      , (33991, 353,          8) /* WeaponType - Bow */
-     , (33991, 8030,          0);
+     , (33991, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33991, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33991,   1, False) /* Stuck */
-     , (33991,  11, True ) /* IgnoreCollisions */
-     , (33991,  13, True ) /* Ethereal */
-     , (33991,  14, True ) /* GravityStatus */
-     , (33991,  19, True ) /* Attackable */
-     , (33991,  22, True ) /* Inscribable */
+VALUES (33991,  22, True ) /* Inscribable */
      , (33991,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,8 +39,8 @@ VALUES (33991,   5,   -0.05) /* ManaRate */
      , (33991,  21,       0) /* WeaponLength */
      , (33991,  22,       0) /* DamageVariance */
      , (33991,  26,    27.3) /* MaximumVelocity */
-     , (33991,  29, 1.30500000178814) /* WeaponDefense */
-     , (33991,  39, 1.10000002384186) /* DefaultScale */
+     , (33991,  29,    1.31) /* WeaponDefense */
+     , (33991,  39,     1.1) /* DefaultScale */
      , (33991,  62,       1) /* WeaponOffense */
      , (33991,  63,     2.5) /* DamageMod */
      , (33991, 136,       1) /* CriticalMultiplier */

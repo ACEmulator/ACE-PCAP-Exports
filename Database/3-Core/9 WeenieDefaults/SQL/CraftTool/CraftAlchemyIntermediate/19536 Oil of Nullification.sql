@@ -11,18 +11,13 @@ VALUES (19536,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (19536,  13,        150) /* StackUnitEncumbrance */
      , (19536,  15,          0) /* StackUnitValue */
      , (19536,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (19536,  65,        101) /* Placement - Resting */
      , (19536,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19536,  94,   75497600) /* TargetType - Misc, CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (19536, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (19536, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (19536, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19536,   1, False) /* Stuck */
-     , (19536,  11, True ) /* IgnoreCollisions */
-     , (19536,  13, True ) /* Ethereal */
-     , (19536,  14, True ) /* GravityStatus */
-     , (19536,  19, True ) /* Attackable */
-     , (19536,  22, True ) /* Inscribable */;
+VALUES (19536,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19536,   1, 'Oil of Nullification') /* Name */

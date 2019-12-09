@@ -10,22 +10,17 @@ VALUES (14920,   1,          8) /* ItemType - Jewelry */
      , (14920,  16,          1) /* ItemUseable - No */
      , (14920,  19,          0) /* Value */
      , (14920,  33,          1) /* Bonded - Bonded */
-     , (14920,  65,        101) /* Placement - Resting */
      , (14920,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14920, 114,          1) /* Attuned - Attuned */
-     , (14920, 151,          2) /* HookType - Wall */;
+     , (14920, 151,          2) /* HookType - Wall */
+     , (14920, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14920,   1, False) /* Stuck */
-     , (14920,  11, True ) /* IgnoreCollisions */
-     , (14920,  13, True ) /* Ethereal */
-     , (14920,  14, True ) /* GravityStatus */
-     , (14920,  19, True ) /* Attackable */
-     , (14920,  22, True ) /* Inscribable */
+VALUES (14920,  22, True ) /* Inscribable */
      , (14920,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14920,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (14920,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14920,   1, 'Wedding Ring') /* Name */

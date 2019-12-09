@@ -6,16 +6,11 @@ VALUES (32658, 'ace32658-damagedstoneinfuser', 1, '2019-02-10 00:00:00') /* Gene
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32658,   1,        128) /* ItemType - Misc */
      , (32658,   5,        500) /* EncumbranceVal */
-     , (32658,  65,        101) /* Placement - Resting */
-     , (32658,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (32658,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32658, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32658,   1, False) /* Stuck */
-     , (32658,  11, True ) /* IgnoreCollisions */
-     , (32658,  13, True ) /* Ethereal */
-     , (32658,  14, True ) /* GravityStatus */
-     , (32658,  19, True ) /* Attackable */
-     , (32658,  22, True ) /* Inscribable */;
+VALUES (32658,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32658,   1, 'Damaged Stone Infuser') /* Name */;

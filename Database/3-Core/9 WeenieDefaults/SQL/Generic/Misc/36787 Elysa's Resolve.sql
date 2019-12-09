@@ -8,16 +8,11 @@ VALUES (36787,   1,        128) /* ItemType - Misc */
      , (36787,   5,          5) /* EncumbranceVal */
      , (36787,  16,          1) /* ItemUseable - No */
      , (36787,  18,          8) /* UiEffects - BoostMana */
-     , (36787,  65,        101) /* Placement - Resting */
-     , (36787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36787, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36787,   1, False) /* Stuck */
-     , (36787,  11, True ) /* IgnoreCollisions */
-     , (36787,  13, True ) /* Ethereal */
-     , (36787,  14, True ) /* GravityStatus */
-     , (36787,  19, True ) /* Attackable */
-     , (36787,  22, True ) /* Inscribable */;
+VALUES (36787,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36787,   1, 'Elysa''s Resolve') /* Name */;

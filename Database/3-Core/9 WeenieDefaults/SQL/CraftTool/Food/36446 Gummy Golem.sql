@@ -24,16 +24,11 @@ VALUES (36446,   1,         32) /* ItemType - Food */
      , (36446, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36446,   1, False) /* Stuck */
-     , (36446,  11, True ) /* IgnoreCollisions */
-     , (36446,  13, True ) /* Ethereal */
-     , (36446,  14, True ) /* GravityStatus */
-     , (36446,  19, True ) /* Attackable */
-     , (36446,  69, False) /* IsSellable */;
+VALUES (36446,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36446,  39, 0.100000001490116) /* DefaultScale */
-     , (36446,  76, 0.600000023841858) /* Translucency */;
+VALUES (36446,  39,     0.1) /* DefaultScale */
+     , (36446,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36446,   1, 'Gummy Golem') /* Name */

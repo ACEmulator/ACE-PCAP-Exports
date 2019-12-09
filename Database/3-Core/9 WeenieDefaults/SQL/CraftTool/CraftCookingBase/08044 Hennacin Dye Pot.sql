@@ -12,17 +12,10 @@ VALUES (8044,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8044,  15,        100) /* StackUnitValue */
      , (8044,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8044,  19,        100) /* Value */
-     , (8044,  65,        101) /* Placement - Resting */
      , (8044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8044,  94,        134) /* TargetType - Vestements, Misc */
-     , (8044, 151,          9) /* HookType - Floor, Yard */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8044,   1, False) /* Stuck */
-     , (8044,  11, True ) /* IgnoreCollisions */
-     , (8044,  13, True ) /* Ethereal */
-     , (8044,  14, True ) /* GravityStatus */
-     , (8044,  19, True ) /* Attackable */;
+     , (8044, 151,          9) /* HookType - Floor, Yard */
+     , (8044, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8044,   1, 'Hennacin Dye Pot') /* Name */

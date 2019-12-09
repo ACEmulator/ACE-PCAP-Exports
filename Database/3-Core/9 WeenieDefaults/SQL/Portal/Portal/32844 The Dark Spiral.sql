@@ -13,19 +13,13 @@ VALUES (32844,   1,      65536) /* ItemType - Portal */
      , (32844, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32844,   1, True ) /* Stuck */
-     , (32844,  12, True ) /* ReportCollisions */
-     , (32844,  13, True ) /* Ethereal */
-     , (32844,  14, True ) /* GravityStatus */
-     , (32844,  15, True ) /* LightsStatus */
-     , (32844,  19, True ) /* Attackable */;
+VALUES (32844,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32844,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32844,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32844,   1, 'The Dark Spiral') /* Name */
-     , (32844,  38, 'The Dark Spiral') /* AppraisalPortalDestination */
      , (32844, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

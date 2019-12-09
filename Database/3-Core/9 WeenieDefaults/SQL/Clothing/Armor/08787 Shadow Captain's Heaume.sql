@@ -12,31 +12,26 @@ VALUES (8787,   1,          2) /* ItemType - Armor */
      , (8787,  18,          1) /* UiEffects - Magical */
      , (8787,  19,       4000) /* Value */
      , (8787,  28,        250) /* ArmorLevel */
-     , (8787,  65,        101) /* Placement - Resting */
      , (8787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8787, 106,        150) /* ItemSpellcraft */
      , (8787, 107,        350) /* ItemCurMana */
      , (8787, 108,        350) /* ItemMaxMana */
      , (8787, 109,          1) /* ItemDifficulty */
-     , (8787, 151,          2) /* HookType - Wall */;
+     , (8787, 151,          2) /* HookType - Wall */
+     , (8787, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8787,   1, False) /* Stuck */
-     , (8787,  11, True ) /* IgnoreCollisions */
-     , (8787,  13, True ) /* Ethereal */
-     , (8787,  14, True ) /* GravityStatus */
-     , (8787,  19, True ) /* Attackable */
-     , (8787,  22, True ) /* Inscribable */;
+VALUES (8787,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8787,   5,   -0.05) /* ManaRate */
-     , (8787,  13, 1.29999995231628) /* ArmorModVsSlash */
+     , (8787,  13,     1.3) /* ArmorModVsSlash */
      , (8787,  14,       1) /* ArmorModVsPierce */
      , (8787,  15,       1) /* ArmorModVsBludgeon */
-     , (8787,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (8787,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (8787,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (8787,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (8787,  16,     0.6) /* ArmorModVsCold */
+     , (8787,  17,     0.6) /* ArmorModVsFire */
+     , (8787,  18,     0.6) /* ArmorModVsAcid */
+     , (8787,  19,     0.6) /* ArmorModVsElectric */
      , (8787, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

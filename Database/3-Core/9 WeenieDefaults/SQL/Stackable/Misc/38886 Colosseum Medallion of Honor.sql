@@ -13,18 +13,11 @@ VALUES (38886,   1,        128) /* ItemType - Misc */
      , (38886,  16,          1) /* ItemUseable - No */
      , (38886,  18,          1) /* UiEffects - Magical */
      , (38886,  19,          5) /* Value */
-     , (38886,  65,        101) /* Placement - Resting */
-     , (38886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38886,   1, False) /* Stuck */
-     , (38886,  11, True ) /* IgnoreCollisions */
-     , (38886,  13, True ) /* Ethereal */
-     , (38886,  14, True ) /* GravityStatus */
-     , (38886,  19, True ) /* Attackable */;
+     , (38886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38886, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38886,  39, 0.899999976158142) /* DefaultScale */;
+VALUES (38886,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38886,   1, 'Colosseum Medallion of Honor') /* Name */;

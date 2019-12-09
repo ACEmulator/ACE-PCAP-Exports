@@ -15,12 +15,7 @@ VALUES (27928,   1,       2048) /* ItemType - Gem */
      , (27928,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27928,   1, False) /* Stuck */
-     , (27928,  11, True ) /* IgnoreCollisions */
-     , (27928,  13, True ) /* Ethereal */
-     , (27928,  14, True ) /* GravityStatus */
-     , (27928,  19, True ) /* Attackable */
-     , (27928,  22, True ) /* Inscribable */;
+VALUES (27928,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27928,   1, 'A Carved Plate') /* Name */

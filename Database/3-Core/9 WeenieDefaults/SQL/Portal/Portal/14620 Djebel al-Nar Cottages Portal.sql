@@ -11,15 +11,10 @@ VALUES (14620,   1,      65536) /* ItemType - Portal */
      , (14620, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14620,   1, True ) /* Stuck */
-     , (14620,  12, True ) /* ReportCollisions */
-     , (14620,  13, True ) /* Ethereal */
-     , (14620,  14, True ) /* GravityStatus */
-     , (14620,  15, True ) /* LightsStatus */
-     , (14620,  19, True ) /* Attackable */;
+VALUES (14620,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14620,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14620,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14620,   1, 'Djebel al-Nar Cottages Portal') /* Name */

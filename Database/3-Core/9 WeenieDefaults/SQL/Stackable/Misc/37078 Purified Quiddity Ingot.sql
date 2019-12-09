@@ -13,16 +13,11 @@ VALUES (37078,   1,        128) /* ItemType - Misc */
      , (37078,  16,          1) /* ItemUseable - No */
      , (37078,  18,         16) /* UiEffects - BoostStamina */
      , (37078,  19,       1000) /* Value */
-     , (37078,  65,        101) /* Placement - Resting */
-     , (37078,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37078,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37078, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37078,   1, False) /* Stuck */
-     , (37078,  11, True ) /* IgnoreCollisions */
-     , (37078,  13, True ) /* Ethereal */
-     , (37078,  14, True ) /* GravityStatus */
-     , (37078,  19, True ) /* Attackable */
-     , (37078,  22, True ) /* Inscribable */;
+VALUES (37078,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37078,   1, 'Purified Quiddity Ingot') /* Name */;

@@ -39,17 +39,10 @@ VALUES (44434,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44434,   1, True ) /* Stuck */
-     , (44434,  11, True ) /* IgnoreCollisions */
-     , (44434,  12, True ) /* ReportCollisions */
-     , (44434,  13, True ) /* Ethereal */
-     , (44434,  14, True ) /* GravityStatus */
-     , (44434,  15, True ) /* LightsStatus */
-     , (44434,  19, False) /* Attackable */
-     , (44434,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (44434,  42, True ) /* AllowEdgeSlide */;
+     , (44434,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44434,  54, 0.100000001490116) /* UseRadius */;
+VALUES (44434,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44434,   1, 'Summoning Cave') /* Name */

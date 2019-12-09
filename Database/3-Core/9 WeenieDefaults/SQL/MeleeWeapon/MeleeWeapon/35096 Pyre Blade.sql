@@ -15,12 +15,7 @@ VALUES (35096,   1,          1) /* ItemType - MeleeWeapon */
      , (35096,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35096,   1, False) /* Stuck */
-     , (35096,  11, True ) /* IgnoreCollisions */
-     , (35096,  13, True ) /* Ethereal */
-     , (35096,  14, True ) /* GravityStatus */
-     , (35096,  19, True ) /* Attackable */
-     , (35096,  22, True ) /* Inscribable */;
+VALUES (35096,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35096,   1, 'Pyre Blade') /* Name */;

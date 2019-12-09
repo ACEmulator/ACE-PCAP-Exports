@@ -11,18 +11,13 @@ VALUES (14450,   1,        128) /* ItemType - Misc */
      , (14450,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14450,   1, True ) /* Stuck */
-     , (14450,  11, True ) /* IgnoreCollisions */
-     , (14450,  12, True ) /* ReportCollisions */
-     , (14450,  13, False) /* Ethereal */
-     , (14450,  14, True ) /* GravityStatus */
-     , (14450,  19, True ) /* Attackable */;
+VALUES (14450,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14450,  54,       5) /* UseRadius */
      , (14450, 8010,       0) /* PCAPRecordedVelocityX */
      , (14450, 8011,       0) /* PCAPRecordedVelocityY */
-     , (14450, 8012, -0.327734142541885) /* PCAPRecordedVelocityZ */;
+     , (14450, 8012,   -0.33) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14450,   1, 'Captured Adventurer ') /* Name */

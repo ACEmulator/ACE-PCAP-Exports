@@ -7,19 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34056,   1,      16384) /* ItemType - Key */
      , (34056,   5,         80) /* EncumbranceVal */
      , (34056,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (34056,  65,        101) /* Placement - Resting */
      , (34056,  91,          1) /* MaxStructure */
      , (34056,  92,          1) /* Structure */
      , (34056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34056,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (34056,  94,        640) /* TargetType - LockableMagicTarget */
+     , (34056, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34056,   1, False) /* Stuck */
-     , (34056,  11, True ) /* IgnoreCollisions */
-     , (34056,  13, True ) /* Ethereal */
-     , (34056,  14, True ) /* GravityStatus */
-     , (34056,  19, True ) /* Attackable */
-     , (34056,  22, True ) /* Inscribable */;
+VALUES (34056,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34056,   1, 'Ritual Chest Key') /* Name */;

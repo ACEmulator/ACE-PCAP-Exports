@@ -13,14 +13,10 @@ VALUES (52819,   1,         16) /* ItemType - Creature */
      , (52819, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52819,   1, True ) /* Stuck */
-     , (52819,  12, True ) /* ReportCollisions */
-     , (52819,  13, False) /* Ethereal */
-     , (52819,  14, True ) /* GravityStatus */
-     , (52819,  19, True ) /* Attackable */;
+VALUES (52819,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52819,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (52819,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52819,   1, 'Marionette Minion') /* Name */

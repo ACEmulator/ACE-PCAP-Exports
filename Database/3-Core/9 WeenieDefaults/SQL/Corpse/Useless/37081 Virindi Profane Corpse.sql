@@ -13,10 +13,6 @@ VALUES (37081,   1,       1024) /* ItemType - Useless */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37081,   1, True ) /* Stuck */
-     , (37081,  11, True ) /* IgnoreCollisions */
-     , (37081,  13, True ) /* Ethereal */
-     , (37081,  14, True ) /* GravityStatus */
-     , (37081,  19, True ) /* Attackable */
      , (37081,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

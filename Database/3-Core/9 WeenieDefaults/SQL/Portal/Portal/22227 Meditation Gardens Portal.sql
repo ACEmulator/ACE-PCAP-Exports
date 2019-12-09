@@ -12,19 +12,13 @@ VALUES (22227,   1,      65536) /* ItemType - Portal */
      , (22227, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22227,   1, True ) /* Stuck */
-     , (22227,  12, True ) /* ReportCollisions */
-     , (22227,  13, True ) /* Ethereal */
-     , (22227,  14, True ) /* GravityStatus */
-     , (22227,  15, True ) /* LightsStatus */
-     , (22227,  19, True ) /* Attackable */;
+VALUES (22227,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22227,  54, -0.100000001490116) /* UseRadius */;
+VALUES (22227,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22227,   1, 'Meditation Gardens Portal') /* Name */
-     , (22227,  38, 'Meditation Gardens Portal') /* AppraisalPortalDestination */
      , (22227, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

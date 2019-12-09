@@ -12,15 +12,8 @@ VALUES (37328,   1,        128) /* ItemType - Misc */
      , (37328,  15,      30000) /* StackUnitValue */
      , (37328,  16,          1) /* ItemUseable - No */
      , (37328,  19,      30000) /* Value */
-     , (37328,  65,        101) /* Placement - Resting */
-     , (37328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37328,   1, False) /* Stuck */
-     , (37328,  11, True ) /* IgnoreCollisions */
-     , (37328,  13, True ) /* Ethereal */
-     , (37328,  14, True ) /* GravityStatus */
-     , (37328,  19, True ) /* Attackable */;
+     , (37328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37328,   1, 'Glyph of Quickness') /* Name */

@@ -11,20 +11,14 @@ VALUES (4038,   1,      65536) /* ItemType - Portal */
      , (4038, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4038,   1, True ) /* Stuck */
-     , (4038,  11, True ) /* IgnoreCollisions */
-     , (4038,  13, True ) /* Ethereal */
-     , (4038,  14, True ) /* GravityStatus */
-     , (4038,  15, True ) /* LightsStatus */
-     , (4038,  19, True ) /* Attackable */;
+VALUES (4038,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4038,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4038,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4038,   1, 'Destroyed Tufa Portal') /* Name */
      , (4038,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (4038,  38, 'Destroyed Tufa Portal (14.8S, 6.1E).') /* AppraisalPortalDestination */
      , (4038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

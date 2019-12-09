@@ -8,16 +8,11 @@ VALUES (681,   1,        128) /* ItemType - Misc */
      , (681,   5,       9000) /* EncumbranceVal */
      , (681,  16,          1) /* ItemUseable - No */
      , (681,  19,        125) /* Value */
-     , (681,  65,        101) /* Placement - Resting */
-     , (681,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (681,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (681, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (681,   1, True ) /* Stuck */
-     , (681,  11, True ) /* IgnoreCollisions */
-     , (681,  12, True ) /* ReportCollisions */
-     , (681,  13, False) /* Ethereal */
-     , (681,  14, True ) /* GravityStatus */
-     , (681,  19, True ) /* Attackable */;
+VALUES (681,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (681,   1, 'Hildar House ') /* Name */

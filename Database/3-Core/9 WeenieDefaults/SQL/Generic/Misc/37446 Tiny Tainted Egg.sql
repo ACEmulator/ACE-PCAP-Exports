@@ -8,15 +8,8 @@ VALUES (37446,   1,        128) /* ItemType - Misc */
      , (37446,   5,         30) /* EncumbranceVal */
      , (37446,  16,          1) /* ItemUseable - No */
      , (37446,  18,          1) /* UiEffects - Magical */
-     , (37446,  65,        101) /* Placement - Resting */
-     , (37446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37446,   1, False) /* Stuck */
-     , (37446,  11, True ) /* IgnoreCollisions */
-     , (37446,  13, True ) /* Ethereal */
-     , (37446,  14, True ) /* GravityStatus */
-     , (37446,  19, True ) /* Attackable */;
+     , (37446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37446, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37446,   1, 'Tiny Tainted Egg') /* Name */;

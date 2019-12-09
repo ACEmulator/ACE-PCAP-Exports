@@ -9,20 +9,15 @@ VALUES (38648,   1,        128) /* ItemType - Misc */
      , (38648,  16,          1) /* ItemUseable - No */
      , (38648,  19,          0) /* Value */
      , (38648,  33,          1) /* Bonded - Bonded */
-     , (38648,  65,        101) /* Placement - Resting */
      , (38648,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38648,  98, 1485398881) /* CreationTimestamp */
      , (38648, 114,          1) /* Attuned - Attuned */
      , (38648, 267,       3600) /* Lifespan */
-     , (38648, 268,       3595) /* RemainingLifespan */;
+     , (38648, 268,       3595) /* RemainingLifespan */
+     , (38648, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38648,   1, False) /* Stuck */
-     , (38648,  11, True ) /* IgnoreCollisions */
-     , (38648,  13, True ) /* Ethereal */
-     , (38648,  14, True ) /* GravityStatus */
-     , (38648,  19, True ) /* Attackable */
-     , (38648,  22, True ) /* Inscribable */;
+VALUES (38648,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38648,   1, 'Lens of the Filinuvekta') /* Name */

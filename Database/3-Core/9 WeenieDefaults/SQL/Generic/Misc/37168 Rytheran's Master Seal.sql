@@ -9,17 +9,12 @@ VALUES (37168,   1,        128) /* ItemType - Misc */
      , (37168,  16,          1) /* ItemUseable - No */
      , (37168,  19,          0) /* Value */
      , (37168,  33,          1) /* Bonded - Bonded */
-     , (37168,  65,        101) /* Placement - Resting */
      , (37168,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37168, 114,          1) /* Attuned - Attuned */;
+     , (37168, 114,          1) /* Attuned - Attuned */
+     , (37168, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37168,   1, False) /* Stuck */
-     , (37168,  11, True ) /* IgnoreCollisions */
-     , (37168,  13, True ) /* Ethereal */
-     , (37168,  14, True ) /* GravityStatus */
-     , (37168,  19, True ) /* Attackable */
-     , (37168,  22, True ) /* Inscribable */;
+VALUES (37168,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37168,   1, 'Rytheran''s Master Seal') /* Name */

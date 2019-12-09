@@ -12,19 +12,13 @@ VALUES (12537,   1,      65536) /* ItemType - Portal */
      , (12537, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12537,   1, True ) /* Stuck */
-     , (12537,  12, True ) /* ReportCollisions */
-     , (12537,  13, True ) /* Ethereal */
-     , (12537,  14, True ) /* GravityStatus */
-     , (12537,  15, True ) /* LightsStatus */
-     , (12537,  19, True ) /* Attackable */;
+VALUES (12537,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12537,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12537,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12537,   1, 'Pavanne Vale Freehold Portal') /* Name */
-     , (12537,  38, 'Pavanne Vale Freehold Portal (87.6N, 14.5E).') /* AppraisalPortalDestination */
      , (12537, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

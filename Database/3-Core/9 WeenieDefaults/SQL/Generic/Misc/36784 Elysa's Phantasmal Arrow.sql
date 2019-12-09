@@ -10,17 +10,12 @@ VALUES (36784,   1,        128) /* ItemType - Misc */
      , (36784,  18,        128) /* UiEffects - Frost */
      , (36784,  19,          0) /* Value */
      , (36784,  33,          1) /* Bonded - Bonded */
-     , (36784,  65,        101) /* Placement - Resting */
      , (36784,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36784, 114,          1) /* Attuned - Attuned */;
+     , (36784, 114,          1) /* Attuned - Attuned */
+     , (36784, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36784,   1, False) /* Stuck */
-     , (36784,  11, True ) /* IgnoreCollisions */
-     , (36784,  13, True ) /* Ethereal */
-     , (36784,  14, True ) /* GravityStatus */
-     , (36784,  19, True ) /* Attackable */
-     , (36784,  22, True ) /* Inscribable */;
+VALUES (36784,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36784,   1, 'Elysa''s Phantasmal Arrow') /* Name */

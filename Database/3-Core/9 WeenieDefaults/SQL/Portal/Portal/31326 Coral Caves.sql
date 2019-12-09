@@ -13,19 +13,13 @@ VALUES (31326,   1,      65536) /* ItemType - Portal */
      , (31326, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31326,   1, True ) /* Stuck */
-     , (31326,  12, True ) /* ReportCollisions */
-     , (31326,  13, True ) /* Ethereal */
-     , (31326,  14, True ) /* GravityStatus */
-     , (31326,  15, True ) /* LightsStatus */
-     , (31326,  19, True ) /* Attackable */;
+VALUES (31326,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31326,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31326,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31326,   1, 'Coral Caves') /* Name */
-     , (31326,  38, 'Coral Caves') /* AppraisalPortalDestination */
      , (31326, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

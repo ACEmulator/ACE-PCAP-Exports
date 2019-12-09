@@ -11,20 +11,15 @@ VALUES (27870,   1,          1) /* ItemType - MeleeWeapon */
      , (27870,  16,          1) /* ItemUseable - No */
      , (27870,  19,        750) /* Value */
      , (27870,  51,          1) /* CombatUse - Melee */
-     , (27870,  65,          1) /* Placement - RightHandCombat */
      , (27870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27870, 151,          2) /* HookType - Wall */;
+     , (27870, 151,          2) /* HookType - Wall */
+     , (27870, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27870,   1, False) /* Stuck */
-     , (27870,  11, True ) /* IgnoreCollisions */
-     , (27870,  13, True ) /* Ethereal */
-     , (27870,  14, True ) /* GravityStatus */
-     , (27870,  19, True ) /* Attackable */
-     , (27870,  22, True ) /* Inscribable */;
+VALUES (27870,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27870,  39, 0.300000011920929) /* DefaultScale */;
+VALUES (27870,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27870,   1, 'Tree Trunk') /* Name */;

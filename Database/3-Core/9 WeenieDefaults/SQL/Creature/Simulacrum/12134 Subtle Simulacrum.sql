@@ -18,11 +18,7 @@ VALUES (12134,   1,         16) /* ItemType - Creature */
      , (12134, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12134,   1, True ) /* Stuck */
-     , (12134,  12, True ) /* ReportCollisions */
-     , (12134,  13, False) /* Ethereal */
-     , (12134,  14, True ) /* GravityStatus */
-     , (12134,  19, True ) /* Attackable */;
+VALUES (12134,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12134,   1, 'Subtle Simulacrum') /* Name */

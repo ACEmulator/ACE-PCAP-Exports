@@ -13,19 +13,14 @@ VALUES (34550,   1,         32) /* ItemType - Food */
      , (34550,  16,          8) /* ItemUseable - Contained */
      , (34550,  19,         80) /* Value */
      , (34550,  33,          1) /* Bonded - Bonded */
-     , (34550,  65,        101) /* Placement - Resting */
      , (34550,  89,          4) /* BoosterEnum - Stamina */
      , (34550,  90,          8) /* BoostValue */
      , (34550,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34550, 114,          1) /* Attuned - Attuned */;
+     , (34550, 114,          1) /* Attuned - Attuned */
+     , (34550, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34550,   1, False) /* Stuck */
-     , (34550,  11, True ) /* IgnoreCollisions */
-     , (34550,  13, True ) /* Ethereal */
-     , (34550,  14, True ) /* GravityStatus */
-     , (34550,  19, True ) /* Attackable */
-     , (34550,  22, True ) /* Inscribable */;
+VALUES (34550,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34550,   1, 'Old Nectar') /* Name */

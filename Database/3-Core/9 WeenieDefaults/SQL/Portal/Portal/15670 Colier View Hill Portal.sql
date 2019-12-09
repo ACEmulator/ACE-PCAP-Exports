@@ -12,19 +12,13 @@ VALUES (15670,   1,      65536) /* ItemType - Portal */
      , (15670, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15670,   1, True ) /* Stuck */
-     , (15670,  12, True ) /* ReportCollisions */
-     , (15670,  13, True ) /* Ethereal */
-     , (15670,  14, True ) /* GravityStatus */
-     , (15670,  15, True ) /* LightsStatus */
-     , (15670,  19, True ) /* Attackable */;
+VALUES (15670,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15670,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15670,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15670,   1, 'Colier View Hill Portal') /* Name */
-     , (15670,  38, 'Colier View Hill Portal (59.3N, 40.9E).') /* AppraisalPortalDestination */
      , (15670, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

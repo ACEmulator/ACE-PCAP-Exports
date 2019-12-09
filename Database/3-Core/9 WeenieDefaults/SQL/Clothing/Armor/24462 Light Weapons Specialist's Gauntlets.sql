@@ -10,16 +10,11 @@ VALUES (24462,   1,          2) /* ItemType - Armor */
      , (24462,   9,         32) /* ValidLocations - HandWear */
      , (24462,  16,          1) /* ItemUseable - No */
      , (24462,  19,       5500) /* Value */
-     , (24462,  65,        101) /* Placement - Resting */
-     , (24462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (24462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24462, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24462,   1, False) /* Stuck */
-     , (24462,  11, True ) /* IgnoreCollisions */
-     , (24462,  13, True ) /* Ethereal */
-     , (24462,  14, True ) /* GravityStatus */
-     , (24462,  19, True ) /* Attackable */
-     , (24462,  22, True ) /* Inscribable */;
+VALUES (24462,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24462,   1, 'Light Weapons Specialist''s Gauntlets') /* Name */;

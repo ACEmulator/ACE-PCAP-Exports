@@ -13,19 +13,13 @@ VALUES (32045,   1,      65536) /* ItemType - Portal */
      , (32045, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32045,   1, True ) /* Stuck */
-     , (32045,  12, True ) /* ReportCollisions */
-     , (32045,  13, True ) /* Ethereal */
-     , (32045,  14, True ) /* GravityStatus */
-     , (32045,  15, True ) /* LightsStatus */
-     , (32045,  19, True ) /* Attackable */;
+VALUES (32045,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32045,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32045,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32045,   1, 'Temple of Xik Minru') /* Name */
-     , (32045,  38, 'Temple of Xik Minru') /* AppraisalPortalDestination */
      , (32045, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

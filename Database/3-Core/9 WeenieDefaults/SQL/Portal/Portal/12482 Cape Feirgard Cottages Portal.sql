@@ -12,19 +12,13 @@ VALUES (12482,   1,      65536) /* ItemType - Portal */
      , (12482, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12482,   1, True ) /* Stuck */
-     , (12482,  12, True ) /* ReportCollisions */
-     , (12482,  13, True ) /* Ethereal */
-     , (12482,  14, True ) /* GravityStatus */
-     , (12482,  15, True ) /* LightsStatus */
-     , (12482,  19, True ) /* Attackable */;
+VALUES (12482,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12482,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12482,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12482,   1, 'Cape Feirgard Cottages Portal') /* Name */
-     , (12482,  38, 'Cape Feirgard Cottages Portal (30.1N, 65.8E).') /* AppraisalPortalDestination */
      , (12482, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

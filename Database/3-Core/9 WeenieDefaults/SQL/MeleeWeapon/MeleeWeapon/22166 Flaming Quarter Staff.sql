@@ -16,7 +16,6 @@ VALUES (22166,   1,          1) /* ItemType - MeleeWeapon */
      , (22166,  48,         45) /* WeaponSkill - LightWeapons */
      , (22166,  49,         30) /* WeaponTime */
      , (22166,  51,          1) /* CombatUse - Melee */
-     , (22166,  65,        101) /* Placement - Resting */
      , (22166,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22166, 105,          5) /* ItemWorkmanship */
      , (22166, 106,        200) /* ItemSpellcraft */
@@ -35,23 +34,19 @@ VALUES (22166,   1,          1) /* ItemType - MeleeWeapon */
      , (22166, 177,          2) /* GemCount */
      , (22166, 178,         13) /* GemType */
      , (22166, 353,          7) /* WeaponType - Staff */
-     , (22166, 8030,          0);
+     , (22166, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (22166, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22166,   1, False) /* Stuck */
-     , (22166,  11, True ) /* IgnoreCollisions */
-     , (22166,  13, True ) /* Ethereal */
-     , (22166,  14, True ) /* GravityStatus */
-     , (22166,  19, True ) /* Attackable */
-     , (22166,  22, True ) /* Inscribable */;
+VALUES (22166,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22166,   5, -0.0416666666666667) /* ManaRate */
+VALUES (22166,   5,   -0.04) /* ManaRate */
      , (22166,  21,       0) /* WeaponLength */
      , (22166,  22,     0.4) /* DamageVariance */
      , (22166,  26,       0) /* MaximumVelocity */
      , (22166,  29,    1.12) /* WeaponDefense */
-     , (22166,  39, 0.800000011920929) /* DefaultScale */
+     , (22166,  39,     0.8) /* DefaultScale */
      , (22166,  62,    1.03) /* WeaponOffense */
      , (22166,  63,       1) /* DamageMod */
      , (22166, 8004,       5) /* PCAPRecordedWorkmanship */;

@@ -13,19 +13,13 @@ VALUES (4140,   1,      65536) /* ItemType - Portal */
      , (4140, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4140,   1, True ) /* Stuck */
-     , (4140,  12, True ) /* ReportCollisions */
-     , (4140,  13, True ) /* Ethereal */
-     , (4140,  14, True ) /* GravityStatus */
-     , (4140,  15, True ) /* LightsStatus */
-     , (4140,  19, True ) /* Attackable */;
+VALUES (4140,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4140,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4140,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4140,   1, 'Sclavus Keep Portal') /* Name */
-     , (4140,  38, 'Sclavus Keep Portal') /* AppraisalPortalDestination */
      , (4140, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

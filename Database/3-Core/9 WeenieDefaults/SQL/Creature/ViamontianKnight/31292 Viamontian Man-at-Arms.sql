@@ -16,15 +16,10 @@ VALUES (31292,   1,         16) /* ItemType - Creature */
      , (31292, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31292,   1, True ) /* Stuck */
-     , (31292,  12, True ) /* ReportCollisions */
-     , (31292,  13, False) /* Ethereal */
-     , (31292,  14, True ) /* GravityStatus */
-     , (31292,  19, True ) /* Attackable */
-     , (31292,  42, True ) /* AllowEdgeSlide */;
+VALUES (31292,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31292,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (31292,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31292,   1, 'Viamontian Man-at-Arms') /* Name */

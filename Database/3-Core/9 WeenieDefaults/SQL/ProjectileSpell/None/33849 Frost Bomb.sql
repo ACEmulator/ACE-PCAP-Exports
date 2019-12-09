@@ -9,19 +9,14 @@ VALUES (33849,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33849,   1, True ) /* Stuck */
-     , (33849,  12, True ) /* ReportCollisions */
-     , (33849,  13, False) /* Ethereal */
-     , (33849,  15, True ) /* LightsStatus */
-     , (33849,  17, True ) /* Inelastic */
-     , (33849,  19, True ) /* Attackable */
      , (33849,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33849,  78,       1) /* Friction */
      , (33849,  79,       0) /* Elasticity */
-     , (33849, 8010, -3.79689884185791) /* PCAPRecordedVelocityX */
-     , (33849, 8011, 0.81458044052124) /* PCAPRecordedVelocityY */
-     , (33849, 8012, 1.86834967136383) /* PCAPRecordedVelocityZ */;
+     , (33849, 8010,    -3.8) /* PCAPRecordedVelocityX */
+     , (33849, 8011,    0.81) /* PCAPRecordedVelocityY */
+     , (33849, 8012,    1.87) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33849,   1, 'Frost Bomb') /* Name */;

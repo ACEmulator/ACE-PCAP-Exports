@@ -17,7 +17,6 @@ VALUES (41924,   1,          1) /* ItemType - MeleeWeapon */
      , (41924,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (41924,  49,          0) /* WeaponTime */
      , (41924,  51,          1) /* CombatUse - Melee */
-     , (41924,  65,          1) /* Placement - RightHandCombat */
      , (41924,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41924, 106,        400) /* ItemSpellcraft */
      , (41924, 107,        400) /* ItemCurMana */
@@ -30,26 +29,21 @@ VALUES (41924,   1,          1) /* ItemType - MeleeWeapon */
      , (41924, 166,          6) /* SlayerCreatureType - Tumerok */
      , (41924, 263,          1) /* ResistanceModifierType */
      , (41924, 353,          2) /* WeaponType - Sword */
-     , (41924, 8030,          0);
+     , (41924, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41924, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41924,   1, False) /* Stuck */
-     , (41924,  11, True ) /* IgnoreCollisions */
-     , (41924,  13, True ) /* Ethereal */
-     , (41924,  14, True ) /* GravityStatus */
-     , (41924,  15, True ) /* LightsStatus */
-     , (41924,  19, True ) /* Attackable */
-     , (41924,  22, True ) /* Inscribable */
+VALUES (41924,  22, True ) /* Inscribable */
      , (41924,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41924,   5, -0.025000000372529) /* ManaRate */
+VALUES (41924,   5,   -0.03) /* ManaRate */
      , (41924,  21,       0) /* WeaponLength */
      , (41924,  22,     0.5) /* DamageVariance */
      , (41924,  26,       0) /* MaximumVelocity */
-     , (41924,  29, 1.34999997913837) /* WeaponDefense */
-     , (41924,  39, 1.20000004768372) /* DefaultScale */
-     , (41924,  62, 1.34999997913837) /* WeaponOffense */
+     , (41924,  29,    1.35) /* WeaponDefense */
+     , (41924,  39,     1.2) /* DefaultScale */
+     , (41924,  62,    1.35) /* WeaponOffense */
      , (41924,  63,       1) /* DamageMod */
      , (41924,  77,       1) /* PhysicsScriptIntensity */
      , (41924, 157,       1) /* ResistanceModifier */;

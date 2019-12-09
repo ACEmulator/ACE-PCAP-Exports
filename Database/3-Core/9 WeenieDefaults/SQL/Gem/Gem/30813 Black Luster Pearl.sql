@@ -13,22 +13,17 @@ VALUES (30813,   1,       2048) /* ItemType - Gem */
      , (30813,  16,          8) /* ItemUseable - Contained */
      , (30813,  18,          1) /* UiEffects - Magical */
      , (30813,  19,       5000) /* Value */
-     , (30813,  65,        101) /* Placement - Resting */
      , (30813,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30813,  94,         16) /* TargetType - Creature */
      , (30813, 106,        210) /* ItemSpellcraft */
      , (30813, 107,        100) /* ItemCurMana */
      , (30813, 108,        200) /* ItemMaxMana */
      , (30813, 109,          0) /* ItemDifficulty */
-     , (30813, 110,          0) /* ItemAllegianceRankLimit */;
+     , (30813, 110,          0) /* ItemAllegianceRankLimit */
+     , (30813, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30813,   1, False) /* Stuck */
-     , (30813,  11, True ) /* IgnoreCollisions */
-     , (30813,  13, True ) /* Ethereal */
-     , (30813,  14, True ) /* GravityStatus */
-     , (30813,  19, True ) /* Attackable */
-     , (30813,  22, True ) /* Inscribable */;
+VALUES (30813,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30813,   1, 'Black Luster Pearl') /* Name */

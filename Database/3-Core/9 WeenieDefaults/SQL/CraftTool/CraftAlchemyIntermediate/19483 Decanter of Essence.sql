@@ -13,19 +13,14 @@ VALUES (19483,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (19483,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (19483,  19,          0) /* Value */
      , (19483,  33,          0) /* Bonded - Normal */
-     , (19483,  65,        101) /* Placement - Resting */
      , (19483,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19483,  94,       2176) /* TargetType - Misc, Gem */
      , (19483, 114,          0) /* Attuned - Normal */
-     , (19483, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (19483, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (19483, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19483,   1, False) /* Stuck */
-     , (19483,  11, True ) /* IgnoreCollisions */
-     , (19483,  13, True ) /* Ethereal */
-     , (19483,  14, True ) /* GravityStatus */
-     , (19483,  19, True ) /* Attackable */
-     , (19483,  69, False) /* IsSellable */;
+VALUES (19483,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19483,   1, 'Decanter of Essence') /* Name */

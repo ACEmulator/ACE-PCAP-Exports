@@ -16,14 +16,10 @@ VALUES (43219,   1,         16) /* ItemType - Creature */
      , (43219, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43219,   1, True ) /* Stuck */
-     , (43219,  12, True ) /* ReportCollisions */
-     , (43219,  13, False) /* Ethereal */
-     , (43219,  14, True ) /* GravityStatus */
-     , (43219,  19, True ) /* Attackable */;
+VALUES (43219,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43219,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (43219,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43219,   1, 'Subverted Silver Scope Knight') /* Name */

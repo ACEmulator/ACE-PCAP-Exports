@@ -14,20 +14,14 @@ VALUES (31432,   1,      65536) /* ItemType - Portal */
      , (31432, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31432,   1, True ) /* Stuck */
-     , (31432,  12, True ) /* ReportCollisions */
-     , (31432,  13, True ) /* Ethereal */
-     , (31432,  14, True ) /* GravityStatus */
-     , (31432,  15, True ) /* LightsStatus */
-     , (31432,  19, True ) /* Attackable */;
+VALUES (31432,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31432,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31432,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31432,   1, 'Frozen Cenotaph') /* Name */
      , (31432,  16, 'This dungeon is quest restricted.  Royal scholars in Cragstone or Sanamar might be interested in the secrets it holds.') /* LongDesc */
-     , (31432,  38, 'Frozen Cenotaph') /* AppraisalPortalDestination */
      , (31432, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

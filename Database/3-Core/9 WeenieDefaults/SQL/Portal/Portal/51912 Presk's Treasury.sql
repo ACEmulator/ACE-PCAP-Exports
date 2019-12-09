@@ -13,19 +13,13 @@ VALUES (51912,   1,      65536) /* ItemType - Portal */
      , (51912, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51912,   1, True ) /* Stuck */
-     , (51912,  12, True ) /* ReportCollisions */
-     , (51912,  13, True ) /* Ethereal */
-     , (51912,  14, True ) /* GravityStatus */
-     , (51912,  15, True ) /* LightsStatus */
-     , (51912,  19, True ) /* Attackable */;
+VALUES (51912,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51912,  54, -0.100000001490116) /* UseRadius */;
+VALUES (51912,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51912,   1, 'Presk''s Treasury') /* Name */
-     , (51912,  38, 'Presk''s Treasury') /* AppraisalPortalDestination */
      , (51912, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

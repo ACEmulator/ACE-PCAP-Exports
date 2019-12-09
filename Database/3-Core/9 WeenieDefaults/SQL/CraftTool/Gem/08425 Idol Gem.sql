@@ -12,17 +12,12 @@ VALUES (8425,   1,       2048) /* ItemType - Gem */
      , (8425,  15,        200) /* StackUnitValue */
      , (8425,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8425,  19,        200) /* Value */
-     , (8425,  65,        101) /* Placement - Resting */
      , (8425,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8425,  94,      32768) /* TargetType - Caster */;
+     , (8425,  94,      32768) /* TargetType - Caster */
+     , (8425, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8425,   1, False) /* Stuck */
-     , (8425,  11, True ) /* IgnoreCollisions */
-     , (8425,  13, True ) /* Ethereal */
-     , (8425,  14, True ) /* GravityStatus */
-     , (8425,  19, True ) /* Attackable */
-     , (8425,  22, True ) /* Inscribable */;
+VALUES (8425,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8425,   1, 'Idol Gem') /* Name */

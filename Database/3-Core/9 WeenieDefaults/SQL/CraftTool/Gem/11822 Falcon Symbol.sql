@@ -12,18 +12,13 @@ VALUES (11822,   1,       2048) /* ItemType - Gem */
      , (11822,  15,          0) /* StackUnitValue */
      , (11822,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11822,  19,          0) /* Value */
-     , (11822,  65,        101) /* Placement - Resting */
      , (11822,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11822,  94,        128) /* TargetType - Misc */
-     , (11822, 151,          2) /* HookType - Wall */;
+     , (11822, 151,          2) /* HookType - Wall */
+     , (11822, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11822,   1, False) /* Stuck */
-     , (11822,  11, True ) /* IgnoreCollisions */
-     , (11822,  13, True ) /* Ethereal */
-     , (11822,  14, True ) /* GravityStatus */
-     , (11822,  19, True ) /* Attackable */
-     , (11822,  22, True ) /* Inscribable */;
+VALUES (11822,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11822,   1, 'Falcon Symbol') /* Name */

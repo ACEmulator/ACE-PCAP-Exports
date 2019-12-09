@@ -12,17 +12,12 @@ VALUES (32200,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (32200,  15,          0) /* StackUnitValue */
      , (32200,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32200,  19,          0) /* Value */
-     , (32200,  65,        101) /* Placement - Resting */
      , (32200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32200,  94,       1024) /* TargetType - Useless */;
+     , (32200,  94,       1024) /* TargetType - Useless */
+     , (32200, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32200,   1, False) /* Stuck */
-     , (32200,  11, True ) /* IgnoreCollisions */
-     , (32200,  13, True ) /* Ethereal */
-     , (32200,  14, True ) /* GravityStatus */
-     , (32200,  19, True ) /* Attackable */
-     , (32200,  22, True ) /* Inscribable */;
+VALUES (32200,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32200,   1, 'Blue Blanket') /* Name */

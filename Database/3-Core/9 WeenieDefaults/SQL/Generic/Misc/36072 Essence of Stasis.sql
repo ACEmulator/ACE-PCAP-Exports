@@ -8,16 +8,11 @@ VALUES (36072,   1,        128) /* ItemType - Misc */
      , (36072,   5,          1) /* EncumbranceVal */
      , (36072,  16,          1) /* ItemUseable - No */
      , (36072,  18,         64) /* UiEffects - Lightning */
-     , (36072,  65,        101) /* Placement - Resting */
-     , (36072,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36072,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36072, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36072,   1, False) /* Stuck */
-     , (36072,  11, True ) /* IgnoreCollisions */
-     , (36072,  13, True ) /* Ethereal */
-     , (36072,  14, True ) /* GravityStatus */
-     , (36072,  19, True ) /* Attackable */
-     , (36072,  22, True ) /* Inscribable */;
+VALUES (36072,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36072,   1, 'Essence of Stasis') /* Name */;

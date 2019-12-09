@@ -12,7 +12,6 @@ VALUES (37219,   1,      32768) /* ItemType - Caster */
      , (37219,  18,         65) /* UiEffects - Magical, Lightning */
      , (37219,  19,      14184) /* Value */
      , (37219,  45,         64) /* DamageType - Electric */
-     , (37219,  65,          1) /* Placement - RightHandCombat */
      , (37219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37219,  94,         16) /* TargetType - Creature */
      , (37219, 105,          7) /* ItemWorkmanship */
@@ -31,22 +30,18 @@ VALUES (37219,   1,      32768) /* ItemType - Caster */
      , (37219, 172,          5) /* AppraisalLongDescDecoration */
      , (37219, 177,          4) /* GemCount */
      , (37219, 178,         21) /* GemType */
-     , (37219, 179,        256) /* ImbuedEffect - ElectricRending */;
+     , (37219, 179,        256) /* ImbuedEffect - ElectricRending */
+     , (37219, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37219,   1, False) /* Stuck */
-     , (37219,  11, True ) /* IgnoreCollisions */
-     , (37219,  13, True ) /* Ethereal */
-     , (37219,  14, True ) /* GravityStatus */
-     , (37219,  19, True ) /* Attackable */
-     , (37219,  22, True ) /* Inscribable */;
+VALUES (37219,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37219,   5, -0.0555555559694767) /* ManaRate */
-     , (37219,  29, 1.13999998569489) /* WeaponDefense */
+VALUES (37219,   5,   -0.06) /* ManaRate */
+     , (37219,  29,    1.14) /* WeaponDefense */
      , (37219,  76,     0.5) /* Translucency */
-     , (37219, 144, 0.13600000077486) /* ManaConversionMod */
-     , (37219, 152, 1.38999993354082) /* ElementalDamageMod */
+     , (37219, 144,    0.14) /* ManaConversionMod */
+     , (37219, 152,    1.39) /* ElementalDamageMod */
      , (37219, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

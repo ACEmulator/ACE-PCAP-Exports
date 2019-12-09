@@ -12,19 +12,13 @@ VALUES (13091,   1,      65536) /* ItemType - Portal */
      , (13091, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13091,   1, True ) /* Stuck */
-     , (13091,  12, True ) /* ReportCollisions */
-     , (13091,  13, True ) /* Ethereal */
-     , (13091,  14, True ) /* GravityStatus */
-     , (13091,  15, True ) /* LightsStatus */
-     , (13091,  19, True ) /* Attackable */;
+VALUES (13091,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13091,  54, -0.100000001490116) /* UseRadius */;
+VALUES (13091,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13091,   1, 'Bandit Road Villas Portal') /* Name */
-     , (13091,  38, 'Bandit Road Villas Portal (71.1N, 43.7E).') /* AppraisalPortalDestination */
      , (13091, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

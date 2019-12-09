@@ -11,12 +11,7 @@ VALUES (12589,   1,        128) /* ItemType - Misc */
      , (12589,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12589,   1, True ) /* Stuck */
-     , (12589,  11, True ) /* IgnoreCollisions */
-     , (12589,  12, True ) /* ReportCollisions */
-     , (12589,  13, False) /* Ethereal */
-     , (12589,  14, True ) /* GravityStatus */
-     , (12589,  19, True ) /* Attackable */;
+VALUES (12589,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12589,   1, 'Celdiseth''s Beach Settlement') /* Name */

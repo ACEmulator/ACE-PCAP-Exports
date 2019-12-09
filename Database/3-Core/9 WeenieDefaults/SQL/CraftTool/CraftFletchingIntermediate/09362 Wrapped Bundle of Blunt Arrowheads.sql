@@ -13,17 +13,12 @@ VALUES (9362,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9362,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9362,  19,        500) /* Value */
      , (9362,  33,          1) /* Bonded - Bonded */
-     , (9362,  65,        101) /* Placement - Resting */
      , (9362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9362,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (9362,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (9362, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9362,   1, False) /* Stuck */
-     , (9362,  11, True ) /* IgnoreCollisions */
-     , (9362,  13, True ) /* Ethereal */
-     , (9362,  14, True ) /* GravityStatus */
-     , (9362,  19, True ) /* Attackable */
-     , (9362,  69, False) /* IsSellable */;
+VALUES (9362,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9362,   1, 'Wrapped Bundle of Blunt Arrowheads') /* Name */

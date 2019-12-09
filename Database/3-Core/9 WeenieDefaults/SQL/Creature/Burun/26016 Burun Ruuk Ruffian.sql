@@ -16,14 +16,10 @@ VALUES (26016,   1,         16) /* ItemType - Creature */
      , (26016, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26016,   1, True ) /* Stuck */
-     , (26016,  12, True ) /* ReportCollisions */
-     , (26016,  13, False) /* Ethereal */
-     , (26016,  14, True ) /* GravityStatus */
-     , (26016,  19, True ) /* Attackable */;
+VALUES (26016,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26016,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (26016,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26016,   1, 'Burun Ruuk Ruffian') /* Name */

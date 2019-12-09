@@ -13,15 +13,10 @@ VALUES (33988,   1,        128) /* ItemType - Misc */
      , (33988, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33988,   1, False) /* Stuck */
-     , (33988,  11, True ) /* IgnoreCollisions */
-     , (33988,  13, True ) /* Ethereal */
-     , (33988,  14, True ) /* GravityStatus */
-     , (33988,  19, True ) /* Attackable */
-     , (33988,  22, True ) /* Inscribable */;
+VALUES (33988,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33988,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (33988,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33988,   1, 'Fossilized Bone') /* Name */

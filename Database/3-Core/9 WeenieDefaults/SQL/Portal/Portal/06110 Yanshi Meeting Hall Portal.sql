@@ -12,19 +12,13 @@ VALUES (6110,   1,      65536) /* ItemType - Portal */
      , (6110, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6110,   1, True ) /* Stuck */
-     , (6110,  12, True ) /* ReportCollisions */
-     , (6110,  13, True ) /* Ethereal */
-     , (6110,  14, True ) /* GravityStatus */
-     , (6110,  15, True ) /* LightsStatus */
-     , (6110,  19, True ) /* Attackable */;
+VALUES (6110,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6110,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6110,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6110,   1, 'Yanshi Meeting Hall Portal') /* Name */
-     , (6110,  38, 'Yanshi Meeting Hall Portal') /* AppraisalPortalDestination */
      , (6110, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

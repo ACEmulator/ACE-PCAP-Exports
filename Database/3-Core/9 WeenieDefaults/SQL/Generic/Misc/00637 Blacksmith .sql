@@ -8,16 +8,11 @@ VALUES (637,   1,        128) /* ItemType - Misc */
      , (637,   5,       9000) /* EncumbranceVal */
      , (637,  16,          1) /* ItemUseable - No */
      , (637,  19,        125) /* Value */
-     , (637,  65,        101) /* Placement - Resting */
-     , (637,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (637,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (637, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (637,   1, True ) /* Stuck */
-     , (637,  11, True ) /* IgnoreCollisions */
-     , (637,  12, True ) /* ReportCollisions */
-     , (637,  13, False) /* Ethereal */
-     , (637,  14, True ) /* GravityStatus */
-     , (637,  19, True ) /* Attackable */;
+VALUES (637,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (637,   1, 'Blacksmith ') /* Name */

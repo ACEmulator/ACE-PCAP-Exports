@@ -13,14 +13,10 @@ VALUES (42727,   1,         16) /* ItemType - Creature */
      , (42727, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42727,   1, True ) /* Stuck */
-     , (42727,  12, True ) /* ReportCollisions */
-     , (42727,  13, False) /* Ethereal */
-     , (42727,  14, True ) /* GravityStatus */
-     , (42727,  19, True ) /* Attackable */;
+VALUES (42727,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42727,  39, 1.10000002384186) /* DefaultScale */;
+VALUES (42727,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42727,   1, 'Wight Kidnapper') /* Name */

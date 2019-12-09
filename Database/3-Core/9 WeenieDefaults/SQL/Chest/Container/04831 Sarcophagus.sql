@@ -14,12 +14,7 @@ VALUES (4831,   1,        512) /* ItemType - Container */
      , (4831, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4831,   1, True ) /* Stuck */
-     , (4831,  11, True ) /* IgnoreCollisions */
-     , (4831,  12, True ) /* ReportCollisions */
-     , (4831,  13, False) /* Ethereal */
-     , (4831,  14, True ) /* GravityStatus */
-     , (4831,  19, True ) /* Attackable */;
+VALUES (4831,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4831,  54,       1) /* UseRadius */;

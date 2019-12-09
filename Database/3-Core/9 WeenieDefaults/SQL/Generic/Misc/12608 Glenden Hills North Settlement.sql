@@ -11,12 +11,7 @@ VALUES (12608,   1,        128) /* ItemType - Misc */
      , (12608,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12608,   1, True ) /* Stuck */
-     , (12608,  11, True ) /* IgnoreCollisions */
-     , (12608,  12, True ) /* ReportCollisions */
-     , (12608,  13, False) /* Ethereal */
-     , (12608,  14, True ) /* GravityStatus */
-     , (12608,  19, True ) /* Attackable */;
+VALUES (12608,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12608,   1, 'Glenden Hills North Settlement') /* Name */;

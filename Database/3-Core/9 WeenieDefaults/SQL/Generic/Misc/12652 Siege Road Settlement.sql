@@ -11,12 +11,7 @@ VALUES (12652,   1,        128) /* ItemType - Misc */
      , (12652,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12652,   1, True ) /* Stuck */
-     , (12652,  11, True ) /* IgnoreCollisions */
-     , (12652,  12, True ) /* ReportCollisions */
-     , (12652,  13, False) /* Ethereal */
-     , (12652,  14, True ) /* GravityStatus */
-     , (12652,  19, True ) /* Attackable */;
+VALUES (12652,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12652,   1, 'Siege Road Settlement') /* Name */

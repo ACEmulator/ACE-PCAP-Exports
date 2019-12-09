@@ -16,11 +16,7 @@ VALUES (43774,   1,         16) /* ItemType - Creature */
      , (43774, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43774,   1, True ) /* Stuck */
-     , (43774,  12, True ) /* ReportCollisions */
-     , (43774,  13, False) /* Ethereal */
-     , (43774,  14, True ) /* GravityStatus */
-     , (43774,  19, True ) /* Attackable */;
+VALUES (43774,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43774,   1, 'Missile Defender') /* Name */

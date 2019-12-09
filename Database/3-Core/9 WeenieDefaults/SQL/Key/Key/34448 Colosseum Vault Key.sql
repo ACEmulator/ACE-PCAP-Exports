@@ -9,20 +9,15 @@ VALUES (34448,   1,      16384) /* ItemType - Key */
      , (34448,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (34448,  19,         30) /* Value */
      , (34448,  33,          1) /* Bonded - Bonded */
-     , (34448,  65,        101) /* Placement - Resting */
      , (34448,  91,          1) /* MaxStructure */
      , (34448,  92,          1) /* Structure */
      , (34448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34448,  94,        640) /* TargetType - LockableMagicTarget */
-     , (34448, 114,          1) /* Attuned - Attuned */;
+     , (34448, 114,          1) /* Attuned - Attuned */
+     , (34448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34448,   1, False) /* Stuck */
-     , (34448,  11, True ) /* IgnoreCollisions */
-     , (34448,  13, True ) /* Ethereal */
-     , (34448,  14, True ) /* GravityStatus */
-     , (34448,  19, True ) /* Attackable */
-     , (34448,  22, True ) /* Inscribable */;
+VALUES (34448,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34448,   1, 'Colosseum Vault Key') /* Name */

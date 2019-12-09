@@ -8,20 +8,14 @@ VALUES (513,   1,      16384) /* ItemType - Key */
      , (513,   5,         50) /* EncumbranceVal */
      , (513,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (513,  19,        200) /* Value */
-     , (513,  65,        101) /* Placement - Resting */
      , (513,  91,         20) /* MaxStructure */
      , (513,  92,         20) /* Structure */
      , (513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (513,  94,        640) /* TargetType - LockableMagicTarget */
-     , (513, 173,        100) /* AppraisalLockpickSuccessPercent */;
+     , (513, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (513,   1, False) /* Stuck */
-     , (513,  11, True ) /* IgnoreCollisions */
-     , (513,  13, True ) /* Ethereal */
-     , (513,  14, True ) /* GravityStatus */
-     , (513,  19, True ) /* Attackable */
-     , (513,  22, True ) /* Inscribable */;
+VALUES (513,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (513,  39,       2) /* DefaultScale */;

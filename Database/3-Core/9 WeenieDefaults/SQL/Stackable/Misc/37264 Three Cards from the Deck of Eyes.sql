@@ -11,15 +11,8 @@ VALUES (37264,   1,        128) /* ItemType - Misc */
      , (37264,  13,          3) /* StackUnitEncumbrance */
      , (37264,  15,          0) /* StackUnitValue */
      , (37264,  16,          1) /* ItemUseable - No */
-     , (37264,  65,        101) /* Placement - Resting */
-     , (37264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37264,   1, False) /* Stuck */
-     , (37264,  11, True ) /* IgnoreCollisions */
-     , (37264,  13, True ) /* Ethereal */
-     , (37264,  14, True ) /* GravityStatus */
-     , (37264,  19, True ) /* Attackable */;
+     , (37264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37264, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37264,   1, 'Three Cards from the Deck of Eyes') /* Name */

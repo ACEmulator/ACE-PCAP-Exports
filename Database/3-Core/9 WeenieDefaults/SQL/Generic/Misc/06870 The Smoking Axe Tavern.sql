@@ -11,11 +11,7 @@ VALUES (6870,   1,        128) /* ItemType - Misc */
      , (6870,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6870,   1, True ) /* Stuck */
-     , (6870,  11, True ) /* IgnoreCollisions */
-     , (6870,  12, True ) /* ReportCollisions */
-     , (6870,  13, False) /* Ethereal */
-     , (6870,  19, True ) /* Attackable */;
+VALUES (6870,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6870,   1, 'The Smoking Axe Tavern') /* Name */

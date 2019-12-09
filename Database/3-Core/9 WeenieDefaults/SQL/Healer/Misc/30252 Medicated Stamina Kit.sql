@@ -9,21 +9,16 @@ VALUES (30252,   1,        128) /* ItemType - Misc */
      , (30252,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (30252,  17,         71) /* RareId */
      , (30252,  19,          0) /* Value */
-     , (30252,  65,        101) /* Placement - Resting */
      , (30252,  90,        500) /* BoostValue */
      , (30252,  91,         25) /* MaxStructure */
      , (30252,  92,         25) /* Structure */
      , (30252,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30252,  94,         16) /* TargetType - Creature */
-     , (30252, 151,          2) /* HookType - Wall */;
+     , (30252, 151,          2) /* HookType - Wall */
+     , (30252, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30252,   1, False) /* Stuck */
-     , (30252,  11, True ) /* IgnoreCollisions */
-     , (30252,  13, True ) /* Ethereal */
-     , (30252,  14, True ) /* GravityStatus */
-     , (30252,  19, True ) /* Attackable */
-     , (30252,  22, True ) /* Inscribable */;
+VALUES (30252,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30252, 100,      10) /* HealkitMod */;

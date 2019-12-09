@@ -8,20 +8,15 @@ VALUES (22614,   1,        128) /* ItemType - Misc */
      , (22614,   5,       9000) /* EncumbranceVal */
      , (22614,  16,          1) /* ItemUseable - No */
      , (22614,  19,     200000) /* Value */
-     , (22614,  65,        101) /* Placement - Resting */
      , (22614,  92,        100) /* Structure */
      , (22614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22614, 105,         10) /* ItemWorkmanship */
      , (22614, 131,         60) /* MaterialType - Gold */
-     , (22614, 151,          1) /* HookType - Floor */;
+     , (22614, 151,          1) /* HookType - Floor */
+     , (22614, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22614,   1, False) /* Stuck */
-     , (22614,  11, True ) /* IgnoreCollisions */
-     , (22614,  13, True ) /* Ethereal */
-     , (22614,  14, True ) /* GravityStatus */
-     , (22614,  19, True ) /* Attackable */
-     , (22614,  22, True ) /* Inscribable */;
+VALUES (22614,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22614, 8004,      10) /* PCAPRecordedWorkmanship */;

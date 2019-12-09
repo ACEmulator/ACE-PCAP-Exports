@@ -9,21 +9,15 @@ VALUES (8608,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8608,   1, True ) /* Stuck */
-     , (8608,  12, True ) /* ReportCollisions */
-     , (8608,  13, False) /* Ethereal */
-     , (8608,  15, True ) /* LightsStatus */
-     , (8608,  16, True ) /* ScriptedCollision */
-     , (8608,  17, True ) /* Inelastic */
-     , (8608,  19, True ) /* Attackable */
      , (8608,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8608,  77,       1) /* PhysicsScriptIntensity */
      , (8608,  78,       1) /* Friction */
      , (8608,  79,       0) /* Elasticity */
-     , (8608, 8010, 3.17293858528137) /* PCAPRecordedVelocityX */
-     , (8608, 8011, 0.511883854866028) /* PCAPRecordedVelocityY */
-     , (8608, 8012, 13.9174966812134) /* PCAPRecordedVelocityZ */;
+     , (8608, 8010,    3.17) /* PCAPRecordedVelocityX */
+     , (8608, 8011,    0.51) /* PCAPRecordedVelocityY */
+     , (8608, 8012,   13.92) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8608,   1, 'Missile') /* Name */;

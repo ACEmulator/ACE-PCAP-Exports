@@ -12,15 +12,8 @@ VALUES (37353,   1,        128) /* ItemType - Misc */
      , (37353,  15,      30000) /* StackUnitValue */
      , (37353,  16,          1) /* ItemUseable - No */
      , (37353,  19,      30000) /* Value */
-     , (37353,  65,        101) /* Placement - Resting */
-     , (37353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37353,   1, False) /* Stuck */
-     , (37353,  11, True ) /* IgnoreCollisions */
-     , (37353,  13, True ) /* Ethereal */
-     , (37353,  14, True ) /* GravityStatus */
-     , (37353,  19, True ) /* Attackable */;
+     , (37353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37353,   1, 'Ink of Formation') /* Name */

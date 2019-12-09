@@ -13,22 +13,17 @@ VALUES (9427,   1,       2048) /* ItemType - Gem */
      , (9427,  16,          8) /* ItemUseable - Contained */
      , (9427,  18,          1) /* UiEffects - Magical */
      , (9427,  19,        200) /* Value */
-     , (9427,  65,        101) /* Placement - Resting */
      , (9427,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9427,  94,         16) /* TargetType - Creature */
      , (9427, 106,        210) /* ItemSpellcraft */
      , (9427, 107,        100) /* ItemCurMana */
      , (9427, 108,        200) /* ItemMaxMana */
      , (9427, 109,          0) /* ItemDifficulty */
-     , (9427, 110,          0) /* ItemAllegianceRankLimit */;
+     , (9427, 110,          0) /* ItemAllegianceRankLimit */
+     , (9427, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9427,   1, False) /* Stuck */
-     , (9427,  11, True ) /* IgnoreCollisions */
-     , (9427,  13, True ) /* Ethereal */
-     , (9427,  14, True ) /* GravityStatus */
-     , (9427,  19, True ) /* Attackable */
-     , (9427,  22, True ) /* Inscribable */;
+VALUES (9427,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9427,   1, 'Force Opal') /* Name */

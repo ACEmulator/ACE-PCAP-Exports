@@ -16,11 +16,7 @@ VALUES (40287,   1,         16) /* ItemType - Creature */
      , (40287, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40287,   1, True ) /* Stuck */
-     , (40287,  12, True ) /* ReportCollisions */
-     , (40287,  13, False) /* Ethereal */
-     , (40287,  14, True ) /* GravityStatus */
-     , (40287,  19, True ) /* Attackable */;
+VALUES (40287,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40287,   1, 'Shambling Undead Ruschk') /* Name */

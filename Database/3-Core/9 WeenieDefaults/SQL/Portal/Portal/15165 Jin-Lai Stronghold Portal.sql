@@ -12,19 +12,13 @@ VALUES (15165,   1,      65536) /* ItemType - Portal */
      , (15165, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15165,   1, True ) /* Stuck */
-     , (15165,  12, True ) /* ReportCollisions */
-     , (15165,  13, True ) /* Ethereal */
-     , (15165,  14, True ) /* GravityStatus */
-     , (15165,  15, True ) /* LightsStatus */
-     , (15165,  19, True ) /* Attackable */;
+VALUES (15165,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15165,  54, -0.100000001490116) /* UseRadius */;
+VALUES (15165,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15165,   1, 'Jin-Lai Stronghold Portal') /* Name */
-     , (15165,  38, 'Jin-Lai Stronghold Portal (7.2S, 60.5E).') /* AppraisalPortalDestination */
      , (15165, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

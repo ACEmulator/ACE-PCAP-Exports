@@ -5,19 +5,15 @@ VALUES (21196, 'lightningelementalhighcampgen', 1, '2019-02-10 00:00:00') /* Gen
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21196,   1,          0) /* ItemType - None */
-     , (21196,  65,        101) /* Placement - Resting */
-     , (21196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (21196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21196, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21196,   1, True ) /* Stuck */
-     , (21196,  11, True ) /* IgnoreCollisions */
-     , (21196,  13, True ) /* Ethereal */
-     , (21196,  14, True ) /* GravityStatus */
-     , (21196,  19, True ) /* Attackable */
      , (21196,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21196,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (21196,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21196,   1, 'Prismatic Crystal') /* Name */;

@@ -8,16 +8,11 @@ VALUES (28213,   1,        128) /* ItemType - Misc */
      , (28213,   5,        900) /* EncumbranceVal */
      , (28213,  16,          1) /* ItemUseable - No */
      , (28213,  19,         75) /* Value */
-     , (28213,  65,        101) /* Placement - Resting */
-     , (28213,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (28213,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28213, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28213,   1, False) /* Stuck */
-     , (28213,  11, True ) /* IgnoreCollisions */
-     , (28213,  13, True ) /* Ethereal */
-     , (28213,  14, True ) /* GravityStatus */
-     , (28213,  19, True ) /* Attackable */
-     , (28213,  22, True ) /* Inscribable */;
+VALUES (28213,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28213,   1, 'Ivory Gromnie Wings') /* Name */;

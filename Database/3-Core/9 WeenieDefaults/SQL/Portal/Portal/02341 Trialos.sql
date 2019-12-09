@@ -12,19 +12,13 @@ VALUES (2341,   1,      65536) /* ItemType - Portal */
      , (2341, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2341,   1, True ) /* Stuck */
-     , (2341,  12, True ) /* ReportCollisions */
-     , (2341,  13, True ) /* Ethereal */
-     , (2341,  14, True ) /* GravityStatus */
-     , (2341,  15, True ) /* LightsStatus */
-     , (2341,  19, True ) /* Attackable */;
+VALUES (2341,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2341,  54, -0.100000001490116) /* UseRadius */;
+VALUES (2341,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2341,   1, 'Trialos') /* Name */
-     , (2341,  38, 'Trialos') /* AppraisalPortalDestination */
      , (2341, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

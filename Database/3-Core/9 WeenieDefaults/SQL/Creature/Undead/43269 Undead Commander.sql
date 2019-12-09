@@ -15,14 +15,10 @@ VALUES (43269,   1,         16) /* ItemType - Creature */
      , (43269, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43269,   1, True ) /* Stuck */
-     , (43269,  12, True ) /* ReportCollisions */
-     , (43269,  13, False) /* Ethereal */
-     , (43269,  14, True ) /* GravityStatus */
-     , (43269,  19, True ) /* Attackable */;
+VALUES (43269,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43269,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (43269,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43269,   1, 'Undead Commander') /* Name */

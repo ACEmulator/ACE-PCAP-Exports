@@ -8,15 +8,10 @@ VALUES (4502,   1,        128) /* ItemType - Misc */
      , (4502,   5,       9000) /* EncumbranceVal */
      , (4502,  16,          1) /* ItemUseable - No */
      , (4502,  19,        125) /* Value */
-     , (4502,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (4502,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4502,   1, True ) /* Stuck */
-     , (4502,  11, True ) /* IgnoreCollisions */
-     , (4502,  12, True ) /* ReportCollisions */
-     , (4502,  13, False) /* Ethereal */
-     , (4502,  14, True ) /* GravityStatus */
-     , (4502,  19, True ) /* Attackable */;
+VALUES (4502,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4502,   1, 'Gems of the Woods') /* Name */

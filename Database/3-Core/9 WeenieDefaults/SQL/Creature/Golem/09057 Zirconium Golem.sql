@@ -15,14 +15,10 @@ VALUES (9057,   1,         16) /* ItemType - Creature */
      , (9057, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9057,   1, True ) /* Stuck */
-     , (9057,  12, True ) /* ReportCollisions */
-     , (9057,  13, False) /* Ethereal */
-     , (9057,  14, True ) /* GravityStatus */
-     , (9057,  19, True ) /* Attackable */;
+VALUES (9057,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9057,  76, 0.300000011920929) /* Translucency */;
+VALUES (9057,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9057,   1, 'Zirconium Golem') /* Name */

@@ -16,12 +16,7 @@ VALUES (22905,   1,         16) /* ItemType - Creature */
      , (22905, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22905,   1, True ) /* Stuck */
-     , (22905,  12, True ) /* ReportCollisions */
-     , (22905,  13, False) /* Ethereal */
-     , (22905,  14, True ) /* GravityStatus */
-     , (22905,  19, True ) /* Attackable */
-     , (22905,  42, True ) /* AllowEdgeSlide */;
+VALUES (22905,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22905,   1, 'Lich Oppressor') /* Name */

@@ -15,14 +15,10 @@ VALUES (30681,   1,         16) /* ItemType - Creature */
      , (30681, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30681,   1, True ) /* Stuck */
-     , (30681,  12, True ) /* ReportCollisions */
-     , (30681,  13, False) /* Ethereal */
-     , (30681,  14, True ) /* GravityStatus */
-     , (30681,  19, True ) /* Attackable */;
+VALUES (30681,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30681,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30681,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30681,   1, 'Withered Drudge Seraph') /* Name */

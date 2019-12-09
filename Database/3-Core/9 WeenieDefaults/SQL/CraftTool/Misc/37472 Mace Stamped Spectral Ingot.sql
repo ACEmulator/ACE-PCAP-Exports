@@ -12,20 +12,15 @@ VALUES (37472,   1,        128) /* ItemType - Misc */
      , (37472,  15,          1) /* StackUnitValue */
      , (37472,  16,          8) /* ItemUseable - Contained */
      , (37472,  19,          1) /* Value */
-     , (37472,  65,        101) /* Placement - Resting */
      , (37472,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37472,  94,         16) /* TargetType - Creature */;
+     , (37472,  94,         16) /* TargetType - Creature */
+     , (37472, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37472,   1, False) /* Stuck */
-     , (37472,  11, True ) /* IgnoreCollisions */
-     , (37472,  13, True ) /* Ethereal */
-     , (37472,  14, True ) /* GravityStatus */
-     , (37472,  19, True ) /* Attackable */
-     , (37472,  22, True ) /* Inscribable */;
+VALUES (37472,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37472,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (37472,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37472,   1, 'Mace Stamped Spectral Ingot') /* Name */;

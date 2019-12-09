@@ -8,18 +8,11 @@ VALUES (26661,   1,       8192) /* ItemType - Writable */
      , (26661,   5,        160) /* EncumbranceVal */
      , (26661,  16,          8) /* ItemUseable - Contained */
      , (26661,  19,         90) /* Value */
-     , (26661,  65,        101) /* Placement - Resting */
-     , (26661,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26661,   1, False) /* Stuck */
-     , (26661,  11, True ) /* IgnoreCollisions */
-     , (26661,  13, True ) /* Ethereal */
-     , (26661,  14, True ) /* GravityStatus */
-     , (26661,  19, True ) /* Attackable */;
+     , (26661,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26661, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26661,  39, 1.22000002861023) /* DefaultScale */;
+VALUES (26661,  39,    1.22) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26661,   1, 'The Last Expedition of Ixir Zi') /* Name */;

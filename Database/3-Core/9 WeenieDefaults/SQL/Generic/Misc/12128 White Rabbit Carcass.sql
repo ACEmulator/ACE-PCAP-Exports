@@ -9,17 +9,12 @@ VALUES (12128,   1,        128) /* ItemType - Misc */
      , (12128,  16,          1) /* ItemUseable - No */
      , (12128,  19,          0) /* Value */
      , (12128,  33,          0) /* Bonded - Normal */
-     , (12128,  65,        101) /* Placement - Resting */
      , (12128,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12128, 114,          0) /* Attuned - Normal */;
+     , (12128, 114,          0) /* Attuned - Normal */
+     , (12128, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12128,   1, False) /* Stuck */
-     , (12128,  11, True ) /* IgnoreCollisions */
-     , (12128,  13, True ) /* Ethereal */
-     , (12128,  14, True ) /* GravityStatus */
-     , (12128,  19, True ) /* Attackable */
-     , (12128,  22, True ) /* Inscribable */;
+VALUES (12128,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12128,   1, 'White Rabbit Carcass') /* Name */

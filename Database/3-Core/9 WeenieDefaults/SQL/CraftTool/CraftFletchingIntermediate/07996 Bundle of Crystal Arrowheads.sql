@@ -11,16 +11,9 @@ VALUES (7996,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (7996,  15,         25) /* StackUnitValue */
      , (7996,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7996,  19,         25) /* Value */
-     , (7996,  65,        101) /* Placement - Resting */
      , (7996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7996,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7996,   1, False) /* Stuck */
-     , (7996,  11, True ) /* IgnoreCollisions */
-     , (7996,  13, True ) /* Ethereal */
-     , (7996,  14, True ) /* GravityStatus */
-     , (7996,  19, True ) /* Attackable */;
+     , (7996,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (7996, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7996,   1, 'Bundle of Crystal Arrowheads') /* Name */

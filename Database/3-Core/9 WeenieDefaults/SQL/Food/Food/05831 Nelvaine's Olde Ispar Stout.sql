@@ -12,17 +12,10 @@ VALUES (5831,   1,         32) /* ItemType - Food */
      , (5831,  15,         20) /* StackUnitValue */
      , (5831,  16,          8) /* ItemUseable - Contained */
      , (5831,  19,         20) /* Value */
-     , (5831,  65,        101) /* Placement - Resting */
      , (5831,  89,          4) /* BoosterEnum - Stamina */
      , (5831,  90,         10) /* BoostValue */
-     , (5831,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5831,   1, False) /* Stuck */
-     , (5831,  11, True ) /* IgnoreCollisions */
-     , (5831,  13, True ) /* Ethereal */
-     , (5831,  14, True ) /* GravityStatus */
-     , (5831,  19, True ) /* Attackable */;
+     , (5831,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5831, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5831,   1, 'Nelvaine''s Olde Ispar Stout') /* Name */

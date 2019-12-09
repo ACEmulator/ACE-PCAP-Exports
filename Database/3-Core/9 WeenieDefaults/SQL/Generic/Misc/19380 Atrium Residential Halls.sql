@@ -11,12 +11,7 @@ VALUES (19380,   1,        128) /* ItemType - Misc */
      , (19380,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19380,   1, True ) /* Stuck */
-     , (19380,  11, True ) /* IgnoreCollisions */
-     , (19380,  12, True ) /* ReportCollisions */
-     , (19380,  13, False) /* Ethereal */
-     , (19380,  14, True ) /* GravityStatus */
-     , (19380,  19, True ) /* Attackable */;
+VALUES (19380,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19380,   1, 'Atrium Residential Halls') /* Name */

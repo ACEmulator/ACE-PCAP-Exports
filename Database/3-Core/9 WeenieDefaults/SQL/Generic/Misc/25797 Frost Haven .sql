@@ -8,16 +8,11 @@ VALUES (25797,   1,        128) /* ItemType - Misc */
      , (25797,   5,       9000) /* EncumbranceVal */
      , (25797,  16,          1) /* ItemUseable - No */
      , (25797,  19,        125) /* Value */
-     , (25797,  65,        101) /* Placement - Resting */
-     , (25797,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (25797,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (25797, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25797,   1, True ) /* Stuck */
-     , (25797,  11, True ) /* IgnoreCollisions */
-     , (25797,  12, True ) /* ReportCollisions */
-     , (25797,  13, False) /* Ethereal */
-     , (25797,  14, True ) /* GravityStatus */
-     , (25797,  19, True ) /* Attackable */;
+VALUES (25797,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25797,   1, 'Frost Haven ') /* Name */

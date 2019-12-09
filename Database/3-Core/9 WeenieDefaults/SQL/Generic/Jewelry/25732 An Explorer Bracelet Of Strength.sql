@@ -11,24 +11,19 @@ VALUES (25732,   1,          8) /* ItemType - Jewelry */
      , (25732,  16,          1) /* ItemUseable - No */
      , (25732,  18,          1) /* UiEffects - Magical */
      , (25732,  19,          1) /* Value */
-     , (25732,  65,        101) /* Placement - Resting */
      , (25732,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25732, 106,        150) /* ItemSpellcraft */
      , (25732, 107,          0) /* ItemCurMana */
      , (25732, 108,        400) /* ItemMaxMana */
-     , (25732, 109,         15) /* ItemDifficulty */;
+     , (25732, 109,         15) /* ItemDifficulty */
+     , (25732, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25732,   1, False) /* Stuck */
-     , (25732,  11, True ) /* IgnoreCollisions */
-     , (25732,  13, True ) /* Ethereal */
-     , (25732,  14, True ) /* GravityStatus */
-     , (25732,  19, True ) /* Attackable */
-     , (25732,  22, True ) /* Inscribable */;
+VALUES (25732,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25732,   5,  -0.025) /* ManaRate */
-     , (25732,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (25732,   5,   -0.02) /* ManaRate */
+     , (25732,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25732,   1, 'An Explorer Bracelet Of Strength') /* Name */;

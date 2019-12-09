@@ -12,16 +12,8 @@ VALUES (52750,   1,       2048) /* ItemType - Gem */
      , (52750,  15,         15) /* StackUnitValue */
      , (52750,  16,          1) /* ItemUseable - No */
      , (52750,  19,         15) /* Value */
-     , (52750,  65,        101) /* Placement - Resting */
-     , (52750,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52750,   1, False) /* Stuck */
-     , (52750,  11, True ) /* IgnoreCollisions */
-     , (52750,  13, True ) /* Ethereal */
-     , (52750,  14, True ) /* GravityStatus */
-     , (52750,  15, True ) /* LightsStatus */
-     , (52750,  19, True ) /* Attackable */;
+     , (52750,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (52750, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52750,   1, 'Gauntlet Gem of Luminance') /* Name */

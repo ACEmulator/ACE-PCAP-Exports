@@ -12,17 +12,10 @@ VALUES (4767,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4767,  15,          2) /* StackUnitValue */
      , (4767,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4767,  19,          2) /* Value */
-     , (4767,  65,        101) /* Placement - Resting */
      , (4767,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4767,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (4767, 151,          2) /* HookType - Wall */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4767,   1, False) /* Stuck */
-     , (4767,  11, True ) /* IgnoreCollisions */
-     , (4767,  13, True ) /* Ethereal */
-     , (4767,  14, True ) /* GravityStatus */
-     , (4767,  19, True ) /* Attackable */;
+     , (4767, 151,          2) /* HookType - Wall */
+     , (4767, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4767,   1, 'Skewer') /* Name */

@@ -11,14 +11,10 @@ VALUES (35779,   1,        128) /* ItemType - Misc */
      , (35779,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35779,   1, True ) /* Stuck */
-     , (35779,  12, True ) /* ReportCollisions */
-     , (35779,  13, True ) /* Ethereal */
-     , (35779,  14, True ) /* GravityStatus */
-     , (35779,  19, True ) /* Attackable */;
+VALUES (35779,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35779,  39, 0.899999976158142) /* DefaultScale */
+VALUES (35779,  39,     0.9) /* DefaultScale */
      , (35779,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

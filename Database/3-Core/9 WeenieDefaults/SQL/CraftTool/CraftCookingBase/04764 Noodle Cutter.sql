@@ -12,18 +12,13 @@ VALUES (4764,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4764,  15,         25) /* StackUnitValue */
      , (4764,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4764,  19,         25) /* Value */
-     , (4764,  65,        101) /* Placement - Resting */
      , (4764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4764,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */
-     , (4764, 151,          2) /* HookType - Wall */;
+     , (4764, 151,          2) /* HookType - Wall */
+     , (4764, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4764,   1, False) /* Stuck */
-     , (4764,  11, True ) /* IgnoreCollisions */
-     , (4764,  13, True ) /* Ethereal */
-     , (4764,  14, True ) /* GravityStatus */
-     , (4764,  19, True ) /* Attackable */
-     , (4764,  22, True ) /* Inscribable */;
+VALUES (4764,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4764,   1, 'Noodle Cutter') /* Name */

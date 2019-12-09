@@ -11,16 +11,9 @@ VALUES (5353,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (5353,  15,        175) /* StackUnitValue */
      , (5353,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5353,  19,        175) /* Value */
-     , (5353,  65,        101) /* Placement - Resting */
      , (5353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5353,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5353,   1, False) /* Stuck */
-     , (5353,  11, True ) /* IgnoreCollisions */
-     , (5353,  13, True ) /* Ethereal */
-     , (5353,  14, True ) /* GravityStatus */
-     , (5353,  19, True ) /* Attackable */;
+     , (5353,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
+     , (5353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5353,   1, 'Bundle of Greater Blunt Arrowheads') /* Name */

@@ -15,17 +15,13 @@ VALUES (12038,   1,         16) /* ItemType - Creature */
      , (12038, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12038,   1, True ) /* Stuck */
-     , (12038,  12, True ) /* ReportCollisions */
-     , (12038,  13, False) /* Ethereal */
-     , (12038,  14, True ) /* GravityStatus */
-     , (12038,  19, True ) /* Attackable */;
+VALUES (12038,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12038,  39,     1.5) /* DefaultScale */
-     , (12038, 8010, 0.401503264904022) /* PCAPRecordedVelocityX */
-     , (12038, 8011, -0.267668843269348) /* PCAPRecordedVelocityY */
-     , (12038, 8012, -0.144987285137177) /* PCAPRecordedVelocityZ */;
+     , (12038, 8010,     0.4) /* PCAPRecordedVelocityX */
+     , (12038, 8011,   -0.27) /* PCAPRecordedVelocityY */
+     , (12038, 8012,   -0.14) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12038,   1, 'Dread Ursuin') /* Name */

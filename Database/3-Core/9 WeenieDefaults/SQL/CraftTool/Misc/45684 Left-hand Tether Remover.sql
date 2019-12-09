@@ -13,16 +13,9 @@ VALUES (45684,   1,        128) /* ItemType - Misc */
      , (45684,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (45684,  18,          1) /* UiEffects - Magical */
      , (45684,  19,         10) /* Value */
-     , (45684,  65,        101) /* Placement - Resting */
      , (45684,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45684,  94,          1) /* TargetType - MeleeWeapon */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45684,   1, False) /* Stuck */
-     , (45684,  11, True ) /* IgnoreCollisions */
-     , (45684,  13, True ) /* Ethereal */
-     , (45684,  14, True ) /* GravityStatus */
-     , (45684,  19, True ) /* Attackable */;
+     , (45684,  94,          1) /* TargetType - MeleeWeapon */
+     , (45684, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45684,   1, 'Left-hand Tether Remover') /* Name */;

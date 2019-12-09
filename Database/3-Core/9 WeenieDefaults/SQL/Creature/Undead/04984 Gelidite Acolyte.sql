@@ -16,11 +16,7 @@ VALUES (4984,   1,         16) /* ItemType - Creature */
      , (4984, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4984,   1, True ) /* Stuck */
-     , (4984,  12, True ) /* ReportCollisions */
-     , (4984,  13, False) /* Ethereal */
-     , (4984,  14, True ) /* GravityStatus */
-     , (4984,  19, True ) /* Attackable */;
+VALUES (4984,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4984,   1, 'Gelidite Acolyte') /* Name */

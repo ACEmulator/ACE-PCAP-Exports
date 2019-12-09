@@ -9,17 +9,12 @@ VALUES (41713,   1,       2048) /* ItemType - Gem */
      , (41713,  16,          1) /* ItemUseable - No */
      , (41713,  19,          0) /* Value */
      , (41713,  33,          1) /* Bonded - Bonded */
-     , (41713,  65,        101) /* Placement - Resting */
      , (41713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41713, 114,          1) /* Attuned - Attuned */;
+     , (41713, 114,          1) /* Attuned - Attuned */
+     , (41713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41713,   1, False) /* Stuck */
-     , (41713,  11, True ) /* IgnoreCollisions */
-     , (41713,  13, True ) /* Ethereal */
-     , (41713,  14, True ) /* GravityStatus */
-     , (41713,  19, True ) /* Attackable */
-     , (41713,  22, True ) /* Inscribable */;
+VALUES (41713,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41713,   1, 'Whispering Blade Token') /* Name */

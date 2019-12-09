@@ -8,19 +8,14 @@ VALUES (3610,   1,      16384) /* ItemType - Key */
      , (3610,   5,         50) /* EncumbranceVal */
      , (3610,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (3610,  19,         50) /* Value */
-     , (3610,  65,        101) /* Placement - Resting */
      , (3610,  91,          3) /* MaxStructure */
      , (3610,  92,          3) /* Structure */
      , (3610,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3610,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (3610,  94,        640) /* TargetType - LockableMagicTarget */
+     , (3610, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3610,   1, False) /* Stuck */
-     , (3610,  11, True ) /* IgnoreCollisions */
-     , (3610,  13, True ) /* Ethereal */
-     , (3610,  14, True ) /* GravityStatus */
-     , (3610,  19, True ) /* Attackable */
-     , (3610,  22, True ) /* Inscribable */;
+VALUES (3610,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3610,   1, 'A silvery, mysterious key') /* Name */

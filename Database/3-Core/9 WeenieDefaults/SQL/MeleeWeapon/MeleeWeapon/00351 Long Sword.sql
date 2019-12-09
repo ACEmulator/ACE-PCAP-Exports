@@ -16,7 +16,6 @@ VALUES (351,   1,          1) /* ItemType - MeleeWeapon */
      , (351,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (351,  49,         40) /* WeaponTime */
      , (351,  51,          1) /* CombatUse - Melee */
-     , (351,  65,          1) /* Placement - RightHandCombat */
      , (351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (351, 105,          5) /* ItemWorkmanship */
      , (351, 131,         59) /* MaterialType - Copper */
@@ -28,25 +27,21 @@ VALUES (351,   1,          1) /* ItemType - MeleeWeapon */
      , (351, 177,          2) /* GemCount */
      , (351, 178,         34) /* GemType */
      , (351, 353,          2) /* WeaponType - Sword */
-     , (351, 8030,          0);
+     , (351, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (351, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (351,   1, False) /* Stuck */
-     , (351,  11, True ) /* IgnoreCollisions */
-     , (351,  13, True ) /* Ethereal */
-     , (351,  14, True ) /* GravityStatus */
-     , (351,  19, True ) /* Attackable */
-     , (351,  22, True ) /* Inscribable */;
+VALUES (351,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (351,  21,       0) /* WeaponLength */
      , (351,  22,    0.57) /* DamageVariance */
      , (351,  26,       0) /* MaximumVelocity */
      , (351,  29,    1.08) /* WeaponDefense */
-     , (351,  39, 1.10000002384186) /* DefaultScale */
+     , (351,  39,     1.1) /* DefaultScale */
      , (351,  62,    1.06) /* WeaponOffense */
      , (351,  63,       1) /* DamageMod */
-     , (351, 150,   1.025) /* WeaponMagicDefense */;
+     , (351, 150,    1.02) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (351,   1, 'Long Sword') /* Name */

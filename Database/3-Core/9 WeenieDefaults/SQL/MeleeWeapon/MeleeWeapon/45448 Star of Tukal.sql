@@ -15,12 +15,7 @@ VALUES (45448,   1,          1) /* ItemType - MeleeWeapon */
      , (45448, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45448,   1, False) /* Stuck */
-     , (45448,  11, True ) /* IgnoreCollisions */
-     , (45448,  13, True ) /* Ethereal */
-     , (45448,  14, True ) /* GravityStatus */
-     , (45448,  19, True ) /* Attackable */
-     , (45448,  22, True ) /* Inscribable */;
+VALUES (45448,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45448,   1, 'Star of Tukal') /* Name */;

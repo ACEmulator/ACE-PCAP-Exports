@@ -18,12 +18,7 @@ VALUES (41564,   1,        128) /* ItemType - Misc */
      , (41564, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41564,   1, False) /* Stuck */
-     , (41564,  11, True ) /* IgnoreCollisions */
-     , (41564,  13, True ) /* Ethereal */
-     , (41564,  14, True ) /* GravityStatus */
-     , (41564,  19, True ) /* Attackable */
-     , (41564,  22, True ) /* Inscribable */;
+VALUES (41564,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41564,   1, 'Gold Aetherium Core Fragment') /* Name */

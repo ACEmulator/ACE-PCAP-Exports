@@ -8,20 +8,15 @@ VALUES (5431,   1,        128) /* ItemType - Misc */
      , (5431,   5,       9000) /* EncumbranceVal */
      , (5431,  16,          1) /* ItemUseable - No */
      , (5431,  19,        125) /* Value */
-     , (5431,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (5431,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5431,   1, True ) /* Stuck */
-     , (5431,  11, True ) /* IgnoreCollisions */
-     , (5431,  12, True ) /* ReportCollisions */
-     , (5431,  13, False) /* Ethereal */
-     , (5431,  14, True ) /* GravityStatus */
-     , (5431,  19, True ) /* Attackable */;
+VALUES (5431,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5431, 8010,       0) /* PCAPRecordedVelocityX */
      , (5431, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5431, 8012, -0.385451585054398) /* PCAPRecordedVelocityZ */;
+     , (5431, 8012,   -0.39) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5431,   1, 'Forest''s Blessing Bows') /* Name */

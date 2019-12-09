@@ -8,16 +8,11 @@ VALUES (804,   1,        128) /* ItemType - Misc */
      , (804,   5,       9000) /* EncumbranceVal */
      , (804,  16,          1) /* ItemUseable - No */
      , (804,  19,        125) /* Value */
-     , (804,  65,        101) /* Placement - Resting */
-     , (804,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
+     , (804,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (804, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (804,   1, True ) /* Stuck */
-     , (804,  11, True ) /* IgnoreCollisions */
-     , (804,  12, True ) /* ReportCollisions */
-     , (804,  13, False) /* Ethereal */
-     , (804,  14, True ) /* GravityStatus */
-     , (804,  19, True ) /* Attackable */;
+VALUES (804,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (804,   1, 'Ten Ox House') /* Name */

@@ -11,7 +11,6 @@ VALUES (52247,   1,      32768) /* ItemType - Caster */
      , (52247,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (52247,  19,       5000) /* Value */
      , (52247,  33,          1) /* Bonded - Bonded */
-     , (52247,  65,          1) /* Placement - RightHandCombat */
      , (52247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52247,  94,         16) /* TargetType - Creature */
      , (52247, 106,        400) /* ItemSpellcraft */
@@ -22,22 +21,18 @@ VALUES (52247,   1,      32768) /* ItemType - Caster */
      , (52247, 151,          2) /* HookType - Wall */
      , (52247, 158,          7) /* WieldRequirements - Level */
      , (52247, 159,          1) /* WieldSkillType - Axe */
-     , (52247, 160,        180) /* WieldDifficulty */;
+     , (52247, 160,        180) /* WieldDifficulty */
+     , (52247, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52247,   1, False) /* Stuck */
-     , (52247,  11, True ) /* IgnoreCollisions */
-     , (52247,  13, True ) /* Ethereal */
-     , (52247,  14, True ) /* GravityStatus */
-     , (52247,  19, True ) /* Attackable */
-     , (52247,  22, True ) /* Inscribable */
+VALUES (52247,  22, True ) /* Inscribable */
      , (52247,  69, False) /* IsSellable */
      , (52247,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52247,   5,  -0.025) /* ManaRate */
+VALUES (52247,   5,   -0.02) /* ManaRate */
      , (52247,  29,     1.2) /* WeaponDefense */
-     , (52247,  39, 0.400000005960464) /* DefaultScale */
+     , (52247,  39,     0.4) /* DefaultScale */
      , (52247, 144,     0.1) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

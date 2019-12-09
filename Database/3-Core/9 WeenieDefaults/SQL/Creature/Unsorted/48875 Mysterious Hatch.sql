@@ -38,20 +38,14 @@ VALUES (48875,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48875,   1, True ) /* Stuck */
-     , (48875,  11, True ) /* IgnoreCollisions */
-     , (48875,  12, True ) /* ReportCollisions */
-     , (48875,  13, False) /* Ethereal */
-     , (48875,  14, True ) /* GravityStatus */
-     , (48875,  19, False) /* Attackable */
-     , (48875,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (48875,  42, True ) /* AllowEdgeSlide */;
+     , (48875,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48875,  39,     1.5) /* DefaultScale */
      , (48875,  54,     2.5) /* UseRadius */
      , (48875, 8010,       0) /* PCAPRecordedVelocityX */
      , (48875, 8011,       0) /* PCAPRecordedVelocityY */
-     , (48875, 8012, -0.29487356543541) /* PCAPRecordedVelocityZ */;
+     , (48875, 8012,   -0.29) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48875,   1, 'Mysterious Hatch') /* Name */

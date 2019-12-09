@@ -12,16 +12,11 @@ VALUES (44266,   1,          1) /* ItemType - MeleeWeapon */
      , (44266,  18,         32) /* UiEffects - Fire */
      , (44266,  19,        340) /* Value */
      , (44266,  51,          1) /* CombatUse - Melee */
-     , (44266,  65,          1) /* Placement - RightHandCombat */
-     , (44266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44266, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44266,   1, False) /* Stuck */
-     , (44266,  11, True ) /* IgnoreCollisions */
-     , (44266,  13, True ) /* Ethereal */
-     , (44266,  14, True ) /* GravityStatus */
-     , (44266,  19, True ) /* Attackable */
-     , (44266,  22, True ) /* Inscribable */;
+VALUES (44266,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44266,   1, 'Burning Sands Blade') /* Name */;

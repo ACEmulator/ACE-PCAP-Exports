@@ -12,17 +12,10 @@ VALUES (5090,   1,         32) /* ItemType - Food */
      , (5090,  15,          0) /* StackUnitValue */
      , (5090,  16,          8) /* ItemUseable - Contained */
      , (5090,  19,          0) /* Value */
-     , (5090,  65,        101) /* Placement - Resting */
      , (5090,  89,          4) /* BoosterEnum - Stamina */
      , (5090,  90,          4) /* BoostValue */
-     , (5090,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5090,   1, False) /* Stuck */
-     , (5090,  11, True ) /* IgnoreCollisions */
-     , (5090,  13, True ) /* Ethereal */
-     , (5090,  14, True ) /* GravityStatus */
-     , (5090,  19, True ) /* Attackable */;
+     , (5090,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5090, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5090,   1, 'Bruised Apple') /* Name */

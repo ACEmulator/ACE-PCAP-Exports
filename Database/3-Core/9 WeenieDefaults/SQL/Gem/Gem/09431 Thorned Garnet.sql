@@ -13,22 +13,17 @@ VALUES (9431,   1,       2048) /* ItemType - Gem */
      , (9431,  16,          8) /* ItemUseable - Contained */
      , (9431,  18,          1) /* UiEffects - Magical */
      , (9431,  19,        200) /* Value */
-     , (9431,  65,        101) /* Placement - Resting */
      , (9431,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9431,  94,         16) /* TargetType - Creature */
      , (9431, 106,        210) /* ItemSpellcraft */
      , (9431, 107,        100) /* ItemCurMana */
      , (9431, 108,        200) /* ItemMaxMana */
      , (9431, 109,          0) /* ItemDifficulty */
-     , (9431, 110,          0) /* ItemAllegianceRankLimit */;
+     , (9431, 110,          0) /* ItemAllegianceRankLimit */
+     , (9431, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9431,   1, False) /* Stuck */
-     , (9431,  11, True ) /* IgnoreCollisions */
-     , (9431,  13, True ) /* Ethereal */
-     , (9431,  14, True ) /* GravityStatus */
-     , (9431,  19, True ) /* Attackable */
-     , (9431,  22, True ) /* Inscribable */;
+VALUES (9431,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9431,   1, 'Thorned Garnet') /* Name */

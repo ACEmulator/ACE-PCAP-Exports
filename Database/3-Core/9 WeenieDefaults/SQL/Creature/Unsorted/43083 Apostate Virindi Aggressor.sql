@@ -13,11 +13,7 @@ VALUES (43083,   1,         16) /* ItemType - Creature */
      , (43083, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43083,   1, True ) /* Stuck */
-     , (43083,  12, True ) /* ReportCollisions */
-     , (43083,  13, False) /* Ethereal */
-     , (43083,  14, True ) /* GravityStatus */
-     , (43083,  19, True ) /* Attackable */;
+VALUES (43083,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43083,   1, 'Apostate Virindi Aggressor') /* Name */

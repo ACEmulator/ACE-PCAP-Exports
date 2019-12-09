@@ -12,20 +12,15 @@ VALUES (34896,   1,        128) /* ItemType - Misc */
      , (34896,  15,       1000) /* StackUnitValue */
      , (34896,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (34896,  19,       1000) /* Value */
-     , (34896,  65,        101) /* Placement - Resting */
      , (34896,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34896,  94,        128) /* TargetType - Misc */;
+     , (34896,  94,        128) /* TargetType - Misc */
+     , (34896, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34896,   1, False) /* Stuck */
-     , (34896,  11, True ) /* IgnoreCollisions */
-     , (34896,  13, True ) /* Ethereal */
-     , (34896,  14, True ) /* GravityStatus */
-     , (34896,  19, True ) /* Attackable */
-     , (34896,  22, True ) /* Inscribable */;
+VALUES (34896,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34896,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (34896,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34896,   1, 'Fletching Sigil') /* Name */;

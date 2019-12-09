@@ -11,12 +11,7 @@ VALUES (14729,   1,        128) /* ItemType - Misc */
      , (14729,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14729,   1, True ) /* Stuck */
-     , (14729,  11, True ) /* IgnoreCollisions */
-     , (14729,  12, True ) /* ReportCollisions */
-     , (14729,  13, False) /* Ethereal */
-     , (14729,  14, True ) /* GravityStatus */
-     , (14729,  19, True ) /* Attackable */;
+VALUES (14729,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14729,   1, 'Rahvard Square') /* Name */;

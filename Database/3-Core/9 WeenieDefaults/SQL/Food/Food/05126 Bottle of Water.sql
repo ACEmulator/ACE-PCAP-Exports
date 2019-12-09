@@ -13,19 +13,14 @@ VALUES (5126,   1,         32) /* ItemType - Food */
      , (5126,  16,          8) /* ItemUseable - Contained */
      , (5126,  19,          0) /* Value */
      , (5126,  33,          1) /* Bonded - Bonded */
-     , (5126,  65,        101) /* Placement - Resting */
      , (5126,  89,          4) /* BoosterEnum - Stamina */
      , (5126,  90,         12) /* BoostValue */
      , (5126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5126, 114,          1) /* Attuned - Attuned */;
+     , (5126, 114,          1) /* Attuned - Attuned */
+     , (5126, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5126,   1, False) /* Stuck */
-     , (5126,  11, True ) /* IgnoreCollisions */
-     , (5126,  13, True ) /* Ethereal */
-     , (5126,  14, True ) /* GravityStatus */
-     , (5126,  19, True ) /* Attackable */
-     , (5126,  22, True ) /* Inscribable */;
+VALUES (5126,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5126,   1, 'Bottle of Water') /* Name */

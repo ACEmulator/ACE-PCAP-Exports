@@ -13,22 +13,17 @@ VALUES (22878,   1,       2048) /* ItemType - Gem */
      , (22878,  16,          8) /* ItemUseable - Contained */
      , (22878,  18,          1) /* UiEffects - Magical */
      , (22878,  19,        200) /* Value */
-     , (22878,  65,        101) /* Placement - Resting */
      , (22878,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22878,  94,         16) /* TargetType - Creature */
      , (22878, 106,        210) /* ItemSpellcraft */
      , (22878, 107,        100) /* ItemCurMana */
      , (22878, 108,        200) /* ItemMaxMana */
      , (22878, 109,          0) /* ItemDifficulty */
-     , (22878, 110,          0) /* ItemAllegianceRankLimit */;
+     , (22878, 110,          0) /* ItemAllegianceRankLimit */
+     , (22878, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22878,   1, False) /* Stuck */
-     , (22878,  11, True ) /* IgnoreCollisions */
-     , (22878,  13, True ) /* Ethereal */
-     , (22878,  14, True ) /* GravityStatus */
-     , (22878,  19, True ) /* Attackable */
-     , (22878,  22, True ) /* Inscribable */;
+VALUES (22878,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22878,   1, 'Bludgeon Protection Gem') /* Name */

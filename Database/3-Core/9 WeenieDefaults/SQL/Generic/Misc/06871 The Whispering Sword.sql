@@ -11,11 +11,7 @@ VALUES (6871,   1,        128) /* ItemType - Misc */
      , (6871,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6871,   1, True ) /* Stuck */
-     , (6871,  11, True ) /* IgnoreCollisions */
-     , (6871,  12, True ) /* ReportCollisions */
-     , (6871,  13, False) /* Ethereal */
-     , (6871,  19, True ) /* Attackable */;
+VALUES (6871,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6871,   1, 'The Whispering Sword') /* Name */

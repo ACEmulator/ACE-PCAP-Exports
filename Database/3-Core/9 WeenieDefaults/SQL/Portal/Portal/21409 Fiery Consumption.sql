@@ -14,19 +14,13 @@ VALUES (21409,   1,      65536) /* ItemType - Portal */
      , (21409, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21409,   1, True ) /* Stuck */
-     , (21409,  12, True ) /* ReportCollisions */
-     , (21409,  13, True ) /* Ethereal */
-     , (21409,  14, True ) /* GravityStatus */
-     , (21409,  15, True ) /* LightsStatus */
-     , (21409,  19, True ) /* Attackable */;
+VALUES (21409,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21409,  54, -0.100000001490116) /* UseRadius */;
+VALUES (21409,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21409,   1, 'Fiery Consumption') /* Name */
-     , (21409,  38, 'Fiery Consumption') /* AppraisalPortalDestination */
      , (21409, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

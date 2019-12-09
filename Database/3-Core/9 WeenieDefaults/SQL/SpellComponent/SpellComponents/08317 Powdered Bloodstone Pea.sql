@@ -12,18 +12,11 @@ VALUES (8317,   1,       4096) /* ItemType - SpellComponents */
      , (8317,  15,        625) /* StackUnitValue */
      , (8317,  16,          1) /* ItemUseable - No */
      , (8317,  19,        625) /* Value */
-     , (8317,  65,        101) /* Placement - Resting */
-     , (8317,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8317,   1, False) /* Stuck */
-     , (8317,  11, True ) /* IgnoreCollisions */
-     , (8317,  13, True ) /* Ethereal */
-     , (8317,  14, True ) /* GravityStatus */
-     , (8317,  19, True ) /* Attackable */;
+     , (8317,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8317, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8317,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8317,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8317,   1, 'Powdered Bloodstone Pea') /* Name */;

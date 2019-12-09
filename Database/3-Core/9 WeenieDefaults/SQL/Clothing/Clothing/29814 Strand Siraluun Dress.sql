@@ -11,17 +11,12 @@ VALUES (29814,   1,          4) /* ItemType - Clothing */
      , (29814,  16,          1) /* ItemUseable - No */
      , (29814,  18,          1) /* UiEffects - Magical */
      , (29814,  19,       3750) /* Value */
-     , (29814,  65,        101) /* Placement - Resting */
      , (29814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29814, 151,          2) /* HookType - Wall */;
+     , (29814, 151,          2) /* HookType - Wall */
+     , (29814, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29814,   1, False) /* Stuck */
-     , (29814,  11, True ) /* IgnoreCollisions */
-     , (29814,  13, True ) /* Ethereal */
-     , (29814,  14, True ) /* GravityStatus */
-     , (29814,  19, True ) /* Attackable */
-     , (29814,  22, True ) /* Inscribable */;
+VALUES (29814,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29814,   1, 'Strand Siraluun Dress') /* Name */;

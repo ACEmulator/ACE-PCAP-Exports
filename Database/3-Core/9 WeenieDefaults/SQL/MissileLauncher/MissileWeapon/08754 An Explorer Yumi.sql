@@ -16,7 +16,6 @@ VALUES (8754,   1,        256) /* ItemType - MissileWeapon */
      , (8754,  49,         45) /* WeaponTime */
      , (8754,  50,          1) /* AmmoType - Arrow */
      , (8754,  51,          2) /* CombatUse - Missle */
-     , (8754,  65,        101) /* Placement - Resting */
      , (8754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8754, 106,        150) /* ItemSpellcraft */
      , (8754, 107,        214) /* ItemCurMana */
@@ -24,25 +23,21 @@ VALUES (8754,   1,        256) /* ItemType - MissileWeapon */
      , (8754, 109,         15) /* ItemDifficulty */
      , (8754, 151,          2) /* HookType - Wall */
      , (8754, 353,         10) /* WeaponType - Thrown */
-     , (8754, 8030,          0);
+     , (8754, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (8754, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8754,   1, False) /* Stuck */
-     , (8754,  11, True ) /* IgnoreCollisions */
-     , (8754,  13, True ) /* Ethereal */
-     , (8754,  14, True ) /* GravityStatus */
-     , (8754,  19, True ) /* Attackable */
-     , (8754,  22, True ) /* Inscribable */;
+VALUES (8754,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8754,   5, -0.025000000372529) /* ManaRate */
+VALUES (8754,   5,   -0.03) /* ManaRate */
      , (8754,  21,       0) /* WeaponLength */
      , (8754,  22,       0) /* DamageVariance */
      , (8754,  26,    27.3) /* MaximumVelocity */
      , (8754,  29,       1) /* WeaponDefense */
-     , (8754,  39, 1.10000002384186) /* DefaultScale */
+     , (8754,  39,     1.1) /* DefaultScale */
      , (8754,  62,       1) /* WeaponOffense */
-     , (8754,  63, 1.89999997615814) /* DamageMod */;
+     , (8754,  63,     1.9) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8754,   1, 'An Explorer Yumi') /* Name */;

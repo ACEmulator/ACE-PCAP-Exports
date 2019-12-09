@@ -15,11 +15,7 @@ VALUES (24284,   1,         16) /* ItemType - Creature */
      , (24284, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24284,   1, True ) /* Stuck */
-     , (24284,  12, True ) /* ReportCollisions */
-     , (24284,  13, False) /* Ethereal */
-     , (24284,  14, True ) /* GravityStatus */
-     , (24284,  19, True ) /* Attackable */;
+VALUES (24284,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24284,   1, 'Lugian Juggernaut') /* Name */

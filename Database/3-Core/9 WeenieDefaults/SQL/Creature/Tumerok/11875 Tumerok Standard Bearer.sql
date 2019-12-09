@@ -15,11 +15,7 @@ VALUES (11875,   1,         16) /* ItemType - Creature */
      , (11875, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11875,   1, True ) /* Stuck */
-     , (11875,  12, True ) /* ReportCollisions */
-     , (11875,  13, False) /* Ethereal */
-     , (11875,  14, True ) /* GravityStatus */
-     , (11875,  19, True ) /* Attackable */;
+VALUES (11875,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11875,   1, 'Tumerok Standard Bearer') /* Name */

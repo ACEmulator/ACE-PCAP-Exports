@@ -12,19 +12,13 @@ VALUES (1015,   1,      65536) /* ItemType - Portal */
      , (1015, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1015,   1, True ) /* Stuck */
-     , (1015,  12, True ) /* ReportCollisions */
-     , (1015,  13, True ) /* Ethereal */
-     , (1015,  14, True ) /* GravityStatus */
-     , (1015,  15, True ) /* LightsStatus */
-     , (1015,  19, True ) /* Attackable */;
+VALUES (1015,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1015,  54, -0.100000001490116) /* UseRadius */;
+VALUES (1015,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1015,   1, 'Cragstone Portal') /* Name */
-     , (1015,  38, 'Cragstone Portal (26.0N, 48.4E).') /* AppraisalPortalDestination */
      , (1015, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

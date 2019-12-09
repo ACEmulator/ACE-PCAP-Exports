@@ -11,11 +11,7 @@ VALUES (42871,   1,        128) /* ItemType - Misc */
      , (42871,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42871,   1, True ) /* Stuck */
-     , (42871,  11, True ) /* IgnoreCollisions */
-     , (42871,  12, True ) /* ReportCollisions */
-     , (42871,  13, True ) /* Ethereal */
-     , (42871,  19, True ) /* Attackable */;
+VALUES (42871,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42871,   1, 'Phyntos Wasp') /* Name */

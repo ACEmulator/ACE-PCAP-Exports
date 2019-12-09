@@ -11,12 +11,7 @@ VALUES (15689,   1,        128) /* ItemType - Misc */
      , (15689,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15689,   1, True ) /* Stuck */
-     , (15689,  11, True ) /* IgnoreCollisions */
-     , (15689,  12, True ) /* ReportCollisions */
-     , (15689,  13, False) /* Ethereal */
-     , (15689,  14, True ) /* GravityStatus */
-     , (15689,  19, True ) /* Attackable */;
+VALUES (15689,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15689,   1, 'Ardent Realm') /* Name */

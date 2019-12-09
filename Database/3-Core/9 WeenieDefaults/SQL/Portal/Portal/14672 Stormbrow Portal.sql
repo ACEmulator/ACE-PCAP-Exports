@@ -12,19 +12,13 @@ VALUES (14672,   1,      65536) /* ItemType - Portal */
      , (14672, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14672,   1, True ) /* Stuck */
-     , (14672,  12, True ) /* ReportCollisions */
-     , (14672,  13, True ) /* Ethereal */
-     , (14672,  14, True ) /* GravityStatus */
-     , (14672,  15, True ) /* LightsStatus */
-     , (14672,  19, True ) /* Attackable */;
+VALUES (14672,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14672,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14672,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14672,   1, 'Stormbrow Portal') /* Name */
-     , (14672,  38, 'Stormbrow Portal (85.7S, 17.0E).') /* AppraisalPortalDestination */
      , (14672, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

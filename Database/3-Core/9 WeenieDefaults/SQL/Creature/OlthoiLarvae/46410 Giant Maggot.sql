@@ -15,14 +15,10 @@ VALUES (46410,   1,         16) /* ItemType - Creature */
      , (46410, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46410,   1, True ) /* Stuck */
-     , (46410,  12, True ) /* ReportCollisions */
-     , (46410,  13, False) /* Ethereal */
-     , (46410,  14, True ) /* GravityStatus */
-     , (46410,  19, True ) /* Attackable */;
+VALUES (46410,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46410,  39, 0.800000011920929) /* DefaultScale */
+VALUES (46410,  39,     0.8) /* DefaultScale */
      , (46410,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

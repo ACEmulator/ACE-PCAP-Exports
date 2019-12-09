@@ -10,16 +10,11 @@ VALUES (10766,   1,          2) /* ItemType - Armor */
      , (10766,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (10766,  16,          1) /* ItemUseable - No */
      , (10766,  18,          1) /* UiEffects - Magical */
-     , (10766,  65,        101) /* Placement - Resting */
-     , (10766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (10766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (10766, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10766,   1, False) /* Stuck */
-     , (10766,  11, True ) /* IgnoreCollisions */
-     , (10766,  13, True ) /* Ethereal */
-     , (10766,  14, True ) /* GravityStatus */
-     , (10766,  19, True ) /* Attackable */
-     , (10766,  22, True ) /* Inscribable */;
+VALUES (10766,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10766,   1, 'Shackles of Obedience') /* Name */;

@@ -12,20 +12,14 @@ VALUES (42840,   1,      65536) /* ItemType - Portal */
      , (42840, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42840,   1, True ) /* Stuck */
-     , (42840,  12, True ) /* ReportCollisions */
-     , (42840,  13, True ) /* Ethereal */
-     , (42840,  14, True ) /* GravityStatus */
-     , (42840,  15, True ) /* LightsStatus */
-     , (42840,  19, True ) /* Attackable */;
+VALUES (42840,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42840,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42840,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42840,   1, 'Portal to Shoushi') /* Name */
      , (42840,  16, 'This portal goes to Shoushi, a Sho town where many new adventurers enter Dereth. This is a good town for characters of all levels.') /* LongDesc */
-     , (42840,  38, 'Portal to Shoushi (33.5S, 72.8E).') /* AppraisalPortalDestination */
      , (42840, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

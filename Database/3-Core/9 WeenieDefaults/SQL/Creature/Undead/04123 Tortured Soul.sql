@@ -16,11 +16,7 @@ VALUES (4123,   1,         16) /* ItemType - Creature */
      , (4123, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4123,   1, True ) /* Stuck */
-     , (4123,  12, True ) /* ReportCollisions */
-     , (4123,  13, False) /* Ethereal */
-     , (4123,  14, True ) /* GravityStatus */
-     , (4123,  19, True ) /* Attackable */;
+VALUES (4123,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4123,   1, 'Tortured Soul') /* Name */

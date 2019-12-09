@@ -13,14 +13,10 @@ VALUES (21915,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21915,   1, True ) /* Stuck */
-     , (21915,  11, True ) /* IgnoreCollisions */
-     , (21915,  13, True ) /* Ethereal */
-     , (21915,  15, True ) /* LightsStatus */
-     , (21915,  19, True ) /* Attackable */
      , (21915,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21915,  39, 0.550000011920929) /* DefaultScale */;
+VALUES (21915,  39,    0.55) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21915,   1, 'Gaerlan Effect') /* Name */

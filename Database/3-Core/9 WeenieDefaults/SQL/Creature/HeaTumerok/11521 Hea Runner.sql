@@ -16,11 +16,7 @@ VALUES (11521,   1,         16) /* ItemType - Creature */
      , (11521, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11521,   1, True ) /* Stuck */
-     , (11521,  12, True ) /* ReportCollisions */
-     , (11521,  13, False) /* Ethereal */
-     , (11521,  14, True ) /* GravityStatus */
-     , (11521,  19, True ) /* Attackable */;
+VALUES (11521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11521,   1, 'Hea Runner') /* Name */

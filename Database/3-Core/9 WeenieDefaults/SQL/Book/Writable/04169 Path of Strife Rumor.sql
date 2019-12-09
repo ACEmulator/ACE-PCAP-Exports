@@ -10,15 +10,8 @@ VALUES (4169,   1,       8192) /* ItemType - Writable */
      , (4169,  19,         90) /* Value */
      , (4169,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4169,   1, False) /* Stuck */
-     , (4169,  11, True ) /* IgnoreCollisions */
-     , (4169,  13, True ) /* Ethereal */
-     , (4169,  14, True ) /* GravityStatus */
-     , (4169,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4169,  39, 0.400000005960464) /* DefaultScale */
+VALUES (4169,  39,     0.4) /* DefaultScale */
      , (4169,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

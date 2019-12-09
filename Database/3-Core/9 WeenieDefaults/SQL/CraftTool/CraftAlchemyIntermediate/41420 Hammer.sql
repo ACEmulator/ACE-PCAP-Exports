@@ -12,18 +12,13 @@ VALUES (41420,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41420,  15,       1000) /* StackUnitValue */
      , (41420,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41420,  19,       1000) /* Value */
-     , (41420,  65,        101) /* Placement - Resting */
      , (41420,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41420,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41420, 151,          9) /* HookType - Floor, Yard */;
+     , (41420, 151,          9) /* HookType - Floor, Yard */
+     , (41420, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41420,   1, False) /* Stuck */
-     , (41420,  11, True ) /* IgnoreCollisions */
-     , (41420,  13, True ) /* Ethereal */
-     , (41420,  14, True ) /* GravityStatus */
-     , (41420,  19, True ) /* Attackable */
-     , (41420,  22, True ) /* Inscribable */;
+VALUES (41420,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41420,   1, 'Hammer') /* Name */

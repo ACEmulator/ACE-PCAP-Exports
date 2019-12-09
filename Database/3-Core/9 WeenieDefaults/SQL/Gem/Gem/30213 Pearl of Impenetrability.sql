@@ -16,22 +16,17 @@ VALUES (30213,   1,       2048) /* ItemType - Gem */
      , (30213,  19,          0) /* Value */
      , (30213,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30213,  33,         -1) /* Bonded - Slippery */
-     , (30213,  65,        101) /* Placement - Resting */
      , (30213,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30213,  94,         16) /* TargetType - Creature */
      , (30213, 106,        325) /* ItemSpellcraft */
      , (30213, 107,      10000) /* ItemCurMana */
      , (30213, 108,      10000) /* ItemMaxMana */
      , (30213, 109,          0) /* ItemDifficulty */
-     , (30213, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30213, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30213, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30213,   1, False) /* Stuck */
-     , (30213,  11, True ) /* IgnoreCollisions */
-     , (30213,  13, True ) /* Ethereal */
-     , (30213,  14, True ) /* GravityStatus */
-     , (30213,  19, True ) /* Attackable */
-     , (30213, 108, True ) /* RareUsesTimer */;
+VALUES (30213, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30213,   1, 'Pearl of Impenetrability') /* Name */

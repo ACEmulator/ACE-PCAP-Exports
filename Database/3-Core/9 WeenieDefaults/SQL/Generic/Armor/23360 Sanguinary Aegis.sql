@@ -13,19 +13,14 @@ VALUES (23360,   1,          2) /* ItemType - Armor */
      , (23360,  33,          1) /* Bonded - Bonded */
      , (23360,  36,       9999) /* ResistMagic */
      , (23360,  51,          4) /* CombatUse - Shield */
-     , (23360,  65,        101) /* Placement - Resting */
      , (23360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23360, 114,          0) /* Attuned - Normal */
      , (23360, 151,          2) /* HookType - Wall */
-     , (23360, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;
+     , (23360, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */
+     , (23360, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23360,   1, False) /* Stuck */
-     , (23360,  11, True ) /* IgnoreCollisions */
-     , (23360,  13, True ) /* Ethereal */
-     , (23360,  14, True ) /* GravityStatus */
-     , (23360,  19, True ) /* Attackable */
-     , (23360,  22, True ) /* Inscribable */
+VALUES (23360,  22, True ) /* Inscribable */
      , (23360,  69, False) /* IsSellable */
      , (23360,  85, True ) /* AppraisalHasAllowedWielder */;
 

@@ -13,15 +13,10 @@ VALUES (53365,   1,         16) /* ItemType - Creature */
      , (53365, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53365,   1, True ) /* Stuck */
-     , (53365,  12, True ) /* ReportCollisions */
-     , (53365,  13, False) /* Ethereal */
-     , (53365,  14, True ) /* GravityStatus */
-     , (53365,  19, True ) /* Attackable */
-     , (53365,  42, True ) /* AllowEdgeSlide */;
+VALUES (53365,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53365,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (53365,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53365,   1, 'Wind Fury') /* Name */

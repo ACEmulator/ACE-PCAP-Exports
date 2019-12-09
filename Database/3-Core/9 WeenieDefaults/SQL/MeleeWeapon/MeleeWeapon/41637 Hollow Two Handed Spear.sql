@@ -18,20 +18,14 @@ VALUES (41637,   1,          1) /* ItemType - MeleeWeapon */
      , (41637,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41637,  49,         30) /* WeaponTime */
      , (41637,  51,          5) /* CombatUse - TwoHanded */
-     , (41637,  65,          1) /* Placement - RightHandCombat */
      , (41637,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41637, 114,          1) /* Attuned - Attuned */
      , (41637, 353,         11) /* WeaponType - TwoHanded */
-     , (41637, 8030,          0);
+     , (41637, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (41637, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41637,   1, False) /* Stuck */
-     , (41637,  11, True ) /* IgnoreCollisions */
-     , (41637,  13, True ) /* Ethereal */
-     , (41637,  14, True ) /* GravityStatus */
-     , (41637,  15, True ) /* LightsStatus */
-     , (41637,  19, True ) /* Attackable */
-     , (41637,  22, True ) /* Inscribable */;
+VALUES (41637,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41637,  21,       0) /* WeaponLength */
@@ -40,7 +34,7 @@ VALUES (41637,  21,       0) /* WeaponLength */
      , (41637,  29,       1) /* WeaponDefense */
      , (41637,  62,    1.05) /* WeaponOffense */
      , (41637,  63,       1) /* DamageMod */
-     , (41637,  76, 0.699999988079071) /* Translucency */;
+     , (41637,  76,     0.7) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41637,   1, 'Hollow Two Handed Spear') /* Name */

@@ -9,17 +9,12 @@ VALUES (33509,   1,       2048) /* ItemType - Gem */
      , (33509,  16,          1) /* ItemUseable - No */
      , (33509,  19,          0) /* Value */
      , (33509,  33,          1) /* Bonded - Bonded */
-     , (33509,  65,        101) /* Placement - Resting */
      , (33509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33509, 114,          1) /* Attuned - Attuned */;
+     , (33509, 114,          1) /* Attuned - Attuned */
+     , (33509, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33509,   1, False) /* Stuck */
-     , (33509,  11, True ) /* IgnoreCollisions */
-     , (33509,  13, True ) /* Ethereal */
-     , (33509,  14, True ) /* GravityStatus */
-     , (33509,  19, True ) /* Attackable */
-     , (33509,  22, True ) /* Inscribable */;
+VALUES (33509,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33509,   1, 'Silveran Wand Token') /* Name */

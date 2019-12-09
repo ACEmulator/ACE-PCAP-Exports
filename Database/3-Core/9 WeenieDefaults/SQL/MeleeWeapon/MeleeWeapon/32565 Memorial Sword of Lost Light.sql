@@ -15,18 +15,13 @@ VALUES (32565,   1,          1) /* ItemType - MeleeWeapon */
      , (32565,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (32565,  49,         -1) /* WeaponTime */
      , (32565,  51,          1) /* CombatUse - Melee */
-     , (32565,  65,          1) /* Placement - RightHandCombat */
      , (32565,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32565, 353,          2) /* WeaponType - Sword */
-     , (32565, 8030,          0);
+     , (32565, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (32565, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32565,   1, False) /* Stuck */
-     , (32565,  11, True ) /* IgnoreCollisions */
-     , (32565,  13, True ) /* Ethereal */
-     , (32565,  14, True ) /* GravityStatus */
-     , (32565,  19, True ) /* Attackable */
-     , (32565,  22, True ) /* Inscribable */
+VALUES (32565,  22, True ) /* Inscribable */
      , (32565,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,7 +29,7 @@ VALUES (32565,  21,       0) /* WeaponLength */
      , (32565,  22,    0.25) /* DamageVariance */
      , (32565,  26,       0) /* MaximumVelocity */
      , (32565,  29,       1) /* WeaponDefense */
-     , (32565,  39, 3.59999990463257) /* DefaultScale */
+     , (32565,  39,     3.6) /* DefaultScale */
      , (32565,  62,       1) /* WeaponOffense */
      , (32565,  63,       1) /* DamageMod */;
 

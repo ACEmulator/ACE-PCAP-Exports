@@ -15,22 +15,17 @@ VALUES (30242,   1,       2048) /* ItemType - Gem */
      , (30242,  18,          1) /* UiEffects - Magical */
      , (30242,  19,          0) /* Value */
      , (30242,  33,         -1) /* Bonded - Slippery */
-     , (30242,  65,        101) /* Placement - Resting */
      , (30242,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30242,  94,         16) /* TargetType - Creature */
      , (30242, 106,        325) /* ItemSpellcraft */
      , (30242, 107,      10000) /* ItemCurMana */
      , (30242, 108,      10000) /* ItemMaxMana */
      , (30242, 109,          0) /* ItemDifficulty */
-     , (30242, 151,         11) /* HookType - Floor, Wall, Yard */;
+     , (30242, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (30242, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30242,   1, False) /* Stuck */
-     , (30242,  11, True ) /* IgnoreCollisions */
-     , (30242,  13, True ) /* Ethereal */
-     , (30242,  14, True ) /* GravityStatus */
-     , (30242,  19, True ) /* Attackable */
-     , (30242, 108, True ) /* RareUsesTimer */;
+VALUES (30242, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30242,   1, 'Ben Ten''s Crystal') /* Name */

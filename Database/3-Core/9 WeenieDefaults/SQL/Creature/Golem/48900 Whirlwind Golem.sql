@@ -15,11 +15,7 @@ VALUES (48900,   1,         16) /* ItemType - Creature */
      , (48900, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48900,   1, True ) /* Stuck */
-     , (48900,  12, True ) /* ReportCollisions */
-     , (48900,  13, False) /* Ethereal */
-     , (48900,  14, True ) /* GravityStatus */
-     , (48900,  19, True ) /* Attackable */;
+VALUES (48900,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48900,   1, 'Whirlwind Golem') /* Name */

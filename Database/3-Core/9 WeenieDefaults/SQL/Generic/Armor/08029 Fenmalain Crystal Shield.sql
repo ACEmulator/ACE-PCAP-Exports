@@ -13,7 +13,6 @@ VALUES (8029,   1,          2) /* ItemType - Armor */
      , (8029,  28,         90) /* ArmorLevel */
      , (8029,  36,       9999) /* ResistMagic */
      , (8029,  51,          4) /* CombatUse - Shield */
-     , (8029,  65,        101) /* Placement - Resting */
      , (8029,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8029, 106,        150) /* ItemSpellcraft */
      , (8029, 107,          0) /* ItemCurMana */
@@ -22,26 +21,22 @@ VALUES (8029,   1,          2) /* ItemType - Armor */
      , (8029, 114,          1) /* Attuned - Attuned */
      , (8029, 115,        190) /* ItemSkillLevelLimit */
      , (8029, 151,          2) /* HookType - Wall */
-     , (8029, 176,         48) /* AppraisalItemSkill */;
+     , (8029, 176,         48) /* AppraisalItemSkill */
+     , (8029, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8029,   1, False) /* Stuck */
-     , (8029,  11, True ) /* IgnoreCollisions */
-     , (8029,  13, True ) /* Ethereal */
-     , (8029,  14, True ) /* GravityStatus */
-     , (8029,  19, True ) /* Attackable */
-     , (8029,  22, True ) /* Inscribable */
+VALUES (8029,  22, True ) /* Inscribable */
      , (8029,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8029,   5,   -0.05) /* ManaRate */
      , (8029,  13,       1) /* ArmorModVsSlash */
-     , (8029,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (8029,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (8029,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (8029,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (8029,  14,     0.8) /* ArmorModVsPierce */
+     , (8029,  15,     1.2) /* ArmorModVsBludgeon */
+     , (8029,  16,     0.6) /* ArmorModVsCold */
+     , (8029,  17,     0.6) /* ArmorModVsFire */
      , (8029,  18,       1) /* ArmorModVsAcid */
-     , (8029,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (8029,  19,     0.6) /* ArmorModVsElectric */
      , (8029,  39,    1.25) /* DefaultScale */
      , (8029,  76,     0.5) /* Translucency */
      , (8029, 165,       1) /* ArmorModVsNether */;

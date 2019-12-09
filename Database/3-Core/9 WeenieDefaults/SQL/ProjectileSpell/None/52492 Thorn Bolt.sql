@@ -9,12 +9,6 @@ VALUES (52492,   1,          0) /* ItemType - None */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52492,   1, True ) /* Stuck */
-     , (52492,  12, True ) /* ReportCollisions */
-     , (52492,  13, False) /* Ethereal */
-     , (52492,  15, True ) /* LightsStatus */
-     , (52492,  16, True ) /* ScriptedCollision */
-     , (52492,  17, True ) /* Inelastic */
-     , (52492,  19, True ) /* Attackable */
      , (52492,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -22,9 +16,9 @@ VALUES (52492,  39,     0.5) /* DefaultScale */
      , (52492,  77,       1) /* PhysicsScriptIntensity */
      , (52492,  78,       1) /* Friction */
      , (52492,  79,       0) /* Elasticity */
-     , (52492, 8010, -18.1638565063477) /* PCAPRecordedVelocityX */
-     , (52492, 8011, -14.3117141723633) /* PCAPRecordedVelocityY */
-     , (52492, 8012, 1.5265861749649) /* PCAPRecordedVelocityZ */;
+     , (52492, 8010,  -18.16) /* PCAPRecordedVelocityX */
+     , (52492, 8011,  -14.31) /* PCAPRecordedVelocityY */
+     , (52492, 8012,    1.53) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52492,   1, 'Thorn Bolt') /* Name */;

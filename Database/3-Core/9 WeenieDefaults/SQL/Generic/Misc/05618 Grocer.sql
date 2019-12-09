@@ -8,20 +8,15 @@ VALUES (5618,   1,        128) /* ItemType - Misc */
      , (5618,   5,       9000) /* EncumbranceVal */
      , (5618,  16,          1) /* ItemUseable - No */
      , (5618,  19,        125) /* Value */
-     , (5618,  93,      66584) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP */;
+     , (5618,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5618,   1, True ) /* Stuck */
-     , (5618,  11, True ) /* IgnoreCollisions */
-     , (5618,  12, True ) /* ReportCollisions */
-     , (5618,  13, False) /* Ethereal */
-     , (5618,  14, True ) /* GravityStatus */
-     , (5618,  19, True ) /* Attackable */;
+VALUES (5618,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5618, 8010,       0) /* PCAPRecordedVelocityX */
      , (5618, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5618, 8012, -0.110345400869846) /* PCAPRecordedVelocityZ */;
+     , (5618, 8012,   -0.11) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5618,   1, 'Grocer') /* Name */

@@ -8,19 +8,14 @@ VALUES (3677,   1,        128) /* ItemType - Misc */
      , (3677,   5,        105) /* EncumbranceVal */
      , (3677,  16,          1) /* ItemUseable - No */
      , (3677,  19,         80) /* Value */
-     , (3677,  65,        101) /* Placement - Resting */
-     , (3677,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (3677,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3677, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3677,   1, False) /* Stuck */
-     , (3677,  11, True ) /* IgnoreCollisions */
-     , (3677,  13, True ) /* Ethereal */
-     , (3677,  14, True ) /* GravityStatus */
-     , (3677,  19, True ) /* Attackable */
-     , (3677,  22, True ) /* Inscribable */;
+VALUES (3677,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3677,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (3677,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3677,   1, 'Swamp Gromnie Tooth') /* Name */;

@@ -10,17 +10,13 @@ VALUES (52734,   1,        512) /* ItemType - Container */
      , (52734,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (52734,  18,          8) /* UiEffects - BoostMana */
      , (52734,  19,         35) /* Value */
-     , (52734,  65,        101) /* Placement - Resting */
-     , (52734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (52734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (52734, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52734,   1, False) /* Stuck */
-     , (52734,   2, True ) /* Open */
-     , (52734,  11, True ) /* IgnoreCollisions */
-     , (52734,  13, True ) /* Ethereal */
-     , (52734,  14, True ) /* GravityStatus */
-     , (52734,  19, True ) /* Attackable */
-     , (52734,  22, True ) /* Inscribable */;
+VALUES (52734,   2, False) /* Open */
+     , (52734,  22, True ) /* Inscribable */
+     , (52734,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52734,  39,    1.75) /* DefaultScale */

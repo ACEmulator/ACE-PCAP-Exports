@@ -11,15 +11,10 @@ VALUES (34011,   1,      65536) /* ItemType - Portal */
      , (34011, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34011,   1, True ) /* Stuck */
-     , (34011,  12, True ) /* ReportCollisions */
-     , (34011,  13, True ) /* Ethereal */
-     , (34011,  14, True ) /* GravityStatus */
-     , (34011,  15, True ) /* LightsStatus */
-     , (34011,  19, True ) /* Attackable */;
+VALUES (34011,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34011,  54, -0.100000001490116) /* UseRadius */;
+VALUES (34011,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34011,   1, 'Crypt of Crimson Night') /* Name */

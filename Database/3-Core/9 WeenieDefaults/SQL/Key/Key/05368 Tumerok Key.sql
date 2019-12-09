@@ -8,19 +8,14 @@ VALUES (5368,   1,      16384) /* ItemType - Key */
      , (5368,   5,         50) /* EncumbranceVal */
      , (5368,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (5368,  19,          0) /* Value */
-     , (5368,  65,        101) /* Placement - Resting */
      , (5368,  91,          3) /* MaxStructure */
      , (5368,  92,          3) /* Structure */
      , (5368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5368,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (5368,  94,        640) /* TargetType - LockableMagicTarget */
+     , (5368, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5368,   1, False) /* Stuck */
-     , (5368,  11, True ) /* IgnoreCollisions */
-     , (5368,  13, True ) /* Ethereal */
-     , (5368,  14, True ) /* GravityStatus */
-     , (5368,  19, True ) /* Attackable */
-     , (5368,  22, True ) /* Inscribable */;
+VALUES (5368,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5368,   1, 'Tumerok Key') /* Name */

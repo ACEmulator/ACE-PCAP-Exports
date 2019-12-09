@@ -10,18 +10,13 @@ VALUES (52190,   1,      32768) /* ItemType - Caster */
      , (52190,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (52190,  16,          1) /* ItemUseable - No */
      , (52190,  19,        200) /* Value */
-     , (52190,  65,          1) /* Placement - RightHandCombat */
      , (52190,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52190,  94,         16) /* TargetType - Creature */
-     , (52190, 151,          2) /* HookType - Wall */;
+     , (52190, 151,          2) /* HookType - Wall */
+     , (52190, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52190,   1, False) /* Stuck */
-     , (52190,  11, True ) /* IgnoreCollisions */
-     , (52190,  13, True ) /* Ethereal */
-     , (52190,  14, True ) /* GravityStatus */
-     , (52190,  19, True ) /* Attackable */
-     , (52190,  22, True ) /* Inscribable */;
+VALUES (52190,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52190,  29,     1.1) /* WeaponDefense */

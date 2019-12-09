@@ -13,16 +13,9 @@ VALUES (38438,   1,        128) /* ItemType - Misc */
      , (38438,  16,          1) /* ItemUseable - No */
      , (38438,  19,      10000) /* Value */
      , (38438,  33,          1) /* Bonded - Bonded */
-     , (38438,  65,        101) /* Placement - Resting */
      , (38438,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38438, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38438,   1, False) /* Stuck */
-     , (38438,  11, True ) /* IgnoreCollisions */
-     , (38438,  13, True ) /* Ethereal */
-     , (38438,  14, True ) /* GravityStatus */
-     , (38438,  19, True ) /* Attackable */;
+     , (38438, 114,          1) /* Attuned - Attuned */
+     , (38438, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38438,   1, 'Giant Jungle Phyntos Wasp Stinger') /* Name */

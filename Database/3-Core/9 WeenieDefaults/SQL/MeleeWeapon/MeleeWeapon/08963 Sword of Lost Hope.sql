@@ -11,18 +11,12 @@ VALUES (8963,   1,          1) /* ItemType - MeleeWeapon */
      , (8963,  16,          1) /* ItemUseable - No */
      , (8963,  18,          1) /* UiEffects - Magical */
      , (8963,  51,          1) /* CombatUse - Melee */
-     , (8963,  65,          1) /* Placement - RightHandCombat */
      , (8963,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (8963, 151,          2) /* HookType - Wall */;
+     , (8963, 151,          2) /* HookType - Wall */
+     , (8963, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8963,   1, False) /* Stuck */
-     , (8963,  11, True ) /* IgnoreCollisions */
-     , (8963,  13, True ) /* Ethereal */
-     , (8963,  14, True ) /* GravityStatus */
-     , (8963,  15, True ) /* LightsStatus */
-     , (8963,  19, True ) /* Attackable */
-     , (8963,  22, True ) /* Inscribable */;
+VALUES (8963,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8963,   1, 'Sword of Lost Hope') /* Name */;

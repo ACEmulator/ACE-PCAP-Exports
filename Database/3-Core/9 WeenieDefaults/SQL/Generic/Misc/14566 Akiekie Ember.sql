@@ -13,12 +13,7 @@ VALUES (14566,   1,        128) /* ItemType - Misc */
      , (14566, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14566,   1, False) /* Stuck */
-     , (14566,  11, True ) /* IgnoreCollisions */
-     , (14566,  13, True ) /* Ethereal */
-     , (14566,  14, True ) /* GravityStatus */
-     , (14566,  19, True ) /* Attackable */
-     , (14566,  22, True ) /* Inscribable */;
+VALUES (14566,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14566,   1, 'Akiekie Ember') /* Name */

@@ -11,7 +11,6 @@ VALUES (27353,   1,      32768) /* ItemType - Caster */
      , (27353,  18,          1) /* UiEffects - Magical */
      , (27353,  19,      20000) /* Value */
      , (27353,  33,          1) /* Bonded - Bonded */
-     , (27353,  65,        101) /* Placement - Resting */
      , (27353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27353,  94,         16) /* TargetType - Creature */
      , (27353, 106,        250) /* ItemSpellcraft */
@@ -22,23 +21,19 @@ VALUES (27353,   1,      32768) /* ItemType - Caster */
      , (27353, 151,          2) /* HookType - Wall */
      , (27353, 158,          2) /* WieldRequirements - RawSkill */
      , (27353, 159,         16) /* WieldSkillType - ManaConversion */
-     , (27353, 160,        165) /* WieldDifficulty */;
+     , (27353, 160,        165) /* WieldDifficulty */
+     , (27353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27353,   1, False) /* Stuck */
-     , (27353,  11, True ) /* IgnoreCollisions */
-     , (27353,  13, True ) /* Ethereal */
-     , (27353,  14, True ) /* GravityStatus */
-     , (27353,  19, True ) /* Attackable */
-     , (27353,  22, True ) /* Inscribable */
+VALUES (27353,  22, True ) /* Inscribable */
      , (27353,  69, False) /* IsSellable */
      , (27353,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27353,   5, -0.0333329997956753) /* ManaRate */
-     , (27353,  29, 1.08000004291534) /* WeaponDefense */
-     , (27353,  39, 1.10000002384186) /* DefaultScale */
-     , (27353, 144, 0.100000001490116) /* ManaConversionMod */;
+VALUES (27353,   5,   -0.03) /* ManaRate */
+     , (27353,  29,    1.08) /* WeaponDefense */
+     , (27353,  39,     1.1) /* DefaultScale */
+     , (27353, 144,     0.1) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27353,   1, 'Audetaunga''s Buadren of the Mountains') /* Name */

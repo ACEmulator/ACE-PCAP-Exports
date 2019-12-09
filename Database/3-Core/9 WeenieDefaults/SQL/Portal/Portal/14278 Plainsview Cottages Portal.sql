@@ -12,19 +12,13 @@ VALUES (14278,   1,      65536) /* ItemType - Portal */
      , (14278, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14278,   1, True ) /* Stuck */
-     , (14278,  12, True ) /* ReportCollisions */
-     , (14278,  13, True ) /* Ethereal */
-     , (14278,  14, True ) /* GravityStatus */
-     , (14278,  15, True ) /* LightsStatus */
-     , (14278,  19, True ) /* Attackable */;
+VALUES (14278,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14278,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14278,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14278,   1, 'Plainsview Cottages Portal') /* Name */
-     , (14278,  38, 'Plainsview Cottages Portal (56.9S, 32.2E).') /* AppraisalPortalDestination */
      , (14278, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

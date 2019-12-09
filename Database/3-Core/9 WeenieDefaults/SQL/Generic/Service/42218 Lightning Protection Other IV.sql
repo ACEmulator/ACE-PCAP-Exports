@@ -7,18 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42218,   1,    1048576) /* ItemType - Service */
      , (42218,  16,          1) /* ItemUseable - No */
      , (42218,  19,        200) /* Value */
-     , (42218,  65,        101) /* Placement - Resting */
-     , (42218,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42218,   1, False) /* Stuck */
-     , (42218,  11, True ) /* IgnoreCollisions */
-     , (42218,  13, True ) /* Ethereal */
-     , (42218,  14, True ) /* GravityStatus */
-     , (42218,  19, True ) /* Attackable */;
+     , (42218,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (42218, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42218,  39, 0.370000004768372) /* DefaultScale */;
+VALUES (42218,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42218,   1, 'Lightning Protection Other IV') /* Name */;

@@ -16,14 +16,10 @@ VALUES (7127,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7127,   1, True ) /* Stuck */
-     , (7127,  12, True ) /* ReportCollisions */
-     , (7127,  13, False) /* Ethereal */
-     , (7127,  14, True ) /* GravityStatus */
-     , (7127,  19, True ) /* Attackable */
      , (7127, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7127,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (7127,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7127,   1, 'Nightmare Wisp') /* Name */

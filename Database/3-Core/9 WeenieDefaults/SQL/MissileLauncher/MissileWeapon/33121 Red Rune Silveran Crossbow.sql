@@ -15,7 +15,6 @@ VALUES (33121,   1,        256) /* ItemType - MissileWeapon */
      , (33121,  49,         60) /* WeaponTime */
      , (33121,  50,          2) /* AmmoType - Bolt */
      , (33121,  51,          2) /* CombatUse - Missle */
-     , (33121,  65,        101) /* Placement - Resting */
      , (33121,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33121, 106,        500) /* ItemSpellcraft */
      , (33121, 107,       6412) /* ItemCurMana */
@@ -27,25 +26,21 @@ VALUES (33121,   1,        256) /* ItemType - MissileWeapon */
      , (33121, 160,        140) /* WieldDifficulty */
      , (33121, 263,          2) /* ResistanceModifierType */
      , (33121, 353,          9) /* WeaponType - Crossbow */
-     , (33121, 8030,          0);
+     , (33121, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
+     , (33121, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33121,   1, False) /* Stuck */
-     , (33121,  11, True ) /* IgnoreCollisions */
-     , (33121,  13, True ) /* Ethereal */
-     , (33121,  14, True ) /* GravityStatus */
-     , (33121,  19, True ) /* Attackable */
-     , (33121,  22, True ) /* Inscribable */;
+VALUES (33121,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33121,   5, -0.0500000007450581) /* ManaRate */
+VALUES (33121,   5,   -0.05) /* ManaRate */
      , (33121,  21,       0) /* WeaponLength */
      , (33121,  22,       0) /* DamageVariance */
      , (33121,  26,    27.3) /* MaximumVelocity */
-     , (33121,  29, 1.14999997615814) /* WeaponDefense */
+     , (33121,  29,    1.15) /* WeaponDefense */
      , (33121,  39,    1.25) /* DefaultScale */
      , (33121,  62,       1) /* WeaponOffense */
-     , (33121,  63, 2.70000004768372) /* DamageMod */
+     , (33121,  63,     2.7) /* DamageMod */
      , (33121, 136,       1) /* CriticalMultiplier */
      , (33121, 147,       1) /* CriticalFrequency */
      , (33121, 157,       1) /* ResistanceModifier */;

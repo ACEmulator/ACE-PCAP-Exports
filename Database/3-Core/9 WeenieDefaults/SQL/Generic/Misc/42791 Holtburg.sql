@@ -11,11 +11,7 @@ VALUES (42791,   1,        128) /* ItemType - Misc */
      , (42791,  93,         28) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42791,   1, True ) /* Stuck */
-     , (42791,  11, True ) /* IgnoreCollisions */
-     , (42791,  12, True ) /* ReportCollisions */
-     , (42791,  13, True ) /* Ethereal */
-     , (42791,  19, True ) /* Attackable */;
+VALUES (42791,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42791,   1, 'Holtburg') /* Name */

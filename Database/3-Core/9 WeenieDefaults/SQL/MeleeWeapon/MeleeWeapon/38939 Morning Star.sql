@@ -10,19 +10,14 @@ VALUES (38939,   1,          1) /* ItemType - MeleeWeapon */
      , (38939,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (38939,  16,          1) /* ItemUseable - No */
      , (38939,  51,          1) /* CombatUse - Melee */
-     , (38939,  65,          1) /* Placement - RightHandCombat */
-     , (38939,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38939,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38939, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38939,   1, False) /* Stuck */
-     , (38939,  11, True ) /* IgnoreCollisions */
-     , (38939,  13, True ) /* Ethereal */
-     , (38939,  14, True ) /* GravityStatus */
-     , (38939,  19, True ) /* Attackable */
-     , (38939,  22, True ) /* Inscribable */;
+VALUES (38939,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38939,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (38939,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38939,   1, 'Morning Star') /* Name */;

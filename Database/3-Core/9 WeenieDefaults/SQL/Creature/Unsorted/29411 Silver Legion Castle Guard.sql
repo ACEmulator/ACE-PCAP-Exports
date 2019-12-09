@@ -13,14 +13,10 @@ VALUES (29411,   1,         16) /* ItemType - Creature */
      , (29411, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29411,   1, True ) /* Stuck */
-     , (29411,  12, True ) /* ReportCollisions */
-     , (29411,  13, False) /* Ethereal */
-     , (29411,  14, True ) /* GravityStatus */
-     , (29411,  19, True ) /* Attackable */;
+VALUES (29411,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29411,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (29411,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29411,   1, 'Silver Legion Castle Guard') /* Name */

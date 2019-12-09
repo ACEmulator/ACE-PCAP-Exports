@@ -9,20 +9,15 @@ VALUES (29480,   1,      16384) /* ItemType - Key */
      , (29480,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (29480,  19,          0) /* Value */
      , (29480,  33,          1) /* Bonded - Bonded */
-     , (29480,  65,        101) /* Placement - Resting */
      , (29480,  91,          1) /* MaxStructure */
      , (29480,  92,          1) /* Structure */
      , (29480,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29480,  94,        640) /* TargetType - LockableMagicTarget */
-     , (29480, 114,          1) /* Attuned - Attuned */;
+     , (29480, 114,          1) /* Attuned - Attuned */
+     , (29480, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29480,   1, False) /* Stuck */
-     , (29480,  11, True ) /* IgnoreCollisions */
-     , (29480,  13, True ) /* Ethereal */
-     , (29480,  14, True ) /* GravityStatus */
-     , (29480,  19, True ) /* Attackable */
-     , (29480,  22, True ) /* Inscribable */;
+VALUES (29480,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29480,   1, 'Prison Warden''s Key') /* Name */

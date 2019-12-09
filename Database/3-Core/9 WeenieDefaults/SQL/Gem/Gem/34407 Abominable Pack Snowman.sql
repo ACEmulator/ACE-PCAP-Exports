@@ -14,15 +14,10 @@ VALUES (34407,   1,       2048) /* ItemType - Gem */
      , (34407, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34407,   1, False) /* Stuck */
-     , (34407,  11, True ) /* IgnoreCollisions */
-     , (34407,  13, True ) /* Ethereal */
-     , (34407,  14, True ) /* GravityStatus */
-     , (34407,  19, True ) /* Attackable */
-     , (34407,  22, True ) /* Inscribable */;
+VALUES (34407,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34407,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (34407,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34407,   1, 'Abominable Pack Snowman') /* Name */

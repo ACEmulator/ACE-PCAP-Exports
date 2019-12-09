@@ -8,16 +8,11 @@ VALUES (19478,   1,        128) /* ItemType - Misc */
      , (19478,   5,         10) /* EncumbranceVal */
      , (19478,  16,          1) /* ItemUseable - No */
      , (19478,  19,          0) /* Value */
-     , (19478,  65,        101) /* Placement - Resting */
-     , (19478,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (19478,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19478, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19478,   1, False) /* Stuck */
-     , (19478,  11, True ) /* IgnoreCollisions */
-     , (19478,  13, True ) /* Ethereal */
-     , (19478,  14, True ) /* GravityStatus */
-     , (19478,  19, True ) /* Attackable */
-     , (19478,  22, True ) /* Inscribable */;
+VALUES (19478,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19478,   1, 'Sharp Tusker Slave Tusk') /* Name */

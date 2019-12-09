@@ -12,19 +12,14 @@ VALUES (6846,   1,          1) /* ItemType - MeleeWeapon */
      , (6846,  18,         64) /* UiEffects - Lightning */
      , (6846,  19,        600) /* Value */
      , (6846,  51,          1) /* CombatUse - Melee */
-     , (6846,  65,          1) /* Placement - RightHandCombat */
-     , (6846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (6846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6846, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6846,   1, False) /* Stuck */
-     , (6846,  11, True ) /* IgnoreCollisions */
-     , (6846,  13, True ) /* Ethereal */
-     , (6846,  14, True ) /* GravityStatus */
-     , (6846,  19, True ) /* Attackable */
-     , (6846,  22, True ) /* Inscribable */;
+VALUES (6846,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6846,  39, 1.20000004768372) /* DefaultScale */;
+VALUES (6846,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6846,   1, 'Lightning Long Sword') /* Name */;

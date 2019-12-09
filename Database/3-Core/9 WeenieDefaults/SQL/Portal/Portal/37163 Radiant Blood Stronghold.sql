@@ -13,20 +13,14 @@ VALUES (37163,   1,      65536) /* ItemType - Portal */
      , (37163, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37163,   1, True ) /* Stuck */
-     , (37163,  12, True ) /* ReportCollisions */
-     , (37163,  13, True ) /* Ethereal */
-     , (37163,  14, True ) /* GravityStatus */
-     , (37163,  15, True ) /* LightsStatus */
-     , (37163,  19, True ) /* Attackable */;
+VALUES (37163,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37163,  54, -0.100000001490116) /* UseRadius */;
+VALUES (37163,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37163,   1, 'Radiant Blood Stronghold') /* Name */
      , (37163,  16, 'You must be a member of the Society of the Radiant Blood to enter this Portal.') /* LongDesc */
-     , (37163,  38, 'Radiant Blood Stronghold') /* AppraisalPortalDestination */
      , (37163, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

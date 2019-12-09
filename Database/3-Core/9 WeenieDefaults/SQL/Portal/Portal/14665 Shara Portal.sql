@@ -12,19 +12,13 @@ VALUES (14665,   1,      65536) /* ItemType - Portal */
      , (14665, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14665,   1, True ) /* Stuck */
-     , (14665,  12, True ) /* ReportCollisions */
-     , (14665,  13, True ) /* Ethereal */
-     , (14665,  14, True ) /* GravityStatus */
-     , (14665,  15, True ) /* LightsStatus */
-     , (14665,  19, True ) /* Attackable */;
+VALUES (14665,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14665,  54, -0.100000001490116) /* UseRadius */;
+VALUES (14665,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14665,   1, 'Shara Portal') /* Name */
-     , (14665,  38, 'Shara Portal (54.4S, 43.1E).') /* AppraisalPortalDestination */
      , (14665, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

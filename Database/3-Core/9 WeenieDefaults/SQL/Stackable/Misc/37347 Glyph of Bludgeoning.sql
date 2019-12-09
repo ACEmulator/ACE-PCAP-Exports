@@ -12,15 +12,8 @@ VALUES (37347,   1,        128) /* ItemType - Misc */
      , (37347,  15,      30000) /* StackUnitValue */
      , (37347,  16,          1) /* ItemUseable - No */
      , (37347,  19,      30000) /* Value */
-     , (37347,  65,        101) /* Placement - Resting */
-     , (37347,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37347,   1, False) /* Stuck */
-     , (37347,  11, True ) /* IgnoreCollisions */
-     , (37347,  13, True ) /* Ethereal */
-     , (37347,  14, True ) /* GravityStatus */
-     , (37347,  19, True ) /* Attackable */;
+     , (37347,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37347, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37347,   1, 'Glyph of Bludgeoning') /* Name */

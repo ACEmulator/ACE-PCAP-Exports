@@ -12,17 +12,12 @@ VALUES (4765,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4765,  15,          4) /* StackUnitValue */
      , (4765,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4765,  19,          4) /* Value */
-     , (4765,  65,        101) /* Placement - Resting */
      , (4765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4765,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
+     , (4765,  94,    4194336) /* TargetType - Food, CraftCookingBase */
+     , (4765, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4765,   1, False) /* Stuck */
-     , (4765,  11, True ) /* IgnoreCollisions */
-     , (4765,  13, True ) /* Ethereal */
-     , (4765,  14, True ) /* GravityStatus */
-     , (4765,  19, True ) /* Attackable */
-     , (4765,  69, False) /* IsSellable */;
+VALUES (4765,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4765,   1, 'Raw Noodles') /* Name */

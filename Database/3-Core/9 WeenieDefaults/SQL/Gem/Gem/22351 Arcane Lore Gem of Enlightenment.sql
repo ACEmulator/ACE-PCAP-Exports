@@ -9,17 +9,12 @@ VALUES (22351,   1,       2048) /* ItemType - Gem */
      , (22351,  16,          8) /* ItemUseable - Contained */
      , (22351,  19,          0) /* Value */
      , (22351,  33,          1) /* Bonded - Bonded */
-     , (22351,  65,        101) /* Placement - Resting */
      , (22351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22351, 114,          1) /* Attuned - Attuned */;
+     , (22351, 114,          1) /* Attuned - Attuned */
+     , (22351, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22351,   1, False) /* Stuck */
-     , (22351,  11, True ) /* IgnoreCollisions */
-     , (22351,  13, True ) /* Ethereal */
-     , (22351,  14, True ) /* GravityStatus */
-     , (22351,  19, True ) /* Attackable */
-     , (22351,  22, True ) /* Inscribable */;
+VALUES (22351,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22351,   1, 'Arcane Lore Gem of Enlightenment') /* Name */

@@ -15,15 +15,11 @@ VALUES (19543,   1,         16) /* ItemType - Creature */
      , (19543, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19543,   1, True ) /* Stuck */
-     , (19543,  12, True ) /* ReportCollisions */
-     , (19543,  13, False) /* Ethereal */
-     , (19543,  14, True ) /* GravityStatus */
-     , (19543,  19, True ) /* Attackable */;
+VALUES (19543,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19543,  39,    1.75) /* DefaultScale */
-     , (19543,  76, 0.300000011920929) /* Translucency */;
+     , (19543,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19543,   1, 'Diamond Golem Suzerain') /* Name */

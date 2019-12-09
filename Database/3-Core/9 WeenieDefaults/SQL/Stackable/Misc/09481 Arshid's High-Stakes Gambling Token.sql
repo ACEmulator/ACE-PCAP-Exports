@@ -13,18 +13,11 @@ VALUES (9481,   1,        128) /* ItemType - Misc */
      , (9481,  16,          1) /* ItemUseable - No */
      , (9481,  19,      10000) /* Value */
      , (9481,  33,          1) /* Bonded - Bonded */
-     , (9481,  65,        101) /* Placement - Resting */
-     , (9481,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9481,   1, False) /* Stuck */
-     , (9481,  11, True ) /* IgnoreCollisions */
-     , (9481,  13, True ) /* Ethereal */
-     , (9481,  14, True ) /* GravityStatus */
-     , (9481,  19, True ) /* Attackable */;
+     , (9481,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9481, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9481,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (9481,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9481,   1, 'Arshid''s High-Stakes Gambling Token') /* Name */

@@ -11,7 +11,6 @@ VALUES (9601,   1,      32768) /* ItemType - Caster */
      , (9601,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (9601,  18,          1) /* UiEffects - Magical */
      , (9601,  19,       2000) /* Value */
-     , (9601,  65,          1) /* Placement - RightHandCombat */
      , (9601,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (9601,  94,         16) /* TargetType - Creature */
      , (9601, 106,        400) /* ItemSpellcraft */
@@ -21,22 +20,17 @@ VALUES (9601,   1,      32768) /* ItemType - Caster */
      , (9601, 110,          0) /* ItemAllegianceRankLimit */
      , (9601, 115,        200) /* ItemSkillLevelLimit */
      , (9601, 151,          6) /* HookType - Wall, Ceiling */
-     , (9601, 176,         16) /* AppraisalItemSkill */;
+     , (9601, 176,         16) /* AppraisalItemSkill */
+     , (9601, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9601,   1, False) /* Stuck */
-     , (9601,  11, True ) /* IgnoreCollisions */
-     , (9601,  13, True ) /* Ethereal */
-     , (9601,  14, True ) /* GravityStatus */
-     , (9601,  15, True ) /* LightsStatus */
-     , (9601,  19, True ) /* Attackable */
-     , (9601,  22, True ) /* Inscribable */;
+VALUES (9601,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9601,   5,  -0.025) /* ManaRate */
+VALUES (9601,   5,   -0.02) /* ManaRate */
      , (9601,  29,       1) /* WeaponDefense */
-     , (9601,  39, 0.800000011920929) /* DefaultScale */
-     , (9601, 144, 1.29230558764018E-314) /* ManaConversionMod */;
+     , (9601,  39,     0.8) /* DefaultScale */
+     , (9601, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9601,   1, 'Eye of the Quiddity') /* Name */

@@ -12,19 +12,13 @@ VALUES (12549,   1,      65536) /* ItemType - Portal */
      , (12549, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12549,   1, True ) /* Stuck */
-     , (12549,  12, True ) /* ReportCollisions */
-     , (12549,  13, True ) /* Ethereal */
-     , (12549,  14, True ) /* GravityStatus */
-     , (12549,  15, True ) /* LightsStatus */
-     , (12549,  19, True ) /* Attackable */;
+VALUES (12549,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12549,  54, -0.100000001490116) /* UseRadius */;
+VALUES (12549,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12549,   1, 'Southeast Arwic Settlement Portal') /* Name */
-     , (12549,  38, 'Southeast Arwic Settlement Portal (28.7N, 59.7E).') /* AppraisalPortalDestination */
      , (12549, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -11,12 +11,7 @@ VALUES (28897,   1,        128) /* ItemType - Misc */
      , (28897, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28897,   1, False) /* Stuck */
-     , (28897,  11, True ) /* IgnoreCollisions */
-     , (28897,  13, True ) /* Ethereal */
-     , (28897,  14, True ) /* GravityStatus */
-     , (28897,  19, True ) /* Attackable */
-     , (28897,  22, True ) /* Inscribable */;
+VALUES (28897,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28897,   1, 'Scarecrow Body with one arm') /* Name */;

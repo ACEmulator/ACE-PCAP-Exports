@@ -8,17 +8,12 @@ VALUES (25773,   1,        128) /* ItemType - Misc */
      , (25773,   5,        300) /* EncumbranceVal */
      , (25773,  16,          1) /* ItemUseable - No */
      , (25773,  19,       6000) /* Value */
-     , (25773,  65,        101) /* Placement - Resting */
-     , (25773,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (25773, 151,          1) /* HookType - Floor */;
+     , (25773,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (25773, 151,          1) /* HookType - Floor */
+     , (25773, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25773,   1, False) /* Stuck */
-     , (25773,  11, True ) /* IgnoreCollisions */
-     , (25773,  13, True ) /* Ethereal */
-     , (25773,  14, True ) /* GravityStatus */
-     , (25773,  19, True ) /* Attackable */
-     , (25773,  22, True ) /* Inscribable */;
+VALUES (25773,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25773,   1, 'Set Dinner Table') /* Name */

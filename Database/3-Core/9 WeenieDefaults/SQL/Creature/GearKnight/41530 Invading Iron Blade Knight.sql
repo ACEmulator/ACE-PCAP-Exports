@@ -16,14 +16,10 @@ VALUES (41530,   1,         16) /* ItemType - Creature */
      , (41530, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41530,   1, True ) /* Stuck */
-     , (41530,  12, True ) /* ReportCollisions */
-     , (41530,  13, False) /* Ethereal */
-     , (41530,  14, True ) /* GravityStatus */
-     , (41530,  19, True ) /* Attackable */;
+VALUES (41530,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41530,  39, 1.60000002384186) /* DefaultScale */;
+VALUES (41530,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41530,   1, 'Invading Iron Blade Knight') /* Name */

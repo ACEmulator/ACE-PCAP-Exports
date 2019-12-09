@@ -30,26 +30,20 @@ VALUES (35377,   1,          1) /* ItemType - MeleeWeapon */
      , (35377, 166,         14) /* SlayerCreatureType - Undead */
      , (35377, 263,         16) /* ResistanceModifierType */
      , (35377, 353,          2) /* WeaponType - Sword */
-     , (35377, 8030,          0);
+     , (35377, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35377,   1, False) /* Stuck */
-     , (35377,  11, True ) /* IgnoreCollisions */
-     , (35377,  13, True ) /* Ethereal */
-     , (35377,  14, True ) /* GravityStatus */
-     , (35377,  15, True ) /* LightsStatus */
-     , (35377,  19, True ) /* Attackable */
-     , (35377,  22, True ) /* Inscribable */
+VALUES (35377,  22, True ) /* Inscribable */
      , (35377,  69, False) /* IsSellable */
      , (35377,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35377,   5, -0.0329999998211861) /* ManaRate */
+VALUES (35377,   5,   -0.03) /* ManaRate */
      , (35377,  21,       0) /* WeaponLength */
-     , (35377,  22, 0.400000005960464) /* DamageVariance */
+     , (35377,  22,     0.4) /* DamageVariance */
      , (35377,  26,       0) /* MaximumVelocity */
-     , (35377,  29, 1.10000002384186) /* WeaponDefense */
-     , (35377,  62, 1.20000004768372) /* WeaponOffense */
+     , (35377,  29,     1.1) /* WeaponDefense */
+     , (35377,  62,     1.2) /* WeaponOffense */
      , (35377,  63,       1) /* DamageMod */
      , (35377, 147,       1) /* CriticalFrequency */
      , (35377, 157,       1) /* ResistanceModifier */;

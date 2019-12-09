@@ -13,12 +13,7 @@ VALUES (33717,   1,        128) /* ItemType - Misc */
      , (33717, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33717,   1, False) /* Stuck */
-     , (33717,  11, True ) /* IgnoreCollisions */
-     , (33717,  13, True ) /* Ethereal */
-     , (33717,  14, True ) /* GravityStatus */
-     , (33717,  19, True ) /* Attackable */
-     , (33717,  22, True ) /* Inscribable */;
+VALUES (33717,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33717,   1, 'Black Spear of Ruschk Protection') /* Name */;

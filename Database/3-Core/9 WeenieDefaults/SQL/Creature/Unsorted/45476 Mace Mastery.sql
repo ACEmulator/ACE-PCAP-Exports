@@ -40,19 +40,13 @@ VALUES (45476,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45476,   1, True ) /* Stuck */
-     , (45476,  11, True ) /* IgnoreCollisions */
-     , (45476,  12, True ) /* ReportCollisions */
-     , (45476,  13, False) /* Ethereal */
-     , (45476,  14, True ) /* GravityStatus */
-     , (45476,  19, False) /* Attackable */
-     , (45476,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45476,  42, True ) /* AllowEdgeSlide */;
+     , (45476,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45476,  54,       3) /* UseRadius */
      , (45476, 8010,       0) /* PCAPRecordedVelocityX */
      , (45476, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45476, 8012, -45.3149261474609) /* PCAPRecordedVelocityZ */;
+     , (45476, 8012,  -45.31) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45476,   1, 'Mace Mastery') /* Name */

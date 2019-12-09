@@ -8,19 +8,14 @@ VALUES (2473,   1,      16384) /* ItemType - Key */
      , (2473,   5,         50) /* EncumbranceVal */
      , (2473,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (2473,  19,         50) /* Value */
-     , (2473,  65,        101) /* Placement - Resting */
      , (2473,  91,          3) /* MaxStructure */
      , (2473,  92,          3) /* Structure */
      , (2473,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2473,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (2473,  94,        640) /* TargetType - LockableMagicTarget */
+     , (2473, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2473,   1, False) /* Stuck */
-     , (2473,  11, True ) /* IgnoreCollisions */
-     , (2473,  13, True ) /* Ethereal */
-     , (2473,  14, True ) /* GravityStatus */
-     , (2473,  19, True ) /* Attackable */
-     , (2473,  22, True ) /* Inscribable */;
+VALUES (2473,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2473,   1, 'Simple Tumerok Key') /* Name */;

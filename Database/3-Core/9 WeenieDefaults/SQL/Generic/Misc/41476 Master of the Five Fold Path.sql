@@ -9,20 +9,15 @@ VALUES (41476,   1,        128) /* ItemType - Misc */
      , (41476,  16,          8) /* ItemUseable - Contained */
      , (41476,  19,          0) /* Value */
      , (41476,  33,          1) /* Bonded - Bonded */
-     , (41476,  65,        101) /* Placement - Resting */
      , (41476,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41476, 114,          1) /* Attuned - Attuned */;
+     , (41476, 114,          1) /* Attuned - Attuned */
+     , (41476, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41476,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41476,   1, False) /* Stuck */
-     , (41476,  11, True ) /* IgnoreCollisions */
-     , (41476,  13, True ) /* Ethereal */
-     , (41476,  14, True ) /* GravityStatus */
-     , (41476,  19, True ) /* Attackable */
-     , (41476,  22, True ) /* Inscribable */;
+VALUES (41476,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41476,   1, 'Master of the Five Fold Path') /* Name */

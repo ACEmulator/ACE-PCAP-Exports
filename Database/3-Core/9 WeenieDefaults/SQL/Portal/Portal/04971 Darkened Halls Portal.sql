@@ -13,19 +13,13 @@ VALUES (4971,   1,      65536) /* ItemType - Portal */
      , (4971, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4971,   1, True ) /* Stuck */
-     , (4971,  12, True ) /* ReportCollisions */
-     , (4971,  13, True ) /* Ethereal */
-     , (4971,  14, True ) /* GravityStatus */
-     , (4971,  15, True ) /* LightsStatus */
-     , (4971,  19, True ) /* Attackable */;
+VALUES (4971,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4971,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4971,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4971,   1, 'Darkened Halls Portal') /* Name */
-     , (4971,  38, 'Darkened Halls Portal') /* AppraisalPortalDestination */
      , (4971, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

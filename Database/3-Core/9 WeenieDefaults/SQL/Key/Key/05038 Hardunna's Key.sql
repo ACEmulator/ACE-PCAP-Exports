@@ -8,19 +8,14 @@ VALUES (5038,   1,      16384) /* ItemType - Key */
      , (5038,   5,         50) /* EncumbranceVal */
      , (5038,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (5038,  19,          0) /* Value */
-     , (5038,  65,        101) /* Placement - Resting */
      , (5038,  91,          3) /* MaxStructure */
      , (5038,  92,          3) /* Structure */
      , (5038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5038,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (5038,  94,        640) /* TargetType - LockableMagicTarget */
+     , (5038, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5038,   1, False) /* Stuck */
-     , (5038,  11, True ) /* IgnoreCollisions */
-     , (5038,  13, True ) /* Ethereal */
-     , (5038,  14, True ) /* GravityStatus */
-     , (5038,  19, True ) /* Attackable */
-     , (5038,  22, True ) /* Inscribable */;
+VALUES (5038,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5038,   1, 'Hardunna''s Key') /* Name */

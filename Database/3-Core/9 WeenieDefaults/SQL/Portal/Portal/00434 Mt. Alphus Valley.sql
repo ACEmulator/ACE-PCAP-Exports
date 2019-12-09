@@ -12,19 +12,13 @@ VALUES (434,   1,      65536) /* ItemType - Portal */
      , (434, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (434,   1, True ) /* Stuck */
-     , (434,  12, True ) /* ReportCollisions */
-     , (434,  13, True ) /* Ethereal */
-     , (434,  14, True ) /* GravityStatus */
-     , (434,  15, True ) /* LightsStatus */
-     , (434,  19, True ) /* Attackable */;
+VALUES (434,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (434,  54, -0.100000001490116) /* UseRadius */;
+VALUES (434,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (434,   1, 'Mt. Alphus Valley') /* Name */
-     , (434,  38, 'Mt. Alphus Valley (20.3N, 15.8E).') /* AppraisalPortalDestination */
      , (434, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

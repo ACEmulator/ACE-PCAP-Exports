@@ -12,18 +12,13 @@ VALUES (14868,   1,        128) /* ItemType - Misc */
      , (14868,  15,      10000) /* StackUnitValue */
      , (14868,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14868,  19,      10000) /* Value */
-     , (14868,  65,        101) /* Placement - Resting */
      , (14868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14868,  94,          3) /* TargetType - MeleeWeapon, Armor */
-     , (14868, 151,          9) /* HookType - Floor, Yard */;
+     , (14868, 151,          9) /* HookType - Floor, Yard */
+     , (14868, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14868,   1, False) /* Stuck */
-     , (14868,  11, True ) /* IgnoreCollisions */
-     , (14868,  13, True ) /* Ethereal */
-     , (14868,  14, True ) /* GravityStatus */
-     , (14868,  19, True ) /* Attackable */
-     , (14868,  22, True ) /* Inscribable */;
+VALUES (14868,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14868,   1, 'Red Shadow Dye') /* Name */;

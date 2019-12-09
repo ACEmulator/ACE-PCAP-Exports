@@ -11,12 +11,7 @@ VALUES (13178,   1,        128) /* ItemType - Misc */
      , (13178,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13178,   1, True ) /* Stuck */
-     , (13178,  11, True ) /* IgnoreCollisions */
-     , (13178,  12, True ) /* ReportCollisions */
-     , (13178,  13, False) /* Ethereal */
-     , (13178,  14, True ) /* GravityStatus */
-     , (13178,  19, True ) /* Attackable */;
+VALUES (13178,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13178,   1, 'Seaview Ridge Cottages') /* Name */;

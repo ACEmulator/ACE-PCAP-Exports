@@ -12,15 +12,8 @@ VALUES (740,   1,       4096) /* ItemType - SpellComponents */
      , (740,  15,          5) /* StackUnitValue */
      , (740,  16,          1) /* ItemUseable - No */
      , (740,  19,          5) /* Value */
-     , (740,  65,        101) /* Placement - Resting */
-     , (740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (740,   1, False) /* Stuck */
-     , (740,  11, True ) /* IgnoreCollisions */
-     , (740,  13, True ) /* Ethereal */
-     , (740,  14, True ) /* GravityStatus */
-     , (740,  19, True ) /* Attackable */;
+     , (740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (740, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (740,   1, 'Ashwood Talisman') /* Name */;

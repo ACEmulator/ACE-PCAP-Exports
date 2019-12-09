@@ -13,18 +13,11 @@ VALUES (8327,   1,       4096) /* ItemType - SpellComponents */
      , (8327,  16,          1) /* ItemUseable - No */
      , (8327,  19,      25000) /* Value */
      , (8327,  33,          1) /* Bonded - Bonded */
-     , (8327,  65,        101) /* Placement - Resting */
-     , (8327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8327,   1, False) /* Stuck */
-     , (8327,  11, True ) /* IgnoreCollisions */
-     , (8327,  13, True ) /* Ethereal */
-     , (8327,  14, True ) /* GravityStatus */
-     , (8327,  19, True ) /* Attackable */;
+     , (8327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8327, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8327,  39, 0.330000013113022) /* DefaultScale */;
+VALUES (8327,  39,    0.33) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8327,   1, 'Gold Pea') /* Name */

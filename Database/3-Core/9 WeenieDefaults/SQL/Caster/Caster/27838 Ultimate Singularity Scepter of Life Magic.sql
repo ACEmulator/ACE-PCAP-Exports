@@ -11,7 +11,6 @@ VALUES (27838,   1,      32768) /* ItemType - Caster */
      , (27838,  18,          1) /* UiEffects - Magical */
      , (27838,  19,          0) /* Value */
      , (27838,  33,          1) /* Bonded - Bonded */
-     , (27838,  65,        101) /* Placement - Resting */
      , (27838,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27838,  94,         16) /* TargetType - Creature */
      , (27838, 106,        200) /* ItemSpellcraft */
@@ -23,19 +22,15 @@ VALUES (27838,   1,      32768) /* ItemType - Caster */
      , (27838, 158,          2) /* WieldRequirements - RawSkill */
      , (27838, 159,         33) /* WieldSkillType - LifeMagic */
      , (27838, 160,        290) /* WieldDifficulty */
-     , (27838, 166,         19) /* SlayerCreatureType - Virindi */;
+     , (27838, 166,         19) /* SlayerCreatureType - Virindi */
+     , (27838, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27838,   1, False) /* Stuck */
-     , (27838,  11, True ) /* IgnoreCollisions */
-     , (27838,  13, True ) /* Ethereal */
-     , (27838,  14, True ) /* GravityStatus */
-     , (27838,  19, True ) /* Attackable */
-     , (27838,  22, True ) /* Inscribable */
+VALUES (27838,  22, True ) /* Inscribable */
      , (27838,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27838,   5,  -0.033) /* ManaRate */
+VALUES (27838,   5,   -0.03) /* ManaRate */
      , (27838,  29,    1.08) /* WeaponDefense */
      , (27838, 144,    0.08) /* ManaConversionMod */
      , (27838, 147,       1) /* CriticalFrequency */;

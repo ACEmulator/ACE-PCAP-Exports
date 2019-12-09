@@ -13,21 +13,15 @@ VALUES (42171,   1,      65536) /* ItemType - Portal */
      , (42171, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42171,   1, True ) /* Stuck */
-     , (42171,  12, True ) /* ReportCollisions */
-     , (42171,  13, True ) /* Ethereal */
-     , (42171,  14, True ) /* GravityStatus */
-     , (42171,  15, True ) /* LightsStatus */
-     , (42171,  19, True ) /* Attackable */;
+VALUES (42171,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42171,  39, 0.800000011920929) /* DefaultScale */
-     , (42171,  54, -0.100000001490116) /* UseRadius */;
+VALUES (42171,  39,     0.8) /* DefaultScale */
+     , (42171,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42171,   1, 'Halls of Helm') /* Name */
      , (42171,  16, 'A portal leading to Halls of Helm where the Superior Helm and Fiery Shield may be found.') /* LongDesc */
-     , (42171,  38, 'Halls of Helm (18.7N, 1.8E).') /* AppraisalPortalDestination */
      , (42171, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

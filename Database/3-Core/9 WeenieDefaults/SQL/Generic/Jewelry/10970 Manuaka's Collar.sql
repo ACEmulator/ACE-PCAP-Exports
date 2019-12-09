@@ -10,7 +10,6 @@ VALUES (10970,   1,          8) /* ItemType - Jewelry */
      , (10970,  16,          1) /* ItemUseable - No */
      , (10970,  18,          1) /* UiEffects - Magical */
      , (10970,  19,       5800) /* Value */
-     , (10970,  65,        101) /* Placement - Resting */
      , (10970,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10970, 106,        225) /* ItemSpellcraft */
      , (10970, 107,        918) /* ItemCurMana */
@@ -18,19 +17,15 @@ VALUES (10970,   1,          8) /* ItemType - Jewelry */
      , (10970, 109,          0) /* ItemDifficulty */
      , (10970, 110,          1) /* ItemAllegianceRankLimit */
      , (10970, 115,         87) /* ItemSkillLevelLimit */
-     , (10970, 176,         36) /* AppraisalItemSkill */;
+     , (10970, 176,         36) /* AppraisalItemSkill */
+     , (10970, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10970,   1, False) /* Stuck */
-     , (10970,  11, True ) /* IgnoreCollisions */
-     , (10970,  13, True ) /* Ethereal */
-     , (10970,  14, True ) /* GravityStatus */
-     , (10970,  19, True ) /* Attackable */
-     , (10970,  22, True ) /* Inscribable */;
+VALUES (10970,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10970,   5,    -0.1) /* ManaRate */
-     , (10970,  39, 0.800000011920929) /* DefaultScale */;
+     , (10970,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10970,   1, 'Manuaka''s Collar') /* Name */

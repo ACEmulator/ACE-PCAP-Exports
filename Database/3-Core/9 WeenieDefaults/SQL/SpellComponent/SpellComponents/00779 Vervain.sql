@@ -12,18 +12,11 @@ VALUES (779,   1,       4096) /* ItemType - SpellComponents */
      , (779,  15,         10) /* StackUnitValue */
      , (779,  16,          1) /* ItemUseable - No */
      , (779,  19,         10) /* Value */
-     , (779,  65,        101) /* Placement - Resting */
-     , (779,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (779,   1, False) /* Stuck */
-     , (779,  11, True ) /* IgnoreCollisions */
-     , (779,  13, True ) /* Ethereal */
-     , (779,  14, True ) /* GravityStatus */
-     , (779,  19, True ) /* Attackable */;
+     , (779,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (779, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (779,  39, 0.400000005960464) /* DefaultScale */;
+VALUES (779,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (779,   1, 'Vervain') /* Name */

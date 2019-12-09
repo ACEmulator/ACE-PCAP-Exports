@@ -13,17 +13,12 @@ VALUES (35107,   1,        128) /* ItemType - Misc */
      , (35107,  16,          1) /* ItemUseable - No */
      , (35107,  19,          0) /* Value */
      , (35107,  33,          1) /* Bonded - Bonded */
-     , (35107,  65,        101) /* Placement - Resting */
      , (35107,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35107, 114,          1) /* Attuned - Attuned */;
+     , (35107, 114,          1) /* Attuned - Attuned */
+     , (35107, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35107,   1, False) /* Stuck */
-     , (35107,  11, True ) /* IgnoreCollisions */
-     , (35107,  13, True ) /* Ethereal */
-     , (35107,  14, True ) /* GravityStatus */
-     , (35107,  19, True ) /* Attackable */
-     , (35107,  69, False) /* IsSellable */;
+VALUES (35107,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35107,   1, 'Exhumed Bones') /* Name */

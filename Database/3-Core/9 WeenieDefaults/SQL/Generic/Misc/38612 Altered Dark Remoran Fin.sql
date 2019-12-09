@@ -10,17 +10,12 @@ VALUES (38612,   1,        128) /* ItemType - Misc */
      , (38612,  18,          2) /* UiEffects - Poisoned */
      , (38612,  19,          0) /* Value */
      , (38612,  33,          1) /* Bonded - Bonded */
-     , (38612,  65,        101) /* Placement - Resting */
      , (38612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38612, 114,          1) /* Attuned - Attuned */;
+     , (38612, 114,          1) /* Attuned - Attuned */
+     , (38612, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38612,   1, False) /* Stuck */
-     , (38612,  11, True ) /* IgnoreCollisions */
-     , (38612,  13, True ) /* Ethereal */
-     , (38612,  14, True ) /* GravityStatus */
-     , (38612,  19, True ) /* Attackable */
-     , (38612,  22, True ) /* Inscribable */;
+VALUES (38612,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38612,   1, 'Altered Dark Remoran Fin') /* Name */

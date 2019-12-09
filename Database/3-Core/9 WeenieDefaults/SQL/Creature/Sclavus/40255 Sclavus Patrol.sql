@@ -15,14 +15,10 @@ VALUES (40255,   1,         16) /* ItemType - Creature */
      , (40255, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40255,   1, True ) /* Stuck */
-     , (40255,  12, True ) /* ReportCollisions */
-     , (40255,  13, False) /* Ethereal */
-     , (40255,  14, True ) /* GravityStatus */
-     , (40255,  19, True ) /* Attackable */;
+VALUES (40255,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40255,  39, 1.39999997615814) /* DefaultScale */;
+VALUES (40255,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40255,   1, 'Sclavus Patrol') /* Name */

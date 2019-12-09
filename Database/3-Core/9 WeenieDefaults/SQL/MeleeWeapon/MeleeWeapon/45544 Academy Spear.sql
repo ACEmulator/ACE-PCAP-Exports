@@ -11,17 +11,12 @@ VALUES (45544,   1,          1) /* ItemType - MeleeWeapon */
      , (45544,  16,          1) /* ItemUseable - No */
      , (45544,  19,        200) /* Value */
      , (45544,  51,          1) /* CombatUse - Melee */
-     , (45544,  65,          1) /* Placement - RightHandCombat */
      , (45544,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45544, 151,          2) /* HookType - Wall */;
+     , (45544, 151,          2) /* HookType - Wall */
+     , (45544, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45544,   1, False) /* Stuck */
-     , (45544,  11, True ) /* IgnoreCollisions */
-     , (45544,  13, True ) /* Ethereal */
-     , (45544,  14, True ) /* GravityStatus */
-     , (45544,  19, True ) /* Attackable */
-     , (45544,  22, True ) /* Inscribable */;
+VALUES (45544,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45544,   1, 'Academy Spear') /* Name */;

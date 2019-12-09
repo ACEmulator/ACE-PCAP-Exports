@@ -16,11 +16,7 @@ VALUES (27097,   1,         16) /* ItemType - Creature */
      , (27097, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27097,   1, True ) /* Stuck */
-     , (27097,  12, True ) /* ReportCollisions */
-     , (27097,  13, False) /* Ethereal */
-     , (27097,  14, True ) /* GravityStatus */
-     , (27097,  19, True ) /* Attackable */;
+VALUES (27097,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27097,   1, 'Burun Ruuk Adept') /* Name */
