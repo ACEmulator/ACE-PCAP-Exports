@@ -19,9 +19,9 @@ VALUES (51806,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51806,  39,     1.3) /* DefaultScale */
-     , (51806, 8010,    0.42) /* PCAPRecordedVelocityX */
-     , (51806, 8011,    -0.1) /* PCAPRecordedVelocityY */
-     , (51806, 8012,   -3.27) /* PCAPRecordedVelocityZ */;
+     , (51806, 8010,   0.417) /* PCAPRecordedVelocityX */
+     , (51806, 8011,  -0.097) /* PCAPRecordedVelocityY */
+     , (51806, 8012,  -3.272) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51806,   1, 'Empowered Despair Wisp') /* Name */

@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19306,  39,     2.3) /* DefaultScale */
      , (19306, 8010,       0) /* PCAPRecordedVelocityX */
      , (19306, 8011,       0) /* PCAPRecordedVelocityY */
-     , (19306, 8012,   -4.49) /* PCAPRecordedVelocityZ */;
+     , (19306, 8012,  -4.488) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19306,   1, 'Bronze Statue of a Sclavus') /* Name */

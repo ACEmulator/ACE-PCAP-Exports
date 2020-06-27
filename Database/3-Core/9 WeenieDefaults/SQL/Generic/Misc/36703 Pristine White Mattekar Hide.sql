@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36703,  39,     0.9) /* DefaultScale */
      , (36703, 8010,       0) /* PCAPRecordedVelocityX */
      , (36703, 8011,       0) /* PCAPRecordedVelocityY */
-     , (36703, 8012,   -0.01) /* PCAPRecordedVelocityZ */;
+     , (36703, 8012,  -0.008) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36703,   1, 'Pristine White Mattekar Hide') /* Name */

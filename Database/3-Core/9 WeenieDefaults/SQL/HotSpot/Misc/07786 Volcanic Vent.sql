@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7786,  39,     0.9) /* DefaultScale */
      , (7786, 8010,       0) /* PCAPRecordedVelocityX */
      , (7786, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7786, 8012,   -0.34) /* PCAPRecordedVelocityZ */;
+     , (7786, 8012,  -0.336) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7786,   1, 'Volcanic Vent') /* Name */;

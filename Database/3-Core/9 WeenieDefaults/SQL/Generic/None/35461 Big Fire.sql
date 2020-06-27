@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35461,  77,       1) /* PhysicsScriptIntensity */
      , (35461,  78,       1) /* Friction */
      , (35461,  79,       0) /* Elasticity */
-     , (35461, 8010,   12.35) /* PCAPRecordedVelocityX */
-     , (35461, 8011,   -3.49) /* PCAPRecordedVelocityY */
-     , (35461, 8012,   -1.17) /* PCAPRecordedVelocityZ */;
+     , (35461, 8010,  12.355) /* PCAPRecordedVelocityX */
+     , (35461, 8011,  -3.486) /* PCAPRecordedVelocityY */
+     , (35461, 8012,  -1.166) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35461,   1, 'Big Fire') /* Name */;

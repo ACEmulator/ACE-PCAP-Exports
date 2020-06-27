@@ -32,7 +32,7 @@ VALUES (315,   1,        256) /* ItemType - MissileWeapon */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (315,  21,       0) /* WeaponLength */
      , (315,  22,    0.25) /* DamageVariance */
-     , (315,  26,   17.86) /* MaximumVelocity */
+     , (315,  26,  17.856) /* MaximumVelocity */
      , (315,  29,       1) /* WeaponDefense */
      , (315,  62,       1) /* WeaponOffense */
      , (315,  63,       1) /* DamageMod */

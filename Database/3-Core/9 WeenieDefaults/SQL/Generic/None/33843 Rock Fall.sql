@@ -17,7 +17,7 @@ VALUES (33843,  76,    0.25) /* Translucency */
      , (33843,  78,       1) /* Friction */
      , (33843,  79,       0) /* Elasticity */
      , (33843, 8010,    -0.2) /* PCAPRecordedVelocityX */
-     , (33843, 8011,       0) /* PCAPRecordedVelocityY */
+     , (33843, 8011,  -0.004) /* PCAPRecordedVelocityY */
      , (33843, 8012,       0) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

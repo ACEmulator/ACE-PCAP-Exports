@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25957,  54,       1) /* UseRadius */
      , (25957, 8010,       0) /* PCAPRecordedVelocityX */
      , (25957, 8011,       0) /* PCAPRecordedVelocityY */
-     , (25957, 8012,   -0.15) /* PCAPRecordedVelocityZ */;
+     , (25957, 8012,  -0.151) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25957,   1, 'Shreth-Gnawed Corpse') /* Name */

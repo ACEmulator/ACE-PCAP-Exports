@@ -38,7 +38,7 @@ VALUES (30597,  21,       0) /* WeaponLength */
      , (30597,  29,    1.05) /* WeaponDefense */
      , (30597,  62,    1.08) /* WeaponOffense */
      , (30597,  63,       1) /* DamageMod */
-     , (30597, 150,    1.01) /* WeaponMagicDefense */
+     , (30597, 150,   1.015) /* WeaponMagicDefense */
      , (30597, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

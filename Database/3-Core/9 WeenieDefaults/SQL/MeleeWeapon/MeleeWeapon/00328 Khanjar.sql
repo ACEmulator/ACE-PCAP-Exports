@@ -42,9 +42,9 @@ VALUES (328,   5,   -0.05) /* ManaRate */
      , (328,  21,       0) /* WeaponLength */
      , (328,  22,    0.99) /* DamageVariance */
      , (328,  26,       0) /* MaximumVelocity */
-     , (328,  29,    1.03) /* WeaponDefense */
+     , (328,  29,   1.034) /* WeaponDefense */
      , (328,  39,    1.25) /* DefaultScale */
-     , (328,  62,    1.06) /* WeaponOffense */
+     , (328,  62,   1.055) /* WeaponOffense */
      , (328,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

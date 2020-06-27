@@ -25,7 +25,7 @@ VALUES (28395,  22, True ) /* Inscribable */
      , (28395,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28395,   5,   -0.03) /* ManaRate */;
+VALUES (28395,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28395,   1, 'Manacle of Biting Pain') /* Name */

@@ -20,9 +20,9 @@ VALUES (35885,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35885,  39,     1.3) /* DefaultScale */
      , (35885,  77,       1) /* PhysicsScriptIntensity */
-     , (35885, 8010,    9.58) /* PCAPRecordedVelocityX */
-     , (35885, 8011,   -0.77) /* PCAPRecordedVelocityY */
-     , (35885, 8012,   -0.75) /* PCAPRecordedVelocityZ */;
+     , (35885, 8010,   9.582) /* PCAPRecordedVelocityX */
+     , (35885, 8011,  -0.769) /* PCAPRecordedVelocityY */
+     , (35885, 8012,  -0.748) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35885,   1, 'Paradox-touched Olthoi Warrior') /* Name */

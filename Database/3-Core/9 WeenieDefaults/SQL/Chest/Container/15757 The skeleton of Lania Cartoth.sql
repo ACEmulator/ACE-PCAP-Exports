@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15757,  54,       1) /* UseRadius */
      , (15757, 8010,       0) /* PCAPRecordedVelocityX */
      , (15757, 8011,       0) /* PCAPRecordedVelocityY */
-     , (15757, 8012,    -0.1) /* PCAPRecordedVelocityZ */;
+     , (15757, 8012,  -0.099) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15757,   1, 'The skeleton of Lania Cartoth') /* Name */

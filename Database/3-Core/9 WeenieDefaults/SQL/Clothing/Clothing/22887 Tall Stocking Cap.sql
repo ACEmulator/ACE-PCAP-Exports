@@ -23,7 +23,7 @@ VALUES (22887,  22, True ) /* Inscribable */
      , (22887, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22887,   5,   -0.02) /* ManaRate */
+VALUES (22887,   5,  -0.017) /* ManaRate */
      , (22887,  13,     0.8) /* ArmorModVsSlash */
      , (22887,  14,     0.8) /* ArmorModVsPierce */
      , (22887,  15,       1) /* ArmorModVsBludgeon */

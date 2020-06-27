@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53035,  54,       3) /* UseRadius */
      , (53035, 8010,       0) /* PCAPRecordedVelocityX */
      , (53035, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53035, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
+     , (53035, 8012,  -0.377) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53035,   1, 'Ancient Statue of the Viridian Rise') /* Name */

@@ -20,7 +20,7 @@ VALUES (1464,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1464, 8010,       0) /* PCAPRecordedVelocityX */
      , (1464, 8011,       0) /* PCAPRecordedVelocityY */
-     , (1464, 8012,   -7.37) /* PCAPRecordedVelocityZ */;
+     , (1464, 8012,  -7.366) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1464,   1, 'Drudge Robber') /* Name */

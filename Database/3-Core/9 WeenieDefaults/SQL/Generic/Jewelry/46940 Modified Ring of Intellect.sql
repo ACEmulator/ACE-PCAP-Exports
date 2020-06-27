@@ -28,7 +28,7 @@ VALUES (46940,  22, True ) /* Inscribable */
      , (46940,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46940,   5,   -0.03) /* ManaRate */;
+VALUES (46940,   5,  -0.034) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46940,   1, 'Modified Ring of Intellect') /* Name */

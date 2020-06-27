@@ -14,9 +14,9 @@ VALUES (33849,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33849,  78,       1) /* Friction */
      , (33849,  79,       0) /* Elasticity */
-     , (33849, 8010,    -3.8) /* PCAPRecordedVelocityX */
-     , (33849, 8011,    0.81) /* PCAPRecordedVelocityY */
-     , (33849, 8012,    1.87) /* PCAPRecordedVelocityZ */;
+     , (33849, 8010,  -3.797) /* PCAPRecordedVelocityX */
+     , (33849, 8011,   0.815) /* PCAPRecordedVelocityY */
+     , (33849, 8012,   1.868) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33849,   1, 'Frost Bomb') /* Name */;

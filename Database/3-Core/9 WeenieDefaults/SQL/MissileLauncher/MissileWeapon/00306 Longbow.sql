@@ -41,14 +41,14 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (306,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (306,   5,   -0.04) /* ManaRate */
+VALUES (306,   5,  -0.042) /* ManaRate */
      , (306,  21,       0) /* WeaponLength */
      , (306,  22,       0) /* DamageVariance */
      , (306,  26,    27.3) /* MaximumVelocity */
      , (306,  29,    1.11) /* WeaponDefense */
      , (306,  62,       1) /* WeaponOffense */
      , (306,  63,    2.33) /* DamageMod */
-     , (306, 149,    1.01) /* WeaponMissileDefense */;
+     , (306, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (306,   1, 'Longbow') /* Name */

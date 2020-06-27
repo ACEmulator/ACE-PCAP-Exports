@@ -38,7 +38,7 @@ VALUES (37585,   5,   -0.05) /* ManaRate */
      , (37585,  29,    1.37) /* WeaponDefense */
      , (37585,  76,     0.5) /* Translucency */
      , (37585, 136,       1) /* CriticalMultiplier */
-     , (37585, 144,    0.26) /* ManaConversionMod */
+     , (37585, 144,   0.255) /* ManaConversionMod */
      , (37585, 147,       1) /* CriticalFrequency */
      , (37585, 152,    1.27) /* ElementalDamageMod */
      , (37585, 157,       1) /* ResistanceModifier */;

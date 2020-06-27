@@ -30,7 +30,7 @@ VALUES (14505,  22, True ) /* Inscribable */
      , (14505,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14505,   5,   -0.03) /* ManaRate */;
+VALUES (14505,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14505,   1, 'Incalescent Bracelet') /* Name */

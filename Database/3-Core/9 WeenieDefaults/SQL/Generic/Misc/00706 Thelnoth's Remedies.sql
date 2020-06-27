@@ -17,7 +17,7 @@ VALUES (706,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (706, 8010,       0) /* PCAPRecordedVelocityX */
      , (706, 8011,       0) /* PCAPRecordedVelocityY */
-     , (706, 8012,   -0.87) /* PCAPRecordedVelocityZ */;
+     , (706, 8012,  -0.869) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (706,   1, 'Thelnoth''s Remedies') /* Name */

@@ -36,7 +36,7 @@ VALUES (22543,  24, True ) /* UiHidden */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22543,  21,       0) /* WeaponLength */
      , (22543,  22,     0.5) /* DamageVariance */
-     , (22543,  26,   18.94) /* MaximumVelocity */
+     , (22543,  26,  18.939) /* MaximumVelocity */
      , (22543,  29,       1) /* WeaponDefense */
      , (22543,  62,       1) /* WeaponOffense */
      , (22543,  63,       1) /* DamageMod */

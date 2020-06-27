@@ -16,7 +16,7 @@ VALUES (8450,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8450, 8010,       0) /* PCAPRecordedVelocityX */
      , (8450, 8011,       0) /* PCAPRecordedVelocityY */
-     , (8450, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
+     , (8450, 8012,  -0.375) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8450,   1, 'The Emerald Grove') /* Name */

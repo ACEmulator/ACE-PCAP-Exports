@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1634,  77,       1) /* PhysicsScriptIntensity */
      , (1634,  78,       1) /* Friction */
      , (1634,  79,       0) /* Elasticity */
-     , (1634, 8010,  -18.28) /* PCAPRecordedVelocityX */
+     , (1634, 8010, -18.278) /* PCAPRecordedVelocityX */
      , (1634, 8011,   11.03) /* PCAPRecordedVelocityY */
-     , (1634, 8012,   -3.29) /* PCAPRecordedVelocityZ */;
+     , (1634, 8012,  -3.287) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1634,   1, 'Shockwave') /* Name */;

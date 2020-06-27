@@ -34,9 +34,9 @@ VALUES (24207,  22, True ) /* Inscribable */
      , (24207,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24207,   5,   -0.03) /* ManaRate */
+VALUES (24207,   5,  -0.025) /* ManaRate */
      , (24207,  29,       1) /* WeaponDefense */
-     , (24207, 144,    0.02) /* ManaConversionMod */;
+     , (24207, 144,   0.018) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24207,   1, 'Weeping Wand') /* Name */

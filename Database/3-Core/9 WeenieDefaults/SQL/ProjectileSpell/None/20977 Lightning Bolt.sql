@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20977,  77,       1) /* PhysicsScriptIntensity */
      , (20977,  78,       1) /* Friction */
      , (20977,  79,       0) /* Elasticity */
-     , (20977, 8010,   36.46) /* PCAPRecordedVelocityX */
-     , (20977, 8011,  -12.51) /* PCAPRecordedVelocityY */
-     , (20977, 8012,   -4.42) /* PCAPRecordedVelocityZ */;
+     , (20977, 8010,  36.461) /* PCAPRecordedVelocityX */
+     , (20977, 8011, -12.515) /* PCAPRecordedVelocityY */
+     , (20977, 8012,  -4.418) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20977,   1, 'Lightning Bolt') /* Name */;

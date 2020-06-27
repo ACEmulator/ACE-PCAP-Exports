@@ -29,8 +29,8 @@ VALUES (44803,  13,     1.2) /* ArmorModVsSlash */
      , (44803,  15,       1) /* ArmorModVsBludgeon */
      , (44803,  16,     0.5) /* ArmorModVsCold */
      , (44803,  17,     0.5) /* ArmorModVsFire */
-     , (44803,  18,    0.91) /* ArmorModVsAcid */
-     , (44803,  19,    1.37) /* ArmorModVsElectric */
+     , (44803,  18,   0.909) /* ArmorModVsAcid */
+     , (44803,  19,   1.374) /* ArmorModVsElectric */
      , (44803, 165,       1) /* ArmorModVsNether */
      , (44803, 8004,       6) /* PCAPRecordedWorkmanship */;
 

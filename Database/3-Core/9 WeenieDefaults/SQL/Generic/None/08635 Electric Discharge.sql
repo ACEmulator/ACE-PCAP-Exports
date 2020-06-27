@@ -16,9 +16,9 @@ VALUES (8635,  39,     0.5) /* DefaultScale */
      , (8635,  77,       1) /* PhysicsScriptIntensity */
      , (8635,  78,       1) /* Friction */
      , (8635,  79,       0) /* Elasticity */
-     , (8635, 8010,  -30.44) /* PCAPRecordedVelocityX */
-     , (8635, 8011,   13.78) /* PCAPRecordedVelocityY */
-     , (8635, 8012,   -13.6) /* PCAPRecordedVelocityZ */;
+     , (8635, 8010, -30.444) /* PCAPRecordedVelocityX */
+     , (8635, 8011,  13.778) /* PCAPRecordedVelocityY */
+     , (8635, 8012, -13.599) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8635,   1, 'Electric Discharge') /* Name */;

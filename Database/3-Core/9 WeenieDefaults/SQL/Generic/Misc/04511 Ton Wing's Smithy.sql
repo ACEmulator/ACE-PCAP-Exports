@@ -16,7 +16,7 @@ VALUES (4511,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4511, 8010,       0) /* PCAPRecordedVelocityX */
      , (4511, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4511, 8012,   -1.01) /* PCAPRecordedVelocityZ */;
+     , (4511, 8012,  -1.013) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4511,   1, 'Ton Wing''s Smithy') /* Name */

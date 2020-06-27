@@ -15,10 +15,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37159,  77,       1) /* PhysicsScriptIntensity */
      , (37159,  78,       1) /* Friction */
      , (37159,  79,       0) /* Elasticity */
-     , (37159, 8010,  -10.61) /* PCAPRecordedVelocityX */
-     , (37159, 8011,  -10.61) /* PCAPRecordedVelocityY */
+     , (37159, 8010, -10.607) /* PCAPRecordedVelocityX */
+     , (37159, 8011, -10.607) /* PCAPRecordedVelocityY */
      , (37159, 8012,       0) /* PCAPRecordedVelocityZ */
-     , (37159, 8016,    0.63) /* PCAPRecordeOmegaX */
+     , (37159, 8016,   0.628) /* PCAPRecordeOmegaX */
      , (37159, 8017,       0) /* PCAPRecordeOmegaY */
      , (37159, 8018,       0) /* PCAPRecordeOmegaZ */;
 

@@ -40,9 +40,9 @@ VALUES (36522,  21,       0) /* WeaponLength */
      , (36522,  63,       1) /* DamageMod */
      , (36522,  78,       1) /* Friction */
      , (36522,  79,       0) /* Elasticity */
-     , (36522, 8010,  -31.74) /* PCAPRecordedVelocityX */
-     , (36522, 8011,   37.13) /* PCAPRecordedVelocityY */
-     , (36522, 8012,  -10.66) /* PCAPRecordedVelocityZ */;
+     , (36522, 8010, -31.741) /* PCAPRecordedVelocityX */
+     , (36522, 8011,  37.134) /* PCAPRecordedVelocityY */
+     , (36522, 8012, -10.658) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36522,   1, 'Greater Deadly Blunt Quarrel') /* Name */;

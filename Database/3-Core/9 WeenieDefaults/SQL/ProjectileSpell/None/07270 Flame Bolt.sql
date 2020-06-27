@@ -14,9 +14,9 @@ VALUES (7270,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7270,  78,       1) /* Friction */
      , (7270,  79,       0) /* Elasticity */
-     , (7270, 8010,   -0.89) /* PCAPRecordedVelocityX */
-     , (7270, 8011,    0.73) /* PCAPRecordedVelocityY */
-     , (7270, 8012,   -0.29) /* PCAPRecordedVelocityZ */;
+     , (7270, 8010,  -0.886) /* PCAPRecordedVelocityX */
+     , (7270, 8011,   0.732) /* PCAPRecordedVelocityY */
+     , (7270, 8012,  -0.286) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7270,   1, 'Flame Bolt') /* Name */;

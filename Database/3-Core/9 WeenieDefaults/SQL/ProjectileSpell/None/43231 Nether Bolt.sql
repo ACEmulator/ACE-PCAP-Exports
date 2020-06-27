@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43231,  77,       1) /* PhysicsScriptIntensity */
      , (43231,  78,       1) /* Friction */
      , (43231,  79,       0) /* Elasticity */
-     , (43231, 8010,   -2.01) /* PCAPRecordedVelocityX */
-     , (43231, 8011,  -34.18) /* PCAPRecordedVelocityY */
-     , (43231, 8012,   20.41) /* PCAPRecordedVelocityZ */;
+     , (43231, 8010,  -2.013) /* PCAPRecordedVelocityX */
+     , (43231, 8011, -34.177) /* PCAPRecordedVelocityY */
+     , (43231, 8012,  20.415) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43231,   1, 'Nether Bolt') /* Name */;

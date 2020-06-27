@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27718,  39,     1.3) /* DefaultScale */
      , (27718, 8010,       0) /* PCAPRecordedVelocityX */
      , (27718, 8011,       0) /* PCAPRecordedVelocityY */
-     , (27718, 8012,   -0.02) /* PCAPRecordedVelocityZ */;
+     , (27718, 8012,  -0.018) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27718,   1, 'Woodland Ursuin') /* Name */

@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24280,  39,     1.3) /* DefaultScale */
      , (24280, 8010,       0) /* PCAPRecordedVelocityX */
      , (24280, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24280, 8012,  -35.34) /* PCAPRecordedVelocityZ */;
+     , (24280, 8012, -35.338) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24280,   1, 'Murk Drudge') /* Name */

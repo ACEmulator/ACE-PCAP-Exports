@@ -27,7 +27,7 @@ VALUES (9083,  22, True ) /* Inscribable */
      , (9083,  94, True ) /* AppraisalHasAllowedActivator */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9083,   5,   -0.12) /* ManaRate */
+VALUES (9083,   5,  -0.125) /* ManaRate */
      , (9083,  13,       0) /* ArmorModVsSlash */
      , (9083,  14,       0) /* ArmorModVsPierce */
      , (9083,  15,       0) /* ArmorModVsBludgeon */

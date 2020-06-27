@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53309,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53309,   5,   -0.02) /* ManaRate */
+VALUES (53309,   5,  -0.025) /* ManaRate */
      , (53309,  21,       0) /* WeaponLength */
      , (53309,  22,       0) /* DamageVariance */
      , (53309,  26,    27.3) /* MaximumVelocity */

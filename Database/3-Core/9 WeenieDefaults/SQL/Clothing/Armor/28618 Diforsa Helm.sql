@@ -38,7 +38,7 @@ VALUES (28618,   5,   -0.05) /* ManaRate */
      , (28618,  15,       1) /* ArmorModVsBludgeon */
      , (28618,  16,     0.4) /* ArmorModVsCold */
      , (28618,  17,     0.4) /* ArmorModVsFire */
-     , (28618,  18,    1.22) /* ArmorModVsAcid */
+     , (28618,  18,   1.225) /* ArmorModVsAcid */
      , (28618,  19,     0.4) /* ArmorModVsElectric */
      , (28618, 165,       1) /* ArmorModVsNether */
      , (28618, 8004,       8) /* PCAPRecordedWorkmanship */;

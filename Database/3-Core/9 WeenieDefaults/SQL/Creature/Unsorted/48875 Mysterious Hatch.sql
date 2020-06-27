@@ -45,7 +45,7 @@ VALUES (48875,  39,     1.5) /* DefaultScale */
      , (48875,  54,     2.5) /* UseRadius */
      , (48875, 8010,       0) /* PCAPRecordedVelocityX */
      , (48875, 8011,       0) /* PCAPRecordedVelocityY */
-     , (48875, 8012,   -0.29) /* PCAPRecordedVelocityZ */;
+     , (48875, 8012,  -0.295) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48875,   1, 'Mysterious Hatch') /* Name */

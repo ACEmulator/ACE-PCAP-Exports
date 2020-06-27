@@ -34,8 +34,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3780,  21,       0) /* WeaponLength */
      , (3780,  22,    0.75) /* DamageVariance */
      , (3780,  26,       0) /* MaximumVelocity */
-     , (3780,  29,    1.06) /* WeaponDefense */
-     , (3780,  62,    1.05) /* WeaponOffense */
+     , (3780,  29,   1.055) /* WeaponDefense */
+     , (3780,  62,   1.055) /* WeaponOffense */
      , (3780,  63,       1) /* DamageMod */
      , (3780, 8004,       1) /* PCAPRecordedWorkmanship */;
 

@@ -17,7 +17,7 @@ VALUES (4113,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4113, 8010,       0) /* PCAPRecordedVelocityX */
      , (4113, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4113, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
+     , (4113, 8012,  -0.377) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4113,   1, 'Warning Sign') /* Name */

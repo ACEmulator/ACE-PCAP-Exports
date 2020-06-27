@@ -14,9 +14,9 @@ VALUES (33724,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33724,  78,       1) /* Friction */
      , (33724,  79,       0) /* Elasticity */
-     , (33724, 8010,    1.01) /* PCAPRecordedVelocityX */
-     , (33724, 8011,    5.89) /* PCAPRecordedVelocityY */
-     , (33724, 8012,   -0.56) /* PCAPRecordedVelocityZ */;
+     , (33724, 8010,   1.012) /* PCAPRecordedVelocityX */
+     , (33724, 8011,   5.892) /* PCAPRecordedVelocityY */
+     , (33724, 8012,  -0.558) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33724,   1, 'Health Ring Bolt') /* Name */;

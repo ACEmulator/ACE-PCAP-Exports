@@ -22,7 +22,7 @@ VALUES (11478,  39,     1.1) /* DefaultScale */
      , (11478,  77,       1) /* PhysicsScriptIntensity */
      , (11478, 8010,       0) /* PCAPRecordedVelocityX */
      , (11478, 8011,       0) /* PCAPRecordedVelocityY */
-     , (11478, 8012,    -0.5) /* PCAPRecordedVelocityZ */;
+     , (11478, 8012,  -0.499) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11478,   1, 'Olthoi Eviscerator') /* Name */

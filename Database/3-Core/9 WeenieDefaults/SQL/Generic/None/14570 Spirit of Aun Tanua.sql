@@ -16,9 +16,9 @@ VALUES (14570,  76,     0.5) /* Translucency */
      , (14570,  77,       1) /* PhysicsScriptIntensity */
      , (14570,  78,       1) /* Friction */
      , (14570,  79,       0) /* Elasticity */
-     , (14570, 8010,   10.76) /* PCAPRecordedVelocityX */
-     , (14570, 8011,   -8.92) /* PCAPRecordedVelocityY */
-     , (14570, 8012,   -0.86) /* PCAPRecordedVelocityZ */;
+     , (14570, 8010,  10.759) /* PCAPRecordedVelocityX */
+     , (14570, 8011,  -8.921) /* PCAPRecordedVelocityY */
+     , (14570, 8012,  -0.862) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14570,   1, 'Spirit of Aun Tanua') /* Name */;

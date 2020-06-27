@@ -27,7 +27,7 @@ VALUES (551,  13,       1) /* ArmorModVsSlash */
      , (551,  15,       1) /* ArmorModVsBludgeon */
      , (551,  16,     0.5) /* ArmorModVsCold */
      , (551,  17,     0.5) /* ArmorModVsFire */
-     , (551,  18,    0.53) /* ArmorModVsAcid */
+     , (551,  18,   0.534) /* ArmorModVsAcid */
      , (551,  19,     0.6) /* ArmorModVsElectric */
      , (551, 165,       1) /* ArmorModVsNether */
      , (551, 8004,       1) /* PCAPRecordedWorkmanship */;

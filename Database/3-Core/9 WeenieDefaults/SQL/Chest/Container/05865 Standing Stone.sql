@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5865,  54,       1) /* UseRadius */
      , (5865, 8010,       0) /* PCAPRecordedVelocityX */
      , (5865, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5865, 8012,   -0.14) /* PCAPRecordedVelocityZ */;
+     , (5865, 8012,  -0.135) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5865,   1, 'Standing Stone') /* Name */

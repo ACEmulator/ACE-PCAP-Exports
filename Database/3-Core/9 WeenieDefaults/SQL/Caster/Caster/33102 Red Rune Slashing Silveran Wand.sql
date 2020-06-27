@@ -38,7 +38,7 @@ VALUES (33102,   5,   -0.05) /* ManaRate */
      , (33102,  39,     1.5) /* DefaultScale */
      , (33102, 144,     0.2) /* ManaConversionMod */
      , (33102, 147,       1) /* CriticalFrequency */
-     , (33102, 150,    1.02) /* WeaponMagicDefense */
+     , (33102, 150,   1.025) /* WeaponMagicDefense */
      , (33102, 152,     1.1) /* ElementalDamageMod */
      , (33102, 157,       1) /* ResistanceModifier */;
 

@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30628,  54,      55) /* UseRadius */
      , (30628, 8010,       0) /* PCAPRecordedVelocityX */
      , (30628, 8011,       0) /* PCAPRecordedVelocityY */
-     , (30628, 8012,   -0.14) /* PCAPRecordedVelocityZ */;
+     , (30628, 8012,  -0.142) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30628,   1, 'Drudge Flying Machine') /* Name */

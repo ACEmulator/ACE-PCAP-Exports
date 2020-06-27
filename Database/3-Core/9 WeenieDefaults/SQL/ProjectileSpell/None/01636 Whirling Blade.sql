@@ -16,10 +16,10 @@ VALUES (1636,  39,     0.5) /* DefaultScale */
      , (1636,  77,       1) /* PhysicsScriptIntensity */
      , (1636,  78,       1) /* Friction */
      , (1636,  79,       0) /* Elasticity */
-     , (1636, 8010,    1.94) /* PCAPRecordedVelocityX */
-     , (1636, 8011,   26.87) /* PCAPRecordedVelocityY */
-     , (1636, 8012,   -0.33) /* PCAPRecordedVelocityZ */
-     , (1636, 8016,   12.57) /* PCAPRecordeOmegaX */
+     , (1636, 8010,   1.937) /* PCAPRecordedVelocityX */
+     , (1636, 8011,  26.868) /* PCAPRecordedVelocityY */
+     , (1636, 8012,  -0.328) /* PCAPRecordedVelocityZ */
+     , (1636, 8016,  12.566) /* PCAPRecordeOmegaX */
      , (1636, 8017,       0) /* PCAPRecordeOmegaY */
      , (1636, 8018,       0) /* PCAPRecordeOmegaZ */;
 

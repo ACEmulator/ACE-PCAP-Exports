@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24141,  39,     0.5) /* DefaultScale */
      , (24141, 8010,       0) /* PCAPRecordedVelocityX */
      , (24141, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24141, 8012,   -0.19) /* PCAPRecordedVelocityZ */;
+     , (24141, 8012,  -0.193) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24141,   1, 'Sweet Smelling Bark') /* Name */

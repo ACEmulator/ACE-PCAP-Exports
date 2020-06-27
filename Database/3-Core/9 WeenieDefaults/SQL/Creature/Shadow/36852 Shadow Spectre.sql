@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36852,  76,     0.5) /* Translucency */
      , (36852, 8010,       0) /* PCAPRecordedVelocityX */
      , (36852, 8011,       0) /* PCAPRecordedVelocityY */
-     , (36852, 8012,    -0.1) /* PCAPRecordedVelocityZ */;
+     , (36852, 8012,  -0.099) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36852,   1, 'Shadow Spectre') /* Name */

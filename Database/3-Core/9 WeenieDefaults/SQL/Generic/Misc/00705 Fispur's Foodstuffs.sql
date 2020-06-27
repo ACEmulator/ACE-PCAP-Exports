@@ -17,7 +17,7 @@ VALUES (705,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (705, 8010,       0) /* PCAPRecordedVelocityX */
      , (705, 8011,       0) /* PCAPRecordedVelocityY */
-     , (705, 8012,   -0.87) /* PCAPRecordedVelocityZ */;
+     , (705, 8012,  -0.867) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (705,   1, 'Fispur''s Foodstuffs') /* Name */

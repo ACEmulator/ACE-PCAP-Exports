@@ -46,7 +46,7 @@ VALUES (53026,  39,       3) /* DefaultScale */
      , (53026,  54,       3) /* UseRadius */
      , (53026, 8010,       0) /* PCAPRecordedVelocityX */
      , (53026, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53026, 8012,   -0.05) /* PCAPRecordedVelocityZ */;
+     , (53026, 8012,  -0.051) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53026,   1, 'Fiery Remains') /* Name */

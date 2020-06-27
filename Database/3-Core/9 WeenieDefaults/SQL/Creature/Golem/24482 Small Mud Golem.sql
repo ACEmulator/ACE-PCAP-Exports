@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24482,  39,    0.25) /* DefaultScale */
      , (24482, 8010,       0) /* PCAPRecordedVelocityX */
      , (24482, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24482, 8012,   -0.48) /* PCAPRecordedVelocityZ */;
+     , (24482, 8012,  -0.483) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24482,   1, 'Small Mud Golem') /* Name */

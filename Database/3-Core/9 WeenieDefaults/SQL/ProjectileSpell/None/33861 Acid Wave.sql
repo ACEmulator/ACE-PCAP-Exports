@@ -14,7 +14,7 @@ VALUES (33861,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33861,  78,       1) /* Friction */
      , (33861,  79,       0) /* Elasticity */
-     , (33861, 8010,    2.91) /* PCAPRecordedVelocityX */
+     , (33861, 8010,   2.911) /* PCAPRecordedVelocityX */
      , (33861, 8011,    0.59) /* PCAPRecordedVelocityY */
      , (33861, 8012,   -1.95) /* PCAPRecordedVelocityZ */;
 

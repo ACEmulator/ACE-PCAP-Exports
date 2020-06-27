@@ -38,7 +38,7 @@ VALUES (25631,  22, True ) /* Inscribable */
      , (25631,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25631,   5,   -0.03) /* ManaRate */
+VALUES (25631,   5,  -0.025) /* ManaRate */
      , (25631,  21,       0) /* WeaponLength */
      , (25631,  22,     0.4) /* DamageVariance */
      , (25631,  26,       0) /* MaximumVelocity */

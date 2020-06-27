@@ -35,10 +35,10 @@ VALUES (53334,  22, True ) /* Inscribable */
      , (53334,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53334,   5,   -0.03) /* ManaRate */
+VALUES (53334,   5,  -0.025) /* ManaRate */
      , (53334,  29,    1.56) /* WeaponDefense */
      , (53334,  39,     1.6) /* DefaultScale */
-     , (53334, 144,    0.23) /* ManaConversionMod */
+     , (53334, 144,   0.234) /* ManaConversionMod */
      , (53334, 149,    1.01) /* WeaponMissileDefense */
      , (53334, 150,    1.01) /* WeaponMagicDefense */
      , (53334, 152,    1.27) /* ElementalDamageMod */

@@ -19,7 +19,7 @@ VALUES (27331,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27331,  87,     0.1) /* ItemEfficiency */
-     , (27331, 137,    0.02) /* ManaStoneDestroyChance */;
+     , (27331, 137,   0.025) /* ManaStoneDestroyChance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27331,   1, 'Minor Mana Stone') /* Name */

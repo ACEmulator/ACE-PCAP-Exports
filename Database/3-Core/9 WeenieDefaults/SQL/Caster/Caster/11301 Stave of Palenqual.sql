@@ -30,7 +30,7 @@ VALUES (11301,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11301,   5,   -0.05) /* ManaRate */
      , (11301,  29,       1) /* WeaponDefense */
-     , (11301, 144,    0.12) /* ManaConversionMod */;
+     , (11301, 144,   0.119) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11301,   1, 'Stave of Palenqual') /* Name */

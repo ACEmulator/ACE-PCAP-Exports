@@ -33,7 +33,7 @@ VALUES (23925,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23925,  21,       0) /* WeaponLength */
-     , (23925,  22,       0) /* DamageVariance */
+     , (23925,  22,   0.001) /* DamageVariance */
      , (23925,  26,       0) /* MaximumVelocity */
      , (23925,  29,       1) /* WeaponDefense */
      , (23925,  39,     1.5) /* DefaultScale */

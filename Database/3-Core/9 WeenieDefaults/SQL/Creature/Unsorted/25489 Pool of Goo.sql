@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25489,  54,     5.5) /* UseRadius */
      , (25489, 8010,       0) /* PCAPRecordedVelocityX */
      , (25489, 8011,       0) /* PCAPRecordedVelocityY */
-     , (25489, 8012,   -0.08) /* PCAPRecordedVelocityZ */;
+     , (25489, 8012,  -0.083) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25489,   1, 'Pool of Goo') /* Name */

@@ -23,7 +23,7 @@ VALUES (30044,  39,       3) /* DefaultScale */
      , (30044,  54,       4) /* UseRadius */
      , (30044, 8010,       0) /* PCAPRecordedVelocityX */
      , (30044, 8011,       0) /* PCAPRecordedVelocityY */
-     , (30044, 8012,   -0.06) /* PCAPRecordedVelocityZ */;
+     , (30044, 8012,  -0.055) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30044,   1, 'Statue of Eleonora du Bellenesse') /* Name */

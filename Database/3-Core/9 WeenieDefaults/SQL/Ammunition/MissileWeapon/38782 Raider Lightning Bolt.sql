@@ -25,9 +25,9 @@ VALUES (38782,  39,     1.1) /* DefaultScale */
      , (38782,  76,     0.8) /* Translucency */
      , (38782,  78,       1) /* Friction */
      , (38782,  79,       0) /* Elasticity */
-     , (38782, 8010,   49.02) /* PCAPRecordedVelocityX */
-     , (38782, 8011,    9.75) /* PCAPRecordedVelocityY */
-     , (38782, 8012,   -1.25) /* PCAPRecordedVelocityZ */;
+     , (38782, 8010,  49.023) /* PCAPRecordedVelocityX */
+     , (38782, 8011,   9.754) /* PCAPRecordedVelocityY */
+     , (38782, 8012,  -1.254) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38782,   1, 'Raider Lightning Bolt') /* Name */;

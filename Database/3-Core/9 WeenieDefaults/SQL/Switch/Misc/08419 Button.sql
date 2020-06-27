@@ -19,7 +19,7 @@ VALUES (8419,  39,     0.3) /* DefaultScale */
      , (8419,  54,       1) /* UseRadius */
      , (8419, 8010,       0) /* PCAPRecordedVelocityX */
      , (8419, 8011,       0) /* PCAPRecordedVelocityY */
-     , (8419, 8012,   -0.07) /* PCAPRecordedVelocityZ */;
+     , (8419, 8012,  -0.072) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8419,   1, 'Button') /* Name */;

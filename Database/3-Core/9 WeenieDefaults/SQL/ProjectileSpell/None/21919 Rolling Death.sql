@@ -16,9 +16,9 @@ VALUES (21919,  39,    2.25) /* DefaultScale */
      , (21919,  77,       1) /* PhysicsScriptIntensity */
      , (21919,  78,       1) /* Friction */
      , (21919,  79,       0) /* Elasticity */
-     , (21919, 8010,     0.4) /* PCAPRecordedVelocityX */
-     , (21919, 8011,    1.32) /* PCAPRecordedVelocityY */
-     , (21919, 8012,    -0.6) /* PCAPRecordedVelocityZ */;
+     , (21919, 8010,   0.396) /* PCAPRecordedVelocityX */
+     , (21919, 8011,   1.316) /* PCAPRecordedVelocityY */
+     , (21919, 8012,  -0.605) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21919,   1, 'Rolling Death') /* Name */;

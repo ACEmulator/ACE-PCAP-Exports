@@ -47,7 +47,7 @@ VALUES (30556,   5,   -0.05) /* ManaRate */
      , (30556,  29,    1.04) /* WeaponDefense */
      , (30556,  62,    1.11) /* WeaponOffense */
      , (30556,  63,       1) /* DamageMod */
-     , (30556, 149,       1) /* WeaponMissileDefense */;
+     , (30556, 149,   1.005) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30556,   1, 'Hatchet') /* Name */

@@ -19,9 +19,9 @@ VALUES (12038,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12038,  39,     1.5) /* DefaultScale */
-     , (12038, 8010,     0.4) /* PCAPRecordedVelocityX */
-     , (12038, 8011,   -0.27) /* PCAPRecordedVelocityY */
-     , (12038, 8012,   -0.14) /* PCAPRecordedVelocityZ */;
+     , (12038, 8010,   0.402) /* PCAPRecordedVelocityX */
+     , (12038, 8011,  -0.268) /* PCAPRecordedVelocityY */
+     , (12038, 8012,  -0.145) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12038,   1, 'Dread Ursuin') /* Name */

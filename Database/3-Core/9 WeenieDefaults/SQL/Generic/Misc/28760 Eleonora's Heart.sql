@@ -18,7 +18,7 @@ VALUES (28760,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28760, 8010,       0) /* PCAPRecordedVelocityX */
      , (28760, 8011,       0) /* PCAPRecordedVelocityY */
-     , (28760, 8012,   -0.27) /* PCAPRecordedVelocityZ */;
+     , (28760, 8012,  -0.271) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28760,   1, 'Eleonora''s Heart') /* Name */

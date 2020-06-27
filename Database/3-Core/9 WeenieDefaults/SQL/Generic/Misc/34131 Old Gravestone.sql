@@ -14,9 +14,9 @@ VALUES (34131,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34131,  54,     2.5) /* UseRadius */
-     , (34131, 8010,   -0.45) /* PCAPRecordedVelocityX */
-     , (34131, 8011,    0.45) /* PCAPRecordedVelocityY */
-     , (34131, 8012,    -0.5) /* PCAPRecordedVelocityZ */;
+     , (34131, 8010,  -0.448) /* PCAPRecordedVelocityX */
+     , (34131, 8011,   0.448) /* PCAPRecordedVelocityY */
+     , (34131, 8012,  -0.499) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34131,   1, 'Old Gravestone') /* Name */
