@@ -16,7 +16,7 @@ VALUES (4505,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4505, 8010,       0) /* PCAPRecordedVelocityX */
      , (4505, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4505, 8012,   -0.17) /* PCAPRecordedVelocityZ */;
+     , (4505, 8012,  -0.169) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4505,   1, 'The Pine and Fir') /* Name */

@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20993,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20993, 8004,    7.62) /* PCAPRecordedWorkmanship */;
+VALUES (20993, 8004,   7.625) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20993,   1, 'Salvage (39)') /* Name */

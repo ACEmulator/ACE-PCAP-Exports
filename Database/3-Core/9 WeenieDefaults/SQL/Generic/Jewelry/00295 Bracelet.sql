@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (295,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (295,   5,   -0.04) /* ManaRate */
+VALUES (295,   5,  -0.042) /* ManaRate */
      , (295,  39,    0.67) /* DefaultScale */
      , (295, 8004,       6) /* PCAPRecordedWorkmanship */;
 

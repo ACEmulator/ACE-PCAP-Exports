@@ -38,12 +38,12 @@ VALUES (3779,  22, True ) /* Inscribable */
      , (3779,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3779,   5,   -0.04) /* ManaRate */
+VALUES (3779,   5,  -0.042) /* ManaRate */
      , (3779,  21,       0) /* WeaponLength */
      , (3779,  22,    0.75) /* DamageVariance */
      , (3779,  26,       0) /* MaximumVelocity */
      , (3779,  29,    1.06) /* WeaponDefense */
-     , (3779,  62,    1.07) /* WeaponOffense */
+     , (3779,  62,   1.068) /* WeaponOffense */
      , (3779,  63,       1) /* DamageMod */
      , (3779, 8004,       2) /* PCAPRecordedWorkmanship */;
 

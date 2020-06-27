@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28828,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28828,   5,   -0.05) /* ManaRate */;
+VALUES (28828,   5,  -0.049) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28828,   1, 'Grand Mother''s Medallion') /* Name */

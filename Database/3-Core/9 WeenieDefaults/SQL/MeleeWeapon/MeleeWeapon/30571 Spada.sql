@@ -42,7 +42,7 @@ VALUES (30571,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30571,   5,   -0.05) /* ManaRate */
      , (30571,  21,       0) /* WeaponLength */
-     , (30571,  22,    0.59) /* DamageVariance */
+     , (30571,  22,   0.587) /* DamageVariance */
      , (30571,  26,       0) /* MaximumVelocity */
      , (30571,  29,       1) /* WeaponDefense */
      , (30571,  39,     1.1) /* DefaultScale */

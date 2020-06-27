@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20991,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20991, 8004,    5.31) /* PCAPRecordedWorkmanship */;
+VALUES (20991, 8004,   5.308) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20991,   1, 'Salvaged Reedshark Hide (100)') /* Name */

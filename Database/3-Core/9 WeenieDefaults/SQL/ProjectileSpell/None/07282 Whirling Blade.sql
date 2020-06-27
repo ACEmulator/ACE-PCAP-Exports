@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7282,  39,       2) /* DefaultScale */
      , (7282,  78,       1) /* Friction */
      , (7282,  79,       0) /* Elasticity */
-     , (7282, 8010,    3.93) /* PCAPRecordedVelocityX */
-     , (7282, 8011,    6.64) /* PCAPRecordedVelocityY */
-     , (7282, 8012,   -1.47) /* PCAPRecordedVelocityZ */;
+     , (7282, 8010,   3.929) /* PCAPRecordedVelocityX */
+     , (7282, 8011,   6.642) /* PCAPRecordedVelocityY */
+     , (7282, 8012,  -1.473) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7282,   1, 'Whirling Blade') /* Name */;

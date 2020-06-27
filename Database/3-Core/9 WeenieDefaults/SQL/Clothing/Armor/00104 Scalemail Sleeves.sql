@@ -26,7 +26,7 @@ VALUES (104,  13,       1) /* ArmorModVsSlash */
      , (104,  14,     1.3) /* ArmorModVsPierce */
      , (104,  15,       1) /* ArmorModVsBludgeon */
      , (104,  16,     0.4) /* ArmorModVsCold */
-     , (104,  17,     1.1) /* ArmorModVsFire */
+     , (104,  17,   1.104) /* ArmorModVsFire */
      , (104,  18,     0.6) /* ArmorModVsAcid */
      , (104,  19,    0.74) /* ArmorModVsElectric */
      , (104, 165,       1) /* ArmorModVsNether */

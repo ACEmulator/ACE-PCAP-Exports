@@ -23,7 +23,7 @@ VALUES (30457,  22, True ) /* Inscribable */
      , (30457,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30457,   5,   -0.03) /* ManaRate */
+VALUES (30457,   5,  -0.033) /* ManaRate */
      , (30457,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

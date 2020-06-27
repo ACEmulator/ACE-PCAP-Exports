@@ -20,9 +20,9 @@ VALUES (36816,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36816,  39,     1.3) /* DefaultScale */
-     , (36816, 8010,  -27.97) /* PCAPRecordedVelocityX */
-     , (36816, 8011,   -6.76) /* PCAPRecordedVelocityY */
-     , (36816, 8012,  -35.34) /* PCAPRecordedVelocityZ */;
+     , (36816, 8010, -27.972) /* PCAPRecordedVelocityX */
+     , (36816, 8011,  -6.756) /* PCAPRecordedVelocityY */
+     , (36816, 8012, -35.339) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36816,   1, 'Banderling Aggressor') /* Name */

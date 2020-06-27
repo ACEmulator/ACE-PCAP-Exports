@@ -33,7 +33,7 @@ VALUES (46262,  22, True ) /* Inscribable */
      , (46262,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46262,   5,   -0.03) /* ManaRate */
+VALUES (46262,   5,  -0.025) /* ManaRate */
      , (46262,  29,    1.14) /* WeaponDefense */
      , (46262, 144,    0.08) /* ManaConversionMod */
      , (46262, 147,       1) /* CriticalFrequency */

@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23922,  54,       1) /* UseRadius */
      , (23922, 8010,       0) /* PCAPRecordedVelocityX */
      , (23922, 8011,       0) /* PCAPRecordedVelocityY */
-     , (23922, 8012,   -0.01) /* PCAPRecordedVelocityZ */;
+     , (23922, 8012,  -0.012) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23922,   1, 'Lock Box') /* Name */

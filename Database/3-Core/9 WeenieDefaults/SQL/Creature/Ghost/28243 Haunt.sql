@@ -19,8 +19,8 @@ VALUES (28243,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28243,  76,     0.5) /* Translucency */
-     , (28243, 8010,   -0.21) /* PCAPRecordedVelocityX */
-     , (28243, 8011,   -0.13) /* PCAPRecordedVelocityY */
+     , (28243, 8010,  -0.212) /* PCAPRecordedVelocityX */
+     , (28243, 8011,  -0.126) /* PCAPRecordedVelocityY */
      , (28243, 8012,   -0.18) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40108,  54,       3) /* UseRadius */
      , (40108, 8010,       0) /* PCAPRecordedVelocityX */
      , (40108, 8011,       0) /* PCAPRecordedVelocityY */
-     , (40108, 8012,   -0.28) /* PCAPRecordedVelocityZ */;
+     , (40108, 8012,  -0.279) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40108,   1, 'Crystal') /* Name */

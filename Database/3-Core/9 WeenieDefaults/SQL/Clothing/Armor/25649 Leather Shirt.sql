@@ -39,7 +39,7 @@ VALUES (25649,   5,   -0.05) /* ManaRate */
      , (25649,  16,     0.5) /* ArmorModVsCold */
      , (25649,  17,     0.5) /* ArmorModVsFire */
      , (25649,  18,     0.3) /* ArmorModVsAcid */
-     , (25649,  19,    1.16) /* ArmorModVsElectric */
+     , (25649,  19,   1.158) /* ArmorModVsElectric */
      , (25649, 165,       1) /* ArmorModVsNether */
      , (25649, 8004,       6) /* PCAPRecordedWorkmanship */;
 

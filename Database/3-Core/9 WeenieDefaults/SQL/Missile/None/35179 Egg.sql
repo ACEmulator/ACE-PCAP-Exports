@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35179,  39,     0.9) /* DefaultScale */
      , (35179,  78,       1) /* Friction */
      , (35179,  79,       0) /* Elasticity */
-     , (35179, 8010,    1.04) /* PCAPRecordedVelocityX */
-     , (35179, 8011,    7.38) /* PCAPRecordedVelocityY */
-     , (35179, 8012,   -5.05) /* PCAPRecordedVelocityZ */;
+     , (35179, 8010,   1.044) /* PCAPRecordedVelocityX */
+     , (35179, 8011,   7.378) /* PCAPRecordedVelocityY */
+     , (35179, 8012,  -5.048) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35179,   1, 'Egg') /* Name */;

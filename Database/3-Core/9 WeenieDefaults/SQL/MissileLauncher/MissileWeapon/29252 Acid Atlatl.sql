@@ -42,7 +42,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29252,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29252,   5,   -0.06) /* ManaRate */
+VALUES (29252,   5,  -0.056) /* ManaRate */
      , (29252,  21,       0) /* WeaponLength */
      , (29252,  22,       0) /* DamageVariance */
      , (29252,  26,    24.9) /* MaximumVelocity */
@@ -50,7 +50,7 @@ VALUES (29252,   5,   -0.06) /* ManaRate */
      , (29252,  39,     1.1) /* DefaultScale */
      , (29252,  62,       1) /* WeaponOffense */
      , (29252,  63,    2.45) /* DamageMod */
-     , (29252, 149,    1.01) /* WeaponMissileDefense */
+     , (29252, 149,   1.015) /* WeaponMissileDefense */
      , (29252, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

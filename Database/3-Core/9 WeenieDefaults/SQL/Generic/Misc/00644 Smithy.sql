@@ -16,7 +16,7 @@ VALUES (644,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (644, 8010,       0) /* PCAPRecordedVelocityX */
      , (644, 8011,       0) /* PCAPRecordedVelocityY */
-     , (644, 8012,   -0.12) /* PCAPRecordedVelocityZ */;
+     , (644, 8012,  -0.122) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (644,   1, 'Smithy') /* Name */

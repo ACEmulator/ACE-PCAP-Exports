@@ -28,7 +28,7 @@ VALUES (19704,  22, True ) /* Inscribable */
      , (19704,  94, True ) /* AppraisalHasAllowedActivator */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19704,   5,   -0.03) /* ManaRate */
+VALUES (19704,   5,  -0.033) /* ManaRate */
      , (19704,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -17,7 +17,7 @@ VALUES (708,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (708, 8010,       0) /* PCAPRecordedVelocityX */
      , (708, 8011,       0) /* PCAPRecordedVelocityY */
-     , (708, 8012,   -0.88) /* PCAPRecordedVelocityZ */;
+     , (708, 8012,  -0.877) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (708,   1, 'Helm and Shield') /* Name */

@@ -18,7 +18,7 @@ VALUES (23351,  39,    0.85) /* DefaultScale */
      , (23351,  54,       5) /* UseRadius */
      , (23351, 8010,       0) /* PCAPRecordedVelocityX */
      , (23351, 8011,       0) /* PCAPRecordedVelocityY */
-     , (23351, 8012,   -0.26) /* PCAPRecordedVelocityZ */;
+     , (23351, 8012,  -0.255) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23351,   1, 'Stone Plaque') /* Name */;

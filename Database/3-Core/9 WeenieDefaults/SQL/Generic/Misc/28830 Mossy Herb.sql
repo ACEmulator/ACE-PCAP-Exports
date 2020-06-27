@@ -19,7 +19,7 @@ VALUES (28830,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28830, 8010,       0) /* PCAPRecordedVelocityX */
      , (28830, 8011,       0) /* PCAPRecordedVelocityY */
-     , (28830, 8012,    -0.3) /* PCAPRecordedVelocityZ */;
+     , (28830, 8012,  -0.296) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28830,   1, 'Mossy Herb') /* Name */

@@ -41,7 +41,7 @@ VALUES (351,  21,       0) /* WeaponLength */
      , (351,  39,     1.1) /* DefaultScale */
      , (351,  62,    1.06) /* WeaponOffense */
      , (351,  63,       1) /* DamageMod */
-     , (351, 150,    1.02) /* WeaponMagicDefense */;
+     , (351, 150,   1.025) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (351,   1, 'Long Sword') /* Name */

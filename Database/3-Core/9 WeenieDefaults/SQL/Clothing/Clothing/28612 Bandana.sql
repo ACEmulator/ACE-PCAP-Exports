@@ -34,7 +34,7 @@ VALUES (28612,   5,   -0.05) /* ManaRate */
      , (28612,  13,     1.2) /* ArmorModVsSlash */
      , (28612,  14,     0.8) /* ArmorModVsPierce */
      , (28612,  15,       1) /* ArmorModVsBludgeon */
-     , (28612,  16,    0.82) /* ArmorModVsCold */
+     , (28612,  16,   0.822) /* ArmorModVsCold */
      , (28612,  17,     0.5) /* ArmorModVsFire */
      , (28612,  18,     0.3) /* ArmorModVsAcid */
      , (28612,  19,     0.8) /* ArmorModVsElectric */

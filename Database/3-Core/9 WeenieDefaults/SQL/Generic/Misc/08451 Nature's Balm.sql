@@ -16,7 +16,7 @@ VALUES (8451,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8451, 8010,       0) /* PCAPRecordedVelocityX */
      , (8451, 8011,       0) /* PCAPRecordedVelocityY */
-     , (8451, 8012,   -0.37) /* PCAPRecordedVelocityZ */;
+     , (8451, 8012,  -0.373) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8451,   1, 'Nature''s Balm') /* Name */

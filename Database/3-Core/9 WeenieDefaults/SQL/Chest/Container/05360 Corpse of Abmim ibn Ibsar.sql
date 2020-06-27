@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5360,  54,       1) /* UseRadius */
      , (5360, 8010,       0) /* PCAPRecordedVelocityX */
      , (5360, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5360, 8012,   -0.27) /* PCAPRecordedVelocityZ */;
+     , (5360, 8012,  -0.272) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5360,   1, 'Corpse of Abmim ibn Ibsar') /* Name */

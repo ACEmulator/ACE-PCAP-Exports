@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45480,  54,       3) /* UseRadius */
      , (45480, 8010,       0) /* PCAPRecordedVelocityX */
      , (45480, 8011,       0) /* PCAPRecordedVelocityY */
-     , (45480, 8012,  -48.96) /* PCAPRecordedVelocityZ */;
+     , (45480, 8012, -48.958) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45480,   1, 'Thrown Weapons Mastery') /* Name */

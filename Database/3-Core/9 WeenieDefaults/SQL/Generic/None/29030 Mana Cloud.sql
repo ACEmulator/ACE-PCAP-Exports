@@ -16,9 +16,9 @@ VALUES (29030,  39,     0.5) /* DefaultScale */
      , (29030,  77,       1) /* PhysicsScriptIntensity */
      , (29030,  78,       1) /* Friction */
      , (29030,  79,       0) /* Elasticity */
-     , (29030, 8010,   -0.06) /* PCAPRecordedVelocityX */
-     , (29030, 8011,   -1.06) /* PCAPRecordedVelocityY */
-     , (29030, 8012,   -0.18) /* PCAPRecordedVelocityZ */;
+     , (29030, 8010,  -0.064) /* PCAPRecordedVelocityX */
+     , (29030, 8011,  -1.056) /* PCAPRecordedVelocityY */
+     , (29030, 8012,  -0.184) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29030,   1, 'Mana Cloud') /* Name */;

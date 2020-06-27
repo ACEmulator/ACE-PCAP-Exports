@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7979,  77,       1) /* PhysicsScriptIntensity */
      , (7979, 8010,       0) /* PCAPRecordedVelocityX */
      , (7979, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7979, 8012,   -0.23) /* PCAPRecordedVelocityZ */;
+     , (7979, 8012,  -0.228) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7979,   1, 'Virulent Grievver') /* Name */

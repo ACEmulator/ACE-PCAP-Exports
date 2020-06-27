@@ -16,9 +16,9 @@ VALUES (29033,  39,     0.5) /* DefaultScale */
      , (29033,  77,       1) /* PhysicsScriptIntensity */
      , (29033,  78,       1) /* Friction */
      , (29033,  79,       0) /* Elasticity */
-     , (29033, 8010,   -0.49) /* PCAPRecordedVelocityX */
-     , (29033, 8011,   -0.47) /* PCAPRecordedVelocityY */
-     , (29033, 8012,   -0.17) /* PCAPRecordedVelocityZ */;
+     , (29033, 8010,  -0.491) /* PCAPRecordedVelocityX */
+     , (29033, 8011,  -0.471) /* PCAPRecordedVelocityY */
+     , (29033, 8012,  -0.166) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29033,   1, 'White Spore Cloud') /* Name */;

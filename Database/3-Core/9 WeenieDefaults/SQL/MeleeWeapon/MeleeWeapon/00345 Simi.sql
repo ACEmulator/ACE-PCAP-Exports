@@ -38,12 +38,12 @@ VALUES (345,  22, True ) /* Inscribable */
      , (345,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (345,   5,   -0.04) /* ManaRate */
+VALUES (345,   5,  -0.042) /* ManaRate */
      , (345,  21,       0) /* WeaponLength */
-     , (345,  22,    0.59) /* DamageVariance */
+     , (345,  22,   0.587) /* DamageVariance */
      , (345,  26,       0) /* MaximumVelocity */
-     , (345,  29,    1.06) /* WeaponDefense */
-     , (345,  62,    1.07) /* WeaponOffense */
+     , (345,  29,   1.063) /* WeaponDefense */
+     , (345,  62,   1.067) /* WeaponOffense */
      , (345,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

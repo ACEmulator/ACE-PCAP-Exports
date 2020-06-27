@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27217,  13,     1.3) /* ArmorModVsSlash */
      , (27217,  14,       1) /* ArmorModVsPierce */
      , (27217,  15,       1) /* ArmorModVsBludgeon */
-     , (27217,  16,    0.96) /* ArmorModVsCold */
+     , (27217,  16,   0.962) /* ArmorModVsCold */
      , (27217,  17,    0.94) /* ArmorModVsFire */
      , (27217,  18,     0.6) /* ArmorModVsAcid */
      , (27217,  19,     0.4) /* ArmorModVsElectric */

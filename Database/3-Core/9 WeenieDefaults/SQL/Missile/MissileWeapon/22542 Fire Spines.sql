@@ -43,9 +43,9 @@ VALUES (22542,  21,       0) /* WeaponLength */
      , (22542,  79,       0) /* Elasticity */
      , (22542, 149,       0) /* WeaponMissileDefense */
      , (22542, 150,       0) /* WeaponMagicDefense */
-     , (22542, 8010,   14.56) /* PCAPRecordedVelocityX */
-     , (22542, 8011,   16.11) /* PCAPRecordedVelocityY */
-     , (22542, 8012,    4.35) /* PCAPRecordedVelocityZ */;
+     , (22542, 8010,  14.564) /* PCAPRecordedVelocityX */
+     , (22542, 8011,  16.114) /* PCAPRecordedVelocityY */
+     , (22542, 8012,   4.348) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22542,   1, 'Fire Spines') /* Name */;

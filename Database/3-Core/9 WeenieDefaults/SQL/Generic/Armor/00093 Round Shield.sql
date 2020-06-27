@@ -29,7 +29,7 @@ VALUES (93,  13,       1) /* ArmorModVsSlash */
      , (93,  15,     1.2) /* ArmorModVsBludgeon */
      , (93,  16,     0.6) /* ArmorModVsCold */
      , (93,  17,    1.03) /* ArmorModVsFire */
-     , (93,  18,    1.61) /* ArmorModVsAcid */
+     , (93,  18,   1.613) /* ArmorModVsAcid */
      , (93,  19,     0.6) /* ArmorModVsElectric */
      , (93, 165,       1) /* ArmorModVsNether */;
 

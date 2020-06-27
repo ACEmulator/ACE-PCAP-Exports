@@ -25,7 +25,7 @@ VALUES (46938,  22, True ) /* Inscribable */
      , (46938,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46938,   5,   -0.03) /* ManaRate */;
+VALUES (46938,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46938,   1, 'Modified Bracelet of Knowledge') /* Name */

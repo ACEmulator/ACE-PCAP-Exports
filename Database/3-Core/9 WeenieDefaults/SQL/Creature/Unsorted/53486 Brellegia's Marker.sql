@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53486,  54,       3) /* UseRadius */
      , (53486, 8010,       0) /* PCAPRecordedVelocityX */
      , (53486, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53486, 8012,   -0.15) /* PCAPRecordedVelocityZ */;
+     , (53486, 8012,  -0.147) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53486,   1, 'Brellegia''s Marker') /* Name */

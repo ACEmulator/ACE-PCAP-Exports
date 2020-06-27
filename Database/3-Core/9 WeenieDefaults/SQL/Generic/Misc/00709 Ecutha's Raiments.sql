@@ -17,7 +17,7 @@ VALUES (709,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (709, 8010,       0) /* PCAPRecordedVelocityX */
      , (709, 8011,       0) /* PCAPRecordedVelocityY */
-     , (709, 8012,   -0.86) /* PCAPRecordedVelocityZ */;
+     , (709, 8012,  -0.857) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (709,   1, 'Ecutha''s Raiments') /* Name */

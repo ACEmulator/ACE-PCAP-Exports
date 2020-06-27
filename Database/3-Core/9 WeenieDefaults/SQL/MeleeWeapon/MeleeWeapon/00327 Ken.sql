@@ -40,7 +40,7 @@ VALUES (327,  21,       0) /* WeaponLength */
      , (327,  29,    1.12) /* WeaponDefense */
      , (327,  62,    1.12) /* WeaponOffense */
      , (327,  63,       1) /* DamageMod */
-     , (327, 149,    1.01) /* WeaponMissileDefense */
+     , (327, 149,   1.015) /* WeaponMissileDefense */
      , (327, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

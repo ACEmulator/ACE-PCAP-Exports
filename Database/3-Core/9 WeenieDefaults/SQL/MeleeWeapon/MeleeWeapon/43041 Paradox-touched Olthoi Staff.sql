@@ -40,7 +40,7 @@ VALUES (43041,  22, True ) /* Inscribable */
      , (43041, 130, True ) /* AutowieldLeft */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43041,   5,   -0.03) /* ManaRate */
+VALUES (43041,   5,  -0.033) /* ManaRate */
      , (43041,  21,       0) /* WeaponLength */
      , (43041,  22,     0.3) /* DamageVariance */
      , (43041,  26,       0) /* MaximumVelocity */

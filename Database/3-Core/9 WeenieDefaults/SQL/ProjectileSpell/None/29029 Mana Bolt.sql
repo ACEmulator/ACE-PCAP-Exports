@@ -17,8 +17,8 @@ VALUES (29029,  39,     0.5) /* DefaultScale */
      , (29029,  78,       1) /* Friction */
      , (29029,  79,       0) /* Elasticity */
      , (29029, 8010,       0) /* PCAPRecordedVelocityX */
-     , (29029, 8011,   -14.1) /* PCAPRecordedVelocityY */
-     , (29029, 8012,   -0.32) /* PCAPRecordedVelocityZ */;
+     , (29029, 8011, -14.101) /* PCAPRecordedVelocityY */
+     , (29029, 8012,  -0.324) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29029,   1, 'Mana Bolt') /* Name */;

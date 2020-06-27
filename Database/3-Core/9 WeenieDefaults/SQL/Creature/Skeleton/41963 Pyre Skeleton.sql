@@ -20,7 +20,7 @@ VALUES (41963,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41963, 8010,       0) /* PCAPRecordedVelocityX */
      , (41963, 8011,       0) /* PCAPRecordedVelocityY */
-     , (41963, 8012,   -0.02) /* PCAPRecordedVelocityZ */;
+     , (41963, 8012,  -0.019) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41963,   1, 'Pyre Skeleton') /* Name */

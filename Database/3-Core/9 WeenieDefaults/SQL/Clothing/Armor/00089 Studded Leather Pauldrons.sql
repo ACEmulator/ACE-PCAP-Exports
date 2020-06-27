@@ -27,8 +27,8 @@ VALUES (89,  13,     1.2) /* ArmorModVsSlash */
      , (89,  14,     1.1) /* ArmorModVsPierce */
      , (89,  15,       1) /* ArmorModVsBludgeon */
      , (89,  16,     0.4) /* ArmorModVsCold */
-     , (89,  17,     1.2) /* ArmorModVsFire */
-     , (89,  18,    0.74) /* ArmorModVsAcid */
+     , (89,  17,   1.202) /* ArmorModVsFire */
+     , (89,  18,   0.745) /* ArmorModVsAcid */
      , (89,  19,     0.4) /* ArmorModVsElectric */
      , (89,  39,     1.1) /* DefaultScale */
      , (89, 165,       1) /* ArmorModVsNether */

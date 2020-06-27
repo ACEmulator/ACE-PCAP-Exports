@@ -21,7 +21,7 @@ VALUES (24940,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24940, 8010,       0) /* PCAPRecordedVelocityX */
      , (24940, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24940, 8012,   -0.02) /* PCAPRecordedVelocityZ */;
+     , (24940, 8012,  -0.017) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24940,   1, 'Gotrok Gigas') /* Name */

@@ -15,8 +15,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33722,  78,       1) /* Friction */
      , (33722,  79,       0) /* Elasticity */
      , (33722, 8010,   -1.39) /* PCAPRecordedVelocityX */
-     , (33722, 8011,   -9.15) /* PCAPRecordedVelocityY */
-     , (33722, 8012,    -0.5) /* PCAPRecordedVelocityZ */;
+     , (33722, 8011,  -9.148) /* PCAPRecordedVelocityY */
+     , (33722, 8012,  -0.504) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33722,   1, 'Force Ring') /* Name */;

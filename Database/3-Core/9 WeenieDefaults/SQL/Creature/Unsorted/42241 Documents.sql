@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42241,  54,       3) /* UseRadius */
      , (42241, 8010,       0) /* PCAPRecordedVelocityX */
      , (42241, 8011,       0) /* PCAPRecordedVelocityY */
-     , (42241, 8012,   -0.23) /* PCAPRecordedVelocityZ */;
+     , (42241, 8012,  -0.231) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42241,   1, 'Documents') /* Name */

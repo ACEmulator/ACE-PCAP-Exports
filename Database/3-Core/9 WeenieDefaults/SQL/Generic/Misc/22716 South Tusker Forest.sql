@@ -16,7 +16,7 @@ VALUES (22716,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22716, 8010,       0) /* PCAPRecordedVelocityX */
      , (22716, 8011,       0) /* PCAPRecordedVelocityY */
-     , (22716, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
+     , (22716, 8012,  -0.379) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22716,   1, 'South Tusker Forest') /* Name */

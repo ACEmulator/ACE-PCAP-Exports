@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24158,  54,       3) /* UseRadius */
      , (24158, 8010,       0) /* PCAPRecordedVelocityX */
      , (24158, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24158, 8012,   -0.16) /* PCAPRecordedVelocityZ */;
+     , (24158, 8012,  -0.163) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24158,   1, 'Chunk of Wood') /* Name */

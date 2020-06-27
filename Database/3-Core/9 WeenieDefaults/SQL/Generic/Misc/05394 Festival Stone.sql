@@ -18,7 +18,7 @@ VALUES (5394,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5394, 8010,       0) /* PCAPRecordedVelocityX */
      , (5394, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5394, 8012,   -0.23) /* PCAPRecordedVelocityZ */;
+     , (5394, 8012,  -0.227) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5394,   1, 'Festival Stone') /* Name */

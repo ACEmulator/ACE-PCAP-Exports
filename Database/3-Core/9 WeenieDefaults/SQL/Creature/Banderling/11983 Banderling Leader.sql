@@ -20,9 +20,9 @@ VALUES (11983,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11983,  39,     1.8) /* DefaultScale */
-     , (11983, 8010,   -0.22) /* PCAPRecordedVelocityX */
-     , (11983, 8011,   -0.44) /* PCAPRecordedVelocityY */
-     , (11983, 8012,   -0.18) /* PCAPRecordedVelocityZ */;
+     , (11983, 8010,  -0.218) /* PCAPRecordedVelocityX */
+     , (11983, 8011,  -0.435) /* PCAPRecordedVelocityY */
+     , (11983, 8012,  -0.181) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11983,   1, 'Banderling Leader') /* Name */

@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14872,  39,     1.1) /* DefaultScale */
      , (14872,  76,    0.25) /* Translucency */
      , (14872,  77,       1) /* PhysicsScriptIntensity */
-     , (14872, 8010,    0.17) /* PCAPRecordedVelocityX */
-     , (14872, 8011,    0.17) /* PCAPRecordedVelocityY */
-     , (14872, 8012,   -0.03) /* PCAPRecordedVelocityZ */;
+     , (14872, 8010,   0.175) /* PCAPRecordedVelocityX */
+     , (14872, 8011,   0.175) /* PCAPRecordedVelocityY */
+     , (14872, 8012,  -0.029) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14872,   1, 'Altered Olthoi') /* Name */

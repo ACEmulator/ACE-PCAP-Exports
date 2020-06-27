@@ -48,9 +48,9 @@ VALUES (46630,  21,       0) /* WeaponLength */
      , (46630,  79,       0) /* Elasticity */
      , (46630, 149,       0) /* WeaponMissileDefense */
      , (46630, 150,       0) /* WeaponMagicDefense */
-     , (46630, 8010,  -13.04) /* PCAPRecordedVelocityX */
-     , (46630, 8011,   -21.8) /* PCAPRecordedVelocityY */
-     , (46630, 8012,   -1.12) /* PCAPRecordedVelocityZ */;
+     , (46630, 8010, -13.039) /* PCAPRecordedVelocityX */
+     , (46630, 8011, -21.802) /* PCAPRecordedVelocityY */
+     , (46630, 8012,  -1.124) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46630,   1, 'Greater Deadly Acid Arrow') /* Name */;

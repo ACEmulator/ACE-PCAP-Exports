@@ -16,9 +16,9 @@ VALUES (52492,  39,     0.5) /* DefaultScale */
      , (52492,  77,       1) /* PhysicsScriptIntensity */
      , (52492,  78,       1) /* Friction */
      , (52492,  79,       0) /* Elasticity */
-     , (52492, 8010,  -18.16) /* PCAPRecordedVelocityX */
-     , (52492, 8011,  -14.31) /* PCAPRecordedVelocityY */
-     , (52492, 8012,    1.53) /* PCAPRecordedVelocityZ */;
+     , (52492, 8010, -18.164) /* PCAPRecordedVelocityX */
+     , (52492, 8011, -14.312) /* PCAPRecordedVelocityY */
+     , (52492, 8012,   1.527) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52492,   1, 'Thorn Bolt') /* Name */;

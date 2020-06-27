@@ -21,10 +21,10 @@ VALUES (12211,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12211,  13,     0.5) /* ArmorModVsSlash */
      , (12211,  14,    0.35) /* ArmorModVsPierce */
-     , (12211,  15,    0.38) /* ArmorModVsBludgeon */
+     , (12211,  15,   0.375) /* ArmorModVsBludgeon */
      , (12211,  16,     0.2) /* ArmorModVsCold */
      , (12211,  17,     0.5) /* ArmorModVsFire */
-     , (12211,  18,    0.38) /* ArmorModVsAcid */
+     , (12211,  18,   0.375) /* ArmorModVsAcid */
      , (12211,  19,    0.43) /* ArmorModVsElectric */
      , (12211, 165,       1) /* ArmorModVsNether */;
 

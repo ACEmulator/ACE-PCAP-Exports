@@ -19,8 +19,8 @@ VALUES (12027,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12027, 8010,       0) /* PCAPRecordedVelocityX */
-     , (12027, 8011,    5.41) /* PCAPRecordedVelocityY */
-     , (12027, 8012,    -3.6) /* PCAPRecordedVelocityZ */;
+     , (12027, 8011,   5.407) /* PCAPRecordedVelocityY */
+     , (12027, 8012,  -3.605) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12027,   1, 'Lord of Decay') /* Name */

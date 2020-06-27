@@ -22,7 +22,7 @@ VALUES (21392,  22, True ) /* Inscribable */
      , (21392,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21392,   5,   -0.03) /* ManaRate */;
+VALUES (21392,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21392,   1, 'Bracelet of Knowledge') /* Name */

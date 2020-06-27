@@ -28,7 +28,7 @@ VALUES (29930,  22, True ) /* Inscribable */
      , (29930,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29930,   5,   -0.03) /* ManaRate */
+VALUES (29930,   5,  -0.033) /* ManaRate */
      , (29930,  29,     1.1) /* WeaponDefense */
      , (29930, 144,    0.12) /* ManaConversionMod */
      , (29930, 147,       1) /* CriticalFrequency */;

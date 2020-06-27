@@ -38,7 +38,7 @@ VALUES (1427,   5,    -0.1) /* ManaRate */
      , (1427,  21,       0) /* WeaponLength */
      , (1427,  22,     0.5) /* DamageVariance */
      , (1427,  26,       0) /* MaximumVelocity */
-     , (1427,  29,    1.08) /* WeaponDefense */
+     , (1427,  29,   1.075) /* WeaponDefense */
      , (1427,  62,       1) /* WeaponOffense */
      , (1427,  63,       1) /* DamageMod */;
 

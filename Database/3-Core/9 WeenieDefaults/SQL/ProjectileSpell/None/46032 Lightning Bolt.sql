@@ -14,9 +14,9 @@ VALUES (46032,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46032,  78,       1) /* Friction */
      , (46032,  79,       0) /* Elasticity */
-     , (46032, 8010,   -2.09) /* PCAPRecordedVelocityX */
-     , (46032, 8011,    5.37) /* PCAPRecordedVelocityY */
-     , (46032, 8012,    -0.6) /* PCAPRecordedVelocityZ */;
+     , (46032, 8010,  -2.092) /* PCAPRecordedVelocityX */
+     , (46032, 8011,   5.367) /* PCAPRecordedVelocityY */
+     , (46032, 8012,  -0.596) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46032,   1, 'Lightning Bolt') /* Name */;

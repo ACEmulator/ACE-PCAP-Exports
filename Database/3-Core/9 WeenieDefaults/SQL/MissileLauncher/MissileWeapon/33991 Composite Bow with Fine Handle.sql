@@ -39,7 +39,7 @@ VALUES (33991,   5,   -0.05) /* ManaRate */
      , (33991,  21,       0) /* WeaponLength */
      , (33991,  22,       0) /* DamageVariance */
      , (33991,  26,    27.3) /* MaximumVelocity */
-     , (33991,  29,    1.31) /* WeaponDefense */
+     , (33991,  29,   1.305) /* WeaponDefense */
      , (33991,  39,     1.1) /* DefaultScale */
      , (33991,  62,       1) /* WeaponOffense */
      , (33991,  63,     2.5) /* DamageMod */

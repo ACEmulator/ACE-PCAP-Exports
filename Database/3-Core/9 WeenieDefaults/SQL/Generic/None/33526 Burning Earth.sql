@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33526,  77,       1) /* PhysicsScriptIntensity */
      , (33526,  78,       1) /* Friction */
      , (33526,  79,       0) /* Elasticity */
-     , (33526, 8010,   -0.08) /* PCAPRecordedVelocityX */
-     , (33526, 8011,    0.45) /* PCAPRecordedVelocityY */
-     , (33526, 8012,   -0.39) /* PCAPRecordedVelocityZ */;
+     , (33526, 8010,  -0.076) /* PCAPRecordedVelocityX */
+     , (33526, 8011,   0.454) /* PCAPRecordedVelocityY */
+     , (33526, 8012,  -0.385) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33526,   1, 'Burning Earth') /* Name */;

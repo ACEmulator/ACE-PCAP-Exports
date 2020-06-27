@@ -41,7 +41,7 @@ VALUES (309,  21,       0) /* WeaponLength */
      , (309,  39,    1.25) /* DefaultScale */
      , (309,  62,    1.05) /* WeaponOffense */
      , (309,  63,       1) /* DamageMod */
-     , (309, 149,       1) /* WeaponMissileDefense */;
+     , (309, 149,   1.005) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (309,   1, 'Club') /* Name */

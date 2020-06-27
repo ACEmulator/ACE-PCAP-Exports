@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14521,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14521, 8010,    4.35) /* PCAPRecordedVelocityX */
+VALUES (14521, 8010,   4.349) /* PCAPRecordedVelocityX */
      , (14521, 8011,       0) /* PCAPRecordedVelocityY */
-     , (14521, 8012,   -3.57) /* PCAPRecordedVelocityZ */;
+     , (14521, 8012,  -3.571) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14521,   1, 'Glacial Golem') /* Name */

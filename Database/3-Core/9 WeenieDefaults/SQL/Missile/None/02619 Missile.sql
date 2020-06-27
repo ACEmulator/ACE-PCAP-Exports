@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2619,  77,       1) /* PhysicsScriptIntensity */
      , (2619,  78,       1) /* Friction */
      , (2619,  79,       0) /* Elasticity */
-     , (2619, 8010,   10.43) /* PCAPRecordedVelocityX */
-     , (2619, 8011,   -1.56) /* PCAPRecordedVelocityY */
-     , (2619, 8012,   10.67) /* PCAPRecordedVelocityZ */;
+     , (2619, 8010,  10.429) /* PCAPRecordedVelocityX */
+     , (2619, 8011,  -1.557) /* PCAPRecordedVelocityY */
+     , (2619, 8012,  10.668) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2619,   1, 'Missile') /* Name */;

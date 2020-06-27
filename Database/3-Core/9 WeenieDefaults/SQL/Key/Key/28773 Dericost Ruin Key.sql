@@ -19,7 +19,7 @@ VALUES (28773,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28773, 8010,       0) /* PCAPRecordedVelocityX */
      , (28773, 8011,       0) /* PCAPRecordedVelocityY */
-     , (28773, 8012,   -0.17) /* PCAPRecordedVelocityZ */;
+     , (28773, 8012,  -0.167) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28773,   1, 'Dericost Ruin Key') /* Name */;

@@ -41,7 +41,7 @@ VALUES (40625,  21,       0) /* WeaponLength */
      , (40625,  29,    1.04) /* WeaponDefense */
      , (40625,  62,    1.06) /* WeaponOffense */
      , (40625,  63,       1) /* DamageMod */
-     , (40625, 149,    1.01) /* WeaponMissileDefense */
+     , (40625, 149,   1.015) /* WeaponMissileDefense */
      , (40625, 8004,       3) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

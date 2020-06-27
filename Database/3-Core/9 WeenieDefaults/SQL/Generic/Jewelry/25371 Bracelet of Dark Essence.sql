@@ -28,7 +28,7 @@ VALUES (25371,  22, True ) /* Inscribable */
      , (25371,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25371,   5,   -0.03) /* ManaRate */;
+VALUES (25371,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25371,   1, 'Bracelet of Dark Essence') /* Name */

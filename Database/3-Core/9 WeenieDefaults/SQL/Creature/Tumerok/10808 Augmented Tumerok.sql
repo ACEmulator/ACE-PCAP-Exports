@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10808,  39,     1.3) /* DefaultScale */
      , (10808, 8010,       0) /* PCAPRecordedVelocityX */
      , (10808, 8011,       0) /* PCAPRecordedVelocityY */
-     , (10808, 8012,   -0.15) /* PCAPRecordedVelocityZ */;
+     , (10808, 8012,  -0.149) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10808,   1, 'Augmented Tumerok') /* Name */

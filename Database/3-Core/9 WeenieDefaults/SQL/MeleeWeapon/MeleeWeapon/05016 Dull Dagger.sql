@@ -29,7 +29,7 @@ VALUES (5016,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5016,  21,       0) /* WeaponLength */
-     , (5016,  22,    0.94) /* DamageVariance */
+     , (5016,  22,   0.938) /* DamageVariance */
      , (5016,  26,       0) /* MaximumVelocity */
      , (5016,  29,       1) /* WeaponDefense */
      , (5016,  62,       1) /* WeaponOffense */

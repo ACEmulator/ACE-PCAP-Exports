@@ -28,9 +28,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42754,  13,     1.3) /* ArmorModVsSlash */
      , (42754,  14,       1) /* ArmorModVsPierce */
      , (42754,  15,       1) /* ArmorModVsBludgeon */
-     , (42754,  16,    0.85) /* ArmorModVsCold */
-     , (42754,  17,    0.66) /* ArmorModVsFire */
-     , (42754,  18,    1.24) /* ArmorModVsAcid */
+     , (42754,  16,   0.847) /* ArmorModVsCold */
+     , (42754,  17,   0.663) /* ArmorModVsFire */
+     , (42754,  18,   1.244) /* ArmorModVsAcid */
      , (42754,  19,     0.4) /* ArmorModVsElectric */
      , (42754,  39,     1.1) /* DefaultScale */
      , (42754, 165,       1) /* ArmorModVsNether */

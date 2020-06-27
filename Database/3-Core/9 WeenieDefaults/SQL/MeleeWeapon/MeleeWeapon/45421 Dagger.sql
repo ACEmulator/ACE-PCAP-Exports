@@ -48,7 +48,7 @@ VALUES (45421,   5,   -0.05) /* ManaRate */
      , (45421,  29,    1.08) /* WeaponDefense */
      , (45421,  62,    1.07) /* WeaponOffense */
      , (45421,  63,       1) /* DamageMod */
-     , (45421, 149,    1.01) /* WeaponMissileDefense */
+     , (45421, 149,   1.015) /* WeaponMissileDefense */
      , (45421, 150,    1.01) /* WeaponMagicDefense */
      , (45421, 8004,       6) /* PCAPRecordedWorkmanship */;
 

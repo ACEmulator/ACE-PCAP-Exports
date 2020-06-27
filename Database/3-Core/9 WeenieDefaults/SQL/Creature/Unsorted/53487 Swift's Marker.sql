@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53487,  54,       3) /* UseRadius */
      , (53487, 8010,       0) /* PCAPRecordedVelocityX */
      , (53487, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53487, 8012,   -0.16) /* PCAPRecordedVelocityZ */;
+     , (53487, 8012,  -0.161) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53487,   1, 'Swift''s Marker') /* Name */

@@ -46,7 +46,7 @@ VALUES (38343,  39,     0.3) /* DefaultScale */
      , (38343,  54,       2) /* UseRadius */
      , (38343, 8010,       0) /* PCAPRecordedVelocityX */
      , (38343, 8011,       0) /* PCAPRecordedVelocityY */
-     , (38343, 8012,   -0.01) /* PCAPRecordedVelocityZ */;
+     , (38343, 8012,  -0.013) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38343,   1, 'Coral Hollow') /* Name */

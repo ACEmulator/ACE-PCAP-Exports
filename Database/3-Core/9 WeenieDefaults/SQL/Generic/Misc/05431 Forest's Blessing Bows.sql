@@ -16,7 +16,7 @@ VALUES (5431,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5431, 8010,       0) /* PCAPRecordedVelocityX */
      , (5431, 8011,       0) /* PCAPRecordedVelocityY */
-     , (5431, 8012,   -0.39) /* PCAPRecordedVelocityZ */;
+     , (5431, 8012,  -0.385) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5431,   1, 'Forest''s Blessing Bows') /* Name */

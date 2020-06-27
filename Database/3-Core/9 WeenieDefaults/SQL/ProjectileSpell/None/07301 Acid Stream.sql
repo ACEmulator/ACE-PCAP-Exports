@@ -16,9 +16,9 @@ VALUES (7301,  39,     0.5) /* DefaultScale */
      , (7301,  77,       1) /* PhysicsScriptIntensity */
      , (7301,  78,       1) /* Friction */
      , (7301,  79,       0) /* Elasticity */
-     , (7301, 8010,    3.89) /* PCAPRecordedVelocityX */
-     , (7301, 8011,    0.46) /* PCAPRecordedVelocityY */
-     , (7301, 8012,   16.69) /* PCAPRecordedVelocityZ */;
+     , (7301, 8010,   3.892) /* PCAPRecordedVelocityX */
+     , (7301, 8011,   0.457) /* PCAPRecordedVelocityY */
+     , (7301, 8012,  16.688) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7301,   1, 'Acid Stream') /* Name */;

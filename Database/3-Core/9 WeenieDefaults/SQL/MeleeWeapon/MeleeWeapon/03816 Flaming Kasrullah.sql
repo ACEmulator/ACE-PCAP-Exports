@@ -48,7 +48,7 @@ VALUES (3816,   5,   -0.05) /* ManaRate */
      , (3816,  29,     1.1) /* WeaponDefense */
      , (3816,  62,    1.07) /* WeaponOffense */
      , (3816,  63,       1) /* DamageMod */
-     , (3816, 149,    1.01) /* WeaponMissileDefense */
+     , (3816, 149,   1.015) /* WeaponMissileDefense */
      , (3816, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

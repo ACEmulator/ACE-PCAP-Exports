@@ -17,7 +17,7 @@ VALUES (4383,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4383, 8010,       0) /* PCAPRecordedVelocityX */
      , (4383, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4383, 8012,   -0.28) /* PCAPRecordedVelocityZ */;
+     , (4383, 8012,  -0.283) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4383,   1, 'Vat') /* Name */;

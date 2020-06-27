@@ -40,7 +40,7 @@ VALUES (37478,   5,   -0.05) /* ManaRate */
      , (37478,  39,     0.7) /* DefaultScale */
      , (37478,  76,     0.7) /* Translucency */
      , (37478, 136,       1) /* CriticalMultiplier */
-     , (37478, 144,    0.26) /* ManaConversionMod */
+     , (37478, 144,   0.255) /* ManaConversionMod */
      , (37478, 147,       1) /* CriticalFrequency */
      , (37478, 152,    1.27) /* ElementalDamageMod */
      , (37478, 157,       1) /* ResistanceModifier */;

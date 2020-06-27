@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36454,  77,       1) /* PhysicsScriptIntensity */
      , (36454,  78,       1) /* Friction */
      , (36454,  79,       0) /* Elasticity */
-     , (36454, 8010,  -15.93) /* PCAPRecordedVelocityX */
-     , (36454, 8011,    5.16) /* PCAPRecordedVelocityY */
-     , (36454, 8012,   -1.35) /* PCAPRecordedVelocityZ */;
+     , (36454, 8010, -15.934) /* PCAPRecordedVelocityX */
+     , (36454, 8011,   5.157) /* PCAPRecordedVelocityY */
+     , (36454, 8012,  -1.353) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36454,   1, 'Spectral Flame') /* Name */;

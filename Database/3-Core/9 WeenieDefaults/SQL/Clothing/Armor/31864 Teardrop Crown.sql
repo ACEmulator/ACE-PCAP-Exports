@@ -36,7 +36,7 @@ VALUES (31864,  22, True ) /* Inscribable */
      , (31864, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31864,   5,   -0.06) /* ManaRate */
+VALUES (31864,   5,  -0.056) /* ManaRate */
      , (31864,  13,     1.3) /* ArmorModVsSlash */
      , (31864,  14,       1) /* ArmorModVsPierce */
      , (31864,  15,       1) /* ArmorModVsBludgeon */

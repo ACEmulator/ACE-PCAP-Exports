@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30893,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30893, 8010,    0.12) /* PCAPRecordedVelocityX */
-     , (30893, 8011,    0.16) /* PCAPRecordedVelocityY */
-     , (30893, 8012,   -0.08) /* PCAPRecordedVelocityZ */;
+VALUES (30893, 8010,   0.122) /* PCAPRecordedVelocityX */
+     , (30893, 8011,   0.163) /* PCAPRecordedVelocityY */
+     , (30893, 8012,  -0.085) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30893,   1, 'Fallen Marionette') /* Name */

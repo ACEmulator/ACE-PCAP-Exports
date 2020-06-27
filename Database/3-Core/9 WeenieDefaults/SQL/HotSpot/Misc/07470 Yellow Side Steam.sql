@@ -17,7 +17,7 @@ VALUES (7470,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7470, 8010,       0) /* PCAPRecordedVelocityX */
      , (7470, 8011,       0) /* PCAPRecordedVelocityY */
-     , (7470, 8012,   -2.57) /* PCAPRecordedVelocityZ */;
+     , (7470, 8012,  -2.572) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7470,   1, 'Yellow Side Steam') /* Name */;

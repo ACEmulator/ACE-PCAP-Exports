@@ -22,7 +22,7 @@ VALUES (44809,  39,     1.6) /* DefaultScale */
      , (44809,  77,       1) /* PhysicsScriptIntensity */
      , (44809, 8010,       0) /* PCAPRecordedVelocityX */
      , (44809, 8011,       0) /* PCAPRecordedVelocityY */
-     , (44809, 8012,   -0.04) /* PCAPRecordedVelocityZ */;
+     , (44809, 8012,  -0.038) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44809,   1, 'Grievver Shredder') /* Name */

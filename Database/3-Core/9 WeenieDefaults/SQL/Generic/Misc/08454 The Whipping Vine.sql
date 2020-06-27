@@ -16,7 +16,7 @@ VALUES (8454,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8454, 8010,       0) /* PCAPRecordedVelocityX */
      , (8454, 8011,       0) /* PCAPRecordedVelocityY */
-     , (8454, 8012,   -0.38) /* PCAPRecordedVelocityZ */;
+     , (8454, 8012,  -0.377) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8454,   1, 'The Whipping Vine') /* Name */

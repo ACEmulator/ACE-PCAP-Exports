@@ -34,7 +34,7 @@ VALUES (33206,   5,   -0.05) /* ManaRate */
      , (33206,  39,     1.5) /* DefaultScale */
      , (33206, 144,     0.2) /* ManaConversionMod */
      , (33206, 147,       1) /* CriticalFrequency */
-     , (33206, 150,    1.02) /* WeaponMagicDefense */
+     , (33206, 150,   1.025) /* WeaponMagicDefense */
      , (33206, 152,     1.2) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

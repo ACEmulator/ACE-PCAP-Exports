@@ -16,9 +16,9 @@ VALUES (7305,  39,     0.8) /* DefaultScale */
      , (7305,  77,       1) /* PhysicsScriptIntensity */
      , (7305,  78,       1) /* Friction */
      , (7305,  79,       0) /* Elasticity */
-     , (7305, 8010,   -9.23) /* PCAPRecordedVelocityX */
+     , (7305, 8010,  -9.232) /* PCAPRecordedVelocityX */
      , (7305, 8011,   -9.52) /* PCAPRecordedVelocityY */
-     , (7305, 8012,  -17.23) /* PCAPRecordedVelocityZ */;
+     , (7305, 8012, -17.232) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7305,   1, 'Lightning Bolt') /* Name */;

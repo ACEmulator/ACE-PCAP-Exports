@@ -42,7 +42,7 @@ VALUES (32522,   1, True ) /* Stuck */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32522, 8010,       0) /* PCAPRecordedVelocityX */
      , (32522, 8011,       0) /* PCAPRecordedVelocityY */
-     , (32522, 8012,   -0.89) /* PCAPRecordedVelocityZ */;
+     , (32522, 8012,  -0.892) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32522,   1, 'Portal Pillar') /* Name */

@@ -16,8 +16,8 @@ VALUES (43344,  77,       1) /* PhysicsScriptIntensity */
      , (43344,  78,       1) /* Friction */
      , (43344,  79,       0) /* Elasticity */
      , (43344, 8010,    -0.6) /* PCAPRecordedVelocityX */
-     , (43344, 8011,  -12.97) /* PCAPRecordedVelocityY */
-     , (43344, 8012,    6.77) /* PCAPRecordedVelocityZ */;
+     , (43344, 8011, -12.972) /* PCAPRecordedVelocityY */
+     , (43344, 8012,   6.774) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43344,   1, 'Nether Bolt') /* Name */;

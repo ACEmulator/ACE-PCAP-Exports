@@ -36,7 +36,7 @@ VALUES (37225,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37225,  29,    1.45) /* WeaponDefense */
      , (37225,  39,     0.6) /* DefaultScale */
-     , (37225, 144,    0.14) /* ManaConversionMod */
+     , (37225, 144,   0.144) /* ManaConversionMod */
      , (37225, 152,    1.22) /* ElementalDamageMod */
      , (37225, 8004,       9) /* PCAPRecordedWorkmanship */;
 

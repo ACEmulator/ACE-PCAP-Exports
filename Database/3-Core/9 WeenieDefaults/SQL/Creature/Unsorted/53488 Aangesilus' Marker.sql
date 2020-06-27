@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53488,  54,       3) /* UseRadius */
      , (53488, 8010,       0) /* PCAPRecordedVelocityX */
      , (53488, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53488, 8012,    -0.3) /* PCAPRecordedVelocityZ */;
+     , (53488, 8012,  -0.298) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53488,   1, 'Aangesilus'' Marker') /* Name */

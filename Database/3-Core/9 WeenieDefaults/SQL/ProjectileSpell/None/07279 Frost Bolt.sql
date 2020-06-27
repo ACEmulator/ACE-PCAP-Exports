@@ -17,8 +17,8 @@ VALUES (7279,  39,     0.4) /* DefaultScale */
      , (7279,  78,       1) /* Friction */
      , (7279,  79,       0) /* Elasticity */
      , (7279, 8010,    3.89) /* PCAPRecordedVelocityX */
-     , (7279, 8011,    0.44) /* PCAPRecordedVelocityY */
-     , (7279, 8012,    0.82) /* PCAPRecordedVelocityZ */;
+     , (7279, 8011,   0.442) /* PCAPRecordedVelocityY */
+     , (7279, 8012,   0.818) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7279,   1, 'Frost Bolt') /* Name */;

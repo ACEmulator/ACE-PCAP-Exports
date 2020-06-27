@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25804,  39,     1.2) /* DefaultScale */
      , (25804, 8010,       0) /* PCAPRecordedVelocityX */
      , (25804, 8011,       0) /* PCAPRecordedVelocityY */
-     , (25804, 8012,   -0.03) /* PCAPRecordedVelocityZ */;
+     , (25804, 8012,  -0.032) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25804,   1, 'Armored Skeleton Lord') /* Name */
