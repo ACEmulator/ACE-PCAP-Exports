@@ -6,8 +6,8 @@ VALUES (40802, 'ace40802-apostatenexushollowminion', 10, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40802,   1,         16) /* ItemType - Creature */
      , (40802,   2,         48) /* CreatureType - HollowMinion */
-     , (40802,   6,        255) /* ItemsCapacity */
-     , (40802,   7,        255) /* ContainersCapacity */
+     , (40802,   6,         -1) /* ItemsCapacity */
+     , (40802,   7,         -1) /* ContainersCapacity */
      , (40802,  16,          1) /* ItemUseable - No */
      , (40802,  25,        220) /* Level */
      , (40802,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

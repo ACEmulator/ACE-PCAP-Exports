@@ -6,8 +6,8 @@ VALUES (46305, 'ace46305-frigidicegolem', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46305,   1,         16) /* ItemType - Creature */
      , (46305,   2,         13) /* CreatureType - Golem */
-     , (46305,   6,        255) /* ItemsCapacity */
-     , (46305,   7,        255) /* ContainersCapacity */
+     , (46305,   6,         -1) /* ItemsCapacity */
+     , (46305,   7,         -1) /* ContainersCapacity */
      , (46305,  16,          1) /* ItemUseable - No */
      , (46305,  25,        200) /* Level */
      , (46305,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

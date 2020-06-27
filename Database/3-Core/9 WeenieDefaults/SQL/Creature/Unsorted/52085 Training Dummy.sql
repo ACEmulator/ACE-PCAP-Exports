@@ -6,8 +6,8 @@ VALUES (52085, 'ace52085-trainingdummy', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52085,   1,         16) /* ItemType - Creature */
      , (52085,   5,        901) /* EncumbranceVal */
-     , (52085,   6,        255) /* ItemsCapacity */
-     , (52085,   7,        255) /* ContainersCapacity */
+     , (52085,   6,         -1) /* ItemsCapacity */
+     , (52085,   7,         -1) /* ContainersCapacity */
      , (52085,  16,          1) /* ItemUseable - No */
      , (52085,  44,          0) /* Damage */
      , (52085,  45,          3) /* DamageType - Slash, Pierce */

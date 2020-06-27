@@ -6,8 +6,8 @@ VALUES (40972, 'ace40972-smithaishabintkaral', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40972,   1,         16) /* ItemType - Creature */
      , (40972,   2,         31) /* CreatureType - Human */
-     , (40972,   6,        255) /* ItemsCapacity */
-     , (40972,   7,        255) /* ContainersCapacity */
+     , (40972,   6,         -1) /* ItemsCapacity */
+     , (40972,   7,         -1) /* ContainersCapacity */
      , (40972,  16,         32) /* ItemUseable - Remote */
      , (40972,  25,         16) /* Level */
      , (40972,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

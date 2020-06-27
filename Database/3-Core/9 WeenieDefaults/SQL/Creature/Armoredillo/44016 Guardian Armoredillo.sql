@@ -6,8 +6,8 @@ VALUES (44016, 'ace44016-guardianarmoredillo', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44016,   1,         16) /* ItemType - Creature */
      , (44016,   2,         17) /* CreatureType - Armoredillo */
-     , (44016,   6,        255) /* ItemsCapacity */
-     , (44016,   7,        255) /* ContainersCapacity */
+     , (44016,   6,         -1) /* ItemsCapacity */
+     , (44016,   7,         -1) /* ContainersCapacity */
      , (44016,  16,          1) /* ItemUseable - No */
      , (44016,  25,        220) /* Level */
      , (44016,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (31338, 'ace31338-gronkthehammer', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31338,   1,         16) /* ItemType - Creature */
      , (31338,   2,         31) /* CreatureType - Human */
-     , (31338,   6,        255) /* ItemsCapacity */
-     , (31338,   7,        255) /* ContainersCapacity */
+     , (31338,   6,         -1) /* ItemsCapacity */
+     , (31338,   7,         -1) /* ContainersCapacity */
      , (31338,  16,          1) /* ItemUseable - No */
      , (31338,  25,        160) /* Level */
      , (31338,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

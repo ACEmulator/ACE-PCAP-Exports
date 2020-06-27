@@ -6,8 +6,8 @@ VALUES (49654, 'ace49654-wahamibnfadyattheshopkeeper', 10, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49654,   1,         16) /* ItemType - Creature */
      , (49654,   2,         31) /* CreatureType - Human */
-     , (49654,   6,        255) /* ItemsCapacity */
-     , (49654,   7,        255) /* ContainersCapacity */
+     , (49654,   6,         -1) /* ItemsCapacity */
+     , (49654,   7,         -1) /* ContainersCapacity */
      , (49654,  16,          1) /* ItemUseable - No */
      , (49654,  25,         11) /* Level */
      , (49654,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

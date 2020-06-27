@@ -6,8 +6,8 @@ VALUES (656, 'easthamshopkeep', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (656,   1,         16) /* ItemType - Creature */
      , (656,   2,         31) /* CreatureType - Human */
-     , (656,   6,        255) /* ItemsCapacity */
-     , (656,   7,        255) /* ContainersCapacity */
+     , (656,   6,         -1) /* ItemsCapacity */
+     , (656,   7,         -1) /* ContainersCapacity */
      , (656,  16,         32) /* ItemUseable - Remote */
      , (656,  25,          4) /* Level */
      , (656,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

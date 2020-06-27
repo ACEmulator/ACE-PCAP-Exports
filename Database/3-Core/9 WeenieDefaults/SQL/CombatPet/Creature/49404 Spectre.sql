@@ -6,8 +6,8 @@ VALUES (49404, 'ace49404-ferahpalacostsspectre', 71, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49404,   1,         16) /* ItemType - Creature */
      , (49404,   2,         77) /* CreatureType - Ghost */
-     , (49404,   6,        255) /* ItemsCapacity */
-     , (49404,   7,        255) /* ContainersCapacity */
+     , (49404,   6,         -1) /* ItemsCapacity */
+     , (49404,   7,         -1) /* ContainersCapacity */
      , (49404,  16,          1) /* ItemUseable - No */
      , (49404,  25,        125) /* Level */
      , (49404,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

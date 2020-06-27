@@ -6,8 +6,8 @@ VALUES (24576, 'leathercraftercandethkeep', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24576,   1,         16) /* ItemType - Creature */
      , (24576,   2,         57) /* CreatureType - AunTumerok */
-     , (24576,   6,        255) /* ItemsCapacity */
-     , (24576,   7,        255) /* ContainersCapacity */
+     , (24576,   6,         -1) /* ItemsCapacity */
+     , (24576,   7,         -1) /* ContainersCapacity */
      , (24576,  16,         32) /* ItemUseable - Remote */
      , (24576,  25,         78) /* Level */
      , (24576,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

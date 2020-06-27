@@ -5,8 +5,8 @@ VALUES (51656, 'ace51656-aetheriumore', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51656,   1,         16) /* ItemType - Creature */
-     , (51656,   6,        255) /* ItemsCapacity */
-     , (51656,   7,        255) /* ContainersCapacity */
+     , (51656,   6,         -1) /* ItemsCapacity */
+     , (51656,   7,         -1) /* ContainersCapacity */
      , (51656,  16,          1) /* ItemUseable - No */
      , (51656,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51656,  95,          8) /* RadarBlipColor - Yellow */

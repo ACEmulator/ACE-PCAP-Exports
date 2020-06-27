@@ -6,8 +6,8 @@ VALUES (51938, 'ace51938-tormentedsorcerer', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51938,   1,         16) /* ItemType - Creature */
      , (51938,   2,         19) /* CreatureType - Virindi */
-     , (51938,   6,        255) /* ItemsCapacity */
-     , (51938,   7,        255) /* ContainersCapacity */
+     , (51938,   6,         -1) /* ItemsCapacity */
+     , (51938,   7,         -1) /* ContainersCapacity */
      , (51938,  16,          1) /* ItemUseable - No */
      , (51938,  25,        300) /* Level */
      , (51938,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

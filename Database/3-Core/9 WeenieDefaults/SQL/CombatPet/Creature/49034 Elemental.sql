@@ -6,8 +6,8 @@ VALUES (49034, 'ace49034-mirachselemental', 71, '2019-02-10 00:00:00') /* Combat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49034,   1,         16) /* ItemType - Creature */
      , (49034,   2,         62) /* CreatureType - Elemental */
-     , (49034,   6,        255) /* ItemsCapacity */
-     , (49034,   7,        255) /* ContainersCapacity */
+     , (49034,   6,         -1) /* ItemsCapacity */
+     , (49034,   7,         -1) /* ContainersCapacity */
      , (49034,  16,          1) /* ItemUseable - No */
      , (49034,  25,        125) /* Level */
      , (49034,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

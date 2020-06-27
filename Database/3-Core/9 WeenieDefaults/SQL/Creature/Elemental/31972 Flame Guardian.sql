@@ -6,8 +6,8 @@ VALUES (31972, 'ace31972-flameguardian', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31972,   1,         16) /* ItemType - Creature */
      , (31972,   2,         62) /* CreatureType - Elemental */
-     , (31972,   6,        255) /* ItemsCapacity */
-     , (31972,   7,        255) /* ContainersCapacity */
+     , (31972,   6,         -1) /* ItemsCapacity */
+     , (31972,   7,         -1) /* ContainersCapacity */
      , (31972,  16,         32) /* ItemUseable - Remote */
      , (31972,  25,        500) /* Level */
      , (31972,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

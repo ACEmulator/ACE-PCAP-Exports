@@ -6,8 +6,8 @@ VALUES (51271, 'ace51271-tressar', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51271,   1,         16) /* ItemType - Creature */
      , (51271,   2,         14) /* CreatureType - Undead */
-     , (51271,   6,        255) /* ItemsCapacity */
-     , (51271,   7,        255) /* ContainersCapacity */
+     , (51271,   6,         -1) /* ItemsCapacity */
+     , (51271,   7,         -1) /* ContainersCapacity */
      , (51271,  16,         32) /* ItemUseable - Remote */
      , (51271,  25,        180) /* Level */
      , (51271,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

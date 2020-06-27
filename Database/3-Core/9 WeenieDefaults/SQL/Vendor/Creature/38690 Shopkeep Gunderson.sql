@@ -6,8 +6,8 @@ VALUES (38690, 'ace38690-shopkeepgunderson', 12, '2019-02-10 00:00:00') /* Vendo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38690,   1,         16) /* ItemType - Creature */
      , (38690,   2,         31) /* CreatureType - Human */
-     , (38690,   6,        255) /* ItemsCapacity */
-     , (38690,   7,        255) /* ContainersCapacity */
+     , (38690,   6,         -1) /* ItemsCapacity */
+     , (38690,   7,         -1) /* ContainersCapacity */
      , (38690,  16,         32) /* ItemUseable - Remote */
      , (38690,  25,        190) /* Level */
      , (38690,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

@@ -6,8 +6,8 @@ VALUES (49398, 'ace49398-ponytealsspectre', 71, '2019-02-10 00:00:00') /* Combat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49398,   1,         16) /* ItemType - Creature */
      , (49398,   2,         77) /* CreatureType - Ghost */
-     , (49398,   6,        255) /* ItemsCapacity */
-     , (49398,   7,        255) /* ContainersCapacity */
+     , (49398,   6,         -1) /* ItemsCapacity */
+     , (49398,   7,         -1) /* ContainersCapacity */
      , (49398,  16,          1) /* ItemUseable - No */
      , (49398,  25,        150) /* Level */
      , (49398,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (42931, 'ace42931-minechamberlain', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42931,   1,         16) /* ItemType - Creature */
      , (42931,   2,          5) /* CreatureType - Lugian */
-     , (42931,   6,        255) /* ItemsCapacity */
-     , (42931,   7,        255) /* ContainersCapacity */
+     , (42931,   6,         -1) /* ItemsCapacity */
+     , (42931,   7,         -1) /* ContainersCapacity */
      , (42931,  16,         32) /* ItemUseable - Remote */
      , (42931,  25,        108) /* Level */
      , (42931,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

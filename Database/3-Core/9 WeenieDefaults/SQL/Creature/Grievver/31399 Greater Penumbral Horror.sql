@@ -6,8 +6,8 @@ VALUES (31399, 'ace31399-greaterpenumbralhorror', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31399,   1,         16) /* ItemType - Creature */
      , (31399,   2,         44) /* CreatureType - Grievver */
-     , (31399,   6,        255) /* ItemsCapacity */
-     , (31399,   7,        255) /* ContainersCapacity */
+     , (31399,   6,         -1) /* ItemsCapacity */
+     , (31399,   7,         -1) /* ContainersCapacity */
      , (31399,  16,          1) /* ItemUseable - No */
      , (31399,  25,        160) /* Level */
      , (31399,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (31399,   1,   33559621) /* Setup */
      , (31399,   6,   67112927) /* PaletteBase */
      , (31399,   8,  100670960) /* Icon */
      , (31399,  22,  872415331) /* PhysicsEffectTable */
+     , (31399,  30,         86) /* PhysicsScript - BreatheAcid */
      , (31399, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31399, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (31399, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (31399, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (31399, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31399, 8040, 67633189, 110.055, 118.344, 76.96435, 0.2645259, 0, 0, 0.9643786) /* PCAPRecordedLocation */

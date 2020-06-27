@@ -6,8 +6,8 @@ VALUES (32056, 'ace32056-archmagemoldurg', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32056,   1,         16) /* ItemType - Creature */
      , (32056,   2,         90) /* CreatureType - Merwart */
-     , (32056,   6,        255) /* ItemsCapacity */
-     , (32056,   7,        255) /* ContainersCapacity */
+     , (32056,   6,         -1) /* ItemsCapacity */
+     , (32056,   7,         -1) /* ContainersCapacity */
      , (32056,  16,         32) /* ItemUseable - Remote */
      , (32056,  25,         12) /* Level */
      , (32056,  74,     833536) /* MerchandiseItemTypes - Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

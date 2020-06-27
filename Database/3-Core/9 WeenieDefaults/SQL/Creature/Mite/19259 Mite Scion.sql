@@ -6,8 +6,8 @@ VALUES (19259, 'mitescion-noaggro', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19259,   1,         16) /* ItemType - Creature */
      , (19259,   2,          7) /* CreatureType - Mite */
-     , (19259,   6,        255) /* ItemsCapacity */
-     , (19259,   7,        255) /* ContainersCapacity */
+     , (19259,   6,         -1) /* ItemsCapacity */
+     , (19259,   7,         -1) /* ContainersCapacity */
      , (19259,  16,          1) /* ItemUseable - No */
      , (19259,  25,          8) /* Level */
      , (19259,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

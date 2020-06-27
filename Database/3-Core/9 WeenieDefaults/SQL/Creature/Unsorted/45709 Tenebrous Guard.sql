@@ -5,8 +5,8 @@ VALUES (45709, 'ace45709-tenebrousguard', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45709,   1,         16) /* ItemType - Creature */
-     , (45709,   6,        255) /* ItemsCapacity */
-     , (45709,   7,        255) /* ContainersCapacity */
+     , (45709,   6,         -1) /* ItemsCapacity */
+     , (45709,   7,         -1) /* ContainersCapacity */
      , (45709,  16,          1) /* ItemUseable - No */
      , (45709,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (45709, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -5,8 +5,8 @@ VALUES (21547, 'doorrollingdeathlow', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21547,   1,         16) /* ItemType - Creature */
-     , (21547,   6,        255) /* ItemsCapacity */
-     , (21547,   7,        255) /* ContainersCapacity */
+     , (21547,   6,         -1) /* ItemsCapacity */
+     , (21547,   7,         -1) /* ContainersCapacity */
      , (21547,  16,          1) /* ItemUseable - No */
      , (21547,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (21547, 133,          4) /* ShowableOnRadar - ShowAlways */

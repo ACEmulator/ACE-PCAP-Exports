@@ -5,8 +5,8 @@ VALUES (36778, 'ace36778-strangedevice', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36778,   1,         16) /* ItemType - Creature */
-     , (36778,   6,        255) /* ItemsCapacity */
-     , (36778,   7,        255) /* ContainersCapacity */
+     , (36778,   6,         -1) /* ItemsCapacity */
+     , (36778,   7,         -1) /* ContainersCapacity */
      , (36778,  16,         32) /* ItemUseable - Remote */
      , (36778,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36778, 307,          0) /* DamageRating */

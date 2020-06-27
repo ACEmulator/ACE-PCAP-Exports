@@ -6,8 +6,8 @@ VALUES (5774, 'towncriergharundimfemale', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5774,   1,         16) /* ItemType - Creature */
      , (5774,   2,         31) /* CreatureType - Human */
-     , (5774,   6,        255) /* ItemsCapacity */
-     , (5774,   7,        255) /* ContainersCapacity */
+     , (5774,   6,         -1) /* ItemsCapacity */
+     , (5774,   7,         -1) /* ContainersCapacity */
      , (5774,  16,         32) /* ItemUseable - Remote */
      , (5774,  25,         30) /* Level */
      , (5774,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

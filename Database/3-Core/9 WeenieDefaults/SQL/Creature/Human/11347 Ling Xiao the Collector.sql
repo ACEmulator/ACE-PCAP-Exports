@@ -6,8 +6,8 @@ VALUES (11347, 'redspirecollector-xp', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11347,   1,         16) /* ItemType - Creature */
      , (11347,   2,         31) /* CreatureType - Human */
-     , (11347,   6,        255) /* ItemsCapacity */
-     , (11347,   7,        255) /* ContainersCapacity */
+     , (11347,   6,         -1) /* ItemsCapacity */
+     , (11347,   7,         -1) /* ContainersCapacity */
      , (11347,  16,         32) /* ItemUseable - Remote */
      , (11347,  25,         15) /* Level */
      , (11347,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

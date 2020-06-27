@@ -6,8 +6,8 @@ VALUES (36931, 'ace36931-dreammarauder', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36931,   1,         16) /* ItemType - Creature */
      , (36931,   2,         19) /* CreatureType - Virindi */
-     , (36931,   6,        255) /* ItemsCapacity */
-     , (36931,   7,        255) /* ContainersCapacity */
+     , (36931,   6,         -1) /* ItemsCapacity */
+     , (36931,   7,         -1) /* ContainersCapacity */
      , (36931,  16,          1) /* ItemUseable - No */
      , (36931,  25,        185) /* Level */
      , (36931,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

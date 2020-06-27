@@ -6,8 +6,8 @@ VALUES (40984, 'ace40984-bowyeraliibnmahir', 12, '2019-02-10 00:00:00') /* Vendo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40984,   1,         16) /* ItemType - Creature */
      , (40984,   2,         31) /* CreatureType - Human */
-     , (40984,   6,        255) /* ItemsCapacity */
-     , (40984,   7,        255) /* ContainersCapacity */
+     , (40984,   6,         -1) /* ItemsCapacity */
+     , (40984,   7,         -1) /* ContainersCapacity */
      , (40984,  16,         32) /* ItemUseable - Remote */
      , (40984,  25,          8) /* Level */
      , (40984,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -5,8 +5,8 @@ VALUES (45183, 'ace45183-sorrowwisp', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45183,   1,         16) /* ItemType - Creature */
-     , (45183,   6,        255) /* ItemsCapacity */
-     , (45183,   7,        255) /* ContainersCapacity */
+     , (45183,   6,         -1) /* ItemsCapacity */
+     , (45183,   7,         -1) /* ContainersCapacity */
      , (45183,  16,          1) /* ItemUseable - No */
      , (45183,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (45183, 133,          4) /* ShowableOnRadar - ShowAlways */

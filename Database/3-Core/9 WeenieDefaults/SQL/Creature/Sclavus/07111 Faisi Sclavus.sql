@@ -6,8 +6,8 @@ VALUES (7111, 'sclavusfaisi', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7111,   1,         16) /* ItemType - Creature */
      , (7111,   2,         26) /* CreatureType - Sclavus */
-     , (7111,   6,        255) /* ItemsCapacity */
-     , (7111,   7,        255) /* ContainersCapacity */
+     , (7111,   6,         -1) /* ItemsCapacity */
+     , (7111,   7,         -1) /* ContainersCapacity */
      , (7111,  16,          1) /* ItemUseable - No */
      , (7111,  25,         80) /* Level */
      , (7111,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

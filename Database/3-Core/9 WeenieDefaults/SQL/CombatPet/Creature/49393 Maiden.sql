@@ -6,8 +6,8 @@ VALUES (49393, 'ace49393-donkeykongthemesongsmaiden', 71, '2019-02-10 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49393,   1,         16) /* ItemType - Creature */
      , (49393,   2,         77) /* CreatureType - Ghost */
-     , (49393,   6,        255) /* ItemsCapacity */
-     , (49393,   7,        255) /* ContainersCapacity */
+     , (49393,   6,         -1) /* ItemsCapacity */
+     , (49393,   7,         -1) /* ContainersCapacity */
      , (49393,  16,          1) /* ItemUseable - No */
      , (49393,  25,        200) /* Level */
      , (49393,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

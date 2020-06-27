@@ -6,8 +6,8 @@ VALUES (22116, 'mysterioussarcophagus', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22116,   1,         16) /* ItemType - Creature */
      , (22116,   2,         68) /* CreatureType - DarkSarcophagus */
-     , (22116,   6,        255) /* ItemsCapacity */
-     , (22116,   7,        255) /* ContainersCapacity */
+     , (22116,   6,         -1) /* ItemsCapacity */
+     , (22116,   7,         -1) /* ContainersCapacity */
      , (22116,  16,          1) /* ItemUseable - No */
      , (22116,  25,        666) /* Level */
      , (22116,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

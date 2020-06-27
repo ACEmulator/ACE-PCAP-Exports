@@ -6,8 +6,8 @@ VALUES (35053, 'ace35053-thralledguruksporeleech', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35053,   1,         16) /* ItemType - Creature */
      , (35053,   2,         75) /* CreatureType - Burun */
-     , (35053,   6,        255) /* ItemsCapacity */
-     , (35053,   7,        255) /* ContainersCapacity */
+     , (35053,   6,         -1) /* ItemsCapacity */
+     , (35053,   7,         -1) /* ContainersCapacity */
      , (35053,  16,          1) /* ItemUseable - No */
      , (35053,  25,        220) /* Level */
      , (35053,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

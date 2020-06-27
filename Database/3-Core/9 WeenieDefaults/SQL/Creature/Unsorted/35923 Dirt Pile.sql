@@ -5,8 +5,8 @@ VALUES (35923, 'ace35923-dirtpile', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35923,   1,         16) /* ItemType - Creature */
-     , (35923,   6,        255) /* ItemsCapacity */
-     , (35923,   7,        255) /* ContainersCapacity */
+     , (35923,   6,         -1) /* ItemsCapacity */
+     , (35923,   7,         -1) /* ContainersCapacity */
      , (35923,  16,         32) /* ItemUseable - Remote */
      , (35923,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (35923,  95,          8) /* RadarBlipColor - Yellow */

@@ -6,8 +6,8 @@ VALUES (669, 'cragstonebarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (669,   1,         16) /* ItemType - Creature */
      , (669,   2,         31) /* CreatureType - Human */
-     , (669,   6,        255) /* ItemsCapacity */
-     , (669,   7,        255) /* ContainersCapacity */
+     , (669,   6,         -1) /* ItemsCapacity */
+     , (669,   7,         -1) /* ContainersCapacity */
      , (669,  16,         32) /* ItemUseable - Remote */
      , (669,  25,          7) /* Level */
      , (669,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */

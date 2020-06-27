@@ -5,8 +5,8 @@ VALUES (28962, 'bookroadsnuhmudiranpc', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28962,   1,         16) /* ItemType - Creature */
-     , (28962,   6,        255) /* ItemsCapacity */
-     , (28962,   7,        255) /* ContainersCapacity */
+     , (28962,   6,         -1) /* ItemsCapacity */
+     , (28962,   7,         -1) /* ContainersCapacity */
      , (28962,  16,         32) /* ItemUseable - Remote */
      , (28962,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28962,  95,          3) /* RadarBlipColor - White */

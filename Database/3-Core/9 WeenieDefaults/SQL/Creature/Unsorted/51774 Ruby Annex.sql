@@ -5,8 +5,8 @@ VALUES (51774, 'ace51774-rubyannex', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51774,   1,         16) /* ItemType - Creature */
-     , (51774,   6,        255) /* ItemsCapacity */
-     , (51774,   7,        255) /* ContainersCapacity */
+     , (51774,   6,         -1) /* ItemsCapacity */
+     , (51774,   7,         -1) /* ContainersCapacity */
      , (51774,  16,         32) /* ItemUseable - Remote */
      , (51774,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51774,  95,          8) /* RadarBlipColor - Yellow */

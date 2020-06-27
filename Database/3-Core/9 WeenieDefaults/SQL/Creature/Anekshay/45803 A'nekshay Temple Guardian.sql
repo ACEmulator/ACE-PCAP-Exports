@@ -6,8 +6,8 @@ VALUES (45803, 'ace45803-anekshaytempleguardian', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45803,   1,         16) /* ItemType - Creature */
      , (45803,   2,        101) /* CreatureType - Anekshay */
-     , (45803,   6,        255) /* ItemsCapacity */
-     , (45803,   7,        255) /* ContainersCapacity */
+     , (45803,   6,         -1) /* ItemsCapacity */
+     , (45803,   7,         -1) /* ContainersCapacity */
      , (45803,  16,          1) /* ItemUseable - No */
      , (45803,  25,        200) /* Level */
      , (45803,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

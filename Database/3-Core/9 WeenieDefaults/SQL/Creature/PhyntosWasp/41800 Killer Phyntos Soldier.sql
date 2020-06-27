@@ -6,8 +6,8 @@ VALUES (41800, 'ace41800-killerphyntossoldier', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41800,   1,         16) /* ItemType - Creature */
      , (41800,   2,          9) /* CreatureType - PhyntosWasp */
-     , (41800,   6,        255) /* ItemsCapacity */
-     , (41800,   7,        255) /* ContainersCapacity */
+     , (41800,   6,         -1) /* ItemsCapacity */
+     , (41800,   7,         -1) /* ContainersCapacity */
      , (41800,  16,          1) /* ItemUseable - No */
      , (41800,  25,        200) /* Level */
      , (41800,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

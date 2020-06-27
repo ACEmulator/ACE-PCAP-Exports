@@ -5,8 +5,8 @@ VALUES (52072, 'ace52072-greenlever', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52072,   1,         16) /* ItemType - Creature */
-     , (52072,   6,        255) /* ItemsCapacity */
-     , (52072,   7,        255) /* ContainersCapacity */
+     , (52072,   6,         -1) /* ItemsCapacity */
+     , (52072,   7,         -1) /* ContainersCapacity */
      , (52072,  16,         32) /* ItemUseable - Remote */
      , (52072,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (52072,  95,          3) /* RadarBlipColor - White */

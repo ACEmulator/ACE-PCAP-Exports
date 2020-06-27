@@ -6,8 +6,8 @@ VALUES (4215, 'leathercraftergharundim', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4215,   1,         16) /* ItemType - Creature */
      , (4215,   2,         31) /* CreatureType - Human */
-     , (4215,   6,        255) /* ItemsCapacity */
-     , (4215,   7,        255) /* ContainersCapacity */
+     , (4215,   6,         -1) /* ItemsCapacity */
+     , (4215,   7,         -1) /* ContainersCapacity */
      , (4215,  16,         32) /* ItemUseable - Remote */
      , (4215,  25,          8) /* Level */
      , (4215,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

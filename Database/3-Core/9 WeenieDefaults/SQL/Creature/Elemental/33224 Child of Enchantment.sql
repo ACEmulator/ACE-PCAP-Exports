@@ -6,8 +6,8 @@ VALUES (33224, 'ace33224-childofenchantment', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33224,   1,         16) /* ItemType - Creature */
      , (33224,   2,         62) /* CreatureType - Elemental */
-     , (33224,   6,        255) /* ItemsCapacity */
-     , (33224,   7,        255) /* ContainersCapacity */
+     , (33224,   6,         -1) /* ItemsCapacity */
+     , (33224,   7,         -1) /* ContainersCapacity */
      , (33224,  16,          1) /* ItemUseable - No */
      , (33224,  25,        160) /* Level */
      , (33224,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

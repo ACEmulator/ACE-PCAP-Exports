@@ -5,8 +5,8 @@ VALUES (29491, 'knightkarlunguard-noagrro', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29491,   1,         16) /* ItemType - Creature */
-     , (29491,   6,        255) /* ItemsCapacity */
-     , (29491,   7,        255) /* ContainersCapacity */
+     , (29491,   6,         -1) /* ItemsCapacity */
+     , (29491,   7,         -1) /* ContainersCapacity */
      , (29491,  16,         32) /* ItemUseable - Remote */
      , (29491,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29491, 133,          2) /* ShowableOnRadar - ShowMovement */

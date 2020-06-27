@@ -6,8 +6,8 @@ VALUES (38688, 'ace38688-shopkeeperpolly', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38688,   1,         16) /* ItemType - Creature */
      , (38688,   2,         31) /* CreatureType - Human */
-     , (38688,   6,        255) /* ItemsCapacity */
-     , (38688,   7,        255) /* ContainersCapacity */
+     , (38688,   6,         -1) /* ItemsCapacity */
+     , (38688,   7,         -1) /* ContainersCapacity */
      , (38688,  16,         32) /* ItemUseable - Remote */
      , (38688,  25,        190) /* Level */
      , (38688,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

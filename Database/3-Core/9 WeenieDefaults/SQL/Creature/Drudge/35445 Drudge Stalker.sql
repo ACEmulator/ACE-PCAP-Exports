@@ -6,8 +6,8 @@ VALUES (35445, 'ace35445-drudgestalker', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35445,   1,         16) /* ItemType - Creature */
      , (35445,   2,          3) /* CreatureType - Drudge */
-     , (35445,   6,        255) /* ItemsCapacity */
-     , (35445,   7,        255) /* ContainersCapacity */
+     , (35445,   6,         -1) /* ItemsCapacity */
+     , (35445,   7,         -1) /* ContainersCapacity */
      , (35445,  16,          1) /* ItemUseable - No */
      , (35445,  25,         50) /* Level */
      , (35445,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

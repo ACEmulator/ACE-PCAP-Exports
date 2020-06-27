@@ -5,8 +5,8 @@ VALUES (44473, 'ace44473-guardianspirit', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44473,   1,         16) /* ItemType - Creature */
-     , (44473,   6,        255) /* ItemsCapacity */
-     , (44473,   7,        255) /* ContainersCapacity */
+     , (44473,   6,         -1) /* ItemsCapacity */
+     , (44473,   7,         -1) /* ContainersCapacity */
      , (44473,  16,         32) /* ItemUseable - Remote */
      , (44473,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44473,  95,          8) /* RadarBlipColor - Yellow */

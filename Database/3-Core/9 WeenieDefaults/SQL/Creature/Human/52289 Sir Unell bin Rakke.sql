@@ -6,8 +6,8 @@ VALUES (52289, 'ace52289-sirunellbinrakke', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52289,   1,         16) /* ItemType - Creature */
      , (52289,   2,         31) /* CreatureType - Human */
-     , (52289,   6,        255) /* ItemsCapacity */
-     , (52289,   7,        255) /* ContainersCapacity */
+     , (52289,   6,         -1) /* ItemsCapacity */
+     , (52289,   7,         -1) /* ContainersCapacity */
      , (52289,  16,         32) /* ItemUseable - Remote */
      , (52289,  25,        275) /* Level */
      , (52289,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

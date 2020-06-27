@@ -6,8 +6,8 @@ VALUES (30709, 'lugianassaultbossshoktok', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30709,   1,         16) /* ItemType - Creature */
      , (30709,   2,          5) /* CreatureType - Lugian */
-     , (30709,   6,        255) /* ItemsCapacity */
-     , (30709,   7,        255) /* ContainersCapacity */
+     , (30709,   6,         -1) /* ItemsCapacity */
+     , (30709,   7,         -1) /* ContainersCapacity */
      , (30709,  16,          1) /* ItemUseable - No */
      , (30709,  25,        100) /* Level */
      , (30709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

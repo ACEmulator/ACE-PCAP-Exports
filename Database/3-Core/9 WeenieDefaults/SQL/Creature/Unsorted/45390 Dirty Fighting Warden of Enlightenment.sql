@@ -5,8 +5,8 @@ VALUES (45390, 'ace45390-dirtyfightingwardenofenlightenment', 10, '2019-02-10 00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45390,   1,         16) /* ItemType - Creature */
-     , (45390,   6,        255) /* ItemsCapacity */
-     , (45390,   7,        255) /* ContainersCapacity */
+     , (45390,   6,         -1) /* ItemsCapacity */
+     , (45390,   7,         -1) /* ContainersCapacity */
      , (45390,  16,         32) /* ItemUseable - Remote */
      , (45390,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45390,  95,          3) /* RadarBlipColor - White */

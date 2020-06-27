@@ -6,8 +6,8 @@ VALUES (27460, 'lugianrenegadefortressguard', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27460,   1,         16) /* ItemType - Creature */
      , (27460,   2,         70) /* CreatureType - GotrokLugian */
-     , (27460,   6,        255) /* ItemsCapacity */
-     , (27460,   7,        255) /* ContainersCapacity */
+     , (27460,   6,         -1) /* ItemsCapacity */
+     , (27460,   7,         -1) /* ContainersCapacity */
      , (27460,  16,          1) /* ItemUseable - No */
      , (27460,  25,        100) /* Level */
      , (27460,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (9527, 'farmerofrabbits', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9527,   1,         16) /* ItemType - Creature */
      , (9527,   2,         31) /* CreatureType - Human */
-     , (9527,   6,        255) /* ItemsCapacity */
-     , (9527,   7,        255) /* ContainersCapacity */
+     , (9527,   6,         -1) /* ItemsCapacity */
+     , (9527,   7,         -1) /* ContainersCapacity */
      , (9527,  16,         32) /* ItemUseable - Remote */
      , (9527,  25,         29) /* Level */
      , (9527,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

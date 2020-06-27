@@ -6,8 +6,8 @@ VALUES (49614, 'ace49614-simulacrummimic', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49614,   1,         16) /* ItemType - Creature */
      , (49614,   2,         59) /* CreatureType - Simulacrum */
-     , (49614,   6,        255) /* ItemsCapacity */
-     , (49614,   7,        255) /* ContainersCapacity */
+     , (49614,   6,         -1) /* ItemsCapacity */
+     , (49614,   7,         -1) /* ContainersCapacity */
      , (49614,  16,          1) /* ItemUseable - No */
      , (49614,  25,        220) /* Level */
      , (49614,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

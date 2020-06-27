@@ -6,8 +6,8 @@ VALUES (46409, 'ace46409-carcassswarm', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46409,   1,         16) /* ItemType - Creature */
      , (46409,   2,         85) /* CreatureType - Swarm */
-     , (46409,   6,        255) /* ItemsCapacity */
-     , (46409,   7,        255) /* ContainersCapacity */
+     , (46409,   6,         -1) /* ItemsCapacity */
+     , (46409,   7,         -1) /* ContainersCapacity */
      , (46409,  16,          1) /* ItemUseable - No */
      , (46409,  25,        205) /* Level */
      , (46409,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

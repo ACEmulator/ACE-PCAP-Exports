@@ -6,8 +6,8 @@ VALUES (38386, 'ace38386-skithkirit', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38386,   1,         16) /* ItemType - Creature */
      , (38386,   2,         26) /* CreatureType - Sclavus */
-     , (38386,   6,        255) /* ItemsCapacity */
-     , (38386,   7,        255) /* ContainersCapacity */
+     , (38386,   6,         -1) /* ItemsCapacity */
+     , (38386,   7,         -1) /* ContainersCapacity */
      , (38386,  16,          1) /* ItemUseable - No */
      , (38386,  25,        240) /* Level */
      , (38386,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

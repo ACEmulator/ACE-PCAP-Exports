@@ -6,8 +6,8 @@ VALUES (5748, 'wispfire', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5748,   1,         16) /* ItemType - Creature */
      , (5748,   2,         20) /* CreatureType - Wisp */
-     , (5748,   6,        255) /* ItemsCapacity */
-     , (5748,   7,        255) /* ContainersCapacity */
+     , (5748,   6,         -1) /* ItemsCapacity */
+     , (5748,   7,         -1) /* ContainersCapacity */
      , (5748,  16,          1) /* ItemUseable - No */
      , (5748,  25,         80) /* Level */
      , (5748,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

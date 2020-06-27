@@ -5,8 +5,8 @@ VALUES (51635, 'ace51635-corruptsorcerer', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51635,   1,         16) /* ItemType - Creature */
-     , (51635,   6,        255) /* ItemsCapacity */
-     , (51635,   7,        255) /* ContainersCapacity */
+     , (51635,   6,         -1) /* ItemsCapacity */
+     , (51635,   7,         -1) /* ContainersCapacity */
      , (51635,  16,          1) /* ItemUseable - No */
      , (51635,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51635, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -5,8 +5,8 @@ VALUES (32457, 'ace32457-assesscreaturewardenofenlightenment', 10, '2019-02-10 0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32457,   1,         16) /* ItemType - Creature */
-     , (32457,   6,        255) /* ItemsCapacity */
-     , (32457,   7,        255) /* ContainersCapacity */
+     , (32457,   6,         -1) /* ItemsCapacity */
+     , (32457,   7,         -1) /* ContainersCapacity */
      , (32457,  16,         32) /* ItemUseable - Remote */
      , (32457,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32457,  95,          3) /* RadarBlipColor - White */

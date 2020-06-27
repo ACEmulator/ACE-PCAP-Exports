@@ -6,8 +6,8 @@ VALUES (45754, 'ace45754-mhoiresoldier', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45754,   1,         16) /* ItemType - Creature */
      , (45754,   2,         14) /* CreatureType - Undead */
-     , (45754,   6,        255) /* ItemsCapacity */
-     , (45754,   7,        255) /* ContainersCapacity */
+     , (45754,   6,         -1) /* ItemsCapacity */
+     , (45754,   7,         -1) /* ContainersCapacity */
      , (45754,  16,         32) /* ItemUseable - Remote */
      , (45754,  25,        250) /* Level */
      , (45754,  93,    6292488) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

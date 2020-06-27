@@ -5,8 +5,8 @@ VALUES (38084, 'ace38084-menileshguard', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38084,   1,         16) /* ItemType - Creature */
-     , (38084,   6,        255) /* ItemsCapacity */
-     , (38084,   7,        255) /* ContainersCapacity */
+     , (38084,   6,         -1) /* ItemsCapacity */
+     , (38084,   7,         -1) /* ContainersCapacity */
      , (38084,  16,          1) /* ItemUseable - No */
      , (38084,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38084, 133,          2) /* ShowableOnRadar - ShowMovement */

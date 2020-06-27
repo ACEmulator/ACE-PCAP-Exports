@@ -5,8 +5,8 @@ VALUES (34914, 'ace34914-golemconstructor', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34914,   1,         16) /* ItemType - Creature */
-     , (34914,   6,        255) /* ItemsCapacity */
-     , (34914,   7,        255) /* ContainersCapacity */
+     , (34914,   6,         -1) /* ItemsCapacity */
+     , (34914,   7,         -1) /* ContainersCapacity */
      , (34914,  16,         32) /* ItemUseable - Remote */
      , (34914,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34914,  95,          8) /* RadarBlipColor - Yellow */

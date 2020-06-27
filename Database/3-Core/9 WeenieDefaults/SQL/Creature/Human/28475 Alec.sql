@@ -6,8 +6,8 @@ VALUES (28475, 'royalguardalec', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28475,   1,         16) /* ItemType - Creature */
      , (28475,   2,         31) /* CreatureType - Human */
-     , (28475,   6,        255) /* ItemsCapacity */
-     , (28475,   7,        255) /* ContainersCapacity */
+     , (28475,   6,         -1) /* ItemsCapacity */
+     , (28475,   7,         -1) /* ContainersCapacity */
      , (28475,  16,         32) /* ItemUseable - Remote */
      , (28475,  25,        120) /* Level */
      , (28475,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

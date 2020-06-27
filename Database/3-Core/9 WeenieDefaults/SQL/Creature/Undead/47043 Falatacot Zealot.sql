@@ -6,8 +6,8 @@ VALUES (47043, 'ace47043-falatacotzealot', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47043,   1,         16) /* ItemType - Creature */
      , (47043,   2,         14) /* CreatureType - Undead */
-     , (47043,   6,        255) /* ItemsCapacity */
-     , (47043,   7,        255) /* ContainersCapacity */
+     , (47043,   6,         -1) /* ItemsCapacity */
+     , (47043,   7,         -1) /* ContainersCapacity */
      , (47043,  16,          1) /* ItemUseable - No */
      , (47043,  25,        215) /* Level */
      , (47043,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

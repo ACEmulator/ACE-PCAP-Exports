@@ -6,8 +6,8 @@ VALUES (1812, 'tufaarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1812,   1,         16) /* ItemType - Creature */
      , (1812,   2,         31) /* CreatureType - Human */
-     , (1812,   6,        255) /* ItemsCapacity */
-     , (1812,   7,        255) /* ContainersCapacity */
+     , (1812,   6,         -1) /* ItemsCapacity */
+     , (1812,   7,         -1) /* ContainersCapacity */
      , (1812,  16,         32) /* ItemUseable - Remote */
      , (1812,  25,         15) /* Level */
      , (1812,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

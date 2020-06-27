@@ -6,8 +6,8 @@ VALUES (44050, 'ace44050-reedsharkseeker', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44050,   1,         16) /* ItemType - Creature */
      , (44050,   2,         16) /* CreatureType - Reedshark */
-     , (44050,   6,        255) /* ItemsCapacity */
-     , (44050,   7,        255) /* ContainersCapacity */
+     , (44050,   6,         -1) /* ItemsCapacity */
+     , (44050,   7,         -1) /* ContainersCapacity */
      , (44050,  16,          1) /* ItemUseable - No */
      , (44050,  25,        220) /* Level */
      , (44050,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

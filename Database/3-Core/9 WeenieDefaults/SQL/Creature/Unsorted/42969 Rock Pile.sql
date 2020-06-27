@@ -5,8 +5,8 @@ VALUES (42969, 'ace42969-rockpile', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42969,   1,         16) /* ItemType - Creature */
-     , (42969,   6,        255) /* ItemsCapacity */
-     , (42969,   7,        255) /* ContainersCapacity */
+     , (42969,   6,         -1) /* ItemsCapacity */
+     , (42969,   7,         -1) /* ContainersCapacity */
      , (42969,  16,         32) /* ItemUseable - Remote */
      , (42969,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42969,  95,          8) /* RadarBlipColor - Yellow */

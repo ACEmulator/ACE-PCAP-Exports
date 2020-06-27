@@ -5,8 +5,8 @@ VALUES (32522, 'ace32522-portalpillar', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32522,   1,         16) /* ItemType - Creature */
-     , (32522,   6,        255) /* ItemsCapacity */
-     , (32522,   7,        255) /* ContainersCapacity */
+     , (32522,   6,         -1) /* ItemsCapacity */
+     , (32522,   7,         -1) /* ContainersCapacity */
      , (32522,  16,          1) /* ItemUseable - No */
      , (32522,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (32522, 133,          4) /* ShowableOnRadar - ShowAlways */

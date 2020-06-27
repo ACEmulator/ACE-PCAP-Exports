@@ -6,8 +6,8 @@ VALUES (44629, 'ace44629-shadowvortex', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44629,   1,         16) /* ItemType - Creature */
      , (44629,   2,         22) /* CreatureType - Shadow */
-     , (44629,   6,        255) /* ItemsCapacity */
-     , (44629,   7,        255) /* ContainersCapacity */
+     , (44629,   6,         -1) /* ItemsCapacity */
+     , (44629,   7,         -1) /* ContainersCapacity */
      , (44629,  16,          1) /* ItemUseable - No */
      , (44629,  25,        999) /* Level */
      , (44629,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (44052, 'ace44052-tamedreaper', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44052,   1,         16) /* ItemType - Creature */
      , (44052,   2,         16) /* CreatureType - Reedshark */
-     , (44052,   6,        255) /* ItemsCapacity */
-     , (44052,   7,        255) /* ContainersCapacity */
+     , (44052,   6,         -1) /* ItemsCapacity */
+     , (44052,   7,         -1) /* ContainersCapacity */
      , (44052,  16,          1) /* ItemUseable - No */
      , (44052,  25,        240) /* Level */
      , (44052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (9018, 'archmagewanderingamun', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9018,   1,         16) /* ItemType - Creature */
      , (9018,   2,         31) /* CreatureType - Human */
-     , (9018,   6,        255) /* ItemsCapacity */
-     , (9018,   7,        255) /* ContainersCapacity */
+     , (9018,   6,         -1) /* ItemsCapacity */
+     , (9018,   7,         -1) /* ContainersCapacity */
      , (9018,  16,         32) /* ItemUseable - Remote */
      , (9018,  25,         32) /* Level */
      , (9018,  74, 1845296063) /* MerchandiseItemTypes - 1845296063 */

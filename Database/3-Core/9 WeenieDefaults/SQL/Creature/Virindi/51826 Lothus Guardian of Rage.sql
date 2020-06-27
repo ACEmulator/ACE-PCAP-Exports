@@ -6,8 +6,8 @@ VALUES (51826, 'ace51826-lothusguardianofrage', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51826,   1,         16) /* ItemType - Creature */
      , (51826,   2,         19) /* CreatureType - Virindi */
-     , (51826,   6,        255) /* ItemsCapacity */
-     , (51826,   7,        255) /* ContainersCapacity */
+     , (51826,   6,         -1) /* ItemsCapacity */
+     , (51826,   7,         -1) /* ContainersCapacity */
      , (51826,  16,          1) /* ItemUseable - No */
      , (51826,  25,        350) /* Level */
      , (51826,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

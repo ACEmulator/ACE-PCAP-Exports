@@ -6,8 +6,8 @@ VALUES (45792, 'ace45792-mhoirelieutenant', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45792,   1,         16) /* ItemType - Creature */
      , (45792,   2,         14) /* CreatureType - Undead */
-     , (45792,   6,        255) /* ItemsCapacity */
-     , (45792,   7,        255) /* ContainersCapacity */
+     , (45792,   6,         -1) /* ItemsCapacity */
+     , (45792,   7,         -1) /* ContainersCapacity */
      , (45792,  16,         32) /* ItemUseable - Remote */
      , (45792,  25,        250) /* Level */
      , (45792,  93,    6292488) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

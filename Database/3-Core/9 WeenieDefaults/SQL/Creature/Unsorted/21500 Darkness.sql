@@ -5,8 +5,8 @@ VALUES (21500, 'statuedarkness', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21500,   1,         16) /* ItemType - Creature */
-     , (21500,   6,        255) /* ItemsCapacity */
-     , (21500,   7,        255) /* ContainersCapacity */
+     , (21500,   6,         -1) /* ItemsCapacity */
+     , (21500,   7,         -1) /* ContainersCapacity */
      , (21500,  16,         32) /* ItemUseable - Remote */
      , (21500,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (21500,  95,          3) /* RadarBlipColor - White */

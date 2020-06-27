@@ -6,8 +6,8 @@ VALUES (9415, 'linvaktukalblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9415,   1,         16) /* ItemType - Creature */
      , (9415,   2,          5) /* CreatureType - Lugian */
-     , (9415,   6,        255) /* ItemsCapacity */
-     , (9415,   7,        255) /* ContainersCapacity */
+     , (9415,   6,         -1) /* ItemsCapacity */
+     , (9415,   7,         -1) /* ContainersCapacity */
      , (9415,  16,         32) /* ItemUseable - Remote */
      , (9415,  25,         73) /* Level */
      , (9415,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

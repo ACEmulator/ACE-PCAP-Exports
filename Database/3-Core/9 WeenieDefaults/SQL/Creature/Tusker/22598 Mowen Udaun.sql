@@ -6,8 +6,8 @@ VALUES (22598, 'tuskermowen', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22598,   1,         16) /* ItemType - Creature */
      , (22598,   2,          8) /* CreatureType - Tusker */
-     , (22598,   6,        255) /* ItemsCapacity */
-     , (22598,   7,        255) /* ContainersCapacity */
+     , (22598,   6,         -1) /* ItemsCapacity */
+     , (22598,   7,         -1) /* ContainersCapacity */
      , (22598,  16,          1) /* ItemUseable - No */
      , (22598,  25,        900) /* Level */
      , (22598,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (38606, 'ace38606-turvaldsnorborgson', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38606,   1,         16) /* ItemType - Creature */
      , (38606,   2,         31) /* CreatureType - Human */
-     , (38606,   6,        255) /* ItemsCapacity */
-     , (38606,   7,        255) /* ContainersCapacity */
+     , (38606,   6,         -1) /* ItemsCapacity */
+     , (38606,   7,         -1) /* ContainersCapacity */
      , (38606,  16,         32) /* ItemUseable - Remote */
      , (38606,  25,        180) /* Level */
      , (38606,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

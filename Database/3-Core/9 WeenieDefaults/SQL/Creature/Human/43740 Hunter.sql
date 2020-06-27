@@ -6,8 +6,8 @@ VALUES (43740, 'ace43740-hunter', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43740,   1,         16) /* ItemType - Creature */
      , (43740,   2,         31) /* CreatureType - Human */
-     , (43740,   6,        255) /* ItemsCapacity */
-     , (43740,   7,        255) /* ContainersCapacity */
+     , (43740,   6,         -1) /* ItemsCapacity */
+     , (43740,   7,         -1) /* ContainersCapacity */
      , (43740,  16,         32) /* ItemUseable - Remote */
      , (43740,  25,        150) /* Level */
      , (43740,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

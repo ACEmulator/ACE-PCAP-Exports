@@ -6,8 +6,8 @@ VALUES (38272, 'ace38272-dornbowspeaker', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38272,   1,         16) /* ItemType - Creature */
      , (38272,   2,         31) /* CreatureType - Human */
-     , (38272,   6,        255) /* ItemsCapacity */
-     , (38272,   7,        255) /* ContainersCapacity */
+     , (38272,   6,         -1) /* ItemsCapacity */
+     , (38272,   7,         -1) /* ContainersCapacity */
      , (38272,  16,         32) /* ItemUseable - Remote */
      , (38272,  25,        200) /* Level */
      , (38272,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

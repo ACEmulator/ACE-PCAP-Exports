@@ -6,8 +6,8 @@ VALUES (37180, 'ace37180-imperialarchivist', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37180,   1,         16) /* ItemType - Creature */
      , (37180,   2,         14) /* CreatureType - Undead */
-     , (37180,   6,        255) /* ItemsCapacity */
-     , (37180,   7,        255) /* ContainersCapacity */
+     , (37180,   6,         -1) /* ItemsCapacity */
+     , (37180,   7,         -1) /* ContainersCapacity */
      , (37180,  16,          1) /* ItemUseable - No */
      , (37180,  25,        185) /* Level */
      , (37180,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

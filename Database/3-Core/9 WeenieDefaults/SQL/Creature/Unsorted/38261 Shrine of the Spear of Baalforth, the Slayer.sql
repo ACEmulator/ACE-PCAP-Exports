@@ -5,8 +5,8 @@ VALUES (38261, 'ace38261-shrineofthespearofbaalforththeslayer', 10, '2019-02-10 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38261,   1,         16) /* ItemType - Creature */
-     , (38261,   6,        255) /* ItemsCapacity */
-     , (38261,   7,        255) /* ContainersCapacity */
+     , (38261,   6,         -1) /* ItemsCapacity */
+     , (38261,   7,         -1) /* ContainersCapacity */
      , (38261,  16,         32) /* ItemUseable - Remote */
      , (38261,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38261,  95,          3) /* RadarBlipColor - White */

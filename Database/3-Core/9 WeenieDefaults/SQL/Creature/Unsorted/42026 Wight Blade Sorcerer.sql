@@ -5,8 +5,8 @@ VALUES (42026, 'ace42026-wightbladesorcerer', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42026,   1,         16) /* ItemType - Creature */
-     , (42026,   6,        255) /* ItemsCapacity */
-     , (42026,   7,        255) /* ContainersCapacity */
+     , (42026,   6,         -1) /* ItemsCapacity */
+     , (42026,   7,         -1) /* ContainersCapacity */
      , (42026,  16,          1) /* ItemUseable - No */
      , (42026,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42026, 133,          2) /* ShowableOnRadar - ShowMovement */

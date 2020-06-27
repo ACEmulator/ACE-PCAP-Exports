@@ -5,8 +5,8 @@ VALUES (25456, 'doorrenegadegarrison', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25456,   1,         16) /* ItemType - Creature */
-     , (25456,   6,        255) /* ItemsCapacity */
-     , (25456,   7,        255) /* ContainersCapacity */
+     , (25456,   6,         -1) /* ItemsCapacity */
+     , (25456,   7,         -1) /* ContainersCapacity */
      , (25456,  16,          1) /* ItemUseable - No */
      , (25456,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25456, 133,          4) /* ShowableOnRadar - ShowAlways */

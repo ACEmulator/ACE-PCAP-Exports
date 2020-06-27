@@ -6,8 +6,8 @@ VALUES (21164, 'fireelementalgout', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21164,   1,         16) /* ItemType - Creature */
      , (21164,   2,         38) /* CreatureType - FireElemental */
-     , (21164,   6,        255) /* ItemsCapacity */
-     , (21164,   7,        255) /* ContainersCapacity */
+     , (21164,   6,         -1) /* ItemsCapacity */
+     , (21164,   7,         -1) /* ContainersCapacity */
      , (21164,  16,          1) /* ItemUseable - No */
      , (21164,  25,         50) /* Level */
      , (21164,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

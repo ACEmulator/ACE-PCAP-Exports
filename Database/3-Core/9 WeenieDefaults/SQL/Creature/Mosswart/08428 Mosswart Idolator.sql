@@ -6,8 +6,8 @@ VALUES (8428, 'mosswartidolater', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8428,   1,         16) /* ItemType - Creature */
      , (8428,   2,          4) /* CreatureType - Mosswart */
-     , (8428,   6,        255) /* ItemsCapacity */
-     , (8428,   7,        255) /* ContainersCapacity */
+     , (8428,   6,         -1) /* ItemsCapacity */
+     , (8428,   7,         -1) /* ContainersCapacity */
      , (8428,  16,          1) /* ItemUseable - No */
      , (8428,  25,         30) /* Level */
      , (8428,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

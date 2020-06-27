@@ -5,8 +5,8 @@ VALUES (41051, 'ace41051-resonantportal', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41051,   1,         16) /* ItemType - Creature */
-     , (41051,   6,        255) /* ItemsCapacity */
-     , (41051,   7,        255) /* ContainersCapacity */
+     , (41051,   6,         -1) /* ItemsCapacity */
+     , (41051,   7,         -1) /* ContainersCapacity */
      , (41051,  16,         32) /* ItemUseable - Remote */
      , (41051,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41051,  95,          4) /* RadarBlipColor - Purple */

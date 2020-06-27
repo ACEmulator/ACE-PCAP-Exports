@@ -6,8 +6,8 @@ VALUES (42433, 'ace42433-youngbanderling', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42433,   1,         16) /* ItemType - Creature */
      , (42433,   2,          2) /* CreatureType - Banderling */
-     , (42433,   6,        255) /* ItemsCapacity */
-     , (42433,   7,        255) /* ContainersCapacity */
+     , (42433,   6,         -1) /* ItemsCapacity */
+     , (42433,   7,         -1) /* ContainersCapacity */
      , (42433,  16,          1) /* ItemUseable - No */
      , (42433,  25,          8) /* Level */
      , (42433,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

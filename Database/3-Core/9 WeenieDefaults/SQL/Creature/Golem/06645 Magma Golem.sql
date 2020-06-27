@@ -6,8 +6,8 @@ VALUES (6645, 'golemunstablemagma', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6645,   1,         16) /* ItemType - Creature */
      , (6645,   2,         13) /* CreatureType - Golem */
-     , (6645,   6,        255) /* ItemsCapacity */
-     , (6645,   7,        255) /* ContainersCapacity */
+     , (6645,   6,         -1) /* ItemsCapacity */
+     , (6645,   7,         -1) /* ContainersCapacity */
      , (6645,  16,          1) /* ItemUseable - No */
      , (6645,  25,        100) /* Level */
      , (6645,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */

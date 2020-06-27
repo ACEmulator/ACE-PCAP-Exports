@@ -5,8 +5,8 @@ VALUES (53365, 'ace53365-windfury', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53365,   1,         16) /* ItemType - Creature */
-     , (53365,   6,        255) /* ItemsCapacity */
-     , (53365,   7,        255) /* ContainersCapacity */
+     , (53365,   6,         -1) /* ItemsCapacity */
+     , (53365,   7,         -1) /* ContainersCapacity */
      , (53365,  16,          1) /* ItemUseable - No */
      , (53365,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (53365, 133,          2) /* ShowableOnRadar - ShowMovement */

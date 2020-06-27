@@ -6,8 +6,8 @@ VALUES (3607, 'tibrithecavedweller', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3607,   1,         16) /* ItemType - Creature */
      , (3607,   2,         31) /* CreatureType - Human */
-     , (3607,   6,        255) /* ItemsCapacity */
-     , (3607,   7,        255) /* ContainersCapacity */
+     , (3607,   6,         -1) /* ItemsCapacity */
+     , (3607,   7,         -1) /* ContainersCapacity */
      , (3607,  16,          1) /* ItemUseable - No */
      , (3607,  25,         40) /* Level */
      , (3607,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

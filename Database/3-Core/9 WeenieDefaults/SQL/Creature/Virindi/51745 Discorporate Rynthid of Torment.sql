@@ -6,8 +6,8 @@ VALUES (51745, 'ace51745-discorporaterynthidoftorment', 10, '2019-02-10 00:00:00
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51745,   1,         16) /* ItemType - Creature */
      , (51745,   2,         19) /* CreatureType - Virindi */
-     , (51745,   6,        255) /* ItemsCapacity */
-     , (51745,   7,        255) /* ContainersCapacity */
+     , (51745,   6,         -1) /* ItemsCapacity */
+     , (51745,   7,         -1) /* ContainersCapacity */
      , (51745,  16,          1) /* ItemUseable - No */
      , (51745,  25,        200) /* Level */
      , (51745,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
@@ -31,10 +31,10 @@ VALUES (51745,   1,   33561546) /* Setup */
      , (51745,   6,   67111346) /* PaletteBase */
      , (51745,   8,  100667943) /* Icon */
      , (51745,  22,  872415443) /* PhysicsEffectTable */
+     , (51745,  30,         87) /* PhysicsScript - BreatheLightning */
      , (51745, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51745, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (51745, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (51745, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (51745, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51745, 8040, 741408822, 155.3372, 132.4443, 97.539, 1, 0, 0, 0) /* PCAPRecordedLocation */

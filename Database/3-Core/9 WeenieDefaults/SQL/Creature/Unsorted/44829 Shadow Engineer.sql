@@ -5,8 +5,8 @@ VALUES (44829, 'ace44829-shadowengineer', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44829,   1,         16) /* ItemType - Creature */
-     , (44829,   6,        255) /* ItemsCapacity */
-     , (44829,   7,        255) /* ContainersCapacity */
+     , (44829,   6,         -1) /* ItemsCapacity */
+     , (44829,   7,         -1) /* ContainersCapacity */
      , (44829,  16,          1) /* ItemUseable - No */
      , (44829,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (44829, 133,          2) /* ShowableOnRadar - ShowMovement */

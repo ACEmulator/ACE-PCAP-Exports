@@ -6,8 +6,8 @@ VALUES (44895, 'ace44895-alcott', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44895,   1,         16) /* ItemType - Creature */
      , (44895,   2,         31) /* CreatureType - Human */
-     , (44895,   6,        255) /* ItemsCapacity */
-     , (44895,   7,        255) /* ContainersCapacity */
+     , (44895,   6,         -1) /* ItemsCapacity */
+     , (44895,   7,         -1) /* ContainersCapacity */
      , (44895,  16,         32) /* ItemUseable - Remote */
      , (44895,  25,          5) /* Level */
      , (44895,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

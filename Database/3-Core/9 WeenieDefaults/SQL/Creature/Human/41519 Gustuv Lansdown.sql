@@ -6,8 +6,8 @@ VALUES (41519, 'ace41519-gustuvlansdown', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41519,   1,         16) /* ItemType - Creature */
      , (41519,   2,         31) /* CreatureType - Human */
-     , (41519,   6,        255) /* ItemsCapacity */
-     , (41519,   7,        255) /* ContainersCapacity */
+     , (41519,   6,         -1) /* ItemsCapacity */
+     , (41519,   7,         -1) /* ContainersCapacity */
      , (41519,  16,         32) /* ItemUseable - Remote */
      , (41519,  25,        267) /* Level */
      , (41519,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

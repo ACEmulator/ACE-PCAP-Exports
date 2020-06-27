@@ -5,8 +5,8 @@ VALUES (40810, 'ace40810-apostatenexusgateway', 10, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40810,   1,         16) /* ItemType - Creature */
-     , (40810,   6,        255) /* ItemsCapacity */
-     , (40810,   7,        255) /* ContainersCapacity */
+     , (40810,   6,         -1) /* ItemsCapacity */
+     , (40810,   7,         -1) /* ContainersCapacity */
      , (40810,  16,         32) /* ItemUseable - Remote */
      , (40810,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (40810,  95,          3) /* RadarBlipColor - White */

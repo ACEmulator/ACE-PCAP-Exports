@@ -6,8 +6,8 @@ VALUES (46710, 'ace46710-tormentwisp', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46710,   1,         16) /* ItemType - Creature */
      , (46710,   2,         20) /* CreatureType - Wisp */
-     , (46710,   6,        255) /* ItemsCapacity */
-     , (46710,   7,        255) /* ContainersCapacity */
+     , (46710,   6,         -1) /* ItemsCapacity */
+     , (46710,   7,         -1) /* ContainersCapacity */
      , (46710,  16,          1) /* ItemUseable - No */
      , (46710,  25,        265) /* Level */
      , (46710,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

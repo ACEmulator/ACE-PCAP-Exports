@@ -5,8 +5,8 @@ VALUES (31959, 'ace31959-baggs', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31959,   1,         16) /* ItemType - Creature */
-     , (31959,   6,        255) /* ItemsCapacity */
-     , (31959,   7,        255) /* ContainersCapacity */
+     , (31959,   6,         -1) /* ItemsCapacity */
+     , (31959,   7,         -1) /* ContainersCapacity */
      , (31959,  16,         32) /* ItemUseable - Remote */
      , (31959,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31959,  95,          8) /* RadarBlipColor - Yellow */

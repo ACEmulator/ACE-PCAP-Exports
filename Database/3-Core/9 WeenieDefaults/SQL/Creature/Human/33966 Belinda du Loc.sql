@@ -6,8 +6,8 @@ VALUES (33966, 'ace33966-belindaduloc', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33966,   1,         16) /* ItemType - Creature */
      , (33966,   2,         31) /* CreatureType - Human */
-     , (33966,   6,        255) /* ItemsCapacity */
-     , (33966,   7,        255) /* ContainersCapacity */
+     , (33966,   6,         -1) /* ItemsCapacity */
+     , (33966,   7,         -1) /* ContainersCapacity */
      , (33966,  16,         32) /* ItemUseable - Remote */
      , (33966,  25,        170) /* Level */
      , (33966,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

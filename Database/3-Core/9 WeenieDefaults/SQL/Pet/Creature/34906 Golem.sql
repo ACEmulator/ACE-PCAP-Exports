@@ -5,8 +5,8 @@ VALUES (34906, 'ace34906-croftlarasjourneymanlockpickersgolem', 69, '2019-02-10 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34906,   1,         16) /* ItemType - Creature */
-     , (34906,   6,        255) /* ItemsCapacity */
-     , (34906,   7,        255) /* ContainersCapacity */
+     , (34906,   6,         -1) /* ItemsCapacity */
+     , (34906,   7,         -1) /* ContainersCapacity */
      , (34906,  16,          1) /* ItemUseable - No */
      , (34906,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (34906,  95,          8) /* RadarBlipColor - Yellow */

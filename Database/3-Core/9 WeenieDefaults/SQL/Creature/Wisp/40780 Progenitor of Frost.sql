@@ -6,8 +6,8 @@ VALUES (40780, 'ace40780-progenitoroffrost', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40780,   1,         16) /* ItemType - Creature */
      , (40780,   2,         20) /* CreatureType - Wisp */
-     , (40780,   6,        255) /* ItemsCapacity */
-     , (40780,   7,        255) /* ContainersCapacity */
+     , (40780,   6,         -1) /* ItemsCapacity */
+     , (40780,   7,         -1) /* ContainersCapacity */
      , (40780,  16,          1) /* ItemUseable - No */
      , (40780,  25,        135) /* Level */
      , (40780,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

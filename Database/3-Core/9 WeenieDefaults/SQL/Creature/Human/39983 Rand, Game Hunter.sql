@@ -6,8 +6,8 @@ VALUES (39983, 'ace39983-randgamehunter', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39983,   1,         16) /* ItemType - Creature */
      , (39983,   2,         31) /* CreatureType - Human */
-     , (39983,   6,        255) /* ItemsCapacity */
-     , (39983,   7,        255) /* ContainersCapacity */
+     , (39983,   6,         -1) /* ItemsCapacity */
+     , (39983,   7,         -1) /* ContainersCapacity */
      , (39983,  16,         32) /* ItemUseable - Remote */
      , (39983,  25,        150) /* Level */
      , (39983,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

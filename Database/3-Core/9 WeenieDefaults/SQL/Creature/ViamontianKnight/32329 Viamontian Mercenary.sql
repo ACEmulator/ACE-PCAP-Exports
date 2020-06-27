@@ -6,8 +6,8 @@ VALUES (32329, 'ace32329-viamontianmercenary', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32329,   1,         16) /* ItemType - Creature */
      , (32329,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32329,   6,        255) /* ItemsCapacity */
-     , (32329,   7,        255) /* ContainersCapacity */
+     , (32329,   6,         -1) /* ItemsCapacity */
+     , (32329,   7,         -1) /* ContainersCapacity */
      , (32329,  16,          1) /* ItemUseable - No */
      , (32329,  25,         80) /* Level */
      , (32329,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -5,8 +5,8 @@ VALUES (41949, 'ace41949-mhoirecastlegreathallportal', 10, '2019-02-10 00:00:00'
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41949,   1,         16) /* ItemType - Creature */
-     , (41949,   6,        255) /* ItemsCapacity */
-     , (41949,   7,        255) /* ContainersCapacity */
+     , (41949,   6,         -1) /* ItemsCapacity */
+     , (41949,   7,         -1) /* ContainersCapacity */
      , (41949,  16,         32) /* ItemUseable - Remote */
      , (41949,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41949,  95,          4) /* RadarBlipColor - Purple */

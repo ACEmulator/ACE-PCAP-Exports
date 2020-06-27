@@ -6,8 +6,8 @@ VALUES (716, 'holtburgjeweler', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (716,   1,         16) /* ItemType - Creature */
      , (716,   2,         31) /* CreatureType - Human */
-     , (716,   6,        255) /* ItemsCapacity */
-     , (716,   7,        255) /* ContainersCapacity */
+     , (716,   6,         -1) /* ItemsCapacity */
+     , (716,   7,         -1) /* ContainersCapacity */
      , (716,  16,         32) /* ItemUseable - Remote */
      , (716,  25,          3) /* Level */
      , (716,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */

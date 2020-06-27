@@ -6,8 +6,8 @@ VALUES (34014, 'ace34014-tanadananjoushoujen', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34014,   1,         16) /* ItemType - Creature */
      , (34014,   2,         31) /* CreatureType - Human */
-     , (34014,   6,        255) /* ItemsCapacity */
-     , (34014,   7,        255) /* ContainersCapacity */
+     , (34014,   6,         -1) /* ItemsCapacity */
+     , (34014,   7,         -1) /* ContainersCapacity */
      , (34014,  16,          1) /* ItemUseable - No */
      , (34014,  25,        160) /* Level */
      , (34014,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

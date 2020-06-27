@@ -6,8 +6,8 @@ VALUES (35940, 'ace35940-mudmouth', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35940,   1,         16) /* ItemType - Creature */
      , (35940,   2,         59) /* CreatureType - Simulacrum */
-     , (35940,   6,        255) /* ItemsCapacity */
-     , (35940,   7,        255) /* ContainersCapacity */
+     , (35940,   6,         -1) /* ItemsCapacity */
+     , (35940,   7,         -1) /* ContainersCapacity */
      , (35940,  16,          1) /* ItemUseable - No */
      , (35940,  25,        350) /* Level */
      , (35940,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

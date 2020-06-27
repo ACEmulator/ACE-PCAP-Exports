@@ -6,8 +6,8 @@ VALUES (34978, 'ace34978-torturedspirit', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34978,   1,         16) /* ItemType - Creature */
      , (34978,   2,         77) /* CreatureType - Ghost */
-     , (34978,   6,        255) /* ItemsCapacity */
-     , (34978,   7,        255) /* ContainersCapacity */
+     , (34978,   6,         -1) /* ItemsCapacity */
+     , (34978,   7,         -1) /* ContainersCapacity */
      , (34978,  16,          1) /* ItemUseable - No */
      , (34978,  25,        185) /* Level */
      , (34978,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

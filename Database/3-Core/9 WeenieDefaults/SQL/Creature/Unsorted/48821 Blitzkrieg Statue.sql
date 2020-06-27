@@ -5,8 +5,8 @@ VALUES (48821, 'ace48821-blitzkriegstatue', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48821,   1,         16) /* ItemType - Creature */
-     , (48821,   6,        255) /* ItemsCapacity */
-     , (48821,   7,        255) /* ContainersCapacity */
+     , (48821,   6,         -1) /* ItemsCapacity */
+     , (48821,   7,         -1) /* ContainersCapacity */
      , (48821,  16,          1) /* ItemUseable - No */
      , (48821,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (48821, 307,        225) /* DamageRating */

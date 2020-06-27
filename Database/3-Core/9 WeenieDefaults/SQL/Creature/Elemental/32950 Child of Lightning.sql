@@ -6,8 +6,8 @@ VALUES (32950, 'ace32950-childoflightning', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32950,   1,         16) /* ItemType - Creature */
      , (32950,   2,         62) /* CreatureType - Elemental */
-     , (32950,   6,        255) /* ItemsCapacity */
-     , (32950,   7,        255) /* ContainersCapacity */
+     , (32950,   6,         -1) /* ItemsCapacity */
+     , (32950,   7,         -1) /* ContainersCapacity */
      , (32950,  16,          1) /* ItemUseable - No */
      , (32950,  25,        115) /* Level */
      , (32950,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

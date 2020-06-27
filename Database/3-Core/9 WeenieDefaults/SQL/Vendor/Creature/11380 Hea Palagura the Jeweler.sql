@@ -6,8 +6,8 @@ VALUES (11380, 'ahurengajeweler-xp', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11380,   1,         16) /* ItemType - Creature */
      , (11380,   2,          6) /* CreatureType - Tumerok */
-     , (11380,   6,        255) /* ItemsCapacity */
-     , (11380,   7,        255) /* ContainersCapacity */
+     , (11380,   6,         -1) /* ItemsCapacity */
+     , (11380,   7,         -1) /* ContainersCapacity */
      , (11380,  16,         32) /* ItemUseable - Remote */
      , (11380,  25,         11) /* Level */
      , (11380,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */

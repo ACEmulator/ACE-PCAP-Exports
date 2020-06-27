@@ -6,8 +6,8 @@ VALUES (1078, 'accursedhallsblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1078,   1,         16) /* ItemType - Creature */
      , (1078,   2,         31) /* CreatureType - Human */
-     , (1078,   6,        255) /* ItemsCapacity */
-     , (1078,   7,        255) /* ContainersCapacity */
+     , (1078,   6,         -1) /* ItemsCapacity */
+     , (1078,   7,         -1) /* ContainersCapacity */
      , (1078,  16,         32) /* ItemUseable - Remote */
      , (1078,  25,         21) /* Level */
      , (1078,  74,     264071) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote */

@@ -6,8 +6,8 @@ VALUES (40971, 'ace40971-archmagemalakibnhern', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40971,   1,         16) /* ItemType - Creature */
      , (40971,   2,         31) /* CreatureType - Human */
-     , (40971,   6,        255) /* ItemsCapacity */
-     , (40971,   7,        255) /* ContainersCapacity */
+     , (40971,   6,         -1) /* ItemsCapacity */
+     , (40971,   7,         -1) /* ContainersCapacity */
      , (40971,  16,         32) /* ItemUseable - Remote */
      , (40971,  25,         11) /* Level */
      , (40971,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

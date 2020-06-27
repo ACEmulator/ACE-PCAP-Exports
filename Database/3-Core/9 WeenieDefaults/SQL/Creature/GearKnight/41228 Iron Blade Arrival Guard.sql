@@ -6,8 +6,8 @@ VALUES (41228, 'ace41228-ironbladearrivalguard', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41228,   1,         16) /* ItemType - Creature */
      , (41228,   2,         99) /* CreatureType - GearKnight */
-     , (41228,   6,        255) /* ItemsCapacity */
-     , (41228,   7,        255) /* ContainersCapacity */
+     , (41228,   6,         -1) /* ItemsCapacity */
+     , (41228,   7,         -1) /* ContainersCapacity */
      , (41228,  16,          1) /* ItemUseable - No */
      , (41228,  25,        185) /* Level */
      , (41228,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

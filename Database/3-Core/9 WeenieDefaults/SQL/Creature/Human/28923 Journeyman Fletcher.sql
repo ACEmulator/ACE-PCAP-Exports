@@ -6,8 +6,8 @@ VALUES (28923, 'collectorfletchingalumid', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28923,   1,         16) /* ItemType - Creature */
      , (28923,   2,         31) /* CreatureType - Human */
-     , (28923,   6,        255) /* ItemsCapacity */
-     , (28923,   7,        255) /* ContainersCapacity */
+     , (28923,   6,         -1) /* ItemsCapacity */
+     , (28923,   7,         -1) /* ContainersCapacity */
      , (28923,  16,         32) /* ItemUseable - Remote */
      , (28923,  25,          5) /* Level */
      , (28923,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

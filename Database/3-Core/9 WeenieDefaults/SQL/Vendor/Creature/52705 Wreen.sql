@@ -5,8 +5,8 @@ VALUES (52705, 'ace52705-wreen', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52705,   1,         16) /* ItemType - Creature */
-     , (52705,   6,        255) /* ItemsCapacity */
-     , (52705,   7,        255) /* ContainersCapacity */
+     , (52705,   6,         -1) /* ItemsCapacity */
+     , (52705,   7,         -1) /* ContainersCapacity */
      , (52705,  16,         32) /* ItemUseable - Remote */
      , (52705,  74,          0) /* MerchandiseItemTypes - None */
      , (52705,  75,          0) /* MerchandiseMinValue */

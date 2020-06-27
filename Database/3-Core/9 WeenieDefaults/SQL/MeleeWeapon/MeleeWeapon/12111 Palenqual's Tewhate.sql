@@ -29,11 +29,11 @@ VALUES (12111,   1,   33557233) /* Setup */
      , (12111,   3,  536870932) /* SoundTable */
      , (12111,   8,  100672031) /* Icon */
      , (12111,  22,  872415275) /* PhysicsEffectTable */
+     , (12111,  30,         88) /* PhysicsScript - Create */
      , (12111, 8001,    2327184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (12111, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12111, 8005,     194721) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
-     , (12111, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
-     , (12111, 8019,         88) /* PCAPRecordedDefaultScript */;
+     , (12111, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12111, 8040, 532414527, 175.9389, 157.0332, 96.16439, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */

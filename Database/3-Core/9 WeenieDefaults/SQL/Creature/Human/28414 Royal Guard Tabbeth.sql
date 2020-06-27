@@ -6,8 +6,8 @@ VALUES (28414, 'npcroyalguardtabbeth', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28414,   1,         16) /* ItemType - Creature */
      , (28414,   2,         31) /* CreatureType - Human */
-     , (28414,   6,        255) /* ItemsCapacity */
-     , (28414,   7,        255) /* ContainersCapacity */
+     , (28414,   6,         -1) /* ItemsCapacity */
+     , (28414,   7,         -1) /* ContainersCapacity */
      , (28414,  16,         32) /* ItemUseable - Remote */
      , (28414,  25,        120) /* Level */
      , (28414,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

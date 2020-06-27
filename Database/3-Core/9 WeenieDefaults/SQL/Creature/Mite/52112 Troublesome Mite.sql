@@ -6,8 +6,8 @@ VALUES (52112, 'ace52112-troublesomemite', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52112,   1,         16) /* ItemType - Creature */
      , (52112,   2,          7) /* CreatureType - Mite */
-     , (52112,   6,        255) /* ItemsCapacity */
-     , (52112,   7,        255) /* ContainersCapacity */
+     , (52112,   6,         -1) /* ItemsCapacity */
+     , (52112,   7,         -1) /* ContainersCapacity */
      , (52112,  16,          1) /* ItemUseable - No */
      , (52112,  25,        240) /* Level */
      , (52112,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

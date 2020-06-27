@@ -6,8 +6,8 @@ VALUES (38076, 'ace38076-lostmenileshdenizen', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38076,   1,         16) /* ItemType - Creature */
      , (38076,   2,         14) /* CreatureType - Undead */
-     , (38076,   6,        255) /* ItemsCapacity */
-     , (38076,   7,        255) /* ContainersCapacity */
+     , (38076,   6,         -1) /* ItemsCapacity */
+     , (38076,   7,         -1) /* ContainersCapacity */
      , (38076,  16,          1) /* ItemUseable - No */
      , (38076,  25,        185) /* Level */
      , (38076,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

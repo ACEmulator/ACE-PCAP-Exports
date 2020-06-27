@@ -6,8 +6,8 @@ VALUES (27427, 'shadownightmareboss', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27427,   1,         16) /* ItemType - Creature */
      , (27427,   2,         22) /* CreatureType - Shadow */
-     , (27427,   6,        255) /* ItemsCapacity */
-     , (27427,   7,        255) /* ContainersCapacity */
+     , (27427,   6,         -1) /* ItemsCapacity */
+     , (27427,   7,         -1) /* ContainersCapacity */
      , (27427,  16,          1) /* ItemUseable - No */
      , (27427,  25,        160) /* Level */
      , (27427,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

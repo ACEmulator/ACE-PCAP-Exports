@@ -6,8 +6,8 @@ VALUES (38029, 'ace38029-elitezharalimagent', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38029,   1,         16) /* ItemType - Creature */
      , (38029,   2,         31) /* CreatureType - Human */
-     , (38029,   6,        255) /* ItemsCapacity */
-     , (38029,   7,        255) /* ContainersCapacity */
+     , (38029,   6,         -1) /* ItemsCapacity */
+     , (38029,   7,         -1) /* ContainersCapacity */
      , (38029,  16,          1) /* ItemUseable - No */
      , (38029,  25,        160) /* Level */
      , (38029,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

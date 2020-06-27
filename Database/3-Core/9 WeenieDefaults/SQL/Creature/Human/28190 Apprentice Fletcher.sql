@@ -6,8 +6,8 @@ VALUES (28190, 'collectorfletchingsholow', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28190,   1,         16) /* ItemType - Creature */
      , (28190,   2,         31) /* CreatureType - Human */
-     , (28190,   6,        255) /* ItemsCapacity */
-     , (28190,   7,        255) /* ContainersCapacity */
+     , (28190,   6,         -1) /* ItemsCapacity */
+     , (28190,   7,         -1) /* ContainersCapacity */
      , (28190,  16,         32) /* ItemUseable - Remote */
      , (28190,  25,          5) /* Level */
      , (28190,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (35177, 'ace35177-crystalarray', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35177,   1,         16) /* ItemType - Creature */
      , (35177,   2,         47) /* CreatureType - Crystal */
-     , (35177,   6,        255) /* ItemsCapacity */
-     , (35177,   7,        255) /* ContainersCapacity */
+     , (35177,   6,         -1) /* ItemsCapacity */
+     , (35177,   7,         -1) /* ContainersCapacity */
      , (35177,  16,         32) /* ItemUseable - Remote */
      , (35177,  25,        710) /* Level */
      , (35177,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */

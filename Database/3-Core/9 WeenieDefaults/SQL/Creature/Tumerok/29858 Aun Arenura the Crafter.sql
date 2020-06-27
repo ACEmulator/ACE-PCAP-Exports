@@ -6,8 +6,8 @@ VALUES (29858, 'timarucrafterarenura', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29858,   1,         16) /* ItemType - Creature */
      , (29858,   2,          6) /* CreatureType - Tumerok */
-     , (29858,   6,        255) /* ItemsCapacity */
-     , (29858,   7,        255) /* ContainersCapacity */
+     , (29858,   6,         -1) /* ItemsCapacity */
+     , (29858,   7,         -1) /* ContainersCapacity */
      , (29858,  16,         32) /* ItemUseable - Remote */
      , (29858,  25,         25) /* Level */
      , (29858,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

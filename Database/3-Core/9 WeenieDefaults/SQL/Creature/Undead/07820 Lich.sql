@@ -6,8 +6,8 @@ VALUES (7820, 'zombielichsoulfearing-melee', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7820,   1,         16) /* ItemType - Creature */
      , (7820,   2,         14) /* CreatureType - Undead */
-     , (7820,   6,        255) /* ItemsCapacity */
-     , (7820,   7,        255) /* ContainersCapacity */
+     , (7820,   6,         -1) /* ItemsCapacity */
+     , (7820,   7,         -1) /* ContainersCapacity */
      , (7820,  16,          1) /* ItemUseable - No */
      , (7820,  25,         20) /* Level */
      , (7820,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (47053, 'ace47053-xilkvar', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47053,   1,         16) /* ItemType - Creature */
      , (47053,   2,         14) /* CreatureType - Undead */
-     , (47053,   6,        255) /* ItemsCapacity */
-     , (47053,   7,        255) /* ContainersCapacity */
+     , (47053,   6,         -1) /* ItemsCapacity */
+     , (47053,   7,         -1) /* ContainersCapacity */
      , (47053,  16,          1) /* ItemUseable - No */
      , (47053,  25,        220) /* Level */
      , (47053,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

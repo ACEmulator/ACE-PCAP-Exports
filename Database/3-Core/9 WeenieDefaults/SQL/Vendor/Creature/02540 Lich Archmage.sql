@@ -6,8 +6,8 @@ VALUES (2540, 'licharchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2540,   1,         16) /* ItemType - Creature */
      , (2540,   2,         14) /* CreatureType - Undead */
-     , (2540,   6,        255) /* ItemsCapacity */
-     , (2540,   7,        255) /* ContainersCapacity */
+     , (2540,   6,         -1) /* ItemsCapacity */
+     , (2540,   7,         -1) /* ContainersCapacity */
      , (2540,  16,         32) /* ItemUseable - Remote */
      , (2540,  25,          9) /* Level */
      , (2540,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

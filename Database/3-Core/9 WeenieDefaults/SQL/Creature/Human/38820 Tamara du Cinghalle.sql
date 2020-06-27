@@ -6,8 +6,8 @@ VALUES (38820, 'ace38820-tamaraducinghalle', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38820,   1,         16) /* ItemType - Creature */
      , (38820,   2,         31) /* CreatureType - Human */
-     , (38820,   6,        255) /* ItemsCapacity */
-     , (38820,   7,        255) /* ContainersCapacity */
+     , (38820,   6,         -1) /* ItemsCapacity */
+     , (38820,   7,         -1) /* ContainersCapacity */
      , (38820,  16,         32) /* ItemUseable - Remote */
      , (38820,  25,        150) /* Level */
      , (38820,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

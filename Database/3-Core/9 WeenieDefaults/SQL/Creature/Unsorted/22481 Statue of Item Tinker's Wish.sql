@@ -5,8 +5,8 @@ VALUES (22481, 'statuetuskieitemtink', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22481,   1,         16) /* ItemType - Creature */
-     , (22481,   6,        255) /* ItemsCapacity */
-     , (22481,   7,        255) /* ContainersCapacity */
+     , (22481,   6,         -1) /* ItemsCapacity */
+     , (22481,   7,         -1) /* ContainersCapacity */
      , (22481,  16,         32) /* ItemUseable - Remote */
      , (22481,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22481,  95,          3) /* RadarBlipColor - White */

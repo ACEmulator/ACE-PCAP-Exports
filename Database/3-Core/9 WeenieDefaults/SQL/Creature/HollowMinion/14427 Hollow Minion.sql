@@ -6,8 +6,8 @@ VALUES (14427, 'hollowminionregicide', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14427,   1,         16) /* ItemType - Creature */
      , (14427,   2,         48) /* CreatureType - HollowMinion */
-     , (14427,   6,        255) /* ItemsCapacity */
-     , (14427,   7,        255) /* ContainersCapacity */
+     , (14427,   6,         -1) /* ItemsCapacity */
+     , (14427,   7,         -1) /* ContainersCapacity */
      , (14427,  16,          1) /* ItemUseable - No */
      , (14427,  25,         23) /* Level */
      , (14427,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (49021, 'ace49021-hamlitthehellraiserszombie', 71, '2019-02-10 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49021,   1,         16) /* ItemType - Creature */
      , (49021,   2,         14) /* CreatureType - Undead */
-     , (49021,   6,        255) /* ItemsCapacity */
-     , (49021,   7,        255) /* ContainersCapacity */
+     , (49021,   6,         -1) /* ItemsCapacity */
+     , (49021,   7,         -1) /* ContainersCapacity */
      , (49021,  16,          1) /* ItemUseable - No */
      , (49021,  25,        180) /* Level */
      , (49021,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

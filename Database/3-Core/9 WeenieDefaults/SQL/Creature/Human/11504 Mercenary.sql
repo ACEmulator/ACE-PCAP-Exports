@@ -6,8 +6,8 @@ VALUES (11504, 'humanmercenary-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11504,   1,         16) /* ItemType - Creature */
      , (11504,   2,         31) /* CreatureType - Human */
-     , (11504,   6,        255) /* ItemsCapacity */
-     , (11504,   7,        255) /* ContainersCapacity */
+     , (11504,   6,         -1) /* ItemsCapacity */
+     , (11504,   7,         -1) /* ContainersCapacity */
      , (11504,  16,          1) /* ItemUseable - No */
      , (11504,  25,         80) /* Level */
      , (11504,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

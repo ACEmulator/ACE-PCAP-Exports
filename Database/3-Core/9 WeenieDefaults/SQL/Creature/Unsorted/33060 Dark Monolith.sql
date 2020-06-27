@@ -5,8 +5,8 @@ VALUES (33060, 'ace33060-darkmonolith', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33060,   1,         16) /* ItemType - Creature */
-     , (33060,   6,        255) /* ItemsCapacity */
-     , (33060,   7,        255) /* ContainersCapacity */
+     , (33060,   6,         -1) /* ItemsCapacity */
+     , (33060,   7,         -1) /* ContainersCapacity */
      , (33060,  16,         32) /* ItemUseable - Remote */
      , (33060,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33060,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (36838, 'ace36838-tiatusraider', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36838,   1,         16) /* ItemType - Creature */
      , (36838,   2,         70) /* CreatureType - GotrokLugian */
-     , (36838,   6,        255) /* ItemsCapacity */
-     , (36838,   7,        255) /* ContainersCapacity */
+     , (36838,   6,         -1) /* ItemsCapacity */
+     , (36838,   7,         -1) /* ContainersCapacity */
      , (36838,  16,          1) /* ItemUseable - No */
      , (36838,  25,        115) /* Level */
      , (36838,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

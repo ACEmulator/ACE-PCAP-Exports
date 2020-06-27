@@ -6,8 +6,8 @@ VALUES (35009, 'ace35009-generaltainkivix', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35009,   1,         16) /* ItemType - Creature */
      , (35009,   2,         14) /* CreatureType - Undead */
-     , (35009,   6,        255) /* ItemsCapacity */
-     , (35009,   7,        255) /* ContainersCapacity */
+     , (35009,   6,         -1) /* ItemsCapacity */
+     , (35009,   7,         -1) /* ContainersCapacity */
      , (35009,  16,          1) /* ItemUseable - No */
      , (35009,  25,        185) /* Level */
      , (35009,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

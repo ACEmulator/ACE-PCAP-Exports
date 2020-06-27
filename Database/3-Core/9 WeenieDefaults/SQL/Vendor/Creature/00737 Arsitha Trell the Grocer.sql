@@ -6,8 +6,8 @@ VALUES (737, 'glendenshopkeep', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (737,   1,         16) /* ItemType - Creature */
      , (737,   2,         31) /* CreatureType - Human */
-     , (737,   6,        255) /* ItemsCapacity */
-     , (737,   7,        255) /* ContainersCapacity */
+     , (737,   6,         -1) /* ItemsCapacity */
+     , (737,   7,         -1) /* ContainersCapacity */
      , (737,  16,         32) /* ItemUseable - Remote */
      , (737,  25,          4) /* Level */
      , (737,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

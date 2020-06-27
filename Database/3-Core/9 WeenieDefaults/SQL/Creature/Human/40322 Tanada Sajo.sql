@@ -6,8 +6,8 @@ VALUES (40322, 'ace40322-tanadasajo', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40322,   1,         16) /* ItemType - Creature */
      , (40322,   2,         31) /* CreatureType - Human */
-     , (40322,   6,        255) /* ItemsCapacity */
-     , (40322,   7,        255) /* ContainersCapacity */
+     , (40322,   6,         -1) /* ItemsCapacity */
+     , (40322,   7,         -1) /* ContainersCapacity */
      , (40322,  16,         32) /* ItemUseable - Remote */
      , (40322,  25,        100) /* Level */
      , (40322,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

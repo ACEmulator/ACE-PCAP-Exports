@@ -6,8 +6,8 @@ VALUES (37453, 'ace37453-corruptedmaiden', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37453,   1,         16) /* ItemType - Creature */
      , (37453,   2,         77) /* CreatureType - Ghost */
-     , (37453,   6,        255) /* ItemsCapacity */
-     , (37453,   7,        255) /* ContainersCapacity */
+     , (37453,   6,         -1) /* ItemsCapacity */
+     , (37453,   7,         -1) /* ContainersCapacity */
      , (37453,  16,          1) /* ItemUseable - No */
      , (37453,  25,        185) /* Level */
      , (37453,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

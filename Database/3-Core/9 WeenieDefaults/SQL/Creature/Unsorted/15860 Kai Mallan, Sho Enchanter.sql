@@ -5,8 +5,8 @@ VALUES (15860, 'shoempyreanthrall', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15860,   1,         16) /* ItemType - Creature */
-     , (15860,   6,        255) /* ItemsCapacity */
-     , (15860,   7,        255) /* ContainersCapacity */
+     , (15860,   6,         -1) /* ItemsCapacity */
+     , (15860,   7,         -1) /* ContainersCapacity */
      , (15860,  16,         32) /* ItemUseable - Remote */
      , (15860,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (15860,  95,          8) /* RadarBlipColor - Yellow */

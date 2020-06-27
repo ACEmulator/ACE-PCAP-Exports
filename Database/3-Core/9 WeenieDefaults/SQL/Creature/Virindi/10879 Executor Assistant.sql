@@ -6,8 +6,8 @@ VALUES (10879, 'minionmartinemarae-xp', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10879,   1,         16) /* ItemType - Creature */
      , (10879,   2,         19) /* CreatureType - Virindi */
-     , (10879,   6,        255) /* ItemsCapacity */
-     , (10879,   7,        255) /* ContainersCapacity */
+     , (10879,   6,         -1) /* ItemsCapacity */
+     , (10879,   7,         -1) /* ContainersCapacity */
      , (10879,  16,         32) /* ItemUseable - Remote */
      , (10879,  25,         71) /* Level */
      , (10879,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

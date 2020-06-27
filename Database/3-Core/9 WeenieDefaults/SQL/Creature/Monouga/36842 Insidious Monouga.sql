@@ -6,8 +6,8 @@ VALUES (36842, 'ace36842-insidiousmonouga', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36842,   1,         16) /* ItemType - Creature */
      , (36842,   2,         28) /* CreatureType - Monouga */
-     , (36842,   6,        255) /* ItemsCapacity */
-     , (36842,   7,        255) /* ContainersCapacity */
+     , (36842,   6,         -1) /* ItemsCapacity */
+     , (36842,   7,         -1) /* ContainersCapacity */
      , (36842,  16,          1) /* ItemUseable - No */
      , (36842,  25,        115) /* Level */
      , (36842,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

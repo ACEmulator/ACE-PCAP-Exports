@@ -5,8 +5,8 @@ VALUES (32411, 'ace32411-lightweaponswardenofforgetfulness', 10, '2019-02-10 00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32411,   1,         16) /* ItemType - Creature */
-     , (32411,   6,        255) /* ItemsCapacity */
-     , (32411,   7,        255) /* ContainersCapacity */
+     , (32411,   6,         -1) /* ItemsCapacity */
+     , (32411,   7,         -1) /* ContainersCapacity */
      , (32411,  16,         32) /* ItemUseable - Remote */
      , (32411,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32411,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (49584, 'ace49584-elystmaggann', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49584,   1,         16) /* ItemType - Creature */
      , (49584,   2,         31) /* CreatureType - Human */
-     , (49584,   6,        255) /* ItemsCapacity */
-     , (49584,   7,        255) /* ContainersCapacity */
+     , (49584,   6,         -1) /* ItemsCapacity */
+     , (49584,   7,         -1) /* ContainersCapacity */
      , (49584,  16,         32) /* ItemUseable - Remote */
      , (49584,  25,        250) /* Level */
      , (49584,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

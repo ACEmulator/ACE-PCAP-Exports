@@ -6,8 +6,8 @@ VALUES (4541, 'linbarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4541,   1,         16) /* ItemType - Creature */
      , (4541,   2,         31) /* CreatureType - Human */
-     , (4541,   6,        255) /* ItemsCapacity */
-     , (4541,   7,        255) /* ContainersCapacity */
+     , (4541,   6,         -1) /* ItemsCapacity */
+     , (4541,   7,         -1) /* ContainersCapacity */
      , (4541,  16,         32) /* ItemUseable - Remote */
      , (4541,  25,          6) /* Level */
      , (4541,  74,     278560) /* MerchandiseItemTypes - Food, Key, PromissoryNote */

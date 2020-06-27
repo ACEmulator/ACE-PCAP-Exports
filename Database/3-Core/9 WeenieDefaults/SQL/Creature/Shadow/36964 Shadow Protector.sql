@@ -6,8 +6,8 @@ VALUES (36964, 'ace36964-shadowprotector', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36964,   1,         16) /* ItemType - Creature */
      , (36964,   2,         22) /* CreatureType - Shadow */
-     , (36964,   6,        255) /* ItemsCapacity */
-     , (36964,   7,        255) /* ContainersCapacity */
+     , (36964,   6,         -1) /* ItemsCapacity */
+     , (36964,   7,         -1) /* ContainersCapacity */
      , (36964,  16,          1) /* ItemUseable - No */
      , (36964,  25,        185) /* Level */
      , (36964,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

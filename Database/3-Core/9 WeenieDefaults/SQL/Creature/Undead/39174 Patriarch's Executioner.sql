@@ -6,8 +6,8 @@ VALUES (39174, 'ace39174-patriarchsexecutioner', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39174,   1,         16) /* ItemType - Creature */
      , (39174,   2,         14) /* CreatureType - Undead */
-     , (39174,   6,        255) /* ItemsCapacity */
-     , (39174,   7,        255) /* ContainersCapacity */
+     , (39174,   6,         -1) /* ItemsCapacity */
+     , (39174,   7,         -1) /* ContainersCapacity */
      , (39174,  16,          1) /* ItemUseable - No */
      , (39174,  25,        200) /* Level */
      , (39174,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

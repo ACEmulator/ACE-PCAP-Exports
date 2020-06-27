@@ -5,8 +5,8 @@ VALUES (44695, 'ace44695-pillaroffire', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44695,   1,         16) /* ItemType - Creature */
-     , (44695,   6,        255) /* ItemsCapacity */
-     , (44695,   7,        255) /* ContainersCapacity */
+     , (44695,   6,         -1) /* ItemsCapacity */
+     , (44695,   7,         -1) /* ContainersCapacity */
      , (44695,  16,          1) /* ItemUseable - No */
      , (44695,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (44695, 133,          4) /* ShowableOnRadar - ShowAlways */

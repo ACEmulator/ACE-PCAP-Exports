@@ -6,8 +6,8 @@ VALUES (38026, 'ace38026-summoningstone', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38026,   1,         16) /* ItemType - Creature */
      , (38026,   5,       1000) /* EncumbranceVal */
-     , (38026,   6,        255) /* ItemsCapacity */
-     , (38026,   7,        255) /* ContainersCapacity */
+     , (38026,   6,         -1) /* ItemsCapacity */
+     , (38026,   7,         -1) /* ContainersCapacity */
      , (38026,  16,         32) /* ItemUseable - Remote */
      , (38026,  19,          0) /* Value */
      , (38026,  93,    2097180) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, ReportCollisionsAsEnvironment */

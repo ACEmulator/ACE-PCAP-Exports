@@ -6,8 +6,8 @@ VALUES (51888, 'ace51888-thebringeroflight', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51888,   1,         16) /* ItemType - Creature */
      , (51888,   2,         19) /* CreatureType - Virindi */
-     , (51888,   6,        255) /* ItemsCapacity */
-     , (51888,   7,        255) /* ContainersCapacity */
+     , (51888,   6,         -1) /* ItemsCapacity */
+     , (51888,   7,         -1) /* ContainersCapacity */
      , (51888,  16,         32) /* ItemUseable - Remote */
      , (51888,  25,        610) /* Level */
      , (51888,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

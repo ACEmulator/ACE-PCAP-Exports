@@ -6,8 +6,8 @@ VALUES (8441, 'krystleader', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8441,   1,         16) /* ItemType - Creature */
      , (8441,   2,         31) /* CreatureType - Human */
-     , (8441,   6,        255) /* ItemsCapacity */
-     , (8441,   7,        255) /* ContainersCapacity */
+     , (8441,   6,         -1) /* ItemsCapacity */
+     , (8441,   7,         -1) /* ContainersCapacity */
      , (8441,  16,         32) /* ItemUseable - Remote */
      , (8441,  25,         61) /* Level */
      , (8441,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

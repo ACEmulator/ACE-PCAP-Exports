@@ -6,8 +6,8 @@ VALUES (10937, 'heatumeroknualuankanokeh-xp', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10937,   1,         16) /* ItemType - Creature */
      , (10937,   2,         58) /* CreatureType - HeaTumerok */
-     , (10937,   6,        255) /* ItemsCapacity */
-     , (10937,   7,        255) /* ContainersCapacity */
+     , (10937,   6,         -1) /* ItemsCapacity */
+     , (10937,   7,         -1) /* ContainersCapacity */
      , (10937,  16,          1) /* ItemUseable - No */
      , (10937,  25,         50) /* Level */
      , (10937,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

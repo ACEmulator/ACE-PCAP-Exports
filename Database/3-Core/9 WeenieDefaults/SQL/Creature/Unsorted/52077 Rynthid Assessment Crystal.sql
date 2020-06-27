@@ -5,8 +5,8 @@ VALUES (52077, 'ace52077-rynthidassessmentcrystal', 10, '2019-02-10 00:00:00') /
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52077,   1,         16) /* ItemType - Creature */
-     , (52077,   6,        255) /* ItemsCapacity */
-     , (52077,   7,        255) /* ContainersCapacity */
+     , (52077,   6,         -1) /* ItemsCapacity */
+     , (52077,   7,         -1) /* ContainersCapacity */
      , (52077,  16,         32) /* ItemUseable - Remote */
      , (52077,  93,    6291480) /* PhysicsState - ReportCollisions, IgnoreCollisions, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52077,  95,          8) /* RadarBlipColor - Yellow */

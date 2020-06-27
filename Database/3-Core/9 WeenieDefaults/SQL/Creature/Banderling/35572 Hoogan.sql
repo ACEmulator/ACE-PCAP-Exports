@@ -6,8 +6,8 @@ VALUES (35572, 'ace35572-hoogan', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35572,   1,         16) /* ItemType - Creature */
      , (35572,   2,          2) /* CreatureType - Banderling */
-     , (35572,   6,        255) /* ItemsCapacity */
-     , (35572,   7,        255) /* ContainersCapacity */
+     , (35572,   6,         -1) /* ItemsCapacity */
+     , (35572,   7,         -1) /* ContainersCapacity */
      , (35572,  16,         32) /* ItemUseable - Remote */
      , (35572,  25,         84) /* Level */
      , (35572,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

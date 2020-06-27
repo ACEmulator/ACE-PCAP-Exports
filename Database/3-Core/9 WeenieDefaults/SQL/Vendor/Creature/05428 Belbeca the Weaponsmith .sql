@@ -6,8 +6,8 @@ VALUES (5428, 'glendenwestoutpostweaponsmith', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5428,   1,         16) /* ItemType - Creature */
      , (5428,   2,         31) /* CreatureType - Human */
-     , (5428,   6,        255) /* ItemsCapacity */
-     , (5428,   7,        255) /* ContainersCapacity */
+     , (5428,   6,         -1) /* ItemsCapacity */
+     , (5428,   7,         -1) /* ContainersCapacity */
      , (5428,  16,         32) /* ItemUseable - Remote */
      , (5428,  25,         10) /* Level */
      , (5428,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */

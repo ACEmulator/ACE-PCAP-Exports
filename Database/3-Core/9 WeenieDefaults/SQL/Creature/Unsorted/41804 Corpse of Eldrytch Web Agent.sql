@@ -6,8 +6,8 @@ VALUES (41804, 'ace41804-corpseofeldrytchwebagent', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41804,   1,         16) /* ItemType - Creature */
      , (41804,   5,       6000) /* EncumbranceVal */
-     , (41804,   6,        255) /* ItemsCapacity */
-     , (41804,   7,        255) /* ContainersCapacity */
+     , (41804,   6,         -1) /* ItemsCapacity */
+     , (41804,   7,         -1) /* ContainersCapacity */
      , (41804,  16,         32) /* ItemUseable - Remote */
      , (41804,  93,    6292492) /* PhysicsState - Ethereal, ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41804,  95,          8) /* RadarBlipColor - Yellow */

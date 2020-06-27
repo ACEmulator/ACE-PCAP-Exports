@@ -6,8 +6,8 @@ VALUES (7821, 'skeletoncaptainsoulfearing-melee', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7821,   1,         16) /* ItemType - Creature */
      , (7821,   2,         30) /* CreatureType - Skeleton */
-     , (7821,   6,        255) /* ItemsCapacity */
-     , (7821,   7,        255) /* ContainersCapacity */
+     , (7821,   6,         -1) /* ItemsCapacity */
+     , (7821,   7,         -1) /* ContainersCapacity */
      , (7821,  16,          1) /* ItemUseable - No */
      , (7821,  25,         20) /* Level */
      , (7821,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

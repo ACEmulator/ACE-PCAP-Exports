@@ -6,8 +6,8 @@ VALUES (38330, 'ace38330-philoniusporbandar', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38330,   1,         16) /* ItemType - Creature */
      , (38330,   2,         31) /* CreatureType - Human */
-     , (38330,   6,        255) /* ItemsCapacity */
-     , (38330,   7,        255) /* ContainersCapacity */
+     , (38330,   6,         -1) /* ItemsCapacity */
+     , (38330,   7,         -1) /* ContainersCapacity */
      , (38330,  16,         32) /* ItemUseable - Remote */
      , (38330,  25,        200) /* Level */
      , (38330,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (41752, 'ace41752-arcanumsalvagevendor', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41752,   1,         16) /* ItemType - Creature */
      , (41752,   2,         31) /* CreatureType - Human */
-     , (41752,   6,        255) /* ItemsCapacity */
-     , (41752,   7,        255) /* ContainersCapacity */
+     , (41752,   6,         -1) /* ItemsCapacity */
+     , (41752,   7,         -1) /* ContainersCapacity */
      , (41752,  16,         32) /* ItemUseable - Remote */
      , (41752,  25,        275) /* Level */
      , (41752,  74,          0) /* MerchandiseItemTypes - None */

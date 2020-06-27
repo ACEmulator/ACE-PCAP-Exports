@@ -6,8 +6,8 @@ VALUES (48958, 'ace48958-brotaselemental', 71, '2019-02-10 00:00:00') /* CombatP
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48958,   1,         16) /* ItemType - Creature */
      , (48958,   2,         62) /* CreatureType - Elemental */
-     , (48958,   6,        255) /* ItemsCapacity */
-     , (48958,   7,        255) /* ContainersCapacity */
+     , (48958,   6,         -1) /* ItemsCapacity */
+     , (48958,   7,         -1) /* ContainersCapacity */
      , (48958,  16,          1) /* ItemUseable - No */
      , (48958,  25,        200) /* Level */
      , (48958,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (11505, 'humanpoacher-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11505,   1,         16) /* ItemType - Creature */
      , (11505,   2,         31) /* CreatureType - Human */
-     , (11505,   6,        255) /* ItemsCapacity */
-     , (11505,   7,        255) /* ContainersCapacity */
+     , (11505,   6,         -1) /* ItemsCapacity */
+     , (11505,   7,         -1) /* ContainersCapacity */
      , (11505,  16,          1) /* ItemUseable - No */
      , (11505,  25,         80) /* Level */
      , (11505,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

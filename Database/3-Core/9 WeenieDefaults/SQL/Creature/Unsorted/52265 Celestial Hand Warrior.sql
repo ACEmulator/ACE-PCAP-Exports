@@ -5,8 +5,8 @@ VALUES (52265, 'ace52265-celestialhandwarrior', 10, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52265,   1,         16) /* ItemType - Creature */
-     , (52265,   6,        255) /* ItemsCapacity */
-     , (52265,   7,        255) /* ContainersCapacity */
+     , (52265,   6,         -1) /* ItemsCapacity */
+     , (52265,   7,         -1) /* ContainersCapacity */
      , (52265,  16,          1) /* ItemUseable - No */
      , (52265,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52265, 133,          1) /* ShowableOnRadar - ShowNever */

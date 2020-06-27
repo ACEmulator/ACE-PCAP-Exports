@@ -6,8 +6,8 @@ VALUES (2220, 'dryreacharchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2220,   1,         16) /* ItemType - Creature */
      , (2220,   2,         31) /* CreatureType - Human */
-     , (2220,   6,        255) /* ItemsCapacity */
-     , (2220,   7,        255) /* ContainersCapacity */
+     , (2220,   6,         -1) /* ItemsCapacity */
+     , (2220,   7,         -1) /* ContainersCapacity */
      , (2220,  16,         32) /* ItemUseable - Remote */
      , (2220,  25,         12) /* Level */
      , (2220,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

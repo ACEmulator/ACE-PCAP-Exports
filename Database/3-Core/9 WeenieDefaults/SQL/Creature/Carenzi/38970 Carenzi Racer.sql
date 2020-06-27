@@ -6,8 +6,8 @@ VALUES (38970, 'ace38970-carenziracer', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38970,   1,         16) /* ItemType - Creature */
      , (38970,   2,         55) /* CreatureType - Carenzi */
-     , (38970,   6,        255) /* ItemsCapacity */
-     , (38970,   7,        255) /* ContainersCapacity */
+     , (38970,   6,         -1) /* ItemsCapacity */
+     , (38970,   7,         -1) /* ContainersCapacity */
      , (38970,  16,         32) /* ItemUseable - Remote */
      , (38970,  25,        100) /* Level */
      , (38970,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

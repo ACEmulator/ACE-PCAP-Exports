@@ -5,8 +5,8 @@ VALUES (33915, 'ace33915-abyssaltotemgateway', 10, '2019-02-10 00:00:00') /* Cre
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33915,   1,         16) /* ItemType - Creature */
-     , (33915,   6,        255) /* ItemsCapacity */
-     , (33915,   7,        255) /* ContainersCapacity */
+     , (33915,   6,         -1) /* ItemsCapacity */
+     , (33915,   7,         -1) /* ContainersCapacity */
      , (33915,  16,         32) /* ItemUseable - Remote */
      , (33915,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33915,  95,          8) /* RadarBlipColor - Yellow */

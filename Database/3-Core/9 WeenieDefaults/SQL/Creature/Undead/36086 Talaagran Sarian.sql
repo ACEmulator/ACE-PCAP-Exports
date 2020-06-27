@@ -6,8 +6,8 @@ VALUES (36086, 'ace36086-talaagransarian', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36086,   1,         16) /* ItemType - Creature */
      , (36086,   2,         14) /* CreatureType - Undead */
-     , (36086,   6,        255) /* ItemsCapacity */
-     , (36086,   7,        255) /* ContainersCapacity */
+     , (36086,   6,         -1) /* ItemsCapacity */
+     , (36086,   7,         -1) /* ContainersCapacity */
      , (36086,  16,         32) /* ItemUseable - Remote */
      , (36086,  25,         12) /* Level */
      , (36086,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

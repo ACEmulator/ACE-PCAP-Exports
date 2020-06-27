@@ -6,8 +6,8 @@ VALUES (35441, 'ace35441-drudgeslinker', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35441,   1,         16) /* ItemType - Creature */
      , (35441,   2,          3) /* CreatureType - Drudge */
-     , (35441,   6,        255) /* ItemsCapacity */
-     , (35441,   7,        255) /* ContainersCapacity */
+     , (35441,   6,         -1) /* ItemsCapacity */
+     , (35441,   7,         -1) /* ContainersCapacity */
      , (35441,  16,          1) /* ItemUseable - No */
      , (35441,  25,          8) /* Level */
      , (35441,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

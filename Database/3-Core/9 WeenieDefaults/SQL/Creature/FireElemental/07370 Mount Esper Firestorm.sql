@@ -6,8 +6,8 @@ VALUES (7370, 'firestormesper', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7370,   1,         16) /* ItemType - Creature */
      , (7370,   2,         38) /* CreatureType - FireElemental */
-     , (7370,   6,        255) /* ItemsCapacity */
-     , (7370,   7,        255) /* ContainersCapacity */
+     , (7370,   6,         -1) /* ItemsCapacity */
+     , (7370,   7,         -1) /* ContainersCapacity */
      , (7370,  16,          1) /* ItemUseable - No */
      , (7370,  25,        100) /* Level */
      , (7370,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

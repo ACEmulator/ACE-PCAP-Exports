@@ -6,8 +6,8 @@ VALUES (21160, 'acidelementalscourge', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21160,   1,         16) /* ItemType - Creature */
      , (21160,   2,         60) /* CreatureType - AcidElemental */
-     , (21160,   6,        255) /* ItemsCapacity */
-     , (21160,   7,        255) /* ContainersCapacity */
+     , (21160,   6,         -1) /* ItemsCapacity */
+     , (21160,   7,         -1) /* ContainersCapacity */
      , (21160,  16,          1) /* ItemUseable - No */
      , (21160,  25,         40) /* Level */
      , (21160,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

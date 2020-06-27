@@ -6,8 +6,8 @@ VALUES (40495, 'ace40495-heaapostateshocktrooper', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40495,   1,         16) /* ItemType - Creature */
      , (40495,   2,          6) /* CreatureType - Tumerok */
-     , (40495,   6,        255) /* ItemsCapacity */
-     , (40495,   7,        255) /* ContainersCapacity */
+     , (40495,   6,         -1) /* ItemsCapacity */
+     , (40495,   7,         -1) /* ContainersCapacity */
      , (40495,  16,          1) /* ItemUseable - No */
      , (40495,  25,        185) /* Level */
      , (40495,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

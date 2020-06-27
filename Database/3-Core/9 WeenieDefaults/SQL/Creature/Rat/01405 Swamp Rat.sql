@@ -6,8 +6,8 @@ VALUES (1405, 'lostlightholtburgrat', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1405,   1,         16) /* ItemType - Creature */
      , (1405,   2,         10) /* CreatureType - Rat */
-     , (1405,   6,        255) /* ItemsCapacity */
-     , (1405,   7,        255) /* ContainersCapacity */
+     , (1405,   6,         -1) /* ItemsCapacity */
+     , (1405,   7,         -1) /* ContainersCapacity */
      , (1405,  16,          1) /* ItemUseable - No */
      , (1405,  25,          8) /* Level */
      , (1405,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (1405,   1,   33554493) /* Setup */
      , (1405,   6,   67109300) /* PaletteBase */
      , (1405,   8,  100667451) /* Icon */
      , (1405,  22,  872415267) /* PhysicsEffectTable */
+     , (1405,  30,         87) /* PhysicsScript - BreatheLightning */
      , (1405, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1405, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1405, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (1405, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (1405, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1405, 8040, 32899578, 87.3043, -60.509, -5.988, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */

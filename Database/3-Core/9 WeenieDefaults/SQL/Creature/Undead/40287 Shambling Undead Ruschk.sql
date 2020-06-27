@@ -6,8 +6,8 @@ VALUES (40287, 'ace40287-shamblingundeadruschk', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40287,   1,         16) /* ItemType - Creature */
      , (40287,   2,         14) /* CreatureType - Undead */
-     , (40287,   6,        255) /* ItemsCapacity */
-     , (40287,   7,        255) /* ContainersCapacity */
+     , (40287,   6,         -1) /* ItemsCapacity */
+     , (40287,   7,         -1) /* ContainersCapacity */
      , (40287,  16,          1) /* ItemUseable - No */
      , (40287,  25,        185) /* Level */
      , (40287,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

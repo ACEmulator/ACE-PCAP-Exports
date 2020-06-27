@@ -5,8 +5,8 @@ VALUES (33246, 'ace33246-harbingerslair', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33246,   1,         16) /* ItemType - Creature */
-     , (33246,   6,        255) /* ItemsCapacity */
-     , (33246,   7,        255) /* ContainersCapacity */
+     , (33246,   6,         -1) /* ItemsCapacity */
+     , (33246,   7,         -1) /* ContainersCapacity */
      , (33246,  16,         32) /* ItemUseable - Remote */
      , (33246,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33246,  95,          4) /* RadarBlipColor - Purple */

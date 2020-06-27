@@ -5,8 +5,8 @@ VALUES (35858, 'ace35858-shrineofblackwater', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35858,   1,         16) /* ItemType - Creature */
-     , (35858,   6,        255) /* ItemsCapacity */
-     , (35858,   7,        255) /* ContainersCapacity */
+     , (35858,   6,         -1) /* ItemsCapacity */
+     , (35858,   7,         -1) /* ContainersCapacity */
      , (35858,  16,         32) /* ItemUseable - Remote */
      , (35858,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35858,  95,          3) /* RadarBlipColor - White */

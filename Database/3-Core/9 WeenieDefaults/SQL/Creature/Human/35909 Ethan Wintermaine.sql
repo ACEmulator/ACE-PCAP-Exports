@@ -6,8 +6,8 @@ VALUES (35909, 'ace35909-ethanwintermaine', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35909,   1,         16) /* ItemType - Creature */
      , (35909,   2,         31) /* CreatureType - Human */
-     , (35909,   6,        255) /* ItemsCapacity */
-     , (35909,   7,        255) /* ContainersCapacity */
+     , (35909,   6,         -1) /* ItemsCapacity */
+     , (35909,   7,         -1) /* ContainersCapacity */
      , (35909,  16,         32) /* ItemUseable - Remote */
      , (35909,  25,        150) /* Level */
      , (35909,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

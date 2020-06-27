@@ -6,8 +6,8 @@ VALUES (43262, 'ace43262-apostatenexusguardian', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43262,   1,         16) /* ItemType - Creature */
      , (43262,   2,         19) /* CreatureType - Virindi */
-     , (43262,   6,        255) /* ItemsCapacity */
-     , (43262,   7,        255) /* ContainersCapacity */
+     , (43262,   6,         -1) /* ItemsCapacity */
+     , (43262,   7,         -1) /* ContainersCapacity */
      , (43262,  16,          1) /* ItemUseable - No */
      , (43262,  25,        220) /* Level */
      , (43262,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

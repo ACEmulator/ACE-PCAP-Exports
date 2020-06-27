@@ -6,8 +6,8 @@ VALUES (31650, 'ace31650-claireartmad', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31650,   1,         16) /* ItemType - Creature */
      , (31650,   2,         31) /* CreatureType - Human */
-     , (31650,   6,        255) /* ItemsCapacity */
-     , (31650,   7,        255) /* ContainersCapacity */
+     , (31650,   6,         -1) /* ItemsCapacity */
+     , (31650,   7,         -1) /* ContainersCapacity */
      , (31650,  16,         32) /* ItemUseable - Remote */
      , (31650,  25,        148) /* Level */
      , (31650,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

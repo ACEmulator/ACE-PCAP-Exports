@@ -5,8 +5,8 @@ VALUES (51672, 'ace51672-pileofspareparts', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51672,   1,         16) /* ItemType - Creature */
-     , (51672,   6,        255) /* ItemsCapacity */
-     , (51672,   7,        255) /* ContainersCapacity */
+     , (51672,   6,         -1) /* ItemsCapacity */
+     , (51672,   7,         -1) /* ContainersCapacity */
      , (51672,  16,         32) /* ItemUseable - Remote */
      , (51672,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51672,  95,          8) /* RadarBlipColor - Yellow */

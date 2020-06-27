@@ -5,8 +5,8 @@ VALUES (40580, 'ace40580-selainathesubtle', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40580,   1,         16) /* ItemType - Creature */
-     , (40580,   6,        255) /* ItemsCapacity */
-     , (40580,   7,        255) /* ContainersCapacity */
+     , (40580,   6,         -1) /* ItemsCapacity */
+     , (40580,   7,         -1) /* ContainersCapacity */
      , (40580,  16,         32) /* ItemUseable - Remote */
      , (40580,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (40580,  95,          8) /* RadarBlipColor - Yellow */

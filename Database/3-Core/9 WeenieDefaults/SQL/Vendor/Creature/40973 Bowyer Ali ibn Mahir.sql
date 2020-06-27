@@ -6,8 +6,8 @@ VALUES (40973, 'ace40973-bowyeraliibnmahir', 12, '2019-02-10 00:00:00') /* Vendo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40973,   1,         16) /* ItemType - Creature */
      , (40973,   2,         31) /* CreatureType - Human */
-     , (40973,   6,        255) /* ItemsCapacity */
-     , (40973,   7,        255) /* ContainersCapacity */
+     , (40973,   6,         -1) /* ItemsCapacity */
+     , (40973,   7,         -1) /* ContainersCapacity */
      , (40973,  16,         32) /* ItemUseable - Remote */
      , (40973,  25,          8) /* Level */
      , (40973,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */

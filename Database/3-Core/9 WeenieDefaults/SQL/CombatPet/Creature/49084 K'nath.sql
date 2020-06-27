@@ -5,8 +5,8 @@ VALUES (49084, 'ace49084-pygoscelissknath', 71, '2019-02-10 00:00:00') /* Combat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49084,   1,         16) /* ItemType - Creature */
-     , (49084,   6,        255) /* ItemsCapacity */
-     , (49084,   7,        255) /* ContainersCapacity */
+     , (49084,   6,         -1) /* ItemsCapacity */
+     , (49084,   7,         -1) /* ContainersCapacity */
      , (49084,  16,          1) /* ItemUseable - No */
      , (49084,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49084, 133,          1) /* ShowableOnRadar - ShowNever */

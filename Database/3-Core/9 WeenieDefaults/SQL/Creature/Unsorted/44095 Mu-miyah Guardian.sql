@@ -5,8 +5,8 @@ VALUES (44095, 'ace44095-mumiyahguardian', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44095,   1,         16) /* ItemType - Creature */
-     , (44095,   6,        255) /* ItemsCapacity */
-     , (44095,   7,        255) /* ContainersCapacity */
+     , (44095,   6,         -1) /* ItemsCapacity */
+     , (44095,   7,         -1) /* ContainersCapacity */
      , (44095,  16,          1) /* ItemUseable - No */
      , (44095,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44095, 133,          2) /* ShowableOnRadar - ShowMovement */

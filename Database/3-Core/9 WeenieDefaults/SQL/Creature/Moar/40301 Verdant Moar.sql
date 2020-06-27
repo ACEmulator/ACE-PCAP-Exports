@@ -6,8 +6,8 @@ VALUES (40301, 'ace40301-verdantmoar', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40301,   1,         16) /* ItemType - Creature */
      , (40301,   2,         86) /* CreatureType - Moar */
-     , (40301,   6,        255) /* ItemsCapacity */
-     , (40301,   7,        255) /* ContainersCapacity */
+     , (40301,   6,         -1) /* ItemsCapacity */
+     , (40301,   7,         -1) /* ContainersCapacity */
      , (40301,  16,          1) /* ItemUseable - No */
      , (40301,  25,        220) /* Level */
      , (40301,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -31,10 +31,10 @@ VALUES (40301,   1,   33559711) /* Setup */
      , (40301,   6,   67116748) /* PaletteBase */
      , (40301,   8,  100671185) /* Icon */
      , (40301,  22,  872415415) /* PhysicsEffectTable */
+     , (40301,  30,         86) /* PhysicsScript - BreatheAcid */
      , (40301, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40301, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (40301, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (40301, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (40301, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40301, 8040, 4147183668, 144.7357, 82.38279, 48.018, -0.3623908, 0, 0, -0.9320263) /* PCAPRecordedLocation */

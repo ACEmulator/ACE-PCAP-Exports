@@ -6,8 +6,8 @@ VALUES (45747, 'ace45747-firecrystal', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45747,   1,         16) /* ItemType - Creature */
      , (45747,   2,         47) /* CreatureType - Crystal */
-     , (45747,   6,        255) /* ItemsCapacity */
-     , (45747,   7,        255) /* ContainersCapacity */
+     , (45747,   6,         -1) /* ItemsCapacity */
+     , (45747,   7,         -1) /* ContainersCapacity */
      , (45747,  16,          1) /* ItemUseable - No */
      , (45747,  25,        200) /* Level */
      , (45747,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

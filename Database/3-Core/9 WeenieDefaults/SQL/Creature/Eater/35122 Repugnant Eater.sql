@@ -6,8 +6,8 @@ VALUES (35122, 'ace35122-repugnanteater', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35122,   1,         16) /* ItemType - Creature */
      , (35122,   2,         79) /* CreatureType - Eater */
-     , (35122,   6,        255) /* ItemsCapacity */
-     , (35122,   7,        255) /* ContainersCapacity */
+     , (35122,   6,         -1) /* ItemsCapacity */
+     , (35122,   7,         -1) /* ContainersCapacity */
      , (35122,  16,          1) /* ItemUseable - No */
      , (35122,  25,        125) /* Level */
      , (35122,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

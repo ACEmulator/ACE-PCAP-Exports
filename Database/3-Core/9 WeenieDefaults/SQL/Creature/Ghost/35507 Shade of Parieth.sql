@@ -6,8 +6,8 @@ VALUES (35507, 'ace35507-shadeofparieth', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35507,   1,         16) /* ItemType - Creature */
      , (35507,   2,         77) /* CreatureType - Ghost */
-     , (35507,   6,        255) /* ItemsCapacity */
-     , (35507,   7,        255) /* ContainersCapacity */
+     , (35507,   6,         -1) /* ItemsCapacity */
+     , (35507,   7,         -1) /* ContainersCapacity */
      , (35507,  16,         32) /* ItemUseable - Remote */
      , (35507,  25,         80) /* Level */
      , (35507,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

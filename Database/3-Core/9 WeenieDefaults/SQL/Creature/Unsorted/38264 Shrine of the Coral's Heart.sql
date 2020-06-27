@@ -5,8 +5,8 @@ VALUES (38264, 'ace38264-shrineofthecoralsheart', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38264,   1,         16) /* ItemType - Creature */
-     , (38264,   6,        255) /* ItemsCapacity */
-     , (38264,   7,        255) /* ContainersCapacity */
+     , (38264,   6,         -1) /* ItemsCapacity */
+     , (38264,   7,         -1) /* ContainersCapacity */
      , (38264,  16,         32) /* ItemUseable - Remote */
      , (38264,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38264,  95,          3) /* RadarBlipColor - White */

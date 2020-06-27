@@ -6,8 +6,8 @@ VALUES (30391, 'niffisfighterpinkpurple', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30391,   1,         16) /* ItemType - Creature */
      , (30391,   2,         45) /* CreatureType - Niffis */
-     , (30391,   6,        255) /* ItemsCapacity */
-     , (30391,   7,        255) /* ContainersCapacity */
+     , (30391,   6,         -1) /* ItemsCapacity */
+     , (30391,   7,         -1) /* ContainersCapacity */
      , (30391,  16,          1) /* ItemUseable - No */
      , (30391,  25,        115) /* Level */
      , (30391,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (11407, 'timarushopkeep-xp', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11407,   1,         16) /* ItemType - Creature */
      , (11407,   2,          6) /* CreatureType - Tumerok */
-     , (11407,   6,        255) /* ItemsCapacity */
-     , (11407,   7,        255) /* ContainersCapacity */
+     , (11407,   6,         -1) /* ItemsCapacity */
+     , (11407,   7,         -1) /* ContainersCapacity */
      , (11407,  16,         32) /* ItemUseable - Remote */
      , (11407,  25,         11) /* Level */
      , (11407,  74, 1078198944) /* MerchandiseItemTypes - Food, LockableMagicTarget, PromissoryNote, CraftCookingBase, TinkeringMaterial */

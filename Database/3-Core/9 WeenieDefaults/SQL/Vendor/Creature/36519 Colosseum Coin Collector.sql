@@ -6,8 +6,8 @@ VALUES (36519, 'ace36519-colosseumcoincollector', 12, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36519,   1,         16) /* ItemType - Creature */
      , (36519,   2,         13) /* CreatureType - Golem */
-     , (36519,   6,        255) /* ItemsCapacity */
-     , (36519,   7,        255) /* ContainersCapacity */
+     , (36519,   6,         -1) /* ItemsCapacity */
+     , (36519,   7,         -1) /* ContainersCapacity */
      , (36519,  16,         32) /* ItemUseable - Remote */
      , (36519,  25,        100) /* Level */
      , (36519,  74,          0) /* MerchandiseItemTypes - None */

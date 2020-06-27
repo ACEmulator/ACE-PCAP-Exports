@@ -6,8 +6,8 @@ VALUES (6379, 'lightningelementalastyrrian', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6379,   1,         16) /* ItemType - Creature */
      , (6379,   2,         42) /* CreatureType - LightningElemental */
-     , (6379,   6,        255) /* ItemsCapacity */
-     , (6379,   7,        255) /* ContainersCapacity */
+     , (6379,   6,         -1) /* ItemsCapacity */
+     , (6379,   7,         -1) /* ContainersCapacity */
      , (6379,  16,          1) /* ItemUseable - No */
      , (6379,  25,        115) /* Level */
      , (6379,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

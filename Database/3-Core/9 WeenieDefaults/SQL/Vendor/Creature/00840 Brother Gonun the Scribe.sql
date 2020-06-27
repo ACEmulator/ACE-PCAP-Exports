@@ -6,8 +6,8 @@ VALUES (840, 'shoushiscribe', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (840,   1,         16) /* ItemType - Creature */
      , (840,   2,         31) /* CreatureType - Human */
-     , (840,   6,        255) /* ItemsCapacity */
-     , (840,   7,        255) /* ContainersCapacity */
+     , (840,   6,         -1) /* ItemsCapacity */
+     , (840,   7,         -1) /* ContainersCapacity */
      , (840,  16,         32) /* ItemUseable - Remote */
      , (840,  25,          6) /* Level */
      , (840,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */

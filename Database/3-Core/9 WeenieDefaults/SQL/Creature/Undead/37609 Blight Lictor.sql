@@ -6,8 +6,8 @@ VALUES (37609, 'ace37609-blightlictor', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37609,   1,         16) /* ItemType - Creature */
      , (37609,   2,         14) /* CreatureType - Undead */
-     , (37609,   6,        255) /* ItemsCapacity */
-     , (37609,   7,        255) /* ContainersCapacity */
+     , (37609,   6,         -1) /* ItemsCapacity */
+     , (37609,   7,         -1) /* ContainersCapacity */
      , (37609,  16,          1) /* ItemUseable - No */
      , (37609,  25,        135) /* Level */
      , (37609,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

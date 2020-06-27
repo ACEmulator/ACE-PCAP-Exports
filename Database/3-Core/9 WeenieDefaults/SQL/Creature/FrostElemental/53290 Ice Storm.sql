@@ -6,8 +6,8 @@ VALUES (53290, 'ace53290-icestorm', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53290,   1,         16) /* ItemType - Creature */
      , (53290,   2,         61) /* CreatureType - FrostElemental */
-     , (53290,   6,        255) /* ItemsCapacity */
-     , (53290,   7,        255) /* ContainersCapacity */
+     , (53290,   6,         -1) /* ItemsCapacity */
+     , (53290,   7,         -1) /* ContainersCapacity */
      , (53290,  16,          1) /* ItemUseable - No */
      , (53290,  25,        300) /* Level */
      , (53290,  93,    4195356) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, EdgeSlide */

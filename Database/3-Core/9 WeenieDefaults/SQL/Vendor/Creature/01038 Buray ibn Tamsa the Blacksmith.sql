@@ -6,8 +6,8 @@ VALUES (1038, 'yaraqblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1038,   1,         16) /* ItemType - Creature */
      , (1038,   2,         31) /* CreatureType - Human */
-     , (1038,   6,        255) /* ItemsCapacity */
-     , (1038,   7,        255) /* ContainersCapacity */
+     , (1038,   6,         -1) /* ItemsCapacity */
+     , (1038,   7,         -1) /* ContainersCapacity */
      , (1038,  16,         32) /* ItemUseable - Remote */
      , (1038,  25,         13) /* Level */
      , (1038,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

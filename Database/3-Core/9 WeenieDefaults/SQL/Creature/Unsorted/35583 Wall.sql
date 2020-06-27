@@ -5,8 +5,8 @@ VALUES (35583, 'ace35583-wall', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35583,   1,         16) /* ItemType - Creature */
-     , (35583,   6,        255) /* ItemsCapacity */
-     , (35583,   7,        255) /* ContainersCapacity */
+     , (35583,   6,         -1) /* ItemsCapacity */
+     , (35583,   7,         -1) /* ContainersCapacity */
      , (35583,  16,          1) /* ItemUseable - No */
      , (35583,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35583, 133,          4) /* ShowableOnRadar - ShowAlways */

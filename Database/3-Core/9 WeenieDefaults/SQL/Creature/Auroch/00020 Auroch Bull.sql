@@ -6,8 +6,8 @@ VALUES (20, 'aurochbull', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20,   1,         16) /* ItemType - Creature */
      , (20,   2,         11) /* CreatureType - Auroch */
-     , (20,   6,        255) /* ItemsCapacity */
-     , (20,   7,        255) /* ContainersCapacity */
+     , (20,   6,         -1) /* ItemsCapacity */
+     , (20,   7,         -1) /* ContainersCapacity */
      , (20,  16,          1) /* ItemUseable - No */
      , (20,  25,         15) /* Level */
      , (20,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

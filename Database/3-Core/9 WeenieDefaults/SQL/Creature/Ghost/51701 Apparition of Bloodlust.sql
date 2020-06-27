@@ -6,8 +6,8 @@ VALUES (51701, 'ace51701-apparitionofbloodlust', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51701,   1,         16) /* ItemType - Creature */
      , (51701,   2,         77) /* CreatureType - Ghost */
-     , (51701,   6,        255) /* ItemsCapacity */
-     , (51701,   7,        255) /* ContainersCapacity */
+     , (51701,   6,         -1) /* ItemsCapacity */
+     , (51701,   7,         -1) /* ContainersCapacity */
      , (51701,  16,          1) /* ItemUseable - No */
      , (51701,  25,        300) /* Level */
      , (51701,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (6012, 'tumerokhighpriestarchernofall', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6012,   1,         16) /* ItemType - Creature */
      , (6012,   2,          6) /* CreatureType - Tumerok */
-     , (6012,   6,        255) /* ItemsCapacity */
-     , (6012,   7,        255) /* ContainersCapacity */
+     , (6012,   6,         -1) /* ItemsCapacity */
+     , (6012,   7,         -1) /* ContainersCapacity */
      , (6012,  16,          1) /* ItemUseable - No */
      , (6012,  25,        100) /* Level */
      , (6012,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (7404, 'magmagolemrepair', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7404,   1,         16) /* ItemType - Creature */
      , (7404,   2,         13) /* CreatureType - Golem */
-     , (7404,   6,        255) /* ItemsCapacity */
-     , (7404,   7,        255) /* ContainersCapacity */
+     , (7404,   6,         -1) /* ItemsCapacity */
+     , (7404,   7,         -1) /* ContainersCapacity */
      , (7404,  16,         32) /* ItemUseable - Remote */
      , (7404,  25,         49) /* Level */
      , (7404,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

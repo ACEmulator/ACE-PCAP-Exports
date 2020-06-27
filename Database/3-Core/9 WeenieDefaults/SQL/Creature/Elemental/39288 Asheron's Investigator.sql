@@ -6,8 +6,8 @@ VALUES (39288, 'ace39288-asheronsinvestigator', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39288,   1,         16) /* ItemType - Creature */
      , (39288,   2,         62) /* CreatureType - Elemental */
-     , (39288,   6,        255) /* ItemsCapacity */
-     , (39288,   7,        255) /* ContainersCapacity */
+     , (39288,   6,         -1) /* ItemsCapacity */
+     , (39288,   7,         -1) /* ContainersCapacity */
      , (39288,  16,         32) /* ItemUseable - Remote */
      , (39288,  25,        190) /* Level */
      , (39288,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

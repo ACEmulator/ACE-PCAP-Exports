@@ -5,8 +5,8 @@ VALUES (51575, 'ace51575-door', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51575,   1,         16) /* ItemType - Creature */
-     , (51575,   6,        255) /* ItemsCapacity */
-     , (51575,   7,        255) /* ContainersCapacity */
+     , (51575,   6,         -1) /* ItemsCapacity */
+     , (51575,   7,         -1) /* ContainersCapacity */
      , (51575,  16,          1) /* ItemUseable - No */
      , (51575,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51575, 133,          1) /* ShowableOnRadar - ShowNever */

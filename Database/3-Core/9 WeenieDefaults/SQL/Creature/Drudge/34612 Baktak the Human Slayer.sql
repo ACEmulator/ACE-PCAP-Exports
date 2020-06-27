@@ -6,8 +6,8 @@ VALUES (34612, 'ace34612-baktakthehumanslayer', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34612,   1,         16) /* ItemType - Creature */
      , (34612,   2,          3) /* CreatureType - Drudge */
-     , (34612,   6,        255) /* ItemsCapacity */
-     , (34612,   7,        255) /* ContainersCapacity */
+     , (34612,   6,         -1) /* ItemsCapacity */
+     , (34612,   7,         -1) /* ContainersCapacity */
      , (34612,  16,          1) /* ItemUseable - No */
      , (34612,  25,        100) /* Level */
      , (34612,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

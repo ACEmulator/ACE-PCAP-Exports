@@ -5,8 +5,8 @@ VALUES (48796, 'ace48796-grularrwaydo', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48796,   1,         16) /* ItemType - Creature */
-     , (48796,   6,        255) /* ItemsCapacity */
-     , (48796,   7,        255) /* ContainersCapacity */
+     , (48796,   6,         -1) /* ItemsCapacity */
+     , (48796,   7,         -1) /* ContainersCapacity */
      , (48796,  16,         32) /* ItemUseable - Remote */
      , (48796,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (48796,  95,          8) /* RadarBlipColor - Yellow */

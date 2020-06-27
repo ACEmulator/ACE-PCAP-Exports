@@ -6,8 +6,8 @@ VALUES (35462, 'ace35462-jarvishammerstone', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35462,   1,         16) /* ItemType - Creature */
      , (35462,   2,         31) /* CreatureType - Human */
-     , (35462,   6,        255) /* ItemsCapacity */
-     , (35462,   7,        255) /* ContainersCapacity */
+     , (35462,   6,         -1) /* ItemsCapacity */
+     , (35462,   7,         -1) /* ContainersCapacity */
      , (35462,  16,         32) /* ItemUseable - Remote */
      , (35462,  25,         84) /* Level */
      , (35462,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

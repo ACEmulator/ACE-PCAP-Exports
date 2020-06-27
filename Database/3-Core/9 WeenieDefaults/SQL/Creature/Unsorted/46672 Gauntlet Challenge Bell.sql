@@ -5,8 +5,8 @@ VALUES (46672, 'ace46672-gauntletchallengebell', 10, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46672,   1,         16) /* ItemType - Creature */
-     , (46672,   6,        255) /* ItemsCapacity */
-     , (46672,   7,        255) /* ContainersCapacity */
+     , (46672,   6,         -1) /* ItemsCapacity */
+     , (46672,   7,         -1) /* ContainersCapacity */
      , (46672,  16,         32) /* ItemUseable - Remote */
      , (46672,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (46672,  95,          8) /* RadarBlipColor - Yellow */

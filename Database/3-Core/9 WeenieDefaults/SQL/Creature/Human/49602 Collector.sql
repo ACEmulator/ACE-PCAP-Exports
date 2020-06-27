@@ -6,8 +6,8 @@ VALUES (49602, 'ace49602-collector', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49602,   1,         16) /* ItemType - Creature */
      , (49602,   2,         31) /* CreatureType - Human */
-     , (49602,   6,        255) /* ItemsCapacity */
-     , (49602,   7,        255) /* ContainersCapacity */
+     , (49602,   6,         -1) /* ItemsCapacity */
+     , (49602,   7,         -1) /* ContainersCapacity */
      , (49602,  16,         32) /* ItemUseable - Remote */
      , (49602,  25,          4) /* Level */
      , (49602,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

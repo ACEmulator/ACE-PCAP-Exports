@@ -6,8 +6,8 @@ VALUES (19291, 'statuereplicalowgromniesmall', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19291,   1,         16) /* ItemType - Creature */
      , (19291,   2,         15) /* CreatureType - Gromnie */
-     , (19291,   6,        255) /* ItemsCapacity */
-     , (19291,   7,        255) /* ContainersCapacity */
+     , (19291,   6,         -1) /* ItemsCapacity */
+     , (19291,   7,         -1) /* ContainersCapacity */
      , (19291,  16,          1) /* ItemUseable - No */
      , (19291,  25,         20) /* Level */
      , (19291,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (19291,   1,   33554487) /* Setup */
      , (19291,   6,   67109307) /* PaletteBase */
      , (19291,   8,  100667938) /* Icon */
      , (19291,  22,  872415384) /* PhysicsEffectTable */
+     , (19291,  30,         87) /* PhysicsScript - BreatheLightning */
      , (19291, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19291, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19291, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (19291, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (19291, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19291, 8040, 1415184728, 39.2578, -62.253, 6.0065, 0.8206493, 0, 0, 0.5714322) /* PCAPRecordedLocation */

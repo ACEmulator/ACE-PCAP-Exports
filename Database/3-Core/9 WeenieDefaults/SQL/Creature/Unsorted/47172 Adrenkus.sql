@@ -5,8 +5,8 @@ VALUES (47172, 'ace47172-adrenkus', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47172,   1,         16) /* ItemType - Creature */
-     , (47172,   6,        255) /* ItemsCapacity */
-     , (47172,   7,        255) /* ContainersCapacity */
+     , (47172,   6,         -1) /* ItemsCapacity */
+     , (47172,   7,         -1) /* ContainersCapacity */
      , (47172,  16,         32) /* ItemUseable - Remote */
      , (47172,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (47172,  95,          8) /* RadarBlipColor - Yellow */

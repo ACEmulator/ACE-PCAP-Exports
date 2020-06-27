@@ -5,8 +5,8 @@ VALUES (51298, 'ace51298-virindidelegate', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51298,   1,         16) /* ItemType - Creature */
-     , (51298,   6,        255) /* ItemsCapacity */
-     , (51298,   7,        255) /* ContainersCapacity */
+     , (51298,   6,         -1) /* ItemsCapacity */
+     , (51298,   7,         -1) /* ContainersCapacity */
      , (51298,  16,         32) /* ItemUseable - Remote */
      , (51298,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (51298,  95,          8) /* RadarBlipColor - Yellow */

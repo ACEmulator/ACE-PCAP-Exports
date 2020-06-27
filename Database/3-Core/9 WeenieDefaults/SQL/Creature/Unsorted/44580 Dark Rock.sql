@@ -5,8 +5,8 @@ VALUES (44580, 'ace44580-darkrock', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44580,   1,         16) /* ItemType - Creature */
-     , (44580,   6,        255) /* ItemsCapacity */
-     , (44580,   7,        255) /* ContainersCapacity */
+     , (44580,   6,         -1) /* ItemsCapacity */
+     , (44580,   7,         -1) /* ContainersCapacity */
      , (44580,  16,         32) /* ItemUseable - Remote */
      , (44580,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44580,  95,          8) /* RadarBlipColor - Yellow */

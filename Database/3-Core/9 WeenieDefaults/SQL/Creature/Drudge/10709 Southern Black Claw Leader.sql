@@ -6,8 +6,8 @@ VALUES (10709, 'drudgeravenerblackclawsouth', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10709,   1,         16) /* ItemType - Creature */
      , (10709,   2,          3) /* CreatureType - Drudge */
-     , (10709,   6,        255) /* ItemsCapacity */
-     , (10709,   7,        255) /* ContainersCapacity */
+     , (10709,   6,         -1) /* ItemsCapacity */
+     , (10709,   7,         -1) /* ContainersCapacity */
      , (10709,  16,          1) /* ItemUseable - No */
      , (10709,  25,         80) /* Level */
      , (10709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (11533, 'zefirazael-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11533,   1,         16) /* ItemType - Creature */
      , (11533,   2,         29) /* CreatureType - Zefir */
-     , (11533,   6,        255) /* ItemsCapacity */
-     , (11533,   7,        255) /* ContainersCapacity */
+     , (11533,   6,         -1) /* ItemsCapacity */
+     , (11533,   7,         -1) /* ContainersCapacity */
      , (11533,  16,          1) /* ItemUseable - No */
      , (11533,  25,         80) /* Level */
      , (11533,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

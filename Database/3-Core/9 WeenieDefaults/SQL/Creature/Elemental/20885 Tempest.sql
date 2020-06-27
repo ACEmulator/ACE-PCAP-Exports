@@ -6,8 +6,8 @@ VALUES (20885, 'somaticelementaltempest', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20885,   1,         16) /* ItemType - Creature */
      , (20885,   2,         62) /* CreatureType - Elemental */
-     , (20885,   6,        255) /* ItemsCapacity */
-     , (20885,   7,        255) /* ContainersCapacity */
+     , (20885,   6,         -1) /* ItemsCapacity */
+     , (20885,   7,         -1) /* ContainersCapacity */
      , (20885,  16,          1) /* ItemUseable - No */
      , (20885,  25,        161) /* Level */
      , (20885,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

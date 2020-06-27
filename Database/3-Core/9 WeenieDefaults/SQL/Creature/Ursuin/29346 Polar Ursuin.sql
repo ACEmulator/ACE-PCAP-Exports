@@ -6,8 +6,8 @@ VALUES (29346, 'ursuinpolar', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29346,   1,         16) /* ItemType - Creature */
      , (29346,   2,         46) /* CreatureType - Ursuin */
-     , (29346,   6,        255) /* ItemsCapacity */
-     , (29346,   7,        255) /* ContainersCapacity */
+     , (29346,   6,         -1) /* ItemsCapacity */
+     , (29346,   7,         -1) /* ContainersCapacity */
      , (29346,  16,          1) /* ItemUseable - No */
      , (29346,  25,        100) /* Level */
      , (29346,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

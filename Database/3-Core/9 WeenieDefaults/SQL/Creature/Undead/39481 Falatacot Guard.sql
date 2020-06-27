@@ -6,8 +6,8 @@ VALUES (39481, 'ace39481-falatacotguard', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39481,   1,         16) /* ItemType - Creature */
      , (39481,   2,         14) /* CreatureType - Undead */
-     , (39481,   6,        255) /* ItemsCapacity */
-     , (39481,   7,        255) /* ContainersCapacity */
+     , (39481,   6,         -1) /* ItemsCapacity */
+     , (39481,   7,         -1) /* ContainersCapacity */
      , (39481,  16,          1) /* ItemUseable - No */
      , (39481,  25,        200) /* Level */
      , (39481,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

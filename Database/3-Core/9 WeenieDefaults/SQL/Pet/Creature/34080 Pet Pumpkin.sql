@@ -6,8 +6,8 @@ VALUES (34080, 'ace34080-mrbakeriispetpumpkin', 69, '2019-02-10 00:00:00') /* Pe
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34080,   1,         16) /* ItemType - Creature */
      , (34080,   2,         40) /* CreatureType - Unknown */
-     , (34080,   6,        255) /* ItemsCapacity */
-     , (34080,   7,        255) /* ContainersCapacity */
+     , (34080,   6,         -1) /* ItemsCapacity */
+     , (34080,   7,         -1) /* ContainersCapacity */
      , (34080,  16,          1) /* ItemUseable - No */
      , (34080,  25,          1) /* Level */
      , (34080,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

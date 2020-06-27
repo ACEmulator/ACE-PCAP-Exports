@@ -6,8 +6,8 @@ VALUES (31909, 'ace31909-shallowsgorger', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31909,   1,         16) /* ItemType - Creature */
      , (31909,   2,         27) /* CreatureType - ShallowsShark */
-     , (31909,   6,        255) /* ItemsCapacity */
-     , (31909,   7,        255) /* ContainersCapacity */
+     , (31909,   6,         -1) /* ItemsCapacity */
+     , (31909,   7,         -1) /* ContainersCapacity */
      , (31909,  16,          1) /* ItemUseable - No */
      , (31909,  25,        160) /* Level */
      , (31909,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

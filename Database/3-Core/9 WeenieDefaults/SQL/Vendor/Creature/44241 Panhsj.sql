@@ -6,8 +6,8 @@ VALUES (44241, 'ace44241-panhsj', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44241,   1,         16) /* ItemType - Creature */
      , (44241,   2,        101) /* CreatureType - Anekshay */
-     , (44241,   6,        255) /* ItemsCapacity */
-     , (44241,   7,        255) /* ContainersCapacity */
+     , (44241,   6,         -1) /* ItemsCapacity */
+     , (44241,   7,         -1) /* ContainersCapacity */
      , (44241,  16,         32) /* ItemUseable - Remote */
      , (44241,  25,        250) /* Level */
      , (44241,  74,          0) /* MerchandiseItemTypes - None */

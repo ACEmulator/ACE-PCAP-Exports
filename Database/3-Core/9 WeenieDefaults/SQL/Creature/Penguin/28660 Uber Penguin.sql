@@ -6,8 +6,8 @@ VALUES (28660, 'penguinuberlow', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28660,   1,         16) /* ItemType - Creature */
      , (28660,   2,         80) /* CreatureType - Penguin */
-     , (28660,   6,        255) /* ItemsCapacity */
-     , (28660,   7,        255) /* ContainersCapacity */
+     , (28660,   6,         -1) /* ItemsCapacity */
+     , (28660,   7,         -1) /* ContainersCapacity */
      , (28660,  16,          1) /* ItemUseable - No */
      , (28660,  25,        160) /* Level */
      , (28660,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

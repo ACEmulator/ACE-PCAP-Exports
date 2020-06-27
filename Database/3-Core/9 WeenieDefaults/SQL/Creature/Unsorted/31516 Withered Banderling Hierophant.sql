@@ -5,8 +5,8 @@ VALUES (31516, 'ace31516-witheredbanderlinghierophant', 10, '2019-02-10 00:00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31516,   1,         16) /* ItemType - Creature */
-     , (31516,   6,        255) /* ItemsCapacity */
-     , (31516,   7,        255) /* ContainersCapacity */
+     , (31516,   6,         -1) /* ItemsCapacity */
+     , (31516,   7,         -1) /* ContainersCapacity */
      , (31516,  16,          1) /* ItemUseable - No */
      , (31516,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31516, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -26,10 +26,10 @@ VALUES (43230,   1,   33561128) /* Setup */
      , (43230,   8,  100667494) /* Icon */
      , (43230,  22,  872415436) /* PhysicsEffectTable */
      , (43230,  28,       5332) /* Spell - BaelzharonsNetherStreak */
+     , (43230,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (43230, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (43230, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (43230, 8005,      64385) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
-     , (43230, 8019,         90) /* PCAPRecordedDefaultScript */;
+     , (43230, 8005,      64385) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43230, 8040, 1615069445, 89.28131, -63.31721, -34.53136, -0.09044355, -0.001160622, -0.01277891, -0.9958189) /* PCAPRecordedLocation */

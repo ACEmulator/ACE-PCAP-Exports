@@ -6,8 +6,8 @@ VALUES (48955, 'ace48955-buckinghamsskeleton', 71, '2019-02-10 00:00:00') /* Com
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48955,   1,         16) /* ItemType - Creature */
      , (48955,   2,         30) /* CreatureType - Skeleton */
-     , (48955,   6,        255) /* ItemsCapacity */
-     , (48955,   7,        255) /* ContainersCapacity */
+     , (48955,   6,         -1) /* ItemsCapacity */
+     , (48955,   7,         -1) /* ContainersCapacity */
      , (48955,  16,          1) /* ItemUseable - No */
      , (48955,  25,        200) /* Level */
      , (48955,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

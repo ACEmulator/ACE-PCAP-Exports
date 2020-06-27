@@ -5,8 +5,8 @@ VALUES (46573, 'ace46573-leverbox', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46573,   1,         16) /* ItemType - Creature */
-     , (46573,   6,        255) /* ItemsCapacity */
-     , (46573,   7,        255) /* ContainersCapacity */
+     , (46573,   6,         -1) /* ItemsCapacity */
+     , (46573,   7,         -1) /* ContainersCapacity */
      , (46573,  16,         32) /* ItemUseable - Remote */
      , (46573,  93,    2097180) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, ReportCollisionsAsEnvironment */
      , (46573,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (38176, 'ace38176-blightedhoaryarmoredillo', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38176,   1,         16) /* ItemType - Creature */
      , (38176,   2,         17) /* CreatureType - Armoredillo */
-     , (38176,   6,        255) /* ItemsCapacity */
-     , (38176,   7,        255) /* ContainersCapacity */
+     , (38176,   6,         -1) /* ItemsCapacity */
+     , (38176,   7,         -1) /* ContainersCapacity */
      , (38176,  16,          1) /* ItemUseable - No */
      , (38176,  25,         80) /* Level */
      , (38176,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

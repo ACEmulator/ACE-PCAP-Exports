@@ -6,8 +6,8 @@ VALUES (31849, 'ace31849-aggressiveswarm', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31849,   1,         16) /* ItemType - Creature */
      , (31849,   2,         85) /* CreatureType - Swarm */
-     , (31849,   6,        255) /* ItemsCapacity */
-     , (31849,   7,        255) /* ContainersCapacity */
+     , (31849,   6,         -1) /* ItemsCapacity */
+     , (31849,   7,         -1) /* ContainersCapacity */
      , (31849,  16,          1) /* ItemUseable - No */
      , (31849,  25,        160) /* Level */
      , (31849,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

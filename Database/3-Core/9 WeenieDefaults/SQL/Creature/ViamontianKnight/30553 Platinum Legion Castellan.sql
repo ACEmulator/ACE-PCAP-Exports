@@ -6,8 +6,8 @@ VALUES (30553, 'knightcastellanplatinum', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30553,   1,         16) /* ItemType - Creature */
      , (30553,   2,         83) /* CreatureType - ViamontianKnight */
-     , (30553,   6,        255) /* ItemsCapacity */
-     , (30553,   7,        255) /* ContainersCapacity */
+     , (30553,   6,         -1) /* ItemsCapacity */
+     , (30553,   7,         -1) /* ContainersCapacity */
      , (30553,  16,          1) /* ItemUseable - No */
      , (30553,  25,        185) /* Level */
      , (30553,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

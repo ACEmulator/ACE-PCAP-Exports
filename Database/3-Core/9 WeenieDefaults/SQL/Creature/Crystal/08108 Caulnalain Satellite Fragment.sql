@@ -6,8 +6,8 @@ VALUES (8108, 'crystalcaulnalainsatellite', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8108,   1,         16) /* ItemType - Creature */
      , (8108,   2,         47) /* CreatureType - Crystal */
-     , (8108,   6,        255) /* ItemsCapacity */
-     , (8108,   7,        255) /* ContainersCapacity */
+     , (8108,   6,         -1) /* ItemsCapacity */
+     , (8108,   7,         -1) /* ContainersCapacity */
      , (8108,  16,          1) /* ItemUseable - No */
      , (8108,  25,         60) /* Level */
      , (8108,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

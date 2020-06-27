@@ -6,8 +6,8 @@ VALUES (28673, 'thrungusdeathcap', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28673,   1,         16) /* ItemType - Creature */
      , (28673,   2,         82) /* CreatureType - Thrungus */
-     , (28673,   6,        255) /* ItemsCapacity */
-     , (28673,   7,        255) /* ContainersCapacity */
+     , (28673,   6,         -1) /* ItemsCapacity */
+     , (28673,   7,         -1) /* ContainersCapacity */
      , (28673,  16,          1) /* ItemUseable - No */
      , (28673,  25,         50) /* Level */
      , (28673,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

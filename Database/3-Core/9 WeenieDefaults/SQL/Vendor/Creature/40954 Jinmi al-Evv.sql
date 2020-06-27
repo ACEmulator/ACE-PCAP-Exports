@@ -6,8 +6,8 @@ VALUES (40954, 'ace40954-jinmialevv', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40954,   1,         16) /* ItemType - Creature */
      , (40954,   2,         31) /* CreatureType - Human */
-     , (40954,   6,        255) /* ItemsCapacity */
-     , (40954,   7,        255) /* ContainersCapacity */
+     , (40954,   6,         -1) /* ItemsCapacity */
+     , (40954,   7,         -1) /* ContainersCapacity */
      , (40954,  16,         32) /* ItemUseable - Remote */
      , (40954,  25,        200) /* Level */
      , (40954,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

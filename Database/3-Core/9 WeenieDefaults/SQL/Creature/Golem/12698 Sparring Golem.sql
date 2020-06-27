@@ -6,8 +6,8 @@ VALUES (12698, 'golemsparringtokennewbieacademy', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12698,   1,         16) /* ItemType - Creature */
      , (12698,   2,         13) /* CreatureType - Golem */
-     , (12698,   6,        255) /* ItemsCapacity */
-     , (12698,   7,        255) /* ContainersCapacity */
+     , (12698,   6,         -1) /* ItemsCapacity */
+     , (12698,   7,         -1) /* ContainersCapacity */
      , (12698,  16,          1) /* ItemUseable - No */
      , (12698,  25,          2) /* Level */
      , (12698,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

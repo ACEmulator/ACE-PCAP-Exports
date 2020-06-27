@@ -6,8 +6,8 @@ VALUES (35191, 'ace35191-thunderchicken', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35191,   1,         16) /* ItemType - Creature */
      , (35191,   2,         69) /* CreatureType - Chicken */
-     , (35191,   6,        255) /* ItemsCapacity */
-     , (35191,   7,        255) /* ContainersCapacity */
+     , (35191,   6,         -1) /* ItemsCapacity */
+     , (35191,   7,         -1) /* ContainersCapacity */
      , (35191,  16,          1) /* ItemUseable - No */
      , (35191,  25,        235) /* Level */
      , (35191,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

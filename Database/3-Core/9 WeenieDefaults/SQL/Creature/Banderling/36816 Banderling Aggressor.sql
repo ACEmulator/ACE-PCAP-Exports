@@ -6,8 +6,8 @@ VALUES (36816, 'ace36816-banderlingaggressor', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36816,   1,         16) /* ItemType - Creature */
      , (36816,   2,          2) /* CreatureType - Banderling */
-     , (36816,   6,        255) /* ItemsCapacity */
-     , (36816,   7,        255) /* ContainersCapacity */
+     , (36816,   6,         -1) /* ItemsCapacity */
+     , (36816,   7,         -1) /* ContainersCapacity */
      , (36816,  16,          1) /* ItemUseable - No */
      , (36816,  25,        135) /* Level */
      , (36816,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

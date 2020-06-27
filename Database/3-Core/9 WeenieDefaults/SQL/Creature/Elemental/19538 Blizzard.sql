@@ -6,8 +6,8 @@ VALUES (19538, 'eluvicelementalblizzard', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19538,   1,         16) /* ItemType - Creature */
      , (19538,   2,         62) /* CreatureType - Elemental */
-     , (19538,   6,        255) /* ItemsCapacity */
-     , (19538,   7,        255) /* ContainersCapacity */
+     , (19538,   6,         -1) /* ItemsCapacity */
+     , (19538,   7,         -1) /* ContainersCapacity */
      , (19538,  16,          1) /* ItemUseable - No */
      , (19538,  25,        115) /* Level */
      , (19538,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

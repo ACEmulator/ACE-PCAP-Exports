@@ -6,8 +6,8 @@ VALUES (14344, 'drudgeknight', 61, '2019-02-10 00:00:00') /* GamePiece */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14344,   1,         16) /* ItemType - Creature */
      , (14344,   2,          3) /* CreatureType - Drudge */
-     , (14344,   6,        255) /* ItemsCapacity */
-     , (14344,   7,        255) /* ContainersCapacity */
+     , (14344,   6,         -1) /* ItemsCapacity */
+     , (14344,   7,         -1) /* ContainersCapacity */
      , (14344,  16,          1) /* ItemUseable - No */
      , (14344,  25,          2) /* Level */
      , (14344,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

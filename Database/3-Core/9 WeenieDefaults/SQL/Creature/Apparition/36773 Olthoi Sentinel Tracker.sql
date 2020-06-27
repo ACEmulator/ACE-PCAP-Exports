@@ -6,8 +6,8 @@ VALUES (36773, 'ace36773-olthoisentineltracker', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36773,   1,         16) /* ItemType - Creature */
      , (36773,   2,         95) /* CreatureType - Apparition */
-     , (36773,   6,        255) /* ItemsCapacity */
-     , (36773,   7,        255) /* ContainersCapacity */
+     , (36773,   6,         -1) /* ItemsCapacity */
+     , (36773,   7,         -1) /* ContainersCapacity */
      , (36773,  16,          1) /* ItemUseable - No */
      , (36773,  25,        161) /* Level */
      , (36773,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (36773,   1,   33558451) /* Setup */
      , (36773,   6,   67114502) /* PaletteBase */
      , (36773,   8,  100674878) /* Icon */
      , (36773,  22,  872415400) /* PhysicsEffectTable */
+     , (36773,  30,         86) /* PhysicsScript - BreatheAcid */
      , (36773, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36773, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (36773, 8005,     391171) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement, Translucency */
-     , (36773, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (36773, 8005,     391171) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36773, 8040, 2543452175, 38.09753, 151.8484, 39.33947, 1, 0, 0, 0) /* PCAPRecordedLocation */

@@ -6,8 +6,8 @@ VALUES (34615, 'ace34615-eliteguardian', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34615,   1,         16) /* ItemType - Creature */
      , (34615,   2,         13) /* CreatureType - Golem */
-     , (34615,   6,        255) /* ItemsCapacity */
-     , (34615,   7,        255) /* ContainersCapacity */
+     , (34615,   6,         -1) /* ItemsCapacity */
+     , (34615,   7,         -1) /* ContainersCapacity */
      , (34615,  16,          1) /* ItemUseable - No */
      , (34615,  25,        750) /* Level */
      , (34615,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

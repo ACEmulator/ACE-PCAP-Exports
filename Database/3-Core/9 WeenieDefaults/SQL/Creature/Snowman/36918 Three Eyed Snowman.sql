@@ -6,8 +6,8 @@ VALUES (36918, 'ace36918-threeeyedsnowman', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36918,   1,         16) /* ItemType - Creature */
      , (36918,   2,         39) /* CreatureType - Snowman */
-     , (36918,   6,        255) /* ItemsCapacity */
-     , (36918,   7,        255) /* ContainersCapacity */
+     , (36918,   6,         -1) /* ItemsCapacity */
+     , (36918,   7,         -1) /* ContainersCapacity */
      , (36918,  16,          1) /* ItemUseable - No */
      , (36918,  25,        135) /* Level */
      , (36918,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

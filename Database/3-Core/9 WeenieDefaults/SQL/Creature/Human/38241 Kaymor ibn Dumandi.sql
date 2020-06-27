@@ -6,8 +6,8 @@ VALUES (38241, 'ace38241-kaymoribndumandi', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38241,   1,         16) /* ItemType - Creature */
      , (38241,   2,         31) /* CreatureType - Human */
-     , (38241,   6,        255) /* ItemsCapacity */
-     , (38241,   7,        255) /* ContainersCapacity */
+     , (38241,   6,         -1) /* ItemsCapacity */
+     , (38241,   7,         -1) /* ContainersCapacity */
      , (38241,  16,         32) /* ItemUseable - Remote */
      , (38241,  25,        220) /* Level */
      , (38241,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

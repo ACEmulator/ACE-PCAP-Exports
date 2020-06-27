@@ -5,8 +5,8 @@ VALUES (34350, 'ace34350-golemwardenofmetos', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34350,   1,         16) /* ItemType - Creature */
-     , (34350,   6,        255) /* ItemsCapacity */
-     , (34350,   7,        255) /* ContainersCapacity */
+     , (34350,   6,         -1) /* ItemsCapacity */
+     , (34350,   7,         -1) /* ContainersCapacity */
      , (34350,  16,         32) /* ItemUseable - Remote */
      , (34350,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34350,  95,          8) /* RadarBlipColor - Yellow */

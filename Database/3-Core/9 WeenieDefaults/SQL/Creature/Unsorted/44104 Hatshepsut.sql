@@ -5,8 +5,8 @@ VALUES (44104, 'ace44104-hatshepsut', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44104,   1,         16) /* ItemType - Creature */
-     , (44104,   6,        255) /* ItemsCapacity */
-     , (44104,   7,        255) /* ContainersCapacity */
+     , (44104,   6,         -1) /* ItemsCapacity */
+     , (44104,   7,         -1) /* ContainersCapacity */
      , (44104,  16,         32) /* ItemUseable - Remote */
      , (44104,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44104,  95,          8) /* RadarBlipColor - Yellow */

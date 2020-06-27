@@ -6,8 +6,8 @@ VALUES (36112, 'ace36112-aunherbalist', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36112,   1,         16) /* ItemType - Creature */
      , (36112,   2,         57) /* CreatureType - AunTumerok */
-     , (36112,   6,        255) /* ItemsCapacity */
-     , (36112,   7,        255) /* ContainersCapacity */
+     , (36112,   6,         -1) /* ItemsCapacity */
+     , (36112,   7,         -1) /* ContainersCapacity */
      , (36112,  16,         32) /* ItemUseable - Remote */
      , (36112,  25,         95) /* Level */
      , (36112,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

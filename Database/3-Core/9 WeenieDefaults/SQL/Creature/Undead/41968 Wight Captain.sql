@@ -6,8 +6,8 @@ VALUES (41968, 'ace41968-wightcaptain', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41968,   1,         16) /* ItemType - Creature */
      , (41968,   2,         14) /* CreatureType - Undead */
-     , (41968,   6,        255) /* ItemsCapacity */
-     , (41968,   7,        255) /* ContainersCapacity */
+     , (41968,   6,         -1) /* ItemsCapacity */
+     , (41968,   7,         -1) /* ContainersCapacity */
      , (41968,  16,          1) /* ItemUseable - No */
      , (41968,  25,        240) /* Level */
      , (41968,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

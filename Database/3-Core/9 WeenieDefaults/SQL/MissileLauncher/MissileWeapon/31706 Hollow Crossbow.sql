@@ -33,11 +33,11 @@ VALUES (31706,   1,   33558058) /* Setup */
      , (31706,   6,   67111919) /* PaletteBase */
      , (31706,   8,  100668841) /* Icon */
      , (31706,  22,  872415275) /* PhysicsEffectTable */
+     , (31706,  30,         88) /* PhysicsScript - Create */
      , (31706, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (31706, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31706, 8005,     456865) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame, Translucency */
-     , (31706, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */
-     , (31706, 8019,         88) /* PCAPRecordedDefaultScript */;
+     , (31706, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31706, 8040, 2114192364, 189.4962, -386.196, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */

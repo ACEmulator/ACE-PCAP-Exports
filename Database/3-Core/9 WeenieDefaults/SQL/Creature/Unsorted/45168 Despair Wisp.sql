@@ -5,8 +5,8 @@ VALUES (45168, 'ace45168-despairwisp', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45168,   1,         16) /* ItemType - Creature */
-     , (45168,   6,        255) /* ItemsCapacity */
-     , (45168,   7,        255) /* ContainersCapacity */
+     , (45168,   6,         -1) /* ItemsCapacity */
+     , (45168,   7,         -1) /* ContainersCapacity */
      , (45168,  16,          1) /* ItemUseable - No */
      , (45168,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (45168, 133,          4) /* ShowableOnRadar - ShowAlways */

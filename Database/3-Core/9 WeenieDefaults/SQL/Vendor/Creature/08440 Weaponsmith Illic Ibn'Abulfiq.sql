@@ -6,8 +6,8 @@ VALUES (8440, 'krystweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8440,   1,         16) /* ItemType - Creature */
      , (8440,   2,         31) /* CreatureType - Human */
-     , (8440,   6,        255) /* ItemsCapacity */
-     , (8440,   7,        255) /* ContainersCapacity */
+     , (8440,   6,         -1) /* ItemsCapacity */
+     , (8440,   7,         -1) /* ContainersCapacity */
      , (8440,  16,         32) /* ItemUseable - Remote */
      , (8440,  25,         23) /* Level */
      , (8440,  74, 1074004007) /* MerchandiseItemTypes - MeleeWeapon, Vestements, Food, PromissoryNote, TinkeringMaterial */

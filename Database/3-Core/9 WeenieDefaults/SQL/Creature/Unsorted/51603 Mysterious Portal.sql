@@ -5,8 +5,8 @@ VALUES (51603, 'ace51603-mysteriousportal', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51603,   1,         16) /* ItemType - Creature */
-     , (51603,   6,        255) /* ItemsCapacity */
-     , (51603,   7,        255) /* ContainersCapacity */
+     , (51603,   6,         -1) /* ItemsCapacity */
+     , (51603,   7,         -1) /* ContainersCapacity */
      , (51603,  16,         32) /* ItemUseable - Remote */
      , (51603,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (51603,  95,          8) /* RadarBlipColor - Yellow */

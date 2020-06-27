@@ -6,8 +6,8 @@ VALUES (11389, 'greenspirearmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11389,   1,         16) /* ItemType - Creature */
      , (11389,   2,         31) /* CreatureType - Human */
-     , (11389,   6,        255) /* ItemsCapacity */
-     , (11389,   7,        255) /* ContainersCapacity */
+     , (11389,   6,         -1) /* ItemsCapacity */
+     , (11389,   7,         -1) /* ContainersCapacity */
      , (11389,  16,         32) /* ItemUseable - Remote */
      , (11389,  25,         17) /* Level */
      , (11389,  74, 1074004231) /* MerchandiseItemTypes - Vestements, Weapon, PromissoryNote, TinkeringMaterial */

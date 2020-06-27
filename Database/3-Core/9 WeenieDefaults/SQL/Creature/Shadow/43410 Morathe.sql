@@ -6,8 +6,8 @@ VALUES (43410, 'ace43410-morathe', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43410,   1,         16) /* ItemType - Creature */
      , (43410,   2,         22) /* CreatureType - Shadow */
-     , (43410,   6,        255) /* ItemsCapacity */
-     , (43410,   7,        255) /* ContainersCapacity */
+     , (43410,   6,         -1) /* ItemsCapacity */
+     , (43410,   7,         -1) /* ContainersCapacity */
      , (43410,  16,         32) /* ItemUseable - Remote */
      , (43410,  25,        266) /* Level */
      , (43410,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

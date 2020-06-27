@@ -6,8 +6,8 @@ VALUES (38630, 'ace38630-celestialhandscout', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38630,   1,         16) /* ItemType - Creature */
      , (38630,   2,         31) /* CreatureType - Human */
-     , (38630,   6,        255) /* ItemsCapacity */
-     , (38630,   7,        255) /* ContainersCapacity */
+     , (38630,   6,         -1) /* ItemsCapacity */
+     , (38630,   7,         -1) /* ContainersCapacity */
      , (38630,  16,          1) /* ItemUseable - No */
      , (38630,  25,        200) /* Level */
      , (38630,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

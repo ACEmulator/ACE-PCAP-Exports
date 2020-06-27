@@ -6,8 +6,8 @@ VALUES (47153, 'ace47153-tainteddustgolem', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47153,   1,         16) /* ItemType - Creature */
      , (47153,   2,         13) /* CreatureType - Golem */
-     , (47153,   6,        255) /* ItemsCapacity */
-     , (47153,   7,        255) /* ContainersCapacity */
+     , (47153,   6,         -1) /* ItemsCapacity */
+     , (47153,   7,         -1) /* ContainersCapacity */
      , (47153,  16,          1) /* ItemUseable - No */
      , (47153,  25,        300) /* Level */
      , (47153,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

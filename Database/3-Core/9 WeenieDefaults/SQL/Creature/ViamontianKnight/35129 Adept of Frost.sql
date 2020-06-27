@@ -6,8 +6,8 @@ VALUES (35129, 'ace35129-adeptoffrost', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35129,   1,         16) /* ItemType - Creature */
      , (35129,   2,         83) /* CreatureType - ViamontianKnight */
-     , (35129,   6,        255) /* ItemsCapacity */
-     , (35129,   7,        255) /* ContainersCapacity */
+     , (35129,   6,         -1) /* ItemsCapacity */
+     , (35129,   7,         -1) /* ContainersCapacity */
      , (35129,  16,          1) /* ItemUseable - No */
      , (35129,  25,        135) /* Level */
      , (35129,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

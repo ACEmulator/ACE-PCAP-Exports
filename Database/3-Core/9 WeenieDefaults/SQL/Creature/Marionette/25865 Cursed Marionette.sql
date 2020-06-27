@@ -6,8 +6,8 @@ VALUES (25865, 'marionettecursed', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25865,   1,         16) /* ItemType - Creature */
      , (25865,   2,         54) /* CreatureType - Marionette */
-     , (25865,   6,        255) /* ItemsCapacity */
-     , (25865,   7,        255) /* ContainersCapacity */
+     , (25865,   6,         -1) /* ItemsCapacity */
+     , (25865,   7,         -1) /* ContainersCapacity */
      , (25865,  16,          1) /* ItemUseable - No */
      , (25865,  25,        160) /* Level */
      , (25865,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

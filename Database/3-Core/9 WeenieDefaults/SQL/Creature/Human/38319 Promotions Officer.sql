@@ -6,8 +6,8 @@ VALUES (38319, 'ace38319-promotionsofficer', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38319,   1,         16) /* ItemType - Creature */
      , (38319,   2,         31) /* CreatureType - Human */
-     , (38319,   6,        255) /* ItemsCapacity */
-     , (38319,   7,        255) /* ContainersCapacity */
+     , (38319,   6,         -1) /* ItemsCapacity */
+     , (38319,   7,         -1) /* ContainersCapacity */
      , (38319,  16,         32) /* ItemUseable - Remote */
      , (38319,  25,        200) /* Level */
      , (38319,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

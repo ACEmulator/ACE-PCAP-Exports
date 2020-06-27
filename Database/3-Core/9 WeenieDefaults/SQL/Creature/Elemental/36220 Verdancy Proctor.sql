@@ -6,8 +6,8 @@ VALUES (36220, 'ace36220-verdancyproctor', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36220,   1,         16) /* ItemType - Creature */
      , (36220,   2,         62) /* CreatureType - Elemental */
-     , (36220,   6,        255) /* ItemsCapacity */
-     , (36220,   7,        255) /* ContainersCapacity */
+     , (36220,   6,         -1) /* ItemsCapacity */
+     , (36220,   7,         -1) /* ContainersCapacity */
      , (36220,  16,          1) /* ItemUseable - No */
      , (36220,  25,        160) /* Level */
      , (36220,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -6,8 +6,8 @@ VALUES (11343, 'ahurengacollector-xp', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11343,   1,         16) /* ItemType - Creature */
      , (11343,   2,          6) /* CreatureType - Tumerok */
-     , (11343,   6,        255) /* ItemsCapacity */
-     , (11343,   7,        255) /* ContainersCapacity */
+     , (11343,   6,         -1) /* ItemsCapacity */
+     , (11343,   7,         -1) /* ContainersCapacity */
      , (11343,  16,         32) /* ItemUseable - Remote */
      , (11343,  25,         18) /* Level */
      , (11343,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (5835, 'banditcastleshopkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5835,   1,         16) /* ItemType - Creature */
      , (5835,   2,         31) /* CreatureType - Human */
-     , (5835,   6,        255) /* ItemsCapacity */
-     , (5835,   7,        255) /* ContainersCapacity */
+     , (5835,   6,         -1) /* ItemsCapacity */
+     , (5835,   7,         -1) /* ContainersCapacity */
      , (5835,  16,         32) /* ItemUseable - Remote */
      , (5835,  25,         13) /* Level */
      , (5835,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

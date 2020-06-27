@@ -6,8 +6,8 @@ VALUES (49042, 'ace49042-seventhseerselemental', 71, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49042,   1,         16) /* ItemType - Creature */
      , (49042,   2,         62) /* CreatureType - Elemental */
-     , (49042,   6,        255) /* ItemsCapacity */
-     , (49042,   7,        255) /* ContainersCapacity */
+     , (49042,   6,         -1) /* ItemsCapacity */
+     , (49042,   7,         -1) /* ContainersCapacity */
      , (49042,  16,          1) /* ItemUseable - No */
      , (49042,  25,        150) /* Level */
      , (49042,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

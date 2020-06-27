@@ -6,8 +6,8 @@ VALUES (46024, 'ace46024-icedancerspetmouf', 69, '2019-02-10 00:00:00') /* Pet *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46024,   1,         16) /* ItemType - Creature */
      , (46024,   2,         80) /* CreatureType - Penguin */
-     , (46024,   6,        255) /* ItemsCapacity */
-     , (46024,   7,        255) /* ContainersCapacity */
+     , (46024,   6,         -1) /* ItemsCapacity */
+     , (46024,   7,         -1) /* ContainersCapacity */
      , (46024,  16,          1) /* ItemUseable - No */
      , (46024,  25,          5) /* Level */
      , (46024,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

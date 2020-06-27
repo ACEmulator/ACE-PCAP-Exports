@@ -6,8 +6,8 @@ VALUES (19258, 'drudgeslinker-noaggro', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19258,   1,         16) /* ItemType - Creature */
      , (19258,   2,          3) /* CreatureType - Drudge */
-     , (19258,   6,        255) /* ItemsCapacity */
-     , (19258,   7,        255) /* ContainersCapacity */
+     , (19258,   6,         -1) /* ItemsCapacity */
+     , (19258,   7,         -1) /* ContainersCapacity */
      , (19258,  16,          1) /* ItemUseable - No */
      , (19258,  25,          8) /* Level */
      , (19258,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

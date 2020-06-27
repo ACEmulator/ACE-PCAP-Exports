@@ -5,8 +5,8 @@ VALUES (35748, 'ace35748-giantimprisonedmonouga', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35748,   1,         16) /* ItemType - Creature */
-     , (35748,   6,        255) /* ItemsCapacity */
-     , (35748,   7,        255) /* ContainersCapacity */
+     , (35748,   6,         -1) /* ItemsCapacity */
+     , (35748,   7,         -1) /* ContainersCapacity */
      , (35748,  16,          1) /* ItemUseable - No */
      , (35748,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35748, 133,          4) /* ShowableOnRadar - ShowAlways */

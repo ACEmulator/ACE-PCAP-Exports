@@ -6,8 +6,8 @@ VALUES (51834, 'ace51834-maliciousspirit', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51834,   1,         16) /* ItemType - Creature */
      , (51834,   2,         19) /* CreatureType - Virindi */
-     , (51834,   6,        255) /* ItemsCapacity */
-     , (51834,   7,        255) /* ContainersCapacity */
+     , (51834,   6,         -1) /* ItemsCapacity */
+     , (51834,   7,         -1) /* ContainersCapacity */
      , (51834,  16,          1) /* ItemUseable - No */
      , (51834,  25,        200) /* Level */
      , (51834,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

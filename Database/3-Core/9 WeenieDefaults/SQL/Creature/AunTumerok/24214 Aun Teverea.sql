@@ -6,8 +6,8 @@ VALUES (24214, 'strongholdcollectortumerok', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24214,   1,         16) /* ItemType - Creature */
      , (24214,   2,         57) /* CreatureType - AunTumerok */
-     , (24214,   6,        255) /* ItemsCapacity */
-     , (24214,   7,        255) /* ContainersCapacity */
+     , (24214,   6,         -1) /* ItemsCapacity */
+     , (24214,   7,         -1) /* ContainersCapacity */
      , (24214,  16,         32) /* ItemUseable - Remote */
      , (24214,  25,         72) /* Level */
      , (24214,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

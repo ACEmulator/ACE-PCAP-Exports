@@ -6,8 +6,8 @@ VALUES (20864, 'somaticelementalcorrosion', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20864,   1,         16) /* ItemType - Creature */
      , (20864,   2,         62) /* CreatureType - Elemental */
-     , (20864,   6,        255) /* ItemsCapacity */
-     , (20864,   7,        255) /* ContainersCapacity */
+     , (20864,   6,         -1) /* ItemsCapacity */
+     , (20864,   7,         -1) /* ContainersCapacity */
      , (20864,  16,          1) /* ItemUseable - No */
      , (20864,  25,        161) /* Level */
      , (20864,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -5,8 +5,8 @@ VALUES (42020, 'ace42020-guardianofmhoire', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42020,   1,         16) /* ItemType - Creature */
-     , (42020,   6,        255) /* ItemsCapacity */
-     , (42020,   7,        255) /* ContainersCapacity */
+     , (42020,   6,         -1) /* ItemsCapacity */
+     , (42020,   7,         -1) /* ContainersCapacity */
      , (42020,  16,         32) /* ItemUseable - Remote */
      , (42020,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (42020,  95,          8) /* RadarBlipColor - Yellow */

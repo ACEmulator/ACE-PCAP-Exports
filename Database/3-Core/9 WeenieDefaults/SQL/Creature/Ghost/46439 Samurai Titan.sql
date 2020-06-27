@@ -6,8 +6,8 @@ VALUES (46439, 'ace46439-samuraititan', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46439,   1,         16) /* ItemType - Creature */
      , (46439,   2,         77) /* CreatureType - Ghost */
-     , (46439,   6,        255) /* ItemsCapacity */
-     , (46439,   7,        255) /* ContainersCapacity */
+     , (46439,   6,         -1) /* ItemsCapacity */
+     , (46439,   7,         -1) /* ContainersCapacity */
      , (46439,  16,          1) /* ItemUseable - No */
      , (46439,  25,        999) /* Level */
      , (46439,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

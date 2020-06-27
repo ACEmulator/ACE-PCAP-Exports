@@ -6,8 +6,8 @@ VALUES (38372, 'ace38372-hizukitama', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38372,   1,         16) /* ItemType - Creature */
      , (38372,   2,         31) /* CreatureType - Human */
-     , (38372,   6,        255) /* ItemsCapacity */
-     , (38372,   7,        255) /* ContainersCapacity */
+     , (38372,   6,         -1) /* ItemsCapacity */
+     , (38372,   7,         -1) /* ContainersCapacity */
      , (38372,  16,         32) /* ItemUseable - Remote */
      , (38372,  25,        200) /* Level */
      , (38372,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

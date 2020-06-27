@@ -6,8 +6,8 @@ VALUES (31837, 'ace31837-remoransandstalker', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31837,   1,         16) /* ItemType - Creature */
      , (31837,   2,         84) /* CreatureType - Remoran */
-     , (31837,   6,        255) /* ItemsCapacity */
-     , (31837,   7,        255) /* ContainersCapacity */
+     , (31837,   6,         -1) /* ItemsCapacity */
+     , (31837,   7,         -1) /* ContainersCapacity */
      , (31837,  16,          1) /* ItemUseable - No */
      , (31837,  25,        160) /* Level */
      , (31837,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

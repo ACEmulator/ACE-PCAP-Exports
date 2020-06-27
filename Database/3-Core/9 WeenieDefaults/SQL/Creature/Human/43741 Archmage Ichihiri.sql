@@ -6,8 +6,8 @@ VALUES (43741, 'ace43741-archmageichihiri', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43741,   1,         16) /* ItemType - Creature */
      , (43741,   2,         31) /* CreatureType - Human */
-     , (43741,   6,        255) /* ItemsCapacity */
-     , (43741,   7,        255) /* ContainersCapacity */
+     , (43741,   6,         -1) /* ItemsCapacity */
+     , (43741,   7,         -1) /* ContainersCapacity */
      , (43741,  16,         32) /* ItemUseable - Remote */
      , (43741,  25,        275) /* Level */
      , (43741,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

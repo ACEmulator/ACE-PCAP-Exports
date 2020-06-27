@@ -6,8 +6,8 @@ VALUES (51863, 'ace51863-sylvanus', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51863,   1,         16) /* ItemType - Creature */
      , (51863,   2,         19) /* CreatureType - Virindi */
-     , (51863,   6,        255) /* ItemsCapacity */
-     , (51863,   7,        255) /* ContainersCapacity */
+     , (51863,   6,         -1) /* ItemsCapacity */
+     , (51863,   7,         -1) /* ContainersCapacity */
      , (51863,  16,         32) /* ItemUseable - Remote */
      , (51863,  25,        400) /* Level */
      , (51863,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

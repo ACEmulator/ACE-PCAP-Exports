@@ -6,8 +6,8 @@ VALUES (46570, 'ace46570-spectralblademaster', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46570,   1,         16) /* ItemType - Creature */
      , (46570,   2,         77) /* CreatureType - Ghost */
-     , (46570,   6,        255) /* ItemsCapacity */
-     , (46570,   7,        255) /* ContainersCapacity */
+     , (46570,   6,         -1) /* ItemsCapacity */
+     , (46570,   7,         -1) /* ContainersCapacity */
      , (46570,  16,          1) /* ItemUseable - No */
      , (46570,  25,        245) /* Level */
      , (46570,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

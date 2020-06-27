@@ -6,8 +6,8 @@ VALUES (35870, 'ace35870-themaster', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35870,   1,         16) /* ItemType - Creature */
      , (35870,   5,        450) /* EncumbranceVal */
-     , (35870,   6,        255) /* ItemsCapacity */
-     , (35870,   7,        255) /* ContainersCapacity */
+     , (35870,   6,         -1) /* ItemsCapacity */
+     , (35870,   7,         -1) /* ContainersCapacity */
      , (35870,  16,         32) /* ItemUseable - Remote */
      , (35870,  44,          0) /* Damage */
      , (35870,  45,          3) /* DamageType - Slash, Pierce */

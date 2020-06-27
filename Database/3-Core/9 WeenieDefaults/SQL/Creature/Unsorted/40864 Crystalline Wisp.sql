@@ -5,8 +5,8 @@ VALUES (40864, 'ace40864-crystallinewisp', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40864,   1,         16) /* ItemType - Creature */
-     , (40864,   6,        255) /* ItemsCapacity */
-     , (40864,   7,        255) /* ContainersCapacity */
+     , (40864,   6,         -1) /* ItemsCapacity */
+     , (40864,   7,         -1) /* ContainersCapacity */
      , (40864,  16,          1) /* ItemUseable - No */
      , (40864,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (40864, 133,          4) /* ShowableOnRadar - ShowAlways */

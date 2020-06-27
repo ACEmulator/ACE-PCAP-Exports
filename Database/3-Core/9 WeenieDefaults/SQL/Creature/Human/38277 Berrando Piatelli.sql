@@ -6,8 +6,8 @@ VALUES (38277, 'ace38277-berrandopiatelli', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38277,   1,         16) /* ItemType - Creature */
      , (38277,   2,         31) /* CreatureType - Human */
-     , (38277,   6,        255) /* ItemsCapacity */
-     , (38277,   7,        255) /* ContainersCapacity */
+     , (38277,   6,         -1) /* ItemsCapacity */
+     , (38277,   7,         -1) /* ContainersCapacity */
      , (38277,  16,         32) /* ItemUseable - Remote */
      , (38277,  25,        180) /* Level */
      , (38277,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

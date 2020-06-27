@@ -6,8 +6,8 @@ VALUES (24310, 'ratdireland', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24310,   1,         16) /* ItemType - Creature */
      , (24310,   2,         10) /* CreatureType - Rat */
-     , (24310,   6,        255) /* ItemsCapacity */
-     , (24310,   7,        255) /* ContainersCapacity */
+     , (24310,   6,         -1) /* ItemsCapacity */
+     , (24310,   7,         -1) /* ContainersCapacity */
      , (24310,  16,          1) /* ItemUseable - No */
      , (24310,  25,        100) /* Level */
      , (24310,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (24310,   1,   33554493) /* Setup */
      , (24310,   6,   67109300) /* PaletteBase */
      , (24310,   8,  100667451) /* Icon */
      , (24310,  22,  872415267) /* PhysicsEffectTable */
+     , (24310,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24310, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24310, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24310, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (24310, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (24310, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24310, 8040, 612499712, 38.2331, 21.893, 214.812, 0.216051, 0, 0, 0.9763821) /* PCAPRecordedLocation */

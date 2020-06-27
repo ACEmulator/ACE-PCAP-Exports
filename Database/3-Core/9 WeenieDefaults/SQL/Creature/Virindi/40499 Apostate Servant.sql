@@ -6,8 +6,8 @@ VALUES (40499, 'ace40499-apostateservant', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40499,   1,         16) /* ItemType - Creature */
      , (40499,   2,         19) /* CreatureType - Virindi */
-     , (40499,   6,        255) /* ItemsCapacity */
-     , (40499,   7,        255) /* ContainersCapacity */
+     , (40499,   6,         -1) /* ItemsCapacity */
+     , (40499,   7,         -1) /* ContainersCapacity */
      , (40499,  16,          1) /* ItemUseable - No */
      , (40499,  25,        200) /* Level */
      , (40499,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

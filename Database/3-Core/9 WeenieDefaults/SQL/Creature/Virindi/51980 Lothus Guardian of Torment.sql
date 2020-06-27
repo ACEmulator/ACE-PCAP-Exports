@@ -6,8 +6,8 @@ VALUES (51980, 'ace51980-lothusguardianoftorment', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51980,   1,         16) /* ItemType - Creature */
      , (51980,   2,         19) /* CreatureType - Virindi */
-     , (51980,   6,        255) /* ItemsCapacity */
-     , (51980,   7,        255) /* ContainersCapacity */
+     , (51980,   6,         -1) /* ItemsCapacity */
+     , (51980,   7,         -1) /* ContainersCapacity */
      , (51980,  16,          1) /* ItemUseable - No */
      , (51980,  25,        350) /* Level */
      , (51980,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

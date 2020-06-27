@@ -5,8 +5,8 @@ VALUES (38258, 'ace38258-shrineofthefingerboneofmishfain', 10, '2019-02-10 00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38258,   1,         16) /* ItemType - Creature */
-     , (38258,   6,        255) /* ItemsCapacity */
-     , (38258,   7,        255) /* ContainersCapacity */
+     , (38258,   6,         -1) /* ItemsCapacity */
+     , (38258,   7,         -1) /* ContainersCapacity */
      , (38258,  16,         32) /* ItemUseable - Remote */
      , (38258,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38258,  95,          3) /* RadarBlipColor - White */

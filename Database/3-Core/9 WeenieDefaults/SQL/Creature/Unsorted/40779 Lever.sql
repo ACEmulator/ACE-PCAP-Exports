@@ -5,8 +5,8 @@ VALUES (40779, 'ace40779-lever', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40779,   1,         16) /* ItemType - Creature */
-     , (40779,   6,        255) /* ItemsCapacity */
-     , (40779,   7,        255) /* ContainersCapacity */
+     , (40779,   6,         -1) /* ItemsCapacity */
+     , (40779,   7,         -1) /* ContainersCapacity */
      , (40779,  16,         32) /* ItemUseable - Remote */
      , (40779,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (40779,  95,          3) /* RadarBlipColor - White */

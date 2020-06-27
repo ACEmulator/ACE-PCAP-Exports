@@ -6,8 +6,8 @@ VALUES (46426, 'ace46426-roninhirachi', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46426,   1,         16) /* ItemType - Creature */
      , (46426,   2,         77) /* CreatureType - Ghost */
-     , (46426,   6,        255) /* ItemsCapacity */
-     , (46426,   7,        255) /* ContainersCapacity */
+     , (46426,   6,         -1) /* ItemsCapacity */
+     , (46426,   7,         -1) /* ContainersCapacity */
      , (46426,  16,          1) /* ItemUseable - No */
      , (46426,  25,        305) /* Level */
      , (46426,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (33142, 'ace33142-ravenhunter', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33142,   1,         16) /* ItemType - Creature */
      , (33142,   2,         31) /* CreatureType - Human */
-     , (33142,   6,        255) /* ItemsCapacity */
-     , (33142,   7,        255) /* ContainersCapacity */
+     , (33142,   6,         -1) /* ItemsCapacity */
+     , (33142,   7,         -1) /* ContainersCapacity */
      , (33142,  16,          1) /* ItemUseable - No */
      , (33142,  25,        160) /* Level */
      , (33142,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (51843, 'ace51843-frostspirit', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51843,   1,         16) /* ItemType - Creature */
      , (51843,   2,         19) /* CreatureType - Virindi */
-     , (51843,   6,        255) /* ItemsCapacity */
-     , (51843,   7,        255) /* ContainersCapacity */
+     , (51843,   6,         -1) /* ItemsCapacity */
+     , (51843,   7,         -1) /* ContainersCapacity */
      , (51843,  16,          1) /* ItemUseable - No */
      , (51843,  25,        200) /* Level */
      , (51843,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (40948, 'ace40948-smithaishabintkaral', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40948,   1,         16) /* ItemType - Creature */
      , (40948,   2,         31) /* CreatureType - Human */
-     , (40948,   6,        255) /* ItemsCapacity */
-     , (40948,   7,        255) /* ContainersCapacity */
+     , (40948,   6,         -1) /* ItemsCapacity */
+     , (40948,   7,         -1) /* ContainersCapacity */
      , (40948,  16,         32) /* ItemUseable - Remote */
      , (40948,  25,         16) /* Level */
      , (40948,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

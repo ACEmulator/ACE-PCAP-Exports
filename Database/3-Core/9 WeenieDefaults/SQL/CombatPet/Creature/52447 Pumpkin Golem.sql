@@ -6,8 +6,8 @@ VALUES (52447, 'ace52447-vonhohenheimspumpkingolem', 71, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52447,   1,         16) /* ItemType - Creature */
      , (52447,   2,         93) /* CreatureType - Harvest */
-     , (52447,   6,        255) /* ItemsCapacity */
-     , (52447,   7,        255) /* ContainersCapacity */
+     , (52447,   6,         -1) /* ItemsCapacity */
+     , (52447,   7,         -1) /* ContainersCapacity */
      , (52447,  16,          1) /* ItemUseable - No */
      , (52447,  25,        200) /* Level */
      , (52447,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

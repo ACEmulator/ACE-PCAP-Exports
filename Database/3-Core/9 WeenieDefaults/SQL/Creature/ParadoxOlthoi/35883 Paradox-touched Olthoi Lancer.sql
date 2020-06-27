@@ -6,8 +6,8 @@ VALUES (35883, 'ace35883-paradoxtouchedolthoilancer', 10, '2019-02-10 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35883,   1,         16) /* ItemType - Creature */
      , (35883,   2,         92) /* CreatureType - ParadoxOlthoi */
-     , (35883,   6,        255) /* ItemsCapacity */
-     , (35883,   7,        255) /* ContainersCapacity */
+     , (35883,   6,         -1) /* ItemsCapacity */
+     , (35883,   7,         -1) /* ContainersCapacity */
      , (35883,  16,          1) /* ItemUseable - No */
      , (35883,  25,        160) /* Level */
      , (35883,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (35883,   1,   33560316) /* Setup */
      , (35883,   6,   67114440) /* PaletteBase */
      , (35883,   8,  100674626) /* Icon */
      , (35883,  22,  872415398) /* PhysicsEffectTable */
+     , (35883,  30,         86) /* PhysicsScript - BreatheAcid */
      , (35883, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35883, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35883, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (35883, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (35883, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35883, 8040, 3300197076, 62.6082, 96.3162, 222.3951, 0.8696119, 0, 0, -0.4937359) /* PCAPRecordedLocation */

@@ -6,8 +6,8 @@ VALUES (19267, 'statuereplicaextremegrievversmall', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19267,   1,         16) /* ItemType - Creature */
      , (19267,   2,         63) /* CreatureType - Statue */
-     , (19267,   6,        255) /* ItemsCapacity */
-     , (19267,   7,        255) /* ContainersCapacity */
+     , (19267,   6,         -1) /* ItemsCapacity */
+     , (19267,   7,         -1) /* ContainersCapacity */
      , (19267,  16,          1) /* ItemUseable - No */
      , (19267,  25,        115) /* Level */
      , (19267,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (19267,   1,   33556698) /* Setup */
      , (19267,   6,   67112927) /* PaletteBase */
      , (19267,   8,  100670960) /* Icon */
      , (19267,  22,  872415387) /* PhysicsEffectTable */
+     , (19267,  30,         86) /* PhysicsScript - BreatheAcid */
      , (19267, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19267, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19267, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (19267, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (19267, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19267, 8040, 1414988191, 122.541, -119.84, -0.003000021, -0.699863, 0, 0, 0.714277) /* PCAPRecordedLocation */

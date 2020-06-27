@@ -6,8 +6,8 @@ VALUES (694, 'arwicbarkeeper2', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (694,   1,         16) /* ItemType - Creature */
      , (694,   2,         31) /* CreatureType - Human */
-     , (694,   6,        255) /* ItemsCapacity */
-     , (694,   7,        255) /* ContainersCapacity */
+     , (694,   6,         -1) /* ItemsCapacity */
+     , (694,   7,         -1) /* ContainersCapacity */
      , (694,  16,         32) /* ItemUseable - Remote */
      , (694,  25,          7) /* Level */
      , (694,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

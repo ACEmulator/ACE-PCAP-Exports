@@ -6,8 +6,8 @@ VALUES (27100, 'burunruukscampencampment', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27100,   1,         16) /* ItemType - Creature */
      , (27100,   2,         75) /* CreatureType - Burun */
-     , (27100,   6,        255) /* ItemsCapacity */
-     , (27100,   7,        255) /* ContainersCapacity */
+     , (27100,   6,         -1) /* ItemsCapacity */
+     , (27100,   7,         -1) /* ContainersCapacity */
      , (27100,  16,          1) /* ItemUseable - No */
      , (27100,  25,         40) /* Level */
      , (27100,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

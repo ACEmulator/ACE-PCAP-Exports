@@ -6,8 +6,8 @@ VALUES (35666, 'ace35666-mastersacolyte', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35666,   1,         16) /* ItemType - Creature */
      , (35666,   2,         31) /* CreatureType - Human */
-     , (35666,   6,        255) /* ItemsCapacity */
-     , (35666,   7,        255) /* ContainersCapacity */
+     , (35666,   6,         -1) /* ItemsCapacity */
+     , (35666,   7,         -1) /* ContainersCapacity */
      , (35666,  16,          1) /* ItemUseable - No */
      , (35666,  25,        160) /* Level */
      , (35666,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

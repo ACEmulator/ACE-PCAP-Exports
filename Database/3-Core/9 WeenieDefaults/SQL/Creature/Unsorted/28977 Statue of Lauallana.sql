@@ -5,8 +5,8 @@ VALUES (28977, 'statuelauallanalnpc', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28977,   1,         16) /* ItemType - Creature */
-     , (28977,   6,        255) /* ItemsCapacity */
-     , (28977,   7,        255) /* ContainersCapacity */
+     , (28977,   6,         -1) /* ItemsCapacity */
+     , (28977,   7,         -1) /* ContainersCapacity */
      , (28977,  16,         32) /* ItemUseable - Remote */
      , (28977,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28977,  95,          3) /* RadarBlipColor - White */

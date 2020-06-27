@@ -6,8 +6,8 @@ VALUES (38738, 'ace38738-aisleyswiftfoot', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38738,   1,         16) /* ItemType - Creature */
      , (38738,   2,         31) /* CreatureType - Human */
-     , (38738,   6,        255) /* ItemsCapacity */
-     , (38738,   7,        255) /* ContainersCapacity */
+     , (38738,   6,         -1) /* ItemsCapacity */
+     , (38738,   7,         -1) /* ContainersCapacity */
      , (38738,  16,         32) /* ItemUseable - Remote */
      , (38738,  25,        180) /* Level */
      , (38738,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

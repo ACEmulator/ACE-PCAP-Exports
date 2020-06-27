@@ -6,8 +6,8 @@ VALUES (51273, 'ace51273-drocogst', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51273,   1,         16) /* ItemType - Creature */
      , (51273,   2,         31) /* CreatureType - Human */
-     , (51273,   6,        255) /* ItemsCapacity */
-     , (51273,   7,        255) /* ContainersCapacity */
+     , (51273,   6,         -1) /* ItemsCapacity */
+     , (51273,   7,         -1) /* ContainersCapacity */
      , (51273,  16,         32) /* ItemUseable - Remote */
      , (51273,  25,        180) /* Level */
      , (51273,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

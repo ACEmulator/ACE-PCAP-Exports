@@ -5,8 +5,8 @@ VALUES (37602, 'ace37602-candrussteadyhand', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37602,   1,         16) /* ItemType - Creature */
-     , (37602,   6,        255) /* ItemsCapacity */
-     , (37602,   7,        255) /* ContainersCapacity */
+     , (37602,   6,         -1) /* ItemsCapacity */
+     , (37602,   7,         -1) /* ContainersCapacity */
      , (37602,  16,         32) /* ItemUseable - Remote */
      , (37602,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37602,  95,          8) /* RadarBlipColor - Yellow */

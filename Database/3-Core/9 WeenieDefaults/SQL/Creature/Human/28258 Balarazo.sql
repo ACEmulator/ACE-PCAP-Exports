@@ -6,8 +6,8 @@ VALUES (28258, 'maraebalarazo-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28258,   1,         16) /* ItemType - Creature */
      , (28258,   2,         31) /* CreatureType - Human */
-     , (28258,   6,        255) /* ItemsCapacity */
-     , (28258,   7,        255) /* ContainersCapacity */
+     , (28258,   6,         -1) /* ItemsCapacity */
+     , (28258,   7,         -1) /* ContainersCapacity */
      , (28258,  16,         32) /* ItemUseable - Remote */
      , (28258,  25,         33) /* Level */
      , (28258,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (46690, 'ace46690-gurukgrunt', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46690,   1,         16) /* ItemType - Creature */
      , (46690,   2,         75) /* CreatureType - Burun */
-     , (46690,   6,        255) /* ItemsCapacity */
-     , (46690,   7,        255) /* ContainersCapacity */
+     , (46690,   6,         -1) /* ItemsCapacity */
+     , (46690,   7,         -1) /* ContainersCapacity */
      , (46690,  16,          1) /* ItemUseable - No */
      , (46690,  25,        300) /* Level */
      , (46690,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

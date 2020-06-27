@@ -6,8 +6,8 @@ VALUES (46931, 'ace46931-ancientaqueousknight', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46931,   1,         16) /* ItemType - Creature */
      , (46931,   2,         62) /* CreatureType - Elemental */
-     , (46931,   6,        255) /* ItemsCapacity */
-     , (46931,   7,        255) /* ContainersCapacity */
+     , (46931,   6,         -1) /* ItemsCapacity */
+     , (46931,   7,         -1) /* ContainersCapacity */
      , (46931,  16,          1) /* ItemUseable - No */
      , (46931,  25,        220) /* Level */
      , (46931,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

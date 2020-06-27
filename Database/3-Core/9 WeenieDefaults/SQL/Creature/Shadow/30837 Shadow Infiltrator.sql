@@ -6,8 +6,8 @@ VALUES (30837, 'lugianshadowinfiltrator', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30837,   1,         16) /* ItemType - Creature */
      , (30837,   2,         22) /* CreatureType - Shadow */
-     , (30837,   6,        255) /* ItemsCapacity */
-     , (30837,   7,        255) /* ContainersCapacity */
+     , (30837,   6,         -1) /* ItemsCapacity */
+     , (30837,   7,         -1) /* ContainersCapacity */
      , (30837,  16,          1) /* ItemUseable - No */
      , (30837,  25,        115) /* Level */
      , (30837,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (14878, 'thermicelementalsirrocco', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14878,   1,         16) /* ItemType - Creature */
      , (14878,   2,         62) /* CreatureType - Elemental */
-     , (14878,   6,        255) /* ItemsCapacity */
-     , (14878,   7,        255) /* ContainersCapacity */
+     , (14878,   6,         -1) /* ItemsCapacity */
+     , (14878,   7,         -1) /* ContainersCapacity */
      , (14878,  16,          1) /* ItemUseable - No */
      , (14878,  25,        115) /* Level */
      , (14878,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

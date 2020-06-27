@@ -6,8 +6,8 @@ VALUES (37601, 'ace37601-blightspirit', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37601,   1,         16) /* ItemType - Creature */
      , (37601,   2,         77) /* CreatureType - Ghost */
-     , (37601,   6,        255) /* ItemsCapacity */
-     , (37601,   7,        255) /* ContainersCapacity */
+     , (37601,   6,         -1) /* ItemsCapacity */
+     , (37601,   7,         -1) /* ContainersCapacity */
      , (37601,  16,          1) /* ItemUseable - No */
      , (37601,  25,        135) /* Level */
      , (37601,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

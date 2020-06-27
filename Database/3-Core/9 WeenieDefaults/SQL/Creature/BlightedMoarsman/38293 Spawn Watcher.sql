@@ -6,8 +6,8 @@ VALUES (38293, 'ace38293-spawnwatcher', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38293,   1,         16) /* ItemType - Creature */
      , (38293,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (38293,   6,        255) /* ItemsCapacity */
-     , (38293,   7,        255) /* ContainersCapacity */
+     , (38293,   6,         -1) /* ItemsCapacity */
+     , (38293,   7,         -1) /* ContainersCapacity */
      , (38293,  16,          1) /* ItemUseable - No */
      , (38293,  25,        200) /* Level */
      , (38293,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (10951, 'tumerokchampiontemenua-xp', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10951,   1,         16) /* ItemType - Creature */
      , (10951,   2,         58) /* CreatureType - HeaTumerok */
-     , (10951,   6,        255) /* ItemsCapacity */
-     , (10951,   7,        255) /* ContainersCapacity */
+     , (10951,   6,         -1) /* ItemsCapacity */
+     , (10951,   7,         -1) /* ContainersCapacity */
      , (10951,  16,          1) /* ItemUseable - No */
      , (10951,  25,         80) /* Level */
      , (10951,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (51723, 'ace51723-riftofblindrage', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51723,   1,         16) /* ItemType - Creature */
      , (51723,   2,         19) /* CreatureType - Virindi */
-     , (51723,   6,        255) /* ItemsCapacity */
-     , (51723,   7,        255) /* ContainersCapacity */
+     , (51723,   6,         -1) /* ItemsCapacity */
+     , (51723,   7,         -1) /* ContainersCapacity */
      , (51723,  16,          1) /* ItemUseable - No */
      , (51723,  25,        250) /* Level */
      , (51723,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (31920, 'ace31920-aqueousgolem', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31920,   1,         16) /* ItemType - Creature */
      , (31920,   2,         13) /* CreatureType - Golem */
-     , (31920,   6,        255) /* ItemsCapacity */
-     , (31920,   7,        255) /* ContainersCapacity */
+     , (31920,   6,         -1) /* ItemsCapacity */
+     , (31920,   7,         -1) /* ContainersCapacity */
      , (31920,  16,          1) /* ItemUseable - No */
      , (31920,  25,        220) /* Level */
      , (31920,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

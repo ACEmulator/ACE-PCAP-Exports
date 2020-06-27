@@ -6,8 +6,8 @@ VALUES (42543, 'ace42543-deewain', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42543,   1,         16) /* ItemType - Creature */
      , (42543,   2,         13) /* CreatureType - Golem */
-     , (42543,   6,        255) /* ItemsCapacity */
-     , (42543,   7,        255) /* ContainersCapacity */
+     , (42543,   6,         -1) /* ItemsCapacity */
+     , (42543,   7,         -1) /* ContainersCapacity */
      , (42543,  16,         32) /* ItemUseable - Remote */
      , (42543,  25,        350) /* Level */
      , (42543,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

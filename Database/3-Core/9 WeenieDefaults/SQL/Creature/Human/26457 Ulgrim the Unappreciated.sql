@@ -6,8 +6,8 @@ VALUES (26457, 'ulgrimcopy', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26457,   1,         16) /* ItemType - Creature */
      , (26457,   2,         31) /* CreatureType - Human */
-     , (26457,   6,        255) /* ItemsCapacity */
-     , (26457,   7,        255) /* ContainersCapacity */
+     , (26457,   6,         -1) /* ItemsCapacity */
+     , (26457,   7,         -1) /* ContainersCapacity */
      , (26457,  16,         32) /* ItemUseable - Remote */
      , (26457,  25,         50) /* Level */
      , (26457,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

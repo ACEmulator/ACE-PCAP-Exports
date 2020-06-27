@@ -6,8 +6,8 @@ VALUES (35121, 'ace35121-ravenouseater', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35121,   1,         16) /* ItemType - Creature */
      , (35121,   2,         79) /* CreatureType - Eater */
-     , (35121,   6,        255) /* ItemsCapacity */
-     , (35121,   7,        255) /* ContainersCapacity */
+     , (35121,   6,         -1) /* ItemsCapacity */
+     , (35121,   7,         -1) /* ContainersCapacity */
      , (35121,  16,          1) /* ItemUseable - No */
      , (35121,  25,        155) /* Level */
      , (35121,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

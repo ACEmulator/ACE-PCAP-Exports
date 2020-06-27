@@ -6,8 +6,8 @@ VALUES (36600, 'ace36600-demeraxthesculptor', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36600,   1,         16) /* ItemType - Creature */
      , (36600,   2,         19) /* CreatureType - Virindi */
-     , (36600,   6,        255) /* ItemsCapacity */
-     , (36600,   7,        255) /* ContainersCapacity */
+     , (36600,   6,         -1) /* ItemsCapacity */
+     , (36600,   7,         -1) /* ContainersCapacity */
      , (36600,  16,          1) /* ItemUseable - No */
      , (36600,  25,        240) /* Level */
      , (36600,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (24595, 'candethkeeptreetradesman', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24595,   1,         16) /* ItemType - Creature */
      , (24595,   2,         31) /* CreatureType - Human */
-     , (24595,   6,        255) /* ItemsCapacity */
-     , (24595,   7,        255) /* ContainersCapacity */
+     , (24595,   6,         -1) /* ItemsCapacity */
+     , (24595,   7,         -1) /* ContainersCapacity */
      , (24595,  16,         32) /* ItemUseable - Remote */
      , (24595,  25,         85) /* Level */
      , (24595,  74, 1841589932) /* MerchandiseItemTypes - 1841589932 */

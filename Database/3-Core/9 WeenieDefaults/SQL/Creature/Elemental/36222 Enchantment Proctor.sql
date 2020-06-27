@@ -6,8 +6,8 @@ VALUES (36222, 'ace36222-enchantmentproctor', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36222,   1,         16) /* ItemType - Creature */
      , (36222,   2,         62) /* CreatureType - Elemental */
-     , (36222,   6,        255) /* ItemsCapacity */
-     , (36222,   7,        255) /* ContainersCapacity */
+     , (36222,   6,         -1) /* ItemsCapacity */
+     , (36222,   7,         -1) /* ContainersCapacity */
      , (36222,  16,          1) /* ItemUseable - No */
      , (36222,  25,        160) /* Level */
      , (36222,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

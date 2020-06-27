@@ -6,8 +6,8 @@ VALUES (44950, 'ace44950-chafulumisa', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44950,   1,         16) /* ItemType - Creature */
      , (44950,   2,         51) /* CreatureType - Empyrean */
-     , (44950,   6,        255) /* ItemsCapacity */
-     , (44950,   7,        255) /* ContainersCapacity */
+     , (44950,   6,         -1) /* ItemsCapacity */
+     , (44950,   7,         -1) /* ContainersCapacity */
      , (44950,  16,         32) /* ItemUseable - Remote */
      , (44950,  25,        200) /* Level */
      , (44950,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

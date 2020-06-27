@@ -6,8 +6,8 @@ VALUES (34956, 'ace34956-scoutleadertmauruk', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34956,   1,         16) /* ItemType - Creature */
      , (34956,   2,         75) /* CreatureType - Burun */
-     , (34956,   6,        255) /* ItemsCapacity */
-     , (34956,   7,        255) /* ContainersCapacity */
+     , (34956,   6,         -1) /* ItemsCapacity */
+     , (34956,   7,         -1) /* ContainersCapacity */
      , (34956,  16,         32) /* ItemUseable - Remote */
      , (34956,  25,        138) /* Level */
      , (34956,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

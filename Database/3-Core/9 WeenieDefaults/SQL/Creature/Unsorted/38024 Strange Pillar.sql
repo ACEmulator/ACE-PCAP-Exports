@@ -6,8 +6,8 @@ VALUES (38024, 'ace38024-strangepillar', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38024,   1,         16) /* ItemType - Creature */
      , (38024,   5,       1000) /* EncumbranceVal */
-     , (38024,   6,        255) /* ItemsCapacity */
-     , (38024,   7,        255) /* ContainersCapacity */
+     , (38024,   6,         -1) /* ItemsCapacity */
+     , (38024,   7,         -1) /* ContainersCapacity */
      , (38024,  16,         32) /* ItemUseable - Remote */
      , (38024,  19,          0) /* Value */
      , (38024,  93,    2097176) /* PhysicsState - ReportCollisions, IgnoreCollisions, ReportCollisionsAsEnvironment */

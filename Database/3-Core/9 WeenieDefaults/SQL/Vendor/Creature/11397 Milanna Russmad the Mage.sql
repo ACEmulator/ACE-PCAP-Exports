@@ -6,8 +6,8 @@ VALUES (11397, 'redspiremage-xp', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11397,   1,         16) /* ItemType - Creature */
      , (11397,   2,         31) /* CreatureType - Human */
-     , (11397,   6,        255) /* ItemsCapacity */
-     , (11397,   7,        255) /* ContainersCapacity */
+     , (11397,   6,         -1) /* ItemsCapacity */
+     , (11397,   7,         -1) /* ContainersCapacity */
      , (11397,  16,         32) /* ItemUseable - Remote */
      , (11397,  25,         14) /* Level */
      , (11397,  74,   76322820) /* MerchandiseItemTypes - Clothing, Gem, SpellComponents, Caster, PromissoryNote, ManaStone, CraftAlchemyBase, CraftAlchemyIntermediate */

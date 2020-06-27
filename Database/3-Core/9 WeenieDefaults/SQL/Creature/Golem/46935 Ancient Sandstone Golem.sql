@@ -6,8 +6,8 @@ VALUES (46935, 'ace46935-ancientsandstonegolem', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46935,   1,         16) /* ItemType - Creature */
      , (46935,   2,         13) /* CreatureType - Golem */
-     , (46935,   6,        255) /* ItemsCapacity */
-     , (46935,   7,        255) /* ContainersCapacity */
+     , (46935,   6,         -1) /* ItemsCapacity */
+     , (46935,   7,         -1) /* ContainersCapacity */
      , (46935,  16,          1) /* ItemUseable - No */
      , (46935,  25,        240) /* Level */
      , (46935,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -5,8 +5,8 @@ VALUES (36037, 'ace36037-avarice', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36037,   1,         16) /* ItemType - Creature */
-     , (36037,   6,        255) /* ItemsCapacity */
-     , (36037,   7,        255) /* ContainersCapacity */
+     , (36037,   6,         -1) /* ItemsCapacity */
+     , (36037,   7,         -1) /* ContainersCapacity */
      , (36037,  16,          1) /* ItemUseable - No */
      , (36037,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36037, 133,          2) /* ShowableOnRadar - ShowMovement */

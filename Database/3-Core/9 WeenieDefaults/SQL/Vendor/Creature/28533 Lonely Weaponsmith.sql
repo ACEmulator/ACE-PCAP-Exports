@@ -6,8 +6,8 @@ VALUES (28533, 'aljalimaweaponsmithlonely', 12, '2019-02-10 00:00:00') /* Vendor
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28533,   1,         16) /* ItemType - Creature */
      , (28533,   2,         31) /* CreatureType - Human */
-     , (28533,   6,        255) /* ItemsCapacity */
-     , (28533,   7,        255) /* ContainersCapacity */
+     , (28533,   6,         -1) /* ItemsCapacity */
+     , (28533,   7,         -1) /* ContainersCapacity */
      , (28533,  16,         32) /* ItemUseable - Remote */
      , (28533,  25,         28) /* Level */
      , (28533,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

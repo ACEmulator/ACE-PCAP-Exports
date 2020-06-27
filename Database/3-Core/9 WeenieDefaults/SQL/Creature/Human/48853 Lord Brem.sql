@@ -6,8 +6,8 @@ VALUES (48853, 'ace48853-lordbrem', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48853,   1,         16) /* ItemType - Creature */
      , (48853,   2,         31) /* CreatureType - Human */
-     , (48853,   6,        255) /* ItemsCapacity */
-     , (48853,   7,        255) /* ContainersCapacity */
+     , (48853,   6,         -1) /* ItemsCapacity */
+     , (48853,   7,         -1) /* ContainersCapacity */
      , (48853,  16,         32) /* ItemUseable - Remote */
      , (48853,  25,        275) /* Level */
      , (48853,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

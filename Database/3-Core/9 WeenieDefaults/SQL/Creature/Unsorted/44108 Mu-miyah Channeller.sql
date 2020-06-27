@@ -5,8 +5,8 @@ VALUES (44108, 'ace44108-mumiyahchanneller', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44108,   1,         16) /* ItemType - Creature */
-     , (44108,   6,        255) /* ItemsCapacity */
-     , (44108,   7,        255) /* ContainersCapacity */
+     , (44108,   6,         -1) /* ItemsCapacity */
+     , (44108,   7,         -1) /* ContainersCapacity */
      , (44108,  16,          1) /* ItemUseable - No */
      , (44108,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44108, 133,          2) /* ShowableOnRadar - ShowMovement */

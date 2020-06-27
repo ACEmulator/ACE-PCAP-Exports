@@ -5,8 +5,8 @@ VALUES (9132, 'virindibroken', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9132,   1,         16) /* ItemType - Creature */
-     , (9132,   6,        255) /* ItemsCapacity */
-     , (9132,   7,        255) /* ContainersCapacity */
+     , (9132,   6,         -1) /* ItemsCapacity */
+     , (9132,   7,         -1) /* ContainersCapacity */
      , (9132,  16,         32) /* ItemUseable - Remote */
      , (9132,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9132,  95,          8) /* RadarBlipColor - Yellow */

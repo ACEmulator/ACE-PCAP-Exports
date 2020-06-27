@@ -5,8 +5,8 @@ VALUES (51378, 'ace51378-aunsiminua', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51378,   1,         16) /* ItemType - Creature */
-     , (51378,   6,        255) /* ItemsCapacity */
-     , (51378,   7,        255) /* ContainersCapacity */
+     , (51378,   6,         -1) /* ItemsCapacity */
+     , (51378,   7,         -1) /* ContainersCapacity */
      , (51378,  16,         32) /* ItemUseable - Remote */
      , (51378,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (51378,  95,          8) /* RadarBlipColor - Yellow */

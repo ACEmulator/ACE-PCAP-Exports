@@ -6,8 +6,8 @@ VALUES (2259, 'baishishopkeep', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2259,   1,         16) /* ItemType - Creature */
      , (2259,   2,         31) /* CreatureType - Human */
-     , (2259,   6,        255) /* ItemsCapacity */
-     , (2259,   7,        255) /* ContainersCapacity */
+     , (2259,   6,         -1) /* ItemsCapacity */
+     , (2259,   7,         -1) /* ContainersCapacity */
      , (2259,  16,         32) /* ItemUseable - Remote */
      , (2259,  25,          8) /* Level */
      , (2259,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

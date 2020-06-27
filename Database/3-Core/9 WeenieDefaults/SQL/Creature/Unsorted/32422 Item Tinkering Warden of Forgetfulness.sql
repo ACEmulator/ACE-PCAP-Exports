@@ -5,8 +5,8 @@ VALUES (32422, 'ace32422-itemtinkeringwardenofforgetfulness', 10, '2019-02-10 00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32422,   1,         16) /* ItemType - Creature */
-     , (32422,   6,        255) /* ItemsCapacity */
-     , (32422,   7,        255) /* ContainersCapacity */
+     , (32422,   6,         -1) /* ItemsCapacity */
+     , (32422,   7,         -1) /* ContainersCapacity */
      , (32422,  16,         32) /* ItemUseable - Remote */
      , (32422,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32422,  95,          3) /* RadarBlipColor - White */

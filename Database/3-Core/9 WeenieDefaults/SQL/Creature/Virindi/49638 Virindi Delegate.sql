@@ -6,8 +6,8 @@ VALUES (49638, 'ace49638-virindidelegate', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49638,   1,         16) /* ItemType - Creature */
      , (49638,   2,         19) /* CreatureType - Virindi */
-     , (49638,   6,        255) /* ItemsCapacity */
-     , (49638,   7,        255) /* ContainersCapacity */
+     , (49638,   6,         -1) /* ItemsCapacity */
+     , (49638,   7,         -1) /* ContainersCapacity */
      , (49638,  16,         32) /* ItemUseable - Remote */
      , (49638,  25,        400) /* Level */
      , (49638,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

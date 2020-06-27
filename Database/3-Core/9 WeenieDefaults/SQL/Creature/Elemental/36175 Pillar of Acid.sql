@@ -6,8 +6,8 @@ VALUES (36175, 'ace36175-pillarofacid', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36175,   1,         16) /* ItemType - Creature */
      , (36175,   2,         62) /* CreatureType - Elemental */
-     , (36175,   6,        255) /* ItemsCapacity */
-     , (36175,   7,        255) /* ContainersCapacity */
+     , (36175,   6,         -1) /* ItemsCapacity */
+     , (36175,   7,         -1) /* ContainersCapacity */
      , (36175,  16,          1) /* ItemUseable - No */
      , (36175,  25,        100) /* Level */
      , (36175,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

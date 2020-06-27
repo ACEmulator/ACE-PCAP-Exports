@@ -6,8 +6,8 @@ VALUES (41829, 'ace41829-ghalialfariq', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41829,   1,         16) /* ItemType - Creature */
      , (41829,   2,         31) /* CreatureType - Human */
-     , (41829,   6,        255) /* ItemsCapacity */
-     , (41829,   7,        255) /* ContainersCapacity */
+     , (41829,   6,         -1) /* ItemsCapacity */
+     , (41829,   7,         -1) /* ContainersCapacity */
      , (41829,  16,         32) /* ItemUseable - Remote */
      , (41829,  25,        180) /* Level */
      , (41829,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

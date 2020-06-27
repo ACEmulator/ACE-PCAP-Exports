@@ -6,8 +6,8 @@ VALUES (46300, 'ace46300-pillaroffrost', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46300,   1,         16) /* ItemType - Creature */
      , (46300,   2,         62) /* CreatureType - Elemental */
-     , (46300,   6,        255) /* ItemsCapacity */
-     , (46300,   7,        255) /* ContainersCapacity */
+     , (46300,   6,         -1) /* ItemsCapacity */
+     , (46300,   7,         -1) /* ContainersCapacity */
      , (46300,  16,          1) /* ItemUseable - No */
      , (46300,  25,        200) /* Level */
      , (46300,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

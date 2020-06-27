@@ -5,8 +5,8 @@ VALUES (42052, 'ace42052-exittomhoirecastlecourtyard', 10, '2019-02-10 00:00:00'
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42052,   1,         16) /* ItemType - Creature */
-     , (42052,   6,        255) /* ItemsCapacity */
-     , (42052,   7,        255) /* ContainersCapacity */
+     , (42052,   6,         -1) /* ItemsCapacity */
+     , (42052,   7,         -1) /* ContainersCapacity */
      , (42052,  16,         32) /* ItemUseable - Remote */
      , (42052,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42052,  95,          4) /* RadarBlipColor - Purple */

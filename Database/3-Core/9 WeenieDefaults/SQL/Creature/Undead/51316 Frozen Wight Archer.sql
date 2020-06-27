@@ -6,8 +6,8 @@ VALUES (51316, 'ace51316-frozenwightarcher', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51316,   1,         16) /* ItemType - Creature */
      , (51316,   2,         14) /* CreatureType - Undead */
-     , (51316,   6,        255) /* ItemsCapacity */
-     , (51316,   7,        255) /* ContainersCapacity */
+     , (51316,   6,         -1) /* ItemsCapacity */
+     , (51316,   7,         -1) /* ContainersCapacity */
      , (51316,  16,          1) /* ItemUseable - No */
      , (51316,  25,        240) /* Level */
      , (51316,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

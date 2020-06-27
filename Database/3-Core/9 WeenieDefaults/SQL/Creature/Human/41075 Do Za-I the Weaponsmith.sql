@@ -6,8 +6,8 @@ VALUES (41075, 'ace41075-dozaitheweaponsmith', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41075,   1,         16) /* ItemType - Creature */
      , (41075,   2,         31) /* CreatureType - Human */
-     , (41075,   6,        255) /* ItemsCapacity */
-     , (41075,   7,        255) /* ContainersCapacity */
+     , (41075,   6,         -1) /* ItemsCapacity */
+     , (41075,   7,         -1) /* ContainersCapacity */
      , (41075,  16,         32) /* ItemUseable - Remote */
      , (41075,  25,          8) /* Level */
      , (41075,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

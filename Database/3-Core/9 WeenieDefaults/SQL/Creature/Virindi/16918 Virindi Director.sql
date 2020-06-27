@@ -6,8 +6,8 @@ VALUES (16918, 'virindidirector-nofall', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16918,   1,         16) /* ItemType - Creature */
      , (16918,   2,         19) /* CreatureType - Virindi */
-     , (16918,   6,        255) /* ItemsCapacity */
-     , (16918,   7,        255) /* ContainersCapacity */
+     , (16918,   6,         -1) /* ItemsCapacity */
+     , (16918,   7,         -1) /* ContainersCapacity */
      , (16918,  16,          1) /* ItemUseable - No */
      , (16918,  25,         50) /* Level */
      , (16918,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

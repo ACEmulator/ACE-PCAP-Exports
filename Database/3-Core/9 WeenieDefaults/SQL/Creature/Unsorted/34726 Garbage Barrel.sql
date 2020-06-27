@@ -6,8 +6,8 @@ VALUES (34726, 'ace34726-garbagebarrel', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34726,   1,         16) /* ItemType - Creature */
      , (34726,   5,        400) /* EncumbranceVal */
-     , (34726,   6,        255) /* ItemsCapacity */
-     , (34726,   7,        255) /* ContainersCapacity */
+     , (34726,   6,         -1) /* ItemsCapacity */
+     , (34726,   7,         -1) /* ContainersCapacity */
      , (34726,  16,         32) /* ItemUseable - Remote */
      , (34726,  19,          0) /* Value */
      , (34726,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

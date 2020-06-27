@@ -6,8 +6,8 @@ VALUES (49613, 'ace49613-hollowreaver', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49613,   1,         16) /* ItemType - Creature */
      , (49613,   2,         48) /* CreatureType - HollowMinion */
-     , (49613,   6,        255) /* ItemsCapacity */
-     , (49613,   7,        255) /* ContainersCapacity */
+     , (49613,   6,         -1) /* ItemsCapacity */
+     , (49613,   7,         -1) /* ContainersCapacity */
      , (49613,  16,          1) /* ItemUseable - No */
      , (49613,  25,        220) /* Level */
      , (49613,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

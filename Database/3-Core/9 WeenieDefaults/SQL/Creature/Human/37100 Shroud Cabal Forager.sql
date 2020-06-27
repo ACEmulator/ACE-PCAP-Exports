@@ -6,8 +6,8 @@ VALUES (37100, 'ace37100-shroudcabalforager', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37100,   1,         16) /* ItemType - Creature */
      , (37100,   2,         31) /* CreatureType - Human */
-     , (37100,   6,        255) /* ItemsCapacity */
-     , (37100,   7,        255) /* ContainersCapacity */
+     , (37100,   6,         -1) /* ItemsCapacity */
+     , (37100,   7,         -1) /* ContainersCapacity */
      , (37100,  16,          1) /* ItemUseable - No */
      , (37100,  25,         80) /* Level */
      , (37100,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

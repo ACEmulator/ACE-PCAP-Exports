@@ -6,8 +6,8 @@ VALUES (53383, 'ace53383-professorofitemmagic', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53383,   1,         16) /* ItemType - Creature */
      , (53383,   2,         31) /* CreatureType - Human */
-     , (53383,   6,        255) /* ItemsCapacity */
-     , (53383,   7,        255) /* ContainersCapacity */
+     , (53383,   6,         -1) /* ItemsCapacity */
+     , (53383,   7,         -1) /* ContainersCapacity */
      , (53383,  16,         32) /* ItemUseable - Remote */
      , (53383,  25,        200) /* Level */
      , (53383,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

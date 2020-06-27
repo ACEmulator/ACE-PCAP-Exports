@@ -6,8 +6,8 @@ VALUES (7491, 'skeletonwarrior-nofall', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7491,   1,         16) /* ItemType - Creature */
      , (7491,   2,         30) /* CreatureType - Skeleton */
-     , (7491,   6,        255) /* ItemsCapacity */
-     , (7491,   7,        255) /* ContainersCapacity */
+     , (7491,   6,         -1) /* ItemsCapacity */
+     , (7491,   7,         -1) /* ContainersCapacity */
      , (7491,  16,          1) /* ItemUseable - No */
      , (7491,  25,         20) /* Level */
      , (7491,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

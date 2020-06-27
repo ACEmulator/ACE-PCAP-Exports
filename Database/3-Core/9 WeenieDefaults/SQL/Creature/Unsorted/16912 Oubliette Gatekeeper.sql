@@ -5,8 +5,8 @@ VALUES (16912, 'golemoubliette', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16912,   1,         16) /* ItemType - Creature */
-     , (16912,   6,        255) /* ItemsCapacity */
-     , (16912,   7,        255) /* ContainersCapacity */
+     , (16912,   6,         -1) /* ItemsCapacity */
+     , (16912,   7,         -1) /* ContainersCapacity */
      , (16912,  16,         32) /* ItemUseable - Remote */
      , (16912,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (16912,  95,          8) /* RadarBlipColor - Yellow */

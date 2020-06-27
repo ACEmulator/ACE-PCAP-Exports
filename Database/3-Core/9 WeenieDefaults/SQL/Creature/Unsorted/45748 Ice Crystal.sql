@@ -5,8 +5,8 @@ VALUES (45748, 'ace45748-icecrystal', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45748,   1,         16) /* ItemType - Creature */
-     , (45748,   6,        255) /* ItemsCapacity */
-     , (45748,   7,        255) /* ContainersCapacity */
+     , (45748,   6,         -1) /* ItemsCapacity */
+     , (45748,   7,         -1) /* ContainersCapacity */
      , (45748,  16,          1) /* ItemUseable - No */
      , (45748,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (45748, 133,          4) /* ShowableOnRadar - ShowAlways */

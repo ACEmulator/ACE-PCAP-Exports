@@ -6,8 +6,8 @@ VALUES (31015, 'mumiyahsentinelhighyield', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31015,   1,         16) /* ItemType - Creature */
      , (31015,   2,         14) /* CreatureType - Undead */
-     , (31015,   6,        255) /* ItemsCapacity */
-     , (31015,   7,        255) /* ContainersCapacity */
+     , (31015,   6,         -1) /* ItemsCapacity */
+     , (31015,   7,         -1) /* ContainersCapacity */
      , (31015,  16,          1) /* ItemUseable - No */
      , (31015,  25,        160) /* Level */
      , (31015,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

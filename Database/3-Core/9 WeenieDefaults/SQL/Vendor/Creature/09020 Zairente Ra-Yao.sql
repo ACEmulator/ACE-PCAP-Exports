@@ -6,8 +6,8 @@ VALUES (9020, 'blacksmithwanderingsdires', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9020,   1,         16) /* ItemType - Creature */
      , (9020,   2,         31) /* CreatureType - Human */
-     , (9020,   6,        255) /* ItemsCapacity */
-     , (9020,   7,        255) /* ContainersCapacity */
+     , (9020,   6,         -1) /* ItemsCapacity */
+     , (9020,   7,         -1) /* ContainersCapacity */
      , (9020,  16,         32) /* ItemUseable - Remote */
      , (9020,  25,         28) /* Level */
      , (9020,  74, 1845296063) /* MerchandiseItemTypes - 1845296063 */

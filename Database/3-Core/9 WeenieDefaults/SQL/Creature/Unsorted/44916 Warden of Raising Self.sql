@@ -5,8 +5,8 @@ VALUES (44916, 'ace44916-wardenofraisingself', 10, '2019-02-10 00:00:00') /* Cre
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44916,   1,         16) /* ItemType - Creature */
-     , (44916,   6,        255) /* ItemsCapacity */
-     , (44916,   7,        255) /* ContainersCapacity */
+     , (44916,   6,         -1) /* ItemsCapacity */
+     , (44916,   7,         -1) /* ContainersCapacity */
      , (44916,  16,         32) /* ItemUseable - Remote */
      , (44916,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44916,  95,          3) /* RadarBlipColor - White */

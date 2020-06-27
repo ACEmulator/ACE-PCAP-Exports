@@ -5,8 +5,8 @@ VALUES (34959, 'ace34959-burunshamanofkorgursha', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34959,   1,         16) /* ItemType - Creature */
-     , (34959,   6,        255) /* ItemsCapacity */
-     , (34959,   7,        255) /* ContainersCapacity */
+     , (34959,   6,         -1) /* ItemsCapacity */
+     , (34959,   7,         -1) /* ContainersCapacity */
      , (34959,  16,         32) /* ItemUseable - Remote */
      , (34959,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34959,  95,          8) /* RadarBlipColor - Yellow */

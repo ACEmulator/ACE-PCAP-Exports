@@ -6,8 +6,8 @@ VALUES (36929, 'ace36929-thiefofdreams', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36929,   1,         16) /* ItemType - Creature */
      , (36929,   2,         19) /* CreatureType - Virindi */
-     , (36929,   6,        255) /* ItemsCapacity */
-     , (36929,   7,        255) /* ContainersCapacity */
+     , (36929,   6,         -1) /* ItemsCapacity */
+     , (36929,   7,         -1) /* ContainersCapacity */
      , (36929,  16,          1) /* ItemUseable - No */
      , (36929,  25,        185) /* Level */
      , (36929,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

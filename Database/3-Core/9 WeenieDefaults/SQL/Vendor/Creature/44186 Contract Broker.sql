@@ -6,8 +6,8 @@ VALUES (44186, 'ace44186-contractbroker', 12, '2019-02-10 00:00:00') /* Vendor *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44186,   1,         16) /* ItemType - Creature */
      , (44186,   2,         31) /* CreatureType - Human */
-     , (44186,   6,        255) /* ItemsCapacity */
-     , (44186,   7,        255) /* ContainersCapacity */
+     , (44186,   6,         -1) /* ItemsCapacity */
+     , (44186,   7,         -1) /* ContainersCapacity */
      , (44186,  16,         32) /* ItemUseable - Remote */
      , (44186,  25,         11) /* Level */
      , (44186,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */

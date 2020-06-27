@@ -5,8 +5,8 @@ VALUES (32434, 'ace32434-missiledefensewardenofforgetfulness', 10, '2019-02-10 0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32434,   1,         16) /* ItemType - Creature */
-     , (32434,   6,        255) /* ItemsCapacity */
-     , (32434,   7,        255) /* ContainersCapacity */
+     , (32434,   6,         -1) /* ItemsCapacity */
+     , (32434,   7,         -1) /* ContainersCapacity */
      , (32434,  16,         32) /* ItemUseable - Remote */
      , (32434,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32434,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (44260, 'ace44260-dametularin', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44260,   1,         16) /* ItemType - Creature */
      , (44260,   2,         31) /* CreatureType - Human */
-     , (44260,   6,        255) /* ItemsCapacity */
-     , (44260,   7,        255) /* ContainersCapacity */
+     , (44260,   6,         -1) /* ItemsCapacity */
+     , (44260,   7,         -1) /* ContainersCapacity */
      , (44260,  16,         32) /* ItemUseable - Remote */
      , (44260,  25,        275) /* Level */
      , (44260,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (38635, 'ace38635-captaindonnarion', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38635,   1,         16) /* ItemType - Creature */
      , (38635,   2,         31) /* CreatureType - Human */
-     , (38635,   6,        255) /* ItemsCapacity */
-     , (38635,   7,        255) /* ContainersCapacity */
+     , (38635,   6,         -1) /* ItemsCapacity */
+     , (38635,   7,         -1) /* ContainersCapacity */
      , (38635,  16,         32) /* ItemUseable - Remote */
      , (38635,  25,        200) /* Level */
      , (38635,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

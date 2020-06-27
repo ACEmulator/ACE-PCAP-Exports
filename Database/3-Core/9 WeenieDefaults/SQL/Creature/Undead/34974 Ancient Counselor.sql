@@ -6,8 +6,8 @@ VALUES (34974, 'ace34974-ancientcounselor', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34974,   1,         16) /* ItemType - Creature */
      , (34974,   2,         14) /* CreatureType - Undead */
-     , (34974,   6,        255) /* ItemsCapacity */
-     , (34974,   7,        255) /* ContainersCapacity */
+     , (34974,   6,         -1) /* ItemsCapacity */
+     , (34974,   7,         -1) /* ContainersCapacity */
      , (34974,  16,          1) /* ItemUseable - No */
      , (34974,  25,        200) /* Level */
      , (34974,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

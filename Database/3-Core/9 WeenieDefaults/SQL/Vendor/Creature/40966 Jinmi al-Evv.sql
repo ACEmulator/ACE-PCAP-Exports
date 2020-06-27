@@ -6,8 +6,8 @@ VALUES (40966, 'ace40966-jinmialevv', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40966,   1,         16) /* ItemType - Creature */
      , (40966,   2,         31) /* CreatureType - Human */
-     , (40966,   6,        255) /* ItemsCapacity */
-     , (40966,   7,        255) /* ContainersCapacity */
+     , (40966,   6,         -1) /* ItemsCapacity */
+     , (40966,   7,         -1) /* ContainersCapacity */
      , (40966,  16,         32) /* ItemUseable - Remote */
      , (40966,  25,        200) /* Level */
      , (40966,  74, 1619271680) /* MerchandiseItemTypes - Writable, PromissoryNote, CraftAlchemyBase, TinkeringTool, TinkeringMaterial */

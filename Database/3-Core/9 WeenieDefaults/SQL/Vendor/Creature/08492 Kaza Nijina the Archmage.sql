@@ -6,8 +6,8 @@ VALUES (8492, 'freeholdarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8492,   1,         16) /* ItemType - Creature */
      , (8492,   2,         31) /* CreatureType - Human */
-     , (8492,   6,        255) /* ItemsCapacity */
-     , (8492,   7,        255) /* ContainersCapacity */
+     , (8492,   6,         -1) /* ItemsCapacity */
+     , (8492,   7,         -1) /* ContainersCapacity */
      , (8492,  16,         32) /* ItemUseable - Remote */
      , (8492,  25,         33) /* Level */
      , (8492,  74, 1074573312) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone, TinkeringMaterial */

@@ -6,8 +6,8 @@ VALUES (34901, 'ace34901-zabrinasartisanfletchersgolem', 69, '2019-02-10 00:00:0
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34901,   1,         16) /* ItemType - Creature */
      , (34901,   2,         13) /* CreatureType - Golem */
-     , (34901,   6,        255) /* ItemsCapacity */
-     , (34901,   7,        255) /* ContainersCapacity */
+     , (34901,   6,         -1) /* ItemsCapacity */
+     , (34901,   7,         -1) /* ContainersCapacity */
      , (34901,  16,          1) /* ItemUseable - No */
      , (34901,  25,          1) /* Level */
      , (34901,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

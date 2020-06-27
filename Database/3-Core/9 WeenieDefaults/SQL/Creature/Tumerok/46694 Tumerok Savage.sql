@@ -6,8 +6,8 @@ VALUES (46694, 'ace46694-tumeroksavage', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46694,   1,         16) /* ItemType - Creature */
      , (46694,   2,          6) /* CreatureType - Tumerok */
-     , (46694,   6,        255) /* ItemsCapacity */
-     , (46694,   7,        255) /* ContainersCapacity */
+     , (46694,   6,         -1) /* ItemsCapacity */
+     , (46694,   7,         -1) /* ContainersCapacity */
      , (46694,  16,          1) /* ItemUseable - No */
      , (46694,  25,        265) /* Level */
      , (46694,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

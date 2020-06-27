@@ -5,8 +5,8 @@ VALUES (30294, 'knightmanatarms-nofall', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30294,   1,         16) /* ItemType - Creature */
-     , (30294,   6,        255) /* ItemsCapacity */
-     , (30294,   7,        255) /* ContainersCapacity */
+     , (30294,   6,         -1) /* ItemsCapacity */
+     , (30294,   7,         -1) /* ContainersCapacity */
      , (30294,  16,          1) /* ItemUseable - No */
      , (30294,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (30294, 133,          2) /* ShowableOnRadar - ShowMovement */

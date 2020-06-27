@@ -6,8 +6,8 @@ VALUES (41733, 'ace41733-bronzegauntletheavyscout', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41733,   1,         16) /* ItemType - Creature */
      , (41733,   2,         99) /* CreatureType - GearKnight */
-     , (41733,   6,        255) /* ItemsCapacity */
-     , (41733,   7,        255) /* ContainersCapacity */
+     , (41733,   6,         -1) /* ItemsCapacity */
+     , (41733,   7,         -1) /* ContainersCapacity */
      , (41733,  16,          1) /* ItemUseable - No */
      , (41733,  25,        185) /* Level */
      , (41733,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

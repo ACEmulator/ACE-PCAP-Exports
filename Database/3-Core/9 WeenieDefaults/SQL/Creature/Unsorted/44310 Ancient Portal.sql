@@ -5,8 +5,8 @@ VALUES (44310, 'ace44310-ancientportal', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44310,   1,         16) /* ItemType - Creature */
-     , (44310,   6,        255) /* ItemsCapacity */
-     , (44310,   7,        255) /* ContainersCapacity */
+     , (44310,   6,         -1) /* ItemsCapacity */
+     , (44310,   7,         -1) /* ContainersCapacity */
      , (44310,  16,         32) /* ItemUseable - Remote */
      , (44310,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44310,  95,          4) /* RadarBlipColor - Purple */

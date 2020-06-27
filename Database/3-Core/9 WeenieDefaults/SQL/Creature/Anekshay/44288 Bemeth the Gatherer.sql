@@ -6,8 +6,8 @@ VALUES (44288, 'ace44288-bemeththegatherer', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44288,   1,         16) /* ItemType - Creature */
      , (44288,   2,        101) /* CreatureType - Anekshay */
-     , (44288,   6,        255) /* ItemsCapacity */
-     , (44288,   7,        255) /* ContainersCapacity */
+     , (44288,   6,         -1) /* ItemsCapacity */
+     , (44288,   7,         -1) /* ContainersCapacity */
      , (44288,  16,         32) /* ItemUseable - Remote */
      , (44288,  25,        200) /* Level */
      , (44288,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -6,8 +6,8 @@ VALUES (46144, 'ace46144-penguinguardian', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46144,   1,         16) /* ItemType - Creature */
      , (46144,   2,         80) /* CreatureType - Penguin */
-     , (46144,   6,        255) /* ItemsCapacity */
-     , (46144,   7,        255) /* ContainersCapacity */
+     , (46144,   6,         -1) /* ItemsCapacity */
+     , (46144,   7,         -1) /* ContainersCapacity */
      , (46144,  16,          1) /* ItemUseable - No */
      , (46144,  25,        220) /* Level */
      , (46144,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (49647, 'ace49647-archmagesammamalashiz', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49647,   1,         16) /* ItemType - Creature */
      , (49647,   2,         31) /* CreatureType - Human */
-     , (49647,   6,        255) /* ItemsCapacity */
-     , (49647,   7,        255) /* ContainersCapacity */
+     , (49647,   6,         -1) /* ItemsCapacity */
+     , (49647,   7,         -1) /* ContainersCapacity */
      , (49647,  16,          1) /* ItemUseable - No */
      , (49647,  25,         16) /* Level */
      , (49647,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

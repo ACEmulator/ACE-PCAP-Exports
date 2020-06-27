@@ -6,8 +6,8 @@ VALUES (46413, 'ace46413-departedspirit', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46413,   1,         16) /* ItemType - Creature */
      , (46413,   2,         77) /* CreatureType - Ghost */
-     , (46413,   6,        255) /* ItemsCapacity */
-     , (46413,   7,        255) /* ContainersCapacity */
+     , (46413,   6,         -1) /* ItemsCapacity */
+     , (46413,   7,         -1) /* ContainersCapacity */
      , (46413,  16,          1) /* ItemUseable - No */
      , (46413,  25,        220) /* Level */
      , (46413,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

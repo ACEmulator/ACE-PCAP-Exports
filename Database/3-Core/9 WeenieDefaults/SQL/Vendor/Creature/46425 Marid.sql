@@ -6,8 +6,8 @@ VALUES (46425, 'ace46425-marid', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46425,   1,         16) /* ItemType - Creature */
      , (46425,   2,         31) /* CreatureType - Human */
-     , (46425,   6,        255) /* ItemsCapacity */
-     , (46425,   7,        255) /* ContainersCapacity */
+     , (46425,   6,         -1) /* ItemsCapacity */
+     , (46425,   7,         -1) /* ContainersCapacity */
      , (46425,  16,         32) /* ItemUseable - Remote */
      , (46425,  25,        250) /* Level */
      , (46425,  74,          0) /* MerchandiseItemTypes - None */

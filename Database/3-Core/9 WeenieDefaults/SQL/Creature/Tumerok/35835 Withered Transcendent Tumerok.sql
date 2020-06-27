@@ -6,8 +6,8 @@ VALUES (35835, 'ace35835-witheredtranscendenttumerok', 10, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35835,   1,         16) /* ItemType - Creature */
      , (35835,   2,          6) /* CreatureType - Tumerok */
-     , (35835,   6,        255) /* ItemsCapacity */
-     , (35835,   7,        255) /* ContainersCapacity */
+     , (35835,   6,         -1) /* ItemsCapacity */
+     , (35835,   7,         -1) /* ContainersCapacity */
      , (35835,  16,          1) /* ItemUseable - No */
      , (35835,  25,        160) /* Level */
      , (35835,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

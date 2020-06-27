@@ -6,8 +6,8 @@ VALUES (38242, 'ace38242-lunbaldolicci', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38242,   1,         16) /* ItemType - Creature */
      , (38242,   2,         31) /* CreatureType - Human */
-     , (38242,   6,        255) /* ItemsCapacity */
-     , (38242,   7,        255) /* ContainersCapacity */
+     , (38242,   6,         -1) /* ItemsCapacity */
+     , (38242,   7,         -1) /* ContainersCapacity */
      , (38242,  16,         32) /* ItemUseable - Remote */
      , (38242,  25,        220) /* Level */
      , (38242,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (36085, 'ace36085-lordharanueamarand', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36085,   1,         16) /* ItemType - Creature */
-     , (36085,   6,        255) /* ItemsCapacity */
-     , (36085,   7,        255) /* ContainersCapacity */
+     , (36085,   6,         -1) /* ItemsCapacity */
+     , (36085,   7,         -1) /* ContainersCapacity */
      , (36085,  16,         32) /* ItemUseable - Remote */
      , (36085,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36085,  95,          8) /* RadarBlipColor - Yellow */

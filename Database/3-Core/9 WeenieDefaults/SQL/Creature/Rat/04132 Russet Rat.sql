@@ -6,8 +6,8 @@ VALUES (4132, 'ratrusset', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4132,   1,         16) /* ItemType - Creature */
      , (4132,   2,         10) /* CreatureType - Rat */
-     , (4132,   6,        255) /* ItemsCapacity */
-     , (4132,   7,        255) /* ContainersCapacity */
+     , (4132,   6,         -1) /* ItemsCapacity */
+     , (4132,   7,         -1) /* ContainersCapacity */
      , (4132,  16,          1) /* ItemUseable - No */
      , (4132,  25,          8) /* Level */
      , (4132,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

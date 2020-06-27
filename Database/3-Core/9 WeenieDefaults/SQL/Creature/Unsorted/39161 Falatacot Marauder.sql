@@ -5,8 +5,8 @@ VALUES (39161, 'ace39161-falatacotmarauder', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39161,   1,         16) /* ItemType - Creature */
-     , (39161,   6,        255) /* ItemsCapacity */
-     , (39161,   7,        255) /* ContainersCapacity */
+     , (39161,   6,         -1) /* ItemsCapacity */
+     , (39161,   7,         -1) /* ContainersCapacity */
      , (39161,  16,          1) /* ItemUseable - No */
      , (39161,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39161, 133,          2) /* ShowableOnRadar - ShowMovement */

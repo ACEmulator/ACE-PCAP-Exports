@@ -6,8 +6,8 @@ VALUES (24859, 'npcvirindiharbinger', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24859,   1,         16) /* ItemType - Creature */
      , (24859,   2,         19) /* CreatureType - Virindi */
-     , (24859,   6,        255) /* ItemsCapacity */
-     , (24859,   7,        255) /* ContainersCapacity */
+     , (24859,   6,         -1) /* ItemsCapacity */
+     , (24859,   7,         -1) /* ContainersCapacity */
      , (24859,  16,         32) /* ItemUseable - Remote */
      , (24859,  25,        235) /* Level */
      , (24859,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

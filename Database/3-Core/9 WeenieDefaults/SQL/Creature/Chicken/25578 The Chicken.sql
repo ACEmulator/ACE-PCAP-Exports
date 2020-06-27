@@ -6,8 +6,8 @@ VALUES (25578, 'chickencrossingroad', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25578,   1,         16) /* ItemType - Creature */
      , (25578,   2,         69) /* CreatureType - Chicken */
-     , (25578,   6,        255) /* ItemsCapacity */
-     , (25578,   7,        255) /* ContainersCapacity */
+     , (25578,   6,         -1) /* ItemsCapacity */
+     , (25578,   7,         -1) /* ContainersCapacity */
      , (25578,  16,          1) /* ItemUseable - No */
      , (25578,  25,          4) /* Level */
      , (25578,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

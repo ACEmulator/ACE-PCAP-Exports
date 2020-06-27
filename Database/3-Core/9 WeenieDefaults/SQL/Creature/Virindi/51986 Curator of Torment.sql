@@ -6,8 +6,8 @@ VALUES (51986, 'ace51986-curatoroftorment', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51986,   1,         16) /* ItemType - Creature */
      , (51986,   2,         19) /* CreatureType - Virindi */
-     , (51986,   6,        255) /* ItemsCapacity */
-     , (51986,   7,        255) /* ContainersCapacity */
+     , (51986,   6,         -1) /* ItemsCapacity */
+     , (51986,   7,         -1) /* ContainersCapacity */
      , (51986,  16,         32) /* ItemUseable - Remote */
      , (51986,  25,        620) /* Level */
      , (51986,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

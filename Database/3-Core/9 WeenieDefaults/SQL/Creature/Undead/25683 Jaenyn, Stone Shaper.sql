@@ -6,8 +6,8 @@ VALUES (25683, 'undeaddeepplaces', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25683,   1,         16) /* ItemType - Creature */
      , (25683,   2,         14) /* CreatureType - Undead */
-     , (25683,   6,        255) /* ItemsCapacity */
-     , (25683,   7,        255) /* ContainersCapacity */
+     , (25683,   6,         -1) /* ItemsCapacity */
+     , (25683,   7,         -1) /* ContainersCapacity */
      , (25683,  16,         32) /* ItemUseable - Remote */
      , (25683,  25,        161) /* Level */
      , (25683,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

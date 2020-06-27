@@ -5,8 +5,8 @@ VALUES (51830, 'ace51830-lothusguardianofsorrows', 10, '2019-02-10 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51830,   1,         16) /* ItemType - Creature */
-     , (51830,   6,        255) /* ItemsCapacity */
-     , (51830,   7,        255) /* ContainersCapacity */
+     , (51830,   6,         -1) /* ItemsCapacity */
+     , (51830,   7,         -1) /* ContainersCapacity */
      , (51830,  16,          1) /* ItemUseable - No */
      , (51830,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (51830, 133,          2) /* ShowableOnRadar - ShowMovement */

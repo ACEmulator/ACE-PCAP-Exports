@@ -5,8 +5,8 @@ VALUES (35067, 'ace35067-manabarrier', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35067,   1,         16) /* ItemType - Creature */
-     , (35067,   6,        255) /* ItemsCapacity */
-     , (35067,   7,        255) /* ContainersCapacity */
+     , (35067,   6,         -1) /* ItemsCapacity */
+     , (35067,   7,         -1) /* ContainersCapacity */
      , (35067,  16,          1) /* ItemUseable - No */
      , (35067,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35067, 133,          4) /* ShowableOnRadar - ShowAlways */

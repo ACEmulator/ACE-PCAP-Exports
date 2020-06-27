@@ -6,8 +6,8 @@ VALUES (38385, 'ace38385-tikchti', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38385,   1,         16) /* ItemType - Creature */
      , (38385,   2,         26) /* CreatureType - Sclavus */
-     , (38385,   6,        255) /* ItemsCapacity */
-     , (38385,   7,        255) /* ContainersCapacity */
+     , (38385,   6,         -1) /* ItemsCapacity */
+     , (38385,   7,         -1) /* ContainersCapacity */
      , (38385,  16,          1) /* ItemUseable - No */
      , (38385,  25,        240) /* Level */
      , (38385,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

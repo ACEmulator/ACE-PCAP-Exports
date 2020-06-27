@@ -6,8 +6,8 @@ VALUES (48753, 'ace48753-rousedspirit', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48753,   1,         16) /* ItemType - Creature */
      , (48753,   2,         77) /* CreatureType - Ghost */
-     , (48753,   6,        255) /* ItemsCapacity */
-     , (48753,   7,        255) /* ContainersCapacity */
+     , (48753,   6,         -1) /* ItemsCapacity */
+     , (48753,   7,         -1) /* ContainersCapacity */
      , (48753,  16,          1) /* ItemUseable - No */
      , (48753,  25,        240) /* Level */
      , (48753,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

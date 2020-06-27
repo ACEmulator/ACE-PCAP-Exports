@@ -6,8 +6,8 @@ VALUES (7560, 'stoneholdmotecollector', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7560,   1,         16) /* ItemType - Creature */
      , (7560,   2,         31) /* CreatureType - Human */
-     , (7560,   6,        255) /* ItemsCapacity */
-     , (7560,   7,        255) /* ContainersCapacity */
+     , (7560,   6,         -1) /* ItemsCapacity */
+     , (7560,   7,         -1) /* ContainersCapacity */
      , (7560,  16,         32) /* ItemUseable - Remote */
      , (7560,  25,         58) /* Level */
      , (7560,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

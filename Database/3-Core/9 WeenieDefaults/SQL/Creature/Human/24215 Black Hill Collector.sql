@@ -6,8 +6,8 @@ VALUES (24215, 'collectorshoblackhill', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24215,   1,         16) /* ItemType - Creature */
      , (24215,   2,         31) /* CreatureType - Human */
-     , (24215,   6,        255) /* ItemsCapacity */
-     , (24215,   7,        255) /* ContainersCapacity */
+     , (24215,   6,         -1) /* ItemsCapacity */
+     , (24215,   7,         -1) /* ContainersCapacity */
      , (24215,  16,         32) /* ItemUseable - Remote */
      , (24215,  25,          5) /* Level */
      , (24215,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

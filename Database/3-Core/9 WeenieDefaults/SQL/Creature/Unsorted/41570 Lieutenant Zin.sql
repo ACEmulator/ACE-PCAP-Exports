@@ -5,8 +5,8 @@ VALUES (41570, 'ace41570-lieutenantzin', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41570,   1,         16) /* ItemType - Creature */
-     , (41570,   6,        255) /* ItemsCapacity */
-     , (41570,   7,        255) /* ContainersCapacity */
+     , (41570,   6,         -1) /* ItemsCapacity */
+     , (41570,   7,         -1) /* ContainersCapacity */
      , (41570,  16,         32) /* ItemUseable - Remote */
      , (41570,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41570,  95,          8) /* RadarBlipColor - Yellow */

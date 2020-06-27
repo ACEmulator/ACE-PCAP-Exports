@@ -6,8 +6,8 @@ VALUES (46436, 'ace46436-sicklymaggot', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46436,   1,         16) /* ItemType - Creature */
      , (46436,   2,         35) /* CreatureType - OlthoiLarvae */
-     , (46436,   6,        255) /* ItemsCapacity */
-     , (46436,   7,        255) /* ContainersCapacity */
+     , (46436,   6,         -1) /* ItemsCapacity */
+     , (46436,   7,         -1) /* ContainersCapacity */
      , (46436,  16,          1) /* ItemUseable - No */
      , (46436,  25,        205) /* Level */
      , (46436,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (46436,   1,   33558333) /* Setup */
      , (46436,   6,   67114236) /* PaletteBase */
      , (46436,   8,  100674298) /* Icon */
      , (46436,  22,  872415265) /* PhysicsEffectTable */
+     , (46436,  30,         86) /* PhysicsScript - BreatheAcid */
      , (46436, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46436, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (46436, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (46436, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (46436, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46436, 8040, 1467024076, 330.4843, -286.8521, -35.9956, -0.2099282, 0, 0, 0.9777168) /* PCAPRecordedLocation */

@@ -6,8 +6,8 @@ VALUES (654, 'easthamscribe', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (654,   1,         16) /* ItemType - Creature */
      , (654,   2,         31) /* CreatureType - Human */
-     , (654,   6,        255) /* ItemsCapacity */
-     , (654,   7,        255) /* ContainersCapacity */
+     , (654,   6,         -1) /* ItemsCapacity */
+     , (654,   7,         -1) /* ContainersCapacity */
      , (654,  16,         32) /* ItemUseable - Remote */
      , (654,  25,          5) /* Level */
      , (654,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */

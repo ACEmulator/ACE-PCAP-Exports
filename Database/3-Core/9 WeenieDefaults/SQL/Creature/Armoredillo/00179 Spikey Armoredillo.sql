@@ -6,8 +6,8 @@ VALUES (179, 'armoredillospikey', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (179,   1,         16) /* ItemType - Creature */
      , (179,   2,         17) /* CreatureType - Armoredillo */
-     , (179,   6,        255) /* ItemsCapacity */
-     , (179,   7,        255) /* ContainersCapacity */
+     , (179,   6,         -1) /* ItemsCapacity */
+     , (179,   7,         -1) /* ContainersCapacity */
      , (179,  16,          1) /* ItemUseable - No */
      , (179,  25,          8) /* Level */
      , (179,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

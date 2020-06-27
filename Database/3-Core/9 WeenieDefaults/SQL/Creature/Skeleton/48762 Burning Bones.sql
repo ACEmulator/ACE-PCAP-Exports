@@ -6,8 +6,8 @@ VALUES (48762, 'ace48762-burningbones', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48762,   1,         16) /* ItemType - Creature */
      , (48762,   2,         30) /* CreatureType - Skeleton */
-     , (48762,   6,        255) /* ItemsCapacity */
-     , (48762,   7,        255) /* ContainersCapacity */
+     , (48762,   6,         -1) /* ItemsCapacity */
+     , (48762,   7,         -1) /* ContainersCapacity */
      , (48762,  16,          1) /* ItemUseable - No */
      , (48762,  25,        220) /* Level */
      , (48762,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (11063, 'olthoiworkernatural-xp', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11063,   1,         16) /* ItemType - Creature */
      , (11063,   2,          1) /* CreatureType - Olthoi */
-     , (11063,   6,        255) /* ItemsCapacity */
-     , (11063,   7,        255) /* ContainersCapacity */
+     , (11063,   6,         -1) /* ItemsCapacity */
+     , (11063,   7,         -1) /* ContainersCapacity */
      , (11063,  16,          1) /* ItemUseable - No */
      , (11063,  25,         60) /* Level */
      , (11063,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (678, 'cragstonearmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (678,   1,         16) /* ItemType - Creature */
      , (678,   2,         31) /* CreatureType - Human */
-     , (678,   6,        255) /* ItemsCapacity */
-     , (678,   7,        255) /* ContainersCapacity */
+     , (678,   6,         -1) /* ItemsCapacity */
+     , (678,   7,         -1) /* ContainersCapacity */
      , (678,  16,         32) /* ItemUseable - Remote */
      , (678,  25,          7) /* Level */
      , (678,  74, 1074003974) /* MerchandiseItemTypes - Vestements, PromissoryNote, TinkeringMaterial */

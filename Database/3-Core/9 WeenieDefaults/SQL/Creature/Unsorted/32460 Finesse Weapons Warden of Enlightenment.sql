@@ -5,8 +5,8 @@ VALUES (32460, 'ace32460-finesseweaponswardenofenlightenment', 10, '2019-02-10 0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32460,   1,         16) /* ItemType - Creature */
-     , (32460,   6,        255) /* ItemsCapacity */
-     , (32460,   7,        255) /* ContainersCapacity */
+     , (32460,   6,         -1) /* ItemsCapacity */
+     , (32460,   7,         -1) /* ContainersCapacity */
      , (32460,  16,         32) /* ItemUseable - Remote */
      , (32460,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32460,  95,          3) /* RadarBlipColor - White */

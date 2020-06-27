@@ -6,8 +6,8 @@ VALUES (27747, 'collectorfletchingghanewbie', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27747,   1,         16) /* ItemType - Creature */
      , (27747,   2,         31) /* CreatureType - Human */
-     , (27747,   6,        255) /* ItemsCapacity */
-     , (27747,   7,        255) /* ContainersCapacity */
+     , (27747,   6,         -1) /* ItemsCapacity */
+     , (27747,   7,         -1) /* ContainersCapacity */
      , (27747,  16,         32) /* ItemUseable - Remote */
      , (27747,  25,          5) /* Level */
      , (27747,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

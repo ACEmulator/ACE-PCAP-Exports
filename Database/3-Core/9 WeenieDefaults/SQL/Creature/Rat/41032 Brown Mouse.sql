@@ -6,8 +6,8 @@ VALUES (41032, 'ace41032-brownmouse', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41032,   1,         16) /* ItemType - Creature */
      , (41032,   2,         10) /* CreatureType - Rat */
-     , (41032,   6,        255) /* ItemsCapacity */
-     , (41032,   7,        255) /* ContainersCapacity */
+     , (41032,   6,         -1) /* ItemsCapacity */
+     , (41032,   7,         -1) /* ContainersCapacity */
      , (41032,  16,          1) /* ItemUseable - No */
      , (41032,  25,          1) /* Level */
      , (41032,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

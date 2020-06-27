@@ -6,8 +6,8 @@ VALUES (38958, 'ace38958-darcuschthebarbarian', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38958,   1,         16) /* ItemType - Creature */
      , (38958,   2,         81) /* CreatureType - Ruschk */
-     , (38958,   6,        255) /* ItemsCapacity */
-     , (38958,   7,        255) /* ContainersCapacity */
+     , (38958,   6,         -1) /* ItemsCapacity */
+     , (38958,   7,         -1) /* ContainersCapacity */
      , (38958,  16,          1) /* ItemUseable - No */
      , (38958,  25,        200) /* Level */
      , (38958,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

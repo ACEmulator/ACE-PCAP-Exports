@@ -5,8 +5,8 @@ VALUES (34503, 'ace34503-housegolem', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34503,   1,         16) /* ItemType - Creature */
-     , (34503,   6,        255) /* ItemsCapacity */
-     , (34503,   7,        255) /* ContainersCapacity */
+     , (34503,   6,         -1) /* ItemsCapacity */
+     , (34503,   7,         -1) /* ContainersCapacity */
      , (34503,  16,         32) /* ItemUseable - Remote */
      , (34503,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34503,  95,          8) /* RadarBlipColor - Yellow */

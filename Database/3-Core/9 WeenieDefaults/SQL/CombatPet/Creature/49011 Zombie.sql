@@ -6,8 +6,8 @@ VALUES (49011, 'ace49011-ferahpalacostszombie', 71, '2019-02-10 00:00:00') /* Co
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49011,   1,         16) /* ItemType - Creature */
      , (49011,   2,         14) /* CreatureType - Undead */
-     , (49011,   6,        255) /* ItemsCapacity */
-     , (49011,   7,        255) /* ContainersCapacity */
+     , (49011,   6,         -1) /* ItemsCapacity */
+     , (49011,   7,         -1) /* ContainersCapacity */
      , (49011,  16,          1) /* ItemUseable - No */
      , (49011,  25,        100) /* Level */
      , (49011,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

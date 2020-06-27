@@ -6,8 +6,8 @@ VALUES (35828, 'ace35828-adrienswiftblade', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35828,   1,         16) /* ItemType - Creature */
      , (35828,   2,         31) /* CreatureType - Human */
-     , (35828,   6,        255) /* ItemsCapacity */
-     , (35828,   7,        255) /* ContainersCapacity */
+     , (35828,   6,         -1) /* ItemsCapacity */
+     , (35828,   7,         -1) /* ContainersCapacity */
      , (35828,  16,         32) /* ItemUseable - Remote */
      , (35828,  25,         80) /* Level */
      , (35828,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

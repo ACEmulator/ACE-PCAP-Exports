@@ -6,8 +6,8 @@ VALUES (35832, 'ace35832-witheredraiderjusticar', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35832,   1,         16) /* ItemType - Creature */
      , (35832,   2,         70) /* CreatureType - GotrokLugian */
-     , (35832,   6,        255) /* ItemsCapacity */
-     , (35832,   7,        255) /* ContainersCapacity */
+     , (35832,   6,         -1) /* ItemsCapacity */
+     , (35832,   7,         -1) /* ContainersCapacity */
      , (35832,  16,          1) /* ItemUseable - No */
      , (35832,  25,        160) /* Level */
      , (35832,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

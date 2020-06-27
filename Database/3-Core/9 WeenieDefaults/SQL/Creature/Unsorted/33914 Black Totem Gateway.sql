@@ -5,8 +5,8 @@ VALUES (33914, 'ace33914-blacktotemgateway', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33914,   1,         16) /* ItemType - Creature */
-     , (33914,   6,        255) /* ItemsCapacity */
-     , (33914,   7,        255) /* ContainersCapacity */
+     , (33914,   6,         -1) /* ItemsCapacity */
+     , (33914,   7,         -1) /* ContainersCapacity */
      , (33914,  16,         32) /* ItemUseable - Remote */
      , (33914,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33914,  95,          8) /* RadarBlipColor - Yellow */

@@ -6,8 +6,8 @@ VALUES (24501, 'tumerokrenegadecommander2mage', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24501,   1,         16) /* ItemType - Creature */
      , (24501,   2,          6) /* CreatureType - Tumerok */
-     , (24501,   6,        255) /* ItemsCapacity */
-     , (24501,   7,        255) /* ContainersCapacity */
+     , (24501,   6,         -1) /* ItemsCapacity */
+     , (24501,   7,         -1) /* ContainersCapacity */
      , (24501,  16,          1) /* ItemUseable - No */
      , (24501,  25,        185) /* Level */
      , (24501,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

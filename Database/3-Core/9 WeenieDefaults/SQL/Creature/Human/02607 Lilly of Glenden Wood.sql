@@ -6,8 +6,8 @@ VALUES (2607, 'glendenwoodalchemist', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2607,   1,         16) /* ItemType - Creature */
      , (2607,   2,         31) /* CreatureType - Human */
-     , (2607,   6,        255) /* ItemsCapacity */
-     , (2607,   7,        255) /* ContainersCapacity */
+     , (2607,   6,         -1) /* ItemsCapacity */
+     , (2607,   7,         -1) /* ContainersCapacity */
      , (2607,  16,         32) /* ItemUseable - Remote */
      , (2607,  25,         20) /* Level */
      , (2607,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

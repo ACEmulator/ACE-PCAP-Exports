@@ -6,8 +6,8 @@ VALUES (53283, 'ace53283-swift', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53283,   1,         16) /* ItemType - Creature */
      , (53283,   2,         29) /* CreatureType - Zefir */
-     , (53283,   6,        255) /* ItemsCapacity */
-     , (53283,   7,        255) /* ContainersCapacity */
+     , (53283,   6,         -1) /* ItemsCapacity */
+     , (53283,   7,         -1) /* ContainersCapacity */
      , (53283,  16,         32) /* ItemUseable - Remote */
      , (53283,  25,        200) /* Level */
      , (53283,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

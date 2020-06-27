@@ -5,8 +5,8 @@ VALUES (21487, 'bookshelfyalain', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21487,   1,         16) /* ItemType - Creature */
-     , (21487,   6,        255) /* ItemsCapacity */
-     , (21487,   7,        255) /* ContainersCapacity */
+     , (21487,   6,         -1) /* ItemsCapacity */
+     , (21487,   7,         -1) /* ContainersCapacity */
      , (21487,  16,         32) /* ItemUseable - Remote */
      , (21487,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (21487,  95,          3) /* RadarBlipColor - White */

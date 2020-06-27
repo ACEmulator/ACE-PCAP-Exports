@@ -5,8 +5,8 @@ VALUES (35341, 'ace35341-banderlingguardchampion', 10, '2019-02-10 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35341,   1,         16) /* ItemType - Creature */
-     , (35341,   6,        255) /* ItemsCapacity */
-     , (35341,   7,        255) /* ContainersCapacity */
+     , (35341,   6,         -1) /* ItemsCapacity */
+     , (35341,   7,         -1) /* ContainersCapacity */
      , (35341,  16,         32) /* ItemUseable - Remote */
      , (35341,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35341,  95,          8) /* RadarBlipColor - Yellow */

@@ -6,8 +6,8 @@ VALUES (19300, 'statuereplicamidbanderlingsmall', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19300,   1,         16) /* ItemType - Creature */
      , (19300,   2,         63) /* CreatureType - Statue */
-     , (19300,   6,        255) /* ItemsCapacity */
-     , (19300,   7,        255) /* ContainersCapacity */
+     , (19300,   6,         -1) /* ItemsCapacity */
+     , (19300,   7,         -1) /* ContainersCapacity */
      , (19300,  16,          1) /* ItemUseable - No */
      , (19300,  25,         40) /* Level */
      , (19300,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

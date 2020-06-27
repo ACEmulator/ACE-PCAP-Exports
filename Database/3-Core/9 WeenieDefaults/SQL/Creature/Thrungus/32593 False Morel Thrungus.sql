@@ -6,8 +6,8 @@ VALUES (32593, 'ace32593-falsemorelthrungus', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32593,   1,         16) /* ItemType - Creature */
      , (32593,   2,         82) /* CreatureType - Thrungus */
-     , (32593,   6,        255) /* ItemsCapacity */
-     , (32593,   7,        255) /* ContainersCapacity */
+     , (32593,   6,         -1) /* ItemsCapacity */
+     , (32593,   7,         -1) /* ContainersCapacity */
      , (32593,  16,          1) /* ItemUseable - No */
      , (32593,  25,        135) /* Level */
      , (32593,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

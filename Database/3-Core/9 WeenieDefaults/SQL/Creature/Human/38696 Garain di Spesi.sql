@@ -6,8 +6,8 @@ VALUES (38696, 'ace38696-garaindispesi', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38696,   1,         16) /* ItemType - Creature */
      , (38696,   2,         31) /* CreatureType - Human */
-     , (38696,   6,        255) /* ItemsCapacity */
-     , (38696,   7,        255) /* ContainersCapacity */
+     , (38696,   6,         -1) /* ItemsCapacity */
+     , (38696,   7,         -1) /* ContainersCapacity */
      , (38696,  16,         32) /* ItemUseable - Remote */
      , (38696,  25,        182) /* Level */
      , (38696,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

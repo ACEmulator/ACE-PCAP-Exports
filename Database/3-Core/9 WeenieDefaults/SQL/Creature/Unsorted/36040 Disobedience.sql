@@ -5,8 +5,8 @@ VALUES (36040, 'ace36040-disobedience', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36040,   1,         16) /* ItemType - Creature */
-     , (36040,   6,        255) /* ItemsCapacity */
-     , (36040,   7,        255) /* ContainersCapacity */
+     , (36040,   6,         -1) /* ItemsCapacity */
+     , (36040,   7,         -1) /* ContainersCapacity */
      , (36040,  16,          1) /* ItemUseable - No */
      , (36040,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36040, 133,          2) /* ShowableOnRadar - ShowMovement */

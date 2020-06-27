@@ -6,8 +6,8 @@ VALUES (38702, 'ace38702-strezaduvorchass', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38702,   1,         16) /* ItemType - Creature */
      , (38702,   2,         31) /* CreatureType - Human */
-     , (38702,   6,        255) /* ItemsCapacity */
-     , (38702,   7,        255) /* ContainersCapacity */
+     , (38702,   6,         -1) /* ItemsCapacity */
+     , (38702,   7,         -1) /* ContainersCapacity */
      , (38702,  16,         32) /* ItemUseable - Remote */
      , (38702,  25,        182) /* Level */
      , (38702,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

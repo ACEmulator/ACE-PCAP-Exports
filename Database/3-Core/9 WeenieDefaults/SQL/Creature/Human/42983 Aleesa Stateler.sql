@@ -6,8 +6,8 @@ VALUES (42983, 'ace42983-aleesastateler', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42983,   1,         16) /* ItemType - Creature */
      , (42983,   2,         31) /* CreatureType - Human */
-     , (42983,   6,        255) /* ItemsCapacity */
-     , (42983,   7,        255) /* ContainersCapacity */
+     , (42983,   6,         -1) /* ItemsCapacity */
+     , (42983,   7,         -1) /* ContainersCapacity */
      , (42983,  16,         32) /* ItemUseable - Remote */
      , (42983,  25,        200) /* Level */
      , (42983,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

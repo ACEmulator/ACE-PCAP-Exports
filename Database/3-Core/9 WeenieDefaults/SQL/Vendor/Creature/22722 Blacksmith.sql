@@ -6,8 +6,8 @@ VALUES (22722, 'oolutangablacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22722,   1,         16) /* ItemType - Creature */
      , (22722,   2,         31) /* CreatureType - Human */
-     , (22722,   6,        255) /* ItemsCapacity */
-     , (22722,   7,        255) /* ContainersCapacity */
+     , (22722,   6,         -1) /* ItemsCapacity */
+     , (22722,   7,         -1) /* ContainersCapacity */
      , (22722,  16,         32) /* ItemUseable - Remote */
      , (22722,  25,          7) /* Level */
      , (22722,  74, 1074004227) /* MerchandiseItemTypes - Armor, Weapon, PromissoryNote, TinkeringMaterial */

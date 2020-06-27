@@ -6,8 +6,8 @@ VALUES (44347, 'ace44347-filinuvektaemissary', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44347,   1,         16) /* ItemType - Creature */
      , (44347,   2,         14) /* CreatureType - Undead */
-     , (44347,   6,        255) /* ItemsCapacity */
-     , (44347,   7,        255) /* ContainersCapacity */
+     , (44347,   6,         -1) /* ItemsCapacity */
+     , (44347,   7,         -1) /* ContainersCapacity */
      , (44347,  16,          1) /* ItemUseable - No */
      , (44347,  25,        425) /* Level */
      , (44347,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

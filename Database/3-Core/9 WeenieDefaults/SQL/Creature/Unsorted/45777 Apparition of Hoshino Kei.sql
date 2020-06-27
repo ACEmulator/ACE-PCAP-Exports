@@ -5,8 +5,8 @@ VALUES (45777, 'ace45777-apparitionofhoshinokei', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45777,   1,         16) /* ItemType - Creature */
-     , (45777,   6,        255) /* ItemsCapacity */
-     , (45777,   7,        255) /* ContainersCapacity */
+     , (45777,   6,         -1) /* ItemsCapacity */
+     , (45777,   7,         -1) /* ContainersCapacity */
      , (45777,  16,          1) /* ItemUseable - No */
      , (45777,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45777,  95,          8) /* RadarBlipColor - Yellow */

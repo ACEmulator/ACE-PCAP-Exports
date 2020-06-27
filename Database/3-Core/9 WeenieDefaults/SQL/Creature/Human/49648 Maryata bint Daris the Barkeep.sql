@@ -6,8 +6,8 @@ VALUES (49648, 'ace49648-maryatabintdaristhebarkeep', 10, '2019-02-10 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49648,   1,         16) /* ItemType - Creature */
      , (49648,   2,         31) /* CreatureType - Human */
-     , (49648,   6,        255) /* ItemsCapacity */
-     , (49648,   7,        255) /* ContainersCapacity */
+     , (49648,   6,         -1) /* ItemsCapacity */
+     , (49648,   7,         -1) /* ContainersCapacity */
      , (49648,  16,          1) /* ItemUseable - No */
      , (49648,  25,         10) /* Level */
      , (49648,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

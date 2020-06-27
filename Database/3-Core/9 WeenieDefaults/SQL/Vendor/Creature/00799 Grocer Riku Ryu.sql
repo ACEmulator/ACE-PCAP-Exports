@@ -6,8 +6,8 @@ VALUES (799, 'mayoigrocer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (799,   1,         16) /* ItemType - Creature */
      , (799,   2,         31) /* CreatureType - Human */
-     , (799,   6,        255) /* ItemsCapacity */
-     , (799,   7,        255) /* ContainersCapacity */
+     , (799,   6,         -1) /* ItemsCapacity */
+     , (799,   7,         -1) /* ContainersCapacity */
      , (799,  16,         32) /* ItemUseable - Remote */
      , (799,  25,          5) /* Level */
      , (799,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */

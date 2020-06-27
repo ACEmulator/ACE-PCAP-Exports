@@ -5,8 +5,8 @@ VALUES (37094, 'ace37094-southernresonatingcrystal', 10, '2019-02-10 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37094,   1,         16) /* ItemType - Creature */
-     , (37094,   6,        255) /* ItemsCapacity */
-     , (37094,   7,        255) /* ContainersCapacity */
+     , (37094,   6,         -1) /* ItemsCapacity */
+     , (37094,   7,         -1) /* ContainersCapacity */
      , (37094,  16,         32) /* ItemUseable - Remote */
      , (37094,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37094,  95,          3) /* RadarBlipColor - White */

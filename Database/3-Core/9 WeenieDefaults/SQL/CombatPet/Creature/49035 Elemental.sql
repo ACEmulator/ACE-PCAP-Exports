@@ -6,8 +6,8 @@ VALUES (49035, 'ace49035-sauketteselemental', 71, '2019-02-10 00:00:00') /* Comb
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49035,   1,         16) /* ItemType - Creature */
      , (49035,   2,         62) /* CreatureType - Elemental */
-     , (49035,   6,        255) /* ItemsCapacity */
-     , (49035,   7,        255) /* ContainersCapacity */
+     , (49035,   6,         -1) /* ItemsCapacity */
+     , (49035,   7,         -1) /* ContainersCapacity */
      , (49035,  16,          1) /* ItemUseable - No */
      , (49035,  25,        150) /* Level */
      , (49035,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

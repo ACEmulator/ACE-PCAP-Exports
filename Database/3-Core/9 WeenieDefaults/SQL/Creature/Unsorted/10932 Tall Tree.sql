@@ -5,8 +5,8 @@ VALUES (10932, 'deruverdandi-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10932,   1,         16) /* ItemType - Creature */
-     , (10932,   6,        255) /* ItemsCapacity */
-     , (10932,   7,        255) /* ContainersCapacity */
+     , (10932,   6,         -1) /* ItemsCapacity */
+     , (10932,   7,         -1) /* ContainersCapacity */
      , (10932,  16,          1) /* ItemUseable - No */
      , (10932,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10932, 133,          1) /* ShowableOnRadar - ShowNever */

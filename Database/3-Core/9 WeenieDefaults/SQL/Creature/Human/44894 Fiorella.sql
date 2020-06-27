@@ -6,8 +6,8 @@ VALUES (44894, 'ace44894-fiorella', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44894,   1,         16) /* ItemType - Creature */
      , (44894,   2,         31) /* CreatureType - Human */
-     , (44894,   6,        255) /* ItemsCapacity */
-     , (44894,   7,        255) /* ContainersCapacity */
+     , (44894,   6,         -1) /* ItemsCapacity */
+     , (44894,   7,         -1) /* ContainersCapacity */
      , (44894,  16,         32) /* ItemUseable - Remote */
      , (44894,  25,          5) /* Level */
      , (44894,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

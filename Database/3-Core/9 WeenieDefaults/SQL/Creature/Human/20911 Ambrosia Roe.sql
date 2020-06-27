@@ -6,8 +6,8 @@ VALUES (20911, 'retreatambrosiaroe', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20911,   1,         16) /* ItemType - Creature */
      , (20911,   2,         31) /* CreatureType - Human */
-     , (20911,   6,        255) /* ItemsCapacity */
-     , (20911,   7,        255) /* ContainersCapacity */
+     , (20911,   6,         -1) /* ItemsCapacity */
+     , (20911,   7,         -1) /* ContainersCapacity */
      , (20911,  16,         32) /* ItemUseable - Remote */
      , (20911,  25,         84) /* Level */
      , (20911,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

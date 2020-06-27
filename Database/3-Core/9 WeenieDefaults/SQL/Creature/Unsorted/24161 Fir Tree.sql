@@ -5,8 +5,8 @@ VALUES (24161, 'treesecretlair', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24161,   1,         16) /* ItemType - Creature */
-     , (24161,   6,        255) /* ItemsCapacity */
-     , (24161,   7,        255) /* ContainersCapacity */
+     , (24161,   6,         -1) /* ItemsCapacity */
+     , (24161,   7,         -1) /* ContainersCapacity */
      , (24161,  16,         32) /* ItemUseable - Remote */
      , (24161,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24161,  95,          3) /* RadarBlipColor - White */

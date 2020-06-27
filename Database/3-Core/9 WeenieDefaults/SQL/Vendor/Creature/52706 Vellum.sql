@@ -6,8 +6,8 @@ VALUES (52706, 'ace52706-vellum', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52706,   1,         16) /* ItemType - Creature */
      , (52706,   2,         51) /* CreatureType - Empyrean */
-     , (52706,   6,        255) /* ItemsCapacity */
-     , (52706,   7,        255) /* ContainersCapacity */
+     , (52706,   6,         -1) /* ItemsCapacity */
+     , (52706,   7,         -1) /* ContainersCapacity */
      , (52706,  16,         32) /* ItemUseable - Remote */
      , (52706,  25,        300) /* Level */
      , (52706,  74,          0) /* MerchandiseItemTypes - None */

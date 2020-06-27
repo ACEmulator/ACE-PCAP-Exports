@@ -6,8 +6,8 @@ VALUES (32700, 'ace32700-viamontianportalmage', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32700,   1,         16) /* ItemType - Creature */
      , (32700,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32700,   6,        255) /* ItemsCapacity */
-     , (32700,   7,        255) /* ContainersCapacity */
+     , (32700,   6,         -1) /* ItemsCapacity */
+     , (32700,   7,         -1) /* ContainersCapacity */
      , (32700,  16,          1) /* ItemUseable - No */
      , (32700,  25,        100) /* Level */
      , (32700,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

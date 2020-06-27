@@ -6,8 +6,8 @@ VALUES (32841, 'ace32841-lieutenantallandal', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32841,   1,         16) /* ItemType - Creature */
      , (32841,   2,         31) /* CreatureType - Human */
-     , (32841,   6,        255) /* ItemsCapacity */
-     , (32841,   7,        255) /* ContainersCapacity */
+     , (32841,   6,         -1) /* ItemsCapacity */
+     , (32841,   7,         -1) /* ContainersCapacity */
      , (32841,  16,         32) /* ItemUseable - Remote */
      , (32841,  25,        121) /* Level */
      , (32841,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

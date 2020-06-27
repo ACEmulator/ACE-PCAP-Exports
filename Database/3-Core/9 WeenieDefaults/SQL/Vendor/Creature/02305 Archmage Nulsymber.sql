@@ -6,8 +6,8 @@ VALUES (2305, 'rithwicarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2305,   1,         16) /* ItemType - Creature */
      , (2305,   2,         31) /* CreatureType - Human */
-     , (2305,   6,        255) /* ItemsCapacity */
-     , (2305,   7,        255) /* ContainersCapacity */
+     , (2305,   6,         -1) /* ItemsCapacity */
+     , (2305,   7,         -1) /* ContainersCapacity */
      , (2305,  16,         32) /* ItemUseable - Remote */
      , (2305,  25,          7) /* Level */
      , (2305,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

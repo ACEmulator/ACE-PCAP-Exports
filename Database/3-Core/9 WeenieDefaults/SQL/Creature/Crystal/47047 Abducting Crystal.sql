@@ -6,8 +6,8 @@ VALUES (47047, 'ace47047-abductingcrystal', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47047,   1,         16) /* ItemType - Creature */
      , (47047,   2,         47) /* CreatureType - Crystal */
-     , (47047,   6,        255) /* ItemsCapacity */
-     , (47047,   7,        255) /* ContainersCapacity */
+     , (47047,   6,         -1) /* ItemsCapacity */
+     , (47047,   7,         -1) /* ContainersCapacity */
      , (47047,  16,          1) /* ItemUseable - No */
      , (47047,  25,        200) /* Level */
      , (47047,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

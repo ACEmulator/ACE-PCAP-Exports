@@ -6,8 +6,8 @@ VALUES (5771, 'lagbeast', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5771,   1,         16) /* ItemType - Creature */
      , (5771,   2,         40) /* CreatureType - Unknown */
-     , (5771,   6,        255) /* ItemsCapacity */
-     , (5771,   7,        255) /* ContainersCapacity */
+     , (5771,   6,         -1) /* ItemsCapacity */
+     , (5771,   7,         -1) /* ContainersCapacity */
      , (5771,  16,          1) /* ItemUseable - No */
      , (5771,  25,          8) /* Level */
      , (5771,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

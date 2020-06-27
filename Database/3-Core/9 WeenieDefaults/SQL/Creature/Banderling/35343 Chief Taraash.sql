@@ -6,8 +6,8 @@ VALUES (35343, 'ace35343-chieftaraash', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35343,   1,         16) /* ItemType - Creature */
      , (35343,   2,          2) /* CreatureType - Banderling */
-     , (35343,   6,        255) /* ItemsCapacity */
-     , (35343,   7,        255) /* ContainersCapacity */
+     , (35343,   6,         -1) /* ItemsCapacity */
+     , (35343,   7,         -1) /* ContainersCapacity */
      , (35343,  16,         32) /* ItemUseable - Remote */
      , (35343,  25,        170) /* Level */
      , (35343,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

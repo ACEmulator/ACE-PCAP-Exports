@@ -6,8 +6,8 @@ VALUES (42930, 'ace42930-mineforeman', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42930,   1,         16) /* ItemType - Creature */
      , (42930,   2,          5) /* CreatureType - Lugian */
-     , (42930,   6,        255) /* ItemsCapacity */
-     , (42930,   7,        255) /* ContainersCapacity */
+     , (42930,   6,         -1) /* ItemsCapacity */
+     , (42930,   7,         -1) /* ContainersCapacity */
      , (42930,  16,         32) /* ItemUseable - Remote */
      , (42930,  25,        108) /* Level */
      , (42930,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

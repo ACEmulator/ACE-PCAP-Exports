@@ -6,8 +6,8 @@ VALUES (16914, 'hollowminionterebrous-nofall', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16914,   1,         16) /* ItemType - Creature */
      , (16914,   2,         48) /* CreatureType - HollowMinion */
-     , (16914,   6,        255) /* ItemsCapacity */
-     , (16914,   7,        255) /* ContainersCapacity */
+     , (16914,   6,         -1) /* ItemsCapacity */
+     , (16914,   7,         -1) /* ContainersCapacity */
      , (16914,  16,          1) /* ItemUseable - No */
      , (16914,  25,         80) /* Level */
      , (16914,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

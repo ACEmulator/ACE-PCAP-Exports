@@ -6,8 +6,8 @@ VALUES (5422, 'glendeneastoutpostarchmage', 12, '2019-02-10 00:00:00') /* Vendor
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5422,   1,         16) /* ItemType - Creature */
      , (5422,   2,         31) /* CreatureType - Human */
-     , (5422,   6,        255) /* ItemsCapacity */
-     , (5422,   7,        255) /* ContainersCapacity */
+     , (5422,   6,         -1) /* ItemsCapacity */
+     , (5422,   7,         -1) /* ContainersCapacity */
      , (5422,  16,         32) /* ItemUseable - Remote */
      , (5422,  25,         10) /* Level */
      , (5422,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

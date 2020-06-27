@@ -6,8 +6,8 @@ VALUES (48920, 'ace48920-lieutenantroothe', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48920,   1,         16) /* ItemType - Creature */
      , (48920,   2,         31) /* CreatureType - Human */
-     , (48920,   6,        255) /* ItemsCapacity */
-     , (48920,   7,        255) /* ContainersCapacity */
+     , (48920,   6,         -1) /* ItemsCapacity */
+     , (48920,   7,         -1) /* ContainersCapacity */
      , (48920,  16,         32) /* ItemUseable - Remote */
      , (48920,  25,        275) /* Level */
      , (48920,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

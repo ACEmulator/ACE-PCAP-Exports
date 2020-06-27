@@ -6,8 +6,8 @@ VALUES (36116, 'ace36116-claudethearchmage', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36116,   1,         16) /* ItemType - Creature */
      , (36116,   2,         19) /* CreatureType - Virindi */
-     , (36116,   6,        255) /* ItemsCapacity */
-     , (36116,   7,        255) /* ContainersCapacity */
+     , (36116,   6,         -1) /* ItemsCapacity */
+     , (36116,   7,         -1) /* ContainersCapacity */
      , (36116,  16,         32) /* ItemUseable - Remote */
      , (36116,  25,         12) /* Level */
      , (36116,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

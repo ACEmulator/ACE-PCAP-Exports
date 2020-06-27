@@ -6,8 +6,8 @@ VALUES (43862, 'ace43862-umbralguard', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43862,   1,         16) /* ItemType - Creature */
      , (43862,   2,         31) /* CreatureType - Human */
-     , (43862,   6,        255) /* ItemsCapacity */
-     , (43862,   7,        255) /* ContainersCapacity */
+     , (43862,   6,         -1) /* ItemsCapacity */
+     , (43862,   7,         -1) /* ContainersCapacity */
      , (43862,  16,         32) /* ItemUseable - Remote */
      , (43862,  25,        275) /* Level */
      , (43862,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

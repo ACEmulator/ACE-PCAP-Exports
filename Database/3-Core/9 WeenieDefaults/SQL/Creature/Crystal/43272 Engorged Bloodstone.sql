@@ -6,8 +6,8 @@ VALUES (43272, 'ace43272-engorgedbloodstone', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43272,   1,         16) /* ItemType - Creature */
      , (43272,   2,         47) /* CreatureType - Crystal */
-     , (43272,   6,        255) /* ItemsCapacity */
-     , (43272,   7,        255) /* ContainersCapacity */
+     , (43272,   6,         -1) /* ItemsCapacity */
+     , (43272,   7,         -1) /* ContainersCapacity */
      , (43272,  16,          1) /* ItemUseable - No */
      , (43272,  25,        200) /* Level */
      , (43272,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

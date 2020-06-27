@@ -6,8 +6,8 @@ VALUES (9424, 'yaraqlugiangemseller', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9424,   1,         16) /* ItemType - Creature */
      , (9424,   2,          5) /* CreatureType - Lugian */
-     , (9424,   6,        255) /* ItemsCapacity */
-     , (9424,   7,        255) /* ContainersCapacity */
+     , (9424,   6,         -1) /* ItemsCapacity */
+     , (9424,   7,         -1) /* ContainersCapacity */
      , (9424,  16,         32) /* ItemUseable - Remote */
      , (9424,  25,         42) /* Level */
      , (9424,  74,       2056) /* MerchandiseItemTypes - Jewelry, Gem */

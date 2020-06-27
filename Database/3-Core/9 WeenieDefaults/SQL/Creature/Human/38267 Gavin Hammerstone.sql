@@ -6,8 +6,8 @@ VALUES (38267, 'ace38267-gavinhammerstone', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38267,   1,         16) /* ItemType - Creature */
      , (38267,   2,         31) /* CreatureType - Human */
-     , (38267,   6,        255) /* ItemsCapacity */
-     , (38267,   7,        255) /* ContainersCapacity */
+     , (38267,   6,         -1) /* ItemsCapacity */
+     , (38267,   7,         -1) /* ContainersCapacity */
      , (38267,  16,         32) /* ItemUseable - Remote */
      , (38267,  25,        200) /* Level */
      , (38267,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

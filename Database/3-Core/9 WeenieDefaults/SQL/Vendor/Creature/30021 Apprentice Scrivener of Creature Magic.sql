@@ -6,8 +6,8 @@ VALUES (30021, 'viascrivenercreature1starter', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30021,   1,         16) /* ItemType - Creature */
      , (30021,   2,         31) /* CreatureType - Human */
-     , (30021,   6,        255) /* ItemsCapacity */
-     , (30021,   7,        255) /* ContainersCapacity */
+     , (30021,   6,         -1) /* ItemsCapacity */
+     , (30021,   7,         -1) /* ContainersCapacity */
      , (30021,  16,         32) /* ItemUseable - Remote */
      , (30021,  25,         14) /* Level */
      , (30021,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

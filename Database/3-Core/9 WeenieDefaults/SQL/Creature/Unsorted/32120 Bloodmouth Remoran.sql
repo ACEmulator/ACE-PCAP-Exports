@@ -5,8 +5,8 @@ VALUES (32120, 'ace32120-bloodmouthremoran', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32120,   1,         16) /* ItemType - Creature */
-     , (32120,   6,        255) /* ItemsCapacity */
-     , (32120,   7,        255) /* ContainersCapacity */
+     , (32120,   6,         -1) /* ItemsCapacity */
+     , (32120,   7,         -1) /* ContainersCapacity */
      , (32120,  16,          1) /* ItemUseable - No */
      , (32120,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32120, 133,          2) /* ShowableOnRadar - ShowMovement */

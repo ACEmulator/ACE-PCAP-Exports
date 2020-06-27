@@ -6,8 +6,8 @@ VALUES (24246, 'olthoifighterripper', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24246,   1,         16) /* ItemType - Creature */
      , (24246,   2,         31) /* CreatureType - Human */
-     , (24246,   6,        255) /* ItemsCapacity */
-     , (24246,   7,        255) /* ContainersCapacity */
+     , (24246,   6,         -1) /* ItemsCapacity */
+     , (24246,   7,         -1) /* ContainersCapacity */
      , (24246,  16,         32) /* ItemUseable - Remote */
      , (24246,  25,        122) /* Level */
      , (24246,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

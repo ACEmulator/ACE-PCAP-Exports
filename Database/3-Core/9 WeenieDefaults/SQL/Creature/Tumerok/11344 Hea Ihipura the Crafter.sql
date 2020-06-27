@@ -6,8 +6,8 @@ VALUES (11344, 'ahurengacrafter-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11344,   1,         16) /* ItemType - Creature */
      , (11344,   2,          6) /* CreatureType - Tumerok */
-     , (11344,   6,        255) /* ItemsCapacity */
-     , (11344,   7,        255) /* ContainersCapacity */
+     , (11344,   6,         -1) /* ItemsCapacity */
+     , (11344,   7,         -1) /* ContainersCapacity */
      , (11344,  16,         32) /* ItemUseable - Remote */
      , (11344,  25,         15) /* Level */
      , (11344,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

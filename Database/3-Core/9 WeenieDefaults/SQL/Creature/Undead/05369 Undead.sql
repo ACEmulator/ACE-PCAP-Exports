@@ -6,8 +6,8 @@ VALUES (5369, 'zombiecovecrypt', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5369,   1,         16) /* ItemType - Creature */
      , (5369,   2,         14) /* CreatureType - Undead */
-     , (5369,   6,        255) /* ItemsCapacity */
-     , (5369,   7,        255) /* ContainersCapacity */
+     , (5369,   6,         -1) /* ItemsCapacity */
+     , (5369,   7,         -1) /* ContainersCapacity */
      , (5369,  16,          1) /* ItemUseable - No */
      , (5369,  25,          8) /* Level */
      , (5369,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -5,8 +5,8 @@ VALUES (29774, 'threebagsblacklabeledbagnpc', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29774,   1,         16) /* ItemType - Creature */
-     , (29774,   6,        255) /* ItemsCapacity */
-     , (29774,   7,        255) /* ContainersCapacity */
+     , (29774,   6,         -1) /* ItemsCapacity */
+     , (29774,   7,         -1) /* ContainersCapacity */
      , (29774,  16,         32) /* ItemUseable - Remote */
      , (29774,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29774,  95,          3) /* RadarBlipColor - White */

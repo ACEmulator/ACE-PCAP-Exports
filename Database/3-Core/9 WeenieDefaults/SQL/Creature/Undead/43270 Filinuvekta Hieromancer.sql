@@ -6,8 +6,8 @@ VALUES (43270, 'ace43270-filinuvektahieromancer', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43270,   1,         16) /* ItemType - Creature */
      , (43270,   2,         14) /* CreatureType - Undead */
-     , (43270,   6,        255) /* ItemsCapacity */
-     , (43270,   7,        255) /* ContainersCapacity */
+     , (43270,   6,         -1) /* ItemsCapacity */
+     , (43270,   7,         -1) /* ContainersCapacity */
      , (43270,  16,          1) /* ItemUseable - No */
      , (43270,  25,        425) /* Level */
      , (43270,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

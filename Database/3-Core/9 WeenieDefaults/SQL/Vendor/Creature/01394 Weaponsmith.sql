@@ -6,8 +6,8 @@ VALUES (1394, 'weaponsmithgaron', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1394,   1,         16) /* ItemType - Creature */
      , (1394,   2,         31) /* CreatureType - Human */
-     , (1394,   6,        255) /* ItemsCapacity */
-     , (1394,   7,        255) /* ContainersCapacity */
+     , (1394,   6,         -1) /* ItemsCapacity */
+     , (1394,   7,         -1) /* ContainersCapacity */
      , (1394,  16,         32) /* ItemUseable - Remote */
      , (1394,  25,          8) /* Level */
      , (1394,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */

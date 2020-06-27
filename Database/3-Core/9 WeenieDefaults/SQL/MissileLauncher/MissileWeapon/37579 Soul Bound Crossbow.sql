@@ -28,7 +28,7 @@ VALUES (37579,   1,        256) /* ItemType - MissileWeapon */
      , (37579, 159,         47) /* WieldSkillType - MissileWeapons */
      , (37579, 160,        360) /* WieldDifficulty */
      , (37579, 166,         77) /* SlayerCreatureType - Ghost */
-     , (37579, 265,        138) /* EquipmentSetId - UNKNOWN_138 */
+     , (37579, 265,        138) /* EquipmentSetId - ParagonMissile */
      , (37579, 319,         50) /* ItemMaxLevel */
      , (37579, 320,          1) /* ItemXpStyle - Fixed */
      , (37579, 353,          9) /* WeaponType - Crossbow */

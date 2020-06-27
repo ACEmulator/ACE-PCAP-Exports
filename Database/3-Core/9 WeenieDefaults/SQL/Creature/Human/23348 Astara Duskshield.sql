@@ -6,8 +6,8 @@ VALUES (23348, 'astara', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23348,   1,         16) /* ItemType - Creature */
      , (23348,   2,         31) /* CreatureType - Human */
-     , (23348,   6,        255) /* ItemsCapacity */
-     , (23348,   7,        255) /* ContainersCapacity */
+     , (23348,   6,         -1) /* ItemsCapacity */
+     , (23348,   7,         -1) /* ContainersCapacity */
      , (23348,  16,         32) /* ItemUseable - Remote */
      , (23348,  25,         15) /* Level */
      , (23348,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

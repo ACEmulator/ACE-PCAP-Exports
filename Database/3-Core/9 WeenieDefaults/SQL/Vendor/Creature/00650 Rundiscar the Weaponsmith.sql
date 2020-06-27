@@ -6,8 +6,8 @@ VALUES (650, 'easthamblacksmith2', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (650,   1,         16) /* ItemType - Creature */
      , (650,   2,         31) /* CreatureType - Human */
-     , (650,   6,        255) /* ItemsCapacity */
-     , (650,   7,        255) /* ContainersCapacity */
+     , (650,   6,         -1) /* ItemsCapacity */
+     , (650,   7,         -1) /* ContainersCapacity */
      , (650,  16,         32) /* ItemUseable - Remote */
      , (650,  25,          8) /* Level */
      , (650,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

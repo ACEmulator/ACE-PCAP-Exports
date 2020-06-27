@@ -6,8 +6,8 @@ VALUES (33798, 'ace33798-commanderjaredkurth', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33798,   1,         16) /* ItemType - Creature */
      , (33798,   2,         83) /* CreatureType - ViamontianKnight */
-     , (33798,   6,        255) /* ItemsCapacity */
-     , (33798,   7,        255) /* ContainersCapacity */
+     , (33798,   6,         -1) /* ItemsCapacity */
+     , (33798,   7,         -1) /* ContainersCapacity */
      , (33798,  16,          1) /* ItemUseable - No */
      , (33798,  25,        647) /* Level */
      , (33798,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

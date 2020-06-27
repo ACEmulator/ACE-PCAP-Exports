@@ -6,8 +6,8 @@ VALUES (41191, 'ace41191-apostateexcavationforeman', 10, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41191,   1,         16) /* ItemType - Creature */
      , (41191,   2,         19) /* CreatureType - Virindi */
-     , (41191,   6,        255) /* ItemsCapacity */
-     , (41191,   7,        255) /* ContainersCapacity */
+     , (41191,   6,         -1) /* ItemsCapacity */
+     , (41191,   7,         -1) /* ContainersCapacity */
      , (41191,  16,          1) /* ItemUseable - No */
      , (41191,  25,        220) /* Level */
      , (41191,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

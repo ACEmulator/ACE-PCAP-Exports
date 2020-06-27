@@ -5,8 +5,8 @@ VALUES (30688, 'tumerokreveredshamanwitheredboss', 10, '2019-02-10 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30688,   1,         16) /* ItemType - Creature */
-     , (30688,   6,        255) /* ItemsCapacity */
-     , (30688,   7,        255) /* ContainersCapacity */
+     , (30688,   6,         -1) /* ItemsCapacity */
+     , (30688,   7,         -1) /* ContainersCapacity */
      , (30688,  16,          1) /* ItemUseable - No */
      , (30688,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30688, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -6,8 +6,8 @@ VALUES (24067, 'diasswordnpc', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24067,   1,         16) /* ItemType - Creature */
      , (24067,   5,      70000) /* EncumbranceVal */
-     , (24067,   6,        255) /* ItemsCapacity */
-     , (24067,   7,        255) /* ContainersCapacity */
+     , (24067,   6,         -1) /* ItemsCapacity */
+     , (24067,   7,         -1) /* ContainersCapacity */
      , (24067,  16,         32) /* ItemUseable - Remote */
      , (24067,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24067,  95,          3) /* RadarBlipColor - White */

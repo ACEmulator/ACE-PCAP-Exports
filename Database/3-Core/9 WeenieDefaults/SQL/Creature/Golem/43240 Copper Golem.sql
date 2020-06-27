@@ -6,8 +6,8 @@ VALUES (43240, 'ace43240-coppergolem', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43240,   1,         16) /* ItemType - Creature */
      , (43240,   2,         13) /* CreatureType - Golem */
-     , (43240,   6,        255) /* ItemsCapacity */
-     , (43240,   7,        255) /* ContainersCapacity */
+     , (43240,   6,         -1) /* ItemsCapacity */
+     , (43240,   7,         -1) /* ContainersCapacity */
      , (43240,  16,          1) /* ItemUseable - No */
      , (43240,  25,         40) /* Level */
      , (43240,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

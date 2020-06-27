@@ -6,8 +6,8 @@ VALUES (46662, 'ace46662-bushigatekeeper', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46662,   1,         16) /* ItemType - Creature */
      , (46662,   2,         77) /* CreatureType - Ghost */
-     , (46662,   6,        255) /* ItemsCapacity */
-     , (46662,   7,        255) /* ContainersCapacity */
+     , (46662,   6,         -1) /* ItemsCapacity */
+     , (46662,   7,         -1) /* ContainersCapacity */
      , (46662,  16,          1) /* ItemUseable - No */
      , (46662,  25,        220) /* Level */
      , (46662,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

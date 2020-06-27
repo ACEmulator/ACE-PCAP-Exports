@@ -5,8 +5,8 @@ VALUES (42030, 'ace42030-shadeoffordroth', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42030,   1,         16) /* ItemType - Creature */
-     , (42030,   6,        255) /* ItemsCapacity */
-     , (42030,   7,        255) /* ContainersCapacity */
+     , (42030,   6,         -1) /* ItemsCapacity */
+     , (42030,   7,         -1) /* ContainersCapacity */
      , (42030,  16,         32) /* ItemUseable - Remote */
      , (42030,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (42030,  95,          8) /* RadarBlipColor - Yellow */

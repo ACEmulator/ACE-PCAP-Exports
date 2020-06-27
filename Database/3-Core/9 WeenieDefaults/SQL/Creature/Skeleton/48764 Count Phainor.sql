@@ -6,8 +6,8 @@ VALUES (48764, 'ace48764-countphainor', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48764,   1,         16) /* ItemType - Creature */
      , (48764,   2,         30) /* CreatureType - Skeleton */
-     , (48764,   6,        255) /* ItemsCapacity */
-     , (48764,   7,        255) /* ContainersCapacity */
+     , (48764,   6,         -1) /* ItemsCapacity */
+     , (48764,   7,         -1) /* ContainersCapacity */
      , (48764,  16,          1) /* ItemUseable - No */
      , (48764,  25,        275) /* Level */
      , (48764,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

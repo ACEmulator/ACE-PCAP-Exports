@@ -6,8 +6,8 @@ VALUES (32030, 'ace32030-brilliantcrystal', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32030,   1,         16) /* ItemType - Creature */
      , (32030,   2,         47) /* CreatureType - Crystal */
-     , (32030,   6,        255) /* ItemsCapacity */
-     , (32030,   7,        255) /* ContainersCapacity */
+     , (32030,   6,         -1) /* ItemsCapacity */
+     , (32030,   7,         -1) /* ContainersCapacity */
      , (32030,  16,          1) /* ItemUseable - No */
      , (32030,  25,        160) /* Level */
      , (32030,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

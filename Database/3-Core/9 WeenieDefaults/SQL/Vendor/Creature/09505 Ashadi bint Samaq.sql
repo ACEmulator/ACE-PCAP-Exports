@@ -6,8 +6,8 @@ VALUES (9505, 'gamblercashiergha', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9505,   1,         16) /* ItemType - Creature */
      , (9505,   2,         31) /* CreatureType - Human */
-     , (9505,   6,        255) /* ItemsCapacity */
-     , (9505,   7,        255) /* ContainersCapacity */
+     , (9505,   6,         -1) /* ItemsCapacity */
+     , (9505,   7,         -1) /* ContainersCapacity */
      , (9505,  16,         32) /* ItemUseable - Remote */
      , (9505,  25,          7) /* Level */
      , (9505,  74, 1613561775) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, PromissoryNote, ItemEnchantableTarget, MagicWieldable, TinkeringTool, TinkeringMaterial */

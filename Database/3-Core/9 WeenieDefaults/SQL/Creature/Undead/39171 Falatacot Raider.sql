@@ -6,8 +6,8 @@ VALUES (39171, 'ace39171-falatacotraider', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39171,   1,         16) /* ItemType - Creature */
      , (39171,   2,         14) /* CreatureType - Undead */
-     , (39171,   6,        255) /* ItemsCapacity */
-     , (39171,   7,        255) /* ContainersCapacity */
+     , (39171,   6,         -1) /* ItemsCapacity */
+     , (39171,   7,         -1) /* ContainersCapacity */
      , (39171,  16,          1) /* ItemUseable - No */
      , (39171,  25,        185) /* Level */
      , (39171,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

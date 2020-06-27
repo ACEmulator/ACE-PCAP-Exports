@@ -6,8 +6,8 @@ VALUES (40923, 'ace40923-boundspectralhandmaiden', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40923,   1,         16) /* ItemType - Creature */
      , (40923,   2,         77) /* CreatureType - Ghost */
-     , (40923,   6,        255) /* ItemsCapacity */
-     , (40923,   7,        255) /* ContainersCapacity */
+     , (40923,   6,         -1) /* ItemsCapacity */
+     , (40923,   7,         -1) /* ContainersCapacity */
      , (40923,  16,          1) /* ItemUseable - No */
      , (40923,  25,        215) /* Level */
      , (40923,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

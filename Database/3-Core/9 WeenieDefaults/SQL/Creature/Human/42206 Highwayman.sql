@@ -6,8 +6,8 @@ VALUES (42206, 'ace42206-highwayman', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42206,   1,         16) /* ItemType - Creature */
      , (42206,   2,         31) /* CreatureType - Human */
-     , (42206,   6,        255) /* ItemsCapacity */
-     , (42206,   7,        255) /* ContainersCapacity */
+     , (42206,   6,         -1) /* ItemsCapacity */
+     , (42206,   7,         -1) /* ContainersCapacity */
      , (42206,  16,          1) /* ItemUseable - No */
      , (42206,  25,         40) /* Level */
      , (42206,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

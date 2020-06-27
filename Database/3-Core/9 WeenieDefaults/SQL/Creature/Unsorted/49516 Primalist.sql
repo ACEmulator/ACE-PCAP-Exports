@@ -5,8 +5,8 @@ VALUES (49516, 'ace49516-primalist', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49516,   1,         16) /* ItemType - Creature */
-     , (49516,   6,        255) /* ItemsCapacity */
-     , (49516,   7,        255) /* ContainersCapacity */
+     , (49516,   6,         -1) /* ItemsCapacity */
+     , (49516,   7,         -1) /* ContainersCapacity */
      , (49516,  16,         32) /* ItemUseable - Remote */
      , (49516,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (49516,  95,          8) /* RadarBlipColor - Yellow */

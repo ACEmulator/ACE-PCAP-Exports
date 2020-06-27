@@ -6,8 +6,8 @@ VALUES (31874, 'ace31874-firegolem', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31874,   1,         16) /* ItemType - Creature */
      , (31874,   2,         13) /* CreatureType - Golem */
-     , (31874,   6,        255) /* ItemsCapacity */
-     , (31874,   7,        255) /* ContainersCapacity */
+     , (31874,   6,         -1) /* ItemsCapacity */
+     , (31874,   7,         -1) /* ContainersCapacity */
      , (31874,  16,          1) /* ItemUseable - No */
      , (31874,  25,        160) /* Level */
      , (31874,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

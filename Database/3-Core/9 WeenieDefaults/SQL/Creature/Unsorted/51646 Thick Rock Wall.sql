@@ -5,8 +5,8 @@ VALUES (51646, 'ace51646-thickrockwall', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51646,   1,         16) /* ItemType - Creature */
-     , (51646,   6,        255) /* ItemsCapacity */
-     , (51646,   7,        255) /* ContainersCapacity */
+     , (51646,   6,         -1) /* ItemsCapacity */
+     , (51646,   7,         -1) /* ContainersCapacity */
      , (51646,  16,          1) /* ItemUseable - No */
      , (51646,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51646, 133,          1) /* ShowableOnRadar - ShowNever */

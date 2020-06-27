@@ -6,8 +6,8 @@ VALUES (49157, 'ace49157-elbitcurtsedniswasp', 71, '2019-02-10 00:00:00') /* Com
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49157,   1,         16) /* ItemType - Creature */
      , (49157,   2,          9) /* CreatureType - PhyntosWasp */
-     , (49157,   6,        255) /* ItemsCapacity */
-     , (49157,   7,        255) /* ContainersCapacity */
+     , (49157,   6,         -1) /* ItemsCapacity */
+     , (49157,   7,         -1) /* ContainersCapacity */
      , (49157,  16,          1) /* ItemUseable - No */
      , (49157,  25,         50) /* Level */
      , (49157,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

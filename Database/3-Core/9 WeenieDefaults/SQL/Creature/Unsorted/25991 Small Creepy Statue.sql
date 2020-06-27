@@ -5,8 +5,8 @@ VALUES (25991, 'xarabydunbattledungeonportalnpc', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25991,   1,         16) /* ItemType - Creature */
-     , (25991,   6,        255) /* ItemsCapacity */
-     , (25991,   7,        255) /* ContainersCapacity */
+     , (25991,   6,         -1) /* ItemsCapacity */
+     , (25991,   7,         -1) /* ContainersCapacity */
      , (25991,  16,         32) /* ItemUseable - Remote */
      , (25991,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25991,  95,          8) /* RadarBlipColor - Yellow */

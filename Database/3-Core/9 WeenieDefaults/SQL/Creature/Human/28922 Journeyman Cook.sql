@@ -6,8 +6,8 @@ VALUES (28922, 'collectorcookingshomid', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28922,   1,         16) /* ItemType - Creature */
      , (28922,   2,         31) /* CreatureType - Human */
-     , (28922,   6,        255) /* ItemsCapacity */
-     , (28922,   7,        255) /* ContainersCapacity */
+     , (28922,   6,         -1) /* ItemsCapacity */
+     , (28922,   7,         -1) /* ContainersCapacity */
      , (28922,  16,         32) /* ItemUseable - Remote */
      , (28922,  25,          5) /* Level */
      , (28922,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

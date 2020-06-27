@@ -6,8 +6,8 @@ VALUES (43784, 'ace43784-followerofdeewain', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43784,   1,         16) /* ItemType - Creature */
      , (43784,   2,         13) /* CreatureType - Golem */
-     , (43784,   6,        255) /* ItemsCapacity */
-     , (43784,   7,        255) /* ContainersCapacity */
+     , (43784,   6,         -1) /* ItemsCapacity */
+     , (43784,   7,         -1) /* ContainersCapacity */
      , (43784,  16,          1) /* ItemUseable - No */
      , (43784,  25,        220) /* Level */
      , (43784,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

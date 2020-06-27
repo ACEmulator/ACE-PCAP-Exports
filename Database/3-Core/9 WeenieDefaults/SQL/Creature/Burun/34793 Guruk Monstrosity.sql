@@ -6,8 +6,8 @@ VALUES (34793, 'ace34793-gurukmonstrosity', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34793,   1,         16) /* ItemType - Creature */
      , (34793,   2,         75) /* CreatureType - Burun */
-     , (34793,   6,        255) /* ItemsCapacity */
-     , (34793,   7,        255) /* ContainersCapacity */
+     , (34793,   6,         -1) /* ItemsCapacity */
+     , (34793,   7,         -1) /* ContainersCapacity */
      , (34793,  16,          1) /* ItemUseable - No */
      , (34793,  25,        185) /* Level */
      , (34793,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

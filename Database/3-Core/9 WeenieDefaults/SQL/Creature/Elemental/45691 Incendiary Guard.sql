@@ -6,8 +6,8 @@ VALUES (45691, 'ace45691-incendiaryguard', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45691,   1,         16) /* ItemType - Creature */
      , (45691,   2,         62) /* CreatureType - Elemental */
-     , (45691,   6,        255) /* ItemsCapacity */
-     , (45691,   7,        255) /* ContainersCapacity */
+     , (45691,   6,         -1) /* ItemsCapacity */
+     , (45691,   7,         -1) /* ContainersCapacity */
      , (45691,  16,          1) /* ItemUseable - No */
      , (45691,  25,        220) /* Level */
      , (45691,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

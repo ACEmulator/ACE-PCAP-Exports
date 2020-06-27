@@ -6,8 +6,8 @@ VALUES (43251, 'ace43251-armoredguardian', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43251,   1,         16) /* ItemType - Creature */
      , (43251,   2,         30) /* CreatureType - Skeleton */
-     , (43251,   6,        255) /* ItemsCapacity */
-     , (43251,   7,        255) /* ContainersCapacity */
+     , (43251,   6,         -1) /* ItemsCapacity */
+     , (43251,   7,         -1) /* ContainersCapacity */
      , (43251,  16,          1) /* ItemUseable - No */
      , (43251,  25,        265) /* Level */
      , (43251,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

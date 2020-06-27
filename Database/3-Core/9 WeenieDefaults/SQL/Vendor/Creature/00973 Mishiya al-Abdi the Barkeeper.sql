@@ -6,8 +6,8 @@ VALUES (973, 'samsurbarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (973,   1,         16) /* ItemType - Creature */
      , (973,   2,         31) /* CreatureType - Human */
-     , (973,   6,        255) /* ItemsCapacity */
-     , (973,   7,        255) /* ContainersCapacity */
+     , (973,   6,         -1) /* ItemsCapacity */
+     , (973,   7,         -1) /* ContainersCapacity */
      , (973,  16,         32) /* ItemUseable - Remote */
      , (973,  25,          9) /* Level */
      , (973,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */

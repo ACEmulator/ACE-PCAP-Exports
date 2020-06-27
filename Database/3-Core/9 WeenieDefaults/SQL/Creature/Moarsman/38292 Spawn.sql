@@ -6,8 +6,8 @@ VALUES (38292, 'ace38292-spawn', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38292,   1,         16) /* ItemType - Creature */
      , (38292,   2,         34) /* CreatureType - Moarsman */
-     , (38292,   6,        255) /* ItemsCapacity */
-     , (38292,   7,        255) /* ContainersCapacity */
+     , (38292,   6,         -1) /* ItemsCapacity */
+     , (38292,   7,         -1) /* ContainersCapacity */
      , (38292,  16,          1) /* ItemUseable - No */
      , (38292,  25,        165) /* Level */
      , (38292,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

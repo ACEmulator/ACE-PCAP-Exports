@@ -6,8 +6,8 @@ VALUES (24213, 'strongholdcollectorlugian', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24213,   1,         16) /* ItemType - Creature */
      , (24213,   2,          5) /* CreatureType - Lugian */
-     , (24213,   6,        255) /* ItemsCapacity */
-     , (24213,   7,        255) /* ContainersCapacity */
+     , (24213,   6,         -1) /* ItemsCapacity */
+     , (24213,   7,         -1) /* ContainersCapacity */
      , (24213,  16,         32) /* ItemUseable - Remote */
      , (24213,  25,         88) /* Level */
      , (24213,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

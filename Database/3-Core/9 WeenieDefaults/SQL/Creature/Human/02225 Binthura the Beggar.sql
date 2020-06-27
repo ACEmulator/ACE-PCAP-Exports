@@ -6,8 +6,8 @@ VALUES (2225, 'dryreachbeggarc', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2225,   1,         16) /* ItemType - Creature */
      , (2225,   2,         31) /* CreatureType - Human */
-     , (2225,   6,        255) /* ItemsCapacity */
-     , (2225,   7,        255) /* ContainersCapacity */
+     , (2225,   6,         -1) /* ItemsCapacity */
+     , (2225,   7,         -1) /* ContainersCapacity */
      , (2225,  16,         32) /* ItemUseable - Remote */
      , (2225,  25,          6) /* Level */
      , (2225,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -5,8 +5,8 @@ VALUES (35763, 'ace35763-bell', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35763,   1,         16) /* ItemType - Creature */
-     , (35763,   6,        255) /* ItemsCapacity */
-     , (35763,   7,        255) /* ContainersCapacity */
+     , (35763,   6,         -1) /* ItemsCapacity */
+     , (35763,   7,         -1) /* ContainersCapacity */
      , (35763,  16,         32) /* ItemUseable - Remote */
      , (35763,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35763,  95,          8) /* RadarBlipColor - Yellow */

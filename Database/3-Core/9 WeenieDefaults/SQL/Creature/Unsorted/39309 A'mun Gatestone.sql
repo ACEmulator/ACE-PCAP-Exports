@@ -5,8 +5,8 @@ VALUES (39309, 'ace39309-amungatestone', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39309,   1,         16) /* ItemType - Creature */
-     , (39309,   6,        255) /* ItemsCapacity */
-     , (39309,   7,        255) /* ContainersCapacity */
+     , (39309,   6,         -1) /* ItemsCapacity */
+     , (39309,   7,         -1) /* ContainersCapacity */
      , (39309,  16,         32) /* ItemUseable - Remote */
      , (39309,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (39309,  95,          8) /* RadarBlipColor - Yellow */

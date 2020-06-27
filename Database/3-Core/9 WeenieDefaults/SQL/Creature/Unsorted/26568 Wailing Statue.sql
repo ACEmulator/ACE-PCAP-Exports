@@ -5,8 +5,8 @@ VALUES (26568, 'statuespikelauncher5', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26568,   1,         16) /* ItemType - Creature */
-     , (26568,   6,        255) /* ItemsCapacity */
-     , (26568,   7,        255) /* ContainersCapacity */
+     , (26568,   6,         -1) /* ItemsCapacity */
+     , (26568,   7,         -1) /* ContainersCapacity */
      , (26568,  16,         32) /* ItemUseable - Remote */
      , (26568,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (26568,  95,          3) /* RadarBlipColor - White */

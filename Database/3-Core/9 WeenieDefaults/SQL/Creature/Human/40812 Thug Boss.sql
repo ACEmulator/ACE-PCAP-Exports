@@ -6,8 +6,8 @@ VALUES (40812, 'ace40812-thugboss', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40812,   1,         16) /* ItemType - Creature */
      , (40812,   2,         31) /* CreatureType - Human */
-     , (40812,   6,        255) /* ItemsCapacity */
-     , (40812,   7,        255) /* ContainersCapacity */
+     , (40812,   6,         -1) /* ItemsCapacity */
+     , (40812,   7,         -1) /* ContainersCapacity */
      , (40812,  16,          1) /* ItemUseable - No */
      , (40812,  25,        220) /* Level */
      , (40812,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

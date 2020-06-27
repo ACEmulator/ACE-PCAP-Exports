@@ -6,8 +6,8 @@ VALUES (8967, 'undeaddecayingwarrior', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8967,   1,         16) /* ItemType - Creature */
      , (8967,   2,         14) /* CreatureType - Undead */
-     , (8967,   6,        255) /* ItemsCapacity */
-     , (8967,   7,        255) /* ContainersCapacity */
+     , (8967,   6,         -1) /* ItemsCapacity */
+     , (8967,   7,         -1) /* ContainersCapacity */
      , (8967,  16,          1) /* ItemUseable - No */
      , (8967,  25,         60) /* Level */
      , (8967,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

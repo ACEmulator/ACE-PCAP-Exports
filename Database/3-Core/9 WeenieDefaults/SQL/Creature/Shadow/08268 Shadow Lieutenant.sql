@@ -6,8 +6,8 @@ VALUES (8268, 'shadowlieutenantnofall', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8268,   1,         16) /* ItemType - Creature */
      , (8268,   2,         22) /* CreatureType - Shadow */
-     , (8268,   6,        255) /* ItemsCapacity */
-     , (8268,   7,        255) /* ContainersCapacity */
+     , (8268,   6,         -1) /* ItemsCapacity */
+     , (8268,   7,         -1) /* ContainersCapacity */
      , (8268,  16,          1) /* ItemUseable - No */
      , (8268,  25,         60) /* Level */
      , (8268,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (38839, 'ace38839-masterarcher', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38839,   1,         16) /* ItemType - Creature */
      , (38839,   2,         31) /* CreatureType - Human */
-     , (38839,   6,        255) /* ItemsCapacity */
-     , (38839,   7,        255) /* ContainersCapacity */
+     , (38839,   6,         -1) /* ItemsCapacity */
+     , (38839,   7,         -1) /* ContainersCapacity */
      , (38839,  16,          1) /* ItemUseable - No */
      , (38839,  25,        220) /* Level */
      , (38839,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

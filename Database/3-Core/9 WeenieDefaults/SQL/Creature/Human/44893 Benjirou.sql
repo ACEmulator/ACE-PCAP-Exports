@@ -6,8 +6,8 @@ VALUES (44893, 'ace44893-benjirou', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44893,   1,         16) /* ItemType - Creature */
      , (44893,   2,         31) /* CreatureType - Human */
-     , (44893,   6,        255) /* ItemsCapacity */
-     , (44893,   7,        255) /* ContainersCapacity */
+     , (44893,   6,         -1) /* ItemsCapacity */
+     , (44893,   7,         -1) /* ContainersCapacity */
      , (44893,  16,         32) /* ItemUseable - Remote */
      , (44893,  25,          5) /* Level */
      , (44893,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (9401, 'mattekardread', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9401,   1,         16) /* ItemType - Creature */
      , (9401,   2,         23) /* CreatureType - Mattekar */
-     , (9401,   6,        255) /* ItemsCapacity */
-     , (9401,   7,        255) /* ContainersCapacity */
+     , (9401,   6,         -1) /* ItemsCapacity */
+     , (9401,   7,         -1) /* ContainersCapacity */
      , (9401,  16,          1) /* ItemUseable - No */
      , (9401,  25,         40) /* Level */
      , (9401,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (9401,   1,   33555590) /* Setup */
      , (9401,   6,   67111893) /* PaletteBase */
      , (9401,   8,  100669121) /* Icon */
      , (9401,  22,  872415278) /* PhysicsEffectTable */
+     , (9401,  30,         84) /* PhysicsScript - BreatheFlame */
      , (9401, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (9401, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (9401, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (9401, 8019,         84) /* PCAPRecordedDefaultScript */;
+     , (9401, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9401, 8040, 2384003121, 162.5294, 22.22036, 289.6862, -0.9465692, 0, 0, -0.3225008) /* PCAPRecordedLocation */

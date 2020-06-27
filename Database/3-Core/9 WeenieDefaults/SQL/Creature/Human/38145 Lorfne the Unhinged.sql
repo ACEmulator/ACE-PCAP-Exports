@@ -6,8 +6,8 @@ VALUES (38145, 'ace38145-lorfnetheunhinged', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38145,   1,         16) /* ItemType - Creature */
      , (38145,   2,         31) /* CreatureType - Human */
-     , (38145,   6,        255) /* ItemsCapacity */
-     , (38145,   7,        255) /* ContainersCapacity */
+     , (38145,   6,         -1) /* ItemsCapacity */
+     , (38145,   7,         -1) /* ContainersCapacity */
      , (38145,  16,          1) /* ItemUseable - No */
      , (38145,  25,        160) /* Level */
      , (38145,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

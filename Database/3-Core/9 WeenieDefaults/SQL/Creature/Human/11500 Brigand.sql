@@ -6,8 +6,8 @@ VALUES (11500, 'humanbrigand-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11500,   1,         16) /* ItemType - Creature */
      , (11500,   2,         31) /* CreatureType - Human */
-     , (11500,   6,        255) /* ItemsCapacity */
-     , (11500,   7,        255) /* ContainersCapacity */
+     , (11500,   6,         -1) /* ItemsCapacity */
+     , (11500,   7,         -1) /* ContainersCapacity */
      , (11500,  16,          1) /* ItemUseable - No */
      , (11500,  25,         20) /* Level */
      , (11500,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

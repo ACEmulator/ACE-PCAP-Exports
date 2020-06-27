@@ -6,8 +6,8 @@ VALUES (38558, 'ace38558-societygirtharmorsmith', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38558,   1,         16) /* ItemType - Creature */
      , (38558,   2,         31) /* CreatureType - Human */
-     , (38558,   6,        255) /* ItemsCapacity */
-     , (38558,   7,        255) /* ContainersCapacity */
+     , (38558,   6,         -1) /* ItemsCapacity */
+     , (38558,   7,         -1) /* ContainersCapacity */
      , (38558,  16,         32) /* ItemUseable - Remote */
      , (38558,  25,        185) /* Level */
      , (38558,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

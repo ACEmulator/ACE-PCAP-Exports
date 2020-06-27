@@ -5,8 +5,8 @@ VALUES (41176, 'ace41176-masterstatueofmoarsmancitytransport', 10, '2019-02-10 0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41176,   1,         16) /* ItemType - Creature */
-     , (41176,   6,        255) /* ItemsCapacity */
-     , (41176,   7,        255) /* ContainersCapacity */
+     , (41176,   6,         -1) /* ItemsCapacity */
+     , (41176,   7,         -1) /* ContainersCapacity */
      , (41176,  16,         32) /* ItemUseable - Remote */
      , (41176,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41176,  95,          3) /* RadarBlipColor - White */

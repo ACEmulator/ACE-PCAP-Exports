@@ -6,8 +6,8 @@ VALUES (33614, 'ace33614-pathwardenkoroijida', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33614,   1,         16) /* ItemType - Creature */
      , (33614,   2,         31) /* CreatureType - Human */
-     , (33614,   6,        255) /* ItemsCapacity */
-     , (33614,   7,        255) /* ContainersCapacity */
+     , (33614,   6,         -1) /* ItemsCapacity */
+     , (33614,   7,         -1) /* ContainersCapacity */
      , (33614,  16,         32) /* ItemUseable - Remote */
      , (33614,  25,          5) /* Level */
      , (33614,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

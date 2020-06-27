@@ -5,8 +5,8 @@ VALUES (34339, 'ace34339-thralledruuksoothsayer', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34339,   1,         16) /* ItemType - Creature */
-     , (34339,   6,        255) /* ItemsCapacity */
-     , (34339,   7,        255) /* ContainersCapacity */
+     , (34339,   6,         -1) /* ItemsCapacity */
+     , (34339,   7,         -1) /* ContainersCapacity */
      , (34339,  16,          1) /* ItemUseable - No */
      , (34339,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34339, 133,          2) /* ShowableOnRadar - ShowMovement */

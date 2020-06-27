@@ -6,8 +6,8 @@ VALUES (14411, 'banditreformedshoushi', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14411,   1,         16) /* ItemType - Creature */
      , (14411,   2,         31) /* CreatureType - Human */
-     , (14411,   6,        255) /* ItemsCapacity */
-     , (14411,   7,        255) /* ContainersCapacity */
+     , (14411,   6,         -1) /* ItemsCapacity */
+     , (14411,   7,         -1) /* ContainersCapacity */
      , (14411,  16,         32) /* ItemUseable - Remote */
      , (14411,  25,          5) /* Level */
      , (14411,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */

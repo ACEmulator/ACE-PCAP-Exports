@@ -6,8 +6,8 @@ VALUES (24248, 'royalguardperilbeneath', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24248,   1,         16) /* ItemType - Creature */
      , (24248,   2,         31) /* CreatureType - Human */
-     , (24248,   6,        255) /* ItemsCapacity */
-     , (24248,   7,        255) /* ContainersCapacity */
+     , (24248,   6,         -1) /* ItemsCapacity */
+     , (24248,   7,         -1) /* ContainersCapacity */
      , (24248,  16,         32) /* ItemUseable - Remote */
      , (24248,  25,         45) /* Level */
      , (24248,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

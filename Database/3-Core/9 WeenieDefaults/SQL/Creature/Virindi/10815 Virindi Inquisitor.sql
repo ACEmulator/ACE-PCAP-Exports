@@ -6,8 +6,8 @@ VALUES (10815, 'virindibossmonstersummoned', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10815,   1,         16) /* ItemType - Creature */
      , (10815,   2,         19) /* CreatureType - Virindi */
-     , (10815,   6,        255) /* ItemsCapacity */
-     , (10815,   7,        255) /* ContainersCapacity */
+     , (10815,   6,         -1) /* ItemsCapacity */
+     , (10815,   7,         -1) /* ContainersCapacity */
      , (10815,  16,          1) /* ItemUseable - No */
      , (10815,  25,        100) /* Level */
      , (10815,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

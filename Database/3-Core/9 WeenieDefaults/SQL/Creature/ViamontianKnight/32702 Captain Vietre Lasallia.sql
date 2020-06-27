@@ -6,8 +6,8 @@ VALUES (32702, 'ace32702-captainvietrelasallia', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32702,   1,         16) /* ItemType - Creature */
      , (32702,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32702,   6,        255) /* ItemsCapacity */
-     , (32702,   7,        255) /* ContainersCapacity */
+     , (32702,   6,         -1) /* ItemsCapacity */
+     , (32702,   7,         -1) /* ContainersCapacity */
      , (32702,  16,          1) /* ItemUseable - No */
      , (32702,  25,         80) /* Level */
      , (32702,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

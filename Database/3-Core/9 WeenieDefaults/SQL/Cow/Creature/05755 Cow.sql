@@ -6,8 +6,8 @@ VALUES (5755, 'cowunattackable', 15, '2019-02-10 00:00:00') /* Cow */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5755,   1,         16) /* ItemType - Creature */
      , (5755,   2,         12) /* CreatureType - Cow */
-     , (5755,   6,        255) /* ItemsCapacity */
-     , (5755,   7,        255) /* ContainersCapacity */
+     , (5755,   6,         -1) /* ItemsCapacity */
+     , (5755,   7,         -1) /* ContainersCapacity */
      , (5755,  16,         32) /* ItemUseable - Remote */
      , (5755,  25,          8) /* Level */
      , (5755,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

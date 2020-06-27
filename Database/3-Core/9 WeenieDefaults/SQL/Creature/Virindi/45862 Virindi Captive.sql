@@ -6,8 +6,8 @@ VALUES (45862, 'ace45862-virindicaptive', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45862,   1,         16) /* ItemType - Creature */
      , (45862,   2,         19) /* CreatureType - Virindi */
-     , (45862,   6,        255) /* ItemsCapacity */
-     , (45862,   7,        255) /* ContainersCapacity */
+     , (45862,   6,         -1) /* ItemsCapacity */
+     , (45862,   7,         -1) /* ContainersCapacity */
      , (45862,  16,         32) /* ItemUseable - Remote */
      , (45862,  25,        105) /* Level */
      , (45862,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

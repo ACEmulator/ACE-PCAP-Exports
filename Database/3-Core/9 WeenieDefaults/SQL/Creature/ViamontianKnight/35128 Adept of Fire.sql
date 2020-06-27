@@ -6,8 +6,8 @@ VALUES (35128, 'ace35128-adeptoffire', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35128,   1,         16) /* ItemType - Creature */
      , (35128,   2,         83) /* CreatureType - ViamontianKnight */
-     , (35128,   6,        255) /* ItemsCapacity */
-     , (35128,   7,        255) /* ContainersCapacity */
+     , (35128,   6,         -1) /* ItemsCapacity */
+     , (35128,   7,         -1) /* ContainersCapacity */
      , (35128,  16,          1) /* ItemUseable - No */
      , (35128,  25,        135) /* Level */
      , (35128,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

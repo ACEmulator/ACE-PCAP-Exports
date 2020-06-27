@@ -6,8 +6,8 @@ VALUES (31663, 'ace31663-ssavashkathedevoted', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31663,   1,         16) /* ItemType - Creature */
      , (31663,   2,         26) /* CreatureType - Sclavus */
-     , (31663,   6,        255) /* ItemsCapacity */
-     , (31663,   7,        255) /* ContainersCapacity */
+     , (31663,   6,         -1) /* ItemsCapacity */
+     , (31663,   7,         -1) /* ContainersCapacity */
      , (31663,  16,         32) /* ItemUseable - Remote */
      , (31663,  25,         80) /* Level */
      , (31663,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (21795, 'tentaclelightning1', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21795,   1,         16) /* ItemType - Creature */
      , (21795,   2,         62) /* CreatureType - Elemental */
-     , (21795,   6,        255) /* ItemsCapacity */
-     , (21795,   7,        255) /* ContainersCapacity */
+     , (21795,   6,         -1) /* ItemsCapacity */
+     , (21795,   7,         -1) /* ContainersCapacity */
      , (21795,  16,          1) /* ItemUseable - No */
      , (21795,  25,        999) /* Level */
      , (21795,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */

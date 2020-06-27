@@ -5,8 +5,8 @@ VALUES (32420, 'ace32420-fletchingwardenofforgetfulness', 10, '2019-02-10 00:00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32420,   1,         16) /* ItemType - Creature */
-     , (32420,   6,        255) /* ItemsCapacity */
-     , (32420,   7,        255) /* ContainersCapacity */
+     , (32420,   6,         -1) /* ItemsCapacity */
+     , (32420,   7,         -1) /* ContainersCapacity */
      , (32420,  16,         32) /* ItemUseable - Remote */
      , (32420,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32420,  95,          3) /* RadarBlipColor - White */

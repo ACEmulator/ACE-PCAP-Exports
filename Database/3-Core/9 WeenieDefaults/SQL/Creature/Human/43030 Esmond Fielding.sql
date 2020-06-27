@@ -6,8 +6,8 @@ VALUES (43030, 'ace43030-esmondfielding', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43030,   1,         16) /* ItemType - Creature */
      , (43030,   2,         31) /* CreatureType - Human */
-     , (43030,   6,        255) /* ItemsCapacity */
-     , (43030,   7,        255) /* ContainersCapacity */
+     , (43030,   6,         -1) /* ItemsCapacity */
+     , (43030,   7,         -1) /* ContainersCapacity */
      , (43030,  16,         32) /* ItemUseable - Remote */
      , (43030,  25,        100) /* Level */
      , (43030,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

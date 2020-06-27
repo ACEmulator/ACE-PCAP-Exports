@@ -6,8 +6,8 @@ VALUES (48777, 'ace48777-grularrwaydo', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48777,   1,         16) /* ItemType - Creature */
      , (48777,   2,         31) /* CreatureType - Human */
-     , (48777,   6,        255) /* ItemsCapacity */
-     , (48777,   7,        255) /* ContainersCapacity */
+     , (48777,   6,         -1) /* ItemsCapacity */
+     , (48777,   7,         -1) /* ContainersCapacity */
      , (48777,  16,         32) /* ItemUseable - Remote */
      , (48777,  25,        210) /* Level */
      , (48777,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

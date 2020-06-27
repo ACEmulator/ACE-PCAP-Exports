@@ -6,8 +6,8 @@ VALUES (30978, 'thungusbabynpc6', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30978,   1,         16) /* ItemType - Creature */
      , (30978,   2,         82) /* CreatureType - Thrungus */
-     , (30978,   6,        255) /* ItemsCapacity */
-     , (30978,   7,        255) /* ContainersCapacity */
+     , (30978,   6,         -1) /* ItemsCapacity */
+     , (30978,   7,         -1) /* ContainersCapacity */
      , (30978,  16,         32) /* ItemUseable - Remote */
      , (30978,  25,          5) /* Level */
      , (30978,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (38707, 'ace38707-kalalibndariz', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38707,   1,         16) /* ItemType - Creature */
      , (38707,   2,         31) /* CreatureType - Human */
-     , (38707,   6,        255) /* ItemsCapacity */
-     , (38707,   7,        255) /* ContainersCapacity */
+     , (38707,   6,         -1) /* ItemsCapacity */
+     , (38707,   7,         -1) /* ContainersCapacity */
      , (38707,  16,         32) /* ItemUseable - Remote */
      , (38707,  25,        182) /* Level */
      , (38707,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

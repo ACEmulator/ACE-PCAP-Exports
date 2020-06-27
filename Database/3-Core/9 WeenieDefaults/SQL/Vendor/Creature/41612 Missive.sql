@@ -6,8 +6,8 @@ VALUES (41612, 'ace41612-missive', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41612,   1,         16) /* ItemType - Creature */
      , (41612,   2,         31) /* CreatureType - Human */
-     , (41612,   6,        255) /* ItemsCapacity */
-     , (41612,   7,        255) /* ContainersCapacity */
+     , (41612,   6,         -1) /* ItemsCapacity */
+     , (41612,   7,         -1) /* ContainersCapacity */
      , (41612,  16,         32) /* ItemUseable - Remote */
      , (41612,  25,        150) /* Level */
      , (41612,  74, 1077936047) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, Portal, Lockable, PromissoryNote, ItemEnchantableTarget, Service, MagicWieldable, TinkeringMaterial */

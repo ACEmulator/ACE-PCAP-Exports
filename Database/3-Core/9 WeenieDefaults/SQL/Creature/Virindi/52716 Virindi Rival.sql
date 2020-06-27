@@ -6,8 +6,8 @@ VALUES (52716, 'ace52716-virindirival', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52716,   1,         16) /* ItemType - Creature */
      , (52716,   2,         19) /* CreatureType - Virindi */
-     , (52716,   6,        255) /* ItemsCapacity */
-     , (52716,   7,        255) /* ContainersCapacity */
+     , (52716,   6,         -1) /* ItemsCapacity */
+     , (52716,   7,         -1) /* ContainersCapacity */
      , (52716,  16,          1) /* ItemUseable - No */
      , (52716,  25,        240) /* Level */
      , (52716,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

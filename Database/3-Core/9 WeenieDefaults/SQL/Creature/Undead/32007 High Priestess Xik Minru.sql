@@ -6,8 +6,8 @@ VALUES (32007, 'ace32007-highpriestessxikminru', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32007,   1,         16) /* ItemType - Creature */
      , (32007,   2,         14) /* CreatureType - Undead */
-     , (32007,   6,        255) /* ItemsCapacity */
-     , (32007,   7,        255) /* ContainersCapacity */
+     , (32007,   6,         -1) /* ItemsCapacity */
+     , (32007,   7,         -1) /* ContainersCapacity */
      , (32007,  16,          1) /* ItemUseable - No */
      , (32007,  25,        750) /* Level */
      , (32007,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

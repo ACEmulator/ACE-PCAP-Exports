@@ -6,8 +6,8 @@ VALUES (48952, 'ace48952-phydeauxsskeleton', 71, '2019-02-10 00:00:00') /* Comba
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48952,   1,         16) /* ItemType - Creature */
      , (48952,   2,         30) /* CreatureType - Skeleton */
-     , (48952,   6,        255) /* ItemsCapacity */
-     , (48952,   7,        255) /* ContainersCapacity */
+     , (48952,   6,         -1) /* ItemsCapacity */
+     , (48952,   7,         -1) /* ContainersCapacity */
      , (48952,  16,          1) /* ItemUseable - No */
      , (48952,  25,        125) /* Level */
      , (48952,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

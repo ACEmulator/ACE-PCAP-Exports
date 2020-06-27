@@ -5,8 +5,8 @@ VALUES (36652, 'ace36652-energycage', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36652,   1,         16) /* ItemType - Creature */
-     , (36652,   6,        255) /* ItemsCapacity */
-     , (36652,   7,        255) /* ContainersCapacity */
+     , (36652,   6,         -1) /* ItemsCapacity */
+     , (36652,   7,         -1) /* ContainersCapacity */
      , (36652,  16,         32) /* ItemUseable - Remote */
      , (36652,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36652, 133,          4) /* ShowableOnRadar - ShowAlways */

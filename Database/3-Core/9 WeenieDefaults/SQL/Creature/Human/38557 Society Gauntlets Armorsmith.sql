@@ -6,8 +6,8 @@ VALUES (38557, 'ace38557-societygauntletsarmorsmith', 10, '2019-02-10 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38557,   1,         16) /* ItemType - Creature */
      , (38557,   2,         31) /* CreatureType - Human */
-     , (38557,   6,        255) /* ItemsCapacity */
-     , (38557,   7,        255) /* ContainersCapacity */
+     , (38557,   6,         -1) /* ItemsCapacity */
+     , (38557,   7,         -1) /* ContainersCapacity */
      , (38557,  16,         32) /* ItemUseable - Remote */
      , (38557,  25,        185) /* Level */
      , (38557,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (38370, 'ace38370-statueoftransport', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38370,   1,         16) /* ItemType - Creature */
-     , (38370,   6,        255) /* ItemsCapacity */
-     , (38370,   7,        255) /* ContainersCapacity */
+     , (38370,   6,         -1) /* ItemsCapacity */
+     , (38370,   7,         -1) /* ContainersCapacity */
      , (38370,  16,         32) /* ItemUseable - Remote */
      , (38370,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38370,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (46934, 'ace46934-ancientmudgolem', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46934,   1,         16) /* ItemType - Creature */
      , (46934,   2,         13) /* CreatureType - Golem */
-     , (46934,   6,        255) /* ItemsCapacity */
-     , (46934,   7,        255) /* ContainersCapacity */
+     , (46934,   6,         -1) /* ItemsCapacity */
+     , (46934,   7,         -1) /* ContainersCapacity */
      , (46934,  16,          1) /* ItemUseable - No */
      , (46934,  25,        240) /* Level */
      , (46934,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

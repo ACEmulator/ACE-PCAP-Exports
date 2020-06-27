@@ -6,8 +6,8 @@ VALUES (51977, 'ace51977-suppressionrift', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51977,   1,         16) /* ItemType - Creature */
      , (51977,   2,         19) /* CreatureType - Virindi */
-     , (51977,   6,        255) /* ItemsCapacity */
-     , (51977,   7,        255) /* ContainersCapacity */
+     , (51977,   6,         -1) /* ItemsCapacity */
+     , (51977,   7,         -1) /* ContainersCapacity */
      , (51977,  16,          1) /* ItemUseable - No */
      , (51977,  25,        250) /* Level */
      , (51977,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -6,8 +6,8 @@ VALUES (25832, 'toutouadherent', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25832,   1,         16) /* ItemType - Creature */
      , (25832,   2,         31) /* CreatureType - Human */
-     , (25832,   6,        255) /* ItemsCapacity */
-     , (25832,   7,        255) /* ContainersCapacity */
+     , (25832,   6,         -1) /* ItemsCapacity */
+     , (25832,   7,         -1) /* ContainersCapacity */
      , (25832,  16,         32) /* ItemUseable - Remote */
      , (25832,  25,         53) /* Level */
      , (25832,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

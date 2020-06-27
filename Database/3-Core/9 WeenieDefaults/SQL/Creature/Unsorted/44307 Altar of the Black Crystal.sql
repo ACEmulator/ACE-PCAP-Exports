@@ -5,8 +5,8 @@ VALUES (44307, 'ace44307-altaroftheblackcrystal', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44307,   1,         16) /* ItemType - Creature */
-     , (44307,   6,        255) /* ItemsCapacity */
-     , (44307,   7,        255) /* ContainersCapacity */
+     , (44307,   6,         -1) /* ItemsCapacity */
+     , (44307,   7,         -1) /* ContainersCapacity */
      , (44307,  16,         32) /* ItemUseable - Remote */
      , (44307,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (44307,  95,          8) /* RadarBlipColor - Yellow */

@@ -5,8 +5,8 @@ VALUES (36399, 'ace36399-dreamwalker', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36399,   1,         16) /* ItemType - Creature */
-     , (36399,   6,        255) /* ItemsCapacity */
-     , (36399,   7,        255) /* ContainersCapacity */
+     , (36399,   6,         -1) /* ItemsCapacity */
+     , (36399,   7,         -1) /* ContainersCapacity */
      , (36399,  16,          1) /* ItemUseable - No */
      , (36399,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36399, 8007,          0) /* PCAPRecordedAutonomousMovement */;

@@ -5,8 +5,8 @@ VALUES (43896, 'ace43896-strangecrystal', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43896,   1,         16) /* ItemType - Creature */
-     , (43896,   6,        255) /* ItemsCapacity */
-     , (43896,   7,        255) /* ContainersCapacity */
+     , (43896,   6,         -1) /* ItemsCapacity */
+     , (43896,   7,         -1) /* ContainersCapacity */
      , (43896,  16,         32) /* ItemUseable - Remote */
      , (43896,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43896,  95,          3) /* RadarBlipColor - White */

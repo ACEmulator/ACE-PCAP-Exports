@@ -6,8 +6,8 @@ VALUES (28245, 'ghostpoltergeist', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28245,   1,         16) /* ItemType - Creature */
      , (28245,   2,         77) /* CreatureType - Ghost */
-     , (28245,   6,        255) /* ItemsCapacity */
-     , (28245,   7,        255) /* ContainersCapacity */
+     , (28245,   6,         -1) /* ItemsCapacity */
+     , (28245,   7,         -1) /* ContainersCapacity */
      , (28245,  16,          1) /* ItemUseable - No */
      , (28245,  25,        115) /* Level */
      , (28245,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

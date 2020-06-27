@@ -6,8 +6,8 @@ VALUES (38634, 'ace38634-benedino', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38634,   1,         16) /* ItemType - Creature */
      , (38634,   2,         31) /* CreatureType - Human */
-     , (38634,   6,        255) /* ItemsCapacity */
-     , (38634,   7,        255) /* ContainersCapacity */
+     , (38634,   6,         -1) /* ItemsCapacity */
+     , (38634,   7,         -1) /* ContainersCapacity */
      , (38634,  16,          1) /* ItemUseable - No */
      , (38634,  25,        200) /* Level */
      , (38634,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

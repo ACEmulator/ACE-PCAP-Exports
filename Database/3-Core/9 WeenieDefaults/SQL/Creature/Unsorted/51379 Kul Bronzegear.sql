@@ -5,8 +5,8 @@ VALUES (51379, 'ace51379-kulbronzegear', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51379,   1,         16) /* ItemType - Creature */
-     , (51379,   6,        255) /* ItemsCapacity */
-     , (51379,   7,        255) /* ContainersCapacity */
+     , (51379,   6,         -1) /* ItemsCapacity */
+     , (51379,   7,         -1) /* ContainersCapacity */
      , (51379,  16,         32) /* ItemUseable - Remote */
      , (51379,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (51379,  95,          8) /* RadarBlipColor - Yellow */

@@ -5,8 +5,8 @@ VALUES (25720, 'portaltreenoir1', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25720,   1,         16) /* ItemType - Creature */
-     , (25720,   6,        255) /* ItemsCapacity */
-     , (25720,   7,        255) /* ContainersCapacity */
+     , (25720,   6,         -1) /* ItemsCapacity */
+     , (25720,   7,         -1) /* ContainersCapacity */
      , (25720,  16,         32) /* ItemUseable - Remote */
      , (25720,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25720,  95,          3) /* RadarBlipColor - White */

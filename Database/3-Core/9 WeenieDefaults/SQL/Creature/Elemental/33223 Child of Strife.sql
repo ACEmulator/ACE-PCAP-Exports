@@ -6,8 +6,8 @@ VALUES (33223, 'ace33223-childofstrife', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33223,   1,         16) /* ItemType - Creature */
      , (33223,   2,         62) /* CreatureType - Elemental */
-     , (33223,   6,        255) /* ItemsCapacity */
-     , (33223,   7,        255) /* ContainersCapacity */
+     , (33223,   6,         -1) /* ItemsCapacity */
+     , (33223,   7,         -1) /* ContainersCapacity */
      , (33223,  16,          1) /* ItemUseable - No */
      , (33223,  25,        160) /* Level */
      , (33223,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

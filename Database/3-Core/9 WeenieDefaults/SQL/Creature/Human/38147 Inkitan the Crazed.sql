@@ -6,8 +6,8 @@ VALUES (38147, 'ace38147-inkitanthecrazed', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38147,   1,         16) /* ItemType - Creature */
      , (38147,   2,         31) /* CreatureType - Human */
-     , (38147,   6,        255) /* ItemsCapacity */
-     , (38147,   7,        255) /* ContainersCapacity */
+     , (38147,   6,         -1) /* ItemsCapacity */
+     , (38147,   7,         -1) /* ContainersCapacity */
      , (38147,  16,          1) /* ItemUseable - No */
      , (38147,  25,        100) /* Level */
      , (38147,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

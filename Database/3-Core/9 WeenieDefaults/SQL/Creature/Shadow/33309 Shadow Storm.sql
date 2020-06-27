@@ -6,8 +6,8 @@ VALUES (33309, 'ace33309-shadowstorm', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33309,   1,         16) /* ItemType - Creature */
      , (33309,   2,         22) /* CreatureType - Shadow */
-     , (33309,   6,        255) /* ItemsCapacity */
-     , (33309,   7,        255) /* ContainersCapacity */
+     , (33309,   6,         -1) /* ItemsCapacity */
+     , (33309,   7,         -1) /* ContainersCapacity */
      , (33309,  16,          1) /* ItemUseable - No */
      , (33309,  25,        160) /* Level */
      , (33309,  93,    2098188) /* PhysicsState - Ethereal, ReportCollisions, Gravity, ReportCollisionsAsEnvironment */

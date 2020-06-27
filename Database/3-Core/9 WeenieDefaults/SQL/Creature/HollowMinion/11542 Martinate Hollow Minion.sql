@@ -6,8 +6,8 @@ VALUES (11542, 'hollowminionmartinate-xp', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11542,   1,         16) /* ItemType - Creature */
      , (11542,   2,         48) /* CreatureType - HollowMinion */
-     , (11542,   6,        255) /* ItemsCapacity */
-     , (11542,   7,        255) /* ContainersCapacity */
+     , (11542,   6,         -1) /* ItemsCapacity */
+     , (11542,   7,         -1) /* ContainersCapacity */
      , (11542,  16,          1) /* ItemUseable - No */
      , (11542,  25,        135) /* Level */
      , (11542,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

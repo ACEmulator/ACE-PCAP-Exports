@@ -5,8 +5,8 @@ VALUES (39152, 'ace39152-sclavusmarauder', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39152,   1,         16) /* ItemType - Creature */
-     , (39152,   6,        255) /* ItemsCapacity */
-     , (39152,   7,        255) /* ContainersCapacity */
+     , (39152,   6,         -1) /* ItemsCapacity */
+     , (39152,   7,         -1) /* ContainersCapacity */
      , (39152,  16,          1) /* ItemUseable - No */
      , (39152,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39152, 133,          2) /* ShowableOnRadar - ShowMovement */

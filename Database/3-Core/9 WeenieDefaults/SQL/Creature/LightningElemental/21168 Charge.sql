@@ -6,8 +6,8 @@ VALUES (21168, 'lightningelementalcharge', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21168,   1,         16) /* ItemType - Creature */
      , (21168,   2,         42) /* CreatureType - LightningElemental */
-     , (21168,   6,        255) /* ItemsCapacity */
-     , (21168,   7,        255) /* ContainersCapacity */
+     , (21168,   6,         -1) /* ItemsCapacity */
+     , (21168,   7,         -1) /* ContainersCapacity */
      , (21168,  16,          1) /* ItemUseable - No */
      , (21168,  25,         50) /* Level */
      , (21168,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -6,8 +6,8 @@ VALUES (35268, 'ace35268-spectraldread', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35268,   1,         16) /* ItemType - Creature */
      , (35268,   2,         77) /* CreatureType - Ghost */
-     , (35268,   6,        255) /* ItemsCapacity */
-     , (35268,   7,        255) /* ContainersCapacity */
+     , (35268,   6,         -1) /* ItemsCapacity */
+     , (35268,   7,         -1) /* ContainersCapacity */
      , (35268,  16,          1) /* ItemUseable - No */
      , (35268,  25,        265) /* Level */
      , (35268,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

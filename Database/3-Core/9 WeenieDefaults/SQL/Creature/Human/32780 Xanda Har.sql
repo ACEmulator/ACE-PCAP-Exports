@@ -6,8 +6,8 @@ VALUES (32780, 'ace32780-xandahar', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32780,   1,         16) /* ItemType - Creature */
      , (32780,   2,         31) /* CreatureType - Human */
-     , (32780,   6,        255) /* ItemsCapacity */
-     , (32780,   7,        255) /* ContainersCapacity */
+     , (32780,   6,         -1) /* ItemsCapacity */
+     , (32780,   7,         -1) /* ContainersCapacity */
      , (32780,  16,         32) /* ItemUseable - Remote */
      , (32780,  25,         80) /* Level */
      , (32780,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

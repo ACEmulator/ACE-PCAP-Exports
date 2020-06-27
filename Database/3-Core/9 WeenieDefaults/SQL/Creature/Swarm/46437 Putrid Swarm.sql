@@ -6,8 +6,8 @@ VALUES (46437, 'ace46437-putridswarm', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46437,   1,         16) /* ItemType - Creature */
      , (46437,   2,         85) /* CreatureType - Swarm */
-     , (46437,   6,        255) /* ItemsCapacity */
-     , (46437,   7,        255) /* ContainersCapacity */
+     , (46437,   6,         -1) /* ItemsCapacity */
+     , (46437,   7,         -1) /* ContainersCapacity */
      , (46437,  16,          1) /* ItemUseable - No */
      , (46437,  25,        215) /* Level */
      , (46437,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (36853, 'ace36853-tenebrousshadow', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36853,   1,         16) /* ItemType - Creature */
      , (36853,   2,         22) /* CreatureType - Shadow */
-     , (36853,   6,        255) /* ItemsCapacity */
-     , (36853,   7,        255) /* ContainersCapacity */
+     , (36853,   6,         -1) /* ItemsCapacity */
+     , (36853,   7,         -1) /* ContainersCapacity */
      , (36853,  16,          1) /* ItemUseable - No */
      , (36853,  25,        100) /* Level */
      , (36853,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

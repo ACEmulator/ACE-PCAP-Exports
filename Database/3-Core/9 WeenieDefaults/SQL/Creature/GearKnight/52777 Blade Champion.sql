@@ -6,8 +6,8 @@ VALUES (52777, 'ace52777-bladechampion', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52777,   1,         16) /* ItemType - Creature */
      , (52777,   2,         99) /* CreatureType - GearKnight */
-     , (52777,   6,        255) /* ItemsCapacity */
-     , (52777,   7,        255) /* ContainersCapacity */
+     , (52777,   6,         -1) /* ItemsCapacity */
+     , (52777,   7,         -1) /* ContainersCapacity */
      , (52777,  16,          1) /* ItemUseable - No */
      , (52777,  25,        500) /* Level */
      , (52777,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

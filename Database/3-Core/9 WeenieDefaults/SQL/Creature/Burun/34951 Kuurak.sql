@@ -6,8 +6,8 @@ VALUES (34951, 'ace34951-kuurak', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34951,   1,         16) /* ItemType - Creature */
      , (34951,   2,         75) /* CreatureType - Burun */
-     , (34951,   6,        255) /* ItemsCapacity */
-     , (34951,   7,        255) /* ContainersCapacity */
+     , (34951,   6,         -1) /* ItemsCapacity */
+     , (34951,   7,         -1) /* ContainersCapacity */
      , (34951,  16,         32) /* ItemUseable - Remote */
      , (34951,  25,         57) /* Level */
      , (34951,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

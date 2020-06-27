@@ -5,8 +5,8 @@ VALUES (47020, 'ace47020-kaltus', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47020,   1,         16) /* ItemType - Creature */
-     , (47020,   6,        255) /* ItemsCapacity */
-     , (47020,   7,        255) /* ContainersCapacity */
+     , (47020,   6,         -1) /* ItemsCapacity */
+     , (47020,   7,         -1) /* ContainersCapacity */
      , (47020,  16,         32) /* ItemUseable - Remote */
      , (47020,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (47020,  95,          8) /* RadarBlipColor - Yellow */

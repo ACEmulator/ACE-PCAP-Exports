@@ -5,8 +5,8 @@ VALUES (51776, 'ace51776-amethystannex', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51776,   1,         16) /* ItemType - Creature */
-     , (51776,   6,        255) /* ItemsCapacity */
-     , (51776,   7,        255) /* ContainersCapacity */
+     , (51776,   6,         -1) /* ItemsCapacity */
+     , (51776,   7,         -1) /* ContainersCapacity */
      , (51776,  16,         32) /* ItemUseable - Remote */
      , (51776,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51776,  95,          8) /* RadarBlipColor - Yellow */

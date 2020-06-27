@@ -6,8 +6,8 @@ VALUES (5834, 'banditcastlearchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5834,   1,         16) /* ItemType - Creature */
      , (5834,   2,         31) /* CreatureType - Human */
-     , (5834,   6,        255) /* ItemsCapacity */
-     , (5834,   7,        255) /* ContainersCapacity */
+     , (5834,   6,         -1) /* ItemsCapacity */
+     , (5834,   7,         -1) /* ContainersCapacity */
      , (5834,  16,         32) /* ItemUseable - Remote */
      , (5834,  25,         13) /* Level */
      , (5834,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

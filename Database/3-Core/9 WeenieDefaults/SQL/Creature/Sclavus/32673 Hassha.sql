@@ -6,8 +6,8 @@ VALUES (32673, 'ace32673-hassha', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32673,   1,         16) /* ItemType - Creature */
      , (32673,   2,         26) /* CreatureType - Sclavus */
-     , (32673,   6,        255) /* ItemsCapacity */
-     , (32673,   7,        255) /* ContainersCapacity */
+     , (32673,   6,         -1) /* ItemsCapacity */
+     , (32673,   7,         -1) /* ContainersCapacity */
      , (32673,  16,         32) /* ItemUseable - Remote */
      , (32673,  25,        120) /* Level */
      , (32673,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

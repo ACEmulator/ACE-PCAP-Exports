@@ -6,8 +6,8 @@ VALUES (38390, 'ace38390-ayeshaoftheradiantblood', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38390,   1,         16) /* ItemType - Creature */
      , (38390,   2,         31) /* CreatureType - Human */
-     , (38390,   6,        255) /* ItemsCapacity */
-     , (38390,   7,        255) /* ContainersCapacity */
+     , (38390,   6,         -1) /* ItemsCapacity */
+     , (38390,   7,         -1) /* ContainersCapacity */
      , (38390,  16,         32) /* ItemUseable - Remote */
      , (38390,  25,        180) /* Level */
      , (38390,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

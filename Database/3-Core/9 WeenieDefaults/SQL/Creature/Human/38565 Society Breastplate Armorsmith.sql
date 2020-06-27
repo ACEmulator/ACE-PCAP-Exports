@@ -6,8 +6,8 @@ VALUES (38565, 'ace38565-societybreastplatearmorsmith', 10, '2019-02-10 00:00:00
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38565,   1,         16) /* ItemType - Creature */
      , (38565,   2,         31) /* CreatureType - Human */
-     , (38565,   6,        255) /* ItemsCapacity */
-     , (38565,   7,        255) /* ContainersCapacity */
+     , (38565,   6,         -1) /* ItemsCapacity */
+     , (38565,   7,         -1) /* ContainersCapacity */
      , (38565,  16,         32) /* ItemUseable - Remote */
      , (38565,  25,        185) /* Level */
      , (38565,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

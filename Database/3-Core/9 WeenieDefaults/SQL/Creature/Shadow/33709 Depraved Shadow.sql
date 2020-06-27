@@ -6,8 +6,8 @@ VALUES (33709, 'ace33709-depravedshadow', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33709,   1,         16) /* ItemType - Creature */
      , (33709,   2,         22) /* CreatureType - Shadow */
-     , (33709,   6,        255) /* ItemsCapacity */
-     , (33709,   7,        255) /* ContainersCapacity */
+     , (33709,   6,         -1) /* ItemsCapacity */
+     , (33709,   7,         -1) /* ContainersCapacity */
      , (33709,  16,          1) /* ItemUseable - No */
      , (33709,  25,        200) /* Level */
      , (33709,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

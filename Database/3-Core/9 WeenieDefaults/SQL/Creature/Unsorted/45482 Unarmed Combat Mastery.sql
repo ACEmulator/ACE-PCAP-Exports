@@ -6,8 +6,8 @@ VALUES (45482, 'ace45482-unarmedcombatmastery', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45482,   1,         16) /* ItemType - Creature */
      , (45482,   5,       8066) /* EncumbranceVal */
-     , (45482,   6,        255) /* ItemsCapacity */
-     , (45482,   7,        255) /* ContainersCapacity */
+     , (45482,   6,         -1) /* ItemsCapacity */
+     , (45482,   7,         -1) /* ContainersCapacity */
      , (45482,  16,         32) /* ItemUseable - Remote */
      , (45482,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45482,  95,          8) /* RadarBlipColor - Yellow */

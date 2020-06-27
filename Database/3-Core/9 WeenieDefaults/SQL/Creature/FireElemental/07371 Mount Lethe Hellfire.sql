@@ -6,8 +6,8 @@ VALUES (7371, 'hellfirelethe', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7371,   1,         16) /* ItemType - Creature */
      , (7371,   2,         38) /* CreatureType - FireElemental */
-     , (7371,   6,        255) /* ItemsCapacity */
-     , (7371,   7,        255) /* ContainersCapacity */
+     , (7371,   6,         -1) /* ItemsCapacity */
+     , (7371,   7,         -1) /* ContainersCapacity */
      , (7371,  16,          1) /* ItemUseable - No */
      , (7371,  25,        100) /* Level */
      , (7371,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

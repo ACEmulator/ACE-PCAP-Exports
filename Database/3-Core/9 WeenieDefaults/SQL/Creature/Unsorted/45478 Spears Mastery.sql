@@ -6,8 +6,8 @@ VALUES (45478, 'ace45478-spearsmastery', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45478,   1,         16) /* ItemType - Creature */
      , (45478,   5,       8066) /* EncumbranceVal */
-     , (45478,   6,        255) /* ItemsCapacity */
-     , (45478,   7,        255) /* ContainersCapacity */
+     , (45478,   6,         -1) /* ItemsCapacity */
+     , (45478,   7,         -1) /* ContainersCapacity */
      , (45478,  16,         32) /* ItemUseable - Remote */
      , (45478,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45478,  95,          8) /* RadarBlipColor - Yellow */

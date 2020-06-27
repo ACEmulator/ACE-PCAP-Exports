@@ -6,8 +6,8 @@ VALUES (11502, 'humancutthroat-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11502,   1,         16) /* ItemType - Creature */
      , (11502,   2,         31) /* CreatureType - Human */
-     , (11502,   6,        255) /* ItemsCapacity */
-     , (11502,   7,        255) /* ContainersCapacity */
+     , (11502,   6,         -1) /* ItemsCapacity */
+     , (11502,   7,         -1) /* ContainersCapacity */
      , (11502,  16,          1) /* ItemUseable - No */
      , (11502,  25,         60) /* Level */
      , (11502,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

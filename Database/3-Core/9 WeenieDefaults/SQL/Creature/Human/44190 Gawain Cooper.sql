@@ -6,8 +6,8 @@ VALUES (44190, 'ace44190-gawaincooper', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44190,   1,         16) /* ItemType - Creature */
      , (44190,   2,         31) /* CreatureType - Human */
-     , (44190,   6,        255) /* ItemsCapacity */
-     , (44190,   7,        255) /* ContainersCapacity */
+     , (44190,   6,         -1) /* ItemsCapacity */
+     , (44190,   7,         -1) /* ContainersCapacity */
      , (44190,  16,         32) /* ItemUseable - Remote */
      , (44190,  25,        200) /* Level */
      , (44190,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

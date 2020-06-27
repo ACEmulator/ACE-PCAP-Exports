@@ -6,8 +6,8 @@ VALUES (51342, 'ace51342-experimentalbloodstone', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51342,   1,         16) /* ItemType - Creature */
      , (51342,   2,         47) /* CreatureType - Crystal */
-     , (51342,   6,        255) /* ItemsCapacity */
-     , (51342,   7,        255) /* ContainersCapacity */
+     , (51342,   6,         -1) /* ItemsCapacity */
+     , (51342,   7,         -1) /* ContainersCapacity */
      , (51342,  16,          1) /* ItemUseable - No */
      , (51342,  25,        260) /* Level */
      , (51342,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

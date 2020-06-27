@@ -6,8 +6,8 @@ VALUES (46775, 'ace46775-kinchou', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46775,   1,         16) /* ItemType - Creature */
      , (46775,   2,         77) /* CreatureType - Ghost */
-     , (46775,   6,        255) /* ItemsCapacity */
-     , (46775,   7,        255) /* ContainersCapacity */
+     , (46775,   6,         -1) /* ItemsCapacity */
+     , (46775,   7,         -1) /* ContainersCapacity */
      , (46775,  16,         32) /* ItemUseable - Remote */
      , (46775,  25,        275) /* Level */
      , (46775,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

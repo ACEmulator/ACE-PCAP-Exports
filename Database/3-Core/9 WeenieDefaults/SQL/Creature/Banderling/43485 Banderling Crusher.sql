@@ -6,8 +6,8 @@ VALUES (43485, 'ace43485-banderlingcrusher', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43485,   1,         16) /* ItemType - Creature */
      , (43485,   2,          2) /* CreatureType - Banderling */
-     , (43485,   6,        255) /* ItemsCapacity */
-     , (43485,   7,        255) /* ContainersCapacity */
+     , (43485,   6,         -1) /* ItemsCapacity */
+     , (43485,   7,         -1) /* ContainersCapacity */
      , (43485,  16,          1) /* ItemUseable - No */
      , (43485,  25,        185) /* Level */
      , (43485,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

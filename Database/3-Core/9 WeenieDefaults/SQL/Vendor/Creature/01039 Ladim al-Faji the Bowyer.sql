@@ -6,8 +6,8 @@ VALUES (1039, 'yaraqbowyer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1039,   1,         16) /* ItemType - Creature */
      , (1039,   2,         31) /* CreatureType - Human */
-     , (1039,   6,        255) /* ItemsCapacity */
-     , (1039,   7,        255) /* ContainersCapacity */
+     , (1039,   6,         -1) /* ItemsCapacity */
+     , (1039,   7,         -1) /* ContainersCapacity */
      , (1039,  16,         32) /* ItemUseable - Remote */
      , (1039,  25,          7) /* Level */
      , (1039,  74,  134496513) /* MerchandiseItemTypes - Weapon, Key, PromissoryNote, CraftFletchingIntermediate */

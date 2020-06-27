@@ -6,8 +6,8 @@ VALUES (43688, 'ace43688-townsperson', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43688,   1,         16) /* ItemType - Creature */
      , (43688,   2,         31) /* CreatureType - Human */
-     , (43688,   6,        255) /* ItemsCapacity */
-     , (43688,   7,        255) /* ContainersCapacity */
+     , (43688,   6,         -1) /* ItemsCapacity */
+     , (43688,   7,         -1) /* ContainersCapacity */
      , (43688,  16,          1) /* ItemUseable - No */
      , (43688,  25,        220) /* Level */
      , (43688,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

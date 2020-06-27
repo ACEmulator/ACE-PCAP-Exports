@@ -5,8 +5,8 @@ VALUES (49482, 'ace49482-summoningwardenofforgetfulness', 10, '2019-02-10 00:00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49482,   1,         16) /* ItemType - Creature */
-     , (49482,   6,        255) /* ItemsCapacity */
-     , (49482,   7,        255) /* ContainersCapacity */
+     , (49482,   6,         -1) /* ItemsCapacity */
+     , (49482,   7,         -1) /* ContainersCapacity */
      , (49482,  16,         32) /* ItemUseable - Remote */
      , (49482,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (49482,  95,          3) /* RadarBlipColor - White */

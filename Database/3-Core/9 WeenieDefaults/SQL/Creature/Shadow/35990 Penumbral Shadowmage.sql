@@ -6,8 +6,8 @@ VALUES (35990, 'ace35990-penumbralshadowmage', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35990,   1,         16) /* ItemType - Creature */
      , (35990,   2,         22) /* CreatureType - Shadow */
-     , (35990,   6,        255) /* ItemsCapacity */
-     , (35990,   7,        255) /* ContainersCapacity */
+     , (35990,   6,         -1) /* ItemsCapacity */
+     , (35990,   7,         -1) /* ContainersCapacity */
      , (35990,  16,          1) /* ItemUseable - No */
      , (35990,  25,        185) /* Level */
      , (35990,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

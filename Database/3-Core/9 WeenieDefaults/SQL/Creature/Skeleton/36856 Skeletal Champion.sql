@@ -6,8 +6,8 @@ VALUES (36856, 'ace36856-skeletalchampion', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36856,   1,         16) /* ItemType - Creature */
      , (36856,   2,         30) /* CreatureType - Skeleton */
-     , (36856,   6,        255) /* ItemsCapacity */
-     , (36856,   7,        255) /* ContainersCapacity */
+     , (36856,   6,         -1) /* ItemsCapacity */
+     , (36856,   7,         -1) /* ContainersCapacity */
      , (36856,  16,          1) /* ItemUseable - No */
      , (36856,  25,        100) /* Level */
      , (36856,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

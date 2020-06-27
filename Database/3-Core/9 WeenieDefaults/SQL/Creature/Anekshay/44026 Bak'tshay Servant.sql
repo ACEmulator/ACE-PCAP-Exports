@@ -6,8 +6,8 @@ VALUES (44026, 'ace44026-baktshayservant', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44026,   1,         16) /* ItemType - Creature */
      , (44026,   2,        101) /* CreatureType - Anekshay */
-     , (44026,   6,        255) /* ItemsCapacity */
-     , (44026,   7,        255) /* ContainersCapacity */
+     , (44026,   6,         -1) /* ItemsCapacity */
+     , (44026,   7,         -1) /* ContainersCapacity */
      , (44026,  16,          1) /* ItemUseable - No */
      , (44026,  25,        220) /* Level */
      , (44026,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

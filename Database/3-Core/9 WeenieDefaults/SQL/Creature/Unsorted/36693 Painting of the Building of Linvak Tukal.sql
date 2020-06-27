@@ -5,8 +5,8 @@ VALUES (36693, 'ace36693-paintingofthebuildingoflinvaktukal', 10, '2019-02-10 00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36693,   1,         16) /* ItemType - Creature */
-     , (36693,   6,        255) /* ItemsCapacity */
-     , (36693,   7,        255) /* ContainersCapacity */
+     , (36693,   6,         -1) /* ItemsCapacity */
+     , (36693,   7,         -1) /* ContainersCapacity */
      , (36693,  16,         32) /* ItemUseable - Remote */
      , (36693,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36693,  95,          3) /* RadarBlipColor - White */

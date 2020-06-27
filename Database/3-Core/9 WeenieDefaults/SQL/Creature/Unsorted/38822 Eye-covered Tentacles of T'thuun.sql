@@ -5,8 +5,8 @@ VALUES (38822, 'ace38822-eyecoveredtentaclesoftthuun', 10, '2019-02-10 00:00:00'
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38822,   1,         16) /* ItemType - Creature */
-     , (38822,   6,        255) /* ItemsCapacity */
-     , (38822,   7,        255) /* ContainersCapacity */
+     , (38822,   6,         -1) /* ItemsCapacity */
+     , (38822,   7,         -1) /* ContainersCapacity */
      , (38822,  16,         32) /* ItemUseable - Remote */
      , (38822,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38822,  95,          3) /* RadarBlipColor - White */

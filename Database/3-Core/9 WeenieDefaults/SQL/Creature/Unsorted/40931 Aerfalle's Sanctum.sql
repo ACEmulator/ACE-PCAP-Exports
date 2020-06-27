@@ -5,8 +5,8 @@ VALUES (40931, 'ace40931-aerfallessanctum', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40931,   1,         16) /* ItemType - Creature */
-     , (40931,   6,        255) /* ItemsCapacity */
-     , (40931,   7,        255) /* ContainersCapacity */
+     , (40931,   6,         -1) /* ItemsCapacity */
+     , (40931,   7,         -1) /* ContainersCapacity */
      , (40931,  16,         32) /* ItemUseable - Remote */
      , (40931,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (40931,  95,          4) /* RadarBlipColor - Purple */

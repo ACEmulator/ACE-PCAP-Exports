@@ -6,8 +6,8 @@ VALUES (35662, 'ace35662-demonswarmclawbearer', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35662,   1,         16) /* ItemType - Creature */
      , (35662,   2,          1) /* CreatureType - Olthoi */
-     , (35662,   6,        255) /* ItemsCapacity */
-     , (35662,   7,        255) /* ContainersCapacity */
+     , (35662,   6,         -1) /* ItemsCapacity */
+     , (35662,   7,         -1) /* ContainersCapacity */
      , (35662,  16,          1) /* ItemUseable - No */
      , (35662,  25,        135) /* Level */
      , (35662,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (35662,   1,   33557046) /* Setup */
      , (35662,   6,   67113194) /* PaletteBase */
      , (35662,   8,  100667623) /* Icon */
      , (35662,  22,  872415378) /* PhysicsEffectTable */
+     , (35662,  30,         84) /* PhysicsScript - BreatheFlame */
      , (35662, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35662, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35662, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (35662, 8019,         84) /* PCAPRecordedDefaultScript */;
+     , (35662, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35662, 8040, 11927848, 217.0812, -176.4449, -11.9078, 0.4308205, 0, 0, -0.9024377) /* PCAPRecordedLocation */

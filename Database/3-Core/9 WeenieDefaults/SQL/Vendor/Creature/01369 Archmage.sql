@@ -6,8 +6,8 @@ VALUES (1369, 'archmagealuvian', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1369,   1,         16) /* ItemType - Creature */
      , (1369,   2,         31) /* CreatureType - Human */
-     , (1369,   6,        255) /* ItemsCapacity */
-     , (1369,   7,        255) /* ContainersCapacity */
+     , (1369,   6,         -1) /* ItemsCapacity */
+     , (1369,   7,         -1) /* ContainersCapacity */
      , (1369,  16,         32) /* ItemUseable - Remote */
      , (1369,  25,          7) /* Level */
      , (1369,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

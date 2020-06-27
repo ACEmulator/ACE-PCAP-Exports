@@ -5,8 +5,8 @@ VALUES (42280, 'ace42280-commander', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42280,   1,         16) /* ItemType - Creature */
-     , (42280,   6,        255) /* ItemsCapacity */
-     , (42280,   7,        255) /* ContainersCapacity */
+     , (42280,   6,         -1) /* ItemsCapacity */
+     , (42280,   7,         -1) /* ContainersCapacity */
      , (42280,  16,          1) /* ItemUseable - No */
      , (42280,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42280, 133,          2) /* ShowableOnRadar - ShowMovement */

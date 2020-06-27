@@ -6,8 +6,8 @@ VALUES (51340, 'ace51340-bloodstonefragment', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51340,   1,         16) /* ItemType - Creature */
      , (51340,   2,         47) /* CreatureType - Crystal */
-     , (51340,   6,        255) /* ItemsCapacity */
-     , (51340,   7,        255) /* ContainersCapacity */
+     , (51340,   6,         -1) /* ItemsCapacity */
+     , (51340,   7,         -1) /* ContainersCapacity */
      , (51340,  16,          1) /* ItemUseable - No */
      , (51340,  25,        220) /* Level */
      , (51340,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

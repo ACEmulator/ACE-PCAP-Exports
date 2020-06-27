@@ -6,8 +6,8 @@ VALUES (31572, 'ace31572-shadownightmare', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31572,   1,         16) /* ItemType - Creature */
      , (31572,   2,         22) /* CreatureType - Shadow */
-     , (31572,   6,        255) /* ItemsCapacity */
-     , (31572,   7,        255) /* ContainersCapacity */
+     , (31572,   6,         -1) /* ItemsCapacity */
+     , (31572,   7,         -1) /* ContainersCapacity */
      , (31572,  16,          1) /* ItemUseable - No */
      , (31572,  25,        135) /* Level */
      , (31572,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

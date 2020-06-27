@@ -6,8 +6,8 @@ VALUES (19714, 'emissaryasheron', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19714,   1,         16) /* ItemType - Creature */
      , (19714,   2,         62) /* CreatureType - Elemental */
-     , (19714,   6,        255) /* ItemsCapacity */
-     , (19714,   7,        255) /* ContainersCapacity */
+     , (19714,   6,         -1) /* ItemsCapacity */
+     , (19714,   7,         -1) /* ContainersCapacity */
      , (19714,  16,         32) /* ItemUseable - Remote */
      , (19714,  25,         60) /* Level */
      , (19714,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

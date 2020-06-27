@@ -6,8 +6,8 @@ VALUES (43734, 'ace43734-snowtuskerleader', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43734,   1,         16) /* ItemType - Creature */
      , (43734,   2,          8) /* CreatureType - Tusker */
-     , (43734,   6,        255) /* ItemsCapacity */
-     , (43734,   7,        255) /* ContainersCapacity */
+     , (43734,   6,         -1) /* ItemsCapacity */
+     , (43734,   7,         -1) /* ContainersCapacity */
      , (43734,  16,          1) /* ItemUseable - No */
      , (43734,  25,        240) /* Level */
      , (43734,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

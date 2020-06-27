@@ -6,8 +6,8 @@ VALUES (12238, 'furnituremasteralu', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12238,   1,         16) /* ItemType - Creature */
      , (12238,   2,         31) /* CreatureType - Human */
-     , (12238,   6,        255) /* ItemsCapacity */
-     , (12238,   7,        255) /* ContainersCapacity */
+     , (12238,   6,         -1) /* ItemsCapacity */
+     , (12238,   7,         -1) /* ContainersCapacity */
      , (12238,  16,         32) /* ItemUseable - Remote */
      , (12238,  25,         28) /* Level */
      , (12238,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

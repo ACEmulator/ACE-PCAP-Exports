@@ -5,8 +5,8 @@ VALUES (24001, 'npcwardendiamondgolem', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24001,   1,         16) /* ItemType - Creature */
-     , (24001,   6,        255) /* ItemsCapacity */
-     , (24001,   7,        255) /* ContainersCapacity */
+     , (24001,   6,         -1) /* ItemsCapacity */
+     , (24001,   7,         -1) /* ContainersCapacity */
      , (24001,  16,         32) /* ItemUseable - Remote */
      , (24001,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24001,  95,          8) /* RadarBlipColor - Yellow */

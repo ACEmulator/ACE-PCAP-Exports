@@ -5,8 +5,8 @@ VALUES (42727, 'ace42727-wightkidnapper', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42727,   1,         16) /* ItemType - Creature */
-     , (42727,   6,        255) /* ItemsCapacity */
-     , (42727,   7,        255) /* ContainersCapacity */
+     , (42727,   6,         -1) /* ItemsCapacity */
+     , (42727,   7,         -1) /* ContainersCapacity */
      , (42727,  16,          1) /* ItemUseable - No */
      , (42727,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42727, 133,          2) /* ShowableOnRadar - ShowMovement */

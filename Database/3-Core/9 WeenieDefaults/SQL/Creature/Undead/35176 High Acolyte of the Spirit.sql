@@ -6,8 +6,8 @@ VALUES (35176, 'ace35176-highacolyteofthespirit', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35176,   1,         16) /* ItemType - Creature */
      , (35176,   2,         14) /* CreatureType - Undead */
-     , (35176,   6,        255) /* ItemsCapacity */
-     , (35176,   7,        255) /* ContainersCapacity */
+     , (35176,   6,         -1) /* ItemsCapacity */
+     , (35176,   7,         -1) /* ContainersCapacity */
      , (35176,  16,          1) /* ItemUseable - No */
      , (35176,  25,        425) /* Level */
      , (35176,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

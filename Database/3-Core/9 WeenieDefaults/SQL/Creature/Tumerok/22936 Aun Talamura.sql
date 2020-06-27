@@ -6,8 +6,8 @@ VALUES (22936, 'warehousemanager', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22936,   1,         16) /* ItemType - Creature */
      , (22936,   2,          6) /* CreatureType - Tumerok */
-     , (22936,   6,        255) /* ItemsCapacity */
-     , (22936,   7,        255) /* ContainersCapacity */
+     , (22936,   6,         -1) /* ItemsCapacity */
+     , (22936,   7,         -1) /* ContainersCapacity */
      , (22936,  16,         32) /* ItemUseable - Remote */
      , (22936,  25,         18) /* Level */
      , (22936,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (6771, 'mumiyahgreatercrimsonhaft', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6771,   1,         16) /* ItemType - Creature */
-     , (6771,   6,        255) /* ItemsCapacity */
-     , (6771,   7,        255) /* ContainersCapacity */
+     , (6771,   6,         -1) /* ItemsCapacity */
+     , (6771,   7,         -1) /* ContainersCapacity */
      , (6771,  16,         32) /* ItemUseable - Remote */
      , (6771,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (6771,  95,          8) /* RadarBlipColor - Yellow */

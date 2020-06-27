@@ -6,8 +6,8 @@ VALUES (49174, 'ace49174-tanishalfelfsskeleton', 71, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49174,   1,         16) /* ItemType - Creature */
      , (49174,   2,         30) /* CreatureType - Skeleton */
-     , (49174,   6,        255) /* ItemsCapacity */
-     , (49174,   7,        255) /* ContainersCapacity */
+     , (49174,   6,         -1) /* ItemsCapacity */
+     , (49174,   7,         -1) /* ContainersCapacity */
      , (49174,  16,          1) /* ItemUseable - No */
      , (49174,  25,        125) /* Level */
      , (49174,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

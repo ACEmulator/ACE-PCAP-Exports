@@ -5,8 +5,8 @@ VALUES (45394, 'ace45394-sneakattackwardenofenlightenment', 10, '2019-02-10 00:0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45394,   1,         16) /* ItemType - Creature */
-     , (45394,   6,        255) /* ItemsCapacity */
-     , (45394,   7,        255) /* ContainersCapacity */
+     , (45394,   6,         -1) /* ItemsCapacity */
+     , (45394,   7,         -1) /* ContainersCapacity */
      , (45394,  16,         32) /* ItemUseable - Remote */
      , (45394,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45394,  95,          3) /* RadarBlipColor - White */

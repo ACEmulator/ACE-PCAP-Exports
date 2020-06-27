@@ -6,8 +6,8 @@ VALUES (14877, 'stormelementaltsuric', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14877,   1,         16) /* ItemType - Creature */
      , (14877,   2,         62) /* CreatureType - Elemental */
-     , (14877,   6,        255) /* ItemsCapacity */
-     , (14877,   7,        255) /* ContainersCapacity */
+     , (14877,   6,         -1) /* ItemsCapacity */
+     , (14877,   7,         -1) /* ContainersCapacity */
      , (14877,  16,          1) /* ItemUseable - No */
      , (14877,  25,        115) /* Level */
      , (14877,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

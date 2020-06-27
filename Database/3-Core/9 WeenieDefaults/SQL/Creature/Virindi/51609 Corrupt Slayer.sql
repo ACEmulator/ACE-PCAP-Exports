@@ -6,8 +6,8 @@ VALUES (51609, 'ace51609-corruptslayer', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51609,   1,         16) /* ItemType - Creature */
      , (51609,   2,         19) /* CreatureType - Virindi */
-     , (51609,   6,        255) /* ItemsCapacity */
-     , (51609,   7,        255) /* ContainersCapacity */
+     , (51609,   6,         -1) /* ItemsCapacity */
+     , (51609,   7,         -1) /* ContainersCapacity */
      , (51609,  16,          1) /* ItemUseable - No */
      , (51609,  25,        265) /* Level */
      , (51609,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

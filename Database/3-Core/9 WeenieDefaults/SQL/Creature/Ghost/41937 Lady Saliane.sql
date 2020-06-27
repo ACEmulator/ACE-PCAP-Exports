@@ -6,8 +6,8 @@ VALUES (41937, 'ace41937-ladysaliane', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41937,   1,         16) /* ItemType - Creature */
      , (41937,   2,         77) /* CreatureType - Ghost */
-     , (41937,   6,        255) /* ItemsCapacity */
-     , (41937,   7,        255) /* ContainersCapacity */
+     , (41937,   6,         -1) /* ItemsCapacity */
+     , (41937,   7,         -1) /* ContainersCapacity */
      , (41937,  16,          1) /* ItemUseable - No */
      , (41937,  25,        220) /* Level */
      , (41937,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

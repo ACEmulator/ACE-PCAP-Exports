@@ -6,8 +6,8 @@ VALUES (5427, 'glendenwestoutposthealer', 12, '2019-02-10 00:00:00') /* Vendor *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5427,   1,         16) /* ItemType - Creature */
      , (5427,   2,         31) /* CreatureType - Human */
-     , (5427,   6,        255) /* ItemsCapacity */
-     , (5427,   7,        255) /* ContainersCapacity */
+     , (5427,   6,         -1) /* ItemsCapacity */
+     , (5427,   7,         -1) /* ContainersCapacity */
      , (5427,  16,         32) /* ItemUseable - Remote */
      , (5427,  25,          8) /* Level */
      , (5427,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

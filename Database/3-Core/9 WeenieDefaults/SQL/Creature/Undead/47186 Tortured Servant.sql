@@ -6,8 +6,8 @@ VALUES (47186, 'ace47186-torturedservant', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47186,   1,         16) /* ItemType - Creature */
      , (47186,   2,         14) /* CreatureType - Undead */
-     , (47186,   6,        255) /* ItemsCapacity */
-     , (47186,   7,        255) /* ContainersCapacity */
+     , (47186,   6,         -1) /* ItemsCapacity */
+     , (47186,   7,         -1) /* ContainersCapacity */
      , (47186,  16,          1) /* ItemUseable - No */
      , (47186,  25,        200) /* Level */
      , (47186,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

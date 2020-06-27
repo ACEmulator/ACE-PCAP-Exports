@@ -6,8 +6,8 @@ VALUES (8226, 'xarablacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8226,   1,         16) /* ItemType - Creature */
      , (8226,   2,         31) /* CreatureType - Human */
-     , (8226,   6,        255) /* ItemsCapacity */
-     , (8226,   7,        255) /* ContainersCapacity */
+     , (8226,   6,         -1) /* ItemsCapacity */
+     , (8226,   7,         -1) /* ContainersCapacity */
      , (8226,  16,         32) /* ItemUseable - Remote */
      , (8226,  25,         16) /* Level */
      , (8226,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

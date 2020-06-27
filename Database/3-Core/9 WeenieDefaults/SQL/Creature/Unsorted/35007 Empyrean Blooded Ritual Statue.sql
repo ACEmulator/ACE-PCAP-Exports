@@ -5,8 +5,8 @@ VALUES (35007, 'ace35007-empyreanbloodedritualstatue', 10, '2019-02-10 00:00:00'
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35007,   1,         16) /* ItemType - Creature */
-     , (35007,   6,        255) /* ItemsCapacity */
-     , (35007,   7,        255) /* ContainersCapacity */
+     , (35007,   6,         -1) /* ItemsCapacity */
+     , (35007,   7,         -1) /* ContainersCapacity */
      , (35007,  16,          1) /* ItemUseable - No */
      , (35007,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35007, 133,          4) /* ShowableOnRadar - ShowAlways */

@@ -6,8 +6,8 @@ VALUES (49641, 'ace49641-simulacrumshifter', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49641,   1,         16) /* ItemType - Creature */
      , (49641,   2,         59) /* CreatureType - Simulacrum */
-     , (49641,   6,        255) /* ItemsCapacity */
-     , (49641,   7,        255) /* ContainersCapacity */
+     , (49641,   6,         -1) /* ItemsCapacity */
+     , (49641,   7,         -1) /* ContainersCapacity */
      , (49641,  16,          1) /* ItemUseable - No */
      , (49641,  25,        265) /* Level */
      , (49641,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

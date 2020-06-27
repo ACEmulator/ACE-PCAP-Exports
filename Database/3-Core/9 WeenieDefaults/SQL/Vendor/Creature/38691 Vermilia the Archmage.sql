@@ -6,8 +6,8 @@ VALUES (38691, 'ace38691-vermiliathearchmage', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38691,   1,         16) /* ItemType - Creature */
      , (38691,   2,         31) /* CreatureType - Human */
-     , (38691,   6,        255) /* ItemsCapacity */
-     , (38691,   7,        255) /* ContainersCapacity */
+     , (38691,   6,         -1) /* ItemsCapacity */
+     , (38691,   7,         -1) /* ContainersCapacity */
      , (38691,  16,         32) /* ItemUseable - Remote */
      , (38691,  25,        260) /* Level */
      , (38691,  74,     833536) /* MerchandiseItemTypes - Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

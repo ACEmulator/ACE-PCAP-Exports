@@ -28,10 +28,10 @@ VALUES (7266,   1,   33555440) /* Setup */
      , (7266,   8,  100667494) /* Icon */
      , (7266,  22,  872415239) /* PhysicsEffectTable */
      , (7266,  28,         75) /* Spell - LightningBolt1 */
+     , (7266,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (7266, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (7266, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (7266, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
-     , (7266, 8019,         90) /* PCAPRecordedDefaultScript */;
+     , (7266, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7266, 8040, 686686234, 91.94933, 29.49975, 23.83086, -0.07385156, 0, 0, -0.9972693) /* PCAPRecordedLocation */

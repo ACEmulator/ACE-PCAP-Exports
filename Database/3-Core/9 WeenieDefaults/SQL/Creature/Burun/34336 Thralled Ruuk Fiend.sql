@@ -6,8 +6,8 @@ VALUES (34336, 'ace34336-thralledruukfiend', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34336,   1,         16) /* ItemType - Creature */
      , (34336,   2,         75) /* CreatureType - Burun */
-     , (34336,   6,        255) /* ItemsCapacity */
-     , (34336,   7,        255) /* ContainersCapacity */
+     , (34336,   6,         -1) /* ItemsCapacity */
+     , (34336,   7,         -1) /* ContainersCapacity */
      , (34336,  16,          1) /* ItemUseable - No */
      , (34336,  25,        115) /* Level */
      , (34336,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

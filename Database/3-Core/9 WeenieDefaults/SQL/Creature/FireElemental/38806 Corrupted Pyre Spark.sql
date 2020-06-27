@@ -6,8 +6,8 @@ VALUES (38806, 'ace38806-corruptedpyrespark', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38806,   1,         16) /* ItemType - Creature */
      , (38806,   2,         38) /* CreatureType - FireElemental */
-     , (38806,   6,        255) /* ItemsCapacity */
-     , (38806,   7,        255) /* ContainersCapacity */
+     , (38806,   6,         -1) /* ItemsCapacity */
+     , (38806,   7,         -1) /* ContainersCapacity */
      , (38806,  16,          1) /* ItemUseable - No */
      , (38806,  25,        250) /* Level */
      , (38806,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

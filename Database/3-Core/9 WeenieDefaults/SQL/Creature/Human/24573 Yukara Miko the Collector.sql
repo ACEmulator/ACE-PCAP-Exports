@@ -6,8 +6,8 @@ VALUES (24573, 'collectorcandethkeep', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24573,   1,         16) /* ItemType - Creature */
      , (24573,   2,         31) /* CreatureType - Human */
-     , (24573,   6,        255) /* ItemsCapacity */
-     , (24573,   7,        255) /* ContainersCapacity */
+     , (24573,   6,         -1) /* ItemsCapacity */
+     , (24573,   7,         -1) /* ContainersCapacity */
      , (24573,  16,         32) /* ItemUseable - Remote */
      , (24573,  25,         88) /* Level */
      , (24573,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

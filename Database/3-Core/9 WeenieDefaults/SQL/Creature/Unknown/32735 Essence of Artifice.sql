@@ -6,8 +6,8 @@ VALUES (32735, 'ace32735-essenceofartifice', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32735,   1,         16) /* ItemType - Creature */
      , (32735,   2,         40) /* CreatureType - Unknown */
-     , (32735,   6,        255) /* ItemsCapacity */
-     , (32735,   7,        255) /* ContainersCapacity */
+     , (32735,   6,         -1) /* ItemsCapacity */
+     , (32735,   7,         -1) /* ContainersCapacity */
      , (32735,  16,          1) /* ItemUseable - No */
      , (32735,  25,        425) /* Level */
      , (32735,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

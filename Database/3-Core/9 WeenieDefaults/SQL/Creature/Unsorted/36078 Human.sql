@@ -5,8 +5,8 @@ VALUES (36078, 'ace36078-human', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36078,   1,         16) /* ItemType - Creature */
-     , (36078,   6,        255) /* ItemsCapacity */
-     , (36078,   7,        255) /* ContainersCapacity */
+     , (36078,   6,         -1) /* ItemsCapacity */
+     , (36078,   7,         -1) /* ContainersCapacity */
      , (36078,  16,         32) /* ItemUseable - Remote */
      , (36078,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (36078,  95,          8) /* RadarBlipColor - Yellow */

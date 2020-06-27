@@ -6,8 +6,8 @@ VALUES (30065, 'silyunweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30065,   1,         16) /* ItemType - Creature */
      , (30065,   2,         31) /* CreatureType - Human */
-     , (30065,   6,        255) /* ItemsCapacity */
-     , (30065,   7,        255) /* ContainersCapacity */
+     , (30065,   6,         -1) /* ItemsCapacity */
+     , (30065,   7,         -1) /* ContainersCapacity */
      , (30065,  16,         32) /* ItemUseable - Remote */
      , (30065,  25,          6) /* Level */
      , (30065,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

@@ -6,8 +6,8 @@ VALUES (32031, 'ace32031-dazzlingcrystal', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32031,   1,         16) /* ItemType - Creature */
      , (32031,   2,         47) /* CreatureType - Crystal */
-     , (32031,   6,        255) /* ItemsCapacity */
-     , (32031,   7,        255) /* ContainersCapacity */
+     , (32031,   6,         -1) /* ItemsCapacity */
+     , (32031,   7,         -1) /* ContainersCapacity */
      , (32031,  16,          1) /* ItemUseable - No */
      , (32031,  25,        160) /* Level */
      , (32031,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

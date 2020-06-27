@@ -6,8 +6,8 @@ VALUES (9679, 'danbyweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9679,   1,         16) /* ItemType - Creature */
      , (9679,   2,         31) /* CreatureType - Human */
-     , (9679,   6,        255) /* ItemsCapacity */
-     , (9679,   7,        255) /* ContainersCapacity */
+     , (9679,   6,         -1) /* ItemsCapacity */
+     , (9679,   7,         -1) /* ContainersCapacity */
      , (9679,  16,         32) /* ItemUseable - Remote */
      , (9679,  25,         33) /* Level */
      , (9679,  74, 1074004135) /* MerchandiseItemTypes - MeleeWeapon, Vestements, Food, Misc, PromissoryNote, TinkeringMaterial */

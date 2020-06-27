@@ -6,8 +6,8 @@ VALUES (52240, 'ace52240-burningsandsguardian', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52240,   1,         16) /* ItemType - Creature */
      , (52240,   2,         13) /* CreatureType - Golem */
-     , (52240,   6,        255) /* ItemsCapacity */
-     , (52240,   7,        255) /* ContainersCapacity */
+     , (52240,   6,         -1) /* ItemsCapacity */
+     , (52240,   7,         -1) /* ContainersCapacity */
      , (52240,  16,          1) /* ItemUseable - No */
      , (52240,  25,        300) /* Level */
      , (52240,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

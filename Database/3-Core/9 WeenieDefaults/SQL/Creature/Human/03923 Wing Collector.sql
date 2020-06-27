@@ -6,8 +6,8 @@ VALUES (3923, 'collectorwingaluvian', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3923,   1,         16) /* ItemType - Creature */
      , (3923,   2,         31) /* CreatureType - Human */
-     , (3923,   6,        255) /* ItemsCapacity */
-     , (3923,   7,        255) /* ContainersCapacity */
+     , (3923,   6,         -1) /* ItemsCapacity */
+     , (3923,   7,         -1) /* ContainersCapacity */
      , (3923,  16,         32) /* ItemUseable - Remote */
      , (3923,  25,          5) /* Level */
      , (3923,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

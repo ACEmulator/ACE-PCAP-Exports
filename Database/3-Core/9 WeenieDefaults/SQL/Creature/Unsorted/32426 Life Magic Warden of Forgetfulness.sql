@@ -5,8 +5,8 @@ VALUES (32426, 'ace32426-lifemagicwardenofforgetfulness', 10, '2019-02-10 00:00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32426,   1,         16) /* ItemType - Creature */
-     , (32426,   6,        255) /* ItemsCapacity */
-     , (32426,   7,        255) /* ContainersCapacity */
+     , (32426,   6,         -1) /* ItemsCapacity */
+     , (32426,   7,         -1) /* ContainersCapacity */
      , (32426,  16,         32) /* ItemUseable - Remote */
      , (32426,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32426,  95,          3) /* RadarBlipColor - White */

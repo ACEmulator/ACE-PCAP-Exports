@@ -5,8 +5,8 @@ VALUES (34710, 'ace34710-arenabell', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34710,   1,         16) /* ItemType - Creature */
-     , (34710,   6,        255) /* ItemsCapacity */
-     , (34710,   7,        255) /* ContainersCapacity */
+     , (34710,   6,         -1) /* ItemsCapacity */
+     , (34710,   7,         -1) /* ContainersCapacity */
      , (34710,  16,         32) /* ItemUseable - Remote */
      , (34710,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34710,  95,          8) /* RadarBlipColor - Yellow */

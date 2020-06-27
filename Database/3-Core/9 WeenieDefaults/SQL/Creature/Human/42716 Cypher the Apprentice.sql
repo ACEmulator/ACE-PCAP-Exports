@@ -6,8 +6,8 @@ VALUES (42716, 'ace42716-cyphertheapprentice', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42716,   1,         16) /* ItemType - Creature */
      , (42716,   2,         31) /* CreatureType - Human */
-     , (42716,   6,        255) /* ItemsCapacity */
-     , (42716,   7,        255) /* ContainersCapacity */
+     , (42716,   6,         -1) /* ItemsCapacity */
+     , (42716,   7,         -1) /* ContainersCapacity */
      , (42716,  16,         32) /* ItemUseable - Remote */
      , (42716,  25,         87) /* Level */
      , (42716,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

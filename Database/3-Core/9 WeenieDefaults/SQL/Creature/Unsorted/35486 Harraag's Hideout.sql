@@ -5,8 +5,8 @@ VALUES (35486, 'ace35486-harraagshideout', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35486,   1,         16) /* ItemType - Creature */
-     , (35486,   6,        255) /* ItemsCapacity */
-     , (35486,   7,        255) /* ContainersCapacity */
+     , (35486,   6,         -1) /* ItemsCapacity */
+     , (35486,   7,         -1) /* ContainersCapacity */
      , (35486,  16,         32) /* ItemUseable - Remote */
      , (35486,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35486,  95,          4) /* RadarBlipColor - Purple */

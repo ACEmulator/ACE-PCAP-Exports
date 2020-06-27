@@ -6,8 +6,8 @@ VALUES (49066, 'ace49066-ripleysgrievver', 71, '2019-02-10 00:00:00') /* CombatP
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49066,   1,         16) /* ItemType - Creature */
      , (49066,   2,         44) /* CreatureType - Grievver */
-     , (49066,   6,        255) /* ItemsCapacity */
-     , (49066,   7,        255) /* ContainersCapacity */
+     , (49066,   6,         -1) /* ItemsCapacity */
+     , (49066,   7,         -1) /* ContainersCapacity */
      , (49066,  16,          1) /* ItemUseable - No */
      , (49066,  25,         50) /* Level */
      , (49066,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
@@ -37,11 +37,11 @@ VALUES (49066,   1,   33561527) /* Setup */
      , (49066,   6,   67112927) /* PaletteBase */
      , (49066,   8,  100670960) /* Icon */
      , (49066,  22,  872415364) /* PhysicsEffectTable */
+     , (49066,  30,         84) /* PhysicsScript - BreatheFlame */
      , (49066, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49066, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49066, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
-     , (49066, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (49066, 8019,         84) /* PCAPRecordedDefaultScript */;
+     , (49066, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (49066, 8040, 3097428025, 185.9114, 9.537906, 83.99925, -0.5610708, 0, 0, -0.8277678) /* PCAPRecordedLocation */

@@ -6,8 +6,8 @@ VALUES (5366, 'yaraqmayad', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5366,   1,         16) /* ItemType - Creature */
      , (5366,   2,         31) /* CreatureType - Human */
-     , (5366,   6,        255) /* ItemsCapacity */
-     , (5366,   7,        255) /* ContainersCapacity */
+     , (5366,   6,         -1) /* ItemsCapacity */
+     , (5366,   7,         -1) /* ContainersCapacity */
      , (5366,  16,         32) /* ItemUseable - Remote */
      , (5366,  25,         10) /* Level */
      , (5366,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

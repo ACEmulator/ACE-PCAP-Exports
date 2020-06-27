@@ -5,8 +5,8 @@ VALUES (53108, 'ace53108-ancientstatueoftheviridianrise', 10, '2019-02-10 00:00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53108,   1,         16) /* ItemType - Creature */
-     , (53108,   6,        255) /* ItemsCapacity */
-     , (53108,   7,        255) /* ContainersCapacity */
+     , (53108,   6,         -1) /* ItemsCapacity */
+     , (53108,   7,         -1) /* ContainersCapacity */
      , (53108,  16,         32) /* ItemUseable - Remote */
      , (53108,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53108,  95,          8) /* RadarBlipColor - Yellow */

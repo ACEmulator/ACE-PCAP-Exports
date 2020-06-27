@@ -6,8 +6,8 @@ VALUES (25755, 'golemmagmadfdsmall', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25755,   1,         16) /* ItemType - Creature */
      , (25755,   2,         13) /* CreatureType - Golem */
-     , (25755,   6,        255) /* ItemsCapacity */
-     , (25755,   7,        255) /* ContainersCapacity */
+     , (25755,   6,         -1) /* ItemsCapacity */
+     , (25755,   7,         -1) /* ContainersCapacity */
      , (25755,  16,          1) /* ItemUseable - No */
      , (25755,  25,         40) /* Level */
      , (25755,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */

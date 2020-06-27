@@ -6,8 +6,8 @@ VALUES (33513, 'ace33513-harrakthewhitespear', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33513,   1,         16) /* ItemType - Creature */
      , (33513,   2,         81) /* CreatureType - Ruschk */
-     , (33513,   6,        255) /* ItemsCapacity */
-     , (33513,   7,        255) /* ContainersCapacity */
+     , (33513,   6,         -1) /* ItemsCapacity */
+     , (33513,   7,         -1) /* ContainersCapacity */
      , (33513,  16,          1) /* ItemUseable - No */
      , (33513,  25,        185) /* Level */
      , (33513,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

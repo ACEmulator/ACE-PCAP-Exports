@@ -6,8 +6,8 @@ VALUES (8405, 'fireelementalflammanofall', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8405,   1,         16) /* ItemType - Creature */
      , (8405,   2,         38) /* CreatureType - FireElemental */
-     , (8405,   6,        255) /* ItemsCapacity */
-     , (8405,   7,        255) /* ContainersCapacity */
+     , (8405,   6,         -1) /* ItemsCapacity */
+     , (8405,   7,         -1) /* ContainersCapacity */
      , (8405,  16,          1) /* ItemUseable - No */
      , (8405,  25,         60) /* Level */
      , (8405,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */

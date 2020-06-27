@@ -6,8 +6,8 @@ VALUES (8437, 'krystjeweler', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8437,   1,         16) /* ItemType - Creature */
      , (8437,   2,         31) /* CreatureType - Human */
-     , (8437,   6,        255) /* ItemsCapacity */
-     , (8437,   7,        255) /* ContainersCapacity */
+     , (8437,   6,         -1) /* ItemsCapacity */
+     , (8437,   7,         -1) /* ContainersCapacity */
      , (8437,  16,         32) /* ItemUseable - Remote */
      , (8437,  25,         12) /* Level */
      , (8437,  74,     280712) /* MerchandiseItemTypes - Jewelry, Misc, Gem, Key, PromissoryNote */

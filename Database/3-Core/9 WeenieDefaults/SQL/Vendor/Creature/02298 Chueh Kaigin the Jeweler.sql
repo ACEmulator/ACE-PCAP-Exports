@@ -6,8 +6,8 @@ VALUES (2298, 'sawatojeweler', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2298,   1,         16) /* ItemType - Creature */
      , (2298,   2,         31) /* CreatureType - Human */
-     , (2298,   6,        255) /* ItemsCapacity */
-     , (2298,   7,        255) /* ContainersCapacity */
+     , (2298,   6,         -1) /* ItemsCapacity */
+     , (2298,   7,         -1) /* ContainersCapacity */
      , (2298,  16,         32) /* ItemUseable - Remote */
      , (2298,  25,          8) /* Level */
      , (2298,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */

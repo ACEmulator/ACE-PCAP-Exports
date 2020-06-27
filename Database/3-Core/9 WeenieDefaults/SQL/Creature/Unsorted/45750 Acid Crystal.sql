@@ -5,8 +5,8 @@ VALUES (45750, 'ace45750-acidcrystal', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45750,   1,         16) /* ItemType - Creature */
-     , (45750,   6,        255) /* ItemsCapacity */
-     , (45750,   7,        255) /* ContainersCapacity */
+     , (45750,   6,         -1) /* ItemsCapacity */
+     , (45750,   7,         -1) /* ContainersCapacity */
      , (45750,  16,          1) /* ItemUseable - No */
      , (45750,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (45750, 133,          4) /* ShowableOnRadar - ShowAlways */

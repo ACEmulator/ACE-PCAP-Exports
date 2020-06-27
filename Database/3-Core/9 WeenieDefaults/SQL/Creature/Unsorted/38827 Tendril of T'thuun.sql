@@ -5,8 +5,8 @@ VALUES (38827, 'ace38827-tendriloftthuun', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38827,   1,         16) /* ItemType - Creature */
-     , (38827,   6,        255) /* ItemsCapacity */
-     , (38827,   7,        255) /* ContainersCapacity */
+     , (38827,   6,         -1) /* ItemsCapacity */
+     , (38827,   7,         -1) /* ContainersCapacity */
      , (38827,  16,          1) /* ItemUseable - No */
      , (38827,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38827, 133,          2) /* ShowableOnRadar - ShowMovement */

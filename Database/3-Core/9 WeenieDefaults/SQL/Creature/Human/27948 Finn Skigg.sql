@@ -6,8 +6,8 @@ VALUES (27948, 'finnskigg', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27948,   1,         16) /* ItemType - Creature */
      , (27948,   2,         31) /* CreatureType - Human */
-     , (27948,   6,        255) /* ItemsCapacity */
-     , (27948,   7,        255) /* ContainersCapacity */
+     , (27948,   6,         -1) /* ItemsCapacity */
+     , (27948,   7,         -1) /* ContainersCapacity */
      , (27948,  16,         32) /* ItemUseable - Remote */
      , (27948,  25,        120) /* Level */
      , (27948,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (38944, 'ace38944-korgluukofbur', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38944,   1,         16) /* ItemType - Creature */
      , (38944,   2,         75) /* CreatureType - Burun */
-     , (38944,   6,        255) /* ItemsCapacity */
-     , (38944,   7,        255) /* ContainersCapacity */
+     , (38944,   6,         -1) /* ItemsCapacity */
+     , (38944,   7,         -1) /* ContainersCapacity */
      , (38944,  16,          1) /* ItemUseable - No */
      , (38944,  25,        200) /* Level */
      , (38944,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

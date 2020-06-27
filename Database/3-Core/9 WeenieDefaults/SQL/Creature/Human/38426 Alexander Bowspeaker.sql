@@ -6,8 +6,8 @@ VALUES (38426, 'ace38426-alexanderbowspeaker', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38426,   1,         16) /* ItemType - Creature */
      , (38426,   2,         31) /* CreatureType - Human */
-     , (38426,   6,        255) /* ItemsCapacity */
-     , (38426,   7,        255) /* ContainersCapacity */
+     , (38426,   6,         -1) /* ItemsCapacity */
+     , (38426,   7,         -1) /* ContainersCapacity */
      , (38426,  16,         32) /* ItemUseable - Remote */
      , (38426,  25,        185) /* Level */
      , (38426,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

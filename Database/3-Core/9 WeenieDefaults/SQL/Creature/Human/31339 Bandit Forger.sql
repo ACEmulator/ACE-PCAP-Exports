@@ -6,8 +6,8 @@ VALUES (31339, 'ace31339-banditforger', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31339,   1,         16) /* ItemType - Creature */
      , (31339,   2,         31) /* CreatureType - Human */
-     , (31339,   6,        255) /* ItemsCapacity */
-     , (31339,   7,        255) /* ContainersCapacity */
+     , (31339,   6,         -1) /* ItemsCapacity */
+     , (31339,   7,         -1) /* ContainersCapacity */
      , (31339,  16,          1) /* ItemUseable - No */
      , (31339,  25,        160) /* Level */
      , (31339,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (11493, 'carenziferal-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11493,   1,         16) /* ItemType - Creature */
      , (11493,   2,         55) /* CreatureType - Carenzi */
-     , (11493,   6,        255) /* ItemsCapacity */
-     , (11493,   7,        255) /* ContainersCapacity */
+     , (11493,   6,         -1) /* ItemsCapacity */
+     , (11493,   7,         -1) /* ContainersCapacity */
      , (11493,  16,          1) /* ItemUseable - No */
      , (11493,  25,        100) /* Level */
      , (11493,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (22745, 'reedsharkjunglereaver', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22745,   1,         16) /* ItemType - Creature */
      , (22745,   2,         16) /* CreatureType - Reedshark */
-     , (22745,   6,        255) /* ItemsCapacity */
-     , (22745,   7,        255) /* ContainersCapacity */
+     , (22745,   6,         -1) /* ItemsCapacity */
+     , (22745,   7,         -1) /* ContainersCapacity */
      , (22745,  16,          1) /* ItemUseable - No */
      , (22745,  25,         40) /* Level */
      , (22745,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

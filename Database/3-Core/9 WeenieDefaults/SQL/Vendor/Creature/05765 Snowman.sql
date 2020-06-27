@@ -6,8 +6,8 @@ VALUES (5765, 'snowmanhappygiant', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5765,   1,         16) /* ItemType - Creature */
      , (5765,   2,         39) /* CreatureType - Snowman */
-     , (5765,   6,        255) /* ItemsCapacity */
-     , (5765,   7,        255) /* ContainersCapacity */
+     , (5765,   6,         -1) /* ItemsCapacity */
+     , (5765,   7,         -1) /* ContainersCapacity */
      , (5765,  16,         32) /* ItemUseable - Remote */
      , (5765,  25,        100) /* Level */
      , (5765,  74,      17291) /* MerchandiseItemTypes - Armor, Jewelry, Weapon, LockableMagicTarget, Key */

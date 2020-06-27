@@ -6,8 +6,8 @@ VALUES (5694, 'hebiantranslator', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5694,   1,         16) /* ItemType - Creature */
      , (5694,   2,         31) /* CreatureType - Human */
-     , (5694,   6,        255) /* ItemsCapacity */
-     , (5694,   7,        255) /* ContainersCapacity */
+     , (5694,   6,         -1) /* ItemsCapacity */
+     , (5694,   7,         -1) /* ContainersCapacity */
      , (5694,  16,         32) /* ItemUseable - Remote */
      , (5694,  25,         63) /* Level */
      , (5694,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

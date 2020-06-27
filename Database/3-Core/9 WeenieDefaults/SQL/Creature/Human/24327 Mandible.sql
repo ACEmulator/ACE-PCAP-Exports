@@ -6,8 +6,8 @@ VALUES (24327, 'olthoifightermandible', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24327,   1,         16) /* ItemType - Creature */
      , (24327,   2,         31) /* CreatureType - Human */
-     , (24327,   6,        255) /* ItemsCapacity */
-     , (24327,   7,        255) /* ContainersCapacity */
+     , (24327,   6,         -1) /* ItemsCapacity */
+     , (24327,   7,         -1) /* ContainersCapacity */
      , (24327,  16,         32) /* ItemUseable - Remote */
      , (24327,  25,        124) /* Level */
      , (24327,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

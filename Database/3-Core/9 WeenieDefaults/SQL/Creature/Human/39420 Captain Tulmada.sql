@@ -6,8 +6,8 @@ VALUES (39420, 'ace39420-captaintulmada', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39420,   1,         16) /* ItemType - Creature */
      , (39420,   2,         31) /* CreatureType - Human */
-     , (39420,   6,        255) /* ItemsCapacity */
-     , (39420,   7,        255) /* ContainersCapacity */
+     , (39420,   6,         -1) /* ItemsCapacity */
+     , (39420,   7,         -1) /* ContainersCapacity */
      , (39420,  16,         32) /* ItemUseable - Remote */
      , (39420,  25,        102) /* Level */
      , (39420,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

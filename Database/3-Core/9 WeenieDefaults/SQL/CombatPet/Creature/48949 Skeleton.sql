@@ -6,8 +6,8 @@ VALUES (48949, 'ace48949-blacshadowsskeleton', 71, '2019-02-10 00:00:00') /* Com
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48949,   1,         16) /* ItemType - Creature */
      , (48949,   2,         30) /* CreatureType - Skeleton */
-     , (48949,   6,        255) /* ItemsCapacity */
-     , (48949,   7,        255) /* ContainersCapacity */
+     , (48949,   6,         -1) /* ItemsCapacity */
+     , (48949,   7,         -1) /* ContainersCapacity */
      , (48949,  16,          1) /* ItemUseable - No */
      , (48949,  25,        180) /* Level */
      , (48949,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

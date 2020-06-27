@@ -6,8 +6,8 @@ VALUES (51808, 'ace51808-empoweredsorrowwisp', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51808,   1,         16) /* ItemType - Creature */
      , (51808,   2,         20) /* CreatureType - Wisp */
-     , (51808,   6,        255) /* ItemsCapacity */
-     , (51808,   7,        255) /* ContainersCapacity */
+     , (51808,   6,         -1) /* ItemsCapacity */
+     , (51808,   7,         -1) /* ContainersCapacity */
      , (51808,  16,          1) /* ItemUseable - No */
      , (51808,  25,        265) /* Level */
      , (51808,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

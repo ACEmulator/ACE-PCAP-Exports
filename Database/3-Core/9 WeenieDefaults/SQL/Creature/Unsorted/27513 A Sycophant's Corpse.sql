@@ -5,8 +5,8 @@ VALUES (27513, 'npcsycophantcorpse', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27513,   1,         16) /* ItemType - Creature */
-     , (27513,   6,        255) /* ItemsCapacity */
-     , (27513,   7,        255) /* ContainersCapacity */
+     , (27513,   6,         -1) /* ItemsCapacity */
+     , (27513,   7,         -1) /* ContainersCapacity */
      , (27513,  16,         32) /* ItemUseable - Remote */
      , (27513,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27513,  95,          3) /* RadarBlipColor - White */

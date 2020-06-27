@@ -5,8 +5,8 @@ VALUES (32427, 'ace32427-lockpickwardenofforgetfulness', 10, '2019-02-10 00:00:0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32427,   1,         16) /* ItemType - Creature */
-     , (32427,   6,        255) /* ItemsCapacity */
-     , (32427,   7,        255) /* ContainersCapacity */
+     , (32427,   6,         -1) /* ItemsCapacity */
+     , (32427,   7,         -1) /* ContainersCapacity */
      , (32427,  16,         32) /* ItemUseable - Remote */
      , (32427,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32427,  95,          3) /* RadarBlipColor - White */

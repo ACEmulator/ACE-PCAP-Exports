@@ -5,8 +5,8 @@ VALUES (42027, 'ace42027-shadeofantemy', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42027,   1,         16) /* ItemType - Creature */
-     , (42027,   6,        255) /* ItemsCapacity */
-     , (42027,   7,        255) /* ContainersCapacity */
+     , (42027,   6,         -1) /* ItemsCapacity */
+     , (42027,   7,         -1) /* ContainersCapacity */
      , (42027,  16,         32) /* ItemUseable - Remote */
      , (42027,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (42027,  95,          8) /* RadarBlipColor - Yellow */

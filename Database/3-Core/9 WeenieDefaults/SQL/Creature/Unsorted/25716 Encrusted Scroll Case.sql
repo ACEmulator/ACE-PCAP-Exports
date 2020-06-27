@@ -5,8 +5,8 @@ VALUES (25716, 'encrustedscrollcasenoir1', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25716,   1,         16) /* ItemType - Creature */
-     , (25716,   6,        255) /* ItemsCapacity */
-     , (25716,   7,        255) /* ContainersCapacity */
+     , (25716,   6,         -1) /* ItemsCapacity */
+     , (25716,   7,         -1) /* ContainersCapacity */
      , (25716,  16,         32) /* ItemUseable - Remote */
      , (25716,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25716,  95,          8) /* RadarBlipColor - Yellow */

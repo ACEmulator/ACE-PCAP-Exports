@@ -6,8 +6,8 @@ VALUES (53014, 'ace53014-thunderpoult', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53014,   1,         16) /* ItemType - Creature */
      , (53014,   2,         69) /* CreatureType - Chicken */
-     , (53014,   6,        255) /* ItemsCapacity */
-     , (53014,   7,        255) /* ContainersCapacity */
+     , (53014,   6,         -1) /* ItemsCapacity */
+     , (53014,   7,         -1) /* ContainersCapacity */
      , (53014,  16,          1) /* ItemUseable - No */
      , (53014,  25,        275) /* Level */
      , (53014,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

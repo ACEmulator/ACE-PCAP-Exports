@@ -6,8 +6,8 @@ VALUES (52233, 'ace52233-baktshaykeeper', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52233,   1,         16) /* ItemType - Creature */
      , (52233,   2,        101) /* CreatureType - Anekshay */
-     , (52233,   6,        255) /* ItemsCapacity */
-     , (52233,   7,        255) /* ContainersCapacity */
+     , (52233,   6,         -1) /* ItemsCapacity */
+     , (52233,   7,         -1) /* ContainersCapacity */
      , (52233,  16,         32) /* ItemUseable - Remote */
      , (52233,  25,        250) /* Level */
      , (52233,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

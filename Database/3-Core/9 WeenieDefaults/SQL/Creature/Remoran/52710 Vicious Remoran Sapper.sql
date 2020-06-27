@@ -6,8 +6,8 @@ VALUES (52710, 'ace52710-viciousremoransapper', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52710,   1,         16) /* ItemType - Creature */
      , (52710,   2,         84) /* CreatureType - Remoran */
-     , (52710,   6,        255) /* ItemsCapacity */
-     , (52710,   7,        255) /* ContainersCapacity */
+     , (52710,   6,         -1) /* ItemsCapacity */
+     , (52710,   7,         -1) /* ContainersCapacity */
      , (52710,  16,          1) /* ItemUseable - No */
      , (52710,  25,        280) /* Level */
      , (52710,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

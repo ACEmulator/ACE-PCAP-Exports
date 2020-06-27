@@ -6,8 +6,8 @@ VALUES (32054, 'ace32054-shopkeeperhulmurg', 12, '2019-02-10 00:00:00') /* Vendo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32054,   1,         16) /* ItemType - Creature */
      , (32054,   2,         90) /* CreatureType - Merwart */
-     , (32054,   6,        255) /* ItemsCapacity */
-     , (32054,   7,        255) /* ContainersCapacity */
+     , (32054,   6,         -1) /* ItemsCapacity */
+     , (32054,   7,         -1) /* ContainersCapacity */
      , (32054,  16,         32) /* ItemUseable - Remote */
      , (32054,  25,          7) /* Level */
      , (32054,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

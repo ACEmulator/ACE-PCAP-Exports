@@ -6,8 +6,8 @@ VALUES (40127, 'ace40127-shiveringcrystallinewisp', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40127,   1,         16) /* ItemType - Creature */
      , (40127,   2,         20) /* CreatureType - Wisp */
-     , (40127,   6,        255) /* ItemsCapacity */
-     , (40127,   7,        255) /* ContainersCapacity */
+     , (40127,   6,         -1) /* ItemsCapacity */
+     , (40127,   7,         -1) /* ContainersCapacity */
      , (40127,  16,          1) /* ItemUseable - No */
      , (40127,  25,        115) /* Level */
      , (40127,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

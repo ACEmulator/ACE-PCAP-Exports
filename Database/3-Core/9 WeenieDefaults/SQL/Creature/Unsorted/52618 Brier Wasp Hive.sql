@@ -6,8 +6,8 @@ VALUES (52618, 'ace52618-brierwasphive', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52618,   1,         16) /* ItemType - Creature */
      , (52618,   5,          3) /* EncumbranceVal */
-     , (52618,   6,        255) /* ItemsCapacity */
-     , (52618,   7,        255) /* ContainersCapacity */
+     , (52618,   6,         -1) /* ItemsCapacity */
+     , (52618,   7,         -1) /* ContainersCapacity */
      , (52618,  16,          1) /* ItemUseable - No */
      , (52618,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52618, 133,          4) /* ShowableOnRadar - ShowAlways */

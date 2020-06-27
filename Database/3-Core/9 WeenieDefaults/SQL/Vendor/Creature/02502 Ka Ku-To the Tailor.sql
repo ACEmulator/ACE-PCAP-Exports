@@ -6,8 +6,8 @@ VALUES (2502, 'plateautailor', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2502,   1,         16) /* ItemType - Creature */
      , (2502,   2,         31) /* CreatureType - Human */
-     , (2502,   6,        255) /* ItemsCapacity */
-     , (2502,   7,        255) /* ContainersCapacity */
+     , (2502,   6,         -1) /* ItemsCapacity */
+     , (2502,   7,         -1) /* ContainersCapacity */
      , (2502,  16,         32) /* ItemUseable - Remote */
      , (2502,  25,         10) /* Level */
      , (2502,  74,     262158) /* MerchandiseItemTypes - Vestements, Jewelry, PromissoryNote */

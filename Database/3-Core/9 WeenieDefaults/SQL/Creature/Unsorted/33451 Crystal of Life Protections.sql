@@ -5,8 +5,8 @@ VALUES (33451, 'ace33451-crystaloflifeprotections', 10, '2019-02-10 00:00:00') /
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33451,   1,         16) /* ItemType - Creature */
-     , (33451,   6,        255) /* ItemsCapacity */
-     , (33451,   7,        255) /* ContainersCapacity */
+     , (33451,   6,         -1) /* ItemsCapacity */
+     , (33451,   7,         -1) /* ContainersCapacity */
      , (33451,  16,         32) /* ItemUseable - Remote */
      , (33451,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33451,  95,          8) /* RadarBlipColor - Yellow */

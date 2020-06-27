@@ -6,8 +6,8 @@ VALUES (24873, 'candethkeepguardhuman', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24873,   1,         16) /* ItemType - Creature */
      , (24873,   2,         31) /* CreatureType - Human */
-     , (24873,   6,        255) /* ItemsCapacity */
-     , (24873,   7,        255) /* ContainersCapacity */
+     , (24873,   6,         -1) /* ItemsCapacity */
+     , (24873,   7,         -1) /* ContainersCapacity */
      , (24873,  16,         32) /* ItemUseable - Remote */
      , (24873,  25,         92) /* Level */
      , (24873,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (4690, 'aljalimablacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4690,   1,         16) /* ItemType - Creature */
      , (4690,   2,         31) /* CreatureType - Human */
-     , (4690,   6,        255) /* ItemsCapacity */
-     , (4690,   7,        255) /* ContainersCapacity */
+     , (4690,   6,         -1) /* ItemsCapacity */
+     , (4690,   7,         -1) /* ContainersCapacity */
      , (4690,  16,         32) /* ItemUseable - Remote */
      , (4690,  25,         10) /* Level */
      , (4690,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

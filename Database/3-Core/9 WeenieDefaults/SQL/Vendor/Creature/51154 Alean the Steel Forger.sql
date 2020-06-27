@@ -6,8 +6,8 @@ VALUES (51154, 'ace51154-aleanthesteelforger', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51154,   1,         16) /* ItemType - Creature */
      , (51154,   2,         31) /* CreatureType - Human */
-     , (51154,   6,        255) /* ItemsCapacity */
-     , (51154,   7,        255) /* ContainersCapacity */
+     , (51154,   6,         -1) /* ItemsCapacity */
+     , (51154,   7,         -1) /* ContainersCapacity */
      , (51154,  16,         32) /* ItemUseable - Remote */
      , (51154,  25,        100) /* Level */
      , (51154,  74,          0) /* MerchandiseItemTypes - None */

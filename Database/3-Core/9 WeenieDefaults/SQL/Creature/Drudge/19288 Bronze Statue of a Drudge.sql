@@ -6,8 +6,8 @@ VALUES (19288, 'statuereplicalowdrudgesmall', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19288,   1,         16) /* ItemType - Creature */
      , (19288,   2,          3) /* CreatureType - Drudge */
-     , (19288,   6,        255) /* ItemsCapacity */
-     , (19288,   7,        255) /* ContainersCapacity */
+     , (19288,   6,         -1) /* ItemsCapacity */
+     , (19288,   7,         -1) /* ContainersCapacity */
      , (19288,  16,          1) /* ItemUseable - No */
      , (19288,  25,         15) /* Level */
      , (19288,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

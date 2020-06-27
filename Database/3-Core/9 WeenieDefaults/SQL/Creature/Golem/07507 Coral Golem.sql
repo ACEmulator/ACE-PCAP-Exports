@@ -6,8 +6,8 @@ VALUES (7507, 'golemcoral', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7507,   1,         16) /* ItemType - Creature */
      , (7507,   2,         13) /* CreatureType - Golem */
-     , (7507,   6,        255) /* ItemsCapacity */
-     , (7507,   7,        255) /* ContainersCapacity */
+     , (7507,   6,         -1) /* ItemsCapacity */
+     , (7507,   7,         -1) /* ContainersCapacity */
      , (7507,  16,          1) /* ItemUseable - No */
      , (7507,  25,        100) /* Level */
      , (7507,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

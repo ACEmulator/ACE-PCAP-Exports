@@ -5,8 +5,8 @@ VALUES (36033, 'ace36033-nightmarishdoll', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36033,   1,         16) /* ItemType - Creature */
-     , (36033,   6,        255) /* ItemsCapacity */
-     , (36033,   7,        255) /* ContainersCapacity */
+     , (36033,   6,         -1) /* ItemsCapacity */
+     , (36033,   7,         -1) /* ContainersCapacity */
      , (36033,  16,          1) /* ItemUseable - No */
      , (36033,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36033, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,10 +29,10 @@ VALUES (36033,   1,   33558546) /* Setup */
      , (36033,   3,  536871022) /* SoundTable */
      , (36033,   8,  100671421) /* Icon */
      , (36033,  22,  872415373) /* PhysicsEffectTable */
+     , (36033,  30,         87) /* PhysicsScript - BreatheLightning */
      , (36033, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36033, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (36033, 8005,     391171) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement, Translucency */
-     , (36033, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (36033, 8005,     391171) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36033, 8040, 10683140, 129.538, -59.99854, 0.02899998, 0.6157867, 0, 0, -0.7879128) /* PCAPRecordedLocation */

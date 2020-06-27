@@ -6,8 +6,8 @@ VALUES (38645, 'ace38645-aldrionofthecelestialhand', 10, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38645,   1,         16) /* ItemType - Creature */
      , (38645,   2,         31) /* CreatureType - Human */
-     , (38645,   6,        255) /* ItemsCapacity */
-     , (38645,   7,        255) /* ContainersCapacity */
+     , (38645,   6,         -1) /* ItemsCapacity */
+     , (38645,   7,         -1) /* ContainersCapacity */
      , (38645,  16,         32) /* ItemUseable - Remote */
      , (38645,  25,        180) /* Level */
      , (38645,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

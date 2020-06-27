@@ -6,8 +6,8 @@ VALUES (39896, 'ace39896-tacticalofficer', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39896,   1,         16) /* ItemType - Creature */
      , (39896,   2,         31) /* CreatureType - Human */
-     , (39896,   6,        255) /* ItemsCapacity */
-     , (39896,   7,        255) /* ContainersCapacity */
+     , (39896,   6,         -1) /* ItemsCapacity */
+     , (39896,   7,         -1) /* ContainersCapacity */
      , (39896,  16,         32) /* ItemUseable - Remote */
      , (39896,  25,        200) /* Level */
      , (39896,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (32409, 'ace32409-arcanelorewardenofforgetfulness', 10, '2019-02-10 00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32409,   1,         16) /* ItemType - Creature */
-     , (32409,   6,        255) /* ItemsCapacity */
-     , (32409,   7,        255) /* ContainersCapacity */
+     , (32409,   6,         -1) /* ItemsCapacity */
+     , (32409,   7,         -1) /* ContainersCapacity */
      , (32409,  16,         32) /* ItemUseable - Remote */
      , (32409,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32409,  95,          3) /* RadarBlipColor - White */

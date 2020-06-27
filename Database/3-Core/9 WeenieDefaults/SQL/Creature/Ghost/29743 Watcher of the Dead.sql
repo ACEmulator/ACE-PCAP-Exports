@@ -6,8 +6,8 @@ VALUES (29743, 'watcherixirzi', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29743,   1,         16) /* ItemType - Creature */
      , (29743,   2,         77) /* CreatureType - Ghost */
-     , (29743,   6,        255) /* ItemsCapacity */
-     , (29743,   7,        255) /* ContainersCapacity */
+     , (29743,   6,         -1) /* ItemsCapacity */
+     , (29743,   7,         -1) /* ContainersCapacity */
      , (29743,  16,         32) /* ItemUseable - Remote */
      , (29743,  25,        155) /* Level */
      , (29743,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

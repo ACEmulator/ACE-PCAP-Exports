@@ -6,8 +6,8 @@ VALUES (38461, 'ace38461-arcanummanasmith', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38461,   1,         16) /* ItemType - Creature */
      , (38461,   2,         31) /* CreatureType - Human */
-     , (38461,   6,        255) /* ItemsCapacity */
-     , (38461,   7,        255) /* ContainersCapacity */
+     , (38461,   6,         -1) /* ItemsCapacity */
+     , (38461,   7,         -1) /* ContainersCapacity */
      , (38461,  16,         32) /* ItemUseable - Remote */
      , (38461,  25,        180) /* Level */
      , (38461,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

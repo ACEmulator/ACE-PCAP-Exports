@@ -5,8 +5,8 @@ VALUES (44098, 'ace44098-mumiyahslavemaster', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44098,   1,         16) /* ItemType - Creature */
-     , (44098,   6,        255) /* ItemsCapacity */
-     , (44098,   7,        255) /* ContainersCapacity */
+     , (44098,   6,         -1) /* ItemsCapacity */
+     , (44098,   7,         -1) /* ContainersCapacity */
      , (44098,  16,          1) /* ItemUseable - No */
      , (44098,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44098, 133,          2) /* ShowableOnRadar - ShowMovement */

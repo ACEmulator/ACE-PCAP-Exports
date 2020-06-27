@@ -5,8 +5,8 @@ VALUES (39157, 'ace39157-sclavusraider', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39157,   1,         16) /* ItemType - Creature */
-     , (39157,   6,        255) /* ItemsCapacity */
-     , (39157,   7,        255) /* ContainersCapacity */
+     , (39157,   6,         -1) /* ItemsCapacity */
+     , (39157,   7,         -1) /* ContainersCapacity */
      , (39157,  16,          1) /* ItemUseable - No */
      , (39157,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39157, 133,          2) /* ShowableOnRadar - ShowMovement */

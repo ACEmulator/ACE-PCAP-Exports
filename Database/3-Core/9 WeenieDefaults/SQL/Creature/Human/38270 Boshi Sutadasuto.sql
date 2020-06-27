@@ -6,8 +6,8 @@ VALUES (38270, 'ace38270-boshisutadasuto', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38270,   1,         16) /* ItemType - Creature */
      , (38270,   2,         31) /* CreatureType - Human */
-     , (38270,   6,        255) /* ItemsCapacity */
-     , (38270,   7,        255) /* ContainersCapacity */
+     , (38270,   6,         -1) /* ItemsCapacity */
+     , (38270,   7,         -1) /* ContainersCapacity */
      , (38270,  16,         32) /* ItemUseable - Remote */
      , (38270,  25,        190) /* Level */
      , (38270,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

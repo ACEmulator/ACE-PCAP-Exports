@@ -6,8 +6,8 @@ VALUES (52962, 'ace52962-radiantbloodwarrior', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52962,   1,         16) /* ItemType - Creature */
      , (52962,   2,         31) /* CreatureType - Human */
-     , (52962,   6,        255) /* ItemsCapacity */
-     , (52962,   7,        255) /* ContainersCapacity */
+     , (52962,   6,         -1) /* ItemsCapacity */
+     , (52962,   7,         -1) /* ContainersCapacity */
      , (52962,  16,          1) /* ItemUseable - No */
      , (52962,  25,        275) /* Level */
      , (52962,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

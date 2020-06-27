@@ -6,8 +6,8 @@ VALUES (11811, 'collectorbannersho', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11811,   1,         16) /* ItemType - Creature */
      , (11811,   2,         31) /* CreatureType - Human */
-     , (11811,   6,        255) /* ItemsCapacity */
-     , (11811,   7,        255) /* ContainersCapacity */
+     , (11811,   6,         -1) /* ItemsCapacity */
+     , (11811,   7,         -1) /* ContainersCapacity */
      , (11811,  16,         32) /* ItemUseable - Remote */
      , (11811,  25,         33) /* Level */
      , (11811,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

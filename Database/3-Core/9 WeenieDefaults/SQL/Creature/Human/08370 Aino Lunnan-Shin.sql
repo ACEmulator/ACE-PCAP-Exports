@@ -6,8 +6,8 @@ VALUES (8370, 'xaragemcollector', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8370,   1,         16) /* ItemType - Creature */
      , (8370,   2,         31) /* CreatureType - Human */
-     , (8370,   6,        255) /* ItemsCapacity */
-     , (8370,   7,        255) /* ContainersCapacity */
+     , (8370,   6,         -1) /* ItemsCapacity */
+     , (8370,   7,         -1) /* ContainersCapacity */
      , (8370,  16,         32) /* ItemUseable - Remote */
      , (8370,  25,         47) /* Level */
      , (8370,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

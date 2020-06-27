@@ -6,8 +6,8 @@ VALUES (222, 'reedsharkveteran', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (222,   1,         16) /* ItemType - Creature */
      , (222,   2,         16) /* CreatureType - Reedshark */
-     , (222,   6,        255) /* ItemsCapacity */
-     , (222,   7,        255) /* ContainersCapacity */
+     , (222,   6,         -1) /* ItemsCapacity */
+     , (222,   7,         -1) /* ContainersCapacity */
      , (222,  16,          1) /* ItemUseable - No */
      , (222,  25,         15) /* Level */
      , (222,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (42040, 'ace42040-nobleremains', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42040,   1,         16) /* ItemType - Creature */
      , (42040,   5,          2) /* EncumbranceVal */
-     , (42040,   6,        255) /* ItemsCapacity */
-     , (42040,   7,        255) /* ContainersCapacity */
+     , (42040,   6,         -1) /* ItemsCapacity */
+     , (42040,   7,         -1) /* ContainersCapacity */
      , (42040,  16,          1) /* ItemUseable - No */
      , (42040,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42040, 133,          1) /* ShowableOnRadar - ShowNever */

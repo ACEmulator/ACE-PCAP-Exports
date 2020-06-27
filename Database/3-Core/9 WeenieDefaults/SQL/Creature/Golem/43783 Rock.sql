@@ -6,8 +6,8 @@ VALUES (43783, 'ace43783-rock', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43783,   1,         16) /* ItemType - Creature */
      , (43783,   2,         13) /* CreatureType - Golem */
-     , (43783,   6,        255) /* ItemsCapacity */
-     , (43783,   7,        255) /* ContainersCapacity */
+     , (43783,   6,         -1) /* ItemsCapacity */
+     , (43783,   7,         -1) /* ContainersCapacity */
      , (43783,  16,          1) /* ItemUseable - No */
      , (43783,  25,        200) /* Level */
      , (43783,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

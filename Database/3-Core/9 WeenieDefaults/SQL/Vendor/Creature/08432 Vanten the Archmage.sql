@@ -6,8 +6,8 @@ VALUES (8432, 'krystarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8432,   1,         16) /* ItemType - Creature */
      , (8432,   2,         31) /* CreatureType - Human */
-     , (8432,   6,        255) /* ItemsCapacity */
-     , (8432,   7,        255) /* ContainersCapacity */
+     , (8432,   6,         -1) /* ItemsCapacity */
+     , (8432,   7,         -1) /* ContainersCapacity */
      , (8432,  16,         32) /* ItemUseable - Remote */
      , (8432,  25,         60) /* Level */
      , (8432,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

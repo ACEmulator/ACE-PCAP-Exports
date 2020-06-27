@@ -6,8 +6,8 @@ VALUES (43731, 'ace43731-gillithspetolthoisoldier', 69, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43731,   1,         16) /* ItemType - Creature */
      , (43731,   2,          1) /* CreatureType - Olthoi */
-     , (43731,   6,        255) /* ItemsCapacity */
-     , (43731,   7,        255) /* ContainersCapacity */
+     , (43731,   6,         -1) /* ItemsCapacity */
+     , (43731,   7,         -1) /* ContainersCapacity */
      , (43731,  16,          1) /* ItemUseable - No */
      , (43731,  25,        125) /* Level */
      , (43731,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

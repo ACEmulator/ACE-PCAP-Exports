@@ -6,8 +6,8 @@ VALUES (35477, 'ace35477-oswentthepale', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35477,   1,         16) /* ItemType - Creature */
      , (35477,   2,         31) /* CreatureType - Human */
-     , (35477,   6,        255) /* ItemsCapacity */
-     , (35477,   7,        255) /* ContainersCapacity */
+     , (35477,   6,         -1) /* ItemsCapacity */
+     , (35477,   7,         -1) /* ContainersCapacity */
      , (35477,  16,         32) /* ItemUseable - Remote */
      , (35477,  25,        150) /* Level */
      , (35477,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

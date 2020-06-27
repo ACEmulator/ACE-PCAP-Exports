@@ -6,8 +6,8 @@ VALUES (38177, 'ace38177-blightedoakgolem', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38177,   1,         16) /* ItemType - Creature */
      , (38177,   2,         13) /* CreatureType - Golem */
-     , (38177,   6,        255) /* ItemsCapacity */
-     , (38177,   7,        255) /* ContainersCapacity */
+     , (38177,   6,         -1) /* ItemsCapacity */
+     , (38177,   7,         -1) /* ContainersCapacity */
      , (38177,  16,          1) /* ItemUseable - No */
      , (38177,  25,         80) /* Level */
      , (38177,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

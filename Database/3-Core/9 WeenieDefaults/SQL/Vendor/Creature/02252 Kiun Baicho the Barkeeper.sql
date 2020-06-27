@@ -6,8 +6,8 @@ VALUES (2252, 'baishibarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2252,   1,         16) /* ItemType - Creature */
      , (2252,   2,         31) /* CreatureType - Human */
-     , (2252,   6,        255) /* ItemsCapacity */
-     , (2252,   7,        255) /* ContainersCapacity */
+     , (2252,   6,         -1) /* ItemsCapacity */
+     , (2252,   7,         -1) /* ContainersCapacity */
      , (2252,  16,         32) /* ItemUseable - Remote */
      , (2252,  25,          9) /* Level */
      , (2252,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */

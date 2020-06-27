@@ -6,8 +6,8 @@ VALUES (38601, 'ace38601-takaharamasikawa', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38601,   1,         16) /* ItemType - Creature */
      , (38601,   2,         31) /* CreatureType - Human */
-     , (38601,   6,        255) /* ItemsCapacity */
-     , (38601,   7,        255) /* ContainersCapacity */
+     , (38601,   6,         -1) /* ItemsCapacity */
+     , (38601,   7,         -1) /* ContainersCapacity */
      , (38601,  16,         32) /* ItemUseable - Remote */
      , (38601,  25,        182) /* Level */
      , (38601,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

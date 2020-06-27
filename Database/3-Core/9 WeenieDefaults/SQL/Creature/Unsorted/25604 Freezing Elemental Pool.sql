@@ -5,8 +5,8 @@ VALUES (25604, 'poolelementalfreezingnpc', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25604,   1,         16) /* ItemType - Creature */
-     , (25604,   6,        255) /* ItemsCapacity */
-     , (25604,   7,        255) /* ContainersCapacity */
+     , (25604,   6,         -1) /* ItemsCapacity */
+     , (25604,   7,         -1) /* ContainersCapacity */
      , (25604,  16,         32) /* ItemUseable - Remote */
      , (25604,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25604,  95,          3) /* RadarBlipColor - White */

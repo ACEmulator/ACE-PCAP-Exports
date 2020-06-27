@@ -6,8 +6,8 @@ VALUES (22088, 'hauntedmansionowner', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22088,   1,         16) /* ItemType - Creature */
      , (22088,   2,         31) /* CreatureType - Human */
-     , (22088,   6,        255) /* ItemsCapacity */
-     , (22088,   7,        255) /* ContainersCapacity */
+     , (22088,   6,         -1) /* ItemsCapacity */
+     , (22088,   7,         -1) /* ContainersCapacity */
      , (22088,  16,         32) /* ItemUseable - Remote */
      , (22088,  25,          5) /* Level */
      , (22088,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

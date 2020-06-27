@@ -6,8 +6,8 @@ VALUES (28531, 'aljalimaarchmagelonely', 12, '2019-02-10 00:00:00') /* Vendor */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28531,   1,         16) /* ItemType - Creature */
      , (28531,   2,         31) /* CreatureType - Human */
-     , (28531,   6,        255) /* ItemsCapacity */
-     , (28531,   7,        255) /* ContainersCapacity */
+     , (28531,   6,         -1) /* ItemsCapacity */
+     , (28531,   7,         -1) /* ContainersCapacity */
      , (28531,  16,         32) /* ItemUseable - Remote */
      , (28531,  25,         25) /* Level */
      , (28531,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

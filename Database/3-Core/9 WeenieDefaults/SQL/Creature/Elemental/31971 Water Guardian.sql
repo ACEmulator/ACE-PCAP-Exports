@@ -6,8 +6,8 @@ VALUES (31971, 'ace31971-waterguardian', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31971,   1,         16) /* ItemType - Creature */
      , (31971,   2,         62) /* CreatureType - Elemental */
-     , (31971,   6,        255) /* ItemsCapacity */
-     , (31971,   7,        255) /* ContainersCapacity */
+     , (31971,   6,         -1) /* ItemsCapacity */
+     , (31971,   7,         -1) /* ContainersCapacity */
      , (31971,  16,         32) /* ItemUseable - Remote */
      , (31971,  25,        500) /* Level */
      , (31971,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

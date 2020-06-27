@@ -6,8 +6,8 @@ VALUES (35162, 'ace35162-enragedancientsoul', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35162,   1,         16) /* ItemType - Creature */
      , (35162,   2,         14) /* CreatureType - Undead */
-     , (35162,   6,        255) /* ItemsCapacity */
-     , (35162,   7,        255) /* ContainersCapacity */
+     , (35162,   6,         -1) /* ItemsCapacity */
+     , (35162,   7,         -1) /* ContainersCapacity */
      , (35162,  16,          1) /* ItemUseable - No */
      , (35162,  25,        185) /* Level */
      , (35162,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

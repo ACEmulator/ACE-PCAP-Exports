@@ -5,8 +5,8 @@ VALUES (25988, 'plateaubattledungeonportalnpc', 10, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25988,   1,         16) /* ItemType - Creature */
-     , (25988,   6,        255) /* ItemsCapacity */
-     , (25988,   7,        255) /* ContainersCapacity */
+     , (25988,   6,         -1) /* ItemsCapacity */
+     , (25988,   7,         -1) /* ContainersCapacity */
      , (25988,  16,         32) /* ItemUseable - Remote */
      , (25988,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25988,  95,          8) /* RadarBlipColor - Yellow */

@@ -6,8 +6,8 @@ VALUES (34971, 'ace34971-falatacotbloodprophetess', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34971,   1,         16) /* ItemType - Creature */
      , (34971,   2,         14) /* CreatureType - Undead */
-     , (34971,   6,        255) /* ItemsCapacity */
-     , (34971,   7,        255) /* ContainersCapacity */
+     , (34971,   6,         -1) /* ItemsCapacity */
+     , (34971,   7,         -1) /* ContainersCapacity */
      , (34971,  16,          1) /* ItemUseable - No */
      , (34971,  25,        200) /* Level */
      , (34971,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

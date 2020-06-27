@@ -6,8 +6,8 @@ VALUES (26017, 'burunruuksavage', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26017,   1,         16) /* ItemType - Creature */
      , (26017,   2,         75) /* CreatureType - Burun */
-     , (26017,   6,        255) /* ItemsCapacity */
-     , (26017,   7,        255) /* ContainersCapacity */
+     , (26017,   6,         -1) /* ItemsCapacity */
+     , (26017,   7,         -1) /* ContainersCapacity */
      , (26017,  16,          1) /* ItemUseable - No */
      , (26017,  25,        135) /* Level */
      , (26017,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (1058, 'qalabartailor', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1058,   1,         16) /* ItemType - Creature */
      , (1058,   2,         31) /* CreatureType - Human */
-     , (1058,   6,        255) /* ItemsCapacity */
-     , (1058,   7,        255) /* ContainersCapacity */
+     , (1058,   6,         -1) /* ItemsCapacity */
+     , (1058,   7,         -1) /* ContainersCapacity */
      , (1058,  16,         32) /* ItemUseable - Remote */
      , (1058,  25,          9) /* Level */
      , (1058,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */

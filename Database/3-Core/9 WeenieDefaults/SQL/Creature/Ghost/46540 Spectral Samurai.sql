@@ -6,8 +6,8 @@ VALUES (46540, 'ace46540-spectralsamurai', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46540,   1,         16) /* ItemType - Creature */
      , (46540,   2,         77) /* CreatureType - Ghost */
-     , (46540,   6,        255) /* ItemsCapacity */
-     , (46540,   7,        255) /* ContainersCapacity */
+     , (46540,   6,         -1) /* ItemsCapacity */
+     , (46540,   7,         -1) /* ContainersCapacity */
      , (46540,  16,          1) /* ItemUseable - No */
      , (46540,  25,        265) /* Level */
      , (46540,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

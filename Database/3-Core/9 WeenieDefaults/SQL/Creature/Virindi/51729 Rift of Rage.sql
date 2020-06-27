@@ -6,8 +6,8 @@ VALUES (51729, 'ace51729-riftofrage', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51729,   1,         16) /* ItemType - Creature */
      , (51729,   2,         19) /* CreatureType - Virindi */
-     , (51729,   6,        255) /* ItemsCapacity */
-     , (51729,   7,        255) /* ContainersCapacity */
+     , (51729,   6,         -1) /* ItemsCapacity */
+     , (51729,   7,         -1) /* ContainersCapacity */
      , (51729,  16,          1) /* ItemUseable - No */
      , (51729,  25,        250) /* Level */
      , (51729,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

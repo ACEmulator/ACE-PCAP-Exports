@@ -5,8 +5,8 @@ VALUES (42960, 'ace42960-thirdenchantedcandle', 10, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42960,   1,         16) /* ItemType - Creature */
-     , (42960,   6,        255) /* ItemsCapacity */
-     , (42960,   7,        255) /* ContainersCapacity */
+     , (42960,   6,         -1) /* ItemsCapacity */
+     , (42960,   7,         -1) /* ContainersCapacity */
      , (42960,  16,         32) /* ItemUseable - Remote */
      , (42960,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42960,  95,          3) /* RadarBlipColor - White */

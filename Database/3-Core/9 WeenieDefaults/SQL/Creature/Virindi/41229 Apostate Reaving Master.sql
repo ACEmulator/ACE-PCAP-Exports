@@ -6,8 +6,8 @@ VALUES (41229, 'ace41229-apostatereavingmaster', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41229,   1,         16) /* ItemType - Creature */
      , (41229,   2,         19) /* CreatureType - Virindi */
-     , (41229,   6,        255) /* ItemsCapacity */
-     , (41229,   7,        255) /* ContainersCapacity */
+     , (41229,   6,         -1) /* ItemsCapacity */
+     , (41229,   7,         -1) /* ContainersCapacity */
      , (41229,  16,          1) /* ItemUseable - No */
      , (41229,  25,        220) /* Level */
      , (41229,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -5,8 +5,8 @@ VALUES (42063, 'ace42063-spectralfountain', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42063,   1,         16) /* ItemType - Creature */
-     , (42063,   6,        255) /* ItemsCapacity */
-     , (42063,   7,        255) /* ContainersCapacity */
+     , (42063,   6,         -1) /* ItemsCapacity */
+     , (42063,   7,         -1) /* ContainersCapacity */
      , (42063,  16,         32) /* ItemUseable - Remote */
      , (42063,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42063,  95,          8) /* RadarBlipColor - Yellow */

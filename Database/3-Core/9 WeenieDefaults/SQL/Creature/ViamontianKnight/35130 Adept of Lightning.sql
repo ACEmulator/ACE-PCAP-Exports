@@ -6,8 +6,8 @@ VALUES (35130, 'ace35130-adeptoflightning', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35130,   1,         16) /* ItemType - Creature */
      , (35130,   2,         83) /* CreatureType - ViamontianKnight */
-     , (35130,   6,        255) /* ItemsCapacity */
-     , (35130,   7,        255) /* ContainersCapacity */
+     , (35130,   6,         -1) /* ItemsCapacity */
+     , (35130,   7,         -1) /* ContainersCapacity */
      , (35130,  16,          1) /* ItemUseable - No */
      , (35130,  25,        135) /* Level */
      , (35130,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

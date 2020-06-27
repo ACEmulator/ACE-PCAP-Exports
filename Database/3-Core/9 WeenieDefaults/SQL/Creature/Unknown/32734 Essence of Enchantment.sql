@@ -6,8 +6,8 @@ VALUES (32734, 'ace32734-essenceofenchantment', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32734,   1,         16) /* ItemType - Creature */
      , (32734,   2,         40) /* CreatureType - Unknown */
-     , (32734,   6,        255) /* ItemsCapacity */
-     , (32734,   7,        255) /* ContainersCapacity */
+     , (32734,   6,         -1) /* ItemsCapacity */
+     , (32734,   7,         -1) /* ContainersCapacity */
      , (32734,  16,          1) /* ItemUseable - No */
      , (32734,  25,        425) /* Level */
      , (32734,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

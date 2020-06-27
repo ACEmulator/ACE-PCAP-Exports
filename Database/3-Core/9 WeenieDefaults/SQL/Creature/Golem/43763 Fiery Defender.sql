@@ -6,8 +6,8 @@ VALUES (43763, 'ace43763-fierydefender', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43763,   1,         16) /* ItemType - Creature */
      , (43763,   2,         13) /* CreatureType - Golem */
-     , (43763,   6,        255) /* ItemsCapacity */
-     , (43763,   7,        255) /* ContainersCapacity */
+     , (43763,   6,         -1) /* ItemsCapacity */
+     , (43763,   7,         -1) /* ContainersCapacity */
      , (43763,  16,          1) /* ItemUseable - No */
      , (43763,  25,        220) /* Level */
      , (43763,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

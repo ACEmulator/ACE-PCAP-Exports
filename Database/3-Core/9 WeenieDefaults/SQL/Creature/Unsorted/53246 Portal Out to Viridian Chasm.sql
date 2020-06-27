@@ -5,8 +5,8 @@ VALUES (53246, 'ace53246-portalouttoviridianchasm', 10, '2019-02-10 00:00:00') /
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53246,   1,         16) /* ItemType - Creature */
-     , (53246,   6,        255) /* ItemsCapacity */
-     , (53246,   7,        255) /* ContainersCapacity */
+     , (53246,   6,         -1) /* ItemsCapacity */
+     , (53246,   7,         -1) /* ContainersCapacity */
      , (53246,  16,         32) /* ItemUseable - Remote */
      , (53246,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53246,  95,          4) /* RadarBlipColor - Purple */

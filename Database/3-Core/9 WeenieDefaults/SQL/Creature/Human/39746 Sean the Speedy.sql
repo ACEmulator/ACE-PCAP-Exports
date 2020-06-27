@@ -6,8 +6,8 @@ VALUES (39746, 'ace39746-seanthespeedy', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39746,   1,         16) /* ItemType - Creature */
      , (39746,   2,         31) /* CreatureType - Human */
-     , (39746,   6,        255) /* ItemsCapacity */
-     , (39746,   7,        255) /* ContainersCapacity */
+     , (39746,   6,         -1) /* ItemsCapacity */
+     , (39746,   7,         -1) /* ContainersCapacity */
      , (39746,  16,         32) /* ItemUseable - Remote */
      , (39746,  25,         15) /* Level */
      , (39746,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

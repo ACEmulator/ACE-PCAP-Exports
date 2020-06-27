@@ -6,8 +6,8 @@ VALUES (46660, 'ace46660-samuraigatekeeper', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46660,   1,         16) /* ItemType - Creature */
      , (46660,   2,         77) /* CreatureType - Ghost */
-     , (46660,   6,        255) /* ItemsCapacity */
-     , (46660,   7,        255) /* ContainersCapacity */
+     , (46660,   6,         -1) /* ItemsCapacity */
+     , (46660,   7,         -1) /* ContainersCapacity */
      , (46660,  16,          1) /* ItemUseable - No */
      , (46660,  25,        265) /* Level */
      , (46660,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

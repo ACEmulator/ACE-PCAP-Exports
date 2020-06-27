@@ -5,8 +5,8 @@ VALUES (35948, 'ace35948-darktuskershrine', 12, '2019-02-10 00:00:00') /* Vendor
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35948,   1,         16) /* ItemType - Creature */
-     , (35948,   6,        255) /* ItemsCapacity */
-     , (35948,   7,        255) /* ContainersCapacity */
+     , (35948,   6,         -1) /* ItemsCapacity */
+     , (35948,   7,         -1) /* ContainersCapacity */
      , (35948,  16,         32) /* ItemUseable - Remote */
      , (35948,  74,          0) /* MerchandiseItemTypes - None */
      , (35948,  75,          0) /* MerchandiseMinValue */

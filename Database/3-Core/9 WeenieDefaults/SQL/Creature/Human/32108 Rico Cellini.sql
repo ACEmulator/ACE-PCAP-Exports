@@ -6,8 +6,8 @@ VALUES (32108, 'ace32108-ricocellini', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32108,   1,         16) /* ItemType - Creature */
      , (32108,   2,         31) /* CreatureType - Human */
-     , (32108,   6,        255) /* ItemsCapacity */
-     , (32108,   7,        255) /* ContainersCapacity */
+     , (32108,   6,         -1) /* ItemsCapacity */
+     , (32108,   7,         -1) /* ContainersCapacity */
      , (32108,  16,         32) /* ItemUseable - Remote */
      , (32108,  25,         20) /* Level */
      , (32108,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

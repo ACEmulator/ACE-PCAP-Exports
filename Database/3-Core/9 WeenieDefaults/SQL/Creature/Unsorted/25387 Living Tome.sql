@@ -5,8 +5,8 @@ VALUES (25387, 'npctomefalatacot', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25387,   1,         16) /* ItemType - Creature */
-     , (25387,   6,        255) /* ItemsCapacity */
-     , (25387,   7,        255) /* ContainersCapacity */
+     , (25387,   6,         -1) /* ItemsCapacity */
+     , (25387,   7,         -1) /* ContainersCapacity */
      , (25387,  16,         32) /* ItemUseable - Remote */
      , (25387,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25387,  95,          8) /* RadarBlipColor - Yellow */

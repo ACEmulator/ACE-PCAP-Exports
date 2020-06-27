@@ -5,8 +5,8 @@ VALUES (38281, 'ace38281-broodmother', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38281,   1,         16) /* ItemType - Creature */
-     , (38281,   6,        255) /* ItemsCapacity */
-     , (38281,   7,        255) /* ContainersCapacity */
+     , (38281,   6,         -1) /* ItemsCapacity */
+     , (38281,   7,         -1) /* ContainersCapacity */
      , (38281,  16,          1) /* ItemUseable - No */
      , (38281,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38281, 133,          2) /* ShowableOnRadar - ShowMovement */

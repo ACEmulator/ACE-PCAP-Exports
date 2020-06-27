@@ -5,8 +5,8 @@ VALUES (53011, 'ace53011-ambercrystal', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53011,   1,         16) /* ItemType - Creature */
-     , (53011,   6,        255) /* ItemsCapacity */
-     , (53011,   7,        255) /* ContainersCapacity */
+     , (53011,   6,         -1) /* ItemsCapacity */
+     , (53011,   7,         -1) /* ContainersCapacity */
      , (53011,  16,         32) /* ItemUseable - Remote */
      , (53011,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53011,  95,          8) /* RadarBlipColor - Yellow */

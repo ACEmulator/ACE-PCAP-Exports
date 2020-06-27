@@ -6,8 +6,8 @@ VALUES (52628, 'ace52628-corruptedguardianwisp', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52628,   1,         16) /* ItemType - Creature */
      , (52628,   2,         20) /* CreatureType - Wisp */
-     , (52628,   6,        255) /* ItemsCapacity */
-     , (52628,   7,        255) /* ContainersCapacity */
+     , (52628,   6,         -1) /* ItemsCapacity */
+     , (52628,   7,         -1) /* ContainersCapacity */
      , (52628,  16,          1) /* ItemUseable - No */
      , (52628,  25,        320) /* Level */
      , (52628,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (29401, 'knightcaptainargenne2', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29401,   1,         16) /* ItemType - Creature */
      , (29401,   2,         83) /* CreatureType - ViamontianKnight */
-     , (29401,   6,        255) /* ItemsCapacity */
-     , (29401,   7,        255) /* ContainersCapacity */
+     , (29401,   6,         -1) /* ItemsCapacity */
+     , (29401,   7,         -1) /* ContainersCapacity */
      , (29401,  16,          1) /* ItemUseable - No */
      , (29401,  25,        115) /* Level */
      , (29401,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

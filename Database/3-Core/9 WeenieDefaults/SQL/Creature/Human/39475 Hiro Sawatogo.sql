@@ -6,8 +6,8 @@ VALUES (39475, 'ace39475-hirosawatogo', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39475,   1,         16) /* ItemType - Creature */
      , (39475,   2,         31) /* CreatureType - Human */
-     , (39475,   6,        255) /* ItemsCapacity */
-     , (39475,   7,        255) /* ContainersCapacity */
+     , (39475,   6,         -1) /* ItemsCapacity */
+     , (39475,   7,         -1) /* ContainersCapacity */
      , (39475,  16,         32) /* ItemUseable - Remote */
      , (39475,  25,        180) /* Level */
      , (39475,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

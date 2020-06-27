@@ -6,8 +6,8 @@ VALUES (719, 'holtburgtailor', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (719,   1,         16) /* ItemType - Creature */
      , (719,   2,         31) /* CreatureType - Human */
-     , (719,   6,        255) /* ItemsCapacity */
-     , (719,   7,        255) /* ContainersCapacity */
+     , (719,   6,         -1) /* ItemsCapacity */
+     , (719,   7,         -1) /* ContainersCapacity */
      , (719,  16,         32) /* ItemUseable - Remote */
      , (719,  25,          4) /* Level */
      , (719,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */

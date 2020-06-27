@@ -6,8 +6,8 @@ VALUES (6854, 'ayanbaqurarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6854,   1,         16) /* ItemType - Creature */
      , (6854,   2,         19) /* CreatureType - Virindi */
-     , (6854,   6,        255) /* ItemsCapacity */
-     , (6854,   7,        255) /* ContainersCapacity */
+     , (6854,   6,         -1) /* ItemsCapacity */
+     , (6854,   7,         -1) /* ContainersCapacity */
      , (6854,  16,         32) /* ItemUseable - Remote */
      , (6854,  25,        711) /* Level */
      , (6854,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

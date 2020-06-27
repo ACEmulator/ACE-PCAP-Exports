@@ -6,8 +6,8 @@ VALUES (49413, 'ace49413-awsomosspectre', 71, '2019-02-10 00:00:00') /* CombatPe
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49413,   1,         16) /* ItemType - Creature */
      , (49413,   2,         77) /* CreatureType - Ghost */
-     , (49413,   6,        255) /* ItemsCapacity */
-     , (49413,   7,        255) /* ContainersCapacity */
+     , (49413,   6,         -1) /* ItemsCapacity */
+     , (49413,   7,         -1) /* ContainersCapacity */
      , (49413,  16,          1) /* ItemUseable - No */
      , (49413,  25,        180) /* Level */
      , (49413,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

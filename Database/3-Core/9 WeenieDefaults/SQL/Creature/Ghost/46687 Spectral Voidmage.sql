@@ -6,8 +6,8 @@ VALUES (46687, 'ace46687-spectralvoidmage', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46687,   1,         16) /* ItemType - Creature */
      , (46687,   2,         77) /* CreatureType - Ghost */
-     , (46687,   6,        255) /* ItemsCapacity */
-     , (46687,   7,        255) /* ContainersCapacity */
+     , (46687,   6,         -1) /* ItemsCapacity */
+     , (46687,   7,         -1) /* ContainersCapacity */
      , (46687,  16,          1) /* ItemUseable - No */
      , (46687,  25,        265) /* Level */
      , (46687,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

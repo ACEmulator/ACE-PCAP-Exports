@@ -6,8 +6,8 @@ VALUES (983, 'samsurtailor', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (983,   1,         16) /* ItemType - Creature */
      , (983,   2,         31) /* CreatureType - Human */
-     , (983,   6,        255) /* ItemsCapacity */
-     , (983,   7,        255) /* ContainersCapacity */
+     , (983,   6,         -1) /* ItemsCapacity */
+     , (983,   7,         -1) /* ContainersCapacity */
      , (983,  16,         32) /* ItemUseable - Remote */
      , (983,  25,         11) /* Level */
      , (983,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

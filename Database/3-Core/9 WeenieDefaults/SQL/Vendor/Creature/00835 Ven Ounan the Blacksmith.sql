@@ -6,8 +6,8 @@ VALUES (835, 'shoushiblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (835,   1,         16) /* ItemType - Creature */
      , (835,   2,         31) /* CreatureType - Human */
-     , (835,   6,        255) /* ItemsCapacity */
-     , (835,   7,        255) /* ContainersCapacity */
+     , (835,   6,         -1) /* ItemsCapacity */
+     , (835,   7,         -1) /* ContainersCapacity */
      , (835,  16,         32) /* ItemUseable - Remote */
      , (835,  25,          6) /* Level */
      , (835,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

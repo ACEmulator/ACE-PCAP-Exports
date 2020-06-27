@@ -6,8 +6,8 @@ VALUES (20923, 'retreatarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20923,   1,         16) /* ItemType - Creature */
      , (20923,   2,         31) /* CreatureType - Human */
-     , (20923,   6,        255) /* ItemsCapacity */
-     , (20923,   7,        255) /* ContainersCapacity */
+     , (20923,   6,         -1) /* ItemsCapacity */
+     , (20923,   7,         -1) /* ContainersCapacity */
      , (20923,  16,         32) /* ItemUseable - Remote */
      , (20923,  25,         22) /* Level */
      , (20923,  74,     833536) /* MerchandiseItemTypes - Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

@@ -6,8 +6,8 @@ VALUES (23548, 'crystalshardsentient', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23548,   1,         16) /* ItemType - Creature */
      , (23548,   2,         47) /* CreatureType - Crystal */
-     , (23548,   6,        255) /* ItemsCapacity */
-     , (23548,   7,        255) /* ContainersCapacity */
+     , (23548,   6,         -1) /* ItemsCapacity */
+     , (23548,   7,         -1) /* ContainersCapacity */
      , (23548,  16,          1) /* ItemUseable - No */
      , (23548,  25,        160) /* Level */
      , (23548,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

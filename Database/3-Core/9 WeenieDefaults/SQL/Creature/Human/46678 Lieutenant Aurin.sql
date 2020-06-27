@@ -6,8 +6,8 @@ VALUES (46678, 'ace46678-lieutenantaurin', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46678,   1,         16) /* ItemType - Creature */
      , (46678,   2,         31) /* CreatureType - Human */
-     , (46678,   6,        255) /* ItemsCapacity */
-     , (46678,   7,        255) /* ContainersCapacity */
+     , (46678,   6,         -1) /* ItemsCapacity */
+     , (46678,   7,         -1) /* ContainersCapacity */
      , (46678,  16,         32) /* ItemUseable - Remote */
      , (46678,  25,        275) /* Level */
      , (46678,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

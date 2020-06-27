@@ -6,8 +6,8 @@ VALUES (29488, 'npcknightkarlunsirginazio', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29488,   1,         16) /* ItemType - Creature */
      , (29488,   2,         31) /* CreatureType - Human */
-     , (29488,   6,        255) /* ItemsCapacity */
-     , (29488,   7,        255) /* ContainersCapacity */
+     , (29488,   6,         -1) /* ItemsCapacity */
+     , (29488,   7,         -1) /* ContainersCapacity */
      , (29488,  16,         32) /* ItemUseable - Remote */
      , (29488,  25,         36) /* Level */
      , (29488,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

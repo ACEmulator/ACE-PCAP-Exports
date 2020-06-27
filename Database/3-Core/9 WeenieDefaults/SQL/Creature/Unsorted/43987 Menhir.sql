@@ -5,8 +5,8 @@ VALUES (43987, 'ace43987-menhir', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43987,   1,         16) /* ItemType - Creature */
-     , (43987,   6,        255) /* ItemsCapacity */
-     , (43987,   7,        255) /* ContainersCapacity */
+     , (43987,   6,         -1) /* ItemsCapacity */
+     , (43987,   7,         -1) /* ContainersCapacity */
      , (43987,  16,         32) /* ItemUseable - Remote */
      , (43987,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43987, 8007,          0) /* PCAPRecordedAutonomousMovement */;

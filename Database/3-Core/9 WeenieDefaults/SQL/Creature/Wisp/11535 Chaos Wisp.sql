@@ -6,8 +6,8 @@ VALUES (11535, 'wispchaos-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11535,   1,         16) /* ItemType - Creature */
      , (11535,   2,         20) /* CreatureType - Wisp */
-     , (11535,   6,        255) /* ItemsCapacity */
-     , (11535,   7,        255) /* ContainersCapacity */
+     , (11535,   6,         -1) /* ItemsCapacity */
+     , (11535,   7,         -1) /* ContainersCapacity */
      , (11535,  16,          1) /* ItemUseable - No */
      , (11535,  25,        115) /* Level */
      , (11535,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

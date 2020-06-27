@@ -6,8 +6,8 @@ VALUES (12242, 'furniturevendorgha', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12242,   1,         16) /* ItemType - Creature */
      , (12242,   2,         31) /* CreatureType - Human */
-     , (12242,   6,        255) /* ItemsCapacity */
-     , (12242,   7,        255) /* ContainersCapacity */
+     , (12242,   6,         -1) /* ItemsCapacity */
+     , (12242,   7,         -1) /* ContainersCapacity */
      , (12242,  16,         32) /* ItemUseable - Remote */
      , (12242,  25,          5) /* Level */
      , (12242,  74,     263296) /* MerchandiseItemTypes - Misc, Useless, PromissoryNote */

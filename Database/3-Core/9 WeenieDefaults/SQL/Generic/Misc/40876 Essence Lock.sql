@@ -5,8 +5,8 @@ VALUES (40876, 'ace40876-essencelock', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40876,   1,        128) /* ItemType - Misc */
-     , (40876,   6,        255) /* ItemsCapacity */
-     , (40876,   7,        255) /* ContainersCapacity */
+     , (40876,   6,         -1) /* ItemsCapacity */
+     , (40876,   7,         -1) /* ContainersCapacity */
      , (40876,  16,         32) /* ItemUseable - Remote */
      , (40876,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (40876,  95,          8) /* RadarBlipColor - Yellow */;

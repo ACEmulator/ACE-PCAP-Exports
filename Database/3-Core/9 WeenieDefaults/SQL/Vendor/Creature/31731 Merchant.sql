@@ -6,8 +6,8 @@ VALUES (31731, 'ace31731-merchant', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31731,   1,         16) /* ItemType - Creature */
      , (31731,   2,         31) /* CreatureType - Human */
-     , (31731,   6,        255) /* ItemsCapacity */
-     , (31731,   7,        255) /* ContainersCapacity */
+     , (31731,   6,         -1) /* ItemsCapacity */
+     , (31731,   7,         -1) /* ContainersCapacity */
      , (31731,  16,         32) /* ItemUseable - Remote */
      , (31731,  25,          8) /* Level */
      , (31731,  74, 1074030503) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, Writable, Key, PromissoryNote, TinkeringMaterial */

@@ -6,8 +6,8 @@ VALUES (32397, 'ace32397-antiusblackmoormemorial', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32397,   1,         16) /* ItemType - Creature */
      , (32397,   5,      13483) /* EncumbranceVal */
-     , (32397,   6,        255) /* ItemsCapacity */
-     , (32397,   7,        255) /* ContainersCapacity */
+     , (32397,   6,         -1) /* ItemsCapacity */
+     , (32397,   7,         -1) /* ContainersCapacity */
      , (32397,  16,         32) /* ItemUseable - Remote */
      , (32397,  44,          0) /* Damage */
      , (32397,  45,          3) /* DamageType - Slash, Pierce */

@@ -6,8 +6,8 @@ VALUES (51714, 'ace51714-spiritsorcerer', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51714,   1,         16) /* ItemType - Creature */
      , (51714,   2,         19) /* CreatureType - Virindi */
-     , (51714,   6,        255) /* ItemsCapacity */
-     , (51714,   7,        255) /* ContainersCapacity */
+     , (51714,   6,         -1) /* ItemsCapacity */
+     , (51714,   7,         -1) /* ContainersCapacity */
      , (51714,  16,          1) /* ItemUseable - No */
      , (51714,  25,        265) /* Level */
      , (51714,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (46438, 'ace46438-crypteidolon', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46438,   1,         16) /* ItemType - Creature */
-     , (46438,   6,        255) /* ItemsCapacity */
-     , (46438,   7,        255) /* ContainersCapacity */
+     , (46438,   6,         -1) /* ItemsCapacity */
+     , (46438,   7,         -1) /* ContainersCapacity */
      , (46438,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (46438,  95,          8) /* RadarBlipColor - Yellow */
      , (46438, 133,          4) /* ShowableOnRadar - ShowAlways */

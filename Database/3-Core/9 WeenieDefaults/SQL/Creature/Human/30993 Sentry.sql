@@ -6,8 +6,8 @@ VALUES (30993, 'academyguardsentrysanamar', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30993,   1,         16) /* ItemType - Creature */
      , (30993,   2,         31) /* CreatureType - Human */
-     , (30993,   6,        255) /* ItemsCapacity */
-     , (30993,   7,        255) /* ContainersCapacity */
+     , (30993,   6,         -1) /* ItemsCapacity */
+     , (30993,   7,         -1) /* ContainersCapacity */
      , (30993,  16,         32) /* ItemUseable - Remote */
      , (30993,  25,         67) /* Level */
      , (30993,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

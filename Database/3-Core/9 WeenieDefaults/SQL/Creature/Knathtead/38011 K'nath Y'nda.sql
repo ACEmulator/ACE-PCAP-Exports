@@ -6,8 +6,8 @@ VALUES (38011, 'ace38011-knathynda', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38011,   1,         16) /* ItemType - Creature */
      , (38011,   2,         21) /* CreatureType - Knathtead */
-     , (38011,   6,        255) /* ItemsCapacity */
-     , (38011,   7,        255) /* ContainersCapacity */
+     , (38011,   6,         -1) /* ItemsCapacity */
+     , (38011,   7,         -1) /* ContainersCapacity */
      , (38011,  16,          1) /* ItemUseable - No */
      , (38011,  25,        220) /* Level */
      , (38011,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

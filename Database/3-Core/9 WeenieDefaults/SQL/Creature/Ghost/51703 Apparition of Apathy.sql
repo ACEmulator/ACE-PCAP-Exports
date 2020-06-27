@@ -6,8 +6,8 @@ VALUES (51703, 'ace51703-apparitionofapathy', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51703,   1,         16) /* ItemType - Creature */
      , (51703,   2,         77) /* CreatureType - Ghost */
-     , (51703,   6,        255) /* ItemsCapacity */
-     , (51703,   7,        255) /* ContainersCapacity */
+     , (51703,   6,         -1) /* ItemsCapacity */
+     , (51703,   7,         -1) /* ContainersCapacity */
      , (51703,  16,          1) /* ItemUseable - No */
      , (51703,  25,        300) /* Level */
      , (51703,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

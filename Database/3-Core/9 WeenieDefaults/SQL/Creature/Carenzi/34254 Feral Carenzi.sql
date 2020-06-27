@@ -6,8 +6,8 @@ VALUES (34254, 'ace34254-feralcarenzi', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34254,   1,         16) /* ItemType - Creature */
      , (34254,   2,         55) /* CreatureType - Carenzi */
-     , (34254,   6,        255) /* ItemsCapacity */
-     , (34254,   7,        255) /* ContainersCapacity */
+     , (34254,   6,         -1) /* ItemsCapacity */
+     , (34254,   7,         -1) /* ContainersCapacity */
      , (34254,  16,          1) /* ItemUseable - No */
      , (34254,  25,        100) /* Level */
      , (34254,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

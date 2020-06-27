@@ -6,8 +6,8 @@ VALUES (4540, 'linarmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4540,   1,         16) /* ItemType - Creature */
      , (4540,   2,         31) /* CreatureType - Human */
-     , (4540,   6,        255) /* ItemsCapacity */
-     , (4540,   7,        255) /* ContainersCapacity */
+     , (4540,   6,         -1) /* ItemsCapacity */
+     , (4540,   7,         -1) /* ContainersCapacity */
      , (4540,  16,         32) /* ItemUseable - Remote */
      , (4540,  25,         10) /* Level */
      , (4540,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */

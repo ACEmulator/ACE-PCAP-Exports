@@ -6,8 +6,8 @@ VALUES (38575, 'ace38575-eldrytchwebquartermaster', 12, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38575,   1,         16) /* ItemType - Creature */
      , (38575,   2,         31) /* CreatureType - Human */
-     , (38575,   6,        255) /* ItemsCapacity */
-     , (38575,   7,        255) /* ContainersCapacity */
+     , (38575,   6,         -1) /* ItemsCapacity */
+     , (38575,   7,         -1) /* ContainersCapacity */
      , (38575,  16,         32) /* ItemUseable - Remote */
      , (38575,  25,        250) /* Level */
      , (38575,  74,          0) /* MerchandiseItemTypes - None */

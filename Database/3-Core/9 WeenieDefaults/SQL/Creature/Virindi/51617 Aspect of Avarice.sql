@@ -6,8 +6,8 @@ VALUES (51617, 'ace51617-aspectofavarice', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51617,   1,         16) /* ItemType - Creature */
      , (51617,   2,         19) /* CreatureType - Virindi */
-     , (51617,   6,        255) /* ItemsCapacity */
-     , (51617,   7,        255) /* ContainersCapacity */
+     , (51617,   6,         -1) /* ItemsCapacity */
+     , (51617,   7,         -1) /* ContainersCapacity */
      , (51617,  16,          1) /* ItemUseable - No */
      , (51617,  25,        500) /* Level */
      , (51617,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -5,8 +5,8 @@ VALUES (35104, 'ace35104-corpseofaservitorofasheron', 10, '2019-02-10 00:00:00')
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35104,   1,         16) /* ItemType - Creature */
-     , (35104,   6,        255) /* ItemsCapacity */
-     , (35104,   7,        255) /* ContainersCapacity */
+     , (35104,   6,         -1) /* ItemsCapacity */
+     , (35104,   7,         -1) /* ContainersCapacity */
      , (35104,  16,         32) /* ItemUseable - Remote */
      , (35104,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35104,  95,          8) /* RadarBlipColor - Yellow */

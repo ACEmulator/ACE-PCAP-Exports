@@ -6,8 +6,8 @@ VALUES (40132, 'ace40132-aggregatecrystallinewisp', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40132,   1,         16) /* ItemType - Creature */
      , (40132,   2,         20) /* CreatureType - Wisp */
-     , (40132,   6,        255) /* ItemsCapacity */
-     , (40132,   7,        255) /* ContainersCapacity */
+     , (40132,   6,         -1) /* ItemsCapacity */
+     , (40132,   7,         -1) /* ContainersCapacity */
      , (40132,  16,          1) /* ItemUseable - No */
      , (40132,  25,        115) /* Level */
      , (40132,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

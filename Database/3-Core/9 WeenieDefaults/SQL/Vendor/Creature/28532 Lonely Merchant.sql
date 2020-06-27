@@ -6,8 +6,8 @@ VALUES (28532, 'aljalimamerchantlonely', 12, '2019-02-10 00:00:00') /* Vendor */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28532,   1,         16) /* ItemType - Creature */
      , (28532,   2,         31) /* CreatureType - Human */
-     , (28532,   6,        255) /* ItemsCapacity */
-     , (28532,   7,        255) /* ContainersCapacity */
+     , (28532,   6,         -1) /* ItemsCapacity */
+     , (28532,   7,         -1) /* ContainersCapacity */
      , (28532,  16,         32) /* ItemUseable - Remote */
      , (28532,  25,         28) /* Level */
      , (28532,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

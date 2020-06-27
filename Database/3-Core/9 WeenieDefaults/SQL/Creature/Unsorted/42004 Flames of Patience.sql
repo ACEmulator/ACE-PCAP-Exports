@@ -5,8 +5,8 @@ VALUES (42004, 'ace42004-flamesofpatience', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42004,   1,         16) /* ItemType - Creature */
-     , (42004,   6,        255) /* ItemsCapacity */
-     , (42004,   7,        255) /* ContainersCapacity */
+     , (42004,   6,         -1) /* ItemsCapacity */
+     , (42004,   7,         -1) /* ContainersCapacity */
      , (42004,  16,         32) /* ItemUseable - Remote */
      , (42004,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42004,  95,          8) /* RadarBlipColor - Yellow */

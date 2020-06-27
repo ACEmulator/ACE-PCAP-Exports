@@ -6,8 +6,8 @@ VALUES (35834, 'ace35834-witheredraiderprefect', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35834,   1,         16) /* ItemType - Creature */
      , (35834,   2,         70) /* CreatureType - GotrokLugian */
-     , (35834,   6,        255) /* ItemsCapacity */
-     , (35834,   7,        255) /* ContainersCapacity */
+     , (35834,   6,         -1) /* ItemsCapacity */
+     , (35834,   7,         -1) /* ContainersCapacity */
      , (35834,  16,          1) /* ItemUseable - No */
      , (35834,  25,        160) /* Level */
      , (35834,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

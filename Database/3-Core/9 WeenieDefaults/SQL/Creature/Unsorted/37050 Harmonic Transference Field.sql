@@ -5,8 +5,8 @@ VALUES (37050, 'ace37050-harmonictransferencefield', 10, '2019-02-10 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37050,   1,         16) /* ItemType - Creature */
-     , (37050,   6,        255) /* ItemsCapacity */
-     , (37050,   7,        255) /* ContainersCapacity */
+     , (37050,   6,         -1) /* ItemsCapacity */
+     , (37050,   7,         -1) /* ContainersCapacity */
      , (37050,  16,         32) /* ItemUseable - Remote */
      , (37050,  93,    2100248) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment */
      , (37050,  95,          4) /* RadarBlipColor - Purple */

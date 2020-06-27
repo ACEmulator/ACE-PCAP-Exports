@@ -6,8 +6,8 @@ VALUES (35125, 'ace35125-disgracednanjoushoujen', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35125,   1,         16) /* ItemType - Creature */
      , (35125,   2,         31) /* CreatureType - Human */
-     , (35125,   6,        255) /* ItemsCapacity */
-     , (35125,   7,        255) /* ContainersCapacity */
+     , (35125,   6,         -1) /* ItemsCapacity */
+     , (35125,   7,         -1) /* ContainersCapacity */
      , (35125,  16,          1) /* ItemUseable - No */
      , (35125,  25,        160) /* Level */
      , (35125,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

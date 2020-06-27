@@ -5,8 +5,8 @@ VALUES (3927, 'obsidianalchemistgharundim', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3927,   1,         16) /* ItemType - Creature */
-     , (3927,   6,        255) /* ItemsCapacity */
-     , (3927,   7,        255) /* ContainersCapacity */
+     , (3927,   6,         -1) /* ItemsCapacity */
+     , (3927,   7,         -1) /* ContainersCapacity */
      , (3927,  16,         32) /* ItemUseable - Remote */
      , (3927,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3927,  95,          8) /* RadarBlipColor - Yellow */

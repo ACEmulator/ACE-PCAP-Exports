@@ -6,8 +6,8 @@ VALUES (5644, 'neydisacastleladytallial', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5644,   1,         16) /* ItemType - Creature */
      , (5644,   2,         31) /* CreatureType - Human */
-     , (5644,   6,        255) /* ItemsCapacity */
-     , (5644,   7,        255) /* ContainersCapacity */
+     , (5644,   6,         -1) /* ItemsCapacity */
+     , (5644,   7,         -1) /* ContainersCapacity */
      , (5644,  16,         32) /* ItemUseable - Remote */
      , (5644,  25,         50) /* Level */
      , (5644,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

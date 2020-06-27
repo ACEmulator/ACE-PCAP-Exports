@@ -6,8 +6,8 @@ VALUES (51674, 'ace51674-rynthidtaskmaster', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51674,   1,         16) /* ItemType - Creature */
      , (51674,   2,         19) /* CreatureType - Virindi */
-     , (51674,   6,        255) /* ItemsCapacity */
-     , (51674,   7,        255) /* ContainersCapacity */
+     , (51674,   6,         -1) /* ItemsCapacity */
+     , (51674,   7,         -1) /* ContainersCapacity */
      , (51674,  16,          1) /* ItemUseable - No */
      , (51674,  25,        300) /* Level */
      , (51674,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

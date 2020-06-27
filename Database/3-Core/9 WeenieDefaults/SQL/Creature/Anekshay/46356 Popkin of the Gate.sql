@@ -6,8 +6,8 @@ VALUES (46356, 'ace46356-popkinofthegate', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46356,   1,         16) /* ItemType - Creature */
      , (46356,   2,        101) /* CreatureType - Anekshay */
-     , (46356,   6,        255) /* ItemsCapacity */
-     , (46356,   7,        255) /* ContainersCapacity */
+     , (46356,   6,         -1) /* ItemsCapacity */
+     , (46356,   7,         -1) /* ContainersCapacity */
      , (46356,  16,         32) /* ItemUseable - Remote */
      , (46356,  25,        275) /* Level */
      , (46356,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

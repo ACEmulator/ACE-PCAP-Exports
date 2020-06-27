@@ -6,8 +6,8 @@ VALUES (6356, 'craterlakemagma', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6356,   1,         16) /* ItemType - Creature */
      , (6356,   2,         13) /* CreatureType - Golem */
-     , (6356,   6,        255) /* ItemsCapacity */
-     , (6356,   7,        255) /* ContainersCapacity */
+     , (6356,   6,         -1) /* ItemsCapacity */
+     , (6356,   7,         -1) /* ContainersCapacity */
      , (6356,  16,         32) /* ItemUseable - Remote */
      , (6356,  25,         49) /* Level */
      , (6356,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

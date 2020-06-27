@@ -6,8 +6,8 @@ VALUES (33629, 'ace33629-fouledremoran', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33629,   1,         16) /* ItemType - Creature */
      , (33629,   2,         84) /* CreatureType - Remoran */
-     , (33629,   6,        255) /* ItemsCapacity */
-     , (33629,   7,        255) /* ContainersCapacity */
+     , (33629,   6,         -1) /* ItemsCapacity */
+     , (33629,   7,         -1) /* ContainersCapacity */
      , (33629,  16,          1) /* ItemUseable - No */
      , (33629,  25,        185) /* Level */
      , (33629,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

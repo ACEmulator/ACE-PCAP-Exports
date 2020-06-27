@@ -6,8 +6,8 @@ VALUES (33170, 'ace33170-lieutenantberaxis', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33170,   1,         16) /* ItemType - Creature */
      , (33170,   2,         22) /* CreatureType - Shadow */
-     , (33170,   6,        255) /* ItemsCapacity */
-     , (33170,   7,        255) /* ContainersCapacity */
+     , (33170,   6,         -1) /* ItemsCapacity */
+     , (33170,   7,         -1) /* ContainersCapacity */
      , (33170,  16,          1) /* ItemUseable - No */
      , (33170,  25,        160) /* Level */
      , (33170,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

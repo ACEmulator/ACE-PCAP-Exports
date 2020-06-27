@@ -5,8 +5,8 @@ VALUES (34727, 'ace34727-colosseumarena', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34727,   1,         16) /* ItemType - Creature */
-     , (34727,   6,        255) /* ItemsCapacity */
-     , (34727,   7,        255) /* ContainersCapacity */
+     , (34727,   6,         -1) /* ItemsCapacity */
+     , (34727,   7,         -1) /* ContainersCapacity */
      , (34727,  16,         32) /* ItemUseable - Remote */
      , (34727,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34727,  95,          4) /* RadarBlipColor - Purple */

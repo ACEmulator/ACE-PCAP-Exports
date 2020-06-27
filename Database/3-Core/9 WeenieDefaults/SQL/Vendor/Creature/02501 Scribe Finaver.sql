@@ -6,8 +6,8 @@ VALUES (2501, 'plateauscribe', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2501,   1,         16) /* ItemType - Creature */
      , (2501,   2,         31) /* CreatureType - Human */
-     , (2501,   6,        255) /* ItemsCapacity */
-     , (2501,   7,        255) /* ContainersCapacity */
+     , (2501,   6,         -1) /* ItemsCapacity */
+     , (2501,   7,         -1) /* ContainersCapacity */
      , (2501,  16,         32) /* ItemUseable - Remote */
      , (2501,  25,         15) /* Level */
      , (2501,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

@@ -6,8 +6,8 @@ VALUES (38388, 'ace38388-kirinaofthecelestialhand', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38388,   1,         16) /* ItemType - Creature */
      , (38388,   2,         31) /* CreatureType - Human */
-     , (38388,   6,        255) /* ItemsCapacity */
-     , (38388,   7,        255) /* ContainersCapacity */
+     , (38388,   6,         -1) /* ItemsCapacity */
+     , (38388,   7,         -1) /* ContainersCapacity */
      , (38388,  16,         32) /* ItemUseable - Remote */
      , (38388,  25,        180) /* Level */
      , (38388,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

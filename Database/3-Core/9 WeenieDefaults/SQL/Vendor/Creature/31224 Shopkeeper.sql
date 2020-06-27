@@ -6,8 +6,8 @@ VALUES (31224, 'ace31224-shopkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31224,   1,         16) /* ItemType - Creature */
      , (31224,   2,         31) /* CreatureType - Human */
-     , (31224,   6,        255) /* ItemsCapacity */
-     , (31224,   7,        255) /* ContainersCapacity */
+     , (31224,   6,         -1) /* ItemsCapacity */
+     , (31224,   7,         -1) /* ContainersCapacity */
      , (31224,  16,         32) /* ItemUseable - Remote */
      , (31224,  25,         10) /* Level */
      , (31224,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

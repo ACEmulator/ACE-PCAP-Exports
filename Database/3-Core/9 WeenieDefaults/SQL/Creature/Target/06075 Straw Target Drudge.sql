@@ -6,8 +6,8 @@ VALUES (6075, 'drudgestrawtarget', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6075,   1,         16) /* ItemType - Creature */
      , (6075,   2,         76) /* CreatureType - Target */
-     , (6075,   6,        255) /* ItemsCapacity */
-     , (6075,   7,        255) /* ContainersCapacity */
+     , (6075,   6,         -1) /* ItemsCapacity */
+     , (6075,   7,         -1) /* ContainersCapacity */
      , (6075,  16,          1) /* ItemUseable - No */
      , (6075,  25,          2) /* Level */
      , (6075,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -5,8 +5,8 @@ VALUES (34252, 'ace34252-diseasedferalcarenziliver', 10, '2019-02-10 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34252,   1,         16) /* ItemType - Creature */
-     , (34252,   6,        255) /* ItemsCapacity */
-     , (34252,   7,        255) /* ContainersCapacity */
+     , (34252,   6,         -1) /* ItemsCapacity */
+     , (34252,   7,         -1) /* ContainersCapacity */
      , (34252,  16,         32) /* ItemUseable - Remote */
      , (34252,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34252,  95,          3) /* RadarBlipColor - White */

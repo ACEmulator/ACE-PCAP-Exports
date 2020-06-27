@@ -6,8 +6,8 @@ VALUES (38703, 'ace38703-turiqalqorra', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38703,   1,         16) /* ItemType - Creature */
      , (38703,   2,         31) /* CreatureType - Human */
-     , (38703,   6,        255) /* ItemsCapacity */
-     , (38703,   7,        255) /* ContainersCapacity */
+     , (38703,   6,         -1) /* ItemsCapacity */
+     , (38703,   7,         -1) /* ContainersCapacity */
      , (38703,  16,         32) /* ItemUseable - Remote */
      , (38703,  25,        182) /* Level */
      , (38703,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

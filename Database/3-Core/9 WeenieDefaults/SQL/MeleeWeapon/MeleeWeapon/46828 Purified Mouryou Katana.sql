@@ -28,7 +28,7 @@ VALUES (46828,   1,          1) /* ItemType - MeleeWeapon */
      , (46828, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (46828, 160,        400) /* WieldDifficulty */
      , (46828, 166,         77) /* SlayerCreatureType - Ghost */
-     , (46828, 265,        140) /* EquipmentSetId - UNKNOWN_140 */
+     , (46828, 265,        140) /* EquipmentSetId - ParagonMelee */
      , (46828, 319,         50) /* ItemMaxLevel */
      , (46828, 320,          1) /* ItemXpStyle - Fixed */
      , (46828, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */

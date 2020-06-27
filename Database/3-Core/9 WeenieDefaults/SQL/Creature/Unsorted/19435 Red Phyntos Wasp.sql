@@ -5,8 +5,8 @@ VALUES (19435, 'phyntoswaspred-immobile', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19435,   1,         16) /* ItemType - Creature */
-     , (19435,   6,        255) /* ItemsCapacity */
-     , (19435,   7,        255) /* ContainersCapacity */
+     , (19435,   6,         -1) /* ItemsCapacity */
+     , (19435,   7,         -1) /* ContainersCapacity */
      , (19435,  16,          1) /* ItemUseable - No */
      , (19435,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19435, 133,          4) /* ShowableOnRadar - ShowAlways */

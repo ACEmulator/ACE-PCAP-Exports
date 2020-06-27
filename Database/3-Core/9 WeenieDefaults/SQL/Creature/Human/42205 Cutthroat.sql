@@ -6,8 +6,8 @@ VALUES (42205, 'ace42205-cutthroat', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42205,   1,         16) /* ItemType - Creature */
      , (42205,   2,         31) /* CreatureType - Human */
-     , (42205,   6,        255) /* ItemsCapacity */
-     , (42205,   7,        255) /* ContainersCapacity */
+     , (42205,   6,         -1) /* ItemsCapacity */
+     , (42205,   7,         -1) /* ContainersCapacity */
      , (42205,  16,          1) /* ItemUseable - No */
      , (42205,  25,         40) /* Level */
      , (42205,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

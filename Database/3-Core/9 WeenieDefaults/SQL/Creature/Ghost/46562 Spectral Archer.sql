@@ -6,8 +6,8 @@ VALUES (46562, 'ace46562-spectralarcher', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46562,   1,         16) /* ItemType - Creature */
      , (46562,   2,         77) /* CreatureType - Ghost */
-     , (46562,   6,        255) /* ItemsCapacity */
-     , (46562,   7,        255) /* ContainersCapacity */
+     , (46562,   6,         -1) /* ItemsCapacity */
+     , (46562,   7,         -1) /* ContainersCapacity */
      , (46562,  16,          1) /* ItemUseable - No */
      , (46562,  25,        240) /* Level */
      , (46562,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

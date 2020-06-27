@@ -6,8 +6,8 @@ VALUES (2041, 'cragstonelibrarian', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2041,   1,         16) /* ItemType - Creature */
      , (2041,   2,         31) /* CreatureType - Human */
-     , (2041,   6,        255) /* ItemsCapacity */
-     , (2041,   7,        255) /* ContainersCapacity */
+     , (2041,   6,         -1) /* ItemsCapacity */
+     , (2041,   7,         -1) /* ContainersCapacity */
      , (2041,  16,         32) /* ItemUseable - Remote */
      , (2041,  25,          9) /* Level */
      , (2041,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */

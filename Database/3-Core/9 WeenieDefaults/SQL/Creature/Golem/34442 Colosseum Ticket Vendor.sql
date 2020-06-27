@@ -6,8 +6,8 @@ VALUES (34442, 'ace34442-colosseumticketvendor', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34442,   1,         16) /* ItemType - Creature */
      , (34442,   2,         13) /* CreatureType - Golem */
-     , (34442,   6,        255) /* ItemsCapacity */
-     , (34442,   7,        255) /* ContainersCapacity */
+     , (34442,   6,         -1) /* ItemsCapacity */
+     , (34442,   7,         -1) /* ContainersCapacity */
      , (34442,  16,         32) /* ItemUseable - Remote */
      , (34442,  25,        100) /* Level */
      , (34442,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (48879, 'ace48879-kanakoexperimentsgolem', 71, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48879,   1,         16) /* ItemType - Creature */
      , (48879,   2,         13) /* CreatureType - Golem */
-     , (48879,   6,        255) /* ItemsCapacity */
-     , (48879,   7,        255) /* ContainersCapacity */
+     , (48879,   6,         -1) /* ItemsCapacity */
+     , (48879,   7,         -1) /* ContainersCapacity */
      , (48879,  16,          1) /* ItemUseable - No */
      , (48879,  25,         50) /* Level */
      , (48879,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

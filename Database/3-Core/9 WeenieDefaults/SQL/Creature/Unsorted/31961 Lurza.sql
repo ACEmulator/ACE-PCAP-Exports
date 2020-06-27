@@ -5,8 +5,8 @@ VALUES (31961, 'ace31961-lurza', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31961,   1,         16) /* ItemType - Creature */
-     , (31961,   6,        255) /* ItemsCapacity */
-     , (31961,   7,        255) /* ContainersCapacity */
+     , (31961,   6,         -1) /* ItemsCapacity */
+     , (31961,   7,         -1) /* ContainersCapacity */
      , (31961,  16,         32) /* ItemUseable - Remote */
      , (31961,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31961,  95,          8) /* RadarBlipColor - Yellow */

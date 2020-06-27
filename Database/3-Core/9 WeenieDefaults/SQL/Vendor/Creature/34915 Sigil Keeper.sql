@@ -6,8 +6,8 @@ VALUES (34915, 'ace34915-sigilkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34915,   1,         16) /* ItemType - Creature */
      , (34915,   2,         13) /* CreatureType - Golem */
-     , (34915,   6,        255) /* ItemsCapacity */
-     , (34915,   7,        255) /* ContainersCapacity */
+     , (34915,   6,         -1) /* ItemsCapacity */
+     , (34915,   7,         -1) /* ContainersCapacity */
      , (34915,  16,         32) /* ItemUseable - Remote */
      , (34915,  25,          5) /* Level */
      , (34915,  74,     278656) /* MerchandiseItemTypes - Misc, Key, PromissoryNote */

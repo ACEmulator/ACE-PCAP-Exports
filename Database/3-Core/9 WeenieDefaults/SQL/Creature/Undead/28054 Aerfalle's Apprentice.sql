@@ -6,8 +6,8 @@ VALUES (28054, 'darkmagusaerfalleuber', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28054,   1,         16) /* ItemType - Creature */
      , (28054,   2,         14) /* CreatureType - Undead */
-     , (28054,   6,        255) /* ItemsCapacity */
-     , (28054,   7,        255) /* ContainersCapacity */
+     , (28054,   6,         -1) /* ItemsCapacity */
+     , (28054,   7,         -1) /* ContainersCapacity */
      , (28054,  16,          1) /* ItemUseable - No */
      , (28054,  25,        135) /* Level */
      , (28054,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (37600, 'ace37600-vieranaducanamorra', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37600,   1,         16) /* ItemType - Creature */
      , (37600,   2,         31) /* CreatureType - Human */
-     , (37600,   6,        255) /* ItemsCapacity */
-     , (37600,   7,        255) /* ContainersCapacity */
+     , (37600,   6,         -1) /* ItemsCapacity */
+     , (37600,   7,         -1) /* ContainersCapacity */
      , (37600,  16,         32) /* ItemUseable - Remote */
      , (37600,  25,        100) /* Level */
      , (37600,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

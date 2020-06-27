@@ -6,8 +6,8 @@ VALUES (2221, 'dryreachbarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2221,   1,         16) /* ItemType - Creature */
      , (2221,   2,         31) /* CreatureType - Human */
-     , (2221,   6,        255) /* ItemsCapacity */
-     , (2221,   7,        255) /* ContainersCapacity */
+     , (2221,   6,         -1) /* ItemsCapacity */
+     , (2221,   7,         -1) /* ContainersCapacity */
      , (2221,  16,         32) /* ItemUseable - Remote */
      , (2221,  25,          9) /* Level */
      , (2221,  74,     278560) /* MerchandiseItemTypes - Food, Key, PromissoryNote */

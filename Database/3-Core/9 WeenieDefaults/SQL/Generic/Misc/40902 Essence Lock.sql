@@ -6,8 +6,8 @@ VALUES (40902, 'ace40902-essencelock', 1, '2019-02-10 00:00:00') /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40902,   1,        128) /* ItemType - Misc */
      , (40902,   5,        500) /* EncumbranceVal */
-     , (40902,   6,        255) /* ItemsCapacity */
-     , (40902,   7,        255) /* ContainersCapacity */
+     , (40902,   6,         -1) /* ItemsCapacity */
+     , (40902,   7,         -1) /* ContainersCapacity */
      , (40902,  16,         32) /* ItemUseable - Remote */
      , (40902,  19,          0) /* Value */
      , (40902,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

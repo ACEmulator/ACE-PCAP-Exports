@@ -6,8 +6,8 @@ VALUES (32931, 'ace32931-twilightrabbit', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32931,   1,         16) /* ItemType - Creature */
      , (32931,   2,         25) /* CreatureType - Rabbit */
-     , (32931,   6,        255) /* ItemsCapacity */
-     , (32931,   7,        255) /* ContainersCapacity */
+     , (32931,   6,         -1) /* ItemsCapacity */
+     , (32931,   7,         -1) /* ContainersCapacity */
      , (32931,  16,          1) /* ItemUseable - No */
      , (32931,  25,        115) /* Level */
      , (32931,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

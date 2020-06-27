@@ -6,8 +6,8 @@ VALUES (11629, 'locollectorspear', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11629,   1,         16) /* ItemType - Creature */
      , (11629,   2,         19) /* CreatureType - Virindi */
-     , (11629,   6,        255) /* ItemsCapacity */
-     , (11629,   7,        255) /* ContainersCapacity */
+     , (11629,   6,         -1) /* ItemsCapacity */
+     , (11629,   7,         -1) /* ContainersCapacity */
      , (11629,  16,         32) /* ItemUseable - Remote */
      , (11629,  25,         60) /* Level */
      , (11629,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

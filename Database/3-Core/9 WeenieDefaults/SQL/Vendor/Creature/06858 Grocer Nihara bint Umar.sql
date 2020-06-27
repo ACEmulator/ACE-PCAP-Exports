@@ -6,8 +6,8 @@ VALUES (6858, 'ayanbaqurgrocer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6858,   1,         16) /* ItemType - Creature */
      , (6858,   2,         31) /* CreatureType - Human */
-     , (6858,   6,        255) /* ItemsCapacity */
-     , (6858,   7,        255) /* ContainersCapacity */
+     , (6858,   6,         -1) /* ItemsCapacity */
+     , (6858,   7,         -1) /* ContainersCapacity */
      , (6858,  16,         32) /* ItemUseable - Remote */
      , (6858,  25,         11) /* Level */
      , (6858,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */

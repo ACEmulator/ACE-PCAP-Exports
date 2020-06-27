@@ -6,8 +6,8 @@ VALUES (15299, 'simulacrummartinate', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15299,   1,         16) /* ItemType - Creature */
      , (15299,   2,         59) /* CreatureType - Simulacrum */
-     , (15299,   6,        255) /* ItemsCapacity */
-     , (15299,   7,        255) /* ContainersCapacity */
+     , (15299,   6,         -1) /* ItemsCapacity */
+     , (15299,   7,         -1) /* ContainersCapacity */
      , (15299,  16,          1) /* ItemUseable - No */
      , (15299,  25,         50) /* Level */
      , (15299,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

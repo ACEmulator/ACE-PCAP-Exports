@@ -6,8 +6,8 @@ VALUES (40952, 'ace40952-grocerkhamalalrachard', 12, '2019-02-10 00:00:00') /* V
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40952,   1,         16) /* ItemType - Creature */
      , (40952,   2,         31) /* CreatureType - Human */
-     , (40952,   6,        255) /* ItemsCapacity */
-     , (40952,   7,        255) /* ContainersCapacity */
+     , (40952,   6,         -1) /* ItemsCapacity */
+     , (40952,   7,         -1) /* ContainersCapacity */
      , (40952,  16,         32) /* ItemUseable - Remote */
      , (40952,  25,         11) /* Level */
      , (40952,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

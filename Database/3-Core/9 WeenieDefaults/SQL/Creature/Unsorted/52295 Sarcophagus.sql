@@ -5,8 +5,8 @@ VALUES (52295, 'ace52295-sarcophagus', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52295,   1,         16) /* ItemType - Creature */
-     , (52295,   6,        255) /* ItemsCapacity */
-     , (52295,   7,        255) /* ContainersCapacity */
+     , (52295,   6,         -1) /* ItemsCapacity */
+     , (52295,   7,         -1) /* ContainersCapacity */
      , (52295,  16,          1) /* ItemUseable - No */
      , (52295,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52295, 133,          4) /* ShowableOnRadar - ShowAlways */

@@ -6,8 +6,8 @@ VALUES (40254, 'ace40254-falatacotpatrol', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40254,   1,         16) /* ItemType - Creature */
      , (40254,   2,         14) /* CreatureType - Undead */
-     , (40254,   6,        255) /* ItemsCapacity */
-     , (40254,   7,        255) /* ContainersCapacity */
+     , (40254,   6,         -1) /* ItemsCapacity */
+     , (40254,   7,         -1) /* ContainersCapacity */
      , (40254,  16,          1) /* ItemUseable - No */
      , (40254,  25,        200) /* Level */
      , (40254,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

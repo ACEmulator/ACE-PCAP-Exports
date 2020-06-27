@@ -6,8 +6,8 @@ VALUES (11393, 'greenspirescribeprovisionerhealer-xp', 12, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11393,   1,         16) /* ItemType - Creature */
      , (11393,   2,         31) /* CreatureType - Human */
-     , (11393,   6,        255) /* ItemsCapacity */
-     , (11393,   7,        255) /* ContainersCapacity */
+     , (11393,   6,         -1) /* ItemsCapacity */
+     , (11393,   7,         -1) /* ContainersCapacity */
      , (11393,  16,         32) /* ItemUseable - Remote */
      , (11393,  25,          4) /* Level */
      , (11393,  74, 1078223008) /* MerchandiseItemTypes - Food, Misc, Writable, Key, PromissoryNote, CraftCookingBase, TinkeringMaterial */

@@ -6,8 +6,8 @@ VALUES (1757, 'shadowlieutenant', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1757,   1,         16) /* ItemType - Creature */
      , (1757,   2,         22) /* CreatureType - Shadow */
-     , (1757,   6,        255) /* ItemsCapacity */
-     , (1757,   7,        255) /* ContainersCapacity */
+     , (1757,   6,         -1) /* ItemsCapacity */
+     , (1757,   7,         -1) /* ContainersCapacity */
      , (1757,  16,          1) /* ItemUseable - No */
      , (1757,  25,         60) /* Level */
      , (1757,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

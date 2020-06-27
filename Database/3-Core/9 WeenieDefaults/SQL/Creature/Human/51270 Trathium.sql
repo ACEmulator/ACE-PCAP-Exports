@@ -6,8 +6,8 @@ VALUES (51270, 'ace51270-trathium', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51270,   1,         16) /* ItemType - Creature */
      , (51270,   2,         31) /* CreatureType - Human */
-     , (51270,   6,        255) /* ItemsCapacity */
-     , (51270,   7,        255) /* ContainersCapacity */
+     , (51270,   6,         -1) /* ItemsCapacity */
+     , (51270,   7,         -1) /* ContainersCapacity */
      , (51270,  16,         32) /* ItemUseable - Remote */
      , (51270,  25,        180) /* Level */
      , (51270,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

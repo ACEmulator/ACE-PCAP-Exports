@@ -6,8 +6,8 @@ VALUES (23040, 'warehousemanagerfallencantgetup', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23040,   1,         16) /* ItemType - Creature */
      , (23040,   2,          6) /* CreatureType - Tumerok */
-     , (23040,   6,        255) /* ItemsCapacity */
-     , (23040,   7,        255) /* ContainersCapacity */
+     , (23040,   6,         -1) /* ItemsCapacity */
+     , (23040,   7,         -1) /* ContainersCapacity */
      , (23040,  16,         32) /* ItemUseable - Remote */
      , (23040,  25,         18) /* Level */
      , (23040,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (44075, 'ace44075-cavern', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44075,   1,         16) /* ItemType - Creature */
-     , (44075,   6,        255) /* ItemsCapacity */
-     , (44075,   7,        255) /* ContainersCapacity */
+     , (44075,   6,         -1) /* ItemsCapacity */
+     , (44075,   7,         -1) /* ContainersCapacity */
      , (44075,  16,         32) /* ItemUseable - Remote */
      , (44075,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44075,  95,          4) /* RadarBlipColor - Purple */

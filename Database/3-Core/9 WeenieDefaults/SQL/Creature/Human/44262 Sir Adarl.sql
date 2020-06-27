@@ -6,8 +6,8 @@ VALUES (44262, 'ace44262-siradarl', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44262,   1,         16) /* ItemType - Creature */
      , (44262,   2,         31) /* CreatureType - Human */
-     , (44262,   6,        255) /* ItemsCapacity */
-     , (44262,   7,        255) /* ContainersCapacity */
+     , (44262,   6,         -1) /* ItemsCapacity */
+     , (44262,   7,         -1) /* ContainersCapacity */
      , (44262,  16,         32) /* ItemUseable - Remote */
      , (44262,  25,        275) /* Level */
      , (44262,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (31408, 'ace31408-archoningfall', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31408,   1,         16) /* ItemType - Creature */
      , (31408,   2,         31) /* CreatureType - Human */
-     , (31408,   6,        255) /* ItemsCapacity */
-     , (31408,   7,        255) /* ContainersCapacity */
+     , (31408,   6,         -1) /* ItemsCapacity */
+     , (31408,   7,         -1) /* ContainersCapacity */
      , (31408,  16,          1) /* ItemUseable - No */
      , (31408,  25,        160) /* Level */
      , (31408,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

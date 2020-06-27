@@ -6,8 +6,8 @@ VALUES (48968, 'ace48968-uzikalzarafselemental', 71, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48968,   1,         16) /* ItemType - Creature */
      , (48968,   2,         62) /* CreatureType - Elemental */
-     , (48968,   6,        255) /* ItemsCapacity */
-     , (48968,   7,        255) /* ContainersCapacity */
+     , (48968,   6,         -1) /* ItemsCapacity */
+     , (48968,   7,         -1) /* ContainersCapacity */
      , (48968,  16,          1) /* ItemUseable - No */
      , (48968,  25,        150) /* Level */
      , (48968,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (40103, 'ace40103-oorjit', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40103,   1,         16) /* ItemType - Creature */
      , (40103,   2,         31) /* CreatureType - Human */
-     , (40103,   6,        255) /* ItemsCapacity */
-     , (40103,   7,        255) /* ContainersCapacity */
+     , (40103,   6,         -1) /* ItemsCapacity */
+     , (40103,   7,         -1) /* ContainersCapacity */
      , (40103,  16,         32) /* ItemUseable - Remote */
      , (40103,  25,        190) /* Level */
      , (40103,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

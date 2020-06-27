@@ -6,8 +6,8 @@ VALUES (51807, 'ace51807-empoweredhatredwisp', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51807,   1,         16) /* ItemType - Creature */
      , (51807,   2,         20) /* CreatureType - Wisp */
-     , (51807,   6,        255) /* ItemsCapacity */
-     , (51807,   7,        255) /* ContainersCapacity */
+     , (51807,   6,         -1) /* ItemsCapacity */
+     , (51807,   7,         -1) /* ContainersCapacity */
      , (51807,  16,          1) /* ItemUseable - No */
      , (51807,  25,        285) /* Level */
      , (51807,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (43516, 'ace43516-gurogsoldier', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43516,   1,         16) /* ItemType - Creature */
      , (43516,   2,        100) /* CreatureType - Gurog */
-     , (43516,   6,        255) /* ItemsCapacity */
-     , (43516,   7,        255) /* ContainersCapacity */
+     , (43516,   6,         -1) /* ItemsCapacity */
+     , (43516,   7,         -1) /* ContainersCapacity */
      , (43516,  16,          1) /* ItemUseable - No */
      , (43516,  25,        220) /* Level */
      , (43516,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

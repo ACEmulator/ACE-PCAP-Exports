@@ -6,8 +6,8 @@ VALUES (39451, 'ace39451-tendriloftthuun', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39451,   1,         16) /* ItemType - Creature */
      , (39451,   2,         36) /* CreatureType - Slithis */
-     , (39451,   6,        255) /* ItemsCapacity */
-     , (39451,   7,        255) /* ContainersCapacity */
+     , (39451,   6,         -1) /* ItemsCapacity */
+     , (39451,   7,         -1) /* ContainersCapacity */
      , (39451,  16,          1) /* ItemUseable - No */
      , (39451,  25,        185) /* Level */
      , (39451,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

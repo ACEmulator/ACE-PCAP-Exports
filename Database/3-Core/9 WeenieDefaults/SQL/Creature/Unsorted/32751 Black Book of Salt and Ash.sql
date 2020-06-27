@@ -5,8 +5,8 @@ VALUES (32751, 'ace32751-blackbookofsaltandash', 10, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32751,   1,         16) /* ItemType - Creature */
-     , (32751,   6,        255) /* ItemsCapacity */
-     , (32751,   7,        255) /* ContainersCapacity */
+     , (32751,   6,         -1) /* ItemsCapacity */
+     , (32751,   7,         -1) /* ContainersCapacity */
      , (32751,  16,         32) /* ItemUseable - Remote */
      , (32751,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32751,  95,          8) /* RadarBlipColor - Yellow */

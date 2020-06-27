@@ -6,8 +6,8 @@ VALUES (35209, 'ace35209-tibik', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35209,   1,         16) /* ItemType - Creature */
      , (35209,   2,         75) /* CreatureType - Burun */
-     , (35209,   6,        255) /* ItemsCapacity */
-     , (35209,   7,        255) /* ContainersCapacity */
+     , (35209,   6,         -1) /* ItemsCapacity */
+     , (35209,   7,         -1) /* ContainersCapacity */
      , (35209,  16,         32) /* ItemUseable - Remote */
      , (35209,  25,         60) /* Level */
      , (35209,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

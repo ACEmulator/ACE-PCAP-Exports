@@ -6,8 +6,8 @@ VALUES (37477, 'ace37477-hurnmelthesmith', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37477,   1,         16) /* ItemType - Creature */
      , (37477,   2,         77) /* CreatureType - Ghost */
-     , (37477,   6,        255) /* ItemsCapacity */
-     , (37477,   7,        255) /* ContainersCapacity */
+     , (37477,   6,         -1) /* ItemsCapacity */
+     , (37477,   7,         -1) /* ContainersCapacity */
      , (37477,  16,         32) /* ItemUseable - Remote */
      , (37477,  25,         87) /* Level */
      , (37477,  74,          0) /* MerchandiseItemTypes - None */

@@ -6,8 +6,8 @@ VALUES (40985, 'ace40985-jean', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40985,   1,         16) /* ItemType - Creature */
      , (40985,   2,         19) /* CreatureType - Virindi */
-     , (40985,   6,        255) /* ItemsCapacity */
-     , (40985,   7,        255) /* ContainersCapacity */
+     , (40985,   6,         -1) /* ItemsCapacity */
+     , (40985,   7,         -1) /* ContainersCapacity */
      , (40985,  16,         32) /* ItemUseable - Remote */
      , (40985,  25,        196) /* Level */
      , (40985,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

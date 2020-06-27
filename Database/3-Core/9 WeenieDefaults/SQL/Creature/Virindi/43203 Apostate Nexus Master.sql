@@ -6,8 +6,8 @@ VALUES (43203, 'ace43203-apostatenexusmaster', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43203,   1,         16) /* ItemType - Creature */
      , (43203,   2,         19) /* CreatureType - Virindi */
-     , (43203,   6,        255) /* ItemsCapacity */
-     , (43203,   7,        255) /* ContainersCapacity */
+     , (43203,   6,         -1) /* ItemsCapacity */
+     , (43203,   7,         -1) /* ContainersCapacity */
      , (43203,  16,          1) /* ItemUseable - No */
      , (43203,  25,        220) /* Level */
      , (43203,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

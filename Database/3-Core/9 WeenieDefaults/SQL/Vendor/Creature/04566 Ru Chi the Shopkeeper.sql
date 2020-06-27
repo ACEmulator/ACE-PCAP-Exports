@@ -5,8 +5,8 @@ VALUES (4566, 'yanshisouthoutpostshopkeep', 12, '2019-02-10 00:00:00') /* Vendor
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4566,   1,         16) /* ItemType - Creature */
-     , (4566,   6,        255) /* ItemsCapacity */
-     , (4566,   7,        255) /* ContainersCapacity */
+     , (4566,   6,         -1) /* ItemsCapacity */
+     , (4566,   7,         -1) /* ContainersCapacity */
      , (4566,  16,         32) /* ItemUseable - Remote */
      , (4566,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4566, 133,          4) /* ShowableOnRadar - ShowAlways */

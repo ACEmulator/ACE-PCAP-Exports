@@ -6,8 +6,8 @@ VALUES (24960, 'olthoiflyerpiercer', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24960,   1,         16) /* ItemType - Creature */
      , (24960,   2,          1) /* CreatureType - Olthoi */
-     , (24960,   6,        255) /* ItemsCapacity */
-     , (24960,   7,        255) /* ContainersCapacity */
+     , (24960,   6,         -1) /* ItemsCapacity */
+     , (24960,   7,         -1) /* ContainersCapacity */
      , (24960,  16,          1) /* ItemUseable - No */
      , (24960,  25,         80) /* Level */
      , (24960,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (24960,   1,   33558421) /* Setup */
      , (24960,   6,   67114440) /* PaletteBase */
      , (24960,   8,  100674626) /* Icon */
      , (24960,  22,  872415398) /* PhysicsEffectTable */
+     , (24960,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24960, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24960, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24960, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (24960, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (24960, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24960, 8040, 2312175624, 2.78599, 174.4333, 164.0043, -0.768697, 0, 0, -0.6396132) /* PCAPRecordedLocation */

@@ -5,8 +5,8 @@ VALUES (32408, 'ace32408-weapontinkeringwardenofforgetfulness', 10, '2019-02-10 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32408,   1,         16) /* ItemType - Creature */
-     , (32408,   6,        255) /* ItemsCapacity */
-     , (32408,   7,        255) /* ContainersCapacity */
+     , (32408,   6,         -1) /* ItemsCapacity */
+     , (32408,   7,         -1) /* ContainersCapacity */
      , (32408,  16,         32) /* ItemUseable - Remote */
      , (32408,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32408,  95,          3) /* RadarBlipColor - White */

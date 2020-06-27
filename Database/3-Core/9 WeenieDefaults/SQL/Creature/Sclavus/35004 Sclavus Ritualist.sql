@@ -6,8 +6,8 @@ VALUES (35004, 'ace35004-sclavusritualist', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35004,   1,         16) /* ItemType - Creature */
      , (35004,   2,         26) /* CreatureType - Sclavus */
-     , (35004,   6,        255) /* ItemsCapacity */
-     , (35004,   7,        255) /* ContainersCapacity */
+     , (35004,   6,         -1) /* ItemsCapacity */
+     , (35004,   7,         -1) /* ContainersCapacity */
      , (35004,  16,          1) /* ItemUseable - No */
      , (35004,  25,        185) /* Level */
      , (35004,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

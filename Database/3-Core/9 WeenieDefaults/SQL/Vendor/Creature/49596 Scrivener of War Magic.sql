@@ -6,8 +6,8 @@ VALUES (49596, 'ace49596-scrivenerofwarmagic', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49596,   1,         16) /* ItemType - Creature */
      , (49596,   2,         31) /* CreatureType - Human */
-     , (49596,   6,        255) /* ItemsCapacity */
-     , (49596,   7,        255) /* ContainersCapacity */
+     , (49596,   6,         -1) /* ItemsCapacity */
+     , (49596,   7,         -1) /* ContainersCapacity */
      , (49596,  16,         32) /* ItemUseable - Remote */
      , (49596,  25,         14) /* Level */
      , (49596,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */

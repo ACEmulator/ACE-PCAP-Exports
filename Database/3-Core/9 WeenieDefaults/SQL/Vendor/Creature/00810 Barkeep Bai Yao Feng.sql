@@ -6,8 +6,8 @@ VALUES (810, 'yanshibarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (810,   1,         16) /* ItemType - Creature */
      , (810,   2,         31) /* CreatureType - Human */
-     , (810,   6,        255) /* ItemsCapacity */
-     , (810,   7,        255) /* ContainersCapacity */
+     , (810,   6,         -1) /* ItemsCapacity */
+     , (810,   7,         -1) /* ContainersCapacity */
      , (810,  16,         32) /* ItemUseable - Remote */
      , (810,  25,          6) /* Level */
      , (810,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

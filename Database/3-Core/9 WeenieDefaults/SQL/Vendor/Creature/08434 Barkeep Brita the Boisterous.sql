@@ -6,8 +6,8 @@ VALUES (8434, 'krystbarkeep', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8434,   1,         16) /* ItemType - Creature */
      , (8434,   2,         31) /* CreatureType - Human */
-     , (8434,   6,        255) /* ItemsCapacity */
-     , (8434,   7,        255) /* ContainersCapacity */
+     , (8434,   6,         -1) /* ItemsCapacity */
+     , (8434,   7,         -1) /* ContainersCapacity */
      , (8434,  16,         32) /* ItemUseable - Remote */
      , (8434,  25,         13) /* Level */
      , (8434,  74,     262178) /* MerchandiseItemTypes - Armor, Food, PromissoryNote */

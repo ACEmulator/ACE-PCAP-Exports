@@ -6,8 +6,8 @@ VALUES (19460, 'artificerarcanum', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19460,   1,         16) /* ItemType - Creature */
      , (19460,   2,         31) /* CreatureType - Human */
-     , (19460,   6,        255) /* ItemsCapacity */
-     , (19460,   7,        255) /* ContainersCapacity */
+     , (19460,   6,         -1) /* ItemsCapacity */
+     , (19460,   7,         -1) /* ContainersCapacity */
      , (19460,  16,         32) /* ItemUseable - Remote */
      , (19460,  25,         75) /* Level */
      , (19460,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

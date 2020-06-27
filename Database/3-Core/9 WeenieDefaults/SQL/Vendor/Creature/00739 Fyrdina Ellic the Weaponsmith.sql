@@ -6,8 +6,8 @@ VALUES (739, 'glendenweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (739,   1,         16) /* ItemType - Creature */
      , (739,   2,         31) /* CreatureType - Human */
-     , (739,   6,        255) /* ItemsCapacity */
-     , (739,   7,        255) /* ContainersCapacity */
+     , (739,   6,         -1) /* ItemsCapacity */
+     , (739,   7,         -1) /* ContainersCapacity */
      , (739,  16,         32) /* ItemUseable - Remote */
      , (739,  25,         13) /* Level */
      , (739,  74, 1074004231) /* MerchandiseItemTypes - Vestements, Weapon, PromissoryNote, TinkeringMaterial */

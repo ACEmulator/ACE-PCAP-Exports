@@ -6,8 +6,8 @@ VALUES (9417, 'linvaktukalhealer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9417,   1,         16) /* ItemType - Creature */
      , (9417,   2,          5) /* CreatureType - Lugian */
-     , (9417,   6,        255) /* ItemsCapacity */
-     , (9417,   7,        255) /* ContainersCapacity */
+     , (9417,   6,         -1) /* ItemsCapacity */
+     , (9417,   7,         -1) /* ContainersCapacity */
      , (9417,  16,         32) /* ItemUseable - Remote */
      , (9417,  25,         73) /* Level */
      , (9417,  74,     266368) /* MerchandiseItemTypes - Misc, SpellComponents, PromissoryNote */
