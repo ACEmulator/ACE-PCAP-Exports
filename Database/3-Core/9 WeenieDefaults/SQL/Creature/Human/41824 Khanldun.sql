@@ -6,8 +6,8 @@ VALUES (41824, 'ace41824-khanldun', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41824,   1,         16) /* ItemType - Creature */
      , (41824,   2,         31) /* CreatureType - Human */
-     , (41824,   6,        255) /* ItemsCapacity */
-     , (41824,   7,        255) /* ContainersCapacity */
+     , (41824,   6,         -1) /* ItemsCapacity */
+     , (41824,   7,         -1) /* ContainersCapacity */
      , (41824,  16,         32) /* ItemUseable - Remote */
      , (41824,  25,        180) /* Level */
      , (41824,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

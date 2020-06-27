@@ -6,8 +6,8 @@ VALUES (4448, 'rithwiceastoutpostshopkeep', 12, '2019-02-10 00:00:00') /* Vendor
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4448,   1,         16) /* ItemType - Creature */
      , (4448,   2,         31) /* CreatureType - Human */
-     , (4448,   6,        255) /* ItemsCapacity */
-     , (4448,   7,        255) /* ContainersCapacity */
+     , (4448,   6,         -1) /* ItemsCapacity */
+     , (4448,   7,         -1) /* ContainersCapacity */
      , (4448,  16,         32) /* ItemUseable - Remote */
      , (4448,  25,          3) /* Level */
      , (4448,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

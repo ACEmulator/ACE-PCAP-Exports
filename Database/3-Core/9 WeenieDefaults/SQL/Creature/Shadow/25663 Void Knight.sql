@@ -6,8 +6,8 @@ VALUES (25663, 'shadowvoidknightvod', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25663,   1,         16) /* ItemType - Creature */
      , (25663,   2,         22) /* CreatureType - Shadow */
-     , (25663,   6,        255) /* ItemsCapacity */
-     , (25663,   7,        255) /* ContainersCapacity */
+     , (25663,   6,         -1) /* ItemsCapacity */
+     , (25663,   7,         -1) /* ContainersCapacity */
      , (25663,  16,          1) /* ItemUseable - No */
      , (25663,  25,        160) /* Level */
      , (25663,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

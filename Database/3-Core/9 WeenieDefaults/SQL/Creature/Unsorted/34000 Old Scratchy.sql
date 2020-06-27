@@ -5,8 +5,8 @@ VALUES (34000, 'ace34000-oldscratchy', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34000,   1,         16) /* ItemType - Creature */
-     , (34000,   6,        255) /* ItemsCapacity */
-     , (34000,   7,        255) /* ContainersCapacity */
+     , (34000,   6,         -1) /* ItemsCapacity */
+     , (34000,   7,         -1) /* ContainersCapacity */
      , (34000,  16,          1) /* ItemUseable - No */
      , (34000,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34000, 133,          2) /* ShowableOnRadar - ShowMovement */

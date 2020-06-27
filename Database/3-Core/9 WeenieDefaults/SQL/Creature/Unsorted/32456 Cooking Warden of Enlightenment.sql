@@ -5,8 +5,8 @@ VALUES (32456, 'ace32456-cookingwardenofenlightenment', 10, '2019-02-10 00:00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32456,   1,         16) /* ItemType - Creature */
-     , (32456,   6,        255) /* ItemsCapacity */
-     , (32456,   7,        255) /* ContainersCapacity */
+     , (32456,   6,         -1) /* ItemsCapacity */
+     , (32456,   7,         -1) /* ContainersCapacity */
      , (32456,  16,         32) /* ItemUseable - Remote */
      , (32456,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32456,  95,          3) /* RadarBlipColor - White */

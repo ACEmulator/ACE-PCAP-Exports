@@ -5,8 +5,8 @@ VALUES (29039, 'guardianizjiqotests60', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29039,   1,         16) /* ItemType - Creature */
-     , (29039,   6,        255) /* ItemsCapacity */
-     , (29039,   7,        255) /* ContainersCapacity */
+     , (29039,   6,         -1) /* ItemsCapacity */
+     , (29039,   7,         -1) /* ContainersCapacity */
      , (29039,  16,         32) /* ItemUseable - Remote */
      , (29039,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29039,  95,          3) /* RadarBlipColor - White */

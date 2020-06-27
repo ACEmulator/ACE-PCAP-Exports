@@ -5,8 +5,8 @@ VALUES (38038, 'ace38038-corpseofelitezharalimagent', 10, '2019-02-10 00:00:00')
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38038,   1,         16) /* ItemType - Creature */
-     , (38038,   6,        255) /* ItemsCapacity */
-     , (38038,   7,        255) /* ContainersCapacity */
+     , (38038,   6,         -1) /* ItemsCapacity */
+     , (38038,   7,         -1) /* ContainersCapacity */
      , (38038,  16,         32) /* ItemUseable - Remote */
      , (38038,  93,    6292492) /* PhysicsState - Ethereal, ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38038,  95,          8) /* RadarBlipColor - Yellow */

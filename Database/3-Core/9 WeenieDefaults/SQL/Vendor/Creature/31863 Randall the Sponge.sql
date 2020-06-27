@@ -6,8 +6,8 @@ VALUES (31863, 'ace31863-randallthesponge', 12, '2019-02-10 00:00:00') /* Vendor
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31863,   1,         16) /* ItemType - Creature */
      , (31863,   2,         31) /* CreatureType - Human */
-     , (31863,   6,        255) /* ItemsCapacity */
-     , (31863,   7,        255) /* ContainersCapacity */
+     , (31863,   6,         -1) /* ItemsCapacity */
+     , (31863,   7,         -1) /* ContainersCapacity */
      , (31863,  16,         32) /* ItemUseable - Remote */
      , (31863,  25,         46) /* Level */
      , (31863,  74, 1208250287) /* MerchandiseItemTypes - Jewelry, Gem, VendorShopKeep */

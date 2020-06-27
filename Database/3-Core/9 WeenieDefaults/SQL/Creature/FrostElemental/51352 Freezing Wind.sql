@@ -6,8 +6,8 @@ VALUES (51352, 'ace51352-freezingwind', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51352,   1,         16) /* ItemType - Creature */
      , (51352,   2,         61) /* CreatureType - FrostElemental */
-     , (51352,   6,        255) /* ItemsCapacity */
-     , (51352,   7,        255) /* ContainersCapacity */
+     , (51352,   6,         -1) /* ItemsCapacity */
+     , (51352,   7,         -1) /* ContainersCapacity */
      , (51352,  16,          1) /* ItemUseable - No */
      , (51352,  25,        200) /* Level */
      , (51352,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

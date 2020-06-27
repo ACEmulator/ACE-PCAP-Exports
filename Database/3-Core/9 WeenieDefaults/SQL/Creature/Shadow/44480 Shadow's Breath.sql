@@ -6,8 +6,8 @@ VALUES (44480, 'ace44480-shadowsbreath', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44480,   1,         16) /* ItemType - Creature */
      , (44480,   2,         22) /* CreatureType - Shadow */
-     , (44480,   6,        255) /* ItemsCapacity */
-     , (44480,   7,        255) /* ContainersCapacity */
+     , (44480,   6,         -1) /* ItemsCapacity */
+     , (44480,   7,         -1) /* ContainersCapacity */
      , (44480,  16,          1) /* ItemUseable - No */
      , (44480,  25,        240) /* Level */
      , (44480,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

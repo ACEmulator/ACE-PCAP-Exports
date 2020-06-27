@@ -5,8 +5,8 @@ VALUES (43075, 'ace43075-anempyreandevice', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43075,   1,         16) /* ItemType - Creature */
-     , (43075,   6,        255) /* ItemsCapacity */
-     , (43075,   7,        255) /* ContainersCapacity */
+     , (43075,   6,         -1) /* ItemsCapacity */
+     , (43075,   7,         -1) /* ContainersCapacity */
      , (43075,  16,         32) /* ItemUseable - Remote */
      , (43075,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43075,  95,          3) /* RadarBlipColor - White */

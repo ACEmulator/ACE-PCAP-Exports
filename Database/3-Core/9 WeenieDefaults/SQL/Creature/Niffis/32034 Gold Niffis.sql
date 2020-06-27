@@ -6,8 +6,8 @@ VALUES (32034, 'ace32034-goldniffis', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32034,   1,         16) /* ItemType - Creature */
      , (32034,   2,         45) /* CreatureType - Niffis */
-     , (32034,   6,        255) /* ItemsCapacity */
-     , (32034,   7,        255) /* ContainersCapacity */
+     , (32034,   6,         -1) /* ItemsCapacity */
+     , (32034,   7,         -1) /* ContainersCapacity */
      , (32034,  16,          1) /* ItemUseable - No */
      , (32034,  25,        185) /* Level */
      , (32034,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

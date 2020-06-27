@@ -6,8 +6,8 @@ VALUES (38420, 'ace38420-aurelliaducinghalle', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38420,   1,         16) /* ItemType - Creature */
      , (38420,   2,         31) /* CreatureType - Human */
-     , (38420,   6,        255) /* ItemsCapacity */
-     , (38420,   7,        255) /* ContainersCapacity */
+     , (38420,   6,         -1) /* ItemsCapacity */
+     , (38420,   7,         -1) /* ContainersCapacity */
      , (38420,  16,         32) /* ItemUseable - Remote */
      , (38420,  25,        185) /* Level */
      , (38420,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

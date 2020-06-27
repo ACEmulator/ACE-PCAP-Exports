@@ -6,8 +6,8 @@ VALUES (32002, 'ace32002-ghastlypriestess', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32002,   1,         16) /* ItemType - Creature */
      , (32002,   2,         14) /* CreatureType - Undead */
-     , (32002,   6,        255) /* ItemsCapacity */
-     , (32002,   7,        255) /* ContainersCapacity */
+     , (32002,   6,         -1) /* ItemsCapacity */
+     , (32002,   7,         -1) /* ContainersCapacity */
      , (32002,  16,          1) /* ItemUseable - No */
      , (32002,  25,        160) /* Level */
      , (32002,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

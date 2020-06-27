@@ -6,8 +6,8 @@ VALUES (38351, 'ace38351-gatewatcher', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38351,   1,         16) /* ItemType - Creature */
      , (38351,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (38351,   6,        255) /* ItemsCapacity */
-     , (38351,   7,        255) /* ContainersCapacity */
+     , (38351,   6,         -1) /* ItemsCapacity */
+     , (38351,   7,         -1) /* ContainersCapacity */
      , (38351,  16,          1) /* ItemUseable - No */
      , (38351,  25,        200) /* Level */
      , (38351,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

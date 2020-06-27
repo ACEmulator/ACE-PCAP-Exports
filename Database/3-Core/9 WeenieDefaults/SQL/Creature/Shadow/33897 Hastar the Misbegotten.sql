@@ -6,8 +6,8 @@ VALUES (33897, 'ace33897-hastarthemisbegotten', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33897,   1,         16) /* ItemType - Creature */
      , (33897,   2,         22) /* CreatureType - Shadow */
-     , (33897,   6,        255) /* ItemsCapacity */
-     , (33897,   7,        255) /* ContainersCapacity */
+     , (33897,   6,         -1) /* ItemsCapacity */
+     , (33897,   7,         -1) /* ContainersCapacity */
      , (33897,  16,          1) /* ItemUseable - No */
      , (33897,  25,        185) /* Level */
      , (33897,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

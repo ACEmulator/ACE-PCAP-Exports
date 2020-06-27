@@ -5,8 +5,8 @@ VALUES (42005, 'ace42005-flamesoftemperance', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42005,   1,         16) /* ItemType - Creature */
-     , (42005,   6,        255) /* ItemsCapacity */
-     , (42005,   7,        255) /* ContainersCapacity */
+     , (42005,   6,         -1) /* ItemsCapacity */
+     , (42005,   7,         -1) /* ContainersCapacity */
      , (42005,  16,         32) /* ItemUseable - Remote */
      , (42005,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42005,  95,          8) /* RadarBlipColor - Yellow */

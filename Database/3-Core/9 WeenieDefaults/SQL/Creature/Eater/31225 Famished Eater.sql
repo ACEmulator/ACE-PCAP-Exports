@@ -6,8 +6,8 @@ VALUES (31225, 'ace31225-famishedeater', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31225,   1,         16) /* ItemType - Creature */
      , (31225,   2,         79) /* CreatureType - Eater */
-     , (31225,   6,        255) /* ItemsCapacity */
-     , (31225,   7,        255) /* ContainersCapacity */
+     , (31225,   6,         -1) /* ItemsCapacity */
+     , (31225,   7,         -1) /* ContainersCapacity */
      , (31225,  16,          1) /* ItemUseable - No */
      , (31225,  25,         60) /* Level */
      , (31225,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (44018, 'ace44018-tamedarmoredillo', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44018,   1,         16) /* ItemType - Creature */
      , (44018,   2,         17) /* CreatureType - Armoredillo */
-     , (44018,   6,        255) /* ItemsCapacity */
-     , (44018,   7,        255) /* ContainersCapacity */
+     , (44018,   6,         -1) /* ItemsCapacity */
+     , (44018,   7,         -1) /* ContainersCapacity */
      , (44018,  16,          1) /* ItemUseable - No */
      , (44018,  25,        240) /* Level */
      , (44018,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

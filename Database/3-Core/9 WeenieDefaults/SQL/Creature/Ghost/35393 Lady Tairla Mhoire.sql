@@ -6,8 +6,8 @@ VALUES (35393, 'ace35393-ladytairlamhoire', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35393,   1,         16) /* ItemType - Creature */
      , (35393,   2,         77) /* CreatureType - Ghost */
-     , (35393,   6,        255) /* ItemsCapacity */
-     , (35393,   7,        255) /* ContainersCapacity */
+     , (35393,   6,         -1) /* ItemsCapacity */
+     , (35393,   7,         -1) /* ContainersCapacity */
      , (35393,  16,          1) /* ItemUseable - No */
      , (35393,  25,        300) /* Level */
      , (35393,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

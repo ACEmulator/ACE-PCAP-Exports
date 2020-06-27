@@ -5,8 +5,8 @@ VALUES (45127, 'ace45127-deeperintotheoubliette', 10, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45127,   1,         16) /* ItemType - Creature */
-     , (45127,   6,        255) /* ItemsCapacity */
-     , (45127,   7,        255) /* ContainersCapacity */
+     , (45127,   6,         -1) /* ItemsCapacity */
+     , (45127,   7,         -1) /* ContainersCapacity */
      , (45127,  16,         32) /* ItemUseable - Remote */
      , (45127,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45127,  95,          4) /* RadarBlipColor - Purple */

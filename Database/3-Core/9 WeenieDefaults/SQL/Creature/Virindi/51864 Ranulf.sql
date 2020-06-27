@@ -6,8 +6,8 @@ VALUES (51864, 'ace51864-ranulf', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51864,   1,         16) /* ItemType - Creature */
      , (51864,   2,         19) /* CreatureType - Virindi */
-     , (51864,   6,        255) /* ItemsCapacity */
-     , (51864,   7,        255) /* ContainersCapacity */
+     , (51864,   6,         -1) /* ItemsCapacity */
+     , (51864,   7,         -1) /* ContainersCapacity */
      , (51864,  16,         32) /* ItemUseable - Remote */
      , (51864,  25,        400) /* Level */
      , (51864,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (5877, 'lostwishpeddler', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5877,   1,         16) /* ItemType - Creature */
      , (5877,   2,         31) /* CreatureType - Human */
-     , (5877,   6,        255) /* ItemsCapacity */
-     , (5877,   7,        255) /* ContainersCapacity */
+     , (5877,   6,         -1) /* ItemsCapacity */
+     , (5877,   7,         -1) /* ContainersCapacity */
      , (5877,  16,         32) /* ItemUseable - Remote */
      , (5877,  25,          7) /* Level */
      , (5877,  74,     288789) /* MerchandiseItemTypes - MeleeWeapon, Clothing, Creature, Gem, Writable, Key, PromissoryNote */

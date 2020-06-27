@@ -5,8 +5,8 @@ VALUES (52819, 'ace52819-marionetteminion', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52819,   1,         16) /* ItemType - Creature */
-     , (52819,   6,        255) /* ItemsCapacity */
-     , (52819,   7,        255) /* ContainersCapacity */
+     , (52819,   6,         -1) /* ItemsCapacity */
+     , (52819,   7,         -1) /* ContainersCapacity */
      , (52819,  16,          1) /* ItemUseable - No */
      , (52819,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52819, 133,          2) /* ShowableOnRadar - ShowMovement */

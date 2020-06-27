@@ -6,8 +6,8 @@ VALUES (38593, 'ace38593-falatacotconsort', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38593,   1,         16) /* ItemType - Creature */
      , (38593,   2,         14) /* CreatureType - Undead */
-     , (38593,   6,        255) /* ItemsCapacity */
-     , (38593,   7,        255) /* ContainersCapacity */
+     , (38593,   6,         -1) /* ItemsCapacity */
+     , (38593,   7,         -1) /* ContainersCapacity */
      , (38593,  16,          1) /* ItemUseable - No */
      , (38593,  25,        135) /* Level */
      , (38593,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

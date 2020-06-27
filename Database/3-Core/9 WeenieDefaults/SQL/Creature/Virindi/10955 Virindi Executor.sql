@@ -6,8 +6,8 @@ VALUES (10955, 'virindiexecutor-nofall', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10955,   1,         16) /* ItemType - Creature */
      , (10955,   2,         19) /* CreatureType - Virindi */
-     , (10955,   6,        255) /* ItemsCapacity */
-     , (10955,   7,        255) /* ContainersCapacity */
+     , (10955,   6,         -1) /* ItemsCapacity */
+     , (10955,   7,         -1) /* ContainersCapacity */
      , (10955,  16,          1) /* ItemUseable - No */
      , (10955,  25,        100) /* Level */
      , (10955,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

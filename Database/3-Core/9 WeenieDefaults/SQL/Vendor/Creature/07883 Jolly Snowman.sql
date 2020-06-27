@@ -5,8 +5,8 @@ VALUES (7883, 'snowmanjollygiant', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7883,   1,         16) /* ItemType - Creature */
-     , (7883,   6,        255) /* ItemsCapacity */
-     , (7883,   7,        255) /* ContainersCapacity */
+     , (7883,   6,         -1) /* ItemsCapacity */
+     , (7883,   7,         -1) /* ContainersCapacity */
      , (7883,  16,         32) /* ItemUseable - Remote */
      , (7883,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (7883, 133,          4) /* ShowableOnRadar - ShowAlways */

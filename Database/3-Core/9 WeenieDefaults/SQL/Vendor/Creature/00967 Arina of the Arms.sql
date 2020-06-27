@@ -6,8 +6,8 @@ VALUES (967, 'undercityarmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (967,   1,         16) /* ItemType - Creature */
      , (967,   2,         31) /* CreatureType - Human */
-     , (967,   6,        255) /* ItemsCapacity */
-     , (967,   7,        255) /* ContainersCapacity */
+     , (967,   6,         -1) /* ItemsCapacity */
+     , (967,   7,         -1) /* ContainersCapacity */
      , (967,  16,         32) /* ItemUseable - Remote */
      , (967,  25,         14) /* Level */
      , (967,  74, 1074003974) /* MerchandiseItemTypes - Vestements, PromissoryNote, TinkeringMaterial */

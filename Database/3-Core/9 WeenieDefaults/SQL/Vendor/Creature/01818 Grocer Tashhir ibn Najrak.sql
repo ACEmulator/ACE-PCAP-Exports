@@ -6,8 +6,8 @@ VALUES (1818, 'tufagrocer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1818,   1,         16) /* ItemType - Creature */
      , (1818,   2,         31) /* CreatureType - Human */
-     , (1818,   6,        255) /* ItemsCapacity */
-     , (1818,   7,        255) /* ContainersCapacity */
+     , (1818,   6,         -1) /* ItemsCapacity */
+     , (1818,   7,         -1) /* ContainersCapacity */
      , (1818,  16,         32) /* ItemUseable - Remote */
      , (1818,  25,         10) /* Level */
      , (1818,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */

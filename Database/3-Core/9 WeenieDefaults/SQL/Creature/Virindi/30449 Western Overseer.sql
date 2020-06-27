@@ -6,8 +6,8 @@ VALUES (30449, 'virindicraftingforgeswest', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30449,   1,         16) /* ItemType - Creature */
      , (30449,   2,         19) /* CreatureType - Virindi */
-     , (30449,   6,        255) /* ItemsCapacity */
-     , (30449,   7,        255) /* ContainersCapacity */
+     , (30449,   6,         -1) /* ItemsCapacity */
+     , (30449,   7,         -1) /* ContainersCapacity */
      , (30449,  16,          1) /* ItemUseable - No */
      , (30449,  25,        185) /* Level */
      , (30449,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

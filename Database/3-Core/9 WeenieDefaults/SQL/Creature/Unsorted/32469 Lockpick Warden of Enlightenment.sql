@@ -5,8 +5,8 @@ VALUES (32469, 'ace32469-lockpickwardenofenlightenment', 10, '2019-02-10 00:00:0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32469,   1,         16) /* ItemType - Creature */
-     , (32469,   6,        255) /* ItemsCapacity */
-     , (32469,   7,        255) /* ContainersCapacity */
+     , (32469,   6,         -1) /* ItemsCapacity */
+     , (32469,   7,         -1) /* ContainersCapacity */
      , (32469,  16,         32) /* ItemUseable - Remote */
      , (32469,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32469,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (8125, 'uzizcrystalcollectororb', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8125,   1,         16) /* ItemType - Creature */
      , (8125,   2,         31) /* CreatureType - Human */
-     , (8125,   6,        255) /* ItemsCapacity */
-     , (8125,   7,        255) /* ContainersCapacity */
+     , (8125,   6,         -1) /* ItemsCapacity */
+     , (8125,   7,         -1) /* ContainersCapacity */
      , (8125,  16,         32) /* ItemUseable - Remote */
      , (8125,  25,         32) /* Level */
      , (8125,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

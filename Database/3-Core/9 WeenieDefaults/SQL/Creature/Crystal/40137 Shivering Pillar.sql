@@ -6,8 +6,8 @@ VALUES (40137, 'ace40137-shiveringpillar', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40137,   1,         16) /* ItemType - Creature */
      , (40137,   2,         47) /* CreatureType - Crystal */
-     , (40137,   6,        255) /* ItemsCapacity */
-     , (40137,   7,        255) /* ContainersCapacity */
+     , (40137,   6,         -1) /* ItemsCapacity */
+     , (40137,   7,         -1) /* ContainersCapacity */
      , (40137,  16,          1) /* ItemUseable - No */
      , (40137,  25,        100) /* Level */
      , (40137,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

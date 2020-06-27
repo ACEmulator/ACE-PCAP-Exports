@@ -6,8 +6,8 @@ VALUES (21169, 'lightningelementalscintilla-nosummon', 10, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21169,   1,         16) /* ItemType - Creature */
      , (21169,   2,         42) /* CreatureType - LightningElemental */
-     , (21169,   6,        255) /* ItemsCapacity */
-     , (21169,   7,        255) /* ContainersCapacity */
+     , (21169,   6,         -1) /* ItemsCapacity */
+     , (21169,   7,         -1) /* ContainersCapacity */
      , (21169,  16,          1) /* ItemUseable - No */
      , (21169,  25,         60) /* Level */
      , (21169,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

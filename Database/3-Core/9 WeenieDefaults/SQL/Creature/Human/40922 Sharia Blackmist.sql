@@ -6,8 +6,8 @@ VALUES (40922, 'ace40922-shariablackmist', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40922,   1,         16) /* ItemType - Creature */
      , (40922,   2,         31) /* CreatureType - Human */
-     , (40922,   6,        255) /* ItemsCapacity */
-     , (40922,   7,        255) /* ContainersCapacity */
+     , (40922,   6,         -1) /* ItemsCapacity */
+     , (40922,   7,         -1) /* ContainersCapacity */
      , (40922,  16,         32) /* ItemUseable - Remote */
      , (40922,  25,        155) /* Level */
      , (40922,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

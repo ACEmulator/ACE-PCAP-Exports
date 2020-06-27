@@ -6,8 +6,8 @@ VALUES (25951, 'alarqasflaggiver', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25951,   1,         16) /* ItemType - Creature */
      , (25951,   2,         31) /* CreatureType - Human */
-     , (25951,   6,        255) /* ItemsCapacity */
-     , (25951,   7,        255) /* ContainersCapacity */
+     , (25951,   6,         -1) /* ItemsCapacity */
+     , (25951,   7,         -1) /* ContainersCapacity */
      , (25951,  16,         32) /* ItemUseable - Remote */
      , (25951,  25,         11) /* Level */
      , (25951,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

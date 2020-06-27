@@ -6,8 +6,8 @@ VALUES (34785, 'ace34785-gurukdestroyer', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34785,   1,         16) /* ItemType - Creature */
      , (34785,   2,         75) /* CreatureType - Burun */
-     , (34785,   6,        255) /* ItemsCapacity */
-     , (34785,   7,        255) /* ContainersCapacity */
+     , (34785,   6,         -1) /* ItemsCapacity */
+     , (34785,   7,         -1) /* ContainersCapacity */
      , (34785,  16,          1) /* ItemUseable - No */
      , (34785,  25,        135) /* Level */
      , (34785,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

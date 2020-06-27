@@ -6,8 +6,8 @@ VALUES (32938, 'ace32938-guardianofthemonolith', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32938,   1,         16) /* ItemType - Creature */
      , (32938,   2,         38) /* CreatureType - FireElemental */
-     , (32938,   6,        255) /* ItemsCapacity */
-     , (32938,   7,        255) /* ContainersCapacity */
+     , (32938,   6,         -1) /* ItemsCapacity */
+     , (32938,   7,         -1) /* ContainersCapacity */
      , (32938,  16,          1) /* ItemUseable - No */
      , (32938,  25,        165) /* Level */
      , (32938,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

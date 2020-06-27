@@ -6,8 +6,8 @@ VALUES (48929, 'ace48929-bronzegolemsekkou', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48929,   1,         16) /* ItemType - Creature */
      , (48929,   2,         13) /* CreatureType - Golem */
-     , (48929,   6,        255) /* ItemsCapacity */
-     , (48929,   7,        255) /* ContainersCapacity */
+     , (48929,   6,         -1) /* ItemsCapacity */
+     , (48929,   7,         -1) /* ContainersCapacity */
      , (48929,  16,          1) /* ItemUseable - No */
      , (48929,  25,        265) /* Level */
      , (48929,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

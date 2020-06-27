@@ -6,8 +6,8 @@ VALUES (14571, 'aulakheinvoking', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14571,   1,         16) /* ItemType - Creature */
      , (14571,   2,         57) /* CreatureType - AunTumerok */
-     , (14571,   6,        255) /* ItemsCapacity */
-     , (14571,   7,        255) /* ContainersCapacity */
+     , (14571,   6,         -1) /* ItemsCapacity */
+     , (14571,   7,         -1) /* ContainersCapacity */
      , (14571,  16,         32) /* ItemUseable - Remote */
      , (14571,  25,         50) /* Level */
      , (14571,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

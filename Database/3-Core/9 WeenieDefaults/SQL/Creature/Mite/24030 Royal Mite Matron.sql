@@ -6,8 +6,8 @@ VALUES (24030, 'miteroyalmatron', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24030,   1,         16) /* ItemType - Creature */
      , (24030,   2,          7) /* CreatureType - Mite */
-     , (24030,   6,        255) /* ItemsCapacity */
-     , (24030,   7,        255) /* ContainersCapacity */
+     , (24030,   6,         -1) /* ItemsCapacity */
+     , (24030,   7,         -1) /* ContainersCapacity */
      , (24030,  16,          1) /* ItemUseable - No */
      , (24030,  25,         60) /* Level */
      , (24030,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

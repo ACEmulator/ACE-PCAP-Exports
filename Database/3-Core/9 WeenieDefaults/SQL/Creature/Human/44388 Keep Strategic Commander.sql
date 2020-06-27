@@ -6,8 +6,8 @@ VALUES (44388, 'ace44388-keepstrategiccommander', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44388,   1,         16) /* ItemType - Creature */
      , (44388,   2,         31) /* CreatureType - Human */
-     , (44388,   6,        255) /* ItemsCapacity */
-     , (44388,   7,        255) /* ContainersCapacity */
+     , (44388,   6,         -1) /* ItemsCapacity */
+     , (44388,   7,         -1) /* ContainersCapacity */
      , (44388,  16,         32) /* ItemUseable - Remote */
      , (44388,  25,        200) /* Level */
      , (44388,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (34621, 'ace34621-killagurg', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34621,   1,         16) /* ItemType - Creature */
      , (34621,   2,          4) /* CreatureType - Mosswart */
-     , (34621,   6,        255) /* ItemsCapacity */
-     , (34621,   7,        255) /* ContainersCapacity */
+     , (34621,   6,         -1) /* ItemsCapacity */
+     , (34621,   7,         -1) /* ContainersCapacity */
      , (34621,  16,          1) /* ItemUseable - No */
      , (34621,  25,        125) /* Level */
      , (34621,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

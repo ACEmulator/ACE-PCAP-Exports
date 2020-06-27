@@ -6,8 +6,8 @@ VALUES (7081, 'armoredilloplate', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7081,   1,         16) /* ItemType - Creature */
      , (7081,   2,         17) /* CreatureType - Armoredillo */
-     , (7081,   6,        255) /* ItemsCapacity */
-     , (7081,   7,        255) /* ContainersCapacity */
+     , (7081,   6,         -1) /* ItemsCapacity */
+     , (7081,   7,         -1) /* ContainersCapacity */
      , (7081,  16,          1) /* ItemUseable - No */
      , (7081,  25,        100) /* Level */
      , (7081,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

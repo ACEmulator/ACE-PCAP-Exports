@@ -6,8 +6,8 @@ VALUES (40807, 'ace40807-nedtheclever', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40807,   1,         16) /* ItemType - Creature */
      , (40807,   2,         31) /* CreatureType - Human */
-     , (40807,   6,        255) /* ItemsCapacity */
-     , (40807,   7,        255) /* ContainersCapacity */
+     , (40807,   6,         -1) /* ItemsCapacity */
+     , (40807,   7,         -1) /* ContainersCapacity */
      , (40807,  16,         32) /* ItemUseable - Remote */
      , (40807,  25,        150) /* Level */
      , (40807,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

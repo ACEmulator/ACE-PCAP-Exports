@@ -6,8 +6,8 @@ VALUES (30025, 'viascrivenercreatureinner', 12, '2019-02-10 00:00:00') /* Vendor
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30025,   1,         16) /* ItemType - Creature */
      , (30025,   2,         26) /* CreatureType - Sclavus */
-     , (30025,   6,        255) /* ItemsCapacity */
-     , (30025,   7,        255) /* ContainersCapacity */
+     , (30025,   6,         -1) /* ItemsCapacity */
+     , (30025,   7,         -1) /* ContainersCapacity */
      , (30025,  16,         32) /* ItemUseable - Remote */
      , (30025,  25,         17) /* Level */
      , (30025,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

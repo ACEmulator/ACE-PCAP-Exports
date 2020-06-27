@@ -5,8 +5,8 @@ VALUES (37149, 'ace37149-jestersprisonportal', 10, '2019-02-10 00:00:00') /* Cre
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37149,   1,         16) /* ItemType - Creature */
-     , (37149,   6,        255) /* ItemsCapacity */
-     , (37149,   7,        255) /* ContainersCapacity */
+     , (37149,   6,         -1) /* ItemsCapacity */
+     , (37149,   7,         -1) /* ContainersCapacity */
      , (37149,  16,         32) /* ItemUseable - Remote */
      , (37149,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37149,  95,          4) /* RadarBlipColor - Purple */

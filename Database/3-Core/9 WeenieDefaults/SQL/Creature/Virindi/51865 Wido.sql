@@ -6,8 +6,8 @@ VALUES (51865, 'ace51865-wido', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51865,   1,         16) /* ItemType - Creature */
      , (51865,   2,         19) /* CreatureType - Virindi */
-     , (51865,   6,        255) /* ItemsCapacity */
-     , (51865,   7,        255) /* ContainersCapacity */
+     , (51865,   6,         -1) /* ItemsCapacity */
+     , (51865,   7,         -1) /* ContainersCapacity */
      , (51865,  16,         32) /* ItemUseable - Remote */
      , (51865,  25,        400) /* Level */
      , (51865,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

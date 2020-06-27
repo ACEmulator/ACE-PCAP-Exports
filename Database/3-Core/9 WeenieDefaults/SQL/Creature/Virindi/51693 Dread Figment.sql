@@ -6,8 +6,8 @@ VALUES (51693, 'ace51693-dreadfigment', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51693,   1,         16) /* ItemType - Creature */
      , (51693,   2,         19) /* CreatureType - Virindi */
-     , (51693,   6,        255) /* ItemsCapacity */
-     , (51693,   7,        255) /* ContainersCapacity */
+     , (51693,   6,         -1) /* ItemsCapacity */
+     , (51693,   7,         -1) /* ContainersCapacity */
      , (51693,  16,          1) /* ItemUseable - No */
      , (51693,  25,        666) /* Level */
      , (51693,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */

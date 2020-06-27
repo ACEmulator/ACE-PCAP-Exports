@@ -6,8 +6,8 @@ VALUES (32705, 'ace32705-aluvianspearman', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32705,   1,         16) /* ItemType - Creature */
      , (32705,   2,         31) /* CreatureType - Human */
-     , (32705,   6,        255) /* ItemsCapacity */
-     , (32705,   7,        255) /* ContainersCapacity */
+     , (32705,   6,         -1) /* ItemsCapacity */
+     , (32705,   7,         -1) /* ContainersCapacity */
      , (32705,  16,         32) /* ItemUseable - Remote */
      , (32705,  25,         40) /* Level */
      , (32705,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

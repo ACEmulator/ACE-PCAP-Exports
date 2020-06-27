@@ -5,8 +5,8 @@ VALUES (53412, 'ace53412-fontofenlightenmentandrebirth', 10, '2019-02-10 00:00:0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53412,   1,         16) /* ItemType - Creature */
-     , (53412,   6,        255) /* ItemsCapacity */
-     , (53412,   7,        255) /* ContainersCapacity */
+     , (53412,   6,         -1) /* ItemsCapacity */
+     , (53412,   7,         -1) /* ContainersCapacity */
      , (53412,  16,         32) /* ItemUseable - Remote */
      , (53412,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53412,  95,          3) /* RadarBlipColor - White */

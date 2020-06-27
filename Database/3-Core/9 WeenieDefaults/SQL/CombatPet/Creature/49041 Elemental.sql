@@ -5,8 +5,8 @@ VALUES (49041, 'ace49041-martyrtronneoselemental', 71, '2019-02-10 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49041,   1,         16) /* ItemType - Creature */
-     , (49041,   6,        255) /* ItemsCapacity */
-     , (49041,   7,        255) /* ContainersCapacity */
+     , (49041,   6,         -1) /* ItemsCapacity */
+     , (49041,   7,         -1) /* ContainersCapacity */
      , (49041,  16,          1) /* ItemUseable - No */
      , (49041,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49041, 133,          1) /* ShowableOnRadar - ShowNever */

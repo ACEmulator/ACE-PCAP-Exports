@@ -6,8 +6,8 @@ VALUES (36855, 'ace36855-armoredskeleton', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36855,   1,         16) /* ItemType - Creature */
      , (36855,   2,         30) /* CreatureType - Skeleton */
-     , (36855,   6,        255) /* ItemsCapacity */
-     , (36855,   7,        255) /* ContainersCapacity */
+     , (36855,   6,         -1) /* ItemsCapacity */
+     , (36855,   7,         -1) /* ContainersCapacity */
      , (36855,  16,          1) /* ItemUseable - No */
      , (36855,  25,        100) /* Level */
      , (36855,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

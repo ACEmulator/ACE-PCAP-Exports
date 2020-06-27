@@ -6,8 +6,8 @@ VALUES (30034, 'sanamartailor', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30034,   1,         16) /* ItemType - Creature */
      , (30034,   2,         31) /* CreatureType - Human */
-     , (30034,   6,        255) /* ItemsCapacity */
-     , (30034,   7,        255) /* ContainersCapacity */
+     , (30034,   6,         -1) /* ItemsCapacity */
+     , (30034,   7,         -1) /* ContainersCapacity */
      , (30034,  16,         32) /* ItemUseable - Remote */
      , (30034,  25,          6) /* Level */
      , (30034,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */

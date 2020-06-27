@@ -6,8 +6,8 @@ VALUES (46885, 'ace46885-lugianminer', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46885,   1,         16) /* ItemType - Creature */
      , (46885,   2,         31) /* CreatureType - Human */
-     , (46885,   6,        255) /* ItemsCapacity */
-     , (46885,   7,        255) /* ContainersCapacity */
+     , (46885,   6,         -1) /* ItemsCapacity */
+     , (46885,   7,         -1) /* ContainersCapacity */
      , (46885,  16,         32) /* ItemUseable - Remote */
      , (46885,  25,        275) /* Level */
      , (46885,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

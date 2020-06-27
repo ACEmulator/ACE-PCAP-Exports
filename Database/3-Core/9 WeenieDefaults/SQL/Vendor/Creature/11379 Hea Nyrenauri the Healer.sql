@@ -6,8 +6,8 @@ VALUES (11379, 'ahurengahealer-xp', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11379,   1,         16) /* ItemType - Creature */
      , (11379,   2,          6) /* CreatureType - Tumerok */
-     , (11379,   6,        255) /* ItemsCapacity */
-     , (11379,   7,        255) /* ContainersCapacity */
+     , (11379,   6,         -1) /* ItemsCapacity */
+     , (11379,   7,         -1) /* ContainersCapacity */
      , (11379,  16,         32) /* ItemUseable - Remote */
      , (11379,  25,         16) /* Level */
      , (11379,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */

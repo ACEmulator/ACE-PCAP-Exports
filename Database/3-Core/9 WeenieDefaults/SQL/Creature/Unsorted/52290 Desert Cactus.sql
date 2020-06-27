@@ -5,8 +5,8 @@ VALUES (52290, 'ace52290-desertcactus', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52290,   1,         16) /* ItemType - Creature */
-     , (52290,   6,        255) /* ItemsCapacity */
-     , (52290,   7,        255) /* ContainersCapacity */
+     , (52290,   6,         -1) /* ItemsCapacity */
+     , (52290,   7,         -1) /* ContainersCapacity */
      , (52290,  16,          1) /* ItemUseable - No */
      , (52290,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52290, 133,          4) /* ShowableOnRadar - ShowAlways */

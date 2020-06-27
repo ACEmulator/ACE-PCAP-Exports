@@ -6,8 +6,8 @@ VALUES (7369, 'darkmagusaerfalle', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7369,   1,         16) /* ItemType - Creature */
      , (7369,   2,         14) /* CreatureType - Undead */
-     , (7369,   6,        255) /* ItemsCapacity */
-     , (7369,   7,        255) /* ContainersCapacity */
+     , (7369,   6,         -1) /* ItemsCapacity */
+     , (7369,   7,         -1) /* ContainersCapacity */
      , (7369,  16,          1) /* ItemUseable - No */
      , (7369,  25,        100) /* Level */
      , (7369,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

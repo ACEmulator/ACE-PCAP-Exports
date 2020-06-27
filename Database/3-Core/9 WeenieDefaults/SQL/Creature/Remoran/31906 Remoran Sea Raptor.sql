@@ -6,8 +6,8 @@ VALUES (31906, 'ace31906-remoransearaptor', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31906,   1,         16) /* ItemType - Creature */
      , (31906,   2,         84) /* CreatureType - Remoran */
-     , (31906,   6,        255) /* ItemsCapacity */
-     , (31906,   7,        255) /* ContainersCapacity */
+     , (31906,   6,         -1) /* ItemsCapacity */
+     , (31906,   7,         -1) /* ContainersCapacity */
      , (31906,  16,          1) /* ItemUseable - No */
      , (31906,  25,        185) /* Level */
      , (31906,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

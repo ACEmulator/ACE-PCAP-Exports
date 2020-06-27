@@ -6,8 +6,8 @@ VALUES (36397, 'ace36397-dreamwalker', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36397,   1,         16) /* ItemType - Creature */
      , (36397,   2,         58) /* CreatureType - HeaTumerok */
-     , (36397,   6,        255) /* ItemsCapacity */
-     , (36397,   7,        255) /* ContainersCapacity */
+     , (36397,   6,         -1) /* ItemsCapacity */
+     , (36397,   7,         -1) /* ContainersCapacity */
      , (36397,  16,          1) /* ItemUseable - No */
      , (36397,  25,        275) /* Level */
      , (36397,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

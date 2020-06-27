@@ -6,8 +6,8 @@ VALUES (6770, 'crimsonsilifikayna', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6770,   1,         16) /* ItemType - Creature */
      , (6770,   2,         31) /* CreatureType - Human */
-     , (6770,   6,        255) /* ItemsCapacity */
-     , (6770,   7,        255) /* ContainersCapacity */
+     , (6770,   6,         -1) /* ItemsCapacity */
+     , (6770,   7,         -1) /* ContainersCapacity */
      , (6770,  16,         32) /* ItemUseable - Remote */
      , (6770,  25,         74) /* Level */
      , (6770,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

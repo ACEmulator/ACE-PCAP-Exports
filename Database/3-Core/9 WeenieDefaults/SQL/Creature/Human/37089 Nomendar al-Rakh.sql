@@ -6,8 +6,8 @@ VALUES (37089, 'ace37089-nomendaralrakh', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37089,   1,         16) /* ItemType - Creature */
      , (37089,   2,         31) /* CreatureType - Human */
-     , (37089,   6,        255) /* ItemsCapacity */
-     , (37089,   7,        255) /* ContainersCapacity */
+     , (37089,   6,         -1) /* ItemsCapacity */
+     , (37089,   7,         -1) /* ContainersCapacity */
      , (37089,  16,         32) /* ItemUseable - Remote */
      , (37089,  25,         60) /* Level */
      , (37089,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (36766, 'ace36766-asheron', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36766,   1,         16) /* ItemType - Creature */
      , (36766,   2,         51) /* CreatureType - Empyrean */
-     , (36766,   6,        255) /* ItemsCapacity */
-     , (36766,   7,        255) /* ContainersCapacity */
+     , (36766,   6,         -1) /* ItemsCapacity */
+     , (36766,   7,         -1) /* ContainersCapacity */
      , (36766,  16,         32) /* ItemUseable - Remote */
      , (36766,  25,        710) /* Level */
      , (36766,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

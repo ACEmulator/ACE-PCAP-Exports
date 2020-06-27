@@ -6,8 +6,8 @@ VALUES (29333, 'thrungusthievingnewbieacademy', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29333,   1,         16) /* ItemType - Creature */
      , (29333,   2,         82) /* CreatureType - Thrungus */
-     , (29333,   6,        255) /* ItemsCapacity */
-     , (29333,   7,        255) /* ContainersCapacity */
+     , (29333,   6,         -1) /* ItemsCapacity */
+     , (29333,   7,         -1) /* ContainersCapacity */
      , (29333,  16,          1) /* ItemUseable - No */
      , (29333,  25,          2) /* Level */
      , (29333,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

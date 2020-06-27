@@ -6,8 +6,8 @@ VALUES (32956, 'ace32956-heavybuilder', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32956,   1,         16) /* ItemType - Creature */
      , (32956,   2,         14) /* CreatureType - Undead */
-     , (32956,   6,        255) /* ItemsCapacity */
-     , (32956,   7,        255) /* ContainersCapacity */
+     , (32956,   6,         -1) /* ItemsCapacity */
+     , (32956,   7,         -1) /* ContainersCapacity */
      , (32956,  16,          1) /* ItemUseable - No */
      , (32956,  25,        160) /* Level */
      , (32956,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

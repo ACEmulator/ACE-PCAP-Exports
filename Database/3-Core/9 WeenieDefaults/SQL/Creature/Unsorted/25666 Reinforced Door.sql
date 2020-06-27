@@ -5,8 +5,8 @@ VALUES (25666, 'doorcultistgaschamber', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25666,   1,         16) /* ItemType - Creature */
-     , (25666,   6,        255) /* ItemsCapacity */
-     , (25666,   7,        255) /* ContainersCapacity */
+     , (25666,   6,         -1) /* ItemsCapacity */
+     , (25666,   7,         -1) /* ContainersCapacity */
      , (25666,  16,          1) /* ItemUseable - No */
      , (25666,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25666, 133,          4) /* ShowableOnRadar - ShowAlways */

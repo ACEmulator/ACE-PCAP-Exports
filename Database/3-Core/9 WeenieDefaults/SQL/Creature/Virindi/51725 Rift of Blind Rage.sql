@@ -6,8 +6,8 @@ VALUES (51725, 'ace51725-riftofblindrage', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51725,   1,         16) /* ItemType - Creature */
      , (51725,   2,         19) /* CreatureType - Virindi */
-     , (51725,   6,        255) /* ItemsCapacity */
-     , (51725,   7,        255) /* ContainersCapacity */
+     , (51725,   6,         -1) /* ItemsCapacity */
+     , (51725,   7,         -1) /* ContainersCapacity */
      , (51725,  16,          1) /* ItemUseable - No */
      , (51725,  25,        250) /* Level */
      , (51725,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -6,8 +6,8 @@ VALUES (35988, 'ace35988-shadowcommander', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35988,   1,         16) /* ItemType - Creature */
      , (35988,   2,         22) /* CreatureType - Shadow */
-     , (35988,   6,        255) /* ItemsCapacity */
-     , (35988,   7,        255) /* ContainersCapacity */
+     , (35988,   6,         -1) /* ItemsCapacity */
+     , (35988,   7,         -1) /* ContainersCapacity */
      , (35988,  16,          1) /* ItemUseable - No */
      , (35988,  25,        200) /* Level */
      , (35988,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (46776, 'ace46776-blackmoorspage', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46776,   1,         16) /* ItemType - Creature */
      , (46776,   2,         31) /* CreatureType - Human */
-     , (46776,   6,        255) /* ItemsCapacity */
-     , (46776,   7,        255) /* ContainersCapacity */
+     , (46776,   6,         -1) /* ItemsCapacity */
+     , (46776,   7,         -1) /* ContainersCapacity */
      , (46776,  16,         32) /* ItemUseable - Remote */
      , (46776,  25,          8) /* Level */
      , (46776,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

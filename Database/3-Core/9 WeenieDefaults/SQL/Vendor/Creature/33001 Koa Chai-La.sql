@@ -6,8 +6,8 @@ VALUES (33001, 'ace33001-koachaila', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33001,   1,         16) /* ItemType - Creature */
      , (33001,   2,         31) /* CreatureType - Human */
-     , (33001,   6,        255) /* ItemsCapacity */
-     , (33001,   7,        255) /* ContainersCapacity */
+     , (33001,   6,         -1) /* ItemsCapacity */
+     , (33001,   7,         -1) /* ContainersCapacity */
      , (33001,  16,         32) /* ItemUseable - Remote */
      , (33001,  25,          8) /* Level */
      , (33001,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */

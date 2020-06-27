@@ -5,8 +5,8 @@ VALUES (28449, 'wallburunfortress', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28449,   1,         16) /* ItemType - Creature */
-     , (28449,   6,        255) /* ItemsCapacity */
-     , (28449,   7,        255) /* ContainersCapacity */
+     , (28449,   6,         -1) /* ItemsCapacity */
+     , (28449,   7,         -1) /* ContainersCapacity */
      , (28449,  16,          1) /* ItemUseable - No */
      , (28449,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28449, 133,          4) /* ShowableOnRadar - ShowAlways */

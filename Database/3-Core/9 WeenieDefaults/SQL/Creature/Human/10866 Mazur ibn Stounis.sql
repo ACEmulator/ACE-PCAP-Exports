@@ -6,8 +6,8 @@ VALUES (10866, 'maraemazur-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10866,   1,         16) /* ItemType - Creature */
      , (10866,   2,         31) /* CreatureType - Human */
-     , (10866,   6,        255) /* ItemsCapacity */
-     , (10866,   7,        255) /* ContainersCapacity */
+     , (10866,   6,         -1) /* ItemsCapacity */
+     , (10866,   7,         -1) /* ContainersCapacity */
      , (10866,  16,         32) /* ItemUseable - Remote */
      , (10866,  25,         17) /* Level */
      , (10866,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

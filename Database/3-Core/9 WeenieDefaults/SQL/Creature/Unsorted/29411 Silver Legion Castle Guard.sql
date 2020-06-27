@@ -5,8 +5,8 @@ VALUES (29411, 'knightcastleguardsilver', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29411,   1,         16) /* ItemType - Creature */
-     , (29411,   6,        255) /* ItemsCapacity */
-     , (29411,   7,        255) /* ContainersCapacity */
+     , (29411,   6,         -1) /* ItemsCapacity */
+     , (29411,   7,         -1) /* ContainersCapacity */
      , (29411,  16,          1) /* ItemUseable - No */
      , (29411,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29411, 133,          2) /* ShowableOnRadar - ShowMovement */

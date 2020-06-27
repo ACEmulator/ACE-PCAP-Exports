@@ -5,8 +5,8 @@ VALUES (32455, 'ace32455-missileweaponswardenofenlightenment', 10, '2019-02-10 0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32455,   1,         16) /* ItemType - Creature */
-     , (32455,   6,        255) /* ItemsCapacity */
-     , (32455,   7,        255) /* ContainersCapacity */
+     , (32455,   6,         -1) /* ItemsCapacity */
+     , (32455,   7,         -1) /* ContainersCapacity */
      , (32455,  16,         32) /* ItemUseable - Remote */
      , (32455,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32455,  95,          3) /* RadarBlipColor - White */

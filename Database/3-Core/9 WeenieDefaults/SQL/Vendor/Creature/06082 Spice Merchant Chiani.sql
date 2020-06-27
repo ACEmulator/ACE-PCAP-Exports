@@ -6,8 +6,8 @@ VALUES (6082, 'baishispicemerchant', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6082,   1,         16) /* ItemType - Creature */
      , (6082,   2,         31) /* CreatureType - Human */
-     , (6082,   6,        255) /* ItemsCapacity */
-     , (6082,   7,        255) /* ContainersCapacity */
+     , (6082,   6,         -1) /* ItemsCapacity */
+     , (6082,   7,         -1) /* ContainersCapacity */
      , (6082,  16,         32) /* ItemUseable - Remote */
      , (6082,  25,         12) /* Level */
      , (6082,  74,    4194304) /* MerchandiseItemTypes - CraftCookingBase */

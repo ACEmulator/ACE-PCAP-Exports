@@ -5,8 +5,8 @@ VALUES (29489, 'knightkarlunsirbelfelor', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
-     , (29489,   6,        255) /* ItemsCapacity */
-     , (29489,   7,        255) /* ContainersCapacity */
+     , (29489,   6,         -1) /* ItemsCapacity */
+     , (29489,   7,         -1) /* ContainersCapacity */
      , (29489,  16,         32) /* ItemUseable - Remote */
      , (29489,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29489, 133,          4) /* ShowableOnRadar - ShowAlways */

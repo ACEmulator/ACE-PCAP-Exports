@@ -6,8 +6,8 @@ VALUES (32699, 'ace32699-mercenarymage', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32699,   1,         16) /* ItemType - Creature */
      , (32699,   2,         31) /* CreatureType - Human */
-     , (32699,   6,        255) /* ItemsCapacity */
-     , (32699,   7,        255) /* ContainersCapacity */
+     , (32699,   6,         -1) /* ItemsCapacity */
+     , (32699,   7,         -1) /* ContainersCapacity */
      , (32699,  16,          1) /* ItemUseable - No */
      , (32699,  25,         80) /* Level */
      , (32699,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

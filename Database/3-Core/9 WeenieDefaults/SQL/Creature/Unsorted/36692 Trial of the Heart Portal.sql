@@ -5,8 +5,8 @@ VALUES (36692, 'ace36692-trialoftheheartportal', 10, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36692,   1,         16) /* ItemType - Creature */
-     , (36692,   6,        255) /* ItemsCapacity */
-     , (36692,   7,        255) /* ContainersCapacity */
+     , (36692,   6,         -1) /* ItemsCapacity */
+     , (36692,   7,         -1) /* ContainersCapacity */
      , (36692,  16,         32) /* ItemUseable - Remote */
      , (36692,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36692,  95,          4) /* RadarBlipColor - Purple */

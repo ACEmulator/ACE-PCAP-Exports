@@ -6,8 +6,8 @@ VALUES (31402, 'ace31402-ravenaugur', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31402,   1,         16) /* ItemType - Creature */
      , (31402,   2,         31) /* CreatureType - Human */
-     , (31402,   6,        255) /* ItemsCapacity */
-     , (31402,   7,        255) /* ContainersCapacity */
+     , (31402,   6,         -1) /* ItemsCapacity */
+     , (31402,   7,         -1) /* ContainersCapacity */
      , (31402,  16,          1) /* ItemUseable - No */
      , (31402,  25,        135) /* Level */
      , (31402,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

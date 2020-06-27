@@ -6,8 +6,8 @@ VALUES (8614, 'mosswartcollectorrumuba', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8614,   1,         16) /* ItemType - Creature */
      , (8614,   2,          4) /* CreatureType - Mosswart */
-     , (8614,   6,        255) /* ItemsCapacity */
-     , (8614,   7,        255) /* ContainersCapacity */
+     , (8614,   6,         -1) /* ItemsCapacity */
+     , (8614,   7,         -1) /* ContainersCapacity */
      , (8614,  16,         32) /* ItemUseable - Remote */
      , (8614,  25,         15) /* Level */
      , (8614,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

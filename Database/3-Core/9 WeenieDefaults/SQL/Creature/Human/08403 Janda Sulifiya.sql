@@ -6,8 +6,8 @@ VALUES (8403, 'maskcollectorgharundim', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8403,   1,         16) /* ItemType - Creature */
      , (8403,   2,         31) /* CreatureType - Human */
-     , (8403,   6,        255) /* ItemsCapacity */
-     , (8403,   7,        255) /* ContainersCapacity */
+     , (8403,   6,         -1) /* ItemsCapacity */
+     , (8403,   7,         -1) /* ContainersCapacity */
      , (8403,  16,         32) /* ItemUseable - Remote */
      , (8403,  25,         28) /* Level */
      , (8403,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

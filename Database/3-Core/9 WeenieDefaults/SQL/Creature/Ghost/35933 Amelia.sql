@@ -6,8 +6,8 @@ VALUES (35933, 'ace35933-amelia', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35933,   1,         16) /* ItemType - Creature */
      , (35933,   2,         77) /* CreatureType - Ghost */
-     , (35933,   6,        255) /* ItemsCapacity */
-     , (35933,   7,        255) /* ContainersCapacity */
+     , (35933,   6,         -1) /* ItemsCapacity */
+     , (35933,   7,         -1) /* ContainersCapacity */
      , (35933,  16,         32) /* ItemUseable - Remote */
      , (35933,  25,          1) /* Level */
      , (35933,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */

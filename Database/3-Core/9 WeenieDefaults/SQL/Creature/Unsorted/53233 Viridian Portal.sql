@@ -5,8 +5,8 @@ VALUES (53233, 'ace53233-viridianportal', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53233,   1,         16) /* ItemType - Creature */
-     , (53233,   6,        255) /* ItemsCapacity */
-     , (53233,   7,        255) /* ContainersCapacity */
+     , (53233,   6,         -1) /* ItemsCapacity */
+     , (53233,   7,         -1) /* ContainersCapacity */
      , (53233,  16,         32) /* ItemUseable - Remote */
      , (53233,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53233,  95,          4) /* RadarBlipColor - Purple */

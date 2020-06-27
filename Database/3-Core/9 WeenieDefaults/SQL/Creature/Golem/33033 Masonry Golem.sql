@@ -6,8 +6,8 @@ VALUES (33033, 'ace33033-masonrygolem', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33033,   1,         16) /* ItemType - Creature */
      , (33033,   2,         13) /* CreatureType - Golem */
-     , (33033,   6,        255) /* ItemsCapacity */
-     , (33033,   7,        255) /* ContainersCapacity */
+     , (33033,   6,         -1) /* ItemsCapacity */
+     , (33033,   7,         -1) /* ContainersCapacity */
      , (33033,  16,          1) /* ItemUseable - No */
      , (33033,  25,        185) /* Level */
      , (33033,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (14512, 'frostelementalfrost-nofall', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14512,   1,         16) /* ItemType - Creature */
      , (14512,   2,         61) /* CreatureType - FrostElemental */
-     , (14512,   6,        255) /* ItemsCapacity */
-     , (14512,   7,        255) /* ContainersCapacity */
+     , (14512,   6,         -1) /* ItemsCapacity */
+     , (14512,   7,         -1) /* ContainersCapacity */
      , (14512,  16,          1) /* ItemUseable - No */
      , (14512,  25,         80) /* Level */
      , (14512,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */

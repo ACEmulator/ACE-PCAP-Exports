@@ -50,11 +50,11 @@ VALUES (5709,   1,   33555469) /* Setup */
      , (5709,   3,  536870967) /* SoundTable */
      , (5709,   8,  100667590) /* Icon */
      , (5709,  22,  872415237) /* PhysicsEffectTable */
+     , (5709,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (5709, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (5709, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5709, 8005,      64289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
-     , (5709, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
-     , (5709, 8019,         90) /* PCAPRecordedDefaultScript */;
+     , (5709, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5709, 8040, 2278948925, 174.0093, 105.1479, 165.6734, -0.1675534, -0.1675534, -0.6869686, -0.6869686) /* PCAPRecordedLocation */

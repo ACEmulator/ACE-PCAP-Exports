@@ -6,8 +6,8 @@ VALUES (32948, 'ace32948-childoffire', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32948,   1,         16) /* ItemType - Creature */
      , (32948,   2,         62) /* CreatureType - Elemental */
-     , (32948,   6,        255) /* ItemsCapacity */
-     , (32948,   7,        255) /* ContainersCapacity */
+     , (32948,   6,         -1) /* ItemsCapacity */
+     , (32948,   7,         -1) /* ContainersCapacity */
      , (32948,  16,          1) /* ItemUseable - No */
      , (32948,  25,        115) /* Level */
      , (32948,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

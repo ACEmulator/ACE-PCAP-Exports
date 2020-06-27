@@ -6,8 +6,8 @@ VALUES (40267, 'ace40267-ancientmagmagolem', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40267,   1,         16) /* ItemType - Creature */
      , (40267,   2,         13) /* CreatureType - Golem */
-     , (40267,   6,        255) /* ItemsCapacity */
-     , (40267,   7,        255) /* ContainersCapacity */
+     , (40267,   6,         -1) /* ItemsCapacity */
+     , (40267,   7,         -1) /* ContainersCapacity */
      , (40267,  16,          1) /* ItemUseable - No */
      , (40267,  25,        220) /* Level */
      , (40267,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (23523, 'locollectoratlatl', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23523,   1,         16) /* ItemType - Creature */
      , (23523,   2,         19) /* CreatureType - Virindi */
-     , (23523,   6,        255) /* ItemsCapacity */
-     , (23523,   7,        255) /* ContainersCapacity */
+     , (23523,   6,         -1) /* ItemsCapacity */
+     , (23523,   7,         -1) /* ContainersCapacity */
      , (23523,  16,         32) /* ItemUseable - Remote */
      , (23523,  25,         60) /* Level */
      , (23523,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

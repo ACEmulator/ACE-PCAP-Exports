@@ -6,8 +6,8 @@ VALUES (36840, 'ace36840-bloodthirstymonouga', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36840,   1,         16) /* ItemType - Creature */
      , (36840,   2,         28) /* CreatureType - Monouga */
-     , (36840,   6,        255) /* ItemsCapacity */
-     , (36840,   7,        255) /* ContainersCapacity */
+     , (36840,   6,         -1) /* ItemsCapacity */
+     , (36840,   7,         -1) /* ContainersCapacity */
      , (36840,  16,          1) /* ItemUseable - No */
      , (36840,  25,        100) /* Level */
      , (36840,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

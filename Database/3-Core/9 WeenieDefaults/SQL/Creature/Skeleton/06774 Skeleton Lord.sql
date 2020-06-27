@@ -6,8 +6,8 @@ VALUES (6774, 'skeletonlordcrimsonruby5', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6774,   1,         16) /* ItemType - Creature */
      , (6774,   2,         30) /* CreatureType - Skeleton */
-     , (6774,   6,        255) /* ItemsCapacity */
-     , (6774,   7,        255) /* ContainersCapacity */
+     , (6774,   6,         -1) /* ItemsCapacity */
+     , (6774,   7,         -1) /* ContainersCapacity */
      , (6774,  16,          1) /* ItemUseable - No */
      , (6774,  25,         50) /* Level */
      , (6774,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

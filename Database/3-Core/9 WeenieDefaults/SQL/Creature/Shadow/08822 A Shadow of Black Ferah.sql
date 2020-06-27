@@ -6,8 +6,8 @@ VALUES (8822, 'blackferahkillable', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8822,   1,         16) /* ItemType - Creature */
      , (8822,   2,         22) /* CreatureType - Shadow */
-     , (8822,   6,        255) /* ItemsCapacity */
-     , (8822,   7,        255) /* ContainersCapacity */
+     , (8822,   6,         -1) /* ItemsCapacity */
+     , (8822,   7,         -1) /* ContainersCapacity */
      , (8822,  16,          1) /* ItemUseable - No */
      , (8822,  25,        135) /* Level */
      , (8822,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

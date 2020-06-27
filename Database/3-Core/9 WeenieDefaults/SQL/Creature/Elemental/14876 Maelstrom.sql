@@ -6,8 +6,8 @@ VALUES (14876, 'stormelementalmaelstrom', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14876,   1,         16) /* ItemType - Creature */
      , (14876,   2,         62) /* CreatureType - Elemental */
-     , (14876,   6,        255) /* ItemsCapacity */
-     , (14876,   7,        255) /* ContainersCapacity */
+     , (14876,   6,         -1) /* ItemsCapacity */
+     , (14876,   7,         -1) /* ContainersCapacity */
      , (14876,  16,          1) /* ItemUseable - No */
      , (14876,  25,        115) /* Level */
      , (14876,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

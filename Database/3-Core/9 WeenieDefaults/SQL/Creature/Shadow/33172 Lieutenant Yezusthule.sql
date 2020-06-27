@@ -6,8 +6,8 @@ VALUES (33172, 'ace33172-lieutenantyezusthule', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33172,   1,         16) /* ItemType - Creature */
      , (33172,   2,         22) /* CreatureType - Shadow */
-     , (33172,   6,        255) /* ItemsCapacity */
-     , (33172,   7,        255) /* ContainersCapacity */
+     , (33172,   6,         -1) /* ItemsCapacity */
+     , (33172,   7,         -1) /* ContainersCapacity */
      , (33172,  16,          1) /* ItemUseable - No */
      , (33172,  25,        160) /* Level */
      , (33172,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

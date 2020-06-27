@@ -5,8 +5,8 @@ VALUES (26587, 'vinetempleportal', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26587,   1,         16) /* ItemType - Creature */
-     , (26587,   6,        255) /* ItemsCapacity */
-     , (26587,   7,        255) /* ContainersCapacity */
+     , (26587,   6,         -1) /* ItemsCapacity */
+     , (26587,   7,         -1) /* ContainersCapacity */
      , (26587,  16,         32) /* ItemUseable - Remote */
      , (26587,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (26587,  95,          3) /* RadarBlipColor - White */

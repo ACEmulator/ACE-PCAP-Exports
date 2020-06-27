@@ -5,8 +5,8 @@ VALUES (51971, 'ace51971-sanctumwardingcrystal', 10, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51971,   1,         16) /* ItemType - Creature */
-     , (51971,   6,        255) /* ItemsCapacity */
-     , (51971,   7,        255) /* ContainersCapacity */
+     , (51971,   6,         -1) /* ItemsCapacity */
+     , (51971,   7,         -1) /* ContainersCapacity */
      , (51971,  16,          1) /* ItemUseable - No */
      , (51971,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51971, 133,          4) /* ShowableOnRadar - ShowAlways */

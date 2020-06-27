@@ -6,8 +6,8 @@ VALUES (40488, 'ace40488-aruqibnbalthar', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40488,   1,         16) /* ItemType - Creature */
      , (40488,   2,         31) /* CreatureType - Human */
-     , (40488,   6,        255) /* ItemsCapacity */
-     , (40488,   7,        255) /* ContainersCapacity */
+     , (40488,   6,         -1) /* ItemsCapacity */
+     , (40488,   7,         -1) /* ContainersCapacity */
      , (40488,  16,         32) /* ItemUseable - Remote */
      , (40488,  25,        150) /* Level */
      , (40488,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

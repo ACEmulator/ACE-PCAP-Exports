@@ -6,8 +6,8 @@ VALUES (49656, 'ace49656-ulibibnghunirtheweaponsmith', 10, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49656,   1,         16) /* ItemType - Creature */
      , (49656,   2,         31) /* CreatureType - Human */
-     , (49656,   6,        255) /* ItemsCapacity */
-     , (49656,   7,        255) /* ContainersCapacity */
+     , (49656,   6,         -1) /* ItemsCapacity */
+     , (49656,   7,         -1) /* ContainersCapacity */
      , (49656,  16,          1) /* ItemUseable - No */
      , (49656,  25,         23) /* Level */
      , (49656,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

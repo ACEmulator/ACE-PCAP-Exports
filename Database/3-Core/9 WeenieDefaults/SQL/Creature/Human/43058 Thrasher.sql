@@ -6,8 +6,8 @@ VALUES (43058, 'ace43058-thrasher', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43058,   1,         16) /* ItemType - Creature */
      , (43058,   2,         31) /* CreatureType - Human */
-     , (43058,   6,        255) /* ItemsCapacity */
-     , (43058,   7,        255) /* ContainersCapacity */
+     , (43058,   6,         -1) /* ItemsCapacity */
+     , (43058,   7,         -1) /* ContainersCapacity */
      , (43058,  16,         32) /* ItemUseable - Remote */
      , (43058,  25,        150) /* Level */
      , (43058,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

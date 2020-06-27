@@ -6,8 +6,8 @@ VALUES (14457, 'regicidesentryn', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14457,   1,         16) /* ItemType - Creature */
      , (14457,   2,         31) /* CreatureType - Human */
-     , (14457,   6,        255) /* ItemsCapacity */
-     , (14457,   7,        255) /* ContainersCapacity */
+     , (14457,   6,         -1) /* ItemsCapacity */
+     , (14457,   7,         -1) /* ContainersCapacity */
      , (14457,  16,         32) /* ItemUseable - Remote */
      , (14457,  25,         35) /* Level */
      , (14457,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

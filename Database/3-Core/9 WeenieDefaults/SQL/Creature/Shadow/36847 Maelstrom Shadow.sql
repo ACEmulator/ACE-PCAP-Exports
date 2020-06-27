@@ -6,8 +6,8 @@ VALUES (36847, 'ace36847-maelstromshadow', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36847,   1,         16) /* ItemType - Creature */
      , (36847,   2,         22) /* CreatureType - Shadow */
-     , (36847,   6,        255) /* ItemsCapacity */
-     , (36847,   7,        255) /* ContainersCapacity */
+     , (36847,   6,         -1) /* ItemsCapacity */
+     , (36847,   7,         -1) /* ContainersCapacity */
      , (36847,  16,          1) /* ItemUseable - No */
      , (36847,  25,        100) /* Level */
      , (36847,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

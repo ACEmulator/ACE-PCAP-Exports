@@ -6,8 +6,8 @@ VALUES (41850, 'ace41850-moarsmanattacker', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41850,   1,         16) /* ItemType - Creature */
      , (41850,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (41850,   6,        255) /* ItemsCapacity */
-     , (41850,   7,        255) /* ContainersCapacity */
+     , (41850,   6,         -1) /* ItemsCapacity */
+     , (41850,   7,         -1) /* ContainersCapacity */
      , (41850,  16,          1) /* ItemUseable - No */
      , (41850,  25,        200) /* Level */
      , (41850,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

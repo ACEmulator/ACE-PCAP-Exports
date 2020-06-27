@@ -6,8 +6,8 @@ VALUES (43910, 'ace43910-absalomsarraf', 12, '2019-02-10 00:00:00') /* Vendor */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43910,   1,         16) /* ItemType - Creature */
      , (43910,   2,         31) /* CreatureType - Human */
-     , (43910,   6,        255) /* ItemsCapacity */
-     , (43910,   7,        255) /* ContainersCapacity */
+     , (43910,   6,         -1) /* ItemsCapacity */
+     , (43910,   7,         -1) /* ContainersCapacity */
      , (43910,  16,         32) /* ItemUseable - Remote */
      , (43910,  25,        250) /* Level */
      , (43910,  74,          0) /* MerchandiseItemTypes - None */

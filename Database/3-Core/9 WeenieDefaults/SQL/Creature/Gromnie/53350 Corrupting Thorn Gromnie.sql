@@ -6,8 +6,8 @@ VALUES (53350, 'ace53350-corruptingthorngromnie', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53350,   1,         16) /* ItemType - Creature */
      , (53350,   2,         15) /* CreatureType - Gromnie */
-     , (53350,   6,        255) /* ItemsCapacity */
-     , (53350,   7,        255) /* ContainersCapacity */
+     , (53350,   6,         -1) /* ItemsCapacity */
+     , (53350,   7,         -1) /* ContainersCapacity */
      , (53350,  16,          1) /* ItemUseable - No */
      , (53350,  25,        280) /* Level */
      , (53350,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
@@ -33,10 +33,10 @@ VALUES (53350,   1,   33554487) /* Setup */
      , (53350,   6,   67109307) /* PaletteBase */
      , (53350,   8,  100667938) /* Icon */
      , (53350,  22,  872415260) /* PhysicsEffectTable */
+     , (53350,  30,         87) /* PhysicsScript - BreatheLightning */
      , (53350, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (53350, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (53350, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (53350, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (53350, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53350, 8040, 1499857392, 90.90324, -190.4018, 0.003000021, 1, 0, 0, 0) /* PCAPRecordedLocation */

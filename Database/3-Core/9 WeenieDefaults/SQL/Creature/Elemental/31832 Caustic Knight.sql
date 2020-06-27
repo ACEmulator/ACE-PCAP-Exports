@@ -6,8 +6,8 @@ VALUES (31832, 'ace31832-causticknight', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31832,   1,         16) /* ItemType - Creature */
      , (31832,   2,         62) /* CreatureType - Elemental */
-     , (31832,   6,        255) /* ItemsCapacity */
-     , (31832,   7,        255) /* ContainersCapacity */
+     , (31832,   6,         -1) /* ItemsCapacity */
+     , (31832,   7,         -1) /* ContainersCapacity */
      , (31832,  16,          1) /* ItemUseable - No */
      , (31832,  25,        160) /* Level */
      , (31832,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

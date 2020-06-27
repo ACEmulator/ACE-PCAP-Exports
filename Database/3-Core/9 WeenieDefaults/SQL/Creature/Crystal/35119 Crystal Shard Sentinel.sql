@@ -6,8 +6,8 @@ VALUES (35119, 'ace35119-crystalshardsentinel', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35119,   1,         16) /* ItemType - Creature */
      , (35119,   2,         47) /* CreatureType - Crystal */
-     , (35119,   6,        255) /* ItemsCapacity */
-     , (35119,   7,        255) /* ContainersCapacity */
+     , (35119,   6,         -1) /* ItemsCapacity */
+     , (35119,   7,         -1) /* ContainersCapacity */
      , (35119,  16,          1) /* ItemUseable - No */
      , (35119,  25,        160) /* Level */
      , (35119,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

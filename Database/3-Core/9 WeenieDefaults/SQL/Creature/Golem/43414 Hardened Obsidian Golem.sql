@@ -6,8 +6,8 @@ VALUES (43414, 'ace43414-hardenedobsidiangolem', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43414,   1,         16) /* ItemType - Creature */
      , (43414,   2,         13) /* CreatureType - Golem */
-     , (43414,   6,        255) /* ItemsCapacity */
-     , (43414,   7,        255) /* ContainersCapacity */
+     , (43414,   6,         -1) /* ItemsCapacity */
+     , (43414,   7,         -1) /* ContainersCapacity */
      , (43414,  16,          1) /* ItemUseable - No */
      , (43414,  25,        160) /* Level */
      , (43414,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

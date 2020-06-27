@@ -6,8 +6,8 @@ VALUES (52574, 'ace52574-zefirthornranger', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52574,   1,         16) /* ItemType - Creature */
      , (52574,   2,         29) /* CreatureType - Zefir */
-     , (52574,   6,        255) /* ItemsCapacity */
-     , (52574,   7,        255) /* ContainersCapacity */
+     , (52574,   6,         -1) /* ItemsCapacity */
+     , (52574,   7,         -1) /* ContainersCapacity */
      , (52574,  16,          1) /* ItemUseable - No */
      , (52574,  25,        265) /* Level */
      , (52574,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

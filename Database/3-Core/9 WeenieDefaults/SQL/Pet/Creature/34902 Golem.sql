@@ -6,8 +6,8 @@ VALUES (34902, 'ace34902-amasissartisanlockpickersgolem', 69, '2019-02-10 00:00:
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34902,   1,         16) /* ItemType - Creature */
      , (34902,   2,         13) /* CreatureType - Golem */
-     , (34902,   6,        255) /* ItemsCapacity */
-     , (34902,   7,        255) /* ContainersCapacity */
+     , (34902,   6,         -1) /* ItemsCapacity */
+     , (34902,   7,         -1) /* ContainersCapacity */
      , (34902,  16,          1) /* ItemUseable - No */
      , (34902,  25,          1) /* Level */
      , (34902,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

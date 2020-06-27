@@ -6,8 +6,8 @@ VALUES (43221, 'ace43221-apostateriftaggressor', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43221,   1,         16) /* ItemType - Creature */
      , (43221,   2,         19) /* CreatureType - Virindi */
-     , (43221,   6,        255) /* ItemsCapacity */
-     , (43221,   7,        255) /* ContainersCapacity */
+     , (43221,   6,         -1) /* ItemsCapacity */
+     , (43221,   7,         -1) /* ContainersCapacity */
      , (43221,  16,          1) /* ItemUseable - No */
      , (43221,  25,        160) /* Level */
      , (43221,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

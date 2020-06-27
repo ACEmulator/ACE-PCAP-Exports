@@ -6,8 +6,8 @@ VALUES (43064, 'ace43064-mac', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43064,   1,         16) /* ItemType - Creature */
      , (43064,   2,         31) /* CreatureType - Human */
-     , (43064,   6,        255) /* ItemsCapacity */
-     , (43064,   7,        255) /* ContainersCapacity */
+     , (43064,   6,         -1) /* ItemsCapacity */
+     , (43064,   7,         -1) /* ContainersCapacity */
      , (43064,  16,         32) /* ItemUseable - Remote */
      , (43064,  25,        150) /* Level */
      , (43064,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

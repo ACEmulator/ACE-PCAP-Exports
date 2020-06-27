@@ -6,8 +6,8 @@ VALUES (23769, 'virindipreceptor', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23769,   1,         16) /* ItemType - Creature */
      , (23769,   2,         19) /* CreatureType - Virindi */
-     , (23769,   6,        255) /* ItemsCapacity */
-     , (23769,   7,        255) /* ContainersCapacity */
+     , (23769,   6,         -1) /* ItemsCapacity */
+     , (23769,   7,         -1) /* ContainersCapacity */
      , (23769,  16,          1) /* ItemUseable - No */
      , (23769,  25,        100) /* Level */
      , (23769,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

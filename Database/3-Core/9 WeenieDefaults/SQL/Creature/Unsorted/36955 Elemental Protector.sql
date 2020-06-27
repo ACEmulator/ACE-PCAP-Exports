@@ -5,8 +5,8 @@ VALUES (36955, 'ace36955-elementalprotector', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36955,   1,         16) /* ItemType - Creature */
-     , (36955,   6,        255) /* ItemsCapacity */
-     , (36955,   7,        255) /* ContainersCapacity */
+     , (36955,   6,         -1) /* ItemsCapacity */
+     , (36955,   7,         -1) /* ContainersCapacity */
      , (36955,  16,          1) /* ItemUseable - No */
      , (36955,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
      , (36955, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -6,8 +6,8 @@ VALUES (38644, 'ace38644-shiengendaoftheradiantblood', 10, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38644,   1,         16) /* ItemType - Creature */
      , (38644,   2,         31) /* CreatureType - Human */
-     , (38644,   6,        255) /* ItemsCapacity */
-     , (38644,   7,        255) /* ContainersCapacity */
+     , (38644,   6,         -1) /* ItemsCapacity */
+     , (38644,   7,         -1) /* ContainersCapacity */
      , (38644,  16,         32) /* ItemUseable - Remote */
      , (38644,  25,        180) /* Level */
      , (38644,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

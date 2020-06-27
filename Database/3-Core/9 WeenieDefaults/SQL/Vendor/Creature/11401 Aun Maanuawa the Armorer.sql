@@ -6,8 +6,8 @@ VALUES (11401, 'timaruarmorer-xp', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11401,   1,         16) /* ItemType - Creature */
      , (11401,   2,          6) /* CreatureType - Tumerok */
-     , (11401,   6,        255) /* ItemsCapacity */
-     , (11401,   7,        255) /* ContainersCapacity */
+     , (11401,   6,         -1) /* ItemsCapacity */
+     , (11401,   7,         -1) /* ContainersCapacity */
      , (11401,  16,         32) /* ItemUseable - Remote */
      , (11401,  25,         12) /* Level */
      , (11401,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */

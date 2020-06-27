@@ -6,8 +6,8 @@ VALUES (33188, 'ace33188-divinerpheraion', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33188,   1,         16) /* ItemType - Creature */
      , (33188,   2,         31) /* CreatureType - Human */
-     , (33188,   6,        255) /* ItemsCapacity */
-     , (33188,   7,        255) /* ContainersCapacity */
+     , (33188,   6,         -1) /* ItemsCapacity */
+     , (33188,   7,         -1) /* ContainersCapacity */
      , (33188,  16,          1) /* ItemUseable - No */
      , (33188,  25,        160) /* Level */
      , (33188,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

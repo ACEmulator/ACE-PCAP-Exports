@@ -6,8 +6,8 @@ VALUES (34834, 'ace34834-furgal', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34834,   1,         16) /* ItemType - Creature */
      , (34834,   2,         75) /* CreatureType - Burun */
-     , (34834,   6,        255) /* ItemsCapacity */
-     , (34834,   7,        255) /* ContainersCapacity */
+     , (34834,   6,         -1) /* ItemsCapacity */
+     , (34834,   7,         -1) /* ContainersCapacity */
      , (34834,  16,         32) /* ItemUseable - Remote */
      , (34834,  25,         38) /* Level */
      , (34834,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

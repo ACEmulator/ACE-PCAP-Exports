@@ -6,8 +6,8 @@ VALUES (34976, 'ace34976-infusedempyreanbloodgolem', 10, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34976,   1,         16) /* ItemType - Creature */
      , (34976,   2,         13) /* CreatureType - Golem */
-     , (34976,   6,        255) /* ItemsCapacity */
-     , (34976,   7,        255) /* ContainersCapacity */
+     , (34976,   6,         -1) /* ItemsCapacity */
+     , (34976,   7,         -1) /* ContainersCapacity */
      , (34976,  16,          1) /* ItemUseable - No */
      , (34976,  25,        135) /* Level */
      , (34976,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

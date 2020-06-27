@@ -5,8 +5,8 @@ VALUES (31921, 'ace31921-mosswartagitator', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31921,   1,         16) /* ItemType - Creature */
-     , (31921,   6,        255) /* ItemsCapacity */
-     , (31921,   7,        255) /* ContainersCapacity */
+     , (31921,   6,         -1) /* ItemsCapacity */
+     , (31921,   7,         -1) /* ContainersCapacity */
      , (31921,  16,          1) /* ItemUseable - No */
      , (31921,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31921, 133,          2) /* ShowableOnRadar - ShowMovement */

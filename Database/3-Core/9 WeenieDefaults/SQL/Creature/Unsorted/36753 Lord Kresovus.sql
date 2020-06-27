@@ -5,8 +5,8 @@ VALUES (36753, 'ace36753-lordkresovus', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36753,   1,         16) /* ItemType - Creature */
-     , (36753,   6,        255) /* ItemsCapacity */
-     , (36753,   7,        255) /* ContainersCapacity */
+     , (36753,   6,         -1) /* ItemsCapacity */
+     , (36753,   7,         -1) /* ContainersCapacity */
      , (36753,  16,         32) /* ItemUseable - Remote */
      , (36753,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36753,  95,          8) /* RadarBlipColor - Yellow */

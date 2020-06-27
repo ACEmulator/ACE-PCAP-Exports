@@ -6,8 +6,8 @@ VALUES (32932, 'ace32932-sonofpooky', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32932,   1,         16) /* ItemType - Creature */
      , (32932,   2,         25) /* CreatureType - Rabbit */
-     , (32932,   6,        255) /* ItemsCapacity */
-     , (32932,   7,        255) /* ContainersCapacity */
+     , (32932,   6,         -1) /* ItemsCapacity */
+     , (32932,   7,         -1) /* ContainersCapacity */
      , (32932,  16,          1) /* ItemUseable - No */
      , (32932,  25,        333) /* Level */
      , (32932,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (32932,   1,   33555579) /* Setup */
      , (32932,   6,   67109300) /* PaletteBase */
      , (32932,   8,  100669116) /* Icon */
      , (32932,  22,  872415277) /* PhysicsEffectTable */
+     , (32932,  30,         87) /* PhysicsScript - BreatheLightning */
      , (32932, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (32932, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (32932, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (32932, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (32932, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32932, 8040, 9896197, 170, -120, -48, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */

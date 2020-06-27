@@ -6,8 +6,8 @@ VALUES (20216, 'scriveneritemwar2starter', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20216,   1,         16) /* ItemType - Creature */
      , (20216,   2,         31) /* CreatureType - Human */
-     , (20216,   6,        255) /* ItemsCapacity */
-     , (20216,   7,        255) /* ContainersCapacity */
+     , (20216,   6,         -1) /* ItemsCapacity */
+     , (20216,   7,         -1) /* ContainersCapacity */
      , (20216,  16,         32) /* ItemUseable - Remote */
      , (20216,  25,         14) /* Level */
      , (20216,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */

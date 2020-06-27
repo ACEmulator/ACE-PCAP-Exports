@@ -5,8 +5,8 @@ VALUES (44110, 'ace44110-fallenrock', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44110,   1,         16) /* ItemType - Creature */
-     , (44110,   6,        255) /* ItemsCapacity */
-     , (44110,   7,        255) /* ContainersCapacity */
+     , (44110,   6,         -1) /* ItemsCapacity */
+     , (44110,   7,         -1) /* ContainersCapacity */
      , (44110,  16,          1) /* ItemUseable - No */
      , (44110,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (44110, 8007,          0) /* PCAPRecordedAutonomousMovement */;

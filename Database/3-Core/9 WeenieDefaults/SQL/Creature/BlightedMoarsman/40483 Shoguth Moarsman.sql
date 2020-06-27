@@ -6,8 +6,8 @@ VALUES (40483, 'ace40483-shoguthmoarsman', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40483,   1,         16) /* ItemType - Creature */
      , (40483,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (40483,   6,        255) /* ItemsCapacity */
-     , (40483,   7,        255) /* ContainersCapacity */
+     , (40483,   6,         -1) /* ItemsCapacity */
+     , (40483,   7,         -1) /* ContainersCapacity */
      , (40483,  16,          1) /* ItemUseable - No */
      , (40483,  25,        200) /* Level */
      , (40483,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

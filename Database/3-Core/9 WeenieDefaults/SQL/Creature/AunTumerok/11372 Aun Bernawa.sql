@@ -6,8 +6,8 @@ VALUES (11372, 'aunbernawa-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11372,   1,         16) /* ItemType - Creature */
      , (11372,   2,         57) /* CreatureType - AunTumerok */
-     , (11372,   6,        255) /* ItemsCapacity */
-     , (11372,   7,        255) /* ContainersCapacity */
+     , (11372,   6,         -1) /* ItemsCapacity */
+     , (11372,   7,         -1) /* ContainersCapacity */
      , (11372,  16,         32) /* ItemUseable - Remote */
      , (11372,  25,         18) /* Level */
      , (11372,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

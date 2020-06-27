@@ -6,8 +6,8 @@ VALUES (46299, 'ace46299-tiny', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46299,   1,         16) /* ItemType - Creature */
      , (46299,   2,         80) /* CreatureType - Penguin */
-     , (46299,   6,        255) /* ItemsCapacity */
-     , (46299,   7,        255) /* ContainersCapacity */
+     , (46299,   6,         -1) /* ItemsCapacity */
+     , (46299,   7,         -1) /* ContainersCapacity */
      , (46299,  16,          1) /* ItemUseable - No */
      , (46299,  25,        400) /* Level */
      , (46299,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

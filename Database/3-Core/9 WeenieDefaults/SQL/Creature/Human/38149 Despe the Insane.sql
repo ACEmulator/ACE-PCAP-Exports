@@ -6,8 +6,8 @@ VALUES (38149, 'ace38149-despetheinsane', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38149,   1,         16) /* ItemType - Creature */
      , (38149,   2,         31) /* CreatureType - Human */
-     , (38149,   6,        255) /* ItemsCapacity */
-     , (38149,   7,        255) /* ContainersCapacity */
+     , (38149,   6,         -1) /* ItemsCapacity */
+     , (38149,   7,         -1) /* ContainersCapacity */
      , (38149,  16,          1) /* ItemUseable - No */
      , (38149,  25,        160) /* Level */
      , (38149,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (27432, 'gibbering', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27432,   1,         16) /* ItemType - Creature */
      , (27432,   2,         40) /* CreatureType - Unknown */
-     , (27432,   6,        255) /* ItemsCapacity */
-     , (27432,   7,        255) /* ContainersCapacity */
+     , (27432,   6,         -1) /* ItemsCapacity */
+     , (27432,   7,         -1) /* ContainersCapacity */
      , (27432,  16,          1) /* ItemUseable - No */
      , (27432,  25,        161) /* Level */
      , (27432,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

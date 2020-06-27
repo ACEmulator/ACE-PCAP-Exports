@@ -6,8 +6,8 @@ VALUES (28183, 'collectoralchemyghalow', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28183,   1,         16) /* ItemType - Creature */
      , (28183,   2,         31) /* CreatureType - Human */
-     , (28183,   6,        255) /* ItemsCapacity */
-     , (28183,   7,        255) /* ContainersCapacity */
+     , (28183,   6,         -1) /* ItemsCapacity */
+     , (28183,   7,         -1) /* ContainersCapacity */
      , (28183,  16,         32) /* ItemUseable - Remote */
      , (28183,  25,          5) /* Level */
      , (28183,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (30997, 'academyresearcher', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30997,   1,         16) /* ItemType - Creature */
      , (30997,   2,         31) /* CreatureType - Human */
-     , (30997,   6,        255) /* ItemsCapacity */
-     , (30997,   7,        255) /* ContainersCapacity */
+     , (30997,   6,         -1) /* ItemsCapacity */
+     , (30997,   7,         -1) /* ContainersCapacity */
      , (30997,  16,         32) /* ItemUseable - Remote */
      , (30997,  25,         10) /* Level */
      , (30997,  74,          0) /* MerchandiseItemTypes - None */

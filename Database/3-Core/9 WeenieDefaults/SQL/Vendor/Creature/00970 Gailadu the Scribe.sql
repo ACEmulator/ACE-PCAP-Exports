@@ -6,8 +6,8 @@ VALUES (970, 'undercityscribe', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (970,   1,         16) /* ItemType - Creature */
      , (970,   2,         31) /* CreatureType - Human */
-     , (970,   6,        255) /* ItemsCapacity */
-     , (970,   7,        255) /* ContainersCapacity */
+     , (970,   6,         -1) /* ItemsCapacity */
+     , (970,   7,         -1) /* ContainersCapacity */
      , (970,  16,         32) /* ItemUseable - Remote */
      , (970,  25,         12) /* Level */
      , (970,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */

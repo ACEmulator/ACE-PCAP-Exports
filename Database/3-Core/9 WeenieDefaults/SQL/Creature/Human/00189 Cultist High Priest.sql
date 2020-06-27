@@ -6,8 +6,8 @@ VALUES (189, 'culthighpriest', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (189,   1,         16) /* ItemType - Creature */
      , (189,   2,         31) /* CreatureType - Human */
-     , (189,   6,        255) /* ItemsCapacity */
-     , (189,   7,        255) /* ContainersCapacity */
+     , (189,   6,         -1) /* ItemsCapacity */
+     , (189,   7,         -1) /* ContainersCapacity */
      , (189,  16,          1) /* ItemUseable - No */
      , (189,  25,        100) /* Level */
      , (189,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (35605, 'ace35605-researchertharin', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35605,   1,         16) /* ItemType - Creature */
      , (35605,   2,         31) /* CreatureType - Human */
-     , (35605,   6,        255) /* ItemsCapacity */
-     , (35605,   7,        255) /* ContainersCapacity */
+     , (35605,   6,         -1) /* ItemsCapacity */
+     , (35605,   7,         -1) /* ContainersCapacity */
      , (35605,  16,         32) /* ItemUseable - Remote */
      , (35605,  25,         34) /* Level */
      , (35605,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

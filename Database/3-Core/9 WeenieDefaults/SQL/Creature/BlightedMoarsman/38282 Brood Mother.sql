@@ -6,8 +6,8 @@ VALUES (38282, 'ace38282-broodmother', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38282,   1,         16) /* ItemType - Creature */
      , (38282,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (38282,   6,        255) /* ItemsCapacity */
-     , (38282,   7,        255) /* ContainersCapacity */
+     , (38282,   6,         -1) /* ItemsCapacity */
+     , (38282,   7,         -1) /* ContainersCapacity */
      , (38282,  16,          1) /* ItemUseable - No */
      , (38282,  25,        200) /* Level */
      , (38282,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (209, 'mitesquib', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (209,   1,         16) /* ItemType - Creature */
      , (209,   2,          7) /* CreatureType - Mite */
-     , (209,   6,        255) /* ItemsCapacity */
-     , (209,   7,        255) /* ContainersCapacity */
+     , (209,   6,         -1) /* ItemsCapacity */
+     , (209,   7,         -1) /* ContainersCapacity */
      , (209,  16,          1) /* ItemUseable - No */
      , (209,  25,         15) /* Level */
      , (209,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (38045, 'ace38045-hiroishigame', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38045,   1,         16) /* ItemType - Creature */
      , (38045,   2,         31) /* CreatureType - Human */
-     , (38045,   6,        255) /* ItemsCapacity */
-     , (38045,   7,        255) /* ContainersCapacity */
+     , (38045,   6,         -1) /* ItemsCapacity */
+     , (38045,   7,         -1) /* ContainersCapacity */
      , (38045,  16,         32) /* ItemUseable - Remote */
      , (38045,  25,         15) /* Level */
      , (38045,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

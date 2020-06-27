@@ -6,8 +6,8 @@ VALUES (40138, 'ace40138-voltaicpillar', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40138,   1,         16) /* ItemType - Creature */
      , (40138,   2,         47) /* CreatureType - Crystal */
-     , (40138,   6,        255) /* ItemsCapacity */
-     , (40138,   7,        255) /* ContainersCapacity */
+     , (40138,   6,         -1) /* ItemsCapacity */
+     , (40138,   7,         -1) /* ContainersCapacity */
      , (40138,  16,          1) /* ItemUseable - No */
      , (40138,  25,        100) /* Level */
      , (40138,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

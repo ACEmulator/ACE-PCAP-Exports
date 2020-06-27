@@ -6,8 +6,8 @@ VALUES (32032, 'ace32032-radiantcrystal', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32032,   1,         16) /* ItemType - Creature */
      , (32032,   2,         47) /* CreatureType - Crystal */
-     , (32032,   6,        255) /* ItemsCapacity */
-     , (32032,   7,        255) /* ContainersCapacity */
+     , (32032,   6,         -1) /* ItemsCapacity */
+     , (32032,   7,         -1) /* ContainersCapacity */
      , (32032,  16,          1) /* ItemUseable - No */
      , (32032,  25,        160) /* Level */
      , (32032,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

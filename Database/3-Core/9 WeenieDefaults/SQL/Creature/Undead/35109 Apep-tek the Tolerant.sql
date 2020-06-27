@@ -6,8 +6,8 @@ VALUES (35109, 'ace35109-apeptekthetolerant', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35109,   1,         16) /* ItemType - Creature */
      , (35109,   2,         14) /* CreatureType - Undead */
-     , (35109,   6,        255) /* ItemsCapacity */
-     , (35109,   7,        255) /* ContainersCapacity */
+     , (35109,   6,         -1) /* ItemsCapacity */
+     , (35109,   7,         -1) /* ContainersCapacity */
      , (35109,  16,         32) /* ItemUseable - Remote */
      , (35109,  25,        155) /* Level */
      , (35109,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

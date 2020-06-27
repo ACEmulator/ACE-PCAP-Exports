@@ -5,8 +5,8 @@ VALUES (31949, 'ace31949-counttenera', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31949,   1,         16) /* ItemType - Creature */
-     , (31949,   6,        255) /* ItemsCapacity */
-     , (31949,   7,        255) /* ContainersCapacity */
+     , (31949,   6,         -1) /* ItemsCapacity */
+     , (31949,   7,         -1) /* ContainersCapacity */
      , (31949,  16,         32) /* ItemUseable - Remote */
      , (31949,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31949,  95,          8) /* RadarBlipColor - Yellow */

@@ -6,8 +6,8 @@ VALUES (43762, 'ace43762-chilleddefender', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43762,   1,         16) /* ItemType - Creature */
      , (43762,   2,         13) /* CreatureType - Golem */
-     , (43762,   6,        255) /* ItemsCapacity */
-     , (43762,   7,        255) /* ContainersCapacity */
+     , (43762,   6,         -1) /* ItemsCapacity */
+     , (43762,   7,         -1) /* ContainersCapacity */
      , (43762,  16,          1) /* ItemUseable - No */
      , (43762,  25,        220) /* Level */
      , (43762,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

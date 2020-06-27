@@ -6,8 +6,8 @@ VALUES (36598, 'ace36598-paradoxsimulacrum', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36598,   1,         16) /* ItemType - Creature */
      , (36598,   2,         59) /* CreatureType - Simulacrum */
-     , (36598,   6,        255) /* ItemsCapacity */
-     , (36598,   7,        255) /* ContainersCapacity */
+     , (36598,   6,         -1) /* ItemsCapacity */
+     , (36598,   7,         -1) /* ContainersCapacity */
      , (36598,  16,          1) /* ItemUseable - No */
      , (36598,  25,        185) /* Level */
      , (36598,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

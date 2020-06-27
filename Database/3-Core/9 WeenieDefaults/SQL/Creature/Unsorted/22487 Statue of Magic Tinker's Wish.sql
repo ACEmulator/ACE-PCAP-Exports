@@ -5,8 +5,8 @@ VALUES (22487, 'statuetuskiemagicitemtink', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22487,   1,         16) /* ItemType - Creature */
-     , (22487,   6,        255) /* ItemsCapacity */
-     , (22487,   7,        255) /* ContainersCapacity */
+     , (22487,   6,         -1) /* ItemsCapacity */
+     , (22487,   7,         -1) /* ContainersCapacity */
      , (22487,  16,         32) /* ItemUseable - Remote */
      , (22487,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22487,  95,          3) /* RadarBlipColor - White */

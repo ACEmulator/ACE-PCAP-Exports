@@ -6,8 +6,8 @@ VALUES (38180, 'ace38180-blightedbanegrievver', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38180,   1,         16) /* ItemType - Creature */
      , (38180,   2,         44) /* CreatureType - Grievver */
-     , (38180,   6,        255) /* ItemsCapacity */
-     , (38180,   7,        255) /* ContainersCapacity */
+     , (38180,   6,         -1) /* ItemsCapacity */
+     , (38180,   7,         -1) /* ContainersCapacity */
      , (38180,  16,          1) /* ItemUseable - No */
      , (38180,  25,        115) /* Level */
      , (38180,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (38180,   1,   33556698) /* Setup */
      , (38180,   6,   67112927) /* PaletteBase */
      , (38180,   8,  100670960) /* Icon */
      , (38180,  22,  872415364) /* PhysicsEffectTable */
+     , (38180,  30,         86) /* PhysicsScript - BreatheAcid */
      , (38180, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38180, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38180, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (38180, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (38180, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38180, 8040, 826081326, 121.424, 138.0614, 34.51286, -0.854849, 0, 0, -0.5188769) /* PCAPRecordedLocation */

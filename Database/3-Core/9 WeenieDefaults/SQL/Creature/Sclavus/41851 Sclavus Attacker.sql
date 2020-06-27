@@ -6,8 +6,8 @@ VALUES (41851, 'ace41851-sclavusattacker', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41851,   1,         16) /* ItemType - Creature */
      , (41851,   2,         26) /* CreatureType - Sclavus */
-     , (41851,   6,        255) /* ItemsCapacity */
-     , (41851,   7,        255) /* ContainersCapacity */
+     , (41851,   6,         -1) /* ItemsCapacity */
+     , (41851,   7,         -1) /* ContainersCapacity */
      , (41851,  16,          1) /* ItemUseable - No */
      , (41851,  25,        220) /* Level */
      , (41851,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

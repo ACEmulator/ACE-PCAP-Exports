@@ -5,8 +5,8 @@ VALUES (38295, 'ace38295-coraltower', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38295,   1,         16) /* ItemType - Creature */
-     , (38295,   6,        255) /* ItemsCapacity */
-     , (38295,   7,        255) /* ContainersCapacity */
+     , (38295,   6,         -1) /* ItemsCapacity */
+     , (38295,   7,         -1) /* ContainersCapacity */
      , (38295,  16,          1) /* ItemUseable - No */
      , (38295,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38295, 133,          4) /* ShowableOnRadar - ShowAlways */

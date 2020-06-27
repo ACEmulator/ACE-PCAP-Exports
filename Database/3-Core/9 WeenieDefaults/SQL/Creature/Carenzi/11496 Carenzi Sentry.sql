@@ -6,8 +6,8 @@ VALUES (11496, 'carenzisentry-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11496,   1,         16) /* ItemType - Creature */
      , (11496,   2,         55) /* CreatureType - Carenzi */
-     , (11496,   6,        255) /* ItemsCapacity */
-     , (11496,   7,        255) /* ContainersCapacity */
+     , (11496,   6,         -1) /* ItemsCapacity */
+     , (11496,   7,         -1) /* ContainersCapacity */
      , (11496,  16,          1) /* ItemUseable - No */
      , (11496,  25,          8) /* Level */
      , (11496,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

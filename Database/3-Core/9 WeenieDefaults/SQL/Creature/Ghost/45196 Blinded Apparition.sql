@@ -6,8 +6,8 @@ VALUES (45196, 'ace45196-blindedapparition', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45196,   1,         16) /* ItemType - Creature */
      , (45196,   2,         77) /* CreatureType - Ghost */
-     , (45196,   6,        255) /* ItemsCapacity */
-     , (45196,   7,        255) /* ContainersCapacity */
+     , (45196,   6,         -1) /* ItemsCapacity */
+     , (45196,   7,         -1) /* ContainersCapacity */
      , (45196,  16,          1) /* ItemUseable - No */
      , (45196,  25,        250) /* Level */
      , (45196,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

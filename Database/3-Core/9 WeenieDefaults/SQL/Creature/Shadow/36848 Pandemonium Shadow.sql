@@ -6,8 +6,8 @@ VALUES (36848, 'ace36848-pandemoniumshadow', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36848,   1,         16) /* ItemType - Creature */
      , (36848,   2,         22) /* CreatureType - Shadow */
-     , (36848,   6,        255) /* ItemsCapacity */
-     , (36848,   7,        255) /* ContainersCapacity */
+     , (36848,   6,         -1) /* ItemsCapacity */
+     , (36848,   7,         -1) /* ContainersCapacity */
      , (36848,  16,          1) /* ItemUseable - No */
      , (36848,  25,         80) /* Level */
      , (36848,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

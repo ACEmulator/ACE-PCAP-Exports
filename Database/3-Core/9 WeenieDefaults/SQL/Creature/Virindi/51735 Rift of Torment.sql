@@ -6,8 +6,8 @@ VALUES (51735, 'ace51735-riftoftorment', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51735,   1,         16) /* ItemType - Creature */
      , (51735,   2,         19) /* CreatureType - Virindi */
-     , (51735,   6,        255) /* ItemsCapacity */
-     , (51735,   7,        255) /* ContainersCapacity */
+     , (51735,   6,         -1) /* ItemsCapacity */
+     , (51735,   7,         -1) /* ContainersCapacity */
      , (51735,  16,          1) /* ItemUseable - No */
      , (51735,  25,        250) /* Level */
      , (51735,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */

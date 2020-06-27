@@ -6,8 +6,8 @@ VALUES (36034, 'ace36034-nightmarishmarionette', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36034,   1,         16) /* ItemType - Creature */
      , (36034,   2,         54) /* CreatureType - Marionette */
-     , (36034,   6,        255) /* ItemsCapacity */
-     , (36034,   7,        255) /* ContainersCapacity */
+     , (36034,   6,         -1) /* ItemsCapacity */
+     , (36034,   7,         -1) /* ContainersCapacity */
      , (36034,  16,          1) /* ItemUseable - No */
      , (36034,  25,        160) /* Level */
      , (36034,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

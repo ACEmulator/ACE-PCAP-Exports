@@ -6,8 +6,8 @@ VALUES (981, 'samsurscribe', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (981,   1,         16) /* ItemType - Creature */
      , (981,   2,         31) /* CreatureType - Human */
-     , (981,   6,        255) /* ItemsCapacity */
-     , (981,   7,        255) /* ContainersCapacity */
+     , (981,   6,         -1) /* ItemsCapacity */
+     , (981,   7,         -1) /* ContainersCapacity */
      , (981,  16,         32) /* ItemUseable - Remote */
      , (981,  25,         10) /* Level */
      , (981,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

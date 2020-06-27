@@ -6,8 +6,8 @@ VALUES (23035, 'golemobsidiancrystalmine-nofall', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23035,   1,         16) /* ItemType - Creature */
      , (23035,   2,         13) /* CreatureType - Golem */
-     , (23035,   6,        255) /* ItemsCapacity */
-     , (23035,   7,        255) /* ContainersCapacity */
+     , (23035,   6,         -1) /* ItemsCapacity */
+     , (23035,   7,         -1) /* ContainersCapacity */
      , (23035,  16,          1) /* ItemUseable - No */
      , (23035,  25,        160) /* Level */
      , (23035,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

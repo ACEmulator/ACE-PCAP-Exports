@@ -6,8 +6,8 @@ VALUES (42444, 'ace42444-stasiswisp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42444,   1,         16) /* ItemType - Creature */
      , (42444,   2,         20) /* CreatureType - Wisp */
-     , (42444,   6,        255) /* ItemsCapacity */
-     , (42444,   7,        255) /* ContainersCapacity */
+     , (42444,   6,         -1) /* ItemsCapacity */
+     , (42444,   7,         -1) /* ContainersCapacity */
      , (42444,  16,          1) /* ItemUseable - No */
      , (42444,  25,        100) /* Level */
      , (42444,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

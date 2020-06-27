@@ -5,8 +5,8 @@ VALUES (39196, 'ace39196-patriarchsexecutioner', 10, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39196,   1,         16) /* ItemType - Creature */
-     , (39196,   6,        255) /* ItemsCapacity */
-     , (39196,   7,        255) /* ContainersCapacity */
+     , (39196,   6,         -1) /* ItemsCapacity */
+     , (39196,   7,         -1) /* ContainersCapacity */
      , (39196,  16,          1) /* ItemUseable - No */
      , (39196,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39196, 133,          2) /* ShowableOnRadar - ShowMovement */

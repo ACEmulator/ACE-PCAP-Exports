@@ -6,8 +6,8 @@ VALUES (33734, 'ace33734-soddenundeadruschk', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33734,   1,         16) /* ItemType - Creature */
      , (33734,   2,         14) /* CreatureType - Undead */
-     , (33734,   6,        255) /* ItemsCapacity */
-     , (33734,   7,        255) /* ContainersCapacity */
+     , (33734,   6,         -1) /* ItemsCapacity */
+     , (33734,   7,         -1) /* ContainersCapacity */
      , (33734,  16,          1) /* ItemUseable - No */
      , (33734,  25,        200) /* Level */
      , (33734,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

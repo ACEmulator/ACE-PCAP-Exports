@@ -6,8 +6,8 @@ VALUES (34264, 'ace34264-smallgranitegolem', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34264,   1,         16) /* ItemType - Creature */
      , (34264,   2,         13) /* CreatureType - Golem */
-     , (34264,   6,        255) /* ItemsCapacity */
-     , (34264,   7,        255) /* ContainersCapacity */
+     , (34264,   6,         -1) /* ItemsCapacity */
+     , (34264,   7,         -1) /* ContainersCapacity */
      , (34264,  16,          1) /* ItemUseable - No */
      , (34264,  25,        115) /* Level */
      , (34264,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

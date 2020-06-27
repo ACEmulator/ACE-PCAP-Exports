@@ -5,8 +5,8 @@ VALUES (52907, 'ace52907-gauntletstage5', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52907,   1,         16) /* ItemType - Creature */
-     , (52907,   6,        255) /* ItemsCapacity */
-     , (52907,   7,        255) /* ContainersCapacity */
+     , (52907,   6,         -1) /* ItemsCapacity */
+     , (52907,   7,         -1) /* ContainersCapacity */
      , (52907,  16,         32) /* ItemUseable - Remote */
      , (52907,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (52907,  95,          4) /* RadarBlipColor - Purple */

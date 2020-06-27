@@ -6,8 +6,8 @@ VALUES (32836, 'ace32836-bhravarnibnsalizim', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32836,   1,         16) /* ItemType - Creature */
      , (32836,   2,         31) /* CreatureType - Human */
-     , (32836,   6,        255) /* ItemsCapacity */
-     , (32836,   7,        255) /* ContainersCapacity */
+     , (32836,   6,         -1) /* ItemsCapacity */
+     , (32836,   7,         -1) /* ContainersCapacity */
      , (32836,  16,         32) /* ItemUseable - Remote */
      , (32836,  25,        250) /* Level */
      , (32836,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

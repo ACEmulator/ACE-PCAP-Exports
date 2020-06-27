@@ -6,8 +6,8 @@ VALUES (43406, 'ace43406-lordtyragar', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43406,   1,         16) /* ItemType - Creature */
      , (43406,   2,         31) /* CreatureType - Human */
-     , (43406,   6,        255) /* ItemsCapacity */
-     , (43406,   7,        255) /* ContainersCapacity */
+     , (43406,   6,         -1) /* ItemsCapacity */
+     , (43406,   7,         -1) /* ContainersCapacity */
      , (43406,  16,         32) /* ItemUseable - Remote */
      , (43406,  25,        600) /* Level */
      , (43406,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

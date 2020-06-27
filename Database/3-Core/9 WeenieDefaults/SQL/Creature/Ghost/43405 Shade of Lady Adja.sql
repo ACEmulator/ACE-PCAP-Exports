@@ -6,8 +6,8 @@ VALUES (43405, 'ace43405-shadeofladyadja', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43405,   1,         16) /* ItemType - Creature */
      , (43405,   2,         77) /* CreatureType - Ghost */
-     , (43405,   6,        255) /* ItemsCapacity */
-     , (43405,   7,        255) /* ContainersCapacity */
+     , (43405,   6,         -1) /* ItemsCapacity */
+     , (43405,   7,         -1) /* ContainersCapacity */
      , (43405,  16,         32) /* ItemUseable - Remote */
      , (43405,  25,        600) /* Level */
      , (43405,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (19261, 'mosswartcreeper-noaggro', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19261,   1,         16) /* ItemType - Creature */
      , (19261,   2,          4) /* CreatureType - Mosswart */
-     , (19261,   6,        255) /* ItemsCapacity */
-     , (19261,   7,        255) /* ContainersCapacity */
+     , (19261,   6,         -1) /* ItemsCapacity */
+     , (19261,   7,         -1) /* ContainersCapacity */
      , (19261,  16,          1) /* ItemUseable - No */
      , (19261,  25,          8) /* Level */
      , (19261,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (52709, 'ace52709-stingingarmoredillo', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52709,   1,         16) /* ItemType - Creature */
      , (52709,   2,         17) /* CreatureType - Armoredillo */
-     , (52709,   6,        255) /* ItemsCapacity */
-     , (52709,   7,        255) /* ContainersCapacity */
+     , (52709,   6,         -1) /* ItemsCapacity */
+     , (52709,   7,         -1) /* ContainersCapacity */
      , (52709,  16,          1) /* ItemUseable - No */
      , (52709,  25,        265) /* Level */
      , (52709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

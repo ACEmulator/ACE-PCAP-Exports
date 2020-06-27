@@ -5,8 +5,8 @@ VALUES (44094, 'ace44094-mumiyahchampion', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44094,   1,         16) /* ItemType - Creature */
-     , (44094,   6,        255) /* ItemsCapacity */
-     , (44094,   7,        255) /* ContainersCapacity */
+     , (44094,   6,         -1) /* ItemsCapacity */
+     , (44094,   7,         -1) /* ContainersCapacity */
      , (44094,  16,          1) /* ItemUseable - No */
      , (44094,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44094, 133,          2) /* ShowableOnRadar - ShowMovement */

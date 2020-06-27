@@ -5,8 +5,8 @@ VALUES (27812, 'minionmartinelife', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27812,   1,         16) /* ItemType - Creature */
-     , (27812,   6,        255) /* ItemsCapacity */
-     , (27812,   7,        255) /* ContainersCapacity */
+     , (27812,   6,         -1) /* ItemsCapacity */
+     , (27812,   7,         -1) /* ContainersCapacity */
      , (27812,  16,         32) /* ItemUseable - Remote */
      , (27812,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27812,  95,          8) /* RadarBlipColor - Yellow */

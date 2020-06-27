@@ -6,8 +6,8 @@ VALUES (49605, 'ace49605-towncrier', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49605,   1,         16) /* ItemType - Creature */
      , (49605,   2,         31) /* CreatureType - Human */
-     , (49605,   6,        255) /* ItemsCapacity */
-     , (49605,   7,        255) /* ContainersCapacity */
+     , (49605,   6,         -1) /* ItemsCapacity */
+     , (49605,   7,         -1) /* ContainersCapacity */
      , (49605,  16,         32) /* ItemUseable - Remote */
      , (49605,  25,         30) /* Level */
      , (49605,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

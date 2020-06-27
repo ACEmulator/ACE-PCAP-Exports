@@ -5,8 +5,8 @@ VALUES (53026, 'ace53026-fieryremains', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53026,   1,         16) /* ItemType - Creature */
-     , (53026,   6,        255) /* ItemsCapacity */
-     , (53026,   7,        255) /* ContainersCapacity */
+     , (53026,   6,         -1) /* ItemsCapacity */
+     , (53026,   7,         -1) /* ContainersCapacity */
      , (53026,  16,          1) /* ItemUseable - No */
      , (53026,  93,    6292500) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53026,  95,          8) /* RadarBlipColor - Yellow */

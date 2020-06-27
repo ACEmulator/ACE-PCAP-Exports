@@ -6,8 +6,8 @@ VALUES (48816, 'ace48816-spiritofjanthef', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48816,   1,         16) /* ItemType - Creature */
      , (48816,   2,         77) /* CreatureType - Ghost */
-     , (48816,   6,        255) /* ItemsCapacity */
-     , (48816,   7,        255) /* ContainersCapacity */
+     , (48816,   6,         -1) /* ItemsCapacity */
+     , (48816,   7,         -1) /* ContainersCapacity */
      , (48816,  16,         32) /* ItemUseable - Remote */
      , (48816,  25,        240) /* Level */
      , (48816,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

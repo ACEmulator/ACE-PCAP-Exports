@@ -6,8 +6,8 @@ VALUES (35559, 'ace35559-tempestshadow', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35559,   1,         16) /* ItemType - Creature */
      , (35559,   2,         22) /* CreatureType - Shadow */
-     , (35559,   6,        255) /* ItemsCapacity */
-     , (35559,   7,        255) /* ContainersCapacity */
+     , (35559,   6,         -1) /* ItemsCapacity */
+     , (35559,   7,         -1) /* ContainersCapacity */
      , (35559,  16,          1) /* ItemUseable - No */
      , (35559,  25,        160) /* Level */
      , (35559,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

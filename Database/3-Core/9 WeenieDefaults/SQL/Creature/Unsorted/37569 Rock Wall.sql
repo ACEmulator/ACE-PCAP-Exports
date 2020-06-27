@@ -5,8 +5,8 @@ VALUES (37569, 'ace37569-rockwall', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37569,   1,         16) /* ItemType - Creature */
-     , (37569,   6,        255) /* ItemsCapacity */
-     , (37569,   7,        255) /* ContainersCapacity */
+     , (37569,   6,         -1) /* ItemsCapacity */
+     , (37569,   7,         -1) /* ContainersCapacity */
      , (37569,  16,          1) /* ItemUseable - No */
      , (37569,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (37569, 133,          1) /* ShowableOnRadar - ShowNever */

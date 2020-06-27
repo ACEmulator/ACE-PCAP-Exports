@@ -6,8 +6,8 @@ VALUES (45173, 'ace45173-pyrechampion', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45173,   1,         16) /* ItemType - Creature */
      , (45173,   2,         30) /* CreatureType - Skeleton */
-     , (45173,   6,        255) /* ItemsCapacity */
-     , (45173,   7,        255) /* ContainersCapacity */
+     , (45173,   6,         -1) /* ItemsCapacity */
+     , (45173,   7,         -1) /* ContainersCapacity */
      , (45173,  16,          1) /* ItemUseable - No */
      , (45173,  25,        265) /* Level */
      , (45173,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

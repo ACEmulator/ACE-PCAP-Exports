@@ -6,8 +6,8 @@ VALUES (15862, 'tumerokgladiator-thorstenarmor', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15862,   1,         16) /* ItemType - Creature */
      , (15862,   2,          6) /* CreatureType - Tumerok */
-     , (15862,   6,        255) /* ItemsCapacity */
-     , (15862,   7,        255) /* ContainersCapacity */
+     , (15862,   6,         -1) /* ItemsCapacity */
+     , (15862,   7,         -1) /* ContainersCapacity */
      , (15862,  16,          1) /* ItemUseable - No */
      , (15862,  25,         80) /* Level */
      , (15862,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

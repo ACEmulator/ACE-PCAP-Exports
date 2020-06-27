@@ -6,8 +6,8 @@ VALUES (24475, 'simulacrumbanditharker', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24475,   1,         16) /* ItemType - Creature */
      , (24475,   2,         59) /* CreatureType - Simulacrum */
-     , (24475,   6,        255) /* ItemsCapacity */
-     , (24475,   7,        255) /* ContainersCapacity */
+     , (24475,   6,         -1) /* ItemsCapacity */
+     , (24475,   7,         -1) /* ContainersCapacity */
      , (24475,  16,          1) /* ItemUseable - No */
      , (24475,  25,        100) /* Level */
      , (24475,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

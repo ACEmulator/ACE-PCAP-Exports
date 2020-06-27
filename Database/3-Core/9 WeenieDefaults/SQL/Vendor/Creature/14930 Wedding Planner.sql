@@ -6,8 +6,8 @@ VALUES (14930, 'plannerwedding', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14930,   1,         16) /* ItemType - Creature */
      , (14930,   2,         31) /* CreatureType - Human */
-     , (14930,   6,        255) /* ItemsCapacity */
-     , (14930,   7,        255) /* ContainersCapacity */
+     , (14930,   6,         -1) /* ItemsCapacity */
+     , (14930,   7,         -1) /* ContainersCapacity */
      , (14930,  16,         32) /* ItemUseable - Remote */
      , (14930,  25,          9) /* Level */
      , (14930,  74,     272678) /* MerchandiseItemTypes - Vestements, Food, MissileWeapon, Gem, Writable, PromissoryNote */

@@ -6,8 +6,8 @@ VALUES (49649, 'ace49649-yahribnajajthebowyer', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49649,   1,         16) /* ItemType - Creature */
      , (49649,   2,         31) /* CreatureType - Human */
-     , (49649,   6,        255) /* ItemsCapacity */
-     , (49649,   7,        255) /* ContainersCapacity */
+     , (49649,   6,         -1) /* ItemsCapacity */
+     , (49649,   7,         -1) /* ContainersCapacity */
      , (49649,  16,          1) /* ItemUseable - No */
      , (49649,  25,          8) /* Level */
      , (49649,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

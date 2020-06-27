@@ -6,8 +6,8 @@ VALUES (22133, 'zombiehauntedmansionscrollboss', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22133,   1,         16) /* ItemType - Creature */
      , (22133,   2,         14) /* CreatureType - Undead */
-     , (22133,   6,        255) /* ItemsCapacity */
-     , (22133,   7,        255) /* ContainersCapacity */
+     , (22133,   6,         -1) /* ItemsCapacity */
+     , (22133,   7,         -1) /* ContainersCapacity */
      , (22133,  16,          1) /* ItemUseable - No */
      , (22133,  25,         50) /* Level */
      , (22133,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

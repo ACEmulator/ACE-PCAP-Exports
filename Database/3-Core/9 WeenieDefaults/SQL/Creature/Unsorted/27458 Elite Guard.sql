@@ -5,8 +5,8 @@ VALUES (27458, 'lugianrenegadeeliteguarda', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27458,   1,         16) /* ItemType - Creature */
-     , (27458,   6,        255) /* ItemsCapacity */
-     , (27458,   7,        255) /* ContainersCapacity */
+     , (27458,   6,         -1) /* ItemsCapacity */
+     , (27458,   7,         -1) /* ContainersCapacity */
      , (27458,  16,          1) /* ItemUseable - No */
      , (27458,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27458, 133,          4) /* ShowableOnRadar - ShowAlways */

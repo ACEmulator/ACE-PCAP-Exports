@@ -6,8 +6,8 @@ VALUES (24319, 'zombiedarkmaster', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24319,   1,         16) /* ItemType - Creature */
      , (24319,   2,         14) /* CreatureType - Undead */
-     , (24319,   6,        255) /* ItemsCapacity */
-     , (24319,   7,        255) /* ContainersCapacity */
+     , (24319,   6,         -1) /* ItemsCapacity */
+     , (24319,   7,         -1) /* ContainersCapacity */
      , (24319,  16,          1) /* ItemUseable - No */
      , (24319,  25,        100) /* Level */
      , (24319,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

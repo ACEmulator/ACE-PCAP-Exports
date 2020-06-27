@@ -6,8 +6,8 @@ VALUES (46351, 'ace46351-armoredsiessasclavusveteran', 10, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46351,   1,         16) /* ItemType - Creature */
      , (46351,   2,         26) /* CreatureType - Sclavus */
-     , (46351,   6,        255) /* ItemsCapacity */
-     , (46351,   7,        255) /* ContainersCapacity */
+     , (46351,   6,         -1) /* ItemsCapacity */
+     , (46351,   7,         -1) /* ContainersCapacity */
      , (46351,  16,          1) /* ItemUseable - No */
      , (46351,  25,        240) /* Level */
      , (46351,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (44831, 'ace44831-shadowengineer', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44831,   1,         16) /* ItemType - Creature */
      , (44831,   2,         22) /* CreatureType - Shadow */
-     , (44831,   6,        255) /* ItemsCapacity */
-     , (44831,   7,        255) /* ContainersCapacity */
+     , (44831,   6,         -1) /* ItemsCapacity */
+     , (44831,   7,         -1) /* ContainersCapacity */
      , (44831,  16,          1) /* ItemUseable - No */
      , (44831,  25,        240) /* Level */
      , (44831,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

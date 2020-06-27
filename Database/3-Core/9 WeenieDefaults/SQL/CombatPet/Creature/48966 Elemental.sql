@@ -6,8 +6,8 @@ VALUES (48966, 'ace48966-countryevilselemental', 71, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48966,   1,         16) /* ItemType - Creature */
      , (48966,   2,         62) /* CreatureType - Elemental */
-     , (48966,   6,        255) /* ItemsCapacity */
-     , (48966,   7,        255) /* ContainersCapacity */
+     , (48966,   6,         -1) /* ItemsCapacity */
+     , (48966,   7,         -1) /* ContainersCapacity */
      , (48966,  16,          1) /* ItemUseable - No */
      , (48966,  25,        125) /* Level */
      , (48966,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

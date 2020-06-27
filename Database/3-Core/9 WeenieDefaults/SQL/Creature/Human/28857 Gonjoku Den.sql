@@ -6,8 +6,8 @@ VALUES (28857, 'shoushigonjokuden', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28857,   1,         16) /* ItemType - Creature */
      , (28857,   2,         31) /* CreatureType - Human */
-     , (28857,   6,        255) /* ItemsCapacity */
-     , (28857,   7,        255) /* ContainersCapacity */
+     , (28857,   6,         -1) /* ItemsCapacity */
+     , (28857,   7,         -1) /* ContainersCapacity */
      , (28857,  16,         32) /* ItemUseable - Remote */
      , (28857,  25,         10) /* Level */
      , (28857,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

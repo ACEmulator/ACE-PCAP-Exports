@@ -6,8 +6,8 @@ VALUES (46702, 'ace46702-vibrantshadow', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46702,   1,         16) /* ItemType - Creature */
      , (46702,   2,         22) /* CreatureType - Shadow */
-     , (46702,   6,        255) /* ItemsCapacity */
-     , (46702,   7,        255) /* ContainersCapacity */
+     , (46702,   6,         -1) /* ItemsCapacity */
+     , (46702,   7,         -1) /* ContainersCapacity */
      , (46702,  16,          1) /* ItemUseable - No */
      , (46702,  25,        280) /* Level */
      , (46702,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

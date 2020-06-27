@@ -6,8 +6,8 @@ VALUES (51955, 'ace51955-renata', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51955,   1,         16) /* ItemType - Creature */
      , (51955,   2,         31) /* CreatureType - Human */
-     , (51955,   6,        255) /* ItemsCapacity */
-     , (51955,   7,        255) /* ContainersCapacity */
+     , (51955,   6,         -1) /* ItemsCapacity */
+     , (51955,   7,         -1) /* ContainersCapacity */
      , (51955,  16,         32) /* ItemUseable - Remote */
      , (51955,  25,        200) /* Level */
      , (51955,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

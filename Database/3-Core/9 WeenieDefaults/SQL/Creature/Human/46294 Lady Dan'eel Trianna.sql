@@ -6,8 +6,8 @@ VALUES (46294, 'ace46294-ladydaneeltrianna', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46294,   1,         16) /* ItemType - Creature */
      , (46294,   2,         31) /* CreatureType - Human */
-     , (46294,   6,        255) /* ItemsCapacity */
-     , (46294,   7,        255) /* ContainersCapacity */
+     , (46294,   6,         -1) /* ItemsCapacity */
+     , (46294,   7,         -1) /* ContainersCapacity */
      , (46294,  16,         32) /* ItemUseable - Remote */
      , (46294,  25,        275) /* Level */
      , (46294,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

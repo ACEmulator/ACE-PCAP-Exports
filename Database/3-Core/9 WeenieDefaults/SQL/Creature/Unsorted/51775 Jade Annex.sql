@@ -5,8 +5,8 @@ VALUES (51775, 'ace51775-jadeannex', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51775,   1,         16) /* ItemType - Creature */
-     , (51775,   6,        255) /* ItemsCapacity */
-     , (51775,   7,        255) /* ContainersCapacity */
+     , (51775,   6,         -1) /* ItemsCapacity */
+     , (51775,   7,         -1) /* ContainersCapacity */
      , (51775,  16,         32) /* ItemUseable - Remote */
      , (51775,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51775,  95,          8) /* RadarBlipColor - Yellow */

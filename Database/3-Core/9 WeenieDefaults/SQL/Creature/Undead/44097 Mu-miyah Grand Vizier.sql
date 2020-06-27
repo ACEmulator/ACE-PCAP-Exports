@@ -6,8 +6,8 @@ VALUES (44097, 'ace44097-mumiyahgrandvizier', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44097,   1,         16) /* ItemType - Creature */
      , (44097,   2,         14) /* CreatureType - Undead */
-     , (44097,   6,        255) /* ItemsCapacity */
-     , (44097,   7,        255) /* ContainersCapacity */
+     , (44097,   6,         -1) /* ItemsCapacity */
+     , (44097,   7,         -1) /* ContainersCapacity */
      , (44097,  16,          1) /* ItemUseable - No */
      , (44097,  25,        240) /* Level */
      , (44097,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

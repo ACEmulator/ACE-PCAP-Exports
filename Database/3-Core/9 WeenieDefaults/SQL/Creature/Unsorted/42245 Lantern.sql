@@ -5,8 +5,8 @@ VALUES (42245, 'ace42245-lantern', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42245,   1,         16) /* ItemType - Creature */
-     , (42245,   6,        255) /* ItemsCapacity */
-     , (42245,   7,        255) /* ContainersCapacity */
+     , (42245,   6,         -1) /* ItemsCapacity */
+     , (42245,   7,         -1) /* ContainersCapacity */
      , (42245,  16,         32) /* ItemUseable - Remote */
      , (42245,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42245,  95,          3) /* RadarBlipColor - White */

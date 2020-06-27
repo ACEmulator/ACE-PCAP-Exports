@@ -6,8 +6,8 @@ VALUES (49518, 'ace49518-asenala', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49518,   1,         16) /* ItemType - Creature */
      , (49518,   2,         51) /* CreatureType - Empyrean */
-     , (49518,   6,        255) /* ItemsCapacity */
-     , (49518,   7,        255) /* ContainersCapacity */
+     , (49518,   6,         -1) /* ItemsCapacity */
+     , (49518,   7,         -1) /* ContainersCapacity */
      , (49518,  16,         32) /* ItemUseable - Remote */
      , (49518,  25,          7) /* Level */
      , (49518,  74,    2656384) /* MerchandiseItemTypes - Misc, Gem, Caster, ManaStone, MagicWieldable */

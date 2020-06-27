@@ -6,8 +6,8 @@ VALUES (41961, 'ace41961-corrupteddread', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41961,   1,         16) /* ItemType - Creature */
      , (41961,   2,         77) /* CreatureType - Ghost */
-     , (41961,   6,        255) /* ItemsCapacity */
-     , (41961,   7,        255) /* ContainersCapacity */
+     , (41961,   6,         -1) /* ItemsCapacity */
+     , (41961,   7,         -1) /* ContainersCapacity */
      , (41961,  16,          1) /* ItemUseable - No */
      , (41961,  25,        220) /* Level */
      , (41961,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

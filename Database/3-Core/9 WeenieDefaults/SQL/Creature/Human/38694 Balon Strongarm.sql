@@ -6,8 +6,8 @@ VALUES (38694, 'ace38694-balonstrongarm', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38694,   1,         16) /* ItemType - Creature */
      , (38694,   2,         31) /* CreatureType - Human */
-     , (38694,   6,        255) /* ItemsCapacity */
-     , (38694,   7,        255) /* ContainersCapacity */
+     , (38694,   6,         -1) /* ItemsCapacity */
+     , (38694,   7,         -1) /* ContainersCapacity */
      , (38694,  16,         32) /* ItemUseable - Remote */
      , (38694,  25,        180) /* Level */
      , (38694,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

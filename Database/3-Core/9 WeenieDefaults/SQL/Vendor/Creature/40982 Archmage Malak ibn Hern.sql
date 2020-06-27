@@ -6,8 +6,8 @@ VALUES (40982, 'ace40982-archmagemalakibnhern', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40982,   1,         16) /* ItemType - Creature */
      , (40982,   2,         31) /* CreatureType - Human */
-     , (40982,   6,        255) /* ItemsCapacity */
-     , (40982,   7,        255) /* ContainersCapacity */
+     , (40982,   6,         -1) /* ItemsCapacity */
+     , (40982,   7,         -1) /* ContainersCapacity */
      , (40982,  16,         32) /* ItemUseable - Remote */
      , (40982,  25,         11) /* Level */
      , (40982,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

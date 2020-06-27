@@ -5,8 +5,8 @@ VALUES (39351, 'ace39351-minikratthuunixis', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39351,   1,         16) /* ItemType - Creature */
-     , (39351,   6,        255) /* ItemsCapacity */
-     , (39351,   7,        255) /* ContainersCapacity */
+     , (39351,   6,         -1) /* ItemsCapacity */
+     , (39351,   7,         -1) /* ContainersCapacity */
      , (39351,  16,          1) /* ItemUseable - No */
      , (39351,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39351, 133,          2) /* ShowableOnRadar - ShowMovement */

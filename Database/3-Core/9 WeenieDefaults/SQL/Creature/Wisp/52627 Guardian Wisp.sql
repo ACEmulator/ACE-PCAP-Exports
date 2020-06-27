@@ -6,8 +6,8 @@ VALUES (52627, 'ace52627-guardianwisp', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52627,   1,         16) /* ItemType - Creature */
      , (52627,   2,         20) /* CreatureType - Wisp */
-     , (52627,   6,        255) /* ItemsCapacity */
-     , (52627,   7,        255) /* ContainersCapacity */
+     , (52627,   6,         -1) /* ItemsCapacity */
+     , (52627,   7,         -1) /* ContainersCapacity */
      , (52627,  16,          1) /* ItemUseable - No */
      , (52627,  25,        320) /* Level */
      , (52627,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

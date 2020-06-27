@@ -6,8 +6,8 @@ VALUES (44297, 'ace44297-crackedstonetablet', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44297,   1,         16) /* ItemType - Creature */
      , (44297,   5,          1) /* EncumbranceVal */
-     , (44297,   6,        255) /* ItemsCapacity */
-     , (44297,   7,        255) /* ContainersCapacity */
+     , (44297,   6,         -1) /* ItemsCapacity */
+     , (44297,   7,         -1) /* ContainersCapacity */
      , (44297,  16,          1) /* ItemUseable - No */
      , (44297,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44297, 133,          1) /* ShowableOnRadar - ShowNever */

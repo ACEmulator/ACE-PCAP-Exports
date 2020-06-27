@@ -6,8 +6,8 @@ VALUES (34296, 'ace34296-acolyteofstorms', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34296,   1,         16) /* ItemType - Creature */
      , (34296,   2,         31) /* CreatureType - Human */
-     , (34296,   6,        255) /* ItemsCapacity */
-     , (34296,   7,        255) /* ContainersCapacity */
+     , (34296,   6,         -1) /* ItemsCapacity */
+     , (34296,   7,         -1) /* ContainersCapacity */
      , (34296,  16,          1) /* ItemUseable - No */
      , (34296,  25,        115) /* Level */
      , (34296,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

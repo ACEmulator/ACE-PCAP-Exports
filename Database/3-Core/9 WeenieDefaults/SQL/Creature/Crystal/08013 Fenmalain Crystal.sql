@@ -6,8 +6,8 @@ VALUES (8013, 'crystalfenmalain', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8013,   1,         16) /* ItemType - Creature */
      , (8013,   2,         47) /* CreatureType - Crystal */
-     , (8013,   6,        255) /* ItemsCapacity */
-     , (8013,   7,        255) /* ContainersCapacity */
+     , (8013,   6,         -1) /* ItemsCapacity */
+     , (8013,   7,         -1) /* ContainersCapacity */
      , (8013,  16,          1) /* ItemUseable - No */
      , (8013,  25,         50) /* Level */
      , (8013,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

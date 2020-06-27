@@ -6,8 +6,8 @@ VALUES (12687, 'furniturevendorarcanumspecial', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12687,   1,         16) /* ItemType - Creature */
      , (12687,   2,         31) /* CreatureType - Human */
-     , (12687,   6,        255) /* ItemsCapacity */
-     , (12687,   7,        255) /* ContainersCapacity */
+     , (12687,   6,         -1) /* ItemsCapacity */
+     , (12687,   7,         -1) /* ContainersCapacity */
      , (12687,  16,         32) /* ItemUseable - Remote */
      , (12687,  25,         14) /* Level */
      , (12687,  74,     263296) /* MerchandiseItemTypes - Misc, Useless, PromissoryNote */

@@ -6,8 +6,8 @@ VALUES (5636, 'fourtowerskeeper', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5636,   1,         16) /* ItemType - Creature */
      , (5636,   2,         31) /* CreatureType - Human */
-     , (5636,   6,        255) /* ItemsCapacity */
-     , (5636,   7,        255) /* ContainersCapacity */
+     , (5636,   6,         -1) /* ItemsCapacity */
+     , (5636,   7,         -1) /* ContainersCapacity */
      , (5636,  16,         32) /* ItemUseable - Remote */
      , (5636,  25,          7) /* Level */
      , (5636,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

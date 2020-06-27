@@ -6,8 +6,8 @@ VALUES (51156, 'ace51156-jibrilibnrashid', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51156,   1,         16) /* ItemType - Creature */
      , (51156,   2,         31) /* CreatureType - Human */
-     , (51156,   6,        255) /* ItemsCapacity */
-     , (51156,   7,        255) /* ContainersCapacity */
+     , (51156,   6,         -1) /* ItemsCapacity */
+     , (51156,   7,         -1) /* ContainersCapacity */
      , (51156,  16,         32) /* ItemUseable - Remote */
      , (51156,  25,        100) /* Level */
      , (51156,  74,          0) /* MerchandiseItemTypes - None */

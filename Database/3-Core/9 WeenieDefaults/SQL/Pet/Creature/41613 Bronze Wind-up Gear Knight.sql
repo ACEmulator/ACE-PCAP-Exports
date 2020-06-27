@@ -6,8 +6,8 @@ VALUES (41613, 'ace41613-havokksbronzewindupgearknight', 69, '2019-02-10 00:00:0
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41613,   1,         16) /* ItemType - Creature */
      , (41613,   2,         99) /* CreatureType - GearKnight */
-     , (41613,   6,        255) /* ItemsCapacity */
-     , (41613,   7,        255) /* ContainersCapacity */
+     , (41613,   6,         -1) /* ItemsCapacity */
+     , (41613,   7,         -1) /* ContainersCapacity */
      , (41613,  16,          1) /* ItemUseable - No */
      , (41613,  25,          4) /* Level */
      , (41613,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

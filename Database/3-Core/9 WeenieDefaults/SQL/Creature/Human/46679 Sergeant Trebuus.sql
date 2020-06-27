@@ -6,8 +6,8 @@ VALUES (46679, 'ace46679-sergeanttrebuus', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46679,   1,         16) /* ItemType - Creature */
      , (46679,   2,         31) /* CreatureType - Human */
-     , (46679,   6,        255) /* ItemsCapacity */
-     , (46679,   7,        255) /* ContainersCapacity */
+     , (46679,   6,         -1) /* ItemsCapacity */
+     , (46679,   7,         -1) /* ContainersCapacity */
      , (46679,  16,         32) /* ItemUseable - Remote */
      , (46679,  25,        275) /* Level */
      , (46679,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (38144, 'ace38144-siabotthederanged', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38144,   1,         16) /* ItemType - Creature */
      , (38144,   2,         31) /* CreatureType - Human */
-     , (38144,   6,        255) /* ItemsCapacity */
-     , (38144,   7,        255) /* ContainersCapacity */
+     , (38144,   6,         -1) /* ItemsCapacity */
+     , (38144,   7,         -1) /* ContainersCapacity */
      , (38144,  16,          1) /* ItemUseable - No */
      , (38144,  25,        160) /* Level */
      , (38144,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

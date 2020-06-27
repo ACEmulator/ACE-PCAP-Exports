@@ -6,8 +6,8 @@ VALUES (45776, 'ace45776-apparitionofhoshinokei', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45776,   1,         16) /* ItemType - Creature */
      , (45776,   2,         31) /* CreatureType - Human */
-     , (45776,   6,        255) /* ItemsCapacity */
-     , (45776,   7,        255) /* ContainersCapacity */
+     , (45776,   6,         -1) /* ItemsCapacity */
+     , (45776,   7,         -1) /* ContainersCapacity */
      , (45776,  16,          1) /* ItemUseable - No */
      , (45776,  25,        162) /* Level */
      , (45776,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

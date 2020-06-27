@@ -6,8 +6,8 @@ VALUES (51789, 'ace51789-rinnegorber', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51789,   1,         16) /* ItemType - Creature */
      , (51789,   2,         31) /* CreatureType - Human */
-     , (51789,   6,        255) /* ItemsCapacity */
-     , (51789,   7,        255) /* ContainersCapacity */
+     , (51789,   6,         -1) /* ItemsCapacity */
+     , (51789,   7,         -1) /* ContainersCapacity */
      , (51789,  16,         32) /* ItemUseable - Remote */
      , (51789,  25,        225) /* Level */
      , (51789,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

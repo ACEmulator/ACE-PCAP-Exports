@@ -6,8 +6,8 @@ VALUES (51573, 'ace51573-hollowservitor', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51573,   1,         16) /* ItemType - Creature */
      , (51573,   2,         48) /* CreatureType - HollowMinion */
-     , (51573,   6,        255) /* ItemsCapacity */
-     , (51573,   7,        255) /* ContainersCapacity */
+     , (51573,   6,         -1) /* ItemsCapacity */
+     , (51573,   7,         -1) /* ContainersCapacity */
      , (51573,  16,          1) /* ItemUseable - No */
      , (51573,  25,        300) /* Level */
      , (51573,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

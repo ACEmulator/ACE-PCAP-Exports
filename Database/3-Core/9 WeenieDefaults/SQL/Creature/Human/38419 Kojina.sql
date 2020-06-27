@@ -6,8 +6,8 @@ VALUES (38419, 'ace38419-kojina', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38419,   1,         16) /* ItemType - Creature */
      , (38419,   2,         31) /* CreatureType - Human */
-     , (38419,   6,        255) /* ItemsCapacity */
-     , (38419,   7,        255) /* ContainersCapacity */
+     , (38419,   6,         -1) /* ItemsCapacity */
+     , (38419,   7,         -1) /* ContainersCapacity */
      , (38419,  16,         32) /* ItemUseable - Remote */
      , (38419,  25,        185) /* Level */
      , (38419,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

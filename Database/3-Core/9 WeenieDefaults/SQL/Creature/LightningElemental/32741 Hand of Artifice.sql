@@ -6,8 +6,8 @@ VALUES (32741, 'ace32741-handofartifice', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32741,   1,         16) /* ItemType - Creature */
      , (32741,   2,         42) /* CreatureType - LightningElemental */
-     , (32741,   6,        255) /* ItemsCapacity */
-     , (32741,   7,        255) /* ContainersCapacity */
+     , (32741,   6,         -1) /* ItemsCapacity */
+     , (32741,   7,         -1) /* ContainersCapacity */
      , (32741,  16,          1) /* ItemUseable - No */
      , (32741,  25,        160) /* Level */
      , (32741,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

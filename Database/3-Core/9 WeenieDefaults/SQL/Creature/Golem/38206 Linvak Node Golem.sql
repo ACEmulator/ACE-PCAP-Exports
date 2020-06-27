@@ -6,8 +6,8 @@ VALUES (38206, 'ace38206-linvaknodegolem', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38206,   1,         16) /* ItemType - Creature */
      , (38206,   2,         13) /* CreatureType - Golem */
-     , (38206,   6,        255) /* ItemsCapacity */
-     , (38206,   7,        255) /* ContainersCapacity */
+     , (38206,   6,         -1) /* ItemsCapacity */
+     , (38206,   7,         -1) /* ContainersCapacity */
      , (38206,  16,         32) /* ItemUseable - Remote */
      , (38206,  25,        720) /* Level */
      , (38206,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

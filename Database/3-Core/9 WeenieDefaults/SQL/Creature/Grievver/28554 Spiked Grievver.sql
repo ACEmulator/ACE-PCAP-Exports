@@ -6,8 +6,8 @@ VALUES (28554, 'grievverspiked', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28554,   1,         16) /* ItemType - Creature */
      , (28554,   2,         44) /* CreatureType - Grievver */
-     , (28554,   6,        255) /* ItemsCapacity */
-     , (28554,   7,        255) /* ContainersCapacity */
+     , (28554,   6,         -1) /* ItemsCapacity */
+     , (28554,   7,         -1) /* ContainersCapacity */
      , (28554,  16,          1) /* ItemUseable - No */
      , (28554,  25,         60) /* Level */
      , (28554,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (28554,   1,   33556698) /* Setup */
      , (28554,   3,  536871009) /* SoundTable */
      , (28554,   8,  100670960) /* Icon */
      , (28554,  22,  872415364) /* PhysicsEffectTable */
+     , (28554,  30,         86) /* PhysicsScript - BreatheAcid */
      , (28554, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28554, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28554, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (28554, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (28554, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28554, 8040, 703397892, 19.52295, 79.05264, 27.8621, -0.3329072, 0, 0, -0.9429596) /* PCAPRecordedLocation */

@@ -6,8 +6,8 @@ VALUES (33190, 'ace33190-pheraionsguard', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33190,   1,         16) /* ItemType - Creature */
      , (33190,   2,         31) /* CreatureType - Human */
-     , (33190,   6,        255) /* ItemsCapacity */
-     , (33190,   7,        255) /* ContainersCapacity */
+     , (33190,   6,         -1) /* ItemsCapacity */
+     , (33190,   7,         -1) /* ContainersCapacity */
      , (33190,  16,          1) /* ItemUseable - No */
      , (33190,  25,        160) /* Level */
      , (33190,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

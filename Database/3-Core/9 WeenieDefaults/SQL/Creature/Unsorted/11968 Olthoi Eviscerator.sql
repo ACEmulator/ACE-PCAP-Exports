@@ -5,8 +5,8 @@ VALUES (11968, 'olthoibutchercentralhive-xp', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11968,   1,         16) /* ItemType - Creature */
-     , (11968,   6,        255) /* ItemsCapacity */
-     , (11968,   7,        255) /* ContainersCapacity */
+     , (11968,   6,         -1) /* ItemsCapacity */
+     , (11968,   7,         -1) /* ContainersCapacity */
      , (11968,  16,          1) /* ItemUseable - No */
      , (11968,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11968, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,10 +29,10 @@ VALUES (11968,   1,   33557046) /* Setup */
      , (11968,   3,  536871036) /* SoundTable */
      , (11968,   8,  100667623) /* Icon */
      , (11968,  22,  872415378) /* PhysicsEffectTable */
+     , (11968,  30,         86) /* PhysicsScript - BreatheAcid */
      , (11968, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11968, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11968, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (11968, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (11968, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11968, 8040, 61211033, 85.69981, -21.60773, -18.0176, -0.7247763, 0, 0, -0.6889843) /* PCAPRecordedLocation */

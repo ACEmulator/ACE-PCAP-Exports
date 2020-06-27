@@ -6,8 +6,8 @@ VALUES (40860, 'ace40860-crystallinearraysatellite', 10, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40860,   1,         16) /* ItemType - Creature */
      , (40860,   2,         47) /* CreatureType - Crystal */
-     , (40860,   6,        255) /* ItemsCapacity */
-     , (40860,   7,        255) /* ContainersCapacity */
+     , (40860,   6,         -1) /* ItemsCapacity */
+     , (40860,   7,         -1) /* ContainersCapacity */
      , (40860,  16,          1) /* ItemUseable - No */
      , (40860,  25,        100) /* Level */
      , (40860,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

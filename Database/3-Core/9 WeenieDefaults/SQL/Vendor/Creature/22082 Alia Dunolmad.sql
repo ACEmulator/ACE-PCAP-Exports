@@ -6,8 +6,8 @@ VALUES (22082, 'mitemazealianew', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22082,   1,         16) /* ItemType - Creature */
      , (22082,   2,         31) /* CreatureType - Human */
-     , (22082,   6,        255) /* ItemsCapacity */
-     , (22082,   7,        255) /* ContainersCapacity */
+     , (22082,   6,         -1) /* ItemsCapacity */
+     , (22082,   7,         -1) /* ContainersCapacity */
      , (22082,  16,         32) /* ItemUseable - Remote */
      , (22082,  25,         12) /* Level */
      , (22082,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */

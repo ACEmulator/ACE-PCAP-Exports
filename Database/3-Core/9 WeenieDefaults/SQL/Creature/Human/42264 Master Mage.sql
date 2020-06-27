@@ -6,8 +6,8 @@ VALUES (42264, 'ace42264-mastermage', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42264,   1,         16) /* ItemType - Creature */
      , (42264,   2,         31) /* CreatureType - Human */
-     , (42264,   6,        255) /* ItemsCapacity */
-     , (42264,   7,        255) /* ContainersCapacity */
+     , (42264,   6,         -1) /* ItemsCapacity */
+     , (42264,   7,         -1) /* ContainersCapacity */
      , (42264,  16,          1) /* ItemUseable - No */
      , (42264,  25,        220) /* Level */
      , (42264,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

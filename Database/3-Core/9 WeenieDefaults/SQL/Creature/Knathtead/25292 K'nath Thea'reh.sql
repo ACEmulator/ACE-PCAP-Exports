@@ -6,8 +6,8 @@ VALUES (25292, 'knaththeareh', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25292,   1,         16) /* ItemType - Creature */
      , (25292,   2,         21) /* CreatureType - Knathtead */
-     , (25292,   6,        255) /* ItemsCapacity */
-     , (25292,   7,        255) /* ContainersCapacity */
+     , (25292,   6,         -1) /* ItemsCapacity */
+     , (25292,   7,         -1) /* ContainersCapacity */
      , (25292,  16,          1) /* ItemUseable - No */
      , (25292,  25,        160) /* Level */
      , (25292,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

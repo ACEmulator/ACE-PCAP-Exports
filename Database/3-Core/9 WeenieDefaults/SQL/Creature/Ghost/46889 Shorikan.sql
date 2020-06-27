@@ -6,8 +6,8 @@ VALUES (46889, 'ace46889-shorikan', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46889,   1,         16) /* ItemType - Creature */
      , (46889,   2,         77) /* CreatureType - Ghost */
-     , (46889,   6,        255) /* ItemsCapacity */
-     , (46889,   7,        255) /* ContainersCapacity */
+     , (46889,   6,         -1) /* ItemsCapacity */
+     , (46889,   7,         -1) /* ContainersCapacity */
      , (46889,  16,         32) /* ItemUseable - Remote */
      , (46889,  25,        275) /* Level */
      , (46889,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

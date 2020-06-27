@@ -6,8 +6,8 @@ VALUES (46686, 'ace46686-lieutenanttakamaki', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46686,   1,         16) /* ItemType - Creature */
      , (46686,   2,         31) /* CreatureType - Human */
-     , (46686,   6,        255) /* ItemsCapacity */
-     , (46686,   7,        255) /* ContainersCapacity */
+     , (46686,   6,         -1) /* ItemsCapacity */
+     , (46686,   7,         -1) /* ContainersCapacity */
      , (46686,  16,         32) /* ItemUseable - Remote */
      , (46686,  25,        275) /* Level */
      , (46686,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

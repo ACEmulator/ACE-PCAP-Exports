@@ -6,8 +6,8 @@ VALUES (33546, 'ace33546-asheronsservant', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33546,   1,         16) /* ItemType - Creature */
      , (33546,   2,         62) /* CreatureType - Elemental */
-     , (33546,   6,        255) /* ItemsCapacity */
-     , (33546,   7,        255) /* ContainersCapacity */
+     , (33546,   6,         -1) /* ItemsCapacity */
+     , (33546,   7,         -1) /* ContainersCapacity */
      , (33546,  16,         32) /* ItemUseable - Remote */
      , (33546,  25,        130) /* Level */
      , (33546,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

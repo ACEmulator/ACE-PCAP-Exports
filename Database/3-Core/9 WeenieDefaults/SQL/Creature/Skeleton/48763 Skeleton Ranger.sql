@@ -6,8 +6,8 @@ VALUES (48763, 'ace48763-skeletonranger', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48763,   1,         16) /* ItemType - Creature */
      , (48763,   2,         30) /* CreatureType - Skeleton */
-     , (48763,   6,        255) /* ItemsCapacity */
-     , (48763,   7,        255) /* ContainersCapacity */
+     , (48763,   6,         -1) /* ItemsCapacity */
+     , (48763,   7,         -1) /* ContainersCapacity */
      , (48763,  16,          1) /* ItemUseable - No */
      , (48763,  25,        240) /* Level */
      , (48763,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

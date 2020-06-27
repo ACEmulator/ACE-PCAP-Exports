@@ -6,8 +6,8 @@ VALUES (52801, 'ace52801-masterofthegauntlet', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52801,   1,         16) /* ItemType - Creature */
      , (52801,   2,         14) /* CreatureType - Undead */
-     , (52801,   6,        255) /* ItemsCapacity */
-     , (52801,   7,        255) /* ContainersCapacity */
+     , (52801,   6,         -1) /* ItemsCapacity */
+     , (52801,   7,         -1) /* ContainersCapacity */
      , (52801,  16,         32) /* ItemUseable - Remote */
      , (52801,  25,        275) /* Level */
      , (52801,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

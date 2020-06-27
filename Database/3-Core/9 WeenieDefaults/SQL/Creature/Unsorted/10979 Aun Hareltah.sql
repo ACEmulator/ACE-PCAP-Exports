@@ -5,8 +5,8 @@ VALUES (10979, 'tumerokleaderlocal-xp', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10979,   1,         16) /* ItemType - Creature */
-     , (10979,   6,        255) /* ItemsCapacity */
-     , (10979,   7,        255) /* ContainersCapacity */
+     , (10979,   6,         -1) /* ItemsCapacity */
+     , (10979,   7,         -1) /* ContainersCapacity */
      , (10979,  16,         32) /* ItemUseable - Remote */
      , (10979,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10979,  95,          8) /* RadarBlipColor - Yellow */

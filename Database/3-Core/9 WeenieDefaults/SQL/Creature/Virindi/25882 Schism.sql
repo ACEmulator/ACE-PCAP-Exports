@@ -6,8 +6,8 @@ VALUES (25882, 'riftschism', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25882,   1,         16) /* ItemType - Creature */
      , (25882,   2,         19) /* CreatureType - Virindi */
-     , (25882,   6,        255) /* ItemsCapacity */
-     , (25882,   7,        255) /* ContainersCapacity */
+     , (25882,   6,         -1) /* ItemsCapacity */
+     , (25882,   7,         -1) /* ContainersCapacity */
      , (25882,  16,          1) /* ItemUseable - No */
      , (25882,  25,        160) /* Level */
      , (25882,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

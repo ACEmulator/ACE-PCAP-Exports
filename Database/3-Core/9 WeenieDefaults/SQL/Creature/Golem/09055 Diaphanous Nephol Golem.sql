@@ -6,8 +6,8 @@ VALUES (9055, 'golemnepholmed-nostone', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9055,   1,         16) /* ItemType - Creature */
      , (9055,   2,         13) /* CreatureType - Golem */
-     , (9055,   6,        255) /* ItemsCapacity */
-     , (9055,   7,        255) /* ContainersCapacity */
+     , (9055,   6,         -1) /* ItemsCapacity */
+     , (9055,   7,         -1) /* ContainersCapacity */
      , (9055,  16,          1) /* ItemUseable - No */
      , (9055,  25,         60) /* Level */
      , (9055,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

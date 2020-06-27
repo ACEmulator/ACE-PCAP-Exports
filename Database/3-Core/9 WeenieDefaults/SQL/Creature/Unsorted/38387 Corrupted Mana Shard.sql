@@ -5,8 +5,8 @@ VALUES (38387, 'ace38387-corruptedmanashard', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38387,   1,         16) /* ItemType - Creature */
-     , (38387,   6,        255) /* ItemsCapacity */
-     , (38387,   7,        255) /* ContainersCapacity */
+     , (38387,   6,         -1) /* ItemsCapacity */
+     , (38387,   7,         -1) /* ContainersCapacity */
      , (38387,  16,         32) /* ItemUseable - Remote */
      , (38387,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38387,  95,          3) /* RadarBlipColor - White */

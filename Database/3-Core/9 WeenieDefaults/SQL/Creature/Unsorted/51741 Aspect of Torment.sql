@@ -5,8 +5,8 @@ VALUES (51741, 'ace51741-aspectoftorment', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51741,   1,         16) /* ItemType - Creature */
-     , (51741,   6,        255) /* ItemsCapacity */
-     , (51741,   7,        255) /* ContainersCapacity */
+     , (51741,   6,         -1) /* ItemsCapacity */
+     , (51741,   7,         -1) /* ContainersCapacity */
      , (51741,  16,          1) /* ItemUseable - No */
      , (51741,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (51741, 133,          2) /* ShowableOnRadar - ShowMovement */

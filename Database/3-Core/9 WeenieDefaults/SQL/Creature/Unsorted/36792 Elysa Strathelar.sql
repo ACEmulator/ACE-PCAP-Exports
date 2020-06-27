@@ -5,8 +5,8 @@ VALUES (36792, 'ace36792-elysastrathelar', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36792,   1,         16) /* ItemType - Creature */
-     , (36792,   6,        255) /* ItemsCapacity */
-     , (36792,   7,        255) /* ContainersCapacity */
+     , (36792,   6,         -1) /* ItemsCapacity */
+     , (36792,   7,         -1) /* ContainersCapacity */
      , (36792,  16,          1) /* ItemUseable - No */
      , (36792,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36792,  95,          8) /* RadarBlipColor - Yellow */

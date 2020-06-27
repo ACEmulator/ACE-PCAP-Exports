@@ -6,8 +6,8 @@ VALUES (38239, 'ace38239-kanjihatashiya', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38239,   1,         16) /* ItemType - Creature */
      , (38239,   2,         31) /* CreatureType - Human */
-     , (38239,   6,        255) /* ItemsCapacity */
-     , (38239,   7,        255) /* ContainersCapacity */
+     , (38239,   6,         -1) /* ItemsCapacity */
+     , (38239,   7,         -1) /* ContainersCapacity */
      , (38239,  16,         32) /* ItemUseable - Remote */
      , (38239,  25,        190) /* Level */
      , (38239,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

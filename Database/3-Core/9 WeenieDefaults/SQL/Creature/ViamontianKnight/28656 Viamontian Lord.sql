@@ -6,8 +6,8 @@ VALUES (28656, 'knightlord', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28656,   1,         16) /* ItemType - Creature */
      , (28656,   2,         83) /* CreatureType - ViamontianKnight */
-     , (28656,   6,        255) /* ItemsCapacity */
-     , (28656,   7,        255) /* ContainersCapacity */
+     , (28656,   6,         -1) /* ItemsCapacity */
+     , (28656,   7,         -1) /* ContainersCapacity */
      , (28656,  16,          1) /* ItemUseable - No */
      , (28656,  25,        160) /* Level */
      , (28656,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

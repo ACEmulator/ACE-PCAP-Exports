@@ -6,8 +6,8 @@ VALUES (43689, 'ace43689-frozenwightcaptain', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43689,   1,         16) /* ItemType - Creature */
      , (43689,   2,         14) /* CreatureType - Undead */
-     , (43689,   6,        255) /* ItemsCapacity */
-     , (43689,   7,        255) /* ContainersCapacity */
+     , (43689,   6,         -1) /* ItemsCapacity */
+     , (43689,   7,         -1) /* ContainersCapacity */
      , (43689,  16,          1) /* ItemUseable - No */
      , (43689,  25,        240) /* Level */
      , (43689,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

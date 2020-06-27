@@ -6,8 +6,8 @@ VALUES (20187, 'acidelementalbuillic', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20187,   1,         16) /* ItemType - Creature */
      , (20187,   2,         60) /* CreatureType - AcidElemental */
-     , (20187,   6,        255) /* ItemsCapacity */
-     , (20187,   7,        255) /* ContainersCapacity */
+     , (20187,   6,         -1) /* ItemsCapacity */
+     , (20187,   7,         -1) /* ContainersCapacity */
      , (20187,  16,          1) /* ItemUseable - No */
      , (20187,  25,         80) /* Level */
      , (20187,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

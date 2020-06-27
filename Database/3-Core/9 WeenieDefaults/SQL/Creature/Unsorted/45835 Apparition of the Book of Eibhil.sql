@@ -5,8 +5,8 @@ VALUES (45835, 'ace45835-apparitionofthebookofeibhil', 10, '2019-02-10 00:00:00'
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45835,   1,         16) /* ItemType - Creature */
-     , (45835,   6,        255) /* ItemsCapacity */
-     , (45835,   7,        255) /* ContainersCapacity */
+     , (45835,   6,         -1) /* ItemsCapacity */
+     , (45835,   7,         -1) /* ContainersCapacity */
      , (45835,  16,         32) /* ItemUseable - Remote */
      , (45835,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45835,  95,          3) /* RadarBlipColor - White */

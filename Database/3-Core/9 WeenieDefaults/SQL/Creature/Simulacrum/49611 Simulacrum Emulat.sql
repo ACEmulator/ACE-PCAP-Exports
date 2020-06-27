@@ -6,8 +6,8 @@ VALUES (49611, 'ace49611-simulacrumemulat', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49611,   1,         16) /* ItemType - Creature */
      , (49611,   2,         59) /* CreatureType - Simulacrum */
-     , (49611,   6,        255) /* ItemsCapacity */
-     , (49611,   7,        255) /* ContainersCapacity */
+     , (49611,   6,         -1) /* ItemsCapacity */
+     , (49611,   7,         -1) /* ContainersCapacity */
      , (49611,  16,          1) /* ItemUseable - No */
      , (49611,  25,        220) /* Level */
      , (49611,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

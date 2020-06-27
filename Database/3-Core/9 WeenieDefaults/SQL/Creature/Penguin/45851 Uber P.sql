@@ -6,8 +6,8 @@ VALUES (45851, 'ace45851-uberp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45851,   1,         16) /* ItemType - Creature */
      , (45851,   2,         80) /* CreatureType - Penguin */
-     , (45851,   6,        255) /* ItemsCapacity */
-     , (45851,   7,        255) /* ContainersCapacity */
+     , (45851,   6,         -1) /* ItemsCapacity */
+     , (45851,   7,         -1) /* ContainersCapacity */
      , (45851,  16,         32) /* ItemUseable - Remote */
      , (45851,  25,        240) /* Level */
      , (45851,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

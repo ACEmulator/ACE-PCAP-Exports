@@ -6,8 +6,8 @@ VALUES (41736, 'ace41736-ironbladeheavyscout', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41736,   1,         16) /* ItemType - Creature */
      , (41736,   2,         99) /* CreatureType - GearKnight */
-     , (41736,   6,        255) /* ItemsCapacity */
-     , (41736,   7,        255) /* ContainersCapacity */
+     , (41736,   6,         -1) /* ItemsCapacity */
+     , (41736,   7,         -1) /* ContainersCapacity */
      , (41736,  16,          1) /* ItemUseable - No */
      , (41736,  25,        185) /* Level */
      , (41736,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

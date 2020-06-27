@@ -6,8 +6,8 @@ VALUES (52711, 'ace52711-wightsage', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52711,   1,         16) /* ItemType - Creature */
      , (52711,   2,         14) /* CreatureType - Undead */
-     , (52711,   6,        255) /* ItemsCapacity */
-     , (52711,   7,        255) /* ContainersCapacity */
+     , (52711,   6,         -1) /* ItemsCapacity */
+     , (52711,   7,         -1) /* ContainersCapacity */
      , (52711,  16,          1) /* ItemUseable - No */
      , (52711,  25,        265) /* Level */
      , (52711,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

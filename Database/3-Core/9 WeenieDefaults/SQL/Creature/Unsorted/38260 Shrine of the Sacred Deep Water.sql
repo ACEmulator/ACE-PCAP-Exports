@@ -5,8 +5,8 @@ VALUES (38260, 'ace38260-shrineofthesacreddeepwater', 10, '2019-02-10 00:00:00')
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38260,   1,         16) /* ItemType - Creature */
-     , (38260,   6,        255) /* ItemsCapacity */
-     , (38260,   7,        255) /* ContainersCapacity */
+     , (38260,   6,         -1) /* ItemsCapacity */
+     , (38260,   7,         -1) /* ContainersCapacity */
      , (38260,  16,         32) /* ItemUseable - Remote */
      , (38260,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38260,  95,          3) /* RadarBlipColor - White */

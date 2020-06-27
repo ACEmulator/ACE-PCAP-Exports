@@ -6,8 +6,8 @@ VALUES (5423, 'glendeneastoutpostbowyer', 12, '2019-02-10 00:00:00') /* Vendor *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5423,   1,         16) /* ItemType - Creature */
      , (5423,   2,         31) /* CreatureType - Human */
-     , (5423,   6,        255) /* ItemsCapacity */
-     , (5423,   7,        255) /* ContainersCapacity */
+     , (5423,   6,         -1) /* ItemsCapacity */
+     , (5423,   7,         -1) /* ContainersCapacity */
      , (5423,  16,         32) /* ItemUseable - Remote */
      , (5423,  25,          7) /* Level */
      , (5423,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */

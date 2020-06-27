@@ -6,8 +6,8 @@ VALUES (41731, 'ace41731-whisperingbladequartermaster', 12, '2019-02-10 00:00:00
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41731,   1,         16) /* ItemType - Creature */
      , (41731,   2,         31) /* CreatureType - Human */
-     , (41731,   6,        255) /* ItemsCapacity */
-     , (41731,   7,        255) /* ContainersCapacity */
+     , (41731,   6,         -1) /* ItemsCapacity */
+     , (41731,   7,         -1) /* ContainersCapacity */
      , (41731,  16,         32) /* ItemUseable - Remote */
      , (41731,  25,        250) /* Level */
      , (41731,  74,          0) /* MerchandiseItemTypes - None */

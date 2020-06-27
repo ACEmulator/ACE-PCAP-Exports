@@ -5,8 +5,8 @@ VALUES (36718, 'ace36718-bagofstones', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36718,   1,         16) /* ItemType - Creature */
-     , (36718,   6,        255) /* ItemsCapacity */
-     , (36718,   7,        255) /* ContainersCapacity */
+     , (36718,   6,         -1) /* ItemsCapacity */
+     , (36718,   7,         -1) /* ContainersCapacity */
      , (36718,  16,         32) /* ItemUseable - Remote */
      , (36718,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36718,  95,          3) /* RadarBlipColor - White */

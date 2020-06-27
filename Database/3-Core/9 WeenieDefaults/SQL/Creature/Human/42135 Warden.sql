@@ -6,8 +6,8 @@ VALUES (42135, 'ace42135-warden', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42135,   1,         16) /* ItemType - Creature */
      , (42135,   2,         31) /* CreatureType - Human */
-     , (42135,   6,        255) /* ItemsCapacity */
-     , (42135,   7,        255) /* ContainersCapacity */
+     , (42135,   6,         -1) /* ItemsCapacity */
+     , (42135,   7,         -1) /* ContainersCapacity */
      , (42135,  16,         32) /* ItemUseable - Remote */
      , (42135,  25,        150) /* Level */
      , (42135,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

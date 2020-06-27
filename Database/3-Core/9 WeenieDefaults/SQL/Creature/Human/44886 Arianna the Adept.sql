@@ -6,8 +6,8 @@ VALUES (44886, 'ace44886-ariannatheadept', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44886,   1,         16) /* ItemType - Creature */
      , (44886,   2,         31) /* CreatureType - Human */
-     , (44886,   6,        255) /* ItemsCapacity */
-     , (44886,   7,        255) /* ContainersCapacity */
+     , (44886,   6,         -1) /* ItemsCapacity */
+     , (44886,   7,         -1) /* ContainersCapacity */
      , (44886,  16,         32) /* ItemUseable - Remote */
      , (44886,  25,        253) /* Level */
      , (44886,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (40809, 'ace40809-apostateaetheriumdeposit', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40809,   1,         16) /* ItemType - Creature */
      , (40809,   5,          0) /* EncumbranceVal */
-     , (40809,   6,        255) /* ItemsCapacity */
-     , (40809,   7,        255) /* ContainersCapacity */
+     , (40809,   6,         -1) /* ItemsCapacity */
+     , (40809,   7,         -1) /* ContainersCapacity */
      , (40809,  16,         32) /* ItemUseable - Remote */
      , (40809,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (40809,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (41224, 'ace41224-ironbladelieutenant', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41224,   1,         16) /* ItemType - Creature */
      , (41224,   2,         99) /* CreatureType - GearKnight */
-     , (41224,   6,        255) /* ItemsCapacity */
-     , (41224,   7,        255) /* ContainersCapacity */
+     , (41224,   6,         -1) /* ItemsCapacity */
+     , (41224,   7,         -1) /* ContainersCapacity */
      , (41224,  16,          1) /* ItemUseable - No */
      , (41224,  25,        512) /* Level */
      , (41224,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (5426, 'glendenwestoutpostarmorer', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5426,   1,         16) /* ItemType - Creature */
      , (5426,   2,         31) /* CreatureType - Human */
-     , (5426,   6,        255) /* ItemsCapacity */
-     , (5426,   7,        255) /* ContainersCapacity */
+     , (5426,   6,         -1) /* ItemsCapacity */
+     , (5426,   7,         -1) /* ContainersCapacity */
      , (5426,  16,         32) /* ItemUseable - Remote */
      , (5426,  25,          9) /* Level */
      , (5426,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

@@ -5,8 +5,8 @@ VALUES (52076, 'ace52076-yellowlever', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52076,   1,         16) /* ItemType - Creature */
-     , (52076,   6,        255) /* ItemsCapacity */
-     , (52076,   7,        255) /* ContainersCapacity */
+     , (52076,   6,         -1) /* ItemsCapacity */
+     , (52076,   7,         -1) /* ContainersCapacity */
      , (52076,  16,         32) /* ItemUseable - Remote */
      , (52076,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (52076,  95,          3) /* RadarBlipColor - White */

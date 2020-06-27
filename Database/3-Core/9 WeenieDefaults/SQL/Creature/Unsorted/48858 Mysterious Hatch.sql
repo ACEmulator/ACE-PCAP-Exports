@@ -5,8 +5,8 @@ VALUES (48858, 'ace48858-mysterioushatch', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48858,   1,         16) /* ItemType - Creature */
-     , (48858,   6,        255) /* ItemsCapacity */
-     , (48858,   7,        255) /* ContainersCapacity */
+     , (48858,   6,         -1) /* ItemsCapacity */
+     , (48858,   7,         -1) /* ContainersCapacity */
      , (48858,  16,         32) /* ItemUseable - Remote */
      , (48858,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (48858,  95,          3) /* RadarBlipColor - White */

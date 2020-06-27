@@ -6,8 +6,8 @@ VALUES (51636, 'ace51636-ragingcorruptsorcerer', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51636,   1,         16) /* ItemType - Creature */
      , (51636,   2,         19) /* CreatureType - Virindi */
-     , (51636,   6,        255) /* ItemsCapacity */
-     , (51636,   7,        255) /* ContainersCapacity */
+     , (51636,   6,         -1) /* ItemsCapacity */
+     , (51636,   7,         -1) /* ContainersCapacity */
      , (51636,  16,          1) /* ItemUseable - No */
      , (51636,  25,        300) /* Level */
      , (51636,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

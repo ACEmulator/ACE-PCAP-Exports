@@ -6,8 +6,8 @@ VALUES (52031, 'ace52031-corruptedwarrior', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52031,   1,         16) /* ItemType - Creature */
      , (52031,   2,         57) /* CreatureType - AunTumerok */
-     , (52031,   6,        255) /* ItemsCapacity */
-     , (52031,   7,        255) /* ContainersCapacity */
+     , (52031,   6,         -1) /* ItemsCapacity */
+     , (52031,   7,         -1) /* ContainersCapacity */
      , (52031,  16,          1) /* ItemUseable - No */
      , (52031,  25,        240) /* Level */
      , (52031,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

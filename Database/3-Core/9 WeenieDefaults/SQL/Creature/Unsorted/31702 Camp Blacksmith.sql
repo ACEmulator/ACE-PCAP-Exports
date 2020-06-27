@@ -5,8 +5,8 @@ VALUES (31702, 'ace31702-campblacksmith', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31702,   1,         16) /* ItemType - Creature */
-     , (31702,   6,        255) /* ItemsCapacity */
-     , (31702,   7,        255) /* ContainersCapacity */
+     , (31702,   6,         -1) /* ItemsCapacity */
+     , (31702,   7,         -1) /* ContainersCapacity */
      , (31702,  16,         32) /* ItemUseable - Remote */
      , (31702,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31702,  95,          8) /* RadarBlipColor - Yellow */

@@ -5,8 +5,8 @@ VALUES (52283, 'ace52283-frozencrystal', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52283,   1,         16) /* ItemType - Creature */
-     , (52283,   6,        255) /* ItemsCapacity */
-     , (52283,   7,        255) /* ContainersCapacity */
+     , (52283,   6,         -1) /* ItemsCapacity */
+     , (52283,   7,         -1) /* ContainersCapacity */
      , (52283,  16,          1) /* ItemUseable - No */
      , (52283,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52283, 133,          4) /* ShowableOnRadar - ShowAlways */

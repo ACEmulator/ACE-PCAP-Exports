@@ -6,8 +6,8 @@ VALUES (38571, 'ace38571-societysolleretsarmorsmith', 10, '2019-02-10 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38571,   1,         16) /* ItemType - Creature */
      , (38571,   2,         31) /* CreatureType - Human */
-     , (38571,   6,        255) /* ItemsCapacity */
-     , (38571,   7,        255) /* ContainersCapacity */
+     , (38571,   6,         -1) /* ItemsCapacity */
+     , (38571,   7,         -1) /* ContainersCapacity */
      , (38571,  16,         32) /* ItemUseable - Remote */
      , (38571,  25,        185) /* Level */
      , (38571,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

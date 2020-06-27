@@ -6,8 +6,8 @@ VALUES (38705, 'ace38705-durvushthedusty', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38705,   1,         16) /* ItemType - Creature */
      , (38705,   2,         31) /* CreatureType - Human */
-     , (38705,   6,        255) /* ItemsCapacity */
-     , (38705,   7,        255) /* ContainersCapacity */
+     , (38705,   6,         -1) /* ItemsCapacity */
+     , (38705,   7,         -1) /* ContainersCapacity */
      , (38705,  16,         32) /* ItemUseable - Remote */
      , (38705,  25,        182) /* Level */
      , (38705,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (38080, 'ace38080-lordrytheran', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38080,   1,         16) /* ItemType - Creature */
      , (38080,   2,         14) /* CreatureType - Undead */
-     , (38080,   6,        255) /* ItemsCapacity */
-     , (38080,   7,        255) /* ContainersCapacity */
+     , (38080,   6,         -1) /* ItemsCapacity */
+     , (38080,   7,         -1) /* ContainersCapacity */
      , (38080,  16,         32) /* ItemUseable - Remote */
      , (38080,  25,        680) /* Level */
      , (38080,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (35324, 'ace35324-arenafourstatue', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35324,   1,         16) /* ItemType - Creature */
-     , (35324,   6,        255) /* ItemsCapacity */
-     , (35324,   7,        255) /* ContainersCapacity */
+     , (35324,   6,         -1) /* ItemsCapacity */
+     , (35324,   7,         -1) /* ContainersCapacity */
      , (35324,  16,         32) /* ItemUseable - Remote */
      , (35324,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35324,  95,          8) /* RadarBlipColor - Yellow */

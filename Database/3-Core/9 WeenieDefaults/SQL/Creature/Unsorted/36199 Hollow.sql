@@ -5,8 +5,8 @@ VALUES (36199, 'ace36199-hollow', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36199,   1,         16) /* ItemType - Creature */
-     , (36199,   6,        255) /* ItemsCapacity */
-     , (36199,   7,        255) /* ContainersCapacity */
+     , (36199,   6,         -1) /* ItemsCapacity */
+     , (36199,   7,         -1) /* ContainersCapacity */
      , (36199,  16,         32) /* ItemUseable - Remote */
      , (36199,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36199,  95,          1) /* RadarBlipColor - LifeStone */

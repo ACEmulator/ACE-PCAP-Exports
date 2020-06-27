@@ -6,8 +6,8 @@ VALUES (33542, 'ace33542-lanaith', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33542,   1,         16) /* ItemType - Creature */
      , (33542,   2,         22) /* CreatureType - Shadow */
-     , (33542,   6,        255) /* ItemsCapacity */
-     , (33542,   7,        255) /* ContainersCapacity */
+     , (33542,   6,         -1) /* ItemsCapacity */
+     , (33542,   7,         -1) /* ContainersCapacity */
      , (33542,  16,         32) /* ItemUseable - Remote */
      , (33542,  25,        150) /* Level */
      , (33542,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

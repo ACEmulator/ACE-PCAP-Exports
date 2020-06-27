@@ -6,8 +6,8 @@ VALUES (44806, 'ace44806-panumbrisshadow', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44806,   1,         16) /* ItemType - Creature */
      , (44806,   2,         22) /* CreatureType - Shadow */
-     , (44806,   6,        255) /* ItemsCapacity */
-     , (44806,   7,        255) /* ContainersCapacity */
+     , (44806,   6,         -1) /* ItemsCapacity */
+     , (44806,   7,         -1) /* ContainersCapacity */
      , (44806,  16,          1) /* ItemUseable - No */
      , (44806,  25,        240) /* Level */
      , (44806,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

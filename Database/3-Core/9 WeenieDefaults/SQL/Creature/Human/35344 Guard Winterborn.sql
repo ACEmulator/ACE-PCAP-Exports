@@ -6,8 +6,8 @@ VALUES (35344, 'ace35344-guardwinterborn', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35344,   1,         16) /* ItemType - Creature */
      , (35344,   2,         31) /* CreatureType - Human */
-     , (35344,   6,        255) /* ItemsCapacity */
-     , (35344,   7,        255) /* ContainersCapacity */
+     , (35344,   6,         -1) /* ItemsCapacity */
+     , (35344,   7,         -1) /* ContainersCapacity */
      , (35344,  16,         32) /* ItemUseable - Remote */
      , (35344,  25,        120) /* Level */
      , (35344,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

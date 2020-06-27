@@ -6,8 +6,8 @@ VALUES (14410, 'banditreformedholtburg', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14410,   1,         16) /* ItemType - Creature */
      , (14410,   2,         31) /* CreatureType - Human */
-     , (14410,   6,        255) /* ItemsCapacity */
-     , (14410,   7,        255) /* ContainersCapacity */
+     , (14410,   6,         -1) /* ItemsCapacity */
+     , (14410,   7,         -1) /* ContainersCapacity */
      , (14410,  16,         32) /* ItemUseable - Remote */
      , (14410,  25,         45) /* Level */
      , (14410,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

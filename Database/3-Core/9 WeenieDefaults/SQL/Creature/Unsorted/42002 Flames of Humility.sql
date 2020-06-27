@@ -5,8 +5,8 @@ VALUES (42002, 'ace42002-flamesofhumility', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42002,   1,         16) /* ItemType - Creature */
-     , (42002,   6,        255) /* ItemsCapacity */
-     , (42002,   7,        255) /* ContainersCapacity */
+     , (42002,   6,         -1) /* ItemsCapacity */
+     , (42002,   7,         -1) /* ContainersCapacity */
      , (42002,  16,         32) /* ItemUseable - Remote */
      , (42002,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42002,  95,          8) /* RadarBlipColor - Yellow */

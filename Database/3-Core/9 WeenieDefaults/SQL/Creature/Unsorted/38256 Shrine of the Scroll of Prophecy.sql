@@ -5,8 +5,8 @@ VALUES (38256, 'ace38256-shrineofthescrollofprophecy', 10, '2019-02-10 00:00:00'
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38256,   1,         16) /* ItemType - Creature */
-     , (38256,   6,        255) /* ItemsCapacity */
-     , (38256,   7,        255) /* ContainersCapacity */
+     , (38256,   6,         -1) /* ItemsCapacity */
+     , (38256,   7,         -1) /* ContainersCapacity */
      , (38256,  16,         32) /* ItemUseable - Remote */
      , (38256,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38256,  95,          3) /* RadarBlipColor - White */

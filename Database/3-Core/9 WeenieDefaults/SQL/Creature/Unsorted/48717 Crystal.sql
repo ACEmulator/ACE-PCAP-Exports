@@ -5,8 +5,8 @@ VALUES (48717, 'ace48717-crystal', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48717,   1,         16) /* ItemType - Creature */
-     , (48717,   6,        255) /* ItemsCapacity */
-     , (48717,   7,        255) /* ContainersCapacity */
+     , (48717,   6,         -1) /* ItemsCapacity */
+     , (48717,   7,         -1) /* ContainersCapacity */
      , (48717,  16,         32) /* ItemUseable - Remote */
      , (48717,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (48717,  95,          8) /* RadarBlipColor - Yellow */

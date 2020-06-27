@@ -6,8 +6,8 @@ VALUES (37538, 'ace37538-royalquartermaster', 12, '2019-02-10 00:00:00') /* Vend
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37538,   1,         16) /* ItemType - Creature */
      , (37538,   2,         31) /* CreatureType - Human */
-     , (37538,   6,        255) /* ItemsCapacity */
-     , (37538,   7,        255) /* ContainersCapacity */
+     , (37538,   6,         -1) /* ItemsCapacity */
+     , (37538,   7,         -1) /* ContainersCapacity */
      , (37538,  16,         32) /* ItemUseable - Remote */
      , (37538,  25,        150) /* Level */
      , (37538,  74,          0) /* MerchandiseItemTypes - None */

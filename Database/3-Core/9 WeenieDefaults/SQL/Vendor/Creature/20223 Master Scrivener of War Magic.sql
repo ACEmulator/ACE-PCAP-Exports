@@ -6,8 +6,8 @@ VALUES (20223, 'scrivenerwardistant', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20223,   1,         16) /* ItemType - Creature */
      , (20223,   2,         31) /* CreatureType - Human */
-     , (20223,   6,        255) /* ItemsCapacity */
-     , (20223,   7,        255) /* ContainersCapacity */
+     , (20223,   6,         -1) /* ItemsCapacity */
+     , (20223,   7,         -1) /* ContainersCapacity */
      , (20223,  16,         32) /* ItemUseable - Remote */
      , (20223,  25,         14) /* Level */
      , (20223,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */

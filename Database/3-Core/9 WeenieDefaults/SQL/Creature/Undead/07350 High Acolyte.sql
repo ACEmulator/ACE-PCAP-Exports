@@ -6,8 +6,8 @@ VALUES (7350, 'zombiesoulfearingacolytearea3', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7350,   1,         16) /* ItemType - Creature */
      , (7350,   2,         14) /* CreatureType - Undead */
-     , (7350,   6,        255) /* ItemsCapacity */
-     , (7350,   7,        255) /* ContainersCapacity */
+     , (7350,   6,         -1) /* ItemsCapacity */
+     , (7350,   7,         -1) /* ContainersCapacity */
      , (7350,  16,          1) /* ItemUseable - No */
      , (7350,  25,         50) /* Level */
      , (7350,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

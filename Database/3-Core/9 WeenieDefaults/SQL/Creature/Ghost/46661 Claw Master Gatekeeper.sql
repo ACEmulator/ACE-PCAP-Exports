@@ -6,8 +6,8 @@ VALUES (46661, 'ace46661-clawmastergatekeeper', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46661,   1,         16) /* ItemType - Creature */
      , (46661,   2,         77) /* CreatureType - Ghost */
-     , (46661,   6,        255) /* ItemsCapacity */
-     , (46661,   7,        255) /* ContainersCapacity */
+     , (46661,   6,         -1) /* ItemsCapacity */
+     , (46661,   7,         -1) /* ContainersCapacity */
      , (46661,  16,          1) /* ItemUseable - No */
      , (46661,  25,        240) /* Level */
      , (46661,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

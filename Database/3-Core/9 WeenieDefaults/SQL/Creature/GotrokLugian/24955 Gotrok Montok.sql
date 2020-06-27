@@ -6,8 +6,8 @@ VALUES (24955, 'lugianmontokrenegade', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24955,   1,         16) /* ItemType - Creature */
      , (24955,   2,         70) /* CreatureType - GotrokLugian */
-     , (24955,   6,        255) /* ItemsCapacity */
-     , (24955,   7,        255) /* ContainersCapacity */
+     , (24955,   6,         -1) /* ItemsCapacity */
+     , (24955,   7,         -1) /* ContainersCapacity */
      , (24955,  16,          1) /* ItemUseable - No */
      , (24955,  25,         80) /* Level */
      , (24955,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

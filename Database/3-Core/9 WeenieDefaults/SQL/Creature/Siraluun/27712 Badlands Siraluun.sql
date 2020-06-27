@@ -6,8 +6,8 @@ VALUES (27712, 'siraluunbadlands', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27712,   1,         16) /* ItemType - Creature */
      , (27712,   2,         56) /* CreatureType - Siraluun */
-     , (27712,   6,        255) /* ItemsCapacity */
-     , (27712,   7,        255) /* ContainersCapacity */
+     , (27712,   6,         -1) /* ItemsCapacity */
+     , (27712,   7,         -1) /* ContainersCapacity */
      , (27712,  16,          1) /* ItemUseable - No */
      , (27712,  25,        115) /* Level */
      , (27712,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

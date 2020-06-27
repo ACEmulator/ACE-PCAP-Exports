@@ -6,8 +6,8 @@ VALUES (46015, 'ace46015-royalguard', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46015,   1,         16) /* ItemType - Creature */
      , (46015,   2,         99) /* CreatureType - GearKnight */
-     , (46015,   6,        255) /* ItemsCapacity */
-     , (46015,   7,        255) /* ContainersCapacity */
+     , (46015,   6,         -1) /* ItemsCapacity */
+     , (46015,   7,         -1) /* ContainersCapacity */
      , (46015,  16,         32) /* ItemUseable - Remote */
      , (46015,  25,        275) /* Level */
      , (46015,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

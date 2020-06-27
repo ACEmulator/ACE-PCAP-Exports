@@ -6,8 +6,8 @@ VALUES (43398, 'ace43398-nalicana', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43398,   1,         16) /* ItemType - Creature */
      , (43398,   2,         31) /* CreatureType - Human */
-     , (43398,   6,        255) /* ItemsCapacity */
-     , (43398,   7,        255) /* ContainersCapacity */
+     , (43398,   6,         -1) /* ItemsCapacity */
+     , (43398,   7,         -1) /* ContainersCapacity */
      , (43398,  16,         32) /* ItemUseable - Remote */
      , (43398,  25,        600) /* Level */
      , (43398,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

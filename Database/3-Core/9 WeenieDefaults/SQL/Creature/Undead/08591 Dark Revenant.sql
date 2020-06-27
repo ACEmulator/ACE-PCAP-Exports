@@ -6,8 +6,8 @@ VALUES (8591, 'zombiedarkrevenantmeditate', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8591,   1,         16) /* ItemType - Creature */
      , (8591,   2,         14) /* CreatureType - Undead */
-     , (8591,   6,        255) /* ItemsCapacity */
-     , (8591,   7,        255) /* ContainersCapacity */
+     , (8591,   6,         -1) /* ItemsCapacity */
+     , (8591,   7,         -1) /* ContainersCapacity */
      , (8591,  16,          1) /* ItemUseable - No */
      , (8591,  25,         80) /* Level */
      , (8591,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

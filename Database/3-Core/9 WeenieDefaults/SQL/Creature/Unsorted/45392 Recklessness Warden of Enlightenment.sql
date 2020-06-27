@@ -5,8 +5,8 @@ VALUES (45392, 'ace45392-recklessnesswardenofenlightenment', 10, '2019-02-10 00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45392,   1,         16) /* ItemType - Creature */
-     , (45392,   6,        255) /* ItemsCapacity */
-     , (45392,   7,        255) /* ContainersCapacity */
+     , (45392,   6,         -1) /* ItemsCapacity */
+     , (45392,   7,         -1) /* ContainersCapacity */
      , (45392,  16,         32) /* ItemUseable - Remote */
      , (45392,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45392,  95,          3) /* RadarBlipColor - White */

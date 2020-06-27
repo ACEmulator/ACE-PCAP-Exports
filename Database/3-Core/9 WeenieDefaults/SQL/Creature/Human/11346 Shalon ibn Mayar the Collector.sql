@@ -6,8 +6,8 @@ VALUES (11346, 'easternshorecollector-xp', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11346,   1,         16) /* ItemType - Creature */
      , (11346,   2,         31) /* CreatureType - Human */
-     , (11346,   6,        255) /* ItemsCapacity */
-     , (11346,   7,        255) /* ContainersCapacity */
+     , (11346,   6,         -1) /* ItemsCapacity */
+     , (11346,   7,         -1) /* ContainersCapacity */
      , (11346,  16,         32) /* ItemUseable - Remote */
      , (11346,  25,          9) /* Level */
      , (11346,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

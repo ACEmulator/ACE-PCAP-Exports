@@ -6,8 +6,8 @@ VALUES (36926, 'ace36926-shadeofdule', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36926,   1,         16) /* ItemType - Creature */
      , (36926,   2,         22) /* CreatureType - Shadow */
-     , (36926,   6,        255) /* ItemsCapacity */
-     , (36926,   7,        255) /* ContainersCapacity */
+     , (36926,   6,         -1) /* ItemsCapacity */
+     , (36926,   7,         -1) /* ContainersCapacity */
      , (36926,  16,         32) /* ItemUseable - Remote */
      , (36926,  25,        800) /* Level */
      , (36926,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

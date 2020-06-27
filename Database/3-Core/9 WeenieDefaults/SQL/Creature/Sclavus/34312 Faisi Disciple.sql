@@ -6,8 +6,8 @@ VALUES (34312, 'ace34312-faisidisciple', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34312,   1,         16) /* ItemType - Creature */
      , (34312,   2,         26) /* CreatureType - Sclavus */
-     , (34312,   6,        255) /* ItemsCapacity */
-     , (34312,   7,        255) /* ContainersCapacity */
+     , (34312,   6,         -1) /* ItemsCapacity */
+     , (34312,   7,         -1) /* ContainersCapacity */
      , (34312,  16,          1) /* ItemUseable - No */
      , (34312,  25,         80) /* Level */
      , (34312,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

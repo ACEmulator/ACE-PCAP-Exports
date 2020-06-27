@@ -5,8 +5,8 @@ VALUES (41799, 'ace41799-killerphyntosqueen', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41799,   1,         16) /* ItemType - Creature */
-     , (41799,   6,        255) /* ItemsCapacity */
-     , (41799,   7,        255) /* ContainersCapacity */
+     , (41799,   6,         -1) /* ItemsCapacity */
+     , (41799,   7,         -1) /* ContainersCapacity */
      , (41799,  16,          1) /* ItemUseable - No */
      , (41799,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41799, 133,          4) /* ShowableOnRadar - ShowAlways */

@@ -6,8 +6,8 @@ VALUES (9308, 'undeadsmalltrianglequest', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9308,   1,         16) /* ItemType - Creature */
      , (9308,   2,         14) /* CreatureType - Undead */
-     , (9308,   6,        255) /* ItemsCapacity */
-     , (9308,   7,        255) /* ContainersCapacity */
+     , (9308,   6,         -1) /* ItemsCapacity */
+     , (9308,   7,         -1) /* ContainersCapacity */
      , (9308,  16,         32) /* ItemUseable - Remote */
      , (9308,  25,         66) /* Level */
      , (9308,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

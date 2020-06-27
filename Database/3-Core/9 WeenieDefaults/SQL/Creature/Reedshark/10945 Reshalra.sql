@@ -6,8 +6,8 @@ VALUES (10945, 'reedsharkhunter2-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10945,   1,         16) /* ItemType - Creature */
      , (10945,   2,         16) /* CreatureType - Reedshark */
-     , (10945,   6,        255) /* ItemsCapacity */
-     , (10945,   7,        255) /* ContainersCapacity */
+     , (10945,   6,         -1) /* ItemsCapacity */
+     , (10945,   7,         -1) /* ContainersCapacity */
      , (10945,  16,          1) /* ItemUseable - No */
      , (10945,  25,         80) /* Level */
      , (10945,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

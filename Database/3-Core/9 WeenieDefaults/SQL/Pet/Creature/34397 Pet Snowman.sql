@@ -6,8 +6,8 @@ VALUES (34397, 'ace34397-drakeviispetsnowman', 69, '2019-02-10 00:00:00') /* Pet
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34397,   1,         16) /* ItemType - Creature */
      , (34397,   2,         39) /* CreatureType - Snowman */
-     , (34397,   6,        255) /* ItemsCapacity */
-     , (34397,   7,        255) /* ContainersCapacity */
+     , (34397,   6,         -1) /* ItemsCapacity */
+     , (34397,   7,         -1) /* ContainersCapacity */
      , (34397,  16,          1) /* ItemUseable - No */
      , (34397,  25,          5) /* Level */
      , (34397,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

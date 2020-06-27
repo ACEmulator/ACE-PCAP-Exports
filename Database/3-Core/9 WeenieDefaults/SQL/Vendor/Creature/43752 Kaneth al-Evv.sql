@@ -6,8 +6,8 @@ VALUES (43752, 'ace43752-kanethalevv', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43752,   1,         16) /* ItemType - Creature */
      , (43752,   2,         31) /* CreatureType - Human */
-     , (43752,   6,        255) /* ItemsCapacity */
-     , (43752,   7,        255) /* ContainersCapacity */
+     , (43752,   6,         -1) /* ItemsCapacity */
+     , (43752,   7,         -1) /* ContainersCapacity */
      , (43752,  16,         32) /* ItemUseable - Remote */
      , (43752,  25,        250) /* Level */
      , (43752,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -6,8 +6,8 @@ VALUES (20017, 'cocoonedauroch', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20017,   1,         16) /* ItemType - Creature */
      , (20017,   2,         11) /* CreatureType - Auroch */
-     , (20017,   6,        255) /* ItemsCapacity */
-     , (20017,   7,        255) /* ContainersCapacity */
+     , (20017,   6,         -1) /* ItemsCapacity */
+     , (20017,   7,         -1) /* ContainersCapacity */
      , (20017,  16,          1) /* ItemUseable - No */
      , (20017,  25,         13) /* Level */
      , (20017,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

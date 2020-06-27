@@ -6,8 +6,8 @@ VALUES (671, 'cragstonebowyer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (671,   1,         16) /* ItemType - Creature */
      , (671,   2,         31) /* CreatureType - Human */
-     , (671,   6,        255) /* ItemsCapacity */
-     , (671,   7,        255) /* ContainersCapacity */
+     , (671,   6,         -1) /* ItemsCapacity */
+     , (671,   7,         -1) /* ContainersCapacity */
      , (671,  16,         32) /* ItemUseable - Remote */
      , (671,  25,          7) /* Level */
      , (671,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */

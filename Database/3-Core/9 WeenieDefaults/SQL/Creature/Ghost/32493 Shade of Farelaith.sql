@@ -6,8 +6,8 @@ VALUES (32493, 'ace32493-shadeoffarelaith', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32493,   1,         16) /* ItemType - Creature */
      , (32493,   2,         77) /* CreatureType - Ghost */
-     , (32493,   6,        255) /* ItemsCapacity */
-     , (32493,   7,        255) /* ContainersCapacity */
+     , (32493,   6,         -1) /* ItemsCapacity */
+     , (32493,   7,         -1) /* ContainersCapacity */
      , (32493,  16,         32) /* ItemUseable - Remote */
      , (32493,  25,         80) /* Level */
      , (32493,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

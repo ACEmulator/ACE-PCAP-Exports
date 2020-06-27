@@ -6,8 +6,8 @@ VALUES (42981, 'ace42981-yuudai', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42981,   1,         16) /* ItemType - Creature */
      , (42981,   2,         31) /* CreatureType - Human */
-     , (42981,   6,        255) /* ItemsCapacity */
-     , (42981,   7,        255) /* ContainersCapacity */
+     , (42981,   6,         -1) /* ItemsCapacity */
+     , (42981,   7,         -1) /* ContainersCapacity */
      , (42981,  16,         32) /* ItemUseable - Remote */
      , (42981,  25,        174) /* Level */
      , (42981,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

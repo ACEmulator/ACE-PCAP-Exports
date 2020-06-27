@@ -6,8 +6,8 @@ VALUES (34938, 'ace34938-collectorgolem', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34938,   1,         16) /* ItemType - Creature */
      , (34938,   2,         13) /* CreatureType - Golem */
-     , (34938,   6,        255) /* ItemsCapacity */
-     , (34938,   7,        255) /* ContainersCapacity */
+     , (34938,   6,         -1) /* ItemsCapacity */
+     , (34938,   7,         -1) /* ContainersCapacity */
      , (34938,  16,         32) /* ItemUseable - Remote */
      , (34938,  25,        500) /* Level */
      , (34938,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

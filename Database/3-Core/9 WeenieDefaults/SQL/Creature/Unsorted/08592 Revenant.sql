@@ -5,8 +5,8 @@ VALUES (8592, 'zombierevenantmeditate', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8592,   1,         16) /* ItemType - Creature */
-     , (8592,   6,        255) /* ItemsCapacity */
-     , (8592,   7,        255) /* ContainersCapacity */
+     , (8592,   6,         -1) /* ItemsCapacity */
+     , (8592,   7,         -1) /* ContainersCapacity */
      , (8592,  16,          1) /* ItemUseable - No */
      , (8592,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8592, 133,          2) /* ShowableOnRadar - ShowMovement */

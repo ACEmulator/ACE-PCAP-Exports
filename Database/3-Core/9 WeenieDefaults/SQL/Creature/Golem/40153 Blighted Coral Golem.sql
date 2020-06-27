@@ -6,8 +6,8 @@ VALUES (40153, 'ace40153-blightedcoralgolem', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40153,   1,         16) /* ItemType - Creature */
      , (40153,   2,         13) /* CreatureType - Golem */
-     , (40153,   6,        255) /* ItemsCapacity */
-     , (40153,   7,        255) /* ContainersCapacity */
+     , (40153,   6,         -1) /* ItemsCapacity */
+     , (40153,   7,         -1) /* ContainersCapacity */
      , (40153,  16,          1) /* ItemUseable - No */
      , (40153,  25,        200) /* Level */
      , (40153,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

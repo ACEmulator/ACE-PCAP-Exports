@@ -5,8 +5,8 @@ VALUES (36235, 'ace36235-ratburrow', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36235,   1,         16) /* ItemType - Creature */
-     , (36235,   6,        255) /* ItemsCapacity */
-     , (36235,   7,        255) /* ContainersCapacity */
+     , (36235,   6,         -1) /* ItemsCapacity */
+     , (36235,   7,         -1) /* ContainersCapacity */
      , (36235,  16,         32) /* ItemUseable - Remote */
      , (36235,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (36235,  95,          8) /* RadarBlipColor - Yellow */

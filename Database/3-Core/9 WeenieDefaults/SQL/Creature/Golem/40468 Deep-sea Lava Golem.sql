@@ -6,8 +6,8 @@ VALUES (40468, 'ace40468-deepsealavagolem', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40468,   1,         16) /* ItemType - Creature */
      , (40468,   2,         13) /* CreatureType - Golem */
-     , (40468,   6,        255) /* ItemsCapacity */
-     , (40468,   7,        255) /* ContainersCapacity */
+     , (40468,   6,         -1) /* ItemsCapacity */
+     , (40468,   7,         -1) /* ContainersCapacity */
      , (40468,  16,          1) /* ItemUseable - No */
      , (40468,  25,        200) /* Level */
      , (40468,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

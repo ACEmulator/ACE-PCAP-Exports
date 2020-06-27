@@ -6,8 +6,8 @@ VALUES (47218, 'ace47218-ensorcelledweapon', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47218,   1,         16) /* ItemType - Creature */
      , (47218,   2,         77) /* CreatureType - Ghost */
-     , (47218,   6,        255) /* ItemsCapacity */
-     , (47218,   7,        255) /* ContainersCapacity */
+     , (47218,   6,         -1) /* ItemsCapacity */
+     , (47218,   7,         -1) /* ContainersCapacity */
      , (47218,  16,          1) /* ItemUseable - No */
      , (47218,  25,        210) /* Level */
      , (47218,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

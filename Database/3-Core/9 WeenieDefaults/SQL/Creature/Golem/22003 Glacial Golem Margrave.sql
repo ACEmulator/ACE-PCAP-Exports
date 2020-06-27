@@ -6,8 +6,8 @@ VALUES (22003, 'golemglacialmargraveportal1', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22003,   1,         16) /* ItemType - Creature */
      , (22003,   2,         13) /* CreatureType - Golem */
-     , (22003,   6,        255) /* ItemsCapacity */
-     , (22003,   7,        255) /* ContainersCapacity */
+     , (22003,   6,         -1) /* ItemsCapacity */
+     , (22003,   7,         -1) /* ContainersCapacity */
      , (22003,  16,          1) /* ItemUseable - No */
      , (22003,  25,        100) /* Level */
      , (22003,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

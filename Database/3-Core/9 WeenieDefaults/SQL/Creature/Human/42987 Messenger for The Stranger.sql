@@ -6,8 +6,8 @@ VALUES (42987, 'ace42987-messengerforthestranger', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42987,   1,         16) /* ItemType - Creature */
      , (42987,   2,         31) /* CreatureType - Human */
-     , (42987,   6,        255) /* ItemsCapacity */
-     , (42987,   7,        255) /* ContainersCapacity */
+     , (42987,   6,         -1) /* ItemsCapacity */
+     , (42987,   7,         -1) /* ContainersCapacity */
      , (42987,  16,         32) /* ItemUseable - Remote */
      , (42987,  25,        100) /* Level */
      , (42987,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

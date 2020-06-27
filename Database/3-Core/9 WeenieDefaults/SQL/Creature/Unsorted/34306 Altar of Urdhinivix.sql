@@ -5,8 +5,8 @@ VALUES (34306, 'ace34306-altarofurdhinivix', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34306,   1,         16) /* ItemType - Creature */
-     , (34306,   6,        255) /* ItemsCapacity */
-     , (34306,   7,        255) /* ContainersCapacity */
+     , (34306,   6,         -1) /* ItemsCapacity */
+     , (34306,   7,         -1) /* ContainersCapacity */
      , (34306,  16,         32) /* ItemUseable - Remote */
      , (34306,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34306,  95,          3) /* RadarBlipColor - White */

@@ -6,8 +6,8 @@ VALUES (44031, 'ace44031-dustgolem', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44031,   1,         16) /* ItemType - Creature */
      , (44031,   2,         13) /* CreatureType - Golem */
-     , (44031,   6,        255) /* ItemsCapacity */
-     , (44031,   7,        255) /* ContainersCapacity */
+     , (44031,   6,         -1) /* ItemsCapacity */
+     , (44031,   7,         -1) /* ContainersCapacity */
      , (44031,  16,          1) /* ItemUseable - No */
      , (44031,  25,        300) /* Level */
      , (44031,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

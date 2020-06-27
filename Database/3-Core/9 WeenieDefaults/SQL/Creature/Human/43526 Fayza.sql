@@ -6,8 +6,8 @@ VALUES (43526, 'ace43526-fayza', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43526,   1,         16) /* ItemType - Creature */
      , (43526,   2,         31) /* CreatureType - Human */
-     , (43526,   6,        255) /* ItemsCapacity */
-     , (43526,   7,        255) /* ContainersCapacity */
+     , (43526,   6,         -1) /* ItemsCapacity */
+     , (43526,   7,         -1) /* ContainersCapacity */
      , (43526,  16,         32) /* ItemUseable - Remote */
      , (43526,  25,        100) /* Level */
      , (43526,  93,    6292488) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (738, 'glendentailor', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (738,   1,         16) /* ItemType - Creature */
      , (738,   2,         31) /* CreatureType - Human */
-     , (738,   6,        255) /* ItemsCapacity */
-     , (738,   7,        255) /* ContainersCapacity */
+     , (738,   6,         -1) /* ItemsCapacity */
+     , (738,   7,         -1) /* ContainersCapacity */
      , (738,  16,         32) /* ItemUseable - Remote */
      , (738,  25,          4) /* Level */
      , (738,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */

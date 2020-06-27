@@ -6,8 +6,8 @@ VALUES (30040, 'sanamarweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30040,   1,         16) /* ItemType - Creature */
      , (30040,   2,         31) /* CreatureType - Human */
-     , (30040,   6,        255) /* ItemsCapacity */
-     , (30040,   7,        255) /* ContainersCapacity */
+     , (30040,   6,         -1) /* ItemsCapacity */
+     , (30040,   7,         -1) /* ContainersCapacity */
      , (30040,  16,         32) /* ItemUseable - Remote */
      , (30040,  25,          6) /* Level */
      , (30040,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

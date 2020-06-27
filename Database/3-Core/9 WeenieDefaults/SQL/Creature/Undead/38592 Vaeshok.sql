@@ -6,8 +6,8 @@ VALUES (38592, 'ace38592-vaeshok', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38592,   1,         16) /* ItemType - Creature */
      , (38592,   2,         14) /* CreatureType - Undead */
-     , (38592,   6,        255) /* ItemsCapacity */
-     , (38592,   7,        255) /* ContainersCapacity */
+     , (38592,   6,         -1) /* ItemsCapacity */
+     , (38592,   7,         -1) /* ContainersCapacity */
      , (38592,  16,          1) /* ItemUseable - No */
      , (38592,  25,        200) /* Level */
      , (38592,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

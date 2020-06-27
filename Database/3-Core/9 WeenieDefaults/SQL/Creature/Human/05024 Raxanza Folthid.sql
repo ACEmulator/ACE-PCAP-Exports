@@ -6,8 +6,8 @@ VALUES (5024, 'raxanzafolthid', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5024,   1,         16) /* ItemType - Creature */
      , (5024,   2,         31) /* CreatureType - Human */
-     , (5024,   6,        255) /* ItemsCapacity */
-     , (5024,   7,        255) /* ContainersCapacity */
+     , (5024,   6,         -1) /* ItemsCapacity */
+     , (5024,   7,         -1) /* ContainersCapacity */
      , (5024,  16,         32) /* ItemUseable - Remote */
      , (5024,  25,          8) /* Level */
      , (5024,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

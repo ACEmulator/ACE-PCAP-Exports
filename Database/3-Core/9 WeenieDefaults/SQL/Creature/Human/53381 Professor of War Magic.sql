@@ -6,8 +6,8 @@ VALUES (53381, 'ace53381-professorofwarmagic', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53381,   1,         16) /* ItemType - Creature */
      , (53381,   2,         31) /* CreatureType - Human */
-     , (53381,   6,        255) /* ItemsCapacity */
-     , (53381,   7,        255) /* ContainersCapacity */
+     , (53381,   6,         -1) /* ItemsCapacity */
+     , (53381,   7,         -1) /* ContainersCapacity */
      , (53381,  16,         32) /* ItemUseable - Remote */
      , (53381,  25,        200) /* Level */
      , (53381,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

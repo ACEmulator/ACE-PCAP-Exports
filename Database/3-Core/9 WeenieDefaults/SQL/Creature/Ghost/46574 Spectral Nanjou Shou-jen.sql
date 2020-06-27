@@ -6,8 +6,8 @@ VALUES (46574, 'ace46574-spectralnanjoushoujen', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46574,   1,         16) /* ItemType - Creature */
      , (46574,   2,         77) /* CreatureType - Ghost */
-     , (46574,   6,        255) /* ItemsCapacity */
-     , (46574,   7,        255) /* ContainersCapacity */
+     , (46574,   6,         -1) /* ItemsCapacity */
+     , (46574,   7,         -1) /* ContainersCapacity */
      , (46574,  16,          1) /* ItemUseable - No */
      , (46574,  25,        260) /* Level */
      , (46574,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

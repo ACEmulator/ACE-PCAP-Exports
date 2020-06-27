@@ -6,8 +6,8 @@ VALUES (40960, 'ace40960-smithaishabintkaral', 12, '2019-02-10 00:00:00') /* Ven
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40960,   1,         16) /* ItemType - Creature */
      , (40960,   2,         31) /* CreatureType - Human */
-     , (40960,   6,        255) /* ItemsCapacity */
-     , (40960,   7,        255) /* ContainersCapacity */
+     , (40960,   6,         -1) /* ItemsCapacity */
+     , (40960,   7,         -1) /* ContainersCapacity */
      , (40960,  16,         32) /* ItemUseable - Remote */
      , (40960,  25,         16) /* Level */
      , (40960,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -6,8 +6,8 @@ VALUES (46705, 'ace46705-fiestymite', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46705,   1,         16) /* ItemType - Creature */
      , (46705,   2,          7) /* CreatureType - Mite */
-     , (46705,   6,        255) /* ItemsCapacity */
-     , (46705,   7,        255) /* ContainersCapacity */
+     , (46705,   6,         -1) /* ItemsCapacity */
+     , (46705,   7,         -1) /* ContainersCapacity */
      , (46705,  16,          1) /* ItemUseable - No */
      , (46705,  25,        240) /* Level */
      , (46705,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

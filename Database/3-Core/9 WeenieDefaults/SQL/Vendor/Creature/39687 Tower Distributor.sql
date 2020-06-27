@@ -6,8 +6,8 @@ VALUES (39687, 'ace39687-towerdistributor', 12, '2019-02-10 00:00:00') /* Vendor
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39687,   1,         16) /* ItemType - Creature */
      , (39687,   2,         31) /* CreatureType - Human */
-     , (39687,   6,        255) /* ItemsCapacity */
-     , (39687,   7,        255) /* ContainersCapacity */
+     , (39687,   6,         -1) /* ItemsCapacity */
+     , (39687,   7,         -1) /* ContainersCapacity */
      , (39687,  16,         32) /* ItemUseable - Remote */
      , (39687,  25,        250) /* Level */
      , (39687,  74,          0) /* MerchandiseItemTypes - None */

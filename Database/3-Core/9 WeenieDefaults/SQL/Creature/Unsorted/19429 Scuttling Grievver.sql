@@ -5,8 +5,8 @@ VALUES (19429, 'grievverscuttlingns-noattack', 10, '2019-02-10 00:00:00') /* Cre
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19429,   1,         16) /* ItemType - Creature */
-     , (19429,   6,        255) /* ItemsCapacity */
-     , (19429,   7,        255) /* ContainersCapacity */
+     , (19429,   6,         -1) /* ItemsCapacity */
+     , (19429,   7,         -1) /* ContainersCapacity */
      , (19429,  16,          1) /* ItemUseable - No */
      , (19429,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (19429,  95,          8) /* RadarBlipColor - Yellow */

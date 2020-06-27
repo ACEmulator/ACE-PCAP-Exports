@@ -6,8 +6,8 @@ VALUES (190, 'cultmember', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (190,   1,         16) /* ItemType - Creature */
      , (190,   2,         31) /* CreatureType - Human */
-     , (190,   6,        255) /* ItemsCapacity */
-     , (190,   7,        255) /* ContainersCapacity */
+     , (190,   6,         -1) /* ItemsCapacity */
+     , (190,   7,         -1) /* ContainersCapacity */
      , (190,  16,          1) /* ItemUseable - No */
      , (190,  25,         80) /* Level */
      , (190,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

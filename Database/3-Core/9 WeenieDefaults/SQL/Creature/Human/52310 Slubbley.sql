@@ -6,8 +6,8 @@ VALUES (52310, 'ace52310-slubbley', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52310,   1,         16) /* ItemType - Creature */
      , (52310,   2,         31) /* CreatureType - Human */
-     , (52310,   6,        255) /* ItemsCapacity */
-     , (52310,   7,        255) /* ContainersCapacity */
+     , (52310,   6,         -1) /* ItemsCapacity */
+     , (52310,   7,         -1) /* ContainersCapacity */
      , (52310,  16,         32) /* ItemUseable - Remote */
      , (52310,  25,        275) /* Level */
      , (52310,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (5833, 'banditcastlearmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5833,   1,         16) /* ItemType - Creature */
      , (5833,   2,         31) /* CreatureType - Human */
-     , (5833,   6,        255) /* ItemsCapacity */
-     , (5833,   7,        255) /* ContainersCapacity */
+     , (5833,   6,         -1) /* ItemsCapacity */
+     , (5833,   7,         -1) /* ContainersCapacity */
      , (5833,  16,         32) /* ItemUseable - Remote */
      , (5833,  25,         10) /* Level */
      , (5833,  74, 1073743623) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, TinkeringMaterial */

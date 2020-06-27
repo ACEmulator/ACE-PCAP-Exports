@@ -6,8 +6,8 @@ VALUES (5640, 'yanshisouthwestoutpostgrocer', 12, '2019-02-10 00:00:00') /* Vend
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5640,   1,         16) /* ItemType - Creature */
      , (5640,   2,         31) /* CreatureType - Human */
-     , (5640,   6,        255) /* ItemsCapacity */
-     , (5640,   7,        255) /* ContainersCapacity */
+     , (5640,   6,         -1) /* ItemsCapacity */
+     , (5640,   7,         -1) /* ContainersCapacity */
      , (5640,  16,         32) /* ItemUseable - Remote */
      , (5640,  25,          7) /* Level */
      , (5640,  74,     262688) /* MerchandiseItemTypes - Food, Container, PromissoryNote */

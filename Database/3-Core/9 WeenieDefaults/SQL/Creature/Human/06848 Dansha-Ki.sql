@@ -6,8 +6,8 @@ VALUES (6848, 'dryreachprisoner', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6848,   1,         16) /* ItemType - Creature */
      , (6848,   2,         31) /* CreatureType - Human */
-     , (6848,   6,        255) /* ItemsCapacity */
-     , (6848,   7,        255) /* ContainersCapacity */
+     , (6848,   6,         -1) /* ItemsCapacity */
+     , (6848,   7,         -1) /* ContainersCapacity */
      , (6848,  16,         32) /* ItemUseable - Remote */
      , (6848,  25,         21) /* Level */
      , (6848,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

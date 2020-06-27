@@ -6,8 +6,8 @@ VALUES (30036, 'sanamargrocer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30036,   1,         16) /* ItemType - Creature */
      , (30036,   2,         31) /* CreatureType - Human */
-     , (30036,   6,        255) /* ItemsCapacity */
-     , (30036,   7,        255) /* ContainersCapacity */
+     , (30036,   6,         -1) /* ItemsCapacity */
+     , (30036,   7,         -1) /* ContainersCapacity */
      , (30036,  16,         32) /* ItemUseable - Remote */
      , (30036,  25,          6) /* Level */
      , (30036,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */

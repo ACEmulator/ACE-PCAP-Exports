@@ -6,8 +6,8 @@ VALUES (2314, 'forttethanaarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2314,   1,         16) /* ItemType - Creature */
      , (2314,   2,         31) /* CreatureType - Human */
-     , (2314,   6,        255) /* ItemsCapacity */
-     , (2314,   7,        255) /* ContainersCapacity */
+     , (2314,   6,         -1) /* ItemsCapacity */
+     , (2314,   7,         -1) /* ContainersCapacity */
      , (2314,  16,         32) /* ItemUseable - Remote */
      , (2314,  25,         14) /* Level */
      , (2314,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

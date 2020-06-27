@@ -5,8 +5,8 @@ VALUES (30628, 'drudgeflyingmachine', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30628,   1,         16) /* ItemType - Creature */
-     , (30628,   6,        255) /* ItemsCapacity */
-     , (30628,   7,        255) /* ContainersCapacity */
+     , (30628,   6,         -1) /* ItemsCapacity */
+     , (30628,   7,         -1) /* ContainersCapacity */
      , (30628,  16,         32) /* ItemUseable - Remote */
      , (30628,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30628,  95,          3) /* RadarBlipColor - White */

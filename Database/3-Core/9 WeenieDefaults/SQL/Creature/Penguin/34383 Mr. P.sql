@@ -6,8 +6,8 @@ VALUES (34383, 'ace34383-mrp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34383,   1,         16) /* ItemType - Creature */
      , (34383,   2,         80) /* CreatureType - Penguin */
-     , (34383,   6,        255) /* ItemsCapacity */
-     , (34383,   7,        255) /* ContainersCapacity */
+     , (34383,   6,         -1) /* ItemsCapacity */
+     , (34383,   7,         -1) /* ContainersCapacity */
      , (34383,  16,         32) /* ItemUseable - Remote */
      , (34383,  25,          5) /* Level */
      , (34383,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

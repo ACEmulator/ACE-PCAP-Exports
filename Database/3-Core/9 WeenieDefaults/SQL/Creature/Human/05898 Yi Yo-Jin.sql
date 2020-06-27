@@ -6,8 +6,8 @@ VALUES (5898, 'leathercrafterneydisacastle', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5898,   1,         16) /* ItemType - Creature */
      , (5898,   2,         31) /* CreatureType - Human */
-     , (5898,   6,        255) /* ItemsCapacity */
-     , (5898,   7,        255) /* ContainersCapacity */
+     , (5898,   6,         -1) /* ItemsCapacity */
+     , (5898,   7,         -1) /* ContainersCapacity */
      , (5898,  16,         32) /* ItemUseable - Remote */
      , (5898,  25,          5) /* Level */
      , (5898,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

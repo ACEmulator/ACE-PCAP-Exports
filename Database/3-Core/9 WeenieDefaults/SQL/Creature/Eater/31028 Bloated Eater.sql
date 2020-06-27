@@ -6,8 +6,8 @@ VALUES (31028, 'eaterbloatedsnowlily', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31028,   1,         16) /* ItemType - Creature */
      , (31028,   2,         79) /* CreatureType - Eater */
-     , (31028,   6,        255) /* ItemsCapacity */
-     , (31028,   7,        255) /* ContainersCapacity */
+     , (31028,   6,         -1) /* ItemsCapacity */
+     , (31028,   7,         -1) /* ContainersCapacity */
      , (31028,  16,          1) /* ItemUseable - No */
      , (31028,  25,        160) /* Level */
      , (31028,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

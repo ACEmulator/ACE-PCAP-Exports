@@ -6,8 +6,8 @@ VALUES (5838, 'banditcastlejourgensson', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5838,   1,         16) /* ItemType - Creature */
      , (5838,   2,         31) /* CreatureType - Human */
-     , (5838,   6,        255) /* ItemsCapacity */
-     , (5838,   7,        255) /* ContainersCapacity */
+     , (5838,   6,         -1) /* ItemsCapacity */
+     , (5838,   7,         -1) /* ContainersCapacity */
      , (5838,  16,         32) /* ItemUseable - Remote */
      , (5838,  25,         16) /* Level */
      , (5838,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

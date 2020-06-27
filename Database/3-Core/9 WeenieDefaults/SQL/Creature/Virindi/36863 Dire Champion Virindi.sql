@@ -6,8 +6,8 @@ VALUES (36863, 'ace36863-direchampionvirindi', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36863,   1,         16) /* ItemType - Creature */
      , (36863,   2,         19) /* CreatureType - Virindi */
-     , (36863,   6,        255) /* ItemsCapacity */
-     , (36863,   7,        255) /* ContainersCapacity */
+     , (36863,   6,         -1) /* ItemsCapacity */
+     , (36863,   7,         -1) /* ContainersCapacity */
      , (36863,  16,          1) /* ItemUseable - No */
      , (36863,  25,        160) /* Level */
      , (36863,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

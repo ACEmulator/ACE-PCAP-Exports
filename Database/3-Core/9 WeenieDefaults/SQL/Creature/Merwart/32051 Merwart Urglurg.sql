@@ -6,8 +6,8 @@ VALUES (32051, 'ace32051-merwarturglurg', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32051,   1,         16) /* ItemType - Creature */
      , (32051,   2,         90) /* CreatureType - Merwart */
-     , (32051,   6,        255) /* ItemsCapacity */
-     , (32051,   7,        255) /* ContainersCapacity */
+     , (32051,   6,         -1) /* ItemsCapacity */
+     , (32051,   7,         -1) /* ContainersCapacity */
      , (32051,  16,         32) /* ItemUseable - Remote */
      , (32051,  25,         90) /* Level */
      , (32051,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

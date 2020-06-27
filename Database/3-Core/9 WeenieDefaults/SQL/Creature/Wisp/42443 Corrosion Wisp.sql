@@ -6,8 +6,8 @@ VALUES (42443, 'ace42443-corrosionwisp', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42443,   1,         16) /* ItemType - Creature */
      , (42443,   2,         20) /* CreatureType - Wisp */
-     , (42443,   6,        255) /* ItemsCapacity */
-     , (42443,   7,        255) /* ContainersCapacity */
+     , (42443,   6,         -1) /* ItemsCapacity */
+     , (42443,   7,         -1) /* ContainersCapacity */
      , (42443,  16,          1) /* ItemUseable - No */
      , (42443,  25,        100) /* Level */
      , (42443,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

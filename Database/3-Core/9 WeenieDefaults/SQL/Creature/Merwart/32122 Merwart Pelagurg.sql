@@ -6,8 +6,8 @@ VALUES (32122, 'ace32122-merwartpelagurg', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32122,   1,         16) /* ItemType - Creature */
      , (32122,   2,         90) /* CreatureType - Merwart */
-     , (32122,   6,        255) /* ItemsCapacity */
-     , (32122,   7,        255) /* ContainersCapacity */
+     , (32122,   6,         -1) /* ItemsCapacity */
+     , (32122,   7,         -1) /* ContainersCapacity */
      , (32122,  16,         32) /* ItemUseable - Remote */
      , (32122,  25,        130) /* Level */
      , (32122,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

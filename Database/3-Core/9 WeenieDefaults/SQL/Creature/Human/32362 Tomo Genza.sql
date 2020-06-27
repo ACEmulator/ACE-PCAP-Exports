@@ -6,8 +6,8 @@ VALUES (32362, 'ace32362-tomogenza', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32362,   1,         16) /* ItemType - Creature */
      , (32362,   2,         31) /* CreatureType - Human */
-     , (32362,   6,        255) /* ItemsCapacity */
-     , (32362,   7,        255) /* ContainersCapacity */
+     , (32362,   6,         -1) /* ItemsCapacity */
+     , (32362,   7,         -1) /* ContainersCapacity */
      , (32362,  16,         32) /* ItemUseable - Remote */
      , (32362,  25,        148) /* Level */
      , (32362,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

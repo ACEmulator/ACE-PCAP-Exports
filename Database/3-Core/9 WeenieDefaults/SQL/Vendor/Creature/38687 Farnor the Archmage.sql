@@ -6,8 +6,8 @@ VALUES (38687, 'ace38687-farnorthearchmage', 12, '2019-02-10 00:00:00') /* Vendo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38687,   1,         16) /* ItemType - Creature */
      , (38687,   2,         31) /* CreatureType - Human */
-     , (38687,   6,        255) /* ItemsCapacity */
-     , (38687,   7,        255) /* ContainersCapacity */
+     , (38687,   6,         -1) /* ItemsCapacity */
+     , (38687,   7,         -1) /* ContainersCapacity */
      , (38687,  16,         32) /* ItemUseable - Remote */
      , (38687,  25,        260) /* Level */
      , (38687,  74,     833536) /* MerchandiseItemTypes - Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

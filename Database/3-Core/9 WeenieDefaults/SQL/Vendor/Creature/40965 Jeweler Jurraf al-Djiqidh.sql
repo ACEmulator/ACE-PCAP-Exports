@@ -6,8 +6,8 @@ VALUES (40965, 'ace40965-jewelerjurrafaldjiqidh', 12, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40965,   1,         16) /* ItemType - Creature */
      , (40965,   2,         31) /* CreatureType - Human */
-     , (40965,   6,        255) /* ItemsCapacity */
-     , (40965,   7,        255) /* ContainersCapacity */
+     , (40965,   6,         -1) /* ItemsCapacity */
+     , (40965,   7,         -1) /* ContainersCapacity */
      , (40965,  16,         32) /* ItemUseable - Remote */
      , (40965,  25,         11) /* Level */
      , (40965,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -5,8 +5,8 @@ VALUES (41001, 'ace41001-testportal', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41001,   1,         16) /* ItemType - Creature */
-     , (41001,   6,        255) /* ItemsCapacity */
-     , (41001,   7,        255) /* ContainersCapacity */
+     , (41001,   6,         -1) /* ItemsCapacity */
+     , (41001,   7,         -1) /* ContainersCapacity */
      , (41001,  16,         32) /* ItemUseable - Remote */
      , (41001,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41001,  95,          4) /* RadarBlipColor - Purple */

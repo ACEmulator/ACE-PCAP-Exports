@@ -6,8 +6,8 @@ VALUES (33704, 'ace33704-degenerateshadowcommander', 10, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33704,   1,         16) /* ItemType - Creature */
      , (33704,   2,         22) /* CreatureType - Shadow */
-     , (33704,   6,        255) /* ItemsCapacity */
-     , (33704,   7,        255) /* ContainersCapacity */
+     , (33704,   6,         -1) /* ItemsCapacity */
+     , (33704,   7,         -1) /* ContainersCapacity */
      , (33704,  16,          1) /* ItemUseable - No */
      , (33704,  25,        185) /* Level */
      , (33704,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

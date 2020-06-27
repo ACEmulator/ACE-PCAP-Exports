@@ -6,8 +6,8 @@ VALUES (12131, 'simulacrummasternorth', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12131,   1,         16) /* ItemType - Creature */
      , (12131,   2,         59) /* CreatureType - Simulacrum */
-     , (12131,   6,        255) /* ItemsCapacity */
-     , (12131,   7,        255) /* ContainersCapacity */
+     , (12131,   6,         -1) /* ItemsCapacity */
+     , (12131,   7,         -1) /* ContainersCapacity */
      , (12131,  16,          1) /* ItemUseable - No */
      , (12131,  25,        135) /* Level */
      , (12131,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (42922, 'ace42922-waterelemental', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42922,   1,         16) /* ItemType - Creature */
      , (42922,   2,         62) /* CreatureType - Elemental */
-     , (42922,   6,        255) /* ItemsCapacity */
-     , (42922,   7,        255) /* ContainersCapacity */
+     , (42922,   6,         -1) /* ItemsCapacity */
+     , (42922,   7,         -1) /* ContainersCapacity */
      , (42922,  16,          1) /* ItemUseable - No */
      , (42922,  25,        135) /* Level */
      , (42922,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -5,8 +5,8 @@ VALUES (32437, 'ace32437-magicdefensewardenofenlightenment', 10, '2019-02-10 00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32437,   1,         16) /* ItemType - Creature */
-     , (32437,   6,        255) /* ItemsCapacity */
-     , (32437,   7,        255) /* ContainersCapacity */
+     , (32437,   6,         -1) /* ItemsCapacity */
+     , (32437,   7,         -1) /* ContainersCapacity */
      , (32437,  16,         32) /* ItemUseable - Remote */
      , (32437,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32437,  95,          3) /* RadarBlipColor - White */

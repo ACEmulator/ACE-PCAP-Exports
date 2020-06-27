@@ -6,8 +6,8 @@ VALUES (48883, 'ace48883-blazingsunsgolem', 71, '2019-02-10 00:00:00') /* Combat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48883,   1,         16) /* ItemType - Creature */
      , (48883,   2,         13) /* CreatureType - Golem */
-     , (48883,   6,        255) /* ItemsCapacity */
-     , (48883,   7,        255) /* ContainersCapacity */
+     , (48883,   6,         -1) /* ItemsCapacity */
+     , (48883,   7,         -1) /* ContainersCapacity */
      , (48883,  16,          1) /* ItemUseable - No */
      , (48883,  25,        100) /* Level */
      , (48883,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

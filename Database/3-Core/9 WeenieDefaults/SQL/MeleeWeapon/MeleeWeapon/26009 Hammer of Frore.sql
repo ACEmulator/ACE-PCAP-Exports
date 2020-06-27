@@ -50,10 +50,10 @@ VALUES (26009,   1,   33558574) /* Setup */
      , (26009,   3,  536870932) /* SoundTable */
      , (26009,   8,  100675713) /* Icon */
      , (26009,  22,  872415275) /* PhysicsEffectTable */
+     , (26009,  30,         88) /* PhysicsScript - Create */
      , (26009, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (26009, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (26009, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */
-     , (26009, 8019,         88) /* PCAPRecordedDefaultScript */;
+     , (26009, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26009, 8000, 3671606282) /* PCAPRecordedObjectIID */;

@@ -5,8 +5,8 @@ VALUES (32398, 'ace32398-alchemywardenofforgetfulness', 10, '2019-02-10 00:00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32398,   1,         16) /* ItemType - Creature */
-     , (32398,   6,        255) /* ItemsCapacity */
-     , (32398,   7,        255) /* ContainersCapacity */
+     , (32398,   6,         -1) /* ItemsCapacity */
+     , (32398,   7,         -1) /* ContainersCapacity */
      , (32398,  16,         32) /* ItemUseable - Remote */
      , (32398,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32398,  95,          3) /* RadarBlipColor - White */

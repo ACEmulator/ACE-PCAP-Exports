@@ -6,8 +6,8 @@ VALUES (28250, 'phyntoswaspblackswarm', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28250,   1,         16) /* ItemType - Creature */
      , (28250,   2,          9) /* CreatureType - PhyntosWasp */
-     , (28250,   6,        255) /* ItemsCapacity */
-     , (28250,   7,        255) /* ContainersCapacity */
+     , (28250,   6,         -1) /* ItemsCapacity */
+     , (28250,   7,         -1) /* ContainersCapacity */
      , (28250,  16,          1) /* ItemUseable - No */
      , (28250,  25,        100) /* Level */
      , (28250,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (1354, 'syliphtowerblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1354,   1,         16) /* ItemType - Creature */
      , (1354,   2,         31) /* CreatureType - Human */
-     , (1354,   6,        255) /* ItemsCapacity */
-     , (1354,   7,        255) /* ContainersCapacity */
+     , (1354,   6,         -1) /* ItemsCapacity */
+     , (1354,   7,         -1) /* ContainersCapacity */
      , (1354,  16,         32) /* ItemUseable - Remote */
      , (1354,  25,         10) /* Level */
      , (1354,  74, 1842151343) /* MerchandiseItemTypes - 1842151343 */

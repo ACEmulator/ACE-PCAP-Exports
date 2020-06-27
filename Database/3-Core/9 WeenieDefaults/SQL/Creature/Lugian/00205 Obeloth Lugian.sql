@@ -6,8 +6,8 @@ VALUES (205, 'lugianobeloth', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (205,   1,         16) /* ItemType - Creature */
      , (205,   2,          5) /* CreatureType - Lugian */
-     , (205,   6,        255) /* ItemsCapacity */
-     , (205,   7,        255) /* ContainersCapacity */
+     , (205,   6,         -1) /* ItemsCapacity */
+     , (205,   7,         -1) /* ContainersCapacity */
      , (205,  16,          1) /* ItemUseable - No */
      , (205,  25,         30) /* Level */
      , (205,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

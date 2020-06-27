@@ -5,8 +5,8 @@ VALUES (39791, 'ace39791-explorationmarker', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39791,   1,         16) /* ItemType - Creature */
-     , (39791,   6,        255) /* ItemsCapacity */
-     , (39791,   7,        255) /* ContainersCapacity */
+     , (39791,   6,         -1) /* ItemsCapacity */
+     , (39791,   7,         -1) /* ContainersCapacity */
      , (39791,  16,         32) /* ItemUseable - Remote */
      , (39791,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (39791, 307,          0) /* DamageRating */

@@ -6,8 +6,8 @@ VALUES (4434, 'holtburgwestoutpostshopkeep', 12, '2019-02-10 00:00:00') /* Vendo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4434,   1,         16) /* ItemType - Creature */
      , (4434,   2,         31) /* CreatureType - Human */
-     , (4434,   6,        255) /* ItemsCapacity */
-     , (4434,   7,        255) /* ContainersCapacity */
+     , (4434,   6,         -1) /* ItemsCapacity */
+     , (4434,   7,         -1) /* ContainersCapacity */
      , (4434,  16,         32) /* ItemUseable - Remote */
      , (4434,  25,          7) /* Level */
      , (4434,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

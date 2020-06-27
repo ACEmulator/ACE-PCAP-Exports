@@ -5,8 +5,8 @@ VALUES (25725, 'torchdummynoir1', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25725,   1,         16) /* ItemType - Creature */
-     , (25725,   6,        255) /* ItemsCapacity */
-     , (25725,   7,        255) /* ContainersCapacity */
+     , (25725,   6,         -1) /* ItemsCapacity */
+     , (25725,   7,         -1) /* ContainersCapacity */
      , (25725,  16,         32) /* ItemUseable - Remote */
      , (25725,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25725,  95,          3) /* RadarBlipColor - White */

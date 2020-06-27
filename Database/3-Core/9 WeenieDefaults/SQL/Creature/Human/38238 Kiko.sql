@@ -6,8 +6,8 @@ VALUES (38238, 'ace38238-kiko', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38238,   1,         16) /* ItemType - Creature */
      , (38238,   2,         31) /* CreatureType - Human */
-     , (38238,   6,        255) /* ItemsCapacity */
-     , (38238,   7,        255) /* ContainersCapacity */
+     , (38238,   6,         -1) /* ItemsCapacity */
+     , (38238,   7,         -1) /* ContainersCapacity */
      , (38238,  16,         32) /* ItemUseable - Remote */
      , (38238,  25,        200) /* Level */
      , (38238,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

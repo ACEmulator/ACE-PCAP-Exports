@@ -6,8 +6,8 @@ VALUES (35126, 'ace35126-viamontianhand', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35126,   1,         16) /* ItemType - Creature */
      , (35126,   2,         83) /* CreatureType - ViamontianKnight */
-     , (35126,   6,        255) /* ItemsCapacity */
-     , (35126,   7,        255) /* ContainersCapacity */
+     , (35126,   6,         -1) /* ItemsCapacity */
+     , (35126,   7,         -1) /* ContainersCapacity */
      , (35126,  16,          1) /* ItemUseable - No */
      , (35126,  25,        185) /* Level */
      , (35126,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

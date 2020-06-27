@@ -6,8 +6,8 @@ VALUES (35562, 'ace35562-enniodicinghalle', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35562,   1,         16) /* ItemType - Creature */
      , (35562,   2,         31) /* CreatureType - Human */
-     , (35562,   6,        255) /* ItemsCapacity */
-     , (35562,   7,        255) /* ContainersCapacity */
+     , (35562,   6,         -1) /* ItemsCapacity */
+     , (35562,   7,         -1) /* ContainersCapacity */
      , (35562,  16,         32) /* ItemUseable - Remote */
      , (35562,  25,        120) /* Level */
      , (35562,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

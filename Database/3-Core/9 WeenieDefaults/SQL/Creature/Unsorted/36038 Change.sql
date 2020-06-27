@@ -5,8 +5,8 @@ VALUES (36038, 'ace36038-change', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36038,   1,         16) /* ItemType - Creature */
-     , (36038,   6,        255) /* ItemsCapacity */
-     , (36038,   7,        255) /* ContainersCapacity */
+     , (36038,   6,         -1) /* ItemsCapacity */
+     , (36038,   7,         -1) /* ContainersCapacity */
      , (36038,  16,          1) /* ItemUseable - No */
      , (36038,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36038, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -33,7 +33,7 @@ VALUES (37221,   1,      32768) /* ItemType - Caster */
      , (37221, 177,          2) /* GemCount */
      , (37221, 178,         20) /* GemType */
      , (37221, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (37221, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
+     , (37221, 265,        139) /* EquipmentSetId - ParagonCaster */
      , (37221, 319,         41) /* ItemMaxLevel */
      , (37221, 320,          1) /* ItemXpStyle - Fixed */
      , (37221, 383,          1) /* GearPKDamageRating */

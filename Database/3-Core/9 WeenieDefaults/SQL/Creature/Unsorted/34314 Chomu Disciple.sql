@@ -5,8 +5,8 @@ VALUES (34314, 'ace34314-chomudisciple', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34314,   1,         16) /* ItemType - Creature */
-     , (34314,   6,        255) /* ItemsCapacity */
-     , (34314,   7,        255) /* ContainersCapacity */
+     , (34314,   6,         -1) /* ItemsCapacity */
+     , (34314,   7,         -1) /* ContainersCapacity */
      , (34314,  16,          1) /* ItemUseable - No */
      , (34314,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34314, 133,          2) /* ShowableOnRadar - ShowMovement */

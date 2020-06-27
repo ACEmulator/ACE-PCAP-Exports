@@ -6,8 +6,8 @@ VALUES (43243, 'ace43243-weakenedempyrean', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43243,   1,         16) /* ItemType - Creature */
      , (43243,   2,         51) /* CreatureType - Empyrean */
-     , (43243,   6,        255) /* ItemsCapacity */
-     , (43243,   7,        255) /* ContainersCapacity */
+     , (43243,   6,         -1) /* ItemsCapacity */
+     , (43243,   7,         -1) /* ContainersCapacity */
      , (43243,  16,         32) /* ItemUseable - Remote */
      , (43243,  25,          5) /* Level */
      , (43243,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

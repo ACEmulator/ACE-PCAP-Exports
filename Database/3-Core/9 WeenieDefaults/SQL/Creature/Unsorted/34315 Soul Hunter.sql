@@ -5,8 +5,8 @@ VALUES (34315, 'ace34315-soulhunter', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34315,   1,         16) /* ItemType - Creature */
-     , (34315,   6,        255) /* ItemsCapacity */
-     , (34315,   7,        255) /* ContainersCapacity */
+     , (34315,   6,         -1) /* ItemsCapacity */
+     , (34315,   7,         -1) /* ContainersCapacity */
      , (34315,  16,          1) /* ItemUseable - No */
      , (34315,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34315, 133,          2) /* ShowableOnRadar - ShowMovement */

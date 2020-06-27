@@ -5,8 +5,8 @@ VALUES (52873, 'ace52873-lairoftremborh', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52873,   1,         16) /* ItemType - Creature */
-     , (52873,   6,        255) /* ItemsCapacity */
-     , (52873,   7,        255) /* ContainersCapacity */
+     , (52873,   6,         -1) /* ItemsCapacity */
+     , (52873,   7,         -1) /* ContainersCapacity */
      , (52873,  16,         32) /* ItemUseable - Remote */
      , (52873,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52873,  95,          4) /* RadarBlipColor - Purple */

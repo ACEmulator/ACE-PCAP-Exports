@@ -6,8 +6,8 @@ VALUES (37177, 'ace37177-bloodpriestess', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37177,   1,         16) /* ItemType - Creature */
      , (37177,   2,         31) /* CreatureType - Human */
-     , (37177,   6,        255) /* ItemsCapacity */
-     , (37177,   7,        255) /* ContainersCapacity */
+     , (37177,   6,         -1) /* ItemsCapacity */
+     , (37177,   7,         -1) /* ContainersCapacity */
      , (37177,  16,          1) /* ItemUseable - No */
      , (37177,  25,        185) /* Level */
      , (37177,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

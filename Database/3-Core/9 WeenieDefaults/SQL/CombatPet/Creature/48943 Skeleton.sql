@@ -6,8 +6,8 @@ VALUES (48943, 'ace48943-howeeiisskeleton', 71, '2019-02-10 00:00:00') /* Combat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48943,   1,         16) /* ItemType - Creature */
      , (48943,   2,         30) /* CreatureType - Skeleton */
-     , (48943,   6,        255) /* ItemsCapacity */
-     , (48943,   7,        255) /* ContainersCapacity */
+     , (48943,   6,         -1) /* ItemsCapacity */
+     , (48943,   7,         -1) /* ContainersCapacity */
      , (48943,  16,          1) /* ItemUseable - No */
      , (48943,  25,         50) /* Level */
      , (48943,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

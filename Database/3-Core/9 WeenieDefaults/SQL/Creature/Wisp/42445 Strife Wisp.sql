@@ -6,8 +6,8 @@ VALUES (42445, 'ace42445-strifewisp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42445,   1,         16) /* ItemType - Creature */
      , (42445,   2,         20) /* CreatureType - Wisp */
-     , (42445,   6,        255) /* ItemsCapacity */
-     , (42445,   7,        255) /* ContainersCapacity */
+     , (42445,   6,         -1) /* ItemsCapacity */
+     , (42445,   7,         -1) /* ContainersCapacity */
      , (42445,  16,          1) /* ItemUseable - No */
      , (42445,  25,         80) /* Level */
      , (42445,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

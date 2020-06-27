@@ -6,8 +6,8 @@ VALUES (40981, 'ace40981-barkeeprubin', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40981,   1,         16) /* ItemType - Creature */
      , (40981,   2,         31) /* CreatureType - Human */
-     , (40981,   6,        255) /* ItemsCapacity */
-     , (40981,   7,        255) /* ContainersCapacity */
+     , (40981,   6,         -1) /* ItemsCapacity */
+     , (40981,   7,         -1) /* ContainersCapacity */
      , (40981,  16,         32) /* ItemUseable - Remote */
      , (40981,  25,         33) /* Level */
      , (40981,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

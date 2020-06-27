@@ -6,8 +6,8 @@ VALUES (52857, 'ace52857-gauntletticketvendor', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52857,   1,         16) /* ItemType - Creature */
      , (52857,   2,         31) /* CreatureType - Human */
-     , (52857,   6,        255) /* ItemsCapacity */
-     , (52857,   7,        255) /* ContainersCapacity */
+     , (52857,   6,         -1) /* ItemsCapacity */
+     , (52857,   7,         -1) /* ContainersCapacity */
      , (52857,  16,         32) /* ItemUseable - Remote */
      , (52857,  25,        275) /* Level */
      , (52857,  74,          0) /* MerchandiseItemTypes - None */

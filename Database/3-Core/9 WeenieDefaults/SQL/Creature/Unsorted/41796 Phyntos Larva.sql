@@ -5,8 +5,8 @@ VALUES (41796, 'ace41796-phyntoslarva', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41796,   1,         16) /* ItemType - Creature */
-     , (41796,   6,        255) /* ItemsCapacity */
-     , (41796,   7,        255) /* ContainersCapacity */
+     , (41796,   6,         -1) /* ItemsCapacity */
+     , (41796,   7,         -1) /* ContainersCapacity */
      , (41796,  16,          1) /* ItemUseable - No */
      , (41796,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41796, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,10 +29,10 @@ VALUES (41796,   1,   33560897) /* Setup */
      , (41796,   3,  536870926) /* SoundTable */
      , (41796,   8,  100674298) /* Icon */
      , (41796,  22,  872415265) /* PhysicsEffectTable */
+     , (41796,  30,         86) /* PhysicsScript - BreatheAcid */
      , (41796, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (41796, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (41796, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (41796, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (41796, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41796, 8040, 4180672815, 103.88, 163.387, 38.4, 0.9426266, 0, 0, 0.3338489) /* PCAPRecordedLocation */

@@ -6,8 +6,8 @@ VALUES (41311, 'ace41311-fionaworon', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41311,   1,         16) /* ItemType - Creature */
      , (41311,   2,         31) /* CreatureType - Human */
-     , (41311,   6,        255) /* ItemsCapacity */
-     , (41311,   7,        255) /* ContainersCapacity */
+     , (41311,   6,         -1) /* ItemsCapacity */
+     , (41311,   7,         -1) /* ContainersCapacity */
      , (41311,  16,         32) /* ItemUseable - Remote */
      , (41311,  25,        300) /* Level */
      , (41311,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

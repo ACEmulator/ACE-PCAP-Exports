@@ -6,8 +6,8 @@ VALUES (24577, 'agentwritrefugecandethkeep', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24577,   1,         16) /* ItemType - Creature */
      , (24577,   2,          5) /* CreatureType - Lugian */
-     , (24577,   6,        255) /* ItemsCapacity */
-     , (24577,   7,        255) /* ContainersCapacity */
+     , (24577,   6,         -1) /* ItemsCapacity */
+     , (24577,   7,         -1) /* ContainersCapacity */
      , (24577,  16,         32) /* ItemUseable - Remote */
      , (24577,  25,         72) /* Level */
      , (24577,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

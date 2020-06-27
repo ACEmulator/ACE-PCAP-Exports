@@ -6,8 +6,8 @@ VALUES (45853, 'ace45853-mouf', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45853,   1,         16) /* ItemType - Creature */
      , (45853,   2,         80) /* CreatureType - Penguin */
-     , (45853,   6,        255) /* ItemsCapacity */
-     , (45853,   7,        255) /* ContainersCapacity */
+     , (45853,   6,         -1) /* ItemsCapacity */
+     , (45853,   7,         -1) /* ContainersCapacity */
      , (45853,  16,         32) /* ItemUseable - Remote */
      , (45853,  25,          5) /* Level */
      , (45853,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

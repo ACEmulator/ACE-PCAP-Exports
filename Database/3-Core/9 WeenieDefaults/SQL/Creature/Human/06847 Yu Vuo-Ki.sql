@@ -6,8 +6,8 @@ VALUES (6847, 'dryreachquestnpc', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6847,   1,         16) /* ItemType - Creature */
      , (6847,   2,         31) /* CreatureType - Human */
-     , (6847,   6,        255) /* ItemsCapacity */
-     , (6847,   7,        255) /* ContainersCapacity */
+     , (6847,   6,         -1) /* ItemsCapacity */
+     , (6847,   7,         -1) /* ContainersCapacity */
      , (6847,  16,         32) /* ItemUseable - Remote */
      , (6847,  25,         15) /* Level */
      , (6847,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

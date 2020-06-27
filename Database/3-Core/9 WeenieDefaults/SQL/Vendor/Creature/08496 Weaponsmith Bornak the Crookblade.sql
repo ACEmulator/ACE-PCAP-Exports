@@ -6,8 +6,8 @@ VALUES (8496, 'freeholdweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8496,   1,         16) /* ItemType - Creature */
      , (8496,   2,         31) /* CreatureType - Human */
-     , (8496,   6,        255) /* ItemsCapacity */
-     , (8496,   7,        255) /* ContainersCapacity */
+     , (8496,   6,         -1) /* ItemsCapacity */
+     , (8496,   7,         -1) /* ContainersCapacity */
      , (8496,  16,         32) /* ItemUseable - Remote */
      , (8496,  25,         37) /* Level */
      , (8496,  74, 1074005927) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

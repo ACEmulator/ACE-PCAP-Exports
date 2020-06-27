@@ -6,8 +6,8 @@ VALUES (25493, 'renegadegarrisonguard', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25493,   1,         16) /* ItemType - Creature */
      , (25493,   2,         70) /* CreatureType - GotrokLugian */
-     , (25493,   6,        255) /* ItemsCapacity */
-     , (25493,   7,        255) /* ContainersCapacity */
+     , (25493,   6,         -1) /* ItemsCapacity */
+     , (25493,   7,         -1) /* ContainersCapacity */
      , (25493,  16,         32) /* ItemUseable - Remote */
      , (25493,  25,         50) /* Level */
      , (25493,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (32706, 'ace32706-gharundimwarmage', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32706,   1,         16) /* ItemType - Creature */
      , (32706,   2,         31) /* CreatureType - Human */
-     , (32706,   6,        255) /* ItemsCapacity */
-     , (32706,   7,        255) /* ContainersCapacity */
+     , (32706,   6,         -1) /* ItemsCapacity */
+     , (32706,   7,         -1) /* ContainersCapacity */
      , (32706,  16,         32) /* ItemUseable - Remote */
      , (32706,  25,         40) /* Level */
      , (32706,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

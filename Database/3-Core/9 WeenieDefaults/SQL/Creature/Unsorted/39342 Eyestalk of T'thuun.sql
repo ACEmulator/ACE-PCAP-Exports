@@ -5,8 +5,8 @@ VALUES (39342, 'ace39342-eyestalkoftthuun', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39342,   1,         16) /* ItemType - Creature */
-     , (39342,   6,        255) /* ItemsCapacity */
-     , (39342,   7,        255) /* ContainersCapacity */
+     , (39342,   6,         -1) /* ItemsCapacity */
+     , (39342,   7,         -1) /* ContainersCapacity */
      , (39342,  16,          1) /* ItemUseable - No */
      , (39342,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39342, 133,          2) /* ShowableOnRadar - ShowMovement */

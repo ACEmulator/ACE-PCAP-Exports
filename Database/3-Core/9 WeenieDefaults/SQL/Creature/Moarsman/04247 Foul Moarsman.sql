@@ -6,8 +6,8 @@ VALUES (4247, 'moarsmanfoul', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4247,   1,         16) /* ItemType - Creature */
      , (4247,   2,         34) /* CreatureType - Moarsman */
-     , (4247,   6,        255) /* ItemsCapacity */
-     , (4247,   7,        255) /* ContainersCapacity */
+     , (4247,   6,         -1) /* ItemsCapacity */
+     , (4247,   7,         -1) /* ContainersCapacity */
      , (4247,  16,          1) /* ItemUseable - No */
      , (4247,  25,         80) /* Level */
      , (4247,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (4247,   1,   33556882) /* Setup */
      , (4247,   6,   67112872) /* PaletteBase */
      , (4247,   8,  100671185) /* Icon */
      , (4247,  22,  872415337) /* PhysicsEffectTable */
+     , (4247,  30,         84) /* PhysicsScript - BreatheFlame */
      , (4247, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (4247, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4247, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (4247, 8019,         84) /* PCAPRecordedDefaultScript */;
+     , (4247, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4247, 8040, 4062445625, 185.2744, 7.430517, -0.09460002, 0.0101799, 0, 0, -0.9999482) /* PCAPRecordedLocation */

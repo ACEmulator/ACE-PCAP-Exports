@@ -6,8 +6,8 @@ VALUES (33748, 'ace33748-decayingruschksadist', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33748,   1,         16) /* ItemType - Creature */
      , (33748,   2,         14) /* CreatureType - Undead */
-     , (33748,   6,        255) /* ItemsCapacity */
-     , (33748,   7,        255) /* ContainersCapacity */
+     , (33748,   6,         -1) /* ItemsCapacity */
+     , (33748,   7,         -1) /* ContainersCapacity */
      , (33748,  16,          1) /* ItemUseable - No */
      , (33748,  25,        115) /* Level */
      , (33748,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

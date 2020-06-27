@@ -6,8 +6,8 @@ VALUES (25803, 'skeletonarchfiend', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25803,   1,         16) /* ItemType - Creature */
      , (25803,   2,         30) /* CreatureType - Skeleton */
-     , (25803,   6,        255) /* ItemsCapacity */
-     , (25803,   7,        255) /* ContainersCapacity */
+     , (25803,   6,         -1) /* ItemsCapacity */
+     , (25803,   7,         -1) /* ContainersCapacity */
      , (25803,  16,          1) /* ItemUseable - No */
      , (25803,  25,        160) /* Level */
      , (25803,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

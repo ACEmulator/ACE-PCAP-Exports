@@ -6,8 +6,8 @@ VALUES (31876, 'ace31876-burlizk', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31876,   1,         16) /* ItemType - Creature */
      , (31876,   2,         14) /* CreatureType - Undead */
-     , (31876,   6,        255) /* ItemsCapacity */
-     , (31876,   7,        255) /* ContainersCapacity */
+     , (31876,   6,         -1) /* ItemsCapacity */
+     , (31876,   7,         -1) /* ContainersCapacity */
      , (31876,  16,          1) /* ItemUseable - No */
      , (31876,  25,        160) /* Level */
      , (31876,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

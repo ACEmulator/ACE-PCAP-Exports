@@ -6,8 +6,8 @@ VALUES (3921, 'collectorstonegharundim', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3921,   1,         16) /* ItemType - Creature */
      , (3921,   2,         31) /* CreatureType - Human */
-     , (3921,   6,        255) /* ItemsCapacity */
-     , (3921,   7,        255) /* ContainersCapacity */
+     , (3921,   6,         -1) /* ItemsCapacity */
+     , (3921,   7,         -1) /* ContainersCapacity */
      , (3921,  16,         32) /* ItemUseable - Remote */
      , (3921,  25,          6) /* Level */
      , (3921,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

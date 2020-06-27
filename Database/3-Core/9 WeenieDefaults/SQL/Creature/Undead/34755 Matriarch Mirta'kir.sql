@@ -6,8 +6,8 @@ VALUES (34755, 'ace34755-matriarchmirtakir', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34755,   1,         16) /* ItemType - Creature */
      , (34755,   2,         14) /* CreatureType - Undead */
-     , (34755,   6,        255) /* ItemsCapacity */
-     , (34755,   7,        255) /* ContainersCapacity */
+     , (34755,   6,         -1) /* ItemsCapacity */
+     , (34755,   7,         -1) /* ContainersCapacity */
      , (34755,  16,          1) /* ItemUseable - No */
      , (34755,  25,        185) /* Level */
      , (34755,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

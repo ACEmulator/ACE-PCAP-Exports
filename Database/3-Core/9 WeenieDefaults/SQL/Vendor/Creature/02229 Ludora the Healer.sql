@@ -6,8 +6,8 @@ VALUES (2229, 'dryreachhealer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2229,   1,         16) /* ItemType - Creature */
      , (2229,   2,         31) /* CreatureType - Human */
-     , (2229,   6,        255) /* ItemsCapacity */
-     , (2229,   7,        255) /* ContainersCapacity */
+     , (2229,   6,         -1) /* ItemsCapacity */
+     , (2229,   7,         -1) /* ContainersCapacity */
      , (2229,  16,         32) /* ItemUseable - Remote */
      , (2229,  25,         11) /* Level */
      , (2229,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */

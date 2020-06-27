@@ -6,8 +6,8 @@ VALUES (1372, 'armoreraluvian', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1372,   1,         16) /* ItemType - Creature */
      , (1372,   2,         31) /* CreatureType - Human */
-     , (1372,   6,        255) /* ItemsCapacity */
-     , (1372,   7,        255) /* ContainersCapacity */
+     , (1372,   6,         -1) /* ItemsCapacity */
+     , (1372,   7,         -1) /* ContainersCapacity */
      , (1372,  16,         32) /* ItemUseable - Remote */
      , (1372,  25,          6) /* Level */
      , (1372,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */

@@ -6,8 +6,8 @@ VALUES (25584, 'archmageladydain', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25584,   1,         16) /* ItemType - Creature */
      , (25584,   2,         31) /* CreatureType - Human */
-     , (25584,   6,        255) /* ItemsCapacity */
-     , (25584,   7,        255) /* ContainersCapacity */
+     , (25584,   6,         -1) /* ItemsCapacity */
+     , (25584,   7,         -1) /* ContainersCapacity */
      , (25584,  16,         32) /* ItemUseable - Remote */
      , (25584,  25,        126) /* Level */
      , (25584,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

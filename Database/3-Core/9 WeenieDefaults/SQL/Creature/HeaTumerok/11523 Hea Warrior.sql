@@ -6,8 +6,8 @@ VALUES (11523, 'tumerokheawarrior-xp', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11523,   1,         16) /* ItemType - Creature */
      , (11523,   2,         58) /* CreatureType - HeaTumerok */
-     , (11523,   6,        255) /* ItemsCapacity */
-     , (11523,   7,        255) /* ContainersCapacity */
+     , (11523,   6,         -1) /* ItemsCapacity */
+     , (11523,   7,         -1) /* ContainersCapacity */
      , (11523,  16,          1) /* ItemUseable - No */
      , (11523,  25,         40) /* Level */
      , (11523,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

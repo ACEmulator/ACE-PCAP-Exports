@@ -6,8 +6,8 @@ VALUES (40461, 'ace40461-devonthecollector', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40461,   1,         16) /* ItemType - Creature */
      , (40461,   2,         31) /* CreatureType - Human */
-     , (40461,   6,        255) /* ItemsCapacity */
-     , (40461,   7,        255) /* ContainersCapacity */
+     , (40461,   6,         -1) /* ItemsCapacity */
+     , (40461,   7,         -1) /* ContainersCapacity */
      , (40461,  16,         32) /* ItemUseable - Remote */
      , (40461,  25,        185) /* Level */
      , (40461,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (41984, 'ace41984-flamesofcharity', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41984,   1,         16) /* ItemType - Creature */
-     , (41984,   6,        255) /* ItemsCapacity */
-     , (41984,   7,        255) /* ContainersCapacity */
+     , (41984,   6,         -1) /* ItemsCapacity */
+     , (41984,   7,         -1) /* ContainersCapacity */
      , (41984,  16,         32) /* ItemUseable - Remote */
      , (41984,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (41984,  95,          8) /* RadarBlipColor - Yellow */

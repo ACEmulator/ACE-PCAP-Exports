@@ -5,8 +5,8 @@ VALUES (32467, 'ace32467-leadershipwardenofenlightenment', 10, '2019-02-10 00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32467,   1,         16) /* ItemType - Creature */
-     , (32467,   6,        255) /* ItemsCapacity */
-     , (32467,   7,        255) /* ContainersCapacity */
+     , (32467,   6,         -1) /* ItemsCapacity */
+     , (32467,   7,         -1) /* ContainersCapacity */
      , (32467,  16,         32) /* ItemUseable - Remote */
      , (32467,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32467,  95,          3) /* RadarBlipColor - White */

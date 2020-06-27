@@ -6,8 +6,8 @@ VALUES (43532, 'ace43532-battlelordgregor', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43532,   1,         16) /* ItemType - Creature */
      , (43532,   2,         14) /* CreatureType - Undead */
-     , (43532,   6,        255) /* ItemsCapacity */
-     , (43532,   7,        255) /* ContainersCapacity */
+     , (43532,   6,         -1) /* ItemsCapacity */
+     , (43532,   7,         -1) /* ContainersCapacity */
      , (43532,  16,          1) /* ItemUseable - No */
      , (43532,  25,        425) /* Level */
      , (43532,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

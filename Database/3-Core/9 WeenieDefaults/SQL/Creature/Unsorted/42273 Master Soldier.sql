@@ -5,8 +5,8 @@ VALUES (42273, 'ace42273-mastersoldier', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42273,   1,         16) /* ItemType - Creature */
-     , (42273,   6,        255) /* ItemsCapacity */
-     , (42273,   7,        255) /* ContainersCapacity */
+     , (42273,   6,         -1) /* ItemsCapacity */
+     , (42273,   7,         -1) /* ContainersCapacity */
      , (42273,  16,          1) /* ItemUseable - No */
      , (42273,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42273, 133,          2) /* ShowableOnRadar - ShowMovement */

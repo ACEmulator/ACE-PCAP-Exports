@@ -6,8 +6,8 @@ VALUES (48887, 'ace48887-twinklewillsgolem', 71, '2019-02-10 00:00:00') /* Comba
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48887,   1,         16) /* ItemType - Creature */
      , (48887,   2,         13) /* CreatureType - Golem */
-     , (48887,   6,        255) /* ItemsCapacity */
-     , (48887,   7,        255) /* ContainersCapacity */
+     , (48887,   6,         -1) /* ItemsCapacity */
+     , (48887,   7,         -1) /* ContainersCapacity */
      , (48887,  16,          1) /* ItemUseable - No */
      , (48887,  25,         15) /* Level */
      , (48887,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

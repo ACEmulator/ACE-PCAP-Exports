@@ -6,8 +6,8 @@ VALUES (32360, 'ace32360-londigulellicthearmorer', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32360,   1,         16) /* ItemType - Creature */
      , (32360,   2,         31) /* CreatureType - Human */
-     , (32360,   6,        255) /* ItemsCapacity */
-     , (32360,   7,        255) /* ContainersCapacity */
+     , (32360,   6,         -1) /* ItemsCapacity */
+     , (32360,   7,         -1) /* ContainersCapacity */
      , (32360,  16,         32) /* ItemUseable - Remote */
      , (32360,  25,         55) /* Level */
      , (32360,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

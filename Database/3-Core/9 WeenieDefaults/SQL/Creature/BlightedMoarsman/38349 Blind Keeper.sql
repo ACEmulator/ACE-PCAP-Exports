@@ -6,8 +6,8 @@ VALUES (38349, 'ace38349-blindkeeper', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38349,   1,         16) /* ItemType - Creature */
      , (38349,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (38349,   6,        255) /* ItemsCapacity */
-     , (38349,   7,        255) /* ContainersCapacity */
+     , (38349,   6,         -1) /* ItemsCapacity */
+     , (38349,   7,         -1) /* ContainersCapacity */
      , (38349,  16,          1) /* ItemUseable - No */
      , (38349,  25,        200) /* Level */
      , (38349,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

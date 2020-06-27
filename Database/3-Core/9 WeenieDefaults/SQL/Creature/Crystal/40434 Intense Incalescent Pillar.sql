@@ -6,8 +6,8 @@ VALUES (40434, 'ace40434-intenseincalescentpillar', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40434,   1,         16) /* ItemType - Creature */
      , (40434,   2,         47) /* CreatureType - Crystal */
-     , (40434,   6,        255) /* ItemsCapacity */
-     , (40434,   7,        255) /* ContainersCapacity */
+     , (40434,   6,         -1) /* ItemsCapacity */
+     , (40434,   7,         -1) /* ContainersCapacity */
      , (40434,  16,          1) /* ItemUseable - No */
      , (40434,  25,        100) /* Level */
      , (40434,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

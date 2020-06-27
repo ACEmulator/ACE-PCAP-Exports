@@ -6,8 +6,8 @@ VALUES (38710, 'ace38710-vivianafortiore', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38710,   1,         16) /* ItemType - Creature */
      , (38710,   2,         31) /* CreatureType - Human */
-     , (38710,   6,        255) /* ItemsCapacity */
-     , (38710,   7,        255) /* ContainersCapacity */
+     , (38710,   6,         -1) /* ItemsCapacity */
+     , (38710,   7,         -1) /* ContainersCapacity */
      , (38710,  16,         32) /* ItemUseable - Remote */
      , (38710,  25,        191) /* Level */
      , (38710,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

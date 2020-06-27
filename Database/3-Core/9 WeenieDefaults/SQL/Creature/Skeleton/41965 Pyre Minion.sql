@@ -6,8 +6,8 @@ VALUES (41965, 'ace41965-pyreminion', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41965,   1,         16) /* ItemType - Creature */
      , (41965,   2,         30) /* CreatureType - Skeleton */
-     , (41965,   6,        255) /* ItemsCapacity */
-     , (41965,   7,        255) /* ContainersCapacity */
+     , (41965,   6,         -1) /* ItemsCapacity */
+     , (41965,   7,         -1) /* ContainersCapacity */
      , (41965,  16,          1) /* ItemUseable - No */
      , (41965,  25,        200) /* Level */
      , (41965,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

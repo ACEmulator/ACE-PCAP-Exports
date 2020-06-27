@@ -6,8 +6,8 @@ VALUES (37440, 'ace37440-guardliaza', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37440,   1,         16) /* ItemType - Creature */
      , (37440,   2,         31) /* CreatureType - Human */
-     , (37440,   6,        255) /* ItemsCapacity */
-     , (37440,   7,        255) /* ContainersCapacity */
+     , (37440,   6,         -1) /* ItemsCapacity */
+     , (37440,   7,         -1) /* ContainersCapacity */
      , (37440,  16,         32) /* ItemUseable - Remote */
      , (37440,  25,          7) /* Level */
      , (37440,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

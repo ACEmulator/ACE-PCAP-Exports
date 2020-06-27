@@ -5,8 +5,8 @@ VALUES (45134, 'ace45134-uptothepreviouslevel', 10, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45134,   1,         16) /* ItemType - Creature */
-     , (45134,   6,        255) /* ItemsCapacity */
-     , (45134,   7,        255) /* ContainersCapacity */
+     , (45134,   6,         -1) /* ItemsCapacity */
+     , (45134,   7,         -1) /* ContainersCapacity */
      , (45134,  16,         32) /* ItemUseable - Remote */
      , (45134,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45134,  95,          4) /* RadarBlipColor - Purple */

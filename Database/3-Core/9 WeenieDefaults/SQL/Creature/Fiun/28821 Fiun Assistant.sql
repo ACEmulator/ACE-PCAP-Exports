@@ -6,8 +6,8 @@ VALUES (28821, 'fiunmaddenedreasearchassistant', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28821,   1,         16) /* ItemType - Creature */
      , (28821,   2,         78) /* CreatureType - Fiun */
-     , (28821,   6,        255) /* ItemsCapacity */
-     , (28821,   7,        255) /* ContainersCapacity */
+     , (28821,   6,         -1) /* ItemsCapacity */
+     , (28821,   7,         -1) /* ContainersCapacity */
      , (28821,  16,          1) /* ItemUseable - No */
      , (28821,  25,        115) /* Level */
      , (28821,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

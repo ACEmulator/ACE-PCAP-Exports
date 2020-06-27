@@ -6,8 +6,8 @@ VALUES (28413, 'npcbackpackkiviklir', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28413,   1,         16) /* ItemType - Creature */
      , (28413,   5,         45) /* EncumbranceVal */
-     , (28413,   6,        255) /* ItemsCapacity */
-     , (28413,   7,        255) /* ContainersCapacity */
+     , (28413,   6,         -1) /* ItemsCapacity */
+     , (28413,   7,         -1) /* ContainersCapacity */
      , (28413,  16,         32) /* ItemUseable - Remote */
      , (28413,  19,         65) /* Value */
      , (28413,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

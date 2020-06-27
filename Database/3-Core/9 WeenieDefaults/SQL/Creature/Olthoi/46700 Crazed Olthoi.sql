@@ -6,8 +6,8 @@ VALUES (46700, 'ace46700-crazedolthoi', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46700,   1,         16) /* ItemType - Creature */
      , (46700,   2,          1) /* CreatureType - Olthoi */
-     , (46700,   6,        255) /* ItemsCapacity */
-     , (46700,   7,        255) /* ContainersCapacity */
+     , (46700,   6,         -1) /* ItemsCapacity */
+     , (46700,   7,         -1) /* ContainersCapacity */
      , (46700,  16,          1) /* ItemUseable - No */
      , (46700,  25,        265) /* Level */
      , (46700,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -38,10 +38,10 @@ VALUES (46700,   1,   33557587) /* Setup */
      , (46700,   6,   67113236) /* PaletteBase */
      , (46700,   8,  100667623) /* Icon */
      , (46700,  22,  872415265) /* PhysicsEffectTable */
+     , (46700,  30,         87) /* PhysicsScript - BreatheLightning */
      , (46700, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46700, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (46700, 8005,     391299) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement, Translucency */
-     , (46700, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (46700, 8005,     391299) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46700, 8040, 1499529482, 16.63827, -93.42936, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */

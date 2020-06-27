@@ -6,8 +6,8 @@ VALUES (32835, 'ace32835-lucaridibellenesse', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32835,   1,         16) /* ItemType - Creature */
      , (32835,   2,         31) /* CreatureType - Human */
-     , (32835,   6,        255) /* ItemsCapacity */
-     , (32835,   7,        255) /* ContainersCapacity */
+     , (32835,   6,         -1) /* ItemsCapacity */
+     , (32835,   7,         -1) /* ContainersCapacity */
      , (32835,  16,         32) /* ItemUseable - Remote */
      , (32835,  25,        100) /* Level */
      , (32835,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

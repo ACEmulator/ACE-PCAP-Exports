@@ -6,8 +6,8 @@ VALUES (43857, 'ace43857-shadowchild', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43857,   1,         16) /* ItemType - Creature */
      , (43857,   2,         22) /* CreatureType - Shadow */
-     , (43857,   6,        255) /* ItemsCapacity */
-     , (43857,   7,        255) /* ContainersCapacity */
+     , (43857,   6,         -1) /* ItemsCapacity */
+     , (43857,   7,         -1) /* ContainersCapacity */
      , (43857,  16,          1) /* ItemUseable - No */
      , (43857,  25,        240) /* Level */
      , (43857,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

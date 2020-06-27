@@ -6,8 +6,8 @@ VALUES (46281, 'ace46281-darkmaster', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46281,   1,         16) /* ItemType - Creature */
      , (46281,   2,         14) /* CreatureType - Undead */
-     , (46281,   6,        255) /* ItemsCapacity */
-     , (46281,   7,        255) /* ContainersCapacity */
+     , (46281,   6,         -1) /* ItemsCapacity */
+     , (46281,   7,         -1) /* ContainersCapacity */
      , (46281,  16,          1) /* ItemUseable - No */
      , (46281,  25,        100) /* Level */
      , (46281,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

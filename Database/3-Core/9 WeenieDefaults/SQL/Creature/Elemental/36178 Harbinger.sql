@@ -6,8 +6,8 @@ VALUES (36178, 'ace36178-harbinger', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36178,   1,         16) /* ItemType - Creature */
      , (36178,   2,         62) /* CreatureType - Elemental */
-     , (36178,   6,        255) /* ItemsCapacity */
-     , (36178,   7,        255) /* ContainersCapacity */
+     , (36178,   6,         -1) /* ItemsCapacity */
+     , (36178,   7,         -1) /* ContainersCapacity */
      , (36178,  16,          1) /* ItemUseable - No */
      , (36178,  25,        999) /* Level */
      , (36178,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (42739, 'ace42739-tailorsapprentice', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42739,   1,         16) /* ItemType - Creature */
      , (42739,   2,         31) /* CreatureType - Human */
-     , (42739,   6,        255) /* ItemsCapacity */
-     , (42739,   7,        255) /* ContainersCapacity */
+     , (42739,   6,         -1) /* ItemsCapacity */
+     , (42739,   7,         -1) /* ContainersCapacity */
      , (42739,  16,         32) /* ItemUseable - Remote */
      , (42739,  25,         67) /* Level */
      , (42739,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

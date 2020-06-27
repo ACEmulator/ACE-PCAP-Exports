@@ -5,8 +5,8 @@ VALUES (27463, 'doorrenegadefortressouter', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27463,   1,         16) /* ItemType - Creature */
-     , (27463,   6,        255) /* ItemsCapacity */
-     , (27463,   7,        255) /* ContainersCapacity */
+     , (27463,   6,         -1) /* ItemsCapacity */
+     , (27463,   7,         -1) /* ContainersCapacity */
      , (27463,  16,          1) /* ItemUseable - No */
      , (27463,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27463, 133,          4) /* ShowableOnRadar - ShowAlways */

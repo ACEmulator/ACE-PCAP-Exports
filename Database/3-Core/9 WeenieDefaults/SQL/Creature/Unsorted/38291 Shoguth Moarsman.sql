@@ -5,8 +5,8 @@ VALUES (38291, 'ace38291-shoguthmoarsman', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38291,   1,         16) /* ItemType - Creature */
-     , (38291,   6,        255) /* ItemsCapacity */
-     , (38291,   7,        255) /* ContainersCapacity */
+     , (38291,   6,         -1) /* ItemsCapacity */
+     , (38291,   7,         -1) /* ContainersCapacity */
      , (38291,  16,          1) /* ItemUseable - No */
      , (38291,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (38291, 133,          2) /* ShowableOnRadar - ShowMovement */

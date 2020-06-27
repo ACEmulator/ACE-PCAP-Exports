@@ -6,8 +6,8 @@ VALUES (658, 'easthamtailor', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (658,   1,         16) /* ItemType - Creature */
      , (658,   2,         31) /* CreatureType - Human */
-     , (658,   6,        255) /* ItemsCapacity */
-     , (658,   7,        255) /* ContainersCapacity */
+     , (658,   6,         -1) /* ItemsCapacity */
+     , (658,   7,         -1) /* ContainersCapacity */
      , (658,  16,         32) /* ItemUseable - Remote */
      , (658,  25,          6) /* Level */
      , (658,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */

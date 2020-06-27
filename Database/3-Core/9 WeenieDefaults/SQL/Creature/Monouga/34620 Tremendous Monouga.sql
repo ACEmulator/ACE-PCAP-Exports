@@ -6,8 +6,8 @@ VALUES (34620, 'ace34620-tremendousmonouga', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34620,   1,         16) /* ItemType - Creature */
      , (34620,   2,         28) /* CreatureType - Monouga */
-     , (34620,   6,        255) /* ItemsCapacity */
-     , (34620,   7,        255) /* ContainersCapacity */
+     , (34620,   6,         -1) /* ItemsCapacity */
+     , (34620,   7,         -1) /* ContainersCapacity */
      , (34620,  16,          1) /* ItemUseable - No */
      , (34620,  25,        999) /* Level */
      , (34620,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

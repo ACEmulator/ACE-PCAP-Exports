@@ -6,8 +6,8 @@ VALUES (45891, 'ace45891-knathrishc', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45891,   1,         16) /* ItemType - Creature */
      , (45891,   2,         21) /* CreatureType - Knathtead */
-     , (45891,   6,        255) /* ItemsCapacity */
-     , (45891,   7,        255) /* ContainersCapacity */
+     , (45891,   6,         -1) /* ItemsCapacity */
+     , (45891,   7,         -1) /* ContainersCapacity */
      , (45891,  16,          1) /* ItemUseable - No */
      , (45891,  25,         80) /* Level */
      , (45891,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

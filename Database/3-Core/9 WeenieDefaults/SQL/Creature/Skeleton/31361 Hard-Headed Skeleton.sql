@@ -6,8 +6,8 @@ VALUES (31361, 'ace31361-hardheadedskeleton', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31361,   1,         16) /* ItemType - Creature */
      , (31361,   2,         30) /* CreatureType - Skeleton */
-     , (31361,   6,        255) /* ItemsCapacity */
-     , (31361,   7,        255) /* ContainersCapacity */
+     , (31361,   6,         -1) /* ItemsCapacity */
+     , (31361,   7,         -1) /* ContainersCapacity */
      , (31361,  16,          1) /* ItemUseable - No */
      , (31361,  25,         60) /* Level */
      , (31361,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

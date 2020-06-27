@@ -6,8 +6,8 @@ VALUES (24306, 'olthoiswarmworker', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24306,   1,         16) /* ItemType - Creature */
      , (24306,   2,          1) /* CreatureType - Olthoi */
-     , (24306,   6,        255) /* ItemsCapacity */
-     , (24306,   7,        255) /* ContainersCapacity */
+     , (24306,   6,         -1) /* ItemsCapacity */
+     , (24306,   7,         -1) /* ContainersCapacity */
      , (24306,  16,          1) /* ItemUseable - No */
      , (24306,  25,        100) /* Level */
      , (24306,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

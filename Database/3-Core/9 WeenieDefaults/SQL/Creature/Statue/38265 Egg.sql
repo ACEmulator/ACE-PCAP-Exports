@@ -6,8 +6,8 @@ VALUES (38265, 'ace38265-egg', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38265,   1,         16) /* ItemType - Creature */
      , (38265,   2,         63) /* CreatureType - Statue */
-     , (38265,   6,        255) /* ItemsCapacity */
-     , (38265,   7,        255) /* ContainersCapacity */
+     , (38265,   6,         -1) /* ItemsCapacity */
+     , (38265,   7,         -1) /* ContainersCapacity */
      , (38265,  16,          1) /* ItemUseable - No */
      , (38265,  25,        999) /* Level */
      , (38265,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

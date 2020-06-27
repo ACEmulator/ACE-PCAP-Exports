@@ -6,8 +6,8 @@ VALUES (8012, 'crystaldualfragmentnew', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8012,   1,         16) /* ItemType - Creature */
      , (8012,   2,         47) /* CreatureType - Crystal */
-     , (8012,   6,        255) /* ItemsCapacity */
-     , (8012,   7,        255) /* ContainersCapacity */
+     , (8012,   6,         -1) /* ItemsCapacity */
+     , (8012,   7,         -1) /* ContainersCapacity */
      , (8012,  16,          1) /* ItemUseable - No */
      , (8012,  25,         80) /* Level */
      , (8012,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

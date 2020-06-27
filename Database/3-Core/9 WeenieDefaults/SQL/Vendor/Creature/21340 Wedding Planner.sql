@@ -6,8 +6,8 @@ VALUES (21340, 'plannerweddingyanshidestroyed', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21340,   1,         16) /* ItemType - Creature */
      , (21340,   2,         31) /* CreatureType - Human */
-     , (21340,   6,        255) /* ItemsCapacity */
-     , (21340,   7,        255) /* ContainersCapacity */
+     , (21340,   6,         -1) /* ItemsCapacity */
+     , (21340,   7,         -1) /* ContainersCapacity */
      , (21340,  16,         32) /* ItemUseable - Remote */
      , (21340,  25,          9) /* Level */
      , (21340,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

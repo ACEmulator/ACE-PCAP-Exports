@@ -6,8 +6,8 @@ VALUES (33286, 'ace33286-tormentedimperialconsort', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33286,   1,         16) /* ItemType - Creature */
      , (33286,   2,         14) /* CreatureType - Undead */
-     , (33286,   6,        255) /* ItemsCapacity */
-     , (33286,   7,        255) /* ContainersCapacity */
+     , (33286,   6,         -1) /* ItemsCapacity */
+     , (33286,   7,         -1) /* ContainersCapacity */
      , (33286,  16,          1) /* ItemUseable - No */
      , (33286,  25,        185) /* Level */
      , (33286,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

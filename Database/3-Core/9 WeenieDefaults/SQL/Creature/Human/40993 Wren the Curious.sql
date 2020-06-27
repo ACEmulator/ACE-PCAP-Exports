@@ -6,8 +6,8 @@ VALUES (40993, 'ace40993-wrenthecurious', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40993,   1,         16) /* ItemType - Creature */
      , (40993,   2,         31) /* CreatureType - Human */
-     , (40993,   6,        255) /* ItemsCapacity */
-     , (40993,   7,        255) /* ContainersCapacity */
+     , (40993,   6,         -1) /* ItemsCapacity */
+     , (40993,   7,         -1) /* ContainersCapacity */
      , (40993,  16,         32) /* ItemUseable - Remote */
      , (40993,  25,         65) /* Level */
      , (40993,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

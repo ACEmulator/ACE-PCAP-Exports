@@ -6,8 +6,8 @@ VALUES (40498, 'ace40498-apostatemaster', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40498,   1,         16) /* ItemType - Creature */
      , (40498,   2,         19) /* CreatureType - Virindi */
-     , (40498,   6,        255) /* ItemsCapacity */
-     , (40498,   7,        255) /* ContainersCapacity */
+     , (40498,   6,         -1) /* ItemsCapacity */
+     , (40498,   7,         -1) /* ContainersCapacity */
      , (40498,  16,          1) /* ItemUseable - No */
      , (40498,  25,        220) /* Level */
      , (40498,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

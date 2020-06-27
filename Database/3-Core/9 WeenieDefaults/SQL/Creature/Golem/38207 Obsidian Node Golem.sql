@@ -6,8 +6,8 @@ VALUES (38207, 'ace38207-obsidiannodegolem', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38207,   1,         16) /* ItemType - Creature */
      , (38207,   2,         13) /* CreatureType - Golem */
-     , (38207,   6,        255) /* ItemsCapacity */
-     , (38207,   7,        255) /* ContainersCapacity */
+     , (38207,   6,         -1) /* ItemsCapacity */
+     , (38207,   7,         -1) /* ContainersCapacity */
      , (38207,  16,         32) /* ItemUseable - Remote */
      , (38207,  25,        720) /* Level */
      , (38207,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

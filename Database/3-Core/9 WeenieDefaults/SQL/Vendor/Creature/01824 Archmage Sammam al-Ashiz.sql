@@ -6,8 +6,8 @@ VALUES (1824, 'uzizarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1824,   1,         16) /* ItemType - Creature */
      , (1824,   2,         31) /* CreatureType - Human */
-     , (1824,   6,        255) /* ItemsCapacity */
-     , (1824,   7,        255) /* ContainersCapacity */
+     , (1824,   6,         -1) /* ItemsCapacity */
+     , (1824,   7,         -1) /* ContainersCapacity */
      , (1824,  16,         32) /* ItemUseable - Remote */
      , (1824,  25,         16) /* Level */
      , (1824,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

@@ -6,8 +6,8 @@ VALUES (37179, 'ace37179-imperialguard', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37179,   1,         16) /* ItemType - Creature */
      , (37179,   2,         14) /* CreatureType - Undead */
-     , (37179,   6,        255) /* ItemsCapacity */
-     , (37179,   7,        255) /* ContainersCapacity */
+     , (37179,   6,         -1) /* ItemsCapacity */
+     , (37179,   7,         -1) /* ContainersCapacity */
      , (37179,  16,          1) /* ItemUseable - No */
      , (37179,  25,        185) /* Level */
      , (37179,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (35903, 'ace35903-swifteye', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35903,   1,         16) /* ItemType - Creature */
      , (35903,   2,         31) /* CreatureType - Human */
-     , (35903,   6,        255) /* ItemsCapacity */
-     , (35903,   7,        255) /* ContainersCapacity */
+     , (35903,   6,         -1) /* ItemsCapacity */
+     , (35903,   7,         -1) /* ContainersCapacity */
      , (35903,  16,         32) /* ItemUseable - Remote */
      , (35903,  25,        150) /* Level */
      , (35903,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

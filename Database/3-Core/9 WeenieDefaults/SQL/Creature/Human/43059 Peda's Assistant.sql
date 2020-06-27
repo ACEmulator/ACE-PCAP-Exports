@@ -6,8 +6,8 @@ VALUES (43059, 'ace43059-pedasassistant', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43059,   1,         16) /* ItemType - Creature */
      , (43059,   2,         31) /* CreatureType - Human */
-     , (43059,   6,        255) /* ItemsCapacity */
-     , (43059,   7,        255) /* ContainersCapacity */
+     , (43059,   6,         -1) /* ItemsCapacity */
+     , (43059,   7,         -1) /* ContainersCapacity */
      , (43059,  16,         32) /* ItemUseable - Remote */
      , (43059,  25,        150) /* Level */
      , (43059,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

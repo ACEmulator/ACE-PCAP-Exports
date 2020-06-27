@@ -6,8 +6,8 @@ VALUES (38943, 'ace38943-chiefgrogbash', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38943,   1,         16) /* ItemType - Creature */
      , (38943,   2,          2) /* CreatureType - Banderling */
-     , (38943,   6,        255) /* ItemsCapacity */
-     , (38943,   7,        255) /* ContainersCapacity */
+     , (38943,   6,         -1) /* ItemsCapacity */
+     , (38943,   7,         -1) /* ContainersCapacity */
      , (38943,  16,          1) /* ItemUseable - No */
      , (38943,  25,        200) /* Level */
      , (38943,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

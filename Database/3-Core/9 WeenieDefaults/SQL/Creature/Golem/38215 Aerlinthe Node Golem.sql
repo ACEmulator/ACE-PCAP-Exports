@@ -6,8 +6,8 @@ VALUES (38215, 'ace38215-aerlinthenodegolem', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38215,   1,         16) /* ItemType - Creature */
      , (38215,   2,         13) /* CreatureType - Golem */
-     , (38215,   6,        255) /* ItemsCapacity */
-     , (38215,   7,        255) /* ContainersCapacity */
+     , (38215,   6,         -1) /* ItemsCapacity */
+     , (38215,   7,         -1) /* ContainersCapacity */
      , (38215,  16,         32) /* ItemUseable - Remote */
      , (38215,  25,        720) /* Level */
      , (38215,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

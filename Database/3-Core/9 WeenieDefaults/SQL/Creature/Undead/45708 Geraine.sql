@@ -6,8 +6,8 @@ VALUES (45708, 'ace45708-geraine', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45708,   1,         16) /* ItemType - Creature */
      , (45708,   2,         14) /* CreatureType - Undead */
-     , (45708,   6,        255) /* ItemsCapacity */
-     , (45708,   7,        255) /* ContainersCapacity */
+     , (45708,   6,         -1) /* ItemsCapacity */
+     , (45708,   7,         -1) /* ContainersCapacity */
      , (45708,  16,          1) /* ItemUseable - No */
      , (45708,  25,        300) /* Level */
      , (45708,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

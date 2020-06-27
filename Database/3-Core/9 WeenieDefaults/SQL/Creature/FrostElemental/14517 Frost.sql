@@ -6,8 +6,8 @@ VALUES (14517, 'frostelementalfrost', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14517,   1,         16) /* ItemType - Creature */
      , (14517,   2,         61) /* CreatureType - FrostElemental */
-     , (14517,   6,        255) /* ItemsCapacity */
-     , (14517,   7,        255) /* ContainersCapacity */
+     , (14517,   6,         -1) /* ItemsCapacity */
+     , (14517,   7,         -1) /* ContainersCapacity */
      , (14517,  16,          1) /* ItemUseable - No */
      , (14517,  25,         80) /* Level */
      , (14517,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

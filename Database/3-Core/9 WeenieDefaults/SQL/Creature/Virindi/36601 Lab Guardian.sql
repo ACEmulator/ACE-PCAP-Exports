@@ -6,8 +6,8 @@ VALUES (36601, 'ace36601-labguardian', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36601,   1,         16) /* ItemType - Creature */
      , (36601,   2,         19) /* CreatureType - Virindi */
-     , (36601,   6,        255) /* ItemsCapacity */
-     , (36601,   7,        255) /* ContainersCapacity */
+     , (36601,   6,         -1) /* ItemsCapacity */
+     , (36601,   7,         -1) /* ContainersCapacity */
      , (36601,  16,          1) /* ItemUseable - No */
      , (36601,  25,        240) /* Level */
      , (36601,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

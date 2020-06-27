@@ -6,8 +6,8 @@ VALUES (28678, 'thrungusbeefsteak', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28678,   1,         16) /* ItemType - Creature */
      , (28678,   2,         82) /* CreatureType - Thrungus */
-     , (28678,   6,        255) /* ItemsCapacity */
-     , (28678,   7,        255) /* ContainersCapacity */
+     , (28678,   6,         -1) /* ItemsCapacity */
+     , (28678,   7,         -1) /* ContainersCapacity */
      , (28678,  16,          1) /* ItemUseable - No */
      , (28678,  25,         60) /* Level */
      , (28678,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

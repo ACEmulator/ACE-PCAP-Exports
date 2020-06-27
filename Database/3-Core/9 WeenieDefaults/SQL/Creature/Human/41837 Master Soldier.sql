@@ -6,8 +6,8 @@ VALUES (41837, 'ace41837-mastersoldier', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41837,   1,         16) /* ItemType - Creature */
      , (41837,   2,         31) /* CreatureType - Human */
-     , (41837,   6,        255) /* ItemsCapacity */
-     , (41837,   7,        255) /* ContainersCapacity */
+     , (41837,   6,         -1) /* ItemsCapacity */
+     , (41837,   7,         -1) /* ContainersCapacity */
      , (41837,  16,          1) /* ItemUseable - No */
      , (41837,  25,        215) /* Level */
      , (41837,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

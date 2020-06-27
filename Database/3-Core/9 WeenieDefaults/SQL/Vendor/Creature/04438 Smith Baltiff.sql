@@ -6,8 +6,8 @@ VALUES (4438, 'lytelthorpeblacksmith2', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4438,   1,         16) /* ItemType - Creature */
      , (4438,   2,         31) /* CreatureType - Human */
-     , (4438,   6,        255) /* ItemsCapacity */
-     , (4438,   7,        255) /* ContainersCapacity */
+     , (4438,   6,         -1) /* ItemsCapacity */
+     , (4438,   7,         -1) /* ContainersCapacity */
      , (4438,  16,         32) /* ItemUseable - Remote */
      , (4438,  25,          8) /* Level */
      , (4438,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

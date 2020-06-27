@@ -6,8 +6,8 @@ VALUES (12681, 'hollowminionmenacetreplacement', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12681,   1,         16) /* ItemType - Creature */
      , (12681,   2,         48) /* CreatureType - HollowMinion */
-     , (12681,   6,        255) /* ItemsCapacity */
-     , (12681,   7,        255) /* ContainersCapacity */
+     , (12681,   6,         -1) /* ItemsCapacity */
+     , (12681,   7,         -1) /* ContainersCapacity */
      , (12681,  16,          1) /* ItemUseable - No */
      , (12681,  25,         55) /* Level */
      , (12681,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

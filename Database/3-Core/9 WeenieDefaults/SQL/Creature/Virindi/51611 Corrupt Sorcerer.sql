@@ -6,8 +6,8 @@ VALUES (51611, 'ace51611-corruptsorcerer', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51611,   1,         16) /* ItemType - Creature */
      , (51611,   2,         19) /* CreatureType - Virindi */
-     , (51611,   6,        255) /* ItemsCapacity */
-     , (51611,   7,        255) /* ContainersCapacity */
+     , (51611,   6,         -1) /* ItemsCapacity */
+     , (51611,   7,         -1) /* ContainersCapacity */
      , (51611,  16,          1) /* ItemUseable - No */
      , (51611,  25,        300) /* Level */
      , (51611,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

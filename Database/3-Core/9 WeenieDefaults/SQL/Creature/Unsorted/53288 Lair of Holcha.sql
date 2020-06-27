@@ -5,8 +5,8 @@ VALUES (53288, 'ace53288-lairofholcha', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53288,   1,         16) /* ItemType - Creature */
-     , (53288,   6,        255) /* ItemsCapacity */
-     , (53288,   7,        255) /* ContainersCapacity */
+     , (53288,   6,         -1) /* ItemsCapacity */
+     , (53288,   7,         -1) /* ContainersCapacity */
      , (53288,  16,         32) /* ItemUseable - Remote */
      , (53288,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53288,  95,          4) /* RadarBlipColor - Purple */

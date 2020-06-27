@@ -6,8 +6,8 @@ VALUES (32768, 'ace32768-viamontianfootman', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32768,   1,         16) /* ItemType - Creature */
      , (32768,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32768,   6,        255) /* ItemsCapacity */
-     , (32768,   7,        255) /* ContainersCapacity */
+     , (32768,   6,         -1) /* ItemsCapacity */
+     , (32768,   7,         -1) /* ContainersCapacity */
      , (32768,  16,          1) /* ItemUseable - No */
      , (32768,  25,         60) /* Level */
      , (32768,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

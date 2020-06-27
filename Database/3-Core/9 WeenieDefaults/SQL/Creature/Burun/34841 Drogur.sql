@@ -6,8 +6,8 @@ VALUES (34841, 'ace34841-drogur', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34841,   1,         16) /* ItemType - Creature */
      , (34841,   2,         75) /* CreatureType - Burun */
-     , (34841,   6,        255) /* ItemsCapacity */
-     , (34841,   7,        255) /* ContainersCapacity */
+     , (34841,   6,         -1) /* ItemsCapacity */
+     , (34841,   7,         -1) /* ContainersCapacity */
      , (34841,  16,         32) /* ItemUseable - Remote */
      , (34841,  25,        100) /* Level */
      , (34841,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (35161, 'ace35161-stomper', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35161,   1,         16) /* ItemType - Creature */
      , (35161,   2,          8) /* CreatureType - Tusker */
-     , (35161,   6,        255) /* ItemsCapacity */
-     , (35161,   7,        255) /* ContainersCapacity */
+     , (35161,   6,         -1) /* ItemsCapacity */
+     , (35161,   7,         -1) /* ContainersCapacity */
      , (35161,  16,          1) /* ItemUseable - No */
      , (35161,  25,        235) /* Level */
      , (35161,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

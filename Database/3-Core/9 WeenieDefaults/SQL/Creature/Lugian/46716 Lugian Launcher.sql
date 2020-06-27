@@ -6,8 +6,8 @@ VALUES (46716, 'ace46716-lugianlauncher', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46716,   1,         16) /* ItemType - Creature */
      , (46716,   2,          5) /* CreatureType - Lugian */
-     , (46716,   6,        255) /* ItemsCapacity */
-     , (46716,   7,        255) /* ContainersCapacity */
+     , (46716,   6,         -1) /* ItemsCapacity */
+     , (46716,   7,         -1) /* ContainersCapacity */
      , (46716,  16,          1) /* ItemUseable - No */
      , (46716,  25,        265) /* Level */
      , (46716,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (21371, 'frostelementalbrumal-nosummon', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21371,   1,         16) /* ItemType - Creature */
      , (21371,   2,         61) /* CreatureType - FrostElemental */
-     , (21371,   6,        255) /* ItemsCapacity */
-     , (21371,   7,        255) /* ContainersCapacity */
+     , (21371,   6,         -1) /* ItemsCapacity */
+     , (21371,   7,         -1) /* ContainersCapacity */
      , (21371,  16,          1) /* ItemUseable - No */
      , (21371,  25,        100) /* Level */
      , (21371,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

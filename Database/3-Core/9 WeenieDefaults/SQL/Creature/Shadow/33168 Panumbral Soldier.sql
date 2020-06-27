@@ -6,8 +6,8 @@ VALUES (33168, 'ace33168-panumbralsoldier', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33168,   1,         16) /* ItemType - Creature */
      , (33168,   2,         22) /* CreatureType - Shadow */
-     , (33168,   6,        255) /* ItemsCapacity */
-     , (33168,   7,        255) /* ContainersCapacity */
+     , (33168,   6,         -1) /* ItemsCapacity */
+     , (33168,   7,         -1) /* ContainersCapacity */
      , (33168,  16,          1) /* ItemUseable - No */
      , (33168,  25,        160) /* Level */
      , (33168,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

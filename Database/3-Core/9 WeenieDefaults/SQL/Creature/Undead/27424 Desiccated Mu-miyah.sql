@@ -6,8 +6,8 @@ VALUES (27424, 'mumiyahdesiccated', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27424,   1,         16) /* ItemType - Creature */
      , (27424,   2,         14) /* CreatureType - Undead */
-     , (27424,   6,        255) /* ItemsCapacity */
-     , (27424,   7,        255) /* ContainersCapacity */
+     , (27424,   6,         -1) /* ItemsCapacity */
+     , (27424,   7,         -1) /* ContainersCapacity */
      , (27424,  16,          1) /* ItemUseable - No */
      , (27424,  25,        115) /* Level */
      , (27424,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

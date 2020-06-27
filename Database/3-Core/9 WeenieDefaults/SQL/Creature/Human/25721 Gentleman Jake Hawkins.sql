@@ -6,8 +6,8 @@ VALUES (25721, 'scallywagnoir1', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25721,   1,         16) /* ItemType - Creature */
      , (25721,   2,         31) /* CreatureType - Human */
-     , (25721,   6,        255) /* ItemsCapacity */
-     , (25721,   7,        255) /* ContainersCapacity */
+     , (25721,   6,         -1) /* ItemsCapacity */
+     , (25721,   7,         -1) /* ContainersCapacity */
      , (25721,  16,         32) /* ItemUseable - Remote */
      , (25721,  25,          8) /* Level */
      , (25721,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

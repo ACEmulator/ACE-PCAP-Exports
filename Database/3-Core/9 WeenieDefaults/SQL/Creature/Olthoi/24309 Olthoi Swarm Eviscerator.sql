@@ -6,8 +6,8 @@ VALUES (24309, 'olthoswarmieviscerator-nofall', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24309,   1,         16) /* ItemType - Creature */
      , (24309,   2,          1) /* CreatureType - Olthoi */
-     , (24309,   6,        255) /* ItemsCapacity */
-     , (24309,   7,        255) /* ContainersCapacity */
+     , (24309,   6,         -1) /* ItemsCapacity */
+     , (24309,   7,         -1) /* ContainersCapacity */
      , (24309,  16,          1) /* ItemUseable - No */
      , (24309,  25,        115) /* Level */
      , (24309,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
@@ -30,10 +30,10 @@ VALUES (24309,   1,   33557046) /* Setup */
      , (24309,   3,  536871036) /* SoundTable */
      , (24309,   8,  100667623) /* Icon */
      , (24309,  22,  872415378) /* PhysicsEffectTable */
+     , (24309,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24309, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24309, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24309, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (24309, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (24309, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24309, 8040, 1581580903, 79.9313, -37.2848, -6.016, 0.7848595, 0, 0, -0.6196737) /* PCAPRecordedLocation */

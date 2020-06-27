@@ -5,8 +5,8 @@ VALUES (29746, 'gatewayreeshanlair', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29746,   1,         16) /* ItemType - Creature */
-     , (29746,   6,        255) /* ItemsCapacity */
-     , (29746,   7,        255) /* ContainersCapacity */
+     , (29746,   6,         -1) /* ItemsCapacity */
+     , (29746,   7,         -1) /* ContainersCapacity */
      , (29746,  16,         32) /* ItemUseable - Remote */
      , (29746,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29746,  95,          3) /* RadarBlipColor - White */

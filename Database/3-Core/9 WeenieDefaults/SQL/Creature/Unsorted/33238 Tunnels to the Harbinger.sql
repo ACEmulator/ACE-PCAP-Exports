@@ -5,8 +5,8 @@ VALUES (33238, 'ace33238-tunnelstotheharbinger', 10, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33238,   1,         16) /* ItemType - Creature */
-     , (33238,   6,        255) /* ItemsCapacity */
-     , (33238,   7,        255) /* ContainersCapacity */
+     , (33238,   6,         -1) /* ItemsCapacity */
+     , (33238,   7,         -1) /* ContainersCapacity */
      , (33238,  16,         32) /* ItemUseable - Remote */
      , (33238,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33238,  95,          4) /* RadarBlipColor - Purple */

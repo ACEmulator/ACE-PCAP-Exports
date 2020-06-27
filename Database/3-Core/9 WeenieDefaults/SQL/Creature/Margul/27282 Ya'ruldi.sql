@@ -6,8 +6,8 @@ VALUES (27282, 'margulyaruldi', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27282,   1,         16) /* ItemType - Creature */
      , (27282,   2,         71) /* CreatureType - Margul */
-     , (27282,   6,        255) /* ItemsCapacity */
-     , (27282,   7,        255) /* ContainersCapacity */
+     , (27282,   6,         -1) /* ItemsCapacity */
+     , (27282,   7,         -1) /* ContainersCapacity */
      , (27282,  16,          1) /* ItemUseable - No */
      , (27282,  25,        160) /* Level */
      , (27282,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (27282,   1,   33558554) /* Setup */
      , (27282,   6,   67114728) /* PaletteBase */
      , (27282,   8,  100675661) /* Icon */
      , (27282,  22,  872415401) /* PhysicsEffectTable */
+     , (27282,  30,         85) /* PhysicsScript - BreatheFrost */
      , (27282, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (27282, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (27282, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (27282, 8019,         85) /* PCAPRecordedDefaultScript */;
+     , (27282, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27282, 8040, 1699217690, 90, -150, -83.99731, 1, 0, 0, 0) /* PCAPRecordedLocation */

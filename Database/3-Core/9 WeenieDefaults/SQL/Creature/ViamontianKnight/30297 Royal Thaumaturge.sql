@@ -6,8 +6,8 @@ VALUES (30297, 'knightmageroyalthaumaturge-nofall', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30297,   1,         16) /* ItemType - Creature */
      , (30297,   2,         83) /* CreatureType - ViamontianKnight */
-     , (30297,   6,        255) /* ItemsCapacity */
-     , (30297,   7,        255) /* ContainersCapacity */
+     , (30297,   6,         -1) /* ItemsCapacity */
+     , (30297,   7,         -1) /* ContainersCapacity */
      , (30297,  16,          1) /* ItemUseable - No */
      , (30297,  25,        135) /* Level */
      , (30297,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

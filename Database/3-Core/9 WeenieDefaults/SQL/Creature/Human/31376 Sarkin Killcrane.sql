@@ -6,8 +6,8 @@ VALUES (31376, 'ace31376-sarkinkillcrane', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31376,   1,         16) /* ItemType - Creature */
      , (31376,   2,         31) /* CreatureType - Human */
-     , (31376,   6,        255) /* ItemsCapacity */
-     , (31376,   7,        255) /* ContainersCapacity */
+     , (31376,   6,         -1) /* ItemsCapacity */
+     , (31376,   7,         -1) /* ContainersCapacity */
      , (31376,  16,         32) /* ItemUseable - Remote */
      , (31376,  25,         90) /* Level */
      , (31376,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

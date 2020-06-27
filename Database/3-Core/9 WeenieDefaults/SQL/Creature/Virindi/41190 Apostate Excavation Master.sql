@@ -6,8 +6,8 @@ VALUES (41190, 'ace41190-apostateexcavationmaster', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41190,   1,         16) /* ItemType - Creature */
      , (41190,   2,         19) /* CreatureType - Virindi */
-     , (41190,   6,        255) /* ItemsCapacity */
-     , (41190,   7,        255) /* ContainersCapacity */
+     , (41190,   6,         -1) /* ItemsCapacity */
+     , (41190,   7,         -1) /* ContainersCapacity */
      , (41190,  16,          1) /* ItemUseable - No */
      , (41190,  25,        220) /* Level */
      , (41190,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

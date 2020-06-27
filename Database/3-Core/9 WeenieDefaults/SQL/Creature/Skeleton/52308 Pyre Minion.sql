@@ -6,8 +6,8 @@ VALUES (52308, 'ace52308-pyreminion', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52308,   1,         16) /* ItemType - Creature */
      , (52308,   2,         30) /* CreatureType - Skeleton */
-     , (52308,   6,        255) /* ItemsCapacity */
-     , (52308,   7,        255) /* ContainersCapacity */
+     , (52308,   6,         -1) /* ItemsCapacity */
+     , (52308,   7,         -1) /* ContainersCapacity */
      , (52308,  16,          1) /* ItemUseable - No */
      , (52308,  25,        200) /* Level */
      , (52308,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

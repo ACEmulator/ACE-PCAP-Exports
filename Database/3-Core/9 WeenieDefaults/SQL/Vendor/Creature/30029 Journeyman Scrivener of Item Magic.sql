@@ -6,8 +6,8 @@ VALUES (30029, 'viascriveneriteminner', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30029,   1,         16) /* ItemType - Creature */
      , (30029,   2,         31) /* CreatureType - Human */
-     , (30029,   6,        255) /* ItemsCapacity */
-     , (30029,   7,        255) /* ContainersCapacity */
+     , (30029,   6,         -1) /* ItemsCapacity */
+     , (30029,   7,         -1) /* ContainersCapacity */
      , (30029,  16,         32) /* ItemUseable - Remote */
      , (30029,  25,         14) /* Level */
      , (30029,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */

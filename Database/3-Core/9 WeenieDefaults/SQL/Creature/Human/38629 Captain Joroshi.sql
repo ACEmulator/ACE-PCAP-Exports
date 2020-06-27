@@ -6,8 +6,8 @@ VALUES (38629, 'ace38629-captainjoroshi', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38629,   1,         16) /* ItemType - Creature */
      , (38629,   2,         31) /* CreatureType - Human */
-     , (38629,   6,        255) /* ItemsCapacity */
-     , (38629,   7,        255) /* ContainersCapacity */
+     , (38629,   6,         -1) /* ItemsCapacity */
+     , (38629,   7,         -1) /* ContainersCapacity */
      , (38629,  16,         32) /* ItemUseable - Remote */
      , (38629,  25,        200) /* Level */
      , (38629,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

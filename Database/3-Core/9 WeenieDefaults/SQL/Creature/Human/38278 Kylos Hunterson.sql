@@ -6,8 +6,8 @@ VALUES (38278, 'ace38278-kyloshunterson', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38278,   1,         16) /* ItemType - Creature */
      , (38278,   2,         31) /* CreatureType - Human */
-     , (38278,   6,        255) /* ItemsCapacity */
-     , (38278,   7,        255) /* ContainersCapacity */
+     , (38278,   6,         -1) /* ItemsCapacity */
+     , (38278,   7,         -1) /* ContainersCapacity */
      , (38278,  16,         32) /* ItemUseable - Remote */
      , (38278,  25,        200) /* Level */
      , (38278,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

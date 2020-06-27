@@ -6,8 +6,8 @@ VALUES (7487, 'fireelementalinferno-nospawn', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7487,   1,         16) /* ItemType - Creature */
      , (7487,   2,         38) /* CreatureType - FireElemental */
-     , (7487,   6,        255) /* ItemsCapacity */
-     , (7487,   7,        255) /* ContainersCapacity */
+     , (7487,   6,         -1) /* ItemsCapacity */
+     , (7487,   7,         -1) /* ContainersCapacity */
      , (7487,  16,          1) /* ItemUseable - No */
      , (7487,  25,        100) /* Level */
      , (7487,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -6,8 +6,8 @@ VALUES (972, 'undercityweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (972,   1,         16) /* ItemType - Creature */
      , (972,   2,         31) /* CreatureType - Human */
-     , (972,   6,        255) /* ItemsCapacity */
-     , (972,   7,        255) /* ContainersCapacity */
+     , (972,   6,         -1) /* ItemsCapacity */
+     , (972,   7,         -1) /* ContainersCapacity */
      , (972,  16,         32) /* ItemUseable - Remote */
      , (972,  25,         12) /* Level */
      , (972,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */

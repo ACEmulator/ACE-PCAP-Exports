@@ -6,8 +6,8 @@ VALUES (23623, 'cowmad', 15, '2019-02-10 00:00:00') /* Cow */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23623,   1,         16) /* ItemType - Creature */
      , (23623,   2,         12) /* CreatureType - Cow */
-     , (23623,   6,        255) /* ItemsCapacity */
-     , (23623,   7,        255) /* ContainersCapacity */
+     , (23623,   6,         -1) /* ItemsCapacity */
+     , (23623,   7,         -1) /* ContainersCapacity */
      , (23623,  16,         32) /* ItemUseable - Remote */
      , (23623,  25,         30) /* Level */
      , (23623,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

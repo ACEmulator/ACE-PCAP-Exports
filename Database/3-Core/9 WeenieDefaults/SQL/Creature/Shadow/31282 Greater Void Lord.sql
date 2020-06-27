@@ -6,8 +6,8 @@ VALUES (31282, 'ace31282-greatervoidlord', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31282,   1,         16) /* ItemType - Creature */
      , (31282,   2,         22) /* CreatureType - Shadow */
-     , (31282,   6,        255) /* ItemsCapacity */
-     , (31282,   7,        255) /* ContainersCapacity */
+     , (31282,   6,         -1) /* ItemsCapacity */
+     , (31282,   7,         -1) /* ContainersCapacity */
      , (31282,  16,          1) /* ItemUseable - No */
      , (31282,  25,        160) /* Level */
      , (31282,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

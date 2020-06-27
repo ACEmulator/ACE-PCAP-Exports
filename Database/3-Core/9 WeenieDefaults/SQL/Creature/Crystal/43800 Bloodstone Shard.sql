@@ -6,8 +6,8 @@ VALUES (43800, 'ace43800-bloodstoneshard', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43800,   1,         16) /* ItemType - Creature */
      , (43800,   2,         47) /* CreatureType - Crystal */
-     , (43800,   6,        255) /* ItemsCapacity */
-     , (43800,   7,        255) /* ContainersCapacity */
+     , (43800,   6,         -1) /* ItemsCapacity */
+     , (43800,   7,         -1) /* ContainersCapacity */
      , (43800,  16,          1) /* ItemUseable - No */
      , (43800,  25,        240) /* Level */
      , (43800,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

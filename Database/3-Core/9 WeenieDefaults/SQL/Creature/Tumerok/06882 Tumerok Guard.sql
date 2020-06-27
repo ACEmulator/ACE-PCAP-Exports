@@ -6,8 +6,8 @@ VALUES (6882, 'tumerokdryreachguard', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6882,   1,         16) /* ItemType - Creature */
      , (6882,   2,          6) /* CreatureType - Tumerok */
-     , (6882,   6,        255) /* ItemsCapacity */
-     , (6882,   7,        255) /* ContainersCapacity */
+     , (6882,   6,         -1) /* ItemsCapacity */
+     , (6882,   7,         -1) /* ContainersCapacity */
      , (6882,  16,          1) /* ItemUseable - No */
      , (6882,  25,         60) /* Level */
      , (6882,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

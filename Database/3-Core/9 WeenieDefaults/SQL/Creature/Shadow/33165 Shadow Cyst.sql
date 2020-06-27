@@ -6,8 +6,8 @@ VALUES (33165, 'ace33165-shadowcyst', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33165,   1,         16) /* ItemType - Creature */
      , (33165,   2,         22) /* CreatureType - Shadow */
-     , (33165,   6,        255) /* ItemsCapacity */
-     , (33165,   7,        255) /* ContainersCapacity */
+     , (33165,   6,         -1) /* ItemsCapacity */
+     , (33165,   7,         -1) /* ContainersCapacity */
      , (33165,  16,          1) /* ItemUseable - No */
      , (33165,  25,        160) /* Level */
      , (33165,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

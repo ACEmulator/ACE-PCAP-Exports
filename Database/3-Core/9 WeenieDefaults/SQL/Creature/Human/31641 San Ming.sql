@@ -6,8 +6,8 @@ VALUES (31641, 'ace31641-sanming', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31641,   1,         16) /* ItemType - Creature */
      , (31641,   2,         31) /* CreatureType - Human */
-     , (31641,   6,        255) /* ItemsCapacity */
-     , (31641,   7,        255) /* ContainersCapacity */
+     , (31641,   6,         -1) /* ItemsCapacity */
+     , (31641,   7,         -1) /* ContainersCapacity */
      , (31641,  16,         32) /* ItemUseable - Remote */
      , (31641,  25,          7) /* Level */
      , (31641,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

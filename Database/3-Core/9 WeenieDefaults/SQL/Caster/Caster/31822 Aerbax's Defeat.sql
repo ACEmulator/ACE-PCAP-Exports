@@ -33,7 +33,7 @@ VALUES (31822,   1,      32768) /* ItemType - Caster */
      , (31822, 177,          2) /* GemCount */
      , (31822, 178,         38) /* GemType */
      , (31822, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (31822, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
+     , (31822, 265,        139) /* EquipmentSetId - ParagonCaster */
      , (31822, 319,         35) /* ItemMaxLevel */
      , (31822, 320,          1) /* ItemXpStyle - Fixed */
      , (31822, 383,          1) /* GearPKDamageRating */

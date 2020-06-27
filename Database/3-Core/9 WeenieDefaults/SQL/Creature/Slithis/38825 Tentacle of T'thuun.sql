@@ -6,8 +6,8 @@ VALUES (38825, 'ace38825-tentacleoftthuun', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38825,   1,         16) /* ItemType - Creature */
      , (38825,   2,         36) /* CreatureType - Slithis */
-     , (38825,   6,        255) /* ItemsCapacity */
-     , (38825,   7,        255) /* ContainersCapacity */
+     , (38825,   6,         -1) /* ItemsCapacity */
+     , (38825,   7,         -1) /* ContainersCapacity */
      , (38825,  16,          1) /* ItemUseable - No */
      , (38825,  25,        160) /* Level */
      , (38825,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (411, 'jeweler-gharundim', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (411,   1,         16) /* ItemType - Creature */
      , (411,   2,         31) /* CreatureType - Human */
-     , (411,   6,        255) /* ItemsCapacity */
-     , (411,   7,        255) /* ContainersCapacity */
+     , (411,   6,         -1) /* ItemsCapacity */
+     , (411,   7,         -1) /* ContainersCapacity */
      , (411,  16,         32) /* ItemUseable - Remote */
      , (411,  25,          3) /* Level */
      , (411,  74,      18440) /* MerchandiseItemTypes - Jewelry, Gem, Key */

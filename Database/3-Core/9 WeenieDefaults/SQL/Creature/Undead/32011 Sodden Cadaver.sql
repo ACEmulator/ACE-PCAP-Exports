@@ -6,8 +6,8 @@ VALUES (32011, 'ace32011-soddencadaver', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32011,   1,         16) /* ItemType - Creature */
      , (32011,   2,         14) /* CreatureType - Undead */
-     , (32011,   6,        255) /* ItemsCapacity */
-     , (32011,   7,        255) /* ContainersCapacity */
+     , (32011,   6,         -1) /* ItemsCapacity */
+     , (32011,   7,         -1) /* ContainersCapacity */
      , (32011,  16,          1) /* ItemUseable - No */
      , (32011,  25,        160) /* Level */
      , (32011,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

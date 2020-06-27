@@ -6,8 +6,8 @@ VALUES (52707, 'ace52707-zabien', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52707,   1,         16) /* ItemType - Creature */
      , (52707,   2,         51) /* CreatureType - Empyrean */
-     , (52707,   6,        255) /* ItemsCapacity */
-     , (52707,   7,        255) /* ContainersCapacity */
+     , (52707,   6,         -1) /* ItemsCapacity */
+     , (52707,   7,         -1) /* ContainersCapacity */
      , (52707,  16,         32) /* ItemUseable - Remote */
      , (52707,  25,        300) /* Level */
      , (52707,  74,          0) /* MerchandiseItemTypes - None */

@@ -6,8 +6,8 @@ VALUES (32740, 'ace32740-handofenchantment', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32740,   1,         16) /* ItemType - Creature */
      , (32740,   2,         61) /* CreatureType - FrostElemental */
-     , (32740,   6,        255) /* ItemsCapacity */
-     , (32740,   7,        255) /* ContainersCapacity */
+     , (32740,   6,         -1) /* ItemsCapacity */
+     , (32740,   7,         -1) /* ContainersCapacity */
      , (32740,  16,          1) /* ItemUseable - No */
      , (32740,  25,        160) /* Level */
      , (32740,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

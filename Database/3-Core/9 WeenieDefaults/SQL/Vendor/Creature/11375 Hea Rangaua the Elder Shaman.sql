@@ -6,8 +6,8 @@ VALUES (11375, 'ahurengaarchmage-xp', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11375,   1,         16) /* ItemType - Creature */
      , (11375,   2,          6) /* CreatureType - Tumerok */
-     , (11375,   6,        255) /* ItemsCapacity */
-     , (11375,   7,        255) /* ContainersCapacity */
+     , (11375,   6,         -1) /* ItemsCapacity */
+     , (11375,   7,         -1) /* ContainersCapacity */
      , (11375,  16,         32) /* ItemUseable - Remote */
      , (11375,  25,         12) /* Level */
      , (11375,  74,   76322820) /* MerchandiseItemTypes - Clothing, Gem, SpellComponents, Caster, PromissoryNote, ManaStone, CraftAlchemyBase, CraftAlchemyIntermediate */

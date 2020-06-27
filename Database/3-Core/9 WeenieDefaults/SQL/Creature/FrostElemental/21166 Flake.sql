@@ -6,8 +6,8 @@ VALUES (21166, 'frostelementalflake', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21166,   1,         16) /* ItemType - Creature */
      , (21166,   2,         61) /* CreatureType - FrostElemental */
-     , (21166,   6,        255) /* ItemsCapacity */
-     , (21166,   7,        255) /* ContainersCapacity */
+     , (21166,   6,         -1) /* ItemsCapacity */
+     , (21166,   7,         -1) /* ContainersCapacity */
      , (21166,  16,          1) /* ItemUseable - No */
      , (21166,  25,          8) /* Level */
      , (21166,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

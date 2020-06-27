@@ -6,8 +6,8 @@ VALUES (34979, 'ace34979-thralledgurukreaper', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34979,   1,         16) /* ItemType - Creature */
      , (34979,   2,         75) /* CreatureType - Burun */
-     , (34979,   6,        255) /* ItemsCapacity */
-     , (34979,   7,        255) /* ContainersCapacity */
+     , (34979,   6,         -1) /* ItemsCapacity */
+     , (34979,   7,         -1) /* ContainersCapacity */
      , (34979,  16,          1) /* ItemUseable - No */
      , (34979,  25,        240) /* Level */
      , (34979,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

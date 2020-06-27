@@ -5,8 +5,8 @@ VALUES (43898, 'ace43898-void', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43898,   1,         16) /* ItemType - Creature */
-     , (43898,   6,        255) /* ItemsCapacity */
-     , (43898,   7,        255) /* ContainersCapacity */
+     , (43898,   6,         -1) /* ItemsCapacity */
+     , (43898,   7,         -1) /* ContainersCapacity */
      , (43898,  16,          1) /* ItemUseable - No */
      , (43898,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43898, 307,          0) /* DamageRating */

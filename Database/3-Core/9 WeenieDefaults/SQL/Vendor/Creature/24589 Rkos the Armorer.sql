@@ -6,8 +6,8 @@ VALUES (24589, 'candethkeeparmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24589,   1,         16) /* ItemType - Creature */
      , (24589,   2,          5) /* CreatureType - Lugian */
-     , (24589,   6,        255) /* ItemsCapacity */
-     , (24589,   7,        255) /* ContainersCapacity */
+     , (24589,   6,         -1) /* ItemsCapacity */
+     , (24589,   7,         -1) /* ContainersCapacity */
      , (24589,  16,         32) /* ItemUseable - Remote */
      , (24589,  25,         93) /* Level */
      , (24589,  74, 1074003974) /* MerchandiseItemTypes - Vestements, PromissoryNote, TinkeringMaterial */

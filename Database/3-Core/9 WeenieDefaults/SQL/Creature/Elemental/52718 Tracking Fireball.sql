@@ -6,8 +6,8 @@ VALUES (52718, 'ace52718-trackingfireball', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52718,   1,         16) /* ItemType - Creature */
      , (52718,   2,         62) /* CreatureType - Elemental */
-     , (52718,   6,        255) /* ItemsCapacity */
-     , (52718,   7,        255) /* ContainersCapacity */
+     , (52718,   6,         -1) /* ItemsCapacity */
+     , (52718,   7,         -1) /* ContainersCapacity */
      , (52718,  16,          1) /* ItemUseable - No */
      , (52718,  25,        200) /* Level */
      , (52718,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

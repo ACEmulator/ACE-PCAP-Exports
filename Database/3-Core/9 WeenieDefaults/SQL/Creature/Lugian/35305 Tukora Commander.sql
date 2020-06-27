@@ -6,8 +6,8 @@ VALUES (35305, 'ace35305-tukoracommander', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35305,   1,         16) /* ItemType - Creature */
      , (35305,   2,          5) /* CreatureType - Lugian */
-     , (35305,   6,        255) /* ItemsCapacity */
-     , (35305,   7,        255) /* ContainersCapacity */
+     , (35305,   6,         -1) /* ItemsCapacity */
+     , (35305,   7,         -1) /* ContainersCapacity */
      , (35305,  16,          1) /* ItemUseable - No */
      , (35305,  25,        185) /* Level */
      , (35305,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

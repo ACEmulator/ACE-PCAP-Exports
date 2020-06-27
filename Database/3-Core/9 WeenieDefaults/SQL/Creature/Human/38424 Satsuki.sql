@@ -6,8 +6,8 @@ VALUES (38424, 'ace38424-satsuki', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38424,   1,         16) /* ItemType - Creature */
      , (38424,   2,         31) /* CreatureType - Human */
-     , (38424,   6,        255) /* ItemsCapacity */
-     , (38424,   7,        255) /* ContainersCapacity */
+     , (38424,   6,         -1) /* ItemsCapacity */
+     , (38424,   7,         -1) /* ContainersCapacity */
      , (38424,  16,         32) /* ItemUseable - Remote */
      , (38424,  25,        185) /* Level */
      , (38424,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

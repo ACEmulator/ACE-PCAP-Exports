@@ -6,8 +6,8 @@ VALUES (31652, 'ace31652-fergalthedire', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31652,   1,         16) /* ItemType - Creature */
      , (31652,   2,         31) /* CreatureType - Human */
-     , (31652,   6,        255) /* ItemsCapacity */
-     , (31652,   7,        255) /* ContainersCapacity */
+     , (31652,   6,         -1) /* ItemsCapacity */
+     , (31652,   7,         -1) /* ContainersCapacity */
      , (31652,  16,         32) /* ItemUseable - Remote */
      , (31652,  25,         21) /* Level */
      , (31652,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

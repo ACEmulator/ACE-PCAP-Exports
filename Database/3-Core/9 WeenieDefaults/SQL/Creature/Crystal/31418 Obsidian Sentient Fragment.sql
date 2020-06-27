@@ -6,8 +6,8 @@ VALUES (31418, 'ace31418-obsidiansentientfragment', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31418,   1,         16) /* ItemType - Creature */
      , (31418,   2,         47) /* CreatureType - Crystal */
-     , (31418,   6,        255) /* ItemsCapacity */
-     , (31418,   7,        255) /* ContainersCapacity */
+     , (31418,   6,         -1) /* ItemsCapacity */
+     , (31418,   7,         -1) /* ContainersCapacity */
      , (31418,  16,          1) /* ItemUseable - No */
      , (31418,  25,        160) /* Level */
      , (31418,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -5,8 +5,8 @@ VALUES (36799, 'ace36799-thorstencragstone', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36799,   1,         16) /* ItemType - Creature */
-     , (36799,   6,        255) /* ItemsCapacity */
-     , (36799,   7,        255) /* ContainersCapacity */
+     , (36799,   6,         -1) /* ItemsCapacity */
+     , (36799,   7,         -1) /* ContainersCapacity */
      , (36799,  16,          1) /* ItemUseable - No */
      , (36799,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36799,  95,          8) /* RadarBlipColor - Yellow */

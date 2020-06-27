@@ -6,8 +6,8 @@ VALUES (43247, 'ace43247-guardiangolem', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43247,   1,         16) /* ItemType - Creature */
      , (43247,   2,         13) /* CreatureType - Golem */
-     , (43247,   6,        255) /* ItemsCapacity */
-     , (43247,   7,        255) /* ContainersCapacity */
+     , (43247,   6,         -1) /* ItemsCapacity */
+     , (43247,   7,         -1) /* ContainersCapacity */
      , (43247,  16,         32) /* ItemUseable - Remote */
      , (43247,  25,        500) /* Level */
      , (43247,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

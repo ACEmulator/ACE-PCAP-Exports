@@ -6,8 +6,8 @@ VALUES (33894, 'ace33894-abyssaltotem', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33894,   1,         16) /* ItemType - Creature */
      , (33894,   5,        200) /* EncumbranceVal */
-     , (33894,   6,        255) /* ItemsCapacity */
-     , (33894,   7,        255) /* ContainersCapacity */
+     , (33894,   6,         -1) /* ItemsCapacity */
+     , (33894,   7,         -1) /* ContainersCapacity */
      , (33894,  16,          1) /* ItemUseable - No */
      , (33894,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33894, 133,          4) /* ShowableOnRadar - ShowAlways */

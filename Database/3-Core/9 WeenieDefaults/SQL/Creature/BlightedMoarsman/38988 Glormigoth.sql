@@ -6,8 +6,8 @@ VALUES (38988, 'ace38988-glormigoth', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38988,   1,         16) /* ItemType - Creature */
      , (38988,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (38988,   6,        255) /* ItemsCapacity */
-     , (38988,   7,        255) /* ContainersCapacity */
+     , (38988,   6,         -1) /* ItemsCapacity */
+     , (38988,   7,         -1) /* ContainersCapacity */
      , (38988,  16,         32) /* ItemUseable - Remote */
      , (38988,  25,        200) /* Level */
      , (38988,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

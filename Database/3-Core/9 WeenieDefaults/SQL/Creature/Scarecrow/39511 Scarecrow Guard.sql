@@ -6,8 +6,8 @@ VALUES (39511, 'ace39511-scarecrowguard', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39511,   1,         16) /* ItemType - Creature */
      , (39511,   2,         49) /* CreatureType - Scarecrow */
-     , (39511,   6,        255) /* ItemsCapacity */
-     , (39511,   7,        255) /* ContainersCapacity */
+     , (39511,   6,         -1) /* ItemsCapacity */
+     , (39511,   7,         -1) /* ContainersCapacity */
      , (39511,  16,          1) /* ItemUseable - No */
      , (39511,  25,         80) /* Level */
      , (39511,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

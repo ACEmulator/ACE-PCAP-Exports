@@ -6,8 +6,8 @@ VALUES (36858, 'ace36858-greatskeleton', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36858,   1,         16) /* ItemType - Creature */
      , (36858,   2,         30) /* CreatureType - Skeleton */
-     , (36858,   6,        255) /* ItemsCapacity */
-     , (36858,   7,        255) /* ContainersCapacity */
+     , (36858,   6,         -1) /* ItemsCapacity */
+     , (36858,   7,         -1) /* ContainersCapacity */
      , (36858,  16,          1) /* ItemUseable - No */
      , (36858,  25,        100) /* Level */
      , (36858,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

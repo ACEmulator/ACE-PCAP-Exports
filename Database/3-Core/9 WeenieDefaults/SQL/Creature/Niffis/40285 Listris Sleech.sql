@@ -6,8 +6,8 @@ VALUES (40285, 'ace40285-listrissleech', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40285,   1,         16) /* ItemType - Creature */
      , (40285,   2,         45) /* CreatureType - Niffis */
-     , (40285,   6,        255) /* ItemsCapacity */
-     , (40285,   7,        255) /* ContainersCapacity */
+     , (40285,   6,         -1) /* ItemsCapacity */
+     , (40285,   7,         -1) /* ContainersCapacity */
      , (40285,  16,          1) /* ItemUseable - No */
      , (40285,  25,        200) /* Level */
      , (40285,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

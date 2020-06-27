@@ -6,8 +6,8 @@ VALUES (9056, 'golemtrainereaushi', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9056,   1,         16) /* ItemType - Creature */
      , (9056,   2,         13) /* CreatureType - Golem */
-     , (9056,   6,        255) /* ItemsCapacity */
-     , (9056,   7,        255) /* ContainersCapacity */
+     , (9056,   6,         -1) /* ItemsCapacity */
+     , (9056,   7,         -1) /* ContainersCapacity */
      , (9056,  16,         32) /* ItemUseable - Remote */
      , (9056,  25,        319) /* Level */
      , (9056,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -6,8 +6,8 @@ VALUES (48804, 'ace48804-whirlwindgolem', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48804,   1,         16) /* ItemType - Creature */
      , (48804,   2,         13) /* CreatureType - Golem */
-     , (48804,   6,        255) /* ItemsCapacity */
-     , (48804,   7,        255) /* ContainersCapacity */
+     , (48804,   6,         -1) /* ItemsCapacity */
+     , (48804,   7,         -1) /* ContainersCapacity */
      , (48804,  16,          1) /* ItemUseable - No */
      , (48804,  25,        240) /* Level */
      , (48804,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

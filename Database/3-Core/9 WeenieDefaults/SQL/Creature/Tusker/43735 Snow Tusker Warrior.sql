@@ -6,8 +6,8 @@ VALUES (43735, 'ace43735-snowtuskerwarrior', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43735,   1,         16) /* ItemType - Creature */
      , (43735,   2,          8) /* CreatureType - Tusker */
-     , (43735,   6,        255) /* ItemsCapacity */
-     , (43735,   7,        255) /* ContainersCapacity */
+     , (43735,   6,         -1) /* ItemsCapacity */
+     , (43735,   7,         -1) /* ContainersCapacity */
      , (43735,  16,          1) /* ItemUseable - No */
      , (43735,  25,        220) /* Level */
      , (43735,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (19294, 'statuereplicalowmosswartsmall', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19294,   1,         16) /* ItemType - Creature */
      , (19294,   2,          4) /* CreatureType - Mosswart */
-     , (19294,   6,        255) /* ItemsCapacity */
-     , (19294,   7,        255) /* ContainersCapacity */
+     , (19294,   6,         -1) /* ItemsCapacity */
+     , (19294,   7,         -1) /* ContainersCapacity */
      , (19294,  16,          1) /* ItemUseable - No */
      , (19294,  25,         20) /* Level */
      , (19294,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

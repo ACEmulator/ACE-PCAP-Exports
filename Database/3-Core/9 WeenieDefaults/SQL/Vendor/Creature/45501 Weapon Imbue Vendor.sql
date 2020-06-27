@@ -6,8 +6,8 @@ VALUES (45501, 'ace45501-weaponimbuevendor', 12, '2019-02-10 00:00:00') /* Vendo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45501,   1,         16) /* ItemType - Creature */
      , (45501,   2,         13) /* CreatureType - Golem */
-     , (45501,   6,        255) /* ItemsCapacity */
-     , (45501,   7,        255) /* ContainersCapacity */
+     , (45501,   6,         -1) /* ItemsCapacity */
+     , (45501,   7,         -1) /* ContainersCapacity */
      , (45501,  16,         32) /* ItemUseable - Remote */
      , (45501,  25,        100) /* Level */
      , (45501,  74,          0) /* MerchandiseItemTypes - None */

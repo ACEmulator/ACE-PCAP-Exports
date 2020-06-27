@@ -6,8 +6,8 @@ VALUES (52131, 'ace52131-enragedmoar', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52131,   1,         16) /* ItemType - Creature */
      , (52131,   2,         86) /* CreatureType - Moar */
-     , (52131,   6,        255) /* ItemsCapacity */
-     , (52131,   7,        255) /* ContainersCapacity */
+     , (52131,   6,         -1) /* ItemsCapacity */
+     , (52131,   7,         -1) /* ContainersCapacity */
      , (52131,  16,          1) /* ItemUseable - No */
      , (52131,  25,        240) /* Level */
      , (52131,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (52131,   1,   33560640) /* Setup */
      , (52131,   6,   67116748) /* PaletteBase */
      , (52131,   8,  100671185) /* Icon */
      , (52131,  22,  872415415) /* PhysicsEffectTable */
+     , (52131,  30,         84) /* PhysicsScript - BreatheFlame */
      , (52131, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52131, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52131, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (52131, 8019,         84) /* PCAPRecordedDefaultScript */;
+     , (52131, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52131, 8040, 1498612051, 170.9444, -137.6378, 0.02879995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */

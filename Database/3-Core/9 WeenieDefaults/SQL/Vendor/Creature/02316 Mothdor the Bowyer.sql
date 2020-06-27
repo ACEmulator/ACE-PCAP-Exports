@@ -6,8 +6,8 @@ VALUES (2316, 'forttethanabowyer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2316,   1,         16) /* ItemType - Creature */
      , (2316,   2,         31) /* CreatureType - Human */
-     , (2316,   6,        255) /* ItemsCapacity */
-     , (2316,   7,        255) /* ContainersCapacity */
+     , (2316,   6,         -1) /* ItemsCapacity */
+     , (2316,   7,         -1) /* ContainersCapacity */
      , (2316,  16,         32) /* ItemUseable - Remote */
      , (2316,  25,          8) /* Level */
      , (2316,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */

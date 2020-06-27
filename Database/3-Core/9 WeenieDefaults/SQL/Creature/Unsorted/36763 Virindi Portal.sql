@@ -5,8 +5,8 @@ VALUES (36763, 'ace36763-virindiportal', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36763,   1,         16) /* ItemType - Creature */
-     , (36763,   6,        255) /* ItemsCapacity */
-     , (36763,   7,        255) /* ContainersCapacity */
+     , (36763,   6,         -1) /* ItemsCapacity */
+     , (36763,   7,         -1) /* ContainersCapacity */
      , (36763,  16,          1) /* ItemUseable - No */
      , (36763,  93,    2100252) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment */
      , (36763,  95,          4) /* RadarBlipColor - Purple */

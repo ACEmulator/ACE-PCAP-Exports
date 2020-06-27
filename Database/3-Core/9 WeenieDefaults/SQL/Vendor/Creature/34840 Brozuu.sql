@@ -6,8 +6,8 @@ VALUES (34840, 'ace34840-brozuu', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34840,   1,         16) /* ItemType - Creature */
      , (34840,   2,         75) /* CreatureType - Burun */
-     , (34840,   6,        255) /* ItemsCapacity */
-     , (34840,   7,        255) /* ContainersCapacity */
+     , (34840,   6,         -1) /* ItemsCapacity */
+     , (34840,   7,         -1) /* ContainersCapacity */
      , (34840,  16,         32) /* ItemUseable - Remote */
      , (34840,  25,         20) /* Level */
      , (34840,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

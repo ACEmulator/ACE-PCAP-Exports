@@ -6,8 +6,8 @@ VALUES (33837, 'ace33837-unfriendlybarkeeper', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33837,   1,         16) /* ItemType - Creature */
      , (33837,   2,         31) /* CreatureType - Human */
-     , (33837,   6,        255) /* ItemsCapacity */
-     , (33837,   7,        255) /* ContainersCapacity */
+     , (33837,   6,         -1) /* ItemsCapacity */
+     , (33837,   7,         -1) /* ContainersCapacity */
      , (33837,  16,         32) /* ItemUseable - Remote */
      , (33837,  25,         27) /* Level */
      , (33837,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

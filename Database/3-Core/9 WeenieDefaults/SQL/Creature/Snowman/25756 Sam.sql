@@ -6,8 +6,8 @@ VALUES (25756, 'snowmanguard', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25756,   1,         16) /* ItemType - Creature */
      , (25756,   2,         39) /* CreatureType - Snowman */
-     , (25756,   6,        255) /* ItemsCapacity */
-     , (25756,   7,        255) /* ContainersCapacity */
+     , (25756,   6,         -1) /* ItemsCapacity */
+     , (25756,   7,         -1) /* ContainersCapacity */
      , (25756,  16,         32) /* ItemUseable - Remote */
      , (25756,  25,         60) /* Level */
      , (25756,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

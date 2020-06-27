@@ -6,8 +6,8 @@ VALUES (38715, 'ace38715-massilorthewithered', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38715,   1,         16) /* ItemType - Creature */
      , (38715,   2,         14) /* CreatureType - Undead */
-     , (38715,   6,        255) /* ItemsCapacity */
-     , (38715,   7,        255) /* ContainersCapacity */
+     , (38715,   6,         -1) /* ItemsCapacity */
+     , (38715,   7,         -1) /* ContainersCapacity */
      , (38715,  16,         32) /* ItemUseable - Remote */
      , (38715,  25,        180) /* Level */
      , (38715,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */

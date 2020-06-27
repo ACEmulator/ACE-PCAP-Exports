@@ -5,8 +5,8 @@ VALUES (52305, 'ace52305-corruptedgravestone', 10, '2019-02-10 00:00:00') /* Cre
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52305,   1,         16) /* ItemType - Creature */
-     , (52305,   6,        255) /* ItemsCapacity */
-     , (52305,   7,        255) /* ContainersCapacity */
+     , (52305,   6,         -1) /* ItemsCapacity */
+     , (52305,   7,         -1) /* ContainersCapacity */
      , (52305,  16,          1) /* ItemUseable - No */
      , (52305,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52305, 133,          4) /* ShowableOnRadar - ShowAlways */

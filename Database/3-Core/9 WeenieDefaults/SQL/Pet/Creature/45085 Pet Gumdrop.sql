@@ -6,8 +6,8 @@ VALUES (45085, 'ace45085-hikarushidowspetgumdrop', 69, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45085,   1,         16) /* ItemType - Creature */
      , (45085,   2,         21) /* CreatureType - Knathtead */
-     , (45085,   6,        255) /* ItemsCapacity */
-     , (45085,   7,        255) /* ContainersCapacity */
+     , (45085,   6,         -1) /* ItemsCapacity */
+     , (45085,   7,         -1) /* ContainersCapacity */
      , (45085,  16,          1) /* ItemUseable - No */
      , (45085,  25,          5) /* Level */
      , (45085,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -6,8 +6,8 @@ VALUES (35132, 'ace35132-bokroklugian', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35132,   1,         16) /* ItemType - Creature */
      , (35132,   2,          5) /* CreatureType - Lugian */
-     , (35132,   6,        255) /* ItemsCapacity */
-     , (35132,   7,        255) /* ContainersCapacity */
+     , (35132,   6,         -1) /* ItemsCapacity */
+     , (35132,   7,         -1) /* ContainersCapacity */
      , (35132,  16,          1) /* ItemUseable - No */
      , (35132,  25,        100) /* Level */
      , (35132,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

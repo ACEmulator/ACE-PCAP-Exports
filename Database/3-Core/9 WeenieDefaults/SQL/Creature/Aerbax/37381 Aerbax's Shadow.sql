@@ -6,8 +6,8 @@ VALUES (37381, 'ace37381-aerbaxsshadow', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37381,   1,         16) /* ItemType - Creature */
      , (37381,   2,         96) /* CreatureType - Aerbax */
-     , (37381,   6,        255) /* ItemsCapacity */
-     , (37381,   7,        255) /* ContainersCapacity */
+     , (37381,   6,         -1) /* ItemsCapacity */
+     , (37381,   7,         -1) /* ContainersCapacity */
      , (37381,  16,          1) /* ItemUseable - No */
      , (37381,  25,        999) /* Level */
      , (37381,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

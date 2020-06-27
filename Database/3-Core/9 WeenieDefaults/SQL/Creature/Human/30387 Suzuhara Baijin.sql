@@ -6,8 +6,8 @@ VALUES (30387, 'stoneholdsuzuharabaijin', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30387,   1,         16) /* ItemType - Creature */
      , (30387,   2,         31) /* CreatureType - Human */
-     , (30387,   6,        255) /* ItemsCapacity */
-     , (30387,   7,        255) /* ContainersCapacity */
+     , (30387,   6,         -1) /* ItemsCapacity */
+     , (30387,   7,         -1) /* ContainersCapacity */
      , (30387,  16,         32) /* ItemUseable - Remote */
      , (30387,  25,         47) /* Level */
      , (30387,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

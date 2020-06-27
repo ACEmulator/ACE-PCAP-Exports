@@ -6,8 +6,8 @@ VALUES (10922, 'boygrubgossip-xp', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10922,   1,         16) /* ItemType - Creature */
      , (10922,   2,          6) /* CreatureType - Tumerok */
-     , (10922,   6,        255) /* ItemsCapacity */
-     , (10922,   7,        255) /* ContainersCapacity */
+     , (10922,   6,         -1) /* ItemsCapacity */
+     , (10922,   7,         -1) /* ContainersCapacity */
      , (10922,  16,         32) /* ItemUseable - Remote */
      , (10922,  25,         27) /* Level */
      , (10922,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

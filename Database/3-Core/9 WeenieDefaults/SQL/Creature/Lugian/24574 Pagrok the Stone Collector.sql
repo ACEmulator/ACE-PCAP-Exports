@@ -6,8 +6,8 @@ VALUES (24574, 'collectorstonecandethkeep', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24574,   1,         16) /* ItemType - Creature */
      , (24574,   2,          5) /* CreatureType - Lugian */
-     , (24574,   6,        255) /* ItemsCapacity */
-     , (24574,   7,        255) /* ContainersCapacity */
+     , (24574,   6,         -1) /* ItemsCapacity */
+     , (24574,   7,         -1) /* ContainersCapacity */
      , (24574,  16,         32) /* ItemUseable - Remote */
      , (24574,  25,         96) /* Level */
      , (24574,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

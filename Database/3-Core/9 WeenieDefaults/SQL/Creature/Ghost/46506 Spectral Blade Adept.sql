@@ -6,8 +6,8 @@ VALUES (46506, 'ace46506-spectralbladeadept', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46506,   1,         16) /* ItemType - Creature */
      , (46506,   2,         77) /* CreatureType - Ghost */
-     , (46506,   6,        255) /* ItemsCapacity */
-     , (46506,   7,        255) /* ContainersCapacity */
+     , (46506,   6,         -1) /* ItemsCapacity */
+     , (46506,   7,         -1) /* ContainersCapacity */
      , (46506,  16,          1) /* ItemUseable - No */
      , (46506,  25,        240) /* Level */
      , (46506,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

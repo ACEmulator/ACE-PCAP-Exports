@@ -61,11 +61,11 @@ VALUES (301,   1,   33554725) /* Setup */
      , (301,   6,   67111919) /* PaletteBase */
      , (301,   8,  100668986) /* Icon */
      , (301,  22,  872415275) /* PhysicsEffectTable */
+     , (301,  30,         88) /* PhysicsScript - Create */
      , (301, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (301, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (301, 8005,     194593) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
-     , (301, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
-     , (301, 8019,         88) /* PCAPRecordedDefaultScript */;
+     , (301, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (301, 8040, 3465871682, 155.2554, 30.84464, 19.929, -0.06593028, -0.06593028, -0.7040264, -0.7040264) /* PCAPRecordedLocation */

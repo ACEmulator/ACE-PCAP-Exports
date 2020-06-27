@@ -6,8 +6,8 @@ VALUES (43214, 'ace43214-apostatevirindiexecutor', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43214,   1,         16) /* ItemType - Creature */
      , (43214,   2,         19) /* CreatureType - Virindi */
-     , (43214,   6,        255) /* ItemsCapacity */
-     , (43214,   7,        255) /* ContainersCapacity */
+     , (43214,   6,         -1) /* ItemsCapacity */
+     , (43214,   7,         -1) /* ContainersCapacity */
      , (43214,  16,          1) /* ItemUseable - No */
      , (43214,  25,        160) /* Level */
      , (43214,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

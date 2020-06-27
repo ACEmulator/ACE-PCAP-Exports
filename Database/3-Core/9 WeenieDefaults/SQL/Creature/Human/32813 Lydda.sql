@@ -6,8 +6,8 @@ VALUES (32813, 'ace32813-lydda', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32813,   1,         16) /* ItemType - Creature */
      , (32813,   2,         31) /* CreatureType - Human */
-     , (32813,   6,        255) /* ItemsCapacity */
-     , (32813,   7,        255) /* ContainersCapacity */
+     , (32813,   6,         -1) /* ItemsCapacity */
+     , (32813,   7,         -1) /* ContainersCapacity */
      , (32813,  16,         32) /* ItemUseable - Remote */
      , (32813,  25,         60) /* Level */
      , (32813,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (51879, 'ace51879-enragedshadow', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51879,   1,         16) /* ItemType - Creature */
      , (51879,   2,         22) /* CreatureType - Shadow */
-     , (51879,   6,        255) /* ItemsCapacity */
-     , (51879,   7,        255) /* ContainersCapacity */
+     , (51879,   6,         -1) /* ItemsCapacity */
+     , (51879,   7,         -1) /* ContainersCapacity */
      , (51879,  16,          1) /* ItemUseable - No */
      , (51879,  25,        240) /* Level */
      , (51879,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

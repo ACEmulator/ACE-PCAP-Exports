@@ -5,8 +5,8 @@ VALUES (31696, 'ace31696-ruschkcampleader', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31696,   1,         16) /* ItemType - Creature */
-     , (31696,   6,        255) /* ItemsCapacity */
-     , (31696,   7,        255) /* ContainersCapacity */
+     , (31696,   6,         -1) /* ItemsCapacity */
+     , (31696,   7,         -1) /* ContainersCapacity */
      , (31696,  16,          1) /* ItemUseable - No */
      , (31696,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31696, 133,          2) /* ShowableOnRadar - ShowMovement */

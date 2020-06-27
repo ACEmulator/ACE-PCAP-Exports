@@ -5,8 +5,8 @@ VALUES (42025, 'ace42025-wightcaptain', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42025,   1,         16) /* ItemType - Creature */
-     , (42025,   6,        255) /* ItemsCapacity */
-     , (42025,   7,        255) /* ContainersCapacity */
+     , (42025,   6,         -1) /* ItemsCapacity */
+     , (42025,   7,         -1) /* ContainersCapacity */
      , (42025,  16,          1) /* ItemUseable - No */
      , (42025,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42025, 133,          2) /* ShowableOnRadar - ShowMovement */

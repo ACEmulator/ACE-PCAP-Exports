@@ -6,8 +6,8 @@ VALUES (38692, 'ace38692-shopkeeperlazlo', 12, '2019-02-10 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38692,   1,         16) /* ItemType - Creature */
      , (38692,   2,         31) /* CreatureType - Human */
-     , (38692,   6,        255) /* ItemsCapacity */
-     , (38692,   7,        255) /* ContainersCapacity */
+     , (38692,   6,         -1) /* ItemsCapacity */
+     , (38692,   7,         -1) /* ContainersCapacity */
      , (38692,  16,         32) /* ItemUseable - Remote */
      , (38692,  25,        190) /* Level */
      , (38692,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

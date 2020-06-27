@@ -6,8 +6,8 @@ VALUES (42605, 'ace42605-gearhunter', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42605,   1,         16) /* ItemType - Creature */
      , (42605,   2,         59) /* CreatureType - Simulacrum */
-     , (42605,   6,        255) /* ItemsCapacity */
-     , (42605,   7,        255) /* ContainersCapacity */
+     , (42605,   6,         -1) /* ItemsCapacity */
+     , (42605,   7,         -1) /* ContainersCapacity */
      , (42605,  16,          1) /* ItemUseable - No */
      , (42605,  25,        185) /* Level */
      , (42605,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

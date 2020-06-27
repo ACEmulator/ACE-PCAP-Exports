@@ -6,8 +6,8 @@ VALUES (49043, 'ace49043-deniousselemental', 71, '2019-02-10 00:00:00') /* Comba
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49043,   1,         16) /* ItemType - Creature */
      , (49043,   2,         62) /* CreatureType - Elemental */
-     , (49043,   6,        255) /* ItemsCapacity */
-     , (49043,   7,        255) /* ContainersCapacity */
+     , (49043,   6,         -1) /* ItemsCapacity */
+     , (49043,   7,         -1) /* ContainersCapacity */
      , (49043,  16,          1) /* ItemUseable - No */
      , (49043,  25,        180) /* Level */
      , (49043,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

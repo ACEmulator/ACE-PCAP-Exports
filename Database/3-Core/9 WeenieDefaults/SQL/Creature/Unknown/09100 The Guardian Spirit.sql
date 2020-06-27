@@ -6,8 +6,8 @@ VALUES (9100, 'wisphierohall', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9100,   1,         16) /* ItemType - Creature */
      , (9100,   2,         40) /* CreatureType - Unknown */
-     , (9100,   6,        255) /* ItemsCapacity */
-     , (9100,   7,        255) /* ContainersCapacity */
+     , (9100,   6,         -1) /* ItemsCapacity */
+     , (9100,   7,         -1) /* ContainersCapacity */
      , (9100,  16,          1) /* ItemUseable - No */
      , (9100,  25,        100) /* Level */
      , (9100,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

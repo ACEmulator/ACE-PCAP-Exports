@@ -6,8 +6,8 @@ VALUES (43940, 'ace43940-carlylewolnoth', 12, '2019-02-10 00:00:00') /* Vendor *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43940,   1,         16) /* ItemType - Creature */
      , (43940,   2,         31) /* CreatureType - Human */
-     , (43940,   6,        255) /* ItemsCapacity */
-     , (43940,   7,        255) /* ContainersCapacity */
+     , (43940,   6,         -1) /* ItemsCapacity */
+     , (43940,   7,         -1) /* ContainersCapacity */
      , (43940,  16,         32) /* ItemUseable - Remote */
      , (43940,  25,        250) /* Level */
      , (43940,  74,          0) /* MerchandiseItemTypes - None */

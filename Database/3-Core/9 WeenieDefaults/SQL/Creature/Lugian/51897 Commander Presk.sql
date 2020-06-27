@@ -6,8 +6,8 @@ VALUES (51897, 'ace51897-commanderpresk', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51897,   1,         16) /* ItemType - Creature */
      , (51897,   2,          5) /* CreatureType - Lugian */
-     , (51897,   6,        255) /* ItemsCapacity */
-     , (51897,   7,        255) /* ContainersCapacity */
+     , (51897,   6,         -1) /* ItemsCapacity */
+     , (51897,   7,         -1) /* ContainersCapacity */
      , (51897,  16,         32) /* ItemUseable - Remote */
      , (51897,  25,        300) /* Level */
      , (51897,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

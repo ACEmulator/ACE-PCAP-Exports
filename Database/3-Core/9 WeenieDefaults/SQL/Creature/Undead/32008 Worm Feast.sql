@@ -6,8 +6,8 @@ VALUES (32008, 'ace32008-wormfeast', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32008,   1,         16) /* ItemType - Creature */
      , (32008,   2,         14) /* CreatureType - Undead */
-     , (32008,   6,        255) /* ItemsCapacity */
-     , (32008,   7,        255) /* ContainersCapacity */
+     , (32008,   6,         -1) /* ItemsCapacity */
+     , (32008,   7,         -1) /* ContainersCapacity */
      , (32008,  16,          1) /* ItemUseable - No */
      , (32008,  25,        160) /* Level */
      , (32008,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

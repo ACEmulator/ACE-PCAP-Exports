@@ -6,8 +6,8 @@ VALUES (49029, 'ace49029-oompaloompaszombie', 71, '2019-02-10 00:00:00') /* Comb
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49029,   1,         16) /* ItemType - Creature */
      , (49029,   2,         14) /* CreatureType - Undead */
-     , (49029,   6,        255) /* ItemsCapacity */
-     , (49029,   7,        255) /* ContainersCapacity */
+     , (49029,   6,         -1) /* ItemsCapacity */
+     , (49029,   7,         -1) /* ContainersCapacity */
      , (49029,  16,          1) /* ItemUseable - No */
      , (49029,  25,        200) /* Level */
      , (49029,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

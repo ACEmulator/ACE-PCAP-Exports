@@ -6,8 +6,8 @@ VALUES (41936, 'ace41936-corruptedgravefrost', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41936,   1,         16) /* ItemType - Creature */
      , (41936,   2,         61) /* CreatureType - FrostElemental */
-     , (41936,   6,        255) /* ItemsCapacity */
-     , (41936,   7,        255) /* ContainersCapacity */
+     , (41936,   6,         -1) /* ItemsCapacity */
+     , (41936,   7,         -1) /* ContainersCapacity */
      , (41936,  16,          1) /* ItemUseable - No */
      , (41936,  25,        240) /* Level */
      , (41936,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

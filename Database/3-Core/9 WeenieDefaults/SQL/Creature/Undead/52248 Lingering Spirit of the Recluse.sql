@@ -6,8 +6,8 @@ VALUES (52248, 'ace52248-lingeringspiritoftherecluse', 10, '2019-02-10 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52248,   1,         16) /* ItemType - Creature */
      , (52248,   2,         14) /* CreatureType - Undead */
-     , (52248,   6,        255) /* ItemsCapacity */
-     , (52248,   7,        255) /* ContainersCapacity */
+     , (52248,   6,         -1) /* ItemsCapacity */
+     , (52248,   7,         -1) /* ContainersCapacity */
      , (52248,  16,         32) /* ItemUseable - Remote */
      , (52248,  25,        500) /* Level */
      , (52248,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

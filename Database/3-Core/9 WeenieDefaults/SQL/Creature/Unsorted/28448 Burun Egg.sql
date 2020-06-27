@@ -5,8 +5,8 @@ VALUES (28448, 'eggsburunmorgluuk', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28448,   1,         16) /* ItemType - Creature */
-     , (28448,   6,        255) /* ItemsCapacity */
-     , (28448,   7,        255) /* ContainersCapacity */
+     , (28448,   6,         -1) /* ItemsCapacity */
+     , (28448,   7,         -1) /* ContainersCapacity */
      , (28448,  16,         32) /* ItemUseable - Remote */
      , (28448,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28448, 307,          0) /* DamageRating */
@@ -53,10 +53,10 @@ VALUES (28448,   1,   33558853) /* Setup */
      , (28448,   3,  536871069) /* SoundTable */
      , (28448,   8,  100676958) /* Icon */
      , (28448,  22,  872415265) /* PhysicsEffectTable */
+     , (28448,  30,         86) /* PhysicsScript - BreatheAcid */
      , (28448, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
      , (28448, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28448, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (28448, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (28448, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28448, 8040, 41484545, 72.5404, -106.446, -53.97797, 0.866893, 0, 0, -0.498495) /* PCAPRecordedLocation */

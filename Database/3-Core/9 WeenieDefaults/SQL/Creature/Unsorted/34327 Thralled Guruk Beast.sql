@@ -5,8 +5,8 @@ VALUES (34327, 'ace34327-thralledgurukbeast', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34327,   1,         16) /* ItemType - Creature */
-     , (34327,   6,        255) /* ItemsCapacity */
-     , (34327,   7,        255) /* ContainersCapacity */
+     , (34327,   6,         -1) /* ItemsCapacity */
+     , (34327,   7,         -1) /* ContainersCapacity */
      , (34327,  16,          1) /* ItemUseable - No */
      , (34327,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34327, 133,          2) /* ShowableOnRadar - ShowMovement */

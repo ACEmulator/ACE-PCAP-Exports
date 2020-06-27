@@ -6,8 +6,8 @@ VALUES (38959, 'ace38959-heatnakarea', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38959,   1,         16) /* ItemType - Creature */
      , (38959,   2,         58) /* CreatureType - HeaTumerok */
-     , (38959,   6,        255) /* ItemsCapacity */
-     , (38959,   7,        255) /* ContainersCapacity */
+     , (38959,   6,         -1) /* ItemsCapacity */
+     , (38959,   7,         -1) /* ContainersCapacity */
      , (38959,  16,          1) /* ItemUseable - No */
      , (38959,  25,        200) /* Level */
      , (38959,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

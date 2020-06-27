@@ -6,8 +6,8 @@ VALUES (36527, 'ace36527-pumpkinvine', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36527,   1,         16) /* ItemType - Creature */
      , (36527,   2,         93) /* CreatureType - Harvest */
-     , (36527,   6,        255) /* ItemsCapacity */
-     , (36527,   7,        255) /* ContainersCapacity */
+     , (36527,   6,         -1) /* ItemsCapacity */
+     , (36527,   7,         -1) /* ContainersCapacity */
      , (36527,  16,          1) /* ItemUseable - No */
      , (36527,  25,        160) /* Level */
      , (36527,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

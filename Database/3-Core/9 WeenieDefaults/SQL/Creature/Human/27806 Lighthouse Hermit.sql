@@ -6,8 +6,8 @@ VALUES (27806, 'npclighthousehermit', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27806,   1,         16) /* ItemType - Creature */
      , (27806,   2,         31) /* CreatureType - Human */
-     , (27806,   6,        255) /* ItemsCapacity */
-     , (27806,   7,        255) /* ContainersCapacity */
+     , (27806,   6,         -1) /* ItemsCapacity */
+     , (27806,   7,         -1) /* ContainersCapacity */
      , (27806,  16,         32) /* ItemUseable - Remote */
      , (27806,  25,        101) /* Level */
      , (27806,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

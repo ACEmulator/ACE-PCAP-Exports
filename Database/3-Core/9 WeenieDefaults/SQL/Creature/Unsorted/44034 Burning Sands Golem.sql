@@ -5,8 +5,8 @@ VALUES (44034, 'ace44034-burningsandsgolem', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44034,   1,         16) /* ItemType - Creature */
-     , (44034,   6,        255) /* ItemsCapacity */
-     , (44034,   7,        255) /* ContainersCapacity */
+     , (44034,   6,         -1) /* ItemsCapacity */
+     , (44034,   7,         -1) /* ContainersCapacity */
      , (44034,  16,          1) /* ItemUseable - No */
      , (44034,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44034, 133,          2) /* ShowableOnRadar - ShowMovement */

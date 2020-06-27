@@ -6,8 +6,8 @@ VALUES (36833, 'ace36833-pyrealgolem', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36833,   1,         16) /* ItemType - Creature */
      , (36833,   2,         13) /* CreatureType - Golem */
-     , (36833,   6,        255) /* ItemsCapacity */
-     , (36833,   7,        255) /* ContainersCapacity */
+     , (36833,   6,         -1) /* ItemsCapacity */
+     , (36833,   7,         -1) /* ContainersCapacity */
      , (36833,  16,          1) /* ItemUseable - No */
      , (36833,  25,        100) /* Level */
      , (36833,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (39483, 'ace39483-incendiaryspetpolarursuincub', 69, '2019-02-10 00:00:00
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39483,   1,         16) /* ItemType - Creature */
      , (39483,   2,         46) /* CreatureType - Ursuin */
-     , (39483,   6,        255) /* ItemsCapacity */
-     , (39483,   7,        255) /* ContainersCapacity */
+     , (39483,   6,         -1) /* ItemsCapacity */
+     , (39483,   7,         -1) /* ContainersCapacity */
      , (39483,  16,          1) /* ItemUseable - No */
      , (39483,  25,          2) /* Level */
      , (39483,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

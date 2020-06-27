@@ -6,8 +6,8 @@ VALUES (36084, 'ace36084-ladyaerfalle', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36084,   1,         16) /* ItemType - Creature */
      , (36084,   2,         14) /* CreatureType - Undead */
-     , (36084,   6,        255) /* ItemsCapacity */
-     , (36084,   7,        255) /* ContainersCapacity */
+     , (36084,   6,         -1) /* ItemsCapacity */
+     , (36084,   7,         -1) /* ContainersCapacity */
      , (36084,  16,         32) /* ItemUseable - Remote */
      , (36084,  25,        135) /* Level */
      , (36084,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

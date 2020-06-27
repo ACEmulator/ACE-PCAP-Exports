@@ -6,8 +6,8 @@ VALUES (45489, 'ace45489-freeweaponvendor', 12, '2019-02-10 00:00:00') /* Vendor
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45489,   1,         16) /* ItemType - Creature */
      , (45489,   2,         13) /* CreatureType - Golem */
-     , (45489,   6,        255) /* ItemsCapacity */
-     , (45489,   7,        255) /* ContainersCapacity */
+     , (45489,   6,         -1) /* ItemsCapacity */
+     , (45489,   7,         -1) /* ContainersCapacity */
      , (45489,  16,         32) /* ItemUseable - Remote */
      , (45489,  25,        100) /* Level */
      , (45489,  74,          0) /* MerchandiseItemTypes - None */

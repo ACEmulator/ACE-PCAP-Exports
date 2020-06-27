@@ -6,8 +6,8 @@ VALUES (52726, 'ace52726-defensivecrystal', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52726,   1,         16) /* ItemType - Creature */
      , (52726,   2,         47) /* CreatureType - Crystal */
-     , (52726,   6,        255) /* ItemsCapacity */
-     , (52726,   7,        255) /* ContainersCapacity */
+     , (52726,   6,         -1) /* ItemsCapacity */
+     , (52726,   7,         -1) /* ContainersCapacity */
      , (52726,  16,          1) /* ItemUseable - No */
      , (52726,  25,        200) /* Level */
      , (52726,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

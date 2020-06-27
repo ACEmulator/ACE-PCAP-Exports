@@ -6,8 +6,8 @@ VALUES (49515, 'ace49515-necromancer', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49515,   1,         16) /* ItemType - Creature */
      , (49515,   5,       8344) /* EncumbranceVal */
-     , (49515,   6,        255) /* ItemsCapacity */
-     , (49515,   7,        255) /* ContainersCapacity */
+     , (49515,   6,         -1) /* ItemsCapacity */
+     , (49515,   7,         -1) /* ContainersCapacity */
      , (49515,  16,         32) /* ItemUseable - Remote */
      , (49515,  44,          0) /* Damage */
      , (49515,  45,         16) /* DamageType - Fire */

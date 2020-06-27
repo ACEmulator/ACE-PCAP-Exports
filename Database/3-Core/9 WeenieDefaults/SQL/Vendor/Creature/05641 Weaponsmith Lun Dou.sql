@@ -6,8 +6,8 @@ VALUES (5641, 'yanshisouthwestoutpostweaponsmith', 12, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5641,   1,         16) /* ItemType - Creature */
      , (5641,   2,         31) /* CreatureType - Human */
-     , (5641,   6,        255) /* ItemsCapacity */
-     , (5641,   7,        255) /* ContainersCapacity */
+     , (5641,   6,         -1) /* ItemsCapacity */
+     , (5641,   7,         -1) /* ContainersCapacity */
      , (5641,  16,         32) /* ItemUseable - Remote */
      , (5641,  25,         10) /* Level */
      , (5641,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

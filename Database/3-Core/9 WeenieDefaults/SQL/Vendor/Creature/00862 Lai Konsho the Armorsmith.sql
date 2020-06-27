@@ -6,8 +6,8 @@ VALUES (862, 'hebianblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (862,   1,         16) /* ItemType - Creature */
      , (862,   2,         31) /* CreatureType - Human */
-     , (862,   6,        255) /* ItemsCapacity */
-     , (862,   7,        255) /* ContainersCapacity */
+     , (862,   6,         -1) /* ItemsCapacity */
+     , (862,   7,         -1) /* ContainersCapacity */
      , (862,  16,         32) /* ItemUseable - Remote */
      , (862,  25,         11) /* Level */
      , (862,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

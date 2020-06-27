@@ -6,8 +6,8 @@ VALUES (32295, 'ace32295-royalinquisitor', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32295,   1,         16) /* ItemType - Creature */
      , (32295,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32295,   6,        255) /* ItemsCapacity */
-     , (32295,   7,        255) /* ContainersCapacity */
+     , (32295,   6,         -1) /* ItemsCapacity */
+     , (32295,   7,         -1) /* ContainersCapacity */
      , (32295,  16,          1) /* ItemUseable - No */
      , (32295,  25,        185) /* Level */
      , (32295,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (49166, 'ace49166-devonsskeleton', 71, '2019-02-10 00:00:00') /* CombatPe
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49166,   1,         16) /* ItemType - Creature */
      , (49166,   2,         30) /* CreatureType - Skeleton */
-     , (49166,   6,        255) /* ItemsCapacity */
-     , (49166,   7,        255) /* ContainersCapacity */
+     , (49166,   6,         -1) /* ItemsCapacity */
+     , (49166,   7,         -1) /* ContainersCapacity */
      , (49166,  16,          1) /* ItemUseable - No */
      , (49166,  25,        100) /* Level */
      , (49166,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

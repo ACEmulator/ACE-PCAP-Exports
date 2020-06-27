@@ -5,8 +5,8 @@ VALUES (53206, 'ace53206-guardianofbirch', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53206,   1,         16) /* ItemType - Creature */
-     , (53206,   6,        255) /* ItemsCapacity */
-     , (53206,   7,        255) /* ContainersCapacity */
+     , (53206,   6,         -1) /* ItemsCapacity */
+     , (53206,   7,         -1) /* ContainersCapacity */
      , (53206,  16,         32) /* ItemUseable - Remote */
      , (53206,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53206,  95,          8) /* RadarBlipColor - Yellow */

@@ -6,8 +6,8 @@ VALUES (38600, 'ace38600-rhedathewatcher', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38600,   1,         16) /* ItemType - Creature */
      , (38600,   2,         31) /* CreatureType - Human */
-     , (38600,   6,        255) /* ItemsCapacity */
-     , (38600,   7,        255) /* ContainersCapacity */
+     , (38600,   6,         -1) /* ItemsCapacity */
+     , (38600,   7,         -1) /* ContainersCapacity */
      , (38600,  16,         32) /* ItemUseable - Remote */
      , (38600,  25,        180) /* Level */
      , (38600,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

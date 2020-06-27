@@ -6,8 +6,8 @@ VALUES (36177, 'ace36177-pillaroflightning', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36177,   1,         16) /* ItemType - Creature */
      , (36177,   2,         62) /* CreatureType - Elemental */
-     , (36177,   6,        255) /* ItemsCapacity */
-     , (36177,   7,        255) /* ContainersCapacity */
+     , (36177,   6,         -1) /* ItemsCapacity */
+     , (36177,   7,         -1) /* ContainersCapacity */
      , (36177,  16,          1) /* ItemUseable - No */
      , (36177,  25,        100) /* Level */
      , (36177,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

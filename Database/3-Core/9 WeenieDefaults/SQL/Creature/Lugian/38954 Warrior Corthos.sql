@@ -6,8 +6,8 @@ VALUES (38954, 'ace38954-warriorcorthos', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38954,   1,         16) /* ItemType - Creature */
      , (38954,   2,          5) /* CreatureType - Lugian */
-     , (38954,   6,        255) /* ItemsCapacity */
-     , (38954,   7,        255) /* ContainersCapacity */
+     , (38954,   6,         -1) /* ItemsCapacity */
+     , (38954,   7,         -1) /* ContainersCapacity */
      , (38954,  16,          1) /* ItemUseable - No */
      , (38954,  25,        200) /* Level */
      , (38954,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (46653, 'ace46653-irongolemsamurai', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46653,   1,         16) /* ItemType - Creature */
      , (46653,   2,         13) /* CreatureType - Golem */
-     , (46653,   6,        255) /* ItemsCapacity */
-     , (46653,   7,        255) /* ContainersCapacity */
+     , (46653,   6,         -1) /* ItemsCapacity */
+     , (46653,   7,         -1) /* ContainersCapacity */
      , (46653,  16,          1) /* ItemUseable - No */
      , (46653,  25,        265) /* Level */
      , (46653,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

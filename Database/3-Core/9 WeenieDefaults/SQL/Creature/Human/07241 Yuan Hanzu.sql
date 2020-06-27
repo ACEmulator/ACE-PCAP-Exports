@@ -6,8 +6,8 @@ VALUES (7241, 'bowyermasteryuanhanzu', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7241,   1,         16) /* ItemType - Creature */
      , (7241,   2,         31) /* CreatureType - Human */
-     , (7241,   6,        255) /* ItemsCapacity */
-     , (7241,   7,        255) /* ContainersCapacity */
+     , (7241,   6,         -1) /* ItemsCapacity */
+     , (7241,   7,         -1) /* ContainersCapacity */
      , (7241,  16,         32) /* ItemUseable - Remote */
      , (7241,  25,         24) /* Level */
      , (7241,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

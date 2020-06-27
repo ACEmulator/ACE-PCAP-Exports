@@ -5,8 +5,8 @@ VALUES (40098, 'ace40098-boundwisp', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40098,   1,         16) /* ItemType - Creature */
-     , (40098,   6,        255) /* ItemsCapacity */
-     , (40098,   7,        255) /* ContainersCapacity */
+     , (40098,   6,         -1) /* ItemsCapacity */
+     , (40098,   7,         -1) /* ContainersCapacity */
      , (40098,  16,         32) /* ItemUseable - Remote */
      , (40098,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (40098,  95,          8) /* RadarBlipColor - Yellow */

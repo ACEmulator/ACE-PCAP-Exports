@@ -5,8 +5,8 @@ VALUES (31954, 'ace31954-matthiaseckhart', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31954,   1,         16) /* ItemType - Creature */
-     , (31954,   6,        255) /* ItemsCapacity */
-     , (31954,   7,        255) /* ContainersCapacity */
+     , (31954,   6,         -1) /* ItemsCapacity */
+     , (31954,   7,         -1) /* ContainersCapacity */
      , (31954,  16,         32) /* ItemUseable - Remote */
      , (31954,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31954,  95,          8) /* RadarBlipColor - Yellow */

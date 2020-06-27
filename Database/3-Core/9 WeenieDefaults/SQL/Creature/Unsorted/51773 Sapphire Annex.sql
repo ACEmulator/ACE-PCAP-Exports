@@ -5,8 +5,8 @@ VALUES (51773, 'ace51773-sapphireannex', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51773,   1,         16) /* ItemType - Creature */
-     , (51773,   6,        255) /* ItemsCapacity */
-     , (51773,   7,        255) /* ContainersCapacity */
+     , (51773,   6,         -1) /* ItemsCapacity */
+     , (51773,   7,         -1) /* ContainersCapacity */
      , (51773,  16,         32) /* ItemUseable - Remote */
      , (51773,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51773,  95,          8) /* RadarBlipColor - Yellow */

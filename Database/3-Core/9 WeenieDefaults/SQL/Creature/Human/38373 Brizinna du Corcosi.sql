@@ -6,8 +6,8 @@ VALUES (38373, 'ace38373-brizinnaducorcosi', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38373,   1,         16) /* ItemType - Creature */
      , (38373,   2,         31) /* CreatureType - Human */
-     , (38373,   6,        255) /* ItemsCapacity */
-     , (38373,   7,        255) /* ContainersCapacity */
+     , (38373,   6,         -1) /* ItemsCapacity */
+     , (38373,   7,         -1) /* ContainersCapacity */
      , (38373,  16,         32) /* ItemUseable - Remote */
      , (38373,  25,        200) /* Level */
      , (38373,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

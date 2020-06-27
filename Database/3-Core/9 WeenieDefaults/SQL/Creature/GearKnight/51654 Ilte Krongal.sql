@@ -6,8 +6,8 @@ VALUES (51654, 'ace51654-iltekrongal', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51654,   1,         16) /* ItemType - Creature */
      , (51654,   2,         99) /* CreatureType - GearKnight */
-     , (51654,   6,        255) /* ItemsCapacity */
-     , (51654,   7,        255) /* ContainersCapacity */
+     , (51654,   6,         -1) /* ItemsCapacity */
+     , (51654,   7,         -1) /* ContainersCapacity */
      , (51654,  16,         32) /* ItemUseable - Remote */
      , (51654,  25,        275) /* Level */
      , (51654,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

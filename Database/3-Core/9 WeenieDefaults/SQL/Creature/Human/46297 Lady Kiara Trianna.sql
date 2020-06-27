@@ -6,8 +6,8 @@ VALUES (46297, 'ace46297-ladykiaratrianna', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46297,   1,         16) /* ItemType - Creature */
      , (46297,   2,         31) /* CreatureType - Human */
-     , (46297,   6,        255) /* ItemsCapacity */
-     , (46297,   7,        255) /* ContainersCapacity */
+     , (46297,   6,         -1) /* ItemsCapacity */
+     , (46297,   7,         -1) /* ContainersCapacity */
      , (46297,  16,         32) /* ItemUseable - Remote */
      , (46297,  25,        275) /* Level */
      , (46297,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

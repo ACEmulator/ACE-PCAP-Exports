@@ -6,8 +6,8 @@ VALUES (5047, 'lytelthorpebeltslora', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5047,   1,         16) /* ItemType - Creature */
      , (5047,   2,         31) /* CreatureType - Human */
-     , (5047,   6,        255) /* ItemsCapacity */
-     , (5047,   7,        255) /* ContainersCapacity */
+     , (5047,   6,         -1) /* ItemsCapacity */
+     , (5047,   7,         -1) /* ContainersCapacity */
      , (5047,  16,         32) /* ItemUseable - Remote */
      , (5047,  25,          4) /* Level */
      , (5047,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

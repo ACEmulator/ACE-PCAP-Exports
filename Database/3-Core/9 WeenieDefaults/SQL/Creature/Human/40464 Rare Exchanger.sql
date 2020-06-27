@@ -6,8 +6,8 @@ VALUES (40464, 'ace40464-rareexchanger', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40464,   1,         16) /* ItemType - Creature */
      , (40464,   2,         31) /* CreatureType - Human */
-     , (40464,   6,        255) /* ItemsCapacity */
-     , (40464,   7,        255) /* ContainersCapacity */
+     , (40464,   6,         -1) /* ItemsCapacity */
+     , (40464,   7,         -1) /* ContainersCapacity */
      , (40464,  16,         32) /* ItemUseable - Remote */
      , (40464,  25,         21) /* Level */
      , (40464,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

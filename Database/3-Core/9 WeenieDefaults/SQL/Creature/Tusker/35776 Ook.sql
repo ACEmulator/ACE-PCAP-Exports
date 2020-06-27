@@ -6,8 +6,8 @@ VALUES (35776, 'ace35776-ook', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35776,   1,         16) /* ItemType - Creature */
      , (35776,   2,          8) /* CreatureType - Tusker */
-     , (35776,   6,        255) /* ItemsCapacity */
-     , (35776,   7,        255) /* ContainersCapacity */
+     , (35776,   6,         -1) /* ItemsCapacity */
+     , (35776,   7,         -1) /* ContainersCapacity */
      , (35776,  16,         32) /* ItemUseable - Remote */
      , (35776,  25,         16) /* Level */
      , (35776,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

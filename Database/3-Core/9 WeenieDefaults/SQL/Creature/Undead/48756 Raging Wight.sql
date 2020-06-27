@@ -6,8 +6,8 @@ VALUES (48756, 'ace48756-ragingwight', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48756,   1,         16) /* ItemType - Creature */
      , (48756,   2,         14) /* CreatureType - Undead */
-     , (48756,   6,        255) /* ItemsCapacity */
-     , (48756,   7,        255) /* ContainersCapacity */
+     , (48756,   6,         -1) /* ItemsCapacity */
+     , (48756,   7,         -1) /* ContainersCapacity */
      , (48756,  16,          1) /* ItemUseable - No */
      , (48756,  25,        240) /* Level */
      , (48756,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

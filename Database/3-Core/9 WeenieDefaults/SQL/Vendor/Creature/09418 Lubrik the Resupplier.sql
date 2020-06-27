@@ -6,8 +6,8 @@ VALUES (9418, 'linvaktukalshopkeep', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9418,   1,         16) /* ItemType - Creature */
      , (9418,   2,          5) /* CreatureType - Lugian */
-     , (9418,   6,        255) /* ItemsCapacity */
-     , (9418,   7,        255) /* ContainersCapacity */
+     , (9418,   6,         -1) /* ItemsCapacity */
+     , (9418,   7,         -1) /* ContainersCapacity */
      , (9418,  16,         32) /* ItemUseable - Remote */
      , (9418,  25,         57) /* Level */
      , (9418,  74, 1208250287) /* MerchandiseItemTypes - Jewelry, Gem, VendorShopKeep */

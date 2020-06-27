@@ -6,8 +6,8 @@ VALUES (37085, 'ace37085-tanadaburrowsenforcer', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37085,   1,         16) /* ItemType - Creature */
      , (37085,   2,         31) /* CreatureType - Human */
-     , (37085,   6,        255) /* ItemsCapacity */
-     , (37085,   7,        255) /* ContainersCapacity */
+     , (37085,   6,         -1) /* ItemsCapacity */
+     , (37085,   7,         -1) /* ContainersCapacity */
      , (37085,  16,          1) /* ItemUseable - No */
      , (37085,  25,        135) /* Level */
      , (37085,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

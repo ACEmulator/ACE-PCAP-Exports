@@ -6,8 +6,8 @@ VALUES (32071, 'ace32071-valentinadulurio', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32071,   1,         16) /* ItemType - Creature */
      , (32071,   2,         31) /* CreatureType - Human */
-     , (32071,   6,        255) /* ItemsCapacity */
-     , (32071,   7,        255) /* ContainersCapacity */
+     , (32071,   6,         -1) /* ItemsCapacity */
+     , (32071,   7,         -1) /* ContainersCapacity */
      , (32071,  16,         32) /* ItemUseable - Remote */
      , (32071,  25,          4) /* Level */
      , (32071,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (46456, 'ace46456-lock', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46456,   1,         16) /* ItemType - Creature */
-     , (46456,   6,        255) /* ItemsCapacity */
-     , (46456,   7,        255) /* ContainersCapacity */
+     , (46456,   6,         -1) /* ItemsCapacity */
+     , (46456,   7,         -1) /* ContainersCapacity */
      , (46456,  16,         32) /* ItemUseable - Remote */
      , (46456,  93,    2097180) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, ReportCollisionsAsEnvironment */
      , (46456,  95,          3) /* RadarBlipColor - White */

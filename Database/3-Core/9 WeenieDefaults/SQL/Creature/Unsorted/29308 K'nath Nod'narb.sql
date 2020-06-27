@@ -5,8 +5,8 @@ VALUES (29308, 'knathnodnarb', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29308,   1,         16) /* ItemType - Creature */
-     , (29308,   6,        255) /* ItemsCapacity */
-     , (29308,   7,        255) /* ContainersCapacity */
+     , (29308,   6,         -1) /* ItemsCapacity */
+     , (29308,   7,         -1) /* ContainersCapacity */
      , (29308,  16,          1) /* ItemUseable - No */
      , (29308,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29308, 133,          2) /* ShowableOnRadar - ShowMovement */

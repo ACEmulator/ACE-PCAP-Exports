@@ -5,8 +5,8 @@ VALUES (39313, 'ace39313-obsidiangatestone', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39313,   1,         16) /* ItemType - Creature */
-     , (39313,   6,        255) /* ItemsCapacity */
-     , (39313,   7,        255) /* ContainersCapacity */
+     , (39313,   6,         -1) /* ItemsCapacity */
+     , (39313,   7,         -1) /* ContainersCapacity */
      , (39313,  16,         32) /* ItemUseable - Remote */
      , (39313,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (39313,  95,          8) /* RadarBlipColor - Yellow */

@@ -6,8 +6,8 @@ VALUES (21388, 'gaerlanicerepeat', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21388,   1,         16) /* ItemType - Creature */
      , (21388,   2,         51) /* CreatureType - Empyrean */
-     , (21388,   6,        255) /* ItemsCapacity */
-     , (21388,   7,        255) /* ContainersCapacity */
+     , (21388,   6,         -1) /* ItemsCapacity */
+     , (21388,   7,         -1) /* ContainersCapacity */
      , (21388,  16,          1) /* ItemUseable - No */
      , (21388,  25,        300) /* Level */
      , (21388,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

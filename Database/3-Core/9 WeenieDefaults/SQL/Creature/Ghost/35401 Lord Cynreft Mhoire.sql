@@ -6,8 +6,8 @@ VALUES (35401, 'ace35401-lordcynreftmhoire', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35401,   1,         16) /* ItemType - Creature */
      , (35401,   2,         77) /* CreatureType - Ghost */
-     , (35401,   6,        255) /* ItemsCapacity */
-     , (35401,   7,        255) /* ContainersCapacity */
+     , (35401,   6,         -1) /* ItemsCapacity */
+     , (35401,   7,         -1) /* ContainersCapacity */
      , (35401,  16,         32) /* ItemUseable - Remote */
      , (35401,  25,        270) /* Level */
      , (35401,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (36826, 'ace36826-unconquereddrudge', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36826,   1,         16) /* ItemType - Creature */
      , (36826,   2,          3) /* CreatureType - Drudge */
-     , (36826,   6,        255) /* ItemsCapacity */
-     , (36826,   7,        255) /* ContainersCapacity */
+     , (36826,   6,         -1) /* ItemsCapacity */
+     , (36826,   7,         -1) /* ContainersCapacity */
      , (36826,  16,          1) /* ItemUseable - No */
      , (36826,  25,        115) /* Level */
      , (36826,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

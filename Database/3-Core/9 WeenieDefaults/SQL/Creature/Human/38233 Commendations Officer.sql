@@ -6,8 +6,8 @@ VALUES (38233, 'ace38233-commendationsofficer', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38233,   1,         16) /* ItemType - Creature */
      , (38233,   2,         31) /* CreatureType - Human */
-     , (38233,   6,        255) /* ItemsCapacity */
-     , (38233,   7,        255) /* ContainersCapacity */
+     , (38233,   6,         -1) /* ItemsCapacity */
+     , (38233,   7,         -1) /* ContainersCapacity */
      , (38233,  16,         32) /* ItemUseable - Remote */
      , (38233,  25,        200) /* Level */
      , (38233,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

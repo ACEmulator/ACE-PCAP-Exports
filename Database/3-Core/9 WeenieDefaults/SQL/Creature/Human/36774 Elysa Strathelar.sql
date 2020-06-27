@@ -6,8 +6,8 @@ VALUES (36774, 'ace36774-elysastrathelar', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36774,   1,         16) /* ItemType - Creature */
      , (36774,   2,         31) /* CreatureType - Human */
-     , (36774,   6,        255) /* ItemsCapacity */
-     , (36774,   7,        255) /* ContainersCapacity */
+     , (36774,   6,         -1) /* ItemsCapacity */
+     , (36774,   7,         -1) /* ContainersCapacity */
      , (36774,  16,         32) /* ItemUseable - Remote */
      , (36774,  25,         89) /* Level */
      , (36774,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

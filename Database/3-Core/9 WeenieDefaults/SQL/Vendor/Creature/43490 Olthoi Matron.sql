@@ -6,8 +6,8 @@ VALUES (43490, 'ace43490-olthoimatron', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43490,   1,         16) /* ItemType - Creature */
      , (43490,   2,          1) /* CreatureType - Olthoi */
-     , (43490,   6,        255) /* ItemsCapacity */
-     , (43490,   7,        255) /* ContainersCapacity */
+     , (43490,   6,         -1) /* ItemsCapacity */
+     , (43490,   7,         -1) /* ContainersCapacity */
      , (43490,  16,         32) /* ItemUseable - Remote */
      , (43490,  25,        586) /* Level */
      , (43490,  74,          0) /* MerchandiseItemTypes - None */
@@ -42,11 +42,11 @@ VALUES (43490,   1,   33557165) /* Setup */
      , (43490,   6,   67113288) /* PaletteBase */
      , (43490,   8,  100667623) /* Icon */
      , (43490,  22,  872415379) /* PhysicsEffectTable */
+     , (43490,  30,         86) /* PhysicsScript - BreatheAcid */
      , (43490,  57,      43491) /* AlternateCurrency - Pitted Slag */
      , (43490, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (43490, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (43490, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (43490, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (43490, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43490, 8040, 3872587792, 28.9082, 173.77, 230, -0.3107731, 0, 0, -0.9504841) /* PCAPRecordedLocation */

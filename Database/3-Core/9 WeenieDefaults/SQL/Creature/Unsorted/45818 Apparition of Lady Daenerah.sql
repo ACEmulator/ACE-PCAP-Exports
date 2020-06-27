@@ -5,8 +5,8 @@ VALUES (45818, 'ace45818-apparitionofladydaenerah', 10, '2019-02-10 00:00:00') /
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45818,   1,         16) /* ItemType - Creature */
-     , (45818,   6,        255) /* ItemsCapacity */
-     , (45818,   7,        255) /* ContainersCapacity */
+     , (45818,   6,         -1) /* ItemsCapacity */
+     , (45818,   7,         -1) /* ContainersCapacity */
      , (45818,  16,          1) /* ItemUseable - No */
      , (45818,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45818,  95,          8) /* RadarBlipColor - Yellow */

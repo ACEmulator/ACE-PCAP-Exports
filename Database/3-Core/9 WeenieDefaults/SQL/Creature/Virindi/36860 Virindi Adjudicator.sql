@@ -6,8 +6,8 @@ VALUES (36860, 'ace36860-virindiadjudicator', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36860,   1,         16) /* ItemType - Creature */
      , (36860,   2,         19) /* CreatureType - Virindi */
-     , (36860,   6,        255) /* ItemsCapacity */
-     , (36860,   7,        255) /* ContainersCapacity */
+     , (36860,   6,         -1) /* ItemsCapacity */
+     , (36860,   7,         -1) /* ContainersCapacity */
      , (36860,  16,          1) /* ItemUseable - No */
      , (36860,  25,        115) /* Level */
      , (36860,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

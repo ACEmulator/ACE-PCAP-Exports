@@ -6,8 +6,8 @@ VALUES (40135, 'ace40135-corrodingpillar', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40135,   1,         16) /* ItemType - Creature */
      , (40135,   2,         47) /* CreatureType - Crystal */
-     , (40135,   6,        255) /* ItemsCapacity */
-     , (40135,   7,        255) /* ContainersCapacity */
+     , (40135,   6,         -1) /* ItemsCapacity */
+     , (40135,   7,         -1) /* ContainersCapacity */
      , (40135,  16,          1) /* ItemUseable - No */
      , (40135,  25,        100) /* Level */
      , (40135,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

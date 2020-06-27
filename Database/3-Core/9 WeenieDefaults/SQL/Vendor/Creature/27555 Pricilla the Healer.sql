@@ -6,8 +6,8 @@ VALUES (27555, 'danbyhealer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27555,   1,         16) /* ItemType - Creature */
      , (27555,   2,         31) /* CreatureType - Human */
-     , (27555,   6,        255) /* ItemsCapacity */
-     , (27555,   7,        255) /* ContainersCapacity */
+     , (27555,   6,         -1) /* ItemsCapacity */
+     , (27555,   7,         -1) /* ContainersCapacity */
      , (27555,  16,         32) /* ItemUseable - Remote */
      , (27555,  25,          9) /* Level */
      , (27555,  74,     281993) /* MerchandiseItemTypes - Jewelry, Misc, Weapon, Useless, Gem, Key, PromissoryNote */

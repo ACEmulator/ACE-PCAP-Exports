@@ -5,8 +5,8 @@ VALUES (44823, 'ace44823-derethiancombatarena', 10, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44823,   1,         16) /* ItemType - Creature */
-     , (44823,   6,        255) /* ItemsCapacity */
-     , (44823,   7,        255) /* ContainersCapacity */
+     , (44823,   6,         -1) /* ItemsCapacity */
+     , (44823,   7,         -1) /* ContainersCapacity */
      , (44823,  16,         32) /* ItemUseable - Remote */
      , (44823,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44823,  95,          4) /* RadarBlipColor - Purple */

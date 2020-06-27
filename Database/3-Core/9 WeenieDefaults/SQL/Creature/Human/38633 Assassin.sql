@@ -6,8 +6,8 @@ VALUES (38633, 'ace38633-assassin', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38633,   1,         16) /* ItemType - Creature */
      , (38633,   2,         31) /* CreatureType - Human */
-     , (38633,   6,        255) /* ItemsCapacity */
-     , (38633,   7,        255) /* ContainersCapacity */
+     , (38633,   6,         -1) /* ItemsCapacity */
+     , (38633,   7,         -1) /* ContainersCapacity */
      , (38633,  16,          1) /* ItemUseable - No */
      , (38633,  25,        200) /* Level */
      , (38633,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

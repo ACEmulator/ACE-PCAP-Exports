@@ -6,8 +6,8 @@ VALUES (19263, 'shrethgnawer-noaggro', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19263,   1,         16) /* ItemType - Creature */
      , (19263,   2,         32) /* CreatureType - Shreth */
-     , (19263,   6,        255) /* ItemsCapacity */
-     , (19263,   7,        255) /* ContainersCapacity */
+     , (19263,   6,         -1) /* ItemsCapacity */
+     , (19263,   7,         -1) /* ContainersCapacity */
      , (19263,  16,          1) /* ItemUseable - No */
      , (19263,  25,          8) /* Level */
      , (19263,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

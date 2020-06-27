@@ -6,8 +6,8 @@ VALUES (38275, 'ace38275-elesandratrembol', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38275,   1,         16) /* ItemType - Creature */
      , (38275,   2,         31) /* CreatureType - Human */
-     , (38275,   6,        255) /* ItemsCapacity */
-     , (38275,   7,        255) /* ContainersCapacity */
+     , (38275,   6,         -1) /* ItemsCapacity */
+     , (38275,   7,         -1) /* ContainersCapacity */
      , (38275,  16,         32) /* ItemUseable - Remote */
      , (38275,  25,        220) /* Level */
      , (38275,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

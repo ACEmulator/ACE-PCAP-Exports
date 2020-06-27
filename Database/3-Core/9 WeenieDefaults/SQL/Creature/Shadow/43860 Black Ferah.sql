@@ -6,8 +6,8 @@ VALUES (43860, 'ace43860-blackferah', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43860,   1,         16) /* ItemType - Creature */
      , (43860,   2,         22) /* CreatureType - Shadow */
-     , (43860,   6,        255) /* ItemsCapacity */
-     , (43860,   7,        255) /* ContainersCapacity */
+     , (43860,   6,         -1) /* ItemsCapacity */
+     , (43860,   7,         -1) /* ContainersCapacity */
      , (43860,  16,         32) /* ItemUseable - Remote */
      , (43860,  25,        600) /* Level */
      , (43860,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

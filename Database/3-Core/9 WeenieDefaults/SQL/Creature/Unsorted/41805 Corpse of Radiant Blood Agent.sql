@@ -6,8 +6,8 @@ VALUES (41805, 'ace41805-corpseofradiantbloodagent', 10, '2019-02-10 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41805,   1,         16) /* ItemType - Creature */
      , (41805,   5,       6000) /* EncumbranceVal */
-     , (41805,   6,        255) /* ItemsCapacity */
-     , (41805,   7,        255) /* ContainersCapacity */
+     , (41805,   6,         -1) /* ItemsCapacity */
+     , (41805,   7,         -1) /* ContainersCapacity */
      , (41805,  16,         32) /* ItemUseable - Remote */
      , (41805,  93,    6292492) /* PhysicsState - Ethereal, ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41805,  95,          8) /* RadarBlipColor - Yellow */

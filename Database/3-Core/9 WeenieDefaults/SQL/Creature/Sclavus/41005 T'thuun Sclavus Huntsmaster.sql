@@ -6,8 +6,8 @@ VALUES (41005, 'ace41005-tthuunsclavushuntsmaster', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41005,   1,         16) /* ItemType - Creature */
      , (41005,   2,         26) /* CreatureType - Sclavus */
-     , (41005,   6,        255) /* ItemsCapacity */
-     , (41005,   7,        255) /* ContainersCapacity */
+     , (41005,   6,         -1) /* ItemsCapacity */
+     , (41005,   7,         -1) /* ContainersCapacity */
      , (41005,  16,          1) /* ItemUseable - No */
      , (41005,  25,        240) /* Level */
      , (41005,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

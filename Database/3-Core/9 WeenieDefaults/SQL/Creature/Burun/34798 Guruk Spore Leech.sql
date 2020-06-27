@@ -6,8 +6,8 @@ VALUES (34798, 'ace34798-guruksporeleech', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34798,   1,         16) /* ItemType - Creature */
      , (34798,   2,         75) /* CreatureType - Burun */
-     , (34798,   6,        255) /* ItemsCapacity */
-     , (34798,   7,        255) /* ContainersCapacity */
+     , (34798,   6,         -1) /* ItemsCapacity */
+     , (34798,   7,         -1) /* ContainersCapacity */
      , (34798,  16,          1) /* ItemUseable - No */
      , (34798,  25,        200) /* Level */
      , (34798,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

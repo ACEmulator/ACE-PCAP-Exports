@@ -6,8 +6,8 @@ VALUES (36960, 'ace36960-mosswartprotector', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36960,   1,         16) /* ItemType - Creature */
      , (36960,   2,          4) /* CreatureType - Mosswart */
-     , (36960,   6,        255) /* ItemsCapacity */
-     , (36960,   7,        255) /* ContainersCapacity */
+     , (36960,   6,         -1) /* ItemsCapacity */
+     , (36960,   7,         -1) /* ContainersCapacity */
      , (36960,  16,          1) /* ItemUseable - No */
      , (36960,  25,        185) /* Level */
      , (36960,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (44263, 'ace44263-sirhassimbintamarek', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44263,   1,         16) /* ItemType - Creature */
      , (44263,   2,         31) /* CreatureType - Human */
-     , (44263,   6,        255) /* ItemsCapacity */
-     , (44263,   7,        255) /* ContainersCapacity */
+     , (44263,   6,         -1) /* ItemsCapacity */
+     , (44263,   7,         -1) /* ContainersCapacity */
      , (44263,  16,         32) /* ItemUseable - Remote */
      , (44263,  25,        275) /* Level */
      , (44263,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

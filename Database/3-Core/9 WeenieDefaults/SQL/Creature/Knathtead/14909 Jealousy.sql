@@ -6,8 +6,8 @@ VALUES (14909, 'knathjealousy', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14909,   1,         16) /* ItemType - Creature */
      , (14909,   2,         21) /* CreatureType - Knathtead */
-     , (14909,   6,        255) /* ItemsCapacity */
-     , (14909,   7,        255) /* ContainersCapacity */
+     , (14909,   6,         -1) /* ItemsCapacity */
+     , (14909,   7,         -1) /* ContainersCapacity */
      , (14909,  16,          1) /* ItemUseable - No */
      , (14909,  25,         10) /* Level */
      , (14909,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

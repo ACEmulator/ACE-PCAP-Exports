@@ -5,8 +5,8 @@ VALUES (39454, 'ace39454-tendriloftthuun', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39454,   1,         16) /* ItemType - Creature */
-     , (39454,   6,        255) /* ItemsCapacity */
-     , (39454,   7,        255) /* ContainersCapacity */
+     , (39454,   6,         -1) /* ItemsCapacity */
+     , (39454,   7,         -1) /* ContainersCapacity */
      , (39454,  16,          1) /* ItemUseable - No */
      , (39454,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (39454, 133,          2) /* ShowableOnRadar - ShowMovement */

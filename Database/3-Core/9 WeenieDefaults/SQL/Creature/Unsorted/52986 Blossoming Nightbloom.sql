@@ -5,8 +5,8 @@ VALUES (52986, 'ace52986-blossomingnightbloom', 10, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52986,   1,         16) /* ItemType - Creature */
-     , (52986,   6,        255) /* ItemsCapacity */
-     , (52986,   7,        255) /* ContainersCapacity */
+     , (52986,   6,         -1) /* ItemsCapacity */
+     , (52986,   7,         -1) /* ContainersCapacity */
      , (52986,  16,         32) /* ItemUseable - Remote */
      , (52986,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52986,  95,          8) /* RadarBlipColor - Yellow */

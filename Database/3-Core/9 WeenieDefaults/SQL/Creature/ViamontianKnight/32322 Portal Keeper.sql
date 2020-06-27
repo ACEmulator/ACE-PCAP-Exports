@@ -6,8 +6,8 @@ VALUES (32322, 'ace32322-portalkeeper', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32322,   1,         16) /* ItemType - Creature */
      , (32322,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32322,   6,        255) /* ItemsCapacity */
-     , (32322,   7,        255) /* ContainersCapacity */
+     , (32322,   6,         -1) /* ItemsCapacity */
+     , (32322,   7,         -1) /* ContainersCapacity */
      , (32322,  16,          1) /* ItemUseable - No */
      , (32322,  25,        160) /* Level */
      , (32322,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

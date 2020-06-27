@@ -6,8 +6,8 @@ VALUES (45083, 'ace45083-devinemysticspetgumdrop', 69, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45083,   1,         16) /* ItemType - Creature */
      , (45083,   2,         21) /* CreatureType - Knathtead */
-     , (45083,   6,        255) /* ItemsCapacity */
-     , (45083,   7,        255) /* ContainersCapacity */
+     , (45083,   6,         -1) /* ItemsCapacity */
+     , (45083,   7,         -1) /* ContainersCapacity */
      , (45083,  16,          1) /* ItemUseable - No */
      , (45083,  25,          5) /* Level */
      , (45083,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

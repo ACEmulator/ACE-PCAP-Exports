@@ -6,8 +6,8 @@ VALUES (36042, 'ace36042-ulgrim', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36042,   1,         16) /* ItemType - Creature */
      , (36042,   2,         19) /* CreatureType - Virindi */
-     , (36042,   6,        255) /* ItemsCapacity */
-     , (36042,   7,        255) /* ContainersCapacity */
+     , (36042,   6,         -1) /* ItemsCapacity */
+     , (36042,   7,         -1) /* ContainersCapacity */
      , (36042,  16,          1) /* ItemUseable - No */
      , (36042,  25,        185) /* Level */
      , (36042,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

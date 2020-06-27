@@ -6,8 +6,8 @@ VALUES (29772, 'rewardclutchrehir', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29772,   1,         16) /* ItemType - Creature */
      , (29772,   2,         31) /* CreatureType - Human */
-     , (29772,   6,        255) /* ItemsCapacity */
-     , (29772,   7,        255) /* ContainersCapacity */
+     , (29772,   6,         -1) /* ItemsCapacity */
+     , (29772,   7,         -1) /* ContainersCapacity */
      , (29772,  16,         32) /* ItemUseable - Remote */
      , (29772,  25,        126) /* Level */
      , (29772,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

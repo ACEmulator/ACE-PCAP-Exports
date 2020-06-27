@@ -6,8 +6,8 @@ VALUES (49576, 'ace49576-mumiyahrecluse', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49576,   1,         16) /* ItemType - Creature */
      , (49576,   2,         14) /* CreatureType - Undead */
-     , (49576,   6,        255) /* ItemsCapacity */
-     , (49576,   7,        255) /* ContainersCapacity */
+     , (49576,   6,         -1) /* ItemsCapacity */
+     , (49576,   7,         -1) /* ContainersCapacity */
      , (49576,  16,          1) /* ItemUseable - No */
      , (49576,  25,        500) /* Level */
      , (49576,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

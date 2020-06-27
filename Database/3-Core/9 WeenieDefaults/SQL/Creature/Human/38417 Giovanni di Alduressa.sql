@@ -6,8 +6,8 @@ VALUES (38417, 'ace38417-giovannidialduressa', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38417,   1,         16) /* ItemType - Creature */
      , (38417,   2,         31) /* CreatureType - Human */
-     , (38417,   6,        255) /* ItemsCapacity */
-     , (38417,   7,        255) /* ContainersCapacity */
+     , (38417,   6,         -1) /* ItemsCapacity */
+     , (38417,   7,         -1) /* ContainersCapacity */
      , (38417,  16,         32) /* ItemUseable - Remote */
      , (38417,  25,        185) /* Level */
      , (38417,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

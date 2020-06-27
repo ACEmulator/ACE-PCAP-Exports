@@ -6,8 +6,8 @@ VALUES (51155, 'ace51155-kogahideki', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51155,   1,         16) /* ItemType - Creature */
      , (51155,   2,         31) /* CreatureType - Human */
-     , (51155,   6,        255) /* ItemsCapacity */
-     , (51155,   7,        255) /* ContainersCapacity */
+     , (51155,   6,         -1) /* ItemsCapacity */
+     , (51155,   7,         -1) /* ContainersCapacity */
      , (51155,  16,         32) /* ItemUseable - Remote */
      , (51155,  25,        100) /* Level */
      , (51155,  74,          0) /* MerchandiseItemTypes - None */

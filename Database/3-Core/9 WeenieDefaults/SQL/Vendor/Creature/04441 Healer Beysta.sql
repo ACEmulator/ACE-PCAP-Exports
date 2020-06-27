@@ -6,8 +6,8 @@ VALUES (4441, 'lytelthorpehealer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4441,   1,         16) /* ItemType - Creature */
      , (4441,   2,         31) /* CreatureType - Human */
-     , (4441,   6,        255) /* ItemsCapacity */
-     , (4441,   7,        255) /* ContainersCapacity */
+     , (4441,   6,         -1) /* ItemsCapacity */
+     , (4441,   7,         -1) /* ContainersCapacity */
      , (4441,  16,         32) /* ItemUseable - Remote */
      , (4441,  25,          9) /* Level */
      , (4441,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */

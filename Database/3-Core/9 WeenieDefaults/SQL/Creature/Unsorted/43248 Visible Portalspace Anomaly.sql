@@ -5,8 +5,8 @@ VALUES (43248, 'ace43248-visibleportalspaceanomaly', 10, '2019-02-10 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43248,   1,         16) /* ItemType - Creature */
-     , (43248,   6,        255) /* ItemsCapacity */
-     , (43248,   7,        255) /* ContainersCapacity */
+     , (43248,   6,         -1) /* ItemsCapacity */
+     , (43248,   7,         -1) /* ContainersCapacity */
      , (43248,  16,          1) /* ItemUseable - No */
      , (43248,  93,    2100236) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment */
      , (43248, 133,          1) /* ShowableOnRadar - ShowNever */

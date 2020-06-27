@@ -6,8 +6,8 @@ VALUES (47205, 'ace47205-forgeguardian', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47205,   1,         16) /* ItemType - Creature */
      , (47205,   2,         14) /* CreatureType - Undead */
-     , (47205,   6,        255) /* ItemsCapacity */
-     , (47205,   7,        255) /* ContainersCapacity */
+     , (47205,   6,         -1) /* ItemsCapacity */
+     , (47205,   7,         -1) /* ContainersCapacity */
      , (47205,  16,          1) /* ItemUseable - No */
      , (47205,  25,        210) /* Level */
      , (47205,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

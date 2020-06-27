@@ -6,8 +6,8 @@ VALUES (30836, 'lugianshadowseeker', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30836,   1,         16) /* ItemType - Creature */
      , (30836,   2,         22) /* CreatureType - Shadow */
-     , (30836,   6,        255) /* ItemsCapacity */
-     , (30836,   7,        255) /* ContainersCapacity */
+     , (30836,   6,         -1) /* ItemsCapacity */
+     , (30836,   7,         -1) /* ContainersCapacity */
      , (30836,  16,          1) /* ItemUseable - No */
      , (30836,  25,        100) /* Level */
      , (30836,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

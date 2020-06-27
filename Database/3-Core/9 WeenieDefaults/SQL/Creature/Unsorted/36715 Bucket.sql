@@ -5,8 +5,8 @@ VALUES (36715, 'ace36715-bucket', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36715,   1,         16) /* ItemType - Creature */
-     , (36715,   6,        255) /* ItemsCapacity */
-     , (36715,   7,        255) /* ContainersCapacity */
+     , (36715,   6,         -1) /* ItemsCapacity */
+     , (36715,   7,         -1) /* ContainersCapacity */
      , (36715,  16,         32) /* ItemUseable - Remote */
      , (36715,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36715,  95,          3) /* RadarBlipColor - White */

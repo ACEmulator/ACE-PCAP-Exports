@@ -6,8 +6,8 @@ VALUES (43746, 'ace43746-ghostofgalaeral', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43746,   1,         16) /* ItemType - Creature */
      , (43746,   2,         77) /* CreatureType - Ghost */
-     , (43746,   6,        255) /* ItemsCapacity */
-     , (43746,   7,        255) /* ContainersCapacity */
+     , (43746,   6,         -1) /* ItemsCapacity */
+     , (43746,   7,         -1) /* ContainersCapacity */
      , (43746,  16,         32) /* ItemUseable - Remote */
      , (43746,  25,         74) /* Level */
      , (43746,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -5,8 +5,8 @@ VALUES (53285, 'ace53285-lairofthegromnuschampion', 10, '2019-02-10 00:00:00') /
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53285,   1,         16) /* ItemType - Creature */
-     , (53285,   6,        255) /* ItemsCapacity */
-     , (53285,   7,        255) /* ContainersCapacity */
+     , (53285,   6,         -1) /* ItemsCapacity */
+     , (53285,   7,         -1) /* ContainersCapacity */
      , (53285,  16,         32) /* ItemUseable - Remote */
      , (53285,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53285,  95,          4) /* RadarBlipColor - Purple */

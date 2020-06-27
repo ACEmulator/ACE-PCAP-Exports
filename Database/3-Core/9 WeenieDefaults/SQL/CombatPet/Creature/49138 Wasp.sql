@@ -6,8 +6,8 @@ VALUES (49138, 'ace49138-garfookswasp', 71, '2019-02-10 00:00:00') /* CombatPet 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49138,   1,         16) /* ItemType - Creature */
      , (49138,   2,          9) /* CreatureType - PhyntosWasp */
-     , (49138,   6,        255) /* ItemsCapacity */
-     , (49138,   7,        255) /* ContainersCapacity */
+     , (49138,   6,         -1) /* ItemsCapacity */
+     , (49138,   7,         -1) /* ContainersCapacity */
      , (49138,  16,          1) /* ItemUseable - No */
      , (49138,  25,        100) /* Level */
      , (49138,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

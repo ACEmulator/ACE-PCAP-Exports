@@ -6,8 +6,8 @@ VALUES (34622, 'ace34622-demonswarmmatron', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34622,   1,         16) /* ItemType - Creature */
      , (34622,   2,          1) /* CreatureType - Olthoi */
-     , (34622,   6,        255) /* ItemsCapacity */
-     , (34622,   7,        255) /* ContainersCapacity */
+     , (34622,   6,         -1) /* ItemsCapacity */
+     , (34622,   7,         -1) /* ContainersCapacity */
      , (34622,  16,          1) /* ItemUseable - No */
      , (34622,  25,        135) /* Level */
      , (34622,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -31,10 +31,10 @@ VALUES (34622,   1,   33557165) /* Setup */
      , (34622,   6,   67113288) /* PaletteBase */
      , (34622,   8,  100667623) /* Icon */
      , (34622,  22,  872415379) /* PhysicsEffectTable */
+     , (34622,  30,         84) /* PhysicsScript - BreatheFlame */
      , (34622, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34622, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (34622, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (34622, 8019,         84) /* PCAPRecordedDefaultScript */;
+     , (34622, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34622, 8040, 11927838, 207.0884, -167.9434, -12, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */

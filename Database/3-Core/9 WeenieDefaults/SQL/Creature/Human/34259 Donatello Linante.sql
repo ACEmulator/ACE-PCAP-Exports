@@ -6,8 +6,8 @@ VALUES (34259, 'ace34259-donatellolinante', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34259,   1,         16) /* ItemType - Creature */
      , (34259,   2,         31) /* CreatureType - Human */
-     , (34259,   6,        255) /* ItemsCapacity */
-     , (34259,   7,        255) /* ContainersCapacity */
+     , (34259,   6,         -1) /* ItemsCapacity */
+     , (34259,   7,         -1) /* ContainersCapacity */
      , (34259,  16,         32) /* ItemUseable - Remote */
      , (34259,  25,        267) /* Level */
      , (34259,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

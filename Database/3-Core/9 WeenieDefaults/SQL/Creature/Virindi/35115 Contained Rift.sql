@@ -6,8 +6,8 @@ VALUES (35115, 'ace35115-containedrift', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35115,   1,         16) /* ItemType - Creature */
      , (35115,   2,         19) /* CreatureType - Virindi */
-     , (35115,   6,        255) /* ItemsCapacity */
-     , (35115,   7,        255) /* ContainersCapacity */
+     , (35115,   6,         -1) /* ItemsCapacity */
+     , (35115,   7,         -1) /* ContainersCapacity */
      , (35115,  16,          1) /* ItemUseable - No */
      , (35115,  25,         50) /* Level */
      , (35115,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

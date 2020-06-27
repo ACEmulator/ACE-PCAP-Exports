@@ -5,8 +5,8 @@ VALUES (52259, 'ace52259-altar', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52259,   1,         16) /* ItemType - Creature */
-     , (52259,   6,        255) /* ItemsCapacity */
-     , (52259,   7,        255) /* ContainersCapacity */
+     , (52259,   6,         -1) /* ItemsCapacity */
+     , (52259,   7,         -1) /* ContainersCapacity */
      , (52259,  16,         32) /* ItemUseable - Remote */
      , (52259,  93,    2100248) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment */
      , (52259,  95,          8) /* RadarBlipColor - Yellow */

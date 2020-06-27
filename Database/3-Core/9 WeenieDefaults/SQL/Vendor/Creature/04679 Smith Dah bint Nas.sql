@@ -6,8 +6,8 @@ VALUES (4679, 'alarqasblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4679,   1,         16) /* ItemType - Creature */
      , (4679,   2,         31) /* CreatureType - Human */
-     , (4679,   6,        255) /* ItemsCapacity */
-     , (4679,   7,        255) /* ContainersCapacity */
+     , (4679,   6,         -1) /* ItemsCapacity */
+     , (4679,   7,         -1) /* ContainersCapacity */
      , (4679,  16,         32) /* ItemUseable - Remote */
      , (4679,  25,         10) /* Level */
      , (4679,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

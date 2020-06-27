@@ -5,8 +5,8 @@ VALUES (29957, 'journalnuhmudiraroads', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29957,   1,         16) /* ItemType - Creature */
-     , (29957,   6,        255) /* ItemsCapacity */
-     , (29957,   7,        255) /* ContainersCapacity */
+     , (29957,   6,         -1) /* ItemsCapacity */
+     , (29957,   7,         -1) /* ContainersCapacity */
      , (29957,  16,         32) /* ItemUseable - Remote */
      , (29957,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29957,  95,          3) /* RadarBlipColor - White */

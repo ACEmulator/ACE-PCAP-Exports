@@ -6,8 +6,8 @@ VALUES (19264, 'skeletonrelicbones-noaggro', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19264,   1,         16) /* ItemType - Creature */
      , (19264,   2,         30) /* CreatureType - Skeleton */
-     , (19264,   6,        255) /* ItemsCapacity */
-     , (19264,   7,        255) /* ContainersCapacity */
+     , (19264,   6,         -1) /* ItemsCapacity */
+     , (19264,   7,         -1) /* ContainersCapacity */
      , (19264,  16,          1) /* ItemUseable - No */
      , (19264,  25,         80) /* Level */
      , (19264,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

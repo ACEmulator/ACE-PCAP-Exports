@@ -5,8 +5,8 @@ VALUES (43837, 'ace43837-enchantedmnemosyne', 10, '2019-02-10 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43837,   1,         16) /* ItemType - Creature */
-     , (43837,   6,        255) /* ItemsCapacity */
-     , (43837,   7,        255) /* ContainersCapacity */
+     , (43837,   6,         -1) /* ItemsCapacity */
+     , (43837,   7,         -1) /* ContainersCapacity */
      , (43837,  16,         32) /* ItemUseable - Remote */
      , (43837,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43837, 307,          0) /* DamageRating */

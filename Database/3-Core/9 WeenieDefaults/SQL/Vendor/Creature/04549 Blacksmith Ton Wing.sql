@@ -6,8 +6,8 @@ VALUES (4549, 'nantoblacksmith', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4549,   1,         16) /* ItemType - Creature */
      , (4549,   2,         31) /* CreatureType - Human */
-     , (4549,   6,        255) /* ItemsCapacity */
-     , (4549,   7,        255) /* ContainersCapacity */
+     , (4549,   6,         -1) /* ItemsCapacity */
+     , (4549,   7,         -1) /* ContainersCapacity */
      , (4549,  16,         32) /* ItemUseable - Remote */
      , (4549,  25,          8) /* Level */
      , (4549,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

@@ -6,8 +6,8 @@ VALUES (19540, 'estuaryelementalscoriscant', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19540,   1,         16) /* ItemType - Creature */
      , (19540,   2,         62) /* CreatureType - Elemental */
-     , (19540,   6,        255) /* ItemsCapacity */
-     , (19540,   7,        255) /* ContainersCapacity */
+     , (19540,   6,         -1) /* ItemsCapacity */
+     , (19540,   7,         -1) /* ContainersCapacity */
      , (19540,  16,          1) /* ItemUseable - No */
      , (19540,  25,        115) /* Level */
      , (19540,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

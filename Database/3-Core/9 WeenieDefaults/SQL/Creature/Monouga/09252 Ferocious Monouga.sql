@@ -6,8 +6,8 @@ VALUES (9252, 'monougaferocious', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9252,   1,         16) /* ItemType - Creature */
      , (9252,   2,         28) /* CreatureType - Monouga */
-     , (9252,   6,        255) /* ItemsCapacity */
-     , (9252,   7,        255) /* ContainersCapacity */
+     , (9252,   6,         -1) /* ItemsCapacity */
+     , (9252,   7,         -1) /* ContainersCapacity */
      , (9252,  16,          1) /* ItemUseable - No */
      , (9252,  25,         60) /* Level */
      , (9252,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

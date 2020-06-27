@@ -6,8 +6,8 @@ VALUES (33831, 'ace33831-sawatobandit', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33831,   1,         16) /* ItemType - Creature */
      , (33831,   2,         31) /* CreatureType - Human */
-     , (33831,   6,        255) /* ItemsCapacity */
-     , (33831,   7,        255) /* ContainersCapacity */
+     , (33831,   6,         -1) /* ItemsCapacity */
+     , (33831,   7,         -1) /* ContainersCapacity */
      , (33831,  16,          1) /* ItemUseable - No */
      , (33831,  25,        160) /* Level */
      , (33831,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

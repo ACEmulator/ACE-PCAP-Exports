@@ -6,8 +6,8 @@ VALUES (49149, 'ace49149-nihoawasswarm', 71, '2019-02-10 00:00:00') /* CombatPet
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49149,   1,         16) /* ItemType - Creature */
      , (49149,   2,          9) /* CreatureType - PhyntosWasp */
-     , (49149,   6,        255) /* ItemsCapacity */
-     , (49149,   7,        255) /* ContainersCapacity */
+     , (49149,   6,         -1) /* ItemsCapacity */
+     , (49149,   7,         -1) /* ContainersCapacity */
      , (49149,  16,          1) /* ItemUseable - No */
      , (49149,  25,        200) /* Level */
      , (49149,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

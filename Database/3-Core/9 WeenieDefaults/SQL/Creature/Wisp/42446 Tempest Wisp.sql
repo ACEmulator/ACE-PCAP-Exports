@@ -6,8 +6,8 @@ VALUES (42446, 'ace42446-tempestwisp', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42446,   1,         16) /* ItemType - Creature */
      , (42446,   2,         20) /* CreatureType - Wisp */
-     , (42446,   6,        255) /* ItemsCapacity */
-     , (42446,   7,        255) /* ContainersCapacity */
+     , (42446,   6,         -1) /* ItemsCapacity */
+     , (42446,   7,         -1) /* ContainersCapacity */
      , (42446,  16,          1) /* ItemUseable - No */
      , (42446,  25,        115) /* Level */
      , (42446,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

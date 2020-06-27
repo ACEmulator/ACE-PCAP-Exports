@@ -5,8 +5,8 @@ VALUES (37485, 'ace37485-jestersmarker', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37485,   1,         16) /* ItemType - Creature */
-     , (37485,   6,        255) /* ItemsCapacity */
-     , (37485,   7,        255) /* ContainersCapacity */
+     , (37485,   6,         -1) /* ItemsCapacity */
+     , (37485,   7,         -1) /* ContainersCapacity */
      , (37485,  16,         32) /* ItemUseable - Remote */
      , (37485,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37485,  95,          8) /* RadarBlipColor - Yellow */

@@ -5,8 +5,8 @@ VALUES (43083, 'ace43083-apostatevirindiaggressor', 10, '2019-02-10 00:00:00') /
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43083,   1,         16) /* ItemType - Creature */
-     , (43083,   6,        255) /* ItemsCapacity */
-     , (43083,   7,        255) /* ContainersCapacity */
+     , (43083,   6,         -1) /* ItemsCapacity */
+     , (43083,   7,         -1) /* ContainersCapacity */
      , (43083,  16,          1) /* ItemUseable - No */
      , (43083,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43083, 133,          2) /* ShowableOnRadar - ShowMovement */

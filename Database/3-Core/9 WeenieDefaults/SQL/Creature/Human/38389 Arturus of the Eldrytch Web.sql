@@ -6,8 +6,8 @@ VALUES (38389, 'ace38389-arturusoftheeldrytchweb', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38389,   1,         16) /* ItemType - Creature */
      , (38389,   2,         31) /* CreatureType - Human */
-     , (38389,   6,        255) /* ItemsCapacity */
-     , (38389,   7,        255) /* ContainersCapacity */
+     , (38389,   6,         -1) /* ItemsCapacity */
+     , (38389,   7,         -1) /* ContainersCapacity */
      , (38389,  16,         32) /* ItemUseable - Remote */
      , (38389,  25,        180) /* Level */
      , (38389,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

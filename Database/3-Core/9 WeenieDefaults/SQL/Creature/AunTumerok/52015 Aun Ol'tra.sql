@@ -6,8 +6,8 @@ VALUES (52015, 'ace52015-aunoltra', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52015,   1,         16) /* ItemType - Creature */
      , (52015,   2,         57) /* CreatureType - AunTumerok */
-     , (52015,   6,        255) /* ItemsCapacity */
-     , (52015,   7,        255) /* ContainersCapacity */
+     , (52015,   6,         -1) /* ItemsCapacity */
+     , (52015,   7,         -1) /* ContainersCapacity */
      , (52015,  16,         32) /* ItemUseable - Remote */
      , (52015,  25,        275) /* Level */
      , (52015,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

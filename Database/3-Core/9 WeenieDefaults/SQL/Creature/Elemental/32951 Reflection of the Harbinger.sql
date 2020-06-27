@@ -6,8 +6,8 @@ VALUES (32951, 'ace32951-reflectionoftheharbinger', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32951,   1,         16) /* ItemType - Creature */
      , (32951,   2,         62) /* CreatureType - Elemental */
-     , (32951,   6,        255) /* ItemsCapacity */
-     , (32951,   7,        255) /* ContainersCapacity */
+     , (32951,   6,         -1) /* ItemsCapacity */
+     , (32951,   7,         -1) /* ContainersCapacity */
      , (32951,  16,          1) /* ItemUseable - No */
      , (32951,  25,        160) /* Level */
      , (32951,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (43774, 'ace43774-missiledefender', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43774,   1,         16) /* ItemType - Creature */
      , (43774,   2,         13) /* CreatureType - Golem */
-     , (43774,   6,        255) /* ItemsCapacity */
-     , (43774,   7,        255) /* ContainersCapacity */
+     , (43774,   6,         -1) /* ItemsCapacity */
+     , (43774,   7,         -1) /* ContainersCapacity */
      , (43774,  16,          1) /* ItemUseable - No */
      , (43774,  25,        200) /* Level */
      , (43774,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

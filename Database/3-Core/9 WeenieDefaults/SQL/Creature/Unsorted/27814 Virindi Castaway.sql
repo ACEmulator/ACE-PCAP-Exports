@@ -5,8 +5,8 @@ VALUES (27814, 'virindicastawaymartine', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27814,   1,         16) /* ItemType - Creature */
-     , (27814,   6,        255) /* ItemsCapacity */
-     , (27814,   7,        255) /* ContainersCapacity */
+     , (27814,   6,         -1) /* ItemsCapacity */
+     , (27814,   7,         -1) /* ContainersCapacity */
      , (27814,  16,         32) /* ItemUseable - Remote */
      , (27814,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27814,  95,          8) /* RadarBlipColor - Yellow */

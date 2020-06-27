@@ -5,8 +5,8 @@ VALUES (48822, 'ace48822-statueofcreepingdeath', 10, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48822,   1,         16) /* ItemType - Creature */
-     , (48822,   6,        255) /* ItemsCapacity */
-     , (48822,   7,        255) /* ContainersCapacity */
+     , (48822,   6,         -1) /* ItemsCapacity */
+     , (48822,   7,         -1) /* ContainersCapacity */
      , (48822,  16,          1) /* ItemUseable - No */
      , (48822,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (48822, 307,        175) /* DamageRating */

@@ -5,8 +5,8 @@ VALUES (52800, 'ace52800-masterofthegauntlet', 10, '2019-02-10 00:00:00') /* Cre
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52800,   1,         16) /* ItemType - Creature */
-     , (52800,   6,        255) /* ItemsCapacity */
-     , (52800,   7,        255) /* ContainersCapacity */
+     , (52800,   6,         -1) /* ItemsCapacity */
+     , (52800,   7,         -1) /* ContainersCapacity */
      , (52800,  16,         32) /* ItemUseable - Remote */
      , (52800,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52800,  95,          8) /* RadarBlipColor - Yellow */

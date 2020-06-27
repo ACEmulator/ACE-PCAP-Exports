@@ -6,8 +6,8 @@ VALUES (48801, 'ace48801-janthef', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48801,   1,         16) /* ItemType - Creature */
      , (48801,   2,         77) /* CreatureType - Ghost */
-     , (48801,   6,        255) /* ItemsCapacity */
-     , (48801,   7,        255) /* ContainersCapacity */
+     , (48801,   6,         -1) /* ItemsCapacity */
+     , (48801,   7,         -1) /* ContainersCapacity */
      , (48801,  16,          1) /* ItemUseable - No */
      , (48801,  25,        240) /* Level */
      , (48801,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (45475, 'ace45475-daggermastery', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45475,   1,         16) /* ItemType - Creature */
      , (45475,   5,       8066) /* EncumbranceVal */
-     , (45475,   6,        255) /* ItemsCapacity */
-     , (45475,   7,        255) /* ContainersCapacity */
+     , (45475,   6,         -1) /* ItemsCapacity */
+     , (45475,   7,         -1) /* ContainersCapacity */
      , (45475,  16,         32) /* ItemUseable - Remote */
      , (45475,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45475,  95,          8) /* RadarBlipColor - Yellow */

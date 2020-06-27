@@ -6,8 +6,8 @@ VALUES (22904, 'darkrevenantguardian', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22904,   1,         16) /* ItemType - Creature */
      , (22904,   2,         14) /* CreatureType - Undead */
-     , (22904,   6,        255) /* ItemsCapacity */
-     , (22904,   7,        255) /* ContainersCapacity */
+     , (22904,   6,         -1) /* ItemsCapacity */
+     , (22904,   7,         -1) /* ContainersCapacity */
      , (22904,  16,          1) /* ItemUseable - No */
      , (22904,  25,        160) /* Level */
      , (22904,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

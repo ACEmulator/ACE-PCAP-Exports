@@ -6,8 +6,8 @@ VALUES (34821, 'ace34821-brogosh', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34821,   1,         16) /* ItemType - Creature */
      , (34821,   2,         75) /* CreatureType - Burun */
-     , (34821,   6,        255) /* ItemsCapacity */
-     , (34821,   7,        255) /* ContainersCapacity */
+     , (34821,   6,         -1) /* ItemsCapacity */
+     , (34821,   7,         -1) /* ContainersCapacity */
      , (34821,  16,         32) /* ItemUseable - Remote */
      , (34821,  25,        100) /* Level */
      , (34821,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (29359, 'aurochravager', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29359,   1,         16) /* ItemType - Creature */
      , (29359,   2,         11) /* CreatureType - Auroch */
-     , (29359,   6,        255) /* ItemsCapacity */
-     , (29359,   7,        255) /* ContainersCapacity */
+     , (29359,   6,         -1) /* ItemsCapacity */
+     , (29359,   7,         -1) /* ContainersCapacity */
      , (29359,  16,          1) /* ItemUseable - No */
      , (29359,  25,         80) /* Level */
      , (29359,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (29359,   1,   33554478) /* Setup */
      , (29359,   6,   67109302) /* PaletteBase */
      , (29359,   8,  100667936) /* Icon */
      , (29359,  22,  872415254) /* PhysicsEffectTable */
+     , (29359,  30,         84) /* PhysicsScript - BreatheFlame */
      , (29359, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29359, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (29359, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (29359, 8019,         84) /* PCAPRecordedDefaultScript */;
+     , (29359, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29359, 8040, 619511830, 65.12615, 123.4038, 26.00172, -0.04888402, 0, 0, -0.9988045) /* PCAPRecordedLocation */

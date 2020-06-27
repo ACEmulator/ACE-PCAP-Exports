@@ -6,8 +6,8 @@ VALUES (966, 'dungeonmanorhealer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (966,   1,         16) /* ItemType - Creature */
      , (966,   2,         31) /* CreatureType - Human */
-     , (966,   6,        255) /* ItemsCapacity */
-     , (966,   7,        255) /* ContainersCapacity */
+     , (966,   6,         -1) /* ItemsCapacity */
+     , (966,   7,         -1) /* ContainersCapacity */
      , (966,  16,         32) /* ItemUseable - Remote */
      , (966,  25,         12) /* Level */
      , (966,  74, 1842151343) /* MerchandiseItemTypes - 1842151343 */

@@ -6,8 +6,8 @@ VALUES (405, 'peddler-aluvian', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (405,   1,         16) /* ItemType - Creature */
      , (405,   2,         31) /* CreatureType - Human */
-     , (405,   6,        255) /* ItemsCapacity */
-     , (405,   7,        255) /* ContainersCapacity */
+     , (405,   6,         -1) /* ItemsCapacity */
+     , (405,   7,         -1) /* ContainersCapacity */
      , (405,  16,         32) /* ItemUseable - Remote */
      , (405,  25,          3) /* Level */
      , (405,  74,      16303) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, SpellComponents, Writable */

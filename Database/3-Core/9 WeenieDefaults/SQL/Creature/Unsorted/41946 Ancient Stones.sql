@@ -5,8 +5,8 @@ VALUES (41946, 'ace41946-ancientstones', 10, '2019-02-10 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41946,   1,         16) /* ItemType - Creature */
-     , (41946,   6,        255) /* ItemsCapacity */
-     , (41946,   7,        255) /* ContainersCapacity */
+     , (41946,   6,         -1) /* ItemsCapacity */
+     , (41946,   7,         -1) /* ContainersCapacity */
      , (41946,  16,         32) /* ItemUseable - Remote */
      , (41946,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (41946,  95,          8) /* RadarBlipColor - Yellow */

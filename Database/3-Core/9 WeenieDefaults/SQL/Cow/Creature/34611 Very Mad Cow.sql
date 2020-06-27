@@ -6,8 +6,8 @@ VALUES (34611, 'ace34611-verymadcow', 15, '2019-02-10 00:00:00') /* Cow */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34611,   1,         16) /* ItemType - Creature */
      , (34611,   2,         12) /* CreatureType - Cow */
-     , (34611,   6,        255) /* ItemsCapacity */
-     , (34611,   7,        255) /* ContainersCapacity */
+     , (34611,   6,         -1) /* ItemsCapacity */
+     , (34611,   7,         -1) /* ContainersCapacity */
      , (34611,  16,         32) /* ItemUseable - Remote */
      , (34611,  25,       1034) /* Level */
      , (34611,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

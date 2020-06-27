@@ -5,8 +5,8 @@ VALUES (49152, 'ace49152-digardswasp', 71, '2019-02-10 00:00:00') /* CombatPet *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49152,   1,         16) /* ItemType - Creature */
-     , (49152,   6,        255) /* ItemsCapacity */
-     , (49152,   7,        255) /* ContainersCapacity */
+     , (49152,   6,         -1) /* ItemsCapacity */
+     , (49152,   7,         -1) /* ContainersCapacity */
      , (49152,  16,          1) /* ItemUseable - No */
      , (49152,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49152, 133,          1) /* ShowableOnRadar - ShowNever */

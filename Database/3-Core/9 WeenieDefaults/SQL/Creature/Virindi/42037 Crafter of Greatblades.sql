@@ -6,8 +6,8 @@ VALUES (42037, 'ace42037-crafterofgreatblades', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42037,   1,         16) /* ItemType - Creature */
      , (42037,   2,         19) /* CreatureType - Virindi */
-     , (42037,   6,        255) /* ItemsCapacity */
-     , (42037,   7,        255) /* ContainersCapacity */
+     , (42037,   6,         -1) /* ItemsCapacity */
+     , (42037,   7,         -1) /* ContainersCapacity */
      , (42037,  16,         32) /* ItemUseable - Remote */
      , (42037,  25,         60) /* Level */
      , (42037,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

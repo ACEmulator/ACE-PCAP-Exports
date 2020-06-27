@@ -6,8 +6,8 @@ VALUES (52714, 'ace52714-hollowpawn', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52714,   1,         16) /* ItemType - Creature */
      , (52714,   2,         48) /* CreatureType - HollowMinion */
-     , (52714,   6,        255) /* ItemsCapacity */
-     , (52714,   7,        255) /* ContainersCapacity */
+     , (52714,   6,         -1) /* ItemsCapacity */
+     , (52714,   7,         -1) /* ContainersCapacity */
      , (52714,  16,          1) /* ItemUseable - No */
      , (52714,  25,        265) /* Level */
      , (52714,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

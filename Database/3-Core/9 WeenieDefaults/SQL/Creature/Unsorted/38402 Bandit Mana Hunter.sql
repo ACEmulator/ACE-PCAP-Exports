@@ -5,8 +5,8 @@ VALUES (38402, 'ace38402-banditmanahunter', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38402,   1,         16) /* ItemType - Creature */
-     , (38402,   6,        255) /* ItemsCapacity */
-     , (38402,   7,        255) /* ContainersCapacity */
+     , (38402,   6,         -1) /* ItemsCapacity */
+     , (38402,   7,         -1) /* ContainersCapacity */
      , (38402,  16,          1) /* ItemUseable - No */
      , (38402,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38402, 133,          2) /* ShowableOnRadar - ShowMovement */

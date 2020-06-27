@@ -6,8 +6,8 @@ VALUES (51213, 'ace51213-olthoihivewarrior', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51213,   1,         16) /* ItemType - Creature */
      , (51213,   2,          1) /* CreatureType - Olthoi */
-     , (51213,   6,        255) /* ItemsCapacity */
-     , (51213,   7,        255) /* ContainersCapacity */
+     , (51213,   6,         -1) /* ItemsCapacity */
+     , (51213,   7,         -1) /* ContainersCapacity */
      , (51213,  16,          1) /* ItemUseable - No */
      , (51213,  25,        240) /* Level */
      , (51213,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -32,10 +32,10 @@ VALUES (51213,   1,   33558451) /* Setup */
      , (51213,   6,   67114502) /* PaletteBase */
      , (51213,   8,  100674878) /* Icon */
      , (51213,  22,  872415400) /* PhysicsEffectTable */
+     , (51213,  30,         87) /* PhysicsScript - BreatheLightning */
      , (51213, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51213, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (51213, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (51213, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (51213, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51213, 8040, 1483604233, 190, -200.015, -47.94014, -0.00420373, 0, 0, 0.9999912) /* PCAPRecordedLocation */

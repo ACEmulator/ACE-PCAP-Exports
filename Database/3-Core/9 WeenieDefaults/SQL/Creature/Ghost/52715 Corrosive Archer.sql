@@ -6,8 +6,8 @@ VALUES (52715, 'ace52715-corrosivearcher', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52715,   1,         16) /* ItemType - Creature */
      , (52715,   2,         77) /* CreatureType - Ghost */
-     , (52715,   6,        255) /* ItemsCapacity */
-     , (52715,   7,        255) /* ContainersCapacity */
+     , (52715,   6,         -1) /* ItemsCapacity */
+     , (52715,   7,         -1) /* ContainersCapacity */
      , (52715,  16,          1) /* ItemUseable - No */
      , (52715,  25,        240) /* Level */
      , (52715,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

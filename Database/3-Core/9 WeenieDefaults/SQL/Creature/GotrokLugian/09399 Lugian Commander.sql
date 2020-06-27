@@ -6,8 +6,8 @@ VALUES (9399, 'lugiancommanderlinvak', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9399,   1,         16) /* ItemType - Creature */
      , (9399,   2,         70) /* CreatureType - GotrokLugian */
-     , (9399,   6,        255) /* ItemsCapacity */
-     , (9399,   7,        255) /* ContainersCapacity */
+     , (9399,   6,         -1) /* ItemsCapacity */
+     , (9399,   7,         -1) /* ContainersCapacity */
      , (9399,  16,          1) /* ItemUseable - No */
      , (9399,  25,         80) /* Level */
      , (9399,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

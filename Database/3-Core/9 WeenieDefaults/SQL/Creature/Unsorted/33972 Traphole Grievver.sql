@@ -5,8 +5,8 @@ VALUES (33972, 'ace33972-trapholegrievver', 10, '2019-02-10 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33972,   1,         16) /* ItemType - Creature */
-     , (33972,   6,        255) /* ItemsCapacity */
-     , (33972,   7,        255) /* ContainersCapacity */
+     , (33972,   6,         -1) /* ItemsCapacity */
+     , (33972,   7,         -1) /* ContainersCapacity */
      , (33972,  16,          1) /* ItemUseable - No */
      , (33972,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33972, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -30,10 +30,10 @@ VALUES (33972,   1,   33556698) /* Setup */
      , (33972,   6,   67112927) /* PaletteBase */
      , (33972,   8,  100670960) /* Icon */
      , (33972,  22,  872415364) /* PhysicsEffectTable */
+     , (33972,  30,         86) /* PhysicsScript - BreatheAcid */
      , (33972, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33972, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33972, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (33972, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (33972, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33972, 8040, 13699449, 150.759, -53.7333, -18.00195, 0.015638, 0, 0, -0.9998777) /* PCAPRecordedLocation */

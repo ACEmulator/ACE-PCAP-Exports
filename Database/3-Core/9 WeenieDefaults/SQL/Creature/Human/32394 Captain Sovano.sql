@@ -6,8 +6,8 @@ VALUES (32394, 'ace32394-captainsovano', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32394,   1,         16) /* ItemType - Creature */
      , (32394,   2,         31) /* CreatureType - Human */
-     , (32394,   6,        255) /* ItemsCapacity */
-     , (32394,   7,        255) /* ContainersCapacity */
+     , (32394,   6,         -1) /* ItemsCapacity */
+     , (32394,   7,         -1) /* ContainersCapacity */
      , (32394,  16,         32) /* ItemUseable - Remote */
      , (32394,  25,        119) /* Level */
      , (32394,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

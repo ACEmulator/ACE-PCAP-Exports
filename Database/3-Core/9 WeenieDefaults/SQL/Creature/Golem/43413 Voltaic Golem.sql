@@ -6,8 +6,8 @@ VALUES (43413, 'ace43413-voltaicgolem', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43413,   1,         16) /* ItemType - Creature */
      , (43413,   2,         13) /* CreatureType - Golem */
-     , (43413,   6,        255) /* ItemsCapacity */
-     , (43413,   7,        255) /* ContainersCapacity */
+     , (43413,   6,         -1) /* ItemsCapacity */
+     , (43413,   7,         -1) /* ContainersCapacity */
      , (43413,  16,          1) /* ItemUseable - No */
      , (43413,  25,        160) /* Level */
      , (43413,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

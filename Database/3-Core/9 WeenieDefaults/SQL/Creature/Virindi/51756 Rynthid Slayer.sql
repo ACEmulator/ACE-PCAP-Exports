@@ -6,8 +6,8 @@ VALUES (51756, 'ace51756-rynthidslayer', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51756,   1,         16) /* ItemType - Creature */
      , (51756,   2,         19) /* CreatureType - Virindi */
-     , (51756,   6,        255) /* ItemsCapacity */
-     , (51756,   7,        255) /* ContainersCapacity */
+     , (51756,   6,         -1) /* ItemsCapacity */
+     , (51756,   7,         -1) /* ContainersCapacity */
      , (51756,  16,          1) /* ItemUseable - No */
      , (51756,  25,        265) /* Level */
      , (51756,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

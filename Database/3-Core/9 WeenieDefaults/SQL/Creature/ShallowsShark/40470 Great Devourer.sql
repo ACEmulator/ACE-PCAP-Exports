@@ -6,8 +6,8 @@ VALUES (40470, 'ace40470-greatdevourer', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40470,   1,         16) /* ItemType - Creature */
      , (40470,   2,         27) /* CreatureType - ShallowsShark */
-     , (40470,   6,        255) /* ItemsCapacity */
-     , (40470,   7,        255) /* ContainersCapacity */
+     , (40470,   6,         -1) /* ItemsCapacity */
+     , (40470,   7,         -1) /* ContainersCapacity */
      , (40470,  16,          1) /* ItemUseable - No */
      , (40470,  25,        200) /* Level */
      , (40470,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

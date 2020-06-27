@@ -6,8 +6,8 @@ VALUES (38713, 'ace38713-shamblingarchivist', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38713,   1,         16) /* ItemType - Creature */
      , (38713,   2,         14) /* CreatureType - Undead */
-     , (38713,   6,        255) /* ItemsCapacity */
-     , (38713,   7,        255) /* ContainersCapacity */
+     , (38713,   6,         -1) /* ItemsCapacity */
+     , (38713,   7,         -1) /* ContainersCapacity */
      , (38713,  16,          1) /* ItemUseable - No */
      , (38713,  25,        240) /* Level */
      , (38713,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

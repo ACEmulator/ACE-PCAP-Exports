@@ -6,8 +6,8 @@ VALUES (52273, 'ace52273-shadowflyer', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52273,   1,         16) /* ItemType - Creature */
      , (52273,   2,         22) /* CreatureType - Shadow */
-     , (52273,   6,        255) /* ItemsCapacity */
-     , (52273,   7,        255) /* ContainersCapacity */
+     , (52273,   6,         -1) /* ItemsCapacity */
+     , (52273,   7,         -1) /* ContainersCapacity */
      , (52273,  16,          1) /* ItemUseable - No */
      , (52273,  25,        200) /* Level */
      , (52273,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (46412, 'ace46412-decayedwight', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46412,   1,         16) /* ItemType - Creature */
      , (46412,   2,         14) /* CreatureType - Undead */
-     , (46412,   6,        255) /* ItemsCapacity */
-     , (46412,   7,        255) /* ContainersCapacity */
+     , (46412,   6,         -1) /* ItemsCapacity */
+     , (46412,   7,         -1) /* ContainersCapacity */
      , (46412,  16,          1) /* ItemUseable - No */
      , (46412,  25,        240) /* Level */
      , (46412,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

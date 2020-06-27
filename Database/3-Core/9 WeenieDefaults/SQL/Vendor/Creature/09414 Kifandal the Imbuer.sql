@@ -6,8 +6,8 @@ VALUES (9414, 'linvaktukalarchmage', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9414,   1,         16) /* ItemType - Creature */
      , (9414,   2,          5) /* CreatureType - Lugian */
-     , (9414,   6,        255) /* ItemsCapacity */
-     , (9414,   7,        255) /* ContainersCapacity */
+     , (9414,   6,         -1) /* ItemsCapacity */
+     , (9414,   7,         -1) /* ContainersCapacity */
      , (9414,  16,         32) /* ItemUseable - Remote */
      , (9414,  25,         66) /* Level */
      , (9414,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

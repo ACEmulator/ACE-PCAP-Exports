@@ -6,8 +6,8 @@ VALUES (36968, 'ace36968-virindiartificer', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36968,   1,         16) /* ItemType - Creature */
      , (36968,   2,         19) /* CreatureType - Virindi */
-     , (36968,   6,        255) /* ItemsCapacity */
-     , (36968,   7,        255) /* ContainersCapacity */
+     , (36968,   6,         -1) /* ItemsCapacity */
+     , (36968,   7,         -1) /* ContainersCapacity */
      , (36968,  16,          1) /* ItemUseable - No */
      , (36968,  25,        220) /* Level */
      , (36968,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

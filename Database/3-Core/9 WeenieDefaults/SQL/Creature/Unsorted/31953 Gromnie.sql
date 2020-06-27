@@ -5,8 +5,8 @@ VALUES (31953, 'ace31953-gromnie', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31953,   1,         16) /* ItemType - Creature */
-     , (31953,   6,        255) /* ItemsCapacity */
-     , (31953,   7,        255) /* ContainersCapacity */
+     , (31953,   6,         -1) /* ItemsCapacity */
+     , (31953,   7,         -1) /* ContainersCapacity */
      , (31953,  16,         32) /* ItemUseable - Remote */
      , (31953,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31953,  95,          8) /* RadarBlipColor - Yellow */

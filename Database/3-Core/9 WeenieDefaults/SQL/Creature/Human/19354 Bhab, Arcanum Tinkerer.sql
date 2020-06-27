@@ -6,8 +6,8 @@ VALUES (19354, 'tinkerarcanum', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19354,   1,         16) /* ItemType - Creature */
      , (19354,   2,         31) /* CreatureType - Human */
-     , (19354,   6,        255) /* ItemsCapacity */
-     , (19354,   7,        255) /* ContainersCapacity */
+     , (19354,   6,         -1) /* ItemsCapacity */
+     , (19354,   7,         -1) /* ContainersCapacity */
      , (19354,  16,         32) /* ItemUseable - Remote */
      , (19354,  25,         40) /* Level */
      , (19354,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

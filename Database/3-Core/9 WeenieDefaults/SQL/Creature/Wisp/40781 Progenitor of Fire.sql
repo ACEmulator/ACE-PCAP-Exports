@@ -6,8 +6,8 @@ VALUES (40781, 'ace40781-progenitoroffire', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40781,   1,         16) /* ItemType - Creature */
      , (40781,   2,         20) /* CreatureType - Wisp */
-     , (40781,   6,        255) /* ItemsCapacity */
-     , (40781,   7,        255) /* ContainersCapacity */
+     , (40781,   6,         -1) /* ItemsCapacity */
+     , (40781,   7,         -1) /* ContainersCapacity */
      , (40781,  16,          1) /* ItemUseable - No */
      , (40781,  25,        135) /* Level */
      , (40781,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

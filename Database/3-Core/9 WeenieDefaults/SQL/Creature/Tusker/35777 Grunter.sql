@@ -6,8 +6,8 @@ VALUES (35777, 'ace35777-grunter', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35777,   1,         16) /* ItemType - Creature */
      , (35777,   2,          8) /* CreatureType - Tusker */
-     , (35777,   6,        255) /* ItemsCapacity */
-     , (35777,   7,        255) /* ContainersCapacity */
+     , (35777,   6,         -1) /* ItemsCapacity */
+     , (35777,   7,         -1) /* ContainersCapacity */
      , (35777,  16,         32) /* ItemUseable - Remote */
      , (35777,  25,         18) /* Level */
      , (35777,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

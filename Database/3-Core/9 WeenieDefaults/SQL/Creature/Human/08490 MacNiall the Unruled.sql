@@ -6,8 +6,8 @@ VALUES (8490, 'freeholdleader', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8490,   1,         16) /* ItemType - Creature */
      , (8490,   2,         31) /* CreatureType - Human */
-     , (8490,   6,        255) /* ItemsCapacity */
-     , (8490,   7,        255) /* ContainersCapacity */
+     , (8490,   6,         -1) /* ItemsCapacity */
+     , (8490,   7,         -1) /* ContainersCapacity */
      , (8490,  16,         32) /* ItemUseable - Remote */
      , (8490,  25,         46) /* Level */
      , (8490,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

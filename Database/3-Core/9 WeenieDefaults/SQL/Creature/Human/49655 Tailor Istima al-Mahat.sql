@@ -6,8 +6,8 @@ VALUES (49655, 'ace49655-tailoristimaalmahat', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49655,   1,         16) /* ItemType - Creature */
      , (49655,   2,         31) /* CreatureType - Human */
-     , (49655,   6,        255) /* ItemsCapacity */
-     , (49655,   7,        255) /* ContainersCapacity */
+     , (49655,   6,         -1) /* ItemsCapacity */
+     , (49655,   7,         -1) /* ContainersCapacity */
      , (49655,  16,          1) /* ItemUseable - No */
      , (49655,  25,         12) /* Level */
      , (49655,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

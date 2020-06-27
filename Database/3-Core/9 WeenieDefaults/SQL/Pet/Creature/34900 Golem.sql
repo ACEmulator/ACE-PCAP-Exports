@@ -6,8 +6,8 @@ VALUES (34900, 'ace34900-debosartisancooksgolem', 69, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34900,   1,         16) /* ItemType - Creature */
      , (34900,   2,         13) /* CreatureType - Golem */
-     , (34900,   6,        255) /* ItemsCapacity */
-     , (34900,   7,        255) /* ContainersCapacity */
+     , (34900,   6,         -1) /* ItemsCapacity */
+     , (34900,   7,         -1) /* ContainersCapacity */
      , (34900,  16,          1) /* ItemUseable - No */
      , (34900,  25,          1) /* Level */
      , (34900,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

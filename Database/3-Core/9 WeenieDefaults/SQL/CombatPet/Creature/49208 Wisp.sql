@@ -6,8 +6,8 @@ VALUES (49208, 'ace49208-themightysporkswisp', 71, '2019-02-10 00:00:00') /* Com
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49208,   1,         16) /* ItemType - Creature */
      , (49208,   2,         20) /* CreatureType - Wisp */
-     , (49208,   6,        255) /* ItemsCapacity */
-     , (49208,   7,        255) /* ContainersCapacity */
+     , (49208,   6,         -1) /* ItemsCapacity */
+     , (49208,   7,         -1) /* ContainersCapacity */
      , (49208,  16,          1) /* ItemUseable - No */
      , (49208,  25,        100) /* Level */
      , (49208,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

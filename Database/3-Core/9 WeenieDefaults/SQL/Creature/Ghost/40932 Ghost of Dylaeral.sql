@@ -6,8 +6,8 @@ VALUES (40932, 'ace40932-ghostofdylaeral', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40932,   1,         16) /* ItemType - Creature */
      , (40932,   2,         77) /* CreatureType - Ghost */
-     , (40932,   6,        255) /* ItemsCapacity */
-     , (40932,   7,        255) /* ContainersCapacity */
+     , (40932,   6,         -1) /* ItemsCapacity */
+     , (40932,   7,         -1) /* ContainersCapacity */
      , (40932,  16,         32) /* ItemUseable - Remote */
      , (40932,  25,         74) /* Level */
      , (40932,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

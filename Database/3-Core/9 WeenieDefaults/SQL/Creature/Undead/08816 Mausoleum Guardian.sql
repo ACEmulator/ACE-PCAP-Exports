@@ -6,8 +6,8 @@ VALUES (8816, 'undeadmausoleumguardian', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8816,   1,         16) /* ItemType - Creature */
      , (8816,   2,         14) /* CreatureType - Undead */
-     , (8816,   6,        255) /* ItemsCapacity */
-     , (8816,   7,        255) /* ContainersCapacity */
+     , (8816,   6,         -1) /* ItemsCapacity */
+     , (8816,   7,         -1) /* ContainersCapacity */
      , (8816,  16,          1) /* ItemUseable - No */
      , (8816,  25,         50) /* Level */
      , (8816,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -5,8 +5,8 @@ VALUES (34253, 'ace34253-aunteriona', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34253,   1,         16) /* ItemType - Creature */
-     , (34253,   6,        255) /* ItemsCapacity */
-     , (34253,   7,        255) /* ContainersCapacity */
+     , (34253,   6,         -1) /* ItemsCapacity */
+     , (34253,   7,         -1) /* ContainersCapacity */
      , (34253,  16,         32) /* ItemUseable - Remote */
      , (34253,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34253,  95,          8) /* RadarBlipColor - Yellow */

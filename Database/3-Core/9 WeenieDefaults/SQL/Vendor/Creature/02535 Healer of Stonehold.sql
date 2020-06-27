@@ -6,8 +6,8 @@ VALUES (2535, 'stoneholdhealer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2535,   1,         16) /* ItemType - Creature */
      , (2535,   2,         31) /* CreatureType - Human */
-     , (2535,   6,        255) /* ItemsCapacity */
-     , (2535,   7,        255) /* ContainersCapacity */
+     , (2535,   6,         -1) /* ItemsCapacity */
+     , (2535,   7,         -1) /* ContainersCapacity */
      , (2535,  16,         32) /* ItemUseable - Remote */
      , (2535,  25,         11) /* Level */
      , (2535,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */

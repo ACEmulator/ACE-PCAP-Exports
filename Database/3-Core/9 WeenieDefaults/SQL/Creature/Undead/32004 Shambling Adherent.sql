@@ -6,8 +6,8 @@ VALUES (32004, 'ace32004-shamblingadherent', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32004,   1,         16) /* ItemType - Creature */
      , (32004,   2,         14) /* CreatureType - Undead */
-     , (32004,   6,        255) /* ItemsCapacity */
-     , (32004,   7,        255) /* ContainersCapacity */
+     , (32004,   6,         -1) /* ItemsCapacity */
+     , (32004,   7,         -1) /* ContainersCapacity */
      , (32004,  16,          1) /* ItemUseable - No */
      , (32004,  25,        160) /* Level */
      , (32004,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

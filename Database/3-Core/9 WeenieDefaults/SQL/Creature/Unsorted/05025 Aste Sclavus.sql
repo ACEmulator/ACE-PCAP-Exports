@@ -5,8 +5,8 @@ VALUES (5025, 'sclavusastefolthid', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5025,   1,         16) /* ItemType - Creature */
-     , (5025,   6,        255) /* ItemsCapacity */
-     , (5025,   7,        255) /* ContainersCapacity */
+     , (5025,   6,         -1) /* ItemsCapacity */
+     , (5025,   7,         -1) /* ContainersCapacity */
      , (5025,  16,          1) /* ItemUseable - No */
      , (5025,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5025, 133,          2) /* ShowableOnRadar - ShowMovement */

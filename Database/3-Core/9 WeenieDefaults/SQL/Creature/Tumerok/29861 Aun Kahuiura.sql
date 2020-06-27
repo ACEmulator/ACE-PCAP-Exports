@@ -6,8 +6,8 @@ VALUES (29861, 'collectormagicitemtinkering', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29861,   1,         16) /* ItemType - Creature */
      , (29861,   2,          6) /* CreatureType - Tumerok */
-     , (29861,   6,        255) /* ItemsCapacity */
-     , (29861,   7,        255) /* ContainersCapacity */
+     , (29861,   6,         -1) /* ItemsCapacity */
+     , (29861,   7,         -1) /* ContainersCapacity */
      , (29861,  16,         32) /* ItemUseable - Remote */
      , (29861,  25,         35) /* Level */
      , (29861,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

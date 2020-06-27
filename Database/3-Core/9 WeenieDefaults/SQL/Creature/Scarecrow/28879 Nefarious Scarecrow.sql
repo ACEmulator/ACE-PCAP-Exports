@@ -6,8 +6,8 @@ VALUES (28879, 'scarecrownefarious', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28879,   1,         16) /* ItemType - Creature */
      , (28879,   2,         49) /* CreatureType - Scarecrow */
-     , (28879,   6,        255) /* ItemsCapacity */
-     , (28879,   7,        255) /* ContainersCapacity */
+     , (28879,   6,         -1) /* ItemsCapacity */
+     , (28879,   7,         -1) /* ContainersCapacity */
      , (28879,  16,          1) /* ItemUseable - No */
      , (28879,  25,         50) /* Level */
      , (28879,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

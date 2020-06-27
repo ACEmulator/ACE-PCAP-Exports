@@ -6,8 +6,8 @@ VALUES (32055, 'ace32055-blacksmithbulidurg', 12, '2019-02-10 00:00:00') /* Vend
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32055,   1,         16) /* ItemType - Creature */
      , (32055,   2,         90) /* CreatureType - Merwart */
-     , (32055,   6,        255) /* ItemsCapacity */
-     , (32055,   7,        255) /* ContainersCapacity */
+     , (32055,   6,         -1) /* ItemsCapacity */
+     , (32055,   7,         -1) /* ContainersCapacity */
      , (32055,  16,         32) /* ItemUseable - Remote */
      , (32055,  25,          6) /* Level */
      , (32055,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */

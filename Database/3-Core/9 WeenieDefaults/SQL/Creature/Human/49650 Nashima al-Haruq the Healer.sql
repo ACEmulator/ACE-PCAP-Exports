@@ -6,8 +6,8 @@ VALUES (49650, 'ace49650-nashimaalharuqthehealer', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49650,   1,         16) /* ItemType - Creature */
      , (49650,   2,         31) /* CreatureType - Human */
-     , (49650,   6,        255) /* ItemsCapacity */
-     , (49650,   7,        255) /* ContainersCapacity */
+     , (49650,   6,         -1) /* ItemsCapacity */
+     , (49650,   7,         -1) /* ContainersCapacity */
      , (49650,  16,          1) /* ItemUseable - No */
      , (49650,  25,         13) /* Level */
      , (49650,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

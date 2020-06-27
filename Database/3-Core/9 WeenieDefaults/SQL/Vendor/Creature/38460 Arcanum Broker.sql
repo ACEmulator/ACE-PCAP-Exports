@@ -6,8 +6,8 @@ VALUES (38460, 'ace38460-arcanumbroker', 12, '2019-02-10 00:00:00') /* Vendor */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38460,   1,         16) /* ItemType - Creature */
      , (38460,   2,         31) /* CreatureType - Human */
-     , (38460,   6,        255) /* ItemsCapacity */
-     , (38460,   7,        255) /* ContainersCapacity */
+     , (38460,   6,         -1) /* ItemsCapacity */
+     , (38460,   7,         -1) /* ContainersCapacity */
      , (38460,  16,         32) /* ItemUseable - Remote */
      , (38460,  25,        180) /* Level */
      , (38460,  74, 1613561775) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, PromissoryNote, ItemEnchantableTarget, MagicWieldable, TinkeringTool, TinkeringMaterial */

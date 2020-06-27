@@ -6,8 +6,8 @@ VALUES (4258, 'slithiseyestalk', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4258,   1,         16) /* ItemType - Creature */
      , (4258,   2,         36) /* CreatureType - Slithis */
-     , (4258,   6,        255) /* ItemsCapacity */
-     , (4258,   7,        255) /* ContainersCapacity */
+     , (4258,   6,         -1) /* ItemsCapacity */
+     , (4258,   7,         -1) /* ContainersCapacity */
      , (4258,  16,          1) /* ItemUseable - No */
      , (4258,  25,         40) /* Level */
      , (4258,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

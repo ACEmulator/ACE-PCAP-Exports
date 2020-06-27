@@ -6,8 +6,8 @@ VALUES (52712, 'ace52712-ruukranger', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52712,   1,         16) /* ItemType - Creature */
      , (52712,   2,         75) /* CreatureType - Burun */
-     , (52712,   6,        255) /* ItemsCapacity */
-     , (52712,   7,        255) /* ContainersCapacity */
+     , (52712,   6,         -1) /* ItemsCapacity */
+     , (52712,   7,         -1) /* ContainersCapacity */
      , (52712,  16,          1) /* ItemUseable - No */
      , (52712,  25,        300) /* Level */
      , (52712,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

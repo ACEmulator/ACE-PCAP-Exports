@@ -6,8 +6,8 @@ VALUES (40430, 'ace40430-intenseshiveringpillar', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40430,   1,         16) /* ItemType - Creature */
      , (40430,   2,         47) /* CreatureType - Crystal */
-     , (40430,   6,        255) /* ItemsCapacity */
-     , (40430,   7,        255) /* ContainersCapacity */
+     , (40430,   6,         -1) /* ItemsCapacity */
+     , (40430,   7,         -1) /* ContainersCapacity */
      , (40430,  16,          1) /* ItemUseable - No */
      , (40430,  25,        100) /* Level */
      , (40430,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

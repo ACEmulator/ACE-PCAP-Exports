@@ -6,8 +6,8 @@ VALUES (38423, 'ace38423-leisallbintjumadd', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38423,   1,         16) /* ItemType - Creature */
      , (38423,   2,         31) /* CreatureType - Human */
-     , (38423,   6,        255) /* ItemsCapacity */
-     , (38423,   7,        255) /* ContainersCapacity */
+     , (38423,   6,         -1) /* ItemsCapacity */
+     , (38423,   7,         -1) /* ContainersCapacity */
      , (38423,  16,         32) /* ItemUseable - Remote */
      , (38423,  25,        185) /* Level */
      , (38423,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

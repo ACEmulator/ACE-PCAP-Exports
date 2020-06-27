@@ -5,8 +5,8 @@ VALUES (51619, 'ace51619-rynthid', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51619,   1,         16) /* ItemType - Creature */
-     , (51619,   6,        255) /* ItemsCapacity */
-     , (51619,   7,        255) /* ContainersCapacity */
+     , (51619,   6,         -1) /* ItemsCapacity */
+     , (51619,   7,         -1) /* ContainersCapacity */
      , (51619,  16,          1) /* ItemUseable - No */
      , (51619,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (51619,  95,          8) /* RadarBlipColor - Yellow */

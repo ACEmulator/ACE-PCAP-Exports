@@ -6,8 +6,8 @@ VALUES (52992, 'ace52992-worshipperofbaelzharon', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52992,   1,         16) /* ItemType - Creature */
      , (52992,   2,         31) /* CreatureType - Human */
-     , (52992,   6,        255) /* ItemsCapacity */
-     , (52992,   7,        255) /* ContainersCapacity */
+     , (52992,   6,         -1) /* ItemsCapacity */
+     , (52992,   7,         -1) /* ContainersCapacity */
      , (52992,  16,         32) /* ItemUseable - Remote */
      , (52992,  25,        250) /* Level */
      , (52992,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

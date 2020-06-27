@@ -6,8 +6,8 @@ VALUES (22726, 'oolutangajeweler', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22726,   1,         16) /* ItemType - Creature */
      , (22726,   2,         31) /* CreatureType - Human */
-     , (22726,   6,        255) /* ItemsCapacity */
-     , (22726,   7,        255) /* ContainersCapacity */
+     , (22726,   6,         -1) /* ItemsCapacity */
+     , (22726,   7,         -1) /* ContainersCapacity */
      , (22726,  16,         32) /* ItemUseable - Remote */
      , (22726,  25,          3) /* Level */
      , (22726,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */

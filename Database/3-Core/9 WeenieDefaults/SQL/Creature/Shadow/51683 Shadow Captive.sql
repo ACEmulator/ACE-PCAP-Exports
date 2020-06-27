@@ -6,8 +6,8 @@ VALUES (51683, 'ace51683-shadowcaptive', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51683,   1,         16) /* ItemType - Creature */
      , (51683,   2,         22) /* CreatureType - Shadow */
-     , (51683,   6,        255) /* ItemsCapacity */
-     , (51683,   7,        255) /* ContainersCapacity */
+     , (51683,   6,         -1) /* ItemsCapacity */
+     , (51683,   7,         -1) /* ContainersCapacity */
      , (51683,  16,         32) /* ItemUseable - Remote */
      , (51683,  25,        240) /* Level */
      , (51683,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

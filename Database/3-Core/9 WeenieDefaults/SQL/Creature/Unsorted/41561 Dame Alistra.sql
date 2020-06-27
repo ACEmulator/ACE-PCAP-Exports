@@ -5,8 +5,8 @@ VALUES (41561, 'ace41561-damealistra', 10, '2019-02-10 00:00:00') /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41561,   1,         16) /* ItemType - Creature */
-     , (41561,   6,        255) /* ItemsCapacity */
-     , (41561,   7,        255) /* ContainersCapacity */
+     , (41561,   6,         -1) /* ItemsCapacity */
+     , (41561,   7,         -1) /* ContainersCapacity */
      , (41561,  16,         32) /* ItemUseable - Remote */
      , (41561,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41561,  95,          8) /* RadarBlipColor - Yellow */

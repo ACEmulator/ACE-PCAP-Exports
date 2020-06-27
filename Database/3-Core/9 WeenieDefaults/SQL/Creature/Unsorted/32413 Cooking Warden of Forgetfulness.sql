@@ -5,8 +5,8 @@ VALUES (32413, 'ace32413-cookingwardenofforgetfulness', 10, '2019-02-10 00:00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32413,   1,         16) /* ItemType - Creature */
-     , (32413,   6,        255) /* ItemsCapacity */
-     , (32413,   7,        255) /* ContainersCapacity */
+     , (32413,   6,         -1) /* ItemsCapacity */
+     , (32413,   7,         -1) /* ContainersCapacity */
      , (32413,  16,         32) /* ItemUseable - Remote */
      , (32413,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32413,  95,          3) /* RadarBlipColor - White */

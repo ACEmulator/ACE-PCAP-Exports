@@ -6,8 +6,8 @@ VALUES (32053, 'ace32053-healerhargurg', 12, '2019-02-10 00:00:00') /* Vendor */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32053,   1,         16) /* ItemType - Creature */
      , (32053,   2,         90) /* CreatureType - Merwart */
-     , (32053,   6,        255) /* ItemsCapacity */
-     , (32053,   7,        255) /* ContainersCapacity */
+     , (32053,   6,         -1) /* ItemsCapacity */
+     , (32053,   7,         -1) /* ContainersCapacity */
      , (32053,  16,         32) /* ItemUseable - Remote */
      , (32053,  25,          8) /* Level */
      , (32053,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */

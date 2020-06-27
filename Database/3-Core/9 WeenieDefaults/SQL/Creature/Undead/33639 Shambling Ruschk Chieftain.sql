@@ -6,8 +6,8 @@ VALUES (33639, 'ace33639-shamblingruschkchieftain', 10, '2019-02-10 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33639,   1,         16) /* ItemType - Creature */
      , (33639,   2,         14) /* CreatureType - Undead */
-     , (33639,   6,        255) /* ItemsCapacity */
-     , (33639,   7,        255) /* ContainersCapacity */
+     , (33639,   6,         -1) /* ItemsCapacity */
+     , (33639,   7,         -1) /* ContainersCapacity */
      , (33639,  16,          1) /* ItemUseable - No */
      , (33639,  25,        185) /* Level */
      , (33639,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

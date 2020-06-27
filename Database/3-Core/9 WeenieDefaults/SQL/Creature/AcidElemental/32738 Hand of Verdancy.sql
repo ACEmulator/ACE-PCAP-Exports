@@ -6,8 +6,8 @@ VALUES (32738, 'ace32738-handofverdancy', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32738,   1,         16) /* ItemType - Creature */
      , (32738,   2,         60) /* CreatureType - AcidElemental */
-     , (32738,   6,        255) /* ItemsCapacity */
-     , (32738,   7,        255) /* ContainersCapacity */
+     , (32738,   6,         -1) /* ItemsCapacity */
+     , (32738,   7,         -1) /* ContainersCapacity */
      , (32738,  16,          1) /* ItemUseable - No */
      , (32738,  25,        160) /* Level */
      , (32738,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

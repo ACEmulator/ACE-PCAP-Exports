@@ -6,8 +6,8 @@ VALUES (35573, 'ace35573-sergeantshanks', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35573,   1,         16) /* ItemType - Creature */
      , (35573,   2,          3) /* CreatureType - Drudge */
-     , (35573,   6,        255) /* ItemsCapacity */
-     , (35573,   7,        255) /* ContainersCapacity */
+     , (35573,   6,         -1) /* ItemsCapacity */
+     , (35573,   7,         -1) /* ContainersCapacity */
      , (35573,  16,         32) /* ItemUseable - Remote */
      , (35573,  25,         54) /* Level */
      , (35573,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

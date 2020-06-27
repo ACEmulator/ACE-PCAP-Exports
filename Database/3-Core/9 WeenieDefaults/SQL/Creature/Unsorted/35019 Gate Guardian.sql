@@ -5,8 +5,8 @@ VALUES (35019, 'ace35019-gateguardian', 10, '2019-02-10 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35019,   1,         16) /* ItemType - Creature */
-     , (35019,   6,        255) /* ItemsCapacity */
-     , (35019,   7,        255) /* ContainersCapacity */
+     , (35019,   6,         -1) /* ItemsCapacity */
+     , (35019,   7,         -1) /* ContainersCapacity */
      , (35019,  16,          1) /* ItemUseable - No */
      , (35019,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35019, 133,          2) /* ShowableOnRadar - ShowMovement */

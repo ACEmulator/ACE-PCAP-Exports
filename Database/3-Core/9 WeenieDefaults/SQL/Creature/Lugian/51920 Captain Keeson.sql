@@ -6,8 +6,8 @@ VALUES (51920, 'ace51920-captainkeeson', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51920,   1,         16) /* ItemType - Creature */
      , (51920,   2,          5) /* CreatureType - Lugian */
-     , (51920,   6,        255) /* ItemsCapacity */
-     , (51920,   7,        255) /* ContainersCapacity */
+     , (51920,   6,         -1) /* ItemsCapacity */
+     , (51920,   7,         -1) /* ContainersCapacity */
      , (51920,  16,          1) /* ItemUseable - No */
      , (51920,  25,        300) /* Level */
      , (51920,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

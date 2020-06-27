@@ -6,8 +6,8 @@ VALUES (52292, 'ace52292-spectralvoidmage', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52292,   1,         16) /* ItemType - Creature */
      , (52292,   2,         77) /* CreatureType - Ghost */
-     , (52292,   6,        255) /* ItemsCapacity */
-     , (52292,   7,        255) /* ContainersCapacity */
+     , (52292,   6,         -1) /* ItemsCapacity */
+     , (52292,   7,         -1) /* ContainersCapacity */
      , (52292,  16,          1) /* ItemUseable - No */
      , (52292,  25,        265) /* Level */
      , (52292,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

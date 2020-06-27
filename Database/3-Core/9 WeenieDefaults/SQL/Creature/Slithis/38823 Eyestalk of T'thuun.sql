@@ -6,8 +6,8 @@ VALUES (38823, 'ace38823-eyestalkoftthuun', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38823,   1,         16) /* ItemType - Creature */
      , (38823,   2,         36) /* CreatureType - Slithis */
-     , (38823,   6,        255) /* ItemsCapacity */
-     , (38823,   7,        255) /* ContainersCapacity */
+     , (38823,   6,         -1) /* ItemsCapacity */
+     , (38823,   7,         -1) /* ContainersCapacity */
      , (38823,  16,          1) /* ItemUseable - No */
      , (38823,  25,        160) /* Level */
      , (38823,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

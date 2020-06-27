@@ -6,8 +6,8 @@ VALUES (47179, 'ace47179-tiatussmithy', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47179,   1,         16) /* ItemType - Creature */
      , (47179,   2,          5) /* CreatureType - Lugian */
-     , (47179,   6,        255) /* ItemsCapacity */
-     , (47179,   7,        255) /* ContainersCapacity */
+     , (47179,   6,         -1) /* ItemsCapacity */
+     , (47179,   7,         -1) /* ContainersCapacity */
      , (47179,  16,          1) /* ItemUseable - No */
      , (47179,  25,        190) /* Level */
      , (47179,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

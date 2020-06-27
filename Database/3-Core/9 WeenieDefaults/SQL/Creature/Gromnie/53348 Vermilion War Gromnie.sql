@@ -6,8 +6,8 @@ VALUES (53348, 'ace53348-vermilionwargromnie', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53348,   1,         16) /* ItemType - Creature */
      , (53348,   2,         15) /* CreatureType - Gromnie */
-     , (53348,   6,        255) /* ItemsCapacity */
-     , (53348,   7,        255) /* ContainersCapacity */
+     , (53348,   6,         -1) /* ItemsCapacity */
+     , (53348,   7,         -1) /* ContainersCapacity */
      , (53348,  16,          1) /* ItemUseable - No */
      , (53348,  25,        300) /* Level */
      , (53348,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
@@ -33,10 +33,10 @@ VALUES (53348,   1,   33554487) /* Setup */
      , (53348,   6,   67109307) /* PaletteBase */
      , (53348,   8,  100667938) /* Icon */
      , (53348,  22,  872415260) /* PhysicsEffectTable */
+     , (53348,  30,         87) /* PhysicsScript - BreatheLightning */
      , (53348, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (53348, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (53348, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (53348, 8019,         87) /* PCAPRecordedDefaultScript */;
+     , (53348, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53348, 8040, 3024617519, 120.9977, 144.4943, 112.006, -0.1395431, 0, 0, -0.990216) /* PCAPRecordedLocation */

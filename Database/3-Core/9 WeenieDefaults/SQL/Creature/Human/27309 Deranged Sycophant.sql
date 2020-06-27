@@ -6,8 +6,8 @@ VALUES (27309, 'humanderangedsycophant', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27309,   1,         16) /* ItemType - Creature */
      , (27309,   2,         31) /* CreatureType - Human */
-     , (27309,   6,        255) /* ItemsCapacity */
-     , (27309,   7,        255) /* ContainersCapacity */
+     , (27309,   6,         -1) /* ItemsCapacity */
+     , (27309,   7,         -1) /* ContainersCapacity */
      , (27309,  16,          1) /* ItemUseable - No */
      , (27309,  25,        135) /* Level */
      , (27309,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

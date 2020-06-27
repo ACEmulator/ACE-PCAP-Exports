@@ -6,8 +6,8 @@ VALUES (37065, 'ace37065-emissaryofasheron', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37065,   1,         16) /* ItemType - Creature */
      , (37065,   2,         62) /* CreatureType - Elemental */
-     , (37065,   6,        255) /* ItemsCapacity */
-     , (37065,   7,        255) /* ContainersCapacity */
+     , (37065,   6,         -1) /* ItemsCapacity */
+     , (37065,   7,         -1) /* ContainersCapacity */
      , (37065,  16,         32) /* ItemUseable - Remote */
      , (37065,  25,        150) /* Level */
      , (37065,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

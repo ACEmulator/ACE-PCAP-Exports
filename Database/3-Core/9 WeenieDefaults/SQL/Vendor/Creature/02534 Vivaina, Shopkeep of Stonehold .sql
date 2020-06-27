@@ -6,8 +6,8 @@ VALUES (2534, 'stoneholdshopkeep', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2534,   1,         16) /* ItemType - Creature */
      , (2534,   2,         31) /* CreatureType - Human */
-     , (2534,   6,        255) /* ItemsCapacity */
-     , (2534,   7,        255) /* ContainersCapacity */
+     , (2534,   6,         -1) /* ItemsCapacity */
+     , (2534,   7,         -1) /* ContainersCapacity */
      , (2534,  16,         32) /* ItemUseable - Remote */
      , (2534,  25,          9) /* Level */
      , (2534,  74, 1208250287) /* MerchandiseItemTypes - Jewelry, Gem, VendorShopKeep */

@@ -6,8 +6,8 @@ VALUES (45859, 'ace45859-virindiguard', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45859,   1,         16) /* ItemType - Creature */
      , (45859,   2,         19) /* CreatureType - Virindi */
-     , (45859,   6,        255) /* ItemsCapacity */
-     , (45859,   7,        255) /* ContainersCapacity */
+     , (45859,   6,         -1) /* ItemsCapacity */
+     , (45859,   7,         -1) /* ContainersCapacity */
      , (45859,  16,          1) /* ItemUseable - No */
      , (45859,  25,        200) /* Level */
      , (45859,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

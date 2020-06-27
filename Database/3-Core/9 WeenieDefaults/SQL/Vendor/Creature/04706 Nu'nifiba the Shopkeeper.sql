@@ -6,8 +6,8 @@ VALUES (4706, 'samsurnorthwestoutpostshopkeep', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4706,   1,         16) /* ItemType - Creature */
      , (4706,   2,         31) /* CreatureType - Human */
-     , (4706,   6,        255) /* ItemsCapacity */
-     , (4706,   7,        255) /* ContainersCapacity */
+     , (4706,   6,         -1) /* ItemsCapacity */
+     , (4706,   7,         -1) /* ContainersCapacity */
      , (4706,  16,         32) /* ItemUseable - Remote */
      , (4706,  25,          8) /* Level */
      , (4706,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */

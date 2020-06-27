@@ -5,8 +5,8 @@ VALUES (32438, 'ace32438-magicitemtinkeringwardenofenlightenment', 10, '2019-02-
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32438,   1,         16) /* ItemType - Creature */
-     , (32438,   6,        255) /* ItemsCapacity */
-     , (32438,   7,        255) /* ContainersCapacity */
+     , (32438,   6,         -1) /* ItemsCapacity */
+     , (32438,   7,         -1) /* ContainersCapacity */
      , (32438,  16,         32) /* ItemUseable - Remote */
      , (32438,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32438,  95,          3) /* RadarBlipColor - White */

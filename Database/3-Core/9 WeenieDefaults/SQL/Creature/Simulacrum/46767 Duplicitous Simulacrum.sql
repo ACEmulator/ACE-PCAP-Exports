@@ -6,8 +6,8 @@ VALUES (46767, 'ace46767-duplicitoussimulacrum', 10, '2019-02-10 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46767,   1,         16) /* ItemType - Creature */
      , (46767,   2,         59) /* CreatureType - Simulacrum */
-     , (46767,   6,        255) /* ItemsCapacity */
-     , (46767,   7,        255) /* ContainersCapacity */
+     , (46767,   6,         -1) /* ItemsCapacity */
+     , (46767,   7,         -1) /* ContainersCapacity */
      , (46767,  16,          1) /* ItemUseable - No */
      , (46767,  25,        135) /* Level */
      , (46767,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

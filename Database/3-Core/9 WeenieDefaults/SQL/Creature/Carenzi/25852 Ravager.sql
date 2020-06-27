@@ -6,8 +6,8 @@ VALUES (25852, 'carenziravager', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25852,   1,         16) /* ItemType - Creature */
      , (25852,   2,         55) /* CreatureType - Carenzi */
-     , (25852,   6,        255) /* ItemsCapacity */
-     , (25852,   7,        255) /* ContainersCapacity */
+     , (25852,   6,         -1) /* ItemsCapacity */
+     , (25852,   7,         -1) /* ContainersCapacity */
      , (25852,  16,          1) /* ItemUseable - No */
      , (25852,  25,        185) /* Level */
      , (25852,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

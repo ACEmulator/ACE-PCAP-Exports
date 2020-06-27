@@ -6,8 +6,8 @@ VALUES (12027, 'skeletonlowbossmonster', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12027,   1,         16) /* ItemType - Creature */
      , (12027,   2,         30) /* CreatureType - Skeleton */
-     , (12027,   6,        255) /* ItemsCapacity */
-     , (12027,   7,        255) /* ContainersCapacity */
+     , (12027,   6,         -1) /* ItemsCapacity */
+     , (12027,   7,         -1) /* ContainersCapacity */
      , (12027,  16,          1) /* ItemUseable - No */
      , (12027,  25,         30) /* Level */
      , (12027,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

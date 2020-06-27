@@ -5,8 +5,8 @@ VALUES (42003, 'ace42003-flamesofloyalty', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42003,   1,         16) /* ItemType - Creature */
-     , (42003,   6,        255) /* ItemsCapacity */
-     , (42003,   7,        255) /* ContainersCapacity */
+     , (42003,   6,         -1) /* ItemsCapacity */
+     , (42003,   7,         -1) /* ContainersCapacity */
      , (42003,  16,         32) /* ItemUseable - Remote */
      , (42003,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42003,  95,          8) /* RadarBlipColor - Yellow */

@@ -5,8 +5,8 @@ VALUES (45749, 'ace45749-electriccrystal', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45749,   1,         16) /* ItemType - Creature */
-     , (45749,   6,        255) /* ItemsCapacity */
-     , (45749,   7,        255) /* ContainersCapacity */
+     , (45749,   6,         -1) /* ItemsCapacity */
+     , (45749,   7,         -1) /* ContainersCapacity */
      , (45749,  16,          1) /* ItemUseable - No */
      , (45749,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (45749, 133,          4) /* ShowableOnRadar - ShowAlways */

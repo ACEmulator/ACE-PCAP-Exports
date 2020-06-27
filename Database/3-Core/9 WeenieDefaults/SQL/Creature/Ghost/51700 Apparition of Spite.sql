@@ -6,8 +6,8 @@ VALUES (51700, 'ace51700-apparitionofspite', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51700,   1,         16) /* ItemType - Creature */
      , (51700,   2,         77) /* CreatureType - Ghost */
-     , (51700,   6,        255) /* ItemsCapacity */
-     , (51700,   7,        255) /* ContainersCapacity */
+     , (51700,   6,         -1) /* ItemsCapacity */
+     , (51700,   7,         -1) /* ContainersCapacity */
      , (51700,  16,          1) /* ItemUseable - No */
      , (51700,  25,        300) /* Level */
      , (51700,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

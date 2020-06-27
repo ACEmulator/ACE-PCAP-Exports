@@ -6,8 +6,8 @@ VALUES (31340, 'ace31340-guardianbluecoralgolem', 10, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31340,   1,         16) /* ItemType - Creature */
      , (31340,   2,         13) /* CreatureType - Golem */
-     , (31340,   6,        255) /* ItemsCapacity */
-     , (31340,   7,        255) /* ContainersCapacity */
+     , (31340,   6,         -1) /* ItemsCapacity */
+     , (31340,   7,         -1) /* ContainersCapacity */
      , (31340,  16,          1) /* ItemUseable - No */
      , (31340,  25,        160) /* Level */
      , (31340,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

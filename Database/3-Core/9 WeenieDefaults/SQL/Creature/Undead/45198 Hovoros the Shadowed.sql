@@ -6,8 +6,8 @@ VALUES (45198, 'ace45198-hovorostheshadowed', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45198,   1,         16) /* ItemType - Creature */
      , (45198,   2,         14) /* CreatureType - Undead */
-     , (45198,   6,        255) /* ItemsCapacity */
-     , (45198,   7,        255) /* ContainersCapacity */
+     , (45198,   6,         -1) /* ItemsCapacity */
+     , (45198,   7,         -1) /* ContainersCapacity */
      , (45198,  16,          1) /* ItemUseable - No */
      , (45198,  25,        300) /* Level */
      , (45198,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

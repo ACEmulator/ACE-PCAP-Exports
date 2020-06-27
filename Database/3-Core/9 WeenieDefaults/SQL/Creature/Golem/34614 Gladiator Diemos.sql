@@ -6,8 +6,8 @@ VALUES (34614, 'ace34614-gladiatordiemos', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34614,   1,         16) /* ItemType - Creature */
      , (34614,   2,         13) /* CreatureType - Golem */
-     , (34614,   6,        255) /* ItemsCapacity */
-     , (34614,   7,        255) /* ContainersCapacity */
+     , (34614,   6,         -1) /* ItemsCapacity */
+     , (34614,   7,         -1) /* ContainersCapacity */
      , (34614,  16,          1) /* ItemUseable - No */
      , (34614,  25,        750) /* Level */
      , (34614,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

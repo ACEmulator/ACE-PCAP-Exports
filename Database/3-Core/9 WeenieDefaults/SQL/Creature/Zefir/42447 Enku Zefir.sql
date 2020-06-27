@@ -6,8 +6,8 @@ VALUES (42447, 'ace42447-enkuzefir', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42447,   1,         16) /* ItemType - Creature */
      , (42447,   2,         29) /* CreatureType - Zefir */
-     , (42447,   6,        255) /* ItemsCapacity */
-     , (42447,   7,        255) /* ContainersCapacity */
+     , (42447,   6,         -1) /* ItemsCapacity */
+     , (42447,   7,         -1) /* ContainersCapacity */
      , (42447,  16,          1) /* ItemUseable - No */
      , (42447,  25,        100) /* Level */
      , (42447,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

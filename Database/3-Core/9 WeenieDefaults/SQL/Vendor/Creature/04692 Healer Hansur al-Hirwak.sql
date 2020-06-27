@@ -6,8 +6,8 @@ VALUES (4692, 'aljalimahealer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4692,   1,         16) /* ItemType - Creature */
      , (4692,   2,         31) /* CreatureType - Human */
-     , (4692,   6,        255) /* ItemsCapacity */
-     , (4692,   7,        255) /* ContainersCapacity */
+     , (4692,   6,         -1) /* ItemsCapacity */
+     , (4692,   7,         -1) /* ContainersCapacity */
      , (4692,  16,         32) /* ItemUseable - Remote */
      , (4692,  25,         13) /* Level */
      , (4692,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

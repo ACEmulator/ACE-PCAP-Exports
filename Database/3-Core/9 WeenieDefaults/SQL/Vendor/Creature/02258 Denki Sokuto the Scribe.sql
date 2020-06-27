@@ -6,8 +6,8 @@ VALUES (2258, 'baishiscribe', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2258,   1,         16) /* ItemType - Creature */
      , (2258,   2,         31) /* CreatureType - Human */
-     , (2258,   6,        255) /* ItemsCapacity */
-     , (2258,   7,        255) /* ContainersCapacity */
+     , (2258,   6,         -1) /* ItemsCapacity */
+     , (2258,   7,         -1) /* ContainersCapacity */
      , (2258,  16,         32) /* ItemUseable - Remote */
      , (2258,  25,          7) /* Level */
      , (2258,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */

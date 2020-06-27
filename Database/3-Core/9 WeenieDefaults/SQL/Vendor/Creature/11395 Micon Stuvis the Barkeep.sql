@@ -6,8 +6,8 @@ VALUES (11395, 'redspirebarkeep-xp', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11395,   1,         16) /* ItemType - Creature */
      , (11395,   2,         31) /* CreatureType - Human */
-     , (11395,   6,        255) /* ItemsCapacity */
-     , (11395,   7,        255) /* ContainersCapacity */
+     , (11395,   6,         -1) /* ItemsCapacity */
+     , (11395,   7,         -1) /* ContainersCapacity */
      , (11395,  16,         32) /* ItemUseable - Remote */
      , (11395,  25,          7) /* Level */
      , (11395,  74,     270368) /* MerchandiseItemTypes - Food, Writable, PromissoryNote */

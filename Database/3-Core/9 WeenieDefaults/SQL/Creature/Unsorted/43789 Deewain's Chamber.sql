@@ -5,8 +5,8 @@ VALUES (43789, 'ace43789-deewainschamber', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43789,   1,         16) /* ItemType - Creature */
-     , (43789,   6,        255) /* ItemsCapacity */
-     , (43789,   7,        255) /* ContainersCapacity */
+     , (43789,   6,         -1) /* ItemsCapacity */
+     , (43789,   7,         -1) /* ContainersCapacity */
      , (43789,  16,         32) /* ItemUseable - Remote */
      , (43789,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43789,  95,          4) /* RadarBlipColor - Purple */

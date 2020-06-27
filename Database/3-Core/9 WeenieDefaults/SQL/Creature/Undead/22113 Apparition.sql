@@ -6,8 +6,8 @@ VALUES (22113, 'undeadhauntedmansionwandering', 10, '2019-02-10 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22113,   1,         16) /* ItemType - Creature */
      , (22113,   2,         14) /* CreatureType - Undead */
-     , (22113,   6,        255) /* ItemsCapacity */
-     , (22113,   7,        255) /* ContainersCapacity */
+     , (22113,   6,         -1) /* ItemsCapacity */
+     , (22113,   7,         -1) /* ContainersCapacity */
      , (22113,  16,          1) /* ItemUseable - No */
      , (22113,  25,        666) /* Level */
      , (22113,  93,    6292492) /* PhysicsState - Ethereal, ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

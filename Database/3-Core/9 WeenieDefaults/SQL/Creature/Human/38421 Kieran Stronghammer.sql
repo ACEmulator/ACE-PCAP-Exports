@@ -6,8 +6,8 @@ VALUES (38421, 'ace38421-kieranstronghammer', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38421,   1,         16) /* ItemType - Creature */
      , (38421,   2,         31) /* CreatureType - Human */
-     , (38421,   6,        255) /* ItemsCapacity */
-     , (38421,   7,        255) /* ContainersCapacity */
+     , (38421,   6,         -1) /* ItemsCapacity */
+     , (38421,   7,         -1) /* ContainersCapacity */
      , (38421,  16,         32) /* ItemUseable - Remote */
      , (38421,  25,        185) /* Level */
      , (38421,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

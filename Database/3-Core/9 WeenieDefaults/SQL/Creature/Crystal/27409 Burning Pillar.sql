@@ -6,8 +6,8 @@ VALUES (27409, 'pillarfire', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27409,   1,         16) /* ItemType - Creature */
      , (27409,   2,         47) /* CreatureType - Crystal */
-     , (27409,   6,        255) /* ItemsCapacity */
-     , (27409,   7,        255) /* ContainersCapacity */
+     , (27409,   6,         -1) /* ItemsCapacity */
+     , (27409,   7,         -1) /* ContainersCapacity */
      , (27409,  16,          1) /* ItemUseable - No */
      , (27409,  25,        100) /* Level */
      , (27409,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

@@ -6,8 +6,8 @@ VALUES (52584, 'ace52584-anekshenstormcaller', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52584,   1,         16) /* ItemType - Creature */
      , (52584,   2,        101) /* CreatureType - Anekshay */
-     , (52584,   6,        255) /* ItemsCapacity */
-     , (52584,   7,        255) /* ContainersCapacity */
+     , (52584,   6,         -1) /* ItemsCapacity */
+     , (52584,   7,         -1) /* ContainersCapacity */
      , (52584,  16,          1) /* ItemUseable - No */
      , (52584,  25,        300) /* Level */
      , (52584,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

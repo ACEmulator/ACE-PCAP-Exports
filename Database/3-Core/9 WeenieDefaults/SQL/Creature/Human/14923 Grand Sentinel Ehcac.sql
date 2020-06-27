@@ -6,8 +6,8 @@ VALUES (14923, 'sentinelwedding3', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14923,   1,         16) /* ItemType - Creature */
      , (14923,   2,         31) /* CreatureType - Human */
-     , (14923,   6,        255) /* ItemsCapacity */
-     , (14923,   7,        255) /* ContainersCapacity */
+     , (14923,   6,         -1) /* ItemsCapacity */
+     , (14923,   7,         -1) /* ContainersCapacity */
      , (14923,  16,         32) /* ItemUseable - Remote */
      , (14923,  25,        126) /* Level */
      , (14923,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

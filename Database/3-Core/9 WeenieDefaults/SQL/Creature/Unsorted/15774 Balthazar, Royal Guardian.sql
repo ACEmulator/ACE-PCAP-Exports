@@ -5,8 +5,8 @@ VALUES (15774, 'guardbalthazar', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15774,   1,         16) /* ItemType - Creature */
-     , (15774,   6,        255) /* ItemsCapacity */
-     , (15774,   7,        255) /* ContainersCapacity */
+     , (15774,   6,         -1) /* ItemsCapacity */
+     , (15774,   7,         -1) /* ContainersCapacity */
      , (15774,  16,         32) /* ItemUseable - Remote */
      , (15774,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (15774,  95,          8) /* RadarBlipColor - Yellow */

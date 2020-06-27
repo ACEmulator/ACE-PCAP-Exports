@@ -6,8 +6,8 @@ VALUES (38631, 'ace38631-eldrytchwebscout', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38631,   1,         16) /* ItemType - Creature */
      , (38631,   2,         31) /* CreatureType - Human */
-     , (38631,   6,        255) /* ItemsCapacity */
-     , (38631,   7,        255) /* ContainersCapacity */
+     , (38631,   6,         -1) /* ItemsCapacity */
+     , (38631,   7,         -1) /* ContainersCapacity */
      , (38631,  16,          1) /* ItemUseable - No */
      , (38631,  25,        200) /* Level */
      , (38631,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

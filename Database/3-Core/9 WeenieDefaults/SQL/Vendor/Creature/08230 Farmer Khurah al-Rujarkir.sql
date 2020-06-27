@@ -6,8 +6,8 @@ VALUES (8230, 'xaragrocer', 12, '2019-02-10 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8230,   1,         16) /* ItemType - Creature */
      , (8230,   2,         31) /* CreatureType - Human */
-     , (8230,   6,        255) /* ItemsCapacity */
-     , (8230,   7,        255) /* ContainersCapacity */
+     , (8230,   6,         -1) /* ItemsCapacity */
+     , (8230,   7,         -1) /* ContainersCapacity */
      , (8230,  16,         32) /* ItemUseable - Remote */
      , (8230,  25,         11) /* Level */
      , (8230,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */

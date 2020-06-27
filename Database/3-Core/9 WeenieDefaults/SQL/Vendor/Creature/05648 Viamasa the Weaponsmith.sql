@@ -6,8 +6,8 @@ VALUES (5648, 'neydisacastleweaponsmith', 12, '2019-02-10 00:00:00') /* Vendor *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5648,   1,         16) /* ItemType - Creature */
      , (5648,   2,         31) /* CreatureType - Human */
-     , (5648,   6,        255) /* ItemsCapacity */
-     , (5648,   7,        255) /* ContainersCapacity */
+     , (5648,   6,         -1) /* ItemsCapacity */
+     , (5648,   7,         -1) /* ContainersCapacity */
      , (5648,  16,         32) /* ItemUseable - Remote */
      , (5648,  25,         23) /* Level */
      , (5648,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */

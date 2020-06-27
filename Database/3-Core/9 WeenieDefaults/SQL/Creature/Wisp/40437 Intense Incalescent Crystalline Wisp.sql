@@ -6,8 +6,8 @@ VALUES (40437, 'ace40437-intenseincalescentcrystallinewisp', 10, '2019-02-10 00:
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40437,   1,         16) /* ItemType - Creature */
      , (40437,   2,         20) /* CreatureType - Wisp */
-     , (40437,   6,        255) /* ItemsCapacity */
-     , (40437,   7,        255) /* ContainersCapacity */
+     , (40437,   6,         -1) /* ItemsCapacity */
+     , (40437,   7,         -1) /* ContainersCapacity */
      , (40437,  16,          1) /* ItemUseable - No */
      , (40437,  25,        115) /* Level */
      , (40437,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

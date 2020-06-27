@@ -6,8 +6,8 @@ VALUES (39348, 'ace39348-kazykritthuunixis', 10, '2019-02-10 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39348,   1,         16) /* ItemType - Creature */
      , (39348,   2,         14) /* CreatureType - Undead */
-     , (39348,   6,        255) /* ItemsCapacity */
-     , (39348,   7,        255) /* ContainersCapacity */
+     , (39348,   6,         -1) /* ItemsCapacity */
+     , (39348,   7,         -1) /* ContainersCapacity */
      , (39348,  16,          1) /* ItemUseable - No */
      , (39348,  25,        425) /* Level */
      , (39348,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

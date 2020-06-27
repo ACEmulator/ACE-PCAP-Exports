@@ -6,8 +6,8 @@ VALUES (27745, 'collectorcookingshonewbie', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27745,   1,         16) /* ItemType - Creature */
      , (27745,   2,         31) /* CreatureType - Human */
-     , (27745,   6,        255) /* ItemsCapacity */
-     , (27745,   7,        255) /* ContainersCapacity */
+     , (27745,   6,         -1) /* ItemsCapacity */
+     , (27745,   7,         -1) /* ContainersCapacity */
      , (27745,  16,         32) /* ItemUseable - Remote */
      , (27745,  25,          5) /* Level */
      , (27745,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

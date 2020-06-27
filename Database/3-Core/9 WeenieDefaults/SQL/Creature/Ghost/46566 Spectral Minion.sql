@@ -6,8 +6,8 @@ VALUES (46566, 'ace46566-spectralminion', 10, '2019-02-10 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46566,   1,         16) /* ItemType - Creature */
      , (46566,   2,         77) /* CreatureType - Ghost */
-     , (46566,   6,        255) /* ItemsCapacity */
-     , (46566,   7,        255) /* ContainersCapacity */
+     , (46566,   6,         -1) /* ItemsCapacity */
+     , (46566,   7,         -1) /* ContainersCapacity */
      , (46566,  16,          1) /* ItemUseable - No */
      , (46566,  25,        240) /* Level */
      , (46566,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

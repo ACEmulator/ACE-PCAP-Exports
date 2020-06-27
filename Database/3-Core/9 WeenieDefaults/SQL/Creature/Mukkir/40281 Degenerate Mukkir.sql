@@ -6,8 +6,8 @@ VALUES (40281, 'ace40281-degeneratemukkir', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40281,   1,         16) /* ItemType - Creature */
      , (40281,   2,         89) /* CreatureType - Mukkir */
-     , (40281,   6,        255) /* ItemsCapacity */
-     , (40281,   7,        255) /* ContainersCapacity */
+     , (40281,   6,         -1) /* ItemsCapacity */
+     , (40281,   7,         -1) /* ContainersCapacity */
      , (40281,  16,          1) /* ItemUseable - No */
      , (40281,  25,        185) /* Level */
      , (40281,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -31,10 +31,10 @@ VALUES (40281,   1,   33559741) /* Setup */
      , (40281,   6,   67116771) /* PaletteBase */
      , (40281,   8,  100688542) /* Icon */
      , (40281,  22,  872415417) /* PhysicsEffectTable */
+     , (40281,  30,         86) /* PhysicsScript - BreatheAcid */
      , (40281, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40281, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (40281, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
-     , (40281, 8019,         86) /* PCAPRecordedDefaultScript */;
+     , (40281, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40281, 8040, 3337355323, 174.2931, 55.17636, 2.353124, -0.9723065, 0, 0, -0.2337094) /* PCAPRecordedLocation */

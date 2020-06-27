@@ -6,8 +6,8 @@ VALUES (12686, 'arcanumenvoy', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12686,   1,         16) /* ItemType - Creature */
      , (12686,   2,         31) /* CreatureType - Human */
-     , (12686,   6,        255) /* ItemsCapacity */
-     , (12686,   7,        255) /* ContainersCapacity */
+     , (12686,   6,         -1) /* ItemsCapacity */
+     , (12686,   7,         -1) /* ContainersCapacity */
      , (12686,  16,         32) /* ItemUseable - Remote */
      , (12686,  25,         25) /* Level */
      , (12686,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

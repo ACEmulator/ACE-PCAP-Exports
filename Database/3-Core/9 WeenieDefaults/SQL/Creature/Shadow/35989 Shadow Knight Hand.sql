@@ -6,8 +6,8 @@ VALUES (35989, 'ace35989-shadowknighthand', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35989,   1,         16) /* ItemType - Creature */
      , (35989,   2,         22) /* CreatureType - Shadow */
-     , (35989,   6,        255) /* ItemsCapacity */
-     , (35989,   7,        255) /* ContainersCapacity */
+     , (35989,   6,         -1) /* ItemsCapacity */
+     , (35989,   7,         -1) /* ContainersCapacity */
      , (35989,  16,          1) /* ItemUseable - No */
      , (35989,  25,        185) /* Level */
      , (35989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

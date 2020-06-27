@@ -6,8 +6,8 @@ VALUES (40859, 'ace40859-crystallineessencearray', 10, '2019-02-10 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40859,   1,         16) /* ItemType - Creature */
      , (40859,   2,         47) /* CreatureType - Crystal */
-     , (40859,   6,        255) /* ItemsCapacity */
-     , (40859,   7,        255) /* ContainersCapacity */
+     , (40859,   6,         -1) /* ItemsCapacity */
+     , (40859,   7,         -1) /* ContainersCapacity */
      , (40859,  16,          1) /* ItemUseable - No */
      , (40859,  25,        100) /* Level */
      , (40859,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */

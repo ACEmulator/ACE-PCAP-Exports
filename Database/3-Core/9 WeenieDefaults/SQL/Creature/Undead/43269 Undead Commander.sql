@@ -6,8 +6,8 @@ VALUES (43269, 'ace43269-undeadcommander', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43269,   1,         16) /* ItemType - Creature */
      , (43269,   2,         14) /* CreatureType - Undead */
-     , (43269,   6,        255) /* ItemsCapacity */
-     , (43269,   7,        255) /* ContainersCapacity */
+     , (43269,   6,         -1) /* ItemsCapacity */
+     , (43269,   7,         -1) /* ContainersCapacity */
      , (43269,  16,          1) /* ItemUseable - No */
      , (43269,  25,        185) /* Level */
      , (43269,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

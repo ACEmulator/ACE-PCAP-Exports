@@ -6,8 +6,8 @@ VALUES (31916, 'ace31916-astisnefane', 10, '2019-02-10 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31916,   1,         16) /* ItemType - Creature */
      , (31916,   2,         45) /* CreatureType - Niffis */
-     , (31916,   6,        255) /* ItemsCapacity */
-     , (31916,   7,        255) /* ContainersCapacity */
+     , (31916,   6,         -1) /* ItemsCapacity */
+     , (31916,   7,         -1) /* ContainersCapacity */
      , (31916,  16,          1) /* ItemUseable - No */
      , (31916,  25,        185) /* Level */
      , (31916,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

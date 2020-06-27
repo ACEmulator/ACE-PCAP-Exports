@@ -5,8 +5,8 @@ VALUES (32430, 'ace32430-magicdefensewardenofforgetfulness', 10, '2019-02-10 00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32430,   1,         16) /* ItemType - Creature */
-     , (32430,   6,        255) /* ItemsCapacity */
-     , (32430,   7,        255) /* ContainersCapacity */
+     , (32430,   6,         -1) /* ItemsCapacity */
+     , (32430,   7,         -1) /* ContainersCapacity */
      , (32430,  16,         32) /* ItemUseable - Remote */
      , (32430,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32430,  95,          3) /* RadarBlipColor - White */

@@ -5,8 +5,8 @@ VALUES (35505, 'ace35505-guardianstatue', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35505,   1,         16) /* ItemType - Creature */
-     , (35505,   6,        255) /* ItemsCapacity */
-     , (35505,   7,        255) /* ContainersCapacity */
+     , (35505,   6,         -1) /* ItemsCapacity */
+     , (35505,   7,         -1) /* ContainersCapacity */
      , (35505,  16,         32) /* ItemUseable - Remote */
      , (35505,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35505,  95,          8) /* RadarBlipColor - Yellow */

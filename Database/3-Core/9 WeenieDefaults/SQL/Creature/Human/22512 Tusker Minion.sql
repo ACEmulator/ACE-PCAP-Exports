@@ -6,8 +6,8 @@ VALUES (22512, 'humantuskerminionmage', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22512,   1,         16) /* ItemType - Creature */
      , (22512,   2,         31) /* CreatureType - Human */
-     , (22512,   6,        255) /* ItemsCapacity */
-     , (22512,   7,        255) /* ContainersCapacity */
+     , (22512,   6,         -1) /* ItemsCapacity */
+     , (22512,   7,         -1) /* ContainersCapacity */
      , (22512,  16,          1) /* ItemUseable - No */
      , (22512,  25,         40) /* Level */
      , (22512,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

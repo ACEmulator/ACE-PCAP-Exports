@@ -6,8 +6,8 @@ VALUES (31827, 'ace31827-incendiaryknight', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31827,   1,         16) /* ItemType - Creature */
      , (31827,   2,         62) /* CreatureType - Elemental */
-     , (31827,   6,        255) /* ItemsCapacity */
-     , (31827,   7,        255) /* ContainersCapacity */
+     , (31827,   6,         -1) /* ItemsCapacity */
+     , (31827,   7,         -1) /* ContainersCapacity */
      , (31827,  16,          1) /* ItemUseable - No */
      , (31827,  25,        160) /* Level */
      , (31827,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

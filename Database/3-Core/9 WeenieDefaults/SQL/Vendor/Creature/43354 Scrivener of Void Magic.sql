@@ -6,8 +6,8 @@ VALUES (43354, 'ace43354-scrivenerofvoidmagic', 12, '2019-02-10 00:00:00') /* Ve
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43354,   1,         16) /* ItemType - Creature */
      , (43354,   2,         22) /* CreatureType - Shadow */
-     , (43354,   6,        255) /* ItemsCapacity */
-     , (43354,   7,        255) /* ContainersCapacity */
+     , (43354,   6,         -1) /* ItemsCapacity */
+     , (43354,   7,         -1) /* ContainersCapacity */
      , (43354,  16,         32) /* ItemUseable - Remote */
      , (43354,  25,         14) /* Level */
      , (43354,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */

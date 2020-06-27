@@ -6,8 +6,8 @@ VALUES (43761, 'ace43761-chargeddefender', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43761,   1,         16) /* ItemType - Creature */
      , (43761,   2,         13) /* CreatureType - Golem */
-     , (43761,   6,        255) /* ItemsCapacity */
-     , (43761,   7,        255) /* ContainersCapacity */
+     , (43761,   6,         -1) /* ItemsCapacity */
+     , (43761,   7,         -1) /* ContainersCapacity */
      , (43761,  16,          1) /* ItemUseable - No */
      , (43761,  25,        220) /* Level */
      , (43761,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

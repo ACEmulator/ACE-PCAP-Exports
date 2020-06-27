@@ -6,8 +6,8 @@ VALUES (34898, 'ace34898-saradinsvacantgolem', 69, '2019-02-10 00:00:00') /* Pet
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34898,   1,         16) /* ItemType - Creature */
      , (34898,   2,         13) /* CreatureType - Golem */
-     , (34898,   6,        255) /* ItemsCapacity */
-     , (34898,   7,        255) /* ContainersCapacity */
+     , (34898,   6,         -1) /* ItemsCapacity */
+     , (34898,   7,         -1) /* ContainersCapacity */
      , (34898,  16,          1) /* ItemUseable - No */
      , (34898,  25,          1) /* Level */
      , (34898,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

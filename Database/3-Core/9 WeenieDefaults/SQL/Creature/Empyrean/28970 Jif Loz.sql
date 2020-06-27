@@ -6,8 +6,8 @@ VALUES (28970, 'jifloz', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28970,   1,         16) /* ItemType - Creature */
      , (28970,   2,         51) /* CreatureType - Empyrean */
-     , (28970,   6,        255) /* ItemsCapacity */
-     , (28970,   7,        255) /* ContainersCapacity */
+     , (28970,   6,         -1) /* ItemsCapacity */
+     , (28970,   7,         -1) /* ContainersCapacity */
      , (28970,  16,         32) /* ItemUseable - Remote */
      , (28970,  25,        500) /* Level */
      , (28970,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
