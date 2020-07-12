@@ -23,7 +23,6 @@ VALUES (2403,   1,       2048) /* ItemType - Gem */
      , (2403, 115,          0) /* ItemSkillLevelLimit */
      , (2403, 117,        300) /* ItemManaCost */
      , (2403, 131,         22) /* MaterialType - FireOpal */
-     , (2403, 172,          1) /* AppraisalLongDescDecoration */
      , (2403, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,9 +48,6 @@ VALUES (2403,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2403, 8000, 3692262283) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2403,  1022,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2403, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */

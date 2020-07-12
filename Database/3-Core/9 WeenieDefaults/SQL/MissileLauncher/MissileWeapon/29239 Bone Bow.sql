@@ -30,8 +30,6 @@ VALUES (29239,   1,        256) /* ItemType - MissileWeapon */
      , (29239, 158,          2) /* WieldRequirements - RawSkill */
      , (29239, 159,         47) /* WieldSkillType - MissileWeapons */
      , (29239, 160,        315) /* WieldDifficulty */
-     , (29239, 172,          1) /* AppraisalLongDescDecoration */
-     , (29239, 176,         47) /* AppraisalItemSkill */
      , (29239, 204,          4) /* ElementalDamageBonus */
      , (29239, 353,          8) /* WeaponType - Bow */
      , (29239, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
@@ -61,6 +59,7 @@ VALUES (29239,   1,   33560183) /* Setup */
      , (29239,   3,  536870932) /* SoundTable */
      , (29239,   8,  100689316) /* Icon */
      , (29239,  22,  872415275) /* PhysicsEffectTable */
+     , (29239,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29239,  52,  100676442) /* IconUnderlay */
      , (29239, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (29239, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -77,8 +76,8 @@ VALUES (29239, 8000, 2151959602) /* PCAPRecordedObjectIID */
      , (29239, 8008, 1343219288) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29239,  1616,      2) 
-     , (29239,  2116,      2) 
-     , (29239,  2559,      2) 
-     , (29239,  2600,      2) 
-     , (29239,  5833,      2) ;
+VALUES (29239,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (29239,  2116,      2)  /* SwiftKillerSelf7 */
+     , (29239,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+     , (29239,  2600,      2)  /* CANTRIPDEFENDER1 */
+     , (29239,  5833,      2)  /* RecklessnessMasterySelf7 */;

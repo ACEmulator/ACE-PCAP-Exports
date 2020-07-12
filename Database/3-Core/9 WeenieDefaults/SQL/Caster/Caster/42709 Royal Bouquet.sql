@@ -54,6 +54,5 @@ VALUES (42709, 8000, 3685097024) /* PCAPRecordedObjectIID */
      , (42709, 8008, 3685095786) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42709,   170,      2) 
-     , (42709,   879,      2) 
-     , (42709,  5314,      2) ;
+VALUES (42709,   170,      2)  /* RegenerationSelf6 */
+     , (42709,   879,      2)  /* HealingMasterySelf6 */;

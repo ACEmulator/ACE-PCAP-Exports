@@ -61,8 +61,7 @@ VALUES (14569, 8000, 2157886822) /* PCAPRecordedObjectIID */
      , (14569, 8008, 1342716348) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14569,  2637,      2) 
-     , (14569,  2638,      2) ;
+VALUES (14569,  2638,      2)  /* HeartofOak */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14569, 67113784, 0, 0);

@@ -21,8 +21,6 @@ VALUES (48,   1,          2) /* ItemType - Armor */
      , (48, 110,          0) /* ItemAllegianceRankLimit */
      , (48, 115,        142) /* ItemSkillLevelLimit */
      , (48, 131,         52) /* MaterialType - Leather */
-     , (48, 172,          5) /* AppraisalLongDescDecoration */
-     , (48, 176,          7) /* AppraisalItemSkill */
      , (48, 177,          1) /* GemCount */
      , (48, 178,         44) /* GemType */
      , (48, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -53,6 +51,7 @@ VALUES (48,   1,   33554644) /* Setup */
      , (48,   6,   67108990) /* PaletteBase */
      , (48,   8,  100669637) /* Icon */
      , (48,  22,  872415275) /* PhysicsEffectTable */
+     , (48,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (48, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (48, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -61,10 +60,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48, 8000, 3688174180) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48,  1484,      2) 
-     , (48,  1527,      2) 
-     , (48,  1551,      2) 
-     , (48,  1572,      2) ;
+VALUES (48,  1484,      2)  /* Impenetrability4 */
+     , (48,  1527,      2)  /* FrostBane5 */
+     , (48,  1551,      2)  /* FlameBane5 */
+     , (48,  1572,      2)  /* PiercingBane4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

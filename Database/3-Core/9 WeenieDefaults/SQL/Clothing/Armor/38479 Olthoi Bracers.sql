@@ -25,8 +25,6 @@ VALUES (38479,   1,          2) /* ItemType - Armor */
      , (38479, 159,        288) /* WieldSkillType */
      , (38479, 160,        301) /* WieldDifficulty */
      , (38479, 171,         10) /* NumTimesTinkered */
-     , (38479, 172,          5) /* AppraisalLongDescDecoration */
-     , (38479, 176,          6) /* AppraisalItemSkill */
      , (38479, 177,          2) /* GemCount */
      , (38479, 178,         38) /* GemType */
      , (38479, 265,         30) /* EquipmentSetId - SocietyArmor */
@@ -58,6 +56,7 @@ VALUES (38479,   1,   33554641) /* Setup */
      , (38479,   6,   67108990) /* PaletteBase */
      , (38479,   8,  100674525) /* Icon */
      , (38479,  22,  872415275) /* PhysicsEffectTable */
+     , (38479,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (38479, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38479, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38479, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -66,9 +65,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38479, 8000, 2150515822) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38479,  2108,      2) 
-     , (38479,  2185,      2) 
-     , (38479,  6125,      2) ;
+VALUES (38479,  2108,      2)  /* Impenetrability7 */
+     , (38479,  2185,      2)  /* RegenerationSelf7 */
+     , (38479,  6125,      2)  /* CantripSummoningProwess4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38479, 67116592, 96, 12)

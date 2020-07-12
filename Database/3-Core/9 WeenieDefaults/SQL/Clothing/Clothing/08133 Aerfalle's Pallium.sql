@@ -58,10 +58,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8133, 8000, 2186220612) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8133,   689,      2) 
-     , (8133,  1431,      2) 
-     , (8133,  1455,      2) 
-     , (8133,  2015,      2) ;
+VALUES (8133,   689,      2)  /* ArcaneEnlightenmentOther6 */
+     , (8133,  1431,      2)  /* FocusOther5 */
+     , (8133,  1455,      2)  /* WillpowerOther5 */
+     , (8133,  2015,      2)  /* AerfallesWard */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8133, 67109945, 96, 12)

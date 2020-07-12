@@ -63,10 +63,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27594, 8000, 3372263977) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27594,  1384,      2) 
-     , (27594,  1616,      2) 
-     , (27594,  2416,      2) 
-     , (27594,  2423,      2) 
-     , (27594,  2426,      2) 
-     , (27594,  2488,      2) 
-     , (27594,  2629,      2) ;
+VALUES (27594,  1384,      2)  /* CoordinationOther6 */
+     , (27594,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (27594,  2416,      2)  /* HighTensionString */
+     , (27594,  2423,      2)  /* Precise */
+     , (27594,  2426,      2)  /* StrongPull */
+     , (27594,  2488,      2)  /* ElariBowFamiliarity */
+     , (27594,  2629,      2)  /* HuntressBoon */;

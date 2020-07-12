@@ -63,10 +63,10 @@ VALUES (27839, 8000, 2701719101) /* PCAPRecordedObjectIID */
      , (27839, 8008, 1342876784) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27839,   211,      2) 
-     , (27839,   664,      2) 
-     , (27839,  1432,      2) 
-     , (27839,  2581,      2) ;
+VALUES (27839,   211,      2)  /* ManaRenewalOther6 */
+     , (27839,   664,      2)  /* ManaMasteryOther6 */
+     , (27839,  1432,      2)  /* FocusOther6 */
+     , (27839,  2581,      2)  /* CANTRIPFOCUS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27839, 67111926, 0, 0);

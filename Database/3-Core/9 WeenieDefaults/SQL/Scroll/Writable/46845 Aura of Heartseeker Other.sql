@@ -27,7 +27,8 @@ VALUES (46845,   1,   33554826) /* Setup */
      , (46845,  28,       6007) /* Spell - HeartSeekerOther1 */
      , (46845, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (46845, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46845, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+     , (46845, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */
+     , (46845, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46845, 8000,      46845) /* PCAPRecordedObjectIID */;

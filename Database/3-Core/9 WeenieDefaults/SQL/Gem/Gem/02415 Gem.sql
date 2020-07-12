@@ -23,7 +23,6 @@ VALUES (2415,   1,       2048) /* ItemType - Gem */
      , (2415, 115,          0) /* ItemSkillLevelLimit */
      , (2415, 117,        250) /* ItemManaCost */
      , (2415, 131,         28) /* MaterialType - LapisLazuli */
-     , (2415, 172,          1) /* AppraisalLongDescDecoration */
      , (2415, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,9 +48,6 @@ VALUES (2415,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2415, 8000, 3690196304) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2415,  1310,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2415, 67111919, 0, 0);

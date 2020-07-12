@@ -19,7 +19,6 @@ VALUES (622,   1,          8) /* ItemType - Jewelry */
      , (622, 110,          0) /* ItemAllegianceRankLimit */
      , (622, 115,          0) /* ItemSkillLevelLimit */
      , (622, 131,         57) /* MaterialType - Brass */
-     , (622, 172,          1) /* AppraisalLongDescDecoration */
      , (622, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,7 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (622, 8000, 3685584362) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (622,   731,      2) ;
+VALUES (622,   731,      2)  /* ItemExpertiseSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (622, 67111919, 0, 0);

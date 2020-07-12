@@ -19,7 +19,6 @@ VALUES (624,   1,          8) /* ItemType - Jewelry */
      , (624, 110,          0) /* ItemAllegianceRankLimit */
      , (624, 115,          0) /* ItemSkillLevelLimit */
      , (624, 131,         59) /* MaterialType - Copper */
-     , (624, 172,          5) /* AppraisalLongDescDecoration */
      , (624, 177,          1) /* GemCount */
      , (624, 178,         34) /* GemType */
      , (624, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,7 +49,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (624, 8000, 3685790907) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (624,  1312,      2) ;
+VALUES (624,  1312,      2)  /* ArmorSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (624, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */

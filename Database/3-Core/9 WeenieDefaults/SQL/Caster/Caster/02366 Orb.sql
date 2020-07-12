@@ -21,7 +21,6 @@ VALUES (2366,   1,      32768) /* ItemType - Caster */
      , (2366, 115,          0) /* ItemSkillLevelLimit */
      , (2366, 131,         70) /* MaterialType - Sandstone */
      , (2366, 151,          2) /* HookType - Wall */
-     , (2366, 172,          3) /* AppraisalLongDescDecoration */
      , (2366, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,8 +53,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2366, 8000, 2186220608) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2366,     1,      2) 
-     , (2366,   605,      2) ;
+VALUES (2366,   605,      2)  /* LifeMagicMasterySelf1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2366, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

@@ -20,7 +20,6 @@ VALUES (40762,   1,          1) /* ItemType - MeleeWeapon */
      , (40762, 105,          4) /* ItemWorkmanship */
      , (40762, 131,         63) /* MaterialType - Silver */
      , (40762, 151,          2) /* HookType - Wall */
-     , (40762, 172,          1) /* AppraisalLongDescDecoration */
      , (40762, 292,          2) /* Cleaving */
      , (40762, 353,         11) /* WeaponType - TwoHanded */
      , (40762, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */

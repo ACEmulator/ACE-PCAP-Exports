@@ -29,8 +29,6 @@ VALUES (7790,   1,          1) /* ItemType - MeleeWeapon */
      , (7790, 158,          2) /* WieldRequirements - RawSkill */
      , (7790, 159,         45) /* WieldSkillType - LightWeapons */
      , (7790, 160,        350) /* WieldDifficulty */
-     , (7790, 172,          5) /* AppraisalLongDescDecoration */
-     , (7790, 176,         45) /* AppraisalItemSkill */
      , (7790, 177,          4) /* GemCount */
      , (7790, 178,         47) /* GemType */
      , (7790, 353,          4) /* WeaponType - Mace */
@@ -60,6 +58,7 @@ VALUES (7790,   1,   33556659) /* Setup */
      , (7790,   6,   67111919) /* PaletteBase */
      , (7790,   8,  100670774) /* Icon */
      , (7790,  22,  872415275) /* PhysicsEffectTable */
+     , (7790,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (7790, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7790, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7790, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -68,8 +67,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7790, 8000, 3469922999) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7790,  2096,      2) 
-     , (7790,  2603,      2) ;
+VALUES (7790,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (7790,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7790, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

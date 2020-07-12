@@ -44,6 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25540, 8000, 2174497445) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25540,  2012,      2) 
-     , (25540,  2581,      2) 
-     , (25540,  2584,      2) ;
+VALUES (25540,  2012,      2)  /* WizardsIntellect */
+     , (25540,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (25540,  2584,      2)  /* CANTRIPWILLPOWER1 */;

@@ -23,7 +23,6 @@ VALUES (2420,   1,       2048) /* ItemType - Gem */
      , (2420, 115,          0) /* ItemSkillLevelLimit */
      , (2420, 117,        300) /* ItemManaCost */
      , (2420, 131,         46) /* MaterialType - WhiteQuartz */
-     , (2420, 172,          1) /* AppraisalLongDescDecoration */
      , (2420, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2420, 8000, 3688109596) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2420,   216,      2) ;
+VALUES (2420,   216,      2)  /* ManaRenewalSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2420, 67111920, 0, 0);

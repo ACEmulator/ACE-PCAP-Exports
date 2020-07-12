@@ -56,9 +56,8 @@ VALUES (38796, 8000, 2610183245) /* PCAPRecordedObjectIID */
      , (38796, 8008, 1343477008) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38796,  2256,      2) 
-     , (38796,  2300,      2) 
-     , (38796,  4910,      2) ;
+VALUES (38796,  2256,      2)  /* JumpingMasteryOther7 */
+     , (38796,  2300,      2)  /* SprintOther7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38796, 67111921, 0, 0);

@@ -64,11 +64,11 @@ VALUES (51991, 8000, 2675681812) /* PCAPRecordedObjectIID */
      , (51991, 8008, 1343262288) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51991,  3964,      2) 
-     , (51991,  4227,      2) 
-     , (51991,  4400,      2) 
-     , (51991,  4414,      2) 
-     , (51991,  6074,      2) ;
+VALUES (51991,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (51991,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (51991,  4400,      2)  /* DefenderSelf8 */
+     , (51991,  4414,      2)  /* SpiritDrinkerSelf8 */
+     , (51991,  6074,      2)  /* CantripVoidMagicAptitude4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51991, 67111921, 0, 0);

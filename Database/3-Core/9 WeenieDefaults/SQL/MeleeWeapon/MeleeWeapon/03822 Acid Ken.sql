@@ -23,7 +23,6 @@ VALUES (3822,   1,          1) /* ItemType - MeleeWeapon */
      , (3822, 158,          2) /* WieldRequirements - RawSkill */
      , (3822, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (3822, 160,        350) /* WieldDifficulty */
-     , (3822, 172,          5) /* AppraisalLongDescDecoration */
      , (3822, 177,          1) /* GemCount */
      , (3822, 178,         49) /* GemType */
      , (3822, 353,          2) /* WeaponType - Sword */

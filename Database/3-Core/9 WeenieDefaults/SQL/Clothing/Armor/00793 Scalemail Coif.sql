@@ -22,7 +22,6 @@ VALUES (793,   1,          2) /* ItemType - Armor */
      , (793, 115,          0) /* ItemSkillLevelLimit */
      , (793, 131,         59) /* MaterialType - Copper */
      , (793, 151,          2) /* HookType - Wall */
-     , (793, 172,          1) /* AppraisalLongDescDecoration */
      , (793, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,8 +58,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (793, 8000, 3682776858) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (793,  1485,      2) 
-     , (793,  1515,      2) ;
+VALUES (793,  1485,      2)  /* Impenetrability5 */
+     , (793,  1515,      2)  /* BludgeonBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (793, 67110547, 240, 10);

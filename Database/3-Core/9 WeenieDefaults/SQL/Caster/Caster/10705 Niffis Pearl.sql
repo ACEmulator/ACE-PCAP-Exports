@@ -18,7 +18,6 @@ VALUES (10705,   1,      32768) /* ItemType - Caster */
      , (10705, 108,        600) /* ItemMaxMana */
      , (10705, 115,         80) /* ItemSkillLevelLimit */
      , (10705, 151,          2) /* HookType - Wall */
-     , (10705, 176,         16) /* AppraisalItemSkill */
      , (10705, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,6 +38,7 @@ VALUES (10705,   1,   33558259) /* Setup */
      , (10705,   3,  536870932) /* SoundTable */
      , (10705,   8,  100674116) /* Icon */
      , (10705,  22,  872415275) /* PhysicsEffectTable */
+     , (10705,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (10705, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (10705, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10705, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -53,9 +53,9 @@ VALUES (10705, 8000, 3425241272) /* PCAPRecordedObjectIID */
      , (10705, 8008, 1342468624) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10705,  1310,      2) 
-     , (10705,  1424,      2) 
-     , (10705,  1448,      2) ;
+VALUES (10705,  1310,      2)  /* ArmorSelf4 */
+     , (10705,  1424,      2)  /* FocusSelf4 */
+     , (10705,  1448,      2)  /* WillpowerSelf4 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (10705, 0, 83888861, 83893321);

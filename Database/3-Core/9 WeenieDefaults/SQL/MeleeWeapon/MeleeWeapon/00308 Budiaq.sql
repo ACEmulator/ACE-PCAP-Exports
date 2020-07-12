@@ -20,7 +20,6 @@ VALUES (308,   1,          1) /* ItemType - MeleeWeapon */
      , (308, 105,          3) /* ItemWorkmanship */
      , (308, 131,         51) /* MaterialType - Ivory */
      , (308, 151,          2) /* HookType - Wall */
-     , (308, 172,          3) /* AppraisalLongDescDecoration */
      , (308, 353,          5) /* WeaponType - Spear */
      , (308, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (308, 8041,        101) /* PCAPRecordedPlacement - Resting */;

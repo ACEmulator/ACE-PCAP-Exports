@@ -21,8 +21,6 @@ VALUES (108,   1,          2) /* ItemType - Armor */
      , (108, 110,          0) /* ItemAllegianceRankLimit */
      , (108, 115,        181) /* ItemSkillLevelLimit */
      , (108, 131,         64) /* MaterialType - Steel */
-     , (108, 172,          1) /* AppraisalLongDescDecoration */
-     , (108, 176,          7) /* AppraisalItemSkill */
      , (108, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,6 +50,7 @@ VALUES (108,   1,   33554656) /* Setup */
      , (108,   6,   67108990) /* PaletteBase */
      , (108,   8,  100673325) /* Icon */
      , (108,  22,  872415275) /* PhysicsEffectTable */
+     , (108,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (108, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (108, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -60,7 +59,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (108, 8000, 3701158950) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (108,  1486,      2) ;
+VALUES (108,  1486,      2)  /* Impenetrability6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (108, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;

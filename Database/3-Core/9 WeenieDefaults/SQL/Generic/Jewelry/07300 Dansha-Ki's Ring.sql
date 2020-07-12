@@ -43,8 +43,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7300, 8000, 2174237383) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7300,   278,      2) 
-     , (7300,  1070,      2) ;
+VALUES (7300,   278,      2)  /* MagicResistanceSelf5 */
+     , (7300,  1070,      2)  /* LightningProtectionSelf5 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7300, 0, 83889680, 83889680);

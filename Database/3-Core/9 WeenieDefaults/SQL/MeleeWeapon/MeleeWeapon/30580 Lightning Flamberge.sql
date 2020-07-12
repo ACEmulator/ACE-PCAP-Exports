@@ -29,8 +29,6 @@ VALUES (30580,   1,          1) /* ItemType - MeleeWeapon */
      , (30580, 158,          2) /* WieldRequirements - RawSkill */
      , (30580, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30580, 160,        350) /* WieldDifficulty */
-     , (30580, 172,          5) /* AppraisalLongDescDecoration */
-     , (30580, 176,         44) /* AppraisalItemSkill */
      , (30580, 177,          6) /* GemCount */
      , (30580, 178,         48) /* GemType */
      , (30580, 353,          2) /* WeaponType - Sword */
@@ -62,6 +60,7 @@ VALUES (30580,   1,   33559468) /* Setup */
      , (30580,   6,   67115557) /* PaletteBase */
      , (30580,   8,  100686954) /* Icon */
      , (30580,  22,  872415275) /* PhysicsEffectTable */
+     , (30580,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30580, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30580, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30580, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -70,9 +69,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30580, 8000, 3692402487) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30580,  1616,      2) 
-     , (30580,  2101,      2) 
-     , (30580,  5887,      2) ;
+VALUES (30580,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30580,  2101,      2)  /* DefenderSelf7 */
+     , (30580,  5887,      2)  /* CantripSneakAttackProwess1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30580, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */;

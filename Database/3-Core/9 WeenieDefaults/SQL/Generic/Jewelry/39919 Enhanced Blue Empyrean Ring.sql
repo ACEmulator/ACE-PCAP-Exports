@@ -51,11 +51,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39919, 8000, 2153220102) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39919,  2613,      2) 
-     , (39919,  3981,      2) 
-     , (39919,  4070,      2) 
-     , (39919,  4077,      2) 
-     , (39919,  4227,      2) ;
+VALUES (39919,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+     , (39919,  3981,      2)  /* ManarenewalOtherIncantation */
+     , (39919,  4070,      2)  /* EmpyreanManaAbsorbtion */
+     , (39919,  4077,      2)  /* ManaConvertMasteryIncantation */
+     , (39919,  4227,      2)  /* CANTRIPWILLPOWER3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39919, 67111919, 0, 0);

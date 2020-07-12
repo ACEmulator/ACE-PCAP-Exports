@@ -54,11 +54,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29819, 8000, 2148135350) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29819,   712,      2) 
-     , (29819,   736,      2) 
-     , (29819,   760,      2) 
-     , (29819,   784,      2) 
-     , (29819,  3510,      2) ;
+VALUES (29819,   712,      2)  /* ArmorExpertiseOther5 */
+     , (29819,   736,      2)  /* ItemExpertiseOther5 */
+     , (29819,   760,      2)  /* MagicItemExpertiseOther5 */
+     , (29819,   784,      2)  /* WeaponExpertiseOther5 */
+     , (29819,  3510,      2)  /* ArcanumSalvagingOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29819, 67113340, 240, 16);

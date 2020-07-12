@@ -57,10 +57,9 @@ VALUES (32488, 8000, 2189235725) /* PCAPRecordedObjectIID */
      , (32488, 8008, 1343456664) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32488,   248,      2) 
-     , (32488,   562,      2) 
-     , (32488,  2155,      2) 
-     , (32488,  3866,      2) ;
+VALUES (32488,   248,      2)  /* InvulnerabilitySelf5 */
+     , (32488,   562,      2)  /* CreatureEnchantmentMasterySelf6 */
+     , (32488,  2155,      2)  /* ColdProtectionSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32488, 67111924, 0, 0);

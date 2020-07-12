@@ -44,9 +44,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8748, 8000, 2779730401) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8748,    82,      2) 
-     , (8748,   583,      2) 
-     , (8748,   655,      2) ;
+VALUES (8748,   583,      2)  /* ItemEnchantmentMasterySelf3 */
+     , (8748,   655,      2)  /* ManaMasterySelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8748, 67111924, 0, 0);

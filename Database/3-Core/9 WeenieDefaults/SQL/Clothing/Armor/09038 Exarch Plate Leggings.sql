@@ -46,7 +46,7 @@ VALUES (9038,   1,   33554856) /* Setup */
      , (9038,   6,   67108990) /* PaletteBase */
      , (9038,   8,  100671354) /* Icon */
      , (9038,  22,  872415275) /* PhysicsEffectTable */
-     , (9038,  41,         34) /* ItemSpecializedOnly */
+     , (9038,  41,         34) /* ItemSpecializedOnly - WarMagic */
      , (9038, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (9038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9038, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -59,17 +59,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9038, 8000, 3605406606) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9038,   992,      2) 
-     , (9038,  1337,      2) 
-     , (9038,  2349,      2) 
-     , (9038,  2350,      2) 
-     , (9038,  2351,      2) 
-     , (9038,  2352,      2) 
-     , (9038,  2353,      2) 
-     , (9038,  2354,      2) 
-     , (9038,  2355,      2) 
-     , (9038,  2356,      2) 
-     , (9038,  2378,      2) ;
+VALUES (9038,   992,      2)  /* SprintOther5 */
+     , (9038,  1337,      2)  /* StrengthOther6 */
+     , (9038,  2349,      2)  /* HieroWard */
+     , (9038,  2350,      2)  /* DecayDurance */
+     , (9038,  2351,      2)  /* ConsumptionDurance */
+     , (9038,  2352,      2)  /* StasisDurance */
+     , (9038,  2353,      2)  /* StimulationDurance */
+     , (9038,  2354,      2)  /* PiercingDuranceLess */
+     , (9038,  2355,      2)  /* SlashingDuranceLess */
+     , (9038,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9038,  2378,      2)  /* BeastMurmur */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9038, 67113132, 136, 16)

@@ -23,7 +23,6 @@ VALUES (45117,   1,          1) /* ItemType - MeleeWeapon */
      , (45117, 158,          2) /* WieldRequirements - RawSkill */
      , (45117, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45117, 160,        250) /* WieldDifficulty */
-     , (45117, 172,          1) /* AppraisalLongDescDecoration */
      , (45117, 353,          3) /* WeaponType - Axe */
      , (45117, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (45117, 8041,        101) /* PCAPRecordedPlacement - Resting */;

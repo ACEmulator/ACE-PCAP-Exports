@@ -22,7 +22,6 @@ VALUES (2398,   1,       2048) /* ItemType - Gem */
      , (2398, 115,          0) /* ItemSkillLevelLimit */
      , (2398, 117,        300) /* ItemManaCost */
      , (2398, 131,         43) /* MaterialType - Tourmaline */
-     , (2398, 172,          1) /* AppraisalLongDescDecoration */
      , (2398, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,7 +48,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2398, 8000, 3688254419) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2398,  1377,      2) ;
+VALUES (2398,  1377,      2)  /* CoordinationSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2398, 67111923, 0, 0);

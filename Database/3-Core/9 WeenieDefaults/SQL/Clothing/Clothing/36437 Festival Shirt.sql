@@ -52,9 +52,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36437, 8000, 2978131397) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36437,  2501,      2) 
-     , (36437,  2506,      2) 
-     , (36437,  2512,      2) ;
+VALUES (36437,  2501,      2)  /* CANTRIPALCHEMICALPROWESS2 */
+     , (36437,  2506,      2)  /* CANTRIPCOOKINGPROWESS2 */
+     , (36437,  2512,      2)  /* CANTRIPFLETCHINGPROWESS2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36437, 67112915, 92, 4)

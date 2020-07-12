@@ -60,8 +60,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20938, 8000, 2981037280) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20938,  1312,      2) 
-     , (20938,  2539,      2) ;
+VALUES (20938,  1312,      2)  /* ArmorSelf6 */
+     , (20938,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20938, 0, 83893927, 83892492)

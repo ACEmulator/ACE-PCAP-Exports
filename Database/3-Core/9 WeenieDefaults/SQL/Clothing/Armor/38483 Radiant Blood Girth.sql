@@ -24,7 +24,6 @@ VALUES (38483,   1,          2) /* ItemType - Armor */
      , (38483, 158,          9) /* WieldRequirements - IntStat */
      , (38483, 159,        289) /* WieldSkillType */
      , (38483, 160,        601) /* WieldDifficulty */
-     , (38483, 172,          1) /* AppraisalLongDescDecoration */
      , (38483, 265,         30) /* EquipmentSetId - SocietyArmor */
      , (38483, 374,          1) /* GearCritDamage */
      , (38483, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -64,11 +63,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38483, 8000, 3665217053) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38483,  2108,      2) 
-     , (38483,  2185,      2) 
-     , (38483,  3964,      2) 
-     , (38483,  4409,      2) 
-     , (38483,  6079,      2) ;
+VALUES (38483,  2108,      2)  /* Impenetrability7 */
+     , (38483,  2185,      2)  /* RegenerationSelf7 */
+     , (38483,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (38483,  4409,      2)  /* LightningBane8 */
+     , (38483,  6079,      2)  /* CantripStormWard4 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38483, 0, 83889072, 83897935)

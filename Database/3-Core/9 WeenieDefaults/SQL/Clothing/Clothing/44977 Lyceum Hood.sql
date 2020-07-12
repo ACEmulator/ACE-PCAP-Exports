@@ -25,7 +25,6 @@ VALUES (44977,   1,          4) /* ItemType - Clothing */
      , (44977, 158,          7) /* WieldRequirements - Level */
      , (44977, 159,          1) /* WieldSkillType - Axe */
      , (44977, 160,        180) /* WieldDifficulty */
-     , (44977, 172,          5) /* AppraisalLongDescDecoration */
      , (44977, 177,          3) /* GemCount */
      , (44977, 178,         38) /* GemType */
      , (44977, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -64,10 +63,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44977, 8000, 2165201440) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44977,  4397,      2) 
-     , (44977,  4403,      2) 
-     , (44977,  4407,      2) 
-     , (44977,  4697,      2) ;
+VALUES (44977,  4397,      2)  /* BludgeonBane8 */
+     , (44977,  4403,      2)  /* FrostBane8 */
+     , (44977,  4407,      2)  /* Impenetrability8 */
+     , (44977,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44977, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

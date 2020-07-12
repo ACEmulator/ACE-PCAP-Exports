@@ -56,13 +56,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21527, 8000, 2629411168) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21527,   254,      2) 
-     , (21527,  1317,      2) 
-     , (21527,  1485,      2) 
-     , (21527,  1496,      2) 
-     , (21527,  1560,      2) 
-     , (21527,  1572,      2) 
-     , (21527,  2578,      2) ;
+VALUES (21527,   254,      2)  /* ImpregnabilityOther5 */
+     , (21527,  1317,      2)  /* ArmorOther6 */
+     , (21527,  1485,      2)  /* Impenetrability5 */
+     , (21527,  1496,      2)  /* AcidBane4 */
+     , (21527,  1560,      2)  /* BladeBane4 */
+     , (21527,  1572,      2)  /* PiercingBane4 */
+     , (21527,  2578,      2)  /* CANTRIPARMOR1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21527, 67113891, 174, 66);

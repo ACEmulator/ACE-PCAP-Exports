@@ -20,7 +20,6 @@ VALUES (34040,   1,          2) /* ItemType - Armor */
      , (34040, 158,          7) /* WieldRequirements - Level */
      , (34040, 159,          1) /* WieldSkillType - Axe */
      , (34040, 160,        100) /* WieldDifficulty */
-     , (34040, 176,         31) /* AppraisalItemSkill */
      , (34040, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,6 +48,7 @@ VALUES (34040,   1,   33560125) /* Setup */
      , (34040,   6,   67108990) /* PaletteBase */
      , (34040,   8,  100689226) /* Icon */
      , (34040,  22,  872415275) /* PhysicsEffectTable */
+     , (34040,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (34040, 8001,  270876680) /* PCAPRecordedWeenieHeader - Value, Container, ValidLocations, Priority, Burden, HookType */
      , (34040, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34040, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -57,13 +57,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34040, 8000, 2174190790) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34040,  2108,      2) 
-     , (34040,  2215,      2) 
-     , (34040,  2281,      2) 
-     , (34040,  2542,      2) 
-     , (34040,  2592,      2) 
-     , (34040,  2661,      2) 
-     , (34040,  2664,      2) ;
+VALUES (34040,  2108,      2)  /* Impenetrability7 */
+     , (34040,  2215,      2)  /* CreatureEnchantmentMasterySelf7 */
+     , (34040,  2281,      2)  /* MagicResistanceSelf7 */
+     , (34040,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
+     , (34040,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (34040,  2661,      2)  /* ModerateFocus */
+     , (34040,  2664,      2)  /* ModerateWillpower */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34040, 67109966, 240, 10)

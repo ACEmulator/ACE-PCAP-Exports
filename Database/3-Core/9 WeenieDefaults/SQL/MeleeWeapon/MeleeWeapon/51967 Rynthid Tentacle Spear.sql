@@ -72,13 +72,13 @@ VALUES (51967, 8000, 3685626588) /* PCAPRecordedObjectIID */
      , (51967, 8008, 1343477254) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51967,  3963,      2) 
-     , (51967,  3965,      2) 
-     , (51967,  4395,      2) 
-     , (51967,  4400,      2) 
-     , (51967,  4405,      2) 
-     , (51967,  4417,      2) 
-     , (51967,  6072,      2) ;
+VALUES (51967,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (51967,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (51967,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (51967,  4400,      2)  /* DefenderSelf8 */
+     , (51967,  4405,      2)  /* HeartSeekerSelf8 */
+     , (51967,  4417,      2)  /* SwiftKillerSelf8 */
+     , (51967,  6072,      2)  /* CantripSwordAptitude4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51967, 67111921, 0, 0);

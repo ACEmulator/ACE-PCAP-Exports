@@ -30,8 +30,6 @@ VALUES (3764,   1,          1) /* ItemType - MeleeWeapon */
      , (3764, 159,         45) /* WieldSkillType - LightWeapons */
      , (3764, 160,        325) /* WieldDifficulty */
      , (3764, 171,          1) /* NumTimesTinkered */
-     , (3764, 172,          7) /* AppraisalLongDescDecoration */
-     , (3764, 176,         45) /* AppraisalItemSkill */
      , (3764, 177,          1) /* GemCount */
      , (3764, 178,         16) /* GemType */
      , (3764, 179,        512) /* ImbuedEffect - FireRending */
@@ -64,6 +62,7 @@ VALUES (3764,   1,   33555412) /* Setup */
      , (3764,   6,   67111919) /* PaletteBase */
      , (3764,   8,  100669006) /* Icon */
      , (3764,  22,  872415275) /* PhysicsEffectTable */
+     , (3764,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3764,  52,  100676441) /* IconUnderlay */
      , (3764, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3764, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -74,9 +73,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3764, 8000, 2174239189) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3764,  1378,      2) 
-     , (3764,  1591,      2) 
-     , (3764,  1615,      2) ;
+VALUES (3764,  1378,      2)  /* CoordinationSelf6 */
+     , (3764,  1591,      2)  /* HeartSeekerSelf5 */
+     , (3764,  1615,      2)  /* BloodDrinkerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3764, 67111920, 0, 0);

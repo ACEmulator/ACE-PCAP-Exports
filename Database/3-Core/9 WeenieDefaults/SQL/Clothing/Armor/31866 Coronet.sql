@@ -22,7 +22,6 @@ VALUES (31866,   1,          2) /* ItemType - Armor */
      , (31866, 115,          0) /* ItemSkillLevelLimit */
      , (31866, 131,         60) /* MaterialType - Gold */
      , (31866, 151,          2) /* HookType - Wall */
-     , (31866, 172,          5) /* AppraisalLongDescDecoration */
      , (31866, 177,          2) /* GemCount */
      , (31866, 178,         35) /* GemType */
      , (31866, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -61,10 +60,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31866, 8000, 3690154713) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31866,   855,      2) 
-     , (31866,  1486,      2) 
-     , (31866,  2104,      2) 
-     , (31866,  2621,      2) ;
+VALUES (31866,   855,      2)  /* DeceptionMasterySelf6 */
+     , (31866,  1486,      2)  /* Impenetrability6 */
+     , (31866,  2104,      2)  /* FrostBane7 */
+     , (31866,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31866, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */;

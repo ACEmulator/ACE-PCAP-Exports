@@ -71,13 +71,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42666, 8000, 3174455289) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42666,  4395,      2) 
-     , (42666,  4400,      2) 
-     , (42666,  4405,      2) 
-     , (42666,  4417,      2) 
-     , (42666,  4661,      2) 
-     , (42666,  4675,      2) 
-     , (42666,  5034,      2) ;
+VALUES (42666,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (42666,  4400,      2)  /* DefenderSelf8 */
+     , (42666,  4405,      2)  /* HeartSeekerSelf8 */
+     , (42666,  4417,      2)  /* SwiftKillerSelf8 */
+     , (42666,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (42666,  4675,      2)  /* CANTRIPFLAMEWARD3 */
+     , (42666,  5034,      2)  /* CANTRIPTWOHANDEDAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42666, 67111920, 0, 0);

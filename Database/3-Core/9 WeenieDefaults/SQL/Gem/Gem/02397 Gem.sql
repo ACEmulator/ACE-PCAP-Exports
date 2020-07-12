@@ -23,7 +23,6 @@ VALUES (2397,   1,       2048) /* ItemType - Gem */
      , (2397, 115,          0) /* ItemSkillLevelLimit */
      , (2397, 117,        300) /* ItemManaCost */
      , (2397, 131,         35) /* MaterialType - RedGarnet */
-     , (2397, 172,          1) /* AppraisalLongDescDecoration */
      , (2397, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,9 +48,6 @@ VALUES (2397,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2397, 8000, 3698462877) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2397,   192,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2397, 67111924, 0, 0);

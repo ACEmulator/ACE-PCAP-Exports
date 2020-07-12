@@ -25,7 +25,6 @@ VALUES (31867,   1,          2) /* ItemType - Armor */
      , (31867, 158,          7) /* WieldRequirements - Level */
      , (31867, 159,          1) /* WieldSkillType - Axe */
      , (31867, 160,        150) /* WieldDifficulty */
-     , (31867, 172,          5) /* AppraisalLongDescDecoration */
      , (31867, 177,          8) /* GemCount */
      , (31867, 178,         21) /* GemType */
      , (31867, 265,         16) /* EquipmentSetId - Defenders */
@@ -65,10 +64,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31867, 8000, 3680315017) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31867,  2108,      2) 
-     , (31867,  2185,      2) 
-     , (31867,  2571,      2) 
-     , (31867,  4704,      2) ;
+VALUES (31867,  2108,      2)  /* Impenetrability7 */
+     , (31867,  2185,      2)  /* RegenerationSelf7 */
+     , (31867,  2571,      2)  /* CANTRIPARMOR2 */
+     , (31867,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31867, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */

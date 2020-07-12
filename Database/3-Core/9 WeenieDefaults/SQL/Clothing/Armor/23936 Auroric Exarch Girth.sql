@@ -58,17 +58,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23936, 8000, 2157232945) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23936,   211,      2) 
-     , (23936,   273,      2) 
-     , (23936,  2350,      2) 
-     , (23936,  2351,      2) 
-     , (23936,  2352,      2) 
-     , (23936,  2353,      2) 
-     , (23936,  2380,      2) 
-     , (23936,  2948,      2) 
-     , (23936,  2960,      2) 
-     , (23936,  2961,      2) 
-     , (23936,  2962,      2) ;
+VALUES (23936,   211,      2)  /* ManaRenewalOther6 */
+     , (23936,   273,      2)  /* MagicResistanceOther6 */
+     , (23936,  2350,      2)  /* DecayDurance */
+     , (23936,  2351,      2)  /* ConsumptionDurance */
+     , (23936,  2352,      2)  /* StasisDurance */
+     , (23936,  2353,      2)  /* StimulationDurance */
+     , (23936,  2380,      2)  /* InstrumentalityGrip */
+     , (23936,  2948,      2)  /* HieroWardGreat */
+     , (23936,  2960,      2)  /* BludgeoningDurance */
+     , (23936,  2961,      2)  /* PiercingDurance */
+     , (23936,  2962,      2)  /* SlashingDurance */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23936, 67114174, 72, 8)

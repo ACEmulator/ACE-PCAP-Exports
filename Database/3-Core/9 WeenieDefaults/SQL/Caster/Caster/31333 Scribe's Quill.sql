@@ -18,7 +18,6 @@ VALUES (31333,   1,      32768) /* ItemType - Caster */
      , (31333, 114,          0) /* Attuned - Normal */
      , (31333, 115,        400) /* ItemSkillLevelLimit */
      , (31333, 151,          2) /* HookType - Wall */
-     , (31333, 176,         29) /* AppraisalItemSkill */
      , (31333, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,6 +37,7 @@ VALUES (31333,   1,   33559616) /* Setup */
      , (31333,   3,  536870932) /* SoundTable */
      , (31333,   8,  100687945) /* Icon */
      , (31333,  22,  872415275) /* PhysicsEffectTable */
+     , (31333,  37,         29) /* ItemSkillLimit - ArmorTinkering */
      , (31333, 8001,  271138840) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, HookType */
      , (31333, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31333, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -46,5 +46,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31333, 8000, 2153522000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31333,  2197,      2) 
-     , (31333,  2503,      2) ;
+VALUES (31333,  2197,      2)  /* ArmorExpertiseSelf7 */
+     , (31333,  2503,      2)  /* CANTRIPARMOREXPERTISE2 */;

@@ -29,8 +29,6 @@ VALUES (31818,   1,        256) /* ItemType - MissileWeapon */
      , (31818, 158,          2) /* WieldRequirements - RawSkill */
      , (31818, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31818, 160,        315) /* WieldDifficulty */
-     , (31818, 172,          5) /* AppraisalLongDescDecoration */
-     , (31818, 176,         47) /* AppraisalItemSkill */
      , (31818, 177,          4) /* GemCount */
      , (31818, 178,         23) /* GemType */
      , (31818, 204,          2) /* ElementalDamageBonus */
@@ -62,6 +60,7 @@ VALUES (31818,   1,   33559695) /* Setup */
      , (31818,   6,   67116700) /* PaletteBase */
      , (31818,   8,  100688027) /* Icon */
      , (31818,  22,  872415275) /* PhysicsEffectTable */
+     , (31818,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31818, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31818, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31818, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -70,10 +69,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31818, 8000, 3701526191) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31818,  1616,      2) 
-     , (31818,  2101,      2) 
-     , (31818,  2598,      2) 
-     , (31818,  5831,      2) ;
+VALUES (31818,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (31818,  2101,      2)  /* DefenderSelf7 */
+     , (31818,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (31818,  5831,      2)  /* RecklessnessMasterySelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31818, 67116700, 1, 100)

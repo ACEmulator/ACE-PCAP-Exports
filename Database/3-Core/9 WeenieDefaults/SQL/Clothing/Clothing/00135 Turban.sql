@@ -22,7 +22,6 @@ VALUES (135,   1,          4) /* ItemType - Clothing */
      , (135, 115,          0) /* ItemSkillLevelLimit */
      , (135, 131,          5) /* MaterialType - Satin */
      , (135, 151,          2) /* HookType - Wall */
-     , (135, 172,          5) /* AppraisalLongDescDecoration */
      , (135, 177,          3) /* GemCount */
      , (135, 178,         43) /* GemType */
      , (135, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -61,11 +60,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (135, 8000, 3688474488) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (135,  1485,      2) 
-     , (135,  1497,      2) 
-     , (135,  1552,      2) 
-     , (135,  1562,      2) 
-     , (135,  5832,      2) ;
+VALUES (135,  1485,      2)  /* Impenetrability5 */
+     , (135,  1497,      2)  /* AcidBane5 */
+     , (135,  1552,      2)  /* FlameBane6 */
+     , (135,  1562,      2)  /* BladeBane6 */
+     , (135,  5832,      2)  /* RecklessnessMasterySelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (135, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

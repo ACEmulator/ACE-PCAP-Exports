@@ -58,8 +58,8 @@ VALUES (8690, 8000, 2155585121) /* PCAPRecordedObjectIID */
      , (8690, 8008, 1343111739) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8690,   241,      2) 
-     , (8690,  1483,      2) ;
+VALUES (8690,   241,      2)  /* InvulnerabilityOther3 */
+     , (8690,  1483,      2)  /* Impenetrability3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8690, 67111922, 0, 0);

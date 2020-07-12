@@ -25,7 +25,6 @@ VALUES (31804,   1,        256) /* ItemType - MissileWeapon */
      , (31804, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31804, 160,        375) /* WieldDifficulty */
      , (31804, 171,         10) /* NumTimesTinkered */
-     , (31804, 172,          1) /* AppraisalLongDescDecoration */
      , (31804, 179,         16) /* ImbuedEffect - PierceRending */
      , (31804, 204,         18) /* ElementalDamageBonus */
      , (31804, 353,          8) /* WeaponType - Bow */

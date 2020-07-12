@@ -21,8 +21,6 @@ VALUES (25649,   1,          2) /* ItemType - Armor */
      , (25649, 110,          0) /* ItemAllegianceRankLimit */
      , (25649, 115,        282) /* ItemSkillLevelLimit */
      , (25649, 131,         52) /* MaterialType - Leather */
-     , (25649, 172,          5) /* AppraisalLongDescDecoration */
-     , (25649, 176,          6) /* AppraisalItemSkill */
      , (25649, 177,          2) /* GemCount */
      , (25649, 178,         34) /* GemType */
      , (25649, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -53,6 +51,7 @@ VALUES (25649,   1,   33554883) /* Setup */
      , (25649,   6,   67108990) /* PaletteBase */
      , (25649,   8,  100675384) /* Icon */
      , (25649,  22,  872415275) /* PhysicsEffectTable */
+     , (25649,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (25649, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25649, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25649, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -61,10 +60,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25649, 8000, 2174245554) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25649,  1486,      2) 
-     , (25649,  1497,      2) 
-     , (25649,  1539,      2) 
-     , (25649,  1573,      2) ;
+VALUES (25649,  1486,      2)  /* Impenetrability6 */
+     , (25649,  1497,      2)  /* AcidBane5 */
+     , (25649,  1539,      2)  /* LightningBane5 */
+     , (25649,  1573,      2)  /* PiercingBane5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25649, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;

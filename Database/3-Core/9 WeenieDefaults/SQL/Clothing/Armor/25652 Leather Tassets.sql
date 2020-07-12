@@ -21,8 +21,6 @@ VALUES (25652,   1,          2) /* ItemType - Armor */
      , (25652, 110,          0) /* ItemAllegianceRankLimit */
      , (25652, 115,        297) /* ItemSkillLevelLimit */
      , (25652, 131,         54) /* MaterialType - GromnieHide */
-     , (25652, 172,          1) /* AppraisalLongDescDecoration */
-     , (25652, 176,          6) /* AppraisalItemSkill */
      , (25652, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,6 +50,7 @@ VALUES (25652,   1,   33554656) /* Setup */
      , (25652,   6,   67108990) /* PaletteBase */
      , (25652,   8,  100675452) /* Icon */
      , (25652,  22,  872415275) /* PhysicsEffectTable */
+     , (25652,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (25652, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25652, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25652, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -60,10 +59,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25652, 8000, 3471246051) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25652,  1332,      2) 
-     , (25652,  1498,      2) 
-     , (25652,  2108,      2) 
-     , (25652,  2548,      2) ;
+VALUES (25652,  1332,      2)  /* StrengthSelf6 */
+     , (25652,  1498,      2)  /* AcidBane6 */
+     , (25652,  2108,      2)  /* Impenetrability7 */
+     , (25652,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25652, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

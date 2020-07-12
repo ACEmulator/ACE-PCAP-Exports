@@ -59,13 +59,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40907, 8000, 2919834037) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40907,  3964,      2) 
-     , (40907,  4227,      2) 
-     , (40907,  4304,      2) 
-     , (40907,  4328,      2) 
-     , (40907,  4601,      2) 
-     , (40907,  4705,      2) 
-     , (40907,  5009,      2) ;
+VALUES (40907,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (40907,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (40907,  4304,      2)  /* FocusOther8 */
+     , (40907,  4328,      2)  /* WillpowerOther8 */
+     , (40907,  4601,      2)  /* ManaMasteryOther8 */
+     , (40907,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (40907,  5009,      2)  /* AerfallesWardGreater */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40907, 67109945, 96, 12)

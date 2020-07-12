@@ -70,4 +70,4 @@ VALUES (24558, 8000, 3425211713) /* PCAPRecordedObjectIID */
      , (24558, 8008, 1342467484) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24558,  1616,      2) ;
+VALUES (24558,  1616,      2)  /* BloodDrinkerSelf6 */;

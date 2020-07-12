@@ -55,11 +55,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33585, 8000, 2174543002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33585,  2108,      2) 
-     , (33585,  2202,      2) 
-     , (33585,  2222,      2) 
-     , (33585,  3573,      2) 
-     , (33585,  5097,      2) ;
+VALUES (33585,  2108,      2)  /* Impenetrability7 */
+     , (33585,  2202,      2)  /* AxeMasteryOther7 */
+     , (33585,  2222,      2)  /* DaggerMasteryOther7 */
+     , (33585,  3573,      2)  /* InnerMight */
+     , (33585,  5097,      2)  /* TwoHandedMasteryOther7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33585, 0, 83894333, 83897524);

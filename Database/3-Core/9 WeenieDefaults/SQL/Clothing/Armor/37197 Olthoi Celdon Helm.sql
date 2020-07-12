@@ -25,8 +25,6 @@ VALUES (37197,   1,          2) /* ItemType - Armor */
      , (37197, 158,          7) /* WieldRequirements - Level */
      , (37197, 159,          1) /* WieldSkillType - Axe */
      , (37197, 160,        180) /* WieldDifficulty */
-     , (37197, 172,          5) /* AppraisalLongDescDecoration */
-     , (37197, 176,          6) /* AppraisalItemSkill */
      , (37197, 177,          3) /* GemCount */
      , (37197, 178,         39) /* GemType */
      , (37197, 265,         15) /* EquipmentSetId - Archers */
@@ -59,6 +57,7 @@ VALUES (37197,   1,   33558424) /* Setup */
      , (37197,   6,   67108990) /* PaletteBase */
      , (37197,   8,  100674669) /* Icon */
      , (37197,  22,  872415275) /* PhysicsEffectTable */
+     , (37197,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37197, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (37197, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37197, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -67,12 +66,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37197, 8000, 3420126114) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37197,  1486,      2) 
-     , (37197,  2092,      2) 
-     , (37197,  2110,      2) 
-     , (37197,  4397,      2) 
-     , (37197,  4596,      2) 
-     , (37197,  4664,      2) ;
+VALUES (37197,  1486,      2)  /* Impenetrability6 */
+     , (37197,  2092,      2)  /* AcidBane7 */
+     , (37197,  2110,      2)  /* LightningBane7 */
+     , (37197,  4397,      2)  /* BludgeonBane8 */
+     , (37197,  4596,      2)  /* MagicResistanceSelf8 */
+     , (37197,  4664,      2)  /* CANTRIPFLAMEBANE3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37197, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */;

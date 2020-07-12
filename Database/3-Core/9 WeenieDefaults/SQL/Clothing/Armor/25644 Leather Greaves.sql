@@ -21,7 +21,6 @@ VALUES (25644,   1,          2) /* ItemType - Armor */
      , (25644, 110,          0) /* ItemAllegianceRankLimit */
      , (25644, 115,          0) /* ItemSkillLevelLimit */
      , (25644, 131,         54) /* MaterialType - GromnieHide */
-     , (25644, 172,          1) /* AppraisalLongDescDecoration */
      , (25644, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,11 +58,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25644, 8000, 3694256852) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25644,  1486,      2) 
-     , (25644,  1528,      2) 
-     , (25644,  1551,      2) 
-     , (25644,  2549,      2) 
-     , (25644,  6121,      2) ;
+VALUES (25644,  1486,      2)  /* Impenetrability6 */
+     , (25644,  1528,      2)  /* FrostBane6 */
+     , (25644,  1551,      2)  /* FlameBane5 */
+     , (25644,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */
+     , (25644,  6121,      2)  /* SummoningMasterySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25644, 67114609, 136, 24);

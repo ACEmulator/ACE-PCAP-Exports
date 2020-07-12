@@ -21,8 +21,6 @@ VALUES (25645,   1,          2) /* ItemType - Armor */
      , (25645, 110,          0) /* ItemAllegianceRankLimit */
      , (25645, 115,        235) /* ItemSkillLevelLimit */
      , (25645, 131,         52) /* MaterialType - Leather */
-     , (25645, 172,          1) /* AppraisalLongDescDecoration */
-     , (25645, 176,          7) /* AppraisalItemSkill */
      , (25645, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,6 +49,7 @@ VALUES (25645,   1,   33554856) /* Setup */
      , (25645,   6,   67108990) /* PaletteBase */
      , (25645,   8,  100675312) /* Icon */
      , (25645,  22,  872415275) /* PhysicsEffectTable */
+     , (25645,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (25645, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25645, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25645, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -59,13 +58,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25645, 8000, 3688291048) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25645,  1402,      2) 
-     , (25645,  2094,      2) 
-     , (25645,  2102,      2) 
-     , (25645,  2108,      2) 
-     , (25645,  2512,      2) 
-     , (25645,  2559,      2) 
-     , (25645,  3833,      2) ;
+VALUES (25645,  1402,      2)  /* QuicknessSelf6 */
+     , (25645,  2094,      2)  /* BladeBane7 */
+     , (25645,  2102,      2)  /* FlameBane7 */
+     , (25645,  2108,      2)  /* Impenetrability7 */
+     , (25645,  2512,      2)  /* CANTRIPFLETCHINGPROWESS2 */
+     , (25645,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+     , (25645,  3833,      2)  /* CantripSalvaging1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25645, 67114609, 136, 24);

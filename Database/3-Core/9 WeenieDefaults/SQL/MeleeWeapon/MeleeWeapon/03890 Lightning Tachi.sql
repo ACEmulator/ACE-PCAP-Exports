@@ -30,8 +30,6 @@ VALUES (3890,   1,          1) /* ItemType - MeleeWeapon */
      , (3890, 158,          2) /* WieldRequirements - RawSkill */
      , (3890, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (3890, 160,        430) /* WieldDifficulty */
-     , (3890, 172,          5) /* AppraisalLongDescDecoration */
-     , (3890, 176,         44) /* AppraisalItemSkill */
      , (3890, 177,          2) /* GemCount */
      , (3890, 178,         34) /* GemType */
      , (3890, 353,          2) /* WeaponType - Sword */
@@ -60,6 +58,7 @@ VALUES (3890,   1,   33555731) /* Setup */
      , (3890,   3,  536870932) /* SoundTable */
      , (3890,   8,  100667934) /* Icon */
      , (3890,  22,  872415275) /* PhysicsEffectTable */
+     , (3890,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3890,  52,  100676438) /* IconUnderlay */
      , (3890, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (3890, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -76,10 +75,10 @@ VALUES (3890, 8000, 3686914042) /* PCAPRecordedObjectIID */
      , (3890, 8008, 1342401529) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3890,  2096,      2) 
-     , (3890,  2101,      2) 
-     , (3890,  2106,      2) 
-     , (3890,  4663,      2) ;
+VALUES (3890,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (3890,  2101,      2)  /* DefenderSelf7 */
+     , (3890,  2106,      2)  /* HeartSeekerSelf7 */
+     , (3890,  4663,      2)  /* CANTRIPDEFENDER3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3890, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

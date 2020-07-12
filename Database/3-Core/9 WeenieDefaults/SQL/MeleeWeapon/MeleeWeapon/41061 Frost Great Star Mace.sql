@@ -29,8 +29,6 @@ VALUES (41061,   1,          1) /* ItemType - MeleeWeapon */
      , (41061, 158,          2) /* WieldRequirements - RawSkill */
      , (41061, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41061, 160,        325) /* WieldDifficulty */
-     , (41061, 172,          1) /* AppraisalLongDescDecoration */
-     , (41061, 176,         41) /* AppraisalItemSkill */
      , (41061, 292,          2) /* Cleaving */
      , (41061, 353,         11) /* WeaponType - TwoHanded */
      , (41061, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
@@ -59,6 +57,7 @@ VALUES (41061,   1,   33560831) /* Setup */
      , (41061,   6,   67115558) /* PaletteBase */
      , (41061,   8,  100690536) /* Icon */
      , (41061,  22,  872415275) /* PhysicsEffectTable */
+     , (41061,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41061, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41061, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41061, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -67,9 +66,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41061, 8000, 3360094368) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41061,  1591,      2) 
-     , (41061,  1616,      2) 
-     , (41061,  1627,      2) ;
+VALUES (41061,  1591,      2)  /* HeartSeekerSelf5 */
+     , (41061,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (41061,  1627,      2)  /* SwiftKillerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41061, 67116386, 0, 0);

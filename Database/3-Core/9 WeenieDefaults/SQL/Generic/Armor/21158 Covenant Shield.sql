@@ -26,8 +26,6 @@ VALUES (21158,   1,          2) /* ItemType - Armor */
      , (21158, 158,          2) /* WieldRequirements - RawSkill */
      , (21158, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21158, 160,        200) /* WieldDifficulty */
-     , (21158, 172,          1) /* AppraisalLongDescDecoration */
-     , (21158, 176,          7) /* AppraisalItemSkill */
      , (21158, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -55,6 +53,7 @@ VALUES (21158,   1,   33557878) /* Setup */
      , (21158,   3,  536870932) /* SoundTable */
      , (21158,   8,  100673427) /* Icon */
      , (21158,  22,  872415275) /* PhysicsEffectTable */
+     , (21158,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (21158, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (21158, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21158, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -63,7 +62,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21158, 8000, 3701821890) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21158,  1484,      2) ;
+VALUES (21158,  1484,      2)  /* Impenetrability4 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (21158, 0, 83894160, 83894160);

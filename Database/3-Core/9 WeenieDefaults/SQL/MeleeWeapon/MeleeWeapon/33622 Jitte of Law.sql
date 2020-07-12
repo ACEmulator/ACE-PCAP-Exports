@@ -64,5 +64,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33622, 8000, 2174518660) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33622,  3959,      2) 
-     , (33622,  3962,      2) ;
+VALUES (33622,  3962,      2)  /* BoundToLaw */;

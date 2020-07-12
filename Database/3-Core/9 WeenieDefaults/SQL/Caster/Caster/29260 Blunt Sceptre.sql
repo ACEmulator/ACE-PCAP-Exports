@@ -29,7 +29,6 @@ VALUES (29260,   1,      32768) /* ItemType - Caster */
      , (29260, 160,        385) /* WieldDifficulty */
      , (29260, 166,         30) /* SlayerCreatureType - Skeleton */
      , (29260, 171,         10) /* NumTimesTinkered */
-     , (29260, 172,          5) /* AppraisalLongDescDecoration */
      , (29260, 177,          4) /* GemCount */
      , (29260, 178,         47) /* GemType */
      , (29260, 179,          1) /* ImbuedEffect - CriticalStrike */
@@ -93,11 +92,11 @@ VALUES (29260, 8000, 3686986858) /* PCAPRecordedObjectIID */
      , (29260, 8008, 1343130362) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29260,  2140,      2) 
-     , (29260,  2614,      2) 
-     , (29260,  4418,      2) 
-     , (29260,  5881,      2) 
-     , (29260,  6098,      2) ;
+VALUES (29260,  2140,      2)  /* LightningBolt7 */
+     , (29260,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
+     , (29260,  4418,      2)  /* HermeticLinkSelf8 */
+     , (29260,  5881,      2)  /* SneakAttackMasterySelf7 */
+     , (29260,  6098,      2)  /* CantripSpiritThirst4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29260, 67115359, 56, 200)

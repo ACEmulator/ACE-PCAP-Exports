@@ -25,7 +25,6 @@ VALUES (161,   1,        256) /* ItemType - MissileWeapon */
      , (161, 115,          0) /* ItemSkillLevelLimit */
      , (161, 131,          2) /* MaterialType - Porcelain */
      , (161, 151,          1) /* HookType - Floor */
-     , (161, 172,          1) /* AppraisalLongDescDecoration */
      , (161, 353,         10) /* WeaponType - Thrown */
      , (161, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (161, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -68,7 +67,7 @@ VALUES (161, 8000, 2155074552) /* PCAPRecordedObjectIID */
      , (161, 8008, 1879076953) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (161,  1719,      2) ;
+VALUES (161,  1719,      2)  /* CookingMasterySelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (161, 67111919, 0, 0);

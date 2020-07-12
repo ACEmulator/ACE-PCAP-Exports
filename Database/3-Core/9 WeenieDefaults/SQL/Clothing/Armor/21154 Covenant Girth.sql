@@ -18,7 +18,6 @@ VALUES (21154,   1,          2) /* ItemType - Armor */
      , (21154, 158,          2) /* WieldRequirements - RawSkill */
      , (21154, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21154, 160,        350) /* WieldDifficulty */
-     , (21154, 172,          1) /* AppraisalLongDescDecoration */
      , (21154, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

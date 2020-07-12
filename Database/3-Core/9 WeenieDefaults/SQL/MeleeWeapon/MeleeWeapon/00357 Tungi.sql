@@ -23,7 +23,6 @@ VALUES (357,   1,          1) /* ItemType - MeleeWeapon */
      , (357, 158,          2) /* WieldRequirements - RawSkill */
      , (357, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (357, 160,        300) /* WieldDifficulty */
-     , (357, 172,          5) /* AppraisalLongDescDecoration */
      , (357, 177,          2) /* GemCount */
      , (357, 178,         12) /* GemType */
      , (357, 353,          3) /* WeaponType - Axe */

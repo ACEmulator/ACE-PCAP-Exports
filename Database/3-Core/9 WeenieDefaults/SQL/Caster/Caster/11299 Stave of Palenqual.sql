@@ -59,12 +59,11 @@ VALUES (11299, 8000, 2188209239) /* PCAPRecordedObjectIID */
      , (11299, 8008, 1342878685) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11299,   217,      2) 
-     , (11299,   658,      2) 
-     , (11299,  1480,      2) 
-     , (11299,  1836,      2) 
-     , (11299,  2428,      2) 
-     , (11299,  2581,      2) ;
+VALUES (11299,   217,      2)  /* ManaRenewalSelf6 */
+     , (11299,   658,      2)  /* ManaMasterySelf6 */
+     , (11299,  1480,      2)  /* HermeticLinkSelf6 */
+     , (11299,  2428,      2)  /* TimaruShelterMagic */
+     , (11299,  2581,      2)  /* CANTRIPFOCUS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11299, 67111919, 0, 0);

@@ -54,8 +54,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27914, 8000, 2174542976) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27914,  3094,      2) 
-     , (27914,  3308,      2) ;
+VALUES (27914,  3094,      2)  /* SkinFiazhat */
+     , (27914,  3308,      2)  /* FlangeAegis */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27914, 67115212, 168, 6);

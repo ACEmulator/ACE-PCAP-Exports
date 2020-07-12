@@ -29,8 +29,6 @@ VALUES (3853,   1,          1) /* ItemType - MeleeWeapon */
      , (3853, 158,          2) /* WieldRequirements - RawSkill */
      , (3853, 159,         45) /* WieldSkillType - LightWeapons */
      , (3853, 160,        350) /* WieldDifficulty */
-     , (3853, 172,          5) /* AppraisalLongDescDecoration */
-     , (3853, 176,         45) /* AppraisalItemSkill */
      , (3853, 177,          4) /* GemCount */
      , (3853, 178,         27) /* GemType */
      , (3853, 353,          2) /* WeaponType - Sword */
@@ -60,6 +58,7 @@ VALUES (3853,   1,   33555767) /* Setup */
      , (3853,   3,  536870932) /* SoundTable */
      , (3853,   8,  100668982) /* Icon */
      , (3853,  22,  872415275) /* PhysicsEffectTable */
+     , (3853,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3853, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3853, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3853, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -68,6 +67,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3853, 8000, 3354339115) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3853,  1604,      2) 
-     , (3853,  1616,      2) 
-     , (3853,  5807,      2) ;
+VALUES (3853,  1604,      2)  /* DefenderSelf5 */
+     , (3853,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3853,  5807,      2)  /* DualWieldMasterySelf5 */;

@@ -64,7 +64,7 @@ VALUES (31288, 8000, 3692283356) /* PCAPRecordedObjectIID */
      , (31288, 8008, 3692283369) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31288,   248,      2) 
-     , (31288,   260,      2) 
-     , (31288,   278,      2) 
-     , (31288,  2566,      2) ;
+VALUES (31288,   248,      2)  /* InvulnerabilitySelf5 */
+     , (31288,   260,      2)  /* ImpregnabilitySelf5 */
+     , (31288,   278,      2)  /* MagicResistanceSelf5 */
+     , (31288,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */;

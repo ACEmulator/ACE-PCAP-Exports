@@ -22,8 +22,6 @@ VALUES (723,   1,          2) /* ItemType - Armor */
      , (723, 115,        164) /* ItemSkillLevelLimit */
      , (723, 131,         54) /* MaterialType - GromnieHide */
      , (723, 151,          2) /* HookType - Wall */
-     , (723, 172,          1) /* AppraisalLongDescDecoration */
-     , (723, 176,          7) /* AppraisalItemSkill */
      , (723, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,6 +50,7 @@ VALUES (723,   1,   33555048) /* Setup */
      , (723,   6,   67108990) /* PaletteBase */
      , (723,   8,  100669192) /* Icon */
      , (723,  22,  872415275) /* PhysicsEffectTable */
+     , (723,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (723, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (723, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (723, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -60,7 +59,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (723, 8000, 3694167089) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (723,  1485,      2) ;
+VALUES (723,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (723, 67110321, 250, 6);

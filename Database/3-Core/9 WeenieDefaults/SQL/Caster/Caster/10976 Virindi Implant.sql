@@ -18,7 +18,6 @@ VALUES (10976,   1,      32768) /* ItemType - Caster */
      , (10976, 108,        600) /* ItemMaxMana */
      , (10976, 115,        225) /* ItemSkillLevelLimit */
      , (10976, 151,          2) /* HookType - Wall */
-     , (10976, 176,         31) /* AppraisalItemSkill */
      , (10976, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,6 +38,7 @@ VALUES (10976,   1,   33557223) /* Setup */
      , (10976,   8,  100671870) /* Icon */
      , (10976,  22,  872415275) /* PhysicsEffectTable */
      , (10976,  28,       2421) /* Spell - ParalyzingFear */
+     , (10976,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (10976, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (10976, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10976, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -53,5 +53,4 @@ VALUES (10976, 8000, 2154588448) /* PCAPRecordedObjectIID */
      , (10976, 8008, 1343897644) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10976,  2421,      2) 
-     , (10976,  2475,      2) ;
+VALUES (10976,  2475,      2)  /* Torrent */;

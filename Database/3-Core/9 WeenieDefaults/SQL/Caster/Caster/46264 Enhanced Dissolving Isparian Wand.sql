@@ -58,13 +58,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46264, 8000, 2150887312) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46264,  2059,      2) 
-     , (46264,  2101,      2) 
-     , (46264,  2149,      2) 
-     , (46264,  2287,      2) 
-     , (46264,  2534,      2) 
-     , (46264,  3250,      2) 
-     , (46264,  3259,      2) ;
+VALUES (46264,  2059,      2)  /* CoordinationSelf7 */
+     , (46264,  2101,      2)  /* DefenderSelf7 */
+     , (46264,  2149,      2)  /* AcidProtectionSelf7 */
+     , (46264,  2287,      2)  /* ManaMasterySelf7 */
+     , (46264,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46264,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46264,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46264, 67111923, 0, 0);

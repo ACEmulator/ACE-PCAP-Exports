@@ -25,8 +25,6 @@ VALUES (38471,   1,          2) /* ItemType - Armor */
      , (38471, 159,        287) /* WieldSkillType */
      , (38471, 160,          1) /* WieldDifficulty */
      , (38471, 171,          3) /* NumTimesTinkered */
-     , (38471, 172,          1) /* AppraisalLongDescDecoration */
-     , (38471, 176,          6) /* AppraisalItemSkill */
      , (38471, 265,         30) /* EquipmentSetId - SocietyArmor */
      , (38471, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -56,6 +54,7 @@ VALUES (38471,   1,   33554654) /* Setup */
      , (38471,   3,  536870932) /* SoundTable */
      , (38471,   8,  100690169) /* Icon */
      , (38471,  22,  872415275) /* PhysicsEffectTable */
+     , (38471,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (38471, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38471, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38471, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -64,11 +63,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38471, 8000, 2159969590) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38471,  1574,      2) 
-     , (38471,  2108,      2) 
-     , (38471,  2241,      2) 
-     , (38471,  3963,      2) 
-     , (38471,  4401,      2) ;
+VALUES (38471,  1574,      2)  /* PiercingBane6 */
+     , (38471,  2108,      2)  /* Impenetrability7 */
+     , (38471,  2241,      2)  /* HealingMasterySelf7 */
+     , (38471,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (38471,  4401,      2)  /* FlameBane8 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38471, 0, 83889344, 83897917)

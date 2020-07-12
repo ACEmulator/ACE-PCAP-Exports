@@ -21,7 +21,6 @@ VALUES (32756,   1,          2) /* ItemType - Armor */
      , (32756, 158,          7) /* WieldRequirements - Level */
      , (32756, 159,          1) /* WieldSkillType - Axe */
      , (32756, 160,        100) /* WieldDifficulty */
-     , (32756, 176,          6) /* AppraisalItemSkill */
      , (32756, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,6 +46,7 @@ VALUES (32756,   1,   33554854) /* Setup */
      , (32756,   3,  536870932) /* SoundTable */
      , (32756,   8,  100688617) /* Icon */
      , (32756,  22,  872415275) /* PhysicsEffectTable */
+     , (32756,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (32756, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (32756, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32756, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -55,10 +55,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32756, 8000, 2149248938) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32756,  2108,      2) 
-     , (32756,  2242,      2) 
-     , (32756,  2612,      2) 
-     , (32756,  2615,      2) ;
+VALUES (32756,  2108,      2)  /* Impenetrability7 */
+     , (32756,  2242,      2)  /* ImpregnabilityOther7 */
+     , (32756,  2612,      2)  /* CANTRIPFROSTWARD2 */
+     , (32756,  2615,      2)  /* CANTRIPSTORMWARD2 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (32756, 0, 83887061, 83897411)

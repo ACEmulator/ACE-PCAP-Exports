@@ -15,7 +15,6 @@ VALUES (43055,   1,          2) /* ItemType - Armor */
      , (43055,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43055, 105,          5) /* ItemWorkmanship */
      , (43055, 131,         54) /* MaterialType - GromnieHide */
-     , (43055, 172,          7) /* AppraisalLongDescDecoration */
      , (43055, 177,          2) /* GemCount */
      , (43055, 178,         34) /* GemType */
      , (43055, 8041,        101) /* PCAPRecordedPlacement - Resting */;

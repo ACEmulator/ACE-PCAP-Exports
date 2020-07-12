@@ -75,11 +75,10 @@ VALUES (35915, 8000, 3685515525) /* PCAPRecordedObjectIID */
      , (35915, 8008, 3685821566) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35915,    67,      2) 
-     , (35915,  2096,      2) 
-     , (35915,  2101,      2) 
-     , (35915,  2106,      2) 
-     , (35915,  2116,      2) ;
+VALUES (35915,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (35915,  2101,      2)  /* DefenderSelf7 */
+     , (35915,  2106,      2)  /* HeartSeekerSelf7 */
+     , (35915,  2116,      2)  /* SwiftKillerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35915, 67113317, 0, 0);

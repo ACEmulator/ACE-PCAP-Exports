@@ -15,7 +15,6 @@ VALUES (28611,   1,          4) /* ItemType - Clothing */
      , (28611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28611, 105,          3) /* ItemWorkmanship */
      , (28611, 131,         54) /* MaterialType - GromnieHide */
-     , (28611, 172,          1) /* AppraisalLongDescDecoration */
      , (28611, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

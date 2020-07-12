@@ -23,7 +23,6 @@ VALUES (30597,   1,          1) /* ItemType - MeleeWeapon */
      , (30597, 158,          2) /* WieldRequirements - RawSkill */
      , (30597, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30597, 160,        325) /* WieldDifficulty */
-     , (30597, 172,          1) /* AppraisalLongDescDecoration */
      , (30597, 353,          6) /* WeaponType - Dagger */
      , (30597, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (30597, 8041,        101) /* PCAPRecordedPlacement - Resting */;

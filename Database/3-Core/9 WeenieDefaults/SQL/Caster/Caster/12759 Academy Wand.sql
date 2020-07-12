@@ -53,9 +53,9 @@ VALUES (12759, 8000, 3686640977) /* PCAPRecordedObjectIID */
      , (12759, 8008, 1343493569) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12759,   659,      2) 
-     , (12759,  1427,      2) 
-     , (12759,  1451,      2) ;
+VALUES (12759,   659,      2)  /* ManaMasteryOther1 */
+     , (12759,  1427,      2)  /* FocusOther1 */
+     , (12759,  1451,      2)  /* WillpowerOther1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12759, 0, 83894467, 83894467);

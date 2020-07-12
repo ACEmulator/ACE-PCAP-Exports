@@ -57,10 +57,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29364, 8000, 3703355042) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29364,   248,      2) 
-     , (29364,   260,      2) 
-     , (29364,   278,      2) 
-     , (29364,  1485,      2) ;
+VALUES (29364,   248,      2)  /* InvulnerabilitySelf5 */
+     , (29364,   260,      2)  /* ImpregnabilitySelf5 */
+     , (29364,   278,      2)  /* MagicResistanceSelf5 */
+     , (29364,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (29364, 0, 16792538);

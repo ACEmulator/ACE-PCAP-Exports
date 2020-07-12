@@ -29,8 +29,6 @@ VALUES (30596,   1,          1) /* ItemType - MeleeWeapon */
      , (30596, 158,          2) /* WieldRequirements - RawSkill */
      , (30596, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30596, 160,        350) /* WieldDifficulty */
-     , (30596, 172,          5) /* AppraisalLongDescDecoration */
-     , (30596, 176,         46) /* AppraisalItemSkill */
      , (30596, 177,          2) /* GemCount */
      , (30596, 178,         13) /* GemType */
      , (30596, 353,          6) /* WeaponType - Dagger */
@@ -60,6 +58,7 @@ VALUES (30596,   1,   33559483) /* Setup */
      , (30596,   6,   67116417) /* PaletteBase */
      , (30596,   8,  100687001) /* Icon */
      , (30596,  22,  872415275) /* PhysicsEffectTable */
+     , (30596,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (30596,  52,  100676444) /* IconUnderlay */
      , (30596, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30596, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -70,8 +69,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30596, 8000, 2174543172) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30596,  1616,      2) 
-     , (30596,  1626,      2) ;
+VALUES (30596,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30596,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30596, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */

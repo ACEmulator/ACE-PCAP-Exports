@@ -20,7 +20,6 @@ VALUES (121,   1,          4) /* ItemType - Clothing */
      , (121, 110,          0) /* ItemAllegianceRankLimit */
      , (121, 115,          0) /* ItemSkillLevelLimit */
      , (121, 131,         52) /* MaterialType - Leather */
-     , (121, 172,          5) /* AppraisalLongDescDecoration */
      , (121, 177,          2) /* GemCount */
      , (121, 178,         20) /* GemType */
      , (121, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -59,9 +58,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (121, 8000, 2186220388) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (121,  1486,      2) 
-     , (121,  2098,      2) 
-     , (121,  2237,      2) ;
+VALUES (121,  1486,      2)  /* Impenetrability6 */
+     , (121,  2098,      2)  /* BludgeonBane7 */
+     , (121,  2237,      2)  /* FletchingMasterySelf7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (121, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */

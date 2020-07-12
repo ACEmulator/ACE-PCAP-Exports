@@ -65,9 +65,8 @@ VALUES (30378, 8000, 3580933681) /* PCAPRecordedObjectIID */
      , (30378, 8008, 1343280821) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30378,   995,      2) 
-     , (30378,  2073,      2) 
-     , (30378,  4464,      2) 
-     , (30378,  4468,      2) 
-     , (30378,  4494,      2) 
-     , (30378,  4705,      2) ;
+VALUES (30378,   995,      2)  /* LeadenFeetSelf2 */
+     , (30378,  4464,      2)  /* BludgeonProtectionSelf8 */
+     , (30378,  4468,      2)  /* FireProtectionSelf8 */
+     , (30378,  4494,      2)  /* ManaRenewalSelf8 */
+     , (30378,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;

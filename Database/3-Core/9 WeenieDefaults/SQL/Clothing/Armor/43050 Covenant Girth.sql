@@ -25,7 +25,6 @@ VALUES (43050,   1,          2) /* ItemType - Armor */
      , (43050, 159,          1) /* WieldSkillType - Axe */
      , (43050, 160,        180) /* WieldDifficulty */
      , (43050, 171,          6) /* NumTimesTinkered */
-     , (43050, 172,          1) /* AppraisalLongDescDecoration */
      , (43050, 265,         14) /* EquipmentSetId - Adepts */
      , (43050, 374,          1) /* GearCritDamage */
      , (43050, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -64,8 +63,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43050, 8000, 3580267361) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43050,  4407,      2) 
-     , (43050,  6082,      2) ;
+VALUES (43050,  4407,      2)  /* Impenetrability8 */
+     , (43050,  6082,      2)  /* CantripFlameWard4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43050, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

@@ -58,11 +58,10 @@ VALUES (40139, 8000, 2156844334) /* PCAPRecordedObjectIID */
      , (40139, 8008, 1342755655) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40139,  2014,      2) 
-     , (40139,  4315,      2) 
-     , (40139,  4493,      2) 
-     , (40139,  4601,      2) 
-     , (40139,  4705,      2) ;
+VALUES (40139,  2014,      2)  /* WizardsUltimateIntellect */
+     , (40139,  4493,      2)  /* ManaRenewalOther8 */
+     , (40139,  4601,      2)  /* ManaMasteryOther8 */
+     , (40139,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40139, 67115357, 0, 56)

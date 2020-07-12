@@ -29,8 +29,6 @@ VALUES (312,   1,        256) /* ItemType - MissileWeapon */
      , (312, 158,          2) /* WieldRequirements - RawSkill */
      , (312, 159,         47) /* WieldSkillType - MissileWeapons */
      , (312, 160,        250) /* WieldDifficulty */
-     , (312, 172,          5) /* AppraisalLongDescDecoration */
-     , (312, 176,         47) /* AppraisalItemSkill */
      , (312, 177,          1) /* GemCount */
      , (312, 178,         32) /* GemType */
      , (312, 353,          9) /* WeaponType - Crossbow */
@@ -59,6 +57,7 @@ VALUES (312,   1,   33554733) /* Setup */
      , (312,   6,   67111919) /* PaletteBase */
      , (312,   8,  100668846) /* Icon */
      , (312,  22,  872415275) /* PhysicsEffectTable */
+     , (312,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (312, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (312, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (312, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -73,8 +72,8 @@ VALUES (312, 8000, 3685862855) /* PCAPRecordedObjectIID */
      , (312, 8008, 3685862881) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (312,  1353,      2) 
-     , (312,  1615,      2) ;
+VALUES (312,  1353,      2)  /* EnduranceSelf5 */
+     , (312,  1615,      2)  /* BloodDrinkerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (312, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */;

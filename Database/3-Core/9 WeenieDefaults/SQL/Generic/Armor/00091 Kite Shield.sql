@@ -21,9 +21,7 @@ VALUES (91,   1,          2) /* ItemType - Armor */
      , (91, 110,          0) /* ItemAllegianceRankLimit */
      , (91, 115,         48) /* ItemSkillLevelLimit */
      , (91, 131,         64) /* MaterialType - Steel */
-     , (91, 151,          2) /* HookType - Wall */
-     , (91, 172,          1) /* AppraisalLongDescDecoration */
-     , (91, 176,          7) /* AppraisalItemSkill */;
+     , (91, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (91,  22, True ) /* Inscribable */;
@@ -50,6 +48,7 @@ VALUES (91,   1,   33554788) /* Setup */
      , (91,   6,   67111919) /* PaletteBase */
      , (91,   8,  100668582) /* Icon */
      , (91,  22,  872415275) /* PhysicsEffectTable */
+     , (91,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (91, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (91, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (91, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
@@ -64,7 +63,7 @@ VALUES (91, 8000, 3685619156) /* PCAPRecordedObjectIID */
      , (91, 8008, 3685774806) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (91,  1482,      2) ;
+VALUES (91,  1482,      2)  /* Impenetrability2 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (91, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */;

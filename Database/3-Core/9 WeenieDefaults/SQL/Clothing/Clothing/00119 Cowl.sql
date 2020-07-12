@@ -22,7 +22,6 @@ VALUES (119,   1,          4) /* ItemType - Clothing */
      , (119, 115,          0) /* ItemSkillLevelLimit */
      , (119, 131,          5) /* MaterialType - Satin */
      , (119, 151,          2) /* HookType - Wall */
-     , (119, 172,          1) /* AppraisalLongDescDecoration */
      , (119, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,9 +58,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (119, 8000, 2174499431) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (119,   216,      2) 
-     , (119,  1486,      2) 
-     , (119,  1539,      2) ;
+VALUES (119,   216,      2)  /* ManaRenewalSelf5 */
+     , (119,  1486,      2)  /* Impenetrability6 */
+     , (119,  1539,      2)  /* LightningBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (119, 67110356, 250, 6);

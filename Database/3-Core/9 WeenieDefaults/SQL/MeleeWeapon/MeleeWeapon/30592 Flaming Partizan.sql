@@ -26,8 +26,6 @@ VALUES (30592,   1,          1) /* ItemType - MeleeWeapon */
      , (30592, 115,        209) /* ItemSkillLevelLimit */
      , (30592, 131,         75) /* MaterialType - Oak */
      , (30592, 151,          2) /* HookType - Wall */
-     , (30592, 172,          1) /* AppraisalLongDescDecoration */
-     , (30592, 176,         44) /* AppraisalItemSkill */
      , (30592, 353,          5) /* WeaponType - Spear */
      , (30592, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (30592, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -55,6 +53,7 @@ VALUES (30592,   1,   33559479) /* Setup */
      , (30592,   6,   67115560) /* PaletteBase */
      , (30592,   8,  100686993) /* Icon */
      , (30592,  22,  872415275) /* PhysicsEffectTable */
+     , (30592,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30592, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30592, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30592, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -63,8 +62,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30592, 8000, 3700025615) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30592,  1615,      2) 
-     , (30592,  1625,      2) ;
+VALUES (30592,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (30592,  1625,      2)  /* SwiftKillerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30592, 67116416, 0, 0);

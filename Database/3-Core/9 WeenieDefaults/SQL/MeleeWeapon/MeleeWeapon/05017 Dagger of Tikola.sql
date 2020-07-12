@@ -24,7 +24,6 @@ VALUES (5017,   1,          1) /* ItemType - MeleeWeapon */
      , (5017, 114,          1) /* Attuned - Attuned */
      , (5017, 115,        125) /* ItemSkillLevelLimit */
      , (5017, 151,          2) /* HookType - Wall */
-     , (5017, 176,         45) /* AppraisalItemSkill */
      , (5017, 353,          6) /* WeaponType - Dagger */
      , (5017, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (5017, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -54,6 +53,7 @@ VALUES (5017,   1,   33556572) /* Setup */
      , (5017,   6,   67111919) /* PaletteBase */
      , (5017,   8,  100668936) /* Icon */
      , (5017,  22,  872415275) /* PhysicsEffectTable */
+     , (5017,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (5017, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (5017, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5017, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -62,10 +62,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5017, 8000, 2174553776) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5017,  1589,      2) 
-     , (5017,  1602,      2) 
-     , (5017,  1613,      2) 
-     , (5017,  1623,      2) ;
+VALUES (5017,  1589,      2)  /* HeartSeekerSelf3 */
+     , (5017,  1602,      2)  /* DefenderSelf3 */
+     , (5017,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (5017,  1623,      2)  /* SwiftKillerSelf2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5017, 67111920, 0, 0);

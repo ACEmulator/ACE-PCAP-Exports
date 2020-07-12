@@ -30,8 +30,6 @@ VALUES (4195,   1,          1) /* ItemType - MeleeWeapon */
      , (4195, 158,          2) /* WieldRequirements - RawSkill */
      , (4195, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (4195, 160,        325) /* WieldDifficulty */
-     , (4195, 172,          5) /* AppraisalLongDescDecoration */
-     , (4195, 176,         44) /* AppraisalItemSkill */
      , (4195, 177,          1) /* GemCount */
      , (4195, 178,         43) /* GemType */
      , (4195, 353,          1) /* WeaponType - Unarmed */
@@ -61,6 +59,7 @@ VALUES (4195,   1,   33555996) /* Setup */
      , (4195,   6,   67111919) /* PaletteBase */
      , (4195,   8,  100670033) /* Icon */
      , (4195,  22,  872415275) /* PhysicsEffectTable */
+     , (4195,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (4195,  52,  100676440) /* IconUnderlay */
      , (4195, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (4195, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -77,10 +76,10 @@ VALUES (4195, 8000, 3678215363) /* PCAPRecordedObjectIID */
      , (4195, 8008, 1343301116) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4195,  1592,      2) 
-     , (4195,  1605,      2) 
-     , (4195,  1615,      2) 
-     , (4195,  5809,      2) ;
+VALUES (4195,  1592,      2)  /* HeartSeekerSelf6 */
+     , (4195,  1605,      2)  /* DefenderSelf6 */
+     , (4195,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (4195,  5809,      2)  /* DualWieldMasterySelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4195, 67111924, 0, 0);

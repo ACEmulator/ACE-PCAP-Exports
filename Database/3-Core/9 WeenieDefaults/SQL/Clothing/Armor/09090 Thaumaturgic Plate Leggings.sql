@@ -18,7 +18,6 @@ VALUES (9090,   1,          2) /* ItemType - Armor */
      , (9090, 108,       2000) /* ItemMaxMana */
      , (9090, 109,         50) /* ItemDifficulty */
      , (9090, 115,        270) /* ItemSkillLevelLimit */
-     , (9090, 176,         34) /* AppraisalItemSkill */
      , (9090, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,6 +47,7 @@ VALUES (9090,   1,   33554856) /* Setup */
      , (9090,   6,   67108990) /* PaletteBase */
      , (9090,   8,  100671359) /* Icon */
      , (9090,  22,  872415275) /* PhysicsEffectTable */
+     , (9090,  37,         34) /* ItemSkillLimit - WarMagic */
      , (9090, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (9090, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9090, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -56,16 +56,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9090, 8000, 2925380343) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9090,  1337,      2) 
-     , (9090,  2349,      2) 
-     , (9090,  2350,      2) 
-     , (9090,  2351,      2) 
-     , (9090,  2352,      2) 
-     , (9090,  2353,      2) 
-     , (9090,  2354,      2) 
-     , (9090,  2355,      2) 
-     , (9090,  2356,      2) 
-     , (9090,  2379,      2) ;
+VALUES (9090,  1337,      2)  /* StrengthOther6 */
+     , (9090,  2349,      2)  /* HieroWard */
+     , (9090,  2350,      2)  /* DecayDurance */
+     , (9090,  2351,      2)  /* ConsumptionDurance */
+     , (9090,  2352,      2)  /* StasisDurance */
+     , (9090,  2353,      2)  /* StimulationDurance */
+     , (9090,  2354,      2)  /* PiercingDuranceLess */
+     , (9090,  2355,      2)  /* SlashingDuranceLess */
+     , (9090,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9090,  2379,      2)  /* BeastWhisper */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9090, 67113130, 136, 16);

@@ -19,8 +19,7 @@ VALUES (36524,   1,          2) /* ItemType - Armor */
      , (36524, 108,       3000) /* ItemMaxMana */
      , (36524, 109,        200) /* ItemDifficulty */
      , (36524, 115,        500) /* ItemSkillLevelLimit */
-     , (36524, 151,          2) /* HookType - Wall */
-     , (36524, 176,         48) /* AppraisalItemSkill */;
+     , (36524, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36524,  22, True ) /* Inscribable */;
@@ -46,6 +45,7 @@ VALUES (36524,   1,   33560395) /* Setup */
      , (36524,   3,  536870932) /* SoundTable */
      , (36524,   8,  100671019) /* Icon */
      , (36524,  22,  872415275) /* PhysicsEffectTable */
+     , (36524,  37,         48) /* ItemSkillLimit - Shield */
      , (36524, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (36524, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36524, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
@@ -60,6 +60,6 @@ VALUES (36524, 8000, 3361324448) /* PCAPRecordedObjectIID */
      , (36524, 8008, 1343077142) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36524,  2242,      2) 
-     , (36524,  2244,      2) 
-     , (36524,  4217,      2) ;
+VALUES (36524,  2242,      2)  /* ImpregnabilityOther7 */
+     , (36524,  2244,      2)  /* InvulnerabilityOther7 */
+     , (36524,  4217,      2)  /* GourdGuard */;

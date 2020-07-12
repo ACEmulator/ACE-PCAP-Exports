@@ -55,6 +55,6 @@ VALUES (12236, 8000, 3010181316) /* PCAPRecordedObjectIID */
      , (12236, 8008, 1343491011) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12236,   561,      2) 
-     , (12236,   585,      2) 
-     , (12236,   656,      2) ;
+VALUES (12236,   561,      2)  /* CreatureEnchantmentMasterySelf5 */
+     , (12236,   585,      2)  /* ItemEnchantmentMasterySelf5 */
+     , (12236,   656,      2)  /* ManaMasterySelf4 */;

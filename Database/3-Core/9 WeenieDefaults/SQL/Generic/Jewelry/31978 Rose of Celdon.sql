@@ -46,10 +46,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31978, 8000, 2979050466) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31978,  2513,      2) 
-     , (31978,  2611,      2) 
-     , (31978,  3848,      2) 
-     , (31978,  3849,      2) ;
+VALUES (31978,  2513,      2)  /* CANTRIPHEALINGPROWESS2 */
+     , (31978,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (31978,  3848,      2)  /* CombatMedication */
+     , (31978,  3849,      2)  /* NightRunner */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31978, 67111923, 0, 0);

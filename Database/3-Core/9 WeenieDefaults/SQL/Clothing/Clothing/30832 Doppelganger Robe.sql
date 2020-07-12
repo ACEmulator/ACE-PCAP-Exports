@@ -54,11 +54,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30832, 8000, 2982968673) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30832,  1023,      2) 
-     , (30832,  1114,      2) 
-     , (30832,  1138,      2) 
-     , (30832,  3802,      2) 
-     , (30832,  3803,      2) ;
+VALUES (30832,  1023,      2)  /* BludgeonProtectionSelf6 */
+     , (30832,  1114,      2)  /* BladeProtectionSelf6 */
+     , (30832,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (30832,  3802,      2)  /* CantripShadowReek */
+     , (30832,  3803,      2)  /* CantripShadowShot */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30832, 67115506, 174, 82);

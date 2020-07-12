@@ -24,7 +24,6 @@ VALUES (27231,   1,          2) /* ItemType - Armor */
      , (27231, 158,          7) /* WieldRequirements - Level */
      , (27231, 159,          1) /* WieldSkillType - Axe */
      , (27231, 160,        180) /* WieldDifficulty */
-     , (27231, 172,          1) /* AppraisalLongDescDecoration */
      , (27231, 265,         29) /* EquipmentSetId - Lightningproof */
      , (27231, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -62,11 +61,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27231, 8000, 3530487141) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27231,  1486,      2) 
-     , (27231,  2110,      2) 
-     , (27231,  4401,      2) 
-     , (27231,  6042,      2) 
-     , (27231,  6122,      2) ;
+VALUES (27231,  1486,      2)  /* Impenetrability6 */
+     , (27231,  2110,      2)  /* LightningBane7 */
+     , (27231,  4401,      2)  /* FlameBane8 */
+     , (27231,  6042,      2)  /* CantripArmorExpertise4 */
+     , (27231,  6122,      2)  /* SummoningMasterySelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27231, 67115066, 136, 8)

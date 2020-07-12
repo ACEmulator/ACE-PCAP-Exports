@@ -66,12 +66,12 @@ VALUES (6174, 8000, 2747573199) /* PCAPRecordedObjectIID */
      , (6174, 8008, 1342545547) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6174,  1092,      2) 
-     , (6174,  1330,      2) 
-     , (6174,  1590,      2) 
-     , (6174,  1603,      2) 
-     , (6174,  1614,      2) 
-     , (6174,  1625,      2) ;
+VALUES (6174,  1092,      2)  /* FireProtectionSelf4 */
+     , (6174,  1330,      2)  /* StrengthSelf4 */
+     , (6174,  1590,      2)  /* HeartSeekerSelf4 */
+     , (6174,  1603,      2)  /* DefenderSelf4 */
+     , (6174,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (6174,  1625,      2)  /* SwiftKillerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6174, 67111924, 0, 0);

@@ -23,7 +23,6 @@ VALUES (35938,   1,          2) /* ItemType - Armor */
      , (35938, 158,          7) /* WieldRequirements - Level */
      , (35938, 159,          1) /* WieldSkillType - Axe */
      , (35938, 160,        130) /* WieldDifficulty */
-     , (35938, 176,          6) /* AppraisalItemSkill */
      , (35938, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,6 +51,7 @@ VALUES (35938,   1,   33560346) /* Setup */
      , (35938,   6,   67108990) /* PaletteBase */
      , (35938,   8,  100689571) /* Icon */
      , (35938,  22,  872415275) /* PhysicsEffectTable */
+     , (35938,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (35938, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (35938, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35938, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35938, 8000, 2979050355) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35938,  2102,      2) 
-     , (35938,  2104,      2) 
-     , (35938,  2108,      2) 
-     , (35938,  2396,      2) 
-     , (35938,  2397,      2) 
-     , (35938,  2514,      2) 
-     , (35938,  2515,      2) 
-     , (35938,  2592,      2) ;
+VALUES (35938,  2102,      2)  /* FlameBane7 */
+     , (35938,  2104,      2)  /* FrostBane7 */
+     , (35938,  2108,      2)  /* Impenetrability7 */
+     , (35938,  2396,      2)  /* FlameShield */
+     , (35938,  2397,      2)  /* IceShield */
+     , (35938,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
+     , (35938,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
+     , (35938,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35938, 67114563, 240, 16);

@@ -25,7 +25,6 @@ VALUES (37222,   1,      32768) /* ItemType - Caster */
      , (37222, 158,          2) /* WieldRequirements - RawSkill */
      , (37222, 159,         34) /* WieldSkillType - WarMagic */
      , (37222, 160,        385) /* WieldDifficulty */
-     , (37222, 172,          5) /* AppraisalLongDescDecoration */
      , (37222, 177,          4) /* GemCount */
      , (37222, 178,         47) /* GemType */
      , (37222, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,9 +59,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37222, 8000, 2300577722) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37222,  2529,      2) 
-     , (37222,  4418,      2) 
-     , (37222,  4447,      2) ;
+VALUES (37222,  2529,      2)  /* CANTRIPSPRINT2 */
+     , (37222,  4418,      2)  /* HermeticLinkSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37222, 67111919, 0, 0);

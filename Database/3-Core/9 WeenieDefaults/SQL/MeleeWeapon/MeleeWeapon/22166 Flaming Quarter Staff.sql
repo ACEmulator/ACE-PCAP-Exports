@@ -29,8 +29,6 @@ VALUES (22166,   1,          1) /* ItemType - MeleeWeapon */
      , (22166, 158,          2) /* WieldRequirements - RawSkill */
      , (22166, 159,         45) /* WieldSkillType - LightWeapons */
      , (22166, 160,        300) /* WieldDifficulty */
-     , (22166, 172,          5) /* AppraisalLongDescDecoration */
-     , (22166, 176,         45) /* AppraisalItemSkill */
      , (22166, 177,          2) /* GemCount */
      , (22166, 178,         13) /* GemType */
      , (22166, 353,          7) /* WeaponType - Staff */
@@ -61,6 +59,7 @@ VALUES (22166,   1,   33558066) /* Setup */
      , (22166,   6,   67111919) /* PaletteBase */
      , (22166,   8,  100673625) /* Icon */
      , (22166,  22,  872415275) /* PhysicsEffectTable */
+     , (22166,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (22166, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22166, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22166, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -69,8 +68,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22166, 8000, 3701170527) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22166,  1615,      2) 
-     , (22166,  2583,      2) ;
+VALUES (22166,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (22166,  2583,      2)  /* CANTRIPSTRENGTH1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

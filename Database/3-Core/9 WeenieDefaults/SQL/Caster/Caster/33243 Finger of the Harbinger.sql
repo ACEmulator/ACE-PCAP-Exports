@@ -22,7 +22,6 @@ VALUES (33243,   1,      32768) /* ItemType - Caster */
      , (33243, 158,          7) /* WieldRequirements - Level */
      , (33243, 159,          1) /* WieldSkillType - Axe */
      , (33243, 160,        180) /* WieldDifficulty */
-     , (33243, 176,         34) /* AppraisalItemSkill */
      , (33243, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,6 +44,7 @@ VALUES (33243,   1,   33559926) /* Setup */
      , (33243,   8,  100688937) /* Icon */
      , (33243,  22,  872415275) /* PhysicsEffectTable */
      , (33243,  28,       3926) /* Spell - HarbingersFieryTouch */
+     , (33243,  37,         34) /* ItemSkillLimit - WarMagic */
      , (33243, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (33243, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33243, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -59,11 +59,10 @@ VALUES (33243, 8000, 2361536771) /* PCAPRecordedObjectIID */
      , (33243, 8008, 1342860198) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33243,  2286,      2) 
-     , (33243,  2525,      2) 
-     , (33243,  2616,      2) 
-     , (33243,  2618,      2) 
-     , (33243,  2619,      2) 
-     , (33243,  2622,      2) 
-     , (33243,  3200,      2) 
-     , (33243,  3926,      2) ;
+VALUES (33243,  2286,      2)  /* ManaMasteryOther7 */
+     , (33243,  2525,      2)  /* CANTRIPMANACONVERSIONPROWESS2 */
+     , (33243,  2616,      2)  /* CANTRIPACIDWARD1 */
+     , (33243,  2618,      2)  /* CANTRIPFLAMEWARD1 */
+     , (33243,  2619,      2)  /* CANTRIPFROSTWARD1 */
+     , (33243,  2622,      2)  /* CANTRIPSTORMWARD1 */
+     , (33243,  3200,      2)  /* CantripHermeticLink2 */;

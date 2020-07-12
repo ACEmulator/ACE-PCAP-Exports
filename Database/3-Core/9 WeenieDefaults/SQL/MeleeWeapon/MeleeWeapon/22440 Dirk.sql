@@ -29,8 +29,6 @@ VALUES (22440,   1,          1) /* ItemType - MeleeWeapon */
      , (22440, 158,          2) /* WieldRequirements - RawSkill */
      , (22440, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (22440, 160,        350) /* WieldDifficulty */
-     , (22440, 172,          5) /* AppraisalLongDescDecoration */
-     , (22440, 176,         44) /* AppraisalItemSkill */
      , (22440, 177,          2) /* GemCount */
      , (22440, 178,         20) /* GemType */
      , (22440, 353,          6) /* WeaponType - Dagger */
@@ -60,6 +58,7 @@ VALUES (22440,   1,   33558089) /* Setup */
      , (22440,   6,   67111919) /* PaletteBase */
      , (22440,   8,  100673792) /* Icon */
      , (22440,  22,  872415275) /* PhysicsEffectTable */
+     , (22440,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (22440, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22440, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22440, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -72,10 +71,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22440, 8000, 3536878741) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22440,  2096,      2) 
-     , (22440,  2576,      2) 
-     , (22440,  2613,      2) 
-     , (22440,  5808,      2) ;
+VALUES (22440,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (22440,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (22440,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+     , (22440,  5808,      2)  /* DualWieldMasterySelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22440, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */;

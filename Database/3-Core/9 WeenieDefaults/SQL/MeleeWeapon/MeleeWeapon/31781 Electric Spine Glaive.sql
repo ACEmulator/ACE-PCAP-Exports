@@ -23,7 +23,6 @@ VALUES (31781,   1,          1) /* ItemType - MeleeWeapon */
      , (31781, 158,          2) /* WieldRequirements - RawSkill */
      , (31781, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31781, 160,        300) /* WieldDifficulty */
-     , (31781, 172,          1) /* AppraisalLongDescDecoration */
      , (31781, 353,          5) /* WeaponType - Spear */
      , (31781, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (31781, 8041,        101) /* PCAPRecordedPlacement - Resting */;

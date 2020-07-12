@@ -44,6 +44,3 @@ VALUES (30801,   1,   33559266) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30801, 8000, 2192743729) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30801,   157,      2) ;

@@ -64,7 +64,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41894, 8000, 2521108609) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41894,  2004,      2) 
-     , (41894,  2087,      2) 
-     , (41894,  2096,      2) 
-     , (41894,  2106,      2) ;
+VALUES (41894,  2004,      2)  /* WarriorsVitality */
+     , (41894,  2087,      2)  /* StrengthSelf7 */
+     , (41894,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (41894,  2106,      2)  /* HeartSeekerSelf7 */;

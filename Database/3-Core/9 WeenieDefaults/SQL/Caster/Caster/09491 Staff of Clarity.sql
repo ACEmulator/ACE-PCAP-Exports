@@ -19,7 +19,6 @@ VALUES (9491,   1,      32768) /* ItemType - Caster */
      , (9491, 109,        100) /* ItemDifficulty */
      , (9491, 115,        200) /* ItemSkillLevelLimit */
      , (9491, 151,          2) /* HookType - Wall */
-     , (9491, 176,         16) /* AppraisalItemSkill */
      , (9491, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +39,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9491,   1,   33557010) /* Setup */
      , (9491,   8,  100671492) /* Icon */
      , (9491,  22,  872415275) /* PhysicsEffectTable */
-     , (9491,  41,         16) /* ItemSpecializedOnly */
+     , (9491,  37,         16) /* ItemSkillLimit - ManaConversion */
+     , (9491,  41,         16) /* ItemSpecializedOnly - ManaConversion */
      , (9491, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (9491, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9491, 8005,     167969) /* PCAPRecordedPhysicsDesc - CSetup, Parent, PeTable, Position, AnimationFrame */
@@ -55,6 +55,6 @@ VALUES (9491, 8000, 2765447498) /* PCAPRecordedObjectIID */
      , (9491, 8008, 1342696490) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9491,   211,      2) 
-     , (9491,   640,      2) 
-     , (9491,   664,      2) ;
+VALUES (9491,   211,      2)  /* ManaRenewalOther6 */
+     , (9491,   640,      2)  /* WarMagicMasteryOther6 */
+     , (9491,   664,      2)  /* ManaMasteryOther6 */;

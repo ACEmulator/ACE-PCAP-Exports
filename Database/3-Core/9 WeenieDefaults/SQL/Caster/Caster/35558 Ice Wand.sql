@@ -67,11 +67,10 @@ VALUES (35558, 8000, 3711333198) /* PCAPRecordedObjectIID */
      , (35558, 8008, 1343385350) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35558,  1836,      2) 
-     , (35558,  2322,      2) 
-     , (35558,  2534,      2) 
-     , (35558,  2612,      2) 
-     , (35558,  4086,      2) ;
+VALUES (35558,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (35558,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (35558,  2612,      2)  /* CANTRIPFROSTWARD2 */
+     , (35558,  4086,      2)  /* CantripArmorIceShield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35558, 67111920, 0, 0);

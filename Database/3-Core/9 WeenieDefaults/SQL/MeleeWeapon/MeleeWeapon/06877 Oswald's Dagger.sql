@@ -57,5 +57,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6877, 8000, 2166166883) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6877,   854,      2) 
-     , (6877,  1782,      2) ;
+VALUES (6877,   854,      2)  /* DeceptionMasterySelf5 */
+     , (6877,  1782,      2)  /* GertarhsCurse */;

@@ -19,7 +19,6 @@ VALUES (41485,   1,          8) /* ItemType - Jewelry */
      , (41485, 110,          0) /* ItemAllegianceRankLimit */
      , (41485, 115,          0) /* ItemSkillLevelLimit */
      , (41485, 131,         57) /* MaterialType - Brass */
-     , (41485, 172,          5) /* AppraisalLongDescDecoration */
      , (41485, 177,          2) /* GemCount */
      , (41485, 178,         15) /* GemType */
      , (41485, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,8 +49,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41485, 8000, 3701259151) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41485,  1114,      2) 
-     , (41485,  5072,      2) ;
+VALUES (41485,  1114,      2)  /* BladeProtectionSelf6 */
+     , (41485,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41485, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */

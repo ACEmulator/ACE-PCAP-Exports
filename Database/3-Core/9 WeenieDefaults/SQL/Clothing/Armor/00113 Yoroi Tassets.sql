@@ -21,7 +21,6 @@ VALUES (113,   1,          2) /* ItemType - Armor */
      , (113, 110,          0) /* ItemAllegianceRankLimit */
      , (113, 115,          0) /* ItemSkillLevelLimit */
      , (113, 131,         58) /* MaterialType - Bronze */
-     , (113, 172,          1) /* AppraisalLongDescDecoration */
      , (113, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,9 +58,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (113, 8000, 3701224931) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (113,  1484,      2) 
-     , (113,  1560,      2) 
-     , (113,  2541,      2) ;
+VALUES (113,  1484,      2)  /* Impenetrability4 */
+     , (113,  1560,      2)  /* BladeBane4 */
+     , (113,  2541,      2)  /* CANTRIPCOOKINGPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (113, 67109968, 136, 16);

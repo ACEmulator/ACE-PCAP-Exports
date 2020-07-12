@@ -42,10 +42,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8789, 8000, 3701872464) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8789,   592,      2) 
-     , (8789,   664,      2) 
-     , (8789,  2560,      2) 
-     , (8789,  2975,      2) ;
+VALUES (8789,   592,      2)  /* ItemEnchantmentMasteryOther6 */
+     , (8789,   664,      2)  /* ManaMasteryOther6 */
+     , (8789,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
+     , (8789,  2975,      2)  /* ModerateItemEnchantmentAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8789, 67111923, 0, 0);

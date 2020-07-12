@@ -70,9 +70,9 @@ VALUES (41083, 8000, 2152389245) /* PCAPRecordedObjectIID */
      , (41083, 8008, 1342739201) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41083,  2059,      2) 
-     , (41083,  2096,      2) 
-     , (41083,  2101,      2) 
-     , (41083,  2106,      2) 
-     , (41083,  2116,      2) 
-     , (41083,  5074,      2) ;
+VALUES (41083,  2059,      2)  /* CoordinationSelf7 */
+     , (41083,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (41083,  2101,      2)  /* DefenderSelf7 */
+     , (41083,  2106,      2)  /* HeartSeekerSelf7 */
+     , (41083,  2116,      2)  /* SwiftKillerSelf7 */
+     , (41083,  5074,      2)  /* ModerateTwoHandedAptitude */;

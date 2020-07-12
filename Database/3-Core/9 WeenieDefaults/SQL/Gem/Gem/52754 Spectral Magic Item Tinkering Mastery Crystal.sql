@@ -31,7 +31,8 @@ VALUES (52754,   1,   33557625) /* Setup */
      , (52754,  50,  100686672) /* IconOverlay */
      , (52754, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (52754, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (52754, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+     , (52754, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
+     , (52754, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52754, 8000,      52754) /* PCAPRecordedObjectIID */;

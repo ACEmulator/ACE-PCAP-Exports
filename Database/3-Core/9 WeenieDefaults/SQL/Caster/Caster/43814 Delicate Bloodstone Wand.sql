@@ -68,10 +68,9 @@ VALUES (43814, 8000, 3681272950) /* PCAPRecordedObjectIID */
      , (43814, 8008, 3681272962) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43814,  4400,      2) 
-     , (43814,  4414,      2) 
-     , (43814,  4582,      2) 
-     , (43814,  5531,      2) ;
+VALUES (43814,  4400,      2)  /* DefenderSelf8 */
+     , (43814,  4414,      2)  /* SpiritDrinkerSelf8 */
+     , (43814,  4582,      2)  /* LifeMagicMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43814, 67111923, 0, 0);

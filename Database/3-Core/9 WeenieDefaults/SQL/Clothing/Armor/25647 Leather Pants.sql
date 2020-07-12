@@ -21,7 +21,6 @@ VALUES (25647,   1,          2) /* ItemType - Armor */
      , (25647, 110,          0) /* ItemAllegianceRankLimit */
      , (25647, 115,          0) /* ItemSkillLevelLimit */
      , (25647, 131,         52) /* MaterialType - Leather */
-     , (25647, 172,          1) /* AppraisalLongDescDecoration */
      , (25647, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,9 +57,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25647, 8000, 2384324219) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25647,  1484,      2) 
-     , (25647,  1497,      2) 
-     , (25647,  1514,      2) ;
+VALUES (25647,  1484,      2)  /* Impenetrability4 */
+     , (25647,  1497,      2)  /* AcidBane5 */
+     , (25647,  1514,      2)  /* BludgeonBane4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25647, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */;

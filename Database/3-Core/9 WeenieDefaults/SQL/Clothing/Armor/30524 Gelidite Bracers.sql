@@ -63,6 +63,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30524, 8000, 2804497108) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30524,  3965,      2) 
-     , (30524,  4407,      2) 
-     , (30524,  4692,      2) ;
+VALUES (30524,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (30524,  4407,      2)  /* Impenetrability8 */
+     , (30524,  4692,      2)  /* CANTRIPFEALTY3 */;

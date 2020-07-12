@@ -18,8 +18,7 @@ VALUES (29494,   1,          2) /* ItemType - Armor */
      , (29494, 108,       1000) /* ItemMaxMana */
      , (29494, 109,          0) /* ItemDifficulty */
      , (29494, 114,          1) /* Attuned - Attuned */
-     , (29494, 115,        200) /* ItemSkillLevelLimit */
-     , (29494, 176,          6) /* AppraisalItemSkill */;
+     , (29494, 115,        200) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29494,  22, True ) /* Inscribable */
@@ -45,6 +44,7 @@ VALUES (29494,   1,   33559358) /* Setup */
      , (29494,   3,  536870932) /* SoundTable */
      , (29494,   8,  100686511) /* Icon */
      , (29494,  22,  872415275) /* PhysicsEffectTable */
+     , (29494,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (29494, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (29494, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29494, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
@@ -53,6 +53,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29494, 8000, 2181543963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29494,  1484,      2) 
-     , (29494,  2580,      2) 
-     , (29494,  2583,      2) ;
+VALUES (29494,  1484,      2)  /* Impenetrability4 */
+     , (29494,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (29494,  2583,      2)  /* CANTRIPSTRENGTH1 */;

@@ -22,7 +22,6 @@ VALUES (2407,   1,       2048) /* ItemType - Gem */
      , (2407, 115,          0) /* ItemSkillLevelLimit */
      , (2407, 117,        300) /* ItemManaCost */
      , (2407, 131,         41) /* MaterialType - Sunstone */
-     , (2407, 172,          1) /* AppraisalLongDescDecoration */
      , (2407, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,7 +48,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2407, 8000, 3688282296) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2407,  1113,      2) ;
+VALUES (2407,  1113,      2)  /* BladeProtectionSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2407, 67111924, 0, 0);

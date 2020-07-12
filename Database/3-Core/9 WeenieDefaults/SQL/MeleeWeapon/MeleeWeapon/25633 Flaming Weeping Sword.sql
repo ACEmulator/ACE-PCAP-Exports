@@ -73,7 +73,7 @@ VALUES (25633, 8000, 3686913993) /* PCAPRecordedObjectIID */
      , (25633, 8008, 1342401529) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25633,  2689,      2) ;
+VALUES (25633,  2689,      2)  /* ModerateDaggerAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25633, 67114520, 0, 0);

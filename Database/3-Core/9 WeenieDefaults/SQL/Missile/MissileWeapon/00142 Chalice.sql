@@ -25,7 +25,6 @@ VALUES (142,   1,        256) /* ItemType - MissileWeapon */
      , (142, 115,          0) /* ItemSkillLevelLimit */
      , (142, 131,         59) /* MaterialType - Copper */
      , (142, 151,          1) /* HookType - Floor */
-     , (142, 172,          1) /* AppraisalLongDescDecoration */
      , (142, 353,         10) /* WeaponType - Thrown */
      , (142, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (142, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -64,7 +63,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (142, 8000, 3686006767) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (142,  1332,      2) ;
+VALUES (142,  1332,      2)  /* StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (142, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

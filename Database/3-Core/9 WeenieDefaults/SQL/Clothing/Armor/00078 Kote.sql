@@ -21,7 +21,6 @@ VALUES (78,   1,          2) /* ItemType - Armor */
      , (78, 110,          0) /* ItemAllegianceRankLimit */
      , (78, 115,          0) /* ItemSkillLevelLimit */
      , (78, 131,         60) /* MaterialType - Gold */
-     , (78, 172,          5) /* AppraisalLongDescDecoration */
      , (78, 177,          2) /* GemCount */
      , (78, 178,         23) /* GemType */
      , (78, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,10 +59,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (78, 8000, 3691612084) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (78,  1486,      2) 
-     , (78,  2104,      2) 
-     , (78,  2185,      2) 
-     , (78,  2546,      2) ;
+VALUES (78,  1486,      2)  /* Impenetrability6 */
+     , (78,  2104,      2)  /* FrostBane7 */
+     , (78,  2185,      2)  /* RegenerationSelf7 */
+     , (78,  2546,      2)  /* CANTRIPFEALTY1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (78, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */

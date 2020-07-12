@@ -50,10 +50,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34704, 8000, 2316348054) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34704,  2613,      2) 
-     , (34704,  3981,      2) 
-     , (34704,  4070,      2) 
-     , (34704,  4077,      2) ;
+VALUES (34704,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+     , (34704,  3981,      2)  /* ManarenewalOtherIncantation */
+     , (34704,  4070,      2)  /* EmpyreanManaAbsorbtion */
+     , (34704,  4077,      2)  /* ManaConvertMasteryIncantation */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34704, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

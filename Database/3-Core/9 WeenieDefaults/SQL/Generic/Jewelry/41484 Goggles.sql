@@ -19,7 +19,6 @@ VALUES (41484,   1,          8) /* ItemType - Jewelry */
      , (41484, 110,          0) /* ItemAllegianceRankLimit */
      , (41484, 115,          0) /* ItemSkillLevelLimit */
      , (41484, 131,         61) /* MaterialType - Iron */
-     , (41484, 172,          5) /* AppraisalLongDescDecoration */
      , (41484, 177,          2) /* GemCount */
      , (41484, 178,         15) /* GemType */
      , (41484, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,8 +49,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41484, 8000, 3688262579) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41484,  1070,      2) 
-     , (41484,  2539,      2) ;
+VALUES (41484,  1070,      2)  /* LightningProtectionSelf5 */
+     , (41484,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41484, 67111920, 0, 0);

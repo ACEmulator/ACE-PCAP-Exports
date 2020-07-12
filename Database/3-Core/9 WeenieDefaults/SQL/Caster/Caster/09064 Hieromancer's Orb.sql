@@ -18,7 +18,6 @@ VALUES (9064,   1,      32768) /* ItemType - Caster */
      , (9064, 108,       1500) /* ItemMaxMana */
      , (9064, 115,        200) /* ItemSkillLevelLimit */
      , (9064, 151,          2) /* HookType - Wall */
-     , (9064, 176,         34) /* AppraisalItemSkill */
      , (9064, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,6 +38,7 @@ VALUES (9064,   1,   33556965) /* Setup */
      , (9064,   6,   67111919) /* PaletteBase */
      , (9064,   8,  100671367) /* Icon */
      , (9064,  22,  872415275) /* PhysicsEffectTable */
+     , (9064,  37,         34) /* ItemSkillLimit - WarMagic */
      , (9064, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (9064, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9064, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -53,9 +53,9 @@ VALUES (9064, 8000, 3687338398) /* PCAPRecordedObjectIID */
      , (9064, 8008, 1343383817) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9064,   634,      2) 
-     , (9064,  1426,      2) 
-     , (9064,  1450,      2) ;
+VALUES (9064,   634,      2)  /* WarMagicMasterySelf6 */
+     , (9064,  1426,      2)  /* FocusSelf6 */
+     , (9064,  1450,      2)  /* WillpowerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9064, 67111920, 0, 0);

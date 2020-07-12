@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28398, 8000, 2163223517) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28398,  3405,      2) 
-     , (28398,  3434,      2) ;
+VALUES (28398,  3405,      2)  /* GiftoftheFiazhat */
+     , (28398,  3434,      2)  /* EyesBeyondtheMist */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28398, 67114955, 0, 0);

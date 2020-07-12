@@ -49,9 +49,6 @@ VALUES (8514, 8040, 4095213845, 33.8706, 18.1776, 191, -0.134863, 0, 0, -0.99086
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8514, 8000, 2134999044) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8514,  1432,      2) ;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8514, -1, 8530, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Sanctuary Recall (8530) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8514, -1, 8552, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate The Healer's Heart (8552) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

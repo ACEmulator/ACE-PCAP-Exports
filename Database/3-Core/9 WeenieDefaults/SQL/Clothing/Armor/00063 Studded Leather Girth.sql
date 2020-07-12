@@ -20,7 +20,6 @@ VALUES (63,   1,          2) /* ItemType - Armor */
      , (63, 110,          0) /* ItemAllegianceRankLimit */
      , (63, 115,          0) /* ItemSkillLevelLimit */
      , (63, 131,         53) /* MaterialType - ArmoredilloHide */
-     , (63, 172,          1) /* AppraisalLongDescDecoration */
      , (63, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -57,10 +56,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (63, 8000, 3685775826) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (63,  1486,      2) 
-     , (63,  1516,      2) 
-     , (63,  1561,      2) 
-     , (63,  2281,      2) ;
+VALUES (63,  1486,      2)  /* Impenetrability6 */
+     , (63,  1516,      2)  /* BludgeonBane6 */
+     , (63,  1561,      2)  /* BladeBane5 */
+     , (63,  2281,      2)  /* MagicResistanceSelf7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (63, 2, 26048,  1, 0, 0, False) /* Create Stone Spear (26048) for Wield */;

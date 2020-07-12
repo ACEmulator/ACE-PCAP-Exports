@@ -24,7 +24,6 @@ VALUES (45427,   1,          1) /* ItemType - MeleeWeapon */
      , (45427, 158,          2) /* WieldRequirements - RawSkill */
      , (45427, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (45427, 160,        300) /* WieldDifficulty */
-     , (45427, 172,          1) /* AppraisalLongDescDecoration */
      , (45427, 353,          6) /* WeaponType - Dagger */
      , (45427, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (45427, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;

@@ -33,7 +33,8 @@ VALUES (27368,   1,   33554728) /* Setup */
      , (27368, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27368, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27368, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (27368, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (27368, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */
+     , (27368, 8044,      34345) /* PCAPPhysicsDIDDataTemplatedFrom - Yumi */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27368, 8040, 2399993903, 137.0928, 149.3409, 33.88368, -0.9186358, 0, 0, -0.3951055) /* PCAPRecordedLocation */

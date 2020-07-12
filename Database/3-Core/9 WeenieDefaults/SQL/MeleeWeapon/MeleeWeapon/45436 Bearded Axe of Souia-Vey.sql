@@ -70,11 +70,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45436, 8000, 2300440111) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45436,  3965,      2) 
-     , (45436,  4325,      2) 
-     , (45436,  4395,      2) 
-     , (45436,  4661,      2) 
-     , (45436,  4686,      2) ;
+VALUES (45436,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (45436,  4325,      2)  /* StrengthSelf8 */
+     , (45436,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (45436,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (45436,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45436, 67111920, 0, 0);

@@ -33,7 +33,8 @@ VALUES (251,   1,   33556223) /* Setup */
      , (251,  22,  872415275) /* PhysicsEffectTable */
      , (251, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (251, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (251, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
+     , (251, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */
+     , (251, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (251, 8000,        251) /* PCAPRecordedObjectIID */;

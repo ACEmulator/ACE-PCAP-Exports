@@ -72,11 +72,11 @@ VALUES (46203, 8000, 2810279218) /* PCAPRecordedObjectIID */
      , (46203, 8008, 1343252410) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46203,  2096,      2) 
-     , (46203,  2101,      2) 
-     , (46203,  2106,      2) 
-     , (46203,  2116,      2) 
-     , (46203,  5070,      2) ;
+VALUES (46203,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46203,  2101,      2)  /* DefenderSelf7 */
+     , (46203,  2106,      2)  /* HeartSeekerSelf7 */
+     , (46203,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46203,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46203, 0, 83889235, 83892492)

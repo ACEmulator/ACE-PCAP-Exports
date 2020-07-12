@@ -25,7 +25,6 @@ VALUES (37194,   1,          2) /* ItemType - Armor */
      , (37194, 158,          2) /* WieldRequirements - RawSkill */
      , (37194, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37194, 160,        380) /* WieldDifficulty */
-     , (37194, 172,          1) /* AppraisalLongDescDecoration */
      , (37194, 265,         21) /* EquipmentSetId - Wise */
      , (37194, 270,          7) /* WieldRequirements2 - Level */
      , (37194, 271,          1) /* WieldSkillType2 - Axe */
@@ -73,9 +72,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37194, 8000, 3701660507) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37194,  2094,      2) 
-     , (37194,  4407,      2) 
-     , (37194,  4678,      2) ;
+VALUES (37194,  2094,      2)  /* BladeBane7 */
+     , (37194,  4407,      2)  /* Impenetrability8 */
+     , (37194,  4678,      2)  /* CANTRIPSLASHINGWARD3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37194, 67114454, 156, 4)

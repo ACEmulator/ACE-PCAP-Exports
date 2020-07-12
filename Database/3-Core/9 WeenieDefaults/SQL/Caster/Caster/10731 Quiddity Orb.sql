@@ -20,7 +20,6 @@ VALUES (10731,   1,      32768) /* ItemType - Caster */
      , (10731, 114,          1) /* Attuned - Attuned */
      , (10731, 115,        200) /* ItemSkillLevelLimit */
      , (10731, 151,          2) /* HookType - Wall */
-     , (10731, 176,         16) /* AppraisalItemSkill */
      , (10731, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -46,6 +45,7 @@ VALUES (10731,   1,   33557050) /* Setup */
      , (10731,   6,   67111928) /* PaletteBase */
      , (10731,   8,  100671667) /* Icon */
      , (10731,  22,  872415275) /* PhysicsEffectTable */
+     , (10731,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (10731, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (10731, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10731, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
@@ -60,9 +60,9 @@ VALUES (10731, 8000, 2686828551) /* PCAPRecordedObjectIID */
      , (10731, 8008, 1342796906) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10731,   585,      2) 
-     , (10731,   610,      2) 
-     , (10731,   658,      2) ;
+VALUES (10731,   585,      2)  /* ItemEnchantmentMasterySelf5 */
+     , (10731,   610,      2)  /* LifeMagicMasterySelf6 */
+     , (10731,   658,      2)  /* ManaMasterySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10731, 67112925, 0, 0);

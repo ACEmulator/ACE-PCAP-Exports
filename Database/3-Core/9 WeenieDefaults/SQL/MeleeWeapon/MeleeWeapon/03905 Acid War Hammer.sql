@@ -23,7 +23,6 @@ VALUES (3905,   1,          1) /* ItemType - MeleeWeapon */
      , (3905, 158,          2) /* WieldRequirements - RawSkill */
      , (3905, 159,         45) /* WieldSkillType - LightWeapons */
      , (3905, 160,        325) /* WieldDifficulty */
-     , (3905, 172,          5) /* AppraisalLongDescDecoration */
      , (3905, 177,          1) /* GemCount */
      , (3905, 178,         22) /* GemType */
      , (3905, 353,          3) /* WeaponType - Axe */

@@ -66,8 +66,8 @@ VALUES (38050, 8000, 3622151937) /* PCAPRecordedObjectIID */
      , (38050, 8008, 1344174979) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38050,  1603,      2) 
-     , (38050,  1614,      2) ;
+VALUES (38050,  1603,      2)  /* DefenderSelf4 */
+     , (38050,  1614,      2)  /* BloodDrinkerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38050, 67111927, 0, 0);

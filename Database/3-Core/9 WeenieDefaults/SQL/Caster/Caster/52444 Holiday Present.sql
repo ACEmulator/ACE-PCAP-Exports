@@ -51,4 +51,4 @@ VALUES (52444, 8000, 2239692719) /* PCAPRecordedObjectIID */
      , (52444, 8008, 1343190788) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52444,  2227,      2) ;
+VALUES (52444,  2227,      2)  /* DeceptionMasterySelf7 */;

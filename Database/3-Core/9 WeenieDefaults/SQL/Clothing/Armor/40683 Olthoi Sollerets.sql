@@ -24,8 +24,6 @@ VALUES (40683,   1,          2) /* ItemType - Armor */
      , (40683, 158,          2) /* WieldRequirements - RawSkill */
      , (40683, 159,          7) /* WieldSkillType - MissileDefense */
      , (40683, 160,        205) /* WieldDifficulty */
-     , (40683, 172,          1) /* AppraisalLongDescDecoration */
-     , (40683, 176,          6) /* AppraisalItemSkill */
      , (40683, 265,         29) /* EquipmentSetId - Lightningproof */
      , (40683, 270,          7) /* WieldRequirements2 - Level */
      , (40683, 271,          1) /* WieldSkillType2 - Axe */
@@ -58,6 +56,7 @@ VALUES (40683,   1,   33554654) /* Setup */
      , (40683,   6,   67108990) /* PaletteBase */
      , (40683,   8,  100674535) /* Icon */
      , (40683,  22,  872415275) /* PhysicsEffectTable */
+     , (40683,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (40683, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40683, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40683, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -66,10 +65,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40683, 8000, 3685089869) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40683,  2102,      2) 
-     , (40683,  2108,      2) 
-     , (40683,  2515,      2) 
-     , (40683,  5098,      2) ;
+VALUES (40683,  2102,      2)  /* FlameBane7 */
+     , (40683,  2108,      2)  /* Impenetrability7 */
+     , (40683,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
+     , (40683,  5098,      2)  /* TwoHandedMasteryOther8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40683, 67116553, 164, 4)

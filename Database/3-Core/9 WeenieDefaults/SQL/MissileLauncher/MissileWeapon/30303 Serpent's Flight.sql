@@ -77,11 +77,11 @@ VALUES (30303, 8000, 2450610276) /* PCAPRecordedObjectIID */
      , (30303, 8008, 1343124456) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30303,  3963,      2) 
-     , (30303,  4395,      2) 
-     , (30303,  4400,      2) 
-     , (30303,  4522,      2) 
-     , (30303,  4596,      2) 
-     , (30303,  4661,      2) 
-     , (30303,  4682,      2) 
-     , (30303,  4687,      2) ;
+VALUES (30303,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (30303,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (30303,  4400,      2)  /* DefenderSelf8 */
+     , (30303,  4522,      2)  /* BowMasterySelf8 */
+     , (30303,  4596,      2)  /* MagicResistanceSelf8 */
+     , (30303,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (30303,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
+     , (30303,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */;

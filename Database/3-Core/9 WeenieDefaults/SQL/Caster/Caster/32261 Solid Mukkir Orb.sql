@@ -53,8 +53,7 @@ VALUES (32261, 8000, 2978722225) /* PCAPRecordedObjectIID */
      , (32261, 8008, 1343382068) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32261,   682,      2) 
-     , (32261,  3861,      2) ;
+VALUES (32261,   682,      2)  /* ArcaneEnlightenmentSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32261, 67111919, 0, 0);

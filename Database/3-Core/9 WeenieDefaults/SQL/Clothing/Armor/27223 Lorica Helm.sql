@@ -25,7 +25,6 @@ VALUES (27223,   1,          2) /* ItemType - Armor */
      , (27223, 158,          7) /* WieldRequirements - Level */
      , (27223, 159,          1) /* WieldSkillType - Axe */
      , (27223, 160,        180) /* WieldDifficulty */
-     , (27223, 172,          5) /* AppraisalLongDescDecoration */
      , (27223, 177,          3) /* GemCount */
      , (27223, 178,         20) /* GemType */
      , (27223, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -68,9 +67,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27223, 8000, 3452532888) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27223,  2108,      2) 
-     , (27223,  4412,      2) 
-     , (27223,  6102,      2) ;
+VALUES (27223,  2108,      2)  /* Impenetrability7 */
+     , (27223,  4412,      2)  /* PiercingBane8 */
+     , (27223,  6102,      2)  /* CantripArmor4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27223, 67115026, 240, 10)

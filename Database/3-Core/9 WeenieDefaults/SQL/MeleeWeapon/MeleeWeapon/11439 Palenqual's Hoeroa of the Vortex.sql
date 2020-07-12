@@ -69,15 +69,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11439, 8000, 2624327528) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11439,  2438,      2) 
-     , (11439,  2441,      2) 
-     , (11439,  2444,      2) 
-     , (11439,  2447,      2) 
-     , (11439,  2450,      2) 
-     , (11439,  2453,      2) 
-     , (11439,  2460,      2) 
-     , (11439,  2472,      2) 
-     , (11439,  2475,      2) ;
+VALUES (11439,  2438,      2)  /* RockslideLesser */
+     , (11439,  2441,      2)  /* StoneCliffsLesser */
+     , (11439,  2444,      2)  /* StrengthofEarthLesser */
+     , (11439,  2447,      2)  /* GrowthLesser */
+     , (11439,  2450,      2)  /* HuntersAcumenLesser */
+     , (11439,  2453,      2)  /* ThornsLesser */
+     , (11439,  2460,      2)  /* CascadeDagger */
+     , (11439,  2472,      2)  /* StillWater */
+     , (11439,  2475,      2)  /* Torrent */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11439, 0, 83893670, 83893670)

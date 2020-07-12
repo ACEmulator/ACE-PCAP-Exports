@@ -1,6 +1,10 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x7D64;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x60000164, 12221, 0x7D640017, 67.70315, 152.0838, 12.005, 0, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Drudge Wand */
+/* @teleloc 0x7D640017 [67.703150 152.083800 12.005000] 0.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D64000,   145, 0x7D64010D, 78.125, 113.075, 12, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Coffer */
 /* @teleloc 0x7D64010D [78.125000 113.075000 12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 

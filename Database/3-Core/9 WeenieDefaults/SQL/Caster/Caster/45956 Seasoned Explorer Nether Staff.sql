@@ -60,11 +60,11 @@ VALUES (45956, 8000, 3602144474) /* PCAPRecordedObjectIID */
      , (45956, 8008, 1343489260) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45956,   664,      2) 
-     , (45956,  1605,      2) 
-     , (45956,  2560,      2) 
-     , (45956,  3258,      2) 
-     , (45956,  5427,      2) ;
+VALUES (45956,   664,      2)  /* ManaMasteryOther6 */
+     , (45956,  1605,      2)  /* DefenderSelf6 */
+     , (45956,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
+     , (45956,  3258,      2)  /* SpiritDrinkerSelf6 */
+     , (45956,  5427,      2)  /* CantripVoidMagicAptitude1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45956, 67111922, 0, 0);

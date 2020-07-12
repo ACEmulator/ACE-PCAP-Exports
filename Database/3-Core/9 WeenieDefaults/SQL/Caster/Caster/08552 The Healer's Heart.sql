@@ -19,7 +19,6 @@ VALUES (8552,   1,      32768) /* ItemType - Caster */
      , (8552, 109,        105) /* ItemDifficulty */
      , (8552, 115,        245) /* ItemSkillLevelLimit */
      , (8552, 151,          2) /* HookType - Wall */
-     , (8552, 176,         33) /* AppraisalItemSkill */
      , (8552, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,6 +41,7 @@ VALUES (8552,   1,   33556909) /* Setup */
      , (8552,   8,  100671213) /* Icon */
      , (8552,  22,  872415275) /* PhysicsEffectTable */
      , (8552,  28,       1166) /* Spell - HealOther6 */
+     , (8552,  37,         33) /* ItemSkillLimit - LifeMagic */
      , (8552, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (8552, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8552, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
@@ -56,10 +56,9 @@ VALUES (8552, 8000, 3128049460) /* PCAPRecordedObjectIID */
      , (8552, 8008, 1343298052) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8552,   170,      2) 
-     , (8552,   879,      2) 
-     , (8552,  1166,      2) 
-     , (8552,  1997,      2) ;
+VALUES (8552,   170,      2)  /* RegenerationSelf6 */
+     , (8552,   879,      2)  /* HealingMasterySelf6 */
+     , (8552,  1997,      2)  /* LifeGiver */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8552, 67111921, 0, 0);

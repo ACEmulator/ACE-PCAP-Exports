@@ -27,7 +27,8 @@ VALUES (49787,   1,   33554653) /* Setup */
      , (49787,  22,  872415275) /* PhysicsEffectTable */
      , (49787, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (49787, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (49787, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+     , (49787, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
+     , (49787, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49787, 8000,      49787) /* PCAPRecordedObjectIID */;

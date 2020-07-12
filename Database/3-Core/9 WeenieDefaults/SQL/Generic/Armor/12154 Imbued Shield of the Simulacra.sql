@@ -21,8 +21,7 @@ VALUES (12154,   1,          2) /* ItemType - Armor */
      , (12154, 109,        225) /* ItemDifficulty */
      , (12154, 114,          1) /* Attuned - Attuned */
      , (12154, 115,        300) /* ItemSkillLevelLimit */
-     , (12154, 151,          2) /* HookType - Wall */
-     , (12154, 176,         48) /* AppraisalItemSkill */;
+     , (12154, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12154,  22, True ) /* Inscribable */
@@ -53,6 +52,7 @@ VALUES (12154,   1,   33557348) /* Setup */
      , (12154,   6,   67111919) /* PaletteBase */
      , (12154,   8,  100672135) /* Icon */
      , (12154,  22,  872415275) /* PhysicsEffectTable */
+     , (12154,  37,         48) /* ItemSkillLimit - Shield */
      , (12154, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (12154, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12154, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
@@ -67,14 +67,14 @@ VALUES (12154, 8000, 3560576355) /* PCAPRecordedObjectIID */
      , (12154, 8008, 1343489058) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12154,  2053,      2) 
-     , (12154,  2059,      2) 
-     , (12154,  2087,      2) 
-     , (12154,  2108,      2) 
-     , (12154,  2592,      2) 
-     , (12154,  5849,      2) 
-     , (12154,  5873,      2) 
-     , (12154,  5892,      2) ;
+VALUES (12154,  2053,      2)  /* ArmorSelf7 */
+     , (12154,  2059,      2)  /* CoordinationSelf7 */
+     , (12154,  2087,      2)  /* StrengthSelf7 */
+     , (12154,  2108,      2)  /* Impenetrability7 */
+     , (12154,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (12154,  5849,      2)  /* ShieldMasteryOther7 */
+     , (12154,  5873,      2)  /* SneakAttackMasteryOther7 */
+     , (12154,  5892,      2)  /* CantripSneakAttackProwess2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12154, 67112572, 0, 0);

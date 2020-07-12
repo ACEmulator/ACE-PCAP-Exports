@@ -29,7 +29,6 @@ VALUES (31822,   1,      32768) /* ItemType - Caster */
      , (31822, 160,        385) /* WieldDifficulty */
      , (31822, 166,         14) /* SlayerCreatureType - Undead */
      , (31822, 171,         10) /* NumTimesTinkered */
-     , (31822, 172,          5) /* AppraisalLongDescDecoration */
      , (31822, 177,          2) /* GemCount */
      , (31822, 178,         38) /* GemType */
      , (31822, 179,          1) /* ImbuedEffect - CriticalStrike */
@@ -90,10 +89,9 @@ VALUES (31822, 8000, 3563025416) /* PCAPRecordedObjectIID */
      , (31822, 8008, 1343395204) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31822,  4418,      2) 
-     , (31822,  4439,      2) 
-     , (31822,  4638,      2) 
-     , (31822,  6098,      2) ;
+VALUES (31822,  4418,      2)  /* HermeticLinkSelf8 */
+     , (31822,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (31822,  6098,      2)  /* CantripSpiritThirst4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31822, 67111919, 0, 0);

@@ -16,10 +16,14 @@ VALUES (47907,   1,          1) /* ItemType - MeleeWeapon */
      , (47907, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47907,  22, True ) /* Inscribable */;
+VALUES (47907,  22, True ) /* Inscribable */
+     , (47907,  69, False) /* IsSellable */
+     , (47907,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47907,   1, 'Nekode') /* Name */;
+VALUES (47907,   1, 'Nekode') /* Name */
+     , (47907,  14, 'Use this gem to summon the weapon it is bound to.') /* Use */
+     , (47907,  16, 'A gem, seemingly made of congealed portal energy.  You know that using this gem will summon forth the weapon known as the Chimeric Bow of the Quiddity.  Once summoned, the weapon will only remain in the world for 3 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem. 3 - You must be at least level 120 to wield the weapon summoned by this gem)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47907,   1,   33555996) /* Setup */

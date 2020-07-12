@@ -18,7 +18,6 @@ VALUES (37213,   1,          2) /* ItemType - Armor */
      , (37213, 158,          2) /* WieldRequirements - RawSkill */
      , (37213, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37213, 160,        350) /* WieldDifficulty */
-     , (37213, 172,          5) /* AppraisalLongDescDecoration */
      , (37213, 177,          2) /* GemCount */
      , (37213, 178,         47) /* GemType */
      , (37213, 265,         27) /* EquipmentSetId - Acidproof */

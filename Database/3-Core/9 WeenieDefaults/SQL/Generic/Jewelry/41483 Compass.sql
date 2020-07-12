@@ -22,7 +22,6 @@ VALUES (41483,   1,          8) /* ItemType - Jewelry */
      , (41483, 158,          7) /* WieldRequirements - Level */
      , (41483, 159,          1) /* WieldSkillType - Axe */
      , (41483, 160,        180) /* WieldDifficulty */
-     , (41483, 172,          5) /* AppraisalLongDescDecoration */
      , (41483, 177,          4) /* GemCount */
      , (41483, 178,         22) /* GemType */
      , (41483, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -53,10 +52,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41483, 8000, 3489637766) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41483,  4299,      2) 
-     , (41483,  4697,      2) 
-     , (41483,  5895,      2) 
-     , (41483,  6051,      2) ;
+VALUES (41483,  4299,      2)  /* EnduranceSelf8 */
+     , (41483,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
+     , (41483,  5895,      2)  /* CantripRecklessnessProwess3 */
+     , (41483,  6051,      2)  /* CantripFealty4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41483, 67111918, 0, 0);

@@ -23,7 +23,6 @@ VALUES (4197,   1,          1) /* ItemType - MeleeWeapon */
      , (4197, 158,          2) /* WieldRequirements - RawSkill */
      , (4197, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (4197, 160,        300) /* WieldDifficulty */
-     , (4197, 172,          1) /* AppraisalLongDescDecoration */
      , (4197, 353,          1) /* WeaponType - Unarmed */
      , (4197, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (4197, 8041,        101) /* PCAPRecordedPlacement - Resting */;

@@ -24,7 +24,6 @@ VALUES (44801,   1,          2) /* ItemType - Armor */
      , (44801, 158,          7) /* WieldRequirements - Level */
      , (44801, 159,          1) /* WieldSkillType - Axe */
      , (44801, 160,        150) /* WieldDifficulty */
-     , (44801, 172,          5) /* AppraisalLongDescDecoration */
      , (44801, 177,          4) /* GemCount */
      , (44801, 178,         26) /* GemType */
      , (44801, 265,         15) /* EquipmentSetId - Archers */
@@ -64,10 +63,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44801, 8000, 2174542952) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44801,  1552,      2) 
-     , (44801,  2187,      2) 
-     , (44801,  4227,      2) 
-     , (44801,  4407,      2) ;
+VALUES (44801,  1552,      2)  /* FlameBane6 */
+     , (44801,  2187,      2)  /* RejuvenationSelf7 */
+     , (44801,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (44801,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44801, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */;

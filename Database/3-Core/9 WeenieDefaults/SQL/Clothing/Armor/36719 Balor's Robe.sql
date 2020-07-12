@@ -53,9 +53,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36719, 8000, 2461713234) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36719,  2155,      2) 
-     , (36719,  2619,      2) 
-     , (36719,  4018,      2) ;
+VALUES (36719,  2155,      2)  /* ColdProtectionSelf7 */
+     , (36719,  2619,      2)  /* CANTRIPFROSTWARD1 */
+     , (36719,  4018,      2)  /* Permafrost */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36719, 67113088, 40, 40)

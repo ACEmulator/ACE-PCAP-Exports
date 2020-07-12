@@ -29,8 +29,6 @@ VALUES (31799,   1,        256) /* ItemType - MissileWeapon */
      , (31799, 158,          2) /* WieldRequirements - RawSkill */
      , (31799, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31799, 160,        360) /* WieldDifficulty */
-     , (31799, 172,          1) /* AppraisalLongDescDecoration */
-     , (31799, 176,         47) /* AppraisalItemSkill */
      , (31799, 204,         15) /* ElementalDamageBonus */
      , (31799, 353,          8) /* WeaponType - Bow */
      , (31799, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
@@ -60,6 +58,7 @@ VALUES (31799,   1,   33559669) /* Setup */
      , (31799,   6,   67116700) /* PaletteBase */
      , (31799,   8,  100688049) /* Icon */
      , (31799,  22,  872415275) /* PhysicsEffectTable */
+     , (31799,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31799, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31799, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31799, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -68,10 +67,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31799, 8000, 3485232469) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31799,  4299,      2) 
-     , (31799,  4395,      2) 
-     , (31799,  4417,      2) 
-     , (31799,  6107,      2) ;
+VALUES (31799,  4299,      2)  /* EnduranceSelf8 */
+     , (31799,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (31799,  4417,      2)  /* SwiftKillerSelf8 */
+     , (31799,  6107,      2)  /* CantripStrength4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31799, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

@@ -14,7 +14,6 @@ VALUES (134,   1,          4) /* ItemType - Clothing */
      , (134,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (134, 105,          6) /* ItemWorkmanship */
      , (134, 131,          7) /* MaterialType - Velvet */
-     , (134, 172,          5) /* AppraisalLongDescDecoration */
      , (134, 177,          1) /* GemCount */
      , (134, 178,         24) /* GemType */
      , (134, 8041,        101) /* PCAPRecordedPlacement - Resting */;

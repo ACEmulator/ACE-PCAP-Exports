@@ -21,8 +21,7 @@ VALUES (44,   1,          2) /* ItemType - Armor */
      , (44, 110,          0) /* ItemAllegianceRankLimit */
      , (44, 115,          0) /* ItemSkillLevelLimit */
      , (44, 131,         64) /* MaterialType - Steel */
-     , (44, 151,          2) /* HookType - Wall */
-     , (44, 172,          1) /* AppraisalLongDescDecoration */;
+     , (44, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44,  22, True ) /* Inscribable */;
@@ -63,9 +62,9 @@ VALUES (44, 8000, 3685033275) /* PCAPRecordedObjectIID */
      , (44, 8008, 3685094125) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44,  1485,      2) 
-     , (44,  1552,      2) 
-     , (44,  1573,      2) ;
+VALUES (44,  1485,      2)  /* Impenetrability5 */
+     , (44,  1552,      2)  /* FlameBane6 */
+     , (44,  1573,      2)  /* PiercingBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44, 67111922, 0, 0);

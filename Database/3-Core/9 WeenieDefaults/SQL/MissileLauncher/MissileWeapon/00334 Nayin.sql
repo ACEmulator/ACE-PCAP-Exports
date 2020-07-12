@@ -26,8 +26,6 @@ VALUES (334,   1,        256) /* ItemType - MissileWeapon */
      , (334, 115,        206) /* ItemSkillLevelLimit */
      , (334, 131,         75) /* MaterialType - Oak */
      , (334, 151,          2) /* HookType - Wall */
-     , (334, 172,          1) /* AppraisalLongDescDecoration */
-     , (334, 176,         47) /* AppraisalItemSkill */
      , (334, 353,          8) /* WeaponType - Bow */
      , (334, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (334, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
@@ -55,6 +53,7 @@ VALUES (334,   1,   33554728) /* Setup */
      , (334,   6,   67111919) /* PaletteBase */
      , (334,   8,  100668816) /* Icon */
      , (334,  22,  872415275) /* PhysicsEffectTable */
+     , (334,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (334, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (334, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (334, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -69,7 +68,7 @@ VALUES (334, 8000, 3685860790) /* PCAPRecordedObjectIID */
      , (334, 8008, 3685860786) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (334,  1615,      2) ;
+VALUES (334,  1615,      2)  /* BloodDrinkerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (334, 67111920, 0, 0);

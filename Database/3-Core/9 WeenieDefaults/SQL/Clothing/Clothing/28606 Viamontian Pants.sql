@@ -15,7 +15,6 @@ VALUES (28606,   1,          4) /* ItemType - Clothing */
      , (28606,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28606, 105,          7) /* ItemWorkmanship */
      , (28606, 131,          7) /* MaterialType - Velvet */
-     , (28606, 172,          5) /* AppraisalLongDescDecoration */
      , (28606, 177,          1) /* GemCount */
      , (28606, 178,         13) /* GemType */
      , (28606, 8041,        101) /* PCAPRecordedPlacement - Resting */;

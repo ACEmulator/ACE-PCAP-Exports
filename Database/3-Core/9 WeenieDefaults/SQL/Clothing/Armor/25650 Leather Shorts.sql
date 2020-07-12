@@ -21,7 +21,6 @@ VALUES (25650,   1,          2) /* ItemType - Armor */
      , (25650, 110,          0) /* ItemAllegianceRankLimit */
      , (25650, 115,          0) /* ItemSkillLevelLimit */
      , (25650, 131,         52) /* MaterialType - Leather */
-     , (25650, 172,          1) /* AppraisalLongDescDecoration */
      , (25650, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,8 +57,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25650, 8000, 3152728069) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25650,  1486,      2) 
-     , (25650,  1528,      2) ;
+VALUES (25650,  1486,      2)  /* Impenetrability6 */
+     , (25650,  1528,      2)  /* FrostBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25650, 67114611, 72, 24)

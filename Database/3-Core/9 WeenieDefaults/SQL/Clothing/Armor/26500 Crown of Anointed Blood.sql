@@ -54,8 +54,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26500, 8000, 2979050354) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26500,  3034,      2) 
-     , (26500,  3035,      2) ;
+VALUES (26500,  3034,      2)  /* BenedictionImmortality */
+     , (26500,  3035,      2)  /* ClosingGreatDivide */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26500, 67114950, 240, 16);

@@ -21,7 +21,6 @@ VALUES (2590,   1,          4) /* ItemType - Clothing */
      , (2590, 110,          0) /* ItemAllegianceRankLimit */
      , (2590, 115,          0) /* ItemSkillLevelLimit */
      , (2590, 131,          7) /* MaterialType - Velvet */
-     , (2590, 172,          5) /* AppraisalLongDescDecoration */
      , (2590, 177,          2) /* GemCount */
      , (2590, 178,         33) /* GemType */
      , (2590, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,8 +59,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2590, 8000, 3699152241) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2590,  1035,      2) 
-     , (2590,  2621,      2) ;
+VALUES (2590,  1035,      2)  /* ColdProtectionSelf6 */
+     , (2590,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2590, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

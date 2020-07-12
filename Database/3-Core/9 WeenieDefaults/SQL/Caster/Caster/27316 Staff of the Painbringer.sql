@@ -59,7 +59,7 @@ VALUES (27316, 8000, 2149502200) /* PCAPRecordedObjectIID */
      , (27316, 8008, 1343105422) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27316,  2052,      2) ;
+VALUES (27316,  2052,      2)  /* ArmorOther7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27316, 67113009, 0, 0);

@@ -18,7 +18,6 @@ VALUES (10971,   1,          8) /* ItemType - Jewelry */
      , (10971, 109,          0) /* ItemDifficulty */
      , (10971, 110,          1) /* ItemAllegianceRankLimit */
      , (10971, 115,         87) /* ItemSkillLevelLimit */
-     , (10971, 176,         36) /* AppraisalItemSkill */
      , (10971, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,6 +36,7 @@ VALUES (10971,   1,   33554810) /* Setup */
      , (10971,   3,  536870932) /* SoundTable */
      , (10971,   8,  100671855) /* Icon */
      , (10971,  22,  872415275) /* PhysicsEffectTable */
+     , (10971,  37,         36) /* ItemSkillLimit - Loyalty */
      , (10971, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (10971, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10971, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -45,5 +45,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10971, 8000, 2401416481) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10971,   957,      2) 
-     , (10971,  1337,      2) ;
+VALUES (10971,   957,      2)  /* FealtyOther6 */
+     , (10971,  1337,      2)  /* StrengthOther6 */;

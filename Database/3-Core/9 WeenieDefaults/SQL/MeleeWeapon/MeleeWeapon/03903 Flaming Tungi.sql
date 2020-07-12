@@ -31,8 +31,6 @@ VALUES (3903,   1,          1) /* ItemType - MeleeWeapon */
      , (3903, 160,        430) /* WieldDifficulty */
      , (3903, 166,         14) /* SlayerCreatureType - Undead */
      , (3903, 171,         10) /* NumTimesTinkered */
-     , (3903, 172,          5) /* AppraisalLongDescDecoration */
-     , (3903, 176,         46) /* AppraisalItemSkill */
      , (3903, 177,          2) /* GemCount */
      , (3903, 178,         26) /* GemType */
      , (3903, 179,        512) /* ImbuedEffect - FireRending */
@@ -67,6 +65,7 @@ VALUES (3903,   1,   33555811) /* Setup */
      , (3903,   3,  536870932) /* SoundTable */
      , (3903,   8,  100669062) /* Icon */
      , (3903,  22,  872415275) /* PhysicsEffectTable */
+     , (3903,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3903,  50,  100689143) /* IconOverlay */
      , (3903,  52,  100676441) /* IconUnderlay */
      , (3903, 8001, 3508617880) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, IconOverlay, MaterialType */
@@ -78,7 +77,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3903, 8000, 2651194298) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3903,  4395,      2) 
-     , (3903,  4405,      2) 
-     , (3903,  4911,      2) 
-     , (3903,  6089,      2) ;
+VALUES (3903,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (3903,  4405,      2)  /* HeartSeekerSelf8 */
+     , (3903,  4911,      2)  /* CANTRIPARMOR3 */
+     , (3903,  6089,      2)  /* CantripBloodThirst4 */;

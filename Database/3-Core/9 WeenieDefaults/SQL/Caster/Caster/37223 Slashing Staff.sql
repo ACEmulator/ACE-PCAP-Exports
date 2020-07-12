@@ -29,7 +29,6 @@ VALUES (37223,   1,      32768) /* ItemType - Caster */
      , (37223, 160,        385) /* WieldDifficulty */
      , (37223, 166,         89) /* SlayerCreatureType - Mukkir */
      , (37223, 171,         10) /* NumTimesTinkered */
-     , (37223, 172,          5) /* AppraisalLongDescDecoration */
      , (37223, 177,          4) /* GemCount */
      , (37223, 178,         39) /* GemType */
      , (37223, 179,          1) /* ImbuedEffect - CriticalStrike */
@@ -88,12 +87,12 @@ VALUES (37223, 8000, 2523833491) /* PCAPRecordedObjectIID */
      , (37223, 8008, 1343461065) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37223,  2117,      2) 
-     , (37223,  3258,      2) 
-     , (37223,  4400,      2) 
-     , (37223,  4433,      2) 
-     , (37223,  4638,      2) 
-     , (37223,  6098,      2) ;
+VALUES (37223,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37223,  3258,      2)  /* SpiritDrinkerSelf6 */
+     , (37223,  4400,      2)  /* DefenderSelf8 */
+     , (37223,  4433,      2)  /* AcidStream8 */
+     , (37223,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (37223,  6098,      2)  /* CantripSpiritThirst4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37223, 67111920, 0, 0);

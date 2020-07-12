@@ -69,5 +69,5 @@ VALUES (51899, 8000, 3377264966) /* PCAPRecordedObjectIID */
      , (51899, 8008, 1343121516) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51899,  6075,      2) 
-     , (51899,  6101,      2) ;
+VALUES (51899,  6075,      2)  /* CantripWarMagicAptitude4 */
+     , (51899,  6101,      2)  /* CantripWillpower4 */;

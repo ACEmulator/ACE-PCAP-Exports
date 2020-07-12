@@ -24,7 +24,6 @@ VALUES (38463,   1,          2) /* ItemType - Armor */
      , (38463, 158,          9) /* WieldRequirements - IntStat */
      , (38463, 159,        287) /* WieldSkillType */
      , (38463, 160,        601) /* WieldDifficulty */
-     , (38463, 172,          5) /* AppraisalLongDescDecoration */
      , (38463, 177,          4) /* GemCount */
      , (38463, 178,         21) /* GemType */
      , (38463, 265,         30) /* EquipmentSetId - SocietyArmor */
@@ -63,10 +62,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38463, 8000, 3082503137) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38463,  2092,      2) 
-     , (38463,  2233,      2) 
-     , (38463,  3963,      2) 
-     , (38463,  4407,      2) ;
+VALUES (38463,  2092,      2)  /* AcidBane7 */
+     , (38463,  2233,      2)  /* FealtySelf7 */
+     , (38463,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (38463,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38463, 0, 16794120);

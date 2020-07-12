@@ -25,7 +25,6 @@ VALUES (40695,   1,          2) /* ItemType - Armor */
      , (40695, 158,          2) /* WieldRequirements - RawSkill */
      , (40695, 159,          7) /* WieldSkillType - MissileDefense */
      , (40695, 160,        160) /* WieldDifficulty */
-     , (40695, 172,          1) /* AppraisalLongDescDecoration */
      , (40695, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -62,8 +61,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40695, 8000, 3701087683) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40695,  1485,      2) 
-     , (40695,  1562,      2) ;
+VALUES (40695,  1485,      2)  /* Impenetrability5 */
+     , (40695,  1562,      2)  /* BladeBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40695, 67113948, 160, 8);

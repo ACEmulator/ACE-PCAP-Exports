@@ -17,7 +17,6 @@ VALUES (41445,   1,       2048) /* ItemType - Gem */
      , (41445,  94,         16) /* TargetType - Creature */
      , (41445, 115,        125) /* ItemSkillLevelLimit */
      , (41445, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (41445, 176,         36) /* AppraisalItemSkill */
      , (41445, 280,          8) /* SharedCooldown */
      , (41445, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -38,6 +37,7 @@ VALUES (41445,   1,   33554802) /* Setup */
      , (41445,   8,  100690740) /* Icon */
      , (41445,  22,  872415275) /* PhysicsEffectTable */
      , (41445,  28,       5125) /* Spell - AnswerOfLoyaltyMana3 */
+     , (41445,  37,         36) /* ItemSkillLimit - Loyalty */
      , (41445, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (41445, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (41445, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -45,6 +45,3 @@ VALUES (41445,   1,   33554802) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41445, 8000, 3679319817) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41445,  5125,      2) ;

@@ -32,7 +32,8 @@ VALUES (541,   1,   33557067) /* Setup */
      , (541,  30,         88) /* PhysicsScript - Create */
      , (541, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (541, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (541, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
+     , (541, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */
+     , (541, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (541, 8000,        541) /* PCAPRecordedObjectIID */;

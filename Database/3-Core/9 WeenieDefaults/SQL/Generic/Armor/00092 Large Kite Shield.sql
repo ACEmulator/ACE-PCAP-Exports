@@ -22,7 +22,6 @@ VALUES (92,   1,          2) /* ItemType - Armor */
      , (92, 115,          0) /* ItemSkillLevelLimit */
      , (92, 131,         63) /* MaterialType - Silver */
      , (92, 151,          2) /* HookType - Wall */
-     , (92, 172,          5) /* AppraisalLongDescDecoration */
      , (92, 177,          4) /* GemCount */
      , (92, 178,         38) /* GemType */;
 
@@ -64,10 +63,10 @@ VALUES (92, 8000, 3691225939) /* PCAPRecordedObjectIID */
      , (92, 8008, 3691225931) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (92,  1486,      2) 
-     , (92,  2092,      2) 
-     , (92,  2549,      2) 
-     , (92,  2578,      2) ;
+VALUES (92,  1486,      2)  /* Impenetrability6 */
+     , (92,  2092,      2)  /* AcidBane7 */
+     , (92,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */
+     , (92,  2578,      2)  /* CANTRIPARMOR1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (92, 67111920, 0, 0);

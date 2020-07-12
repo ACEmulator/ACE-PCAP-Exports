@@ -31,8 +31,6 @@ VALUES (30578,   1,          1) /* ItemType - MeleeWeapon */
      , (30578, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30578, 160,        430) /* WieldDifficulty */
      , (30578, 171,          9) /* NumTimesTinkered */
-     , (30578, 172,          5) /* AppraisalLongDescDecoration */
-     , (30578, 176,         44) /* AppraisalItemSkill */
      , (30578, 177,          6) /* GemCount */
      , (30578, 178,         13) /* GemType */
      , (30578, 179,        128) /* ImbuedEffect - ColdRending */
@@ -67,6 +65,7 @@ VALUES (30578,   1,   33559466) /* Setup */
      , (30578,   6,   67115557) /* PaletteBase */
      , (30578,   8,  100686955) /* Icon */
      , (30578,  22,  872415275) /* PhysicsEffectTable */
+     , (30578,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30578,  52,  100676440) /* IconUnderlay */
      , (30578, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (30578, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -83,9 +82,9 @@ VALUES (30578, 8000, 3150156803) /* PCAPRecordedObjectIID */
      , (30578, 8008, 1343301116) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30578,  2059,      2) 
-     , (30578,  2096,      2) 
-     , (30578,  6049,      2) ;
+VALUES (30578,  2059,      2)  /* CoordinationSelf7 */
+     , (30578,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (30578,  6049,      2)  /* CantripDirtyFightingProwess4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30578, 67116388, 0, 0);

@@ -18,7 +18,6 @@ VALUES (9085,   1,          2) /* ItemType - Armor */
      , (9085, 108,       2000) /* ItemMaxMana */
      , (9085, 109,         50) /* ItemDifficulty */
      , (9085, 115,        270) /* ItemSkillLevelLimit */
-     , (9085, 176,         34) /* AppraisalItemSkill */
      , (9085, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,6 +47,7 @@ VALUES (9085,   1,   33554647) /* Setup */
      , (9085,   6,   67108990) /* PaletteBase */
      , (9085,   8,  100671351) /* Icon */
      , (9085,  22,  872415275) /* PhysicsEffectTable */
+     , (9085,  37,         34) /* ItemSkillLimit - WarMagic */
      , (9085, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (9085, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9085, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -56,16 +56,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9085, 8000, 2164419671) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9085,   273,      2) 
-     , (9085,  2349,      2) 
-     , (9085,  2350,      2) 
-     , (9085,  2351,      2) 
-     , (9085,  2352,      2) 
-     , (9085,  2353,      2) 
-     , (9085,  2354,      2) 
-     , (9085,  2355,      2) 
-     , (9085,  2356,      2) 
-     , (9085,  2381,      2) ;
+VALUES (9085,   273,      2)  /* MagicResistanceOther6 */
+     , (9085,  2349,      2)  /* HieroWard */
+     , (9085,  2350,      2)  /* DecayDurance */
+     , (9085,  2351,      2)  /* ConsumptionDurance */
+     , (9085,  2352,      2)  /* StasisDurance */
+     , (9085,  2353,      2)  /* StimulationDurance */
+     , (9085,  2354,      2)  /* PiercingDuranceLess */
+     , (9085,  2355,      2)  /* SlashingDuranceLess */
+     , (9085,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9085,  2381,      2)  /* InstrumentalityTouch */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9085, 67113132, 72, 8)

@@ -30,7 +30,8 @@ VALUES (35714,   1,   33556223) /* Setup */
      , (35714,  22,  872415275) /* PhysicsEffectTable */
      , (35714, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (35714, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (35714, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+     , (35714, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
+     , (35714, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35714, 8000,      35714) /* PCAPRecordedObjectIID */;

@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46938, 8000, 2147969563) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46938,  4509,      2) 
-     , (46938,  4684,      2) ;
+VALUES (46938,  4509,      2)  /* ArcaneEnlightenmentOther8 */
+     , (46938,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46938, 67111927, 0, 0);

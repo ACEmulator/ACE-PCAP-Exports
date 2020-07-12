@@ -66,8 +66,8 @@ VALUES (40394, 8000, 3658802716) /* PCAPRecordedObjectIID */
      , (40394, 8008, 1343488604) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40394,  2440,      2) 
-     , (40394,  2443,      2) ;
+VALUES (40394,  2440,      2)  /* StoneCliffsGreater */
+     , (40394,  2443,      2)  /* StrengthofEarthGreater */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (40394, 0, 83893725, 83893725)

@@ -25,7 +25,6 @@ VALUES (40687,   1,          2) /* ItemType - Armor */
      , (40687, 158,          2) /* WieldRequirements - RawSkill */
      , (40687, 159,          6) /* WieldSkillType - MeleeDefense */
      , (40687, 160,        350) /* WieldDifficulty */
-     , (40687, 172,          1) /* AppraisalLongDescDecoration */
      , (40687, 270,          7) /* WieldRequirements2 - Level */
      , (40687, 271,          1) /* WieldSkillType2 - Axe */
      , (40687, 272,        150) /* WieldDifficulty2 */
@@ -66,11 +65,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40687, 8000, 2174543118) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40687,  1354,      2) 
-     , (40687,  2092,      2) 
-     , (40687,  2094,      2) 
-     , (40687,  2108,      2) 
-     , (40687,  2505,      2) ;
+VALUES (40687,  1354,      2)  /* EnduranceSelf6 */
+     , (40687,  2092,      2)  /* AcidBane7 */
+     , (40687,  2094,      2)  /* BladeBane7 */
+     , (40687,  2108,      2)  /* Impenetrability7 */
+     , (40687,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40687, 67116552, 152, 4)

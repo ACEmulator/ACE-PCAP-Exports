@@ -18,7 +18,6 @@ VALUES (24056,   1,      32768) /* ItemType - Caster */
      , (24056, 108,       1800) /* ItemMaxMana */
      , (24056, 115,        250) /* ItemSkillLevelLimit */
      , (24056, 151,          2) /* HookType - Wall */
-     , (24056, 176,         16) /* AppraisalItemSkill */
      , (24056, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,6 +40,7 @@ VALUES (24056,   1,   33556933) /* Setup */
      , (24056,   6,   67111928) /* PaletteBase */
      , (24056,   8,  100671239) /* Icon */
      , (24056,  22,  872415275) /* PhysicsEffectTable */
+     , (24056,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (24056, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (24056, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24056, 8005,     432289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame, Translucency */
@@ -55,12 +55,12 @@ VALUES (24056, 8000, 3578776740) /* PCAPRecordedObjectIID */
      , (24056, 8008, 1343054913) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24056,   170,      2) 
-     , (24056,   193,      2) 
-     , (24056,   217,      2) 
-     , (24056,  2004,      2) 
-     , (24056,  2008,      2) 
-     , (24056,  2012,      2) ;
+VALUES (24056,   170,      2)  /* RegenerationSelf6 */
+     , (24056,   193,      2)  /* RejuvenationSelf6 */
+     , (24056,   217,      2)  /* ManaRenewalSelf6 */
+     , (24056,  2004,      2)  /* WarriorsVitality */
+     , (24056,  2008,      2)  /* WarriorsVigor */
+     , (24056,  2012,      2)  /* WizardsIntellect */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24056, 67111927, 0, 0);

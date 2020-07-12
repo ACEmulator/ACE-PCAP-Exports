@@ -66,8 +66,8 @@ VALUES (7770, 8000, 3691178464) /* PCAPRecordedObjectIID */
      , (7770, 8008, 1343493607) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7770,   319,      2) 
-     , (7770,  1614,      2) ;
+VALUES (7770,   319,      2)  /* DaggerMasteryOther4 */
+     , (7770,  1614,      2)  /* BloodDrinkerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7770, 67111919, 0, 0);

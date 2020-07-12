@@ -25,7 +25,6 @@ VALUES (21155,   1,          2) /* ItemType - Armor */
      , (21155, 158,          2) /* WieldRequirements - RawSkill */
      , (21155, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21155, 160,        200) /* WieldDifficulty */
-     , (21155, 172,          1) /* AppraisalLongDescDecoration */
      , (21155, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -63,11 +62,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21155, 8000, 3694326438) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21155,  2092,      2) 
-     , (21155,  2094,      2) 
-     , (21155,  2108,      2) 
-     , (21155,  2113,      2) 
-     , (21155,  2538,      2) ;
+VALUES (21155,  2092,      2)  /* AcidBane7 */
+     , (21155,  2094,      2)  /* BladeBane7 */
+     , (21155,  2108,      2)  /* Impenetrability7 */
+     , (21155,  2113,      2)  /* PiercingBane7 */
+     , (21155,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21155, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

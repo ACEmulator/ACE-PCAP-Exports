@@ -58,13 +58,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33587, 8000, 3706221456) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33587,  2108,      2) 
-     , (33587,  2214,      2) 
-     , (33587,  2248,      2) 
-     , (33587,  2266,      2) 
-     , (33587,  2322,      2) 
-     , (33587,  3576,      2) 
-     , (33587,  5409,      2) ;
+VALUES (33587,  2108,      2)  /* Impenetrability7 */
+     , (33587,  2214,      2)  /* CreatureEnchantmentMasteryOther7 */
+     , (33587,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
+     , (33587,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (33587,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (33587,  3576,      2)  /* PerfectHealth */
+     , (33587,  5409,      2)  /* VoidMagicMasteryOther7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33587, 0, 83887064, 83897530)

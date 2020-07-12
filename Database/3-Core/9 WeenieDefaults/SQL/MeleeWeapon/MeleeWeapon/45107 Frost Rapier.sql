@@ -29,8 +29,6 @@ VALUES (45107,   1,          1) /* ItemType - MeleeWeapon */
      , (45107, 158,          2) /* WieldRequirements - RawSkill */
      , (45107, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45107, 160,        400) /* WieldDifficulty */
-     , (45107, 172,          5) /* AppraisalLongDescDecoration */
-     , (45107, 176,         46) /* AppraisalItemSkill */
      , (45107, 177,          5) /* GemCount */
      , (45107, 178,         39) /* GemType */
      , (45107, 353,          2) /* WeaponType - Sword */
@@ -61,6 +59,7 @@ VALUES (45107,   1,   33561419) /* Setup */
      , (45107,   6,   67111919) /* PaletteBase */
      , (45107,   8,  100670661) /* Icon */
      , (45107,  22,  872415275) /* PhysicsEffectTable */
+     , (45107,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45107, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45107, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45107, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -69,10 +68,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45107, 8000, 3446861388) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45107,  2096,      2) 
-     , (45107,  2116,      2) 
-     , (45107,  2524,      2) 
-     , (45107,  2600,      2) ;
+VALUES (45107,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45107,  2116,      2)  /* SwiftKillerSelf7 */
+     , (45107,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
+     , (45107,  2600,      2)  /* CANTRIPDEFENDER1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45107, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

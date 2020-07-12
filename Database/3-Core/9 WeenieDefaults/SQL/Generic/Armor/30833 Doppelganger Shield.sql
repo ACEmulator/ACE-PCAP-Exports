@@ -67,10 +67,10 @@ VALUES (30833, 8000, 3596513267) /* PCAPRecordedObjectIID */
      , (30833, 8008, 1343462661) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30833,  1023,      2) 
-     , (30833,  1114,      2) 
-     , (30833,  1138,      2) 
-     , (30833,  3801,      2) ;
+VALUES (30833,  1023,      2)  /* BludgeonProtectionSelf6 */
+     , (30833,  1114,      2)  /* BladeProtectionSelf6 */
+     , (30833,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (30833,  3801,      2)  /* CantripShadowTouch */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30833, 0, 83895780, 83895780)

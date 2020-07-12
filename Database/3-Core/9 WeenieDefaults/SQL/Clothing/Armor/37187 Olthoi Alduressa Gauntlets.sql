@@ -24,8 +24,6 @@ VALUES (37187,   1,          2) /* ItemType - Armor */
      , (37187, 158,          7) /* WieldRequirements - Level */
      , (37187, 159,          1) /* WieldSkillType - Axe */
      , (37187, 160,        180) /* WieldDifficulty */
-     , (37187, 172,          5) /* AppraisalLongDescDecoration */
-     , (37187, 176,          6) /* AppraisalItemSkill */
      , (37187, 177,          2) /* GemCount */
      , (37187, 178,         16) /* GemType */
      , (37187, 374,          1) /* GearCritDamage */;
@@ -56,6 +54,7 @@ VALUES (37187,   1,   33559505) /* Setup */
      , (37187,   6,   67108990) /* PaletteBase */
      , (37187,   8,  100687134) /* Icon */
      , (37187,  22,  872415275) /* PhysicsEffectTable */
+     , (37187,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37187,  50,  100690144) /* IconOverlay */
      , (37187, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (37187, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -65,9 +64,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37187, 8000, 2461841190) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37187,  2108,      2) 
-     , (37187,  2241,      2) 
-     , (37187,  6072,      2) ;
+VALUES (37187,  2108,      2)  /* Impenetrability7 */
+     , (37187,  2241,      2)  /* HealingMasterySelf7 */
+     , (37187,  6072,      2)  /* CantripSwordAptitude4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37187, 67116604, 168, 3)

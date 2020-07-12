@@ -55,9 +55,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47199, 8000, 2174535644) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47199,  3965,      2) 
-     , (47199,  4640,      2) 
-     , (47199,  4912,      2) ;
+VALUES (47199,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (47199,  4640,      2)  /* WeaponExpertiseSelf8 */
+     , (47199,  4912,      2)  /* CANTRIPWEAPONEXPERTISE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47199, 67114607, 168, 6);

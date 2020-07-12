@@ -26,7 +26,8 @@ VALUES (43633,   1,   33556220) /* Setup */
      , (43633,  22,  872415275) /* PhysicsEffectTable */
      , (43633, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (43633, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (43633, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+     , (43633, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
+     , (43633, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43633, 8000,      43633) /* PCAPRecordedObjectIID */;

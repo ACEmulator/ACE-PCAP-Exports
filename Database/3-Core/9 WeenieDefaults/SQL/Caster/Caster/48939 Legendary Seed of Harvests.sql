@@ -56,11 +56,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48939, 8000, 2153283027) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48939,  2128,      2) 
-     , (48939,  4414,      2) 
-     , (48939,  4638,      2) 
-     , (48939,  4670,      2) 
-     , (48939,  6075,      2) ;
+VALUES (48939,  4414,      2)  /* SpiritDrinkerSelf8 */
+     , (48939,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (48939,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
+     , (48939,  6075,      2)  /* CantripWarMagicAptitude4 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (48939, 0, 83899123, 83899125)

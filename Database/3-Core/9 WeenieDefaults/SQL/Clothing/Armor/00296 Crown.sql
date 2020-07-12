@@ -22,7 +22,6 @@ VALUES (296,   1,          2) /* ItemType - Armor */
      , (296, 115,          0) /* ItemSkillLevelLimit */
      , (296, 131,         59) /* MaterialType - Copper */
      , (296, 151,          2) /* HookType - Wall */
-     , (296, 172,          5) /* AppraisalLongDescDecoration */
      , (296, 177,          3) /* GemCount */
      , (296, 178,         45) /* GemType */
      , (296, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -61,9 +60,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (296, 8000, 3686123830) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (296,   658,      2) 
-     , (296,  1485,      2) 
-     , (296,  1561,      2) ;
+VALUES (296,   658,      2)  /* ManaMasterySelf6 */
+     , (296,  1485,      2)  /* Impenetrability5 */
+     , (296,  1561,      2)  /* BladeBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (296, 67110377, 250, 6)

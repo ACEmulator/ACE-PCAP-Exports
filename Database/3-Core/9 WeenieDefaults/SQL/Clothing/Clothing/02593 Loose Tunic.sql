@@ -14,7 +14,6 @@ VALUES (2593,   1,          4) /* ItemType - Clothing */
      , (2593,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2593, 105,          5) /* ItemWorkmanship */
      , (2593, 131,          7) /* MaterialType - Velvet */
-     , (2593, 172,          1) /* AppraisalLongDescDecoration */
      , (2593, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

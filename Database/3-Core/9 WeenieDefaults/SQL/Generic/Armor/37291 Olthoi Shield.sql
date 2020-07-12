@@ -27,7 +27,6 @@ VALUES (37291,   1,          2) /* ItemType - Armor */
      , (37291, 158,          2) /* WieldRequirements - RawSkill */
      , (37291, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37291, 160,        250) /* WieldDifficulty */
-     , (37291, 172,          5) /* AppraisalLongDescDecoration */
      , (37291, 177,          4) /* GemCount */
      , (37291, 178,         39) /* GemType */
      , (37291, 270,          7) /* WieldRequirements2 - Level */
@@ -74,10 +73,10 @@ VALUES (37291, 8000, 3670157224) /* PCAPRecordedObjectIID */
      , (37291, 8008, 1343477254) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37291,  1574,      2) 
-     , (37291,  2108,      2) 
-     , (37291,  2592,      2) 
-     , (37291,  4325,      2) ;
+VALUES (37291,  1574,      2)  /* PiercingBane6 */
+     , (37291,  2108,      2)  /* Impenetrability7 */
+     , (37291,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (37291,  4325,      2)  /* StrengthSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37291, 67111920, 0, 0);

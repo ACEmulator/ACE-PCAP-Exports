@@ -23,7 +23,6 @@ VALUES (22080,   1,      32768) /* ItemType - Caster */
      , (22080, 115,        270) /* ItemSkillLevelLimit */
      , (22080, 117,        150) /* ItemManaCost */
      , (22080, 151,          2) /* HookType - Wall */
-     , (22080, 176,         34) /* AppraisalItemSkill */
      , (22080, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -46,6 +45,7 @@ VALUES (22080,   1,   33557877) /* Setup */
      , (22080,   8,  100673510) /* Icon */
      , (22080,  22,  872415275) /* PhysicsEffectTable */
      , (22080,  28,       2814) /* Spell - ImpiousCurse */
+     , (22080,  37,         34) /* ItemSkillLimit - WarMagic */
      , (22080, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (22080, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22080, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -58,9 +58,6 @@ VALUES (22080, 8040, 3332964775, 72.47017, 23.78971, 41.929, 0.6793634, 0.679363
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22080, 8000, 2207593556) /* PCAPRecordedObjectIID */
      , (22080, 8008, 1343042936) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22080,  2814,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22080, 67111925, 0, 0);

@@ -60,11 +60,11 @@ VALUES (23615, 8000, 3675518361) /* PCAPRecordedObjectIID */
      , (23615, 8008, 1343489224) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23615,   249,      2) 
-     , (23615,  1023,      2) 
-     , (23615,  1114,      2) 
-     , (23615,  1138,      2) 
-     , (23615,  1485,      2) ;
+VALUES (23615,   249,      2)  /* InvulnerabilitySelf6 */
+     , (23615,  1023,      2)  /* BludgeonProtectionSelf6 */
+     , (23615,  1114,      2)  /* BladeProtectionSelf6 */
+     , (23615,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (23615,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (23615, 0, 83898704, 83898705);

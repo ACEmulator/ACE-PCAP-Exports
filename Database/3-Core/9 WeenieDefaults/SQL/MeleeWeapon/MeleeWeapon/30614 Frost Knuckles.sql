@@ -29,8 +29,6 @@ VALUES (30614,   1,          1) /* ItemType - MeleeWeapon */
      , (30614, 158,          2) /* WieldRequirements - RawSkill */
      , (30614, 159,         45) /* WieldSkillType - LightWeapons */
      , (30614, 160,        325) /* WieldDifficulty */
-     , (30614, 172,          5) /* AppraisalLongDescDecoration */
-     , (30614, 176,         45) /* AppraisalItemSkill */
      , (30614, 177,          2) /* GemCount */
      , (30614, 178,         31) /* GemType */
      , (30614, 353,          1) /* WeaponType - Unarmed */
@@ -61,6 +59,7 @@ VALUES (30614,   1,   33559500) /* Setup */
      , (30614,   6,   67115556) /* PaletteBase */
      , (30614,   8,  100687035) /* Icon */
      , (30614,  22,  872415275) /* PhysicsEffectTable */
+     , (30614,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30614, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30614, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30614, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -69,9 +68,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30614, 8000, 3692262253) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30614,  1604,      2) 
-     , (30614,  1615,      2) 
-     , (30614,  1626,      2) ;
+VALUES (30614,  1604,      2)  /* DefenderSelf5 */
+     , (30614,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (30614,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30614, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

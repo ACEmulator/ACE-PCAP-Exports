@@ -24,7 +24,6 @@ VALUES (2588,   1,          4) /* ItemType - Clothing */
      , (2588, 158,          7) /* WieldRequirements - Level */
      , (2588, 159,          1) /* WieldSkillType - Axe */
      , (2588, 160,        180) /* WieldDifficulty */
-     , (2588, 172,          5) /* AppraisalLongDescDecoration */
      , (2588, 177,          3) /* GemCount */
      , (2588, 178,         39) /* GemType */
      , (2588, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -63,8 +62,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2588, 8000, 3690476160) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2588,  2161,      2) 
-     , (2588,  6040,      2) ;
+VALUES (2588,  2161,      2)  /* PiercingProtectionSelf7 */
+     , (2588,  6040,      2)  /* CantripAlchemicalProwess4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2588, 67109969, 92, 4)

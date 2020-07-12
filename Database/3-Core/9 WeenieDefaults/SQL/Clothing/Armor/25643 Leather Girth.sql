@@ -15,7 +15,6 @@ VALUES (25643,   1,          2) /* ItemType - Armor */
      , (25643,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25643, 105,          8) /* ItemWorkmanship */
      , (25643, 131,         55) /* MaterialType - ReedSharkHide */
-     , (25643, 172,          1) /* AppraisalLongDescDecoration */
      , (25643, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

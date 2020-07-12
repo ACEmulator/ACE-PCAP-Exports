@@ -21,8 +21,7 @@ VALUES (8030,   1,          2) /* ItemType - Armor */
      , (8030, 109,          1) /* ItemDifficulty */
      , (8030, 114,          0) /* Attuned - Normal */
      , (8030, 115,        320) /* ItemSkillLevelLimit */
-     , (8030, 151,          2) /* HookType - Wall */
-     , (8030, 176,         48) /* AppraisalItemSkill */;
+     , (8030, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8030,  22, True ) /* Inscribable */
@@ -55,6 +54,7 @@ VALUES (8030,   1,   33554786) /* Setup */
      , (8030,   6,   67111919) /* PaletteBase */
      , (8030,   8,  100670978) /* Icon */
      , (8030,  22,  872415275) /* PhysicsEffectTable */
+     , (8030,  37,         48) /* ItemSkillLimit - Shield */
      , (8030, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (8030, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8030, 8005,     301217) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, Translucency */
@@ -69,9 +69,9 @@ VALUES (8030, 8000, 3692270502) /* PCAPRecordedObjectIID */
      , (8030, 8008, 3692270500) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8030,   248,      2) 
-     , (8030,  2005,      2) 
-     , (8030,  2009,      2) ;
+VALUES (8030,   248,      2)  /* InvulnerabilitySelf5 */
+     , (8030,  2005,      2)  /* WarriorsGreaterVitality */
+     , (8030,  2009,      2)  /* WarriorsGreaterVigor */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8030, 67111923, 0, 0);

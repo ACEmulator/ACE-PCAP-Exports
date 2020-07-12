@@ -20,7 +20,6 @@ VALUES (36174,   1,          2) /* ItemType - Armor */
      , (36174, 158,          7) /* WieldRequirements - Level */
      , (36174, 159,          1) /* WieldSkillType - Axe */
      , (36174, 160,        180) /* WieldDifficulty */
-     , (36174, 176,          6) /* AppraisalItemSkill */
      , (36174, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,6 +47,7 @@ VALUES (36174,   1,   33560370) /* Setup */
      , (36174,   3,  536870932) /* SoundTable */
      , (36174,   8,  100689608) /* Icon */
      , (36174,  22,  872415275) /* PhysicsEffectTable */
+     , (36174,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (36174, 8001,  270860296) /* PCAPRecordedWeenieHeader - Value, ValidLocations, Priority, Burden, HookType */
      , (36174, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36174, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
@@ -60,16 +60,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36174, 8000, 3700359270) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36174,  2108,      2) 
-     , (36174,  2281,      2) 
-     , (36174,  3978,      2) 
-     , (36174,  3979,      2) 
-     , (36174,  4170,      2) 
-     , (36174,  4171,      2) 
-     , (36174,  4172,      2) 
-     , (36174,  4173,      2) 
-     , (36174,  4174,      2) 
-     , (36174,  4175,      2) ;
+VALUES (36174,  2108,      2)  /* Impenetrability7 */
+     , (36174,  2281,      2)  /* MagicResistanceSelf7 */
+     , (36174,  3978,      2)  /* FocusOtherIncantation */
+     , (36174,  3979,      2)  /* StrengthOtherIncantation */
+     , (36174,  4170,      2)  /* HarbingerCantripCoordination3 */
+     , (36174,  4171,      2)  /* HarbingerCantripEndurance3 */
+     , (36174,  4172,      2)  /* HarbingerCantripFocus3 */
+     , (36174,  4173,      2)  /* HarbingerCantripQuickness3 */
+     , (36174,  4174,      2)  /* HarbingerCantripStrength3 */
+     , (36174,  4175,      2)  /* HarbingerCantripWillpower3 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (36174, 0, 16793693);

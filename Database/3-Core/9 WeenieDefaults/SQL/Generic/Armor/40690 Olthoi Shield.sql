@@ -27,7 +27,6 @@ VALUES (40690,   1,          2) /* ItemType - Armor */
      , (40690, 158,          2) /* WieldRequirements - RawSkill */
      , (40690, 159,         15) /* WieldSkillType - MagicDefense */
      , (40690, 160,        185) /* WieldDifficulty */
-     , (40690, 172,          5) /* AppraisalLongDescDecoration */
      , (40690, 177,          2) /* GemCount */
      , (40690, 178,         23) /* GemType */
      , (40690, 270,          7) /* WieldRequirements2 - Level */
@@ -74,11 +73,11 @@ VALUES (40690, 8000, 2480408044) /* PCAPRecordedObjectIID */
      , (40690, 8008, 1342959279) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40690,  2098,      2) 
-     , (40690,  2104,      2) 
-     , (40690,  2585,      2) 
-     , (40690,  4407,      2) 
-     , (40690,  6085,      2) ;
+VALUES (40690,  2098,      2)  /* BludgeonBane7 */
+     , (40690,  2104,      2)  /* FrostBane7 */
+     , (40690,  2585,      2)  /* CANTRIPACIDBANE2 */
+     , (40690,  4407,      2)  /* Impenetrability8 */
+     , (40690,  6085,      2)  /* CantripSlashingWard4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40690, 67111923, 0, 0);

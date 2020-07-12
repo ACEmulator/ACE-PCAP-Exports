@@ -63,10 +63,9 @@ VALUES (35593, 8000, 2160854191) /* PCAPRecordedObjectIID */
      , (35593, 8008, 1343287322) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35593,  2076,      2) 
-     , (35593,  2101,      2) 
-     , (35593,  2242,      2) 
-     , (35593,  2244,      2) 
-     , (35593,  2507,      2) 
-     , (35593,  2577,      2) 
-     , (35593,  2581,      2) ;
+VALUES (35593,  2101,      2)  /* DefenderSelf7 */
+     , (35593,  2242,      2)  /* ImpregnabilityOther7 */
+     , (35593,  2244,      2)  /* InvulnerabilityOther7 */
+     , (35593,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (35593,  2577,      2)  /* CANTRIPWILLPOWER2 */
+     , (35593,  2581,      2)  /* CANTRIPFOCUS1 */;

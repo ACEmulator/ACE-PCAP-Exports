@@ -30,8 +30,6 @@ VALUES (30564,   1,          1) /* ItemType - MeleeWeapon */
      , (30564, 158,          2) /* WieldRequirements - RawSkill */
      , (30564, 159,         45) /* WieldSkillType - LightWeapons */
      , (30564, 160,        325) /* WieldDifficulty */
-     , (30564, 172,          1) /* AppraisalLongDescDecoration */
-     , (30564, 176,         45) /* AppraisalItemSkill */
      , (30564, 353,          3) /* WeaponType - Axe */
      , (30564, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
@@ -60,6 +58,7 @@ VALUES (30564,   1,   33559453) /* Setup */
      , (30564,   8,  100686925) /* Icon */
      , (30564,  22,  872415275) /* PhysicsEffectTable */
      , (30564,  30,         88) /* PhysicsScript - Create */
+     , (30564,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30564,  52,  100676441) /* IconUnderlay */
      , (30564, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (30564, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -76,9 +75,9 @@ VALUES (30564, 8000, 2166156747) /* PCAPRecordedObjectIID */
      , (30564, 8008, 1342959279) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30564,  1616,      2) 
-     , (30564,  2579,      2) 
-     , (30564,  2586,      2) ;
+VALUES (30564,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30564,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (30564,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30564, 67116378, 0, 0);

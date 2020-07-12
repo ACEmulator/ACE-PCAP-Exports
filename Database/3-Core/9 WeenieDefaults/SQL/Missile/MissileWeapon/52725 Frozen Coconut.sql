@@ -68,9 +68,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52725, 8000, 3694746977) /* PCAPRecordedObjectIID */
      , (52725, 8008, 3695203393) /* PCAPRecordedParentIID */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52725,  4312,      2) ;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52725, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;
 

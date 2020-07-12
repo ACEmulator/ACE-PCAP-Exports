@@ -24,7 +24,6 @@ VALUES (28610,   1,          4) /* ItemType - Clothing */
      , (28610, 158,          7) /* WieldRequirements - Level */
      , (28610, 159,          1) /* WieldSkillType - Axe */
      , (28610, 160,        180) /* WieldDifficulty */
-     , (28610, 172,          5) /* AppraisalLongDescDecoration */
      , (28610, 177,          2) /* GemCount */
      , (28610, 178,         23) /* GemType */
      , (28610, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -63,10 +62,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28610, 8000, 2174244954) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28610,  2108,      2) 
-     , (28610,  2195,      2) 
-     , (28610,  3965,      2) 
-     , (28610,  4401,      2) ;
+VALUES (28610,  2108,      2)  /* Impenetrability7 */
+     , (28610,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
+     , (28610,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (28610,  4401,      2)  /* FlameBane8 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28610, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */

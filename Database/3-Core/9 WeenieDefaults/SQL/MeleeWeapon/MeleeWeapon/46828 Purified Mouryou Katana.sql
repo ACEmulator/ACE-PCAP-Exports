@@ -84,10 +84,10 @@ VALUES (46828, 8000, 2147535432) /* PCAPRecordedObjectIID */
      , (46828, 8008, 1343084399) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46828,  3963,      2) 
-     , (46828,  3965,      2) 
-     , (46828,  4395,      2) 
-     , (46828,  4400,      2) 
-     , (46828,  4405,      2) 
-     , (46828,  4417,      2) 
-     , (46828,  6072,      2) ;
+VALUES (46828,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (46828,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (46828,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (46828,  4400,      2)  /* DefenderSelf8 */
+     , (46828,  4405,      2)  /* HeartSeekerSelf8 */
+     , (46828,  4417,      2)  /* SwiftKillerSelf8 */
+     , (46828,  6072,      2)  /* CantripSwordAptitude4 */;

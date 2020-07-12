@@ -50,10 +50,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34705, 8000, 3256844051) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34705,  3955,      2) 
-     , (34705,  4073,      2) 
-     , (34705,  4074,      2) 
-     , (34705,  4075,      2) ;
+VALUES (34705,  3955,      2)  /* BludgeonWard */
+     , (34705,  4073,      2)  /* CantripRegenEmpyrean */
+     , (34705,  4074,      2)  /* CantripRejuvEmpyrean */
+     , (34705,  4075,      2)  /* CantripRenewEmpyrean */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34705, 67111919, 0, 0);

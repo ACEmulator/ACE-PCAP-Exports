@@ -46,7 +46,7 @@ VALUES (9032,   1,   33554644) /* Setup */
      , (9032,   6,   67108990) /* PaletteBase */
      , (9032,   8,  100671342) /* Icon */
      , (9032,  22,  872415275) /* PhysicsEffectTable */
-     , (9032,  41,         34) /* ItemSpecializedOnly */
+     , (9032,  41,         34) /* ItemSpecializedOnly - WarMagic */
      , (9032, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (9032, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9032, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -59,17 +59,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9032, 8000, 3605861575) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9032,   664,      2) 
-     , (9032,   908,      2) 
-     , (9032,  2349,      2) 
-     , (9032,  2350,      2) 
-     , (9032,  2351,      2) 
-     , (9032,  2352,      2) 
-     , (9032,  2353,      2) 
-     , (9032,  2354,      2) 
-     , (9032,  2355,      2) 
-     , (9032,  2356,      2) 
-     , (9032,  2377,      2) ;
+VALUES (9032,   664,      2)  /* ManaMasteryOther6 */
+     , (9032,   908,      2)  /* LeadershipMasteryOther5 */
+     , (9032,  2349,      2)  /* HieroWard */
+     , (9032,  2350,      2)  /* DecayDurance */
+     , (9032,  2351,      2)  /* ConsumptionDurance */
+     , (9032,  2352,      2)  /* StasisDurance */
+     , (9032,  2353,      2)  /* StimulationDurance */
+     , (9032,  2354,      2)  /* PiercingDuranceLess */
+     , (9032,  2355,      2)  /* SlashingDuranceLess */
+     , (9032,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9032,  2377,      2)  /* AnnihilationVision */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9032, 67113132, 96, 12)

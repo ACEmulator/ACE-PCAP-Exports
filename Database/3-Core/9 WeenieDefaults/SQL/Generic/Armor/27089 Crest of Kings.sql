@@ -63,6 +63,6 @@ VALUES (27089, 8000, 2172335576) /* PCAPRecordedObjectIID */
      , (27089, 8008, 1343463317) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27089,   512,      2) 
-     , (27089,   849,      2) 
-     , (27089,  1142,      2) ;
+VALUES (27089,   512,      2)  /* AcidProtectionOther4 */
+     , (27089,   849,      2)  /* FireProtectionOther4 */
+     , (27089,  1142,      2)  /* PiercingProtectionOther4 */;

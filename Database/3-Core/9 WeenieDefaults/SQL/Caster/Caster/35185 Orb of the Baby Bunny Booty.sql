@@ -20,8 +20,7 @@ VALUES (35185,   1,      32768) /* ItemType - Caster */
      , (35185, 109,        121) /* ItemDifficulty */
      , (35185, 114,          0) /* Attuned - Normal */
      , (35185, 115,        315) /* ItemSkillLevelLimit */
-     , (35185, 151,          2) /* HookType - Wall */
-     , (35185, 176,         31) /* AppraisalItemSkill */;
+     , (35185, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35185,  22, True ) /* Inscribable */
@@ -45,6 +44,7 @@ VALUES (35185,   1,   33556870) /* Setup */
      , (35185,   8,  100669116) /* Icon */
      , (35185,  22,  872415275) /* PhysicsEffectTable */
      , (35185,  28,       2348) /* Spell - BrillianceOther */
+     , (35185,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (35185, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (35185, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35185, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
@@ -59,8 +59,7 @@ VALUES (35185, 8000, 2148447098) /* PCAPRecordedObjectIID */
      , (35185, 8008, 1343094873) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35185,  2348,      2) 
-     , (35185,  2574,      2) ;
+VALUES (35185,  2574,      2)  /* CANTRIPFOCUS2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35185, 67111338, 0, 0);

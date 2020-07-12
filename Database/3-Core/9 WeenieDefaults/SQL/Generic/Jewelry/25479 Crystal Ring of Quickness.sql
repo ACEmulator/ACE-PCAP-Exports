@@ -46,5 +46,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25479, 8000, 2210356802) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25479,  1405,      2) 
-     , (25479,  2583,      2) ;
+VALUES (25479,  1405,      2)  /* QuicknessOther3 */
+     , (25479,  2583,      2)  /* CANTRIPSTRENGTH1 */;

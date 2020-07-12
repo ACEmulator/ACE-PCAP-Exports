@@ -26,8 +26,6 @@ VALUES (30951,   1,          2) /* ItemType - Armor */
      , (30951, 159,          1) /* WieldSkillType - Axe */
      , (30951, 160,        180) /* WieldDifficulty */
      , (30951, 171,         10) /* NumTimesTinkered */
-     , (30951, 172,          5) /* AppraisalLongDescDecoration */
-     , (30951, 176,          6) /* AppraisalItemSkill */
      , (30951, 177,          2) /* GemCount */
      , (30951, 178,         21) /* GemType */
      , (30951, 265,         16) /* EquipmentSetId - Defenders */
@@ -60,6 +58,7 @@ VALUES (30951,   1,   33559505) /* Setup */
      , (30951,   6,   67108990) /* PaletteBase */
      , (30951,   8,  100687145) /* Icon */
      , (30951,  22,  872415275) /* PhysicsEffectTable */
+     , (30951,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (30951, 8001, 2166849688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
      , (30951, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30951, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
@@ -68,12 +67,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30951, 8000, 2881577216) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30951,  1516,      2) 
-     , (30951,  1528,      2) 
-     , (30951,  2102,      2) 
-     , (30951,  2108,      2) 
-     , (30951,  2309,      2) 
-     , (30951,  6105,      2) ;
+VALUES (30951,  1516,      2)  /* BludgeonBane6 */
+     , (30951,  1528,      2)  /* FrostBane6 */
+     , (30951,  2102,      2)  /* FlameBane7 */
+     , (30951,  2108,      2)  /* Impenetrability7 */
+     , (30951,  2309,      2)  /* SwordMasterySelf7 */
+     , (30951,  6105,      2)  /* CantripFocus4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30951, 67116101, 168, 6);

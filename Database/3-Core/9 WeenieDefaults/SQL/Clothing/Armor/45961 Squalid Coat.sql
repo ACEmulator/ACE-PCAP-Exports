@@ -57,12 +57,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45961, 8000, 3042072202) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45961,   321,      2) 
-     , (45961,   417,      2) 
-     , (45961,  1317,      2) 
-     , (45961,  1486,      2) 
-     , (45961,  2542,      2) 
-     , (45961,  2578,      2) ;
+VALUES (45961,   321,      2)  /* DaggerMasteryOther6 */
+     , (45961,   417,      2)  /* SwordMasteryOther6 */
+     , (45961,  1317,      2)  /* ArmorOther6 */
+     , (45961,  1486,      2)  /* Impenetrability6 */
+     , (45961,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
+     , (45961,  2578,      2)  /* CANTRIPARMOR1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45961, 67116615, 174, 66)

@@ -52,12 +52,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22015, 8000, 2158691092) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22015,   249,      2) 
-     , (22015,   327,      2) 
-     , (22015,   681,      2) 
-     , (22015,  1312,      2) 
-     , (22015,  1484,      2) 
-     , (22015,  2544,      2) ;
+VALUES (22015,   249,      2)  /* InvulnerabilitySelf6 */
+     , (22015,   327,      2)  /* DaggerMasterySelf6 */
+     , (22015,   681,      2)  /* ArcaneEnlightenmentSelf4 */
+     , (22015,  1312,      2)  /* ArmorSelf6 */
+     , (22015,  1484,      2)  /* Impenetrability4 */
+     , (22015,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (22015, 0, 16788526);

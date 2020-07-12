@@ -25,7 +25,6 @@ VALUES (35950,   1,      32768) /* ItemType - Caster */
      , (35950, 159,          1) /* WieldSkillType - Axe */
      , (35950, 160,        130) /* WieldDifficulty */
      , (35950, 166,          8) /* SlayerCreatureType - Tusker */
-     , (35950, 176,         16) /* AppraisalItemSkill */
      , (35950, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,6 +47,7 @@ VALUES (35950,   1,   33560345) /* Setup */
      , (35950,   3,  536870932) /* SoundTable */
      , (35950,   8,  100689567) /* Icon */
      , (35950,  22,  872415275) /* PhysicsEffectTable */
+     , (35950,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (35950, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (35950, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35950, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -62,9 +62,9 @@ VALUES (35950, 8000, 3650459445) /* PCAPRecordedObjectIID */
      , (35950, 8008, 1343492118) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35950,  2066,      2) 
-     , (35950,  2090,      2) 
-     , (35950,  2266,      2) 
-     , (35950,  2322,      2) 
-     , (35950,  2534,      2) 
-     , (35950,  2810,      2) ;
+VALUES (35950,  2066,      2)  /* FocusOther7 */
+     , (35950,  2090,      2)  /* WillpowerOther7 */
+     , (35950,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (35950,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (35950,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (35950,  2810,      2)  /* ModerateLifeMagicAptitude */;

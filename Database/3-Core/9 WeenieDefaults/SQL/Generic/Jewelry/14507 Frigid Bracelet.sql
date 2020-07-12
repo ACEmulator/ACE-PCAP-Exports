@@ -51,10 +51,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (14507, 8000, 2657343782) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14507,   271,      2) 
-     , (14507,  1040,      2) 
-     , (14507,  2579,      2) 
-     , (14507,  2643,      2) ;
+VALUES (14507,   271,      2)  /* MagicResistanceOther4 */
+     , (14507,  1040,      2)  /* ColdProtectionOther5 */
+     , (14507,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (14507,  2643,      2)  /* Stasis */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14507, 67111920, 0, 0);

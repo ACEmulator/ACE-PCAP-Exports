@@ -54,9 +54,9 @@ VALUES (28325, 8000, 2166159885) /* PCAPRecordedObjectIID */
      , (28325, 8008, 1342938513) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28325,   559,      2) 
-     , (28325,   583,      2) 
-     , (28325,  2011,      2) ;
+VALUES (28325,   559,      2)  /* CreatureEnchantmentMasterySelf3 */
+     , (28325,   583,      2)  /* ItemEnchantmentMasterySelf3 */
+     , (28325,  2011,      2)  /* WizardsLesserIntellect */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28325, 67112924, 0, 0);

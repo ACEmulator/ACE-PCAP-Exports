@@ -21,7 +21,6 @@ VALUES (3829,   1,          1) /* ItemType - MeleeWeapon */
      , (3829, 105,          7) /* ItemWorkmanship */
      , (3829, 131,         64) /* MaterialType - Steel */
      , (3829, 151,          2) /* HookType - Wall */
-     , (3829, 172,          7) /* AppraisalLongDescDecoration */
      , (3829, 177,          2) /* GemCount */
      , (3829, 178,         49) /* GemType */
      , (3829, 353,          6) /* WeaponType - Dagger */

@@ -29,8 +29,6 @@ VALUES (31765,   1,          1) /* ItemType - MeleeWeapon */
      , (31765, 158,          2) /* WieldRequirements - RawSkill */
      , (31765, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31765, 160,        430) /* WieldDifficulty */
-     , (31765, 172,          5) /* AppraisalLongDescDecoration */
-     , (31765, 176,         44) /* AppraisalItemSkill */
      , (31765, 177,          3) /* GemCount */
      , (31765, 178,         38) /* GemType */
      , (31765, 353,          3) /* WeaponType - Axe */
@@ -61,6 +59,7 @@ VALUES (31765,   1,   33559673) /* Setup */
      , (31765,   6,   67116700) /* PaletteBase */
      , (31765,   8,  100688030) /* Icon */
      , (31765,  22,  872415275) /* PhysicsEffectTable */
+     , (31765,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31765, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31765, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31765, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -69,8 +68,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31765, 8000, 3690298018) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31765,  2096,      2) 
-     , (31765,  2521,      2) ;
+VALUES (31765,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (31765,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31765, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

@@ -50,9 +50,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34991, 8000, 2925597492) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34991,  2101,      2) 
-     , (34991,  2117,      2) 
-     , (34991,  2287,      2) 
-     , (34991,  2525,      2) 
-     , (34991,  3200,      2) 
-     , (34991,  4067,      2) ;
+VALUES (34991,  2101,      2)  /* DefenderSelf7 */
+     , (34991,  2117,      2)  /* HermeticLinkSelf7 */
+     , (34991,  2287,      2)  /* ManaMasterySelf7 */
+     , (34991,  2525,      2)  /* CANTRIPMANACONVERSIONPROWESS2 */
+     , (34991,  3200,      2)  /* CantripHermeticLink2 */;

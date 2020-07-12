@@ -30,8 +30,6 @@ VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
      , (31788, 158,          2) /* WieldRequirements - RawSkill */
      , (31788, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31788, 160,        325) /* WieldDifficulty */
-     , (31788, 172,          5) /* AppraisalLongDescDecoration */
-     , (31788, 176,         44) /* AppraisalItemSkill */
      , (31788, 177,          1) /* GemCount */
      , (31788, 178,         36) /* GemType */
      , (31788, 353,          7) /* WeaponType - Staff */
@@ -62,6 +60,7 @@ VALUES (31788,   1,   33559625) /* Setup */
      , (31788,   6,   67116700) /* PaletteBase */
      , (31788,   8,  100687995) /* Icon */
      , (31788,  22,  872415275) /* PhysicsEffectTable */
+     , (31788,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31788,  52,  100676442) /* IconUnderlay */
      , (31788, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (31788, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -78,9 +77,9 @@ VALUES (31788, 8000, 2183167588) /* PCAPRecordedObjectIID */
      , (31788, 8008, 1342789086) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31788,  1615,      2) 
-     , (31788,  2580,      2) 
-     , (31788,  5807,      2) ;
+VALUES (31788,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (31788,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (31788,  5807,      2)  /* DualWieldMasterySelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31788, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */

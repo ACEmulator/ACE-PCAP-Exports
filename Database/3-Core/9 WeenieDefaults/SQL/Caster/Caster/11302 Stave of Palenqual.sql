@@ -59,9 +59,8 @@ VALUES (11302, 8000, 2217627058) /* PCAPRecordedObjectIID */
      , (11302, 8008, 1342610830) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11302,   217,      2) 
-     , (11302,   658,      2) 
-     , (11302,  1426,      2) 
-     , (11302,  1480,      2) 
-     , (11302,  1836,      2) 
-     , (11302,  2581,      2) ;
+VALUES (11302,   217,      2)  /* ManaRenewalSelf6 */
+     , (11302,   658,      2)  /* ManaMasterySelf6 */
+     , (11302,  1426,      2)  /* FocusSelf6 */
+     , (11302,  1480,      2)  /* HermeticLinkSelf6 */
+     , (11302,  2581,      2)  /* CANTRIPFOCUS1 */;

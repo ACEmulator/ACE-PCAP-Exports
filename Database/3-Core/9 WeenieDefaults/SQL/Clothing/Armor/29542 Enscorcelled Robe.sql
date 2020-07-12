@@ -53,10 +53,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29542, 8000, 2982968668) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29542,  3640,      2) 
-     , (29542,  3641,      2) 
-     , (29542,  3643,      2) 
-     , (29542,  5437,      2) ;
+VALUES (29542,  3640,      2)  /* EnchantersBoon */
+     , (29542,  3641,      2)  /* HieromancersBoon */
+     , (29542,  3643,      2)  /* LifeGiversBoon */
+     , (29542,  5437,      2)  /* CorruptorsBoon */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29542, 67115433, 72, 96)

@@ -28,7 +28,6 @@ VALUES (32769,   1,          1) /* ItemType - MeleeWeapon */
      , (32769, 159,         45) /* WieldSkillType - LightWeapons */
      , (32769, 160,        370) /* WieldDifficulty */
      , (32769, 166,         83) /* SlayerCreatureType - ViamontianKnight */
-     , (32769, 176,          6) /* AppraisalItemSkill */
      , (32769, 353,          2) /* WeaponType - Sword */
      , (32769, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (32769, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -59,6 +58,7 @@ VALUES (32769,   1,   33559842) /* Setup */
      , (32769,   3,  536870932) /* SoundTable */
      , (32769,   8,  100688637) /* Icon */
      , (32769,  22,  872415275) /* PhysicsEffectTable */
+     , (32769,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (32769, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32769, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32769, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -67,9 +67,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32769, 8000, 2807507467) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32769,  2096,      2) 
-     , (32769,  2101,      2) 
-     , (32769,  2106,      2) 
-     , (32769,  2116,      2) 
-     , (32769,  2203,      2) 
-     , (32769,  2263,      2) ;
+VALUES (32769,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (32769,  2101,      2)  /* DefenderSelf7 */
+     , (32769,  2106,      2)  /* HeartSeekerSelf7 */
+     , (32769,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32769,  2203,      2)  /* AxeMasterySelf7 */
+     , (32769,  2263,      2)  /* LeadershipMasterySelf7 */;

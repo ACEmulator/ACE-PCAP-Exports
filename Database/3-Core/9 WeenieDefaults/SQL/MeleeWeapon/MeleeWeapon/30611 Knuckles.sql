@@ -19,7 +19,6 @@ VALUES (30611,   1,          1) /* ItemType - MeleeWeapon */
      , (30611, 105,          5) /* ItemWorkmanship */
      , (30611, 131,         58) /* MaterialType - Bronze */
      , (30611, 151,          2) /* HookType - Wall */
-     , (30611, 172,          1) /* AppraisalLongDescDecoration */
      , (30611, 353,          1) /* WeaponType - Unarmed */
      , (30611, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (30611, 8041,        101) /* PCAPRecordedPlacement - Resting */;

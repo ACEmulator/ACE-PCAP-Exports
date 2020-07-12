@@ -23,8 +23,7 @@ VALUES (35982,   1,          2) /* ItemType - Armor */
      , (35982, 151,          2) /* HookType - Wall */
      , (35982, 158,          7) /* WieldRequirements - Level */
      , (35982, 159,          1) /* WieldSkillType - Axe */
-     , (35982, 160,        140) /* WieldDifficulty */
-     , (35982, 176,         48) /* AppraisalItemSkill */;
+     , (35982, 160,        140) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35982,  22, True ) /* Inscribable */
@@ -54,6 +53,7 @@ VALUES (35982,   1,   33560366) /* Setup */
      , (35982,   3,  536870932) /* SoundTable */
      , (35982,   8,  100689596) /* Icon */
      , (35982,  22,  872415275) /* PhysicsEffectTable */
+     , (35982,  37,         48) /* ItemSkillLimit - Shield */
      , (35982, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (35982, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35982, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
@@ -68,12 +68,12 @@ VALUES (35982, 8000, 3691438450) /* PCAPRecordedObjectIID */
      , (35982, 8008, 1343492082) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35982,  2108,      2) 
-     , (35982,  2157,      2) 
-     , (35982,  2281,      2) 
-     , (35982,  2559,      2) 
-     , (35982,  2604,      2) 
-     , (35982,  2611,      2) ;
+VALUES (35982,  2108,      2)  /* Impenetrability7 */
+     , (35982,  2157,      2)  /* FireProtectionSelf7 */
+     , (35982,  2281,      2)  /* MagicResistanceSelf7 */
+     , (35982,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+     , (35982,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
+     , (35982,  2611,      2)  /* CANTRIPFLAMEWARD2 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35982, 0, 83897749, 83897749)

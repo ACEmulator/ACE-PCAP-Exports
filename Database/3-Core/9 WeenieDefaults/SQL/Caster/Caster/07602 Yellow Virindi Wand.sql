@@ -18,7 +18,6 @@ VALUES (7602,   1,      32768) /* ItemType - Caster */
      , (7602, 108,       2000) /* ItemMaxMana */
      , (7602, 115,        225) /* ItemSkillLevelLimit */
      , (7602, 151,          2) /* HookType - Wall */
-     , (7602, 176,         34) /* AppraisalItemSkill */
      , (7602, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,6 +39,7 @@ VALUES (7602,   1,   33558240) /* Setup */
      , (7602,   8,  100670150) /* Icon */
      , (7602,  22,  872415275) /* PhysicsEffectTable */
      , (7602,  28,         85) /* Spell - FlameBolt6 */
+     , (7602,  37,         34) /* ItemSkillLimit - WarMagic */
      , (7602, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (7602, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7602, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -54,9 +54,8 @@ VALUES (7602, 8000, 3350982710) /* PCAPRecordedObjectIID */
      , (7602, 8008, 1344081626) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7602,    85,      2) 
-     , (7602,  1094,      2) 
-     , (7602,  2618,      2) ;
+VALUES (7602,  1094,      2)  /* FireProtectionSelf6 */
+     , (7602,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7602, 67111927, 0, 0);

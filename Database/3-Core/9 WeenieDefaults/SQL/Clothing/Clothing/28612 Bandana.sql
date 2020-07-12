@@ -22,7 +22,6 @@ VALUES (28612,   1,          4) /* ItemType - Clothing */
      , (28612, 115,          0) /* ItemSkillLevelLimit */
      , (28612, 131,          6) /* MaterialType - Silk */
      , (28612, 151,          2) /* HookType - Wall */
-     , (28612, 172,          1) /* AppraisalLongDescDecoration */
      , (28612, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,8 +58,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28612, 8000, 3314293212) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28612,  1485,      2) 
-     , (28612,  5415,      2) ;
+VALUES (28612,  1485,      2)  /* Impenetrability5 */
+     , (28612,  5415,      2)  /* VoidMagicMasterySelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28612, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;

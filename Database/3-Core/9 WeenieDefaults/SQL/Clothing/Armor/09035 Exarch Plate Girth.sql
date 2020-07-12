@@ -46,7 +46,7 @@ VALUES (9035,   1,   33554647) /* Setup */
      , (9035,   6,   67108990) /* PaletteBase */
      , (9035,   8,  100671348) /* Icon */
      , (9035,  22,  872415275) /* PhysicsEffectTable */
-     , (9035,  41,         34) /* ItemSpecializedOnly */
+     , (9035,  41,         34) /* ItemSpecializedOnly - WarMagic */
      , (9035, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (9035, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9035, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -59,17 +59,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9035, 8000, 3605861304) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9035,   211,      2) 
-     , (9035,   273,      2) 
-     , (9035,  2349,      2) 
-     , (9035,  2350,      2) 
-     , (9035,  2351,      2) 
-     , (9035,  2352,      2) 
-     , (9035,  2353,      2) 
-     , (9035,  2354,      2) 
-     , (9035,  2355,      2) 
-     , (9035,  2356,      2) 
-     , (9035,  2380,      2) ;
+VALUES (9035,   211,      2)  /* ManaRenewalOther6 */
+     , (9035,   273,      2)  /* MagicResistanceOther6 */
+     , (9035,  2349,      2)  /* HieroWard */
+     , (9035,  2350,      2)  /* DecayDurance */
+     , (9035,  2351,      2)  /* ConsumptionDurance */
+     , (9035,  2352,      2)  /* StasisDurance */
+     , (9035,  2353,      2)  /* StimulationDurance */
+     , (9035,  2354,      2)  /* PiercingDuranceLess */
+     , (9035,  2355,      2)  /* SlashingDuranceLess */
+     , (9035,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9035,  2380,      2)  /* InstrumentalityGrip */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9035, 67113132, 72, 8)

@@ -23,7 +23,6 @@ VALUES (45100,   1,          1) /* ItemType - MeleeWeapon */
      , (45100, 158,          2) /* WieldRequirements - RawSkill */
      , (45100, 159,         45) /* WieldSkillType - LightWeapons */
      , (45100, 160,        370) /* WieldDifficulty */
-     , (45100, 172,          5) /* AppraisalLongDescDecoration */
      , (45100, 177,          6) /* GemCount */
      , (45100, 178,         47) /* GemType */
      , (45100, 353,          2) /* WeaponType - Sword */

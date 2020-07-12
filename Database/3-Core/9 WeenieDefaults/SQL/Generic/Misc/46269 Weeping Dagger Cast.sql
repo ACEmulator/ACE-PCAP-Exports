@@ -27,7 +27,8 @@ VALUES (46269,   1,   33554680) /* Setup */
      , (46269,  22,  872415275) /* PhysicsEffectTable */
      , (46269, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (46269, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46269, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+     , (46269, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
+     , (46269, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46269, 8000,      46269) /* PCAPRecordedObjectIID */;

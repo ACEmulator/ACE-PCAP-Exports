@@ -17,7 +17,6 @@ VALUES (7940,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7940, 105,          7) /* ItemWorkmanship */
      , (7940, 131,         67) /* MaterialType - Granite */
      , (7940, 151,          1) /* HookType - Floor */
-     , (7940, 172,          1) /* AppraisalLongDescDecoration */
      , (7940, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

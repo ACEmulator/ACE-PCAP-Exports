@@ -22,7 +22,6 @@ VALUES (74,   1,          2) /* ItemType - Armor */
      , (74, 115,        180) /* ItemSkillLevelLimit */
      , (74, 131,         63) /* MaterialType - Silver */
      , (74, 151,          2) /* HookType - Wall */
-     , (74, 176,          7) /* AppraisalItemSkill */
      , (74, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,6 +53,7 @@ VALUES (74,   1,   33555248) /* Setup */
      , (74,   6,   67108990) /* PaletteBase */
      , (74,   8,  100669663) /* Icon */
      , (74,  22,  872415275) /* PhysicsEffectTable */
+     , (74,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (74, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (74, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (74, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -62,9 +62,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (74, 8000, 2186220543) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (74,   191,      2) 
-     , (74,  1484,      2) 
-     , (74,  1548,      2) ;
+VALUES (74,   191,      2)  /* RejuvenationSelf4 */
+     , (74,  1484,      2)  /* Impenetrability4 */
+     , (74,  1548,      2)  /* FlameBane2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (74, 67110015, 240, 10);

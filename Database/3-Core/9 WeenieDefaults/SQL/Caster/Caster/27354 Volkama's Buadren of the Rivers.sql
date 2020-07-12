@@ -59,9 +59,9 @@ VALUES (27354, 8000, 3202088980) /* PCAPRecordedObjectIID */
      , (27354, 8008, 1342436305) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27354,  2470,      2) 
-     , (27354,  2473,      2) 
-     , (27354,  3224,      2) ;
+VALUES (27354,  2470,      2)  /* StillWaterGreater */
+     , (27354,  2473,      2)  /* TorrentGreater */
+     , (27354,  3224,      2)  /* CascadeManaCGreater */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27354, 0, 83893670, 83893670)

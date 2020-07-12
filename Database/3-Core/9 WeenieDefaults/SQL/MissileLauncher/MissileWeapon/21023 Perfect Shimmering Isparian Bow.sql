@@ -67,8 +67,8 @@ VALUES (21023, 8000, 3704376917) /* PCAPRecordedObjectIID */
      , (21023, 8008, 1342800107) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21023,  1312,      2) 
-     , (21023,  2687,      2) ;
+VALUES (21023,  1312,      2)  /* ArmorSelf6 */
+     , (21023,  2687,      2)  /* ModerateBowAptitude */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (21023, 0, 83889688, 83892492)

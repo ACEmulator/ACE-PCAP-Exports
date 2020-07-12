@@ -50,7 +50,7 @@ VALUES (11001,   1,   33557228) /* Setup */
      , (11001,   3,  536870932) /* SoundTable */
      , (11001,   8,  100671861) /* Icon */
      , (11001,  22,  872415275) /* PhysicsEffectTable */
-     , (11001,  41,         47) /* ItemSpecializedOnly */
+     , (11001,  41,         47) /* ItemSpecializedOnly - MissileWeapons */
      , (11001, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (11001, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11001, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -65,10 +65,10 @@ VALUES (11001, 8000, 2167240088) /* PCAPRecordedObjectIID */
      , (11001, 8008, 1343494003) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11001,  1384,      2) 
-     , (11001,  2416,      2) 
-     , (11001,  2423,      2) 
-     , (11001,  2426,      2) 
-     , (11001,  2488,      2) 
-     , (11001,  2629,      2) 
-     , (11001,  2630,      2) ;
+VALUES (11001,  1384,      2)  /* CoordinationOther6 */
+     , (11001,  2416,      2)  /* HighTensionString */
+     , (11001,  2423,      2)  /* Precise */
+     , (11001,  2426,      2)  /* StrongPull */
+     , (11001,  2488,      2)  /* ElariBowFamiliarity */
+     , (11001,  2629,      2)  /* HuntressBoon */
+     , (11001,  2630,      2)  /* PreysReflex */;

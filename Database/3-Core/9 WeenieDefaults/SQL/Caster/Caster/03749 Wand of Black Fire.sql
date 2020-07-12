@@ -17,7 +17,6 @@ VALUES (3749,   1,      32768) /* ItemType - Caster */
      , (3749, 108,       2000) /* ItemMaxMana */
      , (3749, 115,        125) /* ItemSkillLevelLimit */
      , (3749, 151,          2) /* HookType - Wall */
-     , (3749, 176,         34) /* AppraisalItemSkill */
      , (3749, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,6 +40,7 @@ VALUES (3749,   1,   33558258) /* Setup */
      , (3749,   8,  100668800) /* Icon */
      , (3749,  22,  872415275) /* PhysicsEffectTable */
      , (3749,  28,        145) /* Spell - FlameVolley5 */
+     , (3749,  37,         34) /* ItemSkillLimit - WarMagic */
      , (3749, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (3749, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3749, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -49,9 +49,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3749, 8000, 3656750331) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3749,   145,      2) 
-     , (3749,  1033,      2) 
-     , (3749,  1069,      2) ;
+VALUES (3749,  1033,      2)  /* ColdProtectionSelf4 */
+     , (3749,  1069,      2)  /* LightningProtectionSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3749, 67111925, 0, 0);

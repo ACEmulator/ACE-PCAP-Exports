@@ -68,9 +68,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30521, 8000, 3499562029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30521,  4407,      2) 
-     , (30521,  4680,      2) 
-     , (30521,  4684,      2) ;
+VALUES (30521,  4407,      2)  /* Impenetrability8 */
+     , (30521,  4680,      2)  /* CANTRIPHEALTHGAIN3 */
+     , (30521,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30521, 67109965, 96, 12)

@@ -29,7 +29,6 @@ VALUES (34341,   1,          1) /* ItemType - MeleeWeapon */
      , (34341, 158,          2) /* WieldRequirements - RawSkill */
      , (34341, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (34341, 160,        350) /* WieldDifficulty */
-     , (34341, 176,          6) /* AppraisalItemSkill */
      , (34341, 353,          2) /* WeaponType - Sword */
      , (34341, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
@@ -58,6 +57,7 @@ VALUES (34341,   1,   33560150) /* Setup */
      , (34341,   3,  536870932) /* SoundTable */
      , (34341,   8,  100689290) /* Icon */
      , (34341,  22,  872415275) /* PhysicsEffectTable */
+     , (34341,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (34341, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (34341, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34341, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
@@ -72,9 +72,9 @@ VALUES (34341, 8000, 3688717706) /* PCAPRecordedObjectIID */
      , (34341, 8008, 3687902677) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34341,  2058,      2) 
-     , (34341,  2080,      2) 
-     , (34341,  2096,      2) 
-     , (34341,  2242,      2) 
-     , (34341,  2244,      2) 
-     , (34341,  2280,      2) ;
+VALUES (34341,  2058,      2)  /* CoordinationOther7 */
+     , (34341,  2080,      2)  /* QuicknessOther7 */
+     , (34341,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (34341,  2242,      2)  /* ImpregnabilityOther7 */
+     , (34341,  2244,      2)  /* InvulnerabilityOther7 */
+     , (34341,  2280,      2)  /* MagicResistanceOther7 */;

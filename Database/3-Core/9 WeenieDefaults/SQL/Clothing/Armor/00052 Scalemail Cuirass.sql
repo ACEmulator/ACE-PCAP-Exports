@@ -21,7 +21,6 @@ VALUES (52,   1,          2) /* ItemType - Armor */
      , (52, 110,          0) /* ItemAllegianceRankLimit */
      , (52, 115,          0) /* ItemSkillLevelLimit */
      , (52, 131,         64) /* MaterialType - Steel */
-     , (52, 172,          1) /* AppraisalLongDescDecoration */
      , (52, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,10 +57,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52, 8000, 3694249751) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52,  1485,      2) 
-     , (52,  1498,      2) 
-     , (52,  1562,      2) 
-     , (52,  2553,      2) ;
+VALUES (52,  1485,      2)  /* Impenetrability5 */
+     , (52,  1498,      2)  /* AcidBane6 */
+     , (52,  1562,      2)  /* BladeBane6 */
+     , (52,  2553,      2)  /* CANTRIPJUMPINGPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52, 67110022, 80, 12)

@@ -27,7 +27,8 @@ VALUES (2924,   1,   33554826) /* Setup */
      , (2924,  28,        134) /* Spell - BludgeoningVolley6 */
      , (2924, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2924, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2924, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+     , (2924, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */
+     , (2924, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2924, 8000,       2924) /* PCAPRecordedObjectIID */;

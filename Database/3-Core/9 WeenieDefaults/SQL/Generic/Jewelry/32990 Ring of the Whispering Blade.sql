@@ -46,11 +46,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32990, 8000, 2979050453) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32990,  2281,      2) 
-     , (32990,  2686,      2) 
-     , (32990,  2687,      2) 
-     , (32990,  2689,      2) 
-     , (32990,  2694,      2) 
-     , (32990,  2812,      2) 
-     , (32990,  5074,      2) 
-     , (32990,  5430,      2) ;
+VALUES (32990,  2281,      2)  /* MagicResistanceSelf7 */
+     , (32990,  2686,      2)  /* ModerateAxeAptitude */
+     , (32990,  2687,      2)  /* ModerateBowAptitude */
+     , (32990,  2689,      2)  /* ModerateDaggerAptitude */
+     , (32990,  2694,      2)  /* ModerateSwordAptitude */
+     , (32990,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (32990,  5074,      2)  /* ModerateTwoHandedAptitude */
+     , (32990,  5430,      2)  /* ModerateVoidMagicAptitude */;

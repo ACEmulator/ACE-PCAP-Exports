@@ -15,7 +15,6 @@ VALUES (53,   1,          2) /* ItemType - Armor */
      , (53,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53, 105,          5) /* ItemWorkmanship */
      , (53, 131,         52) /* MaterialType - Leather */
-     , (53, 172,          5) /* AppraisalLongDescDecoration */
      , (53, 177,          3) /* GemCount */
      , (53, 178,         48) /* GemType */
      , (53, 8041,        101) /* PCAPRecordedPlacement - Resting */;

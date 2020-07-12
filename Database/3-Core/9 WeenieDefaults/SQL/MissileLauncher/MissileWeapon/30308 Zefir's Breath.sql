@@ -81,12 +81,12 @@ VALUES (30308, 8000, 3171223079) /* PCAPRecordedObjectIID */
      , (30308, 8008, 1343092371) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30308,  4297,      2) 
-     , (30308,  4400,      2) 
-     , (30308,  4522,      2) 
-     , (30308,  4604,      2) 
-     , (30308,  4661,      2) 
-     , (30308,  4687,      2) ;
+VALUES (30308,  4297,      2)  /* CoordinationSelf8 */
+     , (30308,  4400,      2)  /* DefenderSelf8 */
+     , (30308,  4522,      2)  /* BowMasterySelf8 */
+     , (30308,  4604,      2)  /* MonsterAttunementSelf8 */
+     , (30308,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (30308,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30308, 67111920, 0, 0);

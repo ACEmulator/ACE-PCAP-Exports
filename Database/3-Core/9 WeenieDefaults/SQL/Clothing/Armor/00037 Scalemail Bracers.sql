@@ -14,7 +14,6 @@ VALUES (37,   1,          2) /* ItemType - Armor */
      , (37,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37, 105,          3) /* ItemWorkmanship */
      , (37, 131,         57) /* MaterialType - Brass */
-     , (37, 172,          5) /* AppraisalLongDescDecoration */
      , (37, 177,          2) /* GemCount */
      , (37, 178,         42) /* GemType */
      , (37, 8041,        101) /* PCAPRecordedPlacement - Resting */;

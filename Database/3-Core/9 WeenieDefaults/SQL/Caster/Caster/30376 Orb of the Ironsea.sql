@@ -68,12 +68,11 @@ VALUES (30376, 8000, 3377086832) /* PCAPRecordedObjectIID */
      , (30376, 8008, 1344169033) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30376,  2132,      2) 
-     , (30376,  4305,      2) 
-     , (30376,  4329,      2) 
-     , (30376,  4602,      2) 
-     , (30376,  4670,      2) 
-     , (30376,  4705,      2) ;
+VALUES (30376,  4305,      2)  /* FocusSelf8 */
+     , (30376,  4329,      2)  /* WillpowerSelf8 */
+     , (30376,  4602,      2)  /* ManaMasterySelf8 */
+     , (30376,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
+     , (30376,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30376, 67111920, 0, 0);

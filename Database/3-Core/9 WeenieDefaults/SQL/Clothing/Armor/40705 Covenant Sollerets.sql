@@ -25,8 +25,6 @@ VALUES (40705,   1,          2) /* ItemType - Armor */
      , (40705, 158,          2) /* WieldRequirements - RawSkill */
      , (40705, 159,         15) /* WieldSkillType - MagicDefense */
      , (40705, 160,        245) /* WieldDifficulty */
-     , (40705, 172,          1) /* AppraisalLongDescDecoration */
-     , (40705, 176,          6) /* AppraisalItemSkill */
      , (40705, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -55,6 +53,7 @@ VALUES (40705,   1,   33554654) /* Setup */
      , (40705,   6,   67108990) /* PaletteBase */
      , (40705,   8,  100673457) /* Icon */
      , (40705,  22,  872415275) /* PhysicsEffectTable */
+     , (40705,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (40705, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40705, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40705, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -63,11 +62,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40705, 8000, 3690421029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40705,   879,      2) 
-     , (40705,  1486,      2) 
-     , (40705,  1574,      2) 
-     , (40705,  2098,      2) 
-     , (40705,  2102,      2) ;
+VALUES (40705,   879,      2)  /* HealingMasterySelf6 */
+     , (40705,  1486,      2)  /* Impenetrability6 */
+     , (40705,  1574,      2)  /* PiercingBane6 */
+     , (40705,  2098,      2)  /* BludgeonBane7 */
+     , (40705,  2102,      2)  /* FlameBane7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40705, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */

@@ -21,7 +21,6 @@ VALUES (67,   1,          2) /* ItemType - Armor */
      , (67, 110,          0) /* ItemAllegianceRankLimit */
      , (67, 115,          0) /* ItemSkillLevelLimit */
      , (67, 131,         57) /* MaterialType - Brass */
-     , (67, 172,          1) /* AppraisalLongDescDecoration */
      , (67, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,7 +58,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (67, 8000, 3698460571) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (67,  1485,      2) ;
+VALUES (67,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (67, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
