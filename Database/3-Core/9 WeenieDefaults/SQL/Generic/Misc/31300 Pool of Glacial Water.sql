@@ -14,7 +14,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31300,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31300,   1, 'Pool of Glacial Water') /* Name */;
+VALUES (31300,   1, 'Pool of Glacial Water') /* Name */
+     , (31300,  16, 'A shimmering pool of Glacial Water.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31300,   1,   33554711) /* Setup */

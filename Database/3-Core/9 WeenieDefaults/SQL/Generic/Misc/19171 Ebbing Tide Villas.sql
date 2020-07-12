@@ -14,7 +14,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19171,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19171,   1, 'Ebbing Tide Villas') /* Name */;
+VALUES (19171,   1, 'Ebbing Tide Villas') /* Name */
+     , (19171,  16, 'Welcome to Ebbing Tide Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19171,   1,   33557463) /* Setup */
