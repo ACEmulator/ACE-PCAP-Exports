@@ -25,7 +25,6 @@ VALUES (40681,   1,          2) /* ItemType - Armor */
      , (40681, 158,          2) /* WieldRequirements - RawSkill */
      , (40681, 159,          7) /* WieldSkillType - MissileDefense */
      , (40681, 160,        290) /* WieldDifficulty */
-     , (40681, 172,          1) /* AppraisalLongDescDecoration */
      , (40681, 265,         17) /* EquipmentSetId - Tinkers */
      , (40681, 270,          7) /* WieldRequirements2 - Level */
      , (40681, 271,          1) /* WieldSkillType2 - Axe */
@@ -71,9 +70,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40681, 8000, 3690264865) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40681,  1528,      2) 
-     , (40681,  2108,      2) 
-     , (40681,  6126,      2) ;
+VALUES (40681,  1528,      2)  /* FrostBane6 */
+     , (40681,  2108,      2)  /* Impenetrability7 */
+     , (40681,  6126,      2)  /* CantripSummoningProwess2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40681, 67114456, 128, 8)

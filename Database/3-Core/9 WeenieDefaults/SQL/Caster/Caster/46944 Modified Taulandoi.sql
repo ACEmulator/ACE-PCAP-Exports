@@ -66,9 +66,8 @@ VALUES (46944, 8000, 3710807927) /* PCAPRecordedObjectIID */
      , (46944, 8008, 1343477230) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46944,  2784,      2) 
-     , (46944,  4637,      2) 
-     , (46944,  4715,      2) ;
+VALUES (46944,  4637,      2)  /* WarMagicMasteryOther8 */
+     , (46944,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46944, 67111919, 0, 0);

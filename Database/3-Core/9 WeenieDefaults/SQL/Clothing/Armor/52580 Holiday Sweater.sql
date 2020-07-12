@@ -54,11 +54,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52580, 8000, 2461720507) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52580,  4465,      2) 
-     , (52580,  6055,      2) 
-     , (52580,  6083,      2) 
-     , (52580,  6101,      2) 
-     , (52580,  6104,      2) ;
+VALUES (52580,  4465,      2)  /* ColdProtectionOther8 */
+     , (52580,  6055,      2)  /* CantripInvulnerability4 */
+     , (52580,  6083,      2)  /* CantripFrostWard4 */
+     , (52580,  6101,      2)  /* CantripWillpower4 */
+     , (52580,  6104,      2)  /* CantripEndurance4 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (52580, 0, 16797170)

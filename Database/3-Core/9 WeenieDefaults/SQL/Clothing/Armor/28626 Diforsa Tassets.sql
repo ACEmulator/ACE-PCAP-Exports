@@ -19,9 +19,7 @@ VALUES (28626,   1,          2) /* ItemType - Armor */
      , (28626, 109,        163) /* ItemDifficulty */
      , (28626, 110,          0) /* ItemAllegianceRankLimit */
      , (28626, 115,        187) /* ItemSkillLevelLimit */
-     , (28626, 131,         60) /* MaterialType - Gold */
-     , (28626, 172,          1) /* AppraisalLongDescDecoration */
-     , (28626, 176,          7) /* AppraisalItemSkill */;
+     , (28626, 131,         60) /* MaterialType - Gold */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28626,  22, True ) /* Inscribable */
@@ -50,6 +48,7 @@ VALUES (28626,   1,   33559335) /* Setup */
      , (28626,   6,   67108990) /* PaletteBase */
      , (28626,   8,  100686158) /* Icon */
      , (28626,  22,  872415275) /* PhysicsEffectTable */
+     , (28626,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (28626, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28626, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28626, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
@@ -58,10 +57,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28626, 8000, 3686232115) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28626,  1485,      2) 
-     , (28626,  1498,      2) 
-     , (28626,  1539,      2) 
-     , (28626,  2560,      2) ;
+VALUES (28626,  1485,      2)  /* Impenetrability5 */
+     , (28626,  1498,      2)  /* AcidBane6 */
+     , (28626,  1539,      2)  /* LightningBane5 */
+     , (28626,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28626, 67116224, 136, 16);

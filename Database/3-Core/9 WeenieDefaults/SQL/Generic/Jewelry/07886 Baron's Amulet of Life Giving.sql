@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7886, 8000, 3673966878) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7886,  1313,      2) 
-     , (7886,  1997,      2) ;
+VALUES (7886,  1313,      2)  /* ArmorOther2 */
+     , (7886,  1997,      2)  /* LifeGiver */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7886, 0, 83886719, 83886719);

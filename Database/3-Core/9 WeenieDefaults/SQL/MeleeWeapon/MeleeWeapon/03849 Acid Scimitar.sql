@@ -23,7 +23,6 @@ VALUES (3849,   1,          1) /* ItemType - MeleeWeapon */
      , (3849, 158,          2) /* WieldRequirements - RawSkill */
      , (3849, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3849, 160,        300) /* WieldDifficulty */
-     , (3849, 172,          1) /* AppraisalLongDescDecoration */
      , (3849, 353,          2) /* WeaponType - Sword */
      , (3849, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (3849, 8041,        101) /* PCAPRecordedPlacement - Resting */;

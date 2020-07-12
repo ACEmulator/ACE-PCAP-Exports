@@ -52,10 +52,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25337, 8000, 3351228886) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25337,   249,      2) 
-     , (25337,   303,      2) 
-     , (25337,   878,      2) 
-     , (25337,  1312,      2) 
-     , (25337,  1485,      2) 
-     , (25337,  2550,      2) 
-     , (25337,  2686,      2) ;
+VALUES (25337,   249,      2)  /* InvulnerabilitySelf6 */
+     , (25337,   303,      2)  /* AxeMasterySelf6 */
+     , (25337,   878,      2)  /* HealingMasterySelf5 */
+     , (25337,  1312,      2)  /* ArmorSelf6 */
+     , (25337,  1485,      2)  /* Impenetrability5 */
+     , (25337,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (25337,  2686,      2)  /* ModerateAxeAptitude */;

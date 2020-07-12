@@ -57,8 +57,8 @@ VALUES (28994, 8000, 3170461111) /* PCAPRecordedObjectIID */
      , (28994, 8008, 1343349634) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28994,   248,      2) 
-     , (28994,   616,      2) 
-     , (28994,   640,      2) 
-     , (28994,  1354,      2) 
-     , (28994,  1479,      2) ;
+VALUES (28994,   248,      2)  /* InvulnerabilitySelf5 */
+     , (28994,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (28994,   640,      2)  /* WarMagicMasteryOther6 */
+     , (28994,  1354,      2)  /* EnduranceSelf6 */
+     , (28994,  1479,      2)  /* HermeticLinkSelf5 */;

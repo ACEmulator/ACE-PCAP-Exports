@@ -21,8 +21,6 @@ VALUES (43053,   1,          2) /* ItemType - Armor */
      , (43053, 110,          0) /* ItemAllegianceRankLimit */
      , (43053, 115,        221) /* ItemSkillLevelLimit */
      , (43053, 131,         54) /* MaterialType - GromnieHide */
-     , (43053, 172,          5) /* AppraisalLongDescDecoration */
-     , (43053, 176,          7) /* AppraisalItemSkill */
      , (43053, 177,          2) /* GemCount */
      , (43053, 178,         38) /* GemType */
      , (43053, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -53,6 +51,7 @@ VALUES (43053,   1,   33554654) /* Setup */
      , (43053,   6,   67108990) /* PaletteBase */
      , (43053,   8,  100669194) /* Icon */
      , (43053,  22,  872415275) /* PhysicsEffectTable */
+     , (43053,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (43053, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43053, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43053, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -61,12 +60,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43053, 8000, 3698963596) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43053,  1486,      2) 
-     , (43053,  2092,      2) 
-     , (43053,  2104,      2) 
-     , (43053,  2203,      2) 
-     , (43053,  2558,      2) 
-     , (43053,  6127,      2) ;
+VALUES (43053,  1486,      2)  /* Impenetrability6 */
+     , (43053,  2092,      2)  /* AcidBane7 */
+     , (43053,  2104,      2)  /* FrostBane7 */
+     , (43053,  2203,      2)  /* AxeMasterySelf7 */
+     , (43053,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */
+     , (43053,  6127,      2)  /* CantripSummoningProwess1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43053, 67110385, 160, 8);

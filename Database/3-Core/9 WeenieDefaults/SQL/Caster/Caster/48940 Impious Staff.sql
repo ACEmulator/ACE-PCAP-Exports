@@ -62,13 +62,12 @@ VALUES (48940, 8000, 2153545438) /* PCAPRecordedObjectIID */
      , (48940, 8008, 1342976639) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48940,  2249,      2) 
-     , (48940,  2282,      2) 
-     , (48940,  4530,      2) 
-     , (48940,  4602,      2) 
-     , (48940,  4697,      2) 
-     , (48940,  6046,      2) 
-     , (48940,  6086,      2) ;
+VALUES (48940,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+     , (48940,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
+     , (48940,  4602,      2)  /* ManaMasterySelf8 */
+     , (48940,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
+     , (48940,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */
+     , (48940,  6086,      2)  /* CantripHermeticLink3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48940, 67111925, 0, 0);

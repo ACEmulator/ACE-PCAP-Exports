@@ -25,7 +25,6 @@ VALUES (163,   1,        256) /* ItemType - MissileWeapon */
      , (163, 115,          0) /* ItemSkillLevelLimit */
      , (163, 131,         67) /* MaterialType - Granite */
      , (163, 151,          2) /* HookType - Wall */
-     , (163, 172,          5) /* AppraisalLongDescDecoration */
      , (163, 177,          3) /* GemCount */
      , (163, 178,         44) /* GemType */
      , (163, 353,         10) /* WeaponType - Thrown */
@@ -66,7 +65,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (163, 8000, 3685782345) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (163,  1376,      2) ;
+VALUES (163,  1376,      2)  /* CoordinationSelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (163, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */

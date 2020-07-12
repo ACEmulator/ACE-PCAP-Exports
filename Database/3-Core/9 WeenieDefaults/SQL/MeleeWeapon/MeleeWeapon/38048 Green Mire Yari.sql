@@ -66,9 +66,9 @@ VALUES (38048, 8000, 2928923524) /* PCAPRecordedObjectIID */
      , (38048, 8008, 1343206897) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38048,   241,      2) 
-     , (38048,  1589,      2) 
-     , (38048,  1613,      2) ;
+VALUES (38048,   241,      2)  /* InvulnerabilityOther3 */
+     , (38048,  1589,      2)  /* HeartSeekerSelf3 */
+     , (38048,  1613,      2)  /* BloodDrinkerSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38048, 67111922, 0, 0);

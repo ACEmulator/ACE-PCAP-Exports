@@ -21,7 +21,6 @@ VALUES (8029,   1,          2) /* ItemType - Armor */
      , (8029, 114,          1) /* Attuned - Attuned */
      , (8029, 115,        190) /* ItemSkillLevelLimit */
      , (8029, 151,          2) /* HookType - Wall */
-     , (8029, 176,         48) /* AppraisalItemSkill */
      , (8029, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -53,6 +52,7 @@ VALUES (8029,   1,   33554786) /* Setup */
      , (8029,   6,   67111919) /* PaletteBase */
      , (8029,   8,  100670976) /* Icon */
      , (8029,  22,  872415275) /* PhysicsEffectTable */
+     , (8029,  37,         48) /* ItemSkillLimit - Shield */
      , (8029, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (8029, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8029, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
@@ -61,9 +61,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8029, 8000, 2484794355) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8029,   246,      2) 
-     , (8029,  2003,      2) 
-     , (8029,  2007,      2) ;
+VALUES (8029,   246,      2)  /* InvulnerabilitySelf3 */
+     , (8029,  2003,      2)  /* WarriorsLesserVitality */
+     , (8029,  2007,      2)  /* WarriorsLesserVigor */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8029, 67111923, 0, 0);

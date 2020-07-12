@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11784, 8000, 3711401995) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11784,   657,      2) 
-     , (11784,  1310,      2) ;
+VALUES (11784,   657,      2)  /* ManaMasterySelf5 */
+     , (11784,  1310,      2)  /* ArmorSelf4 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11784, 0, 83893727, 83893726)

@@ -18,7 +18,6 @@ VALUES (9084,   1,          2) /* ItemType - Armor */
      , (9084, 108,       2000) /* ItemMaxMana */
      , (9084, 109,         50) /* ItemDifficulty */
      , (9084, 115,        270) /* ItemSkillLevelLimit */
-     , (9084, 176,         34) /* AppraisalItemSkill */
      , (9084, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,6 +46,7 @@ VALUES (9084,   1,   33554644) /* Setup */
      , (9084,   6,   67108990) /* PaletteBase */
      , (9084,   8,  100671347) /* Icon */
      , (9084,  22,  872415275) /* PhysicsEffectTable */
+     , (9084,  37,         34) /* ItemSkillLimit - WarMagic */
      , (9084, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (9084, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9084, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -55,16 +55,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9084, 8000, 2156369752) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9084,   664,      2) 
-     , (9084,  2349,      2) 
-     , (9084,  2350,      2) 
-     , (9084,  2351,      2) 
-     , (9084,  2352,      2) 
-     , (9084,  2353,      2) 
-     , (9084,  2354,      2) 
-     , (9084,  2355,      2) 
-     , (9084,  2356,      2) 
-     , (9084,  2376,      2) ;
+VALUES (9084,   664,      2)  /* ManaMasteryOther6 */
+     , (9084,  2349,      2)  /* HieroWard */
+     , (9084,  2350,      2)  /* DecayDurance */
+     , (9084,  2351,      2)  /* ConsumptionDurance */
+     , (9084,  2352,      2)  /* StasisDurance */
+     , (9084,  2353,      2)  /* StimulationDurance */
+     , (9084,  2354,      2)  /* PiercingDuranceLess */
+     , (9084,  2355,      2)  /* SlashingDuranceLess */
+     , (9084,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9084,  2376,      2)  /* AnnihilationGlimpse */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9084, 67113130, 96, 12)

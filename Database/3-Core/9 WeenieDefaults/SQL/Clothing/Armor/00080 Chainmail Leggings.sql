@@ -20,8 +20,6 @@ VALUES (80,   1,          2) /* ItemType - Armor */
      , (80, 110,          0) /* ItemAllegianceRankLimit */
      , (80, 115,        200) /* ItemSkillLevelLimit */
      , (80, 131,         58) /* MaterialType - Bronze */
-     , (80, 172,          1) /* AppraisalLongDescDecoration */
-     , (80, 176,          7) /* AppraisalItemSkill */
      , (80, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,6 +48,7 @@ VALUES (80,   1,   33554856) /* Setup */
      , (80,   6,   67108990) /* PaletteBase */
      , (80,   8,  100669309) /* Icon */
      , (80,  22,  872415275) /* PhysicsEffectTable */
+     , (80,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (80, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (80, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (80, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -58,7 +57,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (80, 8000, 3690366979) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (80,  1486,      2) ;
+VALUES (80,  1486,      2)  /* Impenetrability6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (80, 67110543, 136, 16);

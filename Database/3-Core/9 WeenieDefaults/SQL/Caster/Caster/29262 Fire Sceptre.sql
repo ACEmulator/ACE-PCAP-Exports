@@ -21,7 +21,6 @@ VALUES (29262,   1,      32768) /* ItemType - Caster */
      , (29262, 159,         34) /* WieldSkillType - WarMagic */
      , (29262, 160,        375) /* WieldDifficulty */
      , (29262, 171,          7) /* NumTimesTinkered */
-     , (29262, 172,          5) /* AppraisalLongDescDecoration */
      , (29262, 177,          4) /* GemCount */
      , (29262, 178,         41) /* GemType */
      , (29262, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;

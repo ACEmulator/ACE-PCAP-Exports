@@ -18,7 +18,6 @@ VALUES (31331,   1,      32768) /* ItemType - Caster */
      , (31331, 114,          0) /* Attuned - Normal */
      , (31331, 115,        400) /* ItemSkillLevelLimit */
      , (31331, 151,          2) /* HookType - Wall */
-     , (31331, 176,         28) /* AppraisalItemSkill */
      , (31331, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,6 +37,7 @@ VALUES (31331,   1,   33559612) /* Setup */
      , (31331,   3,  536870932) /* SoundTable */
      , (31331,   8,  100687946) /* Icon */
      , (31331,  22,  872415275) /* PhysicsEffectTable */
+     , (31331,  37,         28) /* ItemSkillLimit - WeaponTinkering */
      , (31331, 8001,  271138840) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, HookType */
      , (31331, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31331, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -46,5 +46,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31331, 8000, 2982964699) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31331,  2325,      2) 
-     , (31331,  2535,      2) ;
+VALUES (31331,  2325,      2)  /* WeaponExpertiseSelf7 */
+     , (31331,  2535,      2)  /* CANTRIPWEAPONEXPERTISE2 */;

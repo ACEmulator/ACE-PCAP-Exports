@@ -26,7 +26,6 @@ VALUES (333,   1,          1) /* ItemType - MeleeWeapon */
      , (333, 115,        167) /* ItemSkillLevelLimit */
      , (333, 131,         73) /* MaterialType - Ebony */
      , (333, 151,          2) /* HookType - Wall */
-     , (333, 176,         45) /* AppraisalItemSkill */
      , (333, 353,          7) /* WeaponType - Staff */
      , (333, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (333, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -54,6 +53,7 @@ VALUES (333,   1,   33554749) /* Setup */
      , (333,   6,   67111919) /* PaletteBase */
      , (333,   8,  100669105) /* Icon */
      , (333,  22,  872415275) /* PhysicsEffectTable */
+     , (333,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (333, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (333, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (333, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -68,9 +68,9 @@ VALUES (333, 8000, 3691986464) /* PCAPRecordedObjectIID */
      , (333, 8008, 3692020559) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (333,  1352,      2) 
-     , (333,  1590,      2) 
-     , (333,  1613,      2) ;
+VALUES (333,  1352,      2)  /* EnduranceSelf4 */
+     , (333,  1590,      2)  /* HeartSeekerSelf4 */
+     , (333,  1613,      2)  /* BloodDrinkerSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (333, 67111919, 0, 0);

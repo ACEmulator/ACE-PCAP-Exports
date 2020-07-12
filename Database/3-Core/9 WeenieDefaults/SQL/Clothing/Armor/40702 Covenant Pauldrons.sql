@@ -18,7 +18,6 @@ VALUES (40702,   1,          2) /* ItemType - Armor */
      , (40702, 158,          2) /* WieldRequirements - RawSkill */
      , (40702, 159,          7) /* WieldSkillType - MissileDefense */
      , (40702, 160,        205) /* WieldDifficulty */
-     , (40702, 172,          1) /* AppraisalLongDescDecoration */
      , (40702, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

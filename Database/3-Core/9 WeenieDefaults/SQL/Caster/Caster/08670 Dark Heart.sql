@@ -19,7 +19,6 @@ VALUES (8670,   1,      32768) /* ItemType - Caster */
      , (8670, 109,        140) /* ItemDifficulty */
      , (8670, 115,        140) /* ItemSkillLevelLimit */
      , (8670, 151,          2) /* HookType - Wall */
-     , (8670, 176,         16) /* AppraisalItemSkill */
      , (8670, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,6 +43,7 @@ VALUES (8670,   1,   33556933) /* Setup */
      , (8670,   6,   67111928) /* PaletteBase */
      , (8670,   8,  100671239) /* Icon */
      , (8670,  22,  872415275) /* PhysicsEffectTable */
+     , (8670,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (8670, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (8670, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8670, 8005,     432289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame, Translucency */
@@ -58,9 +58,9 @@ VALUES (8670, 8000, 3659722288) /* PCAPRecordedObjectIID */
      , (8670, 8008, 1342526608) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8670,   216,      2) 
-     , (8670,  2007,      2) 
-     , (8670,  2011,      2) ;
+VALUES (8670,   216,      2)  /* ManaRenewalSelf5 */
+     , (8670,  2007,      2)  /* WarriorsLesserVigor */
+     , (8670,  2011,      2)  /* WizardsLesserIntellect */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8670, 67111927, 0, 0);

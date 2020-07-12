@@ -19,7 +19,6 @@ VALUES (41487,   1,          8) /* ItemType - Jewelry */
      , (41487, 110,          0) /* ItemAllegianceRankLimit */
      , (41487, 115,          0) /* ItemSkillLevelLimit */
      , (41487, 131,         16) /* MaterialType - BlackOpal */
-     , (41487, 172,          5) /* AppraisalLongDescDecoration */
      , (41487, 177,          1) /* GemCount */
      , (41487, 178,         28) /* GemType */
      , (41487, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,8 +49,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41487, 8000, 3682417220) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41487,  1069,      2) 
-     , (41487,  2554,      2) ;
+VALUES (41487,  1069,      2)  /* LightningProtectionSelf4 */
+     , (41487,  2554,      2)  /* CANTRIPLEADERSHIP1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41487, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */

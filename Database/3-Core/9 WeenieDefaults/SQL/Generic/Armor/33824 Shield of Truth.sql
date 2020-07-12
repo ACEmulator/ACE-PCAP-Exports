@@ -57,10 +57,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33824, 8000, 2174247897) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33824,  2585,      2) 
-     , (33824,  2589,      2) 
-     , (33824,  2590,      2) 
-     , (33824,  2595,      2) ;
+VALUES (33824,  2585,      2)  /* CANTRIPACIDBANE2 */
+     , (33824,  2589,      2)  /* CANTRIPFLAMEBANE2 */
+     , (33824,  2590,      2)  /* CANTRIPFROSTBANE2 */
+     , (33824,  2595,      2)  /* CANTRIPSTORMBANE2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33824, 67111922, 0, 0);

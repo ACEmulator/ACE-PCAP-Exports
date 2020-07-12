@@ -59,17 +59,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37113, 8000, 2461841157) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37113,  2350,      2) 
-     , (37113,  2351,      2) 
-     , (37113,  2352,      2) 
-     , (37113,  2353,      2) 
-     , (37113,  2550,      2) 
-     , (37113,  2580,      2) 
-     , (37113,  2960,      2) 
-     , (37113,  2961,      2) 
-     , (37113,  2962,      2) 
-     , (37113,  4059,      2) 
-     , (37113,  4062,      2) ;
+VALUES (37113,  2350,      2)  /* DecayDurance */
+     , (37113,  2351,      2)  /* ConsumptionDurance */
+     , (37113,  2352,      2)  /* StasisDurance */
+     , (37113,  2353,      2)  /* StimulationDurance */
+     , (37113,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (37113,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (37113,  2960,      2)  /* BludgeoningDurance */
+     , (37113,  2961,      2)  /* PiercingDurance */
+     , (37113,  2962,      2)  /* SlashingDurance */
+     , (37113,  4059,      2)  /* EnduranceOtherIncantation */
+     , (37113,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (37113, 0, 83887064, 83897832);

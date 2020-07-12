@@ -23,7 +23,6 @@ VALUES (31770,   1,          1) /* ItemType - MeleeWeapon */
      , (31770, 158,          2) /* WieldRequirements - RawSkill */
      , (31770, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31770, 160,        325) /* WieldDifficulty */
-     , (31770, 172,          5) /* AppraisalLongDescDecoration */
      , (31770, 177,          3) /* GemCount */
      , (31770, 178,         47) /* GemType */
      , (31770, 353,          3) /* WeaponType - Axe */

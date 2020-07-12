@@ -21,8 +21,6 @@ VALUES (6046,   1,          2) /* ItemType - Armor */
      , (6046, 110,          0) /* ItemAllegianceRankLimit */
      , (6046, 115,        184) /* ItemSkillLevelLimit */
      , (6046, 131,         57) /* MaterialType - Brass */
-     , (6046, 172,          1) /* AppraisalLongDescDecoration */
-     , (6046, 176,          7) /* AppraisalItemSkill */
      , (6046, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,6 +49,7 @@ VALUES (6046,   1,   33554854) /* Setup */
      , (6046,   6,   67108990) /* PaletteBase */
      , (6046,   8,  100670433) /* Icon */
      , (6046,  22,  872415275) /* PhysicsEffectTable */
+     , (6046,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (6046, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (6046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6046, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -63,8 +62,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6046, 8000, 3446430091) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6046,  1486,      2) 
-     , (6046,  1574,      2) ;
+VALUES (6046,  1486,      2)  /* Impenetrability6 */
+     , (6046,  1574,      2)  /* PiercingBane6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6046, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */

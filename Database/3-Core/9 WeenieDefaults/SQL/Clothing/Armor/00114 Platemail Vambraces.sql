@@ -21,7 +21,6 @@ VALUES (114,   1,          2) /* ItemType - Armor */
      , (114, 110,          0) /* ItemAllegianceRankLimit */
      , (114, 115,          0) /* ItemSkillLevelLimit */
      , (114, 131,         58) /* MaterialType - Bronze */
-     , (114, 172,          5) /* AppraisalLongDescDecoration */
      , (114, 177,          2) /* GemCount */
      , (114, 178,         33) /* GemType */
      , (114, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,8 +59,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (114, 8000, 3701088717) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (114,   277,      2) 
-     , (114,  1485,      2) ;
+VALUES (114,   277,      2)  /* MagicResistanceSelf4 */
+     , (114,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (114, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

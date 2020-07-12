@@ -19,7 +19,6 @@ VALUES (31820,   1,      32768) /* ItemType - Caster */
      , (31820, 158,          2) /* WieldRequirements - RawSkill */
      , (31820, 159,         34) /* WieldSkillType - WarMagic */
      , (31820, 160,        310) /* WieldDifficulty */
-     , (31820, 172,          5) /* AppraisalLongDescDecoration */
      , (31820, 177,          1) /* GemCount */
      , (31820, 178,         22) /* GemType */
      , (31820, 8041,        101) /* PCAPRecordedPlacement - Resting */;

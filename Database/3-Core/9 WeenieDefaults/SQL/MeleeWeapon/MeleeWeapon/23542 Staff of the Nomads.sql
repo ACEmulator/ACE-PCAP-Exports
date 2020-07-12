@@ -60,11 +60,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23542, 8000, 2981038678) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23542,   273,      2) 
-     , (23542,   321,      2) 
-     , (23542,   993,      2) 
-     , (23542,  1317,      2) 
-     , (23542,  1360,      2) 
-     , (23542,  1384,      2) 
-     , (23542,  1616,      2) 
-     , (23542,  2009,      2) ;
+VALUES (23542,   273,      2)  /* MagicResistanceOther6 */
+     , (23542,   321,      2)  /* DaggerMasteryOther6 */
+     , (23542,   993,      2)  /* SprintOther6 */
+     , (23542,  1317,      2)  /* ArmorOther6 */
+     , (23542,  1360,      2)  /* EnduranceOther6 */
+     , (23542,  1384,      2)  /* CoordinationOther6 */
+     , (23542,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (23542,  2009,      2)  /* WarriorsGreaterVigor */;

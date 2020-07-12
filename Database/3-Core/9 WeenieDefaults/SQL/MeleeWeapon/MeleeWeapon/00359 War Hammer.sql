@@ -29,8 +29,6 @@ VALUES (359,   1,          1) /* ItemType - MeleeWeapon */
      , (359, 158,          2) /* WieldRequirements - RawSkill */
      , (359, 159,         45) /* WieldSkillType - LightWeapons */
      , (359, 160,        300) /* WieldDifficulty */
-     , (359, 172,          5) /* AppraisalLongDescDecoration */
-     , (359, 176,         45) /* AppraisalItemSkill */
      , (359, 177,          2) /* GemCount */
      , (359, 178,         41) /* GemType */
      , (359, 353,          3) /* WeaponType - Axe */
@@ -59,6 +57,7 @@ VALUES (359,   1,   33554766) /* Setup */
      , (359,   6,   67111919) /* PaletteBase */
      , (359,   8,  100669066) /* Icon */
      , (359,  22,  872415275) /* PhysicsEffectTable */
+     , (359,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (359, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (359, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -73,8 +72,8 @@ VALUES (359, 8000, 2155136957) /* PCAPRecordedObjectIID */
      , (359, 8008, 2087358503) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (359,  1591,      2) 
-     , (359,  1615,      2) ;
+VALUES (359,  1591,      2)  /* HeartSeekerSelf5 */
+     , (359,  1615,      2)  /* BloodDrinkerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (359, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

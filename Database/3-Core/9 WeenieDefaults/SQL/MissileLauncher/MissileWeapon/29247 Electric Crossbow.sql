@@ -29,8 +29,6 @@ VALUES (29247,   1,        256) /* ItemType - MissileWeapon */
      , (29247, 158,          2) /* WieldRequirements - RawSkill */
      , (29247, 159,         47) /* WieldSkillType - MissileWeapons */
      , (29247, 160,        335) /* WieldDifficulty */
-     , (29247, 172,          5) /* AppraisalLongDescDecoration */
-     , (29247, 176,         47) /* AppraisalItemSkill */
      , (29247, 177,          4) /* GemCount */
      , (29247, 178,         38) /* GemType */
      , (29247, 204,          9) /* ElementalDamageBonus */
@@ -62,6 +60,7 @@ VALUES (29247,   1,   33559238) /* Setup */
      , (29247,   6,   67115373) /* PaletteBase */
      , (29247,   8,  100677439) /* Icon */
      , (29247,  22,  872415275) /* PhysicsEffectTable */
+     , (29247,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29247, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (29247, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29247, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -70,11 +69,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29247, 8000, 2659950934) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29247,  1627,      2) 
-     , (29247,  2096,      2) 
-     , (29247,  2572,      2) 
-     , (29247,  2582,      2) 
-     , (29247,  2608,      2) ;
+VALUES (29247,  1627,      2)  /* SwiftKillerSelf6 */
+     , (29247,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (29247,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (29247,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (29247,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29247, 67115368, 0, 0);

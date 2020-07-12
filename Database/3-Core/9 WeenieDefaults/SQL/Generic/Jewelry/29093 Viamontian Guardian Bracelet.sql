@@ -43,9 +43,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29093, 8000, 2981544780) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29093,    24,      2) 
-     , (29093,   165,      2) 
-     , (29093,   982,      2) ;
+VALUES (29093,    24,      2)  /* ArmorSelf1 */
+     , (29093,   165,      2)  /* RegenerationSelf1 */
+     , (29093,   982,      2)  /* SprintSelf1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29093, 67111919, 0, 0);

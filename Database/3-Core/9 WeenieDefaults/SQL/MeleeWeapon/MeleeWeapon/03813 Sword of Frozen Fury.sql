@@ -25,7 +25,6 @@ VALUES (3813,   1,          1) /* ItemType - MeleeWeapon */
      , (3813, 160,        400) /* WieldDifficulty */
      , (3813, 166,         14) /* SlayerCreatureType - Undead */
      , (3813, 171,         10) /* NumTimesTinkered */
-     , (3813, 172,          7) /* AppraisalLongDescDecoration */
      , (3813, 177,          3) /* GemCount */
      , (3813, 178,         39) /* GemType */
      , (3813, 179,        128) /* ImbuedEffect - ColdRending */

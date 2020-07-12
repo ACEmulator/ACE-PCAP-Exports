@@ -23,7 +23,6 @@ VALUES (45109,   1,          1) /* ItemType - MeleeWeapon */
      , (45109, 158,          2) /* WieldRequirements - RawSkill */
      , (45109, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (45109, 160,        325) /* WieldDifficulty */
-     , (45109, 172,          1) /* AppraisalLongDescDecoration */
      , (45109, 353,          2) /* WeaponType - Sword */
      , (45109, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (45109, 8041,        101) /* PCAPRecordedPlacement - Resting */;

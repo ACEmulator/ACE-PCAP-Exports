@@ -18,7 +18,6 @@ VALUES (25583,   1,      32768) /* ItemType - Caster */
      , (25583, 108,       2000) /* ItemMaxMana */
      , (25583, 115,        285) /* ItemSkillLevelLimit */
      , (25583, 151,          2) /* HookType - Wall */
-     , (25583, 176,         34) /* AppraisalItemSkill */
      , (25583, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,6 +41,7 @@ VALUES (25583,   1,   33558500) /* Setup */
      , (25583,   6,   67111919) /* PaletteBase */
      , (25583,   8,  100675046) /* Icon */
      , (25583,  22,  872415275) /* PhysicsEffectTable */
+     , (25583,  37,         34) /* ItemSkillLimit - WarMagic */
      , (25583, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (25583, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25583, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -56,9 +56,9 @@ VALUES (25583, 8000, 2149388836) /* PCAPRecordedObjectIID */
      , (25583, 8008, 1343473851) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25583,   211,      2) 
-     , (25583,  2569,      2) 
-     , (25583,  2627,      2) ;
+VALUES (25583,   211,      2)  /* ManaRenewalOther6 */
+     , (25583,  2569,      2)  /* CANTRIPWARMAGICAPTITUDE1 */
+     , (25583,  2627,      2)  /* CANTRIPMANAGAIN1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25583, 67111919, 0, 0);

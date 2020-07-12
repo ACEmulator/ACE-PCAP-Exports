@@ -24,8 +24,6 @@ VALUES (38482,   1,          2) /* ItemType - Armor */
      , (38482, 158,          9) /* WieldRequirements - IntStat */
      , (38482, 159,        289) /* WieldSkillType */
      , (38482, 160,          1) /* WieldDifficulty */
-     , (38482, 172,          5) /* AppraisalLongDescDecoration */
-     , (38482, 176,          7) /* AppraisalItemSkill */
      , (38482, 177,          2) /* GemCount */
      , (38482, 178,         23) /* GemType */
      , (38482, 265,         30) /* EquipmentSetId - SocietyArmor */
@@ -57,6 +55,7 @@ VALUES (38482,   1,   33554648) /* Setup */
      , (38482,   3,  536870932) /* SoundTable */
      , (38482,   8,  100688355) /* Icon */
      , (38482,  22,  872415275) /* PhysicsEffectTable */
+     , (38482,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (38482, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38482, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38482, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -69,12 +68,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38482, 8000, 2449261859) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38482,  2092,      2) 
-     , (38482,  2098,      2) 
-     , (38482,  2104,      2) 
-     , (38482,  2207,      2) 
-     , (38482,  4407,      2) 
-     , (38482,  4700,      2) ;
+VALUES (38482,  2092,      2)  /* AcidBane7 */
+     , (38482,  2098,      2)  /* BludgeonBane7 */
+     , (38482,  2104,      2)  /* FrostBane7 */
+     , (38482,  2207,      2)  /* BowMasterySelf7 */
+     , (38482,  4407,      2)  /* Impenetrability8 */
+     , (38482,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38482, 0, 83894333, 83897934);

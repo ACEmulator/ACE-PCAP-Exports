@@ -25,8 +25,6 @@ VALUES (40675,   1,          2) /* ItemType - Armor */
      , (40675, 158,          2) /* WieldRequirements - RawSkill */
      , (40675, 159,          7) /* WieldSkillType - MissileDefense */
      , (40675, 160,        315) /* WieldDifficulty */
-     , (40675, 172,          5) /* AppraisalLongDescDecoration */
-     , (40675, 176,          7) /* AppraisalItemSkill */
      , (40675, 177,          2) /* GemCount */
      , (40675, 178,         22) /* GemType */
      , (40675, 270,          7) /* WieldRequirements2 - Level */
@@ -60,6 +58,7 @@ VALUES (40675,   1,   33554641) /* Setup */
      , (40675,   6,   67108990) /* PaletteBase */
      , (40675,   8,  100674525) /* Icon */
      , (40675,  22,  872415275) /* PhysicsEffectTable */
+     , (40675,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (40675, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40675, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40675, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -68,13 +67,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40675, 8000, 2626658686) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40675,  2092,      2) 
-     , (40675,  2104,      2) 
-     , (40675,  2113,      2) 
-     , (40675,  2590,      2) 
-     , (40675,  4401,      2) 
-     , (40675,  4407,      2) 
-     , (40675,  6123,      2) ;
+VALUES (40675,  2092,      2)  /* AcidBane7 */
+     , (40675,  2104,      2)  /* FrostBane7 */
+     , (40675,  2113,      2)  /* PiercingBane7 */
+     , (40675,  2590,      2)  /* CANTRIPFROSTBANE2 */
+     , (40675,  4401,      2)  /* FlameBane8 */
+     , (40675,  4407,      2)  /* Impenetrability8 */
+     , (40675,  6123,      2)  /* SummoningMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40675, 67116572, 108, 8)

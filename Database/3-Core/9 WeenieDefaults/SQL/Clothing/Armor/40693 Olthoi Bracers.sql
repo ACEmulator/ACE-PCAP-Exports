@@ -25,7 +25,6 @@ VALUES (40693,   1,          2) /* ItemType - Armor */
      , (40693, 158,          2) /* WieldRequirements - RawSkill */
      , (40693, 159,          6) /* WieldSkillType - MeleeDefense */
      , (40693, 160,        350) /* WieldDifficulty */
-     , (40693, 172,          5) /* AppraisalLongDescDecoration */
      , (40693, 177,          2) /* GemCount */
      , (40693, 178,         26) /* GemType */
      , (40693, 265,         28) /* EquipmentSetId - Coldproof */
@@ -68,11 +67,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40693, 8000, 2720483346) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40693,   951,      2) 
-     , (40693,  1486,      2) 
-     , (40693,  2094,      2) 
-     , (40693,  2513,      2) 
-     , (40693,  4712,      2) ;
+VALUES (40693,   951,      2)  /* FealtySelf6 */
+     , (40693,  1486,      2)  /* Impenetrability6 */
+     , (40693,  2094,      2)  /* BladeBane7 */
+     , (40693,  2513,      2)  /* CANTRIPHEALINGPROWESS2 */
+     , (40693,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40693, 67116577, 108, 8)

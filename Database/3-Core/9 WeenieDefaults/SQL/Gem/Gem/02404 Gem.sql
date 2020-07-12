@@ -15,7 +15,6 @@ VALUES (2404,   1,       2048) /* ItemType - Gem */
      , (2404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2404, 105,          8) /* ItemWorkmanship */
      , (2404, 131,         26) /* MaterialType - ImperialTopaz */
-     , (2404, 172,          1) /* AppraisalLongDescDecoration */
      , (2404, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

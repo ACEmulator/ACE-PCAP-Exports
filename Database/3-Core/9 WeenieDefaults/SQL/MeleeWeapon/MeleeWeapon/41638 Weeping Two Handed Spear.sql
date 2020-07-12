@@ -73,4 +73,4 @@ VALUES (41638, 8000, 2237242397) /* PCAPRecordedObjectIID */
      , (41638, 8008, 1343270995) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41638,  5074,      2) ;
+VALUES (41638,  5074,      2)  /* ModerateTwoHandedAptitude */;

@@ -51,11 +51,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34708, 8000, 2210356821) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34708,  2614,      2) 
-     , (34708,  3983,      2) 
-     , (34708,  4071,      2) 
-     , (34708,  4072,      2) 
-     , (34708,  4076,      2) ;
+VALUES (34708,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
+     , (34708,  3983,      2)  /* RejuvenationOtherIncantation */
+     , (34708,  4071,      2)  /* EmpyreanStaminaAbsorbtion */
+     , (34708,  4072,      2)  /* AurlanaasResolve */
+     , (34708,  4076,      2)  /* EmpyreanEnlightenment */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34708, 67111919, 0, 0);

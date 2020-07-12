@@ -47,5 +47,5 @@ VALUES (30864, 8000, 3358749321) /* PCAPRecordedObjectIID */
      , (30864, 8008, 1343176604) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30864,   658,      2) 
-     , (30864,  2569,      2) ;
+VALUES (30864,   658,      2)  /* ManaMasterySelf6 */
+     , (30864,  2569,      2)  /* CANTRIPWARMAGICAPTITUDE1 */;

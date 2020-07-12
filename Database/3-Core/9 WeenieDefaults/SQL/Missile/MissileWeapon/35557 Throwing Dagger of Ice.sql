@@ -79,5 +79,5 @@ VALUES (35557, 8000, 3622459297) /* PCAPRecordedObjectIID */
      , (35557, 8008, 1344174979) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35557,  2206,      2) 
-     , (35557,  2505,      2) ;
+VALUES (35557,  2206,      2)  /* BowMasteryOther7 */
+     , (35557,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;

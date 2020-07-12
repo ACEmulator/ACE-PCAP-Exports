@@ -25,7 +25,6 @@ VALUES (243,   1,        256) /* ItemType - MissileWeapon */
      , (243, 115,          0) /* ItemSkillLevelLimit */
      , (243, 131,          1) /* MaterialType - Ceramic */
      , (243, 151,          2) /* HookType - Wall */
-     , (243, 172,          5) /* AppraisalLongDescDecoration */
      , (243, 177,          4) /* GemCount */
      , (243, 178,         42) /* GemType */
      , (243, 353,         10) /* WeaponType - Thrown */
@@ -66,7 +65,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (243, 8000, 3685786652) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (243,   706,      2) ;
+VALUES (243,   706,      2)  /* ArmorExpertiseSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (243, 67111919, 0, 0);

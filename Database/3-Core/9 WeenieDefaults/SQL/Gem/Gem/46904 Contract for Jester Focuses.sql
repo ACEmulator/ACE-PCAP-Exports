@@ -34,7 +34,8 @@ VALUES (46904,   1,   33557625) /* Setup */
      , (46904, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (46904, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (46904, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (46904, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+     , (46904, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
+     , (46904, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46904, 8000,      46904) /* PCAPRecordedObjectIID */;

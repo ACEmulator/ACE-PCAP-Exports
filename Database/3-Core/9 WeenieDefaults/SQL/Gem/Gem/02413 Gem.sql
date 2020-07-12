@@ -23,7 +23,6 @@ VALUES (2413,   1,       2048) /* ItemType - Gem */
      , (2413, 115,          0) /* ItemSkillLevelLimit */
      , (2413, 117,        300) /* ItemManaCost */
      , (2413, 131,         10) /* MaterialType - Agate */
-     , (2413, 172,          1) /* AppraisalLongDescDecoration */
      , (2413, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -55,7 +54,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2413, 8000, 3685762510) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2413,  1401,      2) ;
+VALUES (2413,  1401,      2)  /* QuicknessSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2413, 67111920, 0, 0);

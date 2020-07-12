@@ -26,7 +26,6 @@ VALUES (43381,   1,      32768) /* ItemType - Caster */
      , (43381, 158,          2) /* WieldRequirements - RawSkill */
      , (43381, 159,         43) /* WieldSkillType - VoidMagic */
      , (43381, 160,        290) /* WieldDifficulty */
-     , (43381, 172,          5) /* AppraisalLongDescDecoration */
      , (43381, 177,          2) /* GemCount */
      , (43381, 178,         49) /* GemType */
      , (43381, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -68,9 +67,9 @@ VALUES (43381, 8000, 2377587232) /* PCAPRecordedObjectIID */
      , (43381, 8008, 1343395721) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43381,  1480,      2) 
-     , (43381,  2249,      2) 
-     , (43381,  5383,      2) ;
+VALUES (43381,  1480,      2)  /* HermeticLinkSelf6 */
+     , (43381,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+     , (43381,  5383,      2)  /* CurseWeakness5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43381, 67115359, 0, 56)

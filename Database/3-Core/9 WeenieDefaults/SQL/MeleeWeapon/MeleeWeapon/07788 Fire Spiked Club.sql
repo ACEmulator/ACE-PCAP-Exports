@@ -20,7 +20,6 @@ VALUES (7788,   1,          1) /* ItemType - MeleeWeapon */
      , (7788, 105,          4) /* ItemWorkmanship */
      , (7788, 131,         76) /* MaterialType - Pine */
      , (7788, 151,          2) /* HookType - Wall */
-     , (7788, 172,          1) /* AppraisalLongDescDecoration */
      , (7788, 353,          4) /* WeaponType - Mace */
      , (7788, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (7788, 8041,        101) /* PCAPRecordedPlacement - Resting */;

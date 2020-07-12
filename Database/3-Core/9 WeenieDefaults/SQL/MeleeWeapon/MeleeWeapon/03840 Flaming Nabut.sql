@@ -24,7 +24,6 @@ VALUES (3840,   1,          1) /* ItemType - MeleeWeapon */
      , (3840, 159,         45) /* WieldSkillType - LightWeapons */
      , (3840, 160,        325) /* WieldDifficulty */
      , (3840, 171,          6) /* NumTimesTinkered */
-     , (3840, 172,          7) /* AppraisalLongDescDecoration */
      , (3840, 177,          3) /* GemCount */
      , (3840, 178,         34) /* GemType */
      , (3840, 179,          1) /* ImbuedEffect - CriticalStrike */

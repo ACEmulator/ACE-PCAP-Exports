@@ -25,7 +25,6 @@ VALUES (254,   1,        256) /* ItemType - MissileWeapon */
      , (254, 115,          0) /* ItemSkillLevelLimit */
      , (254, 131,          1) /* MaterialType - Ceramic */
      , (254, 151,          1) /* HookType - Floor */
-     , (254, 172,          1) /* AppraisalLongDescDecoration */
      , (254, 353,         10) /* WeaponType - Thrown */
      , (254, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
@@ -63,7 +62,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (254, 8000, 3685985713) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (254,   927,      2) ;
+VALUES (254,   927,      2)  /* LockpickMasterySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (254, 67111926, 0, 0);

@@ -29,8 +29,6 @@ VALUES (45403,   1,          1) /* ItemType - MeleeWeapon */
      , (45403, 158,          2) /* WieldRequirements - RawSkill */
      , (45403, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45403, 160,        300) /* WieldDifficulty */
-     , (45403, 172,          5) /* AppraisalLongDescDecoration */
-     , (45403, 176,         46) /* AppraisalItemSkill */
      , (45403, 177,          1) /* GemCount */
      , (45403, 178,         44) /* GemType */
      , (45403, 353,          2) /* WeaponType - Sword */
@@ -60,6 +58,7 @@ VALUES (45403,   1,   33555778) /* Setup */
      , (45403,   3,  536870932) /* SoundTable */
      , (45403,   8,  100668995) /* Icon */
      , (45403,  22,  872415275) /* PhysicsEffectTable */
+     , (45403,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45403,  52,  100676436) /* IconUnderlay */
      , (45403, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45403, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -70,7 +69,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45403, 8000, 2173726217) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45403,  1614,      2) ;
+VALUES (45403,  1614,      2)  /* BloodDrinkerSelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45403, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

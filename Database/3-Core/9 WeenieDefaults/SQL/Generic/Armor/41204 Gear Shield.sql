@@ -69,9 +69,9 @@ VALUES (41204, 8000, 2183220850) /* PCAPRecordedObjectIID */
      , (41204, 8008, 1343288375) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41204,  4391,      2) 
-     , (41204,  4407,      2) 
-     , (41204,  4409,      2) 
-     , (41204,  4558,      2) 
-     , (41204,  4560,      2) 
-     , (41204,  4667,      2) ;
+VALUES (41204,  4391,      2)  /* AcidBane8 */
+     , (41204,  4407,      2)  /* Impenetrability8 */
+     , (41204,  4409,      2)  /* LightningBane8 */
+     , (41204,  4558,      2)  /* ImpregnabilitySelf8 */
+     , (41204,  4560,      2)  /* InvulnerabilitySelf8 */
+     , (41204,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */;

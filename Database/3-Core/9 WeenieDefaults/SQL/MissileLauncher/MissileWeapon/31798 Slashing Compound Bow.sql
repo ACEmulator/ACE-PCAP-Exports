@@ -24,7 +24,6 @@ VALUES (31798,   1,        256) /* ItemType - MissileWeapon */
      , (31798, 158,          2) /* WieldRequirements - RawSkill */
      , (31798, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31798, 160,        335) /* WieldDifficulty */
-     , (31798, 172,          1) /* AppraisalLongDescDecoration */
      , (31798, 204,          6) /* ElementalDamageBonus */
      , (31798, 353,          8) /* WeaponType - Bow */
      , (31798, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;

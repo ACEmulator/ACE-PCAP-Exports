@@ -26,7 +26,6 @@ VALUES (29265,   1,      32768) /* ItemType - Caster */
      , (29265, 158,          2) /* WieldRequirements - RawSkill */
      , (29265, 159,         34) /* WieldSkillType - WarMagic */
      , (29265, 160,        355) /* WieldDifficulty */
-     , (29265, 172,          5) /* AppraisalLongDescDecoration */
      , (29265, 177,          3) /* GemCount */
      , (29265, 178,         21) /* GemType */
      , (29265, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -68,9 +67,9 @@ VALUES (29265, 8000, 3010176367) /* PCAPRecordedObjectIID */
      , (29265, 8008, 1343484598) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29265,  2117,      2) 
-     , (29265,  2140,      2) 
-     , (29265,  2502,      2) ;
+VALUES (29265,  2117,      2)  /* HermeticLinkSelf7 */
+     , (29265,  2140,      2)  /* LightningBolt7 */
+     , (29265,  2502,      2)  /* CANTRIPARCANEPROWESS2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29265, 67111924, 0, 0);

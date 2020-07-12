@@ -18,7 +18,6 @@ VALUES (5915,   1,          4) /* ItemType - Clothing */
      , (5915, 108,        416) /* ItemMaxMana */
      , (5915, 109,        158) /* ItemDifficulty */
      , (5915, 115,        190) /* ItemSkillLevelLimit */
-     , (5915, 176,         31) /* AppraisalItemSkill */
      , (5915, 188,          1) /* HeritageGroup - Aluvian */
      , (5915, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -46,6 +45,7 @@ VALUES (5915,   1,   33554854) /* Setup */
      , (5915,   6,   67108990) /* PaletteBase */
      , (5915,   8,  100670348) /* Icon */
      , (5915,  22,  872415275) /* PhysicsEffectTable */
+     , (5915,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (5915, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (5915, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5915, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -54,12 +54,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5915, 8000, 2995806743) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5915,   566,      2) 
-     , (5915,   595,      2) 
-     , (5915,   625,      2) 
-     , (5915,   649,      2) 
-     , (5915,  1453,      2) 
-     , (5915,  1484,      2) ;
+VALUES (5915,   566,      2)  /* CreatureEnchantmentMasteryOther4 */
+     , (5915,   595,      2)  /* ItemEnchantmentIneptitudeOther3 */
+     , (5915,   625,      2)  /* LifeMagicIneptitudeOther3 */
+     , (5915,   649,      2)  /* WarMagicIneptitudeOther3 */
+     , (5915,  1453,      2)  /* WillpowerOther3 */
+     , (5915,  1484,      2)  /* Impenetrability4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5915, 67110007, 96, 12)

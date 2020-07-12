@@ -29,7 +29,6 @@ VALUES (37221,   1,      32768) /* ItemType - Caster */
      , (37221, 160,        385) /* WieldDifficulty */
      , (37221, 166,        101) /* SlayerCreatureType - Anekshay */
      , (37221, 171,         10) /* NumTimesTinkered */
-     , (37221, 172,          5) /* AppraisalLongDescDecoration */
      , (37221, 177,          2) /* GemCount */
      , (37221, 178,         20) /* GemType */
      , (37221, 179,          1) /* ImbuedEffect - CriticalStrike */
@@ -89,10 +88,9 @@ VALUES (37221, 8000, 2799069576) /* PCAPRecordedObjectIID */
      , (37221, 8008, 1343842100) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37221,  2117,      2) 
-     , (37221,  4329,      2) 
-     , (37221,  4447,      2) 
-     , (37221,  4670,      2) ;
+VALUES (37221,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37221,  4329,      2)  /* WillpowerSelf8 */
+     , (37221,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37221, 67111921, 0, 0);

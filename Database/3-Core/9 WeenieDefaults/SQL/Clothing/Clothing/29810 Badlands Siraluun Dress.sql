@@ -54,11 +54,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29810, 8000, 2165796436) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29810,   957,      2) 
-     , (29810,  2014,      2) 
-     , (29810,  2262,      2) 
-     , (29810,  2546,      2) 
-     , (29810,  2554,      2) ;
+VALUES (29810,   957,      2)  /* FealtyOther6 */
+     , (29810,  2014,      2)  /* WizardsUltimateIntellect */
+     , (29810,  2262,      2)  /* LeadershipMasteryOther7 */
+     , (29810,  2546,      2)  /* CANTRIPFEALTY1 */
+     , (29810,  2554,      2)  /* CANTRIPLEADERSHIP1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29810, 67115441, 40, 120)

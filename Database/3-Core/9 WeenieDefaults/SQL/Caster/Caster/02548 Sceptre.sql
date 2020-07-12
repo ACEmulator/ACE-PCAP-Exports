@@ -21,7 +21,6 @@ VALUES (2548,   1,      32768) /* ItemType - Caster */
      , (2548, 115,          0) /* ItemSkillLevelLimit */
      , (2548, 131,         39) /* MaterialType - Sapphire */
      , (2548, 151,          2) /* HookType - Wall */
-     , (2548, 172,          5) /* AppraisalLongDescDecoration */
      , (2548, 177,          2) /* GemCount */
      , (2548, 178,         33) /* GemType */
      , (2548, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -59,11 +58,11 @@ VALUES (2548, 8000, 2147562458) /* PCAPRecordedObjectIID */
      , (2548, 8008, 1343419648) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2548,    80,      2) 
-     , (2548,   683,      2) 
-     , (2548,  1480,      2) 
-     , (2548,  2551,      2) 
-     , (2548,  2600,      2) ;
+VALUES (2548,    80,      2)  /* LightningBolt6 */
+     , (2548,   683,      2)  /* ArcaneEnlightenmentSelf6 */
+     , (2548,  1480,      2)  /* HermeticLinkSelf6 */
+     , (2548,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */
+     , (2548,  2600,      2)  /* CANTRIPDEFENDER1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2548, 67111921, 0, 0);

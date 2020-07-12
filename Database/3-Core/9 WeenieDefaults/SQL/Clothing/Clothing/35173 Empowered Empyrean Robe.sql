@@ -55,27 +55,27 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35173, 8000, 2924061638) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35173,  2350,      2) 
-     , (35173,  2351,      2) 
-     , (35173,  2352,      2) 
-     , (35173,  2353,      2) 
-     , (35173,  2377,      2) 
-     , (35173,  2378,      2) 
-     , (35173,  2380,      2) 
-     , (35173,  2623,      2) 
-     , (35173,  2624,      2) 
-     , (35173,  2625,      2) 
-     , (35173,  2959,      2) 
-     , (35173,  2960,      2) 
-     , (35173,  2961,      2) 
-     , (35173,  2962,      2) 
-     , (35173,  3977,      2) 
-     , (35173,  3978,      2) 
-     , (35173,  3979,      2) 
-     , (35173,  4059,      2) 
-     , (35173,  4060,      2) 
-     , (35173,  4061,      2) 
-     , (35173,  4062,      2) ;
+VALUES (35173,  2350,      2)  /* DecayDurance */
+     , (35173,  2351,      2)  /* ConsumptionDurance */
+     , (35173,  2352,      2)  /* StasisDurance */
+     , (35173,  2353,      2)  /* StimulationDurance */
+     , (35173,  2377,      2)  /* AnnihilationVision */
+     , (35173,  2378,      2)  /* BeastMurmur */
+     , (35173,  2380,      2)  /* InstrumentalityGrip */
+     , (35173,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
+     , (35173,  2624,      2)  /* CANTRIPMANAGAIN2 */
+     , (35173,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */
+     , (35173,  2959,      2)  /* MarkofthePriestess */
+     , (35173,  2960,      2)  /* BludgeoningDurance */
+     , (35173,  2961,      2)  /* PiercingDurance */
+     , (35173,  2962,      2)  /* SlashingDurance */
+     , (35173,  3977,      2)  /* CoordinationOtherIncantation */
+     , (35173,  3978,      2)  /* FocusOtherIncantation */
+     , (35173,  3979,      2)  /* StrengthOtherIncantation */
+     , (35173,  4059,      2)  /* EnduranceOtherIncantation */
+     , (35173,  4060,      2)  /* QuicknessOtherIncantation */
+     , (35173,  4061,      2)  /* WillpowerOtherIncantation */
+     , (35173,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35173, 67113999, 40, 40)

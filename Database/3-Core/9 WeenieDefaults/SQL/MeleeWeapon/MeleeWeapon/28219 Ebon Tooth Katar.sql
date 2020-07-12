@@ -60,10 +60,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28219, 8000, 2192074447) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28219,  1591,      2) 
-     , (28219,  1603,      2) 
-     , (28219,  1615,      2) 
-     , (28219,  1624,      2) ;
+VALUES (28219,  1591,      2)  /* HeartSeekerSelf5 */
+     , (28219,  1603,      2)  /* DefenderSelf4 */
+     , (28219,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (28219,  1624,      2)  /* SwiftKillerSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28219, 67115301, 0, 0);

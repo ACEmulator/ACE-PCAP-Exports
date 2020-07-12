@@ -52,9 +52,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28070, 8000, 2274290683) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28070,  3362,      2) 
-     , (28070,  3363,      2) 
-     , (28070,  3364,      2) ;
+VALUES (28070,  3362,      2)  /* BlessingHorn */
+     , (28070,  3363,      2)  /* BlessingScale */
+     , (28070,  3364,      2)  /* BlessingWing */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28070, 67115280, 40, 32);

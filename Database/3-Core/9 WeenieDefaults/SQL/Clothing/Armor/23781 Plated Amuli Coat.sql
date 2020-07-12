@@ -58,7 +58,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23781, 8000, 2461693251) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23781,  2610,      2) ;
+VALUES (23781,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23781, 67110000, 96, 12)

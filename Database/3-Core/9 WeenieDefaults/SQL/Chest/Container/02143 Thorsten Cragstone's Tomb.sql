@@ -40,6 +40,3 @@ VALUES (2143, 8040, 32048085, 130, -70, 0, 1, 0, 0, 0) /* PCAPRecordedLocation *
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2143, 8000, 1881051283) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2143,  1163,      2) ;

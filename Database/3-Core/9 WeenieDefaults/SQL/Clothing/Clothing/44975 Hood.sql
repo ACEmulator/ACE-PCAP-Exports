@@ -22,7 +22,6 @@ VALUES (44975,   1,          4) /* ItemType - Clothing */
      , (44975, 115,          0) /* ItemSkillLevelLimit */
      , (44975, 131,          8) /* MaterialType - Wool */
      , (44975, 151,          2) /* HookType - Wall */
-     , (44975, 172,          5) /* AppraisalLongDescDecoration */
      , (44975, 177,          1) /* GemCount */
      , (44975, 178,         21) /* GemType */
      , (44975, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -65,10 +64,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44975, 8000, 3685626530) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44975,  1552,      2) 
-     , (44975,  2108,      2) 
-     , (44975,  2277,      2) 
-     , (44975,  2548,      2) ;
+VALUES (44975,  1552,      2)  /* FlameBane6 */
+     , (44975,  2108,      2)  /* Impenetrability7 */
+     , (44975,  2277,      2)  /* MagicItemExpertiseSelf7 */
+     , (44975,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44975, 67110317, 240, 10)

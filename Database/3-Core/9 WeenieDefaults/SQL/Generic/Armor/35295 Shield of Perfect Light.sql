@@ -21,8 +21,7 @@ VALUES (35295,   1,          2) /* ItemType - Armor */
      , (35295, 151,          2) /* HookType - Wall */
      , (35295, 158,          7) /* WieldRequirements - Level */
      , (35295, 159,          1) /* WieldSkillType - Axe */
-     , (35295, 160,        140) /* WieldDifficulty */
-     , (35295, 176,         48) /* AppraisalItemSkill */;
+     , (35295, 160,        140) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35295,  22, True ) /* Inscribable */;
@@ -48,6 +47,7 @@ VALUES (35295,   1,   33560269) /* Setup */
      , (35295,   3,  536870932) /* SoundTable */
      , (35295,   8,  100689429) /* Icon */
      , (35295,  22,  872415275) /* PhysicsEffectTable */
+     , (35295,  37,         48) /* ItemSkillLimit - Shield */
      , (35295, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (35295, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35295, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
@@ -62,12 +62,12 @@ VALUES (35295, 8000, 2152666714) /* PCAPRecordedObjectIID */
      , (35295, 8008, 1343277591) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35295,  2092,      2) 
-     , (35295,  2104,      2) 
-     , (35295,  2108,      2) 
-     , (35295,  2243,      2) 
-     , (35295,  2245,      2) 
-     , (35295,  2604,      2) ;
+VALUES (35295,  2092,      2)  /* AcidBane7 */
+     , (35295,  2104,      2)  /* FrostBane7 */
+     , (35295,  2108,      2)  /* Impenetrability7 */
+     , (35295,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (35295,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (35295,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35295, 0, 83897695, 83897695);

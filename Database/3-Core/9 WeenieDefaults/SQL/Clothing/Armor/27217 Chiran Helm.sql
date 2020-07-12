@@ -15,7 +15,6 @@ VALUES (27217,   1,          2) /* ItemType - Armor */
      , (27217, 105,          9) /* ItemWorkmanship */
      , (27217, 131,         57) /* MaterialType - Brass */
      , (27217, 151,          2) /* HookType - Wall */
-     , (27217, 172,          5) /* AppraisalLongDescDecoration */
      , (27217, 177,          2) /* GemCount */
      , (27217, 178,         22) /* GemType */
      , (27217, 8041,        101) /* PCAPRecordedPlacement - Resting */;

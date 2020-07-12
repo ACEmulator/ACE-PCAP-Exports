@@ -21,8 +21,7 @@ VALUES (31396,   1,          2) /* ItemType - Armor */
      , (31396, 151,          2) /* HookType - Wall */
      , (31396, 158,          7) /* WieldRequirements - Level */
      , (31396, 159,          1) /* WieldSkillType - Axe */
-     , (31396, 160,        100) /* WieldDifficulty */
-     , (31396, 176,          6) /* AppraisalItemSkill */;
+     , (31396, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31396,  22, True ) /* Inscribable */;
@@ -47,6 +46,7 @@ VALUES (31396,   1,   33559618) /* Setup */
      , (31396,   3,  536870932) /* SoundTable */
      , (31396,   8,  100687958) /* Icon */
      , (31396,  22,  872415275) /* PhysicsEffectTable */
+     , (31396,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (31396, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (31396, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31396, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
@@ -61,10 +61,10 @@ VALUES (31396, 8000, 3672667664) /* PCAPRecordedObjectIID */
      , (31396, 8008, 1342183469) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31396,   249,      2) 
-     , (31396,  1332,      2) 
-     , (31396,  3819,      2) 
-     , (31396,  3820,      2) ;
+VALUES (31396,   249,      2)  /* InvulnerabilitySelf6 */
+     , (31396,  1332,      2)  /* StrengthSelf6 */
+     , (31396,  3819,      2)  /* ConscriptsMight */
+     , (31396,  3820,      2)  /* ConscriptsWard */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (31396, 0, 83897328, 83897328);

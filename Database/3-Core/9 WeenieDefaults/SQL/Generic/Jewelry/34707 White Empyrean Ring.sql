@@ -50,9 +50,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34707, 8000, 2316216069) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34707,  2610,      2) 
-     , (34707,  2613,      2) 
-     , (34707,  2614,      2) ;
+VALUES (34707,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
+     , (34707,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+     , (34707,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34707, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

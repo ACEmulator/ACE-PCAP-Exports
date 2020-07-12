@@ -69,8 +69,8 @@ VALUES (6966, 8000, 3422750706) /* PCAPRecordedObjectIID */
      , (6966, 8008, 1342467484) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6966,   465,      2) 
-     , (6966,  1615,      2) ;
+VALUES (6966,   465,      2)  /* BowMasteryOther5 */
+     , (6966,  1615,      2)  /* BloodDrinkerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6966, 67112871, 0, 0);

@@ -22,7 +22,6 @@ VALUES (22163,   1,          1) /* ItemType - MeleeWeapon */
      , (22163, 158,          2) /* WieldRequirements - RawSkill */
      , (22163, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (22163, 160,        350) /* WieldDifficulty */
-     , (22163, 172,          5) /* AppraisalLongDescDecoration */
      , (22163, 177,          2) /* GemCount */
      , (22163, 178,         39) /* GemType */
      , (22163, 353,          7) /* WeaponType - Staff */

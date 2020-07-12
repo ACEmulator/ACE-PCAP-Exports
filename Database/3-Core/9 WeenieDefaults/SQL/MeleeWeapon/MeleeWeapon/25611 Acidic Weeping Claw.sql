@@ -67,7 +67,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25611, 8000, 2210356781) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25611,  2694,      2) ;
+VALUES (25611,  2694,      2)  /* ModerateSwordAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25611, 67114519, 0, 0);

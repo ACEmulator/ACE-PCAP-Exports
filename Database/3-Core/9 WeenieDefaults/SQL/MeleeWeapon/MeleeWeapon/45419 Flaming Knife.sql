@@ -29,8 +29,6 @@ VALUES (45419,   1,          1) /* ItemType - MeleeWeapon */
      , (45419, 158,          2) /* WieldRequirements - RawSkill */
      , (45419, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45419, 160,        325) /* WieldDifficulty */
-     , (45419, 172,          1) /* AppraisalLongDescDecoration */
-     , (45419, 176,         46) /* AppraisalItemSkill */
      , (45419, 353,          6) /* WeaponType - Dagger */
      , (45419, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (45419, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -58,6 +56,7 @@ VALUES (45419,   1,   33555751) /* Setup */
      , (45419,   3,  536870932) /* SoundTable */
      , (45419,   8,  100668945) /* Icon */
      , (45419,  22,  872415275) /* PhysicsEffectTable */
+     , (45419,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45419, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45419, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45419, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -66,9 +65,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45419, 8000, 3691148940) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45419,  1604,      2) 
-     , (45419,  1615,      2) 
-     , (45419,  1626,      2) ;
+VALUES (45419,  1604,      2)  /* DefenderSelf5 */
+     , (45419,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (45419,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45419, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

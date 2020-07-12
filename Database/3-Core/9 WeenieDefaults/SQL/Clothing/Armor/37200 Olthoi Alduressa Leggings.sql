@@ -23,8 +23,7 @@ VALUES (37200,   1,          2) /* ItemType - Armor */
      , (37200, 131,         63) /* MaterialType - Silver */
      , (37200, 158,          7) /* WieldRequirements - Level */
      , (37200, 159,          1) /* WieldSkillType - Axe */
-     , (37200, 160,        180) /* WieldDifficulty */
-     , (37200, 172,          1) /* AppraisalLongDescDecoration */;
+     , (37200, 160,        180) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37200,  22, True ) /* Inscribable */
@@ -60,11 +59,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37200, 8000, 3485450047) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37200,  1574,      2) 
-     , (37200,  2108,      2) 
-     , (37200,  4391,      2) 
-     , (37200,  4393,      2) 
-     , (37200,  6055,      2) ;
+VALUES (37200,  1574,      2)  /* PiercingBane6 */
+     , (37200,  2108,      2)  /* Impenetrability7 */
+     , (37200,  4391,      2)  /* AcidBane8 */
+     , (37200,  4393,      2)  /* BladeBane8 */
+     , (37200,  6055,      2)  /* CantripInvulnerability4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37200, 67116552, 72, 12)

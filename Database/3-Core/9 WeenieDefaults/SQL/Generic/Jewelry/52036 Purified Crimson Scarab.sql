@@ -50,11 +50,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52036, 8000, 2153283077) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52036,  4548,      2) 
-     , (52036,  5146,      2) 
-     , (52036,  5149,      2) 
-     , (52036,  5150,      2) 
-     , (52036,  6105,      2) ;
+VALUES (52036,  4548,      2)  /* FealtySelf8 */
+     , (52036,  5146,      2)  /* TrinketHealth3 */
+     , (52036,  5149,      2)  /* TrinketMana3 */
+     , (52036,  5150,      2)  /* TrinketStamina1 */
+     , (52036,  6105,      2)  /* CantripFocus4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52036, 67111923, 0, 0);

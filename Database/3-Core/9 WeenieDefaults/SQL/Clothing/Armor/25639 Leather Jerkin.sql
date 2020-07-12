@@ -18,7 +18,6 @@ VALUES (25639,   1,          2) /* ItemType - Armor */
      , (25639, 158,          7) /* WieldRequirements - Level */
      , (25639, 159,          1) /* WieldSkillType - Axe */
      , (25639, 160,        150) /* WieldDifficulty */
-     , (25639, 172,          5) /* AppraisalLongDescDecoration */
      , (25639, 177,          4) /* GemCount */
      , (25639, 178,         21) /* GemType */
      , (25639, 8041,        101) /* PCAPRecordedPlacement - Resting */;

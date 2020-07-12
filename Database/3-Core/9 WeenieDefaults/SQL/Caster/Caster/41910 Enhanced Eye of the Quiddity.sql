@@ -52,6 +52,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41910, 8000, 2187177962) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41910,   609,      2) 
-     , (41910,  2249,      2) 
-     , (41910,  2287,      2) ;
+VALUES (41910,   609,      2)  /* LifeMagicMasterySelf5 */
+     , (41910,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+     , (41910,  2287,      2)  /* ManaMasterySelf7 */;

@@ -55,11 +55,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43197, 8000, 3706478182) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43197,  4232,      2) 
-     , (43197,  4291,      2) 
-     , (43197,  4407,      2) 
-     , (43197,  4697,      2) 
-     , (43197,  4704,      2) ;
+VALUES (43197,  4232,      2)  /* CANTRIPLEADERSHIP3 */
+     , (43197,  4291,      2)  /* ArmorSelf8 */
+     , (43197,  4407,      2)  /* Impenetrability8 */
+     , (43197,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
+     , (43197,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43197, 67116923, 240, 16);

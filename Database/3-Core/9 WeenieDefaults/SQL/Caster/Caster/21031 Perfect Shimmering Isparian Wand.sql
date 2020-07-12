@@ -24,7 +24,6 @@ VALUES (21031,   1,      32768) /* ItemType - Caster */
      , (21031, 159,          1) /* WieldSkillType - Axe */
      , (21031, 160,         50) /* WieldDifficulty */
      , (21031, 166,         62) /* SlayerCreatureType - Elemental */
-     , (21031, 176,         16) /* AppraisalItemSkill */
      , (21031, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,6 +43,7 @@ VALUES (21031,   1,   33557731) /* Setup */
      , (21031,   3,  536870932) /* SoundTable */
      , (21031,   8,  100673203) /* Icon */
      , (21031,  22,  872415275) /* PhysicsEffectTable */
+     , (21031,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (21031, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (21031, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21031, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -58,8 +58,8 @@ VALUES (21031, 8000, 3196223531) /* PCAPRecordedObjectIID */
      , (21031, 8008, 1342938221) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21031,   658,      2) 
-     , (21031,  1312,      2) 
-     , (21031,  1426,      2) 
-     , (21031,  1450,      2) 
-     , (21031,  2691,      2) ;
+VALUES (21031,   658,      2)  /* ManaMasterySelf6 */
+     , (21031,  1312,      2)  /* ArmorSelf6 */
+     , (21031,  1426,      2)  /* FocusSelf6 */
+     , (21031,  1450,      2)  /* WillpowerSelf6 */
+     , (21031,  2691,      2)  /* ModerateManaConversionProwess */;

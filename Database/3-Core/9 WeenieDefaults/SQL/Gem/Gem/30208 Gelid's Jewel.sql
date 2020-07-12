@@ -54,9 +54,6 @@ VALUES (30208, 8040, 23855548, 52.75872, -28.3301, -0.001000002, -0.2516992, 0, 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30208, 8000, 2525884415) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30208,  3692,      2) ;
-
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30208, 67111919, 0, 0);
 

@@ -19,7 +19,6 @@ VALUES (621,   1,          8) /* ItemType - Jewelry */
      , (621, 110,          0) /* ItemAllegianceRankLimit */
      , (621, 115,          0) /* ItemSkillLevelLimit */
      , (621, 131,         63) /* MaterialType - Silver */
-     , (621, 172,          1) /* AppraisalLongDescDecoration */
      , (621, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,7 +51,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (621, 8000, 3536874068) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (621,  1023,      2) ;
+VALUES (621,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (621, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */

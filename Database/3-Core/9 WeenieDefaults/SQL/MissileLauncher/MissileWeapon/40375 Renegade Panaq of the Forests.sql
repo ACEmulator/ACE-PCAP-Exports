@@ -67,9 +67,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40375, 8000, 2150136805) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40375,  2446,      2) 
-     , (40375,  2449,      2) 
-     , (40375,  2452,      2) ;
+VALUES (40375,  2446,      2)  /* GrowthGreater */
+     , (40375,  2449,      2)  /* HuntersAcumenGreater */
+     , (40375,  2452,      2)  /* ThornsGreater */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (40375, 0, 83893670, 83893669)

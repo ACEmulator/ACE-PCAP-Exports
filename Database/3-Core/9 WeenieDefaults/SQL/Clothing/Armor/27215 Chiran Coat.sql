@@ -21,7 +21,6 @@ VALUES (27215,   1,          2) /* ItemType - Armor */
      , (27215, 110,          0) /* ItemAllegianceRankLimit */
      , (27215, 115,          0) /* ItemSkillLevelLimit */
      , (27215, 131,          6) /* MaterialType - Silk */
-     , (27215, 172,          5) /* AppraisalLongDescDecoration */
      , (27215, 177,          3) /* GemCount */
      , (27215, 178,         22) /* GemType */
      , (27215, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,12 +59,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27215, 8000, 2174519426) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27215,  1516,      2) 
-     , (27215,  2108,      2) 
-     , (27215,  2570,      2) 
-     , (27215,  2577,      2) 
-     , (27215,  2616,      2) 
-     , (27215,  5427,      2) ;
+VALUES (27215,  1516,      2)  /* BludgeonBane6 */
+     , (27215,  2108,      2)  /* Impenetrability7 */
+     , (27215,  2570,      2)  /* CANTRIPWEAPONEXPERTISE1 */
+     , (27215,  2577,      2)  /* CANTRIPWILLPOWER2 */
+     , (27215,  2616,      2)  /* CANTRIPACIDWARD1 */
+     , (27215,  5427,      2)  /* CantripVoidMagicAptitude1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27215, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */

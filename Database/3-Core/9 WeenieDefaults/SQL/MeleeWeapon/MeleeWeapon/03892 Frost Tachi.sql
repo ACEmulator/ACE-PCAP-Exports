@@ -24,7 +24,6 @@ VALUES (3892,   1,          1) /* ItemType - MeleeWeapon */
      , (3892, 158,          2) /* WieldRequirements - RawSkill */
      , (3892, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (3892, 160,        300) /* WieldDifficulty */
-     , (3892, 172,          1) /* AppraisalLongDescDecoration */
      , (3892, 353,          2) /* WeaponType - Sword */
      , (3892, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (3892, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;

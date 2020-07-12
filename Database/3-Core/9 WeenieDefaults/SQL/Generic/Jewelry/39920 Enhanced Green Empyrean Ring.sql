@@ -54,13 +54,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39920, 8000, 2210356995) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39920,  3955,      2) 
-     , (39920,  3981,      2) 
-     , (39920,  3982,      2) 
-     , (39920,  3983,      2) 
-     , (39920,  4073,      2) 
-     , (39920,  4074,      2) 
-     , (39920,  4075,      2) ;
+VALUES (39920,  3955,      2)  /* BludgeonWard */
+     , (39920,  3981,      2)  /* ManarenewalOtherIncantation */
+     , (39920,  3982,      2)  /* RegenerationOtherIncantation */
+     , (39920,  3983,      2)  /* RejuvenationOtherIncantation */
+     , (39920,  4073,      2)  /* CantripRegenEmpyrean */
+     , (39920,  4074,      2)  /* CantripRejuvEmpyrean */
+     , (39920,  4075,      2)  /* CantripRenewEmpyrean */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39920, 67111919, 0, 0);

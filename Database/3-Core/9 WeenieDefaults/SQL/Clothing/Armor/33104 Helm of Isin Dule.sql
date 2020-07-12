@@ -55,8 +55,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33104, 8000, 2779769081) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33104,  2066,      2) 
-     , (33104,  2150,      2) 
-     , (33104,  2156,      2) 
-     , (33104,  2611,      2) 
-     , (33104,  2614,      2) ;
+VALUES (33104,  2066,      2)  /* FocusOther7 */
+     , (33104,  2150,      2)  /* BladeProtectionOther7 */
+     , (33104,  2156,      2)  /* FireProtectionOther7 */
+     , (33104,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (33104,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;

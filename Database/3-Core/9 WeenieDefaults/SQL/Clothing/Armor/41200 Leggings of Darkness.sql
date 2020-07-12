@@ -55,15 +55,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41200, 8000, 2460691367) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41200,  2092,      2) 
-     , (41200,  2094,      2) 
-     , (41200,  2098,      2) 
-     , (41200,  2102,      2) 
-     , (41200,  2104,      2) 
-     , (41200,  2108,      2) 
-     , (41200,  2110,      2) 
-     , (41200,  2113,      2) 
-     , (41200,  2524,      2) ;
+VALUES (41200,  2092,      2)  /* AcidBane7 */
+     , (41200,  2094,      2)  /* BladeBane7 */
+     , (41200,  2098,      2)  /* BludgeonBane7 */
+     , (41200,  2102,      2)  /* FlameBane7 */
+     , (41200,  2104,      2)  /* FrostBane7 */
+     , (41200,  2108,      2)  /* Impenetrability7 */
+     , (41200,  2110,      2)  /* LightningBane7 */
+     , (41200,  2113,      2)  /* PiercingBane7 */
+     , (41200,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41200, 67114452, 72, 12)

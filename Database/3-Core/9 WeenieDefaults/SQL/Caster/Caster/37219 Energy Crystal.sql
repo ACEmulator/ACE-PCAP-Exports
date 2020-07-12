@@ -27,7 +27,6 @@ VALUES (37219,   1,      32768) /* ItemType - Caster */
      , (37219, 159,         34) /* WieldSkillType - WarMagic */
      , (37219, 160,        385) /* WieldDifficulty */
      , (37219, 171,         10) /* NumTimesTinkered */
-     , (37219, 172,          5) /* AppraisalLongDescDecoration */
      , (37219, 177,          4) /* GemCount */
      , (37219, 178,         21) /* GemType */
      , (37219, 179,        256) /* ImbuedEffect - ElectricRending */
@@ -75,9 +74,8 @@ VALUES (37219, 8000, 3434234849) /* PCAPRecordedObjectIID */
      , (37219, 8008, 1343479616) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37219,  2117,      2) 
-     , (37219,  2146,      2) 
-     , (37219,  2287,      2) 
-     , (37219,  2520,      2) 
-     , (37219,  3259,      2) 
-     , (37219,  4670,      2) ;
+VALUES (37219,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37219,  2287,      2)  /* ManaMasterySelf7 */
+     , (37219,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
+     , (37219,  3259,      2)  /* SpiritDrinkerSelf7 */
+     , (37219,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */;

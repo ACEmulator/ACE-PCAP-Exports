@@ -43,5 +43,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27804, 8000, 2622510733) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27804,  2158,      2) 
-     , (27804,  2622,      2) ;
+VALUES (27804,  2158,      2)  /* LightningProtectionOther7 */
+     , (27804,  2622,      2)  /* CANTRIPSTORMWARD1 */;

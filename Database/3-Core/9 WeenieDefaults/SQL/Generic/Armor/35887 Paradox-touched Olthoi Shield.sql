@@ -64,13 +64,13 @@ VALUES (35887, 8000, 3701495955) /* PCAPRecordedObjectIID */
      , (35887, 8008, 3701495954) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35887,  2092,      2) 
-     , (35887,  2108,      2) 
-     , (35887,  2113,      2) 
-     , (35887,  2245,      2) 
-     , (35887,  2578,      2) 
-     , (35887,  2609,      2) 
-     , (35887,  2620,      2) ;
+VALUES (35887,  2092,      2)  /* AcidBane7 */
+     , (35887,  2108,      2)  /* Impenetrability7 */
+     , (35887,  2113,      2)  /* PiercingBane7 */
+     , (35887,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (35887,  2578,      2)  /* CANTRIPARMOR1 */
+     , (35887,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (35887,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35887, 67116828, 0, 0);

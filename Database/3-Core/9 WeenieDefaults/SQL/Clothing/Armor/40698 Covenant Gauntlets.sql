@@ -18,7 +18,6 @@ VALUES (40698,   1,          2) /* ItemType - Armor */
      , (40698, 158,          2) /* WieldRequirements - RawSkill */
      , (40698, 159,          7) /* WieldSkillType - MissileDefense */
      , (40698, 160,        305) /* WieldDifficulty */
-     , (40698, 172,          5) /* AppraisalLongDescDecoration */
      , (40698, 177,          2) /* GemCount */
      , (40698, 178,         33) /* GemType */
      , (40698, 8041,        101) /* PCAPRecordedPlacement - Resting */;

@@ -21,7 +21,6 @@ VALUES (51,   1,          2) /* ItemType - Armor */
      , (51, 110,          0) /* ItemAllegianceRankLimit */
      , (51, 115,          0) /* ItemSkillLevelLimit */
      , (51, 131,         63) /* MaterialType - Silver */
-     , (51, 172,          5) /* AppraisalLongDescDecoration */
      , (51, 177,          3) /* GemCount */
      , (51, 178,         45) /* GemType */
      , (51, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,7 +59,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51, 8000, 3690157663) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51,  2108,      2) ;
+VALUES (51,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51, 67109941, 80, 12)

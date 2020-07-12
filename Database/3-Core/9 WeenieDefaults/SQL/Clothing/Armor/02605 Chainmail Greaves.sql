@@ -21,7 +21,6 @@ VALUES (2605,   1,          2) /* ItemType - Armor */
      , (2605, 110,          0) /* ItemAllegianceRankLimit */
      , (2605, 115,          0) /* ItemSkillLevelLimit */
      , (2605, 131,         60) /* MaterialType - Gold */
-     , (2605, 172,          1) /* AppraisalLongDescDecoration */
      , (2605, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,9 +58,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2605, 8000, 3686999926) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2605,  1486,      2) 
-     , (2605,  1527,      2) 
-     , (2605,  2599,      2) ;
+VALUES (2605,  1486,      2)  /* Impenetrability6 */
+     , (2605,  1527,      2)  /* FrostBane5 */
+     , (2605,  2599,      2)  /* CANTRIPBLUDGEONINGBANE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2605, 67110546, 136, 16);

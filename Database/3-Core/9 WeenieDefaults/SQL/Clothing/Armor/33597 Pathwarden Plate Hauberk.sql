@@ -53,8 +53,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33597, 8000, 3693861837) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33597,  1328,      2) 
-     , (33597,  1482,      2) ;
+VALUES (33597,  1328,      2)  /* StrengthSelf2 */
+     , (33597,  1482,      2)  /* Impenetrability2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33597, 67110015, 80, 12)

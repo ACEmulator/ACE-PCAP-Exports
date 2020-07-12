@@ -17,7 +17,6 @@ VALUES (28056,   1,          8) /* ItemType - Jewelry */
      , (28056, 108,        400) /* ItemMaxMana */
      , (28056, 109,         50) /* ItemDifficulty */
      , (28056, 115,        200) /* ItemSkillLevelLimit */
-     , (28056, 176,         31) /* AppraisalItemSkill */
      , (28056, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,6 +36,7 @@ VALUES (28056,   1,   33554691) /* Setup */
      , (28056,   6,   67111919) /* PaletteBase */
      , (28056,   8,  100670751) /* Icon */
      , (28056,  22,  872415275) /* PhysicsEffectTable */
+     , (28056,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (28056, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (28056, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28056, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -45,9 +45,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28056, 8000, 3347437751) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28056,   567,      2) 
-     , (28056,   591,      2) 
-     , (28056,   663,      2) ;
+VALUES (28056,   567,      2)  /* CreatureEnchantmentMasteryOther5 */
+     , (28056,   591,      2)  /* ItemEnchantmentMasteryOther5 */
+     , (28056,   663,      2)  /* ManaMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28056, 67111924, 0, 0);

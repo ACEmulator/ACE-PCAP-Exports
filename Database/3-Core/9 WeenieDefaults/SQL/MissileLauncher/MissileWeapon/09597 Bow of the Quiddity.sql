@@ -64,7 +64,7 @@ VALUES (9597, 8000, 3703188197) /* PCAPRecordedObjectIID */
      , (9597, 8008, 3703371044) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9597,  1590,      2) 
-     , (9597,  1603,      2) 
-     , (9597,  1615,      2) 
-     , (9597,  1625,      2) ;
+VALUES (9597,  1590,      2)  /* HeartSeekerSelf4 */
+     , (9597,  1603,      2)  /* DefenderSelf4 */
+     , (9597,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (9597,  1625,      2)  /* SwiftKillerSelf4 */;

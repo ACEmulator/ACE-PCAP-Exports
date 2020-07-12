@@ -56,11 +56,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46215, 8000, 2346361503) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46215,  2101,      2) 
-     , (46215,  2287,      2) 
-     , (46215,  2534,      2) 
-     , (46215,  3250,      2) 
-     , (46215,  3259,      2) ;
+VALUES (46215,  2101,      2)  /* DefenderSelf7 */
+     , (46215,  2287,      2)  /* ManaMasterySelf7 */
+     , (46215,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46215,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46215,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46215, 67111919, 0, 0);

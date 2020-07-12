@@ -23,7 +23,6 @@ VALUES (22165,   1,          1) /* ItemType - MeleeWeapon */
      , (22165, 158,          2) /* WieldRequirements - RawSkill */
      , (22165, 159,         45) /* WieldSkillType - LightWeapons */
      , (22165, 160,        250) /* WieldDifficulty */
-     , (22165, 172,          1) /* AppraisalLongDescDecoration */
      , (22165, 353,          7) /* WeaponType - Staff */
      , (22165, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (22165, 8041,        101) /* PCAPRecordedPlacement - Resting */;

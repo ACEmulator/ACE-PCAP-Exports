@@ -25,7 +25,6 @@ VALUES (38478,   1,          2) /* ItemType - Armor */
      , (38478, 159,        288) /* WieldSkillType */
      , (38478, 160,        101) /* WieldDifficulty */
      , (38478, 171,         10) /* NumTimesTinkered */
-     , (38478, 172,          1) /* AppraisalLongDescDecoration */
      , (38478, 265,         30) /* EquipmentSetId - SocietyArmor */
      , (38478, 374,          1) /* GearCritDamage */
      , (38478, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -65,11 +64,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38478, 8000, 2764655337) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38478,  2102,      2) 
-     , (38478,  4403,      2) 
-     , (38478,  4407,      2) 
-     , (38478,  6039,      2) 
-     , (38478,  6123,      2) ;
+VALUES (38478,  2102,      2)  /* FlameBane7 */
+     , (38478,  4403,      2)  /* FrostBane8 */
+     , (38478,  4407,      2)  /* Impenetrability8 */
+     , (38478,  6039,      2)  /* CantripWeaponExpertise4 */
+     , (38478,  6123,      2)  /* SummoningMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38478, 67116592, 136, 12)

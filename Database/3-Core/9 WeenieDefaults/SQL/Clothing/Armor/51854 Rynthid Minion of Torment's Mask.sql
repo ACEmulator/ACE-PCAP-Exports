@@ -60,10 +60,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51854, 8000, 2755336357) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51854,  4291,      2) 
-     , (51854,  4407,      2) 
-     , (51854,  6051,      2) 
-     , (51854,  6054,      2) ;
+VALUES (51854,  4291,      2)  /* ArmorSelf8 */
+     , (51854,  4407,      2)  /* Impenetrability8 */
+     , (51854,  6051,      2)  /* CantripFealty4 */
+     , (51854,  6054,      2)  /* CantripImpregnability4 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (51854, 0, 16796998);

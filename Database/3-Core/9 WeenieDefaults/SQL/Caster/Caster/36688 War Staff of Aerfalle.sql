@@ -23,7 +23,6 @@ VALUES (36688,   1,      32768) /* ItemType - Caster */
      , (36688, 158,          7) /* WieldRequirements - Level */
      , (36688, 159,          1) /* WieldSkillType - Axe */
      , (36688, 160,        120) /* WieldDifficulty */
-     , (36688, 176,         16) /* AppraisalItemSkill */
      , (36688, 263,          4) /* ResistanceModifierType */
      , (36688, 265,         10) /* EquipmentSetId - ArmMindHeart */
      , (36688, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -49,6 +48,7 @@ VALUES (36688,   1,   33556630) /* Setup */
      , (36688,   6,   67111919) /* PaletteBase */
      , (36688,   8,  100670752) /* Icon */
      , (36688,  22,  872415275) /* PhysicsEffectTable */
+     , (36688,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (36688, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (36688, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36688, 8005,     167969) /* PCAPRecordedPhysicsDesc - CSetup, Parent, PeTable, Position, AnimationFrame */
@@ -63,13 +63,13 @@ VALUES (36688, 8000, 3553114595) /* PCAPRecordedObjectIID */
      , (36688, 8008, 1343493280) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36688,  2182,      2) 
-     , (36688,  2286,      2) 
-     , (36688,  2322,      2) 
-     , (36688,  2387,      2) 
-     , (36688,  2392,      2) 
-     , (36688,  2525,      2) 
-     , (36688,  2534,      2) ;
+VALUES (36688,  2182,      2)  /* ManaRenewalOther7 */
+     , (36688,  2286,      2)  /* ManaMasteryOther7 */
+     , (36688,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (36688,  2387,      2)  /* Determination */
+     , (36688,  2392,      2)  /* Serenity */
+     , (36688,  2525,      2)  /* CANTRIPMANACONVERSIONPROWESS2 */
+     , (36688,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36688, 67111920, 0, 0);

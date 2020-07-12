@@ -59,9 +59,8 @@ VALUES (52247, 8000, 2601344448) /* PCAPRecordedObjectIID */
      , (52247, 8008, 1343084377) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52247,  3203,      2) 
-     , (52247,  4530,      2) 
-     , (52247,  6046,      2) ;
+VALUES (52247,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
+     , (52247,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52247, 67113142, 0, 0);

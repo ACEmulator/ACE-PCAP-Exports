@@ -23,7 +23,6 @@ VALUES (3774,   1,          1) /* ItemType - MeleeWeapon */
      , (3774, 158,          2) /* WieldRequirements - RawSkill */
      , (3774, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3774, 160,        325) /* WieldDifficulty */
-     , (3774, 172,          5) /* AppraisalLongDescDecoration */
      , (3774, 177,          4) /* GemCount */
      , (3774, 178,         50) /* GemType */
      , (3774, 353,          4) /* WeaponType - Mace */

@@ -60,7 +60,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21376, 8000, 3704436592) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21376,   592,      2) ;
+VALUES (21376,   592,      2)  /* ItemEnchantmentMasteryOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21376, 67114006, 40, 40)

@@ -72,4 +72,4 @@ VALUES (38910, 8000, 3694070034) /* PCAPRecordedObjectIID */
      , (38910, 8008, 1343301116) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38910,  2531,      2) ;
+VALUES (38910,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;

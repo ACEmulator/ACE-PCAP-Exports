@@ -50,8 +50,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25894, 8000, 3679800301) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25894,  1478,      2) 
-     , (25894,  2624,      2) ;
+VALUES (25894,  1478,      2)  /* HermeticLinkSelf4 */
+     , (25894,  2624,      2)  /* CANTRIPMANAGAIN2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25894, 67111925, 0, 0);

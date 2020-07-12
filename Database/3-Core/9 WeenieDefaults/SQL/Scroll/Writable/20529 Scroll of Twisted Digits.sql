@@ -35,8 +35,5 @@ VALUES (20529,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20529, 8000, 3701525936) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20529,  2234,      2) ;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20529, 2, 21435,  1, 0, 0, False) /* Create Shauraloi (21435) for Wield */;

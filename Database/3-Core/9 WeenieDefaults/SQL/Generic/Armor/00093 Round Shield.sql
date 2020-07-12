@@ -16,7 +16,6 @@ VALUES (93,   1,          2) /* ItemType - Armor */
      , (93, 105,          7) /* ItemWorkmanship */
      , (93, 131,         58) /* MaterialType - Bronze */
      , (93, 151,          2) /* HookType - Wall */
-     , (93, 172,          5) /* AppraisalLongDescDecoration */
      , (93, 177,          2) /* GemCount */
      , (93, 178,         39) /* GemType */;
 

@@ -29,8 +29,6 @@ VALUES (41068,   1,          1) /* ItemType - MeleeWeapon */
      , (41068, 158,          2) /* WieldRequirements - RawSkill */
      , (41068, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41068, 160,        300) /* WieldDifficulty */
-     , (41068, 172,          5) /* AppraisalLongDescDecoration */
-     , (41068, 176,         41) /* AppraisalItemSkill */
      , (41068, 177,          4) /* GemCount */
      , (41068, 178,         33) /* GemType */
      , (41068, 292,          2) /* Cleaving */
@@ -62,6 +60,7 @@ VALUES (41068,   1,   33560827) /* Setup */
      , (41068,   6,   67115557) /* PaletteBase */
      , (41068,   8,  100690524) /* Icon */
      , (41068,  22,  872415275) /* PhysicsEffectTable */
+     , (41068,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41068, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41068, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41068, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -70,8 +69,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41068, 8000, 3706737034) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41068,  1615,      2) 
-     , (41068,  1626,      2) ;
+VALUES (41068,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (41068,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41068, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */;

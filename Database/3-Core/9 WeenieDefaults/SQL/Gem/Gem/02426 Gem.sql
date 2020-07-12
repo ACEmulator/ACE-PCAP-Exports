@@ -23,7 +23,6 @@ VALUES (2426,   1,       2048) /* ItemType - Gem */
      , (2426, 115,          0) /* ItemSkillLevelLimit */
      , (2426, 117,        200) /* ItemManaCost */
      , (2426, 131,         11) /* MaterialType - Amber */
-     , (2426, 172,          1) /* AppraisalLongDescDecoration */
      , (2426, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,9 +47,6 @@ VALUES (2426,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2426, 8000, 3692336159) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2426,   167,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2426, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */;

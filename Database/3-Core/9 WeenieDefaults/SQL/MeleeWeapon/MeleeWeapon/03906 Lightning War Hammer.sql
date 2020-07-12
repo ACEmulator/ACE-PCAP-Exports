@@ -26,8 +26,6 @@ VALUES (3906,   1,          1) /* ItemType - MeleeWeapon */
      , (3906, 115,        184) /* ItemSkillLevelLimit */
      , (3906, 131,         76) /* MaterialType - Pine */
      , (3906, 151,          2) /* HookType - Wall */
-     , (3906, 172,          1) /* AppraisalLongDescDecoration */
-     , (3906, 176,         45) /* AppraisalItemSkill */
      , (3906, 353,          3) /* WeaponType - Axe */
      , (3906, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (3906, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -54,6 +52,7 @@ VALUES (3906,   1,   33555829) /* Setup */
      , (3906,   3,  536870932) /* SoundTable */
      , (3906,   8,  100669074) /* Icon */
      , (3906,  22,  872415275) /* PhysicsEffectTable */
+     , (3906,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3906, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3906, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3906, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -62,8 +61,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3906, 8000, 3701225638) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3906,  1590,      2) 
-     , (3906,  1614,      2) ;
+VALUES (3906,  1590,      2)  /* HeartSeekerSelf4 */
+     , (3906,  1614,      2)  /* BloodDrinkerSelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3906, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

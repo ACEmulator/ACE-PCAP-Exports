@@ -21,7 +21,6 @@ VALUES (30948,   1,          2) /* ItemType - Armor */
      , (30948, 110,          0) /* ItemAllegianceRankLimit */
      , (30948, 115,          0) /* ItemSkillLevelLimit */
      , (30948, 131,         57) /* MaterialType - Brass */
-     , (30948, 172,          5) /* AppraisalLongDescDecoration */
      , (30948, 177,          2) /* GemCount */
      , (30948, 178,         26) /* GemType */
      , (30948, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,11 +59,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30948, 8000, 3680485408) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30948,  1485,      2) 
-     , (30948,  1515,      2) 
-     , (30948,  1551,      2) 
-     , (30948,  2535,      2) 
-     , (30948,  2556,      2) ;
+VALUES (30948,  1485,      2)  /* Impenetrability5 */
+     , (30948,  1515,      2)  /* BludgeonBane5 */
+     , (30948,  1551,      2)  /* FlameBane5 */
+     , (30948,  2535,      2)  /* CANTRIPWEAPONEXPERTISE2 */
+     , (30948,  2556,      2)  /* CANTRIPLOCKPICKPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30948, 67116191, 174, 66)

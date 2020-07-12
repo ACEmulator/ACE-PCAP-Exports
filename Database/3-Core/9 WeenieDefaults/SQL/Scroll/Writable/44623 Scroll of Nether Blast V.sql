@@ -27,7 +27,8 @@ VALUES (44623,   1,   33554826) /* Setup */
      , (44623,  28,       5548) /* Spell - NetherBlast5 */
      , (44623, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (44623, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44623, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+     , (44623, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */
+     , (44623, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44623, 8000,      44623) /* PCAPRecordedObjectIID */;

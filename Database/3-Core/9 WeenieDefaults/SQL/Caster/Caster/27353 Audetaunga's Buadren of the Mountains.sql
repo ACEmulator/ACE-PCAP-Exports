@@ -52,8 +52,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27353, 8000, 2150893944) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27353,  2440,      2) 
-     , (27353,  2443,      2) ;
+VALUES (27353,  2440,      2)  /* StoneCliffsGreater */
+     , (27353,  2443,      2)  /* StrengthofEarthGreater */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27353, 0, 83893670, 83893668)

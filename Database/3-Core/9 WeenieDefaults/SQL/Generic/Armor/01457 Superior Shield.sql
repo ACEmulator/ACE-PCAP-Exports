@@ -18,8 +18,7 @@ VALUES (1457,   1,          2) /* ItemType - Armor */
      , (1457, 107,        588) /* ItemCurMana */
      , (1457, 108,        588) /* ItemMaxMana */
      , (1457, 115,        150) /* ItemSkillLevelLimit */
-     , (1457, 151,          2) /* HookType - Wall */
-     , (1457, 176,          6) /* AppraisalItemSkill */;
+     , (1457, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1457,  22, True ) /* Inscribable */
@@ -45,6 +44,7 @@ VALUES (1457,   1,   33558413) /* Setup */
      , (1457,   6,   67114413) /* PaletteBase */
      , (1457,   8,  100674501) /* Icon */
      , (1457,  22,  872415275) /* PhysicsEffectTable */
+     , (1457,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (1457, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (1457, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1457, 8005,      36897) /* PCAPRecordedPhysicsDesc - CSetup, Parent, PeTable, Position */
@@ -59,9 +59,9 @@ VALUES (1457, 8000, 3687631792) /* PCAPRecordedObjectIID */
      , (1457, 8008, 1343493591) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1457,   247,      2) 
-     , (1457,   421,      2) 
-     , (1457,  1484,      2) ;
+VALUES (1457,   247,      2)  /* InvulnerabilitySelf4 */
+     , (1457,   421,      2)  /* SwordMasterySelf4 */
+     , (1457,  1484,      2)  /* Impenetrability4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1457, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */;

@@ -73,12 +73,12 @@ VALUES (45445, 8000, 3174455313) /* PCAPRecordedObjectIID */
      , (45445, 8008, 1342678391) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45445,  4395,      2) 
-     , (45445,  4405,      2) 
-     , (45445,  4417,      2) 
-     , (45445,  4538,      2) 
-     , (45445,  4661,      2) 
-     , (45445,  4691,      2) ;
+VALUES (45445,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (45445,  4405,      2)  /* HeartSeekerSelf8 */
+     , (45445,  4417,      2)  /* SwiftKillerSelf8 */
+     , (45445,  4538,      2)  /* DaggerMasterySelf8 */
+     , (45445,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (45445,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45445, 67111920, 0, 0);

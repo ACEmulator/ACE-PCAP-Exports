@@ -20,7 +20,6 @@ VALUES (22156,   1,          1) /* ItemType - MeleeWeapon */
      , (22156, 105,          5) /* ItemWorkmanship */
      , (22156, 131,         16) /* MaterialType - BlackOpal */
      , (22156, 151,          2) /* HookType - Wall */
-     , (22156, 172,          5) /* AppraisalLongDescDecoration */
      , (22156, 177,          1) /* GemCount */
      , (22156, 178,         29) /* GemType */
      , (22156, 353,          7) /* WeaponType - Staff */

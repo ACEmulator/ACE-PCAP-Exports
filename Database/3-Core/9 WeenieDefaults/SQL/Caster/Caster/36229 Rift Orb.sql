@@ -17,7 +17,6 @@ VALUES (36229,   1,      32768) /* ItemType - Caster */
      , (36229, 109,          0) /* ItemDifficulty */
      , (36229, 115,        350) /* ItemSkillLevelLimit */
      , (36229, 151,          2) /* HookType - Wall */
-     , (36229, 176,         32) /* AppraisalItemSkill */
      , (36229, 179,         16) /* ImbuedEffect - PierceRending */
      , (36229, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -42,6 +41,7 @@ VALUES (36229,   1,   33560377) /* Setup */
      , (36229,   8,  100689612) /* Icon */
      , (36229,  22,  872415275) /* PhysicsEffectTable */
      , (36229,  28,       2100) /* Spell - Brittlemail7 */
+     , (36229,  37,         32) /* ItemSkillLimit - ItemEnchantment */
      , (36229, 8001,  275333144) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (36229, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36229, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -50,8 +50,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36229, 8000, 2210356824) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36229,  2014,      2) 
-     , (36229,  2100,      2) 
-     , (36229,  2248,      2) 
-     , (36229,  2286,      2) 
-     , (36229,  2516,      2) ;
+VALUES (36229,  2014,      2)  /* WizardsUltimateIntellect */
+     , (36229,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
+     , (36229,  2286,      2)  /* ManaMasteryOther7 */
+     , (36229,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */;

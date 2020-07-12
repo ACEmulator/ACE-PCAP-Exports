@@ -28,7 +28,8 @@ VALUES (43819,   1,   33555194) /* Setup */
      , (43819, 8001,  271076376) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (43819, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43819, 8003,   67174418) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer, IncludesSecondHeader */
-     , (43819, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (43819, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */
+     , (43819, 8044,      22449) /* PCAPPhysicsDIDDataTemplatedFrom - Plentiful Healing Kit */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43819, 8040, 23855555, 58.62766, -42.61131, 0.0315, -0.7803556, 0, 0, -0.625336) /* PCAPRecordedLocation */

@@ -35,8 +35,5 @@ VALUES (20562,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20562, 8000, 3705353375) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20562,  2277,      2) ;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20562, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;

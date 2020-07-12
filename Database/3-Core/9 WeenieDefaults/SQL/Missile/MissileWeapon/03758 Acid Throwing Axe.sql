@@ -35,7 +35,8 @@ VALUES (3758,   1,   33556223) /* Setup */
      , (3758,  22,  872415275) /* PhysicsEffectTable */
      , (3758, 8001,  270627480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (3758, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (3758, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
+     , (3758, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */
+     , (3758, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3758, 8000,       3758) /* PCAPRecordedObjectIID */;

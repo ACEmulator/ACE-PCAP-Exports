@@ -21,7 +21,6 @@ VALUES (124,   1,          4) /* ItemType - Clothing */
      , (124, 110,          0) /* ItemAllegianceRankLimit */
      , (124, 115,          0) /* ItemSkillLevelLimit */
      , (124, 131,          8) /* MaterialType - Wool */
-     , (124, 172,          1) /* AppraisalLongDescDecoration */
      , (124, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,7 +57,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (124, 8000, 3688920644) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (124,  1023,      2) ;
+VALUES (124,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (124, 67109969, 92, 4)

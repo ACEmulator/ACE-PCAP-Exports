@@ -35,7 +35,8 @@ VALUES (15285,   1,   33554730) /* Setup */
      , (15285, 8001,  270627608) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (15285, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15285, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (15285, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (15285, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
+     , (15285, 8044,      47961) /* PCAPPhysicsDIDDataTemplatedFrom - Quarrel */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15285, 8040, 2451701776, 45.4038, 177.4233, 105.3608, 0.02042975, 0.02042975, -0.7068116, -0.7068116) /* PCAPRecordedLocation */

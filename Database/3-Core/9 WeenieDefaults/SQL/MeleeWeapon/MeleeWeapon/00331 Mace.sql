@@ -24,7 +24,6 @@ VALUES (331,   1,          1) /* ItemType - MeleeWeapon */
      , (331, 158,          2) /* WieldRequirements - RawSkill */
      , (331, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (331, 160,        420) /* WieldDifficulty */
-     , (331, 172,          5) /* AppraisalLongDescDecoration */
      , (331, 177,          2) /* GemCount */
      , (331, 178,         22) /* GemType */
      , (331, 353,          4) /* WeaponType - Mace */

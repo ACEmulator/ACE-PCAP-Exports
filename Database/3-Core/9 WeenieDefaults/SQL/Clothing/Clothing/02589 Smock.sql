@@ -20,7 +20,6 @@ VALUES (2589,   1,          4) /* ItemType - Clothing */
      , (2589, 110,          0) /* ItemAllegianceRankLimit */
      , (2589, 115,          0) /* ItemSkillLevelLimit */
      , (2589, 131,          5) /* MaterialType - Satin */
-     , (2589, 172,          1) /* AppraisalLongDescDecoration */
      , (2589, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -57,7 +56,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2589, 8000, 2186220518) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2589,  1310,      2) ;
+VALUES (2589,  1310,      2)  /* ArmorSelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2589, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

@@ -15,7 +15,6 @@ VALUES (2432,   1,       2048) /* ItemType - Gem */
      , (2432,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2432, 105,          7) /* ItemWorkmanship */
      , (2432, 131,         32) /* MaterialType - Onyx */
-     , (2432, 172,          1) /* AppraisalLongDescDecoration */
      , (2432, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

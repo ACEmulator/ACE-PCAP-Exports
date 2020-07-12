@@ -19,7 +19,6 @@ VALUES (2367,   1,          8) /* ItemType - Jewelry */
      , (2367, 110,          0) /* ItemAllegianceRankLimit */
      , (2367, 115,          0) /* ItemSkillLevelLimit */
      , (2367, 131,         60) /* MaterialType - Gold */
-     , (2367, 172,          5) /* AppraisalLongDescDecoration */
      , (2367, 177,          1) /* GemCount */
      , (2367, 178,         15) /* GemType */
      , (2367, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,8 +49,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2367, 8000, 3687065955) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2367,   278,      2) 
-     , (2367,  2622,      2) ;
+VALUES (2367,   278,      2)  /* MagicResistanceSelf5 */
+     , (2367,  2622,      2)  /* CANTRIPSTORMWARD1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2367, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */

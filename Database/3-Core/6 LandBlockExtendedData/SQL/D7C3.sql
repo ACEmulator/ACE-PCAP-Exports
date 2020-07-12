@@ -1017,6 +1017,30 @@ VALUES (0x7D7C30FD, 11697, 0xD7C30125, 160.05, 102.665, 166.1, 0.4305111, 0, 0, 
 /* @teleloc 0xD7C30125 [160.050000 102.665000 166.100000] 0.430511 0.000000 0.000000 -0.902585 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C30FE,   412, 0xD7C30035, 152.29, 104.647, 170.082, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0xD7C30035 [152.290000 104.647000 170.082000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C30FF,  9686, 0xD7C30035, 152.195, 104.625, 173.375, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Wall Hook */
+/* @teleloc 0xD7C30035 [152.195000 104.625000 173.375000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3100,  9686, 0xD7C30035, 152.195, 106.523, 171.95, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Wall Hook */
+/* @teleloc 0xD7C30035 [152.195000 106.523000 171.950000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3101,  9686, 0xD7C30035, 152.195, 102.773, 171.95, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Wall Hook */
+/* @teleloc 0xD7C30035 [152.195000 102.773000 171.950000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3102, 12679, 0xD7C30035, 151.637, 100.951, 170.075, 0.9238793, 0, 0, -0.3826841, False, '2019-02-10 00:00:00'); /* Yard Hook */
+/* @teleloc 0xD7C30035 [151.637000 100.951000 170.075000] 0.923879 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3103, 12679, 0xD7C30035, 151.862, 115.302, 170.075, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Yard Hook */
+/* @teleloc 0xD7C30035 [151.862000 115.302000 170.075000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7C3104,  9686, 0xD7C30128, 156.754, 58.1063, 163.5, -1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Wall Hook */
 /* @teleloc 0xD7C30128 [156.754000 58.106300 163.500000] -1.000000 0.000000 0.000000 0.000000 */
 
@@ -1199,6 +1223,30 @@ VALUES (0x7D7C3130, 11697, 0xD7C3012D, 158.072, 62.3842, 156.1, 1, 0, 0, 0, Fals
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7C3131, 11697, 0xD7C3012D, 155.406, 59.8451, 156.1, -0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Floor Hook */
 /* @teleloc 0xD7C3012D [155.406000 59.845100 156.100000] -0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3132,   412, 0xD7C30033, 152.987, 55.8477, 160.082, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0xD7C30033 [152.987000 55.847700 160.082000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3133,  9686, 0xD7C30033, 152.873, 55.8498, 163.4, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Wall Hook */
+/* @teleloc 0xD7C30033 [152.873000 55.849800 163.400000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3134,  9686, 0xD7C30033, 147.018, 52.8398, 161.68, 0.703549, -0.07084359, 0.07084359, -0.703549, False, '2019-02-10 00:00:00'); /* Wall Hook */
+/* @teleloc 0xD7C30033 [147.018000 52.839800 161.680000] 0.703549 -0.070844 0.070844 -0.703549 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3135,  9686, 0xD7C30033, 147.018, 58.8698, 161.68, 0.703549, -0.07084359, 0.07084359, -0.703549, False, '2019-02-10 00:00:00'); /* Wall Hook */
+/* @teleloc 0xD7C30033 [147.018000 58.869800 161.680000] 0.703549 -0.070844 0.070844 -0.703549 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3136, 12679, 0xD7C30033, 152.552, 60.3927, 160.1, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Yard Hook */
+/* @teleloc 0xD7C30033 [152.552000 60.392700 160.100000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7C3137, 12679, 0xD7C30033, 152.662, 51.5477, 160.1, 0.9238793, 0, 0, -0.3826841, False, '2019-02-10 00:00:00'); /* Yard Hook */
+/* @teleloc 0xD7C30033 [152.662000 51.547700 160.100000] 0.923879 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7C3138,   412, 0xD7C30130, 111.553, 53.5348, 156.082, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */

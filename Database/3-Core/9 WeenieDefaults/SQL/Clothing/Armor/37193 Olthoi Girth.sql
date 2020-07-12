@@ -25,8 +25,6 @@ VALUES (37193,   1,          2) /* ItemType - Armor */
      , (37193, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37193, 160,        360) /* WieldDifficulty */
      , (37193, 171,         10) /* NumTimesTinkered */
-     , (37193, 172,          1) /* AppraisalLongDescDecoration */
-     , (37193, 176,          6) /* AppraisalItemSkill */
      , (37193, 265,         19) /* EquipmentSetId - Hearty */
      , (37193, 270,          7) /* WieldRequirements2 - Level */
      , (37193, 271,          1) /* WieldSkillType2 - Axe */
@@ -60,6 +58,7 @@ VALUES (37193,   1,   33554647) /* Setup */
      , (37193,   6,   67108990) /* PaletteBase */
      , (37193,   8,  100674592) /* Icon */
      , (37193,  22,  872415275) /* PhysicsEffectTable */
+     , (37193,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37193, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37193, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37193, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -72,11 +71,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37193, 8000, 3473432961) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37193,  1354,      2) 
-     , (37193,  1486,      2) 
-     , (37193,  2609,      2) 
-     , (37193,  4397,      2) 
-     , (37193,  6046,      2) ;
+VALUES (37193,  1354,      2)  /* EnduranceSelf6 */
+     , (37193,  1486,      2)  /* Impenetrability6 */
+     , (37193,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (37193,  4397,      2)  /* BludgeonBane8 */
+     , (37193,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37193, 67116559, 84, 8)

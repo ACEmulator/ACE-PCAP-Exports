@@ -23,7 +23,6 @@ VALUES (41043,   1,          1) /* ItemType - MeleeWeapon */
      , (41043, 158,          2) /* WieldRequirements - RawSkill */
      , (41043, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41043, 160,        300) /* WieldDifficulty */
-     , (41043, 172,          1) /* AppraisalLongDescDecoration */
      , (41043, 353,         11) /* WeaponType - TwoHanded */
      , (41043, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (41043, 8041,        101) /* PCAPRecordedPlacement - Resting */;

@@ -14,7 +14,6 @@ VALUES (44802,   1,          2) /* ItemType - Armor */
      , (44802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44802, 105,          7) /* ItemWorkmanship */
      , (44802, 131,         55) /* MaterialType - ReedSharkHide */
-     , (44802, 172,          5) /* AppraisalLongDescDecoration */
      , (44802, 177,          2) /* GemCount */
      , (44802, 178,         26) /* GemType */
      , (44802, 8041,        101) /* PCAPRecordedPlacement - Resting */;

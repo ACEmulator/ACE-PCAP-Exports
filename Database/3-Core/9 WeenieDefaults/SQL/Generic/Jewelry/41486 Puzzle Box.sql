@@ -19,7 +19,6 @@ VALUES (41486,   1,          8) /* ItemType - Jewelry */
      , (41486, 110,          0) /* ItemAllegianceRankLimit */
      , (41486, 115,          0) /* ItemSkillLevelLimit */
      , (41486, 131,         15) /* MaterialType - BlackGarnet */
-     , (41486, 172,          5) /* AppraisalLongDescDecoration */
      , (41486, 177,          1) /* GemCount */
      , (41486, 178,         24) /* GemType */
      , (41486, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,7 +49,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41486, 8000, 3687017127) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41486,   853,      2) ;
+VALUES (41486,   853,      2)  /* DeceptionMasterySelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41486, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

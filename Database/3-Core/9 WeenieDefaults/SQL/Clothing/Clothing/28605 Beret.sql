@@ -16,7 +16,6 @@ VALUES (28605,   1,          4) /* ItemType - Clothing */
      , (28605, 105,          5) /* ItemWorkmanship */
      , (28605, 131,          5) /* MaterialType - Satin */
      , (28605, 151,          2) /* HookType - Wall */
-     , (28605, 172,          1) /* AppraisalLongDescDecoration */
      , (28605, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

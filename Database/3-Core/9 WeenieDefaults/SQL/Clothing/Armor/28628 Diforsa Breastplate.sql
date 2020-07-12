@@ -21,8 +21,6 @@ VALUES (28628,   1,          2) /* ItemType - Armor */
      , (28628, 110,          0) /* ItemAllegianceRankLimit */
      , (28628, 115,        219) /* ItemSkillLevelLimit */
      , (28628, 131,         58) /* MaterialType - Bronze */
-     , (28628, 172,          5) /* AppraisalLongDescDecoration */
-     , (28628, 176,          7) /* AppraisalItemSkill */
      , (28628, 177,          1) /* GemCount */
      , (28628, 178,         47) /* GemType */;
 
@@ -52,6 +50,7 @@ VALUES (28628,   1,   33559337) /* Setup */
      , (28628,   6,   67108990) /* PaletteBase */
      , (28628,   8,  100686194) /* Icon */
      , (28628,  22,  872415275) /* PhysicsEffectTable */
+     , (28628,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (28628, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28628, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28628, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
@@ -60,8 +59,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28628, 8000, 3688254990) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28628,  1332,      2) 
-     , (28628,  2108,      2) ;
+VALUES (28628,  1332,      2)  /* StrengthSelf6 */
+     , (28628,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28628, 67116199, 174, 66);

@@ -20,7 +20,6 @@ VALUES (130,   1,          4) /* ItemType - Clothing */
      , (130, 110,          0) /* ItemAllegianceRankLimit */
      , (130, 115,          0) /* ItemSkillLevelLimit */
      , (130, 131,          5) /* MaterialType - Satin */
-     , (130, 172,          5) /* AppraisalLongDescDecoration */
      , (130, 177,          2) /* GemCount */
      , (130, 178,         23) /* GemType */
      , (130, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -62,8 +61,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (130, 8000, 3685458472) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (130,  1138,      2) 
-     , (130,  2618,      2) ;
+VALUES (130,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (130,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (130, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */

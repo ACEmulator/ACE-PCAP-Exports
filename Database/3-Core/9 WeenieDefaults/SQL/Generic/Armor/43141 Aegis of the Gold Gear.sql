@@ -65,6 +65,6 @@ VALUES (43141, 8000, 2168348391) /* PCAPRecordedObjectIID */
      , (43141, 8008, 1343312799) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43141,  4695,      2) 
-     , (43141,  4696,      2) 
-     , (43141,  5150,      2) ;
+VALUES (43141,  4695,      2)  /* CANTRIPIMPREGNABILITY3 */
+     , (43141,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (43141,  5150,      2)  /* TrinketStamina1 */;

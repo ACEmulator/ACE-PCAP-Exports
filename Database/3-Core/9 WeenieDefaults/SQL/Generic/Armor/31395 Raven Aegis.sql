@@ -25,7 +25,6 @@ VALUES (31395,   1,          2) /* ItemType - Armor */
      , (31395, 158,          7) /* WieldRequirements - Level */
      , (31395, 159,          1) /* WieldSkillType - Axe */
      , (31395, 160,        100) /* WieldDifficulty */
-     , (31395, 176,          6) /* AppraisalItemSkill */
      , (31395, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -55,6 +54,7 @@ VALUES (31395,   1,   33559617) /* Setup */
      , (31395,   3,  536870932) /* SoundTable */
      , (31395,   8,  100687958) /* Icon */
      , (31395,  22,  872415275) /* PhysicsEffectTable */
+     , (31395,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (31395, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (31395, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31395, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
@@ -69,6 +69,6 @@ VALUES (31395, 8000, 3620339638) /* PCAPRecordedObjectIID */
      , (31395, 8008, 1343282139) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31395,   249,      2) 
-     , (31395,  3819,      2) 
-     , (31395,  3820,      2) ;
+VALUES (31395,   249,      2)  /* InvulnerabilitySelf6 */
+     , (31395,  3819,      2)  /* ConscriptsMight */
+     , (31395,  3820,      2)  /* ConscriptsWard */;

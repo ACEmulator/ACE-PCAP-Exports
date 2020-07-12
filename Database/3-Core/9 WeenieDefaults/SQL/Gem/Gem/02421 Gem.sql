@@ -22,7 +22,6 @@ VALUES (2421,   1,       2048) /* ItemType - Gem */
      , (2421, 115,          0) /* ItemSkillLevelLimit */
      , (2421, 117,        300) /* ItemManaCost */
      , (2421, 131,         13) /* MaterialType - Aquamarine */
-     , (2421, 172,          1) /* AppraisalLongDescDecoration */
      , (2421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,7 +48,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2421, 8000, 3688217350) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2421,  1034,      2) ;
+VALUES (2421,  1034,      2)  /* ColdProtectionSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2421, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

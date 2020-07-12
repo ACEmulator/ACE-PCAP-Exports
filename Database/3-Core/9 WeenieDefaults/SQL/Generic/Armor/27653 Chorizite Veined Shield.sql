@@ -60,8 +60,8 @@ VALUES (27653, 8000, 2874173612) /* PCAPRecordedObjectIID */
      , (27653, 8008, 1343198645) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27653,  2641,      2) 
-     , (27653,  3242,      2) ;
+VALUES (27653,  2641,      2)  /* ForcetoArms */
+     , (27653,  3242,      2)  /* ChoriziteWeave */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27653, 0, 83892561, 83892561)

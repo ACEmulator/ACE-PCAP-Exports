@@ -21,7 +21,6 @@ VALUES (43833,   1,          2) /* ItemType - Armor */
      , (43833, 110,          0) /* ItemAllegianceRankLimit */
      , (43833, 115,          0) /* ItemSkillLevelLimit */
      , (43833, 131,         54) /* MaterialType - GromnieHide */
-     , (43833, 172,          1) /* AppraisalLongDescDecoration */
      , (43833, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -62,9 +61,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43833, 8000, 3709100985) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43833,   279,      2) 
-     , (43833,  1486,      2) 
-     , (43833,  2620,      2) ;
+VALUES (43833,   279,      2)  /* MagicResistanceSelf6 */
+     , (43833,  1486,      2)  /* Impenetrability6 */
+     , (43833,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43833, 67110386, 116, 12)

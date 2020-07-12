@@ -23,7 +23,6 @@ VALUES (2400,   1,       2048) /* ItemType - Gem */
      , (2400, 115,          0) /* ItemSkillLevelLimit */
      , (2400, 117,        300) /* ItemManaCost */
      , (2400, 131,         48) /* MaterialType - YellowGarnet */
-     , (2400, 172,          1) /* AppraisalLongDescDecoration */
      , (2400, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,7 +49,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2400, 8000, 3690337041) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2400,  1311,      2) ;
+VALUES (2400,  1311,      2)  /* ArmorSelf5 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (2400, 0, 83890391, 83890391);

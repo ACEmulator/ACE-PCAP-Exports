@@ -27,7 +27,6 @@ VALUES (29259,   1,      32768) /* ItemType - Caster */
      , (29259, 159,         34) /* WieldSkillType - WarMagic */
      , (29259, 160,        355) /* WieldDifficulty */
      , (29259, 171,         10) /* NumTimesTinkered */
-     , (29259, 172,          5) /* AppraisalLongDescDecoration */
      , (29259, 177,          4) /* GemCount */
      , (29259, 178,         34) /* GemType */
      , (29259, 179,          1) /* ImbuedEffect - CriticalStrike */
@@ -74,11 +73,10 @@ VALUES (29259, 8000, 2449029105) /* PCAPRecordedObjectIID */
      , (29259, 8008, 1343093466) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29259,  3259,      2) 
-     , (29259,  4418,      2) 
-     , (29259,  4439,      2) 
-     , (29259,  4638,      2) 
-     , (29259,  6098,      2) ;
+VALUES (29259,  3259,      2)  /* SpiritDrinkerSelf7 */
+     , (29259,  4418,      2)  /* HermeticLinkSelf8 */
+     , (29259,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (29259,  6098,      2)  /* CantripSpiritThirst4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29259, 67115360, 1, 55)

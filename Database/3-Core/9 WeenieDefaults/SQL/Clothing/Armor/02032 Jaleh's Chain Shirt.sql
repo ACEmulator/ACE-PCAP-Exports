@@ -18,7 +18,6 @@ VALUES (2032,   1,          2) /* ItemType - Armor */
      , (2032, 108,        500) /* ItemMaxMana */
      , (2032, 115,        100) /* ItemSkillLevelLimit */
      , (2032, 151,          2) /* HookType - Wall */
-     , (2032, 176,         34) /* AppraisalItemSkill */
      , (2032, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,6 +44,7 @@ VALUES (2032,   1,   33554883) /* Setup */
      , (2032,   6,   67108990) /* PaletteBase */
      , (2032,   8,  100674274) /* Icon */
      , (2032,  22,  872415275) /* PhysicsEffectTable */
+     , (2032,  37,         34) /* ItemSkillLimit - WarMagic */
      , (2032, 8001,  270860440) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
      , (2032, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2032, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -57,8 +57,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2032, 8000, 3681878683) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2032,  1033,      2) 
-     , (2032,  1092,      2) ;
+VALUES (2032,  1033,      2)  /* ColdProtectionSelf4 */
+     , (2032,  1092,      2)  /* FireProtectionSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2032, 67114228, 116, 20)

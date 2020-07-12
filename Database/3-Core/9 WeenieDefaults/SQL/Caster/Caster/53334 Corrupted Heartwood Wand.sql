@@ -76,9 +76,8 @@ VALUES (53334, 8000, 2148452205) /* PCAPRecordedObjectIID */
      , (53334, 8008, 1342693773) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53334,  4602,      2) 
-     , (53334,  5418,      2) 
-     , (53334,  6074,      2) 
-     , (53334,  6087,      2) 
-     , (53334,  6091,      2) 
-     , (53334,  6320,      2) ;
+VALUES (53334,  4602,      2)  /* ManaMasterySelf8 */
+     , (53334,  5418,      2)  /* VoidMagicMasterySelf8 */
+     , (53334,  6074,      2)  /* CantripVoidMagicAptitude4 */
+     , (53334,  6087,      2)  /* CantripHermeticLink4 */
+     , (53334,  6091,      2)  /* CantripDefender4 */;

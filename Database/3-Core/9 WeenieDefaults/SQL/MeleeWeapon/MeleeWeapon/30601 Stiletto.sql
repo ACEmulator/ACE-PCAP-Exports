@@ -22,7 +22,6 @@ VALUES (30601,   1,          1) /* ItemType - MeleeWeapon */
      , (30601, 158,          2) /* WieldRequirements - RawSkill */
      , (30601, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30601, 160,        350) /* WieldDifficulty */
-     , (30601, 172,          5) /* AppraisalLongDescDecoration */
      , (30601, 177,          2) /* GemCount */
      , (30601, 178,         21) /* GemType */
      , (30601, 353,          6) /* WeaponType - Dagger */

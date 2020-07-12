@@ -23,7 +23,6 @@ VALUES (3873,   1,          1) /* ItemType - MeleeWeapon */
      , (3873, 158,          2) /* WieldRequirements - RawSkill */
      , (3873, 159,         45) /* WieldSkillType - LightWeapons */
      , (3873, 160,        250) /* WieldDifficulty */
-     , (3873, 172,          1) /* AppraisalLongDescDecoration */
      , (3873, 353,          5) /* WeaponType - Spear */
      , (3873, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (3873, 8041,        101) /* PCAPRecordedPlacement - Resting */;

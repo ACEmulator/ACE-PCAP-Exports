@@ -62,5 +62,4 @@ VALUES (26497, 8000, 3698201913) /* PCAPRecordedObjectIID */
      , (26497, 8008, 1343488604) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26497,  2637,      2) 
-     , (26497,  2638,      2) ;
+VALUES (26497,  2638,      2)  /* HeartofOak */;

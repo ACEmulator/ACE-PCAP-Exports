@@ -21,7 +21,6 @@ VALUES (12158,   1,      32768) /* ItemType - Caster */
      , (12158, 114,          1) /* Attuned - Attuned */
      , (12158, 115,        220) /* ItemSkillLevelLimit */
      , (12158, 151,          2) /* HookType - Wall */
-     , (12158, 176,         16) /* AppraisalItemSkill */
      , (12158, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -46,6 +45,7 @@ VALUES (12158,   1,   33557354) /* Setup */
      , (12158,   6,   67111919) /* PaletteBase */
      , (12158,   8,  100672137) /* Icon */
      , (12158,  22,  872415275) /* PhysicsEffectTable */
+     , (12158,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (12158, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (12158, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12158, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -60,13 +60,13 @@ VALUES (12158, 8000, 2688742608) /* PCAPRecordedObjectIID */
      , (12158, 8008, 1343348344) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12158,  2067,      2) 
-     , (12158,  2091,      2) 
-     , (12158,  2214,      2) 
-     , (12158,  2266,      2) 
-     , (12158,  2287,      2) 
-     , (12158,  2507,      2) 
-     , (12158,  2520,      2) ;
+VALUES (12158,  2067,      2)  /* FocusSelf7 */
+     , (12158,  2091,      2)  /* WillpowerSelf7 */
+     , (12158,  2214,      2)  /* CreatureEnchantmentMasteryOther7 */
+     , (12158,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (12158,  2287,      2)  /* ManaMasterySelf7 */
+     , (12158,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (12158,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12158, 67112572, 0, 0);

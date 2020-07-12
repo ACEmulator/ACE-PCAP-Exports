@@ -64,9 +64,8 @@ VALUES (24207, 8000, 3686986773) /* PCAPRecordedObjectIID */
      , (24207, 8008, 1343130362) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24207,   616,      2) 
-     , (24207,   640,      2) 
-     , (24207,  1426,      2) 
-     , (24207,  1450,      2) 
-     , (24207,  2691,      2) 
-     , (24207,  2970,      2) ;
+VALUES (24207,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (24207,   640,      2)  /* WarMagicMasteryOther6 */
+     , (24207,  1426,      2)  /* FocusSelf6 */
+     , (24207,  1450,      2)  /* WillpowerSelf6 */
+     , (24207,  2691,      2)  /* ModerateManaConversionProwess */;

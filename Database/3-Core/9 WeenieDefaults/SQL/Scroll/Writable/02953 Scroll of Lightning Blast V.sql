@@ -27,7 +27,8 @@ VALUES (2953,   1,   33554826) /* Setup */
      , (2953,  28,        113) /* Spell - LightningBlast5 */
      , (2953, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2953, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2953, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+     , (2953, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */
+     , (2953, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2953, 8000,       2953) /* PCAPRecordedObjectIID */;

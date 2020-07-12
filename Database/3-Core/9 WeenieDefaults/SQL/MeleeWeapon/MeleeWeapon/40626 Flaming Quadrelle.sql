@@ -27,8 +27,6 @@ VALUES (40626,   1,          1) /* ItemType - MeleeWeapon */
      , (40626, 115,        121) /* ItemSkillLevelLimit */
      , (40626, 131,         51) /* MaterialType - Ivory */
      , (40626, 151,          2) /* HookType - Wall */
-     , (40626, 172,          1) /* AppraisalLongDescDecoration */
-     , (40626, 176,         41) /* AppraisalItemSkill */
      , (40626, 292,          2) /* Cleaving */
      , (40626, 353,         11) /* WeaponType - TwoHanded */
      , (40626, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
@@ -58,6 +56,7 @@ VALUES (40626,   1,   33560723) /* Setup */
      , (40626,   6,   67116833) /* PaletteBase */
      , (40626,   8,  100690784) /* Icon */
      , (40626,  22,  872415275) /* PhysicsEffectTable */
+     , (40626,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40626,  50,  100688854) /* IconOverlay */
      , (40626,  52,  100676441) /* IconUnderlay */
      , (40626, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
@@ -75,7 +74,7 @@ VALUES (40626, 8000, 2147672670) /* PCAPRecordedObjectIID */
      , (40626, 8008, 1343489356) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40626,  1613,      2) ;
+VALUES (40626,  1613,      2)  /* BloodDrinkerSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40626, 67116840, 0, 0);

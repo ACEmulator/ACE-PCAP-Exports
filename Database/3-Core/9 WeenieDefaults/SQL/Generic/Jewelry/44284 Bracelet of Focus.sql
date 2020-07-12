@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44284, 8000, 2217299808) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44284,  3964,      2) 
-     , (44284,  4304,      2) ;
+VALUES (44284,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (44284,  4304,      2)  /* FocusOther8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44284, 67111922, 0, 0);

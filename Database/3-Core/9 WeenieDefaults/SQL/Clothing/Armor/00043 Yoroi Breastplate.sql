@@ -21,7 +21,6 @@ VALUES (43,   1,          2) /* ItemType - Armor */
      , (43, 110,          0) /* ItemAllegianceRankLimit */
      , (43, 115,          0) /* ItemSkillLevelLimit */
      , (43, 131,         63) /* MaterialType - Silver */
-     , (43, 172,          5) /* AppraisalLongDescDecoration */
      , (43, 177,          4) /* GemCount */
      , (43, 178,         26) /* GemType */
      , (43, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,9 +59,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43, 8000, 2174536898) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43,  1485,      2) 
-     , (43,  1561,      2) 
-     , (43,  2622,      2) ;
+VALUES (43,  1485,      2)  /* Impenetrability5 */
+     , (43,  1561,      2)  /* BladeBane5 */
+     , (43,  2622,      2)  /* CANTRIPSTORMWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43, 67110547, 174, 66);

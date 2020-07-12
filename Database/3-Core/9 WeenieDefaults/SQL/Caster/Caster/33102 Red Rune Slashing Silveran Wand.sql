@@ -23,7 +23,6 @@ VALUES (33102,   1,      32768) /* ItemType - Caster */
      , (33102, 158,          7) /* WieldRequirements - Level */
      , (33102, 159,          1) /* WieldSkillType - Axe */
      , (33102, 160,        140) /* WieldDifficulty */
-     , (33102, 176,         34) /* AppraisalItemSkill */
      , (33102, 263,          1) /* ResistanceModifierType */
      , (33102, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
@@ -52,6 +51,7 @@ VALUES (33102,   1,   33559921) /* Setup */
      , (33102,   8,  100688910) /* Icon */
      , (33102,  22,  872415275) /* PhysicsEffectTable */
      , (33102,  28,       2146) /* Spell - WhirlingBlade7 */
+     , (33102,  37,         34) /* ItemSkillLimit - WarMagic */
      , (33102,  50,  100688915) /* IconOverlay */
      , (33102, 8001, 1349222552) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType, IconOverlay */
      , (33102, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
@@ -67,8 +67,7 @@ VALUES (33102, 8000, 3396510655) /* PCAPRecordedObjectIID */
      , (33102, 8008, 1342976574) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33102,  2101,      2) 
-     , (33102,  2117,      2) 
-     , (33102,  2146,      2) 
-     , (33102,  2812,      2) 
-     , (33102,  3259,      2) ;
+VALUES (33102,  2101,      2)  /* DefenderSelf7 */
+     , (33102,  2117,      2)  /* HermeticLinkSelf7 */
+     , (33102,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (33102,  3259,      2)  /* SpiritDrinkerSelf7 */;

@@ -24,7 +24,6 @@ VALUES (36489,   1,      32768) /* ItemType - Caster */
      , (36489, 158,          1) /* WieldRequirements - Skill */
      , (36489, 159,         15) /* WieldSkillType - MagicDefense */
      , (36489, 160,        275) /* WieldDifficulty */
-     , (36489, 176,         30) /* AppraisalItemSkill */
      , (36489, 263,          8) /* ResistanceModifierType */
      , (36489, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
@@ -51,6 +50,7 @@ VALUES (36489,   1,   33560392) /* Setup */
      , (36489,   8,  100689642) /* Icon */
      , (36489,  22,  872415275) /* PhysicsEffectTable */
      , (36489,  28,       4216) /* Spell - FrostWaveOrisis */
+     , (36489,  37,         30) /* ItemSkillLimit - MagicItemTinkering */
      , (36489, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (36489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36489, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -65,7 +65,6 @@ VALUES (36489, 8000, 2168176075) /* PCAPRecordedObjectIID */
      , (36489, 8008, 1343312670) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36489,  2611,      2) 
-     , (36489,  4199,      2) 
-     , (36489,  4201,      2) 
-     , (36489,  4216,      2) ;
+VALUES (36489,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (36489,  4199,      2)  /* FrozenArmor */
+     , (36489,  4201,      2)  /* ColdVulnerabilityNumbing */;

@@ -23,7 +23,6 @@ VALUES (2423,   1,       2048) /* ItemType - Gem */
      , (2423, 115,          0) /* ItemSkillLevelLimit */
      , (2423, 117,        350) /* ItemManaCost */
      , (2423, 131,         33) /* MaterialType - Opal */
-     , (2423, 172,          1) /* AppraisalLongDescDecoration */
      , (2423, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,9 +48,6 @@ VALUES (2423,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2423, 8000, 3700264425) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2423,  1312,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2423, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;

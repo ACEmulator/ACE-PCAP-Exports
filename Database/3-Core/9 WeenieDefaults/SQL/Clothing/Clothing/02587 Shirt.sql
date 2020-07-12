@@ -20,7 +20,6 @@ VALUES (2587,   1,          4) /* ItemType - Clothing */
      , (2587, 110,          0) /* ItemAllegianceRankLimit */
      , (2587, 115,          0) /* ItemSkillLevelLimit */
      , (2587, 131,          5) /* MaterialType - Satin */
-     , (2587, 172,          5) /* AppraisalLongDescDecoration */
      , (2587, 177,          1) /* GemCount */
      , (2587, 178,         25) /* GemType */
      , (2587, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -59,7 +58,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2587, 8000, 2186220386) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2587,  1136,      2) ;
+VALUES (2587,  1136,      2)  /* PiercingProtectionSelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2587, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

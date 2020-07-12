@@ -29,8 +29,6 @@ VALUES (41046,   1,          1) /* ItemType - MeleeWeapon */
      , (41046, 158,          2) /* WieldRequirements - RawSkill */
      , (41046, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41046, 160,        350) /* WieldDifficulty */
-     , (41046, 172,          5) /* AppraisalLongDescDecoration */
-     , (41046, 176,         41) /* AppraisalItemSkill */
      , (41046, 177,          2) /* GemCount */
      , (41046, 178,         12) /* GemType */
      , (41046, 353,         11) /* WeaponType - TwoHanded */
@@ -60,6 +58,7 @@ VALUES (41046,   1,   33560875) /* Setup */
      , (41046,   6,   67115558) /* PaletteBase */
      , (41046,   8,  100690640) /* Icon */
      , (41046,  22,  872415275) /* PhysicsEffectTable */
+     , (41046,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41046, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41046, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -68,8 +67,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41046, 8000, 3214068924) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41046,  1615,      2) 
-     , (41046,  1626,      2) ;
+VALUES (41046,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (41046,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41046, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

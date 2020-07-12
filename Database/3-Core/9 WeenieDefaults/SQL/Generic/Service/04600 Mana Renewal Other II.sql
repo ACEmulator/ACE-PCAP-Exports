@@ -24,7 +24,8 @@ VALUES (4600,   1,   33554680) /* Setup */
      , (4600,  28,        207) /* Spell - ManaRenewalOther2 */
      , (4600, 8001,    4210712) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Spell */
      , (4600, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (4600, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+     , (4600, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
+     , (4600, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4600, 8000,       4600) /* PCAPRecordedObjectIID */;

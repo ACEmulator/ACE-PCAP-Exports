@@ -22,9 +22,7 @@ VALUES (94,   1,          2) /* ItemType - Armor */
      , (94, 110,          0) /* ItemAllegianceRankLimit */
      , (94, 115,        179) /* ItemSkillLevelLimit */
      , (94, 131,         63) /* MaterialType - Silver */
-     , (94, 151,          2) /* HookType - Wall */
-     , (94, 172,          1) /* AppraisalLongDescDecoration */
-     , (94, 176,          6) /* AppraisalItemSkill */;
+     , (94, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (94,  22, True ) /* Inscribable */;
@@ -51,6 +49,7 @@ VALUES (94,   1,   33557043) /* Setup */
      , (94,   3,  536870932) /* SoundTable */
      , (94,   8,  100674092) /* Icon */
      , (94,  22,  872415275) /* PhysicsEffectTable */
+     , (94,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (94, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (94, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (94, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
@@ -65,10 +64,10 @@ VALUES (94, 8000, 2183167556) /* PCAPRecordedObjectIID */
      , (94, 8008, 1342789086) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (94,  1483,      2) 
-     , (94,  1538,      2) 
-     , (94,  1559,      2) 
-     , (94,  1572,      2) ;
+VALUES (94,  1483,      2)  /* Impenetrability3 */
+     , (94,  1538,      2)  /* LightningBane4 */
+     , (94,  1559,      2)  /* BladeBane3 */
+     , (94,  1572,      2)  /* PiercingBane4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (94, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

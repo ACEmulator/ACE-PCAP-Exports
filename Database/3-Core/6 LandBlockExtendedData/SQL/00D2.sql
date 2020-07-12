@@ -1,6 +1,10 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00D2;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D2009, 34830, 0x00D201DF, 31.314, -301.708, -24.20983, 0.3826829, 0, 0, -0.9238797, False, '2019-02-10 00:00:00'); /* Northern Catacombs Exit */
+/* @teleloc 0x00D201DF [31.314000 -301.708000 -24.209830] 0.382683 0.000000 0.000000 -0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D2037, 34830, 0x00D20511, 111.579, -216.585, -12.20983, -0.9238793, 0, 0, -0.3826841, False, '2019-02-10 00:00:00'); /* Northern Catacombs Exit */
 /* @teleloc 0x00D20511 [111.579000 -216.585000 -12.209830] -0.923879 0.000000 0.000000 -0.382684 */
 

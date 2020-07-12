@@ -23,7 +23,6 @@ VALUES (31810,   1,        256) /* ItemType - MissileWeapon */
      , (31810, 158,          2) /* WieldRequirements - RawSkill */
      , (31810, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31810, 160,        335) /* WieldDifficulty */
-     , (31810, 172,          5) /* AppraisalLongDescDecoration */
      , (31810, 177,          4) /* GemCount */
      , (31810, 178,         39) /* GemType */
      , (31810, 204,          9) /* ElementalDamageBonus */

@@ -15,7 +15,6 @@ VALUES (2418,   1,       2048) /* ItemType - Gem */
      , (2418,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2418, 105,          5) /* ItemWorkmanship */
      , (2418, 131,         42) /* MaterialType - TigerEye */
-     , (2418, 172,          1) /* AppraisalLongDescDecoration */
      , (2418, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

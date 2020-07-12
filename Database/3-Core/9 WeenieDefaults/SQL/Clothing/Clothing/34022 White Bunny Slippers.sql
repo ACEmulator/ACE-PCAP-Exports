@@ -51,8 +51,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34022, 8000, 2166170656) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34022,   975,      2) 
-     , (34022,   987,      2) ;
+VALUES (34022,   975,      2)  /* JumpingMasterySelf6 */
+     , (34022,   987,      2)  /* SprintSelf6 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (34022, 0, 16793227)

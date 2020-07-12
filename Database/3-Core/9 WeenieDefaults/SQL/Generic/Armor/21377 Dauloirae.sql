@@ -56,11 +56,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21377, 8000, 2554984539) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21377,   243,      2) 
-     , (21377,   514,      2) 
-     , (21377,  1119,      2) 
-     , (21377,  1144,      2) 
-     , (21377,  1485,      2) 
-     , (21377,  1496,      2) 
-     , (21377,  1560,      2) 
-     , (21377,  1572,      2) ;
+VALUES (21377,   243,      2)  /* InvulnerabilityOther5 */
+     , (21377,   514,      2)  /* AcidProtectionOther6 */
+     , (21377,  1119,      2)  /* BladeProtectionOther5 */
+     , (21377,  1144,      2)  /* PiercingProtectionOther6 */
+     , (21377,  1485,      2)  /* Impenetrability5 */
+     , (21377,  1496,      2)  /* AcidBane4 */
+     , (21377,  1560,      2)  /* BladeBane4 */
+     , (21377,  1572,      2)  /* PiercingBane4 */;

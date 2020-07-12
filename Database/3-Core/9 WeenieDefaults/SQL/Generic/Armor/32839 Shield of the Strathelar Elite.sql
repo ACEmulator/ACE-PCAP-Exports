@@ -60,8 +60,8 @@ VALUES (32839, 8000, 2183188025) /* PCAPRecordedObjectIID */
      , (32839, 8008, 1343154319) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32839,  2108,      2) 
-     , (32839,  2937,      2) ;
+VALUES (32839,  2108,      2)  /* Impenetrability7 */
+     , (32839,  2937,      2)  /* ModerateImpregnability */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (32839, 0, 83897393, 83897393)

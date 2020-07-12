@@ -29,8 +29,6 @@ VALUES (31787,   1,          1) /* ItemType - MeleeWeapon */
      , (31787, 158,          2) /* WieldRequirements - RawSkill */
      , (31787, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (31787, 160,        350) /* WieldDifficulty */
-     , (31787, 172,          5) /* AppraisalLongDescDecoration */
-     , (31787, 176,         46) /* AppraisalItemSkill */
      , (31787, 177,          1) /* GemCount */
      , (31787, 178,         38) /* GemType */
      , (31787, 353,          1) /* WeaponType - Unarmed */
@@ -62,6 +60,7 @@ VALUES (31787,   1,   33559644) /* Setup */
      , (31787,   6,   67116700) /* PaletteBase */
      , (31787,   8,  100688077) /* Icon */
      , (31787,  22,  872415275) /* PhysicsEffectTable */
+     , (31787,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (31787, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31787, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31787, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -70,12 +69,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31787, 8000, 2174517075) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31787,  1592,      2) 
-     , (31787,  2081,      2) 
-     , (31787,  2096,      2) 
-     , (31787,  2526,      2) 
-     , (31787,  2608,      2) 
-     , (31787,  2622,      2) ;
+VALUES (31787,  1592,      2)  /* HeartSeekerSelf6 */
+     , (31787,  2081,      2)  /* QuicknessSelf7 */
+     , (31787,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (31787,  2526,      2)  /* CANTRIPMONSTERATTUNEMENT2 */
+     , (31787,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */
+     , (31787,  2622,      2)  /* CANTRIPSTORMWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31787, 67116700, 1, 100)

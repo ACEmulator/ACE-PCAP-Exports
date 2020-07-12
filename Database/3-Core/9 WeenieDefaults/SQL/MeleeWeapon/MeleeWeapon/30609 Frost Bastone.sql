@@ -29,8 +29,6 @@ VALUES (30609,   1,          1) /* ItemType - MeleeWeapon */
      , (30609, 158,          2) /* WieldRequirements - RawSkill */
      , (30609, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30609, 160,        250) /* WieldDifficulty */
-     , (30609, 172,          1) /* AppraisalLongDescDecoration */
-     , (30609, 176,         46) /* AppraisalItemSkill */
      , (30609, 353,          7) /* WeaponType - Staff */
      , (30609, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (30609, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -59,6 +57,7 @@ VALUES (30609,   1,   33559495) /* Setup */
      , (30609,   6,   67116428) /* PaletteBase */
      , (30609,   8,  100687025) /* Icon */
      , (30609,  22,  872415275) /* PhysicsEffectTable */
+     , (30609,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (30609, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30609, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30609, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -67,8 +66,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30609, 8000, 3705367725) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30609,  1615,      2) 
-     , (30609,  2583,      2) ;
+VALUES (30609,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (30609,  2583,      2)  /* CANTRIPSTRENGTH1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30609, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

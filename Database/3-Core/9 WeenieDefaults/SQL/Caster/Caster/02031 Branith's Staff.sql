@@ -17,7 +17,6 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031, 108,        600) /* ItemMaxMana */
      , (2031, 115,        100) /* ItemSkillLevelLimit */
      , (2031, 151,          2) /* HookType - Wall */
-     , (2031, 176,         34) /* AppraisalItemSkill */
      , (2031, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,6 +40,7 @@ VALUES (2031,   1,   33558283) /* Setup */
      , (2031,   8,  100674234) /* Icon */
      , (2031,  22,  872415275) /* PhysicsEffectTable */
      , (2031,  28,       2742) /* Spell - FlameArc4 */
+     , (2031,  37,         34) /* ItemSkillLimit - WarMagic */
      , (2031, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (2031, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2031, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -49,7 +49,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2031, 8000, 3683069711) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2031,   215,      2) 
-     , (2031,   632,      2) 
-     , (2031,   656,      2) 
-     , (2031,  2742,      2) ;
+VALUES (2031,   215,      2)  /* ManaRenewalSelf4 */
+     , (2031,   632,      2)  /* WarMagicMasterySelf4 */
+     , (2031,   656,      2)  /* ManaMasterySelf4 */;

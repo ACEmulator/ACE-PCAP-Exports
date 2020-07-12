@@ -21,7 +21,6 @@ VALUES (28608,   1,          4) /* ItemType - Clothing */
      , (28608, 110,          0) /* ItemAllegianceRankLimit */
      , (28608, 115,          0) /* ItemSkillLevelLimit */
      , (28608, 131,          6) /* MaterialType - Silk */
-     , (28608, 172,          5) /* AppraisalLongDescDecoration */
      , (28608, 177,          2) /* GemCount */
      , (28608, 178,         39) /* GemType */
      , (28608, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,7 +59,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28608, 8000, 2174536647) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28608,  2149,      2) ;
+VALUES (28608,  2149,      2)  /* AcidProtectionSelf7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28608, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

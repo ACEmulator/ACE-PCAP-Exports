@@ -19,7 +19,6 @@ VALUES (44851,   1,          4) /* ItemType - Clothing */
      , (44851, 158,          7) /* WieldRequirements - Level */
      , (44851, 159,          1) /* WieldSkillType - Axe */
      , (44851, 160,        180) /* WieldDifficulty */
-     , (44851, 172,          1) /* AppraisalLongDescDecoration */
      , (44851, 265,         83) /* EquipmentSetId - CloakAssessCreature */
      , (44851, 319,          3) /* ItemMaxLevel */
      , (44851, 320,          2) /* ItemXpStyle - ScalesWithLevel */
@@ -63,9 +62,6 @@ VALUES (44851,   1,   33561386) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44851, 8000, 2174519321) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44851,  5753,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44851, 0, 83898657, 83898660);

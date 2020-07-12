@@ -60,11 +60,10 @@ VALUES (48938, 8000, 2617863424) /* PCAPRecordedObjectIID */
      , (48938, 8008, 1343406773) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48938,  2072,      2) 
-     , (48938,  4582,      2) 
-     , (48938,  4602,      2) 
-     , (48938,  6060,      2) 
-     , (48938,  6086,      2) ;
+VALUES (48938,  4582,      2)  /* LifeMagicMasterySelf8 */
+     , (48938,  4602,      2)  /* ManaMasterySelf8 */
+     , (48938,  6060,      2)  /* CantripLifeMagicAptitude4 */
+     , (48938,  6086,      2)  /* CantripHermeticLink3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48938, 67111919, 0, 0);

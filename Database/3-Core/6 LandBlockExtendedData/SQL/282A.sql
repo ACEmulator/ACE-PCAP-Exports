@@ -1,0 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x282A;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7282A000,  8381, 0x282A003C, 170.468, 87.8362, 83.937, 0.263681, 0, 0, -0.9646099, False, '2019-02-10 00:00:00'); /* Sotiris Portal */
+/* @teleloc 0x282A003C [170.468000 87.836200 83.937000] 0.263681 0.000000 0.000000 -0.964610 */

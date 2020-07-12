@@ -75,10 +75,10 @@ VALUES (41916, 8000, 3668240975) /* PCAPRecordedObjectIID */
      , (41916, 8008, 1343492671) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41916,  2004,      2) 
-     , (41916,  2087,      2) 
-     , (41916,  2096,      2) 
-     , (41916,  2106,      2) ;
+VALUES (41916,  2004,      2)  /* WarriorsVitality */
+     , (41916,  2087,      2)  /* StrengthSelf7 */
+     , (41916,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (41916,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41916, 67111924, 0, 0);

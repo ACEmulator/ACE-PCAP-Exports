@@ -57,10 +57,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43929, 8000, 2498294987) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43929,  2576,      2) 
-     , (43929,  2610,      2) 
-     , (43929,  3094,      2) 
-     , (43929,  3308,      2) ;
+VALUES (43929,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (43929,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
+     , (43929,  3094,      2)  /* SkinFiazhat */
+     , (43929,  3308,      2)  /* FlangeAegis */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43929, 0, 83894333, 83897511);

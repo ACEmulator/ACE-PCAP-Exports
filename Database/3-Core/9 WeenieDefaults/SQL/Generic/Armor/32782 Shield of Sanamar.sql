@@ -61,9 +61,9 @@ VALUES (32782, 8000, 3683025544) /* PCAPRecordedObjectIID */
      , (32782, 8008, 1342631147) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32782,   249,      2) 
-     , (32782,  2108,      2) 
-     , (32782,  2663,      2) ;
+VALUES (32782,   249,      2)  /* InvulnerabilitySelf6 */
+     , (32782,  2108,      2)  /* Impenetrability7 */
+     , (32782,  2663,      2)  /* ModerateStrength */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (32782, 0, 83897426, 83897426);

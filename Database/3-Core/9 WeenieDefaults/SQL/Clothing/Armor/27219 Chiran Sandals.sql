@@ -21,7 +21,6 @@ VALUES (27219,   1,          2) /* ItemType - Armor */
      , (27219, 110,          0) /* ItemAllegianceRankLimit */
      , (27219, 115,          0) /* ItemSkillLevelLimit */
      , (27219, 131,          6) /* MaterialType - Silk */
-     , (27219, 172,          1) /* AppraisalLongDescDecoration */
      , (27219, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,11 +57,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27219, 8000, 3694326496) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27219,   879,      2) 
-     , (27219,  1486,      2) 
-     , (27219,  2098,      2) 
-     , (27219,  2534,      2) 
-     , (27219,  2582,      2) ;
+VALUES (27219,   879,      2)  /* HealingMasterySelf6 */
+     , (27219,  1486,      2)  /* Impenetrability6 */
+     , (27219,  2098,      2)  /* BludgeonBane7 */
+     , (27219,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (27219,  2582,      2)  /* CANTRIPQUICKNESS1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27219, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

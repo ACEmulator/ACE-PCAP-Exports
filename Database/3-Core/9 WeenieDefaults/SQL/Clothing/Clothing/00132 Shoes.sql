@@ -20,7 +20,6 @@ VALUES (132,   1,          4) /* ItemType - Clothing */
      , (132, 110,          0) /* ItemAllegianceRankLimit */
      , (132, 115,          0) /* ItemSkillLevelLimit */
      , (132, 131,         52) /* MaterialType - Leather */
-     , (132, 172,          1) /* AppraisalLongDescDecoration */
      , (132, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -57,10 +56,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (132, 8000, 2186220387) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (132,   423,      2) 
-     , (132,  1485,      2) 
-     , (132,  1528,      2) 
-     , (132,  2620,      2) ;
+VALUES (132,   423,      2)  /* SwordMasterySelf6 */
+     , (132,  1485,      2)  /* Impenetrability5 */
+     , (132,  1528,      2)  /* FrostBane6 */
+     , (132,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (132, 67110333, 160, 8);

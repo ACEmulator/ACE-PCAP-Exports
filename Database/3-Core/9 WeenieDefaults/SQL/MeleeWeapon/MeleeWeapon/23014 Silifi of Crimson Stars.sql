@@ -64,8 +64,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23014, 8000, 3627957798) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23014,  1096,      2) 
-     , (23014,  1616,      2) ;
+VALUES (23014,  1096,      2)  /* FireProtectionOther6 */
+     , (23014,  1616,      2)  /* BloodDrinkerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23014, 67111921, 0, 0);

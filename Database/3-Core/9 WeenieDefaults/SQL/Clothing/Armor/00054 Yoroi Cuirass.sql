@@ -21,8 +21,6 @@ VALUES (54,   1,          2) /* ItemType - Armor */
      , (54, 110,          0) /* ItemAllegianceRankLimit */
      , (54, 115,        149) /* ItemSkillLevelLimit */
      , (54, 131,         63) /* MaterialType - Silver */
-     , (54, 172,          5) /* AppraisalLongDescDecoration */
-     , (54, 176,          7) /* AppraisalItemSkill */
      , (54, 177,          4) /* GemCount */
      , (54, 178,         22) /* GemType */
      , (54, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -53,6 +51,7 @@ VALUES (54,   1,   33554854) /* Setup */
      , (54,   6,   67108990) /* PaletteBase */
      , (54,   8,  100671319) /* Icon */
      , (54,  22,  872415275) /* PhysicsEffectTable */
+     , (54,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (54, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (54, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (54, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -61,7 +60,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (54, 8000, 3688356717) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (54,  1485,      2) ;
+VALUES (54,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (54, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

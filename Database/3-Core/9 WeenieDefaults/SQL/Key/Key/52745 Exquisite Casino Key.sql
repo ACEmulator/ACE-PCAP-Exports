@@ -27,7 +27,8 @@ VALUES (52745,   1,   33554784) /* Setup */
      , (52745,  22,  872415275) /* PhysicsEffectTable */
      , (52745, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (52745, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (52745, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+     , (52745, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
+     , (52745, 8044,       2200) /* PCAPPhysicsDIDDataTemplatedFrom - Copy of Witshire's Key */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52745, 8000,      52745) /* PCAPRecordedObjectIID */;

@@ -26,7 +26,6 @@ VALUES (40680,   1,          2) /* ItemType - Armor */
      , (40680, 158,          2) /* WieldRequirements - RawSkill */
      , (40680, 159,          7) /* WieldSkillType - MissileDefense */
      , (40680, 160,        305) /* WieldDifficulty */
-     , (40680, 172,          5) /* AppraisalLongDescDecoration */
      , (40680, 177,          3) /* GemCount */
      , (40680, 178,         26) /* GemType */
      , (40680, 270,          7) /* WieldRequirements2 - Level */
@@ -68,10 +67,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40680, 8000, 2515565224) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40680,  2108,      2) 
-     , (40680,  2251,      2) 
-     , (40680,  4708,      2) 
-     , (40680,  5427,      2) ;
+VALUES (40680,  2108,      2)  /* Impenetrability7 */
+     , (40680,  2251,      2)  /* ItemExpertiseSelf7 */
+     , (40680,  4708,      2)  /* CANTRIPSALVAGING3 */
+     , (40680,  5427,      2)  /* CantripVoidMagicAptitude1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40680, 67116571, 250, 6)

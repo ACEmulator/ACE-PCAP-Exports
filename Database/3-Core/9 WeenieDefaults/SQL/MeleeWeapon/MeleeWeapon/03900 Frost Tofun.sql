@@ -29,8 +29,6 @@ VALUES (3900,   1,          1) /* ItemType - MeleeWeapon */
      , (3900, 158,          2) /* WieldRequirements - RawSkill */
      , (3900, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3900, 160,        325) /* WieldDifficulty */
-     , (3900, 172,          5) /* AppraisalLongDescDecoration */
-     , (3900, 176,         46) /* AppraisalItemSkill */
      , (3900, 177,          2) /* GemCount */
      , (3900, 178,         47) /* GemType */
      , (3900, 353,          4) /* WeaponType - Mace */
@@ -61,6 +59,7 @@ VALUES (3900,   1,   33555741) /* Setup */
      , (3900,   6,   67111919) /* PaletteBase */
      , (3900,   8,  100668964) /* Icon */
      , (3900,  22,  872415275) /* PhysicsEffectTable */
+     , (3900,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3900, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3900, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3900, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
@@ -69,10 +68,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3900, 8000, 2629447749) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3900,  1332,      2) 
-     , (3900,  1616,      2) 
-     , (3900,  2575,      2) 
-     , (3900,  2578,      2) ;
+VALUES (3900,  1332,      2)  /* StrengthSelf6 */
+     , (3900,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3900,  2575,      2)  /* CANTRIPQUICKNESS2 */
+     , (3900,  2578,      2)  /* CANTRIPARMOR1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3900, 67111926, 0, 0);

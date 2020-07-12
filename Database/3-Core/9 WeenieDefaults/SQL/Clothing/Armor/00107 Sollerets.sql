@@ -21,7 +21,6 @@ VALUES (107,   1,          2) /* ItemType - Armor */
      , (107, 110,          0) /* ItemAllegianceRankLimit */
      , (107, 115,          0) /* ItemSkillLevelLimit */
      , (107, 131,         59) /* MaterialType - Copper */
-     , (107, 172,          1) /* AppraisalLongDescDecoration */
      , (107, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,8 +57,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (107, 8000, 2186220436) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (107,  1486,      2) 
-     , (107,  2562,      2) ;
+VALUES (107,  1486,      2)  /* Impenetrability6 */
+     , (107,  2562,      2)  /* CANTRIPPERSONATTUNEMENT1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (107, 67110545, 160, 8);

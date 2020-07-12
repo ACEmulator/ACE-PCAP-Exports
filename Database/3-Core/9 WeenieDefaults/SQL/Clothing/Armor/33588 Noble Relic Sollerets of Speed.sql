@@ -54,11 +54,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33588, 8000, 2888142459) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33588,  2108,      2) 
-     , (33588,  2242,      2) 
-     , (33588,  2244,      2) 
-     , (33588,  2280,      2) 
-     , (33588,  3577,      2) ;
+VALUES (33588,  2108,      2)  /* Impenetrability7 */
+     , (33588,  2242,      2)  /* ImpregnabilityOther7 */
+     , (33588,  2244,      2)  /* InvulnerabilityOther7 */
+     , (33588,  2280,      2)  /* MagicResistanceOther7 */
+     , (33588,  3577,      2)  /* PerfectSpeed */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33588, 0, 83889344, 83897523)

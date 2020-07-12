@@ -23,7 +23,6 @@ VALUES (2393,   1,       2048) /* ItemType - Gem */
      , (2393, 115,          0) /* ItemSkillLevelLimit */
      , (2393, 117,        300) /* ItemManaCost */
      , (2393, 131,         12) /* MaterialType - Amethyst */
-     , (2393, 172,          1) /* AppraisalLongDescDecoration */
      , (2393, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,9 +48,6 @@ VALUES (2393,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2393, 8000, 3691248081) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2393,  1070,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2393, 67111922, 0, 0);

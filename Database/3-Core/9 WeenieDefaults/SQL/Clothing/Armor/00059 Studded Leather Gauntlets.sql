@@ -21,7 +21,6 @@ VALUES (59,   1,          2) /* ItemType - Armor */
      , (59, 110,          0) /* ItemAllegianceRankLimit */
      , (59, 115,          0) /* ItemSkillLevelLimit */
      , (59, 131,         55) /* MaterialType - ReedSharkHide */
-     , (59, 172,          1) /* AppraisalLongDescDecoration */
      , (59, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,8 +57,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (59, 8000, 2186220552) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (59,  1485,      2) 
-     , (59,  2539,      2) ;
+VALUES (59,  1485,      2)  /* Impenetrability5 */
+     , (59,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (59, 67110340, 168, 6);

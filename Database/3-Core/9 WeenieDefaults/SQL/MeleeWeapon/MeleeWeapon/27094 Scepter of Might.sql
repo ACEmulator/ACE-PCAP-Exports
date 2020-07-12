@@ -64,10 +64,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27094, 8000, 2151180417) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27094,  1093,      2) 
-     , (27094,  1310,      2) 
-     , (27094,  1330,      2) 
-     , (27094,  1614,      2) ;
+VALUES (27094,  1093,      2)  /* FireProtectionSelf5 */
+     , (27094,  1310,      2)  /* ArmorSelf4 */
+     , (27094,  1330,      2)  /* StrengthSelf4 */
+     , (27094,  1614,      2)  /* BloodDrinkerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27094, 67111924, 0, 0);

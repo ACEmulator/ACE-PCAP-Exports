@@ -23,7 +23,6 @@ VALUES (9490,   1,          1) /* ItemType - MeleeWeapon */
      , (9490, 109,        100) /* ItemDifficulty */
      , (9490, 115,        200) /* ItemSkillLevelLimit */
      , (9490, 151,          2) /* HookType - Wall */
-     , (9490, 176,         44) /* AppraisalItemSkill */
      , (9490, 353,          5) /* WeaponType - Spear */
      , (9490, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (9490, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,7 +49,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9490,   1,   33557008) /* Setup */
      , (9490,   8,  100671499) /* Icon */
      , (9490,  22,  872415275) /* PhysicsEffectTable */
-     , (9490,  41,         44) /* ItemSpecializedOnly */
+     , (9490,  37,         44) /* ItemSkillLimit - HeavyWeapons */
+     , (9490,  41,         44) /* ItemSpecializedOnly - HeavyWeapons */
      , (9490, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (9490, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9490, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
@@ -59,9 +59,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9490, 8000, 2461428865) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9490,  2387,      2) 
-     , (9490,  2388,      2) 
-     , (9490,  2389,      2) 
-     , (9490,  2390,      2) 
-     , (9490,  2391,      2) 
-     , (9490,  2392,      2) ;
+VALUES (9490,  2387,      2)  /* Determination */
+     , (9490,  2388,      2)  /* Caution */
+     , (9490,  2389,      2)  /* Vigor */
+     , (9490,  2390,      2)  /* Haste */
+     , (9490,  2391,      2)  /* Prowess */
+     , (9490,  2392,      2)  /* Serenity */;

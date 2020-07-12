@@ -55,9 +55,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38044, 8000, 3009732605) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38044,   511,      2) 
-     , (38044,  1357,      2) 
-     , (38044,  1483,      2) ;
+VALUES (38044,   511,      2)  /* AcidProtectionOther3 */
+     , (38044,  1357,      2)  /* EnduranceOther3 */
+     , (38044,  1483,      2)  /* Impenetrability3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38044, 67109975, 80, 12)

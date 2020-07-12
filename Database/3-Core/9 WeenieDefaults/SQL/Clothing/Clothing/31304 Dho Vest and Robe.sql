@@ -53,19 +53,19 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31304, 8000, 2846064183) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31304,   217,      2) 
-     , (31304,   261,      2) 
-     , (31304,   279,      2) 
-     , (31304,  1035,      2) 
-     , (31304,  2094,      2) 
-     , (31304,  2098,      2) 
-     , (31304,  2104,      2) 
-     , (31304,  2113,      2) 
-     , (31304,  2245,      2) 
-     , (31304,  2624,      2) 
-     , (31304,  2661,      2) 
-     , (31304,  2664,      2) 
-     , (31304,  3827,      2) ;
+VALUES (31304,   217,      2)  /* ManaRenewalSelf6 */
+     , (31304,   261,      2)  /* ImpregnabilitySelf6 */
+     , (31304,   279,      2)  /* MagicResistanceSelf6 */
+     , (31304,  1035,      2)  /* ColdProtectionSelf6 */
+     , (31304,  2094,      2)  /* BladeBane7 */
+     , (31304,  2098,      2)  /* BludgeonBane7 */
+     , (31304,  2104,      2)  /* FrostBane7 */
+     , (31304,  2113,      2)  /* PiercingBane7 */
+     , (31304,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (31304,  2624,      2)  /* CANTRIPMANAGAIN2 */
+     , (31304,  2661,      2)  /* ModerateFocus */
+     , (31304,  2664,      2)  /* ModerateWillpower */
+     , (31304,  3827,      2)  /* ImpenetrabilityLunnumsPyre */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31304, 67110387, 80, 12)

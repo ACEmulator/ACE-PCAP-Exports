@@ -71,13 +71,12 @@ VALUES (37585, 8000, 3335779412) /* PCAPRecordedObjectIID */
      , (37585, 8008, 1343212322) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37585,  2101,      2) 
-     , (37585,  2117,      2) 
-     , (37585,  2132,      2) 
-     , (37585,  2534,      2) 
-     , (37585,  2581,      2) 
-     , (37585,  2584,      2) 
-     , (37585,  3259,      2) ;
+VALUES (37585,  2101,      2)  /* DefenderSelf7 */
+     , (37585,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37585,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (37585,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (37585,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (37585,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37585, 67111919, 0, 0);

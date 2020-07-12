@@ -21,7 +21,6 @@ VALUES (28609,   1,          4) /* ItemType - Clothing */
      , (28609, 110,          0) /* ItemAllegianceRankLimit */
      , (28609, 115,          0) /* ItemSkillLevelLimit */
      , (28609, 131,          4) /* MaterialType - Linen */
-     , (28609, 172,          5) /* AppraisalLongDescDecoration */
      , (28609, 177,          1) /* GemCount */
      , (28609, 178,         43) /* GemType */
      , (28609, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,7 +59,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28609, 8000, 3687429092) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28609,  1311,      2) ;
+VALUES (28609,  1311,      2)  /* ArmorSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28609, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */

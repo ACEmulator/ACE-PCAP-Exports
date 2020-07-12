@@ -59,9 +59,9 @@ VALUES (25373, 8000, 3648340611) /* PCAPRecordedObjectIID */
      , (25373, 8008, 1343319664) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25373,  2542,      2) 
-     , (25373,  2551,      2) 
-     , (25373,  2627,      2) ;
+VALUES (25373,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
+     , (25373,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */
+     , (25373,  2627,      2)  /* CANTRIPMANAGAIN1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25373, 67111919, 0, 0);

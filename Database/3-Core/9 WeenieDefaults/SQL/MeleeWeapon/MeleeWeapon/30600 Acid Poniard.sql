@@ -25,7 +25,6 @@ VALUES (30600,   1,          1) /* ItemType - MeleeWeapon */
      , (30600, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30600, 160,        430) /* WieldDifficulty */
      , (30600, 171,          1) /* NumTimesTinkered */
-     , (30600, 172,          5) /* AppraisalLongDescDecoration */
      , (30600, 177,          2) /* GemCount */
      , (30600, 178,         16) /* GemType */
      , (30600, 179,         64) /* ImbuedEffect - AcidRending */

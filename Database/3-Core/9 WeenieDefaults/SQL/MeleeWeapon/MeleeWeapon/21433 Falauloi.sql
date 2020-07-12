@@ -64,4 +64,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21433, 8000, 3327046183) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21433,   320,      2) ;
+VALUES (21433,   320,      2)  /* DaggerMasteryOther5 */;

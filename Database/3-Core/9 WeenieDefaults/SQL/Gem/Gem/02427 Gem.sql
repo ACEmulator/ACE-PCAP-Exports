@@ -15,7 +15,6 @@ VALUES (2427,   1,       2048) /* ItemType - Gem */
      , (2427,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2427, 105,          5) /* ItemWorkmanship */
      , (2427, 131,         17) /* MaterialType - Bloodstone */
-     , (2427, 172,          1) /* AppraisalLongDescDecoration */
      , (2427, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

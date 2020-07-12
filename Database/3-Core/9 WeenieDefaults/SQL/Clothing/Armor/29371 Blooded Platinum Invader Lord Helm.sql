@@ -58,13 +58,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29371, 8000, 2461523191) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29371,  2108,      2) 
-     , (29371,  2195,      2) 
-     , (29371,  2243,      2) 
-     , (29371,  2245,      2) 
-     , (29371,  2281,      2) 
-     , (29371,  2573,      2) 
-     , (29371,  2576,      2) ;
+VALUES (29371,  2108,      2)  /* Impenetrability7 */
+     , (29371,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
+     , (29371,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (29371,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (29371,  2281,      2)  /* MagicResistanceSelf7 */
+     , (29371,  2573,      2)  /* CANTRIPENDURANCE2 */
+     , (29371,  2576,      2)  /* CANTRIPSTRENGTH2 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (29371, 0, 16791973);

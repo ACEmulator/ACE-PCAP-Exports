@@ -27,8 +27,6 @@ VALUES (4194,   1,          1) /* ItemType - MeleeWeapon */
      , (4194, 115,         74) /* ItemSkillLevelLimit */
      , (4194, 131,         59) /* MaterialType - Copper */
      , (4194, 151,          2) /* HookType - Wall */
-     , (4194, 172,          1) /* AppraisalLongDescDecoration */
-     , (4194, 176,         44) /* AppraisalItemSkill */
      , (4194, 353,          1) /* WeaponType - Unarmed */
      , (4194, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (4194, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -56,6 +54,7 @@ VALUES (4194,   1,   33555995) /* Setup */
      , (4194,   3,  536870932) /* SoundTable */
      , (4194,   8,  100670025) /* Icon */
      , (4194,  22,  872415275) /* PhysicsEffectTable */
+     , (4194,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (4194, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (4194, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4194, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -70,4 +69,4 @@ VALUES (4194, 8000, 3691924159) /* PCAPRecordedObjectIID */
      , (4194, 8008, 1343493559) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4194,  1612,      2) ;
+VALUES (4194,  1612,      2)  /* BloodDrinkerSelf2 */;

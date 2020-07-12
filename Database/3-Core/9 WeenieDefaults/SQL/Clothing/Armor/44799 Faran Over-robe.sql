@@ -21,7 +21,6 @@ VALUES (44799,   1,          2) /* ItemType - Armor */
      , (44799, 110,          0) /* ItemAllegianceRankLimit */
      , (44799, 115,          0) /* ItemSkillLevelLimit */
      , (44799, 131,         54) /* MaterialType - GromnieHide */
-     , (44799, 172,          5) /* AppraisalLongDescDecoration */
      , (44799, 177,          4) /* GemCount */
      , (44799, 178,         18) /* GemType */
      , (44799, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,8 +59,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44799, 8000, 2186220618) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44799,  1485,      2) 
-     , (44799,  1539,      2) ;
+VALUES (44799,  1485,      2)  /* Impenetrability5 */
+     , (44799,  1539,      2)  /* LightningBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44799, 67110349, 216, 24)

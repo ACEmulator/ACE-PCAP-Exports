@@ -25,7 +25,6 @@ VALUES (44976,   1,          4) /* ItemType - Clothing */
      , (44976, 158,          7) /* WieldRequirements - Level */
      , (44976, 159,          1) /* WieldSkillType - Axe */
      , (44976, 160,        150) /* WieldDifficulty */
-     , (44976, 172,          5) /* AppraisalLongDescDecoration */
      , (44976, 177,          1) /* GemCount */
      , (44976, 178,         39) /* GemType */
      , (44976, 265,         27) /* EquipmentSetId - Acidproof */
@@ -65,9 +64,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44976, 8000, 2174518572) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44976,  2108,      2) 
-     , (44976,  2191,      2) 
-     , (44976,  4674,      2) ;
+VALUES (44976,  2108,      2)  /* Impenetrability7 */
+     , (44976,  2191,      2)  /* AlchemyMasterySelf7 */
+     , (44976,  4674,      2)  /* CANTRIPBLUDGEONINGWARD3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44976, 67110371, 250, 6)

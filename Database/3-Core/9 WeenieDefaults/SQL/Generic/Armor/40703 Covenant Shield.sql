@@ -25,7 +25,6 @@ VALUES (40703,   1,          2) /* ItemType - Armor */
      , (40703, 158,          2) /* WieldRequirements - RawSkill */
      , (40703, 159,          7) /* WieldSkillType - MissileDefense */
      , (40703, 160,        270) /* WieldDifficulty */
-     , (40703, 172,          5) /* AppraisalLongDescDecoration */
      , (40703, 177,          2) /* GemCount */
      , (40703, 178,         21) /* GemType */
      , (40703, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -63,13 +62,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40703, 8000, 3687395164) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40703,  1354,      2) 
-     , (40703,  2098,      2) 
-     , (40703,  2108,      2) 
-     , (40703,  2113,      2) 
-     , (40703,  2527,      2) 
-     , (40703,  2580,      2) 
-     , (40703,  2601,      2) ;
+VALUES (40703,  1354,      2)  /* EnduranceSelf6 */
+     , (40703,  2098,      2)  /* BludgeonBane7 */
+     , (40703,  2108,      2)  /* Impenetrability7 */
+     , (40703,  2113,      2)  /* PiercingBane7 */
+     , (40703,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
+     , (40703,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (40703,  2601,      2)  /* CANTRIPFLAMEBANE1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (40703, 0, 83894160, 83894160);

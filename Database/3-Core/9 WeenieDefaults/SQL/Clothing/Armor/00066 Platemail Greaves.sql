@@ -15,7 +15,6 @@ VALUES (66,   1,          2) /* ItemType - Armor */
      , (66,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (66, 105,          6) /* ItemWorkmanship */
      , (66, 131,         62) /* MaterialType - Pyreal */
-     , (66, 172,          1) /* AppraisalLongDescDecoration */
      , (66, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

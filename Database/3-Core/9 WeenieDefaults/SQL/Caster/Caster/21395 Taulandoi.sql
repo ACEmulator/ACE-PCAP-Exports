@@ -60,9 +60,8 @@ VALUES (21395, 8000, 2916913302) /* PCAPRecordedObjectIID */
      , (21395, 8008, 1342873439) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21395,   640,      2) 
-     , (21395,   664,      2) 
-     , (21395,  2581,      2) 
-     , (21395,  2584,      2) 
-     , (21395,  2784,      2) 
-     , (21395,  2812,      2) ;
+VALUES (21395,   640,      2)  /* WarMagicMasteryOther6 */
+     , (21395,   664,      2)  /* ManaMasteryOther6 */
+     , (21395,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (21395,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (21395,  2812,      2)  /* ModerateWarMagicAptitude */;

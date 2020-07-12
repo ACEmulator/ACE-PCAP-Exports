@@ -73,15 +73,14 @@ VALUES (30377, 8000, 3065530705) /* PCAPRecordedObjectIID */
      , (30377, 8008, 1343470398) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30377,  2128,      2) 
-     , (30377,  4299,      2) 
-     , (30377,  4329,      2) 
-     , (30377,  4468,      2) 
-     , (30377,  4494,      2) 
-     , (30377,  4578,      2) 
-     , (30377,  4638,      2) 
-     , (30377,  4670,      2) 
-     , (30377,  4705,      2) ;
+VALUES (30377,  4299,      2)  /* EnduranceSelf8 */
+     , (30377,  4329,      2)  /* WillpowerSelf8 */
+     , (30377,  4468,      2)  /* FireProtectionSelf8 */
+     , (30377,  4494,      2)  /* ManaRenewalSelf8 */
+     , (30377,  4578,      2)  /* LeadershipMasterySelf8 */
+     , (30377,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (30377,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
+     , (30377,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30377, 67111925, 0, 0);

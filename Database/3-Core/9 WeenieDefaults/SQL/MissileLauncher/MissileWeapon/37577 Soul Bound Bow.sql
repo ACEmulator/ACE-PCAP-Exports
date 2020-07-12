@@ -78,12 +78,12 @@ VALUES (37577, 8000, 2759515134) /* PCAPRecordedObjectIID */
      , (37577, 8008, 1343461932) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37577,  2096,      2) 
-     , (37577,  2101,      2) 
-     , (37577,  2116,      2) 
-     , (37577,  2505,      2) 
-     , (37577,  2579,      2) 
-     , (37577,  2582,      2) ;
+VALUES (37577,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37577,  2101,      2)  /* DefenderSelf7 */
+     , (37577,  2116,      2)  /* SwiftKillerSelf7 */
+     , (37577,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
+     , (37577,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (37577,  2582,      2)  /* CANTRIPQUICKNESS1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (37577, 0, 83889688, 83892492)

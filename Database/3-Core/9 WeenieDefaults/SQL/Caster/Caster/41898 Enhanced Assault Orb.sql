@@ -65,10 +65,10 @@ VALUES (41898, 8000, 3650311405) /* PCAPRecordedObjectIID */
      , (41898, 8008, 1343484113) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41898,  2013,      2) 
-     , (41898,  2067,      2) 
-     , (41898,  2183,      2) 
-     , (41898,  2287,      2) ;
+VALUES (41898,  2013,      2)  /* WizardsGreaterIntellect */
+     , (41898,  2067,      2)  /* FocusSelf7 */
+     , (41898,  2183,      2)  /* ManaRenewalSelf7 */
+     , (41898,  2287,      2)  /* ManaMasterySelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41898, 67111924, 0, 0);

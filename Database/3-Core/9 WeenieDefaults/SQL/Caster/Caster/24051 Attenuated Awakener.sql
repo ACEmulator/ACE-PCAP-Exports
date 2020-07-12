@@ -56,8 +56,7 @@ VALUES (24051, 8000, 3658173669) /* PCAPRecordedObjectIID */
      , (24051, 8008, 1343466091) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24051,  2542,      2) 
-     , (24051,  3203,      2) ;
+VALUES (24051,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24051, 67113784, 0, 0);

@@ -68,10 +68,10 @@ VALUES (33941, 8000, 3694873634) /* PCAPRecordedObjectIID */
      , (33941, 8008, 1343493591) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33941,  1312,      2) 
-     , (33941,  1626,      2) 
-     , (33941,  2096,      2) 
-     , (33941,  2101,      2) 
-     , (33941,  2106,      2) 
-     , (33941,  2155,      2) 
-     , (33941,  2486,      2) ;
+VALUES (33941,  1312,      2)  /* ArmorSelf6 */
+     , (33941,  1626,      2)  /* SwiftKillerSelf5 */
+     , (33941,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33941,  2101,      2)  /* DefenderSelf7 */
+     , (33941,  2106,      2)  /* HeartSeekerSelf7 */
+     , (33941,  2155,      2)  /* ColdProtectionSelf7 */
+     , (33941,  2486,      2)  /* BLOODTHIRST */;

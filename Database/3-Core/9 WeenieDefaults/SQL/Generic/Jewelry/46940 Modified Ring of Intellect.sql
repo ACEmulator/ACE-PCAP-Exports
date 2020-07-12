@@ -48,8 +48,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46940, 8000, 3333896279) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46940,  4601,      2) 
-     , (46940,  4705,      2) ;
+VALUES (46940,  4601,      2)  /* ManaMasteryOther8 */
+     , (46940,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46940, 67111927, 0, 0);

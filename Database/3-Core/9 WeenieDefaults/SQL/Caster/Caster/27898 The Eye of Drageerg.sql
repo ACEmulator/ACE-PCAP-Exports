@@ -19,7 +19,6 @@ VALUES (27898,   1,      32768) /* ItemType - Caster */
      , (27898, 109,         15) /* ItemDifficulty */
      , (27898, 115,        110) /* ItemSkillLevelLimit */
      , (27898, 151,          2) /* HookType - Wall */
-     , (27898, 176,         33) /* AppraisalItemSkill */
      , (27898, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,6 +39,7 @@ VALUES (27898,   1,   33558802) /* Setup */
      , (27898,   8,  100676618) /* Icon */
      , (27898,  22,  872415275) /* PhysicsEffectTable */
      , (27898,  28,       1050) /* Spell - BludgeonVulnerabilityOther3 */
+     , (27898,  37,         33) /* ItemSkillLimit - LifeMagic */
      , (27898, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (27898, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27898, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -54,7 +54,6 @@ VALUES (27898, 8000, 3154496009) /* PCAPRecordedObjectIID */
      , (27898, 8008, 1342183469) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27898,   208,      2) 
-     , (27898,   565,      2) 
-     , (27898,  1050,      2) 
-     , (27898,  1477,      2) ;
+VALUES (27898,   208,      2)  /* ManaRenewalOther3 */
+     , (27898,   565,      2)  /* CreatureEnchantmentMasteryOther3 */
+     , (27898,  1477,      2)  /* HermeticLinkSelf3 */;

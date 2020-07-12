@@ -61,13 +61,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12139, 8000, 2779733262) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12139,  2108,      2) 
-     , (12139,  2226,      2) 
-     , (12139,  2243,      2) 
-     , (12139,  2245,      2) 
-     , (12139,  2281,      2) 
-     , (12139,  2510,      2) 
-     , (12139,  2592,      2) ;
+VALUES (12139,  2108,      2)  /* Impenetrability7 */
+     , (12139,  2226,      2)  /* DeceptionMasteryOther7 */
+     , (12139,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (12139,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (12139,  2281,      2)  /* MagicResistanceSelf7 */
+     , (12139,  2510,      2)  /* CANTRIPDECEPTIONPROWESS2 */
+     , (12139,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12139, 67113392, 240, 10)

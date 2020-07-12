@@ -56,9 +56,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43140, 8000, 2224565127) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43140,  4667,      2) 
-     , (43140,  4686,      2) 
-     , (43140,  5141,      2) ;
+VALUES (43140,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
+     , (43140,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */
+     , (43140,  5141,      2)  /* TrinketDamageReduction1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43140, 0, 83898265, 83898265)

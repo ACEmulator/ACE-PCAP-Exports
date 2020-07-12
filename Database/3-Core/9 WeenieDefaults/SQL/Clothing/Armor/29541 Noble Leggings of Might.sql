@@ -54,12 +54,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29541, 8000, 2980863042) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29541,   568,      2) 
-     , (29541,   592,      2) 
-     , (29541,   616,      2) 
-     , (29541,   640,      2) 
-     , (29541,  2108,      2) 
-     , (29541,  3573,      2) ;
+VALUES (29541,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+     , (29541,   592,      2)  /* ItemEnchantmentMasteryOther6 */
+     , (29541,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (29541,   640,      2)  /* WarMagicMasteryOther6 */
+     , (29541,  2108,      2)  /* Impenetrability7 */
+     , (29541,  3573,      2)  /* InnerMight */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29541, 67115398, 72, 24)

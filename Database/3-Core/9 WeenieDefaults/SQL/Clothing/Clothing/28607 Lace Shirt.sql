@@ -21,7 +21,6 @@ VALUES (28607,   1,          4) /* ItemType - Clothing */
      , (28607, 110,          0) /* ItemAllegianceRankLimit */
      , (28607, 115,          0) /* ItemSkillLevelLimit */
      , (28607, 131,          6) /* MaterialType - Silk */
-     , (28607, 172,          5) /* AppraisalLongDescDecoration */
      , (28607, 177,          2) /* GemCount */
      , (28607, 178,         34) /* GemType */
      , (28607, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,7 +59,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28607, 8000, 3685210008) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28607,  2155,      2) ;
+VALUES (28607,  2155,      2)  /* ColdProtectionSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28607, 67115932, 40, 24);

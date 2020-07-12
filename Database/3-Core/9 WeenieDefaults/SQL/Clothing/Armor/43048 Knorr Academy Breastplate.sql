@@ -21,8 +21,6 @@ VALUES (43048,   1,          2) /* ItemType - Armor */
      , (43048, 110,          0) /* ItemAllegianceRankLimit */
      , (43048, 115,        249) /* ItemSkillLevelLimit */
      , (43048, 131,         54) /* MaterialType - GromnieHide */
-     , (43048, 172,          7) /* AppraisalLongDescDecoration */
-     , (43048, 176,          6) /* AppraisalItemSkill */
      , (43048, 177,          4) /* GemCount */
      , (43048, 178,         20) /* GemType */
      , (43048, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -53,6 +51,7 @@ VALUES (43048,   1,   33554642) /* Setup */
      , (43048,   6,   67108990) /* PaletteBase */
      , (43048,   8,  100691382) /* Icon */
      , (43048,  22,  872415275) /* PhysicsEffectTable */
+     , (43048,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (43048, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43048, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43048, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
@@ -65,9 +64,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43048, 8000, 3692957643) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43048,   951,      2) 
-     , (43048,  1486,      2) 
-     , (43048,  1528,      2) ;
+VALUES (43048,   951,      2)  /* FealtySelf6 */
+     , (43048,  1486,      2)  /* Impenetrability6 */
+     , (43048,  1528,      2)  /* FrostBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43048, 67109966, 186, 12)

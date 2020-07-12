@@ -20,7 +20,6 @@ VALUES (31761,   1,          1) /* ItemType - MeleeWeapon */
      , (31761, 105,          6) /* ItemWorkmanship */
      , (31761, 131,         59) /* MaterialType - Copper */
      , (31761, 151,          2) /* HookType - Wall */
-     , (31761, 172,          1) /* AppraisalLongDescDecoration */
      , (31761, 353,          2) /* WeaponType - Sword */
      , (31761, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (31761, 8041,        101) /* PCAPRecordedPlacement - Resting */;

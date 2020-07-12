@@ -66,13 +66,12 @@ VALUES (40909, 8000, 3691844955) /* PCAPRecordedObjectIID */
      , (40909, 8008, 1343176608) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40909,  2262,      2) 
-     , (40909,  2266,      2) 
-     , (40909,  2519,      2) 
-     , (40909,  2520,      2) 
-     , (40909,  4434,      2) 
-     , (40909,  4637,      2) 
-     , (40909,  4715,      2) ;
+VALUES (40909,  2262,      2)  /* LeadershipMasteryOther7 */
+     , (40909,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (40909,  2519,      2)  /* CANTRIPLEADERSHIP2 */
+     , (40909,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
+     , (40909,  4637,      2)  /* WarMagicMasteryOther8 */
+     , (40909,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40909, 67111920, 0, 0);

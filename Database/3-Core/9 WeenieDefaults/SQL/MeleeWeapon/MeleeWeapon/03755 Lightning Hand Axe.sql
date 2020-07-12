@@ -23,7 +23,6 @@ VALUES (3755,   1,          1) /* ItemType - MeleeWeapon */
      , (3755, 158,          2) /* WieldRequirements - RawSkill */
      , (3755, 159,         45) /* WieldSkillType - LightWeapons */
      , (3755, 160,        250) /* WieldDifficulty */
-     , (3755, 172,          1) /* AppraisalLongDescDecoration */
      , (3755, 353,          3) /* WeaponType - Axe */
      , (3755, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (3755, 8041,        101) /* PCAPRecordedPlacement - Resting */;

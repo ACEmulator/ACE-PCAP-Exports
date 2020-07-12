@@ -22,7 +22,6 @@ VALUES (141,   1,        256) /* ItemType - MissileWeapon */
      , (141, 105,          8) /* ItemWorkmanship */
      , (141, 131,         60) /* MaterialType - Gold */
      , (141, 151,          1) /* HookType - Floor */
-     , (141, 172,          5) /* AppraisalLongDescDecoration */
      , (141, 177,          1) /* GemCount */
      , (141, 178,         48) /* GemType */
      , (141, 353,         10) /* WeaponType - Thrown */

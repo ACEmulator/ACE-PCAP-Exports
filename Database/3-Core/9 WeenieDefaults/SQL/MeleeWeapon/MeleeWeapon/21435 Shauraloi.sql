@@ -71,4 +71,4 @@ VALUES (21435, 8000, 3701495636) /* PCAPRecordedObjectIID */
      , (21435, 8008, 3701495625) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21435,   320,      2) ;
+VALUES (21435,   320,      2)  /* DaggerMasteryOther5 */;

@@ -23,7 +23,6 @@ VALUES (7797,   1,          1) /* ItemType - MeleeWeapon */
      , (7797, 158,          2) /* WieldRequirements - RawSkill */
      , (7797, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (7797, 160,        300) /* WieldDifficulty */
-     , (7797, 172,          1) /* AppraisalLongDescDecoration */
      , (7797, 353,          5) /* WeaponType - Spear */
      , (7797, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (7797, 8041,        101) /* PCAPRecordedPlacement - Resting */;

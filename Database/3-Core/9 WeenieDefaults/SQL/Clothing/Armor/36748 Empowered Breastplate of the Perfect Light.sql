@@ -61,17 +61,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36748, 8000, 3681370366) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36748,  2350,      2) 
-     , (36748,  2351,      2) 
-     , (36748,  2352,      2) 
-     , (36748,  2353,      2) 
-     , (36748,  2581,      2) 
-     , (36748,  2960,      2) 
-     , (36748,  2961,      2) 
-     , (36748,  2962,      2) 
-     , (36748,  3978,      2) 
-     , (36748,  3981,      2) 
-     , (36748,  4062,      2) ;
+VALUES (36748,  2350,      2)  /* DecayDurance */
+     , (36748,  2351,      2)  /* ConsumptionDurance */
+     , (36748,  2352,      2)  /* StasisDurance */
+     , (36748,  2353,      2)  /* StimulationDurance */
+     , (36748,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (36748,  2960,      2)  /* BludgeoningDurance */
+     , (36748,  2961,      2)  /* PiercingDurance */
+     , (36748,  2962,      2)  /* SlashingDurance */
+     , (36748,  3978,      2)  /* FocusOtherIncantation */
+     , (36748,  3981,      2)  /* ManarenewalOtherIncantation */
+     , (36748,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (36748, 0, 16793750);

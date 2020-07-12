@@ -75,11 +75,11 @@ VALUES (40518, 8000, 2152411550) /* PCAPRecordedObjectIID */
      , (40518, 8008, 1343063315) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40518,  2059,      2) 
-     , (40518,  2087,      2) 
-     , (40518,  2101,      2) 
-     , (40518,  2106,      2) 
-     , (40518,  2116,      2) 
-     , (40518,  4395,      2) 
-     , (40518,  4624,      2) 
-     , (40518,  4712,      2) ;
+VALUES (40518,  2059,      2)  /* CoordinationSelf7 */
+     , (40518,  2087,      2)  /* StrengthSelf7 */
+     , (40518,  2101,      2)  /* DefenderSelf7 */
+     , (40518,  2106,      2)  /* HeartSeekerSelf7 */
+     , (40518,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40518,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (40518,  4624,      2)  /* SwordMasterySelf8 */
+     , (40518,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;

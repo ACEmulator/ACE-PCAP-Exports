@@ -22,7 +22,6 @@ VALUES (75,   1,          2) /* ItemType - Armor */
      , (75, 115,          0) /* ItemSkillLevelLimit */
      , (75, 131,         63) /* MaterialType - Silver */
      , (75, 151,          2) /* HookType - Wall */
-     , (75, 172,          1) /* AppraisalLongDescDecoration */
      , (75, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,11 +58,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (75, 8000, 3688176286) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (75,  1485,      2) 
-     , (75,  1515,      2) 
-     , (75,  1561,      2) 
-     , (75,  1573,      2) 
-     , (75,  2550,      2) ;
+VALUES (75,  1485,      2)  /* Impenetrability5 */
+     , (75,  1515,      2)  /* BludgeonBane5 */
+     , (75,  1561,      2)  /* BladeBane5 */
+     , (75,  1573,      2)  /* PiercingBane5 */
+     , (75,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (75, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

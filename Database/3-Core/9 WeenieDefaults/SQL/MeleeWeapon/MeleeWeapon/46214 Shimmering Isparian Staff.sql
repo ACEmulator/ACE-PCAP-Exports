@@ -62,11 +62,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46214, 8000, 3704218686) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46214,  2096,      2) 
-     , (46214,  2101,      2) 
-     , (46214,  2106,      2) 
-     , (46214,  2116,      2) 
-     , (46214,  2531,      2) ;
+VALUES (46214,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46214,  2101,      2)  /* DefenderSelf7 */
+     , (46214,  2106,      2)  /* HeartSeekerSelf7 */
+     , (46214,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46214,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46214, 0, 83889237, 83892492)

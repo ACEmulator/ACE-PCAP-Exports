@@ -75,10 +75,10 @@ VALUES (41880, 8000, 2168101523) /* PCAPRecordedObjectIID */
      , (41880, 8008, 1343314966) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41880,  2058,      2) 
-     , (41880,  2096,      2) 
-     , (41880,  2101,      2) 
-     , (41880,  2572,      2) ;
+VALUES (41880,  2058,      2)  /* CoordinationOther7 */
+     , (41880,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (41880,  2101,      2)  /* DefenderSelf7 */
+     , (41880,  2572,      2)  /* CANTRIPCOORDINATION2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41880, 67111922, 0, 0);

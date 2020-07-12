@@ -23,7 +23,6 @@ VALUES (307,   1,        256) /* ItemType - MissileWeapon */
      , (307, 158,          2) /* WieldRequirements - RawSkill */
      , (307, 159,         47) /* WieldSkillType - MissileWeapons */
      , (307, 160,        270) /* WieldDifficulty */
-     , (307, 172,          1) /* AppraisalLongDescDecoration */
      , (307, 353,          8) /* WeaponType - Bow */
      , (307, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (307, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;

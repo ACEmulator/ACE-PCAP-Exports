@@ -24,7 +24,6 @@ VALUES (43052,   1,          2) /* ItemType - Armor */
      , (43052, 158,          7) /* WieldRequirements - Level */
      , (43052, 159,          1) /* WieldSkillType - Axe */
      , (43052, 160,        150) /* WieldDifficulty */
-     , (43052, 172,          1) /* AppraisalLongDescDecoration */
      , (43052, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -66,11 +65,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43052, 8000, 3707342735) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43052,  2108,      2) 
-     , (43052,  2187,      2) 
-     , (43052,  4393,      2) 
-     , (43052,  4397,      2) 
-     , (43052,  4703,      2) ;
+VALUES (43052,  2108,      2)  /* Impenetrability7 */
+     , (43052,  2187,      2)  /* RejuvenationSelf7 */
+     , (43052,  4393,      2)  /* BladeBane8 */
+     , (43052,  4397,      2)  /* BludgeonBane8 */
+     , (43052,  4703,      2)  /* CANTRIPMAGICITEMEXPERTISE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43052, 67110020, 128, 8)

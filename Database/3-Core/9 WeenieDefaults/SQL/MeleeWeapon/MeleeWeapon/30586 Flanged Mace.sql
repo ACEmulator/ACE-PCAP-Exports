@@ -19,7 +19,6 @@ VALUES (30586,   1,          1) /* ItemType - MeleeWeapon */
      , (30586, 105,          4) /* ItemWorkmanship */
      , (30586, 131,         59) /* MaterialType - Copper */
      , (30586, 151,          2) /* HookType - Wall */
-     , (30586, 172,          5) /* AppraisalLongDescDecoration */
      , (30586, 177,          1) /* GemCount */
      , (30586, 178,         40) /* GemType */
      , (30586, 353,          4) /* WeaponType - Mace */

@@ -29,8 +29,6 @@ VALUES (40820,   1,          1) /* ItemType - MeleeWeapon */
      , (40820, 158,          2) /* WieldRequirements - RawSkill */
      , (40820, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (40820, 160,        250) /* WieldDifficulty */
-     , (40820, 172,          1) /* AppraisalLongDescDecoration */
-     , (40820, 176,         41) /* AppraisalItemSkill */
      , (40820, 353,         11) /* WeaponType - TwoHanded */
      , (40820, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (40820, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -58,6 +56,7 @@ VALUES (40820,   1,   33560792) /* Setup */
      , (40820,   6,   67115560) /* PaletteBase */
      , (40820,   8,  100690794) /* Icon */
      , (40820,  22,  872415275) /* PhysicsEffectTable */
+     , (40820,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40820, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40820, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40820, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -66,8 +65,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40820, 8000, 3688303310) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40820,  1603,      2) 
-     , (40820,  1615,      2) ;
+VALUES (40820,  1603,      2)  /* DefenderSelf4 */
+     , (40820,  1615,      2)  /* BloodDrinkerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40820, 67116414, 0, 0);

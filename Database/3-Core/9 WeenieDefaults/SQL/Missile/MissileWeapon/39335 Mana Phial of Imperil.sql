@@ -71,8 +71,7 @@ VALUES (39335, 8000, 3707887638) /* PCAPRecordedObjectIID */
      , (39335, 8008, 3707887629) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39335,  2074,      2) 
-     , (39335,  4017,      2) ;
+VALUES (39335,  4017,      2)  /* SkillThrownWeaponPhialsAccuracy */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39335, 67111926, 0, 0);

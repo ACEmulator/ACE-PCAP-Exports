@@ -71,9 +71,9 @@ VALUES (27849, 8000, 3692183223) /* PCAPRecordedObjectIID */
      , (27849, 8008, 3692820158) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27849,  1337,      2) 
-     , (27849,  1592,      2) 
-     , (27849,  1616,      2) ;
+VALUES (27849,  1337,      2)  /* StrengthOther6 */
+     , (27849,  1592,      2)  /* HeartSeekerSelf6 */
+     , (27849,  1616,      2)  /* BloodDrinkerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27849, 67111927, 0, 0);

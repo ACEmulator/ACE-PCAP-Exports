@@ -59,9 +59,8 @@ VALUES (11301, 8000, 3703408179) /* PCAPRecordedObjectIID */
      , (11301, 8008, 1342739746) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11301,   217,      2) 
-     , (11301,   634,      2) 
-     , (11301,   658,      2) 
-     , (11301,  1480,      2) 
-     , (11301,  1836,      2) 
-     , (11301,  2428,      2) ;
+VALUES (11301,   217,      2)  /* ManaRenewalSelf6 */
+     , (11301,   634,      2)  /* WarMagicMasterySelf6 */
+     , (11301,   658,      2)  /* ManaMasterySelf6 */
+     , (11301,  1480,      2)  /* HermeticLinkSelf6 */
+     , (11301,  2428,      2)  /* TimaruShelterMagic */;

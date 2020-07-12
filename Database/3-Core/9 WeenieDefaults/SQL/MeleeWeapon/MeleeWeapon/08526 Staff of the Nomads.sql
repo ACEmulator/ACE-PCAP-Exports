@@ -24,7 +24,6 @@ VALUES (8526,   1,          1) /* ItemType - MeleeWeapon */
      , (8526, 109,        180) /* ItemDifficulty */
      , (8526, 115,        280) /* ItemSkillLevelLimit */
      , (8526, 151,          2) /* HookType - Wall */
-     , (8526, 176,         46) /* AppraisalItemSkill */
      , (8526, 353,          7) /* WeaponType - Staff */
      , (8526, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (8526, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -54,6 +53,7 @@ VALUES (8526,   1,   33555022) /* Setup */
      , (8526,   6,   67111919) /* PaletteBase */
      , (8526,   8,  100669102) /* Icon */
      , (8526,  22,  872415275) /* PhysicsEffectTable */
+     , (8526,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (8526, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (8526, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8526, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -68,13 +68,13 @@ VALUES (8526, 8000, 3692270501) /* PCAPRecordedObjectIID */
      , (8526, 8008, 3692270500) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8526,   270,      2) 
-     , (8526,   319,      2) 
-     , (8526,   992,      2) 
-     , (8526,  1314,      2) 
-     , (8526,  1358,      2) 
-     , (8526,  1382,      2) 
-     , (8526,  2009,      2) ;
+VALUES (8526,   270,      2)  /* MagicResistanceOther3 */
+     , (8526,   319,      2)  /* DaggerMasteryOther4 */
+     , (8526,   992,      2)  /* SprintOther5 */
+     , (8526,  1314,      2)  /* ArmorOther3 */
+     , (8526,  1358,      2)  /* EnduranceOther4 */
+     , (8526,  1382,      2)  /* CoordinationOther4 */
+     , (8526,  2009,      2)  /* WarriorsGreaterVigor */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8526, 67111924, 0, 0);

@@ -46,4 +46,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27110, 8000, 2174243194) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27110,   253,      2) ;
+VALUES (27110,   253,      2)  /* ImpregnabilityOther4 */;

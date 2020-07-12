@@ -22,7 +22,6 @@ VALUES (31865,   1,          2) /* ItemType - Armor */
      , (31865, 115,          0) /* ItemSkillLevelLimit */
      , (31865, 131,         63) /* MaterialType - Silver */
      , (31865, 151,          2) /* HookType - Wall */
-     , (31865, 172,          1) /* AppraisalLongDescDecoration */
      , (31865, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,11 +58,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31865, 8000, 3690367363) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31865,   279,      2) 
-     , (31865,  1485,      2) 
-     , (31865,  1515,      2) 
-     , (31865,  1573,      2) 
-     , (31865,  2585,      2) ;
+VALUES (31865,   279,      2)  /* MagicResistanceSelf6 */
+     , (31865,  1485,      2)  /* Impenetrability5 */
+     , (31865,  1515,      2)  /* BludgeonBane5 */
+     , (31865,  1573,      2)  /* PiercingBane5 */
+     , (31865,  2585,      2)  /* CANTRIPACIDBANE2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31865, 67110017, 240, 10)

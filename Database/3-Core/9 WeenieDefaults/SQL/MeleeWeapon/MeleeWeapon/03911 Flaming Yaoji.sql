@@ -21,7 +21,6 @@ VALUES (3911,   1,          1) /* ItemType - MeleeWeapon */
      , (3911, 105,          7) /* ItemWorkmanship */
      , (3911, 131,         51) /* MaterialType - Ivory */
      , (3911, 151,          2) /* HookType - Wall */
-     , (3911, 172,          3) /* AppraisalLongDescDecoration */
      , (3911, 353,          2) /* WeaponType - Sword */
      , (3911, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (3911, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;

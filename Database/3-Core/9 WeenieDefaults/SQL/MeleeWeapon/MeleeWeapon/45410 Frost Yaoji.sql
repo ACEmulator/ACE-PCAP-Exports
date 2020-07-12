@@ -30,8 +30,6 @@ VALUES (45410,   1,          1) /* ItemType - MeleeWeapon */
      , (45410, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45410, 160,        400) /* WieldDifficulty */
      , (45410, 171,          1) /* NumTimesTinkered */
-     , (45410, 172,          5) /* AppraisalLongDescDecoration */
-     , (45410, 176,         46) /* AppraisalItemSkill */
      , (45410, 177,          2) /* GemCount */
      , (45410, 178,         47) /* GemType */
      , (45410, 179,        128) /* ImbuedEffect - ColdRending */
@@ -62,6 +60,7 @@ VALUES (45410,   1,   33555810) /* Setup */
      , (45410,   3,  536870932) /* SoundTable */
      , (45410,   8,  100669076) /* Icon */
      , (45410,  22,  872415275) /* PhysicsEffectTable */
+     , (45410,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45410,  52,  100676435) /* IconUnderlay */
      , (45410, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45410, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -72,6 +71,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45410, 8000, 2172523423) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45410,  2081,      2) 
-     , (45410,  2096,      2) 
-     , (45410,  4663,      2) ;
+VALUES (45410,  2081,      2)  /* QuicknessSelf7 */
+     , (45410,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45410,  4663,      2)  /* CANTRIPDEFENDER3 */;

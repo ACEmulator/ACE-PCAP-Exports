@@ -23,7 +23,6 @@ VALUES (2422,   1,       2048) /* ItemType - Gem */
      , (2422, 115,          0) /* ItemSkillLevelLimit */
      , (2422, 117,        350) /* ItemManaCost */
      , (2422, 131,         23) /* MaterialType - GreenGarnet */
-     , (2422, 172,          1) /* AppraisalLongDescDecoration */
      , (2422, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,9 +48,6 @@ VALUES (2422,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2422, 8000, 3692258436) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2422,  1332,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2422, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */

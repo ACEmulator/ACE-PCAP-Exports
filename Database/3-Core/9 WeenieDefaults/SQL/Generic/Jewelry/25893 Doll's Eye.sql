@@ -44,5 +44,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25893, 8000, 3314210181) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25893,  2999,      2) 
-     , (25893,  3002,      2) ;
+VALUES (25893,  2999,      2)  /* EnduranceAbyss */
+     , (25893,  3002,      2)  /* WillpowerQuiddity */;

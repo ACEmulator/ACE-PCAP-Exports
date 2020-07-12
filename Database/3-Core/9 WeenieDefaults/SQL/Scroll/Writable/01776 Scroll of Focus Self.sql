@@ -27,7 +27,8 @@ VALUES (1776,   1,   33554826) /* Setup */
      , (1776,  28,       1421) /* Spell - FocusSelf1 */
      , (1776, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1776, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (1776, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+     , (1776, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */
+     , (1776, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1776, 8000,       1776) /* PCAPRecordedObjectIID */;

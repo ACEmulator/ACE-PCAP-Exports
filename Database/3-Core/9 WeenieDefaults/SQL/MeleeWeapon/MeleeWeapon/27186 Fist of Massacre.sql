@@ -69,12 +69,12 @@ VALUES (27186, 8000, 2153160855) /* PCAPRecordedObjectIID */
      , (27186, 8008, 1342236569) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27186,  1144,      2) 
-     , (27186,  1337,      2) 
-     , (27186,  1605,      2) 
-     , (27186,  1616,      2) 
-     , (27186,  1625,      2) 
-     , (27186,  2686,      2) ;
+VALUES (27186,  1144,      2)  /* PiercingProtectionOther6 */
+     , (27186,  1337,      2)  /* StrengthOther6 */
+     , (27186,  1605,      2)  /* DefenderSelf6 */
+     , (27186,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (27186,  1625,      2)  /* SwiftKillerSelf4 */
+     , (27186,  2686,      2)  /* ModerateAxeAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27186, 67114955, 0, 0);

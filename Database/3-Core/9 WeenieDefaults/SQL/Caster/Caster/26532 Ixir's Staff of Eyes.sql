@@ -57,13 +57,12 @@ VALUES (26532, 8000, 2595863966) /* PCAPRecordedObjectIID */
      , (26532, 8008, 1342716348) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26532,   188,      2) 
-     , (26532,   211,      2) 
-     , (26532,  1360,      2) 
-     , (26532,  1432,      2) 
-     , (26532,  1456,      2) 
-     , (26532,  2975,      2) 
-     , (26532,  3071,      2) ;
+VALUES (26532,   188,      2)  /* RejuvenationOther6 */
+     , (26532,   211,      2)  /* ManaRenewalOther6 */
+     , (26532,  1360,      2)  /* EnduranceOther6 */
+     , (26532,  1432,      2)  /* FocusOther6 */
+     , (26532,  1456,      2)  /* WillpowerOther6 */
+     , (26532,  2975,      2)  /* ModerateItemEnchantmentAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26532, 67114955, 0, 0);

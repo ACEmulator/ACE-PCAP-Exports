@@ -52,12 +52,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30702, 8000, 2166189963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30702,   210,      2) 
-     , (30702,  1137,      2) 
-     , (30702,  1425,      2) 
-     , (30702,  1449,      2) 
-     , (30702,  2584,      2) 
-     , (30702,  2661,      2) ;
+VALUES (30702,   210,      2)  /* ManaRenewalOther5 */
+     , (30702,  1137,      2)  /* PiercingProtectionSelf5 */
+     , (30702,  1425,      2)  /* FocusSelf5 */
+     , (30702,  1449,      2)  /* WillpowerSelf5 */
+     , (30702,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (30702,  2661,      2)  /* ModerateFocus */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30702, 67115484, 96, 40);

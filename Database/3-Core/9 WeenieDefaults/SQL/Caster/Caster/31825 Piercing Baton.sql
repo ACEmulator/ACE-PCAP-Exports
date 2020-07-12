@@ -25,7 +25,6 @@ VALUES (31825,   1,      32768) /* ItemType - Caster */
      , (31825, 158,          2) /* WieldRequirements - RawSkill */
      , (31825, 159,         34) /* WieldSkillType - WarMagic */
      , (31825, 160,        355) /* WieldDifficulty */
-     , (31825, 172,          7) /* AppraisalLongDescDecoration */
      , (31825, 177,          4) /* GemCount */
      , (31825, 178,         38) /* GemType */
      , (31825, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,9 +59,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31825, 8000, 2159970490) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31825,  2091,      2) 
-     , (31825,  2117,      2) 
-     , (31825,  2132,      2) ;
+VALUES (31825,  2091,      2)  /* WillpowerSelf7 */
+     , (31825,  2117,      2)  /* HermeticLinkSelf7 */
+     , (31825,  2132,      2)  /* ForceBolt7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31825, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

@@ -26,8 +26,6 @@ VALUES (328,   1,          1) /* ItemType - MeleeWeapon */
      , (328, 115,        294) /* ItemSkillLevelLimit */
      , (328, 131,         60) /* MaterialType - Gold */
      , (328, 151,          2) /* HookType - Wall */
-     , (328, 172,          7) /* AppraisalLongDescDecoration */
-     , (328, 176,         46) /* AppraisalItemSkill */
      , (328, 177,          2) /* GemCount */
      , (328, 178,         38) /* GemType */
      , (328, 353,          6) /* WeaponType - Dagger */
@@ -59,6 +57,7 @@ VALUES (328,   1,   33554744) /* Setup */
      , (328,   6,   67111919) /* PaletteBase */
      , (328,   8,  100668936) /* Icon */
      , (328,  22,  872415275) /* PhysicsEffectTable */
+     , (328,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (328, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (328, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (328, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -73,8 +72,8 @@ VALUES (328, 8000, 2155149691) /* PCAPRecordedObjectIID */
      , (328, 8008, 2010529806) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (328,  1616,      2) 
-     , (328,  1627,      2) ;
+VALUES (328,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (328,  1627,      2)  /* SwiftKillerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (328, 67111920, 0, 0);

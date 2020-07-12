@@ -20,8 +20,7 @@ VALUES (33106,   1,          2) /* ItemType - Armor */
      , (33106, 151,          2) /* HookType - Wall */
      , (33106, 158,          7) /* WieldRequirements - Level */
      , (33106, 159,          1) /* WieldSkillType - Axe */
-     , (33106, 160,        140) /* WieldDifficulty */
-     , (33106, 176,         48) /* AppraisalItemSkill */;
+     , (33106, 160,        140) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33106,  22, True ) /* Inscribable */;
@@ -48,6 +47,7 @@ VALUES (33106,   1,   33559923) /* Setup */
      , (33106,   3,  536870932) /* SoundTable */
      , (33106,   8,  100688919) /* Icon */
      , (33106,  22,  872415275) /* PhysicsEffectTable */
+     , (33106,  37,         48) /* ItemSkillLimit - Shield */
      , (33106, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (33106, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33106, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
@@ -62,12 +62,12 @@ VALUES (33106, 8000, 3685982490) /* PCAPRecordedObjectIID */
      , (33106, 8008, 3685982500) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33106,  2102,      2) 
-     , (33106,  2108,      2) 
-     , (33106,  2110,      2) 
-     , (33106,  2243,      2) 
-     , (33106,  2245,      2) 
-     , (33106,  2604,      2) ;
+VALUES (33106,  2102,      2)  /* FlameBane7 */
+     , (33106,  2108,      2)  /* Impenetrability7 */
+     , (33106,  2110,      2)  /* LightningBane7 */
+     , (33106,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (33106,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (33106,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33106, 0, 83897484, 83897484);

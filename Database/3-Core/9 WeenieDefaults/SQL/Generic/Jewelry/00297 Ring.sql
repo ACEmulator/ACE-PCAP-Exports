@@ -19,7 +19,6 @@ VALUES (297,   1,          8) /* ItemType - Jewelry */
      , (297, 110,          0) /* ItemAllegianceRankLimit */
      , (297, 115,          0) /* ItemSkillLevelLimit */
      , (297, 131,         59) /* MaterialType - Copper */
-     , (297, 172,          1) /* AppraisalLongDescDecoration */
      , (297, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,7 +51,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (297, 8000, 3685101875) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (297,  1378,      2) ;
+VALUES (297,  1378,      2)  /* CoordinationSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (297, 2, 46400,  1, 0, 0, False) /* Create T'thuun Bow (46400) for Wield */

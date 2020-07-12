@@ -20,7 +20,6 @@ VALUES (129,   1,          4) /* ItemType - Clothing */
      , (129, 110,          0) /* ItemAllegianceRankLimit */
      , (129, 115,          0) /* ItemSkillLevelLimit */
      , (129, 131,         52) /* MaterialType - Leather */
-     , (129, 172,          5) /* AppraisalLongDescDecoration */
      , (129, 177,          2) /* GemCount */
      , (129, 178,         45) /* GemType */
      , (129, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -59,10 +58,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (129, 8000, 2186220390) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (129,   682,      2) 
-     , (129,  1485,      2) 
-     , (129,  1539,      2) 
-     , (129,  1551,      2) ;
+VALUES (129,   682,      2)  /* ArcaneEnlightenmentSelf5 */
+     , (129,  1485,      2)  /* Impenetrability5 */
+     , (129,  1539,      2)  /* LightningBane5 */
+     , (129,  1551,      2)  /* FlameBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (129, 67110389, 160, 8);

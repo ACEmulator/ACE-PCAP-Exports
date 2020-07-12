@@ -20,8 +20,7 @@ VALUES (28624,   1,          2) /* ItemType - Armor */
      , (28624, 109,        204) /* ItemDifficulty */
      , (28624, 110,          0) /* ItemAllegianceRankLimit */
      , (28624, 115,          0) /* ItemSkillLevelLimit */
-     , (28624, 131,         63) /* MaterialType - Silver */
-     , (28624, 172,          1) /* AppraisalLongDescDecoration */;
+     , (28624, 131,         63) /* MaterialType - Silver */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28624,  22, True ) /* Inscribable */
@@ -57,8 +56,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28624, 8000, 3687979207) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28624,  1485,      2) 
-     , (28624,  1561,      2) ;
+VALUES (28624,  1485,      2)  /* Impenetrability5 */
+     , (28624,  1561,      2)  /* BladeBane5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28624, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */

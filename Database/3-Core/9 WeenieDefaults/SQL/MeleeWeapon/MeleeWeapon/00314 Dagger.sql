@@ -26,7 +26,6 @@ VALUES (314,   1,          1) /* ItemType - MeleeWeapon */
      , (314, 115,        126) /* ItemSkillLevelLimit */
      , (314, 131,         60) /* MaterialType - Gold */
      , (314, 151,          2) /* HookType - Wall */
-     , (314, 176,         46) /* AppraisalItemSkill */
      , (314, 353,          6) /* WeaponType - Dagger */
      , (314, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (314, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -55,6 +54,7 @@ VALUES (314,   1,   33554735) /* Setup */
      , (314,   6,   67111919) /* PaletteBase */
      , (314,   8,  100668876) /* Icon */
      , (314,  22,  872415275) /* PhysicsEffectTable */
+     , (314,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (314, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (314, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (314, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -69,8 +69,8 @@ VALUES (314, 8000, 2155151124) /* PCAPRecordedObjectIID */
      , (314, 8008, 2094272544) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (314,  1375,      2) 
-     , (314,  1613,      2) ;
+VALUES (314,  1375,      2)  /* CoordinationSelf3 */
+     , (314,  1613,      2)  /* BloodDrinkerSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (314, 67111920, 0, 0);

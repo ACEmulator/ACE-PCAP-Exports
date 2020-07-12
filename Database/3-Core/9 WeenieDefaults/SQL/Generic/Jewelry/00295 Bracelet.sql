@@ -19,7 +19,6 @@ VALUES (295,   1,          8) /* ItemType - Jewelry */
      , (295, 110,          0) /* ItemAllegianceRankLimit */
      , (295, 115,          0) /* ItemSkillLevelLimit */
      , (295, 131,         63) /* MaterialType - Silver */
-     , (295, 172,          5) /* AppraisalLongDescDecoration */
      , (295, 177,          1) /* GemCount */
      , (295, 178,         46) /* GemType */
      , (295, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -50,8 +49,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (295, 8000, 3684971266) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (295,   277,      2) 
-     , (295,  2555,      2) ;
+VALUES (295,   277,      2)  /* MagicResistanceSelf4 */
+     , (295,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (295, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */

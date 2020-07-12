@@ -24,7 +24,6 @@ VALUES (37299,   1,          2) /* ItemType - Armor */
      , (37299, 158,          7) /* WieldRequirements - Level */
      , (37299, 159,          1) /* WieldSkillType - Axe */
      , (37299, 160,        180) /* WieldDifficulty */
-     , (37299, 172,          5) /* AppraisalLongDescDecoration */
      , (37299, 177,          2) /* GemCount */
      , (37299, 178,         23) /* GemType */
      , (37299, 265,         15) /* EquipmentSetId - Archers */
@@ -69,8 +68,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37299, 8000, 3605732773) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37299,  4407,      2) 
-     , (37299,  4679,      2) ;
+VALUES (37299,  4407,      2)  /* Impenetrability8 */
+     , (37299,  4679,      2)  /* CANTRIPSTORMWARD3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37299, 67116578, 128, 8)

@@ -50,8 +50,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (14486, 8000, 3621813004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14486,  1997,      2) 
-     , (14486,  2578,      2) ;
+VALUES (14486,  1997,      2)  /* LifeGiver */
+     , (14486,  2578,      2)  /* CANTRIPARMOR1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14486, 67111920, 0, 0);

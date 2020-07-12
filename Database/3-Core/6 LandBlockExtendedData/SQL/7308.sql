@@ -1,6 +1,14 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x7308;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x60000162, 12221, 0x73080020, 85.00785, 189.5435, 12.005, 0, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Drudge Wand */
+/* @teleloc 0x73080020 [85.007850 189.543500 12.005000] 0.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x60000163, 12221, 0x73080020, 84.84635, 188.5164, 12.005, 0, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Drudge Wand */
+/* @teleloc 0x73080020 [84.846350 188.516400 12.005000] 0.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77308004,   412, 0x73080018, 62.0266, 184.505, 12.082, -0.871, 0, 0, -0.491283, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x73080018 [62.026600 184.505000 12.082000] -0.871000 0.000000 0.000000 -0.491283 */
 

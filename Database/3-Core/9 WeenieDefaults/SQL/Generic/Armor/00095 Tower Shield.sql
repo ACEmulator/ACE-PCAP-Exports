@@ -17,7 +17,6 @@ VALUES (95,   1,          2) /* ItemType - Armor */
      , (95, 105,          5) /* ItemWorkmanship */
      , (95, 131,         60) /* MaterialType - Gold */
      , (95, 151,          2) /* HookType - Wall */
-     , (95, 172,          5) /* AppraisalLongDescDecoration */
      , (95, 177,          1) /* GemCount */
      , (95, 178,         42) /* GemType */;
 

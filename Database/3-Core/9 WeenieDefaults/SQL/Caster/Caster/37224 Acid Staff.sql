@@ -27,7 +27,6 @@ VALUES (37224,   1,      32768) /* ItemType - Caster */
      , (37224, 159,         34) /* WieldSkillType - WarMagic */
      , (37224, 160,        355) /* WieldDifficulty */
      , (37224, 171,          2) /* NumTimesTinkered */
-     , (37224, 172,          5) /* AppraisalLongDescDecoration */
      , (37224, 177,          4) /* GemCount */
      , (37224, 178,         20) /* GemType */
      , (37224, 179,         64) /* ImbuedEffect - AcidRending */
@@ -69,10 +68,10 @@ VALUES (37224, 8000, 3692312618) /* PCAPRecordedObjectIID */
      , (37224, 8008, 3692312623) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37224,   634,      2) 
-     , (37224,  2117,      2) 
-     , (37224,  4451,      2) 
-     , (37224,  6124,      2) ;
+VALUES (37224,   634,      2)  /* WarMagicMasterySelf6 */
+     , (37224,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37224,  4451,      2)  /* LightningBolt8 */
+     , (37224,  6124,      2)  /* CantripSummoningProwess3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37224, 67111922, 0, 0);

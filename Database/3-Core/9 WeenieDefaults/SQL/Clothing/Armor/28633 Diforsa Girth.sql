@@ -13,8 +13,7 @@ VALUES (28633,   1,          2) /* ItemType - Armor */
      , (28633,  28,        210) /* ArmorLevel */
      , (28633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28633, 105,          4) /* ItemWorkmanship */
-     , (28633, 131,         63) /* MaterialType - Silver */
-     , (28633, 172,          1) /* AppraisalLongDescDecoration */;
+     , (28633, 131,         63) /* MaterialType - Silver */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28633,  22, True ) /* Inscribable */

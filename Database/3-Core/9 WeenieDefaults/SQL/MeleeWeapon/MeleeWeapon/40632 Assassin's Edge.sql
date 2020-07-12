@@ -27,7 +27,6 @@ VALUES (40632,   1,          1) /* ItemType - MeleeWeapon */
      , (40632, 158,          2) /* WieldRequirements - RawSkill */
      , (40632, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (40632, 160,        370) /* WieldDifficulty */
-     , (40632, 176,         44) /* AppraisalItemSkill */
      , (40632, 353,          6) /* WeaponType - Dagger */
      , (40632, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
@@ -55,6 +54,7 @@ VALUES (40632,   1,   33559483) /* Setup */
      , (40632,   6,   67116417) /* PaletteBase */
      , (40632,   8,  100686996) /* Icon */
      , (40632,  22,  872415275) /* PhysicsEffectTable */
+     , (40632,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (40632,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (40632, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (40632, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -70,12 +70,11 @@ VALUES (40632, 8000, 2440347228) /* PCAPRecordedObjectIID */
      , (40632, 8008, 1343103424) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40632,  2074,      2) 
-     , (40632,  2096,      2) 
-     , (40632,  2106,      2) 
-     , (40632,  2116,      2) 
-     , (40632,  2598,      2) 
-     , (40632,  2603,      2) ;
+VALUES (40632,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (40632,  2106,      2)  /* HeartSeekerSelf7 */
+     , (40632,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40632,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (40632,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40632, 67116427, 0, 0);

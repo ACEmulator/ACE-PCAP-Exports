@@ -22,7 +22,6 @@ VALUES (2402,   1,       2048) /* ItemType - Gem */
      , (2402, 115,          0) /* ItemSkillLevelLimit */
      , (2402, 117,        350) /* ItemManaCost */
      , (2402, 131,         16) /* MaterialType - BlackOpal */
-     , (2402, 172,          1) /* AppraisalLongDescDecoration */
      , (2402, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,7 +49,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2402, 8000, 3690369435) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2402,  1023,      2) ;
+VALUES (2402,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2402, 67111927, 0, 0);

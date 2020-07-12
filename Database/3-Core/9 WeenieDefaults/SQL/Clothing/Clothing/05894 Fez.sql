@@ -22,7 +22,6 @@ VALUES (5894,   1,          4) /* ItemType - Clothing */
      , (5894, 115,          0) /* ItemSkillLevelLimit */
      , (5894, 131,          4) /* MaterialType - Linen */
      , (5894, 151,          2) /* HookType - Wall */
-     , (5894, 172,          1) /* AppraisalLongDescDecoration */
      , (5894, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,8 +58,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5894, 8000, 3694252768) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5894,   877,      2) 
-     , (5894,  1485,      2) ;
+VALUES (5894,   877,      2)  /* HealingMasterySelf4 */
+     , (5894,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5894, 67110360, 240, 10)

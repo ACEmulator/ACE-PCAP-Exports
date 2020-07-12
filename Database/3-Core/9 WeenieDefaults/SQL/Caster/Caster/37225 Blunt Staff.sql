@@ -22,7 +22,6 @@ VALUES (37225,   1,      32768) /* ItemType - Caster */
      , (37225, 160,        355) /* WieldDifficulty */
      , (37225, 166,         14) /* SlayerCreatureType - Undead */
      , (37225, 171,         10) /* NumTimesTinkered */
-     , (37225, 172,          7) /* AppraisalLongDescDecoration */
      , (37225, 177,          3) /* GemCount */
      , (37225, 178,         41) /* GemType */
      , (37225, 179,         32) /* ImbuedEffect - BludgeonRending */

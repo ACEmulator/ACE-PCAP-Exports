@@ -29,8 +29,6 @@ VALUES (22168,   1,          1) /* ItemType - MeleeWeapon */
      , (22168, 158,          2) /* WieldRequirements - RawSkill */
      , (22168, 159,         45) /* WieldSkillType - LightWeapons */
      , (22168, 160,        300) /* WieldDifficulty */
-     , (22168, 172,          5) /* AppraisalLongDescDecoration */
-     , (22168, 176,         45) /* AppraisalItemSkill */
      , (22168, 177,          2) /* GemCount */
      , (22168, 178,         23) /* GemType */
      , (22168, 353,          7) /* WeaponType - Staff */
@@ -61,6 +59,7 @@ VALUES (22168,   1,   33558562) /* Setup */
      , (22168,   6,  251658371) /* PaletteBase */
      , (22168,   8,  100675639) /* Icon */
      , (22168,  22,  872415275) /* PhysicsEffectTable */
+     , (22168,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (22168, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (22168, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22168, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -75,9 +74,9 @@ VALUES (22168, 8000, 2200012867) /* PCAPRecordedObjectIID */
      , (22168, 8008, 1343410786) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22168,  1591,      2) 
-     , (22168,  1616,      2) 
-     , (22168,  5884,      2) ;
+VALUES (22168,  1591,      2)  /* HeartSeekerSelf5 */
+     , (22168,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (22168,  5884,      2)  /* CantripDualWieldAptitude1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22168, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;

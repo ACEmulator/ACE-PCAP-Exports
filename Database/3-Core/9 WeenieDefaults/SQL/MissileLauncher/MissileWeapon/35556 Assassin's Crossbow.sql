@@ -75,9 +75,9 @@ VALUES (35556, 8000, 2931458094) /* PCAPRecordedObjectIID */
      , (35556, 8008, 1343102817) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35556,  2206,      2) 
-     , (35556,  2505,      2) 
-     , (35556,  4089,      2) ;
+VALUES (35556,  2206,      2)  /* BowMasteryOther7 */
+     , (35556,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
+     , (35556,  4089,      2)  /* DeceptionAssassinsGift */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35556, 67116442, 0, 0);

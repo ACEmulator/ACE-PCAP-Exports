@@ -18,7 +18,6 @@ VALUES (149,   1,        256) /* ItemType - MissileWeapon */
      , (149, 105,          5) /* ItemWorkmanship */
      , (149, 131,          1) /* MaterialType - Ceramic */
      , (149, 151,          1) /* HookType - Floor */
-     , (149, 172,          5) /* AppraisalLongDescDecoration */
      , (149, 177,          2) /* GemCount */
      , (149, 178,         11) /* GemType */
      , (149, 353,         10) /* WeaponType - Thrown */

@@ -23,7 +23,6 @@ VALUES (2401,   1,       2048) /* ItemType - Gem */
      , (2401, 115,          0) /* ItemSkillLevelLimit */
      , (2401, 117,        200) /* ItemManaCost */
      , (2401, 131,         50) /* MaterialType - Zircon */
-     , (2401, 172,          1) /* AppraisalLongDescDecoration */
      , (2401, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,9 +51,6 @@ VALUES (2401, 8040, 31981875, 47.43344, -83.7218, -12.001, -0.7071068, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2401, 8000, 3700425752) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2401,  1111,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (2401, 0, 83890391, 83890391);

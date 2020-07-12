@@ -53,8 +53,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33825, 8000, 2224240299) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33825,  2226,      2) 
-     , (33825,  2545,      2) ;
+VALUES (33825,  2226,      2)  /* DeceptionMasteryOther7 */
+     , (33825,  2545,      2)  /* CANTRIPDECEPTIONPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33825, 67114655, 240, 16);

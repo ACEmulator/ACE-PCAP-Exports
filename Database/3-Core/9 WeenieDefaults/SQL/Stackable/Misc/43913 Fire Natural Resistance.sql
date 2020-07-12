@@ -28,7 +28,8 @@ VALUES (43913,   1,   33556750) /* Setup */
      , (43913,  22,  872415275) /* PhysicsEffectTable */
      , (43913, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (43913, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (43913, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
+     , (43913, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
+     , (43913, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43913, 8000,      43913) /* PCAPRecordedObjectIID */;

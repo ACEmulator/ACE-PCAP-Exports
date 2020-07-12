@@ -21,7 +21,6 @@ VALUES (2591,   1,          4) /* ItemType - Clothing */
      , (2591, 110,          0) /* ItemAllegianceRankLimit */
      , (2591, 115,          0) /* ItemSkillLevelLimit */
      , (2591, 131,          5) /* MaterialType - Satin */
-     , (2591, 172,          5) /* AppraisalLongDescDecoration */
      , (2591, 177,          2) /* GemCount */
      , (2591, 178,         23) /* GemType */
      , (2591, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -60,8 +59,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2591, 8000, 3696482397) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2591,  1311,      2) 
-     , (2591,  2564,      2) ;
+VALUES (2591,  1311,      2)  /* ArmorSelf5 */
+     , (2591,  2564,      2)  /* CANTRIPSPRINT1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2591, 67109969, 92, 4)

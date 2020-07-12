@@ -25,7 +25,6 @@ VALUES (150,   1,        256) /* ItemType - MissileWeapon */
      , (150, 115,          0) /* ItemSkillLevelLimit */
      , (150, 131,         68) /* MaterialType - Marble */
      , (150, 151,          1) /* HookType - Floor */
-     , (150, 172,          5) /* AppraisalLongDescDecoration */
      , (150, 177,          4) /* GemCount */
      , (150, 178,         36) /* GemType */
      , (150, 353,         10) /* WeaponType - Thrown */
@@ -65,7 +64,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (150, 8000, 3691172170) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (150,  3503,      2) ;
+VALUES (150,  3503,      2)  /* ArcanumSalvagingSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (150, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

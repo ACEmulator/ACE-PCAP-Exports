@@ -57,12 +57,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46948, 8000, 3687898363) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46948,  2108,      2) 
-     , (46948,  2571,      2) 
-     , (46948,  2609,      2) 
-     , (46948,  2611,      2) 
-     , (46948,  2612,      2) 
-     , (46948,  2615,      2) ;
+VALUES (46948,  2108,      2)  /* Impenetrability7 */
+     , (46948,  2571,      2)  /* CANTRIPARMOR2 */
+     , (46948,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (46948,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (46948,  2612,      2)  /* CANTRIPFROSTWARD2 */
+     , (46948,  2615,      2)  /* CANTRIPSTORMWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46948, 67114000, 40, 40)

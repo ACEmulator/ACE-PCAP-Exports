@@ -59,8 +59,7 @@ VALUES (46958, 8000, 2147834437) /* PCAPRecordedObjectIID */
      , (46958, 8008, 1343102097) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46958,  2072,      2) 
-     , (46958,  3200,      2) 
-     , (46958,  4582,      2) 
-     , (46958,  4602,      2) 
-     , (46958,  4700,      2) ;
+VALUES (46958,  3200,      2)  /* CantripHermeticLink2 */
+     , (46958,  4582,      2)  /* LifeMagicMasterySelf8 */
+     , (46958,  4602,      2)  /* ManaMasterySelf8 */
+     , (46958,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;

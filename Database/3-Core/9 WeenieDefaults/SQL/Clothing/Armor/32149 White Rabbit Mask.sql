@@ -57,9 +57,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32149, 8000, 3694362420) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32149,  2183,      2) 
-     , (32149,  2185,      2) 
-     , (32149,  2187,      2) 
-     , (32149,  2626,      2) 
-     , (32149,  2627,      2) 
-     , (32149,  2628,      2) ;
+VALUES (32149,  2183,      2)  /* ManaRenewalSelf7 */
+     , (32149,  2185,      2)  /* RegenerationSelf7 */
+     , (32149,  2187,      2)  /* RejuvenationSelf7 */
+     , (32149,  2626,      2)  /* CANTRIPHEALTHGAIN1 */
+     , (32149,  2627,      2)  /* CANTRIPMANAGAIN1 */
+     , (32149,  2628,      2)  /* CANTRIPSTAMINAGAIN1 */;
